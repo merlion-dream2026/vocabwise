@@ -742,7 +742,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The new smartphone is _____ expensive, but its features are impressive.",
+          "sentence": "The new smartphone is _____ expensive, costing over $1500, but its features are impressive.",
           "options": [
             "fairly",
             "rather",
@@ -753,7 +753,7 @@
         },
         {
           "id": 2,
-          "sentence": "She found the online store's return policy _____ generous.",
+          "sentence": "She found the online store's return policy _____ generous, as it only allows returns within 14 days.",
           "options": [
             "rather",
             "fairly",
@@ -764,7 +764,7 @@
         },
         {
           "id": 3,
-          "sentence": "The packaging was _____ minimal, which pleased the eco‑conscious buyers.",
+          "sentence": "The packaging was _____ minimal, containing just a single thin cardboard sleeve.",
           "options": [
             "quite",
             "rather",
@@ -775,7 +775,7 @@
         },
         {
           "id": 4,
-          "sentence": "The discount made the shoes _____ affordable for students.",
+          "sentence": "The discount made the shoes _____ affordable for students, reducing the price by 15%.",
           "options": [
             "rather",
             "extremely",
@@ -786,7 +786,7 @@
         },
         {
           "id": 5,
-          "sentence": "His loyalty to the brand is _____ strong, even when cheaper alternatives exist.",
+          "sentence": "His loyalty to the brand is _____ strong, as he has been buying its products for over ten years despite cheaper alternatives.",
           "options": [
             "fairly",
             "quite",

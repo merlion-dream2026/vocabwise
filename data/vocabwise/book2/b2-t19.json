@@ -720,7 +720,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ of the crops were damaged by the frost.",
+          "sentence": "_____ of the crops were damaged by the frost, but not all of them.",
           "options": [
             "All",
             "Most",
@@ -731,7 +731,7 @@
         },
         {
           "id": 2,
-          "sentence": "_____ water is available for irrigation in the dry season.",
+          "sentence": "_____ water is available for irrigation in the dry season, but not enough for all fields.",
           "options": [
             "No",
             "Few",
@@ -742,7 +742,7 @@
         },
         {
           "id": 3,
-          "sentence": "_____ farmers in the region use organic methods.",
+          "sentence": "_____ farmers in the region use organic methods, and most rely on conventional methods.",
           "options": [
             "Few",
             "All",
@@ -753,7 +753,7 @@
         },
         {
           "id": 4,
-          "sentence": "_____ of the harvested grain was wasted.",
+          "sentence": "_____ of the harvested grain was wasted, but most was stored safely.",
           "options": [
             "Some",
             "All",
@@ -764,7 +764,7 @@
         },
         {
           "id": 5,
-          "sentence": "_____ evidence suggests that the new technique improves yields.",
+          "sentence": "_____ evidence, without exception, suggests that the new technique improves yields.",
           "options": [
             "All",
             "Most",
@@ -828,27 +828,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ of the soil nutrients were depleted after the flood.",
+          "sentence": "_____ of the soil nutrients were depleted after the flood, leaving none untouched.",
           "answer": "all"
         },
         {
           "id": 2,
-          "sentence": "_____ villages have access to clean water.",
+          "sentence": "_____ villages have access to clean water, making sanitation a major challenge.",
           "answer": "few"
         },
         {
           "id": 3,
-          "sentence": "_____ crops survived the drought.",
+          "sentence": "_____ crops survived the drought, while the rest perished.",
           "answer": "some"
         },
         {
           "id": 4,
-          "sentence": "_____ evidence points to climate change as a factor.",
+          "sentence": "According to the majority of researchers, _____ evidence points to climate change as a factor.",
           "answer": "most"
         },
         {
           "id": 5,
-          "sentence": "_____ fish were caught this season.",
+          "sentence": "_____ fish were caught this season, none at all.",
           "answer": "no"
         }
       ]

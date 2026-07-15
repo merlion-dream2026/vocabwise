@@ -803,13 +803,12 @@
         {
           "id": 3,
           "words": [
-            "share",
-            "choose",
-            "ideas",
             "we",
-            "to"
+            "choose",
+            "to",
+            "post"
           ],
-          "answer": "we choose to share ideas"
+          "answer": "we choose to post"
         }
       ]
     },
@@ -836,17 +835,17 @@
         },
         {
           "id": 3,
-          "sentence": "They _____ posting offensive content.",
+          "sentence": "They _____ smoking in the building.",
           "answer": "avoid"
         },
         {
           "id": 4,
-          "sentence": "We _____ to post every day to keep the audience engaged.",
+          "sentence": "We _____ to post every day to meet the project deadline.",
           "answer": "plan"
         },
         {
           "id": 5,
-          "sentence": "You should _____ what you share carefully.",
+          "sentence": "You should _____ what you share carefully, as it reflects your reputation.",
           "answer": "choose"
         }
       ]

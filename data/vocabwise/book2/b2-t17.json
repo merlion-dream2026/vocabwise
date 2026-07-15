@@ -748,10 +748,10 @@
           "id": 1,
           "sentence": "The technician will _____ the new computer system tomorrow.",
           "options": [
-            "install",
-            "run out of",
             "set up",
-            "mix"
+            "run out of",
+            "mix",
+            "repair"
           ],
           "answer": "set up"
         },
@@ -790,7 +790,7 @@
         },
         {
           "id": 5,
-          "sentence": "Before the conference, the team will _____ the presentation slides.",
+          "sentence": "Before the conference, the team will _____ the presentation slides on the projector.",
           "options": [
             "run out of",
             "set up",
@@ -813,9 +813,10 @@
             "up",
             "a",
             "new",
-            "experiment"
+            "experiment",
+            "today"
           ],
-          "answer": "The scientists set up a new experiment"
+          "answer": "The scientists set up a new experiment today"
         },
         {
           "id": 2,
@@ -825,9 +826,10 @@
             "breaks",
             "down",
             "carbohydrates",
-            "quickly"
+            "quickly",
+            "today"
           ],
-          "answer": "The body breaks down carbohydrates quickly"
+          "answer": "The body breaks down carbohydrates quickly today"
         },
         {
           "id": 3,
@@ -838,9 +840,10 @@
             "of",
             "ink",
             "during",
-            "printing"
+            "printing",
+            "today"
           ],
-          "answer": "We ran out of ink during printing"
+          "answer": "We ran out of ink during printing today"
         }
       ]
     },
@@ -857,7 +860,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The lab will _____ the microscope before the class starts.",
+          "sentence": "The lab will _____ the microscope before the class starts, arranging it on the workbench.",
           "answer": "set up"
         },
         {
@@ -872,12 +875,12 @@
         },
         {
           "id": 4,
-          "sentence": "Scientists _____ the data to identify trends.",
-          "answer": "break down"
+          "sentence": "Scientists _____ the data to identify trends statistically.",
+          "answer": "analyze"
         },
         {
           "id": 5,
-          "sentence": "The technician will _____ the software after the update.",
+          "sentence": "The technician will _____ the software after the update, installing it on the system.",
           "answer": "install"
         }
       ]

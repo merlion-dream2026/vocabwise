@@ -817,21 +817,23 @@
           "id": 1,
           "words": [
             "fashion",
-            "itself",
             "reflects",
-            "culture"
+            "culture",
+            "in",
+            "itself"
           ],
-          "answer": "fashion itself reflects culture"
+          "answer": "fashion reflects culture in itself"
         },
         {
           "id": 2,
           "words": [
             "designers",
-            "themselves",
             "must",
-            "innovate"
+            "innovate",
+            "by",
+            "themselves"
           ],
-          "answer": "designers themselves must innovate"
+          "answer": "designers must innovate by themselves"
         },
         {
           "id": 3,

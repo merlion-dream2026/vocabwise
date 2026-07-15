@@ -742,7 +742,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The habitat of many species _____ by deforestation.",
+          "sentence": "The habitat of many species _____ by deforestation so far.",
           "options": [
             "has been destroyed",
             "was destroyed",
@@ -753,7 +753,7 @@
         },
         {
           "id": 2,
-          "sentence": "Several marine ecosystems _____ polluted by plastic waste.",
+          "sentence": "Several marine ecosystems _____ polluted by plastic waste in recent years.",
           "options": [
             "were polluted",
             "have been polluted",
@@ -764,7 +764,7 @@
         },
         {
           "id": 3,
-          "sentence": "The research data _____ collected over the past decade.",
+          "sentence": "The research data _____ collected to date.",
           "options": [
             "was collected",
             "has been collected",
@@ -775,7 +775,7 @@
         },
         {
           "id": 4,
-          "sentence": "Many endangered species _____ protected by international agreements.",
+          "sentence": "Many endangered species _____ protected by international agreements so far.",
           "options": [
             "has been protected",
             "are protected",
@@ -786,7 +786,7 @@
         },
         {
           "id": 5,
-          "sentence": "The new policy _____ implemented to reduce emissions.",
+          "sentence": "The new policy _____ implemented to reduce emissions so far.",
           "options": [
             "is implemented",
             "has been implemented",
@@ -857,27 +857,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The coral reef _____ severely damaged by rising temperatures.",
+          "sentence": "The coral reef _____ severely damaged by rising temperatures so far.",
           "answer": "has been"
         },
         {
           "id": 2,
-          "sentence": "Many forests _____ cleared for agriculture.",
+          "sentence": "Many forests _____ cleared for agriculture so far.",
           "answer": "have been"
         },
         {
           "id": 3,
-          "sentence": "The water quality _____ improved after the new regulations.",
+          "sentence": "The water quality _____ improved after the new regulations so far.",
           "answer": "has been"
         },
         {
           "id": 4,
-          "sentence": "Several species _____ reintroduced into the park.",
+          "sentence": "Several species _____ reintroduced into the park recently.",
           "answer": "have been"
         },
         {
           "id": 5,
-          "sentence": "The legislation _____ passed last year.",
+          "sentence": "The legislation _____ passed to date.",
           "answer": "has been"
         }
       ]

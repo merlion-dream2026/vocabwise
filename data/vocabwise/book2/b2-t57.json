@@ -783,7 +783,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "If the company _______ (invest) in digital tools last year, it would be more competitive now.",
+          "sentence": "If the company _______ (invest) in digital tools last year, it would be more competitive now (but it didn't).",
           "options": [
             "invested",
             "invests",
@@ -794,7 +794,7 @@
         },
         {
           "id": 2,
-          "sentence": "If workers _______ (adapt) to automation earlier, they would not be facing job losses today.",
+          "sentence": "If workers _______ (adapt) to automation earlier, they would not be facing job losses today (but they didn't).",
           "options": [
             "adapted",
             "had adapted",
@@ -805,7 +805,7 @@
         },
         {
           "id": 3,
-          "sentence": "If the government _______ (regulate) remote work, employees would have clearer rights now.",
+          "sentence": "If the government _______ (regulate) remote work, employees would have clearer rights now (but it didn't).",
           "options": [
             "regulated",
             "had regulated",
@@ -816,7 +816,7 @@
         },
         {
           "id": 4,
-          "sentence": "If the platform _______ (share) profits more fairly, freelancers would feel more secure now.",
+          "sentence": "If the platform _______ (share) profits more fairly, freelancers would feel more secure now (but it didn't).",
           "options": [
             "shared",
             "had shared",
@@ -827,7 +827,7 @@
         },
         {
           "id": 5,
-          "sentence": "If the pandemic _______ (accelerate) digital adoption, many businesses would already be fully remote now.",
+          "sentence": "If the pandemic _______ (accelerate) digital adoption, many businesses would already be fully remote now (but it didn't).",
           "options": [
             "accelerated",
             "had accelerated",

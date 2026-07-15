@@ -787,10 +787,10 @@
           "id": 1,
           "sentence": "Traffic congestion ___ increased pollution levels in the city.",
           "options": [
-            "results in",
             "leads to",
             "prevents",
-            "is caused by"
+            "is caused by",
+            "reduces"
           ],
           "answer": "leads to"
         },
@@ -799,9 +799,9 @@
           "sentence": "The lack of green spaces ___ higher temperatures during summer.",
           "options": [
             "prevents",
-            "causes",
             "results in",
-            "is caused by"
+            "is caused by",
+            "reduces"
           ],
           "answer": "results in"
         },
@@ -810,7 +810,7 @@
           "sentence": "A sense of insecurity among residents ___ high crime rates.",
           "options": [
             "leads to",
-            "is caused by",
+            "prevents",
             "results in",
             "eliminates"
           ],
@@ -833,8 +833,8 @@
           "options": [
             "prevents",
             "results in",
-            "leads to",
-            "is caused by"
+            "is caused by",
+            "reduces"
           ],
           "answer": "results in"
         }
@@ -899,23 +899,23 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Increasing the number of bike lanes ___ a reduction in car usage.",
-          "answer": "leads to"
-        },
-        {
-          "id": 2,
-          "sentence": "Neglecting maintenance ___ higher risk of infrastructure failure.",
-          "answer": "results in"
-        },
-        {
-          "id": 3,
-          "sentence": "The rise in homelessness ___ a lack of affordable housing.",
+          "sentence": "A reduction in car usage ___ increasing the number of bike lanes.",
           "answer": "is caused by"
         },
         {
+          "id": 2,
+          "sentence": "Higher risk of infrastructure failure ___ neglecting maintenance.",
+          "answer": "is caused by"
+        },
+        {
+          "id": 3,
+          "sentence": "A lack of affordable housing ___ the rise in homelessness.",
+          "answer": "leads to"
+        },
+        {
           "id": 4,
-          "sentence": "Effective communication ___ better teamwork.",
-          "answer": "contribute to"
+          "sentence": "Better teamwork ___ effective communication.",
+          "answer": "is caused by"
         },
         {
           "id": 5,

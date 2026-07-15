@@ -755,18 +755,18 @@
       "items": [
         {
           "id": 1,
-          "sentence": "When the writer _____ (arrive) at the publisher, he realized the manuscript was missing.",
+          "sentence": "The moment the writer _____ (arrive) at the publisher, he realized the manuscript was missing.",
           "options": [
             "arrived",
             "had arrived",
             "was arriving",
             "has arrived"
           ],
-          "answer": "had arrived"
+          "answer": "arrived"
         },
         {
           "id": 2,
-          "sentence": "She _____ (write) the novel for three years before she finally published it.",
+          "sentence": "She _____ (write) the novel for three years by the time she finally published it.",
           "options": [
             "wrote",
             "had written",
@@ -780,11 +780,11 @@
           "sentence": "While the audience _____ (listen) to the story, the narrator whispered a secret.",
           "options": [
             "listened",
-            "was listening",
+            "were listening",
             "had listened",
             "listens"
           ],
-          "answer": "was listening"
+          "answer": "were listening"
         },
         {
           "id": 4,
@@ -799,14 +799,14 @@
         },
         {
           "id": 5,
-          "sentence": "By the time the book _____ (become) a bestseller, the author was already famous.",
+          "sentence": "When the book _____ (become) a bestseller, the author was already famous.",
           "options": [
             "became",
             "had become",
             "was becoming",
             "becomes"
           ],
-          "answer": "had become"
+          "answer": "became"
         }
       ]
     },
@@ -816,51 +816,51 @@
         {
           "id": 1,
           "words": [
-            "had",
-            "the",
-            "author",
-            "finished",
-            "the",
-            "manuscript",
-            "when",
+            "When",
             "the",
             "deadline",
-            "approached"
+            "approached",
+            "the",
+            "author",
+            "had",
+            "finished",
+            "the",
+            "manuscript"
           ],
-          "answer": "The author had finished the manuscript when the deadline approached"
+          "answer": "When the deadline approached, the author had finished the manuscript"
         },
         {
           "id": 2,
           "words": [
-            "was",
-            "reading",
-            "the",
-            "novel",
-            "she",
-            "while",
+            "After",
             "waiting",
             "for",
             "her",
-            "coffee"
+            "coffee",
+            "she",
+            "was",
+            "reading",
+            "the",
+            "novel"
           ],
-          "answer": "She was reading the novel while waiting for her coffee"
+          "answer": "After waiting for her coffee, she was reading the novel"
         },
         {
           "id": 3,
           "words": [
-            "had",
-            "they",
-            "already",
-            "released",
-            "the",
-            "book",
-            "when",
+            "After",
             "the",
             "award",
             "was",
-            "announced"
+            "announced",
+            "they",
+            "had",
+            "already",
+            "released",
+            "the",
+            "book"
           ],
-          "answer": "They had already released the book when the award was announced"
+          "answer": "After the award was announced, they had already released the book"
         }
       ]
     },
@@ -877,22 +877,22 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The critic _____ at the launch party early.",
+          "sentence": "The critic just _____ at the launch party early.",
           "answer": "arrived"
         },
         {
           "id": 2,
-          "sentence": "She _____ the preface before the main chapters were printed.",
+          "sentence": "She immediately _____ the preface before the main chapters were printed.",
           "answer": "wrote"
         },
         {
           "id": 3,
-          "sentence": "By 2020, the series _____ a global phenomenon.",
+          "sentence": "By 2020, the series _____ a global phenomenon for a decade.",
           "answer": "had been"
         },
         {
           "id": 4,
-          "sentence": "The hall _____ quiet after the final chapter ended.",
+          "sentence": "The hall _____ quiet immediately after the final chapter ended.",
           "answer": "was"
         },
         {

@@ -819,18 +819,18 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The CEO _____ whether the quarterly report had been submitted on time.",
+          "sentence": "The CEO _____ whether the quarterly report had been submitted on time, but he did not ask anyone directly.",
           "options": [
             "asked if",
             "wanted to know what",
             "asked whether",
             "wanted to know if"
           ],
-          "answer": "asked if"
+          "answer": "wanted to know if"
         },
         {
           "id": 2,
-          "sentence": "She _____ what the new hiring policy includes.",
+          "sentence": "She _____ what the new hiring policy includes, because she was reading the document herself.",
           "options": [
             "asked if",
             "wanted to know what",
@@ -841,18 +841,18 @@
         },
         {
           "id": 3,
-          "sentence": "They _____ if the office could reopen next month.",
+          "sentence": "They _____ if the office could reopen next month, since they did not approach the manager directly.",
           "options": [
             "wanted to know what",
             "asked if",
             "asked what",
             "wanted to know if"
           ],
-          "answer": "asked if"
+          "answer": "wanted to know if"
         },
         {
           "id": 4,
-          "sentence": "He _____ what the employees expect from the training program.",
+          "sentence": "He _____ what the employees expect from the training program, as he was reviewing the survey results.",
           "options": [
             "asked if",
             "wanted to know what",
@@ -863,14 +863,14 @@
         },
         {
           "id": 5,
-          "sentence": "The manager _____ whether the team had understood the new software.",
+          "sentence": "The manager _____ whether the team had understood the new software, because he did not ask them in person.",
           "options": [
             "asked if",
             "wanted to know what",
             "asked what",
             "wanted to know if"
           ],
-          "answer": "asked if"
+          "answer": "wanted to know if"
         }
       ]
     },

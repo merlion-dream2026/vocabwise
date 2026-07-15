@@ -743,7 +743,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The _____ has attracted many investors.",
+          "sentence": "The _____ has attracted many investors because it offers abundant resources.",
           "options": [
             "increase in demand",
             "availability of raw materials",
@@ -754,7 +754,7 @@
         },
         {
           "id": 2,
-          "sentence": "Countries often negotiate _____ to reduce trade barriers.",
+          "sentence": "Countries often negotiate _____ with another single country to reduce trade barriers.",
           "options": [
             "bilateral agreements",
             "trade deals",
@@ -787,7 +787,7 @@
         },
         {
           "id": 5,
-          "sentence": "The _____ has increased due to digital platforms.",
+          "sentence": "The _____ has increased due to digital platforms, especially in terms of cross‑border communication.",
           "options": [
             "interconnectedness of global markets",
             "complexity of trade laws",
@@ -865,7 +865,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The _____ of global markets has created new opportunities.",
+          "sentence": "The _____ of global markets, referring specifically to their cross‑border communication, has created new opportunities.",
           "answer": "interconnectedness"
         },
         {
@@ -875,7 +875,7 @@
         },
         {
           "id": 3,
-          "sentence": "A higher _____ can make exports less competitive.",
+          "sentence": "A higher _____, specifically a tax on imported goods, can make exports less competitive.",
           "answer": "tariff"
         },
         {

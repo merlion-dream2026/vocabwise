@@ -858,9 +858,10 @@
             "the",
             "storm",
             "was",
-            "extensive"
+            "extensive",
+            "indeed"
           ],
-          "answer": "damage which was caused by the storm was extensive"
+          "answer": "damage which was caused by the storm was extensive indeed"
         },
         {
           "id": 2,
@@ -911,7 +912,7 @@
         },
         {
           "id": 2,
-          "sentence": "The island, _____ residents rely on tourism, was evacuated.",
+          "sentence": "The company, _____ employees work overtime, announced bonuses.",
           "answer": "whose"
         },
         {

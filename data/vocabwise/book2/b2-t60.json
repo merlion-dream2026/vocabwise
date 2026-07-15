@@ -846,13 +846,14 @@
         {
           "id": 1,
           "words": [
+            "We",
             "might",
-            "we",
+            "definitely",
             "consider",
             "alternative",
             "explanations"
           ],
-          "answer": "might we consider alternative explanations"
+          "answer": "We might definitely consider alternative explanations"
         },
         {
           "id": 2,
@@ -914,7 +915,7 @@
         },
         {
           "id": 5,
-          "sentence": "We _____ discuss the implications of these findings.",
+          "sentence": "We will _____ discuss the implications of these findings.",
           "answer": "tentatively"
         }
       ]

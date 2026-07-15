@@ -756,18 +756,18 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ that companies gather personal data without consent.",
+          "sentence": "_____ that companies gather personal data without consent, according to official statistics.",
           "options": [
             "It is claimed",
             "It is suggested",
             "It is known",
             "It is believed"
           ],
-          "answer": "It is claimed"
+          "answer": "It is known"
         },
         {
           "id": 2,
-          "sentence": "_____ that the right to privacy is a human value, not just a legal matter.",
+          "sentence": "_____ that the right to privacy is a human value, not just a legal matter, according to the UN Declaration on Human Rights.",
           "options": [
             "It is reported",
             "It is claimed",
@@ -778,29 +778,29 @@
         },
         {
           "id": 3,
-          "sentence": "_____ that data leaks can result in identity theft.",
+          "sentence": "_____ that data leaks can result in identity theft, as demonstrated by recent studies.",
           "options": [
             "It is said",
             "It is claimed",
             "It is proven",
             "It is expected"
           ],
-          "answer": "It is said"
+          "answer": "It is proven"
         },
         {
           "id": 4,
-          "sentence": "_____ that governments must regulate data collection practices.",
+          "sentence": "_____ that governments must regulate data collection practices, according to the new privacy legislation draft.",
           "options": [
             "It is believed",
             "It is claimed",
             "It is reported",
             "It is suggested"
           ],
-          "answer": "It is believed"
+          "answer": "It is reported"
         },
         {
           "id": 5,
-          "sentence": "_____ that tracking allows companies to target advertising with extraordinary precision.",
+          "sentence": "_____ that tracking allows companies to target advertising with extraordinary precision, as shown by industry research.",
           "options": [
             "It is claimed",
             "It is known",
@@ -871,27 +871,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ that personal data can be sold without users' consent.",
+          "sentence": "_____ that personal data can be sold without users' consent, according to an activist's statement.",
           "answer": "claimed"
         },
         {
           "id": 2,
-          "sentence": "_____ that governments should enforce stricter privacy laws.",
+          "sentence": "_____ that governments should enforce stricter privacy laws, in the latest government briefing.",
           "answer": "reported"
         },
         {
           "id": 3,
-          "sentence": "_____ that knowing you are watched changes behavior.",
+          "sentence": "_____ that knowing you are watched changes behavior, as experts have said.",
           "answer": "said"
         },
         {
           "id": 4,
-          "sentence": "_____ that companies often track users across websites.",
+          "sentence": "_____ that companies often track users across websites, as a recommendation.",
           "answer": "suggested"
         },
         {
           "id": 5,
-          "sentence": "_____ that privacy is a fundamental human right.",
+          "sentence": "_____ that privacy is a fundamental human right, by most scholars.",
           "answer": "believed"
         }
       ]

@@ -820,7 +820,7 @@
         },
         {
           "id": 2,
-          "sentence": "She studied _____ Renaissance art for her thesis.",
+          "sentence": "She studied _____ Renaissance art for her thesis, as a whole.",
           "options": [
             "some",
             "the",
@@ -922,7 +922,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ living legacy of the past is celebrated each year.",
+          "sentence": "_____ living legacy of the past, the only one, is celebrated each year.",
           "answer": "the"
         },
         {
@@ -932,7 +932,7 @@
         },
         {
           "id": 3,
-          "sentence": "_____ challenge faced by organizers is funding.",
+          "sentence": "_____ challenge faced by organizers is funding, the only one.",
           "answer": "the"
         },
         {

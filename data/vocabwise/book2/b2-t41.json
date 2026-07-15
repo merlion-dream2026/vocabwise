@@ -823,7 +823,7 @@
         },
         {
           "id": 2,
-          "sentence": "If only the government _____ better support for newcomers, integration would be easier.",
+          "sentence": "If only the government _____ better support for newcomers now, integration would be easier.",
           "options": [
             "provided",
             "provides",
@@ -845,7 +845,7 @@
         },
         {
           "id": 4,
-          "sentence": "If only I _____ how to navigate the legal system, I wouldn't feel so lost.",
+          "sentence": "If only I _____ how to navigate the legal system right now, I wouldn't feel so lost.",
           "options": [
             "knew",
             "know",
@@ -856,7 +856,7 @@
         },
         {
           "id": 5,
-          "sentence": "They _____ the city had more cultural events for immigrants.",
+          "sentence": "They _____ the city had more cultural events for immigrants last year.",
           "options": [
             "wish",
             "wished",
@@ -935,7 +935,7 @@
         },
         {
           "id": 2,
-          "sentence": "I _____ I had saved more money before moving abroad.",
+          "sentence": "I _____ I had saved more money before moving abroad, so I could travel comfortably now.",
           "answer": "wish"
         },
         {
@@ -945,12 +945,12 @@
         },
         {
           "id": 4,
-          "sentence": "If the government _____ better housing, many families would stay longer.",
+          "sentence": "If the government _____ better housing now, many families would stay longer.",
           "answer": "provided"
         },
         {
           "id": 5,
-          "sentence": "If only I _____ how to file the paperwork correctly.",
+          "sentence": "If only I _____ how to file the paperwork correctly right now.",
           "answer": "knew"
         }
       ]

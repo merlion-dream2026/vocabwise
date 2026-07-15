@@ -876,7 +876,7 @@
         },
         {
           "id": 5,
-          "sentence": "All user data _____ in the new system.",
+          "sentence": "All user data _____ in the new system next year.",
           "options": [
             "will store",
             "will be stored",
@@ -900,9 +900,12 @@
             "replaced",
             "by",
             "robots",
-            "soon"
+            "because",
+            "they",
+            "are",
+            "cheap"
           ],
-          "answer": "Many jobs will be replaced by robots soon"
+          "answer": "Many jobs will be replaced by robots because they are cheap"
         },
         {
           "id": 2,

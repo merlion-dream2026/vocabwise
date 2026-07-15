@@ -739,7 +739,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "After three years at the company, Maria ___ a promotion.",
+          "sentence": "After three years at the company, Maria usually ___ a promotion.",
           "options": [
             "gets",
             "got",
@@ -750,7 +750,7 @@
         },
         {
           "id": 2,
-          "sentence": "If you constantly miss deadlines, you might ___ fired.",
+          "sentence": "If you constantly miss deadlines, you might ___ a warning.",
           "options": [
             "be",
             "got",
@@ -761,7 +761,7 @@
         },
         {
           "id": 3,
-          "sentence": "Tom ___ a raise after his performance review.",
+          "sentence": "Tom usually ___ a raise after his performance review.",
           "options": [
             "gets",
             "got",
@@ -772,7 +772,7 @@
         },
         {
           "id": 4,
-          "sentence": "Employees who are dishonest often ___ dismissed.",
+          "sentence": "Employees who are dishonest usually ___ dismissed.",
           "options": [
             "gets",
             "get",
@@ -849,22 +849,22 @@
       "items": [
         {
           "id": 1,
-          "sentence": "She will get ___ after the successful project.",
+          "sentence": "She will get ___ after the successful project, a higher position in the company.",
           "answer": "promotion"
         },
         {
           "id": 2,
-          "sentence": "If you break the company rules, you may get ___ .",
+          "sentence": "If you break the company rules, you may get ___ (informal term for losing your job).",
           "answer": "fired"
         },
         {
           "id": 3,
-          "sentence": "Hard work can lead you to get a ___.",
+          "sentence": "Hard work can lead you to get a ___ in your salary.",
           "answer": "raise"
         },
         {
           "id": 4,
-          "sentence": "Employees who are repeatedly absent might get ___.",
+          "sentence": "Employees who are repeatedly absent might get ___ as a formal termination.",
           "answer": "dismissed"
         },
         {

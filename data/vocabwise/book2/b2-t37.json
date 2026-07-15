@@ -807,7 +807,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "She _____ tennis every weekend.",
+          "sentence": "She _____ tennis every weekend on the court.",
           "options": [
             "watch",
             "play",
@@ -829,14 +829,14 @@
         },
         {
           "id": 3,
-          "sentence": "He doesn't _____ any sport because he's busy.",
+          "sentence": "He doesn't _____ any ball sport because he's busy.",
           "options": [
             "play",
             "go",
             "watch",
             "do"
           ],
-          "answer": "do"
+          "answer": "play"
         },
         {
           "id": 4,
@@ -912,7 +912,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "He likes to _____ tennis with his friends.",
+          "sentence": "He likes to _____ tennis with his friends on the court.",
           "answer": "play"
         },
         {
@@ -922,12 +922,12 @@
         },
         {
           "id": 3,
-          "sentence": "She doesn't _____ any sport because of her schedule.",
-          "answer": "do"
+          "sentence": "She doesn't _____ any ball sport because of her schedule.",
+          "answer": "play"
         },
         {
           "id": 4,
-          "sentence": "Do you _____ basketball on weekends?",
+          "sentence": "Do you _____ basketball on weekends with your team?",
           "answer": "play"
         },
         {

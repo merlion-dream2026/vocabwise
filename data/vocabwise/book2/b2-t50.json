@@ -846,7 +846,7 @@
         },
         {
           "id": 3,
-          "sentence": "_____ crucial to provide green spaces in rapidly expanding urban areas.",
+          "sentence": "_____ crucial to provide green spaces in rapidly expanding urban areas now.",
           "options": [
             "It is",
             "It are",
@@ -939,7 +939,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ that the city invests in renewable energy to meet future demand.",
+          "sentence": "_____ that the city invests in renewable energy to meet future demand, because otherwise the city will not meet its legally binding carbon reduction targets.",
           "answer": "essential"
         },
         {
@@ -949,18 +949,18 @@
         },
         {
           "id": 3,
-          "sentence": "_____ that affordable housing remains a priority for local authorities.",
-          "answer": "important"
+          "sentence": "_____ that affordable housing remains a priority for local authorities, given the severe shortage of homes.",
+          "answer": "essential"
         },
         {
           "id": 4,
-          "sentence": "_____ that public transport is expanded to reduce carbon emissions.",
+          "sentence": "_____ that public transport is expanded to reduce carbon emissions, as it is legally required.",
           "answer": "necessary"
         },
         {
           "id": 5,
-          "sentence": "_____ that green belts are protected from urban sprawl.",
-          "answer": "crucial"
+          "sentence": "_____ that green belts are protected from urban sprawl, as they are essential for maintaining ecological balance.",
+          "answer": "essential"
         }
       ]
     },

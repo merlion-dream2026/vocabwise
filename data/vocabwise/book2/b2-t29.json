@@ -802,7 +802,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The study _____ that social media influences public opinion.",
+          "sentence": "The study _____, based on preliminary findings, that social media influences public opinion.",
           "options": [
             "suggests",
             "denies",
@@ -813,18 +813,18 @@
         },
         {
           "id": 2,
-          "sentence": "The editor _____ that the article needed more sources.",
+          "sentence": "The editor _____ that the article did not need more sources.",
           "options": [
             "denies",
             "suggests",
             "claims",
             "argues"
           ],
-          "answer": "claims"
+          "answer": "denies"
         },
         {
           "id": 3,
-          "sentence": "Scientists _____ that the data could be unreliable.",
+          "sentence": "Scientists _____ the public that the data could be unreliable.",
           "options": [
             "warn",
             "suggest",
@@ -846,14 +846,14 @@
         },
         {
           "id": 5,
-          "sentence": "Researchers _____ that the new method improves accuracy.",
+          "sentence": "Researchers _____ that the new method improves accuracy, based on preliminary tests.",
           "options": [
             "suggests",
             "claims",
             "argues",
             "warns"
           ],
-          "answer": "claims"
+          "answer": "suggests"
         }
       ]
     },
@@ -914,23 +914,23 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The article _____ that the government ignored the warning.",
-          "answer": "claims"
+          "sentence": "The article probably _____ that the government ignored the warning.",
+          "answer": "suggests"
         },
         {
           "id": 2,
-          "sentence": "The spokesperson _____ that the company had no knowledge of the leak.",
+          "sentence": "The spokesperson _____ that the company had any knowledge of the leak.",
           "answer": "denies"
         },
         {
           "id": 3,
-          "sentence": "The latest research _____ that the new policy could reduce emissions.",
+          "sentence": "The latest research likely _____ that the new policy could reduce emissions.",
           "answer": "suggests"
         },
         {
           "id": 4,
-          "sentence": "The professor _____ that the textbook contains outdated data.",
-          "answer": "argues"
+          "sentence": "The professor _____ that the textbook contains outdated data, according to the latest review.",
+          "answer": "states"
         },
         {
           "id": 5,

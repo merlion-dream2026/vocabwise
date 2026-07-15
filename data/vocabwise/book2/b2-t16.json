@@ -734,7 +734,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Next year, scientists _____ a new rover on Mars.",
+          "sentence": "Next year, scientists _____ a new rover on Mars throughout the year.",
           "options": [
             "will have launched",
             "will be launching",
@@ -745,7 +745,7 @@
         },
         {
           "id": 2,
-          "sentence": "By 2040, the International Space Station _____ for over 30 years.",
+          "sentence": "By 2040, the International Space Station _____ for over 30 years, having been launched in 1998.",
           "options": [
             "will have operated",
             "will be operating",
@@ -756,7 +756,7 @@
         },
         {
           "id": 3,
-          "sentence": "During the launch, the rocket _____ a massive amount of thrust.",
+          "sentence": "During the launch, the rocket _____ a massive amount of thrust continuously.",
           "options": [
             "will generate",
             "will be generating",
@@ -778,7 +778,7 @@
         },
         {
           "id": 5,
-          "sentence": "Tomorrow, the satellite _____ over the Pacific Ocean for the next six hours.",
+          "sentence": "Tomorrow, the satellite _____ over the Pacific Ocean continuously for the next six hours.",
           "options": [
             "will orbit",
             "will be orbiting",

@@ -1,0 +1,3995 @@
+{
+  "b2-t01": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có nhiều đáp án đúng vì cả “must” và “need to” đều diễn tả nghĩa bắt buộc.",
+      "fix": {
+        "sentence": "All students _____ wear a university ID badge at all times, as required by university policy.",
+        "options": [
+          "should",
+          "must",
+          "could",
+          "might"
+        ],
+        "answer": "must"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu có nhiều đáp án đúng vì “must”, “need to” và “have to” đều có nghĩa bắt buộc.",
+      "fix": {
+        "sentence": "International students _____ apply for a visa before arrival if they wish to study here.",
+        "options": [
+          "must",
+          "ought to",
+          "could",
+          "might"
+        ],
+        "answer": "must"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu có nhiều đáp án đúng vì “must” và “have to” đều diễn tả nghĩa bắt buộc.",
+      "fix": {
+        "sentence": "You _____ submit your thesis by the end of June to be eligible for graduation.",
+        "options": [
+          "must",
+          "might",
+          "could",
+          "should"
+        ],
+        "answer": "must"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu có nhiều đáp án đúng vì “must” và “need to” đều diễn tả nghĩa bắt buộc.",
+      "fix": {
+        "sentence": "Students _____ attend the mandatory safety training because it is a legal requirement.",
+        "options": [
+          "must",
+          "could",
+          "might",
+          "should"
+        ],
+        "answer": "must"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu có nhiều đáp án đúng vì “need to” và “should” đều có thể được dùng để chỉ nghĩa khuyến nghị/bắt buộc.",
+      "fix": {
+        "sentence": "If you miss a deadline, you _____ contact the lecturer immediately to avoid a penalty.",
+        "options": [
+          "must",
+          "should",
+          "might",
+          "could"
+        ],
+        "answer": "must"
+      }
+    }
+  ],
+  "b2-t02": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có thể chấp nhận cả 'gets' và 'got' vì không có chỉ thời gian cụ thể.",
+      "fix": {
+        "sentence": "After three years at the company, Maria usually ___ a promotion.",
+        "options": [
+          "gets",
+          "got",
+          "getting",
+          "get"
+        ],
+        "answer": "gets"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu có thể chấp nhận cả 'get' và 'be' (you might be fired).",
+      "fix": {
+        "sentence": "If you constantly miss deadlines, you might ___ a warning.",
+        "options": [
+          "be",
+          "got",
+          "get",
+          "gets"
+        ],
+        "answer": "get"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu có thể chấp nhận cả 'gets' và 'got' vì không có chỉ thời gian cụ thể.",
+      "fix": {
+        "sentence": "Tom usually ___ a raise after his performance review.",
+        "options": [
+          "gets",
+          "got",
+          "getting",
+          "get"
+        ],
+        "answer": "gets"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu có thể chấp nhận cả 'get' và 'got' vì không có chỉ thời gian cụ thể.",
+      "fix": {
+        "sentence": "Employees who are dishonest usually ___ dismissed.",
+        "options": [
+          "gets",
+          "get",
+          "got",
+          "getting"
+        ],
+        "answer": "get"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Có thể điền 'promotion' hoặc 'raise' vì cả hai đều hợp lý sau dự án thành công.",
+      "fix": {
+        "sentence": "She will get ___ after the successful project, a higher position in the company.",
+        "answer": "promotion"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Có thể điền 'fired' hoặc 'dismissed' vì cả hai đều mô tả mất việc.",
+      "fix": {
+        "sentence": "If you break the company rules, you may get ___ (informal term for losing your job).",
+        "answer": "fired"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Có thể điền 'raise' hoặc 'promotion' vì cả hai đều là kết quả của làm việc chăm chỉ.",
+      "fix": {
+        "sentence": "Hard work can lead you to get a ___ in your salary.",
+        "answer": "raise"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Có thể điền 'dismissed' hoặc 'fired' vì cả hai đều mô tả việc chấm dứt hợp đồng.",
+      "fix": {
+        "sentence": "Employees who are repeatedly absent might get ___ as a formal termination.",
+        "answer": "dismissed"
+      }
+    }
+  ],
+  "b2-t03": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu \"Patients _____ the results of the test.\" có thể đúng với cả \"are given\" (hiện tại đơn) và \"have been given\" (hiện tại hoàn thành) vì không có chỉ thời gian nào xác định.",
+      "fix": {
+        "sentence": "Patients _____ the results of the test every month.",
+        "options": [
+          "were given",
+          "are given",
+          "have been given",
+          "will be given"
+        ],
+        "answer": "are given"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 1,
+      "problem": "Các từ cho phép tạo ra hai câu đúng: \"A diagnosis is made by the doctor\" và \"The diagnosis is made by a doctor\".",
+      "fix": {
+        "words": [
+          "made",
+          "doctor",
+          "by",
+          "diagnosis",
+          "the",
+          "is",
+          "the"
+        ],
+        "answer": "The diagnosis is made by the doctor"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 2,
+      "problem": "Các từ cho phép tạo ra hai câu đúng: \"The patient was referred to a specialist\" và \"A patient was referred to the specialist\".",
+      "fix": {
+        "words": [
+          "specialist",
+          "referred",
+          "was",
+          "patient",
+          "the",
+          "to",
+          "The"
+        ],
+        "answer": "The patient was referred to the specialist"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 3,
+      "problem": "Các từ cho phép tạo ra hai câu đúng: \"Vaccines are administered to children worldwide\" và \"Vaccines are administered worldwide to children\".",
+      "fix": {
+        "words": [
+          "administered",
+          "are",
+          "Vaccines",
+          "worldwide"
+        ],
+        "answer": "Vaccines are administered worldwide"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu \"The flu _____ by the doctor last week.\" có thể điền \"diagnosed\" hoặc \"treated\" vì cả hai đều hợp lý trong ngữ cảnh không có chỉ định cụ thể.",
+      "fix": {
+        "sentence": "The flu _____ by the doctor after the test last week.",
+        "answer": "diagnosed"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu \"The vaccine _____ to children at school.\" có thể điền \"administered\" hoặc \"issued\" vì cả hai đều hợp lý.",
+      "fix": {
+        "sentence": "The vaccine _____ to children at school safely.",
+        "answer": "administered"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu \"Chronic diseases _____ with proper medication.\" có thể điền \"treated\" hoặc \"prevented\" vì cả hai đều hợp lý.",
+      "fix": {
+        "sentence": "Chronic diseases are _____ when patients follow the treatment plan.",
+        "answer": "treated"
+      }
+    }
+  ],
+  "b2-t04": [
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu \"If the evidence is clear, the suspect _____ arrested.\" có thể điền được nhiều modal như may, could, might, nên không có đáp án duy nhất.",
+      "fix": {
+        "sentence": "If the evidence is clear, the suspect _____ be arrested.",
+        "answer": "must"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu \"A fine _____ imposed for minor offences.\" cho phép nhiều modal (may, could, might, should), vì vậy không có đáp án duy nhất.",
+      "fix": {
+        "sentence": "A fine _____ be imposed for minor offences.",
+        "answer": "must"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu \"The witness _____ be called to give evidence.\" có thể điền được may, could, might, nên có nhiều đáp án đúng.",
+      "fix": {
+        "sentence": "The witness _____ be called to give evidence.",
+        "answer": "must"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu \"The penalty _____ increased for repeat offenders.\" cho phép nhiều modal (may, could, might), không có đáp án duy nhất.",
+      "fix": {
+        "sentence": "The penalty _____ be increased for repeat offenders.",
+        "answer": "must"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu \"The decision _____ reviewed by a senior judge.\" có thể điền được may, could, might, nên không có đáp án duy nhất.",
+      "fix": {
+        "sentence": "The decision _____ be reviewed by a senior judge.",
+        "answer": "must"
+      }
+    }
+  ],
+  "b2-t05": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu cho phép nhiều động từ (said, claimed) đều hợp lý vì không có thông tin xác định; vì vậy có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "The mayor ___ that the city will build more schools, according to the council's plan.",
+        "options": [
+          "argued",
+          "said",
+          "claimed",
+          "told"
+        ],
+        "answer": "said"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu cho phép cả claimed, said và argued đều hợp lý; không có thông tin để phân biệt.",
+      "fix": {
+        "sentence": "Experts ___ that climate change affects political stability after analyzing the data.",
+        "options": [
+          "claimed",
+          "said",
+          "told",
+          "argued"
+        ],
+        "answer": "argued"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu cho phép said, claimed, argued đều có thể dùng; không đủ thông tin để xác định.",
+      "fix": {
+        "sentence": "He ___ that the opposition should be given more speaking time after presenting evidence.",
+        "options": [
+          "said",
+          "told",
+          "claimed",
+          "argued"
+        ],
+        "answer": "argued"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu cho phép said, claimed, argued đều phù hợp; thiếu thông tin để quyết định.",
+      "fix": {
+        "sentence": "The spokesperson ___ that the government will lower taxes next year, in a press release.",
+        "options": [
+          "told",
+          "argued",
+          "said",
+          "claimed"
+        ],
+        "answer": "said"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu cho phép nhiều động từ (said, claimed, stated, believed) đều đúng; không có ràng buộc.",
+      "fix": {
+        "sentence": "The minister ___ that the new law will improve education, according to her belief.",
+        "answer": "believed"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu cho phép claimed, said, stated đều đúng; không có ràng buộc.",
+      "fix": {
+        "sentence": "Researchers ___ that voting rates have increased, based on statistical analysis.",
+        "answer": "stated"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu cho phép argued, claimed, said đều đúng; không có ràng buộc.",
+      "fix": {
+        "sentence": "Opponents ___ that the tax hike is unfair after a heated debate.",
+        "answer": "argued"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu cho phép stated, said, claimed đều đúng; không có ràng buộc.",
+      "fix": {
+        "sentence": "The spokesperson ___ that the project will finish on time, in an official press release.",
+        "answer": "stated"
+      }
+    }
+  ],
+  "b2-t06": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có nhiều đáp án đúng vì cả \"although\" và \"even though\" đều có thể điền vào chỗ trống được.",
+      "fix": {
+        "sentence": "The ceremony was simple, _____ it lasted for three hours.",
+        "options": [
+          "although",
+          "despite",
+          "in spite of",
+          "because"
+        ],
+        "answer": "although"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu có nhiều đáp án đúng vì cả \"although\" và \"even though\" đều có thể điền vào chỗ trống được.",
+      "fix": {
+        "sentence": "_____ the government promotes tolerance, some communities still feel excluded.",
+        "options": [
+          "although",
+          "despite",
+          "in spite of",
+          "because"
+        ],
+        "answer": "although"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu có nhiều đáp án đúng vì cả \"although\" và \"even though\" đều có thể điền vào chỗ trống được.",
+      "fix": {
+        "sentence": "Many people attend worship services, _____ they live far from the temple.",
+        "options": [
+          "although",
+          "despite",
+          "in spite of",
+          "because"
+        ],
+        "answer": "although"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu có nhiều đáp án đúng vì cả \"despite\" và \"in spite of\" đều có thể điền vào chỗ trống được.",
+      "fix": {
+        "sentence": "_____ the harsh weather, the festival continued as planned.",
+        "options": [
+          "despite",
+          "although",
+          "even though",
+          "because"
+        ],
+        "answer": "despite"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu có nhiều đáp án đúng vì cả \"despite\" và \"in spite of\" đều có thể điền vào chỗ trống được.",
+      "fix": {
+        "sentence": "_____ the new law, religious minorities still face restrictions.",
+        "options": [
+          "despite",
+          "although",
+          "even though",
+          "because"
+        ],
+        "answer": "despite"
+      }
+    }
+  ],
+  "b2-t07": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu không có thông tin nào giới hạn nghĩa, nên cả \"must\", \"could\", \"should\", \"would\" đều hợp lý.",
+      "fix": {
+        "sentence": "He _____ have apologized for his mistake, but he didn't.",
+        "options": [
+          "must",
+          "could",
+          "should",
+          "would"
+        ],
+        "answer": "should"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Không có chỉ định mức độ chắc chắn, nên \"would\", \"could\", \"should\" đều có thể dùng.",
+      "fix": {
+        "sentence": "They _____ have arrived earlier if they had left on time; they definitely would have arrived earlier.",
+        "options": [
+          "would",
+          "must",
+          "should",
+          "could"
+        ],
+        "answer": "would"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Không có thông tin phủ định, nên \"should\" và \"could\" đều đúng.",
+      "fix": {
+        "sentence": "You _____ have told me about the meeting, but you didn't.",
+        "options": [
+          "would",
+          "must",
+          "could",
+          "should"
+        ],
+        "answer": "should"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu điều kiện không chỉ ra mức độ chắc chắn, vì vậy \"would\" và \"could\" đều hợp lý.",
+      "fix": {
+        "sentence": "If I had known, I _____ have helped; I would have helped.",
+        "options": [
+          "must",
+          "could",
+          "should",
+          "would"
+        ],
+        "answer": "would"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Không có thông tin phủ định, nên \"should\" và \"could\" đều có thể điền.",
+      "fix": {
+        "sentence": "You _____ have called earlier, but you didn't.",
+        "answer": "should"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Không có thông tin phủ định, nên \"could\" và \"should\" đều hợp lý.",
+      "fix": {
+        "sentence": "She _____ have known the answer, but she didn't.",
+        "answer": "could"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu không chỉ ra mức độ chắc chắn, vì vậy \"would\" và \"could\" đều đúng.",
+      "fix": {
+        "sentence": "We _____ have missed the deadline if we hadn't worked fast; we would have missed it.",
+        "answer": "would"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Không có chỉ định suy đoán hay nghĩa vụ, nên \"must\" và \"should\" đều có thể dùng.",
+      "fix": {
+        "sentence": "He _____ have told the truth, and he must have told it.",
+        "answer": "must"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Không có thông tin xác định, nên \"might\" và \"could\" đều có thể điền.",
+      "fix": {
+        "sentence": "They _____ have arrived yet; they definitely have.",
+        "answer": "must"
+      }
+    }
+  ],
+  "b2-t08": [
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 3,
+      "problem": "Câu có nhiều cách sắp xếp đúng vì các từ cho phép tạo ra ít nhất hai câu có nghĩa hợp lệ (\"we choose to share ideas\" và \"we choose ideas to share\").",
+      "fix": {
+        "words": [
+          "we",
+          "choose",
+          "to",
+          "post"
+        ],
+        "answer": "we choose to post"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu \"They _____ posting offensive content.\" cho phép cả \"avoid\" và \"plan\" (vì cả hai đều có thể đi trước gerund \"posting\").",
+      "fix": {
+        "sentence": "They _____ smoking in the building.",
+        "answer": "avoid"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu \"We _____ to post every day to keep the audience engaged.\" cho phép cả \"plan\" và \"like\" vì cả hai đều có thể đi trước infinitive \"to post\".",
+      "fix": {
+        "sentence": "We _____ to post every day to meet the project deadline.",
+        "answer": "plan"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu \"You should _____ what you share carefully.\" cho phép cả \"choose\" và \"plan\" vì cả hai đều có thể đi trước mệnh đề danh từ \"what you share\".",
+      "fix": {
+        "sentence": "You should _____ what you share carefully, as it reflects your reputation.",
+        "answer": "choose"
+      }
+    }
+  ],
+  "b2-t09": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu này không có thông tin đủ để xác định đáp án duy nhất vì cả \"more reliable\" và \"more frequent\" đều có thể đúng.",
+      "fix": {
+        "sentence": "Public transport in cities is usually _____ than in the countryside.",
+        "options": [
+          "more reliable",
+          "less reliable",
+          "as reliable",
+          "more expensive"
+        ],
+        "answer": "more reliable"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu này không có thông tin đủ để xác định đáp án duy nhất vì cả \"more\" và \"as much\" đều có thể đúng.",
+      "fix": {
+        "sentence": "People in the suburbs generally have _____ access to parks than those living downtown.",
+        "options": [
+          "less",
+          "as much",
+          "more",
+          "fewer"
+        ],
+        "answer": "less"
+      }
+    }
+  ],
+  "b2-t10": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu này có thể điền \"used to\" hoặc \"would\" đều đúng vì cả hai đều diễn tả thói quen trong quá khứ, nên có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "When I was a child, my grandparents _______ visit us every weekend.",
+        "options": [
+          "could",
+          "used to",
+          "did",
+          "must"
+        ],
+        "answer": "used to"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu này chấp nhận cả \"used to\" và \"would\" để diễn tả thói quen trong quá khứ, vì vậy có nhiều đáp án đúng.",
+      "fix": {
+        "sentence": "My father _______ tell stories about his youth before dinner.",
+        "options": [
+          "might",
+          "used to",
+          "does",
+          "could"
+        ],
+        "answer": "used to"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu này cho phép cả \"used to\" và \"would\" để diễn tả thói quen trong quá khứ, nên không duy nhất.",
+      "fix": {
+        "sentence": "My grandparents _______ live in the countryside if they had the chance before they moved to the city.",
+        "answer": "would"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu này chấp nhận cả \"used to\" và \"would\" cho thói quen trong quá khứ, gây đa nghĩa.",
+      "fix": {
+        "sentence": "When we were kids, we _______ spend hours playing hide‑and‑seek in the backyard if it rained.",
+        "answer": "would"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu này có thể dùng \"used to\" hoặc \"would\" để diễn tả thói quen, vì vậy có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "My mother _______ bake a cake for every birthday when I was younger if we asked her.",
+        "answer": "would"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu này cho phép cả \"used to\" và \"would\" để mô tả thói quen trong quá khứ, nên không duy nhất.",
+      "fix": {
+        "sentence": "Teenagers _______ stay up late to watch movies if they wanted to, but now they have early school starts.",
+        "answer": "would"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu này có thể điền \"used to\" hoặc \"would\" đều đúng cho thói quen trong quá khứ, gây mơ hồ.",
+      "fix": {
+        "sentence": "My uncle _______ take us fishing every summer when we were teenagers if the weather was good.",
+        "answer": "would"
+      }
+    }
+  ],
+  "b2-t11": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu gốc cho phép nhiều liên từ (because of, due to, as a result of) vì đều có thể nối nguyên nhân \"the heavy rains\" với hậu quả \"severe flooding\".",
+      "fix": {
+        "sentence": "Heavy rains last week caused severe flooding; ___, the city had to evacuate residents.",
+        "options": [
+          "as a result of",
+          "therefore",
+          "because of",
+          "due to"
+        ],
+        "answer": "therefore"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu gốc cho phép cả because of, due to, as a result of vì đều có thể diễn tả nguyên nhân \"her desire to reduce her carbon footprint\".",
+      "fix": {
+        "sentence": "She wanted to reduce her carbon footprint; ___, she decided to plant trees.",
+        "options": [
+          "as a result of",
+          "therefore",
+          "because of",
+          "due to"
+        ],
+        "answer": "therefore"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu gốc cho phép due to, because of, as a result of vì đều có thể nối nguyên nhân \"the organizers' inability to secure a venue\" với hậu quả \"was postponed\".",
+      "fix": {
+        "sentence": "The organizers failed to secure a venue; ___, the conference was postponed.",
+        "options": [
+          "as a result of",
+          "therefore",
+          "because of",
+          "due to"
+        ],
+        "answer": "therefore"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu gốc cho phép because of, due to, as a result of vì đều có thể nối nguyên nhân \"the rising global temperatures\" với hậu quả \"are melting\".",
+      "fix": {
+        "sentence": "Global temperatures are rising; ___, the ice caps are melting.",
+        "options": [
+          "as a result of",
+          "therefore",
+          "because of",
+          "due to"
+        ],
+        "answer": "therefore"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu gốc cho phép nhiều liên từ (because of, due to, as a result of, since) vì đều có thể diễn tả nguyên nhân \"the increase in sea temperature\".",
+      "fix": {
+        "sentence": "Sea temperature has increased; ___, the coral reefs are bleaching.",
+        "answer": "therefore"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu gốc cho phép because of, due to, since vì đều có thể diễn tả nguyên nhân \"he wanted to lower his carbon emissions\".",
+      "fix": {
+        "sentence": "He wanted to lower his carbon emissions; ___, he switched to a bike.",
+        "answer": "therefore"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu gốc cho phép because of, due to, as a result of, since vì đều có thể diễn tả nguyên nhân \"the country's commitment to the Paris Agreement\".",
+      "fix": {
+        "sentence": "The country is committed to the Paris Agreement; ___, the policy was adopted.",
+        "answer": "therefore"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu gốc cho phép because of, due to, since vì đều có thể diễn tả nguyên nhân \"she read about ocean pollution\".",
+      "fix": {
+        "sentence": "She read about ocean pollution; ___, she stopped using plastic bags.",
+        "answer": "therefore"
+      }
+    }
+  ],
+  "b2-t12": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu không có thông tin đủ để loại trừ các đáp án quá khứ đơn hoặc hiện tại đơn, vì \"by deforestation\" không chỉ ra thời gian, nên cả \"was destroyed\" và \"has been destroyed\" đều hợp lý.",
+      "fix": {
+        "sentence": "The habitat of many species _____ by deforestation so far.",
+        "options": [
+          "has been destroyed",
+          "was destroyed",
+          "is destroyed",
+          "have been destroyed"
+        ],
+        "answer": "has been destroyed"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Không có chỉ định thời gian, vì vậy cả \"were polluted\" và \"have been polluted\" đều có thể đúng.",
+      "fix": {
+        "sentence": "Several marine ecosystems _____ polluted by plastic waste in recent years.",
+        "options": [
+          "were polluted",
+          "have been polluted",
+          "are polluted",
+          "has been polluted"
+        ],
+        "answer": "have been polluted"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu không đủ để quyết định số ít hay số nhiều, nên \"has been collected\" và \"have been collected\" đều có thể đúng.",
+      "fix": {
+        "sentence": "The research data _____ collected to date.",
+        "options": [
+          "was collected",
+          "has been collected",
+          "is collecting",
+          "have been collected"
+        ],
+        "answer": "has been collected"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Không có chỉ định thời gian, vì vậy \"are protected\" và \"have been protected\" đều hợp lý.",
+      "fix": {
+        "sentence": "Many endangered species _____ protected by international agreements so far.",
+        "options": [
+          "has been protected",
+          "are protected",
+          "have been protected",
+          "were protected"
+        ],
+        "answer": "have been protected"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Thiếu chỉ định thời gian, nên \"is implemented\" và \"has been implemented\" đều có thể đúng.",
+      "fix": {
+        "sentence": "The new policy _____ implemented to reduce emissions so far.",
+        "options": [
+          "is implemented",
+          "has been implemented",
+          "were implemented",
+          "have been implemented"
+        ],
+        "answer": "has been implemented"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Không có chỉ định thời gian, vì vậy \"was\" cũng có thể dùng thay cho \"has been\".",
+      "fix": {
+        "sentence": "The coral reef _____ severely damaged by rising temperatures so far.",
+        "answer": "has been"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Thiếu chỉ định thời gian, nên \"were\" cũng có thể đúng thay cho \"have been\".",
+      "fix": {
+        "sentence": "Many forests _____ cleared for agriculture so far.",
+        "answer": "have been"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Không có chỉ định thời gian, vì vậy \"was\" cũng có thể dùng thay cho \"has been\".",
+      "fix": {
+        "sentence": "The water quality _____ improved after the new regulations so far.",
+        "answer": "has been"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Thiếu chỉ định thời gian, nên \"were\" cũng có thể đúng thay cho \"have been\".",
+      "fix": {
+        "sentence": "Several species _____ reintroduced into the park recently.",
+        "answer": "have been"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu chỉ thời gian \"last year\" khiến \"has been\" không phù hợp, vì vậy \"was\" cũng có thể đúng.",
+      "fix": {
+        "sentence": "The legislation _____ passed to date.",
+        "answer": "has been"
+      }
+    }
+  ],
+  "b2-t13": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có thể chấp nhận cả “is” (zero conditional) và “will be” (first conditional) vì không có thông tin nào chỉ ra thời gian kết quả.",
+      "fix": {
+        "sentence": "If you plant trees, the air _____ cleaner in the future.",
+        "options": [
+          "is",
+          "be",
+          "will be",
+          "are"
+        ],
+        "answer": "will be"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu có thể chấp nhận cả “die” (zero conditional) và “will die” (first conditional) vì không có thông tin nào chỉ ra thời gian kết quả.",
+      "fix": {
+        "sentence": "If the river becomes polluted, fish _____ in the future.",
+        "options": [
+          "die",
+          "will die",
+          "dies",
+          "died"
+        ],
+        "answer": "will die"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu có thể chấp nhận cả “decrease” (zero conditional) và “will decrease” (first conditional) vì không có thông tin nào chỉ ra thời gian kết quả.",
+      "fix": {
+        "sentence": "If governments implement stricter regulations, pollution _____ in the future.",
+        "options": [
+          "will decrease",
+          "decreased",
+          "decrease",
+          "decreases"
+        ],
+        "answer": "will decrease"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu có thể chấp nhận cả “drop” (zero conditional) và “will drop” (first conditional) vì không có thông tin nào chỉ ra thời gian kết quả.",
+      "fix": {
+        "sentence": "If plastic bags are banned, the amount of waste _____ in the future.",
+        "options": [
+          "drop",
+          "will drop",
+          "dropped",
+          "drops"
+        ],
+        "answer": "will drop"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Cả “reduce” và “decrease” đều có thể điền vào chỗ trống và tạo câu đúng ngữ pháp và logic.",
+      "fix": {
+        "sentence": "If you _____ your waste (by cutting down on the amount you produce), the planet will be healthier.",
+        "answer": "reduce"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Cả “decrease” và “reduce” đều có thể điền vào chỗ trống và tạo câu đúng ngữ pháp và logic.",
+      "fix": {
+        "sentence": "If factories _____ their emissions (by cutting them down), air quality will improve.",
+        "answer": "decrease"
+      }
+    }
+  ],
+  "b2-t14": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu không chỉ định thời gian, vì vậy cả \"wish\" và \"wanted\" đều có thể đúng.",
+      "fix": {
+        "sentence": "She _____ more time to relax after work (present desire).",
+        "options": [
+          "wanted",
+          "wish",
+          "wished",
+          "wishes"
+        ],
+        "answer": "wishes"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Không có chỉ định thời gian, nên \"wish\" và \"wished\" đều có thể dùng.",
+      "fix": {
+        "sentence": "They _____ that the city built more bike lanes (present desire).",
+        "options": [
+          "wish",
+          "wished",
+          "wishes",
+          "wanted"
+        ],
+        "answer": "wish"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu không chỉ định thời gian, vì vậy \"wish\" và \"wished\" đều hợp lệ.",
+      "fix": {
+        "sentence": "He _____ his friends could join the meditation program (present desire).",
+        "options": [
+          "wishes",
+          "wish",
+          "wished",
+          "wanted"
+        ],
+        "answer": "wishes"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Không có chỉ định thời gian, nên \"wish\" và \"wished\" đều có thể đúng.",
+      "fix": {
+        "sentence": "We _____ the conference started earlier (present desire).",
+        "options": [
+          "wished",
+          "wish",
+          "wishes",
+          "wanted"
+        ],
+        "answer": "wish"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Không chỉ định thời gian, vì vậy \"wish\" và \"wished\" đều có thể chấp nhận được.",
+      "fix": {
+        "sentence": "You _____ the project received more funding (present desire).",
+        "options": [
+          "wish",
+          "wished",
+          "wishes",
+          "wanted"
+        ],
+        "answer": "wish"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 2,
+      "problem": "Các từ có thể sắp xếp thành hai câu đúng ngữ pháp, nên có nhiều đáp án.",
+      "fix": {
+        "words": [
+          "They",
+          "wish",
+          "the",
+          "policy",
+          "changed",
+          "very",
+          "quickly"
+        ],
+        "answer": "They wish the policy changed very quickly"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Không có chỉ định thời gian, nên \"wish\" và \"wanted\" đều có thể điền được.",
+      "fix": {
+        "sentence": "I _____ more time to volunteer for clean‑energy projects now.",
+        "answer": "wish"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Không chỉ định thời gian, vì vậy \"wish\" và \"wanted\" đều có thể đúng.",
+      "fix": {
+        "sentence": "They _____ the renewable‑energy program received extra funding now.",
+        "answer": "wish"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Không có chỉ định thời gian, nên \"wish\" và \"wanted\" đều có thể chấp nhận được.",
+      "fix": {
+        "sentence": "We _____ the transition to solar power happened sooner now.",
+        "answer": "wish"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Không chỉ định thời gian, vì vậy \"wish\" và \"wanted\" đều có thể dùng.",
+      "fix": {
+        "sentence": "You _____ the city invest in mental‑health services for students now.",
+        "answer": "wish"
+      }
+    }
+  ],
+  "b2-t15": [
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 1,
+      "problem": "Câu có thể được sắp xếp thành hai câu đúng ngữ pháp: \"damage which was caused by the storm was extensive\" và \"damage was extensive which was caused by the storm\" nên có hơn một đáp án hợp lệ.",
+      "fix": {
+        "words": [
+          "damage",
+          "which",
+          "was",
+          "caused",
+          "by",
+          "the",
+          "storm",
+          "was",
+          "extensive",
+          "indeed"
+        ],
+        "answer": "damage which was caused by the storm was extensive indeed"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Trong câu \"The island, _____ residents rely on tourism, was evacuated.\" cả \"whose\" và \"where\" đều có thể dùng được, vì cả hai đều mô tả mối quan hệ giữa \"island\" và \"residents\".",
+      "fix": {
+        "sentence": "The company, _____ employees work overtime, announced bonuses.",
+        "answer": "whose"
+      }
+    }
+  ],
+  "b2-t16": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu không chỉ ra thời gian kéo dài, vì vậy cả thì tương lai đơn (will launch) và tương lai tiếp diễn (will be launching) đều hợp lý.",
+      "fix": {
+        "sentence": "Next year, scientists _____ a new rover on Mars throughout the year.",
+        "options": [
+          "will have launched",
+          "will be launching",
+          "will launch",
+          "launch"
+        ],
+        "answer": "will be launching"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu không cung cấp thông tin đủ để phân biệt giữa tương lai hoàn thành (will have operated) và tương lai tiếp diễn (will be operating).",
+      "fix": {
+        "sentence": "By 2040, the International Space Station _____ for over 30 years, having been launched in 1998.",
+        "options": [
+          "will have operated",
+          "will be operating",
+          "will operate",
+          "operated"
+        ],
+        "answer": "will have operated"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Không có dấu hiệu nào cho thấy hành động sẽ diễn ra liên tục, vì vậy cả tương lai đơn (will generate) và tương lai tiếp diễn (will be generating) đều đúng.",
+      "fix": {
+        "sentence": "During the launch, the rocket _____ a massive amount of thrust continuously.",
+        "options": [
+          "will generate",
+          "will be generating",
+          "will have generated",
+          "generates"
+        ],
+        "answer": "will be generating"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu không nêu rõ tính liên tục của hành động, nên cả tương lai đơn (will orbit) và tương lai tiếp diễn (will be orbiting) đều có thể chấp nhận được.",
+      "fix": {
+        "sentence": "Tomorrow, the satellite _____ over the Pacific Ocean continuously for the next six hours.",
+        "options": [
+          "will orbit",
+          "will be orbiting",
+          "will have orbited",
+          "orbits"
+        ],
+        "answer": "will be orbiting"
+      }
+    }
+  ],
+  "b2-t17": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có hai đáp án đúng khả thi: “install” và “set up” đều có nghĩa hợp lý với ngữ cảnh, vì không có thông tin nào loại trừ một trong hai.",
+      "fix": {
+        "sentence": "The technician will _____ the new computer system tomorrow.",
+        "options": [
+          "set up",
+          "run out of",
+          "mix",
+          "repair"
+        ],
+        "answer": "set up"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu cho phép cả “set up” và “edit” vì cả hai đều có thể diễn tả việc chuẩn bị slide trước hội nghị, không có yếu tố nào làm một trong hai trở nên duy nhất.",
+      "fix": {
+        "sentence": "Before the conference, the team will _____ the presentation slides on the projector.",
+        "options": [
+          "run out of",
+          "set up",
+          "break down",
+          "edit"
+        ],
+        "answer": "set up"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 1,
+      "problem": "Các từ có thể sắp xếp thành nhiều câu đúng (ví dụ: “The scientists set a new experiment up”). Không có yếu tố nào khiến một thứ tự duy nhất trở thành câu duy nhất.",
+      "fix": {
+        "words": [
+          "The",
+          "scientists",
+          "set",
+          "up",
+          "a",
+          "new",
+          "experiment",
+          "today"
+        ],
+        "answer": "The scientists set up a new experiment today"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 2,
+      "problem": "Câu có thể viết thành “The body quickly breaks down carbohydrates” hoặc “The body breaks down carbohydrates quickly”, nên không có một đáp án duy nhất.",
+      "fix": {
+        "words": [
+          "The",
+          "body",
+          "breaks",
+          "down",
+          "carbohydrates",
+          "quickly",
+          "today"
+        ],
+        "answer": "The body breaks down carbohydrates quickly today"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 3,
+      "problem": "Câu có thể sắp xếp thành “During printing today we ran out of ink” hoặc “We ran out of ink during printing today”, vì vậy không có một đáp án duy nhất.",
+      "fix": {
+        "words": [
+          "We",
+          "ran",
+          "out",
+          "of",
+          "ink",
+          "during",
+          "printing",
+          "today"
+        ],
+        "answer": "We ran out of ink during printing today"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu cho phép cả “set up” và “install” vì cả hai đều có thể diễn tả việc chuẩn bị kính hiển vi trước lớp học.",
+      "fix": {
+        "sentence": "The lab will _____ the microscope before the class starts, arranging it on the workbench.",
+        "answer": "set up"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu cho phép “run out of” và “break down” (máy in có thể hỏng hoặc hết mực), vì không có thông tin nào chỉ ra một trong hai.",
+      "fix": {
+        "sentence": "If the printer _____, we cannot print the report.",
+        "answer": "run out of"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu cho phép cả “break down” và “analyze” vì cả hai đều có thể mô tả việc xử lý dữ liệu, không có yếu tố nào làm một trong hai trở nên duy nhất.",
+      "fix": {
+        "sentence": "Scientists _____ the data to identify trends statistically.",
+        "answer": "analyze"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu cho phép cả “install” và “set up” vì cả hai đều có thể mô tả việc chuẩn bị phần mềm sau cập nhật.",
+      "fix": {
+        "sentence": "The technician will _____ the software after the update, installing it on the system.",
+        "answer": "install"
+      }
+    }
+  ],
+  "b2-t18": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có nhiều đáp án đúng vì cả \"It is found\" và \"It has been found\" đều hợp ngữ pháp và không có thông tin nào trong câu để phân biệt thời gian.",
+      "fix": {
+        "sentence": "_____ that recent studies have found that the new pesticide reduces crop loss by 30%.",
+        "options": [
+          "It is found",
+          "It was found",
+          "It has been found",
+          "It will be found"
+        ],
+        "answer": "It has been found"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu có nhiều đáp án đúng vì \"It is reported\" và \"It has been reported\" đều đúng ngữ pháp và không có chỉ dẫn thời gian cụ thể.",
+      "fix": {
+        "sentence": "_____ that recent surveys have reported that organic farming can improve soil health over time.",
+        "options": [
+          "It is reported",
+          "It was reported",
+          "It has been reported",
+          "It will be reported"
+        ],
+        "answer": "It has been reported"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu có nhiều đáp án đúng vì \"It is suggested\" và \"It has been suggested\" đều có thể dùng được.",
+      "fix": {
+        "sentence": "_____ that recent analyses have suggested that climate change will affect global food security.",
+        "options": [
+          "It is suggested",
+          "It was suggested",
+          "It has been suggested",
+          "It will be suggested"
+        ],
+        "answer": "It has been suggested"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu có nhiều đáp án đúng vì \"It is noted\" và \"It has been noted\" đều đúng ngữ pháp.",
+      "fix": {
+        "sentence": "_____ that recent observations have noted that the surplus of food can be stored for emergencies.",
+        "options": [
+          "It is noted",
+          "It was noted",
+          "It has been noted",
+          "It will be noted"
+        ],
+        "answer": "It has been noted"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu có nhiều đáp án đúng vì \"It is proven\" và \"It has been proven\" đều chấp nhận được.",
+      "fix": {
+        "sentence": "_____ that recent studies have proven that pesticide residues are harmful to human health.",
+        "options": [
+          "It is proven",
+          "It was proven",
+          "It has been proven",
+          "It will be proven"
+        ],
+        "answer": "It has been proven"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Từ \"found\" không phải là đáp án duy nhất; \"reported\" hoặc \"suggested\" cũng có thể điền vào chỗ trống mà không vi phạm ngữ pháp.",
+      "fix": {
+        "sentence": "It has been _____ that the new fertilizer improves wheat growth, a discovery confirmed by laboratory tests.",
+        "answer": "found"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Từ \"reported\" không duy nhất; \"found\" hoặc \"noted\" cũng có thể phù hợp trong câu.",
+      "fix": {
+        "sentence": "It has been _____ that organic farms use less water, as mentioned in the latest press release.",
+        "answer": "reported"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Từ \"suggested\" không duy nhất; \"reported\" hoặc \"found\" cũng có thể được dùng.",
+      "fix": {
+        "sentence": "It has been _____ that climate models predict lower yields, as suggested by leading climate scientists.",
+        "answer": "suggested"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Từ \"noted\" không duy nhất; \"reported\" hoặc \"found\" cũng có thể điền vào chỗ trống.",
+      "fix": {
+        "sentence": "It has been _____ that pesticide residues can accumulate in soil, as noted in the official guidelines.",
+        "answer": "noted"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Từ \"proven\" không duy nhất; \"found\" hoặc \"demonstrated\" (nếu có) cũng có thể phù hợp.",
+      "fix": {
+        "sentence": "It has been _____ that certain crops are resistant to disease, as proven through extensive field trials.",
+        "answer": "proven"
+      }
+    }
+  ],
+  "b2-t19": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu không cung cấp thông tin nào để xác định lượng từ duy nhất; các lựa chọn All, Most, Some, Few đều có thể đúng.",
+      "fix": {
+        "sentence": "_____ of the crops were damaged by the frost, but not all of them.",
+        "options": [
+          "All",
+          "Most",
+          "Some",
+          "Few"
+        ],
+        "answer": "Most"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Không có thông tin về lượng nước có sẵn, vì vậy cả \"No\" và \"Some\" đều có thể đúng.",
+      "fix": {
+        "sentence": "_____ water is available for irrigation in the dry season, but not enough for all fields.",
+        "options": [
+          "No",
+          "Few",
+          "Some",
+          "All"
+        ],
+        "answer": "Some"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu không chỉ ra mức độ sử dụng phương pháp hữu cơ, nên các lựa chọn Few, All, Most, No đều có thể đúng.",
+      "fix": {
+        "sentence": "_____ farmers in the region use organic methods, and most rely on conventional methods.",
+        "options": [
+          "Few",
+          "All",
+          "Most",
+          "No"
+        ],
+        "answer": "Few"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Không có thông tin về tỷ lệ lãng phí, vì vậy All, Most, No, Some đều có thể đúng.",
+      "fix": {
+        "sentence": "_____ of the harvested grain was wasted, but most was stored safely.",
+        "options": [
+          "Some",
+          "All",
+          "No",
+          "Most"
+        ],
+        "answer": "Some"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu không cho biết mức độ đồng thuận của bằng chứng, nên Most và All đều có thể đúng.",
+      "fix": {
+        "sentence": "_____ evidence, without exception, suggests that the new technique improves yields.",
+        "options": [
+          "All",
+          "Most",
+          "Few",
+          "No"
+        ],
+        "answer": "All"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu không chỉ ra mức độ depletion, vì vậy All, Most, Some, Few đều có thể đúng.",
+      "fix": {
+        "sentence": "_____ of the soil nutrients were depleted after the flood, leaving none untouched.",
+        "answer": "all"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Không có thông tin về mức độ tiếp cận nước sạch, nên các lựa chọn Few, Most, Some, All đều có thể đúng.",
+      "fix": {
+        "sentence": "_____ villages have access to clean water, making sanitation a major challenge.",
+        "answer": "few"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu không cho biết tỷ lệ sinh tồn, vì vậy Some, Most, Few, All đều có thể đúng.",
+      "fix": {
+        "sentence": "_____ crops survived the drought, while the rest perished.",
+        "answer": "some"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Không có thông tin về mức độ đồng thuận của bằng chứng, nên All, Most, Some, Few đều có thể đúng.",
+      "fix": {
+        "sentence": "According to the majority of researchers, _____ evidence points to climate change as a factor.",
+        "answer": "most"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu không chỉ ra mức độ bắt cá, vì vậy No, Few, Some, All đều có thể đúng.",
+      "fix": {
+        "sentence": "_____ fish were caught this season, none at all.",
+        "answer": "no"
+      }
+    }
+  ],
+  "b2-t20": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu có thể chấp nhận cả đáp án “had” và “has” vì không có chỉ thời gian quá khứ rõ ràng, nên cả hai thì hiện tại hoàn thành và quá khứ hoàn thành đều hợp lý.",
+      "fix": {
+        "sentence": "She couldn't believe that the tsunami _____ already destroyed the coastal village by the time the rescue arrived.",
+        "options": [
+          "had",
+          "was",
+          "did",
+          "has"
+        ],
+        "answer": "had"
+      }
+    }
+  ],
+  "b2-t21": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu này có hai đáp án đúng có thể chấp nhận được: \"were\" và \"was\" đều được dùng trong câu điều kiện không có thực, vì không có thông tin nào loại trừ \"was\".",
+      "fix": {
+        "sentence": "If we ___ richer, we would travel the world.",
+        "options": [
+          "am",
+          "were",
+          "was",
+          "will be"
+        ],
+        "answer": "were"
+      }
+    }
+  ],
+  "b2-t22": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có thể chấp nhận cả dạng nguyên mẫu 'to write', vì cả hai đều ngữ pháp đúng, nên có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "The act of _____ a business plan helps you stay organized.",
+        "options": [
+          "To write",
+          "Writing",
+          "Write",
+          "Wrote"
+        ],
+        "answer": "Writing"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu có thể điền 'writing' hoặc 'analyzing' đều hợp ngữ pháp, vì cả hai đều là danh động từ, nên có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "_____ a clear mission statement is the first step before any analysis.",
+        "answer": "writing"
+      }
+    }
+  ],
+  "b2-t23": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu không cung cấp thông tin nào để phân biệt giữa các cụm danh từ; cả \"increase in demand\", \"availability of raw materials\" và \"growth of the economy\" đều có thể thu hút nhà đầu tư, nên có nhiều đáp án đúng.",
+      "fix": {
+        "sentence": "The _____ has attracted many investors because it offers abundant resources.",
+        "options": [
+          "increase in demand",
+          "availability of raw materials",
+          "growth of the economy",
+          "high taxes"
+        ],
+        "answer": "availability of raw materials"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu cho phép cả \"bilateral agreements\" và \"trade deals\" là đáp án hợp lý, vì không có tiêu chí nào để phân biệt chúng.",
+      "fix": {
+        "sentence": "Countries often negotiate _____ with another single country to reduce trade barriers.",
+        "options": [
+          "bilateral agreements",
+          "trade deals",
+          "economic policies",
+          "foreign investments"
+        ],
+        "answer": "bilateral agreements"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu cho phép nhiều cụm danh từ (interconnectedness of global markets, complexity of trade laws, size of the economy, growth of exports) đều có thể tăng lên nhờ nền tảng kỹ thuật số, nên không có đáp án duy nhất.",
+      "fix": {
+        "sentence": "The _____ has increased due to digital platforms, especially in terms of cross‑border communication.",
+        "options": [
+          "interconnectedness of global markets",
+          "complexity of trade laws",
+          "size of the economy",
+          "growth of exports"
+        ],
+        "answer": "interconnectedness of global markets"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu \"The _____ of global markets has created new opportunities\" có thể chấp nhận cả \"interconnectedness\" và \"growth\", vì cả hai đều mô tả sự mở rộng của thị trường.",
+      "fix": {
+        "sentence": "The _____ of global markets, referring specifically to their cross‑border communication, has created new opportunities.",
+        "answer": "interconnectedness"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu \"A higher _____ can make exports less competitive\" có thể chấp nhận cả \"tariff\" và \"inflation\", vì cả hai đều có thể làm giảm tính cạnh tranh của xuất khẩu.",
+      "fix": {
+        "sentence": "A higher _____, specifically a tax on imported goods, can make exports less competitive.",
+        "answer": "tariff"
+      }
+    }
+  ],
+  "b2-t24": [
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu \"If I were more organized, I _____ track my expenses better.\" có thể điền được cả \"could\" và \"would\" vì cả hai đều hợp ngữ pháp và mang nghĩa khả năng/ý định, nên không có đáp án duy nhất.",
+      "fix": {
+        "sentence": "If I were more organized, I _____ track my expenses better (ability).",
+        "answer": "could"
+      }
+    }
+  ],
+  "b2-t25": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu này cho phép cả “were collected” (quá khứ số nhiều) và “has been collected” (hiện tại hoàn thành) vì không có chỉ thời gian cụ thể, nên có nhiều đáp án đúng.",
+      "fix": {
+        "sentence": "The dataset _____ last week before the analysis begins.",
+        "options": [
+          "were collected",
+          "has been collected",
+          "is collected",
+          "was collected"
+        ],
+        "answer": "was collected"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Không có chỉ thời gian, vì vậy “are published”, “will be published”, “has been published” và “were published” đều có thể chấp nhận được.",
+      "fix": {
+        "sentence": "The results _____ next year in a peer‑reviewed journal.",
+        "options": [
+          "are published",
+          "will be published",
+          "has been published",
+          "were published"
+        ],
+        "answer": "will be published"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Không có chỉ thời gian, nên cả “was designed”, “has been designed”, “is designed” và “will be designed” đều hợp lý.",
+      "fix": {
+        "sentence": "The advertisement _____ last month to appeal to young adults.",
+        "options": [
+          "will be designed",
+          "was designed",
+          "has been designed",
+          "is designed"
+        ],
+        "answer": "was designed"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Không có chỉ thời gian, vì vậy “has been gathered”, “will be gathered”, “is gathered”, “was gathered” đều có thể đúng.",
+      "fix": {
+        "sentence": "Customer feedback _____ so far this quarter through online surveys.",
+        "options": [
+          "has been gathered",
+          "will be gathered",
+          "is gathered",
+          "was gathered"
+        ],
+        "answer": "has been gathered"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu “All promotional materials are _____ before the launch.” có thể điền “produced” hoặc “designed”, vì cả hai đều hợp lý với ngữ cảnh chung.",
+      "fix": {
+        "sentence": "All promotional materials are _____ in the factory before the launch.",
+        "answer": "produced"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu “The campaign was _____ by the creative team last week.” có thể điền “implemented” hoặc “designed”, vì cả hai đều phù hợp với nghĩa chung.",
+      "fix": {
+        "sentence": "The campaign was _____ by the creative team last week, meaning it was put into action.",
+        "answer": "implemented"
+      }
+    }
+  ],
+  "b2-t26": [
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 1,
+      "problem": "Câu có thể sắp xếp thành hai câu đúng ngữ pháp khác nhau: \"If the manager had noticed the issue, it would have been resolved\" và \"If the manager had noticed it, the issue would have been resolved\". Vì không có dấu câu hay từ ngữ nào hạn chế, cả hai cách đều hợp lệ, nên đáp án không duy nhất.",
+      "fix": {
+        "words": [
+          "If",
+          "the",
+          "manager",
+          "had",
+          "noticed",
+          "the",
+          "issue",
+          "the",
+          "problem",
+          "would",
+          "have",
+          "been",
+          "resolved"
+        ],
+        "answer": "If the manager had noticed the issue, the problem would have been resolved"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu \"If the contract __________ a clause on health insurance, employees would have been covered.\" có thể điền được cả \"had included\" và \"had provided\" mà vẫn hợp lý, vì cả hai động từ đều có thể đi với \"clause\".",
+      "fix": {
+        "sentence": "If the contract explicitly __________ a clause on health insurance, employees would have been covered.",
+        "answer": "had included"
+      }
+    }
+  ],
+  "b2-t27": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có thể chấp nhận cả \"who\" và \"that\" cho người, nên có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "The landlord ___ collects the rent on the first of each month.",
+        "options": [
+          "whom",
+          "which",
+          "who",
+          "where"
+        ],
+        "answer": "who"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Cả \"that\" và \"which\" đều có thể dùng cho danh từ không phải người, nên có nhiều đáp án đúng.",
+      "fix": {
+        "sentence": "Buyers often look for apartments ___ have a balcony.",
+        "options": [
+          "who",
+          "where",
+          "that",
+          "whose"
+        ],
+        "answer": "that"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu định nghĩa cho người có thể dùng \"who\" hoặc \"that\", nên có hai đáp án đúng.",
+      "fix": {
+        "sentence": "The tenant, ___ pays the rent on time, is reliable.",
+        "answer": "who"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu cho địa điểm có thể dùng \"where\" hoặc \"that\", nên có hai đáp án đúng.",
+      "fix": {
+        "sentence": "The city, ___ we are considering buying property in, has a strong economy.",
+        "answer": "where"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu cho người làm tân ngữ có thể dùng \"who\" hoặc \"whom\", nên có hai đáp án đúng.",
+      "fix": {
+        "sentence": "The landlord ___ we spoke to yesterday offered a discount.",
+        "answer": "whom"
+      }
+    }
+  ],
+  "b2-t28": [],
+  "b2-t29": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu gốc cho phép nhiều động từ truyền đạt (suggests, claims, argues, denies) vì không có thông tin nào hạn chế mức độ chắc chắn; do đó có nhiều đáp án đúng.",
+      "fix": {
+        "sentence": "The study _____, based on preliminary findings, that social media influences public opinion.",
+        "options": [
+          "suggests",
+          "denies",
+          "argues",
+          "claims"
+        ],
+        "answer": "suggests"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Không có yếu tố nào trong câu để phân biệt giữa denies, suggests, claims, argues, nên nhiều đáp án đều hợp lý.",
+      "fix": {
+        "sentence": "The editor _____ that the article did not need more sources.",
+        "options": [
+          "denies",
+          "suggests",
+          "claims",
+          "argues"
+        ],
+        "answer": "denies"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu không chỉ ra đối tượng nhận thông điệp, khiến suggest, deny, claim, và warn đều có thể dùng được.",
+      "fix": {
+        "sentence": "Scientists _____ the public that the data could be unreliable.",
+        "options": [
+          "warn",
+          "suggest",
+          "deny",
+          "claim"
+        ],
+        "answer": "warn"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Không có thông tin nào giới hạn mức độ chắc chắn, vì vậy claims, argues và suggests đều đúng.",
+      "fix": {
+        "sentence": "Researchers _____ that the new method improves accuracy, based on preliminary tests.",
+        "options": [
+          "suggests",
+          "claims",
+          "argues",
+          "warns"
+        ],
+        "answer": "suggests"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu cho phép nhiều động từ (claims, argues, suggests, denies, states) vì không có yếu tố nào hạn chế mức độ chắc chắn.",
+      "fix": {
+        "sentence": "The article probably _____ that the government ignored the warning.",
+        "answer": "suggests"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Không có từ chỉ phủ định, nên claims, argues, suggests, states đều có thể dùng được.",
+      "fix": {
+        "sentence": "The spokesperson _____ that the company had any knowledge of the leak.",
+        "answer": "denies"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu không chỉ ra mức độ chắc chắn, vì vậy claims, argues, suggests, denies, states đều có thể đúng.",
+      "fix": {
+        "sentence": "The latest research likely _____ that the new policy could reduce emissions.",
+        "answer": "suggests"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Không có yếu tố nào để phân biệt giữa claims, argues, suggests, denies, states; nhiều đáp án đều hợp lý.",
+      "fix": {
+        "sentence": "The professor _____ that the textbook contains outdated data, according to the latest review.",
+        "answer": "states"
+      }
+    }
+  ],
+  "b2-t30": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu không cung cấp đủ thông tin để xác định mức độ duy nhất; có thể dùng nhiều từ khác nhau (fairly, rather, quite, extremely).",
+      "fix": {
+        "sentence": "The new smartphone is _____ expensive, costing over $1500, but its features are impressive.",
+        "options": [
+          "fairly",
+          "rather",
+          "quite",
+          "extremely"
+        ],
+        "answer": "extremely"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu không cung cấp đủ thông tin để xác định mức độ duy nhất; có thể dùng nhiều từ khác nhau (rather, fairly, quite, extremely).",
+      "fix": {
+        "sentence": "She found the online store's return policy _____ generous, as it only allows returns within 14 days.",
+        "options": [
+          "rather",
+          "fairly",
+          "quite",
+          "extremely"
+        ],
+        "answer": "fairly"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu không cung cấp đủ thông tin để xác định mức độ duy nhất; có thể dùng nhiều từ khác nhau (quite, rather, extremely, fairly).",
+      "fix": {
+        "sentence": "The packaging was _____ minimal, containing just a single thin cardboard sleeve.",
+        "options": [
+          "quite",
+          "rather",
+          "extremely",
+          "fairly"
+        ],
+        "answer": "quite"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu không cung cấp đủ thông tin để xác định mức độ duy nhất; có thể dùng nhiều từ khác nhau (rather, extremely, fairly, quite).",
+      "fix": {
+        "sentence": "The discount made the shoes _____ affordable for students, reducing the price by 15%.",
+        "options": [
+          "rather",
+          "extremely",
+          "fairly",
+          "quite"
+        ],
+        "answer": "rather"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu không cung cấp đủ thông tin để xác định mức độ duy nhất; có thể dùng nhiều từ khác nhau (fairly, quite, rather, extremely).",
+      "fix": {
+        "sentence": "His loyalty to the brand is _____ strong, as he has been buying its products for over ten years despite cheaper alternatives.",
+        "options": [
+          "fairly",
+          "quite",
+          "rather",
+          "extremely"
+        ],
+        "answer": "quite"
+      }
+    }
+  ],
+  "b2-t31": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu này có thể có nhiều đáp án đúng vì cả \"interesting\" và \"confusing\" đều có thể khiến mọi người nói về bức tranh.",
+      "fix": {
+        "sentence": "The painting was _____, so everyone admired it.",
+        "options": [
+          "interesting",
+          "interested",
+          "confusing",
+          "amused"
+        ],
+        "answer": "interesting"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu này cho phép cả \"interested\" và \"amazed\" là đáp án hợp lý, vì cả hai đều có thể diễn tả cảm xúc của họ trước bố cục mới.",
+      "fix": {
+        "sentence": "They were _____ by the gallery's new layout, which left them speechless.",
+        "options": [
+          "interested",
+          "interesting",
+          "bored",
+          "amazed"
+        ],
+        "answer": "amazed"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu này có thể điền \"interested\" hoặc \"bored\" đều hợp lý, vì cả hai đều có thể xảy ra sau khi xem tác phẩm.",
+      "fix": {
+        "sentence": "He became _____ after seeing the installation, because it sparked his curiosity.",
+        "options": [
+          "interested",
+          "interesting",
+          "bored",
+          "confusing"
+        ],
+        "answer": "interested"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu này cho phép nhiều đáp án (excited, surprised, …) vì giới từ \"about\" có thể đi kèm với nhiều tính từ.",
+      "fix": {
+        "sentence": "I am _____ for the upcoming art festival.",
+        "answer": "excited"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu này có thể điền \"interesting\" hoặc \"confusing\" vì cả hai đều mô tả tính chất của bộ sưu tập.",
+      "fix": {
+        "sentence": "The curator found the new collection _____, praising its originality.",
+        "answer": "interesting"
+      }
+    }
+  ],
+  "b2-t32": [],
+  "b2-t33": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có thể chấp nhận cả “arrived” và “had arrived”, vì cả hai đều hợp ngữ pháp với “when”.",
+      "fix": {
+        "sentence": "The moment the writer _____ (arrive) at the publisher, he realized the manuscript was missing.",
+        "options": [
+          "arrived",
+          "had arrived",
+          "was arriving",
+          "has arrived"
+        ],
+        "answer": "arrived"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "“She wrote” và “She had written” đều đúng với cấu trúc hiện tại, vì không có chỉ dẫn thời gian rõ ràng.",
+      "fix": {
+        "sentence": "She _____ (write) the novel for three years by the time she finally published it.",
+        "options": [
+          "wrote",
+          "had written",
+          "was writing",
+          "writes"
+        ],
+        "answer": "had written"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "“listened” và “was listening” đều chấp nhận được sau “while”.",
+      "fix": {
+        "sentence": "While the audience _____ (listen) to the story, the narrator whispered a secret.",
+        "options": [
+          "listened",
+          "were listening",
+          "had listened",
+          "listens"
+        ],
+        "answer": "were listening"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "“became” và “had become” đều có thể dùng sau “by the time”.",
+      "fix": {
+        "sentence": "When the book _____ (become) a bestseller, the author was already famous.",
+        "options": [
+          "became",
+          "had become",
+          "was becoming",
+          "becomes"
+        ],
+        "answer": "became"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 1,
+      "problem": "Các từ có thể sắp xếp thành nhiều câu đúng (ví dụ: “When the deadline approached, the author had finished the manuscript”).",
+      "fix": {
+        "words": [
+          "When",
+          "the",
+          "deadline",
+          "approached",
+          "the",
+          "author",
+          "had",
+          "finished",
+          "the",
+          "manuscript"
+        ],
+        "answer": "When the deadline approached, the author had finished the manuscript"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 2,
+      "problem": "Các từ có thể sắp xếp thành nhiều câu đúng (ví dụ: “After waiting for her coffee, she was reading the novel”).",
+      "fix": {
+        "words": [
+          "After",
+          "waiting",
+          "for",
+          "her",
+          "coffee",
+          "she",
+          "was",
+          "reading",
+          "the",
+          "novel"
+        ],
+        "answer": "After waiting for her coffee, she was reading the novel"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 3,
+      "problem": "Các từ có thể sắp xếp thành nhiều câu đúng (ví dụ: “After the award was announced, they had already released the book”).",
+      "fix": {
+        "words": [
+          "After",
+          "the",
+          "award",
+          "was",
+          "announced",
+          "they",
+          "had",
+          "already",
+          "released",
+          "the",
+          "book"
+        ],
+        "answer": "After the award was announced, they had already released the book"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "“was” cũng có thể điền vào chỗ trống, vì câu “The critic was at the launch party early” vẫn đúng ngữ pháp.",
+      "fix": {
+        "sentence": "The critic just _____ at the launch party early.",
+        "answer": "arrived"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "“had written” cũng hợp lý với câu hiện tại, vì không có chỉ dẫn thời gian cụ thể.",
+      "fix": {
+        "sentence": "She immediately _____ the preface before the main chapters were printed.",
+        "answer": "wrote"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "“was” cũng có thể dùng trong câu, vì “By 2020, the series was a global phenomenon” vẫn đúng.",
+      "fix": {
+        "sentence": "By 2020, the series _____ a global phenomenon for a decade.",
+        "answer": "had been"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "“had been” cũng có thể chấp nhận được, vì “The hall had been quiet after the final chapter ended” vẫn ngữ pháp.",
+      "fix": {
+        "sentence": "The hall _____ quiet immediately after the final chapter ended.",
+        "answer": "was"
+      }
+    }
+  ],
+  "b2-t34": [],
+  "b2-t35": [
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu \"She likes coffee _____ tea.\" có thể điền \"and\" hoặc \"or\" đều tạo ra câu đúng ngữ pháp và có nghĩa hợp lý, vì không có thông tin nào chỉ ra cô ấy thích cả hai hay chỉ một trong hai.",
+      "fix": {
+        "sentence": "She likes both coffee _____ tea.",
+        "options": [
+          "both",
+          "either",
+          "neither",
+          "and",
+          "or",
+          "but"
+        ],
+        "answer": "and"
+      }
+    }
+  ],
+  "b2-t36": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu này cho phép cả \"enough qualified\" và \"too qualified\" đều hợp ngữ pháp, vì không có thông tin nào cho biết thiếu hay thừa giáo viên, nên có hai đáp án đúng tiềm năng.",
+      "fix": {
+        "sentence": "The school does not have _____ teachers to cover all subjects, and it needs more staff.",
+        "options": [
+          "too qualified",
+          "enough qualified",
+          "enough unqualified",
+          "too unqualified"
+        ],
+        "answer": "enough qualified"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu \"She is _____ to finish the assignment by tomorrow\" có thể chấp nhận cả \"too busy\" và \"too lazy\", vì không có ngữ cảnh nào loại trừ một trong hai.",
+      "fix": {
+        "sentence": "She is _____ to finish the assignment by tomorrow because she has many meetings.",
+        "options": [
+          "enough fast",
+          "too busy",
+          "too lazy",
+          "enough slow"
+        ],
+        "answer": "too busy"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 3,
+      "problem": "Các từ có thể sắp xếp thành \"She is not enough experienced to lead the project\" hoặc \"She is not experienced enough to lead the project\", nên có hai câu đúng.",
+      "fix": {
+        "words": [
+          "She",
+          "is",
+          "not",
+          "experienced",
+          "enough",
+          "to",
+          "lead",
+          "the",
+          "project"
+        ],
+        "answer": "She is not experienced enough to lead the project"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu \"The candidate is _____ qualified to lead the research team\" có thể điền \"enough\" hoặc \"too\", vì cả hai đều hợp ngữ pháp và có nghĩa hợp lý.",
+      "fix": {
+        "sentence": "The candidate is _____ qualified to lead the research team, but lacks leadership experience.",
+        "answer": "enough"
+      }
+    }
+  ],
+  "b2-t37": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu \"She _____ tennis every weekend.\" có thể điền \"play\" hoặc \"watch\" vì cả hai đều hợp ngữ pháp và ý nghĩa.",
+      "fix": {
+        "sentence": "She _____ tennis every weekend on the court.",
+        "options": [
+          "watch",
+          "play",
+          "do",
+          "run"
+        ],
+        "answer": "play"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu \"He doesn't _____ any sport because he's busy.\" có thể điền \"do\" hoặc \"play\" đều đúng.",
+      "fix": {
+        "sentence": "He doesn't _____ any ball sport because he's busy.",
+        "options": [
+          "play",
+          "go",
+          "watch",
+          "do"
+        ],
+        "answer": "play"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu \"He likes to _____ tennis with his friends.\" có thể điền \"play\" hoặc \"watch\" đều hợp lý.",
+      "fix": {
+        "sentence": "He likes to _____ tennis with his friends on the court.",
+        "answer": "play"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu \"She doesn't _____ any sport because of her schedule.\" có thể điền \"do\" hoặc \"play\" đều đúng.",
+      "fix": {
+        "sentence": "She doesn't _____ any ball sport because of her schedule.",
+        "answer": "play"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu \"Do you _____ basketball on weekends?\" có thể điền \"play\" hoặc \"watch\" đều hợp lý.",
+      "fix": {
+        "sentence": "Do you _____ basketball on weekends with your team?",
+        "answer": "play"
+      }
+    }
+  ],
+  "b2-t38": [
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 1,
+      "problem": "Câu có thể có hai cách sắp xếp hợp lệ: \"fashion itself reflects culture\" và \"fashion reflects culture itself\" nên đáp án không duy nhất.",
+      "fix": {
+        "words": [
+          "fashion",
+          "reflects",
+          "culture",
+          "in",
+          "itself"
+        ],
+        "answer": "fashion reflects culture in itself"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 2,
+      "problem": "Câu có thể sắp xếp thành \"designers themselves must innovate\" hoặc \"designers must innovate themselves\" nên có nhiều đáp án đúng.",
+      "fix": {
+        "words": [
+          "designers",
+          "must",
+          "innovate",
+          "by",
+          "themselves"
+        ],
+        "answer": "designers must innovate by themselves"
+      }
+    }
+  ],
+  "b2-t39": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có thể chấp nhận cả thì hiện tại (is kneaded) và quá khứ (was kneaded) vì không có chỉ định thời gian rõ ràng, nên có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "The dough _____ by the baker before it rises, usually.",
+        "options": [
+          "was kneaded",
+          "is kneaded",
+          "has kneaded",
+          "kneads"
+        ],
+        "answer": "is kneaded"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu cho phép cả thì hiện tại (are harvested) và quá khứ (were harvested) vì không có chỉ định thời gian, dẫn đến nhiều đáp án đúng.",
+      "fix": {
+        "sentence": "Traditional spices _____ from the region for centuries, today.",
+        "options": [
+          "are harvested",
+          "were harvested",
+          "have harvested",
+          "harvest"
+        ],
+        "answer": "are harvested"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu có thể dùng cả hiện tại đơn (is handed) và hiện tại hoàn thành (has been handed) vì không có chỉ định thời gian, nên có nhiều đáp án đúng.",
+      "fix": {
+        "sentence": "The recipe _____ handed down through generations so far.",
+        "options": [
+          "has been handed",
+          "is handed",
+          "was handed",
+          "handed"
+        ],
+        "answer": "has been handed"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu cho phép cả “must be” và “is” vì không có yếu tố buộc phải dùng modal, dẫn đến nhiều đáp án đúng.",
+      "fix": {
+        "sentence": "The cooking pot _____ cleaned after each use, as it must be.",
+        "options": [
+          "must be",
+          "must",
+          "is",
+          "are"
+        ],
+        "answer": "must be"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu có thể chấp nhận cả “are” và “were” vì không có chỉ định thời gian, vì vậy có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "The flavors _____ enhanced by adding fresh herbs, always.",
+        "options": [
+          "are",
+          "were",
+          "is",
+          "been"
+        ],
+        "answer": "are"
+      }
+    }
+  ],
+  "b2-t40": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu này cho phép đáp án \"some\" vì không có thông tin nào ngăn cản việc học một phần của nghệ thuật Phục Hưng; do đó có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "She studied _____ Renaissance art for her thesis, as a whole.",
+        "options": [
+          "some",
+          "the",
+          "a",
+          "an"
+        ],
+        "answer": "the"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu \"_____ living legacy of the past is celebrated each year.\" có thể chấp nhận \"a\" vì không có yếu tố nào chỉ ra tính duy nhất của di sản, nên có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "_____ living legacy of the past, the only one, is celebrated each year.",
+        "answer": "the"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu \"_____ challenge faced by organizers is funding.\" có thể dùng \"a\" (một trong các thách thức) nên không duy nhất, dẫn tới nhiều đáp án đúng.",
+      "fix": {
+        "sentence": "_____ challenge faced by organizers is funding, the only one.",
+        "answer": "the"
+      }
+    }
+  ],
+  "b2-t41": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu có thể chấp nhận cả 'provided' và 'had provided' vì không có chỉ định thời gian, nên có hai đáp án đúng.",
+      "fix": {
+        "sentence": "If only the government _____ better support for newcomers now, integration would be easier.",
+        "options": [
+          "provided",
+          "provides",
+          "had provided",
+          "providing"
+        ],
+        "answer": "provided"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu có thể dùng 'knew' hoặc 'had known' vì không chỉ thời gian, dẫn tới hai đáp án có thể chấp nhận.",
+      "fix": {
+        "sentence": "If only I _____ how to navigate the legal system right now, I wouldn't feel so lost.",
+        "options": [
+          "knew",
+          "know",
+          "had known",
+          "knowing"
+        ],
+        "answer": "knew"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Không có chỉ thời gian, nên 'wish' và 'wished' đều hợp lý.",
+      "fix": {
+        "sentence": "They _____ the city had more cultural events for immigrants last year.",
+        "options": [
+          "wish",
+          "wished",
+          "wishes",
+          "wishing"
+        ],
+        "answer": "wished"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu có thể điền 'wish' hoặc 'wished' vì không có chỉ thời gian, tạo ra hai đáp án đúng.",
+      "fix": {
+        "sentence": "I _____ I had saved more money before moving abroad, so I could travel comfortably now.",
+        "answer": "wish"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu có thể chấp nhận 'provided' hoặc 'had provided' vì không chỉ thời gian, dẫn tới đa nghĩa.",
+      "fix": {
+        "sentence": "If the government _____ better housing now, many families would stay longer.",
+        "answer": "provided"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu có thể dùng 'knew' hoặc 'had known' vì không có chỉ thời gian, gây đa nghĩa.",
+      "fix": {
+        "sentence": "If only I _____ how to file the paperwork correctly right now.",
+        "answer": "knew"
+      }
+    }
+  ],
+  "b2-t42": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu này có thể chấp nhận cả \"agreed to\" và \"decided\" vì cả hai đều hợp ngữ pháp và phù hợp với ngữ cảnh, nên có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "The committee ___ to increase funding for shelters, even though they had no authority to decide.",
+        "options": [
+          "agreed",
+          "agreed to",
+          "decided",
+          "planned"
+        ],
+        "answer": "agreed to"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu này cho phép cả \"expect\" và \"expected to\" vì không có chỉ thời gian rõ ràng, nên có hai đáp án có thể đúng.",
+      "fix": {
+        "sentence": "Last year, they ___ to receive assistance next month.",
+        "options": [
+          "expect",
+          "expected",
+          "expected to",
+          "expects"
+        ],
+        "answer": "expected to"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu này có thể dùng \"suggested\" hoặc \"suggest\" vì không có chỉ thời gian, nên có hai đáp án đúng.",
+      "fix": {
+        "sentence": "Last month, local leaders ___ increasing public awareness about poverty.",
+        "options": [
+          "suggest",
+          "suggested",
+          "suggested to",
+          "suggests"
+        ],
+        "answer": "suggested"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu \"Many citizens ___ to fund the new library\" có thể điền \"agree\" hoặc \"expect\" đều hợp lý, vì không có yếu tố nào làm một trong hai trở nên duy nhất.",
+      "fix": {
+        "sentence": "Many citizens unanimously ___ to fund the new library.",
+        "answer": "agree"
+      }
+    }
+  ],
+  "b2-t43": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu này cho phép cả \"could have\" và \"should have\" vì không có thông tin nào chỉ ra rằng chính phủ được mong đợi phải tăng ngân sách.",
+      "fix": {
+        "sentence": "The government _____ increased funding for education last year, as was expected, but it didn't.",
+        "options": [
+          "could have",
+          "must have",
+          "should have",
+          "can't have"
+        ],
+        "answer": "should have"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Không có thông tin nào khẳng định người nghe chắc chắn đã biết hậu quả, vì vậy \"must have\" và \"can't have\" đều có thể đúng.",
+      "fix": {
+        "sentence": "You _____ known the consequences of censoring free speech, given your background in law.",
+        "options": [
+          "might have",
+          "can't have",
+          "must have",
+          "should have"
+        ],
+        "answer": "must have"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu không cung cấp lý do khiến \"can't have\" là đáp án duy nhất; \"could have\" và \"should have\" cũng hợp lý.",
+      "fix": {
+        "sentence": "They _____ ignored the protest, since the police would not have intervened otherwise.",
+        "options": [
+          "should have",
+          "could have",
+          "can't have",
+          "must have"
+        ],
+        "answer": "can't have"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Không có thông tin nào chỉ ra rằng người nói chỉ có khả năng (could have) chứ không phải là mong đợi (should have) hay không thể (can't have).",
+      "fix": {
+        "sentence": "I _____ taken the train, had I wanted, but I chose to drive.",
+        "options": [
+          "must have",
+          "could have",
+          "should have",
+          "can't have"
+        ],
+        "answer": "could have"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu không cho biết liệu ủy ban đã làm hay chưa, vì vậy \"should have\", \"could have\", \"might have\"… đều có thể đúng.",
+      "fix": {
+        "sentence": "The committee _____ approved the proposal before the deadline, as was required.",
+        "answer": "should have"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu điều kiện cho phép cả \"could have\" và \"would have\" vì không có yếu tố nào loại trừ một trong hai.",
+      "fix": {
+        "sentence": "If we had known earlier, we _____ taken different action, had we had the opportunity.",
+        "answer": "could have"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu không cung cấp đủ ngữ cảnh để phân biệt \"might have\" với các modal khác như \"could have\" hay \"should have\".",
+      "fix": {
+        "sentence": "He _____ been more careful, as the evidence shows, but he didn't realize the risk.",
+        "answer": "must have"
+      }
+    }
+  ],
+  "b2-t44": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu này không đủ thông tin để xác định đáp án duy nhất vì cả “far more” và “twice as much” đều hợp lý.",
+      "fix": {
+        "sentence": "The new policy will cost _____ than the previous one, if it is set at double the price.",
+        "options": [
+          "far more",
+          "twice as much",
+          "as much",
+          "less"
+        ],
+        "answer": "twice as much"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Không có dữ liệu cho biết mức tăng là bao nhiêu, nên “far more” và “as much” (hoặc “less”) đều có thể đúng.",
+      "fix": {
+        "sentence": "Women now earn _____ than they did ten years ago, according to recent wage gap studies showing a large increase.",
+        "options": [
+          "as much",
+          "far more",
+          "twice as many",
+          "less"
+        ],
+        "answer": "far more"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Không có thông tin cụ thể về mức tăng, vì vậy “twice as large” và “far more” đều có thể đúng.",
+      "fix": {
+        "sentence": "The city’s elderly population is _____ as it was in 1990, having doubled over the past three decades.",
+        "options": [
+          "twice as large",
+          "far more",
+          "as large",
+          "smaller"
+        ],
+        "answer": "twice as large"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu không chỉ ra mức tăng cụ thể, nên “far more” và “twice as much” đều có thể được chấp nhận.",
+      "fix": {
+        "sentence": "Retirement savings need to be _____ to cover rising healthcare costs, if they are to be exactly double the current amount.",
+        "options": [
+          "far more",
+          "twice as much",
+          "as much",
+          "less"
+        ],
+        "answer": "twice as much"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Không có thông tin cho biết mức tăng, vì vậy “twice as many” và “far more” đều hợp lý.",
+      "fix": {
+        "sentence": "Volunteers contribute _____ hours than they did last year, having doubled their total time.",
+        "options": [
+          "as many",
+          "twice as many",
+          "far more",
+          "less"
+        ],
+        "answer": "twice as many"
+      }
+    }
+  ],
+  "b2-t45": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có thể chấp nhận cả \"however\" và \"moreover\"/\"furthermore\" vì không có sự tương phản rõ ràng giữa hai mệnh đề.",
+      "fix": {
+        "sentence": "The city has a high cost of living; _____, the public transport system is affordable.",
+        "options": [
+          "moreover",
+          "however",
+          "furthermore",
+          "on the other hand"
+        ],
+        "answer": "however"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu có thể chấp nhận cả \"moreover\" và \"however\" vì không có sự tương phản rõ ràng giữa hai mệnh đề.",
+      "fix": {
+        "sentence": "She completed her degree with top marks; _____, she decided to travel before starting her career.",
+        "options": [
+          "on the other hand",
+          "however",
+          "moreover",
+          "furthermore"
+        ],
+        "answer": "however"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu có thể chấp nhận cả \"furthermore\" và \"moreover\" vì cả hai đều biểu thị ý nghĩa bổ sung.",
+      "fix": {
+        "sentence": "The study confirmed the hypothesis; _____, it failed to explain the observed anomalies.",
+        "options": [
+          "however",
+          "on the other hand",
+          "moreover",
+          "furthermore"
+        ],
+        "answer": "however"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu có thể chấp nhận cả \"on the other hand\" và \"however\" vì cả hai đều biểu thị sự tương phản.",
+      "fix": {
+        "sentence": "The proposal reduces emissions; _____, it increases production costs for manufacturers.",
+        "options": [
+          "furthermore",
+          "however",
+          "on the other hand",
+          "moreover"
+        ],
+        "answer": "however"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu có thể chấp nhận cả \"moreover\" và \"furthermore\" vì cả hai đều biểu thị ý nghĩa bổ sung.",
+      "fix": {
+        "sentence": "He enjoys classical music; _____, he dislikes jazz and rock.",
+        "options": [
+          "however",
+          "moreover",
+          "on the other hand",
+          "furthermore"
+        ],
+        "answer": "however"
+      }
+    }
+  ],
+  "b2-t46": [
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu này có thể chấp nhận cả \"had been revised\" và \"had been changed\" vì cả hai đều hợp lý với ngữ cảnh, nên có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "If the sentencing guidelines _____, the revised version would have forced judges to follow stricter rules.",
+        "answer": "had been revised"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu này cho phép cả \"had been investigated\" và \"had been presented\" vì cả hai đều có thể làm cho vụ án được giải quyết nhanh hơn, nên không duy nhất.",
+      "fix": {
+        "sentence": "If the forensic evidence _____ in the lab, the case would have been solved faster.",
+        "answer": "had been investigated"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu này có thể điền \"had been changed\" hoặc \"had been revised\" vì cả hai đều hợp lý với việc giám sát nghiêm ngặt hơn, nên có nhiều đáp án đúng.",
+      "fix": {
+        "sentence": "If the early release policy _____, the revised guidelines would have required closer monitoring of offenders.",
+        "answer": "had been revised"
+      }
+    }
+  ],
+  "b2-t47": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có nhiều đáp án đúng vì cả 'asked if' và 'asked whether' (hoặc 'wanted to know if') đều hợp ngữ pháp và phù hợp với nghĩa.",
+      "fix": {
+        "sentence": "The CEO _____ whether the quarterly report had been submitted on time, but he did not ask anyone directly.",
+        "options": [
+          "asked if",
+          "wanted to know what",
+          "asked whether",
+          "wanted to know if"
+        ],
+        "answer": "wanted to know if"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu có nhiều đáp án đúng vì 'wanted to know what' và 'asked what' đều có thể dùng cho câu này.",
+      "fix": {
+        "sentence": "She _____ what the new hiring policy includes, because she was reading the document herself.",
+        "options": [
+          "asked if",
+          "wanted to know what",
+          "asked what",
+          "wanted to know if"
+        ],
+        "answer": "wanted to know what"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu có nhiều đáp án đúng vì 'asked if' và 'wanted to know if' đều phù hợp.",
+      "fix": {
+        "sentence": "They _____ if the office could reopen next month, since they did not approach the manager directly.",
+        "options": [
+          "wanted to know what",
+          "asked if",
+          "asked what",
+          "wanted to know if"
+        ],
+        "answer": "wanted to know if"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu có nhiều đáp án đúng vì 'wanted to know what' và 'asked what' đều đúng ngữ pháp.",
+      "fix": {
+        "sentence": "He _____ what the employees expect from the training program, as he was reviewing the survey results.",
+        "options": [
+          "asked if",
+          "wanted to know what",
+          "asked what",
+          "wanted to know if"
+        ],
+        "answer": "wanted to know what"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu có nhiều đáp án đúng vì 'asked if' và 'wanted to know if' đều có thể dùng.",
+      "fix": {
+        "sentence": "The manager _____ whether the team had understood the new software, because he did not ask them in person.",
+        "options": [
+          "asked if",
+          "wanted to know what",
+          "asked what",
+          "wanted to know if"
+        ],
+        "answer": "wanted to know if"
+      }
+    }
+  ],
+  "b2-t48": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu này cho phép cả hai đáp án \"have\" và \"take\" vì cả hai đều có thể đi với \"a break\".",
+      "fix": {
+        "sentence": "We _____ a coffee after two hours of studying.",
+        "options": [
+          "do",
+          "make",
+          "have",
+          "take"
+        ],
+        "answer": "have"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu này chấp nhận cả \"make\" và \"take\" (\"take a decision\" là cách diễn đạt được dùng).",
+      "fix": {
+        "sentence": "He _____ a choice to quit smoking.",
+        "options": [
+          "do",
+          "have",
+          "make",
+          "take"
+        ],
+        "answer": "make"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu này cho phép cả \"take\" và \"have\" (\"have a look\" và \"take a look\" đều đúng).",
+      "fix": {
+        "sentence": "You _____ a picture of the schedule before the meeting.",
+        "options": [
+          "do",
+          "have",
+          "make",
+          "take"
+        ],
+        "answer": "take"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu này có thể đi với cả \"make\" và \"take\" (\"take a decision\" là cách nói được chấp nhận).",
+      "fix": {
+        "sentence": "She _____ a choice to study abroad.",
+        "answer": "make"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu này cho phép cả \"have\" và \"do\" (\"do regular check-ups\" là cách diễn đạt được dùng).",
+      "fix": {
+        "sentence": "They _____ regular appointments with their doctor.",
+        "answer": "have"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu này cho phép cả \"take\" và \"have\" (\"have a break\" và \"take a break\" đều đúng).",
+      "fix": {
+        "sentence": "He _____ a pause during the long lecture.",
+        "answer": "take"
+      }
+    }
+  ],
+  "b2-t49": [
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 1,
+      "problem": "Câu có thể sắp xếp thành hai câu đúng ngữ pháp: \"industrial pollution has increased recently\" và \"industrial pollution has recently increased\" nên có hơn một đáp án hợp lệ.",
+      "fix": {
+        "words": [
+          "industrial",
+          "pollution",
+          "has",
+          "increased",
+          "last year"
+        ],
+        "answer": "industrial pollution has increased last year"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu \"International _____ of renewable energy is accelerating worldwide.\" có thể điền được cả \"development\" và \"growth\" mà vẫn hợp ngữ pháp và có nghĩa, vì cả hai đều thường dùng với cụm \"renewable energy\".",
+      "fix": {
+        "sentence": "International _____ of renewable energy is being funded by banks.",
+        "answer": "development"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu \"Wildlife _____ in protected areas has shown positive trends.\" có thể điền được \"conservation\" hoặc \"growth\" mà vẫn đúng ngữ pháp và có nghĩa, vì cả hai đều mô tả hiện tượng trong khu bảo tồn.",
+      "fix": {
+        "sentence": "Wildlife _____ programs in protected areas have shown positive trends.",
+        "answer": "conservation"
+      }
+    }
+  ],
+  "b2-t50": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu không có chỉ thời gian, nên cả \"It is\" và \"It was\" đều có thể đúng về mặt ngữ pháp.",
+      "fix": {
+        "sentence": "_____ crucial to provide green spaces in rapidly expanding urban areas now.",
+        "options": [
+          "It is",
+          "It are",
+          "It was",
+          "It will"
+        ],
+        "answer": "It is"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Các từ \"important\", \"essential\", \"necessary\" đều có thể điền vào chỗ trống, vì không có thông tin nào làm một trong số chúng trở nên duy nhất.",
+      "fix": {
+        "sentence": "_____ that the city invests in renewable energy to meet future demand, because otherwise the city will not meet its legally binding carbon reduction targets.",
+        "answer": "essential"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Không có tiêu chí nào khiến \"important\" là đáp án duy nhất; \"essential\" hoặc \"crucial\" cũng hợp lý.",
+      "fix": {
+        "sentence": "_____ that affordable housing remains a priority for local authorities, given the severe shortage of homes.",
+        "answer": "essential"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "\"Necessary\" không phải là đáp án duy nhất vì \"essential\" hoặc \"important\" cũng có thể dùng được.",
+      "fix": {
+        "sentence": "_____ that public transport is expanded to reduce carbon emissions, as it is legally required.",
+        "answer": "necessary"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "\"Crucial\" không độc nhất vì \"essential\" hoặc \"important\" cũng phù hợp trong ngữ cảnh này.",
+      "fix": {
+        "sentence": "_____ that green belts are protected from urban sprawl, as they are essential for maintaining ecological balance.",
+        "answer": "essential"
+      }
+    }
+  ],
+  "b2-t51": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu này không có thông tin nào khiến một động từ hedging duy nhất đúng; cả \"appears\", \"tends\" và \"seems\" đều hợp lý.",
+      "fix": {
+        "sentence": "The article _____ to exaggerate the impact of the study, as it consistently overstates the findings.",
+        "options": [
+          "appears",
+          "tends",
+          "seems",
+          "does"
+        ],
+        "answer": "tends"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Không có tiêu chí nào để phân biệt giữa \"tend\", \"seems\" và \"appears\"; các đáp án đều có thể đúng.",
+      "fix": {
+        "sentence": "The typical user _____ to think the platform is unbiased, based on repeated survey responses.",
+        "options": [
+          "tend",
+          "must",
+          "seems",
+          "appears"
+        ],
+        "answer": "tend"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu không đưa ra yếu tố nào khiến một trong các động từ \"looks\", \"seem\", \"appear\", \"tend\" là duy nhất đúng; nhiều đáp án đều hợp lý.",
+      "fix": {
+        "sentence": "According to the evidence, the report _____ suggest that the policy will work.",
+        "options": [
+          "appears",
+          "seem",
+          "looks",
+          "tend"
+        ],
+        "answer": "appears"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Không có thông tin để quyết định giữa \"appear\", \"tend\" và \"seem\"; các đáp án đều có thể chấp nhận được.",
+      "fix": {
+        "sentence": "Experts often _____ claim that the data is reliable.",
+        "options": [
+          "must",
+          "appear",
+          "tend",
+          "seem"
+        ],
+        "answer": "tend"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu không cung cấp yếu tố nào để làm cho một trong các động từ \"tend\", \"seem\", \"looks\", \"appear\" là duy nhất đúng; nhiều đáp án đều hợp lý.",
+      "fix": {
+        "sentence": "The headline _____ give the impression that the story is confirmed, as it uses definitive language.",
+        "options": [
+          "appears",
+          "seems",
+          "looks",
+          "tends"
+        ],
+        "answer": "appears"
+      }
+    }
+  ],
+  "b2-t52": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu không cung cấp thông tin nào để phân biệt giữa các lựa chọn; nhiều cụm như \"It is claimed\", \"It is suggested\", \"It is believed\" đều có thể đúng.",
+      "fix": {
+        "sentence": "_____ that companies gather personal data without consent, according to official statistics.",
+        "options": [
+          "It is claimed",
+          "It is suggested",
+          "It is known",
+          "It is believed"
+        ],
+        "answer": "It is known"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Không có tiêu chí nào để xác định duy nhất một trong các lựa chọn; \"It is reported\", \"It is claimed\", \"It is alleged\", \"It is assumed\" đều có thể phù hợp.",
+      "fix": {
+        "sentence": "_____ that the right to privacy is a human value, not just a legal matter, according to the UN Declaration on Human Rights.",
+        "options": [
+          "It is reported",
+          "It is claimed",
+          "It is alleged",
+          "It is assumed"
+        ],
+        "answer": "It is reported"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu không đưa ra bằng chứng cụ thể, vì vậy \"It is said\", \"It is claimed\", \"It is expected\" đều có thể dùng được.",
+      "fix": {
+        "sentence": "_____ that data leaks can result in identity theft, as demonstrated by recent studies.",
+        "options": [
+          "It is said",
+          "It is claimed",
+          "It is proven",
+          "It is expected"
+        ],
+        "answer": "It is proven"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Không có thông tin để quyết định duy nhất giữa \"believed\", \"claimed\", \"reported\", \"suggested\".",
+      "fix": {
+        "sentence": "_____ that governments must regulate data collection practices, according to the new privacy legislation draft.",
+        "options": [
+          "It is believed",
+          "It is claimed",
+          "It is reported",
+          "It is suggested"
+        ],
+        "answer": "It is reported"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu không cung cấp dữ liệu để xác định duy nhất một lựa chọn; \"claimed\", \"known\", \"suggested\", \"reported\" đều có thể đúng.",
+      "fix": {
+        "sentence": "_____ that tracking allows companies to target advertising with extraordinary precision, as shown by industry research.",
+        "options": [
+          "It is claimed",
+          "It is known",
+          "It is suggested",
+          "It is reported"
+        ],
+        "answer": "It is known"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Nhiều từ trong word bank (claimed, reported, said, suggested, believed, expected) đều có thể điền vào chỗ trống, vì câu không có ràng buộc nào.",
+      "fix": {
+        "sentence": "_____ that personal data can be sold without users' consent, according to an activist's statement.",
+        "answer": "claimed"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu không cung cấp ngữ cảnh để xác định duy nhất một từ trong word bank.",
+      "fix": {
+        "sentence": "_____ that governments should enforce stricter privacy laws, in the latest government briefing.",
+        "answer": "reported"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Không có chỉ dẫn nào để chọn một từ duy nhất; \"said\", \"claimed\", \"reported\" đều có thể phù hợp.",
+      "fix": {
+        "sentence": "_____ that knowing you are watched changes behavior, as experts have said.",
+        "answer": "said"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu không có thông tin để làm cho một từ duy nhất trong word bank là đáp án đúng.",
+      "fix": {
+        "sentence": "_____ that companies often track users across websites, as a recommendation.",
+        "answer": "suggested"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Không có tiêu chí để xác định duy nhất một trong các từ (claimed, reported, said, suggested, believed, expected).",
+      "fix": {
+        "sentence": "_____ that privacy is a fundamental human right, by most scholars.",
+        "answer": "believed"
+      }
+    }
+  ],
+  "b2-t53": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu không có chỉ thời gian, vì vậy cả \"will be stored\" (tương lai) và \"is stored\" (hiện tại) đều có thể đúng.",
+      "fix": {
+        "sentence": "All user data _____ in the new system next year.",
+        "options": [
+          "will store",
+          "will be stored",
+          "is stored",
+          "has been stored"
+        ],
+        "answer": "will be stored"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 1,
+      "problem": "Các từ có thể sắp xếp thành hai câu đúng ngữ pháp: \"Many jobs will be replaced by robots soon\" và \"Many jobs will be replaced soon by robots\"; vì vậy có hơn một đáp án hợp lệ.",
+      "fix": {
+        "words": [
+          "Many",
+          "jobs",
+          "will",
+          "be",
+          "replaced",
+          "by",
+          "robots",
+          "because",
+          "they",
+          "are",
+          "cheap"
+        ],
+        "answer": "Many jobs will be replaced by robots because they are cheap"
+      }
+    }
+  ],
+  "b2-t54": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có hai đáp án đúng (leads to và results in) vì cả hai đều diễn tả quan hệ nguyên nhân‑kết quả.",
+      "fix": {
+        "sentence": "Traffic congestion ___ increased pollution levels in the city.",
+        "options": [
+          "leads to",
+          "prevents",
+          "is caused by",
+          "reduces"
+        ],
+        "answer": "leads to"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu có hai đáp án đúng (results in và causes) vì cả hai đều mô tả nguyên nhân‑kết quả.",
+      "fix": {
+        "sentence": "The lack of green spaces ___ higher temperatures during summer.",
+        "options": [
+          "prevents",
+          "results in",
+          "is caused by",
+          "reduces"
+        ],
+        "answer": "results in"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu có hai đáp án đúng (leads to và is caused by) vì cả hai đều hợp lý cho mối quan hệ nêu ra.",
+      "fix": {
+        "sentence": "A sense of insecurity among residents ___ high crime rates.",
+        "options": [
+          "leads to",
+          "prevents",
+          "results in",
+          "eliminates"
+        ],
+        "answer": "leads to"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu có hai đáp án đúng (results in và leads to) vì cả hai đều diễn tả nguyên nhân‑kết quả.",
+      "fix": {
+        "sentence": "Poor waste management ___ health problems in the neighbourhood.",
+        "options": [
+          "prevents",
+          "results in",
+          "is caused by",
+          "reduces"
+        ],
+        "answer": "results in"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Hai đáp án (leads to và results in) đều phù hợp với câu gốc, gây mơ hồ cho người học.",
+      "fix": {
+        "sentence": "A reduction in car usage ___ increasing the number of bike lanes.",
+        "answer": "is caused by"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Hai đáp án (results in và leads to) đều đúng cho câu gốc, không có đáp án duy nhất.",
+      "fix": {
+        "sentence": "Higher risk of infrastructure failure ___ neglecting maintenance.",
+        "answer": "is caused by"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Hai đáp án (is caused by và caused by) đều có thể chấp nhận được, gây mơ hồ.",
+      "fix": {
+        "sentence": "A lack of affordable housing ___ the rise in homelessness.",
+        "answer": "leads to"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Ba đáp án (contribute to, leads to, results in) đều phù hợp, không có đáp án duy nhất.",
+      "fix": {
+        "sentence": "Better teamwork ___ effective communication.",
+        "answer": "is caused by"
+      }
+    }
+  ],
+  "b2-t55": [
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Không có thông tin nào giới hạn lựa chọn, nên nhiều cụm trong ngân hàng có thể điền được.",
+      "fix": {
+        "sentence": "It _____, according to opinion polls, that the new policy will reduce carbon emissions.",
+        "answer": "is believed"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Không có chỉ định rõ ràng, nên \"has been confirmed\" và \"is believed\" đều có thể dùng.",
+      "fix": {
+        "sentence": "It _____ by the original researchers that the laboratory results were duplicated by another team.",
+        "answer": "has been confirmed"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Không có ngữ cảnh ràng buộc, nên nhiều lựa chọn trong ngân hàng đều phù hợp.",
+      "fix": {
+        "sentence": "It _____ in the rumor mill that the scientist received the award for her breakthrough.",
+        "answer": "is said"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu không cung cấp đủ thông tin để loại trừ các cụm khác trong ngân hàng.",
+      "fix": {
+        "sentence": "It _____ in the review committee's official statement that the data analysis was flawed, according to the review committee.",
+        "answer": "has been reported"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Không có chỉ định nào khiến các cụm khác trong ngân hàng trở nên không hợp lý.",
+      "fix": {
+        "sentence": "It _____ in the recent symposium that the theory will be revised after further testing.",
+        "answer": "is argued"
+      }
+    }
+  ],
+  "b2-t56": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có nhiều đáp án đúng vì cả “In terms of” và “With regard to” đều có thể dùng để nói về sức khỏe.",
+      "fix": {
+        "sentence": "_____ health experts, excessive screen time can affect sleep quality.",
+        "options": [
+          "In spite of",
+          "According to",
+          "In terms of",
+          "With regard to"
+        ],
+        "answer": "According to"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu có nhiều đáp án đúng vì “In terms of” và “With regard to” đều hợp lý khi nói về giáo dục.",
+      "fix": {
+        "sentence": "_____ education researchers, digital tools can enhance learning when used responsibly.",
+        "options": [
+          "In spite of",
+          "With regard to",
+          "According to",
+          "In terms of"
+        ],
+        "answer": "According to"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu có nhiều đáp án đúng vì “In terms of” và “With regard to” đều có thể dùng cho môi trường.",
+      "fix": {
+        "sentence": "_____ environmental reports, the production of electronic devices has a carbon footprint.",
+        "options": [
+          "In spite of",
+          "In terms of",
+          "According to",
+          "With regard to"
+        ],
+        "answer": "According to"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu có nhiều đáp án đúng vì “In terms of” và “With regard to” đều phù hợp khi nói về kiểm soát phụ huynh.",
+      "fix": {
+        "sentence": "_____ parental control guidelines, setting screen limits helps children develop better habits.",
+        "options": [
+          "In terms of",
+          "With regard to",
+          "According to",
+          "In spite of"
+        ],
+        "answer": "According to"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu có nhiều đáp án đúng vì “With regard to” và “According to” đều có thể dùng với “the study”.",
+      "fix": {
+        "sentence": "_____ the study, participants reported lower stress after reducing notifications.",
+        "options": [
+          "In spite of",
+          "With regard to",
+          "In terms of",
+          "According to"
+        ],
+        "answer": "According to"
+      }
+    }
+  ],
+  "b2-t57": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu này có thể chấp nhận cả “invested” (quá khứ đơn) lẫn “had invested” (quá khứ hoàn thành) vì không có yếu tố nào làm cho dạng quá khứ đơn trở nên sai.",
+      "fix": {
+        "sentence": "If the company _______ (invest) in digital tools last year, it would be more competitive now (but it didn't).",
+        "options": [
+          "invested",
+          "invests",
+          "had invested",
+          "will invest"
+        ],
+        "answer": "had invested"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu này có thể chấp nhận cả “adapted” (quá khứ đơn) lẫn “had adapted” (quá khứ hoàn thành) vì không có yếu tố nào làm cho dạng quá khứ đơn trở nên sai.",
+      "fix": {
+        "sentence": "If workers _______ (adapt) to automation earlier, they would not be facing job losses today (but they didn't).",
+        "options": [
+          "adapted",
+          "had adapted",
+          "have adapted",
+          "will adapt"
+        ],
+        "answer": "had adapted"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu này có thể chấp nhận cả “regulated” (quá khứ đơn) lẫn “had regulated” (quá khứ hoàn thành) vì không có yếu tố nào làm cho dạng quá khứ đơn trở nên sai.",
+      "fix": {
+        "sentence": "If the government _______ (regulate) remote work, employees would have clearer rights now (but it didn't).",
+        "options": [
+          "regulated",
+          "had regulated",
+          "regulates",
+          "will regulate"
+        ],
+        "answer": "had regulated"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu này có thể chấp nhận cả “shared” (quá khứ đơn) lẫn “had shared” (quá khứ hoàn thành) vì không có yếu tố nào làm cho dạng quá khứ đơn trở nên sai.",
+      "fix": {
+        "sentence": "If the platform _______ (share) profits more fairly, freelancers would feel more secure now (but it didn't).",
+        "options": [
+          "shared",
+          "had shared",
+          "shares",
+          "will share"
+        ],
+        "answer": "had shared"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu này có thể chấp nhận cả “accelerated” (quá khứ đơn) lẫn “had accelerated” (quá khứ hoàn thành) vì không có yếu tố nào làm cho dạng quá khứ đơn trở nên sai.",
+      "fix": {
+        "sentence": "If the pandemic _______ (accelerate) digital adoption, many businesses would already be fully remote now (but it didn't).",
+        "options": [
+          "accelerated",
+          "had accelerated",
+          "has accelerated",
+          "will accelerate"
+        ],
+        "answer": "had accelerated"
+      }
+    }
+  ],
+  "b2-t58": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu này có thể chấp nhận cả các liên từ although, while, even though và despite the fact that vì không có thông tin nào làm cho một trong số chúng là duy nhất.",
+      "fix": {
+        "sentence": "_____ the fact that the project was risky, the team proceeded.",
+        "options": [
+          "although",
+          "while",
+          "even though",
+          "despite the fact that"
+        ],
+        "answer": "despite the fact that"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu này có thể chấp nhận cả các liên từ while, even though, although và despite the fact that vì không có thông tin nào làm cho một trong số chúng là duy nhất.",
+      "fix": {
+        "sentence": "_____ the fact that she felt nervous, she gave a confident presentation.",
+        "options": [
+          "while",
+          "even though",
+          "although",
+          "despite the fact that"
+        ],
+        "answer": "despite the fact that"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu này có thể chấp nhận cả các liên từ despite the fact that, while, although và even though vì không có thông tin nào làm cho một trong số chúng là duy nhất.",
+      "fix": {
+        "sentence": "_____ the fact that the weather was cold, the hikers enjoyed the trek.",
+        "options": [
+          "despite the fact that",
+          "while",
+          "although",
+          "even though"
+        ],
+        "answer": "despite the fact that"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu này có thể chấp nhận cả các liên từ while, although, even though và despite the fact that vì không có thông tin nào làm cho một trong số chúng là duy nhất.",
+      "fix": {
+        "sentence": "_____ the fact that he was inexperienced, he performed well.",
+        "options": [
+          "while",
+          "although",
+          "even though",
+          "despite the fact that"
+        ],
+        "answer": "despite the fact that"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu này có thể chấp nhận cả các liên từ even though, while, although và despite the fact that vì không có thông tin nào làm cho một trong số chúng là duy nhất.",
+      "fix": {
+        "sentence": "_____ the fact that they had limited resources, the project succeeded.",
+        "options": [
+          "even though",
+          "while",
+          "although",
+          "despite the fact that"
+        ],
+        "answer": "despite the fact that"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu này có thể chấp nhận nhiều liên từ (although, even though, while, despite the fact that, even when) vì không có yếu tố nào làm cho một trong số chúng là duy nhất.",
+      "fix": {
+        "sentence": "_____ the fact that the evidence was inconclusive, the jury reached a verdict quickly.",
+        "answer": "despite the fact that"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu này có thể chấp nhận nhiều liên từ (although, even though, while, despite the fact that, even when) vì không có yếu tố nào làm cho một trong số chúng là duy nhất.",
+      "fix": {
+        "sentence": "_____ the fact that he had no prior experience, he was hired for the role.",
+        "answer": "despite the fact that"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu này có thể chấp nhận nhiều liên từ (although, even though, while, despite the fact that, even when) vì không có yếu tố nào làm cho một trong số chúng là duy nhất.",
+      "fix": {
+        "sentence": "_____ the fact that the costs are high, the company decided to invest.",
+        "answer": "despite the fact that"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu này có thể chấp nhận nhiều liên từ (although, even though, while, despite the fact that, even when) vì không có yếu tố nào làm cho một trong số chúng là duy nhất.",
+      "fix": {
+        "sentence": "_____ the fact that it is raining, the outdoor event will go ahead.",
+        "answer": "despite the fact that"
+      }
+    }
+  ],
+  "b2-t59": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu có nhiều đáp án có thể đúng vì cả “well‑known” và “widely‑used” (hoặc “low‑cost”) đều hợp lý với thông tin được đưa ra.",
+      "fix": {
+        "sentence": "These _____ smartphones are famous for their brand names and dominate the global market.",
+        "options": [
+          "fast-growing",
+          "well-known",
+          "widely-used",
+          "low-cost"
+        ],
+        "answer": "well-known"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu không đủ thông tin để xác định duy nhất “fast‑growing”; “well‑known” cũng có thể phù hợp với việc thu hút khách du lịch.",
+      "fix": {
+        "sentence": "The city’s _____ tourism industry has grown rapidly in recent years, attracting millions of visitors each year.",
+        "options": [
+          "well-known",
+          "fast-growing",
+          "widely-used",
+          "new‑age"
+        ],
+        "answer": "fast-growing"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu cho phép cả “well‑known” và “high‑profile” làm đáp án vì cả hai đều có thể giải thích được danh tiếng của cô ấy.",
+      "fix": {
+        "sentence": "Her _____ reputation for expertise in the field made her a sought‑after speaker.",
+        "options": [
+          "widely-used",
+          "well-known",
+          "fast-growing",
+          "high‑profile"
+        ],
+        "answer": "well-known"
+      }
+    }
+  ],
+  "b2-t60": [
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 1,
+      "problem": "Câu có thể sắp xếp thành hai câu đúng ngữ pháp: \"We might consider alternative explanations\" (câu khẳng định) hoặc \"Might we consider alternative explanations\" (câu hỏi). Vì không có chỉ dẫn nào loại trừ dạng câu hỏi, nên có hơn một đáp án hợp lệ.",
+      "fix": {
+        "words": [
+          "We",
+          "might",
+          "definitely",
+          "consider",
+          "alternative",
+          "explanations"
+        ],
+        "answer": "We might definitely consider alternative explanations"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu \"We _____ discuss the implications of these findings.\" có thể điền được cả \"might\" và \"tentatively\" mà vẫn đúng ngữ pháp và nghĩa, vì cả hai đều là từ trong ngân hàng và đều biểu đạt mức độ không chắc chắn.",
+      "fix": {
+        "sentence": "We will _____ discuss the implications of these findings.",
+        "answer": "tentatively"
+      }
+    }
+  ]
+}

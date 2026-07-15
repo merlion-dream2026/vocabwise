@@ -892,8 +892,16 @@
         },
         {
           "id": 4,
-          "sentence": "She likes coffee _____ tea.",
-          "answer": "and"
+          "sentence": "She likes both coffee _____ tea.",
+          "answer": "and",
+          "options": [
+            "both",
+            "either",
+            "neither",
+            "and",
+            "or",
+            "but"
+          ]
         },
         {
           "id": 5,

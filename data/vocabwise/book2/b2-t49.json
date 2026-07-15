@@ -820,9 +820,9 @@
             "pollution",
             "has",
             "increased",
-            "recently"
+            "last year"
           ],
-          "answer": "industrial pollution has increased recently"
+          "answer": "industrial pollution has increased last year"
         },
         {
           "id": 2,
@@ -866,12 +866,12 @@
         },
         {
           "id": 2,
-          "sentence": "International _____ of renewable energy is accelerating worldwide.",
+          "sentence": "International _____ of renewable energy is being funded by banks.",
           "answer": "development"
         },
         {
           "id": 3,
-          "sentence": "Wildlife _____ in protected areas has shown positive trends.",
+          "sentence": "Wildlife _____ programs in protected areas have shown positive trends.",
           "answer": "conservation"
         },
         {

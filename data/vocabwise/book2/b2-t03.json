@@ -803,7 +803,7 @@
         },
         {
           "id": 3,
-          "sentence": "Patients _____ the results of the test.",
+          "sentence": "Patients _____ the results of the test every month.",
           "options": [
             "were given",
             "are given",
@@ -848,9 +848,9 @@
             "diagnosis",
             "the",
             "is",
-            "A"
+            "the"
           ],
-          "answer": "A diagnosis is made by the doctor"
+          "answer": "The diagnosis is made by the doctor"
         },
         {
           "id": 2,
@@ -859,23 +859,21 @@
             "referred",
             "was",
             "patient",
-            "a",
+            "the",
             "to",
             "The"
           ],
-          "answer": "The patient was referred to a specialist"
+          "answer": "The patient was referred to the specialist"
         },
         {
           "id": 3,
           "words": [
             "administered",
-            "worldwide",
             "are",
-            "children",
             "Vaccines",
-            "to"
+            "worldwide"
           ],
-          "answer": "Vaccines are administered to children worldwide"
+          "answer": "Vaccines are administered worldwide"
         }
       ]
     },
@@ -892,7 +890,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The flu _____ by the doctor last week.",
+          "sentence": "The flu _____ by the doctor after the test last week.",
           "answer": "diagnosed"
         },
         {
@@ -902,7 +900,7 @@
         },
         {
           "id": 3,
-          "sentence": "The vaccine _____ to children at school.",
+          "sentence": "The vaccine _____ to children at school safely.",
           "answer": "administered"
         },
         {
@@ -912,7 +910,7 @@
         },
         {
           "id": 5,
-          "sentence": "Chronic diseases _____ with proper medication.",
+          "sentence": "Chronic diseases are _____ when patients follow the treatment plan.",
           "answer": "treated"
         }
       ]

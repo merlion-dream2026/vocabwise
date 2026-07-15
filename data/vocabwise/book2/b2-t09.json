@@ -743,12 +743,12 @@
         },
         {
           "id": 2,
-          "sentence": "Public transport in cities is _____ than in the countryside.",
+          "sentence": "Public transport in cities is usually _____ than in the countryside.",
           "options": [
             "more reliable",
             "less reliable",
             "as reliable",
-            "more frequent"
+            "more expensive"
           ],
           "answer": "more reliable"
         },
@@ -765,14 +765,14 @@
         },
         {
           "id": 4,
-          "sentence": "People in the suburbs have _____ access to parks than those living downtown.",
+          "sentence": "People in the suburbs generally have _____ access to parks than those living downtown.",
           "options": [
+            "less",
             "as much",
             "more",
-            "less",
             "fewer"
           ],
-          "answer": "more"
+          "answer": "less"
         },
         {
           "id": 5,

@@ -820,7 +820,7 @@
         },
         {
           "id": 2,
-          "sentence": "The painting was _____, so everyone talked about it.",
+          "sentence": "The painting was _____, so everyone admired it.",
           "options": [
             "interesting",
             "interested",
@@ -831,14 +831,14 @@
         },
         {
           "id": 3,
-          "sentence": "They were _____ by the gallery's new layout.",
+          "sentence": "They were _____ by the gallery's new layout, which left them speechless.",
           "options": [
             "interested",
             "interesting",
             "bored",
             "amazed"
           ],
-          "answer": "interested"
+          "answer": "amazed"
         },
         {
           "id": 4,
@@ -853,7 +853,7 @@
         },
         {
           "id": 5,
-          "sentence": "He became _____ after seeing the installation.",
+          "sentence": "He became _____ after seeing the installation, because it sparked his curiosity.",
           "options": [
             "interested",
             "interesting",
@@ -917,8 +917,8 @@
       "items": [
         {
           "id": 1,
-          "sentence": "I am _____ about the upcoming art festival.",
-          "answer": "interested"
+          "sentence": "I am _____ for the upcoming art festival.",
+          "answer": "excited"
         },
         {
           "id": 2,
@@ -932,7 +932,7 @@
         },
         {
           "id": 4,
-          "sentence": "The curator found the new collection _____.",
+          "sentence": "The curator found the new collection _____, praising its originality.",
           "answer": "interesting"
         },
         {

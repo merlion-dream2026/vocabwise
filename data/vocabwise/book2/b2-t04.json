@@ -830,28 +830,28 @@
       "items": [
         {
           "id": 1,
-          "sentence": "If the evidence is clear, the suspect _____ arrested.",
-          "answer": "may"
+          "sentence": "If the evidence is clear, the suspect _____ be arrested.",
+          "answer": "must"
         },
         {
           "id": 2,
-          "sentence": "A fine _____ imposed for minor offences.",
-          "answer": "could"
+          "sentence": "A fine _____ be imposed for minor offences.",
+          "answer": "must"
         },
         {
           "id": 3,
           "sentence": "The witness _____ be called to give evidence.",
-          "answer": "may"
+          "answer": "must"
         },
         {
           "id": 4,
-          "sentence": "The penalty _____ increased for repeat offenders.",
-          "answer": "could"
+          "sentence": "The penalty _____ be increased for repeat offenders.",
+          "answer": "must"
         },
         {
           "id": 5,
-          "sentence": "The decision _____ reviewed by a senior judge.",
-          "answer": "may"
+          "sentence": "The decision _____ be reviewed by a senior judge.",
+          "answer": "must"
         }
       ]
     },

@@ -787,14 +787,14 @@
         },
         {
           "id": 2,
-          "sentence": "We _____ a break after two hours of studying.",
+          "sentence": "We _____ a coffee after two hours of studying.",
           "options": [
-            "have",
             "do",
-            "take",
-            "make"
+            "make",
+            "have",
+            "take"
           ],
-          "answer": "take"
+          "answer": "have"
         },
         {
           "id": 3,
@@ -809,7 +809,7 @@
         },
         {
           "id": 4,
-          "sentence": "He _____ a decision to quit smoking.",
+          "sentence": "He _____ a choice to quit smoking.",
           "options": [
             "do",
             "have",
@@ -820,7 +820,7 @@
         },
         {
           "id": 5,
-          "sentence": "You _____ a look at the schedule before the meeting.",
+          "sentence": "You _____ a picture of the schedule before the meeting.",
           "options": [
             "do",
             "have",
@@ -890,12 +890,12 @@
         },
         {
           "id": 2,
-          "sentence": "She _____ a decision to study abroad.",
+          "sentence": "She _____ a choice to study abroad.",
           "answer": "make"
         },
         {
           "id": 3,
-          "sentence": "They _____ regular check-ups with their doctor.",
+          "sentence": "They _____ regular appointments with their doctor.",
           "answer": "have"
         },
         {
@@ -905,7 +905,7 @@
         },
         {
           "id": 5,
-          "sentence": "He _____ a break during the long lecture.",
+          "sentence": "He _____ a pause during the long lecture.",
           "answer": "take"
         }
       ]

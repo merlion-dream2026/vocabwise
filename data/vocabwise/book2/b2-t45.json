@@ -767,7 +767,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The city has a high cost of living; _____, the public transport system is efficient.",
+          "sentence": "The city has a high cost of living; _____, the public transport system is affordable.",
           "options": [
             "moreover",
             "however",
@@ -785,18 +785,18 @@
             "moreover",
             "furthermore"
           ],
-          "answer": "moreover"
+          "answer": "however"
         },
         {
           "id": 3,
-          "sentence": "The study confirmed the hypothesis; _____, it also revealed unexpected side effects.",
+          "sentence": "The study confirmed the hypothesis; _____, it failed to explain the observed anomalies.",
           "options": [
             "however",
             "on the other hand",
             "moreover",
             "furthermore"
           ],
-          "answer": "furthermore"
+          "answer": "however"
         },
         {
           "id": 4,
@@ -807,18 +807,18 @@
             "on the other hand",
             "moreover"
           ],
-          "answer": "on the other hand"
+          "answer": "however"
         },
         {
           "id": 5,
-          "sentence": "He enjoys classical music; _____, he also loves jazz and rock.",
+          "sentence": "He enjoys classical music; _____, he dislikes jazz and rock.",
           "options": [
             "however",
             "moreover",
             "on the other hand",
             "furthermore"
           ],
-          "answer": "moreover"
+          "answer": "however"
         }
       ]
     },

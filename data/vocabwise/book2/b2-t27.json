@@ -818,9 +818,9 @@
           "sentence": "The landlord ___ collects the rent on the first of each month.",
           "options": [
             "whom",
-            "that",
+            "which",
             "who",
-            "which"
+            "where"
           ],
           "answer": "who"
         },
@@ -842,7 +842,7 @@
             "who",
             "where",
             "that",
-            "which"
+            "whose"
           ],
           "answer": "that"
         },
@@ -931,7 +931,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The tenant ___ pays the rent on time is reliable.",
+          "sentence": "The tenant, ___ pays the rent on time, is reliable.",
           "answer": "who"
         },
         {
@@ -941,7 +941,7 @@
         },
         {
           "id": 3,
-          "sentence": "The city ___ we are considering buying property in has a strong economy.",
+          "sentence": "The city, ___ we are considering buying property in, has a strong economy.",
           "answer": "where"
         },
         {
@@ -951,7 +951,7 @@
         },
         {
           "id": 5,
-          "sentence": "The landlord ___ we spoke yesterday offered a discount.",
+          "sentence": "The landlord ___ we spoke to yesterday offered a discount.",
           "answer": "whom"
         }
       ]

@@ -752,7 +752,7 @@
         },
         {
           "id": 2,
-          "sentence": "The school does not have _____ teachers to cover all subjects.",
+          "sentence": "The school does not have _____ teachers to cover all subjects, and it needs more staff.",
           "options": [
             "too qualified",
             "enough qualified",
@@ -774,7 +774,7 @@
         },
         {
           "id": 4,
-          "sentence": "She is _____ to finish the assignment by tomorrow.",
+          "sentence": "She is _____ to finish the assignment by tomorrow because she has many meetings.",
           "options": [
             "enough fast",
             "too busy",
@@ -829,17 +829,17 @@
         {
           "id": 3,
           "words": [
-            "lead",
-            "project",
-            "enough",
             "She",
-            "to",
-            "experienced",
+            "is",
             "not",
+            "experienced",
+            "enough",
+            "to",
+            "lead",
             "the",
-            "is"
+            "project"
           ],
-          "answer": "She is not enough experienced to lead the project"
+          "answer": "She is not experienced enough to lead the project"
         }
       ]
     },
@@ -871,7 +871,7 @@
         },
         {
           "id": 4,
-          "sentence": "The candidate is _____ qualified to lead the research team.",
+          "sentence": "The candidate is _____ qualified to lead the research team, but lacks leadership experience.",
           "answer": "enough"
         },
         {

@@ -807,13 +807,14 @@
             "noticed",
             "the",
             "issue",
-            "it",
+            "the",
+            "problem",
             "would",
             "have",
             "been",
             "resolved"
           ],
-          "answer": "If the manager had noticed the issue it would have been resolved"
+          "answer": "If the manager had noticed the issue, the problem would have been resolved"
         },
         {
           "id": 2,
@@ -874,7 +875,7 @@
         },
         {
           "id": 2,
-          "sentence": "If the contract __________ a clause on health insurance, employees would have been covered.",
+          "sentence": "If the contract explicitly __________ a clause on health insurance, employees would have been covered.",
           "answer": "had included"
         },
         {

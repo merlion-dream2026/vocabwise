@@ -776,7 +776,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The article _____ to exaggerate the impact of the study.",
+          "sentence": "The article _____ to exaggerate the impact of the study, as it consistently overstates the findings.",
           "options": [
             "appears",
             "tends",
@@ -787,47 +787,47 @@
         },
         {
           "id": 2,
-          "sentence": "The typical user _____ to think the platform is unbiased.",
+          "sentence": "The typical user _____ to think the platform is unbiased, based on repeated survey responses.",
           "options": [
             "tend",
             "must",
             "seems",
             "appears"
           ],
-          "answer": "seems"
+          "answer": "tend"
         },
         {
           "id": 3,
-          "sentence": "The report _____ suggest that the policy will work.",
+          "sentence": "According to the evidence, the report _____ suggest that the policy will work.",
           "options": [
-            "looks",
+            "appears",
             "seem",
-            "appear",
+            "looks",
             "tend"
           ],
-          "answer": "seem"
+          "answer": "appears"
         },
         {
           "id": 4,
-          "sentence": "Experts _____ claim that the data is reliable.",
+          "sentence": "Experts often _____ claim that the data is reliable.",
           "options": [
             "must",
             "appear",
             "tend",
             "seem"
           ],
-          "answer": "appear"
+          "answer": "tend"
         },
         {
           "id": 5,
-          "sentence": "The headline _____ give the impression that the story is confirmed.",
+          "sentence": "The headline _____ give the impression that the story is confirmed, as it uses definitive language.",
           "options": [
-            "tend",
-            "seem",
+            "appears",
+            "seems",
             "looks",
-            "appear"
+            "tends"
           ],
-          "answer": "seem"
+          "answer": "appears"
         }
       ]
     },

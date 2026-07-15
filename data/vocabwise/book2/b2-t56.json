@@ -837,47 +837,47 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ health, excessive screen time can affect sleep quality.",
+          "sentence": "_____ health experts, excessive screen time can affect sleep quality.",
           "options": [
             "In spite of",
             "According to",
             "In terms of",
             "With regard to"
           ],
-          "answer": "In terms of"
+          "answer": "According to"
         },
         {
           "id": 2,
-          "sentence": "_____ education, digital tools can enhance learning when used responsibly.",
+          "sentence": "_____ education researchers, digital tools can enhance learning when used responsibly.",
           "options": [
             "In spite of",
             "With regard to",
             "According to",
             "In terms of"
           ],
-          "answer": "With regard to"
+          "answer": "According to"
         },
         {
           "id": 3,
-          "sentence": "_____ the environment, the production of electronic devices has a carbon footprint.",
+          "sentence": "_____ environmental reports, the production of electronic devices has a carbon footprint.",
           "options": [
             "In spite of",
             "In terms of",
             "According to",
             "With regard to"
           ],
-          "answer": "In terms of"
+          "answer": "According to"
         },
         {
           "id": 4,
-          "sentence": "_____ parental control, setting screen limits helps children develop better habits.",
+          "sentence": "_____ parental control guidelines, setting screen limits helps children develop better habits.",
           "options": [
             "In terms of",
             "With regard to",
             "According to",
             "In spite of"
           ],
-          "answer": "With regard to"
+          "answer": "According to"
         },
         {
           "id": 5,
@@ -888,7 +888,7 @@
             "In terms of",
             "According to"
           ],
-          "answer": "With regard to"
+          "answer": "According to"
         }
       ]
     },

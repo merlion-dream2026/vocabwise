@@ -880,7 +880,7 @@
         },
         {
           "id": 2,
-          "sentence": "If the sentencing guidelines _____, judges would have been forced to follow stricter rules.",
+          "sentence": "If the sentencing guidelines _____, the revised version would have forced judges to follow stricter rules.",
           "answer": "had been revised"
         },
         {
@@ -890,13 +890,13 @@
         },
         {
           "id": 4,
-          "sentence": "If the forensic evidence _____, the case would have been solved faster.",
+          "sentence": "If the forensic evidence _____ in the lab, the case would have been solved faster.",
           "answer": "had been investigated"
         },
         {
           "id": 5,
-          "sentence": "If the early release policy _____, offenders would have been monitored more closely.",
-          "answer": "had been changed"
+          "sentence": "If the early release policy _____, the revised guidelines would have required closer monitoring of offenders.",
+          "answer": "had been revised"
         }
       ]
     },

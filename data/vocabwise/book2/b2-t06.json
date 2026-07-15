@@ -738,10 +738,10 @@
           "id": 1,
           "sentence": "The ceremony was simple, _____ it lasted for three hours.",
           "options": [
-            "despite",
             "although",
+            "despite",
             "in spite of",
-            "even though"
+            "because"
           ],
           "answer": "although"
         },
@@ -749,34 +749,34 @@
           "id": 2,
           "sentence": "_____ the government promotes tolerance, some communities still feel excluded.",
           "options": [
-            "even though",
-            "despite",
             "although",
-            "in spite of"
+            "despite",
+            "in spite of",
+            "because"
           ],
-          "answer": "even though"
+          "answer": "although"
         },
         {
           "id": 3,
           "sentence": "Many people attend worship services, _____ they live far from the temple.",
           "options": [
-            "despite",
             "although",
+            "despite",
             "in spite of",
-            "even though"
+            "because"
           ],
-          "answer": "even though"
+          "answer": "although"
         },
         {
           "id": 4,
           "sentence": "_____ the harsh weather, the festival continued as planned.",
           "options": [
+            "despite",
             "although",
             "even though",
-            "despite",
-            "in spite of"
+            "because"
           ],
-          "answer": "in spite of"
+          "answer": "despite"
         },
         {
           "id": 5,
@@ -785,7 +785,7 @@
             "despite",
             "although",
             "even though",
-            "in spite of"
+            "because"
           ],
           "answer": "despite"
         }

@@ -811,7 +811,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The new policy will cost _____ than the previous one.",
+          "sentence": "The new policy will cost _____ than the previous one, if it is set at double the price.",
           "options": [
             "far more",
             "twice as much",
@@ -822,7 +822,7 @@
         },
         {
           "id": 2,
-          "sentence": "Women now earn _____ than they did ten years ago.",
+          "sentence": "Women now earn _____ than they did ten years ago, according to recent wage gap studies showing a large increase.",
           "options": [
             "as much",
             "far more",
@@ -833,7 +833,7 @@
         },
         {
           "id": 3,
-          "sentence": "The city’s elderly population is _____ as it was in 1990.",
+          "sentence": "The city’s elderly population is _____ as it was in 1990, having doubled over the past three decades.",
           "options": [
             "twice as large",
             "far more",
@@ -844,18 +844,18 @@
         },
         {
           "id": 4,
-          "sentence": "Retirement savings need to be _____ to cover rising healthcare costs.",
+          "sentence": "Retirement savings need to be _____ to cover rising healthcare costs, if they are to be exactly double the current amount.",
           "options": [
             "far more",
             "twice as much",
             "as much",
             "less"
           ],
-          "answer": "far more"
+          "answer": "twice as much"
         },
         {
           "id": 5,
-          "sentence": "Volunteers contribute _____ hours than they did last year.",
+          "sentence": "Volunteers contribute _____ hours than they did last year, having doubled their total time.",
           "options": [
             "as many",
             "twice as many",

@@ -796,7 +796,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ that the new pesticide reduces crop loss by 30%.",
+          "sentence": "_____ that recent studies have found that the new pesticide reduces crop loss by 30%.",
           "options": [
             "It is found",
             "It was found",
@@ -807,44 +807,44 @@
         },
         {
           "id": 2,
-          "sentence": "_____ that organic farming can improve soil health over time.",
+          "sentence": "_____ that recent surveys have reported that organic farming can improve soil health over time.",
           "options": [
-            "It has been reported",
             "It is reported",
             "It was reported",
+            "It has been reported",
             "It will be reported"
           ],
           "answer": "It has been reported"
         },
         {
           "id": 3,
-          "sentence": "_____ that climate change will affect global food security.",
+          "sentence": "_____ that recent analyses have suggested that climate change will affect global food security.",
           "options": [
-            "It has been suggested",
             "It is suggested",
             "It was suggested",
+            "It has been suggested",
             "It will be suggested"
           ],
           "answer": "It has been suggested"
         },
         {
           "id": 4,
-          "sentence": "_____ that the surplus of food can be stored for emergencies.",
+          "sentence": "_____ that recent observations have noted that the surplus of food can be stored for emergencies.",
           "options": [
-            "It has been noted",
             "It is noted",
             "It was noted",
+            "It has been noted",
             "It will be noted"
           ],
           "answer": "It has been noted"
         },
         {
           "id": 5,
-          "sentence": "_____ that pesticide residues are harmful to human health.",
+          "sentence": "_____ that recent studies have proven that pesticide residues are harmful to human health.",
           "options": [
-            "It has been proven",
             "It is proven",
             "It was proven",
+            "It has been proven",
             "It will be proven"
           ],
           "answer": "It has been proven"
@@ -915,27 +915,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "It has been _____ that the new fertilizer improves wheat growth.",
+          "sentence": "It has been _____ that the new fertilizer improves wheat growth, a discovery confirmed by laboratory tests.",
           "answer": "found"
         },
         {
           "id": 2,
-          "sentence": "It has been _____ that organic farms use less water.",
+          "sentence": "It has been _____ that organic farms use less water, as mentioned in the latest press release.",
           "answer": "reported"
         },
         {
           "id": 3,
-          "sentence": "It has been _____ that climate models predict lower yields.",
+          "sentence": "It has been _____ that climate models predict lower yields, as suggested by leading climate scientists.",
           "answer": "suggested"
         },
         {
           "id": 4,
-          "sentence": "It has been _____ that pesticide residues can accumulate in soil.",
+          "sentence": "It has been _____ that pesticide residues can accumulate in soil, as noted in the official guidelines.",
           "answer": "noted"
         },
         {
           "id": 5,
-          "sentence": "It has been _____ that certain crops are resistant to disease.",
+          "sentence": "It has been _____ that certain crops are resistant to disease, as proven through extensive field trials.",
           "answer": "proven"
         }
       ]

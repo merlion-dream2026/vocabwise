@@ -783,7 +783,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "If you plant trees, the air _____ cleaner.",
+          "sentence": "If you plant trees, the air _____ cleaner in the future.",
           "options": [
             "is",
             "be",
@@ -794,18 +794,18 @@
         },
         {
           "id": 2,
-          "sentence": "If the river becomes polluted, fish _____.",
+          "sentence": "If the river becomes polluted, fish _____ in the future.",
           "options": [
             "die",
             "will die",
             "dies",
             "died"
           ],
-          "answer": "die"
+          "answer": "will die"
         },
         {
           "id": 3,
-          "sentence": "If governments implement stricter regulations, pollution _____.",
+          "sentence": "If governments implement stricter regulations, pollution _____ in the future.",
           "options": [
             "will decrease",
             "decreased",
@@ -827,7 +827,7 @@
         },
         {
           "id": 5,
-          "sentence": "If plastic bags are banned, the amount of waste _____.",
+          "sentence": "If plastic bags are banned, the amount of waste _____ in the future.",
           "options": [
             "drop",
             "will drop",
@@ -900,7 +900,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "If you _____ your waste, the planet will be healthier.",
+          "sentence": "If you _____ your waste (by cutting down on the amount you produce), the planet will be healthier.",
           "answer": "reduce"
         },
         {
@@ -910,7 +910,7 @@
         },
         {
           "id": 3,
-          "sentence": "If factories _____ their emissions, air quality will improve.",
+          "sentence": "If factories _____ their emissions (by cutting them down), air quality will improve.",
           "answer": "decrease"
         },
         {

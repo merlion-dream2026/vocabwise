@@ -725,58 +725,58 @@
       "items": [
         {
           "id": 1,
-          "sentence": "All students _____ wear a university ID badge.",
+          "sentence": "All students _____ wear a university ID badge at all times, as required by university policy.",
           "options": [
             "should",
             "must",
-            "need to",
+            "could",
             "might"
           ],
           "answer": "must"
         },
         {
           "id": 2,
-          "sentence": "International students _____ apply for a visa before arrival.",
+          "sentence": "International students _____ apply for a visa before arrival if they wish to study here.",
           "options": [
             "must",
             "ought to",
-            "need to",
-            "have to"
-          ],
-          "answer": "need to"
-        },
-        {
-          "id": 3,
-          "sentence": "You _____ submit your thesis by the end of June.",
-          "options": [
-            "might",
-            "have to",
-            "should",
-            "must"
-          ],
-          "answer": "have to"
-        },
-        {
-          "id": 4,
-          "sentence": "Students _____ attend the mandatory safety training.",
-          "options": [
             "could",
-            "must",
-            "need to",
             "might"
           ],
           "answer": "must"
         },
         {
-          "id": 5,
-          "sentence": "If you miss a deadline, you _____ contact the lecturer immediately.",
+          "id": 3,
+          "sentence": "You _____ submit your thesis by the end of June to be eligible for graduation.",
           "options": [
-            "must not",
-            "should",
-            "need to",
-            "have to"
+            "must",
+            "might",
+            "could",
+            "should"
           ],
-          "answer": "need to"
+          "answer": "must"
+        },
+        {
+          "id": 4,
+          "sentence": "Students _____ attend the mandatory safety training because it is a legal requirement.",
+          "options": [
+            "must",
+            "could",
+            "might",
+            "should"
+          ],
+          "answer": "must"
+        },
+        {
+          "id": 5,
+          "sentence": "If you miss a deadline, you _____ contact the lecturer immediately to avoid a penalty.",
+          "options": [
+            "must",
+            "should",
+            "might",
+            "could"
+          ],
+          "answer": "must"
         }
       ]
     },

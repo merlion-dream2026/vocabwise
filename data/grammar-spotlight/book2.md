@@ -45,23 +45,23 @@
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu.
 
-1. All students _____ wear a university ID badge.
-   A. should  |  B. must  |  C. need to  |  D. might  →  must
-2. International students _____ apply for a visa before arrival.
-   A. must  |  B. ought to  |  C. need to  |  D. have to  →  need to
-3. You _____ submit your thesis by the end of June.
-   A. might  |  B. have to  |  C. should  |  D. must  →  have to
-4. Students _____ attend the mandatory safety training.
-   A. could  |  B. must  |  C. need to  |  D. might  →  must
-5. If you miss a deadline, you _____ contact the lecturer immediately.
-   A. must not  |  B. should  |  C. need to  |  D. have to  →  need to
+1. All students _____ wear a university ID badge at all times, as required by university policy.
+   A. should  |  B. must  |  C. could  |  D. might  →  must
+2. International students _____ apply for a visa before arrival if they wish to study here.
+   A. must  |  B. ought to  |  C. could  |  D. might  →  must
+3. You _____ submit your thesis by the end of June to be eligible for graduation.
+   A. must  |  B. might  |  C. could  |  D. should  →  must
+4. Students _____ attend the mandatory safety training because it is a legal requirement.
+   A. must  |  B. could  |  C. might  |  D. should  →  must
+5. If you miss a deadline, you _____ contact the lecturer immediately to avoid a penalty.
+   A. must  |  B. should  |  C. might  |  D. could  →  must
 
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
 
 1. [assignment] [must] [students] [their] [submit]  →  students must submit their assignment
 2. [have] [to] [you] [register] [for] [the] [course]  →  you have to register for the course
-3. [need] [to] [bring] [a] [laptop] [to] [lab]  →  you need to bring a laptop to the lab
+3. [you] [need] [to] [bring] [a] [laptop] [to] [the] [lab]  →  you need to bring a laptop to the lab
 
 ### Bài tập 3 — Điền từ
 **Hướng dẫn:** Điền từ thích hợp từ ngân hàng từ vào chỗ trống.
@@ -117,13 +117,13 @@
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn từ thích hợp để hoàn thành câu.
 
-1. After three years at the company, Maria ___ a promotion.
+1. After three years at the company, Maria usually ___ a promotion.
    A. gets  |  B. got  |  C. getting  |  D. get  →  gets
-2. If you constantly miss deadlines, you might ___ fired.
+2. If you constantly miss deadlines, you might ___ a warning.
    A. be  |  B. got  |  C. get  |  D. gets  →  get
-3. Tom ___ a raise after his performance review.
+3. Tom usually ___ a raise after his performance review.
    A. gets  |  B. got  |  C. getting  |  D. get  →  gets
-4. Employees who are dishonest often ___ dismissed.
+4. Employees who are dishonest usually ___ dismissed.
    A. gets  |  B. get  |  C. got  |  D. getting  →  get
 5. She hopes to ___ a new position in the marketing department.
    A. get  |  B. gets  |  C. got  |  D. getting  →  get
@@ -139,10 +139,10 @@
 **Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
 **Từ gợi ý:** promotion · fired · raise · dismissed · transfer · vacation
 
-1. She will get ___ after the successful project.  →  promotion
-2. If you break the company rules, you may get ___ .  →  fired
-3. Hard work can lead you to get a ___.  →  raise
-4. Employees who are repeatedly absent might get ___.  →  dismissed
+1. She will get ___ after the successful project, a higher position in the company.  →  promotion
+2. If you break the company rules, you may get ___ (informal term for losing your job).  →  fired
+3. Hard work can lead you to get a ___ in your salary.  →  raise
+4. Employees who are repeatedly absent might get ___ as a formal termination.  →  dismissed
 5. After the reorganization, many staff will get ___ to another department.  →  transfer
 
 <!-- /topic -->
@@ -192,7 +192,7 @@ Câu bị động là cấu trúc dùng để nhấn mạnh hành động hoặc
    A. will be taken  |  B. has taken  |  C. is taken  |  D. was taken  →  is taken
 2. A new drug _____ last month.
    A. will be approved  |  B. has approved  |  C. was approved  |  D. is approved  →  was approved
-3. Patients _____ the results of the test.
+3. Patients _____ the results of the test every month.
    A. were given  |  B. are given  |  C. have been given  |  D. will be given  →  are given
 4. The symptoms _____ by the nurse yesterday.
    A. were recorded  |  B. are recorded  |  C. have recorded  |  D. will be recorded  →  were recorded
@@ -202,19 +202,19 @@ Câu bị động là cấu trúc dùng để nhấn mạnh hành động hoặc
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
 
-1. [made] [doctor] [by] [diagnosis] [the] [is] [A]  →  A diagnosis is made by the doctor
-2. [specialist] [referred] [was] [patient] [a] [to] [The]  →  The patient was referred to a specialist
-3. [administered] [worldwide] [are] [children] [Vaccines] [to]  →  Vaccines are administered to children worldwide
+1. [made] [doctor] [by] [diagnosis] [the] [is] [the]  →  The diagnosis is made by the doctor
+2. [specialist] [referred] [was] [patient] [the] [to] [The]  →  The patient was referred to the specialist
+3. [administered] [are] [Vaccines] [worldwide]  →  Vaccines are administered worldwide
 
 ### Bài tập 3 — Điền từ
 **Hướng dẫn:** Điền từ thích hợp từ ngân hàng từ vào chỗ trống.
 **Từ gợi ý:** administered · issued · diagnosed · treated · referred · prevented
 
-1. The flu _____ by the doctor last week.  →  diagnosed
+1. The flu _____ by the doctor after the test last week.  →  diagnosed
 2. New health policies _____ every year.  →  issued
-3. The vaccine _____ to children at school.  →  administered
+3. The vaccine _____ to children at school safely.  →  administered
 4. Patients _____ to specialists for complex cases.  →  referred
-5. Chronic diseases _____ with proper medication.  →  treated
+5. Chronic diseases are _____ when patients follow the treatment plan.  →  treated
 
 <!-- /topic -->
 
@@ -284,11 +284,11 @@ Câu bị động với động từ khuyết thiếu được tạo bằng các
 **Hướng dẫn:** Điền từ thích hợp từ ngân hàng vào chỗ trống.
 **Từ gợi ý:** may · could · must · should · might · shall
 
-1. If the evidence is clear, the suspect _____ arrested.  →  may
-2. A fine _____ imposed for minor offences.  →  could
-3. The witness _____ be called to give evidence.  →  may
-4. The penalty _____ increased for repeat offenders.  →  could
-5. The decision _____ reviewed by a senior judge.  →  may
+1. If the evidence is clear, the suspect _____ be arrested.  →  must
+2. A fine _____ be imposed for minor offences.  →  must
+3. The witness _____ be called to give evidence.  →  must
+4. The penalty _____ be increased for repeat offenders.  →  must
+5. The decision _____ be reviewed by a senior judge.  →  must
 
 <!-- /topic -->
 
@@ -334,15 +334,15 @@ Câu gián tiếp (reported speech) dùng để truyền đạt lời nói, ý k
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn động từ thích hợp để hoàn thành câu.
 
-1. The mayor ___ that the city will build more schools.
+1. The mayor ___ that the city will build more schools, according to the council's plan.
    A. argued  |  B. said  |  C. claimed  |  D. told  →  said
 2. She ___ the workers to vote for the new law.
    A. argued  |  B. claimed  |  C. told  |  D. said  →  told
-3. Experts ___ that climate change affects political stability.
-   A. claimed  |  B. said  |  C. told  |  D. argued  →  claimed
-4. He ___ that the opposition should be given more speaking time.
+3. Experts ___ that climate change affects political stability after analyzing the data.
+   A. claimed  |  B. said  |  C. told  |  D. argued  →  argued
+4. He ___ that the opposition should be given more speaking time after presenting evidence.
    A. said  |  B. told  |  C. claimed  |  D. argued  →  argued
-5. The spokesperson ___ that the government will lower taxes next year.
+5. The spokesperson ___ that the government will lower taxes next year, in a press release.
    A. told  |  B. argued  |  C. said  |  D. claimed  →  said
 
 ### Bài tập 2 — Sắp xếp câu
@@ -356,11 +356,11 @@ Câu gián tiếp (reported speech) dùng để truyền đạt lời nói, ý k
 **Hướng dẫn:** Điền từ thích hợp từ ngân hàng từ vào chỗ trống.
 **Từ gợi ý:** said · told · claimed · argued · stated · believed
 
-1. The minister ___ that the new law will improve education.  →  said
-2. Researchers ___ that voting rates have increased.  →  claimed
+1. The minister ___ that the new law will improve education, according to her belief.  →  believed
+2. Researchers ___ that voting rates have increased, based on statistical analysis.  →  stated
 3. The committee ___ the public to attend the meeting.  →  told
-4. Opponents ___ that the tax hike is unfair.  →  argued
-5. The spokesperson ___ that the project will finish on time.  →  stated
+4. Opponents ___ that the tax hike is unfair after a heated debate.  →  argued
+5. The spokesperson ___ that the project will finish on time, in an official press release.  →  stated
 
 <!-- /topic -->
 
@@ -404,15 +404,15 @@ Liên từ đối lập và nhượng bộ (although, even though, despite, in s
 **Hướng dẫn:** Chọn liên từ phù hợp để điền vào chỗ trống.
 
 1. The ceremony was simple, _____ it lasted for three hours.
-   A. despite  |  B. although  |  C. in spite of  |  D. even though  →  although
+   A. although  |  B. despite  |  C. in spite of  |  D. because  →  although
 2. _____ the government promotes tolerance, some communities still feel excluded.
-   A. even though  |  B. despite  |  C. although  |  D. in spite of  →  even though
+   A. although  |  B. despite  |  C. in spite of  |  D. because  →  although
 3. Many people attend worship services, _____ they live far from the temple.
-   A. despite  |  B. although  |  C. in spite of  |  D. even though  →  even though
+   A. although  |  B. despite  |  C. in spite of  |  D. because  →  although
 4. _____ the harsh weather, the festival continued as planned.
-   A. although  |  B. even though  |  C. despite  |  D. in spite of  →  in spite of
+   A. despite  |  B. although  |  C. even though  |  D. because  →  despite
 5. _____ the new law, religious minorities still face restrictions.
-   A. despite  |  B. although  |  C. even though  |  D. in spite of  →  despite
+   A. despite  |  B. although  |  C. even though  |  D. because  →  despite
 
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
@@ -475,13 +475,13 @@ Liên từ đối lập và nhượng bộ (although, even though, despite, in s
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn động từ khuyết thiếu đúng để hoàn thành câu.
 
-1. He _____ have apologized for his mistake.
+1. He _____ have apologized for his mistake, but he didn't.
    A. must  |  B. could  |  C. should  |  D. would  →  should
-2. They _____ have arrived earlier if they had left on time.
-   A. would  |  B. must  |  C. should  |  D. could  →  could
-3. You _____ have told me about the meeting.
+2. They _____ have arrived earlier if they had left on time; they definitely would have arrived earlier.
+   A. would  |  B. must  |  C. should  |  D. could  →  would
+3. You _____ have told me about the meeting, but you didn't.
    A. would  |  B. must  |  C. could  |  D. should  →  should
-4. If I had known, I _____ have helped.
+4. If I had known, I _____ have helped; I would have helped.
    A. must  |  B. could  |  C. should  |  D. would  →  would
 5. She _____ have missed the bus; she left early.
    A. must  |  B. would  |  C. could  |  D. should  →  could
@@ -497,11 +497,11 @@ Liên từ đối lập và nhượng bộ (although, even though, despite, in s
 **Hướng dẫn:** Điền động từ khuyết thiếu phù hợp vào chỗ trống.
 **Từ gợi ý:** should · could · would · must · might · ought
 
-1. You _____ have called earlier.  →  should
-2. She _____ have known the answer.  →  could
-3. We _____ have missed the deadline if we hadn't worked fast.  →  would
-4. He _____ have told the truth.  →  must
-5. They _____ have arrived yet.  →  might
+1. You _____ have called earlier, but you didn't.  →  should
+2. She _____ have known the answer, but she didn't.  →  could
+3. We _____ have missed the deadline if we hadn't worked fast; we would have missed it.  →  would
+4. He _____ have told the truth, and he must have told it.  →  must
+5. They _____ have arrived yet; they definitely have.  →  must
 
 <!-- /topic -->
 
@@ -563,7 +563,7 @@ Danh động từ (V‑ing) và động từ nguyên thể (to + V) là hai 
 
 1. [post] [plan] [they] [to]  →  they plan to post
 2. [reading] [she] [enjoys] [books]  →  she enjoys reading books
-3. [share] [choose] [ideas] [we] [to]  →  we choose to share ideas
+3. [we] [choose] [to] [post]  →  we choose to post
 
 ### Bài tập 3 — Điền từ
 **Hướng dẫn:** Điền từ thích hợp từ ngân hàng vào chỗ trống.
@@ -571,9 +571,9 @@ Danh động từ (V‑ing) và động từ nguyên thể (to + V) là hai 
 
 1. He decided _____ a live stream for his followers.  →  to
 2. She enjoys _____ on Instagram.  →  posting
-3. They _____ posting offensive content.  →  avoid
-4. We _____ to post every day to keep the audience engaged.  →  plan
-5. You should _____ what you share carefully.  →  choose
+3. They _____ smoking in the building.  →  avoid
+4. We _____ to post every day to meet the project deadline.  →  plan
+5. You should _____ what you share carefully, as it reflects your reputation.  →  choose
 
 <!-- /topic -->
 
@@ -620,12 +620,12 @@ Cấu trúc so sánh hơn dùng để so sánh mức độ của hai đối tư�
 
 1. City apartments are _____ rural houses.
    A. more expensive  |  B. as expensive  |  C. less expensive  |  D. more spacious  →  more expensive
-2. Public transport in cities is _____ than in the countryside.
-   A. more reliable  |  B. less reliable  |  C. as reliable  |  D. more frequent  →  more reliable
+2. Public transport in cities is usually _____ than in the countryside.
+   A. more reliable  |  B. less reliable  |  C. as reliable  |  D. more expensive  →  more reliable
 3. The air quality in the countryside is _____ city air.
    A. more polluted  |  B. as polluted  |  C. less polluted  |  D. more fresh  →  less polluted
-4. People in the suburbs have _____ access to parks than those living downtown.
-   A. as much  |  B. more  |  C. less  |  D. fewer  →  more
+4. People in the suburbs generally have _____ access to parks than those living downtown.
+   A. less  |  B. as much  |  C. more  |  D. fewer  →  less
 5. Job opportunities in big cities are _____ than in small towns.
    A. more abundant  |  B. as abundant  |  C. less abundant  |  D. fewer  →  more abundant
 
@@ -692,9 +692,9 @@ Used to và would (the latter chỉ dùng cho hành động) được dùng đ�
 **Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu.
 
 1. When I was a child, my grandparents _______ visit us every weekend.
-   A. would  |  B. could  |  C. used to  |  D. did  →  used to
+   A. could  |  B. used to  |  C. did  |  D. must  →  used to
 2. My father _______ tell stories about his youth before dinner.
-   A. might  |  B. used to  |  C. does  |  D. would  →  would
+   A. might  |  B. used to  |  C. does  |  D. could  →  used to
 3. In the 1990s, families _______ eat dinner together at the table.
    A. must  |  B. used to  |  C. will  |  D. are  →  used to
 4. My aunt _______ take us to the park after school, but now she works late.
@@ -713,11 +713,11 @@ Used to và would (the latter chỉ dùng cho hành động) được dùng đ�
 **Hướng dẫn:** Điền từ thích hợp từ ngân hàng vào chỗ trống.
 **Từ gợi ý:** used to · would · did · could · should · might
 
-1. My grandparents _______ live in the countryside before they moved to the city.  →  used to
-2. When we were kids, we _______ spend hours playing hide‑and‑seek in the backyard.  →  would
-3. My mother _______ bake a cake for every birthday when I was younger.  →  used to
-4. Teenagers _______ stay up late to watch movies, but now they have early school starts.  →  would
-5. My uncle _______ take us fishing every summer when we were teenagers.  →  used to
+1. My grandparents _______ live in the countryside if they had the chance before they moved to the city.  →  would
+2. When we were kids, we _______ spend hours playing hide‑and‑seek in the backyard if it rained.  →  would
+3. My mother _______ bake a cake for every birthday when I was younger if we asked her.  →  would
+4. Teenagers _______ stay up late to watch movies if they wanted to, but now they have early school starts.  →  would
+5. My uncle _______ take us fishing every summer when we were teenagers if the weather was good.  →  would
 
 <!-- /topic -->
 
@@ -759,14 +759,14 @@ Liên từ nhân quả dùng để nối nguyên nhân với kết quả. "becau
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn liên từ phù hợp để hoàn thành câu.
 
-1. The city experienced severe flooding ___ the heavy rains last week.
-   A. as a result of  |  B. therefore  |  C. because of  |  D. due to  →  due to
-2. She decided to plant trees ___ her desire to reduce her carbon footprint.
-   A. therefore  |  B. as a result of  |  C. due to  |  D. because of  →  because of
-3. The conference was postponed ___ the organizers' inability to secure a venue.
-   A. therefore  |  B. as a result of  |  C. due to  |  D. because of  →  due to
-4. The ice caps are melting ___ the rising global temperatures.
-   A. because of  |  B. therefore  |  C. as a result of  |  D. due to  →  as a result of
+1. Heavy rains last week caused severe flooding; ___, the city had to evacuate residents.
+   A. as a result of  |  B. therefore  |  C. because of  |  D. due to  →  therefore
+2. She wanted to reduce her carbon footprint; ___, she decided to plant trees.
+   A. as a result of  |  B. therefore  |  C. because of  |  D. due to  →  therefore
+3. The organizers failed to secure a venue; ___, the conference was postponed.
+   A. as a result of  |  B. therefore  |  C. because of  |  D. due to  →  therefore
+4. Global temperatures are rising; ___, the ice caps are melting.
+   A. as a result of  |  B. therefore  |  C. because of  |  D. due to  →  therefore
 5. The government increased taxes on gasoline; ___, many people switched to public transport.
    A. as a result of  |  B. therefore  |  C. because of  |  D. due to  →  therefore
 
@@ -781,11 +781,11 @@ Liên từ nhân quả dùng để nối nguyên nhân với kết quả. "becau
 **Hướng dẫn:** Điền liên từ thích hợp vào chỗ trống.
 **Từ gợi ý:** because of · due to · as a result of · therefore · consequently · since
 
-1. The coral reefs are bleaching ___ the increase in sea temperature.  →  as a result of
-2. He switched to a bike ___ he wanted to lower his carbon emissions.  →  because of
-3. The policy was adopted ___ the country's commitment to the Paris Agreement.  →  due to
+1. Sea temperature has increased; ___, the coral reefs are bleaching.  →  therefore
+2. He wanted to lower his carbon emissions; ___, he switched to a bike.  →  therefore
+3. The country is committed to the Paris Agreement; ___, the policy was adopted.  →  therefore
 4. The report highlighted the risks; ___, investors are reconsidering fossil fuel projects.  →  therefore
-5. She stopped using plastic bags ___ she read about ocean pollution.  →  because of
+5. She read about ocean pollution; ___, she stopped using plastic bags.  →  therefore
 
 <!-- /topic -->
 
@@ -828,15 +828,15 @@ Bị động thì hiện tại hoàn thành được dùng để diễn tả m�
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu.
 
-1. The habitat of many species _____ by deforestation.
+1. The habitat of many species _____ by deforestation so far.
    A. has been destroyed  |  B. was destroyed  |  C. is destroyed  |  D. have been destroyed  →  has been destroyed
-2. Several marine ecosystems _____ polluted by plastic waste.
+2. Several marine ecosystems _____ polluted by plastic waste in recent years.
    A. were polluted  |  B. have been polluted  |  C. are polluted  |  D. has been polluted  →  have been polluted
-3. The research data _____ collected over the past decade.
+3. The research data _____ collected to date.
    A. was collected  |  B. has been collected  |  C. is collecting  |  D. have been collected  →  has been collected
-4. Many endangered species _____ protected by international agreements.
+4. Many endangered species _____ protected by international agreements so far.
    A. has been protected  |  B. are protected  |  C. have been protected  |  D. were protected  →  have been protected
-5. The new policy _____ implemented to reduce emissions.
+5. The new policy _____ implemented to reduce emissions so far.
    A. is implemented  |  B. has been implemented  |  C. were implemented  |  D. have been implemented  →  has been implemented
 
 ### Bài tập 2 — Sắp xếp câu
@@ -850,11 +850,11 @@ Bị động thì hiện tại hoàn thành được dùng để diễn tả m�
 **Hướng dẫn:** Điền dạng đúng của động từ bị động ở thì hiện tại hoàn thành vào chỗ trống.
 **Từ gợi ý:** has been · have been · was · is · were · been
 
-1. The coral reef _____ severely damaged by rising temperatures.  →  has been
-2. Many forests _____ cleared for agriculture.  →  have been
-3. The water quality _____ improved after the new regulations.  →  has been
-4. Several species _____ reintroduced into the park.  →  have been
-5. The legislation _____ passed last year.  →  has been
+1. The coral reef _____ severely damaged by rising temperatures so far.  →  has been
+2. Many forests _____ cleared for agriculture so far.  →  have been
+3. The water quality _____ improved after the new regulations so far.  →  has been
+4. Several species _____ reintroduced into the park recently.  →  have been
+5. The legislation _____ passed to date.  →  has been
 
 <!-- /topic -->
 
@@ -898,15 +898,15 @@ Câu điều kiện loại 0 dùng để diễn tả các quy luật, sự thậ
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu điều kiện.
 
-1. If you plant trees, the air _____ cleaner.
+1. If you plant trees, the air _____ cleaner in the future.
    A. is  |  B. be  |  C. will be  |  D. are  →  will be
-2. If the river becomes polluted, fish _____.
-   A. die  |  B. will die  |  C. dies  |  D. died  →  die
-3. If governments implement stricter regulations, pollution _____.
+2. If the river becomes polluted, fish _____ in the future.
+   A. die  |  B. will die  |  C. dies  |  D. died  →  will die
+3. If governments implement stricter regulations, pollution _____ in the future.
    A. will decrease  |  B. decreased  |  C. decrease  |  D. decreases  →  will decrease
 4. If you _____ the warning signs, you risk harming wildlife.
    A. ignore  |  B. ignoring  |  C. ignored  |  D. will ignore  →  ignore
-5. If plastic bags are banned, the amount of waste _____.
+5. If plastic bags are banned, the amount of waste _____ in the future.
    A. drop  |  B. will drop  |  C. dropped  |  D. drops  →  will drop
 
 ### Bài tập 2 — Sắp xếp câu
@@ -920,9 +920,9 @@ Câu điều kiện loại 0 dùng để diễn tả các quy luật, sự thậ
 **Hướng dẫn:** Điền từ thích hợp từ ngân hàng vào chỗ trống.
 **Từ gợi ý:** reduce · die · decrease · ignore · drop · will
 
-1. If you _____ your waste, the planet will be healthier.  →  reduce
+1. If you _____ your waste (by cutting down on the amount you produce), the planet will be healthier.  →  reduce
 2. If the water temperature rises, coral reefs _____.  →  die
-3. If factories _____ their emissions, air quality will improve.  →  decrease
+3. If factories _____ their emissions (by cutting them down), air quality will improve.  →  decrease
 4. If you _____ the warning, you risk an accident.  →  ignore
 5. If plastic use _____, the amount of litter will drop.  →  drop
 
@@ -969,33 +969,33 @@ Cấu trúc wish + quá khứ đơn (wish + past simple) được dùng để b�
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn từ phù hợp để hoàn thành câu.
 
-1. She _____ more time to relax after work.
-   A. wanted  |  B. wish  |  C. wished  |  D. wishes  →  wish
-2. They _____ that the city built more bike lanes.
+1. She _____ more time to relax after work (present desire).
+   A. wanted  |  B. wish  |  C. wished  |  D. wishes  →  wishes
+2. They _____ that the city built more bike lanes (present desire).
    A. wish  |  B. wished  |  C. wishes  |  D. wanted  →  wish
-3. He _____ his friends could join the meditation program.
-   A. wishes  |  B. wish  |  C. wished  |  D. wanted  →  wish
-4. We _____ the conference started earlier.
+3. He _____ his friends could join the meditation program (present desire).
+   A. wishes  |  B. wish  |  C. wished  |  D. wanted  →  wishes
+4. We _____ the conference started earlier (present desire).
    A. wished  |  B. wish  |  C. wishes  |  D. wanted  →  wish
-5. You _____ the project received more funding.
+5. You _____ the project received more funding (present desire).
    A. wish  |  B. wished  |  C. wishes  |  D. wanted  →  wish
 
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
 
 1. [I] [wish] [I] [had] [more] [energy] [resources]  →  I wish I had more energy resources
-2. [They] [wish] [the] [policy] [changed] [quickly]  →  They wish the policy changed quickly
+2. [They] [wish] [the] [policy] [changed] [very] [quickly]  →  They wish the policy changed very quickly
 3. [We] [wish] [our] [schools] [offered] [more] [mental] [health] [support]  →  We wish our schools offered more mental health support
 
 ### Bài tập 3 — Điền từ
 **Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
 **Từ gợi ý:** wish · wanted · could · should · might · had
 
-1. I _____ more time to volunteer for clean‑energy projects.  →  wish
+1. I _____ more time to volunteer for clean‑energy projects now.  →  wish
 2. She _____ that the government reduced carbon emissions faster.  →  wish
-3. They _____ the renewable‑energy program received extra funding.  →  wish
-4. We _____ the transition to solar power happened sooner.  →  wish
-5. You _____ the city invest in mental‑health services for students.  →  wish
+3. They _____ the renewable‑energy program received extra funding now.  →  wish
+4. We _____ the transition to solar power happened sooner now.  →  wish
+5. You _____ the city invest in mental‑health services for students now.  →  wish
 
 <!-- /topic -->
 
@@ -1056,7 +1056,7 @@ Mệnh đề quan hệ là một mệnh đề phụ được nối vào danh t�
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
 
-1. [damage] [which] [was] [caused] [by] [the] [storm] [was] [extensive]  →  damage which was caused by the storm was extensive
+1. [damage] [which] [was] [caused] [by] [the] [storm] [was] [extensive] [indeed]  →  damage which was caused by the storm was extensive indeed
 2. [city] [where] [the] [research] [was] [conducted] [is] [coastal]  →  city where the research was conducted is coastal
 3. [village] [whose] [fishermen] [depend] [on] [the] [sea] [is] [resilient]  →  village whose fishermen depend on the sea is resilient
 
@@ -1065,7 +1065,7 @@ Mệnh đề quan hệ là một mệnh đề phụ được nối vào danh t�
 **Từ gợi ý:** which · that · where · whose · when · who
 
 1. The tsunami was a disaster, _____ caused many deaths.  →  which
-2. The island, _____ residents rely on tourism, was evacuated.  →  whose
+2. The company, _____ employees work overtime, announced bonuses.  →  whose
 3. The coastal town, _____ we visited last summer, has a new harbor.  →  where
 4. The research paper, _____ was published in 2020, discusses ocean currents.  →  which
 5. The coral reef, _____ is protected by law, attracts many divers.  →  which
@@ -1116,15 +1116,15 @@ Thì tương lai tiếp diễn (will be + V‑ing) diễn tả một hành độ
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu.
 
-1. Next year, scientists _____ a new rover on Mars.
+1. Next year, scientists _____ a new rover on Mars throughout the year.
    A. will have launched  |  B. will be launching  |  C. will launch  |  D. launch  →  will be launching
-2. By 2040, the International Space Station _____ for over 30 years.
+2. By 2040, the International Space Station _____ for over 30 years, having been launched in 1998.
    A. will have operated  |  B. will be operating  |  C. will operate  |  D. operated  →  will have operated
-3. During the launch, the rocket _____ a massive amount of thrust.
+3. During the launch, the rocket _____ a massive amount of thrust continuously.
    A. will generate  |  B. will be generating  |  C. will have generated  |  D. generates  →  will be generating
 4. By the time the crew returns, they _____ many experiments.
    A. will have completed  |  B. will be completing  |  C. will complete  |  D. completed  →  will have completed
-5. Tomorrow, the satellite _____ over the Pacific Ocean for the next six hours.
+5. Tomorrow, the satellite _____ over the Pacific Ocean continuously for the next six hours.
    A. will orbit  |  B. will be orbiting  |  C. will have orbited  |  D. orbits  →  will be orbiting
 
 ### Bài tập 2 — Sắp xếp câu
@@ -1188,32 +1188,32 @@ Cụm động từ là cấu trúc gồm một động từ chính kết hợp v
 **Hướng dẫn:** Chọn cụm động từ phù hợp để hoàn thành câu.
 
 1. The technician will _____ the new computer system tomorrow.
-   A. install  |  B. run out of  |  C. set up  |  D. mix  →  set up
+   A. set up  |  B. run out of  |  C. mix  |  D. repair  →  set up
 2. During digestion, the stomach _____ food into smaller pieces.
    A. run out of  |  B. break down  |  C. set up  |  D. mixes  →  break down
 3. If we _____ paper, we will need to order more supplies.
    A. set up  |  B. run out of  |  C. break down  |  D. use  →  run out of
 4. The lab manager needs to _____ the old equipment before the new one arrives.
    A. repair  |  B. break down  |  C. set up  |  D. run out of  →  break down
-5. Before the conference, the team will _____ the presentation slides.
+5. Before the conference, the team will _____ the presentation slides on the projector.
    A. run out of  |  B. set up  |  C. break down  |  D. edit  →  set up
 
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
 
-1. [The] [scientists] [set] [up] [a] [new] [experiment]  →  The scientists set up a new experiment
-2. [The] [body] [breaks] [down] [carbohydrates] [quickly]  →  The body breaks down carbohydrates quickly
-3. [We] [ran] [out] [of] [ink] [during] [printing]  →  We ran out of ink during printing
+1. [The] [scientists] [set] [up] [a] [new] [experiment] [today]  →  The scientists set up a new experiment today
+2. [The] [body] [breaks] [down] [carbohydrates] [quickly] [today]  →  The body breaks down carbohydrates quickly today
+3. [We] [ran] [out] [of] [ink] [during] [printing] [today]  →  We ran out of ink during printing today
 
 ### Bài tập 3 — Điền từ
 **Hướng dẫn:** Điền cụm động từ thích hợp vào chỗ trống.
 **Từ gợi ý:** set up · break down · run out of · install · prepare · analyze
 
-1. The lab will _____ the microscope before the class starts.  →  set up
+1. The lab will _____ the microscope before the class starts, arranging it on the workbench.  →  set up
 2. The digestive system _____ food into nutrients.  →  break down
 3. If the printer _____, we cannot print the report.  →  run out of
-4. Scientists _____ the data to identify trends.  →  break down
-5. The technician will _____ the software after the update.  →  install
+4. Scientists _____ the data to identify trends statistically.  →  analyze
+5. The technician will _____ the software after the update, installing it on the system.  →  install
 
 <!-- /topic -->
 
@@ -1257,16 +1257,16 @@ Cấu trúc này dùng để truyền đạt kết quả nghiên cứu, báo cá
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu.
 
-1. _____ that the new pesticide reduces crop loss by 30%.
+1. _____ that recent studies have found that the new pesticide reduces crop loss by 30%.
    A. It is found  |  B. It was found  |  C. It has been found  |  D. It will be found  →  It has been found
-2. _____ that organic farming can improve soil health over time.
-   A. It has been reported  |  B. It is reported  |  C. It was reported  |  D. It will be reported  →  It has been reported
-3. _____ that climate change will affect global food security.
-   A. It has been suggested  |  B. It is suggested  |  C. It was suggested  |  D. It will be suggested  →  It has been suggested
-4. _____ that the surplus of food can be stored for emergencies.
-   A. It has been noted  |  B. It is noted  |  C. It was noted  |  D. It will be noted  →  It has been noted
-5. _____ that pesticide residues are harmful to human health.
-   A. It has been proven  |  B. It is proven  |  C. It was proven  |  D. It will be proven  →  It has been proven
+2. _____ that recent surveys have reported that organic farming can improve soil health over time.
+   A. It is reported  |  B. It was reported  |  C. It has been reported  |  D. It will be reported  →  It has been reported
+3. _____ that recent analyses have suggested that climate change will affect global food security.
+   A. It is suggested  |  B. It was suggested  |  C. It has been suggested  |  D. It will be suggested  →  It has been suggested
+4. _____ that recent observations have noted that the surplus of food can be stored for emergencies.
+   A. It is noted  |  B. It was noted  |  C. It has been noted  |  D. It will be noted  →  It has been noted
+5. _____ that recent studies have proven that pesticide residues are harmful to human health.
+   A. It is proven  |  B. It was proven  |  C. It has been proven  |  D. It will be proven  →  It has been proven
 
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
@@ -1279,11 +1279,11 @@ Cấu trúc này dùng để truyền đạt kết quả nghiên cứu, báo cá
 **Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
 **Từ gợi ý:** found · reported · suggested · noted · proven · ignored
 
-1. It has been _____ that the new fertilizer improves wheat growth.  →  found
-2. It has been _____ that organic farms use less water.  →  reported
-3. It has been _____ that climate models predict lower yields.  →  suggested
-4. It has been _____ that pesticide residues can accumulate in soil.  →  noted
-5. It has been _____ that certain crops are resistant to disease.  →  proven
+1. It has been _____ that the new fertilizer improves wheat growth, a discovery confirmed by laboratory tests.  →  found
+2. It has been _____ that organic farms use less water, as mentioned in the latest press release.  →  reported
+3. It has been _____ that climate models predict lower yields, as suggested by leading climate scientists.  →  suggested
+4. It has been _____ that pesticide residues can accumulate in soil, as noted in the official guidelines.  →  noted
+5. It has been _____ that certain crops are resistant to disease, as proven through extensive field trials.  →  proven
 
 <!-- /topic -->
 
@@ -1331,15 +1331,15 @@ Lượng từ (all, most, some, few, no) được đặt trước danh từ đ�
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn lượng từ thích hợp để hoàn thành câu.
 
-1. _____ of the crops were damaged by the frost.
+1. _____ of the crops were damaged by the frost, but not all of them.
    A. All  |  B. Most  |  C. Some  |  D. Few  →  Most
-2. _____ water is available for irrigation in the dry season.
+2. _____ water is available for irrigation in the dry season, but not enough for all fields.
    A. No  |  B. Few  |  C. Some  |  D. All  →  Some
-3. _____ farmers in the region use organic methods.
+3. _____ farmers in the region use organic methods, and most rely on conventional methods.
    A. Few  |  B. All  |  C. Most  |  D. No  →  Few
-4. _____ of the harvested grain was wasted.
+4. _____ of the harvested grain was wasted, but most was stored safely.
    A. Some  |  B. All  |  C. No  |  D. Most  →  Some
-5. _____ evidence suggests that the new technique improves yields.
+5. _____ evidence, without exception, suggests that the new technique improves yields.
    A. All  |  B. Most  |  C. Few  |  D. No  →  All
 
 ### Bài tập 2 — Sắp xếp câu
@@ -1353,11 +1353,11 @@ Lượng từ (all, most, some, few, no) được đặt trước danh từ đ�
 **Hướng dẫn:** Điền lượng từ thích hợp vào chỗ trống.
 **Từ gợi ý:** all · most · some · few · no · many
 
-1. _____ of the soil nutrients were depleted after the flood.  →  all
-2. _____ villages have access to clean water.  →  few
-3. _____ crops survived the drought.  →  some
-4. _____ evidence points to climate change as a factor.  →  most
-5. _____ fish were caught this season.  →  no
+1. _____ of the soil nutrients were depleted after the flood, leaving none untouched.  →  all
+2. _____ villages have access to clean water, making sanitation a major challenge.  →  few
+3. _____ crops survived the drought, while the rest perished.  →  some
+4. According to the majority of researchers, _____ evidence points to climate change as a factor.  →  most
+5. _____ fish were caught this season, none at all.  →  no
 
 <!-- /topic -->
 
@@ -1407,7 +1407,7 @@ Quá khứ hoàn thành (had + quá phân từ) diễn tả một hành động 
    A. has  |  B. did  |  C. had  |  D. were  →  had
 3. After the flood receded, the city _____ repaired many damaged roads.
    A. was  |  B. had  |  C. did  |  D. has  →  had
-4. She couldn't believe that the tsunami _____ already destroyed the coastal village.
+4. She couldn't believe that the tsunami _____ already destroyed the coastal village by the time the rescue arrived.
    A. had  |  B. was  |  C. did  |  D. has  →  had
 5. When the fire finally was extinguished, the firefighters _____ saved several historic houses.
    A. did  |  B. has  |  C. were  |  D. had  →  had
@@ -1481,7 +1481,7 @@ Câu điều kiện loại 1 (First Conditional) dùng để nói về một kh�
    A. will know  |  B. knows  |  C. knew  |  D. would know  →  knew
 3. If they ___ the loan on time, they will avoid interest charges.
    A. paid  |  B. pay  |  C. will pay  |  D. would pay  →  pay
-4. If I ___ richer, I would travel the world.
+4. If we ___ richer, we would travel the world.
    A. am  |  B. were  |  C. was  |  D. will be  →  were
 5. If you ___ the budget, you will overspend.
    A. do not understand  |  B. did not understand  |  C. will not understand  |  D. would not understand  →  do not understand
@@ -1543,7 +1543,7 @@ Danh động từ (verb‑ing) có thể làm chủ ngữ hoặc tân ngữ tron
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn dạng danh động từ (‑ing) phù hợp để hoàn thành câu.
 
-1. _____ a business plan helps you stay organized.
+1. The act of _____ a business plan helps you stay organized.
    A. To write  |  B. Writing  |  C. Write  |  D. Wrote  →  Writing
 2. She enjoys _____ new markets.
    A. exploring  |  B. explored  |  C. explore  |  D. explores  →  exploring
@@ -1565,7 +1565,7 @@ Danh động từ (verb‑ing) có thể làm chủ ngữ hoặc tân ngữ tron
 **Hướng dẫn:** Điền danh động từ (‑ing) thích hợp vào chỗ trống.
 **Từ gợi ý:** writing · analyzing · hiring · expanding · saving · negotiating
 
-1. _____ a clear mission statement is the first step.  →  writing
+1. _____ a clear mission statement is the first step before any analysis.  →  writing
 2. _____ market trends helps you stay ahead.  →  analyzing
 3. _____ new talent can boost your team's capabilities.  →  hiring
 4. _____ into new regions should be done after solidifying the home market.  →  expanding
@@ -1610,15 +1610,15 @@ Cụm danh từ phức tạp là một danh từ (head noun) đi kèm với mộ
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn cụm danh từ phù hợp để hoàn thành câu.
 
-1. The _____ has attracted many investors.
+1. The _____ has attracted many investors because it offers abundant resources.
    A. increase in demand  |  B. availability of raw materials  |  C. growth of the economy  |  D. high taxes  →  availability of raw materials
-2. Countries often negotiate _____ to reduce trade barriers.
+2. Countries often negotiate _____ with another single country to reduce trade barriers.
    A. bilateral agreements  |  B. trade deals  |  C. economic policies  |  D. foreign investments  →  bilateral agreements
 3. The _____ determines how much one currency is worth in another.
    A. exchange rate between the two currencies  |  B. interest rate set by the bank  |  C. inflation level in the market  |  D. government policy on tariffs  →  exchange rate between the two currencies
 4. A successful _____ reduces obstacles and opens markets wider.
    A. trade agreement between the nations  |  B. economic plan  |  C. foreign policy  |  D. tax regulation  →  trade agreement between the nations
-5. The _____ has increased due to digital platforms.
+5. The _____ has increased due to digital platforms, especially in terms of cross‑border communication.
    A. interconnectedness of global markets  |  B. complexity of trade laws  |  C. size of the economy  |  D. growth of exports  →  interconnectedness of global markets
 
 ### Bài tập 2 — Sắp xếp câu
@@ -1632,9 +1632,9 @@ Cụm danh từ phức tạp là một danh từ (head noun) đi kèm với mộ
 **Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
 **Từ gợi ý:** interconnectedness · availability · tariff · negotiation · growth · inflation
 
-1. The _____ of global markets has created new opportunities.  →  interconnectedness
+1. The _____ of global markets, referring specifically to their cross‑border communication, has created new opportunities.  →  interconnectedness
 2. _____ of raw materials is crucial for manufacturing.  →  availability
-3. A higher _____ can make exports less competitive.  →  tariff
+3. A higher _____, specifically a tax on imported goods, can make exports less competitive.  →  tariff
 4. Effective _____ can lead to mutually beneficial deals.  →  negotiation
 5. Sustained _____ in emerging economies drives demand.  →  growth
 
@@ -1706,7 +1706,7 @@ Câu điều kiện loại 2 dùng để diễn tả một tình huống không 
 2. If she _____ (have) a larger budget, she could buy a new laptop.  →  had
 3. If they _____ (be) aware of the interest rate, they would choose a cheaper loan.  →  were
 4. If we _____ (have) more time, we would review our statements weekly.  →  had
-5. If I were more organized, I _____ track my expenses better.  →  could
+5. If I were more organized, I _____ track my expenses better (ability).  →  could
 
 <!-- /topic -->
 
@@ -1753,14 +1753,14 @@ Bị động (passive voice) dùng để đưa trọng tâm vào đối tượng
 
 1. The new policy _____ by the government last month.
    A. will be implemented  |  B. has been implemented  |  C. was implemented  |  D. is implemented  →  was implemented
-2. All the data _____ before the analysis begins.
+2. The dataset _____ last week before the analysis begins.
    A. were collected  |  B. has been collected  |  C. is collected  |  D. was collected  →  was collected
-3. The results _____ in a peer‑reviewed journal.
+3. The results _____ next year in a peer‑reviewed journal.
    A. are published  |  B. will be published  |  C. has been published  |  D. were published  →  will be published
-4. The advertisement _____ to appeal to young adults.
+4. The advertisement _____ last month to appeal to young adults.
    A. will be designed  |  B. was designed  |  C. has been designed  |  D. is designed  →  was designed
-5. Customer feedback _____ through online surveys.
-   A. has been gathered  |  B. will be gathered  |  C. is gathered  |  D. was gathered  →  is gathered
+5. Customer feedback _____ so far this quarter through online surveys.
+   A. has been gathered  |  B. will be gathered  |  C. is gathered  |  D. was gathered  →  has been gathered
 
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
@@ -1774,9 +1774,9 @@ Bị động (passive voice) dùng để đưa trọng tâm vào đối tượng
 **Từ gợi ý:** designed · produced · distributed · implemented · targeted · promoted
 
 1. The new slogan was _____ to reflect the brand's values.  →  designed
-2. All promotional materials are _____ before the launch.  →  produced
+2. All promotional materials are _____ in the factory before the launch.  →  produced
 3. Customer surveys are _____ to improve service quality.  →  distributed
-4. The campaign was _____ by the creative team last week.  →  implemented
+4. The campaign was _____ by the creative team last week, meaning it was put into action.  →  implemented
 5. The target audience was _____ through social media ads.  →  targeted
 
 <!-- /topic -->
@@ -1837,7 +1837,7 @@ Câu điều kiện loại 3 (Third Conditional) dùng để nói về một s�
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
 
-1. [If] [the] [manager] [had] [noticed] [the] [issue] [it] [would] [have] [been] [resolved]  →  If the manager had noticed the issue it would have been resolved
+1. [If] [the] [manager] [had] [noticed] [the] [issue] [the] [problem] [would] [have] [been] [resolved]  →  If the manager had noticed the issue, the problem would have been resolved
 2. [If] [the] [employee] [had] [taken] [the] [training] [she] [would] [have] [improved] [her] [skills]  →  If the employee had taken the training she would have improved her skills
 3. [If] [the] [company] [had] [clarified] [the] [remote‑work] [policy] [workers] [would] [have] [felt] [more] [secure]  →  If the company had clarified the remote‑work policy workers would have felt more secure
 
@@ -1846,7 +1846,7 @@ Câu điều kiện loại 3 (Third Conditional) dùng để nói về một s�
 **Từ gợi ý:** had offered · had recognized · had stepped · had included · had provided · had missed
 
 1. If the manager __________ the problem earlier, the conflict could have been avoided.  →  had recognized
-2. If the contract __________ a clause on health insurance, employees would have been covered.  →  had included
+2. If the contract explicitly __________ a clause on health insurance, employees would have been covered.  →  had included
 3. If the union __________ in the negotiations, better wages might have been secured.  →  had stepped
 4. If the employer __________ more training sessions, staff would have performed better.  →  had offered
 5. If HR __________ clear communication, misunderstandings would have been reduced.  →  had provided
@@ -1892,11 +1892,11 @@ Mệnh đề quan hệ xác định (defining relative clause) cung cấp thông
 **Hướng dẫn:** Chọn từ phù hợp để hoàn thành câu.
 
 1. The landlord ___ collects the rent on the first of each month.
-   A. whom  |  B. that  |  C. who  |  D. which  →  who
+   A. whom  |  B. which  |  C. who  |  D. where  →  who
 2. The house, ___ was built in 1920, needs renovation.
    A. where  |  B. who  |  C. that  |  D. which  →  which
 3. Buyers often look for apartments ___ have a balcony.
-   A. who  |  B. where  |  C. that  |  D. which  →  that
+   A. who  |  B. where  |  C. that  |  D. whose  →  that
 4. The suburb ___ I grew up has become very expensive.
    A. who  |  B. that  |  C. where  |  D. which  →  where
 5. My neighbour, ___ works as a real estate agent, gave me advice.
@@ -1913,11 +1913,11 @@ Mệnh đề quan hệ xác định (defining relative clause) cung cấp thông
 **Hướng dẫn:** Điền từ thích hợp từ ngân hàng từ vào chỗ trống.
 **Từ gợi ý:** who · which · that · where · whose · whom
 
-1. The tenant ___ pays the rent on time is reliable.  →  who
+1. The tenant, ___ pays the rent on time, is reliable.  →  who
 2. The lease agreement, ___ was signed yesterday, includes a clause on pets.  →  which
-3. The city ___ we are considering buying property in has a strong economy.  →  where
+3. The city, ___ we are considering buying property in, has a strong economy.  →  where
 4. The developer ___ project was delayed faced penalties.  →  whose
-5. The landlord ___ we spoke yesterday offered a discount.  →  whom
+5. The landlord ___ we spoke to yesterday offered a discount.  →  whom
 
 <!-- /topic -->
 
@@ -2031,16 +2031,16 @@ Câu hỏi đuôi (question tag) là một cụm từ ngắn được đặt sau
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn động từ truyền đạt phù hợp để hoàn thành câu.
 
-1. The study _____ that social media influences public opinion.
+1. The study _____, based on preliminary findings, that social media influences public opinion.
    A. suggests  |  B. denies  |  C. argues  |  D. claims  →  suggests
-2. The editor _____ that the article needed more sources.
-   A. denies  |  B. suggests  |  C. claims  |  D. argues  →  claims
-3. Scientists _____ that the data could be unreliable.
+2. The editor _____ that the article did not need more sources.
+   A. denies  |  B. suggests  |  C. claims  |  D. argues  →  denies
+3. Scientists _____ the public that the data could be unreliable.
    A. warn  |  B. suggest  |  C. deny  |  D. claim  →  warn
 4. The spokesperson _____ any involvement in the leak.
    A. claims  |  B. denies  |  C. suggests  |  D. argues  →  denies
-5. Researchers _____ that the new method improves accuracy.
-   A. suggests  |  B. claims  |  C. argues  |  D. warns  →  claims
+5. Researchers _____ that the new method improves accuracy, based on preliminary tests.
+   A. suggests  |  B. claims  |  C. argues  |  D. warns  →  suggests
 
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
@@ -2053,10 +2053,10 @@ Câu hỏi đuôi (question tag) là một cụm từ ngắn được đặt sau
 **Hướng dẫn:** Điền từ thích hợp từ ngân hàng từ vào chỗ trống.
 **Từ gợi ý:** claims · argues · suggests · warns · denies · states
 
-1. The article _____ that the government ignored the warning.  →  claims
-2. The spokesperson _____ that the company had no knowledge of the leak.  →  denies
-3. The latest research _____ that the new policy could reduce emissions.  →  suggests
-4. The professor _____ that the textbook contains outdated data.  →  argues
+1. The article probably _____ that the government ignored the warning.  →  suggests
+2. The spokesperson _____ that the company had any knowledge of the leak.  →  denies
+3. The latest research likely _____ that the new policy could reduce emissions.  →  suggests
+4. The professor _____ that the textbook contains outdated data, according to the latest review.  →  states
 5. Health officials _____ the public to get vaccinated soon.  →  warns
 
 <!-- /topic -->
@@ -2105,15 +2105,15 @@ Trạng từ chỉ mức độ (extremely, fairly, quite, rather) dùng để bi
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn đáp án đúng để điền vào chỗ trống.
 
-1. The new smartphone is _____ expensive, but its features are impressive.
+1. The new smartphone is _____ expensive, costing over $1500, but its features are impressive.
    A. fairly  |  B. rather  |  C. quite  |  D. extremely  →  extremely
-2. She found the online store's return policy _____ generous.
+2. She found the online store's return policy _____ generous, as it only allows returns within 14 days.
    A. rather  |  B. fairly  |  C. quite  |  D. extremely  →  fairly
-3. The packaging was _____ minimal, which pleased the eco‑conscious buyers.
+3. The packaging was _____ minimal, containing just a single thin cardboard sleeve.
    A. quite  |  B. rather  |  C. extremely  |  D. fairly  →  quite
-4. The discount made the shoes _____ affordable for students.
+4. The discount made the shoes _____ affordable for students, reducing the price by 15%.
    A. rather  |  B. extremely  |  C. fairly  |  D. quite  →  rather
-5. His loyalty to the brand is _____ strong, even when cheaper alternatives exist.
+5. His loyalty to the brand is _____ strong, as he has been buying its products for over ten years despite cheaper alternatives.
    A. fairly  |  B. quite  |  C. rather  |  D. extremely  →  quite
 
 ### Bài tập 2 — Sắp xếp câu
@@ -2179,13 +2179,13 @@ Tính từ đuôi -ed và -ing được tạo ra từ động từ để mô t�
 
 1. She is _____ in modern sculpture.
    A. excited  |  B. interested  |  C. boring  |  D. surprised  →  interested
-2. The painting was _____, so everyone talked about it.
+2. The painting was _____, so everyone admired it.
    A. interesting  |  B. interested  |  C. confusing  |  D. amused  →  interesting
-3. They were _____ by the gallery's new layout.
-   A. interested  |  B. interesting  |  C. bored  |  D. amazed  →  interested
+3. They were _____ by the gallery's new layout, which left them speechless.
+   A. interested  |  B. interesting  |  C. bored  |  D. amazed  →  amazed
 4. The documentary was _____ enough to keep my attention.
    A. boring  |  B. interesting  |  C. excited  |  D. surprised  →  interesting
-5. He became _____ after seeing the installation.
+5. He became _____ after seeing the installation, because it sparked his curiosity.
    A. interested  |  B. interesting  |  C. bored  |  D. confusing  →  interested
 
 ### Bài tập 2 — Sắp xếp câu
@@ -2199,10 +2199,10 @@ Tính từ đuôi -ed và -ing được tạo ra từ động từ để mô t�
 **Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
 **Từ gợi ý:** interested · interesting · excited · bored · surprised · confusing
 
-1. I am _____ about the upcoming art festival.  →  interested
+1. I am _____ for the upcoming art festival.  →  excited
 2. The sculpture was _____, attracting many visitors.  →  interesting
 3. She felt _____ after the long museum tour.  →  bored
-4. The curator found the new collection _____.  →  interesting
+4. The curator found the new collection _____, praising its originality.  →  interesting
 5. Many students are _____ in learning about graphic design.  →  interested
 
 <!-- /topic -->
@@ -2317,32 +2317,32 @@ Trong tự sự, chúng ta dùng ba thì quá khứ: Past Simple, Past Continuou
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn dạng đúng của động từ trong ngoặc để hoàn thành câu.
 
-1. When the writer _____ (arrive) at the publisher, he realized the manuscript was missing.
-   A. arrived  |  B. had arrived  |  C. was arriving  |  D. has arrived  →  had arrived
-2. She _____ (write) the novel for three years before she finally published it.
+1. The moment the writer _____ (arrive) at the publisher, he realized the manuscript was missing.
+   A. arrived  |  B. had arrived  |  C. was arriving  |  D. has arrived  →  arrived
+2. She _____ (write) the novel for three years by the time she finally published it.
    A. wrote  |  B. had written  |  C. was writing  |  D. writes  →  had written
 3. While the audience _____ (listen) to the story, the narrator whispered a secret.
-   A. listened  |  B. was listening  |  C. had listened  |  D. listens  →  was listening
+   A. listened  |  B. were listening  |  C. had listened  |  D. listens  →  were listening
 4. The protagonist _____ (discover) the hidden door just as the clock struck midnight.
    A. discovered  |  B. had discovered  |  C. was discovering  |  D. discovers  →  discovered
-5. By the time the book _____ (become) a bestseller, the author was already famous.
-   A. became  |  B. had become  |  C. was becoming  |  D. becomes  →  had become
+5. When the book _____ (become) a bestseller, the author was already famous.
+   A. became  |  B. had become  |  C. was becoming  |  D. becomes  →  became
 
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
 
-1. [had] [the] [author] [finished] [the] [manuscript] [when] [the] [deadline] [approached]  →  The author had finished the manuscript when the deadline approached
-2. [was] [reading] [the] [novel] [she] [while] [waiting] [for] [her] [coffee]  →  She was reading the novel while waiting for her coffee
-3. [had] [they] [already] [released] [the] [book] [when] [the] [award] [was] [announced]  →  They had already released the book when the award was announced
+1. [When] [the] [deadline] [approached] [the] [author] [had] [finished] [the] [manuscript]  →  When the deadline approached, the author had finished the manuscript
+2. [After] [waiting] [for] [her] [coffee] [she] [was] [reading] [the] [novel]  →  After waiting for her coffee, she was reading the novel
+3. [After] [the] [award] [was] [announced] [they] [had] [already] [released] [the] [book]  →  After the award was announced, they had already released the book
 
 ### Bài tập 3 — Điền từ
 **Hướng dẫn:** Chọn từ đúng để hoàn thành câu.
 **Từ gợi ý:** had · was · had been · arrived · wrote · become
 
-1. The critic _____ at the launch party early.  →  arrived
-2. She _____ the preface before the main chapters were printed.  →  wrote
-3. By 2020, the series _____ a global phenomenon.  →  had been
-4. The hall _____ quiet after the final chapter ended.  →  was
+1. The critic just _____ at the launch party early.  →  arrived
+2. She immediately _____ the preface before the main chapters were printed.  →  wrote
+3. By 2020, the series _____ a global phenomenon for a decade.  →  had been
+4. The hall _____ quiet immediately after the final chapter ended.  →  was
 5. After the interview, the author _____ exhausted but satisfied.  →  was
 
 <!-- /topic -->
@@ -2488,7 +2488,7 @@ Both, either và neither là các từ dùng để nói về hai đối tượng
 1. _____ the manager and the assistant agreed to the plan.  →  both
 2. You can choose _____ to stay home or to go out.  →  either
 3. _____ of the options were suitable for the project.  →  neither
-4. She likes coffee _____ tea.  →  and
+4. She likes both coffee _____ tea.  →  and
 5. He will arrive _____ tomorrow or next week.  →  either
 
 <!-- /topic -->
@@ -2535,11 +2535,11 @@ Too và enough có thể đi kèm với mệnh đề nguyên thể (to + V) đ�
 
 1. The teacher found the textbook _____ to understand for beginners.
    A. enough clear  |  B. too difficult  |  C. too clear  |  D. enough difficult  →  too difficult
-2. The school does not have _____ teachers to cover all subjects.
+2. The school does not have _____ teachers to cover all subjects, and it needs more staff.
    A. too qualified  |  B. enough qualified  |  C. enough unqualified  |  D. too unqualified  →  enough qualified
 3. The new policy is _____ to implement without additional funding.
    A. enough cheap  |  B. too cheap  |  C. too expensive  |  D. enough expensive  →  too expensive
-4. She is _____ to finish the assignment by tomorrow.
+4. She is _____ to finish the assignment by tomorrow because she has many meetings.
    A. enough fast  |  B. too busy  |  C. too lazy  |  D. enough slow  →  too busy
 5. The library lacks _____ books to meet the demand.
    A. too old  |  B. enough recent  |  C. too recent  |  D. enough old  →  enough recent
@@ -2548,8 +2548,8 @@ Too và enough có thể đi kèm với mệnh đề nguyên thể (to + V) đ�
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
 
 1. [hard] [exam] [the] [to] [was] [pass] [too]  →  The exam was too hard to pass
-2. [program] [expand] [resources] [enough] [to] [have] [We]  →  We have enough resources to expand the program
-3. [lead] [project] [enough] [She] [to] [experienced] [not] [the] [is]  →  She is not enough experienced to lead the project
+2. [program] [expand] [resources] [enough] [to] [have] [We] [the]  →  We have enough resources to expand the program
+3. [She] [is] [not] [experienced] [enough] [to] [lead] [the] [project]  →  She is not experienced enough to lead the project
 
 ### Bài tập 3 — Điền từ
 **Hướng dẫn:** Điền từ thích hợp từ ngân hàng từ vào chỗ trống.
@@ -2558,7 +2558,7 @@ Too và enough có thể đi kèm với mệnh đề nguyên thể (to + V) đ�
 1. The curriculum is _____ challenging to be taught by untrained staff.  →  too
 2. The school does not have _____ teachers to cover all subjects.  →  enough
 3. The new software is _____ costly to implement without extra budget.  →  too
-4. The candidate is _____ qualified to lead the research team.  →  enough
+4. The candidate is _____ qualified to lead the research team, but lacks leadership experience.  →  enough
 5. The deadline is _____ tight to allow revisions.  →  too
 
 <!-- /topic -->
@@ -2603,12 +2603,12 @@ Trong tiếng Anh, các động từ do, play và go được dùng theo cách k
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn động từ phù hợp (do / play / go) để hoàn thành câu.
 
-1. She _____ tennis every weekend.
+1. She _____ tennis every weekend on the court.
    A. watch  |  B. play  |  C. do  |  D. run  →  play
 2. They _____ swimming after school.
    A. go  |  B. play  |  C. do  |  D. watch  →  go
-3. He doesn't _____ any sport because he's busy.
-   A. play  |  B. go  |  C. watch  |  D. do  →  do
+3. He doesn't _____ any ball sport because he's busy.
+   A. play  |  B. go  |  C. watch  |  D. do  →  play
 4. Do you _____ basketball on Saturdays?
    A. go  |  B. watch  |  C. play  |  D. do  →  play
 5. We usually _____ jogging in the park on Sundays.
@@ -2625,10 +2625,10 @@ Trong tiếng Anh, các động từ do, play và go được dùng theo cách k
 **Hướng dẫn:** Điền từ thích hợp (do / play / go) vào chỗ trống.
 **Từ gợi ý:** do · play · go · watch · run · swim
 
-1. He likes to _____ tennis with his friends.  →  play
+1. He likes to _____ tennis with his friends on the court.  →  play
 2. We usually _____ swimming in the lake during summer.  →  go
-3. She doesn't _____ any sport because of her schedule.  →  do
-4. Do you _____ basketball on weekends?  →  play
+3. She doesn't _____ any ball sport because of her schedule.  →  play
+4. Do you _____ basketball on weekends with your team?  →  play
 5. They _____ jogging every morning to stay fit.  →  go
 
 <!-- /topic -->
@@ -2680,15 +2680,15 @@ Trong tiếng Anh, các động từ do, play và go được dùng theo cách k
 3. You should be proud of _____ for completing the project.
    A. your  |  B. you  |  C. yourself  |  D. yours  →  yourself
 4. The models walked the runway _____, without any assistants.
-   A. themselves  |  B. them  |  C. they  |  D. themselves  →  themselves
+   A. themselves  |  B. them  |  C. they  |  D. theirselves  →  themselves
 5. We organized the fashion show _____ to ensure every detail was perfect.
    A. ourselves  |  B. our  |  C. us  |  D. we  →  ourselves
 
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
 
-1. [fashion] [itself] [reflects] [culture]  →  fashion itself reflects culture
-2. [designers] [themselves] [must] [innovate]  →  designers themselves must innovate
+1. [fashion] [reflects] [culture] [in] [itself]  →  fashion reflects culture in itself
+2. [designers] [must] [innovate] [by] [themselves]  →  designers must innovate by themselves
 3. [you] [express] [yourself] [through] [style]  →  you express yourself through style
 
 ### Bài tập 3 — Điền từ
@@ -2743,15 +2743,15 @@ Bị động mô tả quy trình dùng để nhấn mạnh hành động hoặc 
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn dạng bị động đúng cho câu sau.
 
-1. The dough _____ by the baker before it rises.
+1. The dough _____ by the baker before it rises, usually.
    A. was kneaded  |  B. is kneaded  |  C. has kneaded  |  D. kneads  →  is kneaded
-2. Traditional spices _____ from the region for centuries.
+2. Traditional spices _____ from the region for centuries, today.
    A. are harvested  |  B. were harvested  |  C. have harvested  |  D. harvest  →  are harvested
-3. The recipe _____ handed down through generations.
+3. The recipe _____ handed down through generations so far.
    A. has been handed  |  B. is handed  |  C. was handed  |  D. handed  →  has been handed
-4. The cooking pot _____ cleaned after each use.
+4. The cooking pot _____ cleaned after each use, as it must be.
    A. must be  |  B. must  |  C. is  |  D. are  →  must be
-5. The flavors _____ enhanced by adding fresh herbs.
+5. The flavors _____ enhanced by adding fresh herbs, always.
    A. are  |  B. were  |  C. is  |  D. been  →  are
 
 ### Bài tập 2 — Sắp xếp câu
@@ -2814,7 +2814,7 @@ Mạo từ 'the' được dùng khi danh từ chỉ một thực thể duy nhấ
 
 1. _____ Eiffel Tower is one of the most visited landmarks in the world.
    A. A  |  B. One  |  C. The  |  D. An  →  The
-2. She studied _____ Renaissance art for her thesis.
+2. She studied _____ Renaissance art for her thesis, as a whole.
    A. some  |  B. the  |  C. a  |  D. an  →  the
 3. _____ internet has changed how we communicate.
    A. An  |  B. The  |  C. A  |  D. Some  →  The
@@ -2827,16 +2827,16 @@ Mạo từ 'the' được dùng khi danh từ chỉ một thực thể duy nhấ
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
 
 1. [challenge] [The] [is] [to] [adapt] [without] [losing] [the] [essence]  →  The challenge is to adapt without losing the essence
-2. [connects] [people] [The] [internet] [worldwide] [is]  →  The internet connects people worldwide
-3. [inspires] [living] [legacy] [the] [past] [The] [of] [is] [us]  →  The living legacy of the past inspires us
+2. [connects] [people] [The] [internet] [worldwide]  →  The internet connects people worldwide
+3. [inspires] [living] [legacy] [the] [past] [The] [of] [us]  →  The living legacy of the past inspires us
 
 ### Bài tập 3 — Điền từ
 **Hướng dẫn:** Điền mạo từ thích hợp (the) vào chỗ trống.
 **Từ gợi ý:** the · a · an · some · this · that
 
-1. _____ living legacy of the past is celebrated each year.  →  the
+1. _____ living legacy of the past, the only one, is celebrated each year.  →  the
 2. _____ most powerful expression of culture is music.  →  the
-3. _____ challenge faced by organizers is funding.  →  the
+3. _____ challenge faced by organizers is funding, the only one.  →  the
 4. _____ internet has transformed education.  →  the
 5. _____ Great Wall of China is a UNESCO World Heritage site.  →  the
 
@@ -2883,13 +2883,13 @@ Wish / If only + quá khứ được dùng để diễn tả sự hối tiếc v
 
 1. I _____ that I had learned more about the local customs before moving abroad.
    A. wished  |  B. wishes  |  C. wish  |  D. wishing  →  wish
-2. If only the government _____ better support for newcomers, integration would be easier.
+2. If only the government _____ better support for newcomers now, integration would be easier.
    A. provided  |  B. provides  |  C. had provided  |  D. providing  →  provided
 3. She _____ that she spoke the language fluently when she first arrived.
    A. wishes  |  B. wished  |  C. wish  |  D. wishing  →  wished
-4. If only I _____ how to navigate the legal system, I wouldn't feel so lost.
+4. If only I _____ how to navigate the legal system right now, I wouldn't feel so lost.
    A. knew  |  B. know  |  C. had known  |  D. knowing  →  knew
-5. They _____ the city had more cultural events for immigrants.
+5. They _____ the city had more cultural events for immigrants last year.
    A. wish  |  B. wished  |  C. wishes  |  D. wishing  →  wished
 
 ### Bài tập 2 — Sắp xếp câu
@@ -2904,10 +2904,10 @@ Wish / If only + quá khứ được dùng để diễn tả sự hối tiếc v
 **Từ gợi ý:** wish · wished · provided · knew · had · only
 
 1. If _____ the city offered more language courses, newcomers would feel less isolated.  →  only
-2. I _____ I had saved more money before moving abroad.  →  wish
+2. I _____ I had saved more money before moving abroad, so I could travel comfortably now.  →  wish
 3. She _____ she knew the local customs earlier.  →  wished
-4. If the government _____ better housing, many families would stay longer.  →  provided
-5. If only I _____ how to file the paperwork correctly.  →  knew
+4. If the government _____ better housing now, many families would stay longer.  →  provided
+5. If only I _____ how to file the paperwork correctly right now.  →  knew
 
 <!-- /topic -->
 
@@ -2953,15 +2953,15 @@ Cấu trúc này gồm ba động từ chính: agree, suggest và expect, mỗi 
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu.
 
-1. The committee ___ to increase funding for shelters.
+1. The committee ___ to increase funding for shelters, even though they had no authority to decide.
    A. agreed  |  B. agreed to  |  C. decided  |  D. planned  →  agreed to
 2. She ___ volunteering at the food bank every weekend.
    A. suggested  |  B. suggest  |  C. suggests  |  D. suggested to  →  suggested
-3. They ___ to receive assistance next month.
+3. Last year, they ___ to receive assistance next month.
    A. expect  |  B. expected  |  C. expected to  |  D. expects  →  expected to
 4. We ___ to help the homeless community.
    A. agree  |  B. agreed  |  C. agreed to  |  D. agrees  →  agreed to
-5. Local leaders ___ increasing public awareness about poverty.
+5. Last month, local leaders ___ increasing public awareness about poverty.
    A. suggest  |  B. suggested  |  C. suggested to  |  D. suggests  →  suggested
 
 ### Bài tập 2 — Sắp xếp câu
@@ -2975,7 +2975,7 @@ Cấu trúc này gồm ba động từ chính: agree, suggest và expect, mỗi 
 **Hướng dẫn:** Điền từ thích hợp từ danh sách vào chỗ trống.
 **Từ gợi ý:** agree · suggest · expect · volunteer · donate · assist
 
-1. Many citizens ___ to fund the new library.  →  agree
+1. Many citizens unanimously ___ to fund the new library.  →  agree
 2. The council ___ increasing recycling efforts.  →  suggest
 3. Families ___ to get more support from the government.  →  expect
 4. She decided to ___ at the community center.  →  volunteer
@@ -3024,13 +3024,13 @@ Cấu trúc này gồm ba động từ chính: agree, suggest và expect, mỗi 
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn dạng modal perfect phù hợp để điền vào chỗ trống.
 
-1. The government _____ increased funding for education last year, but it didn't.
+1. The government _____ increased funding for education last year, as was expected, but it didn't.
    A. could have  |  B. must have  |  C. should have  |  D. can't have  →  should have
-2. You _____ known the consequences of censoring free speech.
+2. You _____ known the consequences of censoring free speech, given your background in law.
    A. might have  |  B. can't have  |  C. must have  |  D. should have  →  must have
-3. They _____ ignored the protest, yet the police intervened.
+3. They _____ ignored the protest, since the police would not have intervened otherwise.
    A. should have  |  B. could have  |  C. can't have  |  D. must have  →  can't have
-4. I _____ taken the train, but I chose to drive.
+4. I _____ taken the train, had I wanted, but I chose to drive.
    A. must have  |  B. could have  |  C. should have  |  D. can't have  →  could have
 5. She _____ forgotten the deadline, because she always checks her calendar.
    A. can't have  |  B. must have  |  C. should have  |  D. could have  →  can't have
@@ -3046,11 +3046,11 @@ Cấu trúc này gồm ba động từ chính: agree, suggest và expect, mỗi 
 **Hướng dẫn:** Điền dạng modal perfect thích hợp vào chỗ trống.
 **Từ gợi ý:** should have · must have · can't have · could have · might have · would have
 
-1. The committee _____ approved the proposal before the deadline.  →  should have
+1. The committee _____ approved the proposal before the deadline, as was required.  →  should have
 2. Given the evidence, the judge _____ found the defendant guilty.  →  must have
 3. She _____ missed the meeting; she was at the conference.  →  can't have
-4. If we had known earlier, we _____ taken different action.  →  could have
-5. He _____ been more careful, but he didn't realize the risk.  →  might have
+4. If we had known earlier, we _____ taken different action, had we had the opportunity.  →  could have
+5. He _____ been more careful, as the evidence shows, but he didn't realize the risk.  →  must have
 
 <!-- /topic -->
 
@@ -3097,15 +3097,15 @@ Cấu trúc so sánh kết hợp với lượng từ dùng để nhấn mạnh m
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu so sánh.
 
-1. The new policy will cost _____ than the previous one.
+1. The new policy will cost _____ than the previous one, if it is set at double the price.
    A. far more  |  B. twice as much  |  C. as much  |  D. less  →  twice as much
-2. Women now earn _____ than they did ten years ago.
+2. Women now earn _____ than they did ten years ago, according to recent wage gap studies showing a large increase.
    A. as much  |  B. far more  |  C. twice as many  |  D. less  →  far more
-3. The city’s elderly population is _____ as it was in 1990.
+3. The city’s elderly population is _____ as it was in 1990, having doubled over the past three decades.
    A. twice as large  |  B. far more  |  C. as large  |  D. smaller  →  twice as large
-4. Retirement savings need to be _____ to cover rising healthcare costs.
-   A. far more  |  B. twice as much  |  C. as much  |  D. less  →  far more
-5. Volunteers contribute _____ hours than they did last year.
+4. Retirement savings need to be _____ to cover rising healthcare costs, if they are to be exactly double the current amount.
+   A. far more  |  B. twice as much  |  C. as much  |  D. less  →  twice as much
+5. Volunteers contribute _____ hours than they did last year, having doubled their total time.
    A. as many  |  B. twice as many  |  C. far more  |  D. less  →  twice as many
 
 ### Bài tập 2 — Sắp xếp câu
@@ -3165,16 +3165,16 @@ Liên từ văn viết (discourse markers) là các từ hoặc cụm từ dùng
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn liên từ thích hợp để điền vào chỗ trống.
 
-1. The city has a high cost of living; _____, the public transport system is efficient.
+1. The city has a high cost of living; _____, the public transport system is affordable.
    A. moreover  |  B. however  |  C. furthermore  |  D. on the other hand  →  however
 2. She completed her degree with top marks; _____, she decided to travel before starting her career.
-   A. on the other hand  |  B. however  |  C. moreover  |  D. furthermore  →  moreover
-3. The study confirmed the hypothesis; _____, it also revealed unexpected side effects.
-   A. however  |  B. on the other hand  |  C. moreover  |  D. furthermore  →  furthermore
+   A. on the other hand  |  B. however  |  C. moreover  |  D. furthermore  →  however
+3. The study confirmed the hypothesis; _____, it failed to explain the observed anomalies.
+   A. however  |  B. on the other hand  |  C. moreover  |  D. furthermore  →  however
 4. The proposal reduces emissions; _____, it increases production costs for manufacturers.
-   A. furthermore  |  B. however  |  C. on the other hand  |  D. moreover  →  on the other hand
-5. He enjoys classical music; _____, he also loves jazz and rock.
-   A. however  |  B. moreover  |  C. on the other hand  |  D. furthermore  →  moreover
+   A. furthermore  |  B. however  |  C. on the other hand  |  D. moreover  →  however
+5. He enjoys classical music; _____, he dislikes jazz and rock.
+   A. however  |  B. moreover  |  C. on the other hand  |  D. furthermore  →  however
 
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
@@ -3256,10 +3256,10 @@ Câu điều kiện loại 3 kết hợp bị động diễn tả một tình hu
 **Từ gợi ý:** had been presented · had been revised · had been implemented · had been investigated · had been changed · had been ignored
 
 1. If the documentary _____, the public would have been more aware of the crime rates.  →  had been presented
-2. If the sentencing guidelines _____, judges would have been forced to follow stricter rules.  →  had been revised
+2. If the sentencing guidelines _____, the revised version would have forced judges to follow stricter rules.  →  had been revised
 3. If community programs _____, many youths would have been steered away from gangs.  →  had been implemented
-4. If the forensic evidence _____, the case would have been solved faster.  →  had been investigated
-5. If the early release policy _____, offenders would have been monitored more closely.  →  had been changed
+4. If the forensic evidence _____ in the lab, the case would have been solved faster.  →  had been investigated
+5. If the early release policy _____, the revised guidelines would have required closer monitoring of offenders.  →  had been revised
 
 <!-- /topic -->
 
@@ -3300,16 +3300,16 @@ Câu hỏi gián tiếp là cách chuyển câu hỏi trực tiếp sang dạng 
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu.
 
-1. The CEO _____ whether the quarterly report had been submitted on time.
-   A. asked if  |  B. wanted to know what  |  C. asked whether  |  D. wanted to know if  →  asked if
-2. She _____ what the new hiring policy includes.
+1. The CEO _____ whether the quarterly report had been submitted on time, but he did not ask anyone directly.
+   A. asked if  |  B. wanted to know what  |  C. asked whether  |  D. wanted to know if  →  wanted to know if
+2. She _____ what the new hiring policy includes, because she was reading the document herself.
    A. asked if  |  B. wanted to know what  |  C. asked what  |  D. wanted to know if  →  wanted to know what
-3. They _____ if the office could reopen next month.
-   A. wanted to know what  |  B. asked if  |  C. asked what  |  D. wanted to know if  →  asked if
-4. He _____ what the employees expect from the training program.
+3. They _____ if the office could reopen next month, since they did not approach the manager directly.
+   A. wanted to know what  |  B. asked if  |  C. asked what  |  D. wanted to know if  →  wanted to know if
+4. He _____ what the employees expect from the training program, as he was reviewing the survey results.
    A. asked if  |  B. wanted to know what  |  C. asked what  |  D. wanted to know if  →  wanted to know what
-5. The manager _____ whether the team had understood the new software.
-   A. asked if  |  B. wanted to know what  |  C. asked what  |  D. wanted to know if  →  asked if
+5. The manager _____ whether the team had understood the new software, because he did not ask them in person.
+   A. asked if  |  B. wanted to know what  |  C. asked what  |  D. wanted to know if  →  wanted to know if
 
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
@@ -3376,13 +3376,13 @@ Collocations với make, do, take, have là các cụm động từ + danh từ 
 
 1. She _____ a habit of drinking water every morning.
    A. do  |  B. make  |  C. have  |  D. take  →  make
-2. We _____ a break after two hours of studying.
-   A. have  |  B. do  |  C. take  |  D. make  →  take
+2. We _____ a coffee after two hours of studying.
+   A. do  |  B. make  |  C. have  |  D. take  →  have
 3. They _____ regular exercise to stay fit.
    A. make  |  B. do  |  C. have  |  D. take  →  do
-4. He _____ a decision to quit smoking.
+4. He _____ a choice to quit smoking.
    A. do  |  B. have  |  C. make  |  D. take  →  make
-5. You _____ a look at the schedule before the meeting.
+5. You _____ a picture of the schedule before the meeting.
    A. do  |  B. have  |  C. make  |  D. take  →  take
 
 ### Bài tập 2 — Sắp xếp câu
@@ -3397,10 +3397,10 @@ Collocations với make, do, take, have là các cụm động từ + danh từ 
 **Từ gợi ý:** make · do · take · have · keep · get
 
 1. I _____ a walk after dinner to relax.  →  take
-2. She _____ a decision to study abroad.  →  make
-3. They _____ regular check-ups with their doctor.  →  have
+2. She _____ a choice to study abroad.  →  make
+3. They _____ regular appointments with their doctor.  →  have
 4. You _____ your homework before watching TV.  →  do
-5. He _____ a break during the long lecture.  →  take
+5. He _____ a pause during the long lecture.  →  take
 
 <!-- /topic -->
 
@@ -3457,7 +3457,7 @@ Danh hóa (nominalization) là quá trình chuyển một động từ thành da
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
 
-1. [industrial] [pollution] [has] [increased] [recently]  →  industrial pollution has increased recently
+1. [industrial] [pollution] [has] [increased] [last year]  →  industrial pollution has increased last year
 2. [urban] [development] [requires] [careful] [planning]  →  urban development requires careful planning
 3. [community] [education] [promotes] [environmental] [awareness]  →  community education promotes environmental awareness
 
@@ -3466,8 +3466,8 @@ Danh hóa (nominalization) là quá trình chuyển một động từ thành da
 **Từ gợi ý:** pollution · development · conservation · reduction · education · growth
 
 1. The city council launched a campaign for air _____ .  →  reduction
-2. International _____ of renewable energy is accelerating worldwide.  →  development
-3. Wildlife _____ in protected areas has shown positive trends.  →  conservation
+2. International _____ of renewable energy is being funded by banks.  →  development
+3. Wildlife _____ programs in protected areas have shown positive trends.  →  conservation
 4. Raising public _____ about recycling can lead to less waste.  →  education
 5. Factory emissions contribute significantly to water _____.  →  pollution
 
@@ -3517,7 +3517,7 @@ Cấu trúc It is + tính từ + that / to‑infinitive được dùng để nh�
    A. It will  |  B. It is  |  C. It was  |  D. It are  →  It is
 2. _____ expected that the government will allocate more funds for affordable housing.
    A. It could  |  B. It were  |  C. It is  |  D. It has  →  It is
-3. _____ crucial to provide green spaces in rapidly expanding urban areas.
+3. _____ crucial to provide green spaces in rapidly expanding urban areas now.
    A. It is  |  B. It are  |  C. It was  |  D. It will  →  It is
 4. _____ necessary for cities to improve public transport to reduce congestion.
    A. It will  |  B. It is  |  C. It has  |  D. It were  →  It is
@@ -3535,11 +3535,11 @@ Cấu trúc It is + tính từ + that / to‑infinitive được dùng để nh�
 **Hướng dẫn:** Chọn từ thích hợp từ ngân hàng từ để hoàn thành câu.
 **Từ gợi ý:** important · expected · crucial · essential · necessary · unlikely
 
-1. _____ that the city invests in renewable energy to meet future demand.  →  essential
+1. _____ that the city invests in renewable energy to meet future demand, because otherwise the city will not meet its legally binding carbon reduction targets.  →  essential
 2. _____ that traffic congestion will worsen if no new roads are built.  →  expected
-3. _____ that affordable housing remains a priority for local authorities.  →  important
-4. _____ that public transport is expanded to reduce carbon emissions.  →  necessary
-5. _____ that green belts are protected from urban sprawl.  →  crucial
+3. _____ that affordable housing remains a priority for local authorities, given the severe shortage of homes.  →  essential
+4. _____ that public transport is expanded to reduce carbon emissions, as it is legally required.  →  necessary
+5. _____ that green belts are protected from urban sprawl, as they are essential for maintaining ecological balance.  →  essential
 
 <!-- /topic -->
 
@@ -3585,16 +3585,16 @@ Ngôn ngữ phòng ngừa (hedging) dùng các động từ tend, appear, seem +
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn từ thích hợp để hoàn thành câu.
 
-1. The article _____ to exaggerate the impact of the study.
+1. The article _____ to exaggerate the impact of the study, as it consistently overstates the findings.
    A. appears  |  B. tends  |  C. seems  |  D. does  →  tends
-2. The typical user _____ to think the platform is unbiased.
-   A. tend  |  B. must  |  C. seems  |  D. appears  →  seems
-3. The report _____ suggest that the policy will work.
-   A. looks  |  B. seem  |  C. appear  |  D. tend  →  seem
-4. Experts _____ claim that the data is reliable.
-   A. must  |  B. appear  |  C. tend  |  D. seem  →  appear
-5. The headline _____ give the impression that the story is confirmed.
-   A. tend  |  B. seem  |  C. looks  |  D. appear  →  seem
+2. The typical user _____ to think the platform is unbiased, based on repeated survey responses.
+   A. tend  |  B. must  |  C. seems  |  D. appears  →  tend
+3. According to the evidence, the report _____ suggest that the policy will work.
+   A. appears  |  B. seem  |  C. looks  |  D. tend  →  appears
+4. Experts often _____ claim that the data is reliable.
+   A. must  |  B. appear  |  C. tend  |  D. seem  →  tend
+5. The headline _____ give the impression that the story is confirmed, as it uses definitive language.
+   A. appears  |  B. seems  |  C. looks  |  D. tends  →  appears
 
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
@@ -3657,15 +3657,15 @@ Cấu trúc này dùng ‘it’ làm chủ ngữ giả, theo sau là ‘be’ + 
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn cấu trúc phù hợp để hoàn thành câu.
 
-1. _____ that companies gather personal data without consent.
-   A. It is claimed  |  B. It is suggested  |  C. It is known  |  D. It is believed  →  It is claimed
-2. _____ that the right to privacy is a human value, not just a legal matter.
+1. _____ that companies gather personal data without consent, according to official statistics.
+   A. It is claimed  |  B. It is suggested  |  C. It is known  |  D. It is believed  →  It is known
+2. _____ that the right to privacy is a human value, not just a legal matter, according to the UN Declaration on Human Rights.
    A. It is reported  |  B. It is claimed  |  C. It is alleged  |  D. It is assumed  →  It is reported
-3. _____ that data leaks can result in identity theft.
-   A. It is said  |  B. It is claimed  |  C. It is proven  |  D. It is expected  →  It is said
-4. _____ that governments must regulate data collection practices.
-   A. It is believed  |  B. It is claimed  |  C. It is reported  |  D. It is suggested  →  It is believed
-5. _____ that tracking allows companies to target advertising with extraordinary precision.
+3. _____ that data leaks can result in identity theft, as demonstrated by recent studies.
+   A. It is said  |  B. It is claimed  |  C. It is proven  |  D. It is expected  →  It is proven
+4. _____ that governments must regulate data collection practices, according to the new privacy legislation draft.
+   A. It is believed  |  B. It is claimed  |  C. It is reported  |  D. It is suggested  →  It is reported
+5. _____ that tracking allows companies to target advertising with extraordinary precision, as shown by industry research.
    A. It is claimed  |  B. It is known  |  C. It is suggested  |  D. It is reported  →  It is known
 
 ### Bài tập 2 — Sắp xếp câu
@@ -3679,11 +3679,11 @@ Cấu trúc này dùng ‘it’ làm chủ ngữ giả, theo sau là ‘be’ + 
 **Hướng dẫn:** Điền từ thích hợp vào chỗ trống.
 **Từ gợi ý:** claimed · reported · said · suggested · believed · expected
 
-1. _____ that personal data can be sold without users' consent.  →  claimed
-2. _____ that governments should enforce stricter privacy laws.  →  reported
-3. _____ that knowing you are watched changes behavior.  →  said
-4. _____ that companies often track users across websites.  →  suggested
-5. _____ that privacy is a fundamental human right.  →  believed
+1. _____ that personal data can be sold without users' consent, according to an activist's statement.  →  claimed
+2. _____ that governments should enforce stricter privacy laws, in the latest government briefing.  →  reported
+3. _____ that knowing you are watched changes behavior, as experts have said.  →  said
+4. _____ that companies often track users across websites, as a recommendation.  →  suggested
+5. _____ that privacy is a fundamental human right, by most scholars.  →  believed
 
 <!-- /topic -->
 
@@ -3737,13 +3737,13 @@ Bị động thì tương lai dùng để diễn tả một hành động sẽ x
    A. will apply  |  B. will be applied  |  C. is being applied  |  D. will be being applied  →  will be applied
 4. The updated algorithm _____ after the audit.
    A. will implement  |  B. will be implemented  |  C. is being implemented  |  D. will be implementing  →  will be implemented
-5. All user data _____ in the new system.
+5. All user data _____ in the new system next year.
    A. will store  |  B. will be stored  |  C. is stored  |  D. has been stored  →  will be stored
 
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
 
-1. [Many] [jobs] [will] [be] [replaced] [by] [robots] [soon]  →  Many jobs will be replaced by robots soon
+1. [Many] [jobs] [will] [be] [replaced] [by] [robots] [because] [they] [are] [cheap]  →  Many jobs will be replaced by robots because they are cheap
 2. [The] [new] [policy] [is] [going] [to] [be] [implemented] [next] [month]  →  The new policy is going to be implemented next month
 3. [AI] [systems] [will] [be] [used] [to] [detect] [diseases] [early]  →  AI systems will be used to detect diseases early
 
@@ -3800,15 +3800,15 @@ Ngôn ngữ nhân quả trong văn nghị luận dùng để liên kết nguyên
 **Hướng dẫn:** Chọn cụm từ đúng để hoàn thành câu.
 
 1. Traffic congestion ___ increased pollution levels in the city.
-   A. results in  |  B. leads to  |  C. prevents  |  D. is caused by  →  leads to
+   A. leads to  |  B. prevents  |  C. is caused by  |  D. reduces  →  leads to
 2. The lack of green spaces ___ higher temperatures during summer.
-   A. prevents  |  B. causes  |  C. results in  |  D. is caused by  →  results in
+   A. prevents  |  B. results in  |  C. is caused by  |  D. reduces  →  results in
 3. A sense of insecurity among residents ___ high crime rates.
-   A. leads to  |  B. is caused by  |  C. results in  |  D. eliminates  →  leads to
+   A. leads to  |  B. prevents  |  C. results in  |  D. eliminates  →  leads to
 4. Community engagement ___ better decision‑making.
    A. reduces  |  B. is caused by  |  C. leads to  |  D. prevents  →  leads to
 5. Poor waste management ___ health problems in the neighbourhood.
-   A. prevents  |  B. results in  |  C. leads to  |  D. is caused by  →  results in
+   A. prevents  |  B. results in  |  C. is caused by  |  D. reduces  →  results in
 
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
@@ -3821,10 +3821,10 @@ Ngôn ngữ nhân quả trong văn nghị luận dùng để liên kết nguyên
 **Hướng dẫn:** Điền từ/ cụm từ thích hợp từ ngân hàng vào chỗ trống.
 **Từ gợi ý:** leads to · results in · is caused by · caused by · contribute to · prevents
 
-1. Increasing the number of bike lanes ___ a reduction in car usage.  →  leads to
-2. Neglecting maintenance ___ higher risk of infrastructure failure.  →  results in
-3. The rise in homelessness ___ a lack of affordable housing.  →  is caused by
-4. Effective communication ___ better teamwork.  →  contribute to
+1. A reduction in car usage ___ increasing the number of bike lanes.  →  is caused by
+2. Higher risk of infrastructure failure ___ neglecting maintenance.  →  is caused by
+3. A lack of affordable housing ___ the rise in homelessness.  →  leads to
+4. Better teamwork ___ effective communication.  →  is caused by
 5. Ignoring community feedback ___ improved solutions.  →  prevents
 
 <!-- /topic -->
@@ -3870,15 +3870,15 @@ Bị động phi nhân xưng là cấu trúc dùng để truyền đạt một q
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu.
 
-1. It _____ that the new vaccine reduces infection rates by 80%.
+1. Currently, it _____ that the new vaccine reduces infection rates by 80%.
    A. is believed  |  B. has believed  |  C. was believed  |  D. is believing  →  is believed
-2. It _____ that the climate model predicts a rise of 2°C by 2050.
+2. So far, it _____ that the climate model predicts a rise of 2°C by 2050.
    A. has been reported  |  B. is reported  |  C. was reported  |  D. is reporting  →  has been reported
-3. It _____ that the study's findings were replicated in three independent labs.
+3. So far, it _____ that the study's findings were replicated in three independent labs.
    A. were confirmed  |  B. is confirmed  |  C. has been confirmed  |  D. is being confirmed  →  has been confirmed
-4. It _____ that the government will increase funding for renewable energy research.
+4. Currently, it _____ that the government will increase funding for renewable energy research.
    A. is said  |  B. was said  |  C. has said  |  D. is saying  →  is said
-5. It _____ that the peer‑review process helps ensure the reliability of scientific articles.
+5. So far, it _____ that the peer‑review process helps ensure the reliability of scientific articles.
    A. has been argued  |  B. is argued  |  C. was argued  |  D. is arguing  →  has been argued
 
 ### Bài tập 2 — Sắp xếp câu
@@ -3892,11 +3892,11 @@ Bị động phi nhân xưng là cấu trúc dùng để truyền đạt một q
 **Hướng dẫn:** Chọn từ thích hợp từ ngân hàng để điền vào chỗ trống.
 **Từ gợi ý:** is believed · has been reported · is said · has been confirmed · is argued · was suggested
 
-1. _____ that the new policy will reduce carbon emissions.  →  is believed
-2. _____ that the laboratory results were duplicated by another team.  →  has been confirmed
-3. _____ that the scientist received the award for her breakthrough.  →  is said
-4. _____ that the data analysis was flawed, according to the review committee.  →  has been reported
-5. _____ that the theory will be revised after further testing.  →  is argued
+1. It _____, according to opinion polls, that the new policy will reduce carbon emissions.  →  is believed
+2. It _____ by the original researchers that the laboratory results were duplicated by another team.  →  has been confirmed
+3. It _____ in the rumor mill that the scientist received the award for her breakthrough.  →  is said
+4. It _____ in the review committee's official statement that the data analysis was flawed, according to the review committee.  →  has been reported
+5. It _____ in the recent symposium that the theory will be revised after further testing.  →  is argued
 
 <!-- /topic -->
 
@@ -3939,16 +3939,16 @@ In terms of và With regard to là các cụm giới từ dùng làm liên từ 
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn cụm giới từ thích hợp để điền vào chỗ trống.
 
-1. _____ health, excessive screen time can affect sleep quality.
-   A. In spite of  |  B. According to  |  C. In terms of  |  D. With regard to  →  In terms of
-2. _____ education, digital tools can enhance learning when used responsibly.
-   A. In spite of  |  B. With regard to  |  C. According to  |  D. In terms of  →  With regard to
-3. _____ the environment, the production of electronic devices has a carbon footprint.
-   A. In spite of  |  B. In terms of  |  C. According to  |  D. With regard to  →  In terms of
-4. _____ parental control, setting screen limits helps children develop better habits.
-   A. In terms of  |  B. With regard to  |  C. According to  |  D. In spite of  →  With regard to
+1. _____ health experts, excessive screen time can affect sleep quality.
+   A. In spite of  |  B. According to  |  C. In terms of  |  D. With regard to  →  According to
+2. _____ education researchers, digital tools can enhance learning when used responsibly.
+   A. In spite of  |  B. With regard to  |  C. According to  |  D. In terms of  →  According to
+3. _____ environmental reports, the production of electronic devices has a carbon footprint.
+   A. In spite of  |  B. In terms of  |  C. According to  |  D. With regard to  →  According to
+4. _____ parental control guidelines, setting screen limits helps children develop better habits.
+   A. In terms of  |  B. With regard to  |  C. According to  |  D. In spite of  →  According to
 5. _____ the study, participants reported lower stress after reducing notifications.
-   A. In spite of  |  B. With regard to  |  C. In terms of  |  D. According to  →  With regard to
+   A. In spite of  |  B. With regard to  |  C. In terms of  |  D. According to  →  According to
 
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
@@ -4007,15 +4007,15 @@ Câu điều kiện hỗn hợp (mixed conditional) dùng để nói về một 
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu.
 
-1. If the company _______ (invest) in digital tools last year, it would be more competitive now.
+1. If the company _______ (invest) in digital tools last year, it would be more competitive now (but it didn't).
    A. invested  |  B. invests  |  C. had invested  |  D. will invest  →  had invested
-2. If workers _______ (adapt) to automation earlier, they would not be facing job losses today.
+2. If workers _______ (adapt) to automation earlier, they would not be facing job losses today (but they didn't).
    A. adapted  |  B. had adapted  |  C. have adapted  |  D. will adapt  →  had adapted
-3. If the government _______ (regulate) remote work, employees would have clearer rights now.
+3. If the government _______ (regulate) remote work, employees would have clearer rights now (but it didn't).
    A. regulated  |  B. had regulated  |  C. regulates  |  D. will regulate  →  had regulated
-4. If the platform _______ (share) profits more fairly, freelancers would feel more secure now.
+4. If the platform _______ (share) profits more fairly, freelancers would feel more secure now (but it didn't).
    A. shared  |  B. had shared  |  C. shares  |  D. will share  →  had shared
-5. If the pandemic _______ (accelerate) digital adoption, many businesses would already be fully remote now.
+5. If the pandemic _______ (accelerate) digital adoption, many businesses would already be fully remote now (but it didn't).
    A. accelerated  |  B. had accelerated  |  C. has accelerated  |  D. will accelerate  →  had accelerated
 
 ### Bài tập 2 — Sắp xếp câu
@@ -4077,15 +4077,15 @@ Mệnh đề nhượng bộ (concession clause) dùng để diễn tả một th
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn liên từ thích hợp để hoàn thành câu.
 
-1. _____ the project was risky, the team proceeded.
-   A. although  |  B. while  |  C. even though  |  D. despite the fact that  →  although
-2. _____ she felt nervous, she gave a confident presentation.
-   A. while  |  B. even though  |  C. although  |  D. despite the fact that  →  even though
-3. _____ the weather was cold, the hikers enjoyed the trek.
+1. _____ the fact that the project was risky, the team proceeded.
+   A. although  |  B. while  |  C. even though  |  D. despite the fact that  →  despite the fact that
+2. _____ the fact that she felt nervous, she gave a confident presentation.
+   A. while  |  B. even though  |  C. although  |  D. despite the fact that  →  despite the fact that
+3. _____ the fact that the weather was cold, the hikers enjoyed the trek.
    A. despite the fact that  |  B. while  |  C. although  |  D. even though  →  despite the fact that
-4. _____ he was inexperienced, he performed well.
-   A. while  |  B. although  |  C. even though  |  D. despite the fact that  →  while
-5. _____ they had limited resources, the project succeeded.
+4. _____ the fact that he was inexperienced, he performed well.
+   A. while  |  B. although  |  C. even though  |  D. despite the fact that  →  despite the fact that
+5. _____ the fact that they had limited resources, the project succeeded.
    A. even though  |  B. while  |  C. although  |  D. despite the fact that  →  despite the fact that
 
 ### Bài tập 2 — Sắp xếp câu
@@ -4099,11 +4099,11 @@ Mệnh đề nhượng bộ (concession clause) dùng để diễn tả một th
 **Hướng dẫn:** Điền liên từ thích hợp vào chỗ trống.
 **Từ gợi ý:** although · while · even though · despite the fact that · even when · because
 
-1. _____ the evidence was inconclusive, the jury reached a verdict quickly.  →  although
-2. _____ he had no prior experience, he was hired for the role.  →  even though
-3. _____ the costs are high, the company decided to invest.  →  while
+1. _____ the fact that the evidence was inconclusive, the jury reached a verdict quickly.  →  despite the fact that
+2. _____ the fact that he had no prior experience, he was hired for the role.  →  despite the fact that
+3. _____ the fact that the costs are high, the company decided to invest.  →  despite the fact that
 4. _____ the fact that the policy was unpopular, it was implemented.  →  despite the fact that
-5. _____ it is raining, the outdoor event will go ahead.  →  even when
+5. _____ the fact that it is raining, the outdoor event will go ahead.  →  despite the fact that
 
 <!-- /topic -->
 
@@ -4150,13 +4150,13 @@ Tính từ ghép là các tính từ được tạo thành từ hai (hoặc nhi�
 
 1. The startup’s _____ strategy helped it expand into new markets quickly.
    A. widely-used  |  B. well-known  |  C. fast-growing  |  D. highly-paid  →  fast-growing
-2. These _____ smartphones dominate the global market.
+2. These _____ smartphones are famous for their brand names and dominate the global market.
    A. fast-growing  |  B. well-known  |  C. widely-used  |  D. low-cost  →  well-known
 3. Open‑source software is a _____ resource for developers worldwide.
    A. widely-used  |  B. fast-growing  |  C. well-known  |  D. highly-rated  →  widely-used
-4. The city’s _____ tourism industry attracts millions of visitors each year.
+4. The city’s _____ tourism industry has grown rapidly in recent years, attracting millions of visitors each year.
    A. well-known  |  B. fast-growing  |  C. widely-used  |  D. new‑age  →  fast-growing
-5. Her _____ reputation in the field made her a sought‑after speaker.
+5. Her _____ reputation for expertise in the field made her a sought‑after speaker.
    A. widely-used  |  B. well-known  |  C. fast-growing  |  D. high‑profile  →  well-known
 
 ### Bài tập 2 — Sắp xếp câu
@@ -4230,7 +4230,7 @@ Ngôn ngữ lập trường trong học thuật (hedging) là cách dùng các t
 ### Bài tập 2 — Sắp xếp câu
 **Hướng dẫn:** Sắp xếp các từ thành câu đúng.
 
-1. [might] [we] [consider] [alternative] [explanations]  →  might we consider alternative explanations
+1. [We] [might] [definitely] [consider] [alternative] [explanations]  →  We might definitely consider alternative explanations
 2. [seems] [the] [evidence] [suggest] [a] [correlation]  →  seems the evidence suggest a correlation
 3. [likely] [it] [is] [that] [the] [hypothesis] [holds]  →  likely it is that the hypothesis holds
 
@@ -4242,6 +4242,6 @@ Ngôn ngữ lập trường trong học thuật (hedging) là cách dùng các t
 2. The author _____ that the model outperforms previous versions.  →  suggests
 3. It _____ seems that the participants were unaware of the manipulation.  →  appears
 4. These results are _____ to be replicated in a larger sample.  →  likely
-5. We _____ discuss the implications of these findings.  →  tentatively
+5. We will _____ discuss the implications of these findings.  →  tentatively
 
 <!-- /topic -->

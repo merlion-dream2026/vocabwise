@@ -776,29 +776,29 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ the project was risky, the team proceeded.",
+          "sentence": "_____ the fact that the project was risky, the team proceeded.",
           "options": [
             "although",
             "while",
             "even though",
             "despite the fact that"
           ],
-          "answer": "although"
+          "answer": "despite the fact that"
         },
         {
           "id": 2,
-          "sentence": "_____ she felt nervous, she gave a confident presentation.",
+          "sentence": "_____ the fact that she felt nervous, she gave a confident presentation.",
           "options": [
             "while",
             "even though",
             "although",
             "despite the fact that"
           ],
-          "answer": "even though"
+          "answer": "despite the fact that"
         },
         {
           "id": 3,
-          "sentence": "_____ the weather was cold, the hikers enjoyed the trek.",
+          "sentence": "_____ the fact that the weather was cold, the hikers enjoyed the trek.",
           "options": [
             "despite the fact that",
             "while",
@@ -809,18 +809,18 @@
         },
         {
           "id": 4,
-          "sentence": "_____ he was inexperienced, he performed well.",
+          "sentence": "_____ the fact that he was inexperienced, he performed well.",
           "options": [
             "while",
             "although",
             "even though",
             "despite the fact that"
           ],
-          "answer": "while"
+          "answer": "despite the fact that"
         },
         {
           "id": 5,
-          "sentence": "_____ they had limited resources, the project succeeded.",
+          "sentence": "_____ the fact that they had limited resources, the project succeeded.",
           "options": [
             "even though",
             "while",
@@ -895,18 +895,18 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ the evidence was inconclusive, the jury reached a verdict quickly.",
-          "answer": "although"
+          "sentence": "_____ the fact that the evidence was inconclusive, the jury reached a verdict quickly.",
+          "answer": "despite the fact that"
         },
         {
           "id": 2,
-          "sentence": "_____ he had no prior experience, he was hired for the role.",
-          "answer": "even though"
+          "sentence": "_____ the fact that he had no prior experience, he was hired for the role.",
+          "answer": "despite the fact that"
         },
         {
           "id": 3,
-          "sentence": "_____ the costs are high, the company decided to invest.",
-          "answer": "while"
+          "sentence": "_____ the fact that the costs are high, the company decided to invest.",
+          "answer": "despite the fact that"
         },
         {
           "id": 4,
@@ -915,8 +915,8 @@
         },
         {
           "id": 5,
-          "sentence": "_____ it is raining, the outdoor event will go ahead.",
-          "answer": "even when"
+          "sentence": "_____ the fact that it is raining, the outdoor event will go ahead.",
+          "answer": "despite the fact that"
         }
       ]
     },

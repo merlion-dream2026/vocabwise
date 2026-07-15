@@ -768,7 +768,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "It _____ that the new vaccine reduces infection rates by 80%.",
+          "sentence": "Currently, it _____ that the new vaccine reduces infection rates by 80%.",
           "options": [
             "is believed",
             "has believed",
@@ -779,7 +779,7 @@
         },
         {
           "id": 2,
-          "sentence": "It _____ that the climate model predicts a rise of 2°C by 2050.",
+          "sentence": "So far, it _____ that the climate model predicts a rise of 2°C by 2050.",
           "options": [
             "has been reported",
             "is reported",
@@ -790,7 +790,7 @@
         },
         {
           "id": 3,
-          "sentence": "It _____ that the study's findings were replicated in three independent labs.",
+          "sentence": "So far, it _____ that the study's findings were replicated in three independent labs.",
           "options": [
             "were confirmed",
             "is confirmed",
@@ -801,7 +801,7 @@
         },
         {
           "id": 4,
-          "sentence": "It _____ that the government will increase funding for renewable energy research.",
+          "sentence": "Currently, it _____ that the government will increase funding for renewable energy research.",
           "options": [
             "is said",
             "was said",
@@ -812,7 +812,7 @@
         },
         {
           "id": 5,
-          "sentence": "It _____ that the peer‑review process helps ensure the reliability of scientific articles.",
+          "sentence": "So far, it _____ that the peer‑review process helps ensure the reliability of scientific articles.",
           "options": [
             "has been argued",
             "is argued",
@@ -890,27 +890,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ that the new policy will reduce carbon emissions.",
+          "sentence": "It _____, according to opinion polls, that the new policy will reduce carbon emissions.",
           "answer": "is believed"
         },
         {
           "id": 2,
-          "sentence": "_____ that the laboratory results were duplicated by another team.",
+          "sentence": "It _____ by the original researchers that the laboratory results were duplicated by another team.",
           "answer": "has been confirmed"
         },
         {
           "id": 3,
-          "sentence": "_____ that the scientist received the award for her breakthrough.",
+          "sentence": "It _____ in the rumor mill that the scientist received the award for her breakthrough.",
           "answer": "is said"
         },
         {
           "id": 4,
-          "sentence": "_____ that the data analysis was flawed, according to the review committee.",
+          "sentence": "It _____ in the review committee's official statement that the data analysis was flawed, according to the review committee.",
           "answer": "has been reported"
         },
         {
           "id": 5,
-          "sentence": "_____ that the theory will be revised after further testing.",
+          "sentence": "It _____ in the recent symposium that the theory will be revised after further testing.",
           "answer": "is argued"
         }
       ]

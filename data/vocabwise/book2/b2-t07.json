@@ -786,7 +786,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "He _____ have apologized for his mistake.",
+          "sentence": "He _____ have apologized for his mistake, but he didn't.",
           "options": [
             "must",
             "could",
@@ -797,18 +797,18 @@
         },
         {
           "id": 2,
-          "sentence": "They _____ have arrived earlier if they had left on time.",
+          "sentence": "They _____ have arrived earlier if they had left on time; they definitely would have arrived earlier.",
           "options": [
             "would",
             "must",
             "should",
             "could"
           ],
-          "answer": "could"
+          "answer": "would"
         },
         {
           "id": 3,
-          "sentence": "You _____ have told me about the meeting.",
+          "sentence": "You _____ have told me about the meeting, but you didn't.",
           "options": [
             "would",
             "must",
@@ -819,7 +819,7 @@
         },
         {
           "id": 4,
-          "sentence": "If I had known, I _____ have helped.",
+          "sentence": "If I had known, I _____ have helped; I would have helped.",
           "options": [
             "must",
             "could",
@@ -895,28 +895,28 @@
       "items": [
         {
           "id": 1,
-          "sentence": "You _____ have called earlier.",
+          "sentence": "You _____ have called earlier, but you didn't.",
           "answer": "should"
         },
         {
           "id": 2,
-          "sentence": "She _____ have known the answer.",
+          "sentence": "She _____ have known the answer, but she didn't.",
           "answer": "could"
         },
         {
           "id": 3,
-          "sentence": "We _____ have missed the deadline if we hadn't worked fast.",
+          "sentence": "We _____ have missed the deadline if we hadn't worked fast; we would have missed it.",
           "answer": "would"
         },
         {
           "id": 4,
-          "sentence": "He _____ have told the truth.",
+          "sentence": "He _____ have told the truth, and he must have told it.",
           "answer": "must"
         },
         {
           "id": 5,
-          "sentence": "They _____ have arrived yet.",
-          "answer": "might"
+          "sentence": "They _____ have arrived yet; they definitely have.",
+          "answer": "must"
         }
       ]
     },

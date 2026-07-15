@@ -745,7 +745,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The committee ___ to increase funding for shelters.",
+          "sentence": "The committee ___ to increase funding for shelters, even though they had no authority to decide.",
           "options": [
             "agreed",
             "agreed to",
@@ -767,7 +767,7 @@
         },
         {
           "id": 3,
-          "sentence": "They ___ to receive assistance next month.",
+          "sentence": "Last year, they ___ to receive assistance next month.",
           "options": [
             "expect",
             "expected",
@@ -789,7 +789,7 @@
         },
         {
           "id": 5,
-          "sentence": "Local leaders ___ increasing public awareness about poverty.",
+          "sentence": "Last month, local leaders ___ increasing public awareness about poverty.",
           "options": [
             "suggest",
             "suggested",
@@ -853,7 +853,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Many citizens ___ to fund the new library.",
+          "sentence": "Many citizens unanimously ___ to fund the new library.",
           "answer": "agree"
         },
         {

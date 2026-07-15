@@ -794,10 +794,10 @@
           "id": 1,
           "sentence": "When I was a child, my grandparents _______ visit us every weekend.",
           "options": [
-            "would",
             "could",
             "used to",
-            "did"
+            "did",
+            "must"
           ],
           "answer": "used to"
         },
@@ -808,9 +808,9 @@
             "might",
             "used to",
             "does",
-            "would"
+            "could"
           ],
-          "answer": "would"
+          "answer": "used to"
         },
         {
           "id": 3,
@@ -908,28 +908,28 @@
       "items": [
         {
           "id": 1,
-          "sentence": "My grandparents _______ live in the countryside before they moved to the city.",
-          "answer": "used to"
+          "sentence": "My grandparents _______ live in the countryside if they had the chance before they moved to the city.",
+          "answer": "would"
         },
         {
           "id": 2,
-          "sentence": "When we were kids, we _______ spend hours playing hide‑and‑seek in the backyard.",
+          "sentence": "When we were kids, we _______ spend hours playing hide‑and‑seek in the backyard if it rained.",
           "answer": "would"
         },
         {
           "id": 3,
-          "sentence": "My mother _______ bake a cake for every birthday when I was younger.",
-          "answer": "used to"
+          "sentence": "My mother _______ bake a cake for every birthday when I was younger if we asked her.",
+          "answer": "would"
         },
         {
           "id": 4,
-          "sentence": "Teenagers _______ stay up late to watch movies, but now they have early school starts.",
+          "sentence": "Teenagers _______ stay up late to watch movies if they wanted to, but now they have early school starts.",
           "answer": "would"
         },
         {
           "id": 5,
-          "sentence": "My uncle _______ take us fishing every summer when we were teenagers.",
-          "answer": "used to"
+          "sentence": "My uncle _______ take us fishing every summer when we were teenagers if the weather was good.",
+          "answer": "would"
         }
       ]
     },

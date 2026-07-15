@@ -714,18 +714,18 @@
       "items": [
         {
           "id": 1,
-          "sentence": "She _____ more time to relax after work.",
+          "sentence": "She _____ more time to relax after work (present desire).",
           "options": [
             "wanted",
             "wish",
             "wished",
             "wishes"
           ],
-          "answer": "wish"
+          "answer": "wishes"
         },
         {
           "id": 2,
-          "sentence": "They _____ that the city built more bike lanes.",
+          "sentence": "They _____ that the city built more bike lanes (present desire).",
           "options": [
             "wish",
             "wished",
@@ -736,18 +736,18 @@
         },
         {
           "id": 3,
-          "sentence": "He _____ his friends could join the meditation program.",
+          "sentence": "He _____ his friends could join the meditation program (present desire).",
           "options": [
             "wishes",
             "wish",
             "wished",
             "wanted"
           ],
-          "answer": "wish"
+          "answer": "wishes"
         },
         {
           "id": 4,
-          "sentence": "We _____ the conference started earlier.",
+          "sentence": "We _____ the conference started earlier (present desire).",
           "options": [
             "wished",
             "wish",
@@ -758,7 +758,7 @@
         },
         {
           "id": 5,
-          "sentence": "You _____ the project received more funding.",
+          "sentence": "You _____ the project received more funding (present desire).",
           "options": [
             "wish",
             "wished",
@@ -793,9 +793,10 @@
             "the",
             "policy",
             "changed",
+            "very",
             "quickly"
           ],
-          "answer": "They wish the policy changed quickly"
+          "answer": "They wish the policy changed very quickly"
         },
         {
           "id": 3,
@@ -827,7 +828,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "I _____ more time to volunteer for clean‑energy projects.",
+          "sentence": "I _____ more time to volunteer for clean‑energy projects now.",
           "answer": "wish"
         },
         {
@@ -837,17 +838,17 @@
         },
         {
           "id": 3,
-          "sentence": "They _____ the renewable‑energy program received extra funding.",
+          "sentence": "They _____ the renewable‑energy program received extra funding now.",
           "answer": "wish"
         },
         {
           "id": 4,
-          "sentence": "We _____ the transition to solar power happened sooner.",
+          "sentence": "We _____ the transition to solar power happened sooner now.",
           "answer": "wish"
         },
         {
           "id": 5,
-          "sentence": "You _____ the city invest in mental‑health services for students.",
+          "sentence": "You _____ the city invest in mental‑health services for students now.",
           "answer": "wish"
         }
       ]

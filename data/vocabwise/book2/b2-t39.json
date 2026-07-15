@@ -744,7 +744,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The dough _____ by the baker before it rises.",
+          "sentence": "The dough _____ by the baker before it rises, usually.",
           "options": [
             "was kneaded",
             "is kneaded",
@@ -755,7 +755,7 @@
         },
         {
           "id": 2,
-          "sentence": "Traditional spices _____ from the region for centuries.",
+          "sentence": "Traditional spices _____ from the region for centuries, today.",
           "options": [
             "are harvested",
             "were harvested",
@@ -766,7 +766,7 @@
         },
         {
           "id": 3,
-          "sentence": "The recipe _____ handed down through generations.",
+          "sentence": "The recipe _____ handed down through generations so far.",
           "options": [
             "has been handed",
             "is handed",
@@ -777,7 +777,7 @@
         },
         {
           "id": 4,
-          "sentence": "The cooking pot _____ cleaned after each use.",
+          "sentence": "The cooking pot _____ cleaned after each use, as it must be.",
           "options": [
             "must be",
             "must",
@@ -788,7 +788,7 @@
         },
         {
           "id": 5,
-          "sentence": "The flavors _____ enhanced by adding fresh herbs.",
+          "sentence": "The flavors _____ enhanced by adding fresh herbs, always.",
           "options": [
             "are",
             "were",

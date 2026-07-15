@@ -785,7 +785,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The mayor ___ that the city will build more schools.",
+          "sentence": "The mayor ___ that the city will build more schools, according to the council's plan.",
           "options": [
             "argued",
             "said",
@@ -807,18 +807,18 @@
         },
         {
           "id": 3,
-          "sentence": "Experts ___ that climate change affects political stability.",
+          "sentence": "Experts ___ that climate change affects political stability after analyzing the data.",
           "options": [
             "claimed",
             "said",
             "told",
             "argued"
           ],
-          "answer": "claimed"
+          "answer": "argued"
         },
         {
           "id": 4,
-          "sentence": "He ___ that the opposition should be given more speaking time.",
+          "sentence": "He ___ that the opposition should be given more speaking time after presenting evidence.",
           "options": [
             "said",
             "told",
@@ -829,7 +829,7 @@
         },
         {
           "id": 5,
-          "sentence": "The spokesperson ___ that the government will lower taxes next year.",
+          "sentence": "The spokesperson ___ that the government will lower taxes next year, in a press release.",
           "options": [
             "told",
             "argued",
@@ -899,13 +899,13 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The minister ___ that the new law will improve education.",
-          "answer": "said"
+          "sentence": "The minister ___ that the new law will improve education, according to her belief.",
+          "answer": "believed"
         },
         {
           "id": 2,
-          "sentence": "Researchers ___ that voting rates have increased.",
-          "answer": "claimed"
+          "sentence": "Researchers ___ that voting rates have increased, based on statistical analysis.",
+          "answer": "stated"
         },
         {
           "id": 3,
@@ -914,12 +914,12 @@
         },
         {
           "id": 4,
-          "sentence": "Opponents ___ that the tax hike is unfair.",
+          "sentence": "Opponents ___ that the tax hike is unfair after a heated debate.",
           "answer": "argued"
         },
         {
           "id": 5,
-          "sentence": "The spokesperson ___ that the project will finish on time.",
+          "sentence": "The spokesperson ___ that the project will finish on time, in an official press release.",
           "answer": "stated"
         }
       ]

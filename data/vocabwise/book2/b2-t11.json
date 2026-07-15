@@ -719,47 +719,47 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The city experienced severe flooding ___ the heavy rains last week.",
+          "sentence": "Heavy rains last week caused severe flooding; ___, the city had to evacuate residents.",
           "options": [
             "as a result of",
             "therefore",
             "because of",
             "due to"
           ],
-          "answer": "due to"
+          "answer": "therefore"
         },
         {
           "id": 2,
-          "sentence": "She decided to plant trees ___ her desire to reduce her carbon footprint.",
+          "sentence": "She wanted to reduce her carbon footprint; ___, she decided to plant trees.",
           "options": [
-            "therefore",
             "as a result of",
-            "due to",
-            "because of"
+            "therefore",
+            "because of",
+            "due to"
           ],
-          "answer": "because of"
+          "answer": "therefore"
         },
         {
           "id": 3,
-          "sentence": "The conference was postponed ___ the organizers' inability to secure a venue.",
+          "sentence": "The organizers failed to secure a venue; ___, the conference was postponed.",
           "options": [
-            "therefore",
             "as a result of",
-            "due to",
-            "because of"
+            "therefore",
+            "because of",
+            "due to"
           ],
-          "answer": "due to"
+          "answer": "therefore"
         },
         {
           "id": 4,
-          "sentence": "The ice caps are melting ___ the rising global temperatures.",
+          "sentence": "Global temperatures are rising; ___, the ice caps are melting.",
           "options": [
-            "because of",
-            "therefore",
             "as a result of",
+            "therefore",
+            "because of",
             "due to"
           ],
-          "answer": "as a result of"
+          "answer": "therefore"
         },
         {
           "id": 5,
@@ -835,18 +835,18 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The coral reefs are bleaching ___ the increase in sea temperature.",
-          "answer": "as a result of"
+          "sentence": "Sea temperature has increased; ___, the coral reefs are bleaching.",
+          "answer": "therefore"
         },
         {
           "id": 2,
-          "sentence": "He switched to a bike ___ he wanted to lower his carbon emissions.",
-          "answer": "because of"
+          "sentence": "He wanted to lower his carbon emissions; ___, he switched to a bike.",
+          "answer": "therefore"
         },
         {
           "id": 3,
-          "sentence": "The policy was adopted ___ the country's commitment to the Paris Agreement.",
-          "answer": "due to"
+          "sentence": "The country is committed to the Paris Agreement; ___, the policy was adopted.",
+          "answer": "therefore"
         },
         {
           "id": 4,
@@ -855,8 +855,8 @@
         },
         {
           "id": 5,
-          "sentence": "She stopped using plastic bags ___ she read about ocean pollution.",
-          "answer": "because of"
+          "sentence": "She read about ocean pollution; ___, she stopped using plastic bags.",
+          "answer": "therefore"
         }
       ]
     },

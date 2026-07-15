@@ -769,7 +769,7 @@
         },
         {
           "id": 2,
-          "sentence": "All the data _____ before the analysis begins.",
+          "sentence": "The dataset _____ last week before the analysis begins.",
           "options": [
             "were collected",
             "has been collected",
@@ -780,7 +780,7 @@
         },
         {
           "id": 3,
-          "sentence": "The results _____ in a peer‑reviewed journal.",
+          "sentence": "The results _____ next year in a peer‑reviewed journal.",
           "options": [
             "are published",
             "will be published",
@@ -791,7 +791,7 @@
         },
         {
           "id": 4,
-          "sentence": "The advertisement _____ to appeal to young adults.",
+          "sentence": "The advertisement _____ last month to appeal to young adults.",
           "options": [
             "will be designed",
             "was designed",
@@ -802,14 +802,14 @@
         },
         {
           "id": 5,
-          "sentence": "Customer feedback _____ through online surveys.",
+          "sentence": "Customer feedback _____ so far this quarter through online surveys.",
           "options": [
             "has been gathered",
             "will be gathered",
             "is gathered",
             "was gathered"
           ],
-          "answer": "is gathered"
+          "answer": "has been gathered"
         }
       ]
     },
@@ -874,7 +874,7 @@
         },
         {
           "id": 2,
-          "sentence": "All promotional materials are _____ before the launch.",
+          "sentence": "All promotional materials are _____ in the factory before the launch.",
           "answer": "produced"
         },
         {
@@ -884,7 +884,7 @@
         },
         {
           "id": 4,
-          "sentence": "The campaign was _____ by the creative team last week.",
+          "sentence": "The campaign was _____ by the creative team last week, meaning it was put into action.",
           "answer": "implemented"
         },
         {

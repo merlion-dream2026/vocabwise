@@ -760,7 +760,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The government _____ increased funding for education last year, but it didn't.",
+          "sentence": "The government _____ increased funding for education last year, as was expected, but it didn't.",
           "options": [
             "could have",
             "must have",
@@ -771,7 +771,7 @@
         },
         {
           "id": 2,
-          "sentence": "You _____ known the consequences of censoring free speech.",
+          "sentence": "You _____ known the consequences of censoring free speech, given your background in law.",
           "options": [
             "might have",
             "can't have",
@@ -782,7 +782,7 @@
         },
         {
           "id": 3,
-          "sentence": "They _____ ignored the protest, yet the police intervened.",
+          "sentence": "They _____ ignored the protest, since the police would not have intervened otherwise.",
           "options": [
             "should have",
             "could have",
@@ -793,7 +793,7 @@
         },
         {
           "id": 4,
-          "sentence": "I _____ taken the train, but I chose to drive.",
+          "sentence": "I _____ taken the train, had I wanted, but I chose to drive.",
           "options": [
             "must have",
             "could have",
@@ -871,7 +871,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The committee _____ approved the proposal before the deadline.",
+          "sentence": "The committee _____ approved the proposal before the deadline, as was required.",
           "answer": "should have"
         },
         {
@@ -886,13 +886,13 @@
         },
         {
           "id": 4,
-          "sentence": "If we had known earlier, we _____ taken different action.",
+          "sentence": "If we had known earlier, we _____ taken different action, had we had the opportunity.",
           "answer": "could have"
         },
         {
           "id": 5,
-          "sentence": "He _____ been more careful, but he didn't realize the risk.",
-          "answer": "might have"
+          "sentence": "He _____ been more careful, as the evidence shows, but he didn't realize the risk.",
+          "answer": "must have"
         }
       ]
     },
