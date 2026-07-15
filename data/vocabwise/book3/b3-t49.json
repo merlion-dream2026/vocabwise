@@ -820,7 +820,8 @@
             "theory",
             "had",
             "lecturer",
-            "The"
+            "The",
+            "the"
           ],
           "answer": "The lecturer had explained the theory before the quiz"
         },
@@ -830,6 +831,7 @@
             "demonstrate",
             "going",
             "She",
+            "the",
             "the",
             "lights",
             "was",
@@ -849,7 +851,8 @@
             "the",
             "had",
             "report",
-            "They"
+            "They",
+            "the"
           ],
           "answer": "They had finished the report by the deadline"
         }

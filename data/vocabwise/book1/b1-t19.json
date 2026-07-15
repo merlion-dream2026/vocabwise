@@ -688,14 +688,14 @@
       "items": [
         {
           "id": 1,
-          "sentence": "There are _____ cookies in the jar.",
+          "sentence": "There are _____ cookies in the jar (a large number).",
           "options": [
             "any",
             "many",
             "some",
             "few"
           ],
-          "answer": "some"
+          "answer": "many"
         },
         {
           "id": 2,

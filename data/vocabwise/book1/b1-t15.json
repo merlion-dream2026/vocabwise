@@ -735,7 +735,7 @@
         },
         {
           "id": 5,
-          "sentence": "_____ park near my school is very big.",
+          "sentence": "_____ only park near my school is very big.",
           "options": [
             "An",
             "The",
@@ -802,7 +802,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ park near my house is quiet.",
+          "sentence": "_____ only park near my house is quiet.",
           "answer": "the"
         },
         {
@@ -812,17 +812,17 @@
         },
         {
           "id": 3,
-          "sentence": "There is _____ fountain in the middle of the garden.",
+          "sentence": "There is _____ new fountain in the middle of the garden.",
           "answer": "a"
         },
         {
           "id": 4,
-          "sentence": "Do you have _____ water?",
+          "sentence": "Do you have _____ water at all?",
           "answer": "any"
         },
         {
           "id": 5,
-          "sentence": "_____ trees provide shade.",
+          "sentence": "_____ trees in my garden provide shade.",
           "answer": "the"
         }
       ]

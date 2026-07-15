@@ -778,7 +778,7 @@
         },
         {
           "id": 3,
-          "sentence": "_____ did they arrive yesterday?",
+          "sentence": "_____ day did they arrive yesterday?",
           "options": [
             "Why",
             "Who",
@@ -800,7 +800,7 @@
         },
         {
           "id": 5,
-          "sentence": "_____ are you going tomorrow?",
+          "sentence": "_____ are you going to the concert tomorrow?",
           "options": [
             "Who",
             "When",
@@ -864,7 +864,7 @@
         },
         {
           "id": 2,
-          "sentence": "_____ did the train leave?",
+          "sentence": "_____ day did the train leave?",
           "answer": "when"
         },
         {
@@ -879,7 +879,7 @@
         },
         {
           "id": 5,
-          "sentence": "_____ can I reach the office?",
+          "sentence": "_____ can I reach the office using the map?",
           "answer": "how"
         }
       ]

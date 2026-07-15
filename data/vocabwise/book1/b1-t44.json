@@ -861,12 +861,12 @@
       "items": [
         {
           "id": 1,
-          "sentence": "I _____ a souvenir for my mother yesterday.",
+          "sentence": "I _____ a souvenir for my mother yesterday (I purchased it).",
           "answer": "bought"
         },
         {
           "id": 2,
-          "sentence": "Our class _____ to the old town last Saturday.",
+          "sentence": "Our class _____ to the old town last Saturday (took a trip).",
           "answer": "went"
         },
         {
@@ -881,7 +881,7 @@
         },
         {
           "id": 5,
-          "sentence": "They _____ a documentary about the museum last week.",
+          "sentence": "They _____ a documentary about the museum last week (watched it).",
           "answer": "watched"
         }
       ]

@@ -688,7 +688,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "When the fire started, the teacher _____ open the window quickly.",
+          "sentence": "When the fire started, the teacher _____ open the window quickly because the door was unlocked.",
           "options": [
             "could",
             "must",
@@ -699,7 +699,7 @@
         },
         {
           "id": 2,
-          "sentence": "The cyclist _____ lift his arm after the accident.",
+          "sentence": "The cyclist _____ lift his arm after the accident because his shoulder was broken.",
           "options": [
             "could",
             "should",
@@ -710,7 +710,7 @@
         },
         {
           "id": 3,
-          "sentence": "If you see a dog bite, you _____ call a doctor immediately.",
+          "sentence": "If you see a dog bite, you _____ call a doctor immediately because the dog’s owner is already treating the wound.",
           "options": [
             "could",
             "must",
@@ -721,7 +721,7 @@
         },
         {
           "id": 4,
-          "sentence": "The emergency worker _____ carry the injured man up the stairs.",
+          "sentence": "The emergency worker _____ carry the injured man up the stairs because the man was too heavy for the worker.",
           "options": [
             "couldn't",
             "could",
@@ -732,7 +732,7 @@
         },
         {
           "id": 5,
-          "sentence": "During the drill, we _____ practice using the fire extinguisher.",
+          "sentence": "During the drill, we _____ practice using the fire extinguisher because we were allowed to use the equipment.",
           "options": [
             "must",
             "could",

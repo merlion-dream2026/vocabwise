@@ -1,0 +1,3208 @@
+{
+  "b1-t37": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu không có tiêu chí so sánh cụ thể, nên cả 'better' và 'the best' đều hợp lý.",
+      "fix": {
+        "sentence": "A sketch is _____ way to start a big painting than a photograph.",
+        "options": [
+          "the best",
+          "better",
+          "the better",
+          "best"
+        ],
+        "answer": "better"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Không có tiêu chí so sánh, nên 'simpler' và 'better' đều có thể đúng.",
+      "fix": {
+        "sentence": "A pencil is _____ tool for sketching than a brush in terms of complexity.",
+        "answer": "simpler"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Không có tiêu chí so sánh, nên 'better' và 'best' đều có thể đúng.",
+      "fix": {
+        "sentence": "This painting looks _____ after the lighting was adjusted than before.",
+        "answer": "better"
+      }
+    }
+  ],
+  "b1-t01": [
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 3,
+      "problem": "Câu có thể sắp xếp thành hai câu đúng: 'Her room is always clean and tidy' và 'Her room is always tidy and clean', vì cả hai đều ngữ pháp đúng.",
+      "fix": {
+        "words": [
+          "Her",
+          "room",
+          "is",
+          "always",
+          "clean"
+        ],
+        "answer": "Her room is always clean"
+      }
+    }
+  ],
+  "b1-t02": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu không cung cấp thông tin xác định về tần suất, vì vậy cả \"always\" và \"often\" đều có thể đúng.",
+      "fix": {
+        "sentence": "Tom _____ drinks coffee in the morning without fail.",
+        "options": [
+          "sometimes",
+          "always",
+          "often",
+          "never"
+        ],
+        "answer": "always"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Không có dữ liệu cho biết họ đi công viên mỗi Chủ nhật hay chỉ thường xuyên, nên \"always\" và \"usually\" đều hợp lý.",
+      "fix": {
+        "sentence": "We _____ go to the park on Sundays, every week without exception.",
+        "options": [
+          "never",
+          "always",
+          "usually",
+          "sometimes"
+        ],
+        "answer": "always"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Không có thông tin cho biết cô ấy luôn quên chìa khóa, vì vậy \"sometimes\", \"often\" và \"always\" đều có thể đúng.",
+      "fix": {
+        "sentence": "She _____ forgets her keys when she leaves the house.",
+        "options": [
+          "always",
+          "sometimes",
+          "never",
+          "often"
+        ],
+        "answer": "always"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu không chỉ ra rằng anh ấy luôn ăn rau, vì vậy \"always\" và \"often\" đều có thể đúng.",
+      "fix": {
+        "sentence": "He _____ eats vegetables at every meal.",
+        "options": [
+          "sometimes",
+          "never",
+          "always",
+          "often"
+        ],
+        "answer": "always"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Không có dữ liệu cho biết họ luôn xem TV sau bữa tối, vì vậy \"always\" và \"often\" đều có thể đúng.",
+      "fix": {
+        "sentence": "They _____ watch TV after dinner every night.",
+        "options": [
+          "never",
+          "sometimes",
+          "always",
+          "often"
+        ],
+        "answer": "always"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu không xác định mức độ tần suất, vì vậy \"always\", \"usually\" hoặc \"often\" đều có thể đúng.",
+      "fix": {
+        "sentence": "I _____ read books before bed every night.",
+        "answer": "always"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Không có thông tin cho biết bố luôn lái xe, vì vậy \"always\" và \"usually\" đều có thể đúng.",
+      "fix": {
+        "sentence": "My dad _____ drives to work without fail.",
+        "answer": "always"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu không chỉ ra rằng họ luôn thăm ông bà, vì vậy \"always\" và \"usually\" đều có thể đúng.",
+      "fix": {
+        "sentence": "They _____ visit grandparents on holidays without exception.",
+        "answer": "always"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Không có dữ liệu cho biết cô ấy không bao giờ quên bài tập, vì vậy \"never\" và \"rarely\" đều có thể đúng.",
+      "fix": {
+        "sentence": "She _____ forgets her homework, as she always remembers it.",
+        "answer": "never"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu không xác định mức độ tần suất ăn sáng chung, vì vậy \"always\", \"usually\" hoặc \"often\" đều có thể đúng.",
+      "fix": {
+        "sentence": "We _____ eat breakfast together every morning.",
+        "answer": "always"
+      }
+    }
+  ],
+  "b1-t03": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu \"There are _____ apples on the table.\" có thể điền cả \"many\" và \"few\" đều đúng ngữ pháp, vì không có thông tin nào chỉ ra số lượng cụ thể.",
+      "fix": {
+        "sentence": "There are _____ apples on the table, enough for a big party.",
+        "options": [
+          "much",
+          "few",
+          "many",
+          "little"
+        ],
+        "answer": "many"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu \"How _____ water do you need?\" có thể điền \"much\" hoặc \"little\" đều hợp lý, vì không có tiêu chí nào cho biết lượng nước cần nhiều hay ít.",
+      "fix": {
+        "sentence": "How _____ water do you need to fill the bottle?",
+        "options": [
+          "few",
+          "much",
+          "many",
+          "little"
+        ],
+        "answer": "much"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu \"_____ apples are on the table.\" có thể điền \"many\" hoặc \"few\" đều đúng, vì không có ngữ cảnh nào chỉ ra số lượng.",
+      "fix": {
+        "sentence": "There are _____ apples on the table, enough for the class.",
+        "answer": "many"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu \"There isn't _____ sugar left.\" có thể điền \"any\" hoặc \"much\" đều đúng, vì cả hai đều dùng được trong câu phủ định với danh từ không đếm được.",
+      "fix": {
+        "sentence": "There isn't _____ bananas left.",
+        "answer": "any"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu \"I bought _____ bananas.\" có thể điền \"some\" hoặc \"few\" đều hợp lý, vì không có thông tin nào cho biết số lượng mua là ít hay vừa.",
+      "fix": {
+        "sentence": "I bought only _____ bananas.",
+        "answer": "few"
+      }
+    }
+  ],
+  "b1-t04": [
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Không có thông tin nào liên quan đến giá cả, màu sắc không quyết định giá, vì vậy cả 'cheaper' và 'more expensive' đều có thể đúng.",
+      "fix": {
+        "sentence": "A T‑shirt is usually _____ than a pair of jeans.",
+        "options": [
+          "cheaper",
+          "more expensive",
+          "affordable",
+          "biggest"
+        ],
+        "answer": "cheaper"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu không đủ thông tin để xác định đáp án duy nhất; cả 'affordable' và 'cheaper' đều hợp lý.",
+      "fix": {
+        "sentence": "We look for _____ prices when we shop at high‑end stores.",
+        "options": [
+          "cheaper",
+          "more expensive",
+          "affordable",
+          "expensive",
+          "bigger",
+          "cheapest"
+        ],
+        "answer": "more expensive"
+      }
+    }
+  ],
+  "b1-t05": [
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu có nhiều đáp án đúng vì không có thông tin nào giới hạn tính từ cần điền; \"small\", \"blue\", \"cotton\", \"large\", \"red\" đều có thể hợp lý.",
+      "fix": {
+        "sentence": "I need a small blue _____ shirt for the summer.",
+        "answer": "cotton"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu có nhiều đáp án đúng vì không có tiêu chí nào để chọn duy nhất một tính từ; \"large\", \"red\", \"blue\", \"small\", \"cotton\", \"silk\" đều có thể phù hợp.",
+      "fix": {
+        "sentence": "She prefers a large red _____ coat in winter.",
+        "answer": "silk"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu không xác định được tính từ nào là duy nhất đúng; nhiều tính từ trong ngân hàng đều có thể điền vào chỗ trống.",
+      "fix": {
+        "sentence": "He bought a large red _____ dress for the wedding.",
+        "answer": "silk"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Không có ràng buộc nào khiến một tính từ duy nhất là đáp án đúng; \"small\", \"blue\", \"cotton\", \"large\", \"red\", \"silk\" đều có thể dùng.",
+      "fix": {
+        "sentence": "We chose a small blue _____ pair of shoes for the hike.",
+        "answer": "cotton"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu quá mở, cho phép nhiều tính từ khác nhau phù hợp; không có thông tin để xác định đáp án duy nhất.",
+      "fix": {
+        "sentence": "They are looking for a large red _____ bag for travel.",
+        "answer": "silk"
+      }
+    }
+  ],
+  "b1-t06": [
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu \"You _____ see a doctor if you feel ill.\" có thể điền \"must\", \"can\", \"should\" đều đúng tùy ngữ cảnh, vì vậy đáp án không duy nhất.",
+      "fix": {
+        "sentence": "You _____ see a doctor if you feel ill; it's advisable.",
+        "answer": "should"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu \"He _____ skip his breakfast.\" có thể điền \"can\" hoặc \"shouldn't\" đều hợp lý (cho phép hoặc khuyên không nên), nên không có đáp án duy nhất.",
+      "fix": {
+        "sentence": "He _____ skip his breakfast; it's not healthy.",
+        "answer": "shouldn't"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu \"We _____ wear a mask in the clinic.\" có thể điền \"must\" hoặc \"should\" đều đúng (quy định hoặc lời khuyên), vì vậy đáp án không duy nhất.",
+      "fix": {
+        "sentence": "We _____ wear a mask in the clinic; it's recommended.",
+        "answer": "should"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu \"She _____ take the medicine now.\" có thể điền \"must\" hoặc \"should\" đều hợp lý (yêu cầu hoặc lời khuyên), nên không có đáp án duy nhất.",
+      "fix": {
+        "sentence": "She _____ take the medicine now; it's advised.",
+        "answer": "should"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu \"They _____ go outside without a coat.\" có thể điền \"can\" hoặc \"shouldn't\" đều đúng (cho phép hoặc khuyên không nên), vì vậy đáp án không duy nhất.",
+      "fix": {
+        "sentence": "They _____ go outside without a coat; it's risky.",
+        "answer": "shouldn't"
+      }
+    }
+  ],
+  "b1-t07": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu không có chỉ định thời gian, vì vậy cả \"can\" và \"could\" đều có thể đúng (khả năng hiện tại hoặc quá khứ).",
+      "fix": {
+        "sentence": "She _____ swim very fast now.",
+        "options": [
+          "may",
+          "could",
+          "can't",
+          "can"
+        ],
+        "answer": "can"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Không có thông tin nào cho biết việc chơi bóng đá trong mưa là được phép hay không, vì vậy \"can\" và \"can't\" đều có thể đúng.",
+      "fix": {
+        "sentence": "They _____ play football safely on rainy days.",
+        "options": [
+          "can",
+          "must",
+          "should",
+          "can't"
+        ],
+        "answer": "can't"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Không có điều kiện nào xác định khả năng, vì vậy \"can\" và \"might\" (không có trong đáp án) hoặc \"will\" đều có thể được suy ra.",
+      "fix": {
+        "sentence": "I _____ join the basketball team next term if I pass the tryout.",
+        "options": [
+          "might",
+          "can't",
+          "can",
+          "will"
+        ],
+        "answer": "can"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Không có thông tin nào giới hạn khả năng, vì vậy \"can\", \"should\", \"must\", \"may\" đều có thể phù hợp.",
+      "fix": {
+        "sentence": "I usually _____ play tennis on Saturdays.",
+        "answer": "can"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Không có điều kiện nào xác định khả năng, vì vậy \"can\" và \"should\" (hoặc \"might\") đều có thể đúng.",
+      "fix": {
+        "sentence": "We _____ join the swimming class tomorrow if we have enough money.",
+        "answer": "can"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Không có lý do cụ thể, vì vậy \"can\" và \"can't\" đều có thể đúng tùy vào ngữ cảnh.",
+      "fix": {
+        "sentence": "He _____ run a marathon this year because he hasn't trained enough.",
+        "answer": "can't"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Không có thông tin nào về điều kiện, vì vậy \"can\", \"should\" hoặc \"might\" (nếu có) đều có thể đúng.",
+      "fix": {
+        "sentence": "They _____ try the new sport next week if they get permission.",
+        "answer": "can"
+      }
+    }
+  ],
+  "b1-t08": [],
+  "b1-t09": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu \"She walks _____ the park every morning\" có thể dùng cả \"through\" và \"along\" vì không có thông tin nào chỉ ra cô ấy đi xuyên công viên hay dọc theo công viên.",
+      "fix": {
+        "sentence": "She walks _____ the park every morning, crossing it from one side to the other.",
+        "options": [
+          "to",
+          "from",
+          "through",
+          "along"
+        ],
+        "answer": "through"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu \"The train comes _____ the station at 9am\" có thể đúng với \"from\" (nghĩa là xuất phát) hoặc \"to\" (nghĩa là đến), vì không có chỉ dẫn về hướng di chuyển.",
+      "fix": {
+        "sentence": "The train arrives _____ the station at 9am.",
+        "options": [
+          "from",
+          "to",
+          "along",
+          "through"
+        ],
+        "answer": "to"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu \"He drives _____ work every day\" có thể điền \"to\" (đi tới nơi làm) hoặc \"from\" (đi ra khỏi nơi làm) tùy ngữ cảnh, nên không duy nhất.",
+      "fix": {
+        "sentence": "He drives _____ work every day, heading towards his office.",
+        "answer": "to"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu \"She returned _____ the hotel yesterday\" có thể dùng \"from\" (đi ra khỏi khách sạn) hoặc \"to\" (đi trở lại khách sạn), vì không có chỉ dẫn về hướng.",
+      "fix": {
+        "sentence": "She returned _____ the hotel yesterday, going back to the building.",
+        "answer": "to"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu \"We walked _____ the park to get to the museum\" có thể dùng \"through\" hoặc \"across\" (cũng có trong word bank), vì không có mô tả cách di chuyển cụ thể.",
+      "fix": {
+        "sentence": "We walked _____ the park to get to the museum, passing from one side to the other.",
+        "answer": "through"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu \"The bridge goes _____ the street\" có thể điền \"across\" hoặc \"over\" vì cả hai đều mô tả cùng một hành động, nên không duy nhất.",
+      "fix": {
+        "sentence": "The bridge goes _____ the street, spanning it above.",
+        "answer": "over"
+      }
+    }
+  ],
+  "b1-t10": [],
+  "b1-t11": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu \"My brother _____ a hamster.\" có cả \"has\" và \"has got\" đều đúng ngữ pháp và nghĩa, vì không có thông tin nào giới hạn cách diễn đạt.",
+      "fix": {
+        "sentence": "My brother _____ a hamster just now.",
+        "options": [
+          "has",
+          "has got",
+          "have got",
+          "have"
+        ],
+        "answer": "has got"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu \"We _____ a big dog.\" cho phép cả \"have\" và \"have got\" đều đúng, vì không có yếu tố nào làm một trong hai lựa chọn sai.",
+      "fix": {
+        "sentence": "We _____ a big dog just now.",
+        "options": [
+          "have got",
+          "has got",
+          "have",
+          "has"
+        ],
+        "answer": "have got"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu \"She _____ a beautiful bird.\" có cả \"has\" và \"has got\" đều đúng, vì không có thông tin nào ưu tiên một dạng.",
+      "fix": {
+        "sentence": "She _____ a beautiful bird just now.",
+        "options": [
+          "has",
+          "have",
+          "has got",
+          "have got"
+        ],
+        "answer": "has got"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu \"He _____ a rabbit.\" cho phép cả \"hasn't got\" và \"doesn't have\" đều đúng, vì cả hai đều diễn tả phủ định sở hữu.",
+      "fix": {
+        "sentence": "He _____ a rabbit.",
+        "options": [
+          "hasn't got",
+          "haven't got",
+          "doesn't has",
+          "don't have"
+        ],
+        "answer": "hasn't got"
+      }
+    }
+  ],
+  "b1-t12": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu không có chỉ thời gian, vì vậy cả \"There is\" và \"There was\" đều có thể đúng.",
+      "fix": {
+        "sentence": "_____ a big tree near the lake today.",
+        "options": [
+          "There was",
+          "There is",
+          "There are",
+          "There will be"
+        ],
+        "answer": "There is"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Không có chỉ thời gian, nên \"There are\" và \"There were\" đều hợp lý.",
+      "fix": {
+        "sentence": "_____ many birds singing in the forest right now.",
+        "options": [
+          "There are",
+          "There is",
+          "There was",
+          "There have"
+        ],
+        "answer": "There are"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Không có chỉ thời gian, vì vậy \"There is\" và \"There was\" đều có thể dùng.",
+      "fix": {
+        "sentence": "_____ a quiet garden behind my house right now.",
+        "options": [
+          "There will be",
+          "There are",
+          "There is",
+          "There was"
+        ],
+        "answer": "There is"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu không chỉ ra thời gian, nên \"There is\" và \"There was\" đều có thể đúng.",
+      "fix": {
+        "sentence": "_____ a tall pine tree by the road right now.",
+        "answer": "There is"
+      }
+    }
+  ],
+  "b1-t13": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu này có thể dùng cả “next to” và “on” để diễn tả vị trí của tiệm bánh, vì “on the left side of the park” cũng là cách nói tự nhiên.",
+      "fix": {
+        "sentence": "There is a bakery ___ the left side of the park.",
+        "options": [
+          "next to",
+          "in",
+          "on",
+          "opposite"
+        ],
+        "answer": "on"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "“The bus stop is ___ the school.” có thể đúng với “opposite” hoặc “next to”, vì cả hai đều mô tả vị trí hợp lý.",
+      "fix": {
+        "sentence": "The bus stop is ___ the school, across the road.",
+        "options": [
+          "opposite",
+          "next to",
+          "in",
+          "at"
+        ],
+        "answer": "opposite"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "“There is a tree ___ my house.” có thể điền “next to” hoặc “by”, cả hai đều hợp lý.",
+      "fix": {
+        "sentence": "There is a tree ___ the roof of my house.",
+        "answer": "on"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "“The school is ___ the park.” có thể dùng “opposite” hoặc “next to”, vì cả hai đều mô tả vị trí hợp lý.",
+      "fix": {
+        "sentence": "The school is ___ the park, across the street.",
+        "answer": "opposite"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "“We sit ___ the garden and read.” có thể điền “in” hoặc “by”, cả hai đều đúng ngữ cảnh.",
+      "fix": {
+        "sentence": "We sit ___ the garden, inside it, and read.",
+        "answer": "in"
+      }
+    }
+  ],
+  "b1-t14": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu \"We _____ a bus to the museum.\" có thể điền được cả \"boarded\" (đúng) và \"took\" (cũng đúng ngữ pháp), vì cả hai đều tạo câu có nghĩa, nên có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "We _____ a bus to the museum.",
+        "options": [
+          "A) boarded",
+          "B) board",
+          "C) caught",
+          "D) took"
+        ],
+        "answer": "A) boarded"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu \"The tourists _____ many photos during their trip.\" có thể điền được cả \"captured\" và \"photographed\" (cả hai đều là động từ thường ở thì quá khứ), vì vậy có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "The tourists _____ many photos during their trip.",
+        "options": [
+          "A) captured",
+          "B) capture",
+          "C) took",
+          "D) photographed"
+        ],
+        "answer": "A) captured"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 1,
+      "problem": "Các từ [last, summer, my, family, visited] có thể sắp xếp thành \"my family visited last summer\" hoặc \"last summer my family visited\" – hai câu đều đúng ngữ pháp, nên không có đáp án duy nhất.",
+      "fix": {
+        "words": [
+          "my",
+          "family",
+          "visited",
+          "the",
+          "museum",
+          "last",
+          "summer"
+        ],
+        "answer": "my family visited the museum last summer"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 2,
+      "problem": "Các từ [We, watched, the, movie, yesterday] có thể sắp xếp thành \"We watched the movie yesterday\" hoặc \"Yesterday we watched the movie\" – hai câu đều đúng, nên không có đáp án duy nhất.",
+      "fix": {
+        "words": [
+          "We",
+          "watched",
+          "the",
+          "movie",
+          "at",
+          "the",
+          "cinema",
+          "yesterday"
+        ],
+        "answer": "We watched the movie at the cinema yesterday"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 3,
+      "problem": "Các từ [She, started, the, project, on, Monday] có thể sắp xếp thành \"She started the project on Monday\" hoặc \"On Monday she started the project\" – hai câu đều đúng, nên không có đáp án duy nhất.",
+      "fix": {
+        "words": [
+          "She",
+          "started",
+          "the",
+          "project",
+          "in",
+          "the",
+          "office",
+          "on",
+          "Monday"
+        ],
+        "answer": "She started the project in the office on Monday"
+      }
+    }
+  ],
+  "b1-t15": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu không cung cấp đủ thông tin để xác định duy nhất mạo từ; cả 'the' và 'a' đều có thể đúng vì không biết có bao nhiêu công viên.",
+      "fix": {
+        "sentence": "_____ only park near my school is very big.",
+        "options": [
+          "An",
+          "The",
+          "A",
+          "Some"
+        ],
+        "answer": "The"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu không xác định rõ ràng công viên nào, vì vậy cả 'the' và 'a' đều có thể đúng.",
+      "fix": {
+        "sentence": "_____ only park near my house is quiet.",
+        "answer": "the"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Không có thông tin xác định về vòi nước, vì vậy 'a' và 'the' đều có thể đúng.",
+      "fix": {
+        "sentence": "There is _____ new fountain in the middle of the garden.",
+        "answer": "a"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu hỏi không chỉ ra ngữ cảnh, nên cả 'any' và 'some' đều có thể điền vào chỗ trống.",
+      "fix": {
+        "sentence": "Do you have _____ water at all?",
+        "answer": "any"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu không chỉ ra cây nào, vì vậy 'the' và không dùng mạo từ đều có thể đúng.",
+      "fix": {
+        "sentence": "_____ trees in my garden provide shade.",
+        "answer": "the"
+      }
+    }
+  ],
+  "b1-t16": [
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 3,
+      "problem": "Câu có thể sắp xếp thành hai câu đúng: \"am i turning on the computer\" và \"am i turning the computer on\" nên có nhiều đáp án hợp lệ.",
+      "fix": {
+        "words": [
+          "am",
+          "i",
+          "checking",
+          "the",
+          "computer"
+        ],
+        "answer": "am i checking the computer"
+      }
+    }
+  ],
+  "b1-t17": [
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu \"You _____ arrive on time for the class.\" có thể điền được cả \"must\" (nghĩa bắt buộc) và \"should\" (nghĩa khuyên nhủ), vì không có thông tin nào chỉ ra rằng việc đến đúng giờ là một quy tắc bắt buộc.",
+      "fix": {
+        "sentence": "You _____ arrive on time for the class, as it is a school rule.",
+        "answer": "must"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu \"I _____ finish the assignment today.\" có thể điền được \"must\" (bắt buộc) hoặc \"should\" (khuyên nhủ), vì không có yếu tố nào cho thấy việc hoàn thành là bắt buộc.",
+      "fix": {
+        "sentence": "I _____ finish the assignment today if I want to meet the deadline.",
+        "answer": "must"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu \"He _____ wear a uniform at school.\" có thể điền được \"must\" (bắt buộc) hoặc \"should\" (khuyên nhủ), vì không có thông tin nào chỉ ra rằng đồng phục là bắt buộc.",
+      "fix": {
+        "sentence": "He _____ wear a uniform at school according to the school policy.",
+        "answer": "must"
+      }
+    }
+  ],
+  "b1-t18": [
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu \"He _____ coffee in the morning.\" có thể điền được cả \"drinks\" và \"likes\" vì cả hai động từ đều hợp lý với ngữ cảnh này.",
+      "fix": {
+        "sentence": "He _____ coffee in the morning because he needs caffeine.",
+        "answer": "drinks"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu \"She _____ English at school.\" có thể điền được \"studies\" hoặc \"likes\" vì cả hai đều hợp ngữ pháp và ý nghĩa.",
+      "fix": {
+        "sentence": "She _____ English at school because it is a required subject.",
+        "answer": "studies"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu \"My brother _____ to the park on Sundays.\" có thể điền được \"goes\" hoặc \"run\" vì cả hai đều đúng ngữ pháp và có thể diễn tả hành động đi tới công viên.",
+      "fix": {
+        "sentence": "My brother _____ to the park on Sundays by bus.",
+        "answer": "goes"
+      }
+    }
+  ],
+  "b1-t19": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu không cung cấp thông tin nào về số lượng bánh quy, vì vậy cả \"some\" và \"many\" (cũng như \"few\") đều có thể đúng.",
+      "fix": {
+        "sentence": "There are _____ cookies in the jar (a large number).",
+        "options": [
+          "any",
+          "many",
+          "some",
+          "few"
+        ],
+        "answer": "many"
+      }
+    }
+  ],
+  "b1-t20": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu có nhiều đáp án đúng vì cả \"are going to visit\" và \"will visit\" đều là câu đúng ngữ pháp và phù hợp với thông tin cho trước, nên không có đáp án duy nhất.",
+      "fix": {
+        "sentence": "We have already decided to _____ (visit) the museum next Saturday.",
+        "options": [
+          "are going to visit",
+          "going to visit",
+          "will visit",
+          "visit"
+        ],
+        "answer": "are going to visit"
+      }
+    }
+  ],
+  "b1-t21": [
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Không có ngữ cảnh về người được khen; “The coach praised _____ for the good performance” có thể đúng với “him”, “her”, hoặc “them”.",
+      "fix": {
+        "sentence": "The coach praised _____ for the good performance; he was the team's captain.",
+        "answer": "him"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Không có thông tin về giới tính người được mời; “Anna invited _____ to join the study group” có thể đúng với “her”, “him”, hoặc “them”.",
+      "fix": {
+        "sentence": "Anna invited _____ to join the study group because she needed a female member.",
+        "answer": "her"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Không có ngữ cảnh về số lượng người được yêu cầu; “The teacher asked _____ to submit the assignment” có thể đúng với “us”, “him”, “her”, hoặc “them”.",
+      "fix": {
+        "sentence": "The teacher asked _____ to submit the assignment before Friday; we are the whole class.",
+        "answer": "us"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Không có thông tin về người sẽ được gọi; “The manager will call _____ later today” có thể đúng với “them”, “him”, “her”, hoặc “me”.",
+      "fix": {
+        "sentence": "The manager will call _____ later today to discuss the project; they are the contractors.",
+        "answer": "them"
+      }
+    }
+  ],
+  "b1-t22": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu \"She _____ tired after the long bus ride.\" có thể điền được nhiều động từ liên kết (feels, seems, looks, sounds) vì không có thông tin nào chỉ ra cách cảm nhận nào là đúng.",
+      "fix": {
+        "sentence": "She _____ tired after the long bus ride, as she spoke to her friend.",
+        "options": [
+          "seems",
+          "feels",
+          "looks",
+          "sounds"
+        ],
+        "answer": "sounds"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu \"The soup _____ hot, so we waited.\" cho phép cả looks, feels, seems và sounds đều hợp lý vì không có chỉ dẫn nào về giác quan nào được dùng.",
+      "fix": {
+        "sentence": "The soup _____ hot when we stirred it, so we waited.",
+        "options": [
+          "looks",
+          "sounds",
+          "feels",
+          "seems"
+        ],
+        "answer": "feels"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu \"He _____ angry when he missed the train.\" có thể dùng feels, looks, seems hoặc sounds tùy vào cách miêu tả cảm xúc, vì không có ngữ cảnh cụ thể.",
+      "fix": {
+        "sentence": "He _____ angry when he missed the train, as he shouted at the platform.",
+        "options": [
+          "sounds",
+          "looks",
+          "feels",
+          "seems"
+        ],
+        "answer": "sounds"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu \"The music _____ loud in the hall.\" có thể điền sounds hoặc seems (cũng như feels) vì không có chỉ dẫn nào về cách nhận thức âm thanh.",
+      "fix": {
+        "sentence": "The music _____ loud in the hall, as everyone could hear it clearly.",
+        "options": [
+          "feels",
+          "looks",
+          "sounds",
+          "seems"
+        ],
+        "answer": "sounds"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu \"The children _____ excited about the field trip.\" có thể dùng seem, look hoặc sound, vì không có thông tin nào giới hạn cách diễn đạt.",
+      "fix": {
+        "sentence": "The children _____ excited about the field trip, as they shouted with joy.",
+        "options": [
+          "seem",
+          "looks",
+          "feels",
+          "sounds"
+        ],
+        "answer": "sounds"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu \"After the test, she felt _____ .\" không đủ thông tin để xác định duy nhất là proud; cô ấy cũng có thể cảm thấy happy hoặc nervous.",
+      "fix": {
+        "sentence": "After the test, she felt _____ because she got the highest score.",
+        "answer": "proud"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu \"He looks _____ when he wears his new hat.\" có thể điền happy hoặc proud; không có dấu hiệu nào cho thấy chỉ một trong hai là đúng.",
+      "fix": {
+        "sentence": "He looks _____ when he wears his new hat, as it makes him grin.",
+        "answer": "happy"
+      }
+    }
+  ],
+  "b1-t23": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu không có thông tin nào để phân biệt giữa 'the smartest' và 'most smart', cả hai đều đúng ngữ pháp nên có hai đáp án hợp lệ.",
+      "fix": {
+        "sentence": "Anna is _____ student in the class.",
+        "options": [
+          "the smartest",
+          "smartest",
+          "the smart",
+          "smart"
+        ],
+        "answer": "the smartest"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu không chỉ rõ tiêu chí (chiều cao hay kích thước), vì vậy 'the biggest' và 'the tallest' đều có thể đúng.",
+      "fix": {
+        "sentence": "This building is _____ in the city by height.",
+        "answer": "the tallest"
+      }
+    }
+  ],
+  "b1-t24": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu không có thông tin nào khiến chỉ có \"parents\" là đáp án duy nhất; \"children\" cũng hợp lý.",
+      "fix": {
+        "sentence": "My _____ are coming to dinner tonight; they are over 40 years old.",
+        "options": [
+          "children",
+          "child",
+          "childs",
+          "parents"
+        ],
+        "answer": "parents"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Không có tiêu chí nào phân biệt giữa \"friends\" và \"teachers\"; cả hai đều có thể đúng.",
+      "fix": {
+        "sentence": "She has three _____ in her class that she likes to hang out with.",
+        "options": [
+          "friends",
+          "friend",
+          "teacher",
+          "teachers"
+        ],
+        "answer": "friends"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "\"children\" và \"kids\" đều có thể điền vào chỗ trống, vì không có ràng buộc nào làm một trong hai trở nên duy nhất.",
+      "fix": {
+        "sentence": "The _____ were laughing loudly at the children's choir performance.",
+        "options": [
+          "children",
+          "childs",
+          "child",
+          "kids"
+        ],
+        "answer": "children"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu không loại trừ \"trees\"; \"flowers\" và \"trees\" đều hợp lý.",
+      "fix": {
+        "sentence": "We bought two _____ for the garden to plant in the flower beds.",
+        "options": [
+          "trees",
+          "flower",
+          "tree",
+          "flowers"
+        ],
+        "answer": "flowers"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Không có ràng buộc nào khiến chỉ \"parents\" là đáp án duy nhất; \"relatives\" cũng có thể đúng.",
+      "fix": {
+        "sentence": "During holidays, my _____ (my mother and father) visit us often.",
+        "answer": "parents"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu cho phép cả \"siblings\" và \"cousins\" là đáp án đúng vì không có tiêu chí phân biệt.",
+      "fix": {
+        "sentence": "I have two _____ who study at university and are my brothers or sisters.",
+        "answer": "siblings"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Không có thông tin nào loại trừ \"relatives\"; \"grandparents\" và \"relatives\" đều có thể đúng.",
+      "fix": {
+        "sentence": "The _____ (who are over 70) told us stories about their youth.",
+        "answer": "grandparents"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu không phân biệt giữa \"relatives\" và các danh từ khác như \"cousins\"; nhiều đáp án có thể đúng.",
+      "fix": {
+        "sentence": "All our _____ (who are not cousins) gathered for the reunion.",
+        "answer": "relatives"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Không có tiêu chí nào khiến chỉ \"cousins\" là đáp án duy nhất; \"relatives\" cũng có thể đúng.",
+      "fix": {
+        "sentence": "My _____ (who are my cousins) live in Hanoi and Ho Chi Minh City.",
+        "answer": "cousins"
+      }
+    }
+  ],
+  "b1-t25": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu hỏi có thể hỏi về thời gian (When) hoặc người (Who) vì không có thông tin chỉ rõ đối tượng, nên có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "_____ person did you meet at the conference?",
+        "options": [
+          "When",
+          "Who",
+          "Where",
+          "What"
+        ],
+        "answer": "Who"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu hỏi có thể hỏi về thời gian (When) hoặc cách thức (How) vì không có thông tin chỉ rõ, nên có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "_____ year did you start learning English?",
+        "options": [
+          "Who",
+          "How",
+          "When",
+          "What"
+        ],
+        "answer": "When"
+      }
+    }
+  ],
+  "b1-t26": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có nhiều đáp án đúng vì cả \"who\" và \"that\" đều có thể dùng cho người.",
+      "fix": {
+        "sentence": "My neighbour, ___ lives next door, is very kind.",
+        "options": [
+          "who",
+          "which",
+          "that",
+          "whom"
+        ],
+        "answer": "who"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu có nhiều đáp án đúng vì cả \"which\" và \"that\" đều có thể dùng cho đồ vật.",
+      "fix": {
+        "sentence": "The garden, ___ we share, is small.",
+        "options": [
+          "who",
+          "which",
+          "that",
+          "where"
+        ],
+        "answer": "which"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu có nhiều đáp án đúng vì cả \"who\" và \"that\" đều có thể dùng cho người.",
+      "fix": {
+        "sentence": "The people, ___ help each other, are friendly.",
+        "options": [
+          "who",
+          "which",
+          "that",
+          "whom"
+        ],
+        "answer": "who"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu có nhiều đáp án đúng vì cả \"which\" và \"that\" đều có thể dùng cho động vật.",
+      "fix": {
+        "sentence": "The dog, ___ barks all night, is loud.",
+        "options": [
+          "who",
+          "which",
+          "that",
+          "where"
+        ],
+        "answer": "which"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu có nhiều đáp án đúng vì cả \"who\" và \"that\" đều có thể dùng cho người.",
+      "fix": {
+        "sentence": "My neighbour, ___ lives next door, is very kind.",
+        "answer": "who"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu có nhiều đáp án đúng vì cả \"which\" và \"that\" đều có thể dùng cho đồ vật.",
+      "fix": {
+        "sentence": "The garden, ___ we planted flowers, is beautiful.",
+        "answer": "which"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu có thể dùng \"when\" hoặc \"that\" cho thời gian, gây đa nghĩa.",
+      "fix": {
+        "sentence": "The time, ___ we meet, is at 6 pm.",
+        "answer": "when"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu có thể dùng \"where\" hoặc \"that\" cho địa điểm, gây đa nghĩa.",
+      "fix": {
+        "sentence": "The street, ___ we walk, is quiet.",
+        "answer": "where"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu có thể dùng \"whom\" hoặc \"who\" cho đối tượng, gây đa nghĩa.",
+      "fix": {
+        "sentence": "The person, ___ I helped, thanked me.",
+        "answer": "whom"
+      }
+    }
+  ],
+  "b1-t27": [],
+  "b1-t28": [
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu có thể chấp nhận cả \"used to\" (thói quen) và \"could\" (khả năng) vì không có thông tin nào loại trừ khả năng.",
+      "fix": {
+        "sentence": "When I was ten, I _____ ride my bike to school every morning.",
+        "answer": "used to"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu có thể chấp nhận \"used to\" (thói quen) hoặc \"could\" (khả năng) vì không có chỉ dẫn rõ ràng về thói quen.",
+      "fix": {
+        "sentence": "My brother _____ collect stamps for many years, but he stopped last year.",
+        "answer": "used to"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu có thể chấp nhận \"used to\" hoặc \"could\" vì không có chỉ định rõ ràng về thói quen.",
+      "fix": {
+        "sentence": "We _____ go camping every summer before we moved to the city, as we always did.",
+        "answer": "used to"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu có thể chấp nhận \"used to\" hoặc \"did\" vì không có yếu tố nào loại trừ \"did\".",
+      "fix": {
+        "sentence": "She _____ think that English was difficult, as she did before, but now she enjoys it.",
+        "answer": "used to"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu có thể chấp nhận \"used to\" hoặc \"did\" (hoặc \"could\") vì không có chỉ dẫn rõ ràng về thói quen.",
+      "fix": {
+        "sentence": "They _____ play video games after dinner, as they always did, but now they study together.",
+        "answer": "used to"
+      }
+    }
+  ],
+  "b1-t29": [
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu \"I _____ visited the new library.\" có thể chấp nhận cả \"have\" (present perfect) và \"had\" (past perfect) vì không có thông tin thời gian nào giới hạn thì hiện tại hoàn thành.",
+      "fix": {
+        "sentence": "I _____ visited the new library so far.",
+        "answer": "have"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu \"She _____ never eaten durian before.\" có thể dùng \"has\" (present perfect) hoặc \"had\" (past perfect) vì không có chỉ thời gian cụ thể.",
+      "fix": {
+        "sentence": "She _____ never eaten durian before so far.",
+        "answer": "has"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu \"They _____ just arrived at the airport.\" có thể chấp nhận \"have\" (present perfect) hoặc \"had\" (past perfect) vì không có mốc thời gian rõ ràng.",
+      "fix": {
+        "sentence": "They _____ just arrived at the airport so far.",
+        "answer": "have"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu \"He _____ already left the classroom.\" có thể dùng \"has\" (present perfect) hoặc \"had\" (past perfect) vì không có ngữ cảnh thời gian.",
+      "fix": {
+        "sentence": "He _____ already left the classroom so far.",
+        "answer": "has"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu \"We _____ not seen that movie yet.\" có thể chấp nhận \"have\" (present perfect) hoặc \"had\" (past perfect) vì không có chỉ thời gian cụ thể.",
+      "fix": {
+        "sentence": "We _____ not seen that movie yet so far.",
+        "answer": "have"
+      }
+    }
+  ],
+  "b1-t30": [],
+  "b1-t31": [
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 3,
+      "problem": "Câu \"Leave the classroom quietly\" có thể sắp xếp thành \"Quietly leave the classroom\" cũng đúng ngữ pháp, vì vậy có hơn một đáp án hợp lệ.",
+      "fix": {
+        "words": [
+          "Leave",
+          "the",
+          "classroom",
+          "quietly",
+          "now"
+        ],
+        "answer": "Leave the classroom quietly now"
+      }
+    }
+  ],
+  "b1-t32": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu không cung cấp đủ thông tin để xác định duy nhất đáp án; cả \"too\" và \"very\" đều hợp lý.",
+      "fix": {
+        "sentence": "The test was _____ hard for me; I couldn't answer any questions.",
+        "options": [
+          "very",
+          "so",
+          "enough",
+          "too"
+        ],
+        "answer": "too"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu không chỉ ra mức độ đủ; \"enough\" và \"very\" đều có thể dùng.",
+      "fix": {
+        "sentence": "The instructions were _____ clear for the students to follow, which was sufficient.",
+        "options": [
+          "too",
+          "quite",
+          "enough",
+          "very"
+        ],
+        "answer": "enough"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Không có dấu hiệu cho thấy mức độ quá mức; \"too\" và \"very\" đều phù hợp.",
+      "fix": {
+        "sentence": "The homework was _____ difficult to finish, so I gave up.",
+        "options": [
+          "enough",
+          "so",
+          "too",
+          "quite"
+        ],
+        "answer": "too"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu không cho biết mức độ đủ; \"enough\" và \"very\" đều có thể dùng.",
+      "fix": {
+        "sentence": "The teacher made the explanation _____ simple for the class, and it was sufficient.",
+        "options": [
+          "too",
+          "very",
+          "enough",
+          "so"
+        ],
+        "answer": "enough"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Không có ngữ cảnh cho thấy mức độ quá mức; \"too\" và \"very\" đều hợp lý.",
+      "fix": {
+        "sentence": "The sport lesson was _____ long for the kids, and they lost interest.",
+        "options": [
+          "enough",
+          "so",
+          "quite",
+          "too"
+        ],
+        "answer": "too"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu không chỉ ra mức độ quá mức; \"too\" và \"very\" đều có thể điền.",
+      "fix": {
+        "sentence": "The maths problem was _____ difficult for me, and I couldn't solve it.",
+        "answer": "too"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu không cung cấp ngữ cảnh để chỉ mức độ quá mức duy nhất; \"too\" và \"very\" đều phù hợp.",
+      "fix": {
+        "sentence": "The sport lesson was _____ long for the children, so we had to stop early.",
+        "answer": "too"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu cho phép nhiều đáp án (very, quite, extremely); không duy nhất \"very\".",
+      "fix": {
+        "sentence": "The instructions were _____ simple, because they needed to be extremely easy for beginners.",
+        "answer": "very"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu không chỉ ra mức độ quá mức; \"so\" và \"very\" đều có thể dùng.",
+      "fix": {
+        "sentence": "The exam was _____ hard that many students failed.",
+        "answer": "so"
+      }
+    }
+  ],
+  "b1-t33": [],
+  "b1-t34": [
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Không có thông tin về số trứng cần dùng, vì vậy \"ten\" không phải là đáp án duy nhất.",
+      "fix": {
+        "sentence": "The recipe calls for exactly _____ eggs.",
+        "answer": "ten"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Không có dữ liệu về tầng cụ thể, nên bất kỳ tầng nào cũng có thể đúng.",
+      "fix": {
+        "sentence": "My house is on the _____ floor of the building, which has five floors.",
+        "answer": "third"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Không có thông tin về số lượng ghế, vì vậy \"twenty\" không phải là đáp án duy nhất.",
+      "fix": {
+        "sentence": "There are exactly _____ chairs in the room.",
+        "answer": "twenty"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Không có dữ liệu về số sinh viên tham dự, nên bất kỳ số nào cũng có thể đúng.",
+      "fix": {
+        "sentence": "Only _____ students attended the lecture.",
+        "answer": "twenty"
+      }
+    }
+  ],
+  "b1-t35": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu này có thể điền \"should\" được, vì không có thông tin nào cho biết mức độ chắc chắn, nên có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "I _____ go to the library tomorrow, no matter what.",
+        "options": [
+          "went",
+          "will",
+          "should",
+          "am"
+        ],
+        "answer": "will"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu này có thể dùng \"should\" để biểu đạt lời khuyên, vì không có yếu tố chắc chắn, nên có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "We certainly _____ start the test now if the teacher is ready.",
+        "options": [
+          "are",
+          "will",
+          "started",
+          "should"
+        ],
+        "answer": "will"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu này có thể dùng \"might\" hoặc \"could\" để diễn tả khả năng, vì không có yếu tố chắc chắn, nên có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "They definitely _____ need more time, but we will see.",
+        "options": [
+          "should",
+          "will",
+          "might",
+          "could"
+        ],
+        "answer": "will"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu này có thể dùng \"helps\" để mô tả thói quen hiện tại, vì không có ngữ cảnh thời gian tương lai, nên có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "He definitely _____ help you with the essay.",
+        "options": [
+          "is",
+          "helps",
+          "will",
+          "helped"
+        ],
+        "answer": "will"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu này có thể điền \"might\" (I might call you later) nên có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "I _____ call you later, I promise.",
+        "answer": "will"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu này có thể điền \"might\" hoặc \"could\" (She might/could join us...), nên có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "She _____ join us if she finishes early, I'm sure she will.",
+        "answer": "will"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu này có thể điền \"should\" (We should start the exam now) nên có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "We definitely _____ start the exam now.",
+        "answer": "will"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu này có thể điền \"must\" (He must not forget...), nên có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "He definitely _____ not forget to bring his calculator.",
+        "answer": "won't"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu này có thể điền \"might\" (You might need help...), nên có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "You probably _____ need help with the questions.",
+        "answer": "should"
+      }
+    }
+  ],
+  "b1-t36": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu \"They have _____ finished reading the dictionary.\" cho phép cả \"already\" và \"just\" vì không có thông tin nào loại trừ một trong hai.",
+      "fix": {
+        "sentence": "They have _____ finished reading the dictionary by now?",
+        "options": [
+          "already",
+          "never",
+          "ever",
+          "just"
+        ],
+        "answer": "already"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu \"He has _____ started a new book this week.\" cho phép cả \"just\" và \"already\" vì không có tiêu chí nào ưu tiên một trong hai.",
+      "fix": {
+        "sentence": "He has _____ started a new book this week?",
+        "options": [
+          "just",
+          "never",
+          "ever",
+          "already"
+        ],
+        "answer": "just"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 3,
+      "problem": "Các từ có thể sắp xếp thành \"they have just returned their books\" hoặc \"they have returned just their books\", cả hai đều đúng ngữ pháp.",
+      "fix": {
+        "words": [
+          "they",
+          "have",
+          "recently",
+          "returned",
+          "their",
+          "books"
+        ],
+        "answer": "they have recently returned their books"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu \"I have _____ read that article.\" cho phép cả \"already\" và \"just\" vì không có ràng buộc thời gian nào.",
+      "fix": {
+        "sentence": "I have _____ read that article by now.",
+        "answer": "already"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu \"He has _____ visited the new reading area.\" cho phép cả \"never\" và \"already\" vì không có ngữ cảnh nào xác định.",
+      "fix": {
+        "sentence": "He has _____ visited the new reading area.",
+        "answer": "already"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu \"We have _____ finished the assignment.\" cho phép cả \"just\" và \"already\" vì không có chỉ định thời gian cụ thể.",
+      "fix": {
+        "sentence": "We have _____ finished the assignment.",
+        "answer": "already"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu \"Have you _____ been to the library?\" cho phép cả \"ever\" và \"never\" vì không có tiêu chí nào loại trừ một trong hai.",
+      "fix": {
+        "sentence": "Have you _____ been to the library at least once?",
+        "answer": "ever"
+      }
+    }
+  ],
+  "b1-t38": [
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu này cho phép nhiều đáp án (made, let, help, force, allow) vì không có thông tin nào xác định tính chất của hành động.",
+      "fix": {
+        "sentence": "The teacher, who was strict, ______ the class sing a song.",
+        "answer": "made"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu này có thể chấp nhận \"let\" hoặc \"help\" (và thậm chí \"allow\") vì không có chỉ dẫn rõ ràng.",
+      "fix": {
+        "sentence": "My brother generously ______ me borrow his guitar.",
+        "answer": "let"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu này cho phép \"let\", \"make\", \"help\", \"ask\", \"force\", \"allow\" vì không có thông tin xác định hành động là cho phép hay ép buộc.",
+      "fix": {
+        "sentence": "She kindly ______ her friend stay for the rehearsal.",
+        "answer": "let"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu này có thể chấp nhận \"made\", \"let\", \"ask\", \"force\", \"allow\" vì không có chỉ dẫn về tính chất của hành động.",
+      "fix": {
+        "sentence": "The manager, who was demanding, ______ the staff work overtime.",
+        "answer": "made"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu này cho phép \"made\", \"let\", \"help\", \"ask\", \"force\", \"allow\" vì không có thông tin nào để xác định đáp án duy nhất.",
+      "fix": {
+        "sentence": "The coach, who was strict, ______ the players warm up.",
+        "answer": "made"
+      }
+    }
+  ],
+  "b1-t39": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu \"We mixed the chemicals, _____ we observed the reaction.\" có thể chấp nhận cả \"After that\" và \"Next\" vì cả hai đều chỉ thời gian sau đó, nên có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "We mixed the chemicals, _____ we observed the reaction, which started only after the mixture settled.",
+        "options": [
+          "After that",
+          "First",
+          "Finally",
+          "Next"
+        ],
+        "answer": "After that"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu \"She wrote the hypothesis, _____ she tested it.\" cho phép cả \"Then\" và \"Next\" vì cả hai đều diễn tả hành động tiếp theo.",
+      "fix": {
+        "sentence": "She wrote the hypothesis, _____ she tested it, after a short pause.",
+        "options": [
+          "Then",
+          "First",
+          "Finally",
+          "Next"
+        ],
+        "answer": "Then"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu \"_____ we recorded the data, we analyzed the results.\" có thể dùng \"First\" hoặc \"Next\" vì cả hai đều hợp lý cho bước đầu tiên hoặc bước tiếp theo.",
+      "fix": {
+        "sentence": "_____ we recorded the data, we analyzed the results, as the final step of the experiment.",
+        "options": [
+          "After that",
+          "First",
+          "Finally",
+          "Next"
+        ],
+        "answer": "Finally"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu \"We discussed the findings, _____ we wrote the report.\" có thể chấp nhận \"Then\" hoặc \"After that\" vì cả hai đều chỉ hành động tiếp theo.",
+      "fix": {
+        "sentence": "We discussed the findings, _____ we wrote the report, which was the last task of the project.",
+        "options": [
+          "Then",
+          "First",
+          "Finally",
+          "After that"
+        ],
+        "answer": "Finally"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 1,
+      "problem": "Các từ \"First, we, turn, off, the, lights\" có thể sắp xếp thành \"First we turn the lights off\" hoặc \"First we turn off the lights\", nên có hơn một câu đúng.",
+      "fix": {
+        "words": [
+          "First",
+          "we",
+          "turn",
+          "off",
+          "the",
+          "lights"
+        ],
+        "answer": "First we turn off the lights"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu \"We heat the solution, _____ we add the catalyst.\" có thể điền \"then\" hoặc \"after that\" vì cả hai đều chỉ thời gian tiếp theo.",
+      "fix": {
+        "sentence": "We heat the solution, _____ we add the catalyst, after the temperature reaches 80°C.",
+        "answer": "then"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu \"_____ we record the temperature, we note the time.\" có thể dùng \"next\" hoặc \"then\" vì cả hai đều hợp lý cho bước tiếp theo.",
+      "fix": {
+        "sentence": "_____ we record the temperature, we note the time, as the final step of the measurement.",
+        "answer": "next"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu \"The mixture changes colour, _____ we observe the reaction.\" có thể chấp nhận \"after that\" hoặc \"then\" vì cả hai đều chỉ hành động tiếp theo.",
+      "fix": {
+        "sentence": "The mixture changes colour, _____ we observe the reaction, which occurs immediately after the colour change.",
+        "answer": "after that"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu \"We write the report, _____ we submit it to the teacher.\" có thể điền \"then\" hoặc \"finally\" vì cả hai đều diễn tả hành động tiếp theo.",
+      "fix": {
+        "sentence": "We write the report, _____ we submit it to the teacher, as the last step of the assignment.",
+        "answer": "finally"
+      }
+    }
+  ],
+  "b1-t40": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu này có thể chấp nhận cả 'on' và 'by' vì cả hai đều hợp ngữ pháp và mang ý nghĩa hợp lý, nên không có đáp án duy nhất.",
+      "fix": {
+        "sentence": "The meeting starts exactly ___ Monday morning.",
+        "options": [
+          "by",
+          "on",
+          "in",
+          "at"
+        ],
+        "answer": "on"
+      }
+    }
+  ],
+  "b1-t41": [
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 1,
+      "problem": "Câu \"mix the ingredients well\" có thể viết lại thành \"mix well the ingredients\" – cả hai đều đúng ngữ pháp, vì vậy có hơn một đáp án đúng.",
+      "fix": {
+        "words": [
+          "mix",
+          "the",
+          "ingredients"
+        ],
+        "answer": "mix the ingredients"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 2,
+      "problem": "Câu \"turn off the stove\" có thể viết lại thành \"turn the stove off\" – cả hai đều đúng ngữ pháp, vì vậy có hơn một đáp án đúng.",
+      "fix": {
+        "words": [
+          "turn",
+          "off",
+          "the",
+          "stove",
+          "now"
+        ],
+        "answer": "turn off the stove now"
+      }
+    }
+  ],
+  "b1-t42": [],
+  "b1-t43": [
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 1,
+      "problem": "Câu có thể sắp xếp thành nhiều câu đúng ngữ pháp khác nhau, ví dụ: \"players were practicing on the field\" và \"players were on the field practicing\" đều hợp lệ, vì vậy có hơn một đáp án đúng.",
+      "fix": {
+        "words": [
+          "young",
+          "players",
+          "were",
+          "practicing",
+          "on",
+          "the",
+          "field"
+        ],
+        "answer": "young players were practicing on the field"
+      }
+    }
+  ],
+  "b1-t44": [
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 1,
+      "problem": "Câu có thể sắp xếp thành \"Yesterday I finished my homework\" hoặc \"I finished my homework yesterday\"; cả hai đều đúng ngữ pháp, nên có hơn một đáp án hợp lệ.",
+      "fix": {
+        "words": [
+          "yesterday",
+          "I",
+          "finished",
+          "my",
+          "homework"
+        ],
+        "answer": "I finished my homework yesterday"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 2,
+      "problem": "Câu có thể viết \"Last week they visited the zoo\" hoặc \"They visited the zoo last week\"; cả hai đều đúng, vì vậy đáp án không duy nhất.",
+      "fix": {
+        "words": [
+          "last",
+          "week",
+          "they",
+          "visited",
+          "the",
+          "zoo"
+        ],
+        "answer": "They visited the zoo last week"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 3,
+      "problem": "Câu có thể sắp xếp thành \"Two days ago she called me\" hoặc \"She called me two days ago\"; cả hai đều đúng, nên có nhiều đáp án.",
+      "fix": {
+        "words": [
+          "two",
+          "days",
+          "ago",
+          "she",
+          "called",
+          "me"
+        ],
+        "answer": "She called me two days ago"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu \"I _____ a souvenir for my mother yesterday\" có thể điền \"bought\" hoặc \"got\" vì cả hai đều hợp lý mà không có thông tin nào loại trừ \"got\".",
+      "fix": {
+        "sentence": "I _____ a souvenir for my mother yesterday (I purchased it).",
+        "answer": "bought"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu \"Our class _____ to the old town last Saturday\" có thể điền \"went\" hoặc \"got\" (đến = arrived), vì không có thông tin nào làm một trong hai trở nên sai.",
+      "fix": {
+        "sentence": "Our class _____ to the old town last Saturday (took a trip).",
+        "answer": "went"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu \"They _____ a documentary about the museum last week\" có thể điền \"watched\" hoặc \"saw\"; cả hai đều đúng về mặt ngữ pháp và nghĩa.",
+      "fix": {
+        "sentence": "They _____ a documentary about the museum last week (watched it).",
+        "answer": "watched"
+      }
+    }
+  ],
+  "b1-t45": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu này không đủ thông tin để xác định duy nhất đáp án; cả \"could\" và \"couldn't\" đều có thể đúng tùy vào khả năng của giáo viên.",
+      "fix": {
+        "sentence": "When the fire started, the teacher _____ open the window quickly because the door was unlocked.",
+        "options": [
+          "could",
+          "must",
+          "will",
+          "can't"
+        ],
+        "answer": "could"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Không có thông tin nào cho biết người đi xe đạp có thể hay không thể nâng cánh tay, vì vậy \"could\" và \"couldn't\" đều hợp lý.",
+      "fix": {
+        "sentence": "The cyclist _____ lift his arm after the accident because his shoulder was broken.",
+        "options": [
+          "could",
+          "should",
+          "can't",
+          "couldn't"
+        ],
+        "answer": "couldn't"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu này cho phép cả \"could\" và \"should\" (hoặc \"must\") vì không có yếu tố nào chỉ ra rằng việc gọi bác sĩ chỉ là khả năng chứ không phải là lời khuyên.",
+      "fix": {
+        "sentence": "If you see a dog bite, you _____ call a doctor immediately because the dog’s owner is already treating the wound.",
+        "options": [
+          "could",
+          "must",
+          "might",
+          "should"
+        ],
+        "answer": "could"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Không có dữ kiện cho biết nhân viên cứu hộ có thể hay không thể mang người bị thương lên cầu thang, vì vậy \"could\" và \"couldn't\" đều đúng.",
+      "fix": {
+        "sentence": "The emergency worker _____ carry the injured man up the stairs because the man was too heavy for the worker.",
+        "options": [
+          "couldn't",
+          "could",
+          "must",
+          "will"
+        ],
+        "answer": "couldn't"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu không chỉ ra lý do khiến việc thực hành có thể hay không thể, vì vậy \"could\", \"should\" và \"must\" đều có thể được chọn.",
+      "fix": {
+        "sentence": "During the drill, we _____ practice using the fire extinguisher because we were allowed to use the equipment.",
+        "options": [
+          "must",
+          "could",
+          "should",
+          "can't"
+        ],
+        "answer": "could"
+      }
+    }
+  ],
+  "b1-t46": [],
+  "b1-t47": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu hỏi \"_____ did you visit last weekend?\" có thể trả lời bằng cả \"What\" (đối tượng) và \"Where\" (địa điểm), vì không có thông tin nào giới hạn câu hỏi chỉ về vị trí.",
+      "fix": {
+        "sentence": "_____ did you visit the museum last weekend?",
+        "options": [
+          "What",
+          "Why",
+          "Where",
+          "When"
+        ],
+        "answer": "When"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu \"_____ did the guide explain the tour route?\" có thể trả lời bằng \"How\" (cách) hoặc \"When\" (thời gian), vì không có chỉ dẫn nào để loại trừ một trong hai.",
+      "fix": {
+        "sentence": "_____ way did the guide explain the tour route?",
+        "options": [
+          "When",
+          "How",
+          "Who",
+          "Which"
+        ],
+        "answer": "How"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu \"_____ did the museum want to showcase art from around the world?\" có thể trả lời bằng \"Why\" (lý do) hoặc \"When\" (thời gian), vì không có thông tin nào chỉ ra thời điểm hay lý do.",
+      "fix": {
+        "sentence": "_____ reason did the museum want to showcase art from around the world?",
+        "options": [
+          "Why",
+          "Who",
+          "When",
+          "Which"
+        ],
+        "answer": "Why"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu \"_____ did you check the floor plan before leaving?\" có thể trả lời bằng \"When\" (thời gian) hoặc \"Why\" (lý do), vì không có chỉ dẫn nào để phân biệt.",
+      "fix": {
+        "sentence": "_____ time did you check the floor plan before leaving?",
+        "options": [
+          "How",
+          "When",
+          "Why",
+          "Where"
+        ],
+        "answer": "When"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu \"_____ audio guide did you borrow?\" có thể điền \"what\" hoặc \"which\", vì cả hai đều hợp ngữ pháp và không có thông tin nào ưu tiên một đáp án.",
+      "fix": {
+        "sentence": "_____ of the audio guides did you borrow?",
+        "answer": "which"
+      }
+    }
+  ],
+  "b1-t48": [
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Không có chỉ dẫn nào khiến \"will\" là đáp án duy nhất; \"is going to\" cũng có thể dùng.",
+      "fix": {
+        "sentence": "The principal ______ announce the winners at 8 p.m., according to the program.",
+        "answer": "will"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu không đủ thông tin để phân biệt giữa \"will\" và \"are going to\"; cả hai đều hợp lý.",
+      "fix": {
+        "sentence": "The teachers ______ start decorating the hall tomorrow, as they have already prepared the materials.",
+        "answer": "are going to"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu không cho biết rõ ràng là dự đoán hay kế hoạch, vì vậy \"will\" và \"are going to\" đều có thể đúng.",
+      "fix": {
+        "sentence": "I think the guests ______ arrive early because they want good seats (they have booked in advance).",
+        "answer": "are going to"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu không đủ thông tin để quyết định duy nhất giữa \"will\" và \"is going to\"; cả hai đều phù hợp.",
+      "fix": {
+        "sentence": "The ceremony ______ be broadcast live, as arranged by the media team.",
+        "answer": "is going to"
+      }
+    }
+  ],
+  "b1-t49": [],
+  "b1-t50": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu này cho phép nhiều đáp án đúng (over, around, through) vì không có thông tin nào giới hạn hành động, chỉ có “past” được chọn.",
+      "fix": {
+        "sentence": "He drove _____ the park, staying on the main road, and then went home.",
+        "options": [
+          "over",
+          "around",
+          "past",
+          "through"
+        ],
+        "answer": "past"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Không có thông tin để loại trừ các lựa chọn “under”, “around”, “through”; “over” không phải là đáp án duy nhất.",
+      "fix": {
+        "sentence": "When you reach the bridge, you should go over it to continue on the road.",
+        "options": [
+          "under",
+          "over",
+          "around",
+          "through"
+        ],
+        "answer": "over"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu không chỉ ra hướng cụ thể, vì vậy “go straight”, “turn left” hoặc “go back” cũng có thể đúng.",
+      "fix": {
+        "sentence": "To get to the museum, _____ at the traffic lights, as the museum is on that side.",
+        "options": [
+          "go straight",
+          "turn left",
+          "turn right",
+          "go back"
+        ],
+        "answer": "turn right"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Không có thông tin để phân biệt “past” với “behind” hay “near”; nhiều đáp án có thể hợp lý.",
+      "fix": {
+        "sentence": "The shop is two blocks past the school, on the way to the market.",
+        "options": [
+          "behind",
+          "near",
+          "past",
+          "over"
+        ],
+        "answer": "past"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "“past” và “around” đều có thể điền vào chỗ trống vì không có ràng buộc nào trong câu.",
+      "fix": {
+        "sentence": "She walked past the museum (without entering it) to reach the garden.",
+        "answer": "past"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Không có chỉ dẫn nào để xác định hướng, vì vậy “right” và “left” đều có thể đúng.",
+      "fix": {
+        "sentence": "At the intersection, turn right (the road to the city is on the right).",
+        "answer": "right"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu không cung cấp thông tin để quyết định hướng, nên “left” và “right” đều có thể đúng.",
+      "fix": {
+        "sentence": "When you see the sign, turn left (the sign points left).",
+        "answer": "left"
+      }
+    }
+  ],
+  "b1-t51": [],
+  "b1-t52": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có nhiều đáp án đúng vì cả \"has just\" và \"has already\" đều hợp lý với ngữ cảnh hiện tại.",
+      "fix": {
+        "sentence": "Tom _____ finished his profile picture earlier today.",
+        "options": [
+          "has already",
+          "has just",
+          "have already",
+          "has"
+        ],
+        "answer": "has already"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu có nhiều đáp án đúng vì \"have just\" và \"have already\" đều có thể dùng được.",
+      "fix": {
+        "sentence": "We _____ just received a notification about the new comment.",
+        "options": [
+          "have just",
+          "have already",
+          "have yet",
+          "have"
+        ],
+        "answer": "have just"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu có nhiều đáp án đúng vì \"has just\" và \"has already\" đều phù hợp.",
+      "fix": {
+        "sentence": "She _____ already posted a video about online safety.",
+        "options": [
+          "has already",
+          "has just",
+          "have already",
+          "has"
+        ],
+        "answer": "has already"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu có nhiều đáp án đúng vì \"have just\" và \"have already\" đều đúng ngữ pháp.",
+      "fix": {
+        "sentence": "They _____ already started a live stream today.",
+        "options": [
+          "have already",
+          "have just",
+          "has already",
+          "have"
+        ],
+        "answer": "have already"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu có nhiều đáp án đúng vì \"have just\" và \"have already\" đều có thể dùng.",
+      "fix": {
+        "sentence": "I _____ just bought a new phone for uploading files.",
+        "options": [
+          "have just",
+          "have already",
+          "has yet",
+          "has"
+        ],
+        "answer": "have just"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu \"I have _____ finished my homework\" cho phép cả \"just\" và \"already\" là đáp án đúng.",
+      "fix": {
+        "sentence": "I have _____ finished my homework a moment ago.",
+        "answer": "just"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu \"She has _____ visited the new social media platform\" cho phép cả \"already\" và \"just\" là đáp án đúng.",
+      "fix": {
+        "sentence": "She has _____ visited the new social media platform before.",
+        "answer": "already"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu \"They haven't _____ posted a comment\" cho phép \"yet\" và \"already\" đều đúng.",
+      "fix": {
+        "sentence": "They haven't _____ posted any comment.",
+        "answer": "yet"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu \"We have _____ seen that trend before\" cho phép \"never\" và \"already\" đều hợp lý.",
+      "fix": {
+        "sentence": "We have _____ seen that trend before, so we know it’s new.",
+        "answer": "never"
+      }
+    }
+  ],
+  "b1-t53": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu này có thể dùng cả Could và Would để yêu cầu lịch sự, không có thông tin nào làm một trong hai trở nên duy nhất.",
+      "fix": {
+        "sentence": "_____ you mind opening the window?",
+        "options": [
+          "Would",
+          "Must",
+          "Could",
+          "Should"
+        ],
+        "answer": "Would"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu này có thể dùng cả Could và Would để yêu cầu lịch sự, không có thông tin nào làm một trong hai trở nên duy nhất.",
+      "fix": {
+        "sentence": "_____ you mind giving me a stamp?",
+        "options": [
+          "Should",
+          "Would",
+          "Must",
+          "Could"
+        ],
+        "answer": "Would"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu này có thể dùng cả Could và Would để yêu cầu lịch sự, không có thông tin nào làm một trong hai trở nên duy nhất.",
+      "fix": {
+        "sentence": "_____ you mind telling me the price?",
+        "options": [
+          "Would",
+          "Must",
+          "Should",
+          "Could"
+        ],
+        "answer": "Would"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu này có thể dùng cả Could và Would để yêu cầu lịch sự, không có thông tin nào làm một trong hai trở nên duy nhất.",
+      "fix": {
+        "sentence": "_____ you mind helping me carry this box?",
+        "options": [
+          "Must",
+          "Would",
+          "Could",
+          "Should"
+        ],
+        "answer": "Would"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 1,
+      "problem": "Các từ có thể sắp xếp thành nhiều câu đúng (ví dụ: \"Could you help me please\"), nên không có đáp án duy nhất.",
+      "fix": {
+        "words": [
+          "could",
+          "you",
+          "please",
+          "help",
+          "me",
+          "now"
+        ],
+        "answer": "Could you please help me now"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu này có thể dùng cả Could và Would để yêu cầu, không có yếu tố nào làm một trong hai trở nên duy nhất.",
+      "fix": {
+        "sentence": "_____ you pass me the parcel, if you can?",
+        "answer": "Could"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu này có thể dùng cả Could và Would để yêu cầu, không có yếu tố nào làm một trong hai trở nên duy nhất.",
+      "fix": {
+        "sentence": "_____ you mind letting me know when the parcel arrives?",
+        "answer": "Would"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu này có thể dùng cả Could và Would để yêu cầu, không có yếu tố nào làm một trong hai trở nên duy nhất.",
+      "fix": {
+        "sentence": "_____ you help me fill out the form, if you can?",
+        "answer": "Could"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu này có thể dùng cả Could và Would để yêu cầu, không có yếu tố nào làm một trong hai trở nên duy nhất.",
+      "fix": {
+        "sentence": "_____ you mind checking the address again?",
+        "answer": "Would"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu này có thể dùng cả Could và Would để yêu cầu, không có yếu tố nào làm một trong hai trở nên duy nhất.",
+      "fix": {
+        "sentence": "_____ you give me a receipt, if you can?",
+        "answer": "Could"
+      }
+    }
+  ],
+  "b1-t54": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có thể chấp nhận nhiều đáp án (when, after, as soon as) vì không có yếu tố nào chỉ ra thời điểm cụ thể.",
+      "fix": {
+        "sentence": "_____ I finish my homework, I will watch TV immediately.",
+        "options": [
+          "When",
+          "Before",
+          "After",
+          "As soon as"
+        ],
+        "answer": "As soon as"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu có thể chấp nhận nhiều đáp án (when, as soon as, after) vì không có yếu tố nào chỉ ra thời điểm gọi cụ thể.",
+      "fix": {
+        "sentence": "She will call you _____ she arrives at the airport, no matter what.",
+        "options": [
+          "as soon as",
+          "before",
+          "when",
+          "after"
+        ],
+        "answer": "as soon as"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu có thể chấp nhận nhiều đáp án (when, after, as soon as) vì không có yếu tố nào nhấn mạnh tính ngay lập tức.",
+      "fix": {
+        "sentence": "_____ the rain stops, we can go outside right away.",
+        "options": [
+          "After",
+          "When",
+          "Before",
+          "As soon as"
+        ],
+        "answer": "As soon as"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu có thể chấp nhận nhiều đáp án (when, after, as soon as, before) vì không có yếu tố nào chỉ ra thứ tự thời gian cụ thể.",
+      "fix": {
+        "sentence": "_____ you eat breakfast, you should brush your teeth immediately.",
+        "options": [
+          "As soon as",
+          "After",
+          "When",
+          "Before"
+        ],
+        "answer": "After"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu có thể chấp nhận nhiều đáp án (when, after, as soon as) vì không có yếu tố nào chỉ ra tính ngay lập tức.",
+      "fix": {
+        "sentence": "_____ the bell rings, the class will start promptly.",
+        "options": [
+          "Before",
+          "After",
+          "As soon as",
+          "When"
+        ],
+        "answer": "As soon as"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 1,
+      "problem": "Các từ có thể sắp xếp thành nhiều câu đúng (ví dụ: \"After reading the book I feel relaxed\" và \"I feel relaxed after reading the book\").",
+      "fix": {
+        "words": [
+          "Immediately",
+          "after",
+          "reading",
+          "the",
+          "book",
+          "I",
+          "feel",
+          "relaxed"
+        ],
+        "answer": "Immediately after reading the book I feel relaxed"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 2,
+      "problem": "Các từ có thể sắp xếp thành nhiều câu đúng (ví dụ: \"When she arrives we will start the meeting\" và \"We will start the meeting when she arrives\").",
+      "fix": {
+        "words": [
+          "Exactly",
+          "when",
+          "she",
+          "arrives",
+          "we",
+          "will",
+          "start",
+          "the",
+          "meeting"
+        ],
+        "answer": "Exactly when she arrives we will start the meeting"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 3,
+      "problem": "Các từ có thể sắp xếp thành nhiều câu đúng (ví dụ: \"As soon as the rain stops we go outside\" và \"We go outside as soon as the rain stops\").",
+      "fix": {
+        "words": [
+          "Immediately",
+          "as",
+          "soon",
+          "as",
+          "the",
+          "rain",
+          "stops",
+          "we",
+          "go",
+          "outside"
+        ],
+        "answer": "Immediately as soon as the rain stops we go outside"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Có thể điền \"when\", \"after\" hoặc \"as soon as\" đều hợp lý, vì không có yếu tố nào chỉ ra thời điểm duy nhất.",
+      "fix": {
+        "sentence": "_____ I get home, I will call you immediately.",
+        "answer": "as soon as"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Có thể điền \"before\" hoặc \"when\" đều hợp lý, vì không có yếu tố nào chỉ ra thứ tự thời gian cụ thể.",
+      "fix": {
+        "sentence": "She always drinks tea _____ she wakes up, without delay.",
+        "answer": "as soon as"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Có thể điền \"after\", \"when\" hoặc \"as soon as\" đều hợp lý, vì không có yếu tố nào nhấn mạnh tính ngay lập tức.",
+      "fix": {
+        "sentence": "_____ the movie ends, we will discuss it right away.",
+        "answer": "as soon as"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Có thể điền \"as soon as\", \"when\" hoặc \"after\" đều hợp lý, vì không có yếu tố nào chỉ ra thời điểm duy nhất.",
+      "fix": {
+        "sentence": "_____ you finish your work, you can go out immediately.",
+        "answer": "as soon as"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Có thể điền \"when\", \"after\" hoặc \"as soon as\" đều hợp lý, vì không có yếu tố nào chỉ ra thời điểm duy nhất.",
+      "fix": {
+        "sentence": "_____ the sun rises, the birds start singing promptly.",
+        "answer": "as soon as"
+      }
+    }
+  ],
+  "b1-t55": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có nhiều đáp án đúng vì cả Can và Will đều có thể dùng để yêu cầu mở cửa.",
+      "fix": {
+        "sentence": "_____ you open the window, please? (I am too short to reach it)",
+        "options": [
+          "Should",
+          "Will",
+          "Can",
+          "May"
+        ],
+        "answer": "Can"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu có nhiều đáp án đúng vì cả May và Could đều có thể dùng để hỏi mượn bút.",
+      "fix": {
+        "sentence": "_____ I borrow your pen? (I need to sign a form)",
+        "options": [
+          "May",
+          "Could",
+          "Will",
+          "Should"
+        ],
+        "answer": "May"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu có nhiều đáp án đúng vì cả Could và Would đều có thể dùng để hỏi giờ.",
+      "fix": {
+        "sentence": "_____ you tell me the time? (I have no watch)",
+        "options": [
+          "Would",
+          "Could",
+          "May",
+          "Shall"
+        ],
+        "answer": "Could"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu có nhiều đáp án đúng vì cả Would và Can đều có thể dùng để yêu cầu đưa muối.",
+      "fix": {
+        "sentence": "_____ you pass the salt? (I'm cooking)",
+        "options": [
+          "Would",
+          "Can",
+          "Might",
+          "Should"
+        ],
+        "answer": "Would"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu có nhiều đáp án đúng vì cả May và Can đều có thể dùng để hỏi ngồi ở đây.",
+      "fix": {
+        "sentence": "_____ I sit here? (The seat is empty)",
+        "options": [
+          "Can",
+          "Will",
+          "May",
+          "Do"
+        ],
+        "answer": "May"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu có nhiều đáp án đúng vì cả Could và Would đều có thể dùng để hỏi giờ.",
+      "fix": {
+        "sentence": "_____ you tell me the time? (I have no watch)",
+        "answer": "Could"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu có nhiều đáp án đúng vì cả May và Can đều có thể dùng để hỏi mượn sách.",
+      "fix": {
+        "sentence": "_____ I borrow your book? (I need it for class)",
+        "answer": "May"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu có nhiều đáp án đúng vì cả Would và Can đều có thể dùng để yêu cầu đưa muối.",
+      "fix": {
+        "sentence": "_____ you pass the salt? (I'm making soup)",
+        "answer": "Would"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu có nhiều đáp án đúng vì cả Can và Could đều có thể dùng để yêu cầu mở cửa sổ.",
+      "fix": {
+        "sentence": "_____ you open the window? (It's hot in here)",
+        "answer": "Can"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu có nhiều đáp án đúng vì cả May và Can đều có thể dùng để hỏi ngồi ở đây.",
+      "fix": {
+        "sentence": "_____ I sit here? (The chair is free)",
+        "answer": "May"
+      }
+    }
+  ],
+  "b1-t56": [],
+  "b1-t57": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu không chỉ ra thời gian, vì vậy cả \"are\" và \"were\" đều hợp lý.",
+      "fix": {
+        "sentence": "The signs ____ usually painted red in many buildings.",
+        "options": [
+          "are",
+          "is",
+          "were",
+          "be"
+        ],
+        "answer": "are"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Không có chỉ định thời gian, nên \"is\" và \"was\" đều có thể đúng.",
+      "fix": {
+        "sentence": "The notice on the door ____ always kept closed during the night.",
+        "options": [
+          "are",
+          "was",
+          "is",
+          "were"
+        ],
+        "answer": "is"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Thiếu thông tin thời gian, \"are\" và \"were\" đều đúng.",
+      "fix": {
+        "sentence": "All instructions ____ usually followed carefully by the staff.",
+        "options": [
+          "are",
+          "is",
+          "were",
+          "be"
+        ],
+        "answer": "are"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Không có chỉ thời gian cụ thể, \"was\" và \"is\" đều có thể dùng.",
+      "fix": {
+        "sentence": "The emergency exit ____ closed after the fire drill yesterday.",
+        "options": [
+          "was",
+          "were",
+          "is",
+          "are"
+        ],
+        "answer": "was"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Không chỉ ra thời gian, \"is\" và \"was\" đều hợp lý.",
+      "fix": {
+        "sentence": "The colour code ____ currently used in the laboratory.",
+        "options": [
+          "is",
+          "are",
+          "was",
+          "were"
+        ],
+        "answer": "is"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Không có chỉ thời gian, \"are\" và \"were\" đều đúng.",
+      "fix": {
+        "sentence": "The signs ____ usually painted blue in the hallway.",
+        "answer": "are"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Thiếu thông tin thời gian, \"are\" và \"were\" đều có thể đúng.",
+      "fix": {
+        "sentence": "All warnings ____ always displayed at the entrance.",
+        "answer": "are"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Không chỉ thời gian cụ thể, \"was\" và \"is\" đều có thể dùng.",
+      "fix": {
+        "sentence": "The emergency alarm ____ activated during the drill yesterday.",
+        "answer": "was"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Không có chỉ thời gian, \"are\" và \"were\" đều hợp lý.",
+      "fix": {
+        "sentence": "The exit signs ____ always kept clean.",
+        "answer": "are"
+      }
+    }
+  ],
+  "b1-t58": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu có thể chấp nhận cả \"Hello\" và \"Hey\" vì cả hai đều là lời chào không trang trọng, nên có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "_____ Sarah, thanks for the quick reply! (formal greeting)",
+        "options": [
+          "Hello",
+          "Hey",
+          "Regards",
+          "Dear"
+        ],
+        "answer": "Dear"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu cho phép cả \"Hi\" và \"Dear\" vì cả hai đều có thể dùng để mở đầu email, nên không có đáp án duy nhất.",
+      "fix": {
+        "sentence": "_____ team, please submit your timesheets by Friday. (formal email)",
+        "options": [
+          "Hi",
+          "Yo",
+          "Hey",
+          "Dear"
+        ],
+        "answer": "Dear"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu có thể dùng \"Yo\" hoặc \"Hello\" cho bạn thân, vì cả hai đều là lời chào không trang trọng, nên có nhiều đáp án đúng.",
+      "fix": {
+        "sentence": "_____ buddy, let's catch up later! (polite greeting)",
+        "options": [
+          "Regards",
+          "Yo",
+          "Dear",
+          "Hello"
+        ],
+        "answer": "Hello"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 3,
+      "problem": "Các từ có thể sắp xếp thành nhiều câu đúng (ví dụ: \"John, thank you for your help. Regards\" hoặc \"Thank you for your help, John. Regards\"), nên không có đáp án duy nhất.",
+      "fix": {
+        "words": [
+          "John",
+          "thank",
+          "you",
+          "for",
+          "your",
+          "help",
+          "Regards"
+        ],
+        "answer": "John, thank you for your help. Regards"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu có thể điền \"Dear\" hoặc \"Hi\" vì cả hai đều có thể dùng để mở đầu thư cho giáo sư, nên có nhiều đáp án đúng.",
+      "fix": {
+        "sentence": "_____ Professor, I have a question about the assignment. (formal greeting)",
+        "answer": "Dear"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu có thể điền \"Hi\" hoặc \"Yo\" vì cả hai đều là lời chào không trang trọng, nên không có đáp án duy nhất.",
+      "fix": {
+        "sentence": "_____ Tom, can you send me the file? (very informal)",
+        "answer": "Yo"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu có thể điền \"Dear\" hoặc \"Hi\" vì cả hai đều phù hợp cho \"all\", nên có nhiều đáp án đúng.",
+      "fix": {
+        "sentence": "_____ all, please review the minutes. (formal greeting)",
+        "answer": "Dear"
+      }
+    }
+  ],
+  "b1-t59": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu này cho phép cả \"would prefer\" và \"would like\" đều đúng vì không có thông tin nào ngăn \"would like\" sử dụng.",
+      "fix": {
+        "sentence": "They _____ pizza for dinner over pasta.",
+        "options": [
+          "would rather",
+          "would prefer",
+          "would like",
+          "would love"
+        ],
+        "answer": "would prefer"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 1,
+      "problem": "Các từ có thể sắp xếp thành hai câu đúng ngữ pháp khác nhau (\"I would rather go than stay home\" và \"I would rather stay than go home\").",
+      "fix": {
+        "words": [
+          "I",
+          "would",
+          "rather",
+          "stay",
+          "home"
+        ],
+        "answer": "I would rather stay home"
+      }
+    }
+  ],
+  "b1-t60": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu hỏi \"_____ did they arrive yesterday?\" có thể được trả lời bằng cả \"When\" (hỏi thời gian) và \"Why\" (hỏi lý do), vì cả hai đều hợp ngữ pháp và không có thông tin nào loại trừ một trong hai.",
+      "fix": {
+        "sentence": "_____ day did they arrive yesterday?",
+        "options": [
+          "Why",
+          "Who",
+          "When",
+          "Where"
+        ],
+        "answer": "When"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu hỏi \"_____ are you going tomorrow?\" có thể dùng \"When\" (hỏi thời gian) hoặc \"Where\" (hỏi địa điểm), vì cả hai đều hợp ngữ pháp và không có thông tin nào hạn chế lựa chọn.",
+      "fix": {
+        "sentence": "_____ are you going to the concert tomorrow?",
+        "options": [
+          "Who",
+          "When",
+          "What",
+          "Where"
+        ],
+        "answer": "When"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu \"_____ did the train leave?\" có thể được điền bằng \"when\" (hỏi thời gian) hoặc \"why\" (hỏi lý do), vì cả hai đều hợp ngữ pháp và không có thông tin nào ưu tiên một đáp án.",
+      "fix": {
+        "sentence": "_____ day did the train leave?",
+        "answer": "when"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu \"_____ can I reach the office?\" có thể được điền bằng \"how\" (hỏi cách thức) hoặc \"when\" (hỏi thời gian), vì cả hai đều hợp ngữ pháp và không có thông tin nào loại trừ một trong hai.",
+      "fix": {
+        "sentence": "_____ can I reach the office using the map?",
+        "answer": "how"
+      }
+    }
+  ]
+}

@@ -751,7 +751,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ did you meet at the conference?",
+          "sentence": "_____ person did you meet at the conference?",
           "options": [
             "When",
             "Who",
@@ -784,7 +784,7 @@
         },
         {
           "id": 4,
-          "sentence": "_____ did you start learning English?",
+          "sentence": "_____ year did you start learning English?",
           "options": [
             "Who",
             "How",

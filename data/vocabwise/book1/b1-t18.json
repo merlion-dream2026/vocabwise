@@ -866,17 +866,17 @@
         },
         {
           "id": 2,
-          "sentence": "He _____ coffee in the morning.",
+          "sentence": "He _____ coffee in the morning because he needs caffeine.",
           "answer": "drinks"
         },
         {
           "id": 3,
-          "sentence": "She _____ English at school.",
+          "sentence": "She _____ English at school because it is a required subject.",
           "answer": "studies"
         },
         {
           "id": 4,
-          "sentence": "My brother _____ to the park on Sundays.",
+          "sentence": "My brother _____ to the park on Sundays by bus.",
           "answer": "goes"
         },
         {

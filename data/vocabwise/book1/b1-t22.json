@@ -687,40 +687,40 @@
       "items": [
         {
           "id": 1,
-          "sentence": "She _____ tired after the long bus ride.",
+          "sentence": "She _____ tired after the long bus ride, as she spoke to her friend.",
           "options": [
             "seems",
             "feels",
             "looks",
             "sounds"
           ],
-          "answer": "looks"
+          "answer": "sounds"
         },
         {
           "id": 2,
-          "sentence": "The soup _____ hot, so we waited.",
+          "sentence": "The soup _____ hot when we stirred it, so we waited.",
           "options": [
             "looks",
             "sounds",
-            "feels",
-            "seems"
-          ],
-          "answer": "seems"
-        },
-        {
-          "id": 3,
-          "sentence": "He _____ angry when he missed the train.",
-          "options": [
-            "sounds",
-            "looks",
             "feels",
             "seems"
           ],
           "answer": "feels"
         },
         {
+          "id": 3,
+          "sentence": "He _____ angry when he missed the train, as he shouted at the platform.",
+          "options": [
+            "sounds",
+            "looks",
+            "feels",
+            "seems"
+          ],
+          "answer": "sounds"
+        },
+        {
           "id": 4,
-          "sentence": "The music _____ loud in the hall.",
+          "sentence": "The music _____ loud in the hall, as everyone could hear it clearly.",
           "options": [
             "feels",
             "looks",
@@ -731,14 +731,14 @@
         },
         {
           "id": 5,
-          "sentence": "The children _____ excited about the field trip.",
+          "sentence": "The children _____ excited about the field trip, as they shouted with joy.",
           "options": [
             "seem",
             "looks",
             "feels",
             "sounds"
           ],
-          "answer": "seem"
+          "answer": "sounds"
         }
       ]
     },
@@ -790,12 +790,12 @@
       "items": [
         {
           "id": 1,
-          "sentence": "After the test, she felt _____ .",
+          "sentence": "After the test, she felt _____ because she got the highest score.",
           "answer": "proud"
         },
         {
           "id": 2,
-          "sentence": "He looks _____ when he wears his new hat.",
+          "sentence": "He looks _____ when he wears his new hat, as it makes him grin.",
           "answer": "happy"
         },
         {

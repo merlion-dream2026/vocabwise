@@ -751,45 +751,45 @@
       "items": [
         {
           "id": 1,
-          "sentence": "My neighbour ___ lives next door.",
+          "sentence": "My neighbour, ___ lives next door, is very kind.",
           "options": [
-            "that",
             "who",
             "which",
+            "that",
             "whom"
           ],
           "answer": "who"
         },
         {
           "id": 2,
-          "sentence": "The garden ___ we share is small.",
+          "sentence": "The garden, ___ we share, is small.",
           "options": [
             "who",
-            "where",
             "which",
-            "that"
+            "that",
+            "where"
           ],
           "answer": "which"
         },
         {
           "id": 3,
-          "sentence": "The people ___ help each other are friendly.",
+          "sentence": "The people, ___ help each other, are friendly.",
           "options": [
-            "that",
-            "which",
             "who",
+            "which",
+            "that",
             "whom"
           ],
           "answer": "who"
         },
         {
           "id": 4,
-          "sentence": "The dog ___ barks all night is loud.",
+          "sentence": "The dog, ___ barks all night, is loud.",
           "options": [
-            "where",
-            "which",
             "who",
-            "that"
+            "which",
+            "that",
+            "where"
           ],
           "answer": "which"
         },
@@ -868,27 +868,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "My neighbour ___ lives next door is very kind.",
+          "sentence": "My neighbour, ___ lives next door, is very kind.",
           "answer": "who"
         },
         {
           "id": 2,
-          "sentence": "The garden ___ we planted flowers is beautiful.",
+          "sentence": "The garden, ___ we planted flowers, is beautiful.",
           "answer": "which"
         },
         {
           "id": 3,
-          "sentence": "The time ___ we meet is at 6 pm.",
+          "sentence": "The time, ___ we meet, is at 6 pm.",
           "answer": "when"
         },
         {
           "id": 4,
-          "sentence": "The street ___ we walk is quiet.",
+          "sentence": "The street, ___ we walk, is quiet.",
           "answer": "where"
         },
         {
           "id": 5,
-          "sentence": "The person ___ I helped thanked me.",
+          "sentence": "The person, ___ I helped, thanked me.",
           "answer": "whom"
         }
       ]

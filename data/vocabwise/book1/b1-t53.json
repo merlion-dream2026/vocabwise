@@ -688,14 +688,14 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ you open the window, please?",
+          "sentence": "_____ you mind opening the window?",
           "options": [
             "Would",
             "Must",
             "Could",
             "Should"
           ],
-          "answer": "Could"
+          "answer": "Would"
         },
         {
           "id": 2,
@@ -710,18 +710,18 @@
         },
         {
           "id": 3,
-          "sentence": "_____ you give me a stamp?",
+          "sentence": "_____ you mind giving me a stamp?",
           "options": [
             "Should",
             "Would",
             "Must",
             "Could"
           ],
-          "answer": "Could"
+          "answer": "Would"
         },
         {
           "id": 4,
-          "sentence": "_____ you tell me the price?",
+          "sentence": "_____ you mind telling me the price?",
           "options": [
             "Would",
             "Must",
@@ -732,14 +732,14 @@
         },
         {
           "id": 5,
-          "sentence": "_____ you help me carry this box?",
+          "sentence": "_____ you mind helping me carry this box?",
           "options": [
             "Must",
             "Would",
             "Could",
             "Should"
           ],
-          "answer": "Could"
+          "answer": "Would"
         }
       ]
     },
@@ -749,13 +749,14 @@
         {
           "id": 1,
           "words": [
+            "could",
             "you",
             "please",
-            "could",
             "help",
-            "me"
+            "me",
+            "now"
           ],
-          "answer": "Could you please help me"
+          "answer": "Could you please help me now"
         },
         {
           "id": 2,
@@ -796,27 +797,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ you pass me the parcel?",
+          "sentence": "_____ you pass me the parcel, if you can?",
           "answer": "Could"
         },
         {
           "id": 2,
-          "sentence": "_____ you let me know when the parcel arrives?",
+          "sentence": "_____ you mind letting me know when the parcel arrives?",
           "answer": "Would"
         },
         {
           "id": 3,
-          "sentence": "_____ you help me fill out the form?",
+          "sentence": "_____ you help me fill out the form, if you can?",
           "answer": "Could"
         },
         {
           "id": 4,
-          "sentence": "_____ you check the address again?",
+          "sentence": "_____ you mind checking the address again?",
           "answer": "Would"
         },
         {
           "id": 5,
-          "sentence": "_____ you give me a receipt?",
+          "sentence": "_____ you give me a receipt, if you can?",
           "answer": "Could"
         }
       ]

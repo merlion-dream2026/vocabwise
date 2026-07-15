@@ -782,7 +782,7 @@
             "on",
             "opposite"
           ],
-          "answer": "next to"
+          "answer": "on"
         },
         {
           "id": 4,
@@ -797,7 +797,7 @@
         },
         {
           "id": 5,
-          "sentence": "The bus stop is ___ the school.",
+          "sentence": "The bus stop is ___ the school, across the road.",
           "options": [
             "opposite",
             "next to",
@@ -874,17 +874,17 @@
         },
         {
           "id": 3,
-          "sentence": "There is a tree ___ my house.",
-          "answer": "next to"
+          "sentence": "There is a tree ___ the roof of my house.",
+          "answer": "on"
         },
         {
           "id": 4,
-          "sentence": "The school is ___ the park.",
+          "sentence": "The school is ___ the park, across the street.",
           "answer": "opposite"
         },
         {
           "id": 5,
-          "sentence": "We sit ___ the garden and read.",
+          "sentence": "We sit ___ the garden, inside it, and read.",
           "answer": "in"
         }
       ]

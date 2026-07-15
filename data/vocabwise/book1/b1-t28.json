@@ -817,27 +817,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "When I was ten, I _____ ride my bike to school.",
+          "sentence": "When I was ten, I _____ ride my bike to school every morning.",
           "answer": "used to"
         },
         {
           "id": 2,
-          "sentence": "My brother _____ collect stamps, but he stopped last year.",
+          "sentence": "My brother _____ collect stamps for many years, but he stopped last year.",
           "answer": "used to"
         },
         {
           "id": 3,
-          "sentence": "We _____ go camping every summer before we moved to the city.",
+          "sentence": "We _____ go camping every summer before we moved to the city, as we always did.",
           "answer": "used to"
         },
         {
           "id": 4,
-          "sentence": "She _____ think that English was difficult, now she enjoys it.",
+          "sentence": "She _____ think that English was difficult, as she did before, but now she enjoys it.",
           "answer": "used to"
         },
         {
           "id": 5,
-          "sentence": "They _____ play video games after dinner, but now they study together.",
+          "sentence": "They _____ play video games after dinner, as they always did, but now they study together.",
           "answer": "used to"
         }
       ]

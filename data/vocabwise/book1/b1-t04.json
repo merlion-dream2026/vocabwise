@@ -718,7 +718,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The T‑shirt is _____ than the jeans.",
+          "sentence": "The T‑shirt is usually _____ than the jeans.",
           "options": [
             "more expensive",
             "cheaper",
@@ -729,7 +729,7 @@
         },
         {
           "id": 2,
-          "sentence": "This coat is _____ than the sweater.",
+          "sentence": "This coat is usually _____ than the sweater.",
           "options": [
             "cheaper",
             "affordable",
@@ -740,7 +740,7 @@
         },
         {
           "id": 3,
-          "sentence": "The shoes are _____ than the sandals.",
+          "sentence": "Sandals are usually _____ than boots.",
           "options": [
             "more expensive",
             "cheaper",
@@ -762,7 +762,7 @@
         },
         {
           "id": 5,
-          "sentence": "A cup of coffee is _____ than a bottle of water.",
+          "sentence": "A bottle of water is usually _____ than a cup of coffee.",
           "options": [
             "biggest",
             "more expensive",
@@ -828,8 +828,14 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The red dress is _____ than the blue one.",
-          "answer": "cheaper"
+          "sentence": "A T‑shirt is usually _____ than a pair of jeans.",
+          "answer": "cheaper",
+          "options": [
+            "cheaper",
+            "more expensive",
+            "affordable",
+            "biggest"
+          ]
         },
         {
           "id": 2,
@@ -838,8 +844,16 @@
         },
         {
           "id": 3,
-          "sentence": "We look for _____ prices when we shop.",
-          "answer": "affordable"
+          "sentence": "We look for _____ prices when we shop at high‑end stores.",
+          "answer": "more expensive",
+          "options": [
+            "cheaper",
+            "more expensive",
+            "affordable",
+            "expensive",
+            "bigger",
+            "cheapest"
+          ]
         },
         {
           "id": 4,

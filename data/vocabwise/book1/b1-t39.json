@@ -767,7 +767,7 @@
         },
         {
           "id": 2,
-          "sentence": "We mixed the chemicals, _____ we observed the reaction.",
+          "sentence": "We mixed the chemicals, _____ we observed the reaction, which started only after the mixture settled.",
           "options": [
             "After that",
             "First",
@@ -778,7 +778,7 @@
         },
         {
           "id": 3,
-          "sentence": "She wrote the hypothesis, _____ she tested it.",
+          "sentence": "She wrote the hypothesis, _____ she tested it, after a short pause.",
           "options": [
             "Then",
             "First",
@@ -789,18 +789,18 @@
         },
         {
           "id": 4,
-          "sentence": "_____ we recorded the data, we analyzed the results.",
+          "sentence": "_____ we recorded the data, we analyzed the results, as the final step of the experiment.",
           "options": [
             "After that",
             "First",
             "Finally",
             "Next"
           ],
-          "answer": "Next"
+          "answer": "Finally"
         },
         {
           "id": 5,
-          "sentence": "We discussed the findings, _____ we wrote the report.",
+          "sentence": "We discussed the findings, _____ we wrote the report, which was the last task of the project.",
           "options": [
             "Then",
             "First",
@@ -868,22 +868,22 @@
         },
         {
           "id": 2,
-          "sentence": "We heat the solution, _____ we add the catalyst.",
+          "sentence": "We heat the solution, _____ we add the catalyst, after the temperature reaches 80°C.",
           "answer": "then"
         },
         {
           "id": 3,
-          "sentence": "_____ we record the temperature, we note the time.",
+          "sentence": "_____ we record the temperature, we note the time, as the final step of the measurement.",
           "answer": "next"
         },
         {
           "id": 4,
-          "sentence": "The mixture changes colour, _____ we observe the reaction.",
+          "sentence": "The mixture changes colour, _____ we observe the reaction, which occurs immediately after the colour change.",
           "answer": "after that"
         },
         {
           "id": 5,
-          "sentence": "We write the report, _____ we submit it to the teacher.",
+          "sentence": "We write the report, _____ we submit it to the teacher, as the last step of the assignment.",
           "answer": "finally"
         }
       ]

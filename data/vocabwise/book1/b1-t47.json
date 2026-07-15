@@ -688,18 +688,18 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ did you visit last weekend?",
+          "sentence": "_____ did you visit the museum last weekend?",
           "options": [
             "What",
             "Why",
             "Where",
             "When"
           ],
-          "answer": "Where"
+          "answer": "When"
         },
         {
           "id": 2,
-          "sentence": "_____ did the guide explain the tour route?",
+          "sentence": "_____ way did the guide explain the tour route?",
           "options": [
             "When",
             "How",
@@ -710,7 +710,7 @@
         },
         {
           "id": 3,
-          "sentence": "_____ did the museum want to showcase art from around the world?",
+          "sentence": "_____ reason did the museum want to showcase art from around the world?",
           "options": [
             "Why",
             "Who",
@@ -732,7 +732,7 @@
         },
         {
           "id": 5,
-          "sentence": "_____ did you check the floor plan before leaving?",
+          "sentence": "_____ time did you check the floor plan before leaving?",
           "options": [
             "How",
             "When",
@@ -811,7 +811,7 @@
         },
         {
           "id": 4,
-          "sentence": "_____ audio guide did you borrow?",
+          "sentence": "_____ of the audio guides did you borrow?",
           "answer": "which"
         },
         {

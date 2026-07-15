@@ -688,40 +688,40 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ I finish my homework, I will watch TV.",
+          "sentence": "_____ I finish my homework, I will watch TV immediately.",
           "options": [
             "When",
             "Before",
             "After",
             "As soon as"
           ],
-          "answer": "After"
+          "answer": "As soon as"
         },
         {
           "id": 2,
-          "sentence": "She will call you _____ she arrives at the airport.",
+          "sentence": "She will call you _____ she arrives at the airport, no matter what.",
           "options": [
             "as soon as",
             "before",
             "when",
             "after"
           ],
-          "answer": "when"
+          "answer": "as soon as"
         },
         {
           "id": 3,
-          "sentence": "_____ the rain stops, we can go outside.",
+          "sentence": "_____ the rain stops, we can go outside right away.",
           "options": [
             "After",
             "When",
             "Before",
             "As soon as"
           ],
-          "answer": "When"
+          "answer": "As soon as"
         },
         {
           "id": 4,
-          "sentence": "_____ you eat breakfast, you should brush your teeth.",
+          "sentence": "_____ you eat breakfast, you should brush your teeth immediately.",
           "options": [
             "As soon as",
             "After",
@@ -732,14 +732,14 @@
         },
         {
           "id": 5,
-          "sentence": "_____ the bell rings, the class will start.",
+          "sentence": "_____ the bell rings, the class will start promptly.",
           "options": [
             "Before",
             "After",
             "As soon as",
             "When"
           ],
-          "answer": "When"
+          "answer": "As soon as"
         }
       ]
     },
@@ -749,6 +749,7 @@
         {
           "id": 1,
           "words": [
+            "Immediately",
             "after",
             "reading",
             "the",
@@ -757,11 +758,12 @@
             "feel",
             "relaxed"
           ],
-          "answer": "After reading the book I feel relaxed"
+          "answer": "Immediately after reading the book I feel relaxed"
         },
         {
           "id": 2,
           "words": [
+            "Exactly",
             "when",
             "she",
             "arrives",
@@ -771,11 +773,12 @@
             "the",
             "meeting"
           ],
-          "answer": "When she arrives we will start the meeting"
+          "answer": "Exactly when she arrives we will start the meeting"
         },
         {
           "id": 3,
           "words": [
+            "Immediately",
             "as",
             "soon",
             "as",
@@ -786,7 +789,7 @@
             "go",
             "outside"
           ],
-          "answer": "As soon as the rain stops we go outside"
+          "answer": "Immediately as soon as the rain stops we go outside"
         }
       ]
     },
@@ -803,28 +806,28 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ I get home, I will call you.",
-          "answer": "when"
+          "sentence": "_____ I get home, I will call you immediately.",
+          "answer": "as soon as"
         },
         {
           "id": 2,
-          "sentence": "She always drinks tea _____ she wakes up.",
-          "answer": "before"
+          "sentence": "She always drinks tea _____ she wakes up, without delay.",
+          "answer": "as soon as"
         },
         {
           "id": 3,
-          "sentence": "_____ the movie ends, we will discuss it.",
-          "answer": "after"
+          "sentence": "_____ the movie ends, we will discuss it right away.",
+          "answer": "as soon as"
         },
         {
           "id": 4,
-          "sentence": "_____ you finish your work, you can go out.",
+          "sentence": "_____ you finish your work, you can go out immediately.",
           "answer": "as soon as"
         },
         {
           "id": 5,
-          "sentence": "_____ the sun rises, the birds start singing.",
-          "answer": "when"
+          "sentence": "_____ the sun rises, the birds start singing promptly.",
+          "answer": "as soon as"
         }
       ]
     },

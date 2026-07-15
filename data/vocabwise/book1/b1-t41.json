@@ -814,10 +814,9 @@
           "words": [
             "mix",
             "the",
-            "ingredients",
-            "well"
+            "ingredients"
           ],
-          "answer": "mix the ingredients well"
+          "answer": "mix the ingredients"
         },
         {
           "id": 2,
@@ -825,9 +824,10 @@
             "turn",
             "off",
             "the",
-            "stove"
+            "stove",
+            "now"
           ],
-          "answer": "turn off the stove"
+          "answer": "turn off the stove now"
         },
         {
           "id": 3,

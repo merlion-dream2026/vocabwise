@@ -691,7 +691,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ a big tree near the lake.",
+          "sentence": "_____ a big tree near the lake today.",
           "options": [
             "There was",
             "There is",
@@ -702,7 +702,7 @@
         },
         {
           "id": 2,
-          "sentence": "_____ many birds singing in the forest.",
+          "sentence": "_____ many birds singing in the forest right now.",
           "options": [
             "There are",
             "There is",
@@ -735,7 +735,7 @@
         },
         {
           "id": 5,
-          "sentence": "_____ a quiet garden behind my house.",
+          "sentence": "_____ a quiet garden behind my house right now.",
           "options": [
             "There will be",
             "There are",
@@ -801,7 +801,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ a tall pine tree by the road.",
+          "sentence": "_____ a tall pine tree by the road right now.",
           "answer": "There is"
         },
         {

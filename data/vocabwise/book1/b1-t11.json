@@ -756,7 +756,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "My brother _____ a hamster.",
+          "sentence": "My brother _____ a hamster just now.",
           "options": [
             "has",
             "has got",
@@ -767,7 +767,7 @@
         },
         {
           "id": 2,
-          "sentence": "We _____ a big dog.",
+          "sentence": "We _____ a big dog just now.",
           "options": [
             "have got",
             "has got",
@@ -778,7 +778,7 @@
         },
         {
           "id": 3,
-          "sentence": "She _____ a beautiful bird.",
+          "sentence": "She _____ a beautiful bird just now.",
           "options": [
             "has",
             "have",
@@ -804,7 +804,7 @@
           "options": [
             "hasn't got",
             "haven't got",
-            "doesn't have",
+            "doesn't has",
             "don't have"
           ],
           "answer": "hasn't got"

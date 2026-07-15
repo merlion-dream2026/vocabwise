@@ -864,22 +864,22 @@
         },
         {
           "id": 2,
-          "sentence": "The coach praised _____ for the good performance.",
+          "sentence": "The coach praised _____ for the good performance; he was the team's captain.",
           "answer": "him"
         },
         {
           "id": 3,
-          "sentence": "Anna invited _____ to join the study group.",
+          "sentence": "Anna invited _____ to join the study group because she needed a female member.",
           "answer": "her"
         },
         {
           "id": 4,
-          "sentence": "The teacher asked _____ to submit the assignment.",
+          "sentence": "The teacher asked _____ to submit the assignment before Friday; we are the whole class.",
           "answer": "us"
         },
         {
           "id": 5,
-          "sentence": "The manager will call _____ later today.",
+          "sentence": "The manager will call _____ later today to discuss the project; they are the contractors.",
           "answer": "them"
         }
       ]

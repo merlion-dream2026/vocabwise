@@ -706,7 +706,7 @@
           "sentence": "Anna is _____ student in the class.",
           "options": [
             "the smartest",
-            "most smart",
+            "smartest",
             "the smart",
             "smart"
           ],
@@ -823,8 +823,8 @@
         },
         {
           "id": 4,
-          "sentence": "This building is _____ in the city.",
-          "answer": "the biggest"
+          "sentence": "This building is _____ in the city by height.",
+          "answer": "the tallest"
         },
         {
           "id": 5,

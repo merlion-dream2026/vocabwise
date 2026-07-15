@@ -773,12 +773,13 @@
         {
           "id": 3,
           "words": [
-            "leave",
+            "Leave",
             "the",
             "classroom",
-            "quietly"
+            "quietly",
+            "now"
           ],
-          "answer": "leave the classroom quietly"
+          "answer": "Leave the classroom quietly now"
         }
       ]
     },

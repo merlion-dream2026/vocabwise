@@ -688,7 +688,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "My _____ are coming to dinner tonight.",
+          "sentence": "My _____ are coming to dinner tonight; they are over 40 years old.",
           "options": [
             "children",
             "child",
@@ -699,7 +699,7 @@
         },
         {
           "id": 2,
-          "sentence": "She has three _____ in her class.",
+          "sentence": "She has three _____ in her class that she likes to hang out with.",
           "options": [
             "friends",
             "friend",
@@ -710,7 +710,7 @@
         },
         {
           "id": 3,
-          "sentence": "The _____ were laughing loudly.",
+          "sentence": "The _____ were laughing loudly at the children's choir performance.",
           "options": [
             "children",
             "childs",
@@ -721,7 +721,7 @@
         },
         {
           "id": 4,
-          "sentence": "We bought two _____ for the garden.",
+          "sentence": "We bought two _____ for the garden to plant in the flower beds.",
           "options": [
             "trees",
             "flower",
@@ -761,6 +761,7 @@
           "words": [
             "children",
             "the",
+            "the",
             "park",
             "in",
             "are",
@@ -795,27 +796,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "During holidays, my _____ visit us often.",
+          "sentence": "During holidays, my _____ (my mother and father) visit us often.",
           "answer": "parents"
         },
         {
           "id": 2,
-          "sentence": "I have two _____ who study at university.",
+          "sentence": "I have two _____ who study at university and are my brothers or sisters.",
           "answer": "siblings"
         },
         {
           "id": 3,
-          "sentence": "The _____ told us stories about their youth.",
+          "sentence": "The _____ (who are over 70) told us stories about their youth.",
           "answer": "grandparents"
         },
         {
           "id": 4,
-          "sentence": "All our _____ gathered for the reunion.",
+          "sentence": "All our _____ (who are not cousins) gathered for the reunion.",
           "answer": "relatives"
         },
         {
           "id": 5,
-          "sentence": "My _____ live in Hanoi and Ho Chi Minh City.",
+          "sentence": "My _____ (who are my cousins) live in Hanoi and Ho Chi Minh City.",
           "answer": "cousins"
         }
       ]

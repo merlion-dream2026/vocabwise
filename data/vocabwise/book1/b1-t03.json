@@ -770,7 +770,7 @@
         },
         {
           "id": 2,
-          "sentence": "There are _____ apples on the table.",
+          "sentence": "There are _____ apples on the table, enough for a big party.",
           "options": [
             "much",
             "few",
@@ -803,7 +803,7 @@
         },
         {
           "id": 5,
-          "sentence": "How _____ water do you need?",
+          "sentence": "How _____ water do you need to fill the bottle?",
           "options": [
             "few",
             "much",
@@ -871,12 +871,12 @@
         },
         {
           "id": 2,
-          "sentence": "_____ apples are on the table.",
+          "sentence": "There are _____ apples on the table, enough for the class.",
           "answer": "many"
         },
         {
           "id": 3,
-          "sentence": "There isn't _____ sugar left.",
+          "sentence": "There isn't _____ bananas left.",
           "answer": "any"
         },
         {
@@ -886,7 +886,7 @@
         },
         {
           "id": 5,
-          "sentence": "I bought _____ bananas.",
+          "sentence": "I bought only _____ bananas.",
           "answer": "few"
         }
       ]

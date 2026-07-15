@@ -797,28 +797,28 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The teacher ______ the class sing a song.",
+          "sentence": "The teacher, who was strict, ______ the class sing a song.",
           "answer": "made"
         },
         {
           "id": 2,
-          "sentence": "My brother ______ me borrow his guitar.",
+          "sentence": "My brother generously ______ me borrow his guitar.",
           "answer": "let"
         },
         {
           "id": 3,
-          "sentence": "She ______ her friend stay for the rehearsal.",
+          "sentence": "She kindly ______ her friend stay for the rehearsal.",
           "answer": "let"
         },
         {
           "id": 4,
-          "sentence": "The manager ______ the staff work overtime.",
+          "sentence": "The manager, who was demanding, ______ the staff work overtime.",
           "answer": "made"
         },
         {
           "id": 5,
-          "sentence": "The coach ______ the players warm up.",
-          "answer": "let"
+          "sentence": "The coach, who was strict, ______ the players warm up.",
+          "answer": "made"
         }
       ]
     },

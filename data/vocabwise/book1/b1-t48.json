@@ -858,18 +858,18 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The principal ______ announce the winners at 8 p.m.",
+          "sentence": "The principal ______ announce the winners at 8 p.m., according to the program.",
           "answer": "will"
         },
         {
           "id": 2,
-          "sentence": "The teachers ______ start decorating the hall tomorrow.",
+          "sentence": "The teachers ______ start decorating the hall tomorrow, as they have already prepared the materials.",
           "answer": "are going to"
         },
         {
           "id": 3,
-          "sentence": "I think the guests ______ arrive early because they want good seats.",
-          "answer": "will"
+          "sentence": "I think the guests ______ arrive early because they want good seats (they have booked in advance).",
+          "answer": "are going to"
         },
         {
           "id": 4,
@@ -878,7 +878,7 @@
         },
         {
           "id": 5,
-          "sentence": "The ceremony ______ be broadcast live.",
+          "sentence": "The ceremony ______ be broadcast live, as arranged by the media team.",
           "answer": "is going to"
         }
       ]

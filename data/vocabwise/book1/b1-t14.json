@@ -779,8 +779,8 @@
           "options": [
             "boarded",
             "board",
-            "took",
-            "caught"
+            "caught",
+            "took"
           ],
           "answer": "boarded"
         },
@@ -814,13 +814,15 @@
         {
           "id": 1,
           "words": [
-            "last",
-            "summer",
             "my",
             "family",
-            "visited"
+            "visited",
+            "the",
+            "museum",
+            "last",
+            "summer"
           ],
-          "answer": "my family visited last summer"
+          "answer": "my family visited the museum last summer"
         },
         {
           "id": 2,
@@ -829,9 +831,12 @@
             "watched",
             "the",
             "movie",
+            "at",
+            "the",
+            "cinema",
             "yesterday"
           ],
-          "answer": "We watched the movie yesterday"
+          "answer": "We watched the movie at the cinema yesterday"
         },
         {
           "id": 3,
@@ -840,10 +845,13 @@
             "started",
             "the",
             "project",
+            "in",
+            "the",
+            "office",
             "on",
             "Monday"
           ],
-          "answer": "She started the project on Monday"
+          "answer": "She started the project in the office on Monday"
         }
       ]
     },

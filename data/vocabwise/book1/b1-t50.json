@@ -695,7 +695,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "He _______ the park and then went home.",
+          "sentence": "He drove _____ the park, staying on the main road, and then went home.",
           "options": [
             "over",
             "around",
@@ -706,7 +706,7 @@
         },
         {
           "id": 2,
-          "sentence": "When you reach the bridge, you should go ___ it.",
+          "sentence": "When you reach the bridge, you should go over it to continue on the road.",
           "options": [
             "under",
             "over",
@@ -717,7 +717,7 @@
         },
         {
           "id": 3,
-          "sentence": "To get to the museum, _______ right at the traffic lights.",
+          "sentence": "To get to the museum, _____ at the traffic lights, as the museum is on that side.",
           "options": [
             "go straight",
             "turn left",
@@ -728,7 +728,7 @@
         },
         {
           "id": 4,
-          "sentence": "The shop is two blocks ___ the school.",
+          "sentence": "The shop is two blocks past the school, on the way to the market.",
           "options": [
             "behind",
             "near",
@@ -802,7 +802,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "She walked ___ the museum to reach the garden.",
+          "sentence": "She walked past the museum (without entering it) to reach the garden.",
           "answer": "past"
         },
         {
@@ -812,7 +812,7 @@
         },
         {
           "id": 3,
-          "sentence": "At the intersection, turn ___.",
+          "sentence": "At the intersection, turn right (the road to the city is on the right).",
           "answer": "right"
         },
         {
@@ -822,7 +822,7 @@
         },
         {
           "id": 5,
-          "sentence": "When you see the sign, turn ___.",
+          "sentence": "When you see the sign, turn left (the sign points left).",
           "answer": "left"
         }
       ]

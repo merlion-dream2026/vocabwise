@@ -727,22 +727,22 @@
         },
         {
           "id": 4,
-          "sentence": "They have _____ finished reading the dictionary.",
+          "sentence": "They have _____ finished reading the dictionary by now?",
           "options": [
             "already",
-            "just",
+            "never",
             "ever",
-            "never"
+            "just"
           ],
           "answer": "already"
         },
         {
           "id": 5,
-          "sentence": "He has _____ started a new book this week.",
+          "sentence": "He has _____ started a new book this week?",
           "options": [
             "just",
-            "ever",
             "never",
+            "ever",
             "already"
           ],
           "answer": "just"
@@ -781,12 +781,12 @@
           "words": [
             "they",
             "have",
-            "just",
+            "recently",
             "returned",
             "their",
             "books"
           ],
-          "answer": "they have just returned their books"
+          "answer": "they have recently returned their books"
         }
       ]
     },
@@ -803,22 +803,22 @@
       "items": [
         {
           "id": 1,
-          "sentence": "I have _____ read that article.",
+          "sentence": "I have _____ read that article by now.",
           "answer": "already"
         },
         {
           "id": 2,
           "sentence": "He has _____ visited the new reading area.",
-          "answer": "never"
+          "answer": "already"
         },
         {
           "id": 3,
           "sentence": "We have _____ finished the assignment.",
-          "answer": "just"
+          "answer": "already"
         },
         {
           "id": 4,
-          "sentence": "Have you _____ been to the library?",
+          "sentence": "Have you _____ been to the library at least once?",
           "answer": "ever"
         },
         {

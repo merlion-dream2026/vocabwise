@@ -808,7 +808,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "You _____ arrive on time for the class.",
+          "sentence": "You _____ arrive on time for the class, as it is a school rule.",
           "answer": "must"
         },
         {
@@ -818,7 +818,7 @@
         },
         {
           "id": 3,
-          "sentence": "I _____ finish the assignment today.",
+          "sentence": "I _____ finish the assignment today if I want to meet the deadline.",
           "answer": "must"
         },
         {
@@ -828,7 +828,7 @@
         },
         {
           "id": 5,
-          "sentence": "He _____ wear a uniform at school.",
+          "sentence": "He _____ wear a uniform at school according to the school policy.",
           "answer": "must"
         }
       ]

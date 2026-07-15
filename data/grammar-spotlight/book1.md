@@ -265,15 +265,15 @@ Tính từ so sánh hơn được sử dụng để so sánh hai đối tượng
 ### Bài tập 1 — Trắc nghiệm
 **Hướng dẫn:** Chọn đáp án đúng để hoàn thành câu.
 
-1. The T‑shirt is _____ than the jeans.
+1. The T‑shirt is usually _____ than the jeans.
    A. more expensive  |  B. cheaper  |  C. biggest  |  D. affordable  →  cheaper
-2. This coat is _____ than the sweater.
+2. This coat is usually _____ than the sweater.
    A. cheaper  |  B. affordable  |  C. more expensive  |  D. biggest  →  more expensive
-3. The shoes are _____ than the sandals.
+3. Sandals are usually _____ than boots.
    A. more expensive  |  B. cheaper  |  C. affordable  |  D. biggest  →  cheaper
 4. A laptop is usually _____ than a tablet.
    A. affordable  |  B. cheaper  |  C. more expensive  |  D. biggest  →  more expensive
-5. A cup of coffee is _____ than a bottle of water.
+5. A bottle of water is usually _____ than a cup of coffee.
    A. biggest  |  B. more expensive  |  C. cheaper  |  D. affordable  →  cheaper
 
 ### Bài tập 2 — Sắp xếp câu

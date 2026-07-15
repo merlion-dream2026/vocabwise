@@ -753,7 +753,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "She walks _____ the park every morning.",
+          "sentence": "She walks _____ the park every morning, crossing it from one side to the other.",
           "options": [
             "to",
             "from",
@@ -786,14 +786,14 @@
         },
         {
           "id": 4,
-          "sentence": "The train comes _____ the station at 9am.",
+          "sentence": "The train arrives _____ the station at 9am.",
           "options": [
             "from",
             "to",
             "along",
             "through"
           ],
-          "answer": "from"
+          "answer": "to"
         },
         {
           "id": 5,
@@ -859,17 +859,17 @@
       "items": [
         {
           "id": 1,
-          "sentence": "He drives _____ work every day.",
+          "sentence": "He drives _____ work every day, heading towards his office.",
           "answer": "to"
         },
         {
           "id": 2,
-          "sentence": "She returned _____ the hotel yesterday.",
-          "answer": "from"
+          "sentence": "She returned _____ the hotel yesterday, going back to the building.",
+          "answer": "to"
         },
         {
           "id": 3,
-          "sentence": "We walked _____ the park to get to the museum.",
+          "sentence": "We walked _____ the park to get to the museum, passing from one side to the other.",
           "answer": "through"
         },
         {
@@ -879,8 +879,8 @@
         },
         {
           "id": 5,
-          "sentence": "The bridge goes _____ the street.",
-          "answer": "across"
+          "sentence": "The bridge goes _____ the street, spanning it above.",
+          "answer": "over"
         }
       ]
     },

@@ -758,13 +758,13 @@
             "more fragile",
             "most fragile",
             "fragile",
-            "most fragile"
+            "fragiler"
           ],
           "answer": "more fragile"
         },
         {
           "id": 2,
-          "sentence": "A sketch is _____ way to start a big painting.",
+          "sentence": "A sketch is _____ way to start a big painting than a photograph.",
           "options": [
             "the best",
             "better",
@@ -802,7 +802,7 @@
             "more vivid",
             "most vivid",
             "vivid",
-            "most vivid"
+            "vivider"
           ],
           "answer": "more vivid"
         }
@@ -863,12 +863,12 @@
       "items": [
         {
           "id": 1,
-          "sentence": "A pencil is _____ tool for sketching than a brush.",
+          "sentence": "A pencil is _____ tool for sketching than a brush in terms of complexity.",
           "answer": "simpler"
         },
         {
           "id": 2,
-          "sentence": "This painting looks _____ after the lighting was adjusted.",
+          "sentence": "This painting looks _____ after the lighting was adjusted than before.",
           "answer": "better"
         },
         {

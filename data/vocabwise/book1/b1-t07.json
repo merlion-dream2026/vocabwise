@@ -706,7 +706,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "She _____ swim very fast.",
+          "sentence": "She _____ swim very fast now.",
           "options": [
             "may",
             "could",
@@ -717,7 +717,7 @@
         },
         {
           "id": 2,
-          "sentence": "They _____ play football on rainy days.",
+          "sentence": "They _____ play football safely on rainy days.",
           "options": [
             "can",
             "must",
@@ -728,7 +728,7 @@
         },
         {
           "id": 3,
-          "sentence": "I _____ join the basketball team next term.",
+          "sentence": "I _____ join the basketball team next term if I pass the tryout.",
           "options": [
             "might",
             "can't",
@@ -809,7 +809,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "I _____ play tennis on Saturdays.",
+          "sentence": "I usually _____ play tennis on Saturdays.",
           "answer": "can"
         },
         {
@@ -819,17 +819,17 @@
         },
         {
           "id": 3,
-          "sentence": "We _____ join the swimming class tomorrow.",
+          "sentence": "We _____ join the swimming class tomorrow if we have enough money.",
           "answer": "can"
         },
         {
           "id": 4,
-          "sentence": "He _____ run a marathon this year.",
+          "sentence": "He _____ run a marathon this year because he hasn't trained enough.",
           "answer": "can't"
         },
         {
           "id": 5,
-          "sentence": "They _____ try the new sport next week.",
+          "sentence": "They _____ try the new sport next week if they get permission.",
           "answer": "can"
         }
       ]

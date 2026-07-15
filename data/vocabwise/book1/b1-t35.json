@@ -753,7 +753,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "I _____ go to the library tomorrow.",
+          "sentence": "I _____ go to the library tomorrow, no matter what.",
           "options": [
             "went",
             "will",
@@ -775,7 +775,7 @@
         },
         {
           "id": 3,
-          "sentence": "We _____ start the test now if the teacher is ready.",
+          "sentence": "We certainly _____ start the test now if the teacher is ready.",
           "options": [
             "are",
             "will",
@@ -786,7 +786,7 @@
         },
         {
           "id": 4,
-          "sentence": "They _____ need more time, but we will see.",
+          "sentence": "They definitely _____ need more time, but we will see.",
           "options": [
             "should",
             "will",
@@ -797,7 +797,7 @@
         },
         {
           "id": 5,
-          "sentence": "He _____ help you with the essay.",
+          "sentence": "He definitely _____ help you with the essay.",
           "options": [
             "is",
             "helps",
@@ -861,27 +861,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "I _____ call you later.",
+          "sentence": "I _____ call you later, I promise.",
           "answer": "will"
         },
         {
           "id": 2,
-          "sentence": "She _____ join us if she finishes early.",
-          "answer": "might"
+          "sentence": "She _____ join us if she finishes early, I'm sure she will.",
+          "answer": "will"
         },
         {
           "id": 3,
-          "sentence": "We _____ start the exam now.",
+          "sentence": "We definitely _____ start the exam now.",
           "answer": "will"
         },
         {
           "id": 4,
-          "sentence": "He _____ not forget to bring his calculator.",
+          "sentence": "He definitely _____ not forget to bring his calculator.",
           "answer": "won't"
         },
         {
           "id": 5,
-          "sentence": "You _____ need help with the questions.",
+          "sentence": "You probably _____ need help with the questions.",
           "answer": "should"
         }
       ]

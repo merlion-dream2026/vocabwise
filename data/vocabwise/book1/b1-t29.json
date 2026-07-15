@@ -862,27 +862,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "I _____ visited the new library.",
+          "sentence": "I _____ visited the new library so far.",
           "answer": "have"
         },
         {
           "id": 2,
-          "sentence": "She _____ never eaten durian before.",
+          "sentence": "She _____ never eaten durian before so far.",
           "answer": "has"
         },
         {
           "id": 3,
-          "sentence": "They _____ just arrived at the airport.",
+          "sentence": "They _____ just arrived at the airport so far.",
           "answer": "have"
         },
         {
           "id": 4,
-          "sentence": "He _____ already left the classroom.",
+          "sentence": "He _____ already left the classroom so far.",
           "answer": "has"
         },
         {
           "id": 5,
-          "sentence": "We _____ not seen that movie yet.",
+          "sentence": "We _____ not seen that movie yet so far.",
           "answer": "have"
         }
       ]

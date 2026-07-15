@@ -719,12 +719,12 @@
         },
         {
           "id": 5,
-          "sentence": "_____ the proposal was accepted, the team began the implementation phase.",
+          "sentence": "Having accepted the proposal, the team began the implementation phase.",
           "options": [
             "Having accepted",
             "Accepting",
             "Having accept",
-            "Having accepted"
+            "Accepted"
           ],
           "answer": "Having accepted"
         }

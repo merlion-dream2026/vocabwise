@@ -702,7 +702,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ you open the window, please?",
+          "sentence": "_____ you open the window, please? (I am too short to reach it)",
           "options": [
             "Should",
             "Will",
@@ -713,7 +713,7 @@
         },
         {
           "id": 2,
-          "sentence": "_____ I borrow your pen?",
+          "sentence": "_____ I borrow your pen? (I need to sign a form)",
           "options": [
             "May",
             "Could",
@@ -724,7 +724,7 @@
         },
         {
           "id": 3,
-          "sentence": "_____ you tell me the time?",
+          "sentence": "_____ you tell me the time? (I have no watch)",
           "options": [
             "Would",
             "Could",
@@ -735,7 +735,7 @@
         },
         {
           "id": 4,
-          "sentence": "_____ you pass the salt?",
+          "sentence": "_____ you pass the salt? (I'm cooking)",
           "options": [
             "Would",
             "Can",
@@ -746,7 +746,7 @@
         },
         {
           "id": 5,
-          "sentence": "_____ I sit here?",
+          "sentence": "_____ I sit here? (The seat is empty)",
           "options": [
             "Can",
             "Will",
@@ -808,27 +808,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ you tell me the time?",
+          "sentence": "_____ you tell me the time? (I have no watch)",
           "answer": "Could"
         },
         {
           "id": 2,
-          "sentence": "_____ I borrow your book?",
+          "sentence": "_____ I borrow your book? (I need it for class)",
           "answer": "May"
         },
         {
           "id": 3,
-          "sentence": "_____ you pass the salt?",
+          "sentence": "_____ you pass the salt? (I'm making soup)",
           "answer": "Would"
         },
         {
           "id": 4,
-          "sentence": "_____ you open the window?",
+          "sentence": "_____ you open the window? (It's hot in here)",
           "answer": "Can"
         },
         {
           "id": 5,
-          "sentence": "_____ I sit here?",
+          "sentence": "_____ I sit here? (The chair is free)",
           "answer": "May"
         }
       ]

@@ -699,18 +699,18 @@
         },
         {
           "id": 2,
-          "sentence": "_____ Sarah, thanks for the quick reply!",
+          "sentence": "_____ Sarah, thanks for the quick reply! (formal greeting)",
           "options": [
             "Hello",
             "Hey",
             "Regards",
             "Dear"
           ],
-          "answer": "Hey"
+          "answer": "Dear"
         },
         {
           "id": 3,
-          "sentence": "_____ team, please submit your timesheets by Friday.",
+          "sentence": "_____ team, please submit your timesheets by Friday. (formal email)",
           "options": [
             "Hi",
             "Yo",
@@ -721,14 +721,14 @@
         },
         {
           "id": 4,
-          "sentence": "_____ buddy, let's catch up later!",
+          "sentence": "_____ buddy, let's catch up later! (polite greeting)",
           "options": [
             "Regards",
             "Yo",
             "Dear",
             "Hello"
           ],
-          "answer": "Yo"
+          "answer": "Hello"
         },
         {
           "id": 5,
@@ -776,15 +776,15 @@
         {
           "id": 3,
           "words": [
-            "Regards",
             "John",
             "thank",
             "you",
             "for",
             "your",
-            "help"
+            "help",
+            "Regards"
           ],
-          "answer": "Regards John thank you for your help"
+          "answer": "John, thank you for your help. Regards"
         }
       ]
     },
@@ -801,18 +801,18 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ Professor, I have a question about the assignment.",
+          "sentence": "_____ Professor, I have a question about the assignment. (formal greeting)",
           "answer": "Dear"
         },
         {
           "id": 2,
-          "sentence": "_____ Tom, can you send me the file?",
-          "answer": "Hi"
+          "sentence": "_____ Tom, can you send me the file? (very informal)",
+          "answer": "Yo"
         },
         {
           "id": 3,
-          "sentence": "_____ all, please review the minutes.",
-          "answer": "Regards"
+          "sentence": "_____ all, please review the minutes. (formal greeting)",
+          "answer": "Dear"
         },
         {
           "id": 4,

@@ -813,22 +813,22 @@
         },
         {
           "id": 2,
-          "sentence": "The recipe calls for _____ eggs.",
+          "sentence": "The recipe calls for exactly _____ eggs.",
           "answer": "ten"
         },
         {
           "id": 3,
-          "sentence": "My house is on the _____ floor.",
+          "sentence": "My house is on the _____ floor of the building, which has five floors.",
           "answer": "third"
         },
         {
           "id": 4,
-          "sentence": "There are _____ chairs in the room.",
+          "sentence": "There are exactly _____ chairs in the room.",
           "answer": "twenty"
         },
         {
           "id": 5,
-          "sentence": "_____ students attended the lecture.",
+          "sentence": "Only _____ students attended the lecture.",
           "answer": "twenty"
         }
       ]

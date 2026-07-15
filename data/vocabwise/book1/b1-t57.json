@@ -753,7 +753,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The signs ____ painted red in many buildings.",
+          "sentence": "The signs ____ usually painted red in many buildings.",
           "options": [
             "are",
             "is",
@@ -764,7 +764,7 @@
         },
         {
           "id": 2,
-          "sentence": "The notice on the door ____ kept closed during the night.",
+          "sentence": "The notice on the door ____ always kept closed during the night.",
           "options": [
             "are",
             "was",
@@ -775,7 +775,7 @@
         },
         {
           "id": 3,
-          "sentence": "All instructions ____ followed carefully by the staff.",
+          "sentence": "All instructions ____ usually followed carefully by the staff.",
           "options": [
             "are",
             "is",
@@ -786,7 +786,7 @@
         },
         {
           "id": 4,
-          "sentence": "The emergency exit ____ closed after the fire drill.",
+          "sentence": "The emergency exit ____ closed after the fire drill yesterday.",
           "options": [
             "was",
             "were",
@@ -797,7 +797,7 @@
         },
         {
           "id": 5,
-          "sentence": "The colour code ____ used in the laboratory.",
+          "sentence": "The colour code ____ currently used in the laboratory.",
           "options": [
             "is",
             "are",
@@ -861,7 +861,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The signs ____ painted blue in the hallway.",
+          "sentence": "The signs ____ usually painted blue in the hallway.",
           "answer": "are"
         },
         {
@@ -871,17 +871,17 @@
         },
         {
           "id": 3,
-          "sentence": "All warnings ____ displayed at the entrance.",
-          "answer": "were"
+          "sentence": "All warnings ____ always displayed at the entrance.",
+          "answer": "are"
         },
         {
           "id": 4,
-          "sentence": "The emergency alarm ____ activated during the drill.",
-          "answer": "is"
+          "sentence": "The emergency alarm ____ activated during the drill yesterday.",
+          "answer": "was"
         },
         {
           "id": 5,
-          "sentence": "The exit signs ____ kept clean.",
+          "sentence": "The exit signs ____ always kept clean.",
           "answer": "are"
         }
       ]

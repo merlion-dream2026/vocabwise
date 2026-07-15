@@ -717,7 +717,7 @@
         },
         {
           "id": 2,
-          "sentence": "They _____ to eat pizza for dinner.",
+          "sentence": "They _____ pizza for dinner over pasta.",
           "options": [
             "would rather",
             "would prefer",
@@ -770,12 +770,10 @@
             "I",
             "would",
             "rather",
-            "go",
-            "than",
             "stay",
             "home"
           ],
-          "answer": "I would rather go than stay home"
+          "answer": "I would rather stay home"
         },
         {
           "id": 2,

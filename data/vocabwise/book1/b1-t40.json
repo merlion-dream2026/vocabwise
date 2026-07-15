@@ -756,7 +756,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The meeting starts ___ Monday morning.",
+          "sentence": "The meeting starts exactly ___ Monday morning.",
           "options": [
             "by",
             "on",

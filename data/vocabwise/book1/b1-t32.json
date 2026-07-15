@@ -753,7 +753,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The test was _____ hard for me.",
+          "sentence": "The test was _____ hard for me; I couldn't answer any questions.",
           "options": [
             "very",
             "so",
@@ -764,7 +764,7 @@
         },
         {
           "id": 2,
-          "sentence": "The instructions were _____ clear for the students.",
+          "sentence": "The instructions were _____ clear for the students to follow, which was sufficient.",
           "options": [
             "too",
             "quite",
@@ -775,7 +775,7 @@
         },
         {
           "id": 3,
-          "sentence": "The homework was _____ difficult to finish.",
+          "sentence": "The homework was _____ difficult to finish, so I gave up.",
           "options": [
             "enough",
             "so",
@@ -786,7 +786,7 @@
         },
         {
           "id": 4,
-          "sentence": "The teacher made the explanation _____ simple for the class.",
+          "sentence": "The teacher made the explanation _____ simple for the class, and it was sufficient.",
           "options": [
             "too",
             "very",
@@ -797,7 +797,7 @@
         },
         {
           "id": 5,
-          "sentence": "The sport lesson was _____ long for the kids.",
+          "sentence": "The sport lesson was _____ long for the kids, and they lost interest.",
           "options": [
             "enough",
             "so",
@@ -860,7 +860,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The maths problem was _____ difficult for me.",
+          "sentence": "The maths problem was _____ difficult for me, and I couldn't solve it.",
           "answer": "too"
         },
         {
@@ -870,17 +870,17 @@
         },
         {
           "id": 3,
-          "sentence": "The sport lesson was _____ long.",
+          "sentence": "The sport lesson was _____ long for the children, so we had to stop early.",
           "answer": "too"
         },
         {
           "id": 4,
-          "sentence": "The instructions were _____ simple.",
+          "sentence": "The instructions were _____ simple, because they needed to be extremely easy for beginners.",
           "answer": "very"
         },
         {
           "id": 5,
-          "sentence": "The exam was _____ hard.",
+          "sentence": "The exam was _____ hard that many students failed.",
           "answer": "so"
         }
       ]

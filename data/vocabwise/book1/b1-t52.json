@@ -756,58 +756,58 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Tom _____ finished his profile picture.",
+          "sentence": "Tom _____ finished his profile picture earlier today.",
           "options": [
-            "has yet",
+            "has already",
             "has just",
             "have already",
             "has"
           ],
-          "answer": "has just"
+          "answer": "has already"
         },
         {
           "id": 2,
-          "sentence": "We _____ received a notification about the new comment.",
+          "sentence": "We _____ just received a notification about the new comment.",
           "options": [
-            "have already",
-            "has just",
-            "have yet",
-            "has"
-          ],
-          "answer": "have already"
-        },
-        {
-          "id": 3,
-          "sentence": "She _____ posted a video about online safety.",
-          "options": [
-            "has yet",
-            "has just",
-            "have already",
-            "has"
-          ],
-          "answer": "has just"
-        },
-        {
-          "id": 4,
-          "sentence": "They _____ started a live stream today.",
-          "options": [
-            "have yet",
             "have just",
-            "has already",
+            "have already",
+            "have yet",
             "have"
           ],
           "answer": "have just"
         },
         {
-          "id": 5,
-          "sentence": "I _____ bought a new phone for uploading files.",
+          "id": 3,
+          "sentence": "She _____ already posted a video about online safety.",
           "options": [
+            "has already",
+            "has just",
             "have already",
-            "has yet",
-            "have just",
             "has"
           ],
+          "answer": "has already"
+        },
+        {
+          "id": 4,
+          "sentence": "They _____ already started a live stream today.",
+          "options": [
+            "have already",
+            "have just",
+            "has already",
+            "have"
+          ],
           "answer": "have already"
+        },
+        {
+          "id": 5,
+          "sentence": "I _____ just bought a new phone for uploading files.",
+          "options": [
+            "have just",
+            "have already",
+            "has yet",
+            "has"
+          ],
+          "answer": "have just"
         }
       ]
     },
@@ -866,17 +866,17 @@
       "items": [
         {
           "id": 1,
-          "sentence": "I have _____ finished my homework.",
+          "sentence": "I have _____ finished my homework a moment ago.",
           "answer": "just"
         },
         {
           "id": 2,
-          "sentence": "She has _____ visited the new social media platform.",
+          "sentence": "She has _____ visited the new social media platform before.",
           "answer": "already"
         },
         {
           "id": 3,
-          "sentence": "They haven't _____ posted a comment.",
+          "sentence": "They haven't _____ posted any comment.",
           "answer": "yet"
         },
         {
@@ -886,7 +886,7 @@
         },
         {
           "id": 5,
-          "sentence": "We have _____ seen that trend before.",
+          "sentence": "We have _____ seen that trend before, so we know it’s new.",
           "answer": "never"
         }
       ]

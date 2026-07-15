@@ -796,27 +796,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "You _____ see a doctor if you feel ill.",
+          "sentence": "You _____ see a doctor if you feel ill; it's advisable.",
           "answer": "should"
         },
         {
           "id": 2,
-          "sentence": "He _____ skip his breakfast.",
+          "sentence": "He _____ skip his breakfast; it's not healthy.",
           "answer": "shouldn't"
         },
         {
           "id": 3,
-          "sentence": "We _____ wear a mask in the clinic.",
+          "sentence": "We _____ wear a mask in the clinic; it's recommended.",
           "answer": "should"
         },
         {
           "id": 4,
-          "sentence": "She _____ take the medicine now.",
+          "sentence": "She _____ take the medicine now; it's advised.",
           "answer": "should"
         },
         {
           "id": 5,
-          "sentence": "They _____ go outside without a coat.",
+          "sentence": "They _____ go outside without a coat; it's risky.",
           "answer": "shouldn't"
         }
       ]

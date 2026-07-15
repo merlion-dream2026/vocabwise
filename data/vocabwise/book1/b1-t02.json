@@ -700,40 +700,40 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Tom _____ drinks coffee in the morning.",
+          "sentence": "Tom _____ drinks coffee in the morning without fail.",
           "options": [
             "sometimes",
             "always",
             "often",
             "never"
           ],
-          "answer": "often"
+          "answer": "always"
         },
         {
           "id": 2,
-          "sentence": "We _____ go to the park on Sundays.",
+          "sentence": "We _____ go to the park on Sundays, every week without exception.",
           "options": [
             "never",
             "always",
             "usually",
             "sometimes"
           ],
-          "answer": "usually"
+          "answer": "always"
         },
         {
           "id": 3,
-          "sentence": "She _____ forgets her keys.",
+          "sentence": "She _____ forgets her keys when she leaves the house.",
           "options": [
             "always",
             "sometimes",
             "never",
             "often"
           ],
-          "answer": "sometimes"
+          "answer": "always"
         },
         {
           "id": 4,
-          "sentence": "He _____ eats vegetables.",
+          "sentence": "He _____ eats vegetables at every meal.",
           "options": [
             "sometimes",
             "never",
@@ -744,14 +744,14 @@
         },
         {
           "id": 5,
-          "sentence": "They _____ watch TV after dinner.",
+          "sentence": "They _____ watch TV after dinner every night.",
           "options": [
             "never",
             "sometimes",
             "always",
             "often"
           ],
-          "answer": "often"
+          "answer": "always"
         }
       ]
     },
@@ -809,28 +809,28 @@
       "items": [
         {
           "id": 1,
-          "sentence": "I _____ read books before bed.",
-          "answer": "often"
+          "sentence": "I _____ read books before bed every night.",
+          "answer": "always"
         },
         {
           "id": 2,
-          "sentence": "My dad _____ drives to work.",
+          "sentence": "My dad _____ drives to work without fail.",
           "answer": "always"
         },
         {
           "id": 3,
-          "sentence": "They _____ visit grandparents on holidays.",
-          "answer": "sometimes"
+          "sentence": "They _____ visit grandparents on holidays without exception.",
+          "answer": "always"
         },
         {
           "id": 4,
-          "sentence": "She _____ forgets her homework.",
+          "sentence": "She _____ forgets her homework, as she always remembers it.",
           "answer": "never"
         },
         {
           "id": 5,
-          "sentence": "We _____ eat breakfast together.",
-          "answer": "usually"
+          "sentence": "We _____ eat breakfast together every morning.",
+          "answer": "always"
         }
       ]
     },

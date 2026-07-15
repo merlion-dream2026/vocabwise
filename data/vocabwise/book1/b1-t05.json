@@ -865,28 +865,28 @@
       "items": [
         {
           "id": 1,
-          "sentence": "I need a _____ shirt for the summer.",
-          "answer": "blue"
+          "sentence": "I need a small blue _____ shirt for the summer.",
+          "answer": "cotton"
         },
         {
           "id": 2,
-          "sentence": "She prefers a _____ coat in winter.",
-          "answer": "large"
+          "sentence": "She prefers a large red _____ coat in winter.",
+          "answer": "silk"
         },
         {
           "id": 3,
-          "sentence": "He bought a _____ dress for the wedding.",
+          "sentence": "He bought a large red _____ dress for the wedding.",
           "answer": "silk"
         },
         {
           "id": 4,
-          "sentence": "We chose a _____ pair of shoes for the hike.",
-          "answer": "small"
+          "sentence": "We chose a small blue _____ pair of shoes for the hike.",
+          "answer": "cotton"
         },
         {
           "id": 5,
-          "sentence": "They are looking for a _____ bag for travel.",
-          "answer": "red"
+          "sentence": "They are looking for a large red _____ bag for travel.",
+          "answer": "silk"
         }
       ]
     },
