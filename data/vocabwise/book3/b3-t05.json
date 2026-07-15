@@ -808,7 +808,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ is the primary reason for the persistent wage gap.",
+          "sentence": "_____ is the primary reason for the persistent wage gap?",
           "answer": "What"
         },
         {
@@ -818,7 +818,7 @@
         },
         {
           "id": 3,
-          "sentence": "_____ is the most effective strategy to combat unconscious bias.",
+          "sentence": "_____ is the most effective strategy to combat unconscious bias?",
           "answer": "What"
         },
         {
@@ -828,7 +828,7 @@
         },
         {
           "id": 5,
-          "sentence": "_____ is the key to achieving genuine equality in society.",
+          "sentence": "_____ is the key to achieving genuine equality in society?",
           "answer": "What"
         }
       ]

@@ -738,10 +738,10 @@
           "id": 4,
           "sentence": "The forensic report _____ been tampered with, according to the defense.",
           "options": [
-            "can't have",
-            "must have",
             "might have",
-            "could have"
+            "must have",
+            "can't have",
+            "should have"
           ],
           "answer": "might have"
         },
@@ -826,18 +826,18 @@
         },
         {
           "id": 3,
-          "sentence": "She _____ forgotten to submit the report, but we need confirmation.",
-          "answer": "might have"
+          "sentence": "She _____ forgotten to submit the report, as the deadline was missed.",
+          "answer": "must have"
         },
         {
           "id": 4,
-          "sentence": "The jury thought the defendant _____ been present at the scene, though evidence was inconclusive.",
-          "answer": "might have"
+          "sentence": "The jury thought the defendant _____ been present at the scene, given the eyewitness testimony.",
+          "answer": "must have"
         },
         {
           "id": 5,
-          "sentence": "If the policy had been stricter, the crime rate _____ dropped significantly.",
-          "answer": "could have"
+          "sentence": "If the policy had been stricter, the crime rate _____ dropped significantly, most likely.",
+          "answer": "might have"
         }
       ]
     },

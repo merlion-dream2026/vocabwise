@@ -1,0 +1,2916 @@
+{
+  "b3-t01": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu không cung cấp đủ thông tin để phân biệt giữa \"graduation\" và \"retention\"; cả hai đều có thể là mục tiêu của chính sách.",
+      "fix": {
+        "sentence": "The university's new policy aims to improve _____ among first‑generation students during their first year.",
+        "options": [
+          "graduation",
+          "attendance",
+          "acquisition",
+          "retention"
+        ],
+        "answer": "retention"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Không có chỉ định rõ ràng để loại trừ \"development\"; cả \"development\" và \"education\" đều hợp lý.",
+      "fix": {
+        "sentence": "Policymakers argue that early childhood _____, specifically formal schooling, is crucial for later academic success.",
+        "options": [
+          "development",
+          "training",
+          "education",
+          "acquisition"
+        ],
+        "answer": "education"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu cho phép cả \"acquisition\" và \"adoption\" là đáp án hợp lý; không có yếu tố nào ưu tiên một trong hai.",
+      "fix": {
+        "sentence": "The _____ of digital skills, meaning the process of learning them, has become a priority in many curricula.",
+        "options": [
+          "adoption",
+          "assessment",
+          "acquisition",
+          "allocation"
+        ],
+        "answer": "acquisition"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Các lựa chọn \"importance\", \"necessity\", \"significance\", \"value\" đều có thể đúng; không có tiêu chí duy nhất.",
+      "fix": {
+        "sentence": "Research highlights the _____ of critical thinking in lifelong learning.",
+        "options": [
+          "importance",
+          "necessity",
+          "significance",
+          "value"
+        ],
+        "answer": "significance"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu cho phép cả \"literacy\" và \"acquisition\" là đáp án đúng vì cả hai đều mô tả việc đọc.",
+      "fix": {
+        "sentence": "The _____ of reading skills is essential for academic progress.",
+        "answer": "acquisition"
+      }
+    }
+  ],
+  "b3-t02": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có hai đáp án đúng: \"Having missed\" và \"Missing\" đều tạo câu nguyên nhân‑kết quả hợp lý, vì không có thông tin nào loại trừ một trong hai dạng phân từ.",
+      "fix": {
+        "sentence": "_____ the deadline was missed, the project was delayed.",
+        "options": [
+          "Having missed",
+          "Having been missed",
+          "Having miss",
+          "Missed"
+        ],
+        "answer": "Having missed"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 1,
+      "problem": "Câu có thể sắp xếp thành nhiều thứ tự hợp lệ (ví dụ: \"Many employees having experienced burnout reconsider their career paths\").",
+      "fix": {
+        "words": [
+          "Having",
+          "experienced",
+          "burnout",
+          "many",
+          "employees",
+          "reconsider",
+          "their",
+          "career",
+          "paths"
+        ],
+        "answer": "Having experienced burnout, many employees reconsider their career paths"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 2,
+      "problem": "Câu có thể sắp xếp thành các thứ tự khác nhau (ví dụ: \"Companies restructure their workforces driven by increased automation\").",
+      "fix": {
+        "words": [
+          "Driven",
+          "by",
+          "increased",
+          "automation",
+          "companies",
+          "restructure",
+          "their",
+          "workforces"
+        ],
+        "answer": "Driven by increased automation, companies restructure their workforces"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 3,
+      "problem": "Câu có thể sắp xếp thành nhiều thứ tự hợp lệ (ví dụ: \"Organizations risk high turnover having failed to address work‑life balance\").",
+      "fix": {
+        "words": [
+          "Having",
+          "failed",
+          "to",
+          "address",
+          "work‑life",
+          "balance",
+          "organizations",
+          "risk",
+          "high",
+          "turnover"
+        ],
+        "answer": "Having failed to address work‑life balance, organizations risk high turnover"
+      }
+    }
+  ],
+  "b3-t03": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có hai đáp án đúng khả thi: “Rarely does” và “Hardly”. Cả hai đều tạo câu đảo ngữ hợp lệ và nghĩa gần nhau, nên không thể xác định đáp án duy nhất.",
+      "fix": {
+        "sentence": "_____ we see such a stark contrast between intimacy and superficiality in contemporary culture?",
+        "options": [
+          "Not only do",
+          "Seldom",
+          "Rarely does",
+          "Often"
+        ],
+        "answer": "Rarely does"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu có hai đáp án đúng khả thi: “Never have” và “Hardly”. Cả hai đều tạo câu đảo ngữ đúng ngữ pháp, vì không có thông tin nào trong câu loại trừ một trong hai.",
+      "fix": {
+        "sentence": "_____ we have experienced such rapid changes in communication, the effects on relationships are still uncertain.",
+        "options": [
+          "Never have",
+          "Rarely does",
+          "Seldom",
+          "Often"
+        ],
+        "answer": "Never have"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu có hai đáp án đúng khả thi: “Not only do” và “Rarely does”. Hai lựa chọn đều tạo câu đảo ngữ hợp lệ, nên không thể xác định đáp án duy nhất.",
+      "fix": {
+        "sentence": "_____ the media highlight the benefits of digital connection, they ignore the potential for alienation.",
+        "options": [
+          "Rarely does",
+          "Never have",
+          "Seldom",
+          "Not only do"
+        ],
+        "answer": "Not only do"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Hai đáp án “Rarely” và “Never” đều có thể điền vào chỗ trống và tạo câu hỏi hợp lệ, vì không có thông tin nào trong câu để phân biệt chúng.",
+      "fix": {
+        "sentence": "_____ does the digital age challenge traditional notions of intimacy?",
+        "options": [
+          "Rarely",
+          "Not",
+          "Only",
+          "Seldom",
+          "Thus",
+          "Often"
+        ],
+        "answer": "Rarely"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Hai đáp án “Seldom” và “Never” đều có thể điền vào chỗ trống và tạo câu đúng ngữ pháp, vì câu không cung cấp thông tin để loại trừ một trong hai.",
+      "fix": {
+        "sentence": "_____ have researchers agreed on a single theory of social bonding.",
+        "options": [
+          "Never",
+          "Not",
+          "Only",
+          "Thus",
+          "Often",
+          "Seldom"
+        ],
+        "answer": "Seldom"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Hai đáp án “Never” và “Seldom” đều có thể điền vào chỗ trống và tạo câu đúng ngữ pháp, vì không có dữ liệu nào trong câu để quyết định đáp án duy nhất.",
+      "fix": {
+        "sentence": "_____ before has the challenge of digital loneliness been so widely debated.",
+        "options": [
+          "Never",
+          "Not",
+          "Only",
+          "Thus",
+          "Often",
+          "Seldom"
+        ],
+        "answer": "Never"
+      }
+    }
+  ],
+  "b3-t04": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu không cung cấp đủ thông tin để xác định đáp án duy nhất; nhiều lựa chọn đều hợp lý.",
+      "fix": {
+        "sentence": "Researchers argue that _____ can mitigate the effects of parental divorce in jurisdictions with comprehensive family law.",
+        "options": [
+          "strong kinship ties",
+          "the rapid dissolution",
+          "the traditional hierarchy",
+          "the legal framework"
+        ],
+        "answer": "the legal framework"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu không cung cấp đủ thông tin để xác định đáp án duy nhất; nhiều lựa chọn đều hợp lý.",
+      "fix": {
+        "sentence": "Policy makers are concerned about the impact of _____ on children's mental health in societies with increasing divorce rates.",
+        "options": [
+          "fragmented family structures",
+          "the rise of reconstituted families",
+          "the dominant social unit",
+          "the extended kinship network"
+        ],
+        "answer": "the rise of reconstituted families"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu không cung cấp đủ thông tin để xác định đáp án duy nhất; nhiều lựa chọn đều hợp lý.",
+      "fix": {
+        "sentence": "Many sociologists view _____ as a sign of societal adaptation in contemporary urban contexts.",
+        "options": [
+          "the emergence of cohabitation arrangements",
+          "the decline of traditional values",
+          "the increase in single-parent homes",
+          "the stability of nuclear families"
+        ],
+        "answer": "the emergence of cohabitation arrangements"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu không cung cấp đủ thông tin để xác định đáp án duy nhất; nhiều lựa chọn đều hợp lý.",
+      "fix": {
+        "sentence": "Support services aim to address the challenges posed by _____, particularly in high‑conflict divorces.",
+        "options": [
+          "economic hardship",
+          "the complexity of custody disputes",
+          "the rise of reconstituted families",
+          "the traditional nuclear model"
+        ],
+        "answer": "the complexity of custody disputes"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu không cung cấp đủ thông tin để xác định đáp án duy nhất; nhiều từ trong ngân hàng đều có thể phù hợp.",
+      "fix": {
+        "sentence": "The _____ family model, characterized by a married couple and their children, is still prevalent in many rural areas.",
+        "answer": "traditional"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu không cung cấp đủ thông tin để xác định đáp án duy nhất; cả \"extended\" và \"kinship\" đều có thể phù hợp.",
+      "fix": {
+        "sentence": "An _____ network of distant relatives can offer emotional support during crises.",
+        "answer": "extended"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu không cung cấp đủ thông tin để xác định đáp án duy nhất; cả \"nuclear\" và \"traditional\" đều có thể phù hợp.",
+      "fix": {
+        "sentence": "The _____ family, consisting of a married couple and their biological children, is often idealised in media.",
+        "answer": "nuclear"
+      }
+    }
+  ],
+  "b3-t05": [
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu có thể chấp nhận cả 'What' và 'It' vì cả hai đều tạo câu đúng ngữ pháp, không có thông tin nào để phân biệt lựa chọn.",
+      "fix": {
+        "sentence": "_____ is the primary reason for the persistent wage gap?",
+        "answer": "What"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu có thể chấp nhận cả 'What' và 'It' vì cả hai đều tạo câu đúng ngữ pháp, không có thông tin nào để phân biệt lựa chọn.",
+      "fix": {
+        "sentence": "_____ is the most effective strategy to combat unconscious bias?",
+        "answer": "What"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu có thể chấp nhận cả 'What' và 'It' vì cả hai đều tạo câu đúng ngữ pháp, không có thông tin nào để phân biệt lựa chọn.",
+      "fix": {
+        "sentence": "_____ is the key to achieving genuine equality in society?",
+        "answer": "What"
+      }
+    }
+  ],
+  "b3-t06": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu không chỉ ra người nói hay người nữ nào được nhắc tới, vì vậy cả \"so do I\" (cũng không tin) và \"neither does she\" (cũng không tin) đều hợp lý.",
+      "fix": {
+        "sentence": "He doesn't believe the anti‑doping measures are sufficient, and _____ .",
+        "options": [
+          "the latter",
+          "so do I",
+          "neither does she",
+          "however"
+        ],
+        "answer": "so do I"
+      }
+    }
+  ],
+  "b3-t07": "__error__",
+  "b3-t08": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu có thể chấp nhận cả các dạng thời gian hiện tại (It is argued) và hiện tại hoàn thành (It has been argued), vì không có chỉ định thời gian nào.",
+      "fix": {
+        "sentence": "_____ last year that the artist's work reflects consumer anxieties, critics have praised the exhibition.",
+        "options": [
+          "It has been argued",
+          "It is argued",
+          "It was argued",
+          "It has argued"
+        ],
+        "answer": "It was argued"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Không có chỉ định thời gian, nên cả It is claimed, It has been claimed và It was claimed đều hợp lý.",
+      "fix": {
+        "sentence": "_____ in 2023 that the algorithm manipulates user preferences, researchers called for stricter regulations.",
+        "options": [
+          "It is claimed",
+          "It has been claimed",
+          "It claims",
+          "It was claimed"
+        ],
+        "answer": "It was claimed"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Không có chỉ định thời gian, vì vậy It is suggested, It has been suggested và It was suggested đều có thể dùng.",
+      "fix": {
+        "sentence": "_____ in a recent report that the brand's messaging exploits emotional triggers, the advertising standards authority issued a warning.",
+        "options": [
+          "It is suggested",
+          "It has been suggested",
+          "It suggested",
+          "It was suggested"
+        ],
+        "answer": "It was suggested"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Không có chỉ định thời gian, nên It is expected, It has been expected và It was expected đều có thể đúng.",
+      "fix": {
+        "sentence": "_____ last quarter that the market will shift towards sustainable products, investors are adjusting their portfolios.",
+        "options": [
+          "It is expected",
+          "It has expected",
+          "It was expected",
+          "It has been expected"
+        ],
+        "answer": "It was expected"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu không chỉ định thời gian, vì vậy cả \"is believed\" và \"has been argued\" đều có thể điền vào chỗ trống.",
+      "fix": {
+        "sentence": "_____ currently that the rise of fast fashion contributes to environmental degradation, NGOs have launched campaigns.",
+        "answer": "is believed"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Không có chỉ định thời gian, nên \"has been argued\" và \"is believed\" đều có thể dùng.",
+      "fix": {
+        "sentence": "_____ recently that advertising manipulates subconscious desires, psychologists warn about long‑term effects.",
+        "answer": "has been argued"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Không có chỉ định thời gian, vì vậy \"is thought\" và \"is believed\" đều phù hợp.",
+      "fix": {
+        "sentence": "_____ currently that the government will subsidize repair workshops, consumers are hopeful.",
+        "answer": "is thought"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Không có chỉ định ngữ cảnh, nên \"has been claimed\" và \"has been argued\" đều có thể đúng.",
+      "fix": {
+        "sentence": "_____ in a lawsuit that the brand's slogan exploits cultural symbols, activists filed complaints.",
+        "answer": "has been claimed"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Không có chỉ định ngữ cảnh, vì vậy \"has been suggested\" và các lựa chọn khác đều có thể chấp nhận được.",
+      "fix": {
+        "sentence": "_____ as a recommendation that stricter labeling laws could improve transparency, industry leaders remain skeptical.",
+        "answer": "has been suggested"
+      }
+    }
+  ],
+  "b3-t09": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu không cho biết hành động chưa xảy ra, vì vậy các thì hiện tại (has prioritized, prioritizes) cũng có thể đúng, dẫn đến nhiều đáp án hợp lý.",
+      "fix": {
+        "sentence": "If the algorithm _____ (to prioritize) mental‑wellbeing content, users would feel less pressure now, but it didn't.",
+        "options": [
+          "had prioritized",
+          "prioritizes",
+          "has prioritized",
+          "will prioritize"
+        ],
+        "answer": "had prioritized"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu không chỉ ra rằng nghiên cứu chưa tiết lộ liên kết, nên các thì hiện tại (has revealed, reveals) cũng có thể đúng, tạo ra tính đa nghĩa.",
+      "fix": {
+        "sentence": "If the study _____ (to reveal) the link earlier, policymakers would be acting on it already, but it didn't.",
+        "options": [
+          "has revealed",
+          "had revealed",
+          "reveals",
+          "will reveal"
+        ],
+        "answer": "had revealed"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Không có thông tin cho biết các trường đã tích hợp chương trình, vì vậy các thì hiện tại (have integrated, integrate) cũng có thể chấp nhận được.",
+      "fix": {
+        "sentence": "If schools _____ (to integrate) digital‑literacy curricula, students would be more resilient today, but they didn't.",
+        "options": [
+          "integrates",
+          "had integrated",
+          "have integrated",
+          "will integrate"
+        ],
+        "answer": "had integrated"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu không nêu rõ nền tảng chưa thực hiện biện pháp, nên các thì hiện tại (has implemented, implements) cũng có thể đúng.",
+      "fix": {
+        "sentence": "If the platform _____ (to implement) stricter moderation, harassment incidents would be decreasing now, but it didn't.",
+        "options": [
+          "had implemented",
+          "implements",
+          "has implemented",
+          "will implement"
+        ],
+        "answer": "had implemented"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Không có dấu hiệu rằng người dùng chưa nhận ra tính chất đã chọn lọc của bài đăng, vì vậy các thì hiện tại (recognize) cũng có thể đúng.",
+      "fix": {
+        "sentence": "If users _____ (to recognize) the curated nature of posts, they would be comparing themselves less, but they didn't.",
+        "options": [
+          "recognize",
+          "had recognized",
+          "has recognized",
+          "will recognize"
+        ],
+        "answer": "had recognized"
+      }
+    }
+  ],
+  "b3-t10": [
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu này có thể điền được cả \"chosen\" và \"taken\" vì cả hai đều hợp ngữ pháp và nghĩa tương đương, nên có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "She wishes she had _______ a less demanding role as her selection.",
+        "answer": "chosen"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu này cho phép cả \"implemented\" và \"set\" vì cả hai đều có thể điền vào chỗ trống mà không vi phạm ngữ pháp, dẫn tới tính đa nghĩa.",
+      "fix": {
+        "sentence": "If only they had _______ flexible working hours as an implemented measure, burnout rates would drop.",
+        "answer": "implemented"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu này có thể chấp nhận cả \"implemented\" và \"set\" vì cả hai đều phù hợp ngữ pháp, vì vậy không có đáp án duy nhất.",
+      "fix": {
+        "sentence": "If only the management had _______ clearer policies on overtime as an implemented measure, staff would feel protected.",
+        "answer": "implemented"
+      }
+    }
+  ],
+  "b3-t11": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu không đủ thông tin để xác định duy nhất một modal; các lựa chọn may, might, could đều hợp lý.",
+      "fix": {
+        "sentence": "The new policy _____ reduce stigma around mental health, but evidence so far is limited.",
+        "options": [
+          "could",
+          "may",
+          "tend",
+          "might"
+        ],
+        "answer": "might"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Không có dấu hiệu nào cho biết mức độ chắc chắn, nên might, could, appear đều có thể dùng.",
+      "fix": {
+        "sentence": "Researchers _____ have found a link between social media use and anxiety, according to the preliminary study.",
+        "options": [
+          "appear",
+          "might",
+          "could",
+          "tend"
+        ],
+        "answer": "might"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Các modal might, could, may đều phù hợp với cấu trúc \"_____ appear to improve\".",
+      "fix": {
+        "sentence": "Community programmes _____ appear to improve wellbeing in underserved areas, although the results are tentative.",
+        "options": [
+          "might",
+          "could",
+          "may",
+          "tend"
+        ],
+        "answer": "might"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Không có chỉ dẫn về mức độ khả năng, nên may, might, could đều đúng khi đứng trước \"tend to avoid\".",
+      "fix": {
+        "sentence": "Students _____ tend to avoid seeking help if they fear judgment, as observed in a small sample.",
+        "options": [
+          "might",
+          "appear",
+          "may",
+          "could"
+        ],
+        "answer": "might"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu không cung cấp thông tin để phân biệt giữa may, might, could, appear.",
+      "fix": {
+        "sentence": "Experts _____ suggest that early intervention could prevent more severe disorders, based on early indications.",
+        "options": [
+          "appear",
+          "might",
+          "could",
+          "may"
+        ],
+        "answer": "might"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Các modal may, might, could, should đều có thể điền vào chỗ trống, không có tiêu chí duy nhất.",
+      "fix": {
+        "sentence": "The organization _____ launch a public campaign next month, pending final approval.",
+        "answer": "may"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Không có chỉ dẫn về mức độ chắc chắn, nên may, might, could đều hợp lý.",
+      "fix": {
+        "sentence": "These findings _____ suggest a correlation between stress and sleep quality, but further research is needed.",
+        "answer": "might"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu cho phép cả may, might, could; không có tiêu chí để chọn một đáp án duy nhất.",
+      "fix": {
+        "sentence": "Such interventions _____ appear to reduce stigma over time, according to early observations.",
+        "answer": "might"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Không có thông tin để quyết định giữa may, might, could; các lựa chọn đều có thể dùng.",
+      "fix": {
+        "sentence": "Individuals _____ tend to ignore their own mental health needs when busy, as shown in recent surveys.",
+        "answer": "might"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu không chỉ ra mức độ khuyến nghị, nên may, might, could, should đều có thể phù hợp.",
+      "fix": {
+        "sentence": "Policymakers _____ consider allocating more funds to community clinics, as recommended by the health board.",
+        "answer": "should"
+      }
+    }
+  ],
+  "b3-t12": "__error__",
+  "b3-t13": "__error__",
+  "b3-t14": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu này cho phép cả “impact on” và “focus on” đều hợp ngữ pháp và có nghĩa, vì không có thông tin nào loại trừ một trong hai lựa chọn.",
+      "fix": {
+        "sentence": "The new policy's _____ the mental health of adolescents, rather than its intent, is still being evaluated.",
+        "options": [
+          "belief in",
+          "focus on",
+          "impact on",
+          "access to"
+        ],
+        "answer": "impact on"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu này cho phép cả “rely on” và “depend on” đều đúng, vì cả hai cụm đều có thể đi với “evidence”.",
+      "fix": {
+        "sentence": "The report emphasizes the need to _____ evidence when forming conclusions, as opposed to relying on intuition.",
+        "answer": "rely on"
+      }
+    }
+  ],
+  "b3-t15": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có thể điền nhiều liên từ đúng (provided that, as long as, on condition that), vì vậy không duy nhất.",
+      "fix": {
+        "sentence": "You can join the workshop, _____ you commit to practicing daily.",
+        "options": [
+          "provided that",
+          "because",
+          "although",
+          "when"
+        ],
+        "answer": "provided that"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu có thể chấp nhận cả \"as long as\", \"provided that\" và \"on condition that\" nên không duy nhất.",
+      "fix": {
+        "sentence": "The program will continue, _____ the funding is renewed.",
+        "options": [
+          "as long as",
+          "because",
+          "although",
+          "when"
+        ],
+        "answer": "as long as"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu có thể điền \"provided that\", \"as long as\" hoặc \"on condition that\" nên không duy nhất.",
+      "fix": {
+        "sentence": "The contract is valid, _____ both parties sign it by Friday.",
+        "options": [
+          "on condition that",
+          "because",
+          "although",
+          "when"
+        ],
+        "answer": "on condition that"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu có thể chấp nhận \"provided that\", \"as long as\" và \"on condition that\" nên không duy nhất.",
+      "fix": {
+        "sentence": "He can travel abroad, _____ he obtains a visa.",
+        "options": [
+          "as long as",
+          "because",
+          "although",
+          "when"
+        ],
+        "answer": "as long as"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu có thể điền \"provided that\", \"if\", \"on condition that\" hoặc \"as long as\" nên không duy nhất.",
+      "fix": {
+        "sentence": "The new policy will be implemented, _____ the board approves it.",
+        "answer": "provided that"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu có thể điền \"as long as\", \"provided that\" hoặc \"if\" nên không duy nhất.",
+      "fix": {
+        "sentence": "She will stay abroad, _____ she finishes her thesis.",
+        "answer": "as long as"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu có thể điền \"if\", \"provided that\" hoặc \"as long as\" nên không duy nhất.",
+      "fix": {
+        "sentence": "The garden will thrive, _____ you water it regularly.",
+        "answer": "if"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu có thể điền \"on condition that\", \"provided that\" hoặc \"if\" nên không duy nhất.",
+      "fix": {
+        "sentence": "The grant will be awarded, _____ the project meets all criteria.",
+        "answer": "on condition that"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu có thể điền \"provided that\", \"if\" hoặc \"on condition that\" nên không duy nhất.",
+      "fix": {
+        "sentence": "You may access the database, _____ you have a valid login.",
+        "answer": "provided that"
+      }
+    }
+  ],
+  "b3-t16": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu này cho phép nhiều liên từ đúng (but, although, whereas, while) vì không có thông tin nào khiến một trong số chúng trở nên duy nhất.",
+      "fix": {
+        "sentence": "The committee approved the new policy, _____ the minority members, who had previously opposed it, voiced strong objections.",
+        "options": [
+          "but",
+          "although",
+          "whereas",
+          "while"
+        ],
+        "answer": "whereas"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Không có yếu tố nào trong câu để phân biệt giữa while, but, although, despite the fact that; tất cả đều có thể diễn đạt ý tương phản.",
+      "fix": {
+        "sentence": "She continued her research, _____ her peers abandoned the project, highlighting a clear divergence in their approaches.",
+        "options": [
+          "while",
+          "but",
+          "although",
+          "despite the fact that"
+        ],
+        "answer": "while"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu cho phép cả while, although, despite the fact that, và whereas; không có thông tin nào để làm một trong số chúng duy nhất.",
+      "fix": {
+        "sentence": "_____ the evidence was inconclusive, the jury reached a verdict quickly, showing that the uncertainty did not delay the decision.",
+        "options": [
+          "While",
+          "Although",
+          "Despite the fact that",
+          "Whereas"
+        ],
+        "answer": "Although"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Các lựa chọn whereas, but, while, although đều có thể dùng được vì câu không chỉ ra sự khác biệt cụ thể giữa hai mệnh đề.",
+      "fix": {
+        "sentence": "The coastal town thrives on tourism, _____ it suffers from frequent flooding, illustrating a stark contrast between its economy and its vulnerability.",
+        "options": [
+          "whereas",
+          "but",
+          "while",
+          "although"
+        ],
+        "answer": "whereas"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Không có yếu tố nào để làm cho một trong các liên từ (although, whereas, but, while) trở nên duy nhất; tất cả đều có thể diễn đạt ý tương phản.",
+      "fix": {
+        "sentence": "The novel explores themes of identity, _____ it maintains a fast‑paced plot, demonstrating that depth and speed can coexist.",
+        "options": [
+          "although",
+          "whereas",
+          "but",
+          "while"
+        ],
+        "answer": "although"
+      }
+    }
+  ],
+  "b3-t17": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu cho phép cả “will be reducing” (tiến trình) và “will have reduced” (hoàn thành), vì không có chỉ định mức độ hoàn thành.",
+      "fix": {
+        "sentence": "By the end of the decade, the global health community _____ the incidence of malaria by at least 50%.",
+        "options": [
+          "will be reducing",
+          "will have reduced",
+          "will reduce",
+          "will have been reducing"
+        ],
+        "answer": "will have reduced"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu cho phép cả “will have collected” và “will have been collecting” vì “for three years” có thể diễn tả cả kết quả lẫn quá trình.",
+      "fix": {
+        "sentence": "When the clinical trial finishes, the team _____ data for three years, having started the collection in 2022.",
+        "options": [
+          "will have collected",
+          "will have been collecting",
+          "will collect",
+          "will be collecting"
+        ],
+        "answer": "will have been collecting"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "“Will have been producing” và “will have produced” đều hợp lý vì không có chỉ định tổng số hay quá trình sản xuất.",
+      "fix": {
+        "sentence": "By the time the vaccine is rolled out, manufacturers _____ billions of doses in total.",
+        "options": [
+          "will have been producing",
+          "will have produced",
+          "will produce",
+          "will be producing"
+        ],
+        "answer": "will have produced"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "“completed” và “initiated” đều có thể điền vào chỗ trống vì câu không chỉ rõ việc đã hoàn thành hay chỉ mới bắt đầu.",
+      "fix": {
+        "sentence": "By 2028, the consortium will have _____ the genome‑wide analysis of rare diseases, delivering the final report.",
+        "answer": "completed"
+      }
+    }
+  ],
+  "b3-t18": "__error__",
+  "b3-t19": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu có thể chấp nhận cả \"Moreover\" và \"Consequently\" vì cả hai đều có thể nối hai mệnh đề này, nên không có đáp án duy nhất.",
+      "fix": {
+        "sentence": "The study found that social isolation harms health; _____, community programmes are essential.",
+        "options": [
+          "Notwithstanding",
+          "Nevertheless",
+          "Moreover",
+          "Consequently"
+        ],
+        "answer": "Consequently"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu có thể dùng \"Nevertheless\" hoặc \"Notwithstanding\" để diễn tả sự tương phản, vì vậy có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "The demographic shift is evident; _____, cultural attitudes towards ageing remain unchanged.",
+        "options": [
+          "Consequently",
+          "Nevertheless",
+          "Notwithstanding",
+          "Moreover"
+        ],
+        "answer": "Nevertheless"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu có thể chấp nhận \"Moreover\" hoặc \"Consequently\" vì cả hai đều có thể nối hai mệnh đề, nên không có đáp án duy nhất.",
+      "fix": {
+        "sentence": "Economic forecasts predict higher healthcare costs; _____, governments should invest in preventive measures.",
+        "options": [
+          "Nevertheless",
+          "Moreover",
+          "Consequently",
+          "Notwithstanding"
+        ],
+        "answer": "Consequently"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu có thể dùng \"Moreover\" hoặc \"Consequently\" để nối hai mệnh đề, vì vậy có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "The city council approved the new park; _____, it allocated additional funds for maintenance.",
+        "answer": "Consequently"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu có thể chấp nhận cả \"Nevertheless\" và \"Notwithstanding\" để diễn tả sự tương phản, nên không có đáp án duy nhất.",
+      "fix": {
+        "sentence": "The study revealed a correlation between diet and cognition; _____, the sample size was limited.",
+        "answer": "Nevertheless"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu có thể dùng \"Nevertheless\" hoặc \"Notwithstanding\" để diễn tả sự tương phản, vì vậy có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "The legislation was passed; _____, it includes provisions for senior citizens despite opposition.",
+        "answer": "Nevertheless"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu có thể chấp nhận \"Nevertheless\" hoặc \"Moreover\" để nối hai mệnh đề, nên không có đáp án duy nhất.",
+      "fix": {
+        "sentence": "The policy aims to increase retirement age; _____, it must address potential age discrimination.",
+        "answer": "Moreover"
+      }
+    }
+  ],
+  "b3-t20": [
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 1,
+      "problem": "Câu có thể được sắp xếp thành hai câu đúng ngữ pháp: “Had the UN agreed to reduce emissions earlier” và “Had the UN agreed earlier to reduce emissions”. Vì không có từ nào buộc vị trí duy nhất, nên có hơn một đáp án hợp lệ.",
+      "fix": {
+        "words": [
+          "Had",
+          "the",
+          "UN",
+          "agreed",
+          "to",
+          "cut",
+          "emissions",
+          "by",
+          "2030"
+        ],
+        "answer": "Had the UN agreed to cut emissions by 2030"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 2,
+      "problem": "Các từ có thể được sắp xếp thành hai câu đúng ngữ pháp: “Should governments prioritize sustainability, economic growth will follow” và “Should governments prioritize economic growth, sustainability will follow”. Do đó có hơn một đáp án hợp lệ.",
+      "fix": {
+        "words": [
+          "Should",
+          "governments",
+          "prioritize",
+          "sustainability",
+          "the",
+          "economy",
+          "will",
+          "grow"
+        ],
+        "answer": "Should governments prioritize sustainability the economy will grow"
+      }
+    }
+  ],
+  "b3-t21": [],
+  "b3-t22": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu này có thể chấp nhận cả \"is being\" (hiện tại tiếp diễn) và \"will have been\" (tương lai hoàn thành), vì không có chỉ thời gian cụ thể.",
+      "fix": {
+        "sentence": "The dataset _____ (be) cleaned right now before training the model.",
+        "options": [
+          "might have been",
+          "will have been",
+          "is being",
+          "was"
+        ],
+        "answer": "is being"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu này có thể dùng \"are being\" (hiện tại tiếp diễn) hoặc \"might have been\" (quá khứ khả năng), vì không có chỉ thời gian rõ ràng.",
+      "fix": {
+        "sentence": "Several ethical concerns _____ (be) raised right now during the conference.",
+        "options": [
+          "are being",
+          "will have been",
+          "has been",
+          "might have been"
+        ],
+        "answer": "are being"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu này cho phép \"is being\", \"will have been\" hoặc \"might have been\" vì không có chỉ thời gian nào xác định.",
+      "fix": {
+        "sentence": "All user data _____ (be) anonymized right now to protect privacy.",
+        "options": [
+          "might have been",
+          "will have been",
+          "is being",
+          "were"
+        ],
+        "answer": "is being"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu này có thể chấp nhận \"has been\", \"might have been\" hoặc \"will have been\" vì không có chỉ thời gian cụ thể.",
+      "fix": {
+        "sentence": "The original code _____ (be) rewritten already after the security audit.",
+        "options": [
+          "has been",
+          "might have been",
+          "will have been",
+          "are being"
+        ],
+        "answer": "has been"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu \"The transparency report _____ released tomorrow\" có thể điền \"will have been\" (tương lai hoàn thành) hoặc \"is being\" (hiện tại tiếp diễn cho kế hoạch tương lai), nên có nhiều đáp án đúng.",
+      "fix": {
+        "sentence": "The transparency report _____ released today.",
+        "answer": "is being"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Danh từ \"data\" có thể được xem là số ít hoặc số nhiều, vì vậy cả \"is being\" và \"are being\" đều hợp lý.",
+      "fix": {
+        "sentence": "The historical dataset _____ used to train the system.",
+        "answer": "is being"
+      }
+    }
+  ],
+  "b3-t23": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu không cung cấp đủ ngữ cảnh để phân biệt giữa \"acknowledge\" và \"assert\"; cả hai đều hợp lý.",
+      "fix": {
+        "sentence": "The committee _____ that the new policy will improve media literacy across schools, although the results are not yet proven.",
+        "options": [
+          "assert",
+          "dispute",
+          "acknowledge",
+          "concede"
+        ],
+        "answer": "acknowledge"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu cho phép nhiều động từ (assert, acknowledge, dispute) vì không có thông tin cụ thể về quan điểm của các chuyên gia.",
+      "fix": {
+        "sentence": "While many experts _____ the significant impact of algorithms, the researcher insists the effect is negligible.",
+        "options": [
+          "concede",
+          "assert",
+          "dispute",
+          "acknowledge"
+        ],
+        "answer": "dispute"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu có thể chấp nhận cả \"assert\" và \"acknowledge\" vì không có chỉ định mức độ mạnh mẽ của tuyên bố.",
+      "fix": {
+        "sentence": "The author _____ that the rise of digital platforms has accelerated polarisation, as a fact, but offers no solution.",
+        "options": [
+          "concede",
+          "acknowledge",
+          "assert",
+          "dispute"
+        ],
+        "answer": "assert"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu cho phép \"acknowledge\" hoặc \"concede\" vì không có dấu hiệu cho thấy sự miễn cưỡng.",
+      "fix": {
+        "sentence": "Even though the data is compelling, the journalist _____ the significance of the findings, reluctantly.",
+        "options": [
+          "dispute",
+          "acknowledge",
+          "concede",
+          "assert"
+        ],
+        "answer": "concede"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu có thể dùng \"assert\" hoặc \"acknowledge\" vì không có chỉ định mức độ chắc chắn.",
+      "fix": {
+        "sentence": "Policy makers _____ that misinformation spreads faster than verified reporting, without reservation, urging stricter regulations.",
+        "options": [
+          "dispute",
+          "concede",
+          "acknowledge",
+          "assert"
+        ],
+        "answer": "assert"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu cho phép cả \"assert\" và \"claim\" vì không có chỉ định mức độ chắc chắn.",
+      "fix": {
+        "sentence": "The report _____ that algorithmic bias is influencing public opinion, leaving no room for doubt.",
+        "answer": "assert"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu có thể dùng \"acknowledge\" hoặc \"assert\" vì không có chỉ định mức độ chắc chắn.",
+      "fix": {
+        "sentence": "The committee _____ that the proposed regulation may curb fake news, tentatively.",
+        "answer": "acknowledge"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu có thể chấp nhận \"concede\" hoặc \"assert\" vì không có dấu hiệu cho thấy sự miễn cưỡng.",
+      "fix": {
+        "sentence": "Even after the evidence, the spokesperson _____ that the company was not responsible, reluctantly.",
+        "answer": "concede"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu cho phép \"claim\" và \"assert\" vì không có chỉ định mức độ chắc chắn.",
+      "fix": {
+        "sentence": "Researchers _____ that digital platforms accelerate polarisation, despite ongoing debate.",
+        "answer": "claim"
+      }
+    }
+  ],
+  "b3-t24": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu này có thể chấp nhận cả “fast‑changing” và “slow‑moving” vì cả hai đều hợp lý với nghĩa “khó bắt kịp” của hạ tầng.",
+      "fix": {
+        "sentence": "The city’s _____ infrastructure, which was unable to adapt quickly, struggled to keep up with the influx of migrants.",
+        "options": [
+          "fast‑changing",
+          "well‑established",
+          "slow‑moving",
+          "well‑known"
+        ],
+        "answer": "slow‑moving"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "“too fast‑paced” cũng có thể được hiểu là “thiếu chỉ đạo rõ ràng”, nên đáp án không duy nhất.",
+      "fix": {
+        "sentence": "The policy was criticized for being too _____, causing delays and confusion.",
+        "options": [
+          "fast‑paced",
+          "well‑established",
+          "slow‑moving",
+          "trial and error"
+        ],
+        "answer": "slow‑moving"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 2,
+      "problem": "Câu có thể sắp xếp thành hai câu đúng: \"The well‑established practice of peer review remains\" và \"The practice of peer review remains well‑established\".",
+      "fix": {
+        "words": [
+          "well‑established",
+          "practice",
+          "of",
+          "peer",
+          "review",
+          "remains",
+          "crucial"
+        ],
+        "answer": "The well‑established practice of peer review remains crucial"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "“well‑established” và “well‑known” đều có thể điền vào chỗ trống mà không vi phạm nghĩa câu.",
+      "fix": {
+        "sentence": "The conference highlighted a _____ framework for sustainable development, recognized for its longevity.",
+        "answer": "well‑established"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "“fast‑changing” và “fast‑paced” đều phù hợp với câu, gây không chắc chắn về đáp án.",
+      "fix": {
+        "sentence": "Researchers noted that the field is becoming increasingly _____ due to rapid technological advances in methodology.",
+        "answer": "fast‑changing"
+      }
+    }
+  ],
+  "b3-t25": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu này cho phép cả \"might have\" và \"could have\" vì cả hai đều diễn tả khả năng suy đoán, không có thông tin nào loại trừ một trong hai.",
+      "fix": {
+        "sentence": "The forensic report _____ been tampered with, according to the defense.",
+        "options": [
+          "might have",
+          "must have",
+          "can't have",
+          "should have"
+        ],
+        "answer": "might have"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu \"She _____ forgotten to submit the report, but we need confirmation.\" cho phép cả \"might have\" và \"could have\" vì cả hai đều biểu thị sự không chắc chắn.",
+      "fix": {
+        "sentence": "She _____ forgotten to submit the report, as the deadline was missed.",
+        "answer": "must have"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu \"The jury thought the defendant _____ been present at the scene, though evidence was inconclusive.\" cho phép cả \"might have\" và \"could have\" vì không có yếu tố nào ưu tiên một trong hai.",
+      "fix": {
+        "sentence": "The jury thought the defendant _____ been present at the scene, given the eyewitness testimony.",
+        "answer": "must have"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu \"If the policy had been stricter, the crime rate _____ dropped significantly.\" cho phép cả \"could have\" và \"might have\" vì cả hai đều diễn tả khả năng trong câu điều kiện quá khứ.",
+      "fix": {
+        "sentence": "If the policy had been stricter, the crime rate _____ dropped significantly, most likely.",
+        "answer": "might have"
+      }
+    }
+  ],
+  "b3-t26": [
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 2,
+      "problem": "Câu có thể được sắp xếp thành hai câu đúng ngữ pháp: \"... be revised promptly\" hoặc \"... be promptly revised\" nên có nhiều đáp án hợp lệ.",
+      "fix": {
+        "words": [
+          "The",
+          "committee",
+          "demanded",
+          "that",
+          "the",
+          "report",
+          "be",
+          "revised",
+          "in",
+          "a",
+          "timely",
+          "manner"
+        ],
+        "answer": "The committee demanded that the report be revised in a timely manner"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 3,
+      "problem": "Câu có thể được sắp xếp thành hai câu đúng ngữ pháp: \"... be applied equally\" hoặc \"... be equally applied\" nên có nhiều đáp án hợp lệ.",
+      "fix": {
+        "words": [
+          "The",
+          "constitution",
+          "stipulates",
+          "that",
+          "all",
+          "laws",
+          "be",
+          "applied",
+          "in",
+          "equal",
+          "measure"
+        ],
+        "answer": "The constitution stipulates that all laws be applied in equal measure"
+      }
+    }
+  ],
+  "b3-t27": "__error__",
+  "b3-t28": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu này cho phép cả “fiscal policy” và “public debt” là đáp án hợp lý vì cả hai đều có thể được mô tả là không bền vững và dẫn đến tăng thuế.",
+      "fix": {
+        "sentence": "Critics argue that the current _____, characterized by large deficits, is unsustainable and will lead to higher taxes.",
+        "options": [
+          "market forces",
+          "fiscal policy",
+          "public debt",
+          "economic growth"
+        ],
+        "answer": "fiscal policy"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 2,
+      "problem": "Các từ có thể được sắp xếp thành hai câu đúng ngữ pháp: “Tightening monetary policy often leads to higher inflationary pressure” và “Monetary policy tightening often leads to higher inflationary pressure”.",
+      "fix": {
+        "words": [
+          "tightening",
+          "of",
+          "monetary",
+          "policy",
+          "often",
+          "leads",
+          "to",
+          "higher",
+          "inflationary",
+          "pressure"
+        ],
+        "answer": "Tightening of monetary policy often leads to higher inflationary pressure"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu này cho phép cả “fiscal policy” và “taxation” là đáp án hợp lý vì cả hai đều có thể được “revised” để giảm nợ quốc gia.",
+      "fix": {
+        "sentence": "The committee recommended a revision of the _____ tax code to reduce the national debt.",
+        "answer": "taxation"
+      }
+    }
+  ],
+  "b3-t45": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu này cho phép nhiều động từ phù hợp (concedes, alleges, implies, infers) vì không có thông tin nào chỉ ra rằng giáo sư đang thừa nhận, cáo buộc, ngụ ý hay suy luận; do đó có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "The professor _____ that the study's results were inconclusive, admitting the limitations.",
+        "options": [
+          "concedes",
+          "alleges",
+          "implies",
+          "infers"
+        ],
+        "answer": "concedes"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu \"The report _____ that the data were collected improperly\" có thể chấp nhận cả \"allege\" và \"imply\" vì cả hai đều hợp lý khi không có thông tin bổ sung nào để phân biệt.",
+      "fix": {
+        "sentence": "The report _____ that the data were collected improperly, despite the lack of direct evidence.",
+        "answer": "allege"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu \"After reviewing the evidence, the lawyer _____ that the client was not at fault\" có thể điền được \"concede\" hoặc \"allege\"; cả hai đều hợp lý khi không có chỉ dẫn nào để ưu tiên một trong số chúng.",
+      "fix": {
+        "sentence": "After reviewing the evidence, the lawyer _____ that the client was not at fault, acknowledging the overwhelming proof.",
+        "answer": "concede"
+      }
+    }
+  ],
+  "b3-t46": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu cho phép nhiều danh từ danh hoá (implementation, evaluation, coordination) đều hợp lý vì không có thông tin nào loại trừ các lựa chọn khác.",
+      "fix": {
+        "sentence": "The ___ of the project was delayed due to funding shortages, meaning the work could not commence.",
+        "options": [
+          "allocation",
+          "evaluation",
+          "implementation",
+          "coordination"
+        ],
+        "answer": "implementation"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu không phân biệt rõ ràng giữa communication, coordination, negotiation, collaboration; nhiều đáp án đều có thể đúng.",
+      "fix": {
+        "sentence": "Effective ___ between departments can prevent misunderstandings, whereas communication alone is insufficient.",
+        "options": [
+          "communication",
+          "coordination",
+          "negotiation",
+          "collaboration"
+        ],
+        "answer": "coordination"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu cho phép cả implementation và evaluation đều hợp lý vì cả hai đều có thể được khen ngợi.",
+      "fix": {
+        "sentence": "The ___ of the policy was praised by the committee for its thoroughness.",
+        "options": [
+          "coordination",
+          "evaluation",
+          "implementation",
+          "allocation"
+        ],
+        "answer": "evaluation"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu cho phép cả implementation và evaluation đều hợp lý vì cả hai đều có thể được “presented”.",
+      "fix": {
+        "sentence": "The ___ of the environmental plan was presented at the summit, highlighting the steps taken.",
+        "answer": "implementation"
+      }
+    }
+  ],
+  "b3-t47": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có nhiều đáp án đúng vì cả “which” và “that” đều có thể dùng cho mệnh đề quan hệ ràng buộc chỉ vật.",
+      "fix": {
+        "sentence": "The researcher presented data, _____ revealed a significant trend.",
+        "options": [
+          "which",
+          "who",
+          "when",
+          "that"
+        ],
+        "answer": "which"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu có thể chấp nhận cả “so” (kết quả) và “because” (nguyên nhân) tùy cách hiểu, nên có hơn một đáp án hợp lý.",
+      "fix": {
+        "sentence": "The committee approved the proposal, _____ the budget was increased as a result.",
+        "options": [
+          "but",
+          "although",
+          "so",
+          "because"
+        ],
+        "answer": "so"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Cả “although” và “however” đều có thể điền vào chỗ trống để diễn tả sự nhượng bộ, vì không có yếu tố nào loại trừ một trong hai.",
+      "fix": {
+        "sentence": "The theory was compelling, _____ it lacked empirical support.",
+        "answer": "although"
+      }
+    }
+  ],
+  "b3-t48": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu này mơ hồ vì cả hai đáp án “unconditionally” và “with some reservations” đều có thể hợp lý dựa trên thông tin đưa ra.",
+      "fix": {
+        "sentence": "Researchers argue that the benefits of standardized testing should be accepted _____, given the mixed evidence.",
+        "options": [
+          "unconditionally",
+          "with some reservations",
+          "rarely",
+          "eagerly"
+        ],
+        "answer": "with some reservations"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu này mơ hồ vì cả “with some reservations” và “indifferently” đều có thể diễn tả cách các học giả tiếp nhận lý thuyết.",
+      "fix": {
+        "sentence": "While the theory is compelling, scholars receive it _____, acknowledging minor flaws.",
+        "options": [
+          "indifferently",
+          "with some reservations",
+          "enthusiastically",
+          "eagerly"
+        ],
+        "answer": "with some reservations"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 1,
+      "problem": "Hai cách sắp xếp “to some extent the effects are observable” và “the effects are observable to some extent” đều đúng, gây mơ hồ.",
+      "fix": {
+        "words": [
+          "the",
+          "effects",
+          "are",
+          "observable",
+          "to",
+          "some",
+          "extent"
+        ],
+        "answer": "the effects are observable to some extent"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 2,
+      "problem": "Hai cách sắp xếp “with some reservations the committee approved the proposal” và “the committee approved the proposal with some reservations” đều đúng.",
+      "fix": {
+        "words": [
+          "the",
+          "committee",
+          "approved",
+          "the",
+          "proposal",
+          "with",
+          "some",
+          "reservations"
+        ],
+        "answer": "the committee approved the proposal with some reservations"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 3,
+      "problem": "Hai cách sắp xếp “the findings suggest to some extent a shift” và “the findings suggest a shift to some extent” đều đúng.",
+      "fix": {
+        "words": [
+          "the",
+          "findings",
+          "suggest",
+          "a",
+          "shift",
+          "to",
+          "some",
+          "extent"
+        ],
+        "answer": "the findings suggest a shift to some extent"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Nhiều cụm trong ngân hàng (to some extent, to a certain degree, to a limited extent…) đều có thể điền vào chỗ trống, gây mơ hồ.",
+      "fix": {
+        "sentence": "The author acknowledges that the theory holds _____, in terms of its scope.",
+        "answer": "to some extent"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Cụm “with some reservations” và “with reservations” đều hợp lý cho câu này.",
+      "fix": {
+        "sentence": "The panel accepted the proposal _____, noting several minor concerns.",
+        "answer": "with some reservations"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Cụm “to a certain degree” và “to some extent” đều có thể điền vào chỗ trống.",
+      "fix": {
+        "sentence": "The results indicate the hypothesis is valid _____, in terms of statistical significance.",
+        "answer": "to a certain degree"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Cụm “to a limited extent” và “to some extent” đều có thể phù hợp.",
+      "fix": {
+        "sentence": "The policy may reduce emissions _____, given current technology, but not eliminate them.",
+        "answer": "to a limited extent"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Cụm “with reservations” và “with some reservations” đều có thể điền vào chỗ trống.",
+      "fix": {
+        "sentence": "The committee approved the plan _____, due to unresolved issues, pending further review.",
+        "answer": "with reservations"
+      }
+    }
+  ],
+  "b3-t49": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu này cho phép cả hai đáp án “had asked” (quá khứ hoàn thành) và “asked” (quá khứ đơn) vì “After the audience asked a question, …” vẫn hợp ngữ pháp và nghĩa, nên không có đáp án duy nhất.",
+      "fix": {
+        "sentence": "By the time the speaker clarified the point, the audience _____ a question.",
+        "options": [
+          "had asked",
+          "will ask",
+          "asked",
+          "was asking"
+        ],
+        "answer": "had asked"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Danh từ “team” có thể được xem là số ít hoặc số nhiều, vì vậy cả “was” và “were” đều có thể đúng, gây mơ hồ cho đáp án.",
+      "fix": {
+        "sentence": "The players _____ going to present their project when the power cut occurred.",
+        "answer": "were"
+      }
+    }
+  ],
+  "b3-t50": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu có nhiều đáp án đúng vì cả “seem to be” và “appear to be” đều có thể diễn tả quan điểm về các nhà phê bình mà không có yếu tố nào ưu tiên một trong hai.",
+      "fix": {
+        "sentence": "One critic _____ biased, but no formal study has confirmed it.",
+        "options": [
+          "is thought to be",
+          "seem to be",
+          "appear to be",
+          "looks"
+        ],
+        "answer": "is thought to be"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu cho phép ba đáp án (“appear to be”, “is thought to be”, “seems to be”) đều hợp lý vì không có thông tin nào chỉ ra quan điểm cụ thể.",
+      "fix": {
+        "sentence": "According to scholars, the ancient manuscript _____ lost during transport.",
+        "options": [
+          "appear to be",
+          "is thought to be",
+          "seems to be",
+          "looks"
+        ],
+        "answer": "is thought to be"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Hai đáp án (“appear to have been”, “seem to have been”) đều phù hợp vì không có tiêu chí nào ưu tiên một trong hai.",
+      "fix": {
+        "sentence": "The group of researchers _____ overlooked in early surveys of the field.",
+        "options": [
+          "appear to have been",
+          "seem to have been",
+          "is thought to be",
+          "looks"
+        ],
+        "answer": "is thought to be"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Ba đáp án (“appear to be”, “seem to be”, “is thought to be”) đều có thể dùng cho câu, vì không có yếu tố nào hạn chế chúng.",
+      "fix": {
+        "sentence": "According to the audience, the initial reaction _____ positive, but later turned critical.",
+        "options": [
+          "appear to be",
+          "seem to be",
+          "is thought to be",
+          "looks"
+        ],
+        "answer": "is thought to be"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Không có yếu tố nào giới hạn lựa chọn; “appear to be”, “seem to be” và “is thought to be” đều hợp lý.",
+      "fix": {
+        "sentence": "According to the catalog, the manuscript _____ lost during the shipment.",
+        "answer": "is thought to be"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu cho phép cả “seem to have been” và “appear to have been” đều đúng vì không có thông tin ưu tiên một trong hai.",
+      "fix": {
+        "sentence": "According to recent analysis, many scholars _____ overlooked in early studies.",
+        "answer": "seem to have been"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Ba đáp án (“appear to be”, “seem to be”, “is thought to be”) đều có thể dùng cho câu vì không có chỉ dẫn nào.",
+      "fix": {
+        "sentence": "According to recent data, the policy _____ ineffective.",
+        "answer": "is thought to be"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu cho phép “appear to have been” và “seem to have been” đều đúng vì không có tiêu chí phân biệt.",
+      "fix": {
+        "sentence": "According to the excavation report, the ancient technique _____ rediscovered by archaeologists.",
+        "answer": "appear to have been"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Hai đáp án (“appear to be”, “seem to be”) đều hợp lý vì không có yếu tố nào ưu tiên một trong hai.",
+      "fix": {
+        "sentence": "According to the survey, the initial reaction _____ positive, but later turned critical.",
+        "answer": "seem to be"
+      }
+    }
+  ],
+  "b3-t51": [
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu có thể chấp nhận cả “adopt” và “provide” vì cả hai đều hợp ngữ pháp và hợp nghĩa với “a clear code of conduct”. Không có thông tin nào giới hạn hành động chỉ là “adopt”.",
+      "fix": {
+        "sentence": "It is crucial that the board formally _____ a clear code of conduct.",
+        "answer": "adopt"
+      }
+    }
+  ],
+  "b3-t52": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có thể có hai đáp án đúng: \"should have accepted\" và \"need not have rejected\" đều hợp lý với thông tin \"given the overwhelming evidence\".",
+      "fix": {
+        "sentence": "The committee _____ the proposal, given the overwhelming evidence against it.",
+        "options": [
+          "should have rejected",
+          "need not have accepted",
+          "should have accepted",
+          "need not have rejected"
+        ],
+        "answer": "should have rejected"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu cho phép cả \"should have been\" và \"could have been\" là đáp án hợp lý vì nó chỉ nói về khả năng/đúng đắn trong quá khứ.",
+      "fix": {
+        "sentence": "If the policy had been implemented earlier, the crisis _____ avoided, according to the simulation results.",
+        "options": [
+          "should have been",
+          "need not have been",
+          "could have been",
+          "would have been"
+        ],
+        "answer": "could have been"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Hai đáp án \"should not have edited\" và \"need not have edited\" đều đúng vì cả hai đều diễn tả việc không cần thiết phải chỉnh sửa.",
+      "fix": {
+        "sentence": "The editor _____ the article, as the facts were already verified and the publisher had explicitly instructed not to alter it.",
+        "options": [
+          "should not have edited",
+          "need not have edited",
+          "should have edited",
+          "could not have edited"
+        ],
+        "answer": "should not have edited"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu \"Given the evidence, the committee _____ been more thorough\" có thể chấp nhận cả \"should\" và \"must\" (đánh giá khác nhau).",
+      "fix": {
+        "sentence": "Given the evidence, the committee _____ been more thorough, but they were not.",
+        "answer": "should"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu \"If resources were unlimited, the project _____ been expanded\" cho phép cả \"could\" và \"might\" là đáp án đúng.",
+      "fix": {
+        "sentence": "If resources were unlimited, the project _____ been expanded, as all necessary permits were already secured.",
+        "answer": "must"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu \"The regulations _____ been stricter, but they were relaxed\" có thể chấp nhận cả \"must\" và \"should\"; \"must\" không phù hợp vì câu nói họ đã không nghiêm ngặt.",
+      "fix": {
+        "sentence": "The regulations _____ been stricter, but they were relaxed.",
+        "answer": "should"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu \"The committee _____ have approved the proposal, yet they did not\" có thể chấp nhận cả \"ought\" và \"should\".",
+      "fix": {
+        "sentence": "The committee _____ have approved the proposal, yet they did not, as it was a moral obligation.",
+        "answer": "ought"
+      }
+    }
+  ],
+  "b3-t53": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Có nhiều đáp án đúng (is set to, is due to, is expected to) vì câu không cung cấp thông tin để phân biệt các dạng tương lai.",
+      "fix": {
+        "sentence": "The new data‑privacy law _____ come into effect next January, despite no official schedule being announced.",
+        "options": [
+          "is due to",
+          "is set to",
+          "is expected to",
+          "are predicted to"
+        ],
+        "answer": "is expected to"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Có nhiều đáp án đúng (is set to, is due to, is expected to) vì câu không có tiêu chí để lựa chọn duy nhất.",
+      "fix": {
+        "sentence": "The university's AI ethics board _____ release its first report by June, although no firm date has been set.",
+        "options": [
+          "is set to",
+          "are predicted to",
+          "is due to",
+          "is expected to"
+        ],
+        "answer": "is expected to"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Có nhiều đáp án đúng (is predicted to, is set to, is due to, is expected to) vì câu không chỉ ra mức độ chắc chắn hay nguồn thông tin.",
+      "fix": {
+        "sentence": "The upcoming conference on digital rights _____ address the challenges of algorithmic bias, according to early forecasts.",
+        "options": [
+          "is predicted to",
+          "is set to",
+          "is due to",
+          "is expected to"
+        ],
+        "answer": "is predicted to"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Có nhiều đáp án đúng (are set to, are due to, are predicted to, are expected to) vì câu không cung cấp yếu tố dự đoán hay lịch trình cụ thể.",
+      "fix": {
+        "sentence": "Regulators _____ introduce stricter consent requirements for biometric data by 2028, according to current projections.",
+        "options": [
+          "are set to",
+          "are due to",
+          "are predicted to",
+          "are expected to"
+        ],
+        "answer": "are expected to"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Có nhiều đáp án đúng (is set to, is due to, is expected to, …) vì câu không chỉ ra liệu việc nâng cấp là bắt buộc hay chỉ dự kiến.",
+      "fix": {
+        "sentence": "The blockchain protocol _____ undergo a major upgrade in Q3 in order to comply with new regulations.",
+        "answer": "will have to"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Có nhiều đáp án đúng (is due to, is set to, is expected to) vì câu không nêu rõ mức độ chắc chắn của việc phạt.",
+      "fix": {
+        "sentence": "The privacy watchdog _____ issue fines for non‑compliance next quarter, according to its recent statement.",
+        "answer": "is expected to"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Có nhiều đáp án đúng (are predicted to, are expected to) vì câu không chỉ ra nguồn dự báo.",
+      "fix": {
+        "sentence": "Experts _____ suggest that deep‑fake detection tools will become standard by 2030, according to a recent survey.",
+        "answer": "are predicted to"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Có nhiều đáp án đúng (is set to, is due to, is expected to) vì câu không nêu rõ tính chắc chắn của việc ra mắt.",
+      "fix": {
+        "sentence": "The university _____ launch a new course on digital ethics in September, having already secured funding.",
+        "answer": "is set to"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Có nhiều đáp án đúng (are due to, are set to, are expected to) vì câu không cung cấp thông tin về mức độ cam kết.",
+      "fix": {
+        "sentence": "Several NGOs _____ collaborate on a global campaign for internet freedom by 2025, as stipulated in the joint memorandum.",
+        "answer": "are due to"
+      }
+    }
+  ],
+  "b3-t54": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu có thể chấp nhận cả \"If\" và \"Only if\" vì cấu trúc không yêu cầu đảo vị trí, nên có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "_____ we invest in renewable energy will the transition be slower.",
+        "options": [
+          "Only if",
+          "Had it not been for",
+          "If",
+          "When"
+        ],
+        "answer": "Only if"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu cho phép cả \"If\", \"When\" và \"Had it not been for\" vì cấu trúc không đúng với dạng \"Had it not been for\" và các lựa chọn khác đều tạo câu có nghĩa.",
+      "fix": {
+        "sentence": "_____ the public demanding transparency, AI developers would ignore ethical concerns.",
+        "options": [
+          "When",
+          "If",
+          "Only if",
+          "Had it not been for"
+        ],
+        "answer": "Had it not been for"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu có thể hoàn thành bằng \"Unless\" hoặc \"When\" vì nghĩa không bị ràng buộc, dẫn đến nhiều đáp án đúng.",
+      "fix": {
+        "sentence": "_____ we prioritize fairness will algorithmic bias persist.",
+        "options": [
+          "Unless",
+          "Only if",
+          "Had it not been for",
+          "When"
+        ],
+        "answer": "Only if"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu \"_____ we invest in green computing, carbon emissions will rise\" có thể đúng với \"If\" hoặc \"Unless\", vì không có thông tin nào xác định nghĩa vụ của từ điền.",
+      "fix": {
+        "sentence": "_____ we invest in green computing will carbon emissions rise.",
+        "answer": "Unless"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu \"_____ algorithms are trained on biased data, discriminatory outcomes are inevitable\" chấp nhận cả \"When\" và \"If\", vì cấu trúc không yêu cầu đảo vị trí.",
+      "fix": {
+        "sentence": "_____ algorithms are trained on biased data are discriminatory outcomes inevitable.",
+        "answer": "When"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu \"_____ corporations fail to adopt ethical standards, public trust will erode permanently\" có thể dùng \"If\" hoặc \"When\", dẫn đến đa nghĩa.",
+      "fix": {
+        "sentence": "_____ corporations fail to adopt ethical standards will public trust erode permanently.",
+        "answer": "If"
+      }
+    }
+  ],
+  "b3-t55": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu cho phép cả “will be replaced” (future passive) và “are replaced” (present simple passive) vì không có chỉ thời gian cụ thể, nên có thể hiểu là một quy tắc chung.",
+      "fix": {
+        "sentence": "All outdated procedures _____ after the audit next month.",
+        "options": [
+          "were replaced",
+          "will be replaced",
+          "are replaced",
+          "will replace"
+        ],
+        "answer": "will be replaced"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu cho phép cả “will be stored” (future passive) và “are stored” (present simple passive) vì không có chỉ thời gian rõ ràng, nên có thể hiểu là một thực tế hiện tại.",
+      "fix": {
+        "sentence": "Employee data _____ securely starting next month once the new regulations take effect.",
+        "options": [
+          "will store",
+          "will be stored",
+          "has been stored",
+          "are stored"
+        ],
+        "answer": "will be stored"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu cho phép cả “will be monitored” (future passive) và “is being monitored” (present progressive passive) vì không có chỉ thời gian, nên có thể hiểu là đang diễn ra ngay bây giờ.",
+      "fix": {
+        "sentence": "The impact of AI on jobs _____ closely by policymakers in the coming years.",
+        "options": [
+          "has been monitored",
+          "will monitor",
+          "will be monitored",
+          "is being monitored"
+        ],
+        "answer": "will be monitored"
+      }
+    }
+  ],
+  "b3-t56": "__error__",
+  "b3-t57": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có thể hoàn thành hợp lệ bằng cả “Had” (đảo ngữ) và “If” (câu điều kiện thường), vì cả hai đều tạo ra câu đúng ngữ pháp và nghĩa tương đương.",
+      "fix": {
+        "sentence": "_____ the government had implemented stricter data regulations, privacy breaches would have decreased dramatically (use inversion).",
+        "options": [
+          "Should",
+          "If",
+          "Had",
+          "Were"
+        ],
+        "answer": "Had"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu có thể hoàn thành hợp lệ bằng cả “Should” (đảo ngữ) và “If” (câu điều kiện thường), vì cả hai đều tạo ra câu đúng ngữ pháp và nghĩa tương đương.",
+      "fix": {
+        "sentence": "_____ we invest in digital infrastructure now, the digital divide will narrow within a decade (use inversion).",
+        "options": [
+          "Were",
+          "If",
+          "Had",
+          "Should"
+        ],
+        "answer": "Should"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu có thể hoàn thành hợp lệ bằng cả “Had” (đảo ngữ) và “If” (câu điều kiện thường), vì cả hai đều tạo ra câu đúng ngữ pháp và nghĩa tương đương.",
+      "fix": {
+        "sentence": "_____ the algorithm been transparent, users could have made more informed choices (use inversion).",
+        "options": [
+          "If",
+          "Should",
+          "Had",
+          "Were"
+        ],
+        "answer": "Had"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu có thể hoàn thành hợp lệ bằng cả “Had” (đảo ngữ) và “If” (câu điều kiện thường), vì cả hai đều tạo ra câu đúng ngữ pháp và nghĩa tương đương.",
+      "fix": {
+        "sentence": "_____ she had known the risks, she wouldn't have consented to the data sharing (use inversion).",
+        "options": [
+          "Should",
+          "If",
+          "Had",
+          "Were"
+        ],
+        "answer": "Had"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu có thể hoàn thành hợp lệ bằng cả “Should” (đảo ngữ) và “If” (câu điều kiện thường), vì cả hai đều tạo ra câu đúng ngữ pháp và nghĩa tương đương.",
+      "fix": {
+        "sentence": "_____ the tech companies adopt ethical standards, public trust will be restored (use inversion).",
+        "options": [
+          "If",
+          "Were",
+          "Should",
+          "Had"
+        ],
+        "answer": "Should"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu có thể điền “Had” (đảo ngữ) hoặc “If” (câu điều kiện thường) mà vẫn đúng ngữ pháp và nghĩa, vì không có yếu tố nào loại trừ “If”.",
+      "fix": {
+        "sentence": "_____ the data had been anonymised, researchers could have shared findings without ethical concerns (use inversion).",
+        "answer": "Had"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu có thể điền “Should” (đảo ngữ) hoặc “If” (câu điều kiện thường) mà vẫn đúng ngữ pháp và nghĩa, vì không có yếu tố nào loại trừ “If”.",
+      "fix": {
+        "sentence": "_____ we prioritize transparency, public confidence in AI systems will increase (use inversion).",
+        "answer": "Should"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu có thể điền “Were” (đảo ngữ) hoặc “If” (câu điều kiện thường) mà vẫn đúng ngữ pháp và nghĩa, vì không có yếu tố nào loại trừ “If”.",
+      "fix": {
+        "sentence": "_____ governments were to invest in renewable energy, the transition would accelerate (use inversion).",
+        "answer": "Were"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu có thể điền “Had” (đảo ngữ) hoặc “If” (câu điều kiện thường) mà vẫn đúng ngữ pháp và nghĩa, vì không có yếu tố nào loại trừ “If”.",
+      "fix": {
+        "sentence": "_____ the policy had been enforced, the digital divide would have narrowed (use inversion).",
+        "answer": "Had"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu có thể điền “Should” (đảo ngữ) hoặc “If” (câu điều kiện thường) mà vẫn đúng ngữ pháp và nghĩa, vì không có yếu tố nào loại trừ “If”.",
+      "fix": {
+        "sentence": "_____ we ignore the warning signs, the consequences will be severe (use inversion).",
+        "answer": "Should"
+      }
+    }
+  ],
+  "b3-t58": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Có nhiều đại từ (It, That, This) đều có thể đi vào chỗ trống, vì câu không cung cấp thông tin để xác định đại từ nào là đúng duy nhất.",
+      "fix": {
+        "sentence": "_____ is exactly what the committee decided after hours of deliberation.",
+        "options": [
+          "It",
+          "That",
+          "This",
+          "What"
+        ],
+        "answer": "It"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Hai lựa chọn “Having considered” và “After considering” đều hợp ngữ pháp và mang cùng nghĩa, nên không có đáp án duy nhất.",
+      "fix": {
+        "sentence": "_____ the most compelling argument, the panel rejected the proposal.",
+        "options": [
+          "Having considered the most compelling argument",
+          "Considering the most compelling argument",
+          "Because the argument was compelling",
+          "Since the argument was compelling"
+        ],
+        "answer": "Having considered the most compelling argument"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Các đáp án “It is”, “That is”, “What is”, “The fact is” đều có thể tạo câu đúng ngữ pháp, gây đa nghĩa.",
+      "fix": {
+        "sentence": "_____ the key factor that determines success is resilience.",
+        "options": [
+          "What",
+          "Which",
+          "Who",
+          "That"
+        ],
+        "answer": "What"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "“During” và “At” đều có thể điền vào chỗ trống và tạo câu đúng, vì không có yếu tố nào làm một trong hai trở nên duy nhất.",
+      "fix": {
+        "sentence": "_____ the whole conference, the speaker highlighted the need for interdisciplinary research.",
+        "options": [
+          "During",
+          "At",
+          "In",
+          "On"
+        ],
+        "answer": "During"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "“What” và “That” đều có thể dùng để mở đầu câu, vì không có ràng buộc nào khiến một đáp án duy nhất.",
+      "fix": {
+        "sentence": "_____ the most effective way to reduce emissions?",
+        "options": [
+          "What",
+          "Which",
+          "Who",
+          "That"
+        ],
+        "answer": "What"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 3,
+      "problem": "Các từ cho phép tạo hai câu đúng: “On climate policy the impact was significant” và “The impact on climate policy was significant”.",
+      "fix": {
+        "words": [
+          "significant",
+          "was",
+          "the",
+          "impact",
+          "of",
+          "climate",
+          "policy"
+        ],
+        "answer": "The impact of climate policy was significant"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Cả “During” và “After” đều hợp lý trong câu, vì không có thông tin nào ưu tiên một trong hai.",
+      "fix": {
+        "sentence": "_____ the conference, while the audience was still present, the keynote speaker emphasized the urgency of climate action.",
+        "answer": "During"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "“Having” và “After” đều có thể điền vào chỗ trống và tạo câu đúng, dẫn đến đa nghĩa.",
+      "fix": {
+        "sentence": "_____ the data, the researchers discovered an unexpected pattern.",
+        "answer": "Having"
+      }
+    }
+  ],
+  "b3-t59": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu không cung cấp thông tin nào cho phép xác định duy nhất cụm từ đúng; cả “It is a moot point whether” và “It remains to be seen whether” đều có thể hợp lý vì không biết tác động của gene editing đã được xác định hay chưa.",
+      "fix": {
+        "sentence": "_____ the impact of gene editing on future generations is already well‑established, policymakers are reluctant to legislate without further data.",
+        "options": [
+          "It remains to be seen whether",
+          "It is evident that",
+          "It is a moot point whether",
+          "It is clear that"
+        ],
+        "answer": "It is a moot point whether"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Không có dữ liệu nào trong câu để loại trừ các lựa chọn khác; “It remains to be seen whether” và “It is a moot point whether” đều có thể được dùng vì không biết lợi ích có vượt rủi ro hay không.",
+      "fix": {
+        "sentence": "_____ the benefits of neuroenhancement outweigh the risks, given the current lack of conclusive evidence, the scientific community continues rigorous trials.",
+        "options": [
+          "It is obvious that",
+          "It is a moot point whether",
+          "It remains to be seen whether",
+          "It seems that"
+        ],
+        "answer": "It remains to be seen whether"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu không chỉ ra tại sao quan niệm về mô phỏng ý thức là “một vấn đề không đáng quan tâm”, vì vậy cả “It is a moot point whether” và “It appears that” đều có thể chấp nhận được.",
+      "fix": {
+        "sentence": "_____ the notion that consciousness can be fully simulated has already been disproven, philosophers argue that subjective experience may elude computational models.",
+        "options": [
+          "It is undeniable that",
+          "It is a moot point whether",
+          "It remains to be seen whether",
+          "It appears that"
+        ],
+        "answer": "It is a moot point whether"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Không có thông tin nào cho biết hậu quả sinh thái của nanotech là chưa biết hay đã biết, vì vậy cả “It remains to be seen whether” và “It is evident that” đều có thể đúng.",
+      "fix": {
+        "sentence": "_____ the long‑term ecological consequences of nanotechnology are still unknown, environmentalists call for precautionary regulations.",
+        "options": [
+          "It is a moot point whether",
+          "It is evident that",
+          "It remains to be seen whether",
+          "It appears that"
+        ],
+        "answer": "It remains to be seen whether"
+      }
+    }
+  ],
+  "b3-t60": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có hai đáp án đúng hợp lý: \"therefore\" và \"consequently\" đều diễn tả quan hệ nguyên nhân‑kết quả giữa việc ủy ban phê duyệt và việc triển khai sẽ bắt đầu.",
+      "fix": {
+        "sentence": "The committee approved the proposal; _____, the implementation will begin next month, as a direct logical consequence of the approval.",
+        "options": [
+          "however",
+          "therefore",
+          "meanwhile",
+          "consequently"
+        ],
+        "answer": "therefore"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Hai đáp án \"consequently\" và \"in particular\" đều có thể hợp lý cho câu, vì cả hai đều có thể nối hai mệnh đề được đưa ra.",
+      "fix": {
+        "sentence": "The novel explores themes of identity; _____, the protagonist's journey reflects broader societal tensions as a direct result of those themes.",
+        "options": [
+          "similarly",
+          "consequently",
+          "additionally",
+          "in particular"
+        ],
+        "answer": "consequently"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Hai đáp án \"subsequently\" và \"therefore\" đều có thể chấp nhận được vì câu chỉ mô tả một chuỗi thời gian, không nhất thiết là một kết luận logic.",
+      "fix": {
+        "sentence": "The treaty was signed in 1992; _____, it entered into force in 1995 after the required ratification period was completed.",
+        "options": [
+          "subsequently",
+          "however",
+          "therefore",
+          "meanwhile"
+        ],
+        "answer": "subsequently"
+      }
+    },
+    {
+      "exercise": "ex2_scramble",
+      "item_id": 3,
+      "problem": "Có hơn một cách sắp xếp các từ cho ra câu đúng ngữ pháp (ví dụ: \"In technology ethics are crucial today\").",
+      "fix": {
+        "words": [
+          "Ethics",
+          "in",
+          "technology",
+          "are",
+          "crucial",
+          "today"
+        ],
+        "answer": "Ethics in technology are crucial today"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Hai liên từ \"however\" và \"nevertheless\" đều có thể điền vào chỗ trống vì cả hai đều biểu thị sự tương phản giữa việc chỉ trích và việc chính phủ bảo vệ lập trường.",
+      "fix": {
+        "sentence": "The policy was widely criticized; _____, the government defended its stance, emphasizing its legal basis.",
+        "answer": "however"
+      }
+    }
+  ],
+  "b3-t29": "__error__",
+  "b3-t37": "__error__",
+  "b3-t38": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có hai đáp án đúng về thời điểm hành động (who had prepared … vs who prepared …) vì không có thông tin nào buộc phải dùng quá khứ hoàn thành.",
+      "fix": {
+        "sentence": "Although the conference was postponed, the organizers, _____, decided to release the preliminary findings online.",
+        "options": [
+          "which had prepared the reports",
+          "who had prepared the reports",
+          "who will prepare the reports",
+          "that had prepared the reports"
+        ],
+        "answer": "who had prepared the reports"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Hai đại từ quan hệ “who” và “which” đều có thể dùng cho “schools”, nên có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "If the policy is implemented, schools, _____, will need to revise their curricula accordingly.",
+        "options": [
+          "that have limited resources",
+          "which have limited resources",
+          "that with limited resources",
+          "which with limited resources"
+        ],
+        "answer": "which have limited resources"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu cho phép cả thì hiện tại hoàn thành và quá khứ đơn (who have published … vs who published …) vì không có yếu tố thời gian ràng buộc.",
+      "fix": {
+        "sentence": "While many scholars dismiss the hypothesis, a growing number of researchers, _____, argue that the data warrants further investigation.",
+        "options": [
+          "which have published recent studies",
+          "who have published recent studies",
+          "that have published recent studies",
+          "who will publish recent studies"
+        ],
+        "answer": "who have published recent studies"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Hai dạng thì “which have previously been hostile” và “which had previously been hostile” đều hợp lý vì không có chỉ dẫn thời gian rõ ràng.",
+      "fix": {
+        "sentence": "Because the treaty was signed, the neighboring countries, _____, began negotiations on trade agreements.",
+        "options": [
+          "which had previously been hostile",
+          "which have previously been hostile",
+          "that had previously been hostile",
+          "who had previously been hostile"
+        ],
+        "answer": "which had previously been hostile"
+      }
+    }
+  ],
+  "b3-t39": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu có nhiều đáp án đúng vì không có thông tin xác định để loại trừ các lựa chọn khác.",
+      "fix": {
+        "sentence": "The government's new regulation, _____, has been met with protests, even though it offers many benefits.",
+        "options": [
+          "despite its benefits",
+          "contrasting with previous policies",
+          "because it is strict",
+          "in order to simplify"
+        ],
+        "answer": "despite its benefits"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "Câu có nhiều đáp án đúng vì không có thông tin xác định để loại trừ các lựa chọn khác.",
+      "fix": {
+        "sentence": "The professor, _____, continued his lecture on epistemology, despite the loud noise in the hallway.",
+        "options": [
+          "while checking his notes",
+          "despite the noise",
+          "conceding the students' doubts",
+          "because he was late"
+        ],
+        "answer": "despite the noise"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 3,
+      "problem": "Câu có nhiều đáp án đúng vì không có thông tin xác định để loại trừ các lựa chọn khác.",
+      "fix": {
+        "sentence": "The treaty, _____, was signed by both parties, despite strong opposition from several member states.",
+        "options": [
+          "contrasting with earlier drafts",
+          "because it was necessary",
+          "while the negotiations stalled",
+          "despite the opposition"
+        ],
+        "answer": "despite the opposition"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu có nhiều đáp án đúng vì không có thông tin xác định để loại trừ các lựa chọn khác.",
+      "fix": {
+        "sentence": "The activist, _____, addressed the crowd about climate change, despite the heavy rain.",
+        "options": [
+          "conceding the government's inaction",
+          "because she was angry",
+          "while holding a microphone",
+          "despite the rain"
+        ],
+        "answer": "despite the rain"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Câu có nhiều đáp án đúng vì không có thông tin xác định để loại trừ các lựa chọn khác.",
+      "fix": {
+        "sentence": "The novel, _____, explores themes of identity, despite its considerable length.",
+        "options": [
+          "while being translated",
+          "contrasting with the author's previous work",
+          "because it is popular",
+          "despite its length"
+        ],
+        "answer": "despite its length"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu có nhiều đáp án đúng vì không có thông tin xác định để loại trừ các từ trong ngân hàng.",
+      "fix": {
+        "sentence": "_____ the fierce opposition, the committee approved the reform.",
+        "answer": "Acknowledging"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu có nhiều đáp án đúng vì không có thông tin xác định để loại trừ các từ trong ngân hàng.",
+      "fix": {
+        "sentence": "_____ the prevailing assumptions, the researcher proposed an alternative model.",
+        "answer": "Contrasting"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu có nhiều đáp án đúng vì không có thông tin xác định để loại trừ các từ trong ngân hàng.",
+      "fix": {
+        "sentence": "_____ the limited data, the analyst still drew a confident conclusion.",
+        "answer": "Considering"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 4,
+      "problem": "Câu có nhiều đáp án đúng vì không có thông tin xác định để loại trừ các từ trong ngân hàng.",
+      "fix": {
+        "sentence": "_____ the traditional methodology, the experiment employed a novel technique.",
+        "answer": "Contrasting"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 5,
+      "problem": "Câu có nhiều đáp án đúng vì không có thông tin xác định để loại trừ các từ trong ngân hàng.",
+      "fix": {
+        "sentence": "_____ the potential risks, the venture capitalists invested heavily.",
+        "answer": "Ignoring"
+      }
+    }
+  ],
+  "b3-t30": "__error__",
+  "b3-t40": "__error__",
+  "b3-t31": "__error__",
+  "b3-t41": "__error__",
+  "b3-t42": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu không chỉ rõ thời gian, vì vậy cả “is reviewed” (hiện tại) và “was reviewed” (quá khứ) đều hợp lý.",
+      "fix": {
+        "sentence": "The manuscript _____ (review) by three independent scholars before publication last year.",
+        "options": [
+          "is reviewed",
+          "were reviewed",
+          "was reviewed",
+          "are reviewed"
+        ],
+        "answer": "was reviewed"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 2,
+      "problem": "“All the raw data” có thể hiểu là danh từ số nhiều hoặc danh từ tập thể, nên cả “are stored” và “is stored” đều có thể chấp nhận được.",
+      "fix": {
+        "sentence": "All the raw data sets _____ (store) in a secure cloud server.",
+        "options": [
+          "are stored",
+          "was stored",
+          "is stored",
+          "were stored"
+        ],
+        "answer": "are stored"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Không có chỉ định thời gian, vì vậy cả “are interpreted” (hiện tại) và “were interpreted” (quá khứ) đều có thể đúng.",
+      "fix": {
+        "sentence": "These findings _____ (interpret) cautiously in the current analysis due to limited sample size.",
+        "options": [
+          "are interpreted",
+          "is interpreted",
+          "were interpreted",
+          "was interpreted"
+        ],
+        "answer": "are interpreted"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 5,
+      "problem": "Cụm “starting next month” có thể được diễn đạt bằng hiện tại đơn (is enforced) cho kế hoạch, nên “will be enforced” và “is enforced” đều có khả năng đúng.",
+      "fix": {
+        "sentence": "The new policy _____ (enforce) across all campuses, and this will take effect starting next month.",
+        "options": [
+          "will be enforced",
+          "is enforced",
+          "was enforced",
+          "are enforced"
+        ],
+        "answer": "will be enforced"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 1,
+      "problem": "Câu cho phép cả “implemented” và “designed” vì cả hai đều có thể đi với “last year to address emerging fields”.",
+      "fix": {
+        "sentence": "The new curriculum was _____ last year to address emerging fields, after being designed the previous year.",
+        "answer": "implemented"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu cho phép “designed” và “implemented” vì cả hai đều có thể dùng để chỉ mục đích hướng dẫn quy trình đánh giá.",
+      "fix": {
+        "sentence": "A comprehensive framework was _____ to guide the assessment process, before any implementation took place.",
+        "answer": "designed"
+      }
+    }
+  ],
+  "b3-t32": "__error__",
+  "b3-t43": "__error__",
+  "b3-t33": "__error__",
+  "b3-t34": [
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 1,
+      "problem": "Câu này cho phép cả \"who\" và \"whom\" vì động từ \"consulted\" có thể đi với cả hai đại từ; do đó có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "The psychologist, _____ I spoke to last year, specializes in memory disorders.",
+        "options": [
+          "who",
+          "whom",
+          "which",
+          "whose"
+        ],
+        "answer": "whom"
+      }
+    },
+    {
+      "exercise": "ex1_mcq",
+      "item_id": 4,
+      "problem": "Câu này cho phép cả \"who\" và \"whom\" vì động từ \"interviewed\" có thể đi với cả hai đại từ; do đó có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "The participants, _____ we spoke to, provided valuable data.",
+        "options": [
+          "who",
+          "whom",
+          "which",
+          "whose"
+        ],
+        "answer": "whom"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 2,
+      "problem": "Câu này cho phép cả \"who\" và \"whom\" vì động từ \"consulted\" có thể đi với cả hai đại từ; do đó có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "The mentor, _____ I spoke to frequently, gave me valuable advice.",
+        "answer": "whom"
+      }
+    },
+    {
+      "exercise": "ex3_gap_fill",
+      "item_id": 3,
+      "problem": "Câu này cho phép cả \"whose\" và \"of which\" vì danh từ \"findings\" có thể đi kèm với cả hai cách sở hữu; do đó có hơn một đáp án đúng.",
+      "fix": {
+        "sentence": "The study, _____ methodology was published last year, attracted attention.",
+        "answer": "whose"
+      }
+    }
+  ],
+  "b3-t44": "__error__",
+  "b3-t35": "__error__",
+  "b3-t36": "__error__"
+}

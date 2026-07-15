@@ -762,29 +762,29 @@
         },
         {
           "id": 2,
-          "sentence": "Researchers argue that _____ can mitigate the effects of parental divorce.",
+          "sentence": "Researchers argue that _____ can mitigate the effects of parental divorce in jurisdictions with comprehensive family law.",
           "options": [
             "strong kinship ties",
             "the rapid dissolution",
             "the traditional hierarchy",
             "the legal framework"
           ],
-          "answer": "strong kinship ties"
+          "answer": "the legal framework"
         },
         {
           "id": 3,
-          "sentence": "Policy makers are concerned about the impact of _____ on children's mental health.",
+          "sentence": "Policy makers are concerned about the impact of _____ on children's mental health in societies with increasing divorce rates.",
           "options": [
             "fragmented family structures",
             "the rise of reconstituted families",
             "the dominant social unit",
             "the extended kinship network"
           ],
-          "answer": "fragmented family structures"
+          "answer": "the rise of reconstituted families"
         },
         {
           "id": 4,
-          "sentence": "Many sociologists view _____ as a sign of societal adaptation.",
+          "sentence": "Many sociologists view _____ as a sign of societal adaptation in contemporary urban contexts.",
           "options": [
             "the emergence of cohabitation arrangements",
             "the decline of traditional values",
@@ -795,7 +795,7 @@
         },
         {
           "id": 5,
-          "sentence": "Support services aim to address the challenges posed by _____.",
+          "sentence": "Support services aim to address the challenges posed by _____, particularly in high‑conflict divorces.",
           "options": [
             "economic hardship",
             "the complexity of custody disputes",
@@ -867,7 +867,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The _____ family model is still prevalent in many rural areas.",
+          "sentence": "The _____ family model, characterized by a married couple and their children, is still prevalent in many rural areas.",
           "answer": "traditional"
         },
         {
@@ -877,12 +877,12 @@
         },
         {
           "id": 3,
-          "sentence": "An _____ network can offer emotional support during crises.",
+          "sentence": "An _____ network of distant relatives can offer emotional support during crises.",
           "answer": "extended"
         },
         {
           "id": 4,
-          "sentence": "The _____ family, consisting of two parents and their children, is often idealised in media.",
+          "sentence": "The _____ family, consisting of a married couple and their biological children, is often idealised in media.",
           "answer": "nuclear"
         },
         {

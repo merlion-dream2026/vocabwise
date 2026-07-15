@@ -772,14 +772,14 @@
         },
         {
           "id": 3,
-          "sentence": "The city’s _____ infrastructure struggled to keep up with the influx of migrants.",
+          "sentence": "The city’s _____ infrastructure, which was unable to adapt quickly, struggled to keep up with the influx of migrants.",
           "options": [
             "fast‑changing",
             "well‑established",
             "slow‑moving",
             "well‑known"
           ],
-          "answer": "fast‑changing"
+          "answer": "slow‑moving"
         },
         {
           "id": 4,
@@ -794,7 +794,7 @@
         },
         {
           "id": 5,
-          "sentence": "The policy was criticized for being too _____, lacking clear direction.",
+          "sentence": "The policy was criticized for being too _____, causing delays and confusion.",
           "options": [
             "fast‑paced",
             "well‑established",
@@ -823,15 +823,16 @@
         {
           "id": 2,
           "words": [
+            "The",
             "well‑established",
             "practice",
             "of",
             "peer",
             "review",
             "remains",
-            "The"
+            "crucial"
           ],
-          "answer": "The well‑established practice of peer review remains"
+          "answer": "The well‑established practice of peer review remains crucial"
         },
         {
           "id": 3,
@@ -861,12 +862,12 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The conference highlighted a _____ framework for sustainable development.",
+          "sentence": "The conference highlighted a _____ framework for sustainable development, recognized for its longevity.",
           "answer": "well‑established"
         },
         {
           "id": 2,
-          "sentence": "Researchers noted that the field is becoming increasingly _____ due to rapid technological advances.",
+          "sentence": "Researchers noted that the field is becoming increasingly _____ due to rapid technological advances in methodology.",
           "answer": "fast‑changing"
         },
         {

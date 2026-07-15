@@ -701,7 +701,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The committee approved the proposal; _____, the implementation will begin next month.",
+          "sentence": "The committee approved the proposal; _____, the implementation will begin next month, as a direct logical consequence of the approval.",
           "options": [
             "however",
             "therefore",
@@ -723,7 +723,7 @@
         },
         {
           "id": 3,
-          "sentence": "The novel explores themes of identity; _____, the protagonist's journey reflects broader societal tensions.",
+          "sentence": "The novel explores themes of identity; _____, the protagonist's journey reflects broader societal tensions as a direct result of those themes.",
           "options": [
             "similarly",
             "consequently",
@@ -745,7 +745,7 @@
         },
         {
           "id": 5,
-          "sentence": "The treaty was signed in 1992; _____, it entered into force in 1995.",
+          "sentence": "The treaty was signed in 1992; _____, it entered into force in 1995 after the required ratification period was completed.",
           "options": [
             "subsequently",
             "however",
@@ -810,7 +810,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The policy was widely criticized; _____, the government defended its stance.",
+          "sentence": "The policy was widely criticized; _____, the government defended its stance, emphasizing its legal basis.",
           "answer": "however"
         },
         {

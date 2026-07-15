@@ -718,7 +718,7 @@
         },
         {
           "id": 2,
-          "sentence": "The new policy's _____ the mental health of adolescents is still being evaluated.",
+          "sentence": "The new policy's _____ the mental health of adolescents, rather than its intent, is still being evaluated.",
           "options": [
             "belief in",
             "focus on",
@@ -839,7 +839,7 @@
         },
         {
           "id": 5,
-          "sentence": "The report emphasizes the need to _____ evidence when forming conclusions.",
+          "sentence": "The report emphasizes the need to _____ evidence when forming conclusions, as opposed to relying on intuition.",
           "answer": "rely on"
         }
       ]

@@ -695,14 +695,14 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The researcher presented data _____ revealed a significant trend.",
+          "sentence": "The researcher presented data, _____ revealed a significant trend.",
           "options": [
             "which",
             "who",
             "when",
             "that"
           ],
-          "answer": "that"
+          "answer": "which"
         },
         {
           "id": 2,
@@ -717,7 +717,7 @@
         },
         {
           "id": 3,
-          "sentence": "The committee approved the proposal, _____ the budget was increased.",
+          "sentence": "The committee approved the proposal, _____ the budget was increased as a result.",
           "options": [
             "but",
             "although",

@@ -705,7 +705,7 @@
         },
         {
           "id": 2,
-          "sentence": "Critics argue that the current _____ is unsustainable and will lead to higher taxes.",
+          "sentence": "Critics argue that the current _____, characterized by large deficits, is unsustainable and will lead to higher taxes.",
           "options": [
             "market forces",
             "fiscal policy",
@@ -769,17 +769,18 @@
         {
           "id": 2,
           "words": [
-            "policy",
+            "tightening",
+            "of",
             "monetary",
-            "higher",
-            "inflationary",
+            "policy",
+            "often",
             "leads",
             "to",
-            "tightening",
-            "often",
+            "higher",
+            "inflationary",
             "pressure"
           ],
-          "answer": "Tightening monetary policy often leads to higher inflationary pressure"
+          "answer": "Tightening of monetary policy often leads to higher inflationary pressure"
         },
         {
           "id": 3,
@@ -814,8 +815,8 @@
         },
         {
           "id": 2,
-          "sentence": "The committee recommended a revision of the _____ to reduce the national debt.",
-          "answer": "fiscal policy"
+          "sentence": "The committee recommended a revision of the _____ tax code to reduce the national debt.",
+          "answer": "taxation"
         },
         {
           "id": 3,

@@ -699,47 +699,47 @@
         },
         {
           "id": 2,
-          "sentence": "_____ that the artist's work reflects consumer anxieties, critics have praised the exhibition.",
+          "sentence": "_____ last year that the artist's work reflects consumer anxieties, critics have praised the exhibition.",
           "options": [
             "It has been argued",
             "It is argued",
             "It was argued",
             "It has argued"
           ],
-          "answer": "It has been argued"
+          "answer": "It was argued"
         },
         {
           "id": 3,
-          "sentence": "_____ that the algorithm manipulates user preferences, researchers called for stricter regulations.",
+          "sentence": "_____ in 2023 that the algorithm manipulates user preferences, researchers called for stricter regulations.",
           "options": [
             "It is claimed",
             "It has been claimed",
             "It claims",
             "It was claimed"
           ],
-          "answer": "It has been claimed"
+          "answer": "It was claimed"
         },
         {
           "id": 4,
-          "sentence": "_____ that the brand's messaging exploits emotional triggers, the advertising standards authority issued a warning.",
+          "sentence": "_____ in a recent report that the brand's messaging exploits emotional triggers, the advertising standards authority issued a warning.",
           "options": [
             "It is suggested",
             "It has been suggested",
             "It suggested",
             "It was suggested"
           ],
-          "answer": "It has been suggested"
+          "answer": "It was suggested"
         },
         {
           "id": 5,
-          "sentence": "_____ that the market will shift towards sustainable products, investors are adjusting their portfolios.",
+          "sentence": "_____ last quarter that the market will shift towards sustainable products, investors are adjusting their portfolios.",
           "options": [
             "It is expected",
             "It has expected",
             "It was expected",
             "It has been expected"
           ],
-          "answer": "It is expected"
+          "answer": "It was expected"
         }
       ]
     },
@@ -807,27 +807,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ that the rise of fast fashion contributes to environmental degradation, NGOs have launched campaigns.",
+          "sentence": "_____ currently that the rise of fast fashion contributes to environmental degradation, NGOs have launched campaigns.",
           "answer": "is believed"
         },
         {
           "id": 2,
-          "sentence": "_____ that advertising manipulates subconscious desires, psychologists warn about long‑term effects.",
+          "sentence": "_____ recently that advertising manipulates subconscious desires, psychologists warn about long‑term effects.",
           "answer": "has been argued"
         },
         {
           "id": 3,
-          "sentence": "_____ that the government will subsidize repair workshops, consumers are hopeful.",
+          "sentence": "_____ currently that the government will subsidize repair workshops, consumers are hopeful.",
           "answer": "is thought"
         },
         {
           "id": 4,
-          "sentence": "_____ that the brand's slogan exploits cultural symbols, activists filed complaints.",
+          "sentence": "_____ in a lawsuit that the brand's slogan exploits cultural symbols, activists filed complaints.",
           "answer": "has been claimed"
         },
         {
           "id": 5,
-          "sentence": "_____ that stricter labeling laws could improve transparency, industry leaders remain skeptical.",
+          "sentence": "_____ as a recommendation that stricter labeling laws could improve transparency, industry leaders remain skeptical.",
           "answer": "has been suggested"
         }
       ]

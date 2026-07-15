@@ -825,12 +825,12 @@
         },
         {
           "id": 2,
-          "sentence": "She wishes she had _______ a less demanding role.",
+          "sentence": "She wishes she had _______ a less demanding role as her selection.",
           "answer": "chosen"
         },
         {
           "id": 3,
-          "sentence": "If only they had _______ flexible working hours, burnout rates would drop.",
+          "sentence": "If only they had _______ flexible working hours as an implemented measure, burnout rates would drop.",
           "answer": "implemented"
         },
         {
@@ -840,7 +840,7 @@
         },
         {
           "id": 5,
-          "sentence": "If only the management had _______ clearer policies on overtime, staff would feel protected.",
+          "sentence": "If only the management had _______ clearer policies on overtime as an implemented measure, staff would feel protected.",
           "answer": "implemented"
         }
       ]

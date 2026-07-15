@@ -762,32 +762,37 @@
         {
           "id": 2,
           "words": [
-            "promptly",
-            "be",
-            "report",
-            "that",
-            "demanded",
+            "The",
             "committee",
+            "demanded",
+            "that",
             "the",
+            "report",
+            "be",
             "revised",
-            "The"
+            "in",
+            "a",
+            "timely",
+            "manner"
           ],
-          "answer": "The committee demanded that the report be revised promptly"
+          "answer": "The committee demanded that the report be revised in a timely manner"
         },
         {
           "id": 3,
           "words": [
-            "applied",
-            "be",
-            "laws",
-            "that",
-            "stipulates",
+            "The",
             "constitution",
+            "stipulates",
+            "that",
             "all",
-            "equally",
-            "the"
+            "laws",
+            "be",
+            "applied",
+            "in",
+            "equal",
+            "measure"
           ],
-          "answer": "The constitution stipulates that all laws be applied equally"
+          "answer": "The constitution stipulates that all laws be applied in equal measure"
         }
       ]
     },

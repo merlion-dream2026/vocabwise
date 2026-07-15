@@ -689,18 +689,18 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The new policy _____ reduce stigma around mental health.",
+          "sentence": "The new policy _____ reduce stigma around mental health, but evidence so far is limited.",
           "options": [
             "could",
             "may",
             "tend",
             "might"
           ],
-          "answer": "may"
+          "answer": "might"
         },
         {
           "id": 2,
-          "sentence": "Researchers _____ have found a link between social media use and anxiety.",
+          "sentence": "Researchers _____ have found a link between social media use and anxiety, according to the preliminary study.",
           "options": [
             "appear",
             "might",
@@ -711,29 +711,29 @@
         },
         {
           "id": 3,
-          "sentence": "Community programmes _____ appear to improve wellbeing in underserved areas.",
+          "sentence": "Community programmes _____ appear to improve wellbeing in underserved areas, although the results are tentative.",
           "options": [
             "might",
             "could",
             "may",
             "tend"
           ],
-          "answer": "could"
+          "answer": "might"
         },
         {
           "id": 4,
-          "sentence": "Students _____ tend to avoid seeking help if they fear judgment.",
+          "sentence": "Students _____ tend to avoid seeking help if they fear judgment, as observed in a small sample.",
           "options": [
             "might",
             "appear",
             "may",
             "could"
           ],
-          "answer": "may"
+          "answer": "might"
         },
         {
           "id": 5,
-          "sentence": "Experts _____ suggest that early intervention could prevent more severe disorders.",
+          "sentence": "Experts _____ suggest that early intervention could prevent more severe disorders, based on early indications.",
           "options": [
             "appear",
             "might",
@@ -806,28 +806,28 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The organization _____ launch a public campaign next month.",
+          "sentence": "The organization _____ launch a public campaign next month, pending final approval.",
           "answer": "may"
         },
         {
           "id": 2,
-          "sentence": "These findings _____ suggest a correlation between stress and sleep quality.",
+          "sentence": "These findings _____ suggest a correlation between stress and sleep quality, but further research is needed.",
           "answer": "might"
         },
         {
           "id": 3,
-          "sentence": "Such interventions _____ appear to reduce stigma over time.",
-          "answer": "appear"
+          "sentence": "Such interventions _____ appear to reduce stigma over time, according to early observations.",
+          "answer": "might"
         },
         {
           "id": 4,
-          "sentence": "Individuals _____ tend to ignore their own mental health needs when busy.",
-          "answer": "tend"
+          "sentence": "Individuals _____ tend to ignore their own mental health needs when busy, as shown in recent surveys.",
+          "answer": "might"
         },
         {
           "id": 5,
-          "sentence": "Policymakers _____ consider allocating more funds to community clinics.",
-          "answer": "could"
+          "sentence": "Policymakers _____ consider allocating more funds to community clinics, as recommended by the health board.",
+          "answer": "should"
         }
       ]
     },

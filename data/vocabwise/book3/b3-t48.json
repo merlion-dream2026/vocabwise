@@ -696,7 +696,7 @@
         },
         {
           "id": 2,
-          "sentence": "Researchers argue that the benefits of standardized testing should be accepted _____.",
+          "sentence": "Researchers argue that the benefits of standardized testing should be accepted _____, given the mixed evidence.",
           "options": [
             "unconditionally",
             "with some reservations",
@@ -718,7 +718,7 @@
         },
         {
           "id": 4,
-          "sentence": "While the theory is compelling, scholars receive it _____.",
+          "sentence": "While the theory is compelling, scholars receive it _____, acknowledging minor flaws.",
           "options": [
             "indifferently",
             "with some reservations",
@@ -746,29 +746,29 @@
         {
           "id": 1,
           "words": [
-            "to",
-            "some",
-            "extent",
             "the",
             "effects",
             "are",
-            "observable"
+            "observable",
+            "to",
+            "some",
+            "extent"
           ],
-          "answer": "to some extent the effects are observable"
+          "answer": "the effects are observable to some extent"
         },
         {
           "id": 2,
           "words": [
-            "with",
-            "some",
-            "reservations",
             "the",
             "committee",
             "approved",
             "the",
-            "proposal"
+            "proposal",
+            "with",
+            "some",
+            "reservations"
           ],
-          "answer": "with some reservations the committee approved the proposal"
+          "answer": "the committee approved the proposal with some reservations"
         },
         {
           "id": 3,
@@ -776,13 +776,13 @@
             "the",
             "findings",
             "suggest",
+            "a",
+            "shift",
             "to",
             "some",
-            "extent",
-            "a",
-            "shift"
+            "extent"
           ],
-          "answer": "the findings suggest to some extent a shift"
+          "answer": "the findings suggest a shift to some extent"
         }
       ]
     },
@@ -799,27 +799,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The author acknowledges that the theory holds _____.",
+          "sentence": "The author acknowledges that the theory holds _____, in terms of its scope.",
           "answer": "to some extent"
         },
         {
           "id": 2,
-          "sentence": "The panel accepted the proposal _____.",
+          "sentence": "The panel accepted the proposal _____, noting several minor concerns.",
           "answer": "with some reservations"
         },
         {
           "id": 3,
-          "sentence": "The results indicate the hypothesis is valid _____.",
+          "sentence": "The results indicate the hypothesis is valid _____, in terms of statistical significance.",
           "answer": "to a certain degree"
         },
         {
           "id": 4,
-          "sentence": "The policy may reduce emissions _____, but not eliminate them.",
+          "sentence": "The policy may reduce emissions _____, given current technology, but not eliminate them.",
           "answer": "to a limited extent"
         },
         {
           "id": 5,
-          "sentence": "The committee approved the plan _____, pending further review.",
+          "sentence": "The committee approved the plan _____, due to unresolved issues, pending further review.",
           "answer": "with reservations"
         }
       ]

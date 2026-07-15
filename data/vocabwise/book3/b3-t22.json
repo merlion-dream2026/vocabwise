@@ -699,7 +699,7 @@
         },
         {
           "id": 2,
-          "sentence": "The dataset _____ (be) cleaned before training the model.",
+          "sentence": "The dataset _____ (be) cleaned right now before training the model.",
           "options": [
             "might have been",
             "will have been",
@@ -710,18 +710,18 @@
         },
         {
           "id": 3,
-          "sentence": "Several ethical concerns _____ (be) raised during the conference.",
+          "sentence": "Several ethical concerns _____ (be) raised right now during the conference.",
           "options": [
             "are being",
             "will have been",
             "has been",
             "might have been"
           ],
-          "answer": "might have been"
+          "answer": "are being"
         },
         {
           "id": 4,
-          "sentence": "All user data _____ (be) anonymized to protect privacy.",
+          "sentence": "All user data _____ (be) anonymized right now to protect privacy.",
           "options": [
             "might have been",
             "will have been",
@@ -732,14 +732,14 @@
         },
         {
           "id": 5,
-          "sentence": "The original code _____ (be) rewritten after the security audit.",
+          "sentence": "The original code _____ (be) rewritten already after the security audit.",
           "options": [
             "has been",
             "might have been",
             "will have been",
             "are being"
           ],
-          "answer": "might have been"
+          "answer": "has been"
         }
       ]
     },
@@ -808,8 +808,8 @@
         },
         {
           "id": 2,
-          "sentence": "The transparency report _____ released tomorrow.",
-          "answer": "will have been"
+          "sentence": "The transparency report _____ released today.",
+          "answer": "is being"
         },
         {
           "id": 3,
@@ -823,7 +823,7 @@
         },
         {
           "id": 5,
-          "sentence": "The historical data _____ used to train the system.",
+          "sentence": "The historical dataset _____ used to train the system.",
           "answer": "is being"
         }
       ]

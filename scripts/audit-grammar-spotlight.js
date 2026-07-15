@@ -11,7 +11,7 @@
 //   node scripts/audit-grammar-spotlight.js --book 1 --topic 4      → single topic (re-check after a fix)
 //   node scripts/audit-grammar-spotlight.js --book 1 --apply        → apply validated fixes from report to JSON
 //
-// Requires env: CEREBRAS_API_KEY
+// Requires env: CEREBRAS_API_KEY and/or GROQ_API_KEY (select with --provider)
 // ═══════════════════════════════════════════════════════════════════════════
 
 const fs   = require('fs')
@@ -19,16 +19,23 @@ const path = require('path')
 
 try { require('dotenv').config({ path: '.env.local' }) } catch {}
 
-const API_KEY  = process.env.CEREBRAS_API_KEY
-const API_BASE = 'https://api.cerebras.ai/v1'
-const MODEL    = 'gpt-oss-120b'
+const args      = process.argv.slice(2)
+const provider  = args.includes('--provider') ? args[args.indexOf('--provider') + 1] : 'cerebras'
+
+const PROVIDERS = {
+  cerebras: { key: process.env.CEREBRAS_API_KEY, base: 'https://api.cerebras.ai/v1', model: 'gpt-oss-120b' },
+  groq:     { key: process.env.GROQ_API_KEY,     base: 'https://api.groq.com/openai/v1', model: 'openai/gpt-oss-120b' },
+}
+if (!PROVIDERS[provider]) { console.error(`Unknown --provider "${provider}" (use cerebras or groq)`); process.exit(1) }
+const { key: API_KEY, base: API_BASE, model: MODEL } = PROVIDERS[provider]
 const DELAY_MS = 10000
 
-if (!API_KEY) { console.error('Missing CEREBRAS_API_KEY'); process.exit(1) }
+if (!API_KEY) { console.error(`Missing API key for provider "${provider}"`); process.exit(1) }
 
-const args     = process.argv.slice(2)
 const bookArg  = args.includes('--book')  ? args[args.indexOf('--book')  + 1] : null
 const topicArg = args.includes('--topic') ? args[args.indexOf('--topic') + 1] : null
+const fromArg  = args.includes('--from')  ? parseInt(args[args.indexOf('--from')  + 1]) : null
+const toArg    = args.includes('--to')    ? parseInt(args[args.indexOf('--to')    + 1]) : null
 const apply    = args.includes('--apply')
 
 if (!bookArg) { console.error('Usage: node audit-grammar-spotlight.js --book 1 [--topic 4] [--apply]'); process.exit(1) }
@@ -100,7 +107,7 @@ async function callAPI(prompt, retries = 4) {
         model: MODEL,
         messages: [{ role: 'user', content: prompt }],
         temperature: 0.1,
-        max_tokens: 6000,
+        max_tokens: 9000,
       }),
     })
     if (res.status === 429) {
@@ -109,7 +116,7 @@ async function callAPI(prompt, retries = 4) {
       await sleep(wait)
       continue
     }
-    if (!res.ok) throw new Error(`Cerebras ${res.status}: ${await res.text()}`)
+    if (!res.ok) throw new Error(`${provider} ${res.status}: ${await res.text()}`)
     const data = await res.json()
     const content = data.choices?.[0]?.message?.content
     if (!content) {
@@ -172,6 +179,8 @@ function validateIssue(issue, gs) {
   } else if (exercise === 'ex2_scramble') {
     if (!Array.isArray(fix.words) || fix.words.length < 2 || fix.words.some(w => typeof w !== 'string' || !w.trim())) return 'ex2_scramble fix.words invalid'
     if (typeof fix.answer !== 'string' || !fix.answer.trim()) return 'ex2_scramble fix.answer invalid'
+    const charBag = s => s.toLowerCase().replace(/[^a-z0-9]/g, '').split('').sort().join('')
+    if (charBag(fix.words.join('')) !== charBag(fix.answer)) return 'ex2_scramble words/answer mismatch (tiles cannot reconstruct the answer)'
   } else if (exercise === 'ex3_gap_fill') {
     if (needsBlank && typeof fix.sentence === 'string' && !fix.sentence.includes('_____')) {
       fix.sentence = reinsertBlank(fix.sentence, fix.answer)
@@ -228,15 +237,27 @@ async function runAudit() {
     const padded = topicArg.padStart(2, '0')
     topics = topics.filter(id => id === `b${bookNum}-t${padded}`)
   }
+  if (fromArg != null || toArg != null) {
+    topics = topics.filter(id => {
+      const n = parseInt(id.match(/-t(\d+)$/)[1])
+      return (fromArg == null || n >= fromArg) && (toArg == null || n <= toArg)
+    })
+  }
 
-  console.log(`\n🔍 Audit Grammar Spotlight — Book ${bookNum} (${topics.length} topics, cerebras gpt-oss-120b)`)
+  console.log(`\n🔍 Audit Grammar Spotlight — Book ${bookNum} (${topics.length} topics, ${provider} ${MODEL})`)
   console.log('─'.repeat(50))
 
-  const report = fs.existsSync(REPORT_PATH) ? JSON.parse(fs.readFileSync(REPORT_PATH, 'utf-8')) : {}
+  const readReport = () => fs.existsSync(REPORT_PATH) ? JSON.parse(fs.readFileSync(REPORT_PATH, 'utf-8')) : {}
+  let report = readReport()
 
-  const writeReport = () => {
+  // Re-reads the file fresh and overlays only THIS topic's result — safe when a second
+  // process (e.g. a different --provider) is concurrently writing other topics.
+  const writeOne = (id, value) => {
     fs.mkdirSync(REPORT_DIR, { recursive: true })
-    fs.writeFileSync(REPORT_PATH, JSON.stringify(report, null, 2), 'utf-8')
+    const fresh = readReport()
+    fresh[id] = value
+    fs.writeFileSync(REPORT_PATH, JSON.stringify(fresh, null, 2), 'utf-8')
+    return fresh
   }
 
   let skipped = 0
@@ -244,12 +265,12 @@ async function runAudit() {
     if (!force && report[id] && report[id] !== '__error__') { skipped++; continue }
     console.log(`\n[${id}]`)
     const result = await auditTopic(id)
-    report[id] = result.failed ? '__error__' : result.issues
-    writeReport() // incremental — survives interruption/crash
+    report = writeOne(id, result.failed ? '__error__' : result.issues) // incremental — survives interruption/crash, concurrent-safe
     await sleep(DELAY_MS)
   }
   if (skipped) console.log(`\n(skipped ${skipped} already-audited topic(s) — use --force to re-audit)`)
 
+  report = readReport()
   const errored = Object.entries(report).filter(([, v]) => v === '__error__').map(([k]) => k)
   const totalIssues = Object.values(report).filter(Array.isArray).reduce((s, arr) => s + arr.length, 0)
   console.log(`\n${'─'.repeat(50)}`)
@@ -266,7 +287,7 @@ function runApply() {
   let topicsChanged = 0, itemsApplied = 0, itemsSkipped = 0
 
   for (const [topicId, issues] of Object.entries(report)) {
-    if (!issues.length) continue
+    if (!Array.isArray(issues) || !issues.length) continue
     if (topicArg) {
       const padded = topicArg.padStart(2, '0')
       if (topicId !== `b${bookNum}-t${padded}`) continue

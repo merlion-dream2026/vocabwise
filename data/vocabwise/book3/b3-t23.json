@@ -694,7 +694,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The committee _____ that the new policy will improve media literacy across schools.",
+          "sentence": "The committee _____ that the new policy will improve media literacy across schools, although the results are not yet proven.",
           "options": [
             "assert",
             "dispute",
@@ -705,7 +705,7 @@
         },
         {
           "id": 2,
-          "sentence": "While many experts _____ the impact of algorithms, the researcher insists the effect is negligible.",
+          "sentence": "While many experts _____ the significant impact of algorithms, the researcher insists the effect is negligible.",
           "options": [
             "concede",
             "assert",
@@ -716,7 +716,7 @@
         },
         {
           "id": 3,
-          "sentence": "The author _____ that the rise of digital platforms has accelerated polarisation, but offers no solution.",
+          "sentence": "The author _____ that the rise of digital platforms has accelerated polarisation, as a fact, but offers no solution.",
           "options": [
             "concede",
             "acknowledge",
@@ -727,7 +727,7 @@
         },
         {
           "id": 4,
-          "sentence": "Even though the data is compelling, the journalist _____ the significance of the findings.",
+          "sentence": "Even though the data is compelling, the journalist _____ the significance of the findings, reluctantly.",
           "options": [
             "dispute",
             "acknowledge",
@@ -738,7 +738,7 @@
         },
         {
           "id": 5,
-          "sentence": "Policy makers _____ that misinformation spreads faster than verified reporting, urging stricter regulations.",
+          "sentence": "Policy makers _____ that misinformation spreads faster than verified reporting, without reservation, urging stricter regulations.",
           "options": [
             "dispute",
             "concede",
@@ -811,7 +811,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The report _____ that algorithmic bias is influencing public opinion.",
+          "sentence": "The report _____ that algorithmic bias is influencing public opinion, leaving no room for doubt.",
           "answer": "assert"
         },
         {
@@ -821,17 +821,17 @@
         },
         {
           "id": 3,
-          "sentence": "The committee _____ that the proposed regulation may curb fake news.",
+          "sentence": "The committee _____ that the proposed regulation may curb fake news, tentatively.",
           "answer": "acknowledge"
         },
         {
           "id": 4,
-          "sentence": "Even after the evidence, the spokesperson _____ that the company was not responsible.",
+          "sentence": "Even after the evidence, the spokesperson _____ that the company was not responsible, reluctantly.",
           "answer": "concede"
         },
         {
           "id": 5,
-          "sentence": "Researchers _____ that digital platforms accelerate polarisation.",
+          "sentence": "Researchers _____ that digital platforms accelerate polarisation, despite ongoing debate.",
           "answer": "claim"
         }
       ]

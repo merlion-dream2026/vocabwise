@@ -705,7 +705,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "By the end of the decade, the global health community _____ the incidence of malaria.",
+          "sentence": "By the end of the decade, the global health community _____ the incidence of malaria by at least 50%.",
           "options": [
             "will be reducing",
             "will have reduced",
@@ -716,7 +716,7 @@
         },
         {
           "id": 2,
-          "sentence": "When the clinical trial finishes, the team _____ data for three years.",
+          "sentence": "When the clinical trial finishes, the team _____ data for three years, having started the collection in 2022.",
           "options": [
             "will have collected",
             "will have been collecting",
@@ -727,7 +727,7 @@
         },
         {
           "id": 3,
-          "sentence": "By the time the vaccine is rolled out, manufacturers _____ billions of doses.",
+          "sentence": "By the time the vaccine is rolled out, manufacturers _____ billions of doses in total.",
           "options": [
             "will have been producing",
             "will have produced",
@@ -823,7 +823,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "By 2028, the consortium will have _____ the genome‑wide analysis of rare diseases.",
+          "sentence": "By 2028, the consortium will have _____ the genome‑wide analysis of rare diseases, delivering the final report.",
           "answer": "completed"
         },
         {

@@ -710,7 +710,7 @@
         },
         {
           "id": 2,
-          "sentence": "All outdated procedures _____ after the audit.",
+          "sentence": "All outdated procedures _____ after the audit next month.",
           "options": [
             "were replaced",
             "will be replaced",
@@ -732,7 +732,7 @@
         },
         {
           "id": 4,
-          "sentence": "Employee data _____ securely once the new regulations take effect.",
+          "sentence": "Employee data _____ securely starting next month once the new regulations take effect.",
           "options": [
             "will store",
             "will be stored",
@@ -743,7 +743,7 @@
         },
         {
           "id": 5,
-          "sentence": "The impact of AI on jobs _____ closely by policymakers.",
+          "sentence": "The impact of AI on jobs _____ closely by policymakers in the coming years.",
           "options": [
             "has been monitored",
             "will monitor",

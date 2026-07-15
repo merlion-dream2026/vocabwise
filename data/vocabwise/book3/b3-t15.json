@@ -758,10 +758,10 @@
           "id": 1,
           "sentence": "You can join the workshop, _____ you commit to practicing daily.",
           "options": [
-            "unless",
-            "as long as",
             "provided that",
-            "on condition that"
+            "because",
+            "although",
+            "when"
           ],
           "answer": "provided that"
         },
@@ -770,9 +770,9 @@
           "sentence": "The program will continue, _____ the funding is renewed.",
           "options": [
             "as long as",
-            "unless",
-            "provided that",
-            "on condition that"
+            "because",
+            "although",
+            "when"
           ],
           "answer": "as long as"
         },
@@ -791,10 +791,10 @@
           "id": 4,
           "sentence": "The contract is valid, _____ both parties sign it by Friday.",
           "options": [
-            "unless",
-            "as long as",
-            "provided that",
-            "on condition that"
+            "on condition that",
+            "because",
+            "although",
+            "when"
           ],
           "answer": "on condition that"
         },
@@ -802,10 +802,10 @@
           "id": 5,
           "sentence": "He can travel abroad, _____ he obtains a visa.",
           "options": [
-            "provided that",
-            "unless",
             "as long as",
-            "on condition that"
+            "because",
+            "although",
+            "when"
           ],
           "answer": "as long as"
         }

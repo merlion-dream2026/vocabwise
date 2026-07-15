@@ -717,18 +717,18 @@
         },
         {
           "id": 2,
-          "sentence": "Many critics ___ biased, but no formal study has confirmed it.",
+          "sentence": "One critic _____ biased, but no formal study has confirmed it.",
           "options": [
             "is thought to be",
             "seem to be",
             "appear to be",
             "looks"
           ],
-          "answer": "seem to be"
+          "answer": "is thought to be"
         },
         {
           "id": 3,
-          "sentence": "The ancient manuscript ___ lost during transport.",
+          "sentence": "According to scholars, the ancient manuscript _____ lost during transport.",
           "options": [
             "appear to be",
             "is thought to be",
@@ -739,25 +739,25 @@
         },
         {
           "id": 4,
-          "sentence": "Researchers ___ overlooked in early surveys of the field.",
+          "sentence": "The group of researchers _____ overlooked in early surveys of the field.",
           "options": [
             "appear to have been",
             "seem to have been",
             "is thought to be",
             "looks"
           ],
-          "answer": "seem to have been"
+          "answer": "is thought to be"
         },
         {
           "id": 5,
-          "sentence": "The initial reaction ___ positive, but later turned critical.",
+          "sentence": "According to the audience, the initial reaction _____ positive, but later turned critical.",
           "options": [
             "appear to be",
             "seem to be",
             "is thought to be",
             "looks"
           ],
-          "answer": "seem to be"
+          "answer": "is thought to be"
         }
       ]
     },
@@ -817,27 +817,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The manuscript ___ lost during the shipment.",
-          "answer": "appear to be"
+          "sentence": "According to the catalog, the manuscript _____ lost during the shipment.",
+          "answer": "is thought to be"
         },
         {
           "id": 2,
-          "sentence": "Many scholars ___ overlooked in early studies.",
+          "sentence": "According to recent analysis, many scholars _____ overlooked in early studies.",
           "answer": "seem to have been"
         },
         {
           "id": 3,
-          "sentence": "The policy ___ ineffective, according to recent data.",
+          "sentence": "According to recent data, the policy _____ ineffective.",
           "answer": "is thought to be"
         },
         {
           "id": 4,
-          "sentence": "The ancient technique ___ rediscovered by archaeologists.",
+          "sentence": "According to the excavation report, the ancient technique _____ rediscovered by archaeologists.",
           "answer": "appear to have been"
         },
         {
           "id": 5,
-          "sentence": "The initial reaction ___ positive, but later turned critical.",
+          "sentence": "According to the survey, the initial reaction _____ positive, but later turned critical.",
           "answer": "seem to be"
         }
       ]

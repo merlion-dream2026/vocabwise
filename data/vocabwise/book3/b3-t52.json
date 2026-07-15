@@ -685,14 +685,14 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The committee _____ the proposal, given the overwhelming evidence.",
+          "sentence": "The committee _____ the proposal, given the overwhelming evidence against it.",
           "options": [
             "should have rejected",
             "need not have accepted",
             "should have accepted",
             "need not have rejected"
           ],
-          "answer": "should have accepted"
+          "answer": "should have rejected"
         },
         {
           "id": 2,
@@ -707,25 +707,25 @@
         },
         {
           "id": 3,
-          "sentence": "If the policy had been implemented earlier, the crisis _____ avoided.",
+          "sentence": "If the policy had been implemented earlier, the crisis _____ avoided, according to the simulation results.",
           "options": [
             "should have been",
             "need not have been",
             "could have been",
             "would have been"
           ],
-          "answer": "should have been"
+          "answer": "could have been"
         },
         {
           "id": 4,
-          "sentence": "The editor _____ the article, as the facts were already verified.",
+          "sentence": "The editor _____ the article, as the facts were already verified and the publisher had explicitly instructed not to alter it.",
           "options": [
             "should not have edited",
             "need not have edited",
             "should have edited",
             "could not have edited"
           ],
-          "answer": "need not have edited"
+          "answer": "should not have edited"
         },
         {
           "id": 5,
@@ -796,18 +796,18 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Given the evidence, the committee _____ been more thorough.",
+          "sentence": "Given the evidence, the committee _____ been more thorough, but they were not.",
           "answer": "should"
         },
         {
           "id": 2,
-          "sentence": "If resources were unlimited, the project _____ been expanded.",
-          "answer": "could"
+          "sentence": "If resources were unlimited, the project _____ been expanded, as all necessary permits were already secured.",
+          "answer": "must"
         },
         {
           "id": 3,
           "sentence": "The regulations _____ been stricter, but they were relaxed.",
-          "answer": "must"
+          "answer": "should"
         },
         {
           "id": 4,
@@ -816,7 +816,7 @@
         },
         {
           "id": 5,
-          "sentence": "The committee _____ have approved the proposal, yet they did not.",
+          "sentence": "The committee _____ have approved the proposal, yet they did not, as it was a moral obligation.",
           "answer": "ought"
         }
       ]

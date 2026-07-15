@@ -751,7 +751,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The ___ of the project was delayed due to funding shortages.",
+          "sentence": "The ___ of the project was delayed due to funding shortages, meaning the work could not commence.",
           "options": [
             "allocation",
             "evaluation",
@@ -762,7 +762,7 @@
         },
         {
           "id": 2,
-          "sentence": "Effective ___ between departments can prevent misunderstandings.",
+          "sentence": "Effective ___ between departments can prevent misunderstandings, whereas communication alone is insufficient.",
           "options": [
             "communication",
             "coordination",
@@ -795,7 +795,7 @@
         },
         {
           "id": 5,
-          "sentence": "The ___ of the policy was praised by the committee.",
+          "sentence": "The ___ of the policy was praised by the committee for its thoroughness.",
           "options": [
             "coordination",
             "evaluation",
@@ -871,7 +871,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The ___ of the environmental plan was presented at the summit.",
+          "sentence": "The ___ of the environmental plan was presented at the summit, highlighting the steps taken.",
           "answer": "implementation"
         },
         {

@@ -721,7 +721,7 @@
         },
         {
           "id": 3,
-          "sentence": "_____ we invest in renewable energy, the transition will be slower.",
+          "sentence": "_____ we invest in renewable energy will the transition be slower.",
           "options": [
             "Only if",
             "Had it not been for",
@@ -732,7 +732,7 @@
         },
         {
           "id": 4,
-          "sentence": "_____ the public demanded transparency, AI developers would ignore ethical concerns.",
+          "sentence": "_____ the public demanding transparency, AI developers would ignore ethical concerns.",
           "options": [
             "When",
             "If",
@@ -743,7 +743,7 @@
         },
         {
           "id": 5,
-          "sentence": "_____ we prioritize fairness, algorithmic bias will persist.",
+          "sentence": "_____ we prioritize fairness will algorithmic bias persist.",
           "options": [
             "Unless",
             "Only if",
@@ -834,17 +834,17 @@
         },
         {
           "id": 3,
-          "sentence": "_____ we invest in green computing, carbon emissions will rise.",
+          "sentence": "_____ we invest in green computing will carbon emissions rise.",
           "answer": "Unless"
         },
         {
           "id": 4,
-          "sentence": "_____ algorithms are trained on biased data, discriminatory outcomes are inevitable.",
+          "sentence": "_____ algorithms are trained on biased data are discriminatory outcomes inevitable.",
           "answer": "When"
         },
         {
           "id": 5,
-          "sentence": "_____ corporations fail to adopt ethical standards, public trust will erode permanently.",
+          "sentence": "_____ corporations fail to adopt ethical standards will public trust erode permanently.",
           "answer": "If"
         }
       ]

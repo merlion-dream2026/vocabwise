@@ -687,7 +687,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The committee approved the new policy, _____ the minority members voiced strong objections.",
+          "sentence": "The committee approved the new policy, _____ the minority members, who had previously opposed it, voiced strong objections.",
           "options": [
             "but",
             "although",
@@ -698,7 +698,7 @@
         },
         {
           "id": 2,
-          "sentence": "She continued her research, _____ her peers abandoned the project.",
+          "sentence": "She continued her research, _____ her peers abandoned the project, highlighting a clear divergence in their approaches.",
           "options": [
             "while",
             "but",
@@ -709,36 +709,36 @@
         },
         {
           "id": 3,
-          "sentence": "_____ the evidence was inconclusive, the jury reached a verdict quickly.",
+          "sentence": "_____ the evidence was inconclusive, the jury reached a verdict quickly, showing that the uncertainty did not delay the decision.",
           "options": [
             "While",
             "Although",
             "Despite the fact that",
             "Whereas"
           ],
-          "answer": "Despite the fact that"
+          "answer": "Although"
         },
         {
           "id": 4,
-          "sentence": "The coastal town thrives on tourism, _____ it suffers from frequent flooding.",
+          "sentence": "The coastal town thrives on tourism, _____ it suffers from frequent flooding, illustrating a stark contrast between its economy and its vulnerability.",
           "options": [
             "whereas",
             "but",
             "while",
             "although"
           ],
-          "answer": "while"
+          "answer": "whereas"
         },
         {
           "id": 5,
-          "sentence": "The novel explores themes of identity, _____ it maintains a fast‑paced plot.",
+          "sentence": "The novel explores themes of identity, _____ it maintains a fast‑paced plot, demonstrating that depth and speed can coexist.",
           "options": [
             "although",
             "whereas",
             "but",
             "while"
           ],
-          "answer": "whereas"
+          "answer": "although"
         }
       ]
     },

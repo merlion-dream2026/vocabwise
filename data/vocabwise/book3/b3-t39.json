@@ -747,58 +747,58 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The government's new regulation, _____, has been met with protests.",
+          "sentence": "The government's new regulation, _____, has been met with protests, even though it offers many benefits.",
           "options": [
             "despite its benefits",
             "contrasting with previous policies",
             "because it is strict",
             "in order to simplify"
           ],
-          "answer": "contrasting with previous policies"
+          "answer": "despite its benefits"
         },
         {
           "id": 2,
-          "sentence": "The professor, _____, continued his lecture on epistemology.",
+          "sentence": "The professor, _____, continued his lecture on epistemology, despite the loud noise in the hallway.",
           "options": [
             "while checking his notes",
             "despite the noise",
             "conceding the students' doubts",
             "because he was late"
           ],
-          "answer": "conceding the students' doubts"
+          "answer": "despite the noise"
         },
         {
           "id": 3,
-          "sentence": "The treaty, _____, was signed by both parties.",
+          "sentence": "The treaty, _____, was signed by both parties, despite strong opposition from several member states.",
           "options": [
             "contrasting with earlier drafts",
             "because it was necessary",
             "while the negotiations stalled",
             "despite the opposition"
           ],
-          "answer": "contrasting with earlier drafts"
+          "answer": "despite the opposition"
         },
         {
           "id": 4,
-          "sentence": "The activist, _____, addressed the crowd about climate change.",
+          "sentence": "The activist, _____, addressed the crowd about climate change, despite the heavy rain.",
           "options": [
             "conceding the government's inaction",
             "because she was angry",
             "while holding a microphone",
             "despite the rain"
           ],
-          "answer": "conceding the government's inaction"
+          "answer": "despite the rain"
         },
         {
           "id": 5,
-          "sentence": "The novel, _____, explores themes of identity.",
+          "sentence": "The novel, _____, explores themes of identity, despite its considerable length.",
           "options": [
             "while being translated",
             "contrasting with the author's previous work",
             "because it is popular",
             "despite its length"
           ],
-          "answer": "contrasting with the author's previous work"
+          "answer": "despite its length"
         }
       ]
     },
@@ -866,7 +866,7 @@
         {
           "id": 1,
           "sentence": "_____ the fierce opposition, the committee approved the reform.",
-          "answer": "Conceding"
+          "answer": "Acknowledging"
         },
         {
           "id": 2,
@@ -876,7 +876,7 @@
         {
           "id": 3,
           "sentence": "_____ the limited data, the analyst still drew a confident conclusion.",
-          "answer": "Conceding"
+          "answer": "Considering"
         },
         {
           "id": 4,
@@ -886,7 +886,7 @@
         {
           "id": 5,
           "sentence": "_____ the potential risks, the venture capitalists invested heavily.",
-          "answer": "Conceding"
+          "answer": "Ignoring"
         }
       ]
     },

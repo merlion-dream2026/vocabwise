@@ -705,7 +705,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The manuscript _____ (review) by three independent scholars before publication.",
+          "sentence": "The manuscript _____ (review) by three independent scholars before publication last year.",
           "options": [
             "is reviewed",
             "were reviewed",
@@ -716,7 +716,7 @@
         },
         {
           "id": 2,
-          "sentence": "All the raw data _____ (store) in a secure cloud server.",
+          "sentence": "All the raw data sets _____ (store) in a secure cloud server.",
           "options": [
             "are stored",
             "was stored",
@@ -738,7 +738,7 @@
         },
         {
           "id": 4,
-          "sentence": "These findings _____ (interpret) cautiously due to limited sample size.",
+          "sentence": "These findings _____ (interpret) cautiously in the current analysis due to limited sample size.",
           "options": [
             "are interpreted",
             "is interpreted",
@@ -749,7 +749,7 @@
         },
         {
           "id": 5,
-          "sentence": "The new policy _____ (enforce) across all campuses starting next month.",
+          "sentence": "The new policy _____ (enforce) across all campuses, and this will take effect starting next month.",
           "options": [
             "will be enforced",
             "is enforced",
@@ -819,12 +819,12 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The new curriculum was _____ last year to address emerging fields.",
+          "sentence": "The new curriculum was _____ last year to address emerging fields, after being designed the previous year.",
           "answer": "implemented"
         },
         {
           "id": 2,
-          "sentence": "A comprehensive framework was _____ to guide the assessment process.",
+          "sentence": "A comprehensive framework was _____ to guide the assessment process, before any implementation took place.",
           "answer": "designed"
         },
         {

@@ -750,7 +750,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "If the algorithm _____ (to prioritize) mental‑wellbeing content, users would feel less pressure now.",
+          "sentence": "If the algorithm _____ (to prioritize) mental‑wellbeing content, users would feel less pressure now, but it didn't.",
           "options": [
             "had prioritized",
             "prioritizes",
@@ -761,7 +761,7 @@
         },
         {
           "id": 2,
-          "sentence": "If the study _____ (to reveal) the link earlier, policymakers would be acting on it already.",
+          "sentence": "If the study _____ (to reveal) the link earlier, policymakers would be acting on it already, but it didn't.",
           "options": [
             "has revealed",
             "had revealed",
@@ -772,7 +772,7 @@
         },
         {
           "id": 3,
-          "sentence": "If schools _____ (to integrate) digital‑literacy curricula, students would be more resilient today.",
+          "sentence": "If schools _____ (to integrate) digital‑literacy curricula, students would be more resilient today, but they didn't.",
           "options": [
             "integrates",
             "had integrated",
@@ -783,7 +783,7 @@
         },
         {
           "id": 4,
-          "sentence": "If the platform _____ (to implement) stricter moderation, harassment incidents would be decreasing now.",
+          "sentence": "If the platform _____ (to implement) stricter moderation, harassment incidents would be decreasing now, but it didn't.",
           "options": [
             "had implemented",
             "implements",
@@ -794,7 +794,7 @@
         },
         {
           "id": 5,
-          "sentence": "If users _____ (to recognize) the curated nature of posts, they would be comparing themselves less.",
+          "sentence": "If users _____ (to recognize) the curated nature of posts, they would be comparing themselves less, but they didn't.",
           "options": [
             "recognize",
             "had recognized",

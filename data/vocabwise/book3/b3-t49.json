@@ -774,7 +774,7 @@
         },
         {
           "id": 3,
-          "sentence": "After the audience _____ a question, the speaker clarified the point.",
+          "sentence": "By the time the speaker clarified the point, the audience _____ a question.",
           "options": [
             "had asked",
             "will ask",
@@ -881,7 +881,7 @@
         },
         {
           "id": 3,
-          "sentence": "The team _____ going to present their project when the power cut occurred.",
+          "sentence": "The players _____ going to present their project when the power cut occurred.",
           "answer": "were"
         },
         {

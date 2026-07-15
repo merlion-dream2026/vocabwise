@@ -708,7 +708,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The psychologist, _____ I consulted last year, specializes in memory disorders.",
+          "sentence": "The psychologist, _____ I spoke to last year, specializes in memory disorders.",
           "options": [
             "who",
             "whom",
@@ -741,7 +741,7 @@
         },
         {
           "id": 4,
-          "sentence": "The participants, _____ we interviewed, provided valuable data.",
+          "sentence": "The participants, _____ we spoke to, provided valuable data.",
           "options": [
             "who",
             "whom",
@@ -832,13 +832,13 @@
         },
         {
           "id": 2,
-          "sentence": "The mentor, _____ I consulted frequently, gave me valuable advice.",
+          "sentence": "The mentor, _____ I spoke to frequently, gave me valuable advice.",
           "answer": "whom"
         },
         {
           "id": 3,
-          "sentence": "The study, _____ findings were published last year, attracted attention.",
-          "answer": "of which"
+          "sentence": "The study, _____ methodology was published last year, attracted attention.",
+          "answer": "whose"
         },
         {
           "id": 4,

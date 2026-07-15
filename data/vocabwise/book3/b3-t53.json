@@ -746,25 +746,25 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The new data‑privacy law _____ come into effect next January.",
+          "sentence": "The new data‑privacy law _____ come into effect next January, despite no official schedule being announced.",
           "options": [
             "is due to",
             "is set to",
             "is expected to",
             "are predicted to"
           ],
-          "answer": "is set to"
+          "answer": "is expected to"
         },
         {
           "id": 2,
-          "sentence": "The university's AI ethics board _____ release its first report by June.",
+          "sentence": "The university's AI ethics board _____ release its first report by June, although no firm date has been set.",
           "options": [
             "is set to",
             "are predicted to",
             "is due to",
             "is expected to"
           ],
-          "answer": "is due to"
+          "answer": "is expected to"
         },
         {
           "id": 3,
@@ -779,25 +779,25 @@
         },
         {
           "id": 4,
-          "sentence": "The upcoming conference on digital rights _____ address the challenges of algorithmic bias.",
+          "sentence": "The upcoming conference on digital rights _____ address the challenges of algorithmic bias, according to early forecasts.",
           "options": [
             "is predicted to",
             "is set to",
             "is due to",
             "is expected to"
           ],
-          "answer": "is set to"
+          "answer": "is predicted to"
         },
         {
           "id": 5,
-          "sentence": "Regulators _____ introduce stricter consent requirements for biometric data by 2028.",
+          "sentence": "Regulators _____ introduce stricter consent requirements for biometric data by 2028, according to current projections.",
           "options": [
             "are set to",
             "are due to",
             "are predicted to",
             "are expected to"
           ],
-          "answer": "are set to"
+          "answer": "are expected to"
         }
       ]
     },
@@ -868,27 +868,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The blockchain protocol _____ undergo a major upgrade in Q3.",
-          "answer": "is set to"
+          "sentence": "The blockchain protocol _____ undergo a major upgrade in Q3 in order to comply with new regulations.",
+          "answer": "will have to"
         },
         {
           "id": 2,
-          "sentence": "The privacy watchdog _____ issue fines for non‑compliance next quarter.",
-          "answer": "is due to"
+          "sentence": "The privacy watchdog _____ issue fines for non‑compliance next quarter, according to its recent statement.",
+          "answer": "is expected to"
         },
         {
           "id": 3,
-          "sentence": "Experts _____ suggest that deep‑fake detection tools will become standard by 2030.",
+          "sentence": "Experts _____ suggest that deep‑fake detection tools will become standard by 2030, according to a recent survey.",
           "answer": "are predicted to"
         },
         {
           "id": 4,
-          "sentence": "The university _____ launch a new course on digital ethics in September.",
-          "answer": "is expected to"
+          "sentence": "The university _____ launch a new course on digital ethics in September, having already secured funding.",
+          "answer": "is set to"
         },
         {
           "id": 5,
-          "sentence": "Several NGOs _____ collaborate on a global campaign for internet freedom by 2025.",
+          "sentence": "Several NGOs _____ collaborate on a global campaign for internet freedom by 2025, as stipulated in the joint memorandum.",
           "answer": "are due to"
         }
       ]

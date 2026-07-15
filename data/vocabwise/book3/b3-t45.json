@@ -686,14 +686,14 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The professor _____ that the study's results were inconclusive.",
+          "sentence": "The professor _____ that the study's results were inconclusive, admitting the limitations.",
           "options": [
             "concedes",
             "alleges",
             "implies",
             "infers"
           ],
-          "answer": "alleges"
+          "answer": "concedes"
         },
         {
           "id": 2,
@@ -797,7 +797,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The report _____ that the data were collected improperly.",
+          "sentence": "The report _____ that the data were collected improperly, despite the lack of direct evidence.",
           "answer": "allege"
         },
         {
@@ -812,7 +812,7 @@
         },
         {
           "id": 4,
-          "sentence": "After reviewing the evidence, the lawyer _____ that the client was not at fault.",
+          "sentence": "After reviewing the evidence, the lawyer _____ that the client was not at fault, acknowledging the overwhelming proof.",
           "answer": "concede"
         },
         {

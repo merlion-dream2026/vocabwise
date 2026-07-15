@@ -715,7 +715,7 @@
             "Moreover",
             "Consequently"
           ],
-          "answer": "Moreover"
+          "answer": "Consequently"
         },
         {
           "id": 4,
@@ -726,7 +726,7 @@
             "Notwithstanding",
             "Moreover"
           ],
-          "answer": "Notwithstanding"
+          "answer": "Nevertheless"
         },
         {
           "id": 5,
@@ -737,7 +737,7 @@
             "Consequently",
             "Notwithstanding"
           ],
-          "answer": "Moreover"
+          "answer": "Consequently"
         }
       ]
     },
@@ -805,7 +805,7 @@
         {
           "id": 1,
           "sentence": "The city council approved the new park; _____, it allocated additional funds for maintenance.",
-          "answer": "Moreover"
+          "answer": "Consequently"
         },
         {
           "id": 2,
@@ -819,13 +819,13 @@
         },
         {
           "id": 4,
-          "sentence": "The legislation was passed despite opposition; _____, it includes provisions for senior citizens.",
-          "answer": "Notwithstanding"
+          "sentence": "The legislation was passed; _____, it includes provisions for senior citizens despite opposition.",
+          "answer": "Nevertheless"
         },
         {
           "id": 5,
           "sentence": "The policy aims to increase retirement age; _____, it must address potential age discrimination.",
-          "answer": "Nevertheless"
+          "answer": "Moreover"
         }
       ]
     },

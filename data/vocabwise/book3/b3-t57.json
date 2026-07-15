@@ -698,7 +698,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ the government had implemented stricter data regulations, privacy breaches would have decreased dramatically.",
+          "sentence": "_____ the government had implemented stricter data regulations, privacy breaches would have decreased dramatically (use inversion).",
           "options": [
             "Should",
             "If",
@@ -709,7 +709,7 @@
         },
         {
           "id": 2,
-          "sentence": "_____ we invest in digital infrastructure now, the digital divide will narrow within a decade.",
+          "sentence": "_____ we invest in digital infrastructure now, the digital divide will narrow within a decade (use inversion).",
           "options": [
             "Were",
             "If",
@@ -720,7 +720,7 @@
         },
         {
           "id": 3,
-          "sentence": "_____ the algorithm been transparent, users could have made more informed choices.",
+          "sentence": "_____ the algorithm been transparent, users could have made more informed choices (use inversion).",
           "options": [
             "If",
             "Should",
@@ -731,7 +731,7 @@
         },
         {
           "id": 4,
-          "sentence": "_____ she had known the risks, she wouldn't have consented to the data sharing.",
+          "sentence": "_____ she had known the risks, she wouldn't have consented to the data sharing (use inversion).",
           "options": [
             "Should",
             "If",
@@ -742,7 +742,7 @@
         },
         {
           "id": 5,
-          "sentence": "_____ the tech companies adopt ethical standards, public trust will be restored.",
+          "sentence": "_____ the tech companies adopt ethical standards, public trust will be restored (use inversion).",
           "options": [
             "If",
             "Were",
@@ -823,27 +823,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ the data had been anonymised, researchers could have shared findings without ethical concerns.",
+          "sentence": "_____ the data had been anonymised, researchers could have shared findings without ethical concerns (use inversion).",
           "answer": "Had"
         },
         {
           "id": 2,
-          "sentence": "_____ we prioritize transparency, public confidence in AI systems will increase.",
+          "sentence": "_____ we prioritize transparency, public confidence in AI systems will increase (use inversion).",
           "answer": "Should"
         },
         {
           "id": 3,
-          "sentence": "_____ governments were to invest in renewable energy, the transition would accelerate.",
+          "sentence": "_____ governments were to invest in renewable energy, the transition would accelerate (use inversion).",
           "answer": "Were"
         },
         {
           "id": 4,
-          "sentence": "_____ the policy had been enforced, the digital divide would have narrowed.",
+          "sentence": "_____ the policy had been enforced, the digital divide would have narrowed (use inversion).",
           "answer": "Had"
         },
         {
           "id": 5,
-          "sentence": "_____ we ignore the warning signs, the consequences will be severe.",
+          "sentence": "_____ we ignore the warning signs, the consequences will be severe (use inversion).",
           "answer": "Should"
         }
       ]

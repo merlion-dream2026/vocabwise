@@ -765,7 +765,7 @@
         },
         {
           "id": 2,
-          "sentence": "_____ the impact of gene editing on future generations, policymakers are reluctant to legislate without further data.",
+          "sentence": "_____ the impact of gene editing on future generations is already well‑established, policymakers are reluctant to legislate without further data.",
           "options": [
             "It remains to be seen whether",
             "It is evident that",
@@ -776,7 +776,7 @@
         },
         {
           "id": 3,
-          "sentence": "_____ the benefits of neuroenhancement outweigh the risks, the scientific community continues rigorous trials.",
+          "sentence": "_____ the benefits of neuroenhancement outweigh the risks, given the current lack of conclusive evidence, the scientific community continues rigorous trials.",
           "options": [
             "It is obvious that",
             "It is a moot point whether",
@@ -787,7 +787,7 @@
         },
         {
           "id": 4,
-          "sentence": "_____ the notion that consciousness can be fully simulated, philosophers argue that subjective experience may elude computational models.",
+          "sentence": "_____ the notion that consciousness can be fully simulated has already been disproven, philosophers argue that subjective experience may elude computational models.",
           "options": [
             "It is undeniable that",
             "It is a moot point whether",
@@ -798,7 +798,7 @@
         },
         {
           "id": 5,
-          "sentence": "_____ the long‑term ecological consequences of nanotechnology, environmentalists call for precautionary regulations.",
+          "sentence": "_____ the long‑term ecological consequences of nanotechnology are still unknown, environmentalists call for precautionary regulations.",
           "options": [
             "It is a moot point whether",
             "It is evident that",

@@ -678,9 +678,9 @@
           "sentence": "_____ the deadline was missed, the project was delayed.",
           "options": [
             "Having missed",
-            "Missing",
             "Having been missed",
-            "Having miss"
+            "Having miss",
+            "Missed"
           ],
           "answer": "Having missed"
         },
@@ -746,7 +746,7 @@
             "career",
             "paths"
           ],
-          "answer": "Having experienced burnout many employees reconsider their career paths"
+          "answer": "Having experienced burnout, many employees reconsider their career paths"
         },
         {
           "id": 2,
@@ -760,7 +760,7 @@
             "their",
             "workforces"
           ],
-          "answer": "Driven by increased automation companies restructure their workforces"
+          "answer": "Driven by increased automation, companies restructure their workforces"
         },
         {
           "id": 3,
@@ -776,7 +776,7 @@
             "high",
             "turnover"
           ],
-          "answer": "Having failed to address work‑life balance organizations risk high turnover"
+          "answer": "Having failed to address work‑life balance, organizations risk high turnover"
         }
       ]
     },

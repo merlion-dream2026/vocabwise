@@ -736,7 +736,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The university's new policy aims to improve _____ among first‑generation students.",
+          "sentence": "The university's new policy aims to improve _____ among first‑generation students during their first year.",
           "options": [
             "graduation",
             "attendance",
@@ -747,7 +747,7 @@
         },
         {
           "id": 2,
-          "sentence": "Policymakers argue that early childhood _____ is crucial for later academic success.",
+          "sentence": "Policymakers argue that early childhood _____, specifically formal schooling, is crucial for later academic success.",
           "options": [
             "development",
             "training",
@@ -758,7 +758,7 @@
         },
         {
           "id": 3,
-          "sentence": "The _____ of digital skills has become a priority in many curricula.",
+          "sentence": "The _____ of digital skills, meaning the process of learning them, has become a priority in many curricula.",
           "options": [
             "adoption",
             "assessment",
@@ -787,7 +787,7 @@
             "significance",
             "value"
           ],
-          "answer": "importance"
+          "answer": "significance"
         }
       ]
     },
@@ -861,7 +861,7 @@
         {
           "id": 1,
           "sentence": "The _____ of reading skills is essential for academic progress.",
-          "answer": "literacy"
+          "answer": "acquisition"
         },
         {
           "id": 2,

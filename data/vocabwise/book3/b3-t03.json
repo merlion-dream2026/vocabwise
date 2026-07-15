@@ -702,7 +702,7 @@
             "Not only do",
             "Seldom",
             "Rarely does",
-            "Hardly"
+            "Often"
           ],
           "answer": "Rarely does"
         },
@@ -724,7 +724,7 @@
             "Never have",
             "Rarely does",
             "Seldom",
-            "Hardly"
+            "Often"
           ],
           "answer": "Never have"
         },
@@ -744,9 +744,9 @@
           "sentence": "_____ the media highlight the benefits of digital connection, they ignore the potential for alienation.",
           "options": [
             "Rarely does",
-            "Not only do",
             "Never have",
-            "Seldom"
+            "Seldom",
+            "Not only do"
           ],
           "answer": "Not only do"
         }
@@ -809,12 +809,28 @@
         {
           "id": 1,
           "sentence": "_____ does the digital age challenge traditional notions of intimacy?",
-          "answer": "Rarely"
+          "answer": "Rarely",
+          "options": [
+            "Rarely",
+            "Not",
+            "Only",
+            "Seldom",
+            "Thus",
+            "Often"
+          ]
         },
         {
           "id": 2,
           "sentence": "_____ have researchers agreed on a single theory of social bonding.",
-          "answer": "Seldom"
+          "answer": "Seldom",
+          "options": [
+            "Never",
+            "Not",
+            "Only",
+            "Thus",
+            "Often",
+            "Seldom"
+          ]
         },
         {
           "id": 3,
@@ -824,7 +840,15 @@
         {
           "id": 4,
           "sentence": "_____ before has the challenge of digital loneliness been so widely debated.",
-          "answer": "Never"
+          "answer": "Never",
+          "options": [
+            "Never",
+            "Not",
+            "Only",
+            "Thus",
+            "Often",
+            "Seldom"
+          ]
         },
         {
           "id": 5,

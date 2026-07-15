@@ -697,12 +697,12 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ is what the committee decided after hours of deliberation.",
+          "sentence": "_____ is exactly what the committee decided after hours of deliberation.",
           "options": [
-            "What",
             "It",
             "That",
-            "This"
+            "This",
+            "What"
           ],
           "answer": "It"
         },
@@ -712,8 +712,8 @@
           "options": [
             "Having considered the most compelling argument",
             "Considering the most compelling argument",
-            "After considering the most compelling argument",
-            "Because the argument was compelling"
+            "Because the argument was compelling",
+            "Since the argument was compelling"
           ],
           "answer": "Having considered the most compelling argument"
         },
@@ -721,27 +721,27 @@
           "id": 3,
           "sentence": "_____ the key factor that determines success is resilience.",
           "options": [
-            "It is",
-            "That is",
-            "What is",
-            "The fact is"
+            "What",
+            "Which",
+            "Who",
+            "That"
           ],
-          "answer": "It is"
+          "answer": "What"
         },
         {
           "id": 4,
-          "sentence": "_____ the conference, the speaker highlighted the need for interdisciplinary research.",
+          "sentence": "_____ the whole conference, the speaker highlighted the need for interdisciplinary research.",
           "options": [
-            "During the conference",
-            "At the conference",
-            "In the conference",
-            "On the conference"
+            "During",
+            "At",
+            "In",
+            "On"
           ],
-          "answer": "During the conference"
+          "answer": "During"
         },
         {
           "id": 5,
-          "sentence": "_____ the most effective way to reduce emissions is to invest in renewable energy.",
+          "sentence": "_____ the most effective way to reduce emissions?",
           "options": [
             "What",
             "Which",
@@ -783,15 +783,15 @@
         {
           "id": 3,
           "words": [
-            "policy",
-            "On",
-            "climate",
+            "significant",
+            "was",
             "the",
             "impact",
-            "was",
-            "significant"
+            "of",
+            "climate",
+            "policy"
           ],
-          "answer": "On climate policy the impact was significant"
+          "answer": "The impact of climate policy was significant"
         }
       ]
     },
@@ -813,7 +813,7 @@
         },
         {
           "id": 2,
-          "sentence": "_____ the conference, the keynote speaker emphasized the urgency of climate action.",
+          "sentence": "_____ the conference, while the audience was still present, the keynote speaker emphasized the urgency of climate action.",
           "answer": "During"
         },
         {
@@ -823,7 +823,7 @@
         },
         {
           "id": 4,
-          "sentence": "_____ the data were analyzed, the researchers discovered an unexpected pattern.",
+          "sentence": "_____ the data, the researchers discovered an unexpected pattern.",
           "answer": "Having"
         },
         {
