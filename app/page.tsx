@@ -3,6 +3,8 @@ import Image from 'next/image'
 import LandingUpgradeButton from '@/components/landing/LandingUpgradeButton'
 import LandingVideoGallery from '@/components/landing/LandingVideoGallery'
 import LandingScreenshotGallery from '@/components/landing/LandingScreenshotGallery'
+import LandingNav from '@/components/landing/LandingNav'
+import Reveal from '@/components/landing/Reveal'
 
 const MODULE_CARDS = [
   {
@@ -141,21 +143,7 @@ export default function LandingPage() {
   return (
     <div className="min-h-screen bg-white">
 
-      {/* Nav */}
-      <nav className="sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-gray-100">
-        <div className="max-w-7xl mx-auto px-4 lg:px-12 py-4 flex items-center justify-between">
-          <span className="font-black text-xl lg:text-2xl text-gray-800">📚 VocabWise</span>
-          <div className="hidden lg:flex items-center gap-8 text-sm lg:text-base font-bold text-gray-500">
-            <a href="#modules" className="hover:text-purple-600 transition-colors">Module học</a>
-            <a href="#pricing" className="hover:text-purple-600 transition-colors">Bảng giá</a>
-            <a href="#faq" className="hover:text-purple-600 transition-colors">FAQ</a>
-          </div>
-          <Link href="/login"
-            className="bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black text-sm lg:text-base px-5 py-2.5 lg:px-6 lg:py-3 rounded-2xl shadow hover:shadow-md transition-all">
-            🔐 Đăng nhập
-          </Link>
-        </div>
-      </nav>
+      <LandingNav />
 
       {/* Hero */}
       <section className="bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50">
@@ -176,29 +164,29 @@ export default function LandingPage() {
             {/* CTA buttons */}
             <div className="flex flex-row gap-3 justify-center lg:justify-start mb-4">
               <Link href="/register"
-                className="bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black text-sm lg:text-base px-6 py-3 lg:px-8 lg:py-4 rounded-2xl shadow-lg hover:shadow-xl transition-all active:scale-95 whitespace-nowrap">
+                className="bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black text-sm lg:text-base px-6 py-3 lg:px-8 lg:py-4 rounded-2xl shadow-lg hover:shadow-xl transition-all active:scale-95 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-400 focus-visible:ring-offset-2">
                 🚀 Dùng thử miễn phí
               </Link>
               <LandingUpgradeButton
                 label="⭐ Xem gói Pro"
-                className="bg-white text-gray-500 font-black text-sm lg:text-base px-6 py-3 lg:px-8 lg:py-4 rounded-2xl shadow border-2 border-gray-200 hover:border-gray-300 transition-all active:scale-95 whitespace-nowrap" />
+                className="bg-white text-gray-500 font-black text-sm lg:text-base px-6 py-3 lg:px-8 lg:py-4 rounded-2xl shadow border-2 border-gray-200 hover:border-gray-300 transition-all active:scale-95 whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-400 focus-visible:ring-offset-2" />
             </div>
           </div>
 
-          {/* Visual column — desktop only */}
-          <div className="hidden lg:flex lg:flex-1 justify-center items-center">
+          {/* Visual column — tablet shows 1 mockup, desktop shows both */}
+          <div className="hidden md:flex lg:flex-1 justify-center items-center">
             <div className="flex gap-5">
-              <div className="rounded-[32px] border-[6px] border-gray-800 bg-gray-800 shadow-2xl overflow-hidden -rotate-6 w-[220px]">
+              <div className="rounded-[32px] border-[6px] border-gray-800 bg-gray-800 shadow-2xl overflow-hidden -rotate-6 w-[180px] lg:w-[220px]">
                 <div className="h-5 bg-gray-800 flex items-center justify-center"><div className="w-14 h-2 bg-gray-600 rounded-full" /></div>
-                <div className="relative overflow-hidden bg-white" style={{ height: 400 }}>
-                  <Image src="/screenshots/demo%20flashcard.jpg" alt="Flashcard VocabWise" fill className="object-cover object-top" />
+                <div className="relative overflow-hidden bg-white h-[320px] lg:h-[400px]">
+                  <Image src="/screenshots/demo%20flashcard.jpg" alt="Flashcard VocabWise" fill sizes="(min-width: 1024px) 220px, 180px" priority className="object-cover object-top" />
                 </div>
                 <div className="h-4 bg-gray-800" />
               </div>
-              <div className="rounded-[32px] border-[6px] border-gray-800 bg-gray-800 shadow-2xl overflow-hidden rotate-6 w-[220px] mt-12">
+              <div className="hidden lg:block rounded-[32px] border-[6px] border-gray-800 bg-gray-800 shadow-2xl overflow-hidden rotate-6 w-[220px] mt-12">
                 <div className="h-5 bg-gray-800 flex items-center justify-center"><div className="w-14 h-2 bg-gray-600 rounded-full" /></div>
-                <div className="relative overflow-hidden bg-white" style={{ height: 400 }}>
-                  <Image src="/screenshots/demo%20game%20phat%20am%20cung%20AI.jpg" alt="AI chấm phát âm VocabWise" fill className="object-cover object-top" />
+                <div className="relative overflow-hidden bg-white h-[400px]">
+                  <Image src="/screenshots/demo%20game%20phat%20am%20cung%20AI.jpg" alt="AI chấm phát âm VocabWise" fill sizes="220px" className="object-cover object-top" />
                 </div>
                 <div className="h-4 bg-gray-800" />
               </div>
@@ -211,7 +199,7 @@ export default function LandingPage() {
 
       {/* Module feature grid */}
       <section id="modules" className="bg-white py-4 lg:py-14">
-      <div className="max-w-7xl mx-auto">
+      <Reveal className="max-w-7xl mx-auto">
         <h2 className="text-xl lg:text-3xl font-black text-gray-800 text-center mb-1 md:mb-5 lg:mb-8 px-4">Khám phá từng module học</h2>
         <p className="text-gray-400 text-sm lg:text-base text-center mb-4 lg:mb-8 px-4 md:hidden">Vuốt để xem tất cả tính năng nổi bật</p>
         <div
@@ -241,7 +229,7 @@ export default function LandingPage() {
           ))}
         </div>
         <p className="text-center text-xs text-gray-300 mt-1 px-4 md:hidden">← Vuốt để xem tất cả 4 module →</p>
-      </div>
+      </Reveal>
       </section>
 
       <LandingVideoGallery />
@@ -250,7 +238,7 @@ export default function LandingPage() {
 
       {/* Features */}
       <section className="bg-white border-t border-gray-100 py-4 lg:py-14">
-      <div className="max-w-7xl mx-auto px-4 lg:px-12">
+      <Reveal className="max-w-7xl mx-auto px-4 lg:px-12">
         <h2 className="text-xl lg:text-3xl font-black text-gray-800 text-center mb-5 lg:mb-8">Tại sao chọn VocabWise?</h2>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-3 lg:gap-5">
           {FEATURES.map(f => (
@@ -258,33 +246,33 @@ export default function LandingPage() {
               <div className="text-3xl lg:text-4xl mb-2">{f.emoji}</div>
               <div>
                 <p className="font-black text-gray-800 text-sm lg:text-base">{f.label}</p>
-                <p className="text-gray-400 text-xs lg:text-sm mt-0.5 leading-snug">{f.desc}</p>
+                <p className="text-gray-500 text-xs lg:text-sm mt-0.5 leading-snug">{f.desc}</p>
               </div>
             </div>
           ))}
         </div>
-      </div>
+      </Reveal>
       </section>
 
       {/* Pricing */}
       <section id="pricing" className="bg-white py-4 lg:py-14">
-      <div className="max-w-5xl mx-auto px-4 lg:px-12">
+      <Reveal className="max-w-5xl mx-auto px-4 lg:px-12">
         <h2 className="text-xl lg:text-3xl font-black text-gray-800 text-center mb-1">Gói dịch vụ</h2>
-        <p className="text-gray-400 text-sm lg:text-base text-center mb-4 lg:mb-8">1 tài khoản · 1 gia đình · Đồng bộ mọi thiết bị</p>
+        <p className="text-gray-500 text-sm lg:text-base text-center mb-4 lg:mb-8">1 tài khoản · 1 gia đình · Đồng bộ mọi thiết bị</p>
 
         {/* Free — compact */}
         <div className="bg-white rounded-2xl p-4 lg:p-5 border-2 border-gray-100 mb-3 flex items-center justify-between gap-3">
           <div>
             <p className="font-black text-gray-700 text-sm lg:text-base">🆓 Dùng thử 7 ngày miễn phí</p>
-            <p className="text-xs lg:text-sm text-gray-400 mt-0.5">1 bé · 1 chủ đề/level · Phonics IPA 1 bài · Không cần thẻ tín dụng</p>
+            <p className="text-xs lg:text-sm text-gray-500 mt-0.5">1 bé · 1 chủ đề/level · Phonics IPA 1 bài · Không cần thẻ tín dụng</p>
           </div>
-          <Link href="/register" className="flex-shrink-0 bg-gray-100 text-gray-600 font-black text-xs lg:text-base px-3 py-2 lg:px-4 lg:py-2.5 rounded-xl hover:bg-gray-200 transition-colors whitespace-nowrap">
+          <Link href="/register" className="flex-shrink-0 bg-gray-100 text-gray-600 font-black text-xs lg:text-base px-3 py-2.5 lg:px-4 lg:py-2.5 rounded-xl hover:bg-gray-200 transition-colors whitespace-nowrap focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-400 focus-visible:ring-offset-2">
             Thử miễn phí →
           </Link>
         </div>
 
         {/* Pro plans — 3 tiers */}
-        <div className="grid grid-cols-3 gap-3 lg:gap-5 mt-5">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 lg:gap-5 mt-5">
           {/* 1 tháng */}
           <div className="bg-white rounded-2xl p-3 lg:p-5 border-2 border-purple-100 flex flex-col hover:shadow-lg hover:-translate-y-1 transition-all">
             <p className="text-sm lg:text-base font-black text-purple-400 uppercase tracking-wide">1 tháng</p>
@@ -293,13 +281,13 @@ export default function LandingPage() {
             <ul className="text-xs md:text-sm lg:text-base text-gray-500 space-y-1.5 flex-1 leading-snug">
               <li>✅ <strong>2 bé</strong></li>
               <li>✅ 5.100+ từ vựng</li>
-              <li>✅ AI phát âm<br/><span className="text-gray-400">30 lần/ngày</span></li>
+              <li>✅ AI phát âm<br/><span className="text-gray-500">30 lần/ngày</span></li>
               <li>✅ Push notification</li>
               <li>✅ Báo cáo email thủ công</li>
             </ul>
             <LandingUpgradeButton
               label="Chọn"
-              className="mt-3 w-full bg-purple-100 text-purple-700 font-black text-xs lg:text-base py-2 lg:py-3 rounded-xl hover:bg-purple-200 transition-colors active:scale-95" />
+              className="mt-3 w-full bg-purple-100 text-purple-700 font-black text-xs lg:text-base py-3 rounded-xl hover:bg-purple-200 transition-colors active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-400 focus-visible:ring-offset-2" />
           </div>
 
           {/* 3 tháng — most popular */}
@@ -318,7 +306,7 @@ export default function LandingPage() {
             </ul>
             <LandingUpgradeButton
               label="Chọn"
-              className="mt-3 w-full bg-white text-purple-600 font-black text-xs lg:text-base py-2 lg:py-3 rounded-xl hover:bg-purple-50 transition-colors active:scale-95" />
+              className="mt-3 w-full bg-white text-purple-600 font-black text-xs lg:text-base py-3 rounded-xl hover:bg-purple-50 transition-colors active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-purple-500" />
           </div>
 
           {/* 6 tháng — best value */}
@@ -337,7 +325,7 @@ export default function LandingPage() {
             </ul>
             <LandingUpgradeButton
               label="Chọn"
-              className="mt-3 w-full bg-white text-indigo-600 font-black text-xs lg:text-base py-2 lg:py-3 rounded-xl hover:bg-indigo-50 transition-colors active:scale-95" />
+              className="mt-3 w-full bg-white text-indigo-600 font-black text-xs lg:text-base py-3 rounded-xl hover:bg-indigo-50 transition-colors active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-indigo-600" />
           </div>
         </div>
 
@@ -350,21 +338,21 @@ export default function LandingPage() {
             ))}
           </div>
         </div>
-      </div>
+      </Reveal>
       </section>
 
       {/* How it works */}
       <section className="bg-white border-t border-gray-100 py-4 lg:py-14">
-      <div className="max-w-5xl mx-auto px-4 lg:px-12">
+      <Reveal className="max-w-5xl mx-auto px-4 lg:px-12">
         <h2 className="text-xl lg:text-3xl font-black text-gray-800 text-center mb-1">Bắt đầu trải nghiệm thật dễ dàng!</h2>
-        <p className="text-gray-400 text-sm lg:text-base text-center mb-5 lg:mb-8">4 bước đơn giản để con bắt đầu hành trình từ vựng</p>
+        <p className="text-gray-500 text-sm lg:text-base text-center mb-5 lg:mb-8">4 bước đơn giản để con bắt đầu hành trình từ vựng</p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3 lg:gap-5">
           {STEPS.map(s => (
             <div key={s.n} className="bg-white rounded-2xl p-4 lg:p-5 shadow-sm flex items-center gap-4 hover:shadow-md transition-shadow">
               <div className="w-10 h-10 lg:w-12 lg:h-12 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white font-black text-lg lg:text-xl flex-shrink-0">{s.n}</div>
               <div>
                 <p className="font-black text-gray-800 text-sm lg:text-base">{s.emoji} {s.title}</p>
-                <p className="text-gray-400 text-xs lg:text-sm mt-0.5">{s.desc}</p>
+                <p className="text-gray-500 text-xs lg:text-sm mt-0.5">{s.desc}</p>
               </div>
             </div>
           ))}
@@ -379,12 +367,12 @@ export default function LandingPage() {
             </div>
           </div>
         </div>
-      </div>
+      </Reveal>
       </section>
 
       {/* Founder trust */}
       <section className="bg-white py-4 lg:py-12">
-      <div className="max-w-5xl mx-auto px-4 lg:px-12">
+      <Reveal className="max-w-5xl mx-auto px-4 lg:px-12">
         <div className="bg-white rounded-3xl p-6 lg:p-8 shadow-sm border-2 border-purple-200 flex gap-4 lg:gap-6 items-start">
           <div className="text-4xl lg:text-5xl flex-shrink-0">👨‍🏫</div>
           <div>
@@ -397,18 +385,18 @@ export default function LandingPage() {
             </p>
           </div>
         </div>
-      </div>
+      </Reveal>
       </section>
 
       {/* FAQ — SEO structured content */}
       <section id="faq" className="bg-white border-t border-gray-100 py-4 lg:py-14">
-      <div className="max-w-3xl mx-auto px-4 lg:px-0">
+      <Reveal className="max-w-3xl mx-auto px-4 lg:px-0">
         <h2 className="text-xl lg:text-3xl font-black text-gray-800 text-center mb-1">Câu hỏi thường gặp</h2>
-        <p className="text-gray-400 text-sm lg:text-base text-center mb-5 lg:mb-8">Về VocabWise</p>
+        <p className="text-gray-500 text-sm lg:text-base text-center mb-5 lg:mb-8">Về VocabWise</p>
         <div className="space-y-3">
           {FAQ_ITEMS.map((item) => (
             <details key={item.q} className="bg-white rounded-2xl shadow-sm border border-gray-100 group">
-              <summary className="px-5 py-4 lg:px-6 lg:py-5 font-medium text-gray-800 text-sm lg:text-base cursor-pointer list-none flex items-center justify-between gap-3 hover:text-purple-600 transition-colors">
+              <summary className="px-5 py-4 lg:px-6 lg:py-5 font-semibold text-gray-800 text-sm lg:text-base cursor-pointer list-none flex items-center justify-between gap-3 hover:text-purple-600 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-400 focus-visible:ring-offset-2 rounded-2xl">
                 {item.q}
                 <span className="text-purple-400 text-lg flex-shrink-0 group-open:rotate-45 transition-transform">+</span>
               </summary>
@@ -416,7 +404,7 @@ export default function LandingPage() {
             </details>
           ))}
         </div>
-      </div>
+      </Reveal>
       </section>
 
       {/* Footer */}

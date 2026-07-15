@@ -1,6 +1,8 @@
 'use client'
 import { useState } from 'react'
-import UpgradeModal from '@/components/UpgradeModal'
+import dynamic from 'next/dynamic'
+
+const UpgradeModal = dynamic(() => import('@/components/UpgradeModal'), { ssr: false })
 
 export default function LandingUpgradeButton({
   label,
