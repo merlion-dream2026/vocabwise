@@ -427,7 +427,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "I love my _____ — it has tall trees, old houses, and friendly people.",
+          "sentence": "I love the pedestrian shopping _____ in our neighbourhood — it is lined with cafés and shops on both sides.",
           "answer": "street"
         },
         {
@@ -447,7 +447,7 @@
         },
         {
           "id": 5,
-          "sentence": "My family has lived in this _____ for more than fifteen years.",
+          "sentence": "My family has lived in this administrative _____, which contains twelve neighbourhoods, for more than fifteen years.",
           "answer": "district"
         }
       ],

@@ -427,7 +427,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "She was very _____ before her first performance — it was her first time on stage.",
+          "sentence": "She was very _____ before her first performance — she had butterflies in her stomach but was neither afraid nor concerned about anything specific.",
           "answer": "nervous"
         },
         {
@@ -447,7 +447,7 @@
         },
         {
           "id": 5,
-          "sentence": "My mum is always _____ when I come home late from school.",
+          "sentence": "My mum is always _____ when I come home late — she feels concerned about my safety, not frightened or tense.",
           "answer": "worried"
         }
       ],

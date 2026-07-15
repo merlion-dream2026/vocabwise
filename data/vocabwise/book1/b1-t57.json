@@ -432,12 +432,12 @@
         },
         {
           "id": 2,
-          "sentence": "The _____ on the floor shows you exactly where to stand.",
+          "sentence": "The painted _____ on the floor was a red X that marked exactly where to stand.",
           "answer": "marker"
         },
         {
           "id": 3,
-          "sentence": "Follow the _____ on the wall — it will lead you to the exit.",
+          "sentence": "Follow the _____ on the wall — its pointed head faces the exit.",
           "answer": "arrow"
         },
         {
@@ -447,7 +447,7 @@
         },
         {
           "id": 5,
-          "sentence": "Read the _____ carefully before you start — do not skip any steps.",
+          "sentence": "Read the step-by-step _____ carefully before you start — do not skip any steps.",
           "answer": "instruction"
         }
       ],

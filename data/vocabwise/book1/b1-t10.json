@@ -430,12 +430,12 @@
       "items": [
         {
           "id": 1,
-          "sentence": "In summer, it is very _____ — the temperature can reach 38 degrees.",
+          "sentence": "In summer, it is _____ rather than merely warm — the temperature can reach 38 degrees.",
           "answer": "hot"
         },
         {
           "id": 2,
-          "sentence": "In the north of Việt Nam, there is sometimes _____ on the mountain tops in winter.",
+          "sentence": "In the north of Việt Nam, there is sometimes _____ on the mountain tops in winter — the peaks turn white when temperatures fall below 0°C.",
           "answer": "snow"
         },
         {
