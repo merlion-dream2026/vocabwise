@@ -6,6 +6,7 @@ import PwaRegister from '@/components/PwaRegister'
 import NoVoiceBanner from '@/components/NoVoiceBanner'
 import OfflineBanner from '@/components/OfflineBanner'
 import BottomNav from '@/components/BottomNav'
+import MainContainer from '@/components/MainContainer'
 import FontSizeApplier from '@/components/FontSizeApplier'
 import { GameSyncProvider } from '@/lib/GameSyncContext'
 import './globals.css'
@@ -198,9 +199,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       <body className={`min-h-screen bg-gradient-to-b from-purple-50 to-pink-50 ${nunito.className}`}>
         <GameSyncProvider>
           <FontSizeApplier />
-          <main className="max-w-md mx-auto min-h-screen pb-nav">
-            {children}
-          </main>
+          <MainContainer>{children}</MainContainer>
           <OfflineBanner />
           <NoVoiceBanner />
           <BottomNav />

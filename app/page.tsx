@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import LandingUpgradeButton from '@/components/landing/LandingUpgradeButton'
 import LandingVideoGallery from '@/components/landing/LandingVideoGallery'
 import LandingScreenshotGallery from '@/components/landing/LandingScreenshotGallery'
@@ -142,10 +143,15 @@ export default function LandingPage() {
 
       {/* Nav */}
       <nav className="sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-gray-100">
-        <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-          <span className="font-black text-xl text-gray-800">📚 VocabWise</span>
+        <div className="max-w-7xl mx-auto px-4 lg:px-12 py-4 flex items-center justify-between">
+          <span className="font-black text-xl lg:text-2xl text-gray-800">📚 VocabWise</span>
+          <div className="hidden lg:flex items-center gap-8 text-sm font-bold text-gray-500">
+            <a href="#modules" className="hover:text-purple-600 transition-colors">Module học</a>
+            <a href="#pricing" className="hover:text-purple-600 transition-colors">Bảng giá</a>
+            <a href="#faq" className="hover:text-purple-600 transition-colors">FAQ</a>
+          </div>
           <Link href="/login"
-            className="bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black text-sm px-5 py-2.5 rounded-2xl shadow hover:shadow-md transition-all">
+            className="bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black text-sm lg:text-base px-5 py-2.5 lg:px-6 lg:py-3 rounded-2xl shadow hover:shadow-md transition-all">
             🔐 Đăng nhập
           </Link>
         </div>
@@ -153,62 +159,88 @@ export default function LandingPage() {
 
       {/* Hero */}
       <section className="bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50">
-      <div className="max-w-7xl mx-auto px-4 lg:px-12 pt-4 pb-4 text-center">
-        <p className="text-purple-500 font-black text-sm mb-3 tracking-widest uppercase">Nền tảng học tiếng Anh toàn diện</p>
-        <h1 className="text-3xl lg:text-6xl font-black text-gray-800 leading-tight mb-4 max-w-4xl mx-auto">
-          Học tiếng Anh{' '}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">vui, có hệ thống, đúng chuẩn</span>
-        </h1>
-        <p className="text-gray-500 text-sm lg:text-lg leading-relaxed mb-7 max-w-xl mx-auto">
-          3 module học tập — phát âm IPA chuẩn, từ vựng CEFR cho trẻ em, và học thuật cho Teen &amp; người lớn.
-        </p>
+      <div className="max-w-7xl mx-auto px-4 lg:px-12 pt-4 pb-4 lg:pt-20 lg:pb-24">
+        <div className="flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-16">
 
-        {/* CTA buttons */}
-        <div className="flex flex-row gap-3 justify-center mb-4">
-          <Link href="/register"
-            className="bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black text-sm lg:text-base px-6 py-3 rounded-2xl shadow-lg hover:shadow-xl transition-all active:scale-95 whitespace-nowrap">
-            🚀 Dùng thử miễn phí
-          </Link>
-          <LandingUpgradeButton
-            label="⭐ Xem gói Pro"
-            className="bg-white text-gray-500 font-black text-sm lg:text-base px-6 py-3 rounded-2xl shadow border-2 border-gray-200 hover:border-gray-300 transition-all active:scale-95 whitespace-nowrap" />
+          {/* Text column */}
+          <div className="text-center lg:text-left lg:flex-1">
+            <p className="text-purple-500 font-black text-sm mb-3 tracking-widest uppercase">Nền tảng học tiếng Anh toàn diện</p>
+            <h1 className="text-3xl lg:text-6xl font-black text-gray-800 leading-tight mb-4 max-w-4xl mx-auto lg:mx-0">
+              Học tiếng Anh{' '}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">vui, có hệ thống, đúng chuẩn</span>
+            </h1>
+            <p className="text-gray-500 text-sm lg:text-lg leading-relaxed mb-7 max-w-xl mx-auto lg:mx-0">
+              3 module học tập — phát âm IPA chuẩn, từ vựng CEFR cho trẻ em, và học thuật cho Teen &amp; người lớn.
+            </p>
+
+            {/* CTA buttons */}
+            <div className="flex flex-row gap-3 justify-center lg:justify-start mb-4">
+              <Link href="/register"
+                className="bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black text-sm lg:text-base px-6 py-3 lg:px-8 lg:py-4 rounded-2xl shadow-lg hover:shadow-xl transition-all active:scale-95 whitespace-nowrap">
+                🚀 Dùng thử miễn phí
+              </Link>
+              <LandingUpgradeButton
+                label="⭐ Xem gói Pro"
+                className="bg-white text-gray-500 font-black text-sm lg:text-base px-6 py-3 lg:px-8 lg:py-4 rounded-2xl shadow border-2 border-gray-200 hover:border-gray-300 transition-all active:scale-95 whitespace-nowrap" />
+            </div>
+          </div>
+
+          {/* Visual column — desktop only */}
+          <div className="hidden lg:flex lg:flex-1 justify-center items-center">
+            <div className="flex gap-5">
+              <div className="rounded-[32px] border-[6px] border-gray-800 bg-gray-800 shadow-2xl overflow-hidden -rotate-6 w-[220px]">
+                <div className="h-5 bg-gray-800 flex items-center justify-center"><div className="w-14 h-2 bg-gray-600 rounded-full" /></div>
+                <div className="relative overflow-hidden bg-white" style={{ height: 400 }}>
+                  <Image src="/screenshots/demo%20flashcard.jpg" alt="Flashcard VocabWise" fill className="object-cover object-top" />
+                </div>
+                <div className="h-4 bg-gray-800" />
+              </div>
+              <div className="rounded-[32px] border-[6px] border-gray-800 bg-gray-800 shadow-2xl overflow-hidden rotate-6 w-[220px] mt-12">
+                <div className="h-5 bg-gray-800 flex items-center justify-center"><div className="w-14 h-2 bg-gray-600 rounded-full" /></div>
+                <div className="relative overflow-hidden bg-white" style={{ height: 400 }}>
+                  <Image src="/screenshots/demo%20game%20phat%20am%20cung%20AI.jpg" alt="AI chấm phát âm VocabWise" fill className="object-cover object-top" />
+                </div>
+                <div className="h-4 bg-gray-800" />
+              </div>
+            </div>
+          </div>
+
         </div>
-
       </div>
       </section>
 
-      {/* Module feature carousel */}
-      <section className="bg-white py-4">
+      {/* Module feature grid */}
+      <section id="modules" className="bg-white py-4 lg:py-20">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-xl font-black text-gray-800 text-center mb-1 px-4">Khám phá từng module học</h2>
-        <p className="text-gray-400 text-sm text-center mb-4 px-4">Vuốt để xem tất cả tính năng nổi bật</p>
+        <h2 className="text-xl lg:text-3xl font-black text-gray-800 text-center mb-1 px-4">Khám phá từng module học</h2>
+        <p className="text-gray-400 text-sm lg:text-base text-center mb-4 lg:mb-10 px-4 md:hidden">Vuốt để xem tất cả tính năng nổi bật</p>
         <div
-          className="flex gap-4 overflow-x-auto pb-3 px-4 snap-x snap-mandatory"
+          className="flex md:grid md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 overflow-x-auto md:overflow-visible pb-3 md:pb-0 px-4 lg:px-12 snap-x snap-mandatory md:snap-none"
           style={{ scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' } as React.CSSProperties}
         >
           {MODULE_CARDS.map(card => (
             <div
               key={card.title}
-              className={`flex-none snap-center w-[280px] bg-gradient-to-br ${card.bgLight} rounded-2xl border-2 ${card.border} p-4 flex flex-col`}
+              className={`flex-none md:flex-auto snap-center w-[280px] md:w-auto bg-gradient-to-br ${card.bgLight} rounded-2xl border-2 ${card.border} p-4 lg:p-5 flex flex-col hover:shadow-lg hover:-translate-y-1 transition-all`}
             >
               <div className={`inline-flex items-center gap-1.5 bg-gradient-to-r ${card.gradient} text-white text-xs font-black px-2.5 py-1 rounded-full self-start mb-3`}>
                 <span>{card.emoji}</span>
                 <span>{card.badge}</span>
               </div>
-              <p className={`font-black text-base ${card.accent} leading-tight mb-0.5`}>{card.title}</p>
-              <p className="text-gray-500 text-xs mb-3">{card.subtitle}</p>
+              <p className={`font-black text-base lg:text-lg ${card.accent} leading-tight mb-0.5`}>{card.title}</p>
+              <p className="text-gray-500 text-xs lg:text-sm mb-3">{card.subtitle}</p>
               <ul className="space-y-2 flex-1">
                 {card.features.map(f => (
                   <li key={f.text} className="flex items-start gap-2">
                     <span className="text-base flex-shrink-0 leading-none mt-0.5">{f.icon}</span>
-                    <span className="text-gray-600 text-xs leading-snug">{f.text}</span>
+                    <span className="text-gray-600 text-xs lg:text-sm leading-snug">{f.text}</span>
                   </li>
                 ))}
               </ul>
             </div>
           ))}
         </div>
-        <p className="text-center text-xs text-gray-300 mt-1 px-4">← Vuốt để xem tất cả 4 module →</p>
+        <p className="text-center text-xs text-gray-300 mt-1 px-4 md:hidden">← Vuốt để xem tất cả 4 module →</p>
       </div>
       </section>
 
@@ -217,16 +249,16 @@ export default function LandingPage() {
       <LandingScreenshotGallery />
 
       {/* Features */}
-      <section className="bg-white border-t border-gray-100 py-4">
-      <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-xl font-black text-gray-800 text-center mb-5">Tại sao chọn VocabWise?</h2>
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+      <section className="bg-white border-t border-gray-100 py-4 lg:py-20">
+      <div className="max-w-7xl mx-auto px-4 lg:px-12">
+        <h2 className="text-xl lg:text-3xl font-black text-gray-800 text-center mb-5 lg:mb-10">Tại sao chọn VocabWise?</h2>
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-3 lg:gap-5">
           {FEATURES.map(f => (
-            <div key={f.label} className={`bg-white rounded-2xl p-4 shadow-sm border-2 ${f.color}`}>
-              <div className="text-3xl mb-2">{f.emoji}</div>
+            <div key={f.label} className={`bg-white rounded-2xl p-4 lg:p-5 shadow-sm border-2 ${f.color} hover:shadow-md transition-shadow`}>
+              <div className="text-3xl lg:text-4xl mb-2">{f.emoji}</div>
               <div>
-                <p className="font-black text-gray-800 text-sm">{f.label}</p>
-                <p className="text-gray-400 text-xs mt-0.5 leading-snug">{f.desc}</p>
+                <p className="font-black text-gray-800 text-sm lg:text-base">{f.label}</p>
+                <p className="text-gray-400 text-xs lg:text-sm mt-0.5 leading-snug">{f.desc}</p>
               </div>
             </div>
           ))}
@@ -235,30 +267,30 @@ export default function LandingPage() {
       </section>
 
       {/* Pricing */}
-      <section className="bg-white py-4">
-      <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-xl font-black text-gray-800 text-center mb-1">Gói dịch vụ</h2>
-        <p className="text-gray-400 text-sm text-center mb-4">1 tài khoản · 1 gia đình · Đồng bộ mọi thiết bị</p>
+      <section id="pricing" className="bg-white py-4 lg:py-20">
+      <div className="max-w-5xl mx-auto px-4 lg:px-12">
+        <h2 className="text-xl lg:text-3xl font-black text-gray-800 text-center mb-1">Gói dịch vụ</h2>
+        <p className="text-gray-400 text-sm lg:text-base text-center mb-4 lg:mb-8">1 tài khoản · 1 gia đình · Đồng bộ mọi thiết bị</p>
 
         {/* Free — compact */}
-        <div className="bg-white rounded-2xl p-4 border-2 border-gray-100 mb-3 flex items-center justify-between gap-3">
+        <div className="bg-white rounded-2xl p-4 lg:p-5 border-2 border-gray-100 mb-3 flex items-center justify-between gap-3">
           <div>
-            <p className="font-black text-gray-700 text-sm">🆓 Dùng thử 7 ngày miễn phí</p>
-            <p className="text-xs text-gray-400 mt-0.5">1 bé · 1 chủ đề/level · Phonics IPA 1 bài · Không cần thẻ tín dụng</p>
+            <p className="font-black text-gray-700 text-sm lg:text-base">🆓 Dùng thử 7 ngày miễn phí</p>
+            <p className="text-xs lg:text-sm text-gray-400 mt-0.5">1 bé · 1 chủ đề/level · Phonics IPA 1 bài · Không cần thẻ tín dụng</p>
           </div>
-          <Link href="/register" className="flex-shrink-0 bg-gray-100 text-gray-600 font-black text-xs px-3 py-2 rounded-xl hover:bg-gray-200 transition-colors whitespace-nowrap">
+          <Link href="/register" className="flex-shrink-0 bg-gray-100 text-gray-600 font-black text-xs lg:text-sm px-3 py-2 lg:px-4 lg:py-2.5 rounded-xl hover:bg-gray-200 transition-colors whitespace-nowrap">
             Thử miễn phí →
           </Link>
         </div>
 
         {/* Pro plans — 3 tiers */}
-        <div className="grid grid-cols-3 gap-3 mt-5">
+        <div className="grid grid-cols-3 gap-3 lg:gap-5 mt-5">
           {/* 1 tháng */}
-          <div className="bg-white rounded-2xl p-3 border-2 border-purple-100 flex flex-col">
-            <p className="text-sm font-black text-purple-400 uppercase tracking-wide">1 tháng</p>
-            <p className="text-xl font-black text-purple-600 mt-1 leading-none">59k</p>
-            <p className="text-xs text-gray-400 mt-0.5 mb-2.5">59k/tháng</p>
-            <ul className="text-xs md:text-sm text-gray-500 space-y-1.5 flex-1 leading-snug">
+          <div className="bg-white rounded-2xl p-3 lg:p-5 border-2 border-purple-100 flex flex-col hover:shadow-lg hover:-translate-y-1 transition-all">
+            <p className="text-sm lg:text-base font-black text-purple-400 uppercase tracking-wide">1 tháng</p>
+            <p className="text-xl lg:text-3xl font-black text-purple-600 mt-1 leading-none">59k</p>
+            <p className="text-xs lg:text-sm text-gray-400 mt-0.5 mb-2.5">59k/tháng</p>
+            <ul className="text-xs md:text-sm lg:text-base text-gray-500 space-y-1.5 flex-1 leading-snug">
               <li>✅ <strong>2 bé</strong></li>
               <li>✅ 5.100+ từ vựng</li>
               <li>✅ AI phát âm<br/><span className="text-gray-400">30 lần/ngày</span></li>
@@ -267,18 +299,18 @@ export default function LandingPage() {
             </ul>
             <LandingUpgradeButton
               label="Chọn"
-              className="mt-3 w-full bg-purple-100 text-purple-700 font-black text-xs py-2 rounded-xl hover:bg-purple-200 transition-colors active:scale-95" />
+              className="mt-3 w-full bg-purple-100 text-purple-700 font-black text-xs lg:text-sm py-2 lg:py-3 rounded-xl hover:bg-purple-200 transition-colors active:scale-95" />
           </div>
 
           {/* 3 tháng — most popular */}
-          <div className="relative bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl p-3 flex flex-col shadow-lg">
+          <div className="relative bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl p-3 lg:p-5 flex flex-col shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all">
             <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-orange-400 text-white text-xs font-black px-2.5 py-0.5 rounded-full whitespace-nowrap shadow">
               PHỔ BIẾN ★
             </div>
-            <p className="text-sm font-black text-white/70 uppercase tracking-wide mt-1">3 tháng</p>
-            <p className="text-xl font-black text-white mt-1 leading-none">159k</p>
-            <p className="text-xs text-white/60 mt-0.5 mb-2.5">53k/tháng · tiết kiệm 10%</p>
-            <ul className="text-xs md:text-sm text-white/90 space-y-1.5 flex-1 leading-snug">
+            <p className="text-sm lg:text-base font-black text-white/70 uppercase tracking-wide mt-1">3 tháng</p>
+            <p className="text-xl lg:text-3xl font-black text-white mt-1 leading-none">159k</p>
+            <p className="text-xs lg:text-sm text-white/60 mt-0.5 mb-2.5">53k/tháng · tiết kiệm 10%</p>
+            <ul className="text-xs md:text-sm lg:text-base text-white/90 space-y-1.5 flex-1 leading-snug">
               <li>✅ <strong>3 bé</strong></li>
               <li>✅ AI phát âm<br/><span className="text-white/70">không giới hạn</span></li>
               <li>✅ Module Word Stress</li>
@@ -286,18 +318,18 @@ export default function LandingPage() {
             </ul>
             <LandingUpgradeButton
               label="Chọn"
-              className="mt-3 w-full bg-white text-purple-600 font-black text-xs py-2 rounded-xl hover:bg-purple-50 transition-colors active:scale-95" />
+              className="mt-3 w-full bg-white text-purple-600 font-black text-xs lg:text-sm py-2 lg:py-3 rounded-xl hover:bg-purple-50 transition-colors active:scale-95" />
           </div>
 
           {/* 6 tháng — best value */}
-          <div className="relative bg-gradient-to-br from-indigo-600 to-violet-600 rounded-2xl p-3 flex flex-col shadow-lg">
+          <div className="relative bg-gradient-to-br from-indigo-600 to-violet-600 rounded-2xl p-3 lg:p-5 flex flex-col shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all">
             <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-amber-400 text-amber-900 text-xs font-black px-2.5 py-0.5 rounded-full whitespace-nowrap shadow">
               GIÁ TỐT NHẤT 👑
             </div>
-            <p className="text-sm font-black text-white/70 uppercase tracking-wide mt-1">6 tháng</p>
-            <p className="text-xl font-black text-white mt-1 leading-none">299k</p>
-            <p className="text-xs text-white/60 mt-0.5 mb-2.5">50k/tháng · tiết kiệm 16%</p>
-            <ul className="text-xs md:text-sm text-white/90 space-y-1.5 flex-1 leading-snug">
+            <p className="text-sm lg:text-base font-black text-white/70 uppercase tracking-wide mt-1">6 tháng</p>
+            <p className="text-xl lg:text-3xl font-black text-white mt-1 leading-none">299k</p>
+            <p className="text-xs lg:text-sm text-white/60 mt-0.5 mb-2.5">50k/tháng · tiết kiệm 16%</p>
+            <ul className="text-xs md:text-sm lg:text-base text-white/90 space-y-1.5 flex-1 leading-snug">
               <li>✅ <strong>3 bé</strong></li>
               <li>✅ AI phát âm<br/><span className="text-white/70">không giới hạn</span></li>
               <li>🎁 Tặng bạn bè<br/><span className="text-white/70">14 ngày Pro</span></li>
@@ -305,16 +337,16 @@ export default function LandingPage() {
             </ul>
             <LandingUpgradeButton
               label="Chọn"
-              className="mt-3 w-full bg-white text-indigo-600 font-black text-xs py-2 rounded-xl hover:bg-indigo-50 transition-colors active:scale-95" />
+              className="mt-3 w-full bg-white text-indigo-600 font-black text-xs lg:text-sm py-2 lg:py-3 rounded-xl hover:bg-indigo-50 transition-colors active:scale-95" />
           </div>
         </div>
 
         {/* All Pro includes */}
-        <div className="mt-3 bg-purple-50 rounded-2xl p-3">
-          <p className="text-xs font-black text-purple-600 mb-2">Tất cả gói Pro đều có:</p>
-          <div className="flex flex-wrap gap-1.5">
+        <div className="mt-3 lg:mt-8 bg-purple-50 rounded-2xl p-3 lg:p-5">
+          <p className="text-xs lg:text-sm font-black text-purple-600 mb-2">Tất cả gói Pro đều có:</p>
+          <div className="flex flex-wrap gap-1.5 lg:gap-2">
             {['📚 Daily: 180 chủ đề · 2.400+ từ', '🎮 10 trò chơi/chủ đề', '🔤 Phonics IPA đầy đủ', '📖 Mini Story audio', '🎓 Academic: 3 books · 180 chủ đề', '⭐ Từ của tôi không giới hạn', '🔁 SRS ôn từ yếu không giới hạn', '🔔 Nhắc học hàng ngày', '📱 Không giới hạn thiết bị'].map(f => (
-              <span key={f} className="text-xs md:text-sm font-bold text-purple-500 bg-white px-2.5 py-1 rounded-lg border border-purple-100">{f}</span>
+              <span key={f} className="text-xs md:text-sm font-bold text-purple-500 bg-white px-2.5 py-1 lg:px-3 lg:py-1.5 rounded-lg border border-purple-100">{f}</span>
             ))}
           </div>
         </div>
@@ -322,26 +354,26 @@ export default function LandingPage() {
       </section>
 
       {/* How it works */}
-      <section className="bg-white border-t border-gray-100 py-4">
-      <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-xl font-black text-gray-800 text-center mb-1">Bắt đầu trải nghiệm thật dễ dàng!</h2>
-        <p className="text-gray-400 text-sm text-center mb-5">4 bước đơn giản để con bắt đầu hành trình từ vựng</p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+      <section className="bg-white border-t border-gray-100 py-4 lg:py-20">
+      <div className="max-w-5xl mx-auto px-4 lg:px-12">
+        <h2 className="text-xl lg:text-3xl font-black text-gray-800 text-center mb-1">Bắt đầu trải nghiệm thật dễ dàng!</h2>
+        <p className="text-gray-400 text-sm lg:text-base text-center mb-5 lg:mb-8">4 bước đơn giản để con bắt đầu hành trình từ vựng</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 lg:gap-5">
           {STEPS.map(s => (
-            <div key={s.n} className="bg-white rounded-2xl p-4 shadow-sm flex items-center gap-4">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white font-black text-lg flex-shrink-0">{s.n}</div>
+            <div key={s.n} className="bg-white rounded-2xl p-4 lg:p-5 shadow-sm flex items-center gap-4 hover:shadow-md transition-shadow">
+              <div className="w-10 h-10 lg:w-12 lg:h-12 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white font-black text-lg lg:text-xl flex-shrink-0">{s.n}</div>
               <div>
-                <p className="font-black text-gray-800 text-sm">{s.emoji} {s.title}</p>
-                <p className="text-gray-400 text-xs mt-0.5">{s.desc}</p>
+                <p className="font-black text-gray-800 text-sm lg:text-base">{s.emoji} {s.title}</p>
+                <p className="text-gray-400 text-xs lg:text-sm mt-0.5">{s.desc}</p>
               </div>
             </div>
           ))}
           {/* Parental involvement tip */}
-          <div className="md:col-span-2 bg-amber-50 border border-amber-200 rounded-2xl p-4 flex gap-3 items-start">
-            <span className="text-xl flex-shrink-0">👨‍👩‍👧</span>
+          <div className="md:col-span-2 bg-amber-50 border border-amber-200 rounded-2xl p-4 lg:p-5 flex gap-3 items-start">
+            <span className="text-xl lg:text-2xl flex-shrink-0">👨‍👩‍👧</span>
             <div>
-              <p className="font-black text-amber-800 text-sm">Lời khuyên từ người tạo ra app</p>
-              <p className="text-amber-700 text-xs mt-1 leading-relaxed">
+              <p className="font-black text-amber-800 text-sm lg:text-base">Lời khuyên từ người tạo ra app</p>
+              <p className="text-amber-700 text-xs lg:text-sm mt-1 leading-relaxed">
                 Với bé dưới 10 tuổi, ba/mẹ nên <strong>ngồi học cùng con</strong> — đặc biệt trong những buổi đầu. Các bé chưa tự giác và cần được hướng dẫn, động viên. Chỉ cần 15–20 phút mỗi ngày cùng nhau là đủ. Khi bé đã quen, bé sẽ tự học một mình rất nhanh!
               </p>
             </div>
@@ -351,16 +383,16 @@ export default function LandingPage() {
       </section>
 
       {/* Founder trust */}
-      <section className="bg-white py-4">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="bg-white rounded-3xl p-6 shadow-sm border-2 border-purple-200 flex gap-4 items-start">
-          <div className="text-4xl flex-shrink-0">👨‍🏫</div>
+      <section className="bg-white py-4 lg:py-16">
+      <div className="max-w-5xl mx-auto px-4 lg:px-12">
+        <div className="bg-white rounded-3xl p-6 lg:p-8 shadow-sm border-2 border-purple-200 flex gap-4 lg:gap-6 items-start">
+          <div className="text-4xl lg:text-5xl flex-shrink-0">👨‍🏫</div>
           <div>
-            <p className="font-black text-gray-800 text-sm mb-1">Được thiết kế bởi Thầy Andie Nguyễn</p>
-            <p className="text-gray-500 text-xs leading-relaxed">
+            <p className="font-black text-gray-800 text-sm lg:text-base mb-1">Được thiết kế bởi Thầy Andie Nguyễn</p>
+            <p className="text-gray-500 text-xs lg:text-sm leading-relaxed">
               Đồng sáng lập <strong>IELTS CHAMPION</strong> · IELTS 8.5 Overall (Writing 8.5) · Thạc sỹ MBA Vương quốc Anh · Học bổng toàn phần của Chính phủ Singapore · Tốt nghiệp <strong>School of Business, National University of Singapore</strong> (Top 8 thế giới) · Hơn 10 năm kinh nghiệm giảng dạy IELTS/SAT · Trực tiếp đào tạo nhiều học viên IELTS 7.0, 7.5, 8.0.
             </p>
-            <p className="text-purple-500 text-xs font-semibold mt-2 leading-relaxed">
+            <p className="text-purple-500 text-xs lg:text-sm font-semibold mt-2 leading-relaxed">
               &quot;Khi học Tiếng Anh và ngoại ngữ nói chung thì <em>Vocabulary is King</em> — học sinh nào có vốn từ đa dạng, học nhanh nhớ lâu sẽ có lợi thế vô cùng lớn. Tuy nhiên, một số cách học từ vựng truyền thống, học chay mà không có câu ví dụ, không phát âm hay hình ảnh minh hoạ sẽ làm các em mau chán, khó áp dụng từ mới. Dựa trên kinh nghiệm giảng dạy cho học sinh và chính các con của mình, tôi tạo ra VocabWise để giúp trẻ học từ vựng Tiếng Anh thật vui, có hệ thống, và hiệu quả thực sự!&quot;
             </p>
           </div>
@@ -369,18 +401,18 @@ export default function LandingPage() {
       </section>
 
       {/* FAQ — SEO structured content */}
-      <section className="bg-white border-t border-gray-100 py-4">
-      <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-xl font-black text-gray-800 text-center mb-1">Câu hỏi thường gặp</h2>
-        <p className="text-gray-400 text-sm text-center mb-5">Về VocabWise</p>
+      <section id="faq" className="bg-white border-t border-gray-100 py-4 lg:py-20">
+      <div className="max-w-3xl mx-auto px-4 lg:px-0">
+        <h2 className="text-xl lg:text-3xl font-black text-gray-800 text-center mb-1">Câu hỏi thường gặp</h2>
+        <p className="text-gray-400 text-sm lg:text-base text-center mb-5 lg:mb-8">Về VocabWise</p>
         <div className="space-y-3">
           {FAQ_ITEMS.map((item) => (
             <details key={item.q} className="bg-white rounded-2xl shadow-sm border border-gray-100 group">
-              <summary className="px-5 py-4 font-medium text-gray-800 text-sm cursor-pointer list-none flex items-center justify-between gap-3">
+              <summary className="px-5 py-4 lg:px-6 lg:py-5 font-medium text-gray-800 text-sm lg:text-base cursor-pointer list-none flex items-center justify-between gap-3 hover:text-purple-600 transition-colors">
                 {item.q}
                 <span className="text-purple-400 text-lg flex-shrink-0 group-open:rotate-45 transition-transform">+</span>
               </summary>
-              <p className="px-5 pb-4 text-gray-500 text-sm leading-relaxed border-t border-gray-50 pt-3 whitespace-pre-line">{item.a}</p>
+              <p className="px-5 pb-4 lg:px-6 lg:pb-5 text-gray-500 text-sm lg:text-base leading-relaxed border-t border-gray-50 pt-3 whitespace-pre-line">{item.a}</p>
             </details>
           ))}
         </div>
@@ -389,7 +421,7 @@ export default function LandingPage() {
 
       {/* Footer */}
       <footer className="border-t border-gray-200 bg-white">
-        <div className="max-w-7xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between gap-y-2 gap-x-4 text-xs text-gray-400">
+        <div className="max-w-7xl mx-auto px-4 lg:px-12 py-4 lg:py-6 flex flex-wrap items-center justify-between gap-y-2 gap-x-4 text-xs lg:text-sm text-gray-400">
           <span className="font-semibold">📚 © 2026 VocabWise</span>
           <div className="flex items-center gap-4">
             <Link href="/terms" className="hover:text-gray-600 transition-colors">📄 Điều khoản</Link>
