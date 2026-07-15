@@ -754,23 +754,23 @@
       "items": [
         {
           "id": 1,
-          "sentence": "______ that unequal access to healthcare perpetuates social inequality.",
+          "sentence": "Multiple major health agencies explicitly endorse this conclusion: ______ that unequal access to healthcare perpetuates social inequality.",
           "options": [
             "It is widely recognised",
-            "It is alleged",
-            "It is reported",
-            "It is rarely mentioned"
+            "It is completely unknown",
+            "It is universally rejected",
+            "It is privately denied"
           ],
           "answer": "It is widely recognised"
         },
         {
           "id": 2,
-          "sentence": "______ that several private hospitals inflated treatment costs by over 200% last year.",
+          "sentence": "According to the regulator's published audit, ______ that several private hospitals inflated treatment costs by over 200% last year.",
           "options": [
-            "It is widely accepted",
-            "It is seldom noted",
+            "It is universally denied",
+            "It is completely unknown",
             "It is reported",
-            "It is commonly argued"
+            "It is never mentioned"
           ],
           "answer": "It is reported"
         },
@@ -787,22 +787,22 @@
         },
         {
           "id": 4,
-          "sentence": "______ that preventive care reduces long‑term costs, though some dispute the scale of savings.",
+          "sentence": "Nearly all major health bodies endorse the general conclusion: ______ that preventive care reduces longâterm costs, though some dispute the scale of savings.",
           "options": [
-            "It is alleged",
+            "It is universally rejected",
             "It is widely accepted",
-            "It is reported",
-            "It is seldom noted"
+            "It is completely unknown",
+            "It is never discussed"
           ],
           "answer": "It is widely accepted"
         },
         {
           "id": 5,
-          "sentence": "______ that universal healthcare is both achievable and economically beneficial.",
+          "sentence": "This remains a contested policy position rather than an established fact: ______ that universal healthcare is both achievable and economically beneficial.",
           "options": [
-            "It is reported",
-            "It is alleged",
-            "It is widely recognised",
+            "It is conclusively proven",
+            "It is universally rejected",
+            "It is never discussed",
             "It is commonly argued"
           ],
           "answer": "It is commonly argued"
@@ -870,27 +870,27 @@
         "rarely",
         "occasionally",
         "frequently",
-        "seldom"
+        "consistently"
       ],
       "items": [
         {
           "id": 1,
-          "sentence": "It is ______ recognised that access to healthcare varies significantly across regions.",
+          "sentence": "Across nearly all countries and major health institutions, it is ______ recognised that access to healthcare varies significantly across regions.",
           "answer": "widely"
         },
         {
           "id": 2,
-          "sentence": "Preventive care is ______ prioritised over emergency treatment in public hospitals.",
-          "answer": "rarely"
+          "sentence": "In one hospital, preventive care was prioritised in 82% of routine planning meetings, though not according to a consistent schedule; it was therefore ______ prioritised over emergency treatment there.",
+          "answer": "frequently"
         },
         {
           "id": 3,
-          "sentence": "Market-based healthcare models are ______ seen as truly equitable by critics.",
-          "answer": "seldom"
+          "sentence": "In a review of 100 critical articles, only two described market-based healthcare models as truly equitable; such models are ______ seen as equitable by critics.",
+          "answer": "rarely"
         },
         {
           "id": 4,
-          "sentence": "The link between poverty and poor health is ______ disputed by mainstream economists.",
+          "sentence": "In roughly one quarter of major reviews, mainstream economists disputed the link between poverty and poor health; the link was therefore ______ disputed.",
           "answer": "occasionally"
         },
         {

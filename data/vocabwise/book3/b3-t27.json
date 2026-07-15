@@ -751,9 +751,9 @@
           "id": 1,
           "sentence": "_____ the rising cost of living, many families are forced to cut back on education expenses.",
           "options": [
-            "Despite",
-            "Because of",
-            "Considering",
+            "Although",
+            "Because",
+            "Unless",
             "Given"
           ],
           "answer": "Given"
@@ -762,10 +762,10 @@
           "id": 2,
           "sentence": "_____ the evidence presented, the committee decided to postpone the reform.",
           "options": [
-            "In spite of",
-            "According to",
+            "Although",
+            "According",
             "Despite",
-            "Following"
+            "Because"
           ],
           "answer": "Despite"
         },
@@ -774,9 +774,9 @@
           "sentence": "_____ the lack of affordable housing, urban planners are exploring new zoning policies.",
           "options": [
             "Because",
-            "Despite",
+            "When",
             "Due to",
-            "With"
+            "Although"
           ],
           "answer": "Due to"
         },
@@ -796,7 +796,7 @@
           "sentence": "_____ the pandemic's impact, many NGOs shifted their focus to digital outreach.",
           "options": [
             "Considering",
-            "Despite",
+            "Although",
             "Because",
             "While"
           ],
@@ -810,59 +810,60 @@
         {
           "id": 1,
           "words": [
-            "to",
-            "address",
-            "inequality",
+            "As",
+            "for",
+            "inequality,",
             "we",
             "must",
-            "first",
-            "recognise",
+            "address",
             "its",
             "systemic",
-            "roots"
+            "roots",
+            "first"
           ],
-          "answer": "To address inequality we must first recognise its systemic roots"
+          "answer": "As for inequality, we must address its systemic roots first"
         },
         {
           "id": 2,
           "words": [
-            "despite",
+            "Despite",
             "the",
-            "shortfall",
+            "shortfall,",
+            "the",
             "government",
             "has",
             "committed",
             "additional",
             "funds"
           ],
-          "answer": "Despite the shortfall government has committed additional funds"
+          "answer": "Despite the shortfall, the government has committed additional funds"
         },
         {
           "id": 3,
           "words": [
-            "in",
+            "In",
             "response",
             "to",
             "public",
-            "outcry",
+            "outcry,",
             "the",
             "agency",
             "revised",
             "its",
             "policy"
           ],
-          "answer": "In response to public outcry the agency revised its policy"
+          "answer": "In response to public outcry, the agency revised its policy"
         }
       ]
     },
     "ex3_gap_fill": {
       "instruction": "Điền từ thích hợp từ ngân hàng từ vào chỗ trống để hoàn thành câu đảo ngữ.",
       "word_bank": [
-        "Given",
         "Despite",
-        "Considering",
+        "Given that",
+        "Considering whether",
         "Due to",
-        "In contrast",
+        "In contrast with",
         "Nevertheless"
       ],
       "items": [
@@ -873,13 +874,13 @@
         },
         {
           "id": 2,
-          "sentence": "_____ the new tax legislation, many small enterprises anticipate higher operating costs.",
-          "answer": "Given"
+          "sentence": "_____ the new tax legislation undeniably raises payroll taxes, many small enterprises anticipate higher operating costs.",
+          "answer": "Given that"
         },
         {
           "id": 3,
-          "sentence": "_____ the extensive research, the council postponed the decision on the housing project.",
-          "answer": "Considering"
+          "sentence": "_____ to approve the housing project, the council postponed the decision.",
+          "answer": "Considering whether"
         },
         {
           "id": 4,
@@ -888,8 +889,8 @@
         },
         {
           "id": 5,
-          "sentence": "_____ the previous year's successes, the program was expanded to additional regions.",
-          "answer": "In contrast"
+          "sentence": "To make a direct comparison, _____ the previous year's limited regional scope, the current program operated nationwide.",
+          "answer": "In contrast with"
         }
       ]
     },

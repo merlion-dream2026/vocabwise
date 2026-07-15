@@ -683,10 +683,10 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Refugees often _____ the cultural norms of their host country within the first year.",
+          "sentence": "Refugees often _____ the local community within the first year.",
           "options": [
-            "adapt to",
-            "contribute to",
+            "adapt with",
+            "contribute for",
             "integrate into",
             "adjust with"
           ],
@@ -694,12 +694,12 @@
         },
         {
           "id": 2,
-          "sentence": "The new policy aims to _____ the local economy by encouraging skilled migrants to start businesses.",
+          "sentence": "The new policy aims to _____ economic growth by encouraging skilled migrants to start businesses.",
           "options": [
-            "integrate into",
-            "adapt to",
+            "integrate with",
+            "adapt for",
             "contribute to",
-            "benefit from"
+            "benefit into"
           ],
           "answer": "contribute to"
         },
@@ -707,8 +707,8 @@
           "id": 3,
           "sentence": "Children who _____ a foreign school system may experience initial difficulties with language.",
           "options": [
-            "contribute to",
-            "integrate into",
+            "contribute for",
+            "integrate with",
             "adapt to",
             "adjust with"
           ],
@@ -718,8 +718,8 @@
           "id": 4,
           "sentence": "Community centres _____ the inclusion of newcomers through language classes and cultural events.",
           "options": [
-            "adapt to",
-            "integrate into",
+            "adapt with",
+            "integrate with",
             "contribute to",
             "support with"
           ],
@@ -727,14 +727,14 @@
         },
         {
           "id": 5,
-          "sentence": "Successful societies _____ newcomers by offering pathways to citizenship.",
+          "sentence": "Successful societies _____ newcomers into civic life by offering pathways to citizenship.",
           "options": [
-            "integrate into",
-            "adapt to",
-            "contribute to",
-            "accept with"
+            "integrate",
+            "adapt",
+            "contribute",
+            "belong"
           ],
-          "answer": "integrate into"
+          "answer": "integrate"
         }
       ]
     },
@@ -744,46 +744,42 @@
         {
           "id": 1,
           "words": [
-            "the",
-            "students",
+            "They",
             "must",
             "adapt",
             "to",
-            "new",
-            "environment"
+            "it"
           ],
-          "answer": "the students must adapt to new environment"
+          "answer": "They must adapt to it"
         },
         {
           "id": 2,
           "words": [
+            "Through",
+            "their",
+            "skills,",
             "they",
             "can",
             "contribute",
             "to",
             "the",
             "local",
-            "economy",
-            "with",
-            "their",
-            "skills"
+            "economy"
           ],
-          "answer": "they can contribute to the local economy with their skills"
+          "answer": "Through their skills, they can contribute to the local economy"
         },
         {
           "id": 3,
           "words": [
-            "new",
-            "families",
+            "They",
             "are",
             "encouraged",
             "to",
             "integrate",
             "into",
-            "the",
-            "community"
+            "it"
           ],
-          "answer": "new families are encouraged to integrate into the community"
+          "answer": "They are encouraged to integrate into it"
         }
       ]
     },
@@ -805,22 +801,22 @@
         },
         {
           "id": 2,
-          "sentence": "Host societies benefit when newcomers _____ to civic life.",
+          "sentence": "Host societies benefit from the time and effort newcomers _____ to civic life.",
           "answer": "contribute"
         },
         {
           "id": 3,
-          "sentence": "Language programs help refugees _____ into the local community more quickly.",
+          "sentence": "Language programs help refugees _____ into the local community more quickly without giving up their original identities.",
           "answer": "integrate"
         },
         {
           "id": 4,
-          "sentence": "Newcomers often seek ways to _____ in their host society.",
+          "sentence": "Newcomers often want to feel that they _____ in their host society rather than merely contribute to it.",
           "answer": "belong"
         },
         {
           "id": 5,
-          "sentence": "When migrants _____, they may lose aspects of their original identity.",
+          "sentence": "When migrants _____ rather than merely integrate, they may lose aspects of their original identity.",
           "answer": "assimilate"
         }
       ]

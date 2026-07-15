@@ -704,9 +704,9 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The experiment yielded unexpected results, _____ the researchers revised their hypothesis.",
+          "sentence": "The unexpected results directly contradicted the hypothesis; _____, the researchers revised it.",
           "options": [
-            "hence",
+            "meanwhile",
             "nevertheless",
             "thus",
             "by contrast"
@@ -740,7 +740,7 @@
           "sentence": "The river flooded the nearby fields, _____ the farmers suffered significant losses.",
           "options": [
             "by contrast",
-            "thus",
+            "however",
             "nevertheless",
             "consequently"
           ],
@@ -748,14 +748,14 @@
         },
         {
           "id": 5,
-          "sentence": "He missed the deadline, _____ he was granted an extension due to extenuating circumstances.",
+          "sentence": "He missed the deadline; _____, despite this failure, he was granted an extension due to extenuating circumstances.",
           "options": [
             "nevertheless",
             "hence",
             "by contrast",
             "thus"
           ],
-          "answer": "hence"
+          "answer": "nevertheless"
         }
       ]
     },
@@ -765,33 +765,37 @@
         {
           "id": 1,
           "words": [
-            "The",
-            "researchers",
-            "analyzed",
+            "After",
+            "analysing",
             "the",
-            "data",
+            "data,",
+            "the",
+            "researchers",
             "thus",
-            "conclusions",
-            "were",
-            "drawn"
+            "drew",
+            "their",
+            "conclusions"
           ],
-          "answer": "The researchers analyzed the data thus conclusions were drawn"
+          "answer": "After analysing the data, the researchers thus drew their conclusions"
         },
         {
           "id": 2,
           "words": [
             "The",
-            "public",
-            "supports",
+            "citizens",
+            "support",
             "the",
-            "policy",
-            "by contrast",
+            "policy;",
+            "by",
+            "contrast,",
+            "it",
+            "is",
+            "rejected",
+            "by",
             "the",
-            "government",
-            "rejects",
-            "it"
+            "government"
           ],
-          "answer": "The public supports the policy by contrast the government rejects it"
+          "answer": "The citizens support the policy; by contrast, it is rejected by the government"
         },
         {
           "id": 3,
@@ -810,38 +814,38 @@
     "ex3_gap_fill": {
       "instruction": "Chọn từ thích hợp trong ngân hàng từ để hoàn thành câu.",
       "word_bank": [
-        "thus",
         "consequently",
         "nevertheless",
         "by contrast",
-        "hence",
-        "however"
+        "thereby",
+        "although",
+        "because of"
       ],
       "items": [
         {
           "id": 1,
-          "sentence": "The evidence was inconclusive, _____ the jury could not reach a verdict.",
+          "sentence": "The evidence was inconclusive; _____, the jury could not reach a verdict.",
           "answer": "consequently"
         },
         {
           "id": 2,
-          "sentence": "She had little experience, _____ she performed the task flawlessly.",
-          "answer": "nevertheless"
+          "sentence": "_____ she had little experience, she performed the task flawlessly.",
+          "answer": "although"
         },
         {
           "id": 3,
-          "sentence": "The two theories share many assumptions; _____, their predictions diverge sharply.",
+          "sentence": "The first theory predicts growth; _____, the second predicts decline.",
           "answer": "by contrast"
         },
         {
           "id": 4,
           "sentence": "The experiment confirmed the hypothesis, _____ supporting the initial claim.",
-          "answer": "thus"
+          "answer": "thereby"
         },
         {
           "id": 5,
-          "sentence": "The costs are high; _____, the benefits outweigh the expenses.",
-          "answer": "hence"
+          "sentence": "The treatment caused severe side effects; _____, despite this drawback, the patient chose to continue it.",
+          "answer": "nevertheless"
         }
       ]
     },

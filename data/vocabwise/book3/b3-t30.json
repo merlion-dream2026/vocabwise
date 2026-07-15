@@ -749,7 +749,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The board _____ consider every proposal before voting.",
+          "sentence": "The chairperson currently _____ consider every proposal before voting, as required by the rules.",
           "options": [
             "did",
             "does",
@@ -760,7 +760,7 @@
         },
         {
           "id": 2,
-          "sentence": "She appreciated _____ detailed analysis you provided.",
+          "sentence": "She appreciated _____ same detailed analysis you provided.",
           "options": [
             "the very",
             "the most",
@@ -771,7 +771,7 @@
         },
         {
           "id": 3,
-          "sentence": "He _____ understand the complexities of global governance.",
+          "sentence": "He now _____ understand the complexities of global governance.",
           "options": [
             "absolutely",
             "did",
@@ -793,12 +793,12 @@
         },
         {
           "id": 5,
-          "sentence": "They _____ recognize the importance of ethical conduct.",
+          "sentence": "They currently _____ recognize the importance of ethical conduct.",
           "options": [
             "did",
             "the very",
             "do",
-            "absolutely"
+            "does"
           ],
           "answer": "do"
         }
@@ -810,32 +810,42 @@
         {
           "id": 1,
           "words": [
-            "inspire",
-            "Leaders",
-            "do"
+            "According",
+            "to",
+            "the",
+            "evidence,",
+            "leaders",
+            "do",
+            "inspire"
           ],
-          "answer": "Leaders do inspire"
+          "answer": "According to the evidence, leaders do inspire"
         },
         {
           "id": 2,
           "words": [
-            "is",
+            "Transparent",
+            "institutions",
+            "make",
+            "accountability",
             "absolutely",
-            "Accountability",
             "crucial"
           ],
-          "answer": "Accountability is absolutely crucial"
+          "answer": "Transparent institutions make accountability absolutely crucial"
         },
         {
           "id": 3,
           "words": [
-            "requires",
-            "Leadership",
+            "In",
+            "a",
+            "crisis,",
+            "we",
+            "need",
             "the",
             "very",
-            "best"
+            "best",
+            "leadership"
           ],
-          "answer": "Leadership requires the very best"
+          "answer": "In a crisis, we need the very best leadership"
         }
       ]
     },
@@ -847,12 +857,12 @@
         "absolutely",
         "do",
         "did",
-        "indeed"
+        "somewhat"
       ],
       "items": [
         {
           "id": 1,
-          "sentence": "She _____ understand the stakes involved.",
+          "sentence": "At present, she _____ understand the stakes involved.",
           "answer": "does"
         },
         {
@@ -862,17 +872,17 @@
         },
         {
           "id": 3,
-          "sentence": "We _____ need to act now to prevent further damage.",
+          "sentence": "Not only _____ we currently need to act, but we must also prevent further damage.",
           "answer": "do"
         },
         {
           "id": 4,
-          "sentence": "He _____ appreciated the support from his team.",
+          "sentence": "At the time, he _____ not appreciate the support from his team.",
           "answer": "did"
         },
         {
           "id": 5,
-          "sentence": "Such behavior is _____ unacceptable.",
+          "sentence": "Under the policy, such behavior is _____ unacceptable under all circumstances.",
           "answer": "absolutely"
         }
       ]

@@ -760,7 +760,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "I wonder _____ the rover will detect water ice beneath the Martian surface.",
+          "sentence": "Scientists are uncertain about the yes-or-no question of _____ the rover will detect water ice beneath the Martian surface.",
           "options": [
             "how the rover will detect water ice beneath the Martian surface",
             "what the rover will detect water ice beneath the Martian surface",
@@ -771,7 +771,7 @@
         },
         {
           "id": 2,
-          "sentence": "The question is _____ the new telescope can resolve distant exoplanet atmospheres.",
+          "sentence": "The committee discussed the yes-or-no issue of _____ the new telescope can resolve distant exoplanet atmospheres.",
           "options": [
             "if the new telescope can resolve distant exoplanet atmospheres",
             "what the new telescope can resolve distant exoplanet atmospheres",
@@ -782,7 +782,7 @@
         },
         {
           "id": 3,
-          "sentence": "Scientists are unsure _____ the particle accelerator will achieve the required energy levels.",
+          "sentence": "Scientists are unsure about the yes-or-no issue of _____ the particle accelerator will achieve the required energy levels.",
           "options": [
             "how the particle accelerator will achieve the required energy levels",
             "if the particle accelerator will achieve the required energy levels",
@@ -793,7 +793,7 @@
         },
         {
           "id": 4,
-          "sentence": "She asked herself _____ the mission timeline could be shortened without compromising safety.",
+          "sentence": "She asked herself the yes-or-no question of _____ the mission timeline could be shortened without compromising safety.",
           "options": [
             "if the mission timeline could be shortened without compromising safety",
             "how the mission timeline could be shortened without compromising safety",
@@ -804,7 +804,7 @@
         },
         {
           "id": 5,
-          "sentence": "The committee debated _____ the funding allocation would cover all necessary research phases.",
+          "sentence": "The committee debated the yes-or-no issue of _____ the funding allocation would cover all necessary research phases.",
           "options": [
             "how the funding allocation would cover all necessary research phases",
             "if the funding allocation would cover all necessary research phases",
@@ -821,39 +821,45 @@
         {
           "id": 1,
           "words": [
-            "wonder",
+            "Privately,",
             "I",
+            "wonder",
             "whether",
             "the",
             "probe",
             "will",
             "capture",
-            "high‑resolution",
+            "highâresolution",
             "images"
           ],
-          "answer": "I wonder whether the probe will capture high‑resolution images"
+          "answer": "Privately, I wonder whether the probe will capture highâresolution images"
         },
         {
           "id": 2,
           "words": [
+            "At",
+            "the",
+            "meeting,",
+            "the",
             "question",
-            "The",
             "is",
             "what",
-            "future",
-            "space",
-            "policy",
-            "requires",
+            "we",
+            "must",
+            "do",
+            "to",
+            "secure",
             "global",
             "cooperation"
           ],
-          "answer": "The question is what future space policy requires global cooperation"
+          "answer": "At the meeting, the question is what we must do to secure global cooperation"
         },
         {
           "id": 3,
           "words": [
+            "Collectively,",
+            "scientists",
             "wonder",
-            "Scientists",
             "if",
             "the",
             "new",
@@ -862,7 +868,7 @@
             "detect",
             "micrometeoroids"
           ],
-          "answer": "Scientists wonder if the new sensor can detect micrometeoroids"
+          "answer": "Collectively, scientists wonder if the new sensor can detect micrometeoroids"
         }
       ]
     },
@@ -879,27 +885,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "I wonder _____ the satellite will maintain its orbit for ten years.",
+          "sentence": "I wonder _____ or not the satellite will maintain its orbit for ten years.",
           "answer": "whether"
         },
         {
           "id": 2,
-          "sentence": "The question is _____ the data suggests a new physics model.",
+          "sentence": "The question is _____ the data suggests about the new physics model.",
           "answer": "what"
         },
         {
           "id": 3,
-          "sentence": "Researchers are curious _____ the experiment will produce consistent results.",
-          "answer": "if"
+          "sentence": "Researchers are curious about _____ or not the experiment will produce consistent results.",
+          "answer": "whether"
         },
         {
           "id": 4,
-          "sentence": "She pondered _____ the crew could cope with prolonged isolation.",
+          "sentence": "She knew the crew could cope but pondered _____ they would do so, specifically which strategies they would use.",
           "answer": "how"
         },
         {
           "id": 5,
-          "sentence": "We need to determine _____ the launch window opens next month.",
+          "sentence": "We know the launch window opens next month, but we need to determine _____ it opensâthe exact date.",
           "answer": "when"
         }
       ]

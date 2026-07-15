@@ -753,8 +753,8 @@
           "sentence": "The recent data ___ suggest a shift in public opinion towards sustainability.",
           "options": [
             "arguably",
-            "clearly",
-            "undoubtedly",
+            "clear",
+            "undoubted",
             "it appears"
           ],
           "answer": "arguably"
@@ -811,13 +811,13 @@
         {
           "id": 1,
           "words": [
-            "arguably",
+            "Arguably,",
             "the",
             "findings",
             "are",
             "preliminary"
           ],
-          "answer": "arguably the findings are preliminary"
+          "answer": "Arguably, the findings are preliminary"
         },
         {
           "id": 2,
@@ -857,9 +857,9 @@
         "arguably",
         "it appears",
         "may be said to",
-        "clearly",
-        "undoubtedly",
-        "perhaps"
+        "clear",
+        "undoubted",
+        "possibility"
       ],
       "items": [
         {

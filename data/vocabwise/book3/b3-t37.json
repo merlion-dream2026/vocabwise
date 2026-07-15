@@ -697,9 +697,9 @@
           "id": 1,
           "sentence": "The committee approved the proposal, _____ the members expressed concerns.",
           "options": [
-            "even though",
+            "despite",
             "however",
-            "for all that",
+            "nevertheless",
             "although"
           ],
           "answer": "although"
@@ -708,10 +708,10 @@
           "id": 2,
           "sentence": "She continued her research, _____ funding was cut.",
           "options": [
-            "for all that",
+            "despite",
             "however",
             "even though",
-            "although"
+            "nevertheless"
           ],
           "answer": "even though"
         },
@@ -721,8 +721,8 @@
           "options": [
             "however",
             "for all that",
-            "even though",
-            "although"
+            "despite",
+            "nevertheless"
           ],
           "answer": "for all that"
         },
@@ -730,10 +730,10 @@
           "id": 4,
           "sentence": "He accepted the award, _____ he felt the judges were biased.",
           "options": [
-            "although",
+            "despite",
             "even though",
             "however",
-            "for all that"
+            "nevertheless"
           ],
           "answer": "even though"
         },
@@ -741,9 +741,9 @@
           "id": 5,
           "sentence": "The novel became a bestseller, _____ it received mixed reviews from critics.",
           "options": [
-            "for all that",
+            "nevertheless",
             "however",
-            "even though",
+            "despite",
             "although"
           ],
           "answer": "although"
@@ -756,18 +756,18 @@
         {
           "id": 1,
           "words": [
-            "even",
+            "Even",
             "though",
             "the",
             "team",
             "was",
-            "exhausted",
+            "exhausted,",
             "they",
             "finished",
             "the",
             "project"
           ],
-          "answer": "even though the team was exhausted they finished the project"
+          "answer": "Even though the team was exhausted, they finished the project"
         },
         {
           "id": 2,
@@ -787,46 +787,46 @@
         {
           "id": 3,
           "words": [
-            "for",
+            "For",
             "all",
             "that",
             "the",
             "budget",
             "was",
-            "limited",
+            "limited,",
             "the",
             "campaign",
             "succeeded"
           ],
-          "answer": "for all that the budget was limited the campaign succeeded"
+          "answer": "For all that the budget was limited, the campaign succeeded"
         }
       ]
     },
     "ex3_gap_fill": {
       "instruction": "Điền từ thích hợp vào chỗ trống.",
       "word_bank": [
-        "even though",
-        "however",
-        "for all that",
+        "even",
+        "however carefully",
+        "all",
         "although",
         "nevertheless",
-        "though"
+        "despite"
       ],
       "items": [
         {
           "id": 1,
-          "sentence": "The artist embraced abstraction, _____ traditional techniques remained popular.",
-          "answer": "even though"
+          "sentence": "The artist embraced abstraction, _____ though traditional techniques remained popular.",
+          "answer": "even"
         },
         {
           "id": 2,
-          "sentence": "The conference attracted scholars worldwide, _____ many sessions were cancelled due to travel restrictions.",
-          "answer": "however"
+          "sentence": "_____ the first report was written, the reviewers still found serious weaknesses.",
+          "answer": "however carefully"
         },
         {
           "id": 3,
-          "sentence": "The sculpture was praised, _____ its creator was relatively unknown.",
-          "answer": "for all that"
+          "sentence": "The sculpture was praised, for _____ that its creator was relatively unknown.",
+          "answer": "all"
         },
         {
           "id": 4,
@@ -835,7 +835,7 @@
         },
         {
           "id": 5,
-          "sentence": "The startup secured funding, _____ it still faced market challenges.",
+          "sentence": "The startup had been rejected repeatedly; it _____ continued to seek funding and eventually succeeded.",
           "answer": "nevertheless"
         }
       ]

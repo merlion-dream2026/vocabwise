@@ -689,42 +689,42 @@
           "sentence": "_____ that the results were influenced by uncontrolled variables.",
           "options": [
             "It could be argued",
-            "It must",
-            "It seems",
-            "It is certain"
+            "It could argued",
+            "It can be argue",
+            "It arguing"
           ],
           "answer": "It could be argued"
         },
         {
           "id": 2,
-          "sentence": "_____ the data support the hypothesis, further testing is required.",
+          "sentence": "_____ that the data support the hypothesis, further testing is required.",
           "options": [
-            "It proves",
-            "It indicates",
+            "It suggesting",
+            "It is suggest",
             "It is suggested",
-            "It definitely"
+            "It suggested is"
           ],
           "answer": "It is suggested"
         },
         {
           "id": 3,
-          "sentence": "_____ that the methodology was flawed, the study was re‑evaluated.",
+          "sentence": "_____ that the methodology was flawed, the study was reâevaluated.",
           "options": [
-            "It is obvious",
+            "It is argue",
             "It could be argued",
-            "It has",
-            "It will"
+            "It could argued",
+            "It be argued"
           ],
           "answer": "It could be argued"
         },
         {
           "id": 4,
-          "sentence": "_____ the findings are generalizable, the authors caution against over‑interpretation.",
+          "sentence": "_____ that the findings are generalizable, the authors caution against overâinterpretation.",
           "options": [
-            "It is known",
+            "It is believing",
             "It is suggested",
-            "It is guaranteed",
-            "It is believed"
+            "It is suggest",
+            "It suggesting"
           ],
           "answer": "It is suggested"
         },
@@ -732,10 +732,10 @@
           "id": 5,
           "sentence": "_____ that the correlation does not imply causation, the paper includes a discussion of confounding factors.",
           "options": [
-            "It definitely",
-            "It appears",
+            "It arguing",
+            "It appears be",
             "It could be argued",
-            "It must"
+            "It could argued"
           ],
           "answer": "It could be argued"
         }
@@ -747,7 +747,10 @@
         {
           "id": 1,
           "words": [
-            "It",
+            "In",
+            "the",
+            "report,",
+            "it",
             "could",
             "be",
             "argued",
@@ -758,12 +761,15 @@
             "was",
             "insufficient"
           ],
-          "answer": "It could be argued that the sample size was insufficient"
+          "answer": "In the report, it could be argued that the sample size was insufficient"
         },
         {
           "id": 2,
           "words": [
-            "It",
+            "In",
+            "the",
+            "guidelines,",
+            "it",
             "is",
             "suggested",
             "that",
@@ -774,23 +780,26 @@
             "the",
             "limitations"
           ],
-          "answer": "It is suggested that future research should address the limitations"
+          "answer": "In the guidelines, it is suggested that future research should address the limitations"
         },
         {
           "id": 3,
           "words": [
-            "It",
+            "For",
+            "ethical",
+            "reasons,",
+            "it",
             "could",
             "be",
             "argued",
             "that",
-            "ethical",
+            "these",
             "concerns",
             "must",
             "be",
             "considered"
           ],
-          "answer": "It could be argued that ethical concerns must be considered"
+          "answer": "For ethical reasons, it could be argued that these concerns must be considered"
         }
       ]
     },
@@ -799,10 +808,10 @@
       "word_bank": [
         "could",
         "is",
-        "might",
-        "should",
-        "would",
-        "must"
+        "has",
+        "was",
+        "being",
+        "argues"
       ],
       "items": [
         {
@@ -812,23 +821,23 @@
         },
         {
           "id": 2,
-          "sentence": "It _____ be suggested that the theory needs refinement.",
+          "sentence": "It _____ currently being suggested that the theory needs refinement.",
           "answer": "is"
         },
         {
           "id": 3,
-          "sentence": "It _____ be argued that the data may be biased.",
-          "answer": "might"
+          "sentence": "It _____ been argued that the data may be biased.",
+          "answer": "has"
         },
         {
           "id": 4,
-          "sentence": "It _____ be recommended that researchers adopt a mixed‑methods approach.",
-          "answer": "should"
+          "sentence": "At the meeting yesterday, it _____ recommended that researchers adopt a mixedâmethods approach.",
+          "answer": "was"
         },
         {
           "id": 5,
-          "sentence": "It _____ be expected that further replication will confirm the findings.",
-          "answer": "would"
+          "sentence": "As a current expectation, it _____ expected that further replication will confirm the findings.",
+          "answer": "is"
         }
       ]
     },

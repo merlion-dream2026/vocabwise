@@ -709,20 +709,20 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ feeling exhausted, she still managed to finish the report.",
+          "sentence": "_____ reviewing the report, she noticed that several figures were missing.",
           "options": [
             "While",
             "Having",
-            "Despite",
+            "In spite",
             "Because"
           ],
           "answer": "While"
         },
         {
           "id": 2,
-          "sentence": "_____ being aware of the benefits of mindfulness, many people still ignore it.",
+          "sentence": "_____ their awareness of the benefits of mindfulness, many people still ignore it.",
           "options": [
-            "Having",
+            "Although",
             "While",
             "Despite",
             "Because"
@@ -753,7 +753,7 @@
         },
         {
           "id": 5,
-          "sentence": "_____ being under pressure, he delivered an outstanding presentation.",
+          "sentence": "_____ after being warned that the presentation might fail, he delivered it successfully.",
           "options": [
             "Even",
             "While",
@@ -773,19 +773,19 @@
             "Having",
             "identified",
             "the",
-            "triggers",
+            "triggers,",
             "they",
             "implemented",
             "coping",
             "strategies"
           ],
-          "answer": "Having identified the triggers they implemented coping strategies"
+          "answer": "Having identified the triggers, they implemented coping strategies"
         },
         {
           "id": 2,
           "words": [
             "While",
-            "exercising",
+            "exercising,",
             "he",
             "noticed",
             "a",
@@ -795,14 +795,14 @@
             "his",
             "chest"
           ],
-          "answer": "While exercising he noticed a sharp pain in his chest"
+          "answer": "While exercising, he noticed a sharp pain in his chest"
         },
         {
           "id": 3,
           "words": [
             "Despite",
             "being",
-            "exhausted",
+            "exhausted,",
             "the",
             "team",
             "finished",
@@ -811,7 +811,7 @@
             "on",
             "time"
           ],
-          "answer": "Despite being exhausted the team finished the project on time"
+          "answer": "Despite being exhausted, the team finished the project on time"
         }
       ]
     },
@@ -828,13 +828,13 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ being aware of the risks, she chose to proceed with the experiment.",
+          "sentence": "_____ her awareness of the risks, she chose to proceed with the experiment.",
           "answer": "Despite"
         },
         {
           "id": 2,
-          "sentence": "_____ working late into the night, he still managed to submit the report on time.",
-          "answer": "While"
+          "sentence": "_____ the late hour, he still managed to submit the report on time.",
+          "answer": "Despite"
         },
         {
           "id": 3,
@@ -843,13 +843,13 @@
         },
         {
           "id": 4,
-          "sentence": "_____ being exhausted, the researcher continued the interview.",
+          "sentence": "_____ after being warned to stop, the researcher continued the interview.",
           "answer": "Even"
         },
         {
           "id": 5,
-          "sentence": "_____ the data suggested a rise in stress levels, the policy was not revised.",
-          "answer": "Although"
+          "sentence": "_____ the evidence of rising stress levels, the policy was not revised.",
+          "answer": "Despite"
         }
       ]
     },

@@ -815,51 +815,51 @@
         {
           "id": 1,
           "words": [
-            "were",
+            "Were",
             "the",
             "results",
             "to",
             "be",
-            "misleading",
+            "misleading,",
             "further",
             "analysis",
             "is",
             "required"
           ],
-          "answer": "were the results to be misleading further analysis is required"
+          "answer": "Were the results to be misleading, further analysis is required"
         },
         {
           "id": 2,
           "words": [
-            "should",
+            "Should",
             "the",
             "institution",
             "implement",
             "new",
             "safety",
-            "measures",
+            "measures,",
             "it",
             "will",
             "reduce",
             "risk"
           ],
-          "answer": "should the institution implement new safety measures it will reduce risk"
+          "answer": "Should the institution implement new safety measures, it will reduce risk"
         },
         {
           "id": 3,
           "words": [
-            "were",
+            "Were",
             "the",
             "participants",
             "to",
             "receive",
             "adequate",
-            "training",
+            "training,",
             "they",
             "perform",
             "better"
           ],
-          "answer": "were the participants to receive adequate training they perform better"
+          "answer": "Were the participants to receive adequate training, they perform better"
         }
       ]
     },

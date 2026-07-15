@@ -702,7 +702,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The conference highlighted the challenges of climate change: rising temperatures, melting ice caps, _____.",
+          "sentence": "The conference highlighted three water-related effects of climate change: melting glaciers, shrinking ice sheets, _____.",
           "options": [
             "increasing sea levels",
             "declining biodiversity",
@@ -713,7 +713,7 @@
         },
         {
           "id": 2,
-          "sentence": "The novelist writes with clarity, the poet writes with passion, the essayist writes with _____.",
+          "sentence": "The novelist writes with clarity, the poet writes with passion, and the essayist avoids vagueness by writing with _____.",
           "options": [
             "ambiguity",
             "concern",
@@ -735,7 +735,7 @@
         },
         {
           "id": 4,
-          "sentence": "In the boardroom he was decisive, in the laboratory he was meticulous, and in the classroom he was _____.",
+          "sentence": "In the boardroom he was decisive, in the laboratory he was meticulous, and in the classroom he inspired every student, so he was _____.",
           "options": [
             "absent",
             "indifferent",
@@ -746,7 +746,7 @@
         },
         {
           "id": 5,
-          "sentence": "We must _____ the environment, we must _____ the economy, we must _____ society.",
+          "sentence": "We must _____ the environment from pollution, we must _____ the economy from collapse, we must _____ society from division.",
           "options": [
             "neglect",
             "support",
@@ -763,36 +763,40 @@
         {
           "id": 1,
           "words": [
-            "innovation",
-            "drives",
-            "progress",
-            "through",
-            "collaboration"
+            "Innovation",
+            "is",
+            "driven",
+            "by",
+            "collaboration",
+            "and",
+            "leads",
+            "to",
+            "progress."
           ],
-          "answer": "innovation drives progress through collaboration"
+          "answer": "Innovation is driven by collaboration and leads to progress."
         },
         {
           "id": 2,
           "words": [
+            "In",
+            "science,",
             "scepticism",
             "is",
-            "healthy",
-            "in",
-            "science"
+            "healthy."
           ],
-          "answer": "scepticism is healthy in science"
+          "answer": "In science, scepticism is healthy."
         },
         {
           "id": 3,
           "words": [
-            "the",
+            "The",
             "future",
             "belongs",
             "to",
             "the",
-            "bold"
+            "bold."
           ],
-          "answer": "the future belongs to the bold"
+          "answer": "The future belongs to the bold."
         }
       ]
     },
@@ -803,23 +807,23 @@
         "connects",
         "inspires",
         "question",
-        "repeats",
-        "emphasizes"
+        "repeats verbatim",
+        "places emphasis on"
       ],
       "items": [
         {
           "id": 1,
-          "sentence": "The campaign slogan _____ the public by promising safety, prosperity, and liberty.",
+          "sentence": "The campaign slogan _____ citizens with one another by promising safety, prosperity, and liberty.",
           "answer": "connects"
         },
         {
           "id": 2,
-          "sentence": "His lecture _____ the core idea three times, creating an anaphora.",
-          "answer": "repeats"
+          "sentence": "His lecture _____ the same opening phrase three times, creating an anaphora.",
+          "answer": "repeats verbatim"
         },
         {
           "id": 3,
-          "sentence": "The advertisement _____ the audience with vivid images of nature.",
+          "sentence": "The advertisement _____ confidence in the audience through vivid images of nature.",
           "answer": "inspires"
         },
         {
@@ -829,8 +833,8 @@
         },
         {
           "id": 5,
-          "sentence": "The professor's opening line _____ the theme of resilience throughout the semester.",
-          "answer": "emphasizes"
+          "sentence": "The professor's opening line _____ the importance of resilience without repeating the same wording.",
+          "answer": "places emphasis on"
         }
       ]
     },

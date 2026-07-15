@@ -769,12 +769,12 @@
         },
         {
           "id": 2,
-          "sentence": "_____ the evidence presented, the jury could not reach a unanimous verdict.",
+          "sentence": "_____ the evidence presented was inconclusive, the jury could not reach a unanimous verdict.",
           "options": [
             "by virtue of",
             "notwithstanding",
             "in so far as",
-            "because"
+            "despite"
           ],
           "answer": "in so far as"
         },
@@ -794,20 +794,20 @@
           "sentence": "_____ the limited data, the researchers refrained from drawing definitive conclusions.",
           "options": [
             "notwithstanding",
-            "by virtue of",
+            "because",
             "in so far as",
-            "despite"
+            "although"
           ],
           "answer": "notwithstanding"
         },
         {
           "id": 5,
-          "sentence": "_____ his position as senior analyst, he was unable to influence the final report.",
+          "sentence": "_____ his position as senior analyst, he alone was authorised to sign the final report.",
           "options": [
             "although",
             "in so far as",
             "by virtue of",
-            "notwithstanding"
+            "because"
           ],
           "answer": "by virtue of"
         }
@@ -819,50 +819,49 @@
         {
           "id": 1,
           "words": [
-            "lingering",
-            "notwithstanding",
-            "the",
+            "The",
             "treaty",
             "was",
             "signed",
-            "mistrust",
-            "The"
+            "notwithstanding",
+            "the",
+            "lingering",
+            "mistrust."
           ],
-          "answer": "The treaty was signed notwithstanding the lingering mistrust"
+          "answer": "The treaty was signed notwithstanding the lingering mistrust."
         },
         {
           "id": 2,
           "words": [
-            "grounded",
-            "Policies",
-            "in",
-            "evidence",
-            "are",
-            "succeed",
-            "as",
-            "they",
+            "The",
+            "claim",
+            "holds",
             "in",
             "so",
             "far",
-            "empirical"
+            "as",
+            "the",
+            "data",
+            "are",
+            "reliable."
           ],
-          "answer": "Policies succeed in so far as they are grounded in empirical evidence"
+          "answer": "The claim holds in so far as the data are reliable."
         },
         {
           "id": 3,
           "words": [
-            "authority",
             "She",
-            "by",
             "gained",
+            "authority",
+            "by",
             "virtue",
             "of",
             "her",
             "decades",
-            "service",
-            "of"
+            "of",
+            "service."
           ],
-          "answer": "She gained authority by virtue of her decades of service"
+          "answer": "She gained authority by virtue of her decades of service."
         }
       ]
     },
@@ -879,27 +878,27 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ the recent policy changes, the organization maintained its original objectives.",
+          "sentence": "The recent policy changes _____, the organization maintained its original objectives.",
           "answer": "notwithstanding"
         },
         {
           "id": 2,
-          "sentence": "The proposal was accepted _____ the committee's stringent criteria were met.",
+          "sentence": "_____ its compliance with the committee's criteria was concerned, the proposal was acceptable.",
           "answer": "in so far as"
         },
         {
           "id": 3,
-          "sentence": "_____ his appointment, he immediately began restructuring the department.",
+          "sentence": "He was authorised to restructure the department solely _____ his appointment.",
           "answer": "by virtue of"
         },
         {
           "id": 4,
-          "sentence": "_____ the harsh criticism, the author refused to alter the manuscript.",
-          "answer": "despite"
+          "sentence": "The criticism did not change the author's decision: _____ she was harshly criticised, she refused to alter the manuscript.",
+          "answer": "although"
         },
         {
           "id": 5,
-          "sentence": "_____ the data was inconclusive, the team postponed the experiment.",
+          "sentence": "The team postponed the experiment solely _____ the data was inconclusive.",
           "answer": "because"
         }
       ]

@@ -750,7 +750,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ did the team realize the importance of cultural sensitivity.",
+          "sentence": "The workshop finally convinced the team of the issue; _____ did the team realize the importance of cultural sensitivity.",
           "options": [
             "Only after",
             "Hardly",
@@ -772,7 +772,7 @@
         },
         {
           "id": 3,
-          "sentence": "_____ the board rejected, citing budget constraints.",
+          "sentence": "The proposal exceeded the available budget; _____ the board rejected, citing budget constraints.",
           "options": [
             "The proposal",
             "The plan",
@@ -783,7 +783,7 @@
         },
         {
           "id": 4,
-          "sentence": "_____ did the traveler finally feel at home in the new city.",
+          "sentence": "The traveler did not feel at home until local neighbours welcomed him; _____ did the traveler finally feel at home in the new city.",
           "options": [
             "Only after",
             "Never",
@@ -794,7 +794,7 @@
         },
         {
           "id": 5,
-          "sentence": "_____ we accepted, the terms were finalized.",
+          "sentence": "The client made one final offer; _____ we accepted, and the terms were finalized.",
           "options": [
             "The contract",
             "The offer",
@@ -812,7 +812,14 @@
           "id": 1,
           "words": [
             "Only",
-            "then",
+            "after",
+            "the",
+            "conference",
+            "had",
+            "ended,",
+            "and",
+            "not",
+            "before,",
             "did",
             "the",
             "team",
@@ -822,20 +829,23 @@
             "for",
             "flexibility"
           ],
-          "answer": "Only then did the team recognise the need for flexibility"
+          "answer": "Only after the conference had ended, and not before, did the team recognise the need for flexibility"
         },
         {
           "id": 2,
           "words": [
-            "The",
-            "proposal",
+            "As",
+            "for",
+            "the",
+            "proposal,",
             "the",
             "committee",
             "rejected",
+            "it",
             "after",
             "consideration"
           ],
-          "answer": "The proposal the committee rejected after consideration"
+          "answer": "As for the proposal, the committee rejected it after consideration"
         },
         {
           "id": 3,
@@ -844,13 +854,18 @@
             "after",
             "the",
             "conference",
+            "had",
+            "ended,",
+            "and",
+            "not",
+            "before,",
             "did",
             "participants",
             "exchange",
             "contact",
             "details"
           ],
-          "answer": "Only after the conference did participants exchange contact details"
+          "answer": "Only after the conference had ended, and not before, did participants exchange contact details"
         }
       ]
     },
@@ -867,7 +882,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "_____ did the researcher publish the findings, after peer review.",
+          "sentence": "The researcher published the findings immediately after peer review was complete; _____ did the findings become public.",
           "answer": "Only then"
         },
         {
@@ -877,17 +892,17 @@
         },
         {
           "id": 3,
-          "sentence": "_____ the board approved, the project moved to implementation.",
+          "sentence": "The board received one proposal for the project; _____ the board approved, and the project moved to implementation.",
           "answer": "The proposal"
         },
         {
           "id": 4,
-          "sentence": "_____ the manager accepted, the contract was signed.",
+          "sentence": "The manager received a single offer from the supplier; _____ the manager accepted, and the contract was signed.",
           "answer": "The offer"
         },
         {
           "id": 5,
-          "sentence": "_____ did the audience applaud, the performance was truly moving.",
+          "sentence": "The audience applauded immediately after the final note; _____ did they respond to the performance.",
           "answer": "Only then"
         }
       ]

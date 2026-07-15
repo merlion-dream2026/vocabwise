@@ -772,9 +772,9 @@
             "prove",
             "a",
             "theorem",
-            "correctly"
+            "correctly."
           ],
-          "answer": "It is vital to prove a theorem correctly"
+          "answer": "It is vital to prove a theorem correctly."
         },
         {
           "id": 2,
@@ -801,9 +801,9 @@
             "explain",
             "the",
             "concept",
-            "clearly"
+            "clearly."
           ],
-          "answer": "It is necessary to explain the concept clearly"
+          "answer": "It is necessary to explain the concept clearly."
         }
       ]
     },
@@ -825,7 +825,7 @@
         },
         {
           "id": 2,
-          "sentence": "_____ to ignore counter‑examples can lead to false conjectures.",
+          "sentence": "_____ to ignore counterâexamples can lead to false conjectures.",
           "answer": "risky"
         },
         {
