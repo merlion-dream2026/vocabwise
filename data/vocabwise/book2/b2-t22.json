@@ -410,7 +410,7 @@
           "sentence": "The startup found a wealthy _____ who agreed to fund the business in exchange for a 20% share.",
           "options": [
             "customer",
-            "partner",
+            "employee",
             "strategy",
             "backer"
           ],
@@ -418,7 +418,7 @@
         },
         {
           "id": 5,
-          "sentence": "Once the product was ready, the team worked hard to _____ it through social media and online advertising.",
+          "sentence": "Once the product was already on sale, the team worked hard to _____ it through social media and online advertising.",
           "options": [
             "target",
             "promote",

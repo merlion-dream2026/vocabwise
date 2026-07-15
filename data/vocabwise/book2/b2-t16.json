@@ -379,12 +379,12 @@
         },
         {
           "id": 2,
-          "sentence": "NASA sent an unmanned _____ to study the surface and atmosphere of Venus.",
+          "sentence": "NASA sent an unmanned _____ into Venus's atmosphere; it transmitted scientific data during its descent rather than remaining in orbit.",
           "options": [
             "rover",
             "satellite",
             "probe",
-            "telescope"
+            "astronaut"
           ],
           "answer": "probe"
         },
@@ -403,7 +403,7 @@
           "id": 4,
           "sentence": "The robotic _____ collected soil samples as it moved slowly across the Martian surface.",
           "options": [
-            "probe",
+            "telescope",
             "satellite",
             "rover",
             "spacecraft"

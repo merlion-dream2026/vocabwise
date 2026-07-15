@@ -387,7 +387,7 @@
           "sentence": "He could not _____ a new phone, so he decided to buy a second-hand one instead.",
           "options": [
             "recycle",
-            "purchase",
+            "compare",
             "afford",
             "refund"
           ],
@@ -395,7 +395,7 @@
         },
         {
           "id": 4,
-          "sentence": "Many shoppers today choose brands that use _____ materials to reduce their environmental impact.",
+          "sentence": "Many shoppers today choose brands that use _____ materials, meaning waste products are processed and used again to reduce environmental impact.",
           "options": [
             "used",
             "recycled",
