@@ -212,7 +212,7 @@ export default function LandingPage() {
       {/* Module feature grid */}
       <section id="modules" className="bg-white py-4 lg:py-14">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-xl lg:text-3xl font-black text-gray-800 text-center mb-1 px-4">Khám phá từng module học</h2>
+        <h2 className="text-xl lg:text-3xl font-black text-gray-800 text-center mb-1 md:mb-5 lg:mb-8 px-4">Khám phá từng module học</h2>
         <p className="text-gray-400 text-sm lg:text-base text-center mb-4 lg:mb-8 px-4 md:hidden">Vuốt để xem tất cả tính năng nổi bật</p>
         <div
           className="flex md:grid md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 overflow-x-auto md:overflow-visible pb-3 md:pb-0 px-4 lg:px-12 snap-x snap-mandatory md:snap-none"
