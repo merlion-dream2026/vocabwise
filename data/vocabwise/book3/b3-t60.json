@@ -386,7 +386,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Aristotle's concept of human _____ holds that we live best when we fully exercise our rational and social capacities.",
+          "sentence": "Aristotle's concept of human _____ describes the broad condition of living and functioning well through the full exercise of rational and social capacities, not merely feeling personally satisfied.",
           "answer": "flourishing"
         },
         {
@@ -396,17 +396,17 @@
         },
         {
           "id": 3,
-          "sentence": "Many people report that their sense of _____ deepened after they survived a serious illness, as mortality forced them to reflect on what truly mattered.",
+          "sentence": "Many people report that their sense of _____ — their understanding of what made life significant, rather than a new goal to pursue — deepened after a serious illness.",
           "answer": "meaning"
         },
         {
           "id": 4,
-          "sentence": "Her lifelong _____ was to compose a symphony — a dream she finally realised at the age of seventy.",
+          "sentence": "Her lifelong _____ was an unfulfilled ambition to compose a symphony, a dream she finally realised at the age of seventy.",
           "answer": "aspiration"
         },
         {
           "id": 5,
-          "sentence": "He gave up a lucrative law career in search of deeper _____, eventually finding it as a secondary school history teacher.",
+          "sentence": "He gave up a lucrative law career in search of deeper _____ — the satisfaction and achievement gained from rewarding work — and eventually found it as a history teacher.",
           "answer": "fulfilment"
         }
       ]

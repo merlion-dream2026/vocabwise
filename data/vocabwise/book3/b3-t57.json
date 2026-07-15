@@ -383,7 +383,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The _____ of daily routines — from sleep patterns to commute routes — has created vast commercial opportunities for data brokers.",
+          "sentence": "The _____ of daily routines — converting sleep patterns, purchases, and commute routes into quantifiable digital records — has created commercial opportunities for data brokers.",
           "answer": "datafication"
         },
         {
@@ -403,7 +403,7 @@
         },
         {
           "id": 5,
-          "sentence": "Children's _____ online deserves stronger legal protection than that afforded to adults, given their developmental vulnerabilities.",
+          "sentence": "Children's _____ online, particularly the confidentiality of their personal information and protection from unwanted tracking, deserves stronger legal safeguards.",
           "answer": "privacy"
         }
       ]

@@ -386,7 +386,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Public _____ of mental health issues has grown significantly following high-profile celebrity disclosures.",
+          "sentence": "Public _____ of mental health issues has grown significantly, with more people now able to recognise symptoms and discuss treatment following high-profile celebrity disclosures.",
           "answer": "awareness"
         },
         {
@@ -406,7 +406,7 @@
         },
         {
           "id": 5,
-          "sentence": "Early _____ of burnout requires organisations to monitor workloads and foster a culture where rest is valued.",
+          "sentence": "Effective _____ of burnout aims to stop it from developing in the first place by monitoring workloads and fostering a culture where rest is valued.",
           "answer": "prevention"
         }
       ]

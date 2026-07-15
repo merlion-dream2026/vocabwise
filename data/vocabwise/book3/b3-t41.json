@@ -395,7 +395,7 @@
         },
         {
           "id": 2,
-          "sentence": "Ancient Greeks studied _____ as a formal discipline, teaching students to argue either side of any question.",
+          "sentence": "Ancient Greeks studied _____ as the formal discipline of constructing persuasive arguments in both speech and writing, not merely performing speeches.",
           "answer": "rhetoric"
         },
         {
@@ -405,12 +405,12 @@
         },
         {
           "id": 4,
-          "sentence": "His _____ in the Senate chamber was so commanding that spectators fell silent the moment he rose to speak.",
+          "sentence": "His _____ — the formal art of public speaking before a large audience — was so commanding that the Senate chamber fell silent when he rose.",
           "answer": "oratory"
         },
         {
           "id": 5,
-          "sentence": "Gentle _____ — rather than force or threats — is usually the most sustainable way to change minds.",
+          "sentence": "Gentle _____ — the process of changing another person's beliefs through reasons and appeals rather than force or threats — is usually more sustainable.",
           "answer": "persuasion"
         }
       ]

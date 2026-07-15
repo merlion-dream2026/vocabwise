@@ -386,12 +386,12 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The study revealed severe social _____ in regions where basic services such as clean water and electricity remained scarce.",
+          "sentence": "The study revealed severe social _____, meaning an absolute lack of necessities such as clean water, electricity, adequate food, and safe housing.",
           "answer": "deprivation"
         },
         {
           "id": 2,
-          "sentence": "The government's welfare reform introduced a new _____ scheme guaranteeing minimum monthly payments to all unemployed citizens.",
+          "sentence": "The welfare reform introduced a new legal _____ guaranteeing eligible unemployed citizens a minimum monthly payment as an enforceable right.",
           "answer": "entitlement"
         },
         {

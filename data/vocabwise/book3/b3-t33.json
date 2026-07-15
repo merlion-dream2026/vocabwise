@@ -386,7 +386,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The study of _____ reveals how much the writing of history is shaped by the social context of the historian.",
+          "sentence": "The academic field of _____ examines how historical accounts are researched, written, and shaped by the social context of each historian.",
           "answer": "historiography"
         },
         {
@@ -406,7 +406,7 @@
         },
         {
           "id": 5,
-          "sentence": "Responsible _____ is driven by new evidence rather than by a desire to rehabilitate discredited figures.",
+          "sentence": "Responsible _____ deliberately reinterprets an established historical account when newly discovered evidence challenges the traditional version.",
           "answer": "revisionism"
         }
       ]

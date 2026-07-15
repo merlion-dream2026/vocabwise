@@ -394,12 +394,12 @@
         },
         {
           "id": 2,
-          "sentence": "Child _____ rates fell dramatically after the introduction of free vaccination programmes.",
+          "sentence": "Child _____ rates, measured by the number of children who died, fell dramatically after the introduction of free vaccination programmes.",
           "answer": "mortality"
         },
         {
           "id": 3,
-          "sentence": "High _____ rates among factory workers prompted an investigation into workplace safety conditions.",
+          "sentence": "High _____ rates, measured by the prevalence of non-fatal illness among factory workers, prompted an investigation into workplace safety conditions.",
           "answer": "morbidity"
         },
         {

@@ -386,7 +386,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The study of _____ examines how language shapes whether and how we are capable of thinking certain thoughts.",
+          "sentence": "Linguistic _____ is the theory that the language people speak determines whether and how they are capable of thinking certain thoughts.",
           "answer": "determinism"
         },
         {
@@ -406,7 +406,7 @@
         },
         {
           "id": 5,
-          "sentence": "Studies on _____ show that speaking more than one language can improve attention and task-switching ability.",
+          "sentence": "Research on _____ — the regular use of two or more languages — shows that it can improve attention and task-switching ability.",
           "answer": "multilingualism"
         }
       ]

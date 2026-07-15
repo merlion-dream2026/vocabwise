@@ -397,7 +397,7 @@
         },
         {
           "id": 2,
-          "sentence": "The investigator made the _____ that the letter had been written in haste, based on the irregular handwriting.",
+          "sentence": "The investigator made the tentative _____ that the letter had been written in haste, based on suggestive but not logically conclusive handwriting evidence.",
           "answer": "inference"
         },
         {
@@ -412,7 +412,7 @@
         },
         {
           "id": 5,
-          "sentence": "Through _____, we can conclude with certainty: if no reptile is warm-blooded and all snakes are reptiles, no snake is warm-blooded.",
+          "sentence": "Through _____ — reasoning in which the conclusion necessarily follows from stated premises rather than remaining merely probable — we can reach certainty.",
           "answer": "deduction"
         }
       ]

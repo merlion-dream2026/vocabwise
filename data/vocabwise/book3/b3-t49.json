@@ -383,7 +383,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The _____ of her argument was impeccable — every section flowed logically into the next, leaving no loose ends.",
+          "sentence": "The _____ of her argument was impeccable — the sections appeared in a deliberate logical order, with each one leading naturally to the next.",
           "answer": "structure"
         },
         {
@@ -393,7 +393,7 @@
         },
         {
           "id": 3,
-          "sentence": "Slow, deliberate _____ is especially important when presenting statistical information that requires careful processing.",
+          "sentence": "Slow, deliberate _____ — carefully controlling speaking speed and the length of pauses — is especially important when presenting complex statistics.",
           "answer": "pacing"
         },
         {
