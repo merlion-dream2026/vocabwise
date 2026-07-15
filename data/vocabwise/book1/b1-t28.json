@@ -358,7 +358,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "She is very _____ — she does her homework, cooks her own meals, and manages her time well.",
+          "sentence": "She is very _____ and does not rely on anyone else — she does her homework, cooks her own meals, and manages her time well.",
           "options": [
             "brave",
             "young",
@@ -369,7 +369,7 @@
         },
         {
           "id": 2,
-          "sentence": "My favourite _____ from childhood is flying kites with my grandfather at the park.",
+          "sentence": "My favourite _____ from childhood is the day I flew kites with my grandfather at the park.",
           "options": [
             "ambition",
             "memory",

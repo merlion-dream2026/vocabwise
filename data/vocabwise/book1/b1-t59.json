@@ -372,7 +372,7 @@
         },
         {
           "id": 2,
-          "sentence": "She _____ that the new café near school has really good food.",
+          "sentence": "She _____ aloud to me that the new café near school has really good food.",
           "options": [
             "feels",
             "wants",
@@ -388,7 +388,7 @@
             "boring",
             "bad",
             "exciting",
-            "fun"
+            "slow"
           ],
           "answer": "exciting"
         },

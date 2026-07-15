@@ -378,7 +378,7 @@
         },
         {
           "id": 2,
-          "sentence": "The hotel is _____ the shopping mall — you can see it from the main entrance.",
+          "sentence": "The hotel is _____ the shopping mall — it is directly across the road from the mall's main entrance.",
           "options": [
             "opposite",
             "corner",
@@ -400,7 +400,7 @@
         },
         {
           "id": 4,
-          "sentence": "How long does it take to _____ the city centre from here by bus?",
+          "sentence": "How long does it take to _____ the city centre from here and arrive at our destination by bus?",
           "options": [
             "pass",
             "sign",
@@ -411,7 +411,7 @@
         },
         {
           "id": 5,
-          "sentence": "We walked _____ the old market and then turned left at the next corner.",
+          "sentence": "We walked _____ the old market, moving beyond it and leaving it behind us, and then turned left at the next corner.",
           "options": [
             "near",
             "past",

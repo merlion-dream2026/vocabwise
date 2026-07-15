@@ -364,7 +364,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "My grandmother _____ in a small house near our school.",
+          "sentence": "My grandmother _____ in a small house near our school — she sleeps and spends every day there because it is her permanent home.",
           "options": [
             "shares",
             "lives",
@@ -386,7 +386,7 @@
         },
         {
           "id": 3,
-          "sentence": "My sister and I _____ a bedroom — we sleep in the same room.",
+          "sentence": "My sister and I _____ a bedroom, meaning that we both use the same room for sleeping.",
           "options": [
             "clean",
             "live",

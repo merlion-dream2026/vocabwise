@@ -361,7 +361,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "In summer, the _____ can reach 40 degrees in some parts of the country.",
+          "sentence": "In summer, the air _____ can reach 40 degrees in some parts of the country.",
           "options": [
             "weather",
             "temperature",
@@ -372,7 +372,7 @@
         },
         {
           "id": 2,
-          "sentence": "It _____ every day in the rainy season — the streets are always wet.",
+          "sentence": "It _____ gently every day in the rainy season — the streets are always wet.",
           "options": [
             "snows",
             "storms",
@@ -383,7 +383,7 @@
         },
         {
           "id": 3,
-          "sentence": "I always carry an _____ when the sky looks dark and cloudy.",
+          "sentence": "I always carry an _____ to hold above my head when the sky looks dark and cloudy.",
           "options": [
             "raincoat",
             "umbrella",
@@ -394,7 +394,7 @@
         },
         {
           "id": 4,
-          "sentence": "The _____ was very strong last night — trees fell down in the streets.",
+          "sentence": "The _____ was a violent weather event with thunder, lightning, and powerful winds last night, causing trees to fall in the streets.",
           "options": [
             "cloud",
             "rain",

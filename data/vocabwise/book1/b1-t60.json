@@ -394,9 +394,9 @@
         },
         {
           "id": 4,
-          "sentence": "She did not hear the question, so the teacher had to _____ it twice.",
+          "sentence": "She did not hear the question the first time, so the teacher had to _____ the exact same words twice.",
           "options": [
-            "ask",
+            "forget",
             "know",
             "repeat",
             "answer"

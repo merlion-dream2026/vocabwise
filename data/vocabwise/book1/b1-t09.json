@@ -358,7 +358,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "She takes the _____ to school every morning — it is cheap and easy.",
+          "sentence": "She takes the _____ to school every morning — it stops at the bus stop outside her house and is cheap and easy.",
           "options": [
             "bike",
             "car",
@@ -380,7 +380,7 @@
         },
         {
           "id": 3,
-          "sentence": "He _____ home early every morning to avoid the heavy traffic.",
+          "sentence": "He _____ home at six o'clock every morning to begin his journey to work before the heavy traffic starts.",
           "options": [
             "drives",
             "arrives",
@@ -402,7 +402,7 @@
         },
         {
           "id": 5,
-          "sentence": "I always _____ a bus ticket before I get on the bus.",
+          "sentence": "I always _____ a bus ticket from the ticket machine and pay for it before I get on the bus.",
           "options": [
             "find",
             "buy",

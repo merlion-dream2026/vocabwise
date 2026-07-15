@@ -380,7 +380,7 @@
         },
         {
           "id": 3,
-          "sentence": "His email was very _____ — he used short, simple sentences that everyone could understand.",
+          "sentence": "His email was neither informal nor especially professional, but it was very _____ — every sentence was easy to understand.",
           "options": [
             "informal",
             "clear",
@@ -402,7 +402,7 @@
         },
         {
           "id": 5,
-          "sentence": "Can you _____ that email to my mother? She wants to know the meeting time too.",
+          "sentence": "Can you _____ that email you already received to my mother without rewriting it? She wants to know the meeting time too.",
           "options": [
             "forward",
             "cc",

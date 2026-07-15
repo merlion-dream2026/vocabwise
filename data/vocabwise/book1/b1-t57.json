@@ -358,18 +358,18 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The red _____ on the road tells drivers to stop immediately.",
+          "sentence": "The red _____ message painted on the road tells drivers to stop immediately.",
           "options": [
             "symbol",
             "warning",
             "route",
-            "caution"
+            "direction"
           ],
           "answer": "warning"
         },
         {
           "id": 2,
-          "sentence": "Please _____ all the signs in the hospital — they are there to protect patients.",
+          "sentence": "Please _____ all the instructions on the signs in the hospital by doing exactly what they say — they are there to protect patients.",
           "options": [
             "point",
             "risk",

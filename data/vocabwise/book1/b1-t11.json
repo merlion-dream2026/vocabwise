@@ -364,7 +364,7 @@
           "sentence": "My _____ is a small white rabbit — she is very gentle and friendly.",
           "options": [
             "pet",
-            "animal",
+            "cage",
             "owner",
             "fur"
           ],
@@ -383,10 +383,10 @@
         },
         {
           "id": 3,
-          "sentence": "Lions and tigers are _____ animals — they are never safe to touch.",
+          "sentence": "Lions and tigers are _____ animals — they may attack and injure people, so they are never safe to touch.",
           "options": [
             "tame",
-            "wild",
+            "gentle",
             "farm",
             "dangerous"
           ],

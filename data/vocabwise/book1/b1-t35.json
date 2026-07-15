@@ -358,7 +358,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Please read every _____ on the test carefully before you write your answer.",
+          "sentence": "Please read every _____ on the test carefully — each one is a single question, not a whole sheet of paper.",
           "options": [
             "sheet",
             "grade",
@@ -380,7 +380,7 @@
         },
         {
           "id": 3,
-          "sentence": "Turn off your phone so you can _____ and study without interruptions.",
+          "sentence": "Turn off your phone so you can _____ fully on your work without interruptions.",
           "options": [
             "fail",
             "prepare",

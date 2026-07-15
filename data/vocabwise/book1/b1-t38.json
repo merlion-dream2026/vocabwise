@@ -361,7 +361,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The _____ at the concert stood up and clapped loudly at the end of the show.",
+          "sentence": "The _____, who had been watching the concert from their seats, stood up and clapped loudly at the end of the show.",
           "options": [
             "band",
             "audience",
@@ -372,7 +372,7 @@
         },
         {
           "id": 2,
-          "sentence": "She played a wrong _____ during the concert, but she stayed calm and carried on.",
+          "sentence": "She pressed the wrong piano key and played a wrong _____ during the concert, but she stayed calm and carried on.",
           "options": [
             "note",
             "rhythm",

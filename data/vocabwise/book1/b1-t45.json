@@ -372,7 +372,7 @@
           "sentence": "The two cars had a serious _____ at the traffic lights.",
           "options": [
             "hazard",
-            "accident",
+            "delay",
             "crash",
             "fire"
           ],
@@ -380,7 +380,7 @@
         },
         {
           "id": 3,
-          "sentence": "Always stay _____ by following the rules in the laboratory.",
+          "sentence": "Always stay _____ from injury by following the rules in the laboratory.",
           "options": [
             "alert",
             "hurt",

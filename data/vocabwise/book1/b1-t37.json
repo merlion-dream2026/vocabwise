@@ -369,7 +369,7 @@
         },
         {
           "id": 2,
-          "sentence": "The _____ drew a beautiful picture of the sea using only three colours.",
+          "sentence": "The _____, who creates paintings and drawings rather than sculptures, drew a beautiful picture of the sea using only three colours.",
           "options": [
             "pattern",
             "sculptor",
@@ -391,11 +391,11 @@
         },
         {
           "id": 4,
-          "sentence": "Her work was very _____  — she mixed clay and paper to make something nobody had seen before.",
+          "sentence": "Her work was very _____ — she mixed clay and paper to make something nobody had seen before.",
           "options": [
             "loud",
             "original",
-            "creative",
+            "ordinary",
             "patterned"
           ],
           "answer": "original"

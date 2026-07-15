@@ -370,7 +370,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "I _____ up at six o'clock every morning.",
+          "sentence": "I _____ up from sleep at six o'clock every morning.",
           "options": [
             "wake",
             "sleep",
@@ -381,7 +381,7 @@
         },
         {
           "id": 2,
-          "sentence": "We eat _____ at noon in the school canteen.",
+          "sentence": "We eat _____ at noon in the school canteen — it is the meal between breakfast and dinner.",
           "options": [
             "breakfast",
             "lunch",
@@ -414,7 +414,7 @@
         },
         {
           "id": 5,
-          "sentence": "I go to sleep _____ every night so I feel rested in the morning.",
+          "sentence": "I go to sleep _____ every night, at about nine o'clock, so I can get eight hours of sleep before waking at five.",
           "options": [
             "late",
             "afternoon",

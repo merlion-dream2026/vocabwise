@@ -369,7 +369,7 @@
         },
         {
           "id": 2,
-          "sentence": "The bus will _____ at eight o'clock sharp, so please do not be late.",
+          "sentence": "The bus will _____ from the station at eight o'clock sharp to begin its outward journey, so please do not be late.",
           "options": [
             "enjoy",
             "explore",
@@ -385,7 +385,7 @@
             "depart",
             "explore",
             "get lost",
-            "enjoy"
+            "relax"
           ],
           "answer": "explore"
         },

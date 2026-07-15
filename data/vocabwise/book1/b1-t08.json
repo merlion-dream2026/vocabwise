@@ -394,7 +394,7 @@
         },
         {
           "id": 4,
-          "sentence": "On _____, I have more free time to do my hobbies.",
+          "sentence": "On _____, when there is no school on Saturday or Sunday, I have more free time to do my hobbies.",
           "options": [
             "evenings",
             "mornings",
@@ -407,7 +407,7 @@
           "id": 5,
           "sentence": "My _____ is drawing — I love to sketch animals in my notebook.",
           "options": [
-            "pastime",
+            "subject",
             "craft",
             "hobby",
             "fun"

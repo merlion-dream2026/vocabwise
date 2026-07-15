@@ -358,7 +358,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Vietnamese pho is a _____ dish — it is known and loved around the world.",
+          "sentence": "Vietnamese pho is a _____ dish, meaning that many people around the world know and love it.",
           "options": [
             "salty",
             "raw",
@@ -369,7 +369,7 @@
         },
         {
           "id": 2,
-          "sentence": "The lemon sauce was too _____ — I had to add sugar to balance the taste.",
+          "sentence": "The lemon sauce was too _____ — it had a sharp, acidic taste from the lemon juice, so I added sugar.",
           "options": [
             "spicy",
             "salty",
@@ -391,7 +391,7 @@
         },
         {
           "id": 4,
-          "sentence": "Every country has a _____ recipe that has been made for hundreds of years.",
+          "sentence": "Every country has a recipe that is _____, meaning it has been passed down through generations and made according to long-established customs.",
           "options": [
             "raw",
             "salty",
@@ -402,7 +402,7 @@
         },
         {
           "id": 5,
-          "sentence": "I love hot _____ on a cold morning — it warms me up from the inside.",
+          "sentence": "I love hot _____ on a cold morning — I eat the warm liquid from a bowl with a spoon.",
           "options": [
             "bread",
             "plate",

@@ -358,7 +358,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "You must write the _____ address clearly on the front of the parcel.",
+          "sentence": "You must write the _____ address — the address of the person receiving the parcel — clearly on the front.",
           "options": [
             "sender",
             "recipient",
@@ -402,7 +402,7 @@
         },
         {
           "id": 5,
-          "sentence": "There is an extra _____ if you want express delivery.",
+          "sentence": "There is an extra _____ of 50,000 đồng that you must pay if you want express delivery.",
           "options": [
             "stamp",
             "parcel",

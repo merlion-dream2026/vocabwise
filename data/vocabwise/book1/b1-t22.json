@@ -358,7 +358,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "I feel very _____ before a big exam — my hands shake and I cannot sleep.",
+          "sentence": "I feel very _____ before a big exam because I am afraid of failing — my hands shake and I cannot sleep.",
           "options": [
             "nervous",
             "happy",
@@ -380,7 +380,7 @@
         },
         {
           "id": 3,
-          "sentence": "He felt very _____ when all his friends went to the party without him.",
+          "sentence": "He was not angry, sad, or scared; he simply felt very _____ because all his friends went to the party without him.",
           "options": [
             "angry",
             "sad",

@@ -361,7 +361,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "She always wears _____ shoes when she goes for a long walk.",
+          "sentence": "She always wears _____ shoes, meaning shoes that do not hurt her feet, when she goes for a long walk.",
           "options": [
             "comfortable",
             "pretty",
@@ -372,10 +372,10 @@
         },
         {
           "id": 2,
-          "sentence": "My school _____ is white and blue — I wear it every weekday.",
+          "sentence": "My school _____ is the official clothing that every student is required to wear each weekday.",
           "options": [
             "clothes",
-            "outfit",
+            "scarf",
             "uniform",
             "coat"
           ],
@@ -394,7 +394,7 @@
         },
         {
           "id": 4,
-          "sentence": "He put his phone in his _____ so his hands were free.",
+          "sentence": "He put his phone in the _____ of his trousers so his hands were free.",
           "options": [
             "bag",
             "hat",

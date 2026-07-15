@@ -397,7 +397,7 @@
         },
         {
           "id": 4,
-          "sentence": "After months of hard work, she finally won the gold _____ at the national swimming competition.",
+          "sentence": "After months of hard work, she finally won the gold _____ and wore it around her neck at the national swimming competition.",
           "options": [
             "round",
             "final",
@@ -408,7 +408,7 @@
         },
         {
           "id": 5,
-          "sentence": "The two best teams played each other in the _____ to decide who would be the champion.",
+          "sentence": "The two best teams played each other in the last match of the tournament, known as the _____, to decide who would be champion.",
           "options": [
             "spirit",
             "record",

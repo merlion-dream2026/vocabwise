@@ -363,7 +363,7 @@
             "grade",
             "subject",
             "quiz",
-            "lesson"
+            "classroom"
           ],
           "answer": "subject"
         },
@@ -380,7 +380,7 @@
         },
         {
           "id": 3,
-          "sentence": "I go to the _____ every week to borrow books and read in a quiet place.",
+          "sentence": "I show my library card when I go to the _____ every week to borrow books and read in a quiet place.",
           "options": [
             "class",
             "topic",

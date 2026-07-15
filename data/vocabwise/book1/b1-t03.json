@@ -364,7 +364,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "My mother goes to the _____ every morning to buy fresh food.",
+          "sentence": "My mother goes to the _____ every morning to buy fresh food from many different outdoor stalls.",
           "options": [
             "market",
             "school",
@@ -386,7 +386,7 @@
         },
         {
           "id": 3,
-          "sentence": "This dish _____ wonderful — I want to eat more of it.",
+          "sentence": "When I put the food in my mouth, this dish _____ wonderful — I want to eat more of it.",
           "options": [
             "looks",
             "sounds",
@@ -397,7 +397,7 @@
         },
         {
           "id": 4,
-          "sentence": "She always _____ fresh vegetables, fruit, and meat at the market.",
+          "sentence": "She always _____ fresh vegetables, fruit, and meat at the market, pays for them, and carries them home.",
           "options": [
             "sells",
             "cooks",

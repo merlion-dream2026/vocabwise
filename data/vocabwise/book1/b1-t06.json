@@ -372,7 +372,7 @@
         },
         {
           "id": 2,
-          "sentence": "She felt very _____ yesterday — she had a headache and a high fever.",
+          "sentence": "She was not merely tired; she felt very _____ yesterday — she was ill with a headache and a high fever.",
           "options": [
             "healthy",
             "sick",
@@ -383,9 +383,9 @@
         },
         {
           "id": 3,
-          "sentence": "The _____ checked my temperature and gave me some medicine.",
+          "sentence": "The _____ checked my temperature, diagnosed my illness, and prescribed some medicine.",
           "options": [
-            "nurse",
+            "receptionist",
             "teacher",
             "customer",
             "doctor"
@@ -394,7 +394,7 @@
         },
         {
           "id": 4,
-          "sentence": "After a few days of _____, she felt much better and returned to school.",
+          "sentence": "After a few days of complete _____, during which she stayed in bed and did no work or exercise, she felt much better and returned to school.",
           "options": [
             "pain",
             "medicine",
@@ -405,7 +405,7 @@
         },
         {
           "id": 5,
-          "sentence": "I always _____ my hands before eating to keep germs away.",
+          "sentence": "I always _____ my hands with soap and water before eating to keep germs away.",
           "options": [
             "wash",
             "feel",

@@ -373,7 +373,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The shop _____ clothes, shoes, and bags for every age group.",
+          "sentence": "The shop _____ clothes, shoes, and bags to customers of every age group.",
           "options": [
             "buys",
             "pays",
@@ -395,7 +395,7 @@
         },
         {
           "id": 3,
-          "sentence": "This jacket is very _____ — it costs two million dong.",
+          "sentence": "This jacket is very _____ — it costs two million dong, far more than my budget.",
           "options": [
             "cheap",
             "fresh",
@@ -406,7 +406,7 @@
         },
         {
           "id": 4,
-          "sentence": "She is a very careful _____; she always checks the price before buying.",
+          "sentence": "She is a very careful _____; as a shopper buying things for herself, she always checks the price first.",
           "options": [
             "seller",
             "store",
@@ -417,7 +417,7 @@
         },
         {
           "id": 5,
-          "sentence": "After paying, the cashier gave me a _____ to keep.",
+          "sentence": "After paying, the cashier gave me a _____ as proof of purchase.",
           "options": [
             "receipt",
             "money",

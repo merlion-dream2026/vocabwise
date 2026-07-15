@@ -358,7 +358,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "I tried to call but the line was _____, so I sent a text instead.",
+          "sentence": "I tried to call, but the line was _____ because someone else was already using it, so I sent a text instead.",
           "options": [
             "silent",
             "missed",

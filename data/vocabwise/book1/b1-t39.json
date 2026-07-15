@@ -364,7 +364,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "Always be _____ when you use hot water — it can burn your hands.",
+          "sentence": "Always be _____ not to touch the hot water — it can burn your hands.",
           "options": [
             "safe",
             "careful",
@@ -397,7 +397,7 @@
         },
         {
           "id": 4,
-          "sentence": "Our first _____ did not work, so we tried again with different amounts.",
+          "sentence": "We ran our first _____ of the experiment, but it did not work, so we tried again with different amounts.",
           "options": [
             "step",
             "trial",
@@ -408,7 +408,7 @@
         },
         {
           "id": 5,
-          "sentence": "We were excited to _____ the final result of our science experiment.",
+          "sentence": "We were excited to _____ out the final result of our science experiment.",
           "options": [
             "measure",
             "record",

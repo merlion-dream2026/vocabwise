@@ -408,9 +408,9 @@
         },
         {
           "id": 5,
-          "sentence": "Please keep your voice down — this is the _____ zone and people are studying.",
+          "sentence": "Please keep your voice down — inside the library, this is the _____ zone rather than the general library area, and complete silence is required.",
           "options": [
-            "reading",
+            "talking",
             "quiet",
             "library",
             "borrowed"
