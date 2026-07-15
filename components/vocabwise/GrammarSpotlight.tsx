@@ -114,7 +114,7 @@ export default function GrammarSpotlight({ data }: { data: GrammarSpotlightData 
                   <p className="text-sm text-gray-700 leading-relaxed"
                     dangerouslySetInnerHTML={{ __html: renderBold(s) }} />
                   {data.in_context_vi?.[i] && (
-                    <p className="text-xs text-amber-700 leading-relaxed italic">{data.in_context_vi[i]}</p>
+                    <p className="text-sm text-amber-700 leading-relaxed">{data.in_context_vi[i]}</p>
                   )}
                 </div>
               ))}
@@ -125,7 +125,7 @@ export default function GrammarSpotlight({ data }: { data: GrammarSpotlightData 
             onClick={() => setPhase('ex1')}
             className="w-full bg-gradient-to-r from-green-500 to-emerald-400 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all"
           >
-            ▶ Bắt đầu luyện →
+            ▶ Làm bài tập ngữ pháp →
           </button>
 
           <p className="text-xs text-gray-400 text-center pb-1">Nguồn: {data.source_ref}</p>

@@ -358,12 +358,12 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
 
       {/* Tabs */}
       <div className="flex border-b border-gray-200 bg-white sticky top-0 z-10 shadow-sm">
-        {(['passage', 'glossary', ...(data.grammar_spotlight ? ['grammar' as Tab] : []), 'exercises'] as Tab[]).map(t => (
+        {(['passage', 'glossary', 'exercises', ...(data.grammar_spotlight ? ['grammar' as Tab] : [])] as Tab[]).map(t => (
           <button key={t} onClick={() => setTab(t)}
             className={`flex-1 py-3 font-black text-xs transition-all ${
               tab === t ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-400 hover:text-gray-600'
             }`}>
-            {t === 'passage' ? '📄 Đọc' : t === 'glossary' ? '📚 Từ vựng' : t === 'grammar' ? '📖 Ngữ pháp' : '📝 Luyện từ'}
+            {t === 'passage' ? '📄 Đọc' : t === 'glossary' ? '📚 Từ vựng' : t === 'grammar' ? '📖 Ngữ pháp' : '📝 BT Từ vựng'}
           </button>
         ))}
       </div>
@@ -421,7 +421,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                     <p className="text-gray-800 leading-relaxed text-sm"
                       dangerouslySetInnerHTML={{ __html: renderPassage(wmId ? embedWatermark(para.text_en, wmId) : para.text_en) }} />
                     {showVI && (
-                      <p className="text-gray-500 text-xs leading-relaxed mt-3 pt-3 border-t border-gray-200 italic"
+                      <p className="text-gray-500 text-sm leading-relaxed mt-3 pt-3 border-t border-gray-200"
                         dangerouslySetInnerHTML={{ __html: renderPassage(para.text_vi) }} />
                     )}
                   </div>
@@ -485,27 +485,27 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                 return (
                   <details key={item.id} className="bg-white border-2 border-gray-100 rounded-2xl overflow-hidden group"
                     onToggle={e => { if ((e.currentTarget as HTMLDetailsElement).open) speak(displayText) }}>
-                    <summary className="px-4 py-3 cursor-pointer list-none flex items-start gap-2">
+                    <summary className="px-4 py-2.5 cursor-pointer list-none flex items-center gap-2">
                       {/* Badge */}
                       {isCollocation ? (
-                        <span className="w-7 h-7 rounded-xl bg-purple-50 text-purple-500 font-black text-xs flex items-center justify-center flex-shrink-0 mt-0.5">💬</span>
+                        <span className="w-7 h-7 rounded-xl bg-purple-50 text-purple-500 font-black text-xs flex items-center justify-center flex-shrink-0">💬</span>
                       ) : (
-                        <span className="w-7 h-7 rounded-xl bg-blue-50 text-blue-600 font-black text-xs flex items-center justify-center flex-shrink-0 mt-0.5">{item.id}</span>
+                        <span className="w-7 h-7 rounded-xl bg-blue-50 text-blue-600 font-black text-xs flex items-center justify-center flex-shrink-0">{item.id}</span>
                       )}
-                      {/* Word + POS */}
-                      <div className="flex-1 min-w-0">
-                        <p className="font-black text-gray-800 text-sm leading-snug">{displayText}</p>
+                      {/* Word + POS inline */}
+                      <div className="flex-1 min-w-0 flex items-baseline gap-1.5">
+                        <p className="font-black text-gray-800 text-sm leading-snug truncate">{displayText}</p>
                         {isCollocation
-                          ? <p className="text-purple-400 text-xs">col</p>
-                          : item.pos && <p className="text-gray-400 text-xs italic">{posShort(item.pos)}</p>
+                          ? <span className="text-purple-400 text-xs flex-shrink-0">col</span>
+                          : item.pos && <span className="text-gray-400 text-xs italic flex-shrink-0">{posShort(item.pos)}</span>
                         }
                       </div>
-                      {/* Meaning — full, up to 2 lines */}
-                      <span className="text-blue-600 font-bold text-sm text-right leading-snug line-clamp-2 max-w-[38%]">
+                      {/* Meaning — first clause, single line */}
+                      <span className="text-blue-600 font-bold text-sm text-right truncate max-w-[34%]">
                         {(item.meaning_vi ?? '').split(';')[0]}
                       </span>
-                      {/* Speaker + Star stacked */}
-                      <div className="flex flex-col items-center flex-shrink-0">
+                      {/* Speaker + Star inline */}
+                      <div className="flex items-center flex-shrink-0">
                         <button
                           onClick={e => { e.preventDefault(); speak(displayText) }}
                           className="text-gray-300 hover:text-blue-500 active:text-blue-600 transition-colors p-1"
@@ -518,7 +518,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                         >{savedWords.has(displayText) ? '⭐' : '☆'}</button>
                       </div>
                       {/* Arrow */}
-                      <span className="text-gray-300 group-open:rotate-180 transition-transform flex-shrink-0 self-center text-sm">▾</span>
+                      <span className="text-gray-300 group-open:rotate-180 transition-transform flex-shrink-0 text-sm">▾</span>
                     </summary>
                     <div className="px-4 pb-4 pt-2 border-t border-gray-100 space-y-2">
                       {/* IPA — shown only in expanded */}
@@ -584,9 +584,9 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                 )
               })}
             </div>
-            <button onClick={() => setTab(data.grammar_spotlight ? 'grammar' : 'exercises')}
+            <button onClick={() => setTab('exercises')}
               className="w-full mt-6 bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all">
-              {data.grammar_spotlight ? '📖 Ngữ pháp →' : '📝 Luyện từ vựng →'}
+              📝 Làm bài tập từ vựng →
             </button>
             </>
             )}
@@ -597,10 +597,6 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
         {tab === 'grammar' && data.grammar_spotlight && (
           <div>
             <GrammarSpotlight data={data.grammar_spotlight} />
-            <button onClick={() => setTab('exercises')}
-              className="w-full mt-6 bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all">
-              📝 Luyện từ vựng →
-            </button>
           </div>
         )}
 
