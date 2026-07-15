@@ -198,7 +198,7 @@ export default function LandingPage() {
       </section>
 
       {/* Module feature grid */}
-      <section id="modules" className="bg-white py-4 lg:py-14">
+      <section id="modules" className="bg-white py-4 lg:py-10">
       <Reveal className="max-w-7xl mx-auto">
         <h2 className="text-xl lg:text-3xl font-black text-gray-800 text-center mb-1 md:mb-5 lg:mb-8 px-4">Khám phá từng module học</h2>
         <p className="text-gray-400 text-sm lg:text-base text-center mb-4 lg:mb-8 px-4 md:hidden">Vuốt để xem tất cả tính năng nổi bật</p>
@@ -237,7 +237,7 @@ export default function LandingPage() {
       <LandingScreenshotGallery />
 
       {/* Features */}
-      <section className="bg-white border-t border-gray-100 py-4 lg:py-14">
+      <section className="bg-white border-t border-gray-100 py-4 lg:py-10">
       <Reveal className="max-w-7xl mx-auto px-4 lg:px-12">
         <h2 className="text-xl lg:text-3xl font-black text-gray-800 text-center mb-5 lg:mb-8">Tại sao chọn VocabWise?</h2>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-3 lg:gap-5">
@@ -255,13 +255,13 @@ export default function LandingPage() {
       </section>
 
       {/* Pricing */}
-      <section id="pricing" className="bg-white py-4 lg:py-14">
+      <section id="pricing" className="bg-white py-4 lg:py-10">
       <Reveal className="max-w-5xl mx-auto px-4 lg:px-12">
         <h2 className="text-xl lg:text-3xl font-black text-gray-800 text-center mb-1">Gói dịch vụ</h2>
         <p className="text-gray-500 text-sm lg:text-base text-center mb-4 lg:mb-8">1 tài khoản · 1 gia đình · Đồng bộ mọi thiết bị</p>
 
         {/* Free — compact */}
-        <div className="bg-white rounded-2xl p-4 lg:p-5 border-2 border-gray-100 mb-3 flex items-center justify-between gap-3">
+        <div className="bg-white rounded-2xl p-4 lg:p-5 border-2 border-gray-100 mb-3 lg:mb-5 flex items-center justify-between gap-3">
           <div>
             <p className="font-black text-gray-700 text-sm lg:text-base">🆓 Dùng thử 7 ngày miễn phí</p>
             <p className="text-xs lg:text-sm text-gray-500 mt-0.5">1 bé · 1 chủ đề/level · Phonics IPA 1 bài · Không cần thẻ tín dụng</p>
@@ -272,7 +272,7 @@ export default function LandingPage() {
         </div>
 
         {/* Pro plans — 3 tiers */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 lg:gap-5 mt-5">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 lg:gap-5 mt-5 lg:mt-6">
           {/* 1 tháng */}
           <div className="bg-white rounded-2xl p-3 lg:p-5 border-2 border-purple-100 flex flex-col hover:shadow-lg hover:-translate-y-1 transition-all">
             <p className="text-sm lg:text-base font-black text-purple-400 uppercase tracking-wide">1 tháng</p>
@@ -281,7 +281,7 @@ export default function LandingPage() {
             <ul className="text-xs md:text-sm lg:text-base text-gray-500 space-y-1.5 flex-1 leading-snug">
               <li>✅ <strong>2 bé</strong></li>
               <li>✅ 5.100+ từ vựng</li>
-              <li>✅ AI phát âm<br/><span className="text-gray-500">30 lần/ngày</span></li>
+              <li>✅ AI phát âm <span className="text-gray-500">30 lần/ngày</span></li>
               <li>✅ Push notification</li>
               <li>✅ Báo cáo email thủ công</li>
             </ul>
@@ -300,9 +300,9 @@ export default function LandingPage() {
             <p className="text-xs lg:text-sm text-white/60 mt-0.5 mb-2.5">53k/tháng · tiết kiệm 10%</p>
             <ul className="text-xs md:text-sm lg:text-base text-white/90 space-y-1.5 flex-1 leading-snug">
               <li>✅ <strong>3 bé</strong></li>
-              <li>✅ AI phát âm<br/><span className="text-white/70">không giới hạn</span></li>
+              <li>✅ AI phát âm <span className="text-white/70">không giới hạn</span></li>
               <li>✅ Module Word Stress</li>
-              <li>✅ Báo cáo email<br/><span className="text-white/70">tự động hàng tuần</span></li>
+              <li>✅ Báo cáo email <span className="text-white/70">tự động hàng tuần</span></li>
             </ul>
             <LandingUpgradeButton
               label="Chọn"
@@ -319,9 +319,9 @@ export default function LandingPage() {
             <p className="text-xs lg:text-sm text-white/60 mt-0.5 mb-2.5">50k/tháng · tiết kiệm 16%</p>
             <ul className="text-xs md:text-sm lg:text-base text-white/90 space-y-1.5 flex-1 leading-snug">
               <li>✅ <strong>3 bé</strong></li>
-              <li>✅ AI phát âm<br/><span className="text-white/70">không giới hạn</span></li>
-              <li>🎁 Tặng bạn bè<br/><span className="text-white/70">14 ngày Pro</span></li>
-              <li>📅 Tổng kết học<br/><span className="text-white/70">hàng tháng</span></li>
+              <li>✅ AI phát âm <span className="text-white/70">không giới hạn</span></li>
+              <li>🎁 Tặng bạn bè <span className="text-white/70">14 ngày Pro</span></li>
+              <li>📅 Tổng kết học <span className="text-white/70">hàng tháng</span></li>
             </ul>
             <LandingUpgradeButton
               label="Chọn"
@@ -342,7 +342,7 @@ export default function LandingPage() {
       </section>
 
       {/* How it works */}
-      <section className="bg-white border-t border-gray-100 py-4 lg:py-14">
+      <section className="bg-white border-t border-gray-100 py-4 lg:py-10">
       <Reveal className="max-w-5xl mx-auto px-4 lg:px-12">
         <h2 className="text-xl lg:text-3xl font-black text-gray-800 text-center mb-1">Bắt đầu trải nghiệm thật dễ dàng!</h2>
         <p className="text-gray-500 text-sm lg:text-base text-center mb-5 lg:mb-8">4 bước đơn giản để con bắt đầu hành trình từ vựng</p>
@@ -371,7 +371,7 @@ export default function LandingPage() {
       </section>
 
       {/* Founder trust */}
-      <section className="bg-white py-4 lg:py-12">
+      <section className="bg-white py-4 lg:py-10">
       <Reveal className="max-w-5xl mx-auto px-4 lg:px-12">
         <div className="bg-white rounded-3xl p-6 lg:p-8 shadow-sm border-2 border-purple-200 flex gap-4 lg:gap-6 items-start">
           <div className="text-4xl lg:text-5xl flex-shrink-0">👨‍🏫</div>
@@ -389,7 +389,7 @@ export default function LandingPage() {
       </section>
 
       {/* FAQ — SEO structured content */}
-      <section id="faq" className="bg-white border-t border-gray-100 py-4 lg:py-14">
+      <section id="faq" className="bg-white border-t border-gray-100 py-4 lg:py-10">
       <Reveal className="max-w-3xl mx-auto px-4 lg:px-0">
         <h2 className="text-xl lg:text-3xl font-black text-gray-800 text-center mb-1">Câu hỏi thường gặp</h2>
         <p className="text-gray-500 text-sm lg:text-base text-center mb-5 lg:mb-8">Về VocabWise</p>
