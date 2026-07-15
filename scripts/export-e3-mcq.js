@@ -86,9 +86,13 @@ function doImport() {
       const idMatch = lines[0].match(/^(\d+)\.\s*(.+)/)
       if (!idMatch) continue
       const id = parseInt(idMatch[1])
-      const sentence = idMatch[2].trim()
+      // GPT's own file-export step sometimes double-mangles UTF-8 (mojibake), corrupting the
+      // em-dash and other accented characters to "â"/"Ã©"-style artifacts. Only the em-dash
+      // shows up mid-sentence (real arrows only ever appear on the options line below), so
+      // restoring " â " -> " — " here is safe and recovers the intended punctuation.
+      const sentence = idMatch[2].trim().replace(/\sâ\s/g, ' — ')
       const optLine = (lines[1] ?? '').trim()
-      const m = optLine.match(/A\.\s*(.+?)\s+\|\s+B\.\s*(.+?)\s+\|\s+C\.\s*(.+?)\s+\|\s+D\.\s*(.+?)\s+→\s+(.+)/)
+      const m = optLine.match(/A\.\s*(.+?)\s+\|\s+B\.\s*(.+?)\s+\|\s+C\.\s*(.+?)\s+\|\s+D\.\s*(.+?)\s+(?:→|â)\s+(.+)/)
       if (!m) continue
       const options = [m[1].trim(), m[2].trim(), m[3].trim(), m[4].trim()]
       const answer  = m[5].trim()
@@ -97,6 +101,12 @@ function doImport() {
       const item = ex.items.find(it => it.id === id)
       if (!item) continue
       if (item.sentence === sentence && JSON.stringify(item.options) === JSON.stringify(options) && item.answer === answer) continue
+
+      // Safety net: flag any other leftover mojibake byte-patterns (Ã©, á», áº, Æ°, Ä+non-letter)
+      // that this parser doesn't know how to repair, so they get a manual look instead of
+      // silently landing in the JSON (happened once with "café" -> "cafÃ©", "đồng" -> "Äá»ng").
+      const suspect = [sentence, ...options, answer].join(' ').match(/Ã©|Ã |á»|áº|Æ°|Ä[^a-zA-Z ]/g)
+      if (suspect) console.log(`  ⚠️  ${topicId}#${id}: possible leftover mojibake ${JSON.stringify(suspect)} — check manually`)
 
       item.sentence = sentence
       item.options  = options
