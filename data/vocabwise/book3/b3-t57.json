@@ -336,7 +336,7 @@
         },
         {
           "id": 3,
-          "sentence": "The company's reputation collapsed after an investigation revealed a systemic lack of _____ in its financial reporting.",
+          "sentence": "The company's reputation collapsed after an investigation revealed a systemic lack of _____ in its financial reporting: major liabilities had been deliberately hidden from investors.",
           "options": [
             "autonomy",
             "surveillance",
@@ -358,7 +358,7 @@
         },
         {
           "id": 5,
-          "sentence": "The board demanded full _____ from the executive team for the data breach that exposed millions of users.",
+          "sentence": "The board demanded full _____ from the executive team for the data breach, requiring named leaders to accept responsibility and face consequences.",
           "options": [
             "transparency",
             "datafication",
