@@ -145,7 +145,7 @@ export default function LandingPage() {
       <nav className="sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 lg:px-12 py-4 flex items-center justify-between">
           <span className="font-black text-xl lg:text-2xl text-gray-800">📚 VocabWise</span>
-          <div className="hidden lg:flex items-center gap-8 text-sm font-bold text-gray-500">
+          <div className="hidden lg:flex items-center gap-8 text-sm lg:text-base font-bold text-gray-500">
             <a href="#modules" className="hover:text-purple-600 transition-colors">Module học</a>
             <a href="#pricing" className="hover:text-purple-600 transition-colors">Bảng giá</a>
             <a href="#faq" className="hover:text-purple-600 transition-colors">FAQ</a>
@@ -223,7 +223,7 @@ export default function LandingPage() {
               key={card.title}
               className={`flex-none md:flex-auto snap-center w-[280px] md:w-auto bg-gradient-to-br ${card.bgLight} rounded-2xl border-2 ${card.border} p-4 lg:p-5 flex flex-col hover:shadow-lg hover:-translate-y-1 transition-all`}
             >
-              <div className={`inline-flex items-center gap-1.5 bg-gradient-to-r ${card.gradient} text-white text-xs font-black px-2.5 py-1 rounded-full self-start mb-3`}>
+              <div className={`inline-flex items-center gap-1.5 bg-gradient-to-r ${card.gradient} text-white text-xs lg:text-sm font-black px-2.5 py-1 rounded-full self-start mb-3`}>
                 <span>{card.emoji}</span>
                 <span>{card.badge}</span>
               </div>
@@ -233,7 +233,7 @@ export default function LandingPage() {
                 {card.features.map(f => (
                   <li key={f.text} className="flex items-start gap-2">
                     <span className="text-base flex-shrink-0 leading-none mt-0.5">{f.icon}</span>
-                    <span className="text-gray-600 text-xs lg:text-sm leading-snug">{f.text}</span>
+                    <span className="text-gray-600 text-xs lg:text-base leading-snug">{f.text}</span>
                   </li>
                 ))}
               </ul>
@@ -278,7 +278,7 @@ export default function LandingPage() {
             <p className="font-black text-gray-700 text-sm lg:text-base">🆓 Dùng thử 7 ngày miễn phí</p>
             <p className="text-xs lg:text-sm text-gray-400 mt-0.5">1 bé · 1 chủ đề/level · Phonics IPA 1 bài · Không cần thẻ tín dụng</p>
           </div>
-          <Link href="/register" className="flex-shrink-0 bg-gray-100 text-gray-600 font-black text-xs lg:text-sm px-3 py-2 lg:px-4 lg:py-2.5 rounded-xl hover:bg-gray-200 transition-colors whitespace-nowrap">
+          <Link href="/register" className="flex-shrink-0 bg-gray-100 text-gray-600 font-black text-xs lg:text-base px-3 py-2 lg:px-4 lg:py-2.5 rounded-xl hover:bg-gray-200 transition-colors whitespace-nowrap">
             Thử miễn phí →
           </Link>
         </div>
@@ -299,12 +299,12 @@ export default function LandingPage() {
             </ul>
             <LandingUpgradeButton
               label="Chọn"
-              className="mt-3 w-full bg-purple-100 text-purple-700 font-black text-xs lg:text-sm py-2 lg:py-3 rounded-xl hover:bg-purple-200 transition-colors active:scale-95" />
+              className="mt-3 w-full bg-purple-100 text-purple-700 font-black text-xs lg:text-base py-2 lg:py-3 rounded-xl hover:bg-purple-200 transition-colors active:scale-95" />
           </div>
 
           {/* 3 tháng — most popular */}
           <div className="relative bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl p-3 lg:p-5 flex flex-col shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all">
-            <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-orange-400 text-white text-xs font-black px-2.5 py-0.5 rounded-full whitespace-nowrap shadow">
+            <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-orange-400 text-white text-xs lg:text-sm font-black px-2.5 py-0.5 rounded-full whitespace-nowrap shadow">
               PHỔ BIẾN ★
             </div>
             <p className="text-sm lg:text-base font-black text-white/70 uppercase tracking-wide mt-1">3 tháng</p>
@@ -318,12 +318,12 @@ export default function LandingPage() {
             </ul>
             <LandingUpgradeButton
               label="Chọn"
-              className="mt-3 w-full bg-white text-purple-600 font-black text-xs lg:text-sm py-2 lg:py-3 rounded-xl hover:bg-purple-50 transition-colors active:scale-95" />
+              className="mt-3 w-full bg-white text-purple-600 font-black text-xs lg:text-base py-2 lg:py-3 rounded-xl hover:bg-purple-50 transition-colors active:scale-95" />
           </div>
 
           {/* 6 tháng — best value */}
           <div className="relative bg-gradient-to-br from-indigo-600 to-violet-600 rounded-2xl p-3 lg:p-5 flex flex-col shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all">
-            <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-amber-400 text-amber-900 text-xs font-black px-2.5 py-0.5 rounded-full whitespace-nowrap shadow">
+            <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-amber-400 text-amber-900 text-xs lg:text-sm font-black px-2.5 py-0.5 rounded-full whitespace-nowrap shadow">
               GIÁ TỐT NHẤT 👑
             </div>
             <p className="text-sm lg:text-base font-black text-white/70 uppercase tracking-wide mt-1">6 tháng</p>
@@ -337,7 +337,7 @@ export default function LandingPage() {
             </ul>
             <LandingUpgradeButton
               label="Chọn"
-              className="mt-3 w-full bg-white text-indigo-600 font-black text-xs lg:text-sm py-2 lg:py-3 rounded-xl hover:bg-indigo-50 transition-colors active:scale-95" />
+              className="mt-3 w-full bg-white text-indigo-600 font-black text-xs lg:text-base py-2 lg:py-3 rounded-xl hover:bg-indigo-50 transition-colors active:scale-95" />
           </div>
         </div>
 
@@ -373,7 +373,7 @@ export default function LandingPage() {
             <span className="text-xl lg:text-2xl flex-shrink-0">👨‍👩‍👧</span>
             <div>
               <p className="font-black text-amber-800 text-sm lg:text-base">Lời khuyên từ người tạo ra app</p>
-              <p className="text-amber-700 text-xs lg:text-sm mt-1 leading-relaxed">
+              <p className="text-amber-700 text-xs lg:text-base mt-1 leading-relaxed">
                 Với bé dưới 10 tuổi, ba/mẹ nên <strong>ngồi học cùng con</strong> — đặc biệt trong những buổi đầu. Các bé chưa tự giác và cần được hướng dẫn, động viên. Chỉ cần 15–20 phút mỗi ngày cùng nhau là đủ. Khi bé đã quen, bé sẽ tự học một mình rất nhanh!
               </p>
             </div>
@@ -389,10 +389,10 @@ export default function LandingPage() {
           <div className="text-4xl lg:text-5xl flex-shrink-0">👨‍🏫</div>
           <div>
             <p className="font-black text-gray-800 text-sm lg:text-base mb-1">Được thiết kế bởi Thầy Andie Nguyễn</p>
-            <p className="text-gray-500 text-xs lg:text-sm leading-relaxed">
+            <p className="text-gray-500 text-xs lg:text-base leading-relaxed">
               Đồng sáng lập <strong>IELTS CHAMPION</strong> · IELTS 8.5 Overall (Writing 8.5) · Thạc sỹ MBA Vương quốc Anh · Học bổng toàn phần của Chính phủ Singapore · Tốt nghiệp <strong>School of Business, National University of Singapore</strong> (Top 8 thế giới) · Hơn 10 năm kinh nghiệm giảng dạy IELTS/SAT · Trực tiếp đào tạo nhiều học viên IELTS 7.0, 7.5, 8.0.
             </p>
-            <p className="text-purple-500 text-xs lg:text-sm font-semibold mt-2 leading-relaxed">
+            <p className="text-purple-500 text-xs lg:text-base font-semibold mt-2 leading-relaxed">
               &quot;Khi học Tiếng Anh và ngoại ngữ nói chung thì <em>Vocabulary is King</em> — học sinh nào có vốn từ đa dạng, học nhanh nhớ lâu sẽ có lợi thế vô cùng lớn. Tuy nhiên, một số cách học từ vựng truyền thống, học chay mà không có câu ví dụ, không phát âm hay hình ảnh minh hoạ sẽ làm các em mau chán, khó áp dụng từ mới. Dựa trên kinh nghiệm giảng dạy cho học sinh và chính các con của mình, tôi tạo ra VocabWise để giúp trẻ học từ vựng Tiếng Anh thật vui, có hệ thống, và hiệu quả thực sự!&quot;
             </p>
           </div>
