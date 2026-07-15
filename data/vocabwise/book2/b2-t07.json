@@ -443,12 +443,12 @@
         },
         {
           "id": 4,
-          "sentence": "Her decision was affected by _____ — she preferred candidates from her own university.",
+          "sentence": "Her decision was affected by selection _____ — she consistently preferred candidates from her own university regardless of their qualifications.",
           "answer": "bias"
         },
         {
           "id": 5,
-          "sentence": "It is important to challenge _____ by learning about people who are different from you.",
+          "sentence": "It is important to challenge _____ — an unreasonable dislike of people simply because they belong to a particular group — by learning about those who are different from you.",
           "answer": "prejudice"
         }
       ]

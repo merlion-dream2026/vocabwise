@@ -424,7 +424,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "She only buys _____ clothing made from organic cotton or recycled fibres.",
+          "sentence": "She only buys _____ clothing, meaning garments made from organic cotton or recycled fibres to minimise environmental harm.",
           "answer": "sustainable"
         },
         {
@@ -444,7 +444,7 @@
         },
         {
           "id": 5,
-          "sentence": "The designer created a _____ collection inspired by the traditional textiles of her home region.",
+          "sentence": "The designer created a _____ collection focused on expressing the traditions, symbols, and identity of her home region rather than on environmentally friendly materials.",
           "answer": "cultural"
         }
       ]

@@ -442,7 +442,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "She checked her monthly _____ to make sure she was not spending more than she earned.",
+          "sentence": "She checked her monthly _____, which listed spending limits for rent, food, and transport, to make sure she was not spending more than she earned.",
           "answer": "budget"
         },
         {
@@ -452,7 +452,7 @@
         },
         {
           "id": 3,
-          "sentence": "When the car broke down unexpectedly, she used her _____ to pay for the repairs.",
+          "sentence": "When the car broke down unexpectedly, she used her emergency _____, money she had deliberately set aside over several years, to pay for the repairs.",
           "answer": "savings"
         },
         {

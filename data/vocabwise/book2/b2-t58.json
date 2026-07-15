@@ -427,7 +427,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "It is important to consider the _____ of any decision on the people who are most vulnerable.",
+          "sentence": "It is important to consider the _____ that any decision may have on the people who are most vulnerable.",
           "answer": "impact"
         },
         {
@@ -447,7 +447,7 @@
         },
         {
           "id": 5,
-          "sentence": "Accepting responsibility for the _____ of a decision — even when things go wrong — shows maturity and integrity.",
+          "sentence": "Accepting responsibility for the end _____ of a decision — even when things go wrong — shows maturity and integrity.",
           "answer": "result"
         }
       ]
