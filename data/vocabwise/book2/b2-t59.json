@@ -360,7 +360,7 @@
           "options": [
             "influence",
             "spread",
-            "travel",
+            "remain",
             "link"
           ],
           "answer": "spread"

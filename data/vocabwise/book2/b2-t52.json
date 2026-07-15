@@ -356,7 +356,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The app was secretly _____ users' location data even when the app was closed.",
+          "sentence": "The app was secretly _____ users' location data and storing the coordinates in its own database, even when the app was closed.",
           "options": [
             "watching",
             "sharing",
@@ -389,7 +389,7 @@
         },
         {
           "id": 4,
-          "sentence": "Governments must _____ tech companies more strictly to ensure they do not misuse personal data.",
+          "sentence": "Governments must _____ tech companies more strictly by introducing and enforcing new legal rules on personal data.",
           "options": [
             "gather",
             "watch",
@@ -400,7 +400,7 @@
         },
         {
           "id": 5,
-          "sentence": "Using a strong, unique password for each account is a basic step in protecting your online _____.",
+          "sentence": "Using a strong, unique password for each account is a basic step in improving your online _____ against hacking and unauthorised access.",
           "options": [
             "right",
             "identity",

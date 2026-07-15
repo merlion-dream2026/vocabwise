@@ -356,7 +356,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The village holds an _____ ceremony that has been performed without change for over 1,000 years.",
+          "sentence": "The village holds an _____ ceremony, meaning that it originated over 1,000 years ago and is still performed today.",
           "options": [
             "ancient",
             "modern",
@@ -367,7 +367,7 @@
         },
         {
           "id": 2,
-          "sentence": "The government invested in the annual _____ to help attract tourists and celebrate the region's culture.",
+          "sentence": "The government invested in organising the annual _____, including hiring performers, building stages, and advertising the three-day festival.",
           "options": [
             "generation",
             "tradition",

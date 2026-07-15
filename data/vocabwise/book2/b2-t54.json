@@ -395,7 +395,7 @@
           "sentence": "Rather than giving their _____, residents were asked to bring data on how traffic had changed.",
           "options": [
             "argument",
-            "perspective",
+            "conclusion",
             "opinion",
             "evidence"
           ],
@@ -403,7 +403,7 @@
         },
         {
           "id": 5,
-          "sentence": "The committee set up a task force to _____ the problem of youth unemployment in the area.",
+          "sentence": "The committee set up a task force to _____ the problem of youth unemployment by developing and implementing practical solutions.",
           "options": [
             "deal with",
             "suggest",

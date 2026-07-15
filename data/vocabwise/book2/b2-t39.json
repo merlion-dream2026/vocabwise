@@ -370,7 +370,7 @@
         },
         {
           "id": 2,
-          "sentence": "Sharing a meal at a family gathering is a deeply _____ act in many Asian cultures.",
+          "sentence": "Sharing a meal at a family gathering is a deeply _____ act because it represents unity and respect for one's relatives.",
           "options": [
             "real",
             "traditional",
@@ -381,7 +381,7 @@
         },
         {
           "id": 3,
-          "sentence": "The chef spent months documenting traditional _____ from elderly villagers before they were lost.",
+          "sentence": "The chef spent months documenting traditional _____, including complete ingredient lists and step-by-step instructions for specific dishes, from elderly villagers.",
           "options": [
             "recipes",
             "flavours",
@@ -392,7 +392,7 @@
         },
         {
           "id": 4,
-          "sentence": "The family uses only fresh, _____ ingredients and avoids all processed substitutes.",
+          "sentence": "The family uses only fresh, _____ ingredients rather than artificial flavourings or imitation products.",
           "options": [
             "symbolic",
             "real",

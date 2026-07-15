@@ -358,7 +358,7 @@
           "id": 1,
           "sentence": "Many young professionals _____ to the capital each year, attracted by higher salaries and more opportunities.",
           "options": [
-            "move to cities",
+            "settle abroad",
             "migrate",
             "expand",
             "develop"
@@ -378,9 +378,9 @@
         },
         {
           "id": 3,
-          "sentence": "The city plans to _____ its metro network to reach the new residential areas in the east.",
+          "sentence": "The city plans to _____ its metro network by adding 40 kilometres of new track and 20 stations.",
           "options": [
-            "develop",
+            "reduce",
             "expand",
             "migrate",
             "populate"
@@ -393,7 +393,7 @@
           "options": [
             "growth",
             "population",
-            "expansion",
+            "decline",
             "housing"
           ],
           "answer": "growth"

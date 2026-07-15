@@ -372,7 +372,7 @@
           "id": 2,
           "sentence": "Young activists used _____ platforms to organise a global climate strike.",
           "options": [
-            "social",
+            "physical",
             "identity",
             "digital",
             "youth"
@@ -381,7 +381,7 @@
         },
         {
           "id": 3,
-          "sentence": "Schools must take _____ seriously and provide professional support for anxious students.",
+          "sentence": "Schools must take _____, including anxiety, depression, and other psychological conditions, seriously and provide professional support for students.",
           "options": [
             "career",
             "mental health",

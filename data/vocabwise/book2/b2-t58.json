@@ -359,7 +359,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "She spent a week trying to _____ the advantages and disadvantages before accepting the job offer.",
+          "sentence": "She spent a week trying to _____ the advantages against the disadvantages before accepting the job offer.",
           "options": [
             "consider",
             "weigh up",
@@ -370,7 +370,7 @@
         },
         {
           "id": 2,
-          "sentence": "An _____ person recognises that some of their decisions may benefit themselves while causing harm to others.",
+          "sentence": "She is the person _____ for checking whether company decisions may benefit some people while causing harm to others.",
           "options": [
             "moral",
             "responsible",
@@ -381,11 +381,11 @@
         },
         {
           "id": 3,
-          "sentence": "The manager had to _____ the impact of the redundancies on all staff before making the announcement.",
+          "sentence": "Working alone and without consulting anyone, the manager had to _____ the impact of the redundancies on all staff before making the announcement.",
           "options": [
             "discuss",
             "consider",
-            "weigh",
+            "ignore",
             "decide"
           ],
           "answer": "consider"
@@ -396,7 +396,7 @@
           "options": [
             "benefit",
             "rule of life",
-            "moral",
+            "pressure",
             "choice"
           ],
           "answer": "rule of life"

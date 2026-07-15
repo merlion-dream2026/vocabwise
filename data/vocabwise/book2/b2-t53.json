@@ -356,7 +356,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "One of the biggest concerns about AI is that it might _____ millions of workers in industries like manufacturing.",
+          "sentence": "One of the biggest concerns about AI is that it might _____ millions of workers by performing their jobs instead of them.",
           "options": [
             "regulate",
             "replace",
@@ -381,7 +381,7 @@
           "sentence": "The _____ of AI in healthcare — earlier diagnosis and personalised treatment — could save millions of lives.",
           "options": [
             "risk",
-            "impact",
+            "regulation",
             "benefit",
             "data"
           ],
@@ -402,8 +402,8 @@
           "id": 5,
           "sentence": "Routine tasks are increasingly being _____ by software, while humans focus on creative and strategic work.",
           "options": [
-            "replaced",
             "regulated",
+            "replaced",
             "done automatically",
             "impacted"
           ],

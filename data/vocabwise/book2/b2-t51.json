@@ -363,7 +363,7 @@
           "options": [
             "reveals",
             "spreads",
-            "verifies",
+            "ignores",
             "checks"
           ],
           "answer": "checks"

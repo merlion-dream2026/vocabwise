@@ -356,7 +356,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The factory was fined heavily for releasing toxic chemicals that caused serious _____ to the river.",
+          "sentence": "The factory was fined heavily for releasing toxic chemicals that caused serious _____ to the river's fish population and plant life.",
           "options": [
             "waste",
             "damage",
@@ -367,7 +367,7 @@
         },
         {
           "id": 2,
-          "sentence": "She switched to _____ light bulbs and installed solar panels to reduce her electricity bills.",
+          "sentence": "She switched to _____ light bulbs specifically designed to use much less electricity than standard bulbs.",
           "options": [
             "green",
             "local",
@@ -378,7 +378,7 @@
         },
         {
           "id": 3,
-          "sentence": "The company has committed to cutting its _____ by switching to electric delivery vehicles.",
+          "sentence": "The company has committed to cutting its _____ — its total greenhouse-gas emissions across all operations — by switching to electric delivery vehicles.",
           "options": [
             "carbon footprint",
             "pollution",
@@ -400,9 +400,9 @@
         },
         {
           "id": 5,
-          "sentence": "Many restaurants now use _____ packaging — made from recycled paper or plant-based materials.",
+          "sentence": "Many restaurants now use _____ packaging — some is made from recycled paper, while other types are plant-based and compostable.",
           "options": [
-            "green",
+            "luxury",
             "eco-friendly",
             "local",
             "recycled"

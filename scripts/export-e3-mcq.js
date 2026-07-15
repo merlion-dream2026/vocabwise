@@ -13,6 +13,22 @@ const path = require('path')
 
 const ROOT    = path.join(__dirname, '..')
 const OUT_DIR = path.join(ROOT, 'exports', 'e3-audit')
+
+// GPT's file-export step sometimes double-mangles UTF-8 (mojibake): em-dash, curly quotes,
+// and apostrophes all collapse to the same "â" glyph (they share a UTF-8 lead byte sequence
+// that gets corrupted the same way). Distinguish them by surrounding context, matching this
+// codebase's existing convention of straight quotes/apostrophes and spaced em-dashes:
+//   â...â  (no space just inside either â)     -> "..."   (quote pair)
+//   <space>â<space>                            -> em-dash —
+//   letter â letter                            -> apostrophe ' (contraction/possessive)
+//   letter â <space/punct>                     -> apostrophe ' (plural possessive, e.g. "users' ")
+function restoreMojibakePunctuation(s) {
+  return s
+    .replace(/â(\S(?:.*?\S)?)â/g, '"$1"')
+    .replace(/(\s)â(\s)/g, '$1—$2')
+    .replace(/([a-zA-Z])â([a-zA-Z])/g, "$1'$2")
+    .replace(/([a-zA-Z])â(?=[\s,.;:])/g, "$1'")
+}
 const ARROW   = '→'
 
 const args     = process.argv.slice(2)
@@ -86,11 +102,7 @@ function doImport() {
       const idMatch = lines[0].match(/^(\d+)\.\s*(.+)/)
       if (!idMatch) continue
       const id = parseInt(idMatch[1])
-      // GPT's own file-export step sometimes double-mangles UTF-8 (mojibake), corrupting the
-      // em-dash and other accented characters to "â"/"Ã©"-style artifacts. Only the em-dash
-      // shows up mid-sentence (real arrows only ever appear on the options line below), so
-      // restoring " â " -> " — " here is safe and recovers the intended punctuation.
-      const sentence = idMatch[2].trim().replace(/\sâ\s/g, ' — ')
+      const sentence = restoreMojibakePunctuation(idMatch[2].trim())
       const optLine = (lines[1] ?? '').trim()
       const m = optLine.match(/A\.\s*(.+?)\s+\|\s+B\.\s*(.+?)\s+\|\s+C\.\s*(.+?)\s+\|\s+D\.\s*(.+?)\s+(?:→|â)\s+(.+)/)
       if (!m) continue
@@ -105,7 +117,7 @@ function doImport() {
       // Safety net: flag any other leftover mojibake byte-patterns (Ã©, á», áº, Æ°, Ä+non-letter)
       // that this parser doesn't know how to repair, so they get a manual look instead of
       // silently landing in the JSON (happened once with "café" -> "cafÃ©", "đồng" -> "Äá»ng").
-      const suspect = [sentence, ...options, answer].join(' ').match(/Ã©|Ã |á»|áº|Æ°|Ä[^a-zA-Z ]/g)
+      const suspect = [sentence, ...options, answer].join(' ').match(/Ã©|Ã |á»|áº|Æ°|Ä[^a-zA-Z ]|â/g)
       if (suspect) console.log(`  ⚠️  ${topicId}#${id}: possible leftover mojibake ${JSON.stringify(suspect)} — check manually`)
 
       item.sentence = sentence

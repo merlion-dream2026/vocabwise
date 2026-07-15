@@ -392,7 +392,7 @@
         },
         {
           "id": 4,
-          "sentence": "The children had strong abilities but lacked access to the _____ they needed to succeed.",
+          "sentence": "The children had strong abilities but lacked access to the _____ they needed, such as textbooks, computers, and trained teachers.",
           "options": [
             "resources",
             "standards",
@@ -403,7 +403,7 @@
         },
         {
           "id": 5,
-          "sentence": "The most effective way to improve educational _____ is to invest in teacher training.",
+          "sentence": "The most effective way to improve educational _____, including graduation rates and employment after school, is to invest in teacher training.",
           "options": [
             "barriers",
             "achievements",

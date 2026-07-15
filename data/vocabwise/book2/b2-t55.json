@@ -381,7 +381,7 @@
         },
         {
           "id": 3,
-          "sentence": "Any claim that is _____ must go through rigorous testing and peer review before being accepted.",
+          "sentence": "Any claim that is _____ — that is, grounded in scientific methods and evidence — must go through rigorous testing and peer review before being accepted.",
           "options": [
             "ethical",
             "based on science",
@@ -392,7 +392,7 @@
         },
         {
           "id": 4,
-          "sentence": "The _____ of clean energy technology include cheaper electricity and reduced greenhouse gas emissions.",
+          "sentence": "The _____ of clean energy technology include powering homes, charging vehicles, and running factories without fossil fuels.",
           "options": [
             "results",
             "progress",

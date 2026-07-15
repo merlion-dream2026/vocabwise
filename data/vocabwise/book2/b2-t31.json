@@ -362,7 +362,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The _____ at the national museum included over 50 paintings from the Renaissance period.",
+          "sentence": "The temporary _____ at the national museum was officially titled \"Renaissance Masters\", ran from May to July, and included over 50 paintings.",
           "options": [
             "collection",
             "gallery",
@@ -395,7 +395,7 @@
         },
         {
           "id": 4,
-          "sentence": "The museum's permanent _____ spans five centuries of European and Asian art.",
+          "sentence": "The museum owns a permanent _____ of artworks spanning five centuries of European and Asian art.",
           "options": [
             "show",
             "collection",
