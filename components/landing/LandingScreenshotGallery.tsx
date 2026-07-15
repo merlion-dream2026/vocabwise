@@ -26,13 +26,13 @@ export default function LandingScreenshotGallery() {
       {activeScreenshot && (
         <div className="fixed inset-0 bg-black/95 z-50 flex flex-col items-center justify-center px-4"
           onClick={() => setActiveScreenshot(null)}>
-          <div className="relative w-full max-w-sm flex flex-col items-center" onClick={e => e.stopPropagation()}>
+          <div className="relative w-full max-w-md flex flex-col items-center" onClick={e => e.stopPropagation()}>
             <div className="flex items-center justify-between w-full mb-3 px-1">
               <p className="text-white font-black text-sm">{activeScreenshot.caption}</p>
               <button onClick={() => setActiveScreenshot(null)} className="text-white/70 hover:text-white font-black text-sm ml-4 flex-shrink-0">✕ Đóng</button>
             </div>
-            <div className="relative w-full rounded-2xl shadow-2xl overflow-hidden" style={{ height: '80dvh' }}>
-              <Image src={activeScreenshot.src} alt={activeScreenshot.caption} fill sizes="384px" className="object-contain" />
+            <div className="relative w-full rounded-2xl shadow-2xl overflow-hidden" style={{ height: '90dvh' }}>
+              <Image src={activeScreenshot.src} alt={activeScreenshot.caption} fill sizes="448px" className="object-contain" />
             </div>
             <div className="flex gap-3 mt-4">
               {(() => {

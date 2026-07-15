@@ -62,7 +62,7 @@ export default function LandingVideoGallery() {
       {activeIdx !== null && (
         <div className="fixed inset-0 bg-black/95 z-50 flex flex-col items-center justify-center px-4"
           onClick={() => setActiveIdx(null)}>
-          <div className="relative w-full max-w-sm flex flex-col items-center" onClick={e => e.stopPropagation()}>
+          <div className="relative w-full max-w-md flex flex-col items-center" onClick={e => e.stopPropagation()}>
             <div className="flex items-center justify-between w-full mb-3 px-1">
               <p className="text-white font-black text-sm">{VIDEOS[activeIdx].title}</p>
               <button onClick={() => setActiveIdx(null)} className="text-white/70 hover:text-white font-black text-sm ml-4 flex-shrink-0">✕ Đóng</button>
@@ -70,7 +70,7 @@ export default function LandingVideoGallery() {
             {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
             <video key={activeIdx} src={VIDEOS[activeIdx].src} controls autoPlay playsInline
               className="w-full rounded-[24px] shadow-2xl border-[3px] border-gray-700"
-              style={{ maxHeight: '80dvh' }} />
+              style={{ maxHeight: '90dvh' }} />
             <div className="flex gap-3 mt-4">
               <button onClick={prev} className="bg-white/10 hover:bg-white/20 text-white font-black px-4 py-2 rounded-xl text-sm transition-colors">← Trước</button>
               <span className="text-white/40 text-xs self-center">{activeIdx + 1} / {VIDEOS.length}</span>
