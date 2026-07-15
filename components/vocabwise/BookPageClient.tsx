@@ -244,10 +244,9 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
 
       <div className="max-w-2xl mx-auto px-4 pt-3 pb-24 space-y-3">
 
-        {/* Module overview card */}
-        <button onClick={() => setShowOverviewDetail(v => !v)}
-          className="w-full bg-white rounded-2xl border-2 border-gray-100 shadow-sm px-4 py-3 text-left active:scale-[0.99] transition-transform">
-          <div className="flex items-center justify-between">
+        {/* Overview + progress card (merged) */}
+        <div className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm p-4">
+          <button onClick={() => setShowOverviewDetail(v => !v)} className="w-full flex items-center justify-between text-left">
             <div className="flex items-center gap-3">
               <span className={`text-xs font-black px-2 py-0.5 rounded-full bg-gradient-to-r ${numGrad} text-white`}>{info.cefr}</span>
               <div className="flex items-center gap-2 text-sm text-gray-600">
@@ -259,7 +258,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
               </div>
             </div>
             <span className={`text-gray-300 text-sm transition-transform duration-200 ${showOverviewDetail ? 'rotate-180' : ''}`}>▾</span>
-          </div>
+          </button>
 
           {showOverviewDetail && (
             <div className="mt-3 pt-3 border-t border-gray-100 divide-y divide-gray-50 -mx-1">
@@ -285,45 +284,44 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
               })}
             </div>
           )}
-        </button>
 
-        {/* Progress summary card */}
-        <div className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm p-4">
-          <div className="flex items-center justify-between mb-2">
-            <div className="flex items-center gap-1.5">
-              <span className="text-xs font-black text-gray-400 uppercase tracking-wider">Tiến độ module</span>
-              <button onClick={() => setShowProgressGuide(true)}
-                className="w-4 h-4 rounded-full bg-gray-100 text-gray-400 text-[10px] font-bold flex items-center justify-center hover:bg-blue-100 hover:text-blue-500 transition-colors">
-                ?
-              </button>
+          <div className="mt-3 pt-3 border-t border-gray-100">
+            <div className="flex items-center justify-between mb-2">
+              <div className="flex items-center gap-1.5">
+                <span className="text-xs font-black text-gray-400 uppercase tracking-wider">Tiến độ module</span>
+                <button onClick={() => setShowProgressGuide(true)}
+                  className="w-4 h-4 rounded-full bg-gray-100 text-gray-400 text-[10px] font-bold flex items-center justify-center hover:bg-blue-100 hover:text-blue-500 transition-colors">
+                  ?
+                </button>
+              </div>
+              <span className="text-xs font-bold text-gray-500">{pct}% hoàn thành</span>
             </div>
-            <span className="text-xs font-bold text-gray-500">{pct}% hoàn thành</span>
-          </div>
-          <div className="h-3 bg-gray-100 rounded-full overflow-hidden flex mb-3">
+            <div className="h-3 bg-gray-100 rounded-full overflow-hidden flex mb-3">
+              {masteredCount > 0 && (
+                <div className={`h-full bg-gradient-to-r ${numGrad} transition-all duration-500`}
+                  style={{ width: `${(masteredCount / topics.length) * 100}%` }} />
+              )}
+              {needsImprovementCount > 0 && (
+                <div className="h-full bg-amber-300 transition-all duration-500"
+                  style={{ width: `${(needsImprovementCount / topics.length) * 100}%` }} />
+              )}
+            </div>
+            <div className="flex items-center gap-3 text-xs text-gray-500 flex-wrap">
+              <span>🏆 <strong className="text-gray-700">{masteredCount}</strong> thành thạo</span>
+              <span className="text-gray-200">·</span>
+              <span>⚠️ <strong className="text-gray-700">{needsImprovementCount}</strong> cần cải thiện</span>
+              <span className="text-gray-200">·</span>
+              <span>📘 <strong className="text-gray-700">{topics.length - completedCount}</strong> chưa học</span>
+            </div>
             {masteredCount > 0 && (
-              <div className={`h-full bg-gradient-to-r ${numGrad} transition-all duration-500`}
-                style={{ width: `${(masteredCount / topics.length) * 100}%` }} />
-            )}
-            {needsImprovementCount > 0 && (
-              <div className="h-full bg-amber-300 transition-all duration-500"
-                style={{ width: `${(needsImprovementCount / topics.length) * 100}%` }} />
+              <button
+                onClick={() => setShowCert(true)}
+                className="mt-2 w-full flex items-center justify-center gap-1.5 text-xs font-black text-indigo-600 bg-indigo-50 hover:bg-indigo-100 border border-indigo-100 rounded-xl py-2 active:scale-[0.98] transition-all"
+              >
+                🎓 Xem chứng chỉ học tập
+              </button>
             )}
           </div>
-          <div className="flex items-center gap-3 text-xs text-gray-500 flex-wrap">
-            <span>🏆 <strong className="text-gray-700">{masteredCount}</strong> thành thạo</span>
-            <span className="text-gray-200">·</span>
-            <span>⚠️ <strong className="text-gray-700">{needsImprovementCount}</strong> cần cải thiện</span>
-            <span className="text-gray-200">·</span>
-            <span>📘 <strong className="text-gray-700">{topics.length - completedCount}</strong> chưa học</span>
-          </div>
-          {masteredCount > 0 && (
-            <button
-              onClick={() => setShowCert(true)}
-              className="mt-2 w-full flex items-center justify-center gap-1.5 text-xs font-black text-indigo-600 bg-indigo-50 hover:bg-indigo-100 border border-indigo-100 rounded-xl py-2 active:scale-[0.98] transition-all"
-            >
-              🎓 Xem chứng chỉ học tập
-            </button>
-          )}
         </div>
 
         {/* Progress guide modal */}
@@ -363,41 +361,39 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
           </div>
         )}
 
-        {/* SRS due banner */}
-        {srsDueCount > 0 && (
-          <div className="bg-teal-50 border-2 border-teal-200 rounded-2xl px-4 py-3 flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <span className="text-xl">📅</span>
-              <div>
-                <p className="text-sm font-black text-teal-700">Ôn lại hôm nay</p>
-                <p className="text-xs text-teal-500">{srsDueCount} chủ đề cần ôn theo lịch</p>
+        {/* SRS due + needs-review banners (side by side) */}
+        {(srsDueCount > 0 || needsReviewCount > 0) && (
+          <div className={`grid gap-2 ${srsDueCount > 0 && needsReviewCount > 0 ? 'grid-cols-2' : 'grid-cols-1'}`}>
+            {srsDueCount > 0 && (
+              <div className="bg-teal-50 border-2 border-teal-200 rounded-2xl px-3 py-2.5 flex flex-col gap-1">
+                <div className="flex items-center gap-1.5">
+                  <span className="text-base">📅</span>
+                  <p className="text-xs font-black text-teal-700 leading-tight">Ôn lại hôm nay</p>
+                </div>
+                <p className="text-[11px] text-teal-500">{srsDueCount} chủ đề cần ôn</p>
+                <button
+                  onClick={() => startReview('srs')}
+                  className="mt-0.5 self-start text-teal-700 font-black text-xs bg-teal-100 hover:bg-teal-200 px-2.5 py-1 rounded-full active:scale-95 transition-all"
+                >
+                  Bắt đầu →
+                </button>
               </div>
-            </div>
-            <button
-              onClick={() => startReview('srs')}
-              className="text-teal-700 font-black text-sm bg-teal-100 hover:bg-teal-200 px-3 py-1.5 rounded-full active:scale-95 transition-all flex-shrink-0"
-            >
-              Bắt đầu →
-            </button>
-          </div>
-        )}
-
-        {/* Needs-review banner */}
-        {needsReviewCount > 0 && (
-          <div className="bg-orange-50 border-2 border-orange-200 rounded-2xl px-4 py-3 flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <span className="text-xl">⚠️</span>
-              <div>
-                <p className="text-sm font-black text-orange-700">Cần cải thiện</p>
-                <p className="text-xs text-orange-500">{needsReviewCount} chủ đề chưa thành thạo</p>
+            )}
+            {needsReviewCount > 0 && (
+              <div className="bg-orange-50 border-2 border-orange-200 rounded-2xl px-3 py-2.5 flex flex-col gap-1">
+                <div className="flex items-center gap-1.5">
+                  <span className="text-base">⚠️</span>
+                  <p className="text-xs font-black text-orange-700 leading-tight">Cần cải thiện</p>
+                </div>
+                <p className="text-[11px] text-orange-500">{needsReviewCount} chủ đề</p>
+                <button
+                  onClick={() => startReview('improve')}
+                  className="mt-0.5 self-start text-orange-700 font-black text-xs bg-orange-100 hover:bg-orange-200 px-2.5 py-1 rounded-full active:scale-95 transition-all"
+                >
+                  Ôn thêm →
+                </button>
               </div>
-            </div>
-            <button
-              onClick={() => startReview('improve')}
-              className="text-orange-700 font-black text-sm bg-orange-100 hover:bg-orange-200 px-3 py-1.5 rounded-full active:scale-95 transition-all flex-shrink-0"
-            >
-              Ôn thêm →
-            </button>
+            )}
           </div>
         )}
 
