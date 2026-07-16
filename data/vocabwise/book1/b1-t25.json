@@ -670,24 +670,24 @@
           "words": [
             "introduce",
             "reply",
-            "talk",
+            "greet",
             "contact"
           ],
           "answer": "contact",
-          "reason": "introduce, reply, and talk are face-to-face communication actions. 'contact' is broader — it includes phone, email, and any other way of reaching someone.",
-          "reason_vi": "introduce, reply và talk đều là hành động giao tiếp trực tiếp. 'contact' rộng hơn — bao gồm điện thoại, email và mọi cách liên lạc khác."
+          "reason": "introduce, reply, and greet are specific acts performed within a conversation. 'contact' refers more broadly to establishing or maintaining communication.",
+          "reason_vi": "introduce, reply và greet đều là những hành động cụ thể trong một cuộc trò chuyện. 'contact' rộng hơn, chỉ việc thiết lập hoặc duy trì liên lạc."
         },
         {
           "id": 10,
           "words": [
-            "remember",
+            "reply",
             "introduce",
             "ask",
             "forget"
           ],
           "answer": "forget",
-          "reason": "remember, introduce, and ask are all positive, active choices you make when meeting someone. 'forget' is passive and unwanted — it is something that happens to you, not something you choose.",
-          "reason_vi": "remember, introduce và ask đều là lựa chọn tích cực, chủ động khi gặp ai đó. 'forget' là thụ động và không mong muốn — nó xảy ra với bạn, không phải điều bạn chọn."
+          "reason": "reply, introduce, and ask are communication actions. 'forget' is a mental process involving memory, not communication.",
+          "reason_vi": "reply, introduce và ask đều là các hành động giao tiếp. 'forget' là một quá trình trí nhớ, không phải giao tiếp."
         }
       ]
     }

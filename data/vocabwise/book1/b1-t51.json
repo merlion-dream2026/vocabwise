@@ -576,13 +576,13 @@
           "id": 1,
           "words": [
             "hello",
-            "goodbye",
+            "welcome",
             "hi",
             "bow"
           ],
           "answer": "bow",
-          "reason": "hello, goodbye, and hi are all words you say when greeting or parting. 'bow' is a physical action — you bend your body forward, not say a word.",
-          "reason_vi": "hello, goodbye và hi đều là từ bạn nói khi chào hỏi hoặc tạm biệt. 'bow' là hành động vật lý — bạn cúi người về phía trước, không phải nói từ gì."
+          "reason": "hello, welcome, and hi are spoken greetings. 'bow' is a physical greeting gesture.",
+          "reason_vi": "hello, welcome và hi đều là lời chào được nói ra. 'bow' là một cử chỉ chào hỏi bằng cơ thể."
         },
         {
           "id": 2,
@@ -637,12 +637,12 @@
           "words": [
             "phrase",
             "response",
-            "stranger",
+            "reply",
             "welcome"
           ],
           "answer": "welcome",
-          "reason": "phrase, response, and stranger are nouns related to a social interaction — language used and people involved. 'welcome' is a greeting expression — specifically what you say when someone arrives.",
-          "reason_vi": "phrase, response và stranger đều là danh từ liên quan đến tương tác xã hội. 'welcome' là biểu thức chào hỏi — cụ thể là thứ bạn nói khi ai đó đến."
+          "reason": "phrase, response, and reply are general terms for units or acts of communication. 'welcome' is a specific greeting used when someone arrives.",
+          "reason_vi": "phrase, response và reply đều là các thuật ngữ chung cho đơn vị hoặc hành động giao tiếp. 'welcome' là lời chào cụ thể dùng khi ai đó đến."
         },
         {
           "id": 7,

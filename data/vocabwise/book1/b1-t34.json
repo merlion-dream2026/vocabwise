@@ -585,10 +585,10 @@
         },
         {
           "id": 3,
-          "a": "The total is 100.",
-          "b": "The result is 100.",
+          "a": "The result of adding all the numbers is 100.",
+          "b": "The total after adding all the numbers is 100.",
           "answer": "S",
-          "explanation": "In simple maths, total and result both refer to the final number you get. In this sentence, they express the same idea."
+          "explanation": "In this addition problem, result and total both refer to the sum obtained after the numbers are added."
         },
         {
           "id": 4,

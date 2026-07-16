@@ -581,10 +581,10 @@
         },
         {
           "id": 2,
-          "a": "The market was very crowded.",
-          "b": "The market was very busy.",
+          "a": "The market was packed with people.",
+          "b": "The market was very crowded with people.",
           "answer": "S",
-          "explanation": "Crowded and busy both describe a place full of people and activity. In this context, the two sentences mean the same thing."
+          "explanation": "Packed with people and crowded with people both mean that the market contained a very large number of people."
         },
         {
           "id": 3,
@@ -602,17 +602,17 @@
         },
         {
           "id": 5,
-          "a": "The vendor is selling fresh vegetables.",
-          "b": "The stall is selling fresh vegetables.",
+          "a": "The vendor is selling fresh vegetables at the stall.",
+          "b": "The empty stall contains fresh vegetables, but nobody is selling them.",
           "answer": "D",
-          "explanation": "A vendor is a person — the seller. A stall is the physical booth or counter. One refers to the person, the other to the place."
+          "explanation": "The first sentence says a person is actively selling the vegetables. The second explicitly says no seller is present, so the situations are different."
         },
         {
           "id": 6,
           "a": "Can you wrap this as a gift?",
-          "b": "Can you pack this as a gift?",
+          "b": "Can you cover this in gift paper?",
           "answer": "S",
-          "explanation": "Wrap and pack both describe putting something into a covering or container. In a shopping context, these two sentences ask for the same thing."
+          "explanation": "Wrapping something as a gift and covering it in gift paper describe the same requested action."
         },
         {
           "id": 7,
@@ -623,10 +623,10 @@
         },
         {
           "id": 8,
-          "a": "She picked up the item to carry it home.",
-          "b": "She picked up the item to hold it for a moment.",
+          "a": "She picked up the item so she could carry it home.",
+          "b": "She lifted the item so she could carry it home.",
           "answer": "S",
-          "explanation": "In this context, carry and hold both describe supporting something with your hands. The sentences describe the same physical action."
+          "explanation": "Picked up and lifted both describe raising the item before carrying it home."
         },
         {
           "id": 9,
@@ -637,10 +637,10 @@
         },
         {
           "id": 10,
-          "a": "The stall has a special offer today.",
-          "b": "The stall has a special discount today.",
+          "a": "The stall has a special discount today.",
+          "b": "The stall has a special price reduction today.",
           "answer": "S",
-          "explanation": "Offer and discount both describe a reduced or special price available for a limited time. In this context, the two sentences mean the same thing."
+          "explanation": "A discount and a price reduction both mean that customers pay less than the normal price."
         }
       ]
     }

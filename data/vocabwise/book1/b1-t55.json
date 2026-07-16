@@ -572,16 +572,16 @@
         {
           "id": 1,
           "a": "I'm sorry, I don't understand.",
-          "b": "Excuse me, I don't understand.",
+          "b": "I'm sorry, but I don't understand.",
           "answer": "S",
-          "explanation": "\"Sorry\" and \"excuse me\" can both be used as polite openers when you need help or did not understand something. In this context, the two sentences carry the same meaning."
+          "explanation": "Both sentences use the same apology to state that the speaker does not understand."
         },
         {
           "id": 2,
-          "a": "Can you show me the way?",
-          "b": "Can you tell me the way?",
+          "a": "Can you tell me the way?",
+          "b": "Can you explain how to get there?",
           "answer": "S",
-          "explanation": "\"Show me the way\" and \"tell me the way\" are both common requests for directions. In everyday use, they mean the same thing — you want help finding where to go."
+          "explanation": "Both questions ask the listener to give verbal directions to the destination."
         },
         {
           "id": 3,
@@ -627,10 +627,10 @@
         },
         {
           "id": 9,
-          "a": "She knows the answer.",
-          "b": "She understands the answer.",
+          "a": "She knows the correct answer.",
+          "b": "She is aware of the correct answer.",
           "answer": "S",
-          "explanation": "\"Know\" and \"understand\" both describe having mental knowledge or comprehension. In this context, the two sentences carry the same basic meaning."
+          "explanation": "Knowing and being aware of the correct answer mean that she has the required information."
         },
         {
           "id": 10,

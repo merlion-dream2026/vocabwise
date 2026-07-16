@@ -587,23 +587,23 @@
             "quiet",
             "shy",
             "noisy",
-            "serious"
+            "silent"
           ],
           "answer": "noisy",
-          "reason": "quiet, shy, and serious describe people who are calm or reserved. 'noisy' describes someone who makes a lot of sound — the opposite personality.",
-          "reason_vi": "quiet, shy và serious mô tả người điềm tĩnh hoặc khép kín. 'noisy' mô tả người tạo ra nhiều tiếng ồn — tính cách ngược lại."
+          "reason": "quiet, shy, and silent all suggest speaking little or making little noise. 'noisy' describes making a lot of noise.",
+          "reason_vi": "quiet, shy và silent đều gợi ý việc nói ít hoặc tạo ra ít tiếng động. 'noisy' mô tả việc gây ra nhiều tiếng ồn."
         },
         {
           "id": 3,
           "words": [
             "talkative",
             "noisy",
-            "warm",
+            "loud",
             "patient"
           ],
           "answer": "patient",
-          "reason": "talkative, noisy, and warm all describe outward, expressive personality traits. 'patient' describes someone who can wait calmly — a more internal quality.",
-          "reason_vi": "talkative, noisy và warm đều mô tả đặc điểm tính cách hướng ngoại, biểu cảm. 'patient' mô tả người có thể chờ đợi bình tĩnh — phẩm chất nội tâm hơn."
+          "reason": "talkative, noisy, and loud all describe someone who produces a lot of speech or sound. 'patient' describes the ability to wait calmly.",
+          "reason_vi": "talkative, noisy và loud đều mô tả người nói nhiều hoặc tạo ra nhiều âm thanh. 'patient' mô tả khả năng bình tĩnh chờ đợi."
         },
         {
           "id": 4,

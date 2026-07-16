@@ -584,14 +584,14 @@
         {
           "id": 2,
           "words": [
-            "exam",
+            "answer sheet",
             "paper",
             "sheet",
             "mark"
           ],
           "answer": "mark",
-          "reason": "exam, paper, and sheet are physical things you hold or look at during a test. 'mark' is the score you receive as a result — it is not a physical object.",
-          "reason_vi": "exam, paper và sheet đều là thứ vật lý bạn cầm hoặc nhìn trong kỳ thi. 'mark' là điểm số bạn nhận được — không phải đồ vật."
+          "reason": "answer sheet, paper, and sheet are physical documents used in an exam. 'mark' is the score awarded for the work.",
+          "reason_vi": "answer sheet, paper và sheet đều là các tài liệu vật lý dùng trong bài thi. 'mark' là điểm số được chấm cho bài làm."
         },
         {
           "id": 3,

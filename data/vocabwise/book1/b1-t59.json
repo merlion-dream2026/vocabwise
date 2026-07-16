@@ -610,16 +610,16 @@
         {
           "id": 6,
           "a": "What do you think about this?",
-          "b": "How do you feel about this?",
+          "b": "What is your opinion about this?",
           "answer": "S",
-          "explanation": "In everyday conversation, \"think about\" and \"feel about\" are both used to ask for someone's opinion. These sentences invite the same type of response."
+          "explanation": "Both questions ask for the person's opinion or judgement about the subject."
         },
         {
           "id": 7,
           "a": "This film is fun.",
-          "b": "This film is exciting.",
+          "b": "This film is enjoyable.",
           "answer": "S",
-          "explanation": "Fun and exciting both describe something that is enjoyable and engaging. In casual use, these sentences give the same positive impression of the film."
+          "explanation": "Fun and enjoyable both mean that the film provides pleasure or entertainment."
         },
         {
           "id": 8,
@@ -637,10 +637,10 @@
         },
         {
           "id": 10,
-          "a": "She loves this song.",
+          "a": "She loves this song more than any other song.",
           "b": "This is her favourite song.",
           "answer": "S",
-          "explanation": "\"Love\" and \"favourite\" both express the highest level of enjoyment for a song. In everyday use, these two sentences carry the same meaning."
+          "explanation": "Loving one song more than every other song means that it is her favourite."
         }
       ]
     }

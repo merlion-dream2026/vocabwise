@@ -585,13 +585,13 @@
           "id": 2,
           "words": [
             "arrow",
-            "marker",
+            "icon",
             "symbol",
             "notice"
           ],
           "answer": "notice",
-          "reason": "arrow, marker, and symbol are visual signs — you understand them by looking at their shape or image. 'notice' is a written text sign — it uses words to communicate information.",
-          "reason_vi": "arrow, marker và symbol đều là biển báo hình ảnh — bạn hiểu chúng qua hình dạng hoặc hình ảnh. 'notice' là biển báo chữ viết — dùng từ ngữ để truyền đạt thông tin."
+          "reason": "arrow, icon, and symbol are simple graphical signs. 'notice' is a written announcement that usually contains words or sentences.",
+          "reason_vi": "arrow, icon và symbol đều là các dấu hiệu đồ họa đơn giản. 'notice' là một thông báo bằng văn bản thường chứa từ hoặc câu."
         },
         {
           "id": 3,

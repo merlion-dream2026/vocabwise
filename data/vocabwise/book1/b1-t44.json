@@ -620,14 +620,14 @@
         {
           "id": 5,
           "words": [
-            "trip",
+            "hotel",
             "destination",
             "ticket booth",
             "tour guide"
           ],
           "answer": "tour guide",
-          "reason": "trip, destination, and ticket booth are all things related to the journey or place. 'tour guide' is a person — the professional who leads you and explains the sights.",
-          "reason_vi": "trip, destination và ticket booth đều liên quan đến hành trình hoặc địa điểm. 'tour guide' là người — chuyên gia dẫn đường và giải thích các điểm tham quan."
+          "reason": "hotel, destination, and ticket booth are places or physical locations encountered during a trip. 'tour guide' is a person.",
+          "reason_vi": "hotel, destination và ticket booth đều là nơi chốn hoặc địa điểm vật lý trong chuyến đi. 'tour guide' là một người."
         },
         {
           "id": 6,

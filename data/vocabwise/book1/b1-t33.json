@@ -572,14 +572,14 @@
         {
           "id": 1,
           "words": [
-            "book",
+            "novel",
             "story",
             "poem",
             "copy"
           ],
           "answer": "copy",
-          "reason": "book, story, and poem are types of written material you read for pleasure. 'copy' is a verb — the action of writing out exactly what you see somewhere else.",
-          "reason_vi": "book, story và poem đều là loại tài liệu viết bạn đọc để giải trí. 'copy' là động từ — hành động chép lại chính xác những gì bạn thấy."
+          "reason": "novel, story, and poem are types of original literary work. 'copy' is a duplicate of an existing work, not a literary form.",
+          "reason_vi": "novel, story và poem đều là các loại tác phẩm văn học nguyên bản. 'copy' là bản sao của một tác phẩm đã có, không phải thể loại văn học."
         },
         {
           "id": 2,

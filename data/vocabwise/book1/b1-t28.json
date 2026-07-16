@@ -571,17 +571,17 @@
       "items": [
         {
           "id": 1,
-          "a": "She has big hopes for the future.",
-          "b": "She has big ambitions for the future.",
+          "a": "She has a strong ambition to become a doctor.",
+          "b": "She has a strong goal of becoming a doctor.",
           "answer": "S",
-          "explanation": "Hope and ambition both describe a strong desire for something good in the future. In everyday use, these two sentences carry the same basic meaning."
+          "explanation": "A strong ambition and a strong goal both refer to the same determined desire to become a doctor."
         },
         {
           "id": 2,
-          "a": "Children grow up very quickly.",
-          "b": "Children change very quickly.",
+          "a": "Children grow up and become adults very quickly.",
+          "b": "Children become adults very quickly.",
           "answer": "S",
-          "explanation": "In this context, \"grow up\" and \"change\" both describe how children develop and become different as they get older. The sentences mean essentially the same thing."
+          "explanation": "Grow up and become adults describe the same process of moving from childhood into adulthood."
         },
         {
           "id": 3,
@@ -606,17 +606,17 @@
         },
         {
           "id": 6,
-          "a": "He is young and full of hope.",
-          "b": "He is a child and full of hope.",
+          "a": "He is a hopeful child.",
+          "b": "He is a young child full of hope.",
           "answer": "S",
-          "explanation": "In this context, young and child both describe someone at an early stage of life. The sentences suggest the same idea — a person who is not yet grown up."
+          "explanation": "Both sentences describe a child who feels hopeful about the future."
         },
         {
           "id": 7,
           "a": "She wants to be independent one day.",
-          "b": "She wants to grow up one day.",
+          "b": "She wants to be self-reliant one day.",
           "answer": "S",
-          "explanation": "Becoming independent and growing up are closely linked ideas. Both suggest the same desire — to become a self-reliant adult in the future."
+          "explanation": "Independent and self-reliant both mean able to manage without depending on other people."
         },
         {
           "id": 8,
@@ -634,10 +634,10 @@
         },
         {
           "id": 10,
-          "a": "He has great ambition.",
-          "b": "He has great hope.",
+          "a": "He has a strong ambition to achieve great things.",
+          "b": "He has a strong desire to achieve great things.",
           "answer": "S",
-          "explanation": "Ambition and hope both describe a strong desire for a better future. While ambition suggests a more specific goal, in casual use these sentences carry very similar meanings."
+          "explanation": "A strong ambition and a strong desire to achieve great things express the same determined aim."
         }
       ]
     }

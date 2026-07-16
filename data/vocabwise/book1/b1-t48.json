@@ -622,12 +622,12 @@
           "words": [
             "award",
             "microphone",
-            "guest",
+            "trophy",
             "applause"
           ],
           "answer": "applause",
-          "reason": "award, microphone, and guest are all physical or tangible — an object, a device, or a person. 'applause' is a sound — the clapping of the audience, not a physical object.",
-          "reason_vi": "award, microphone và guest đều là thứ vật lý hoặc hữu hình — vật, thiết bị hoặc người. 'applause' là âm thanh — tiếng vỗ tay của khán giả, không phải đồ vật."
+          "reason": "award, microphone, and trophy are physical items used or presented at an event. 'applause' is the audience's audible reaction.",
+          "reason_vi": "award, microphone và trophy đều là các đồ vật vật lý được dùng hoặc trao tại một sự kiện. 'applause' là phản ứng bằng âm thanh của khán giả."
         },
         {
           "id": 6,

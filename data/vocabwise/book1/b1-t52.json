@@ -611,14 +611,14 @@
         {
           "id": 4,
           "words": [
-            "video",
+            "username",
             "account",
             "profile",
             "trend"
           ],
           "answer": "trend",
-          "reason": "video, account, and profile are personal digital items — content you create or an identity you control. 'trend' is a collective phenomenon — a topic or style that many people share at once, not something you own.",
-          "reason_vi": "video, account và profile đều là thứ kỹ thuật số cá nhân — nội dung hoặc danh tính bạn kiểm soát. 'trend' là hiện tượng tập thể — chủ đề hoặc phong cách nhiều người cùng chia sẻ, không phải thứ bạn sở hữu."
+          "reason": "username, account, and profile are elements of an individual user's online identity. 'trend' is a topic or behaviour that becomes widely popular.",
+          "reason_vi": "username, account và profile đều là các thành phần trong danh tính trực tuyến của một người dùng. 'trend' là chủ đề hoặc hành vi trở nên phổ biến rộng rãi."
         },
         {
           "id": 5,
@@ -671,14 +671,14 @@
         {
           "id": 9,
           "words": [
-            "screen time",
+            "online",
             "digital",
             "safe",
             "comment"
           ],
           "answer": "comment",
-          "reason": "screen time, digital, and safe are not action words — they describe concepts or qualities. 'comment' is a verb — the action of leaving a written reply or opinion on a post.",
-          "reason_vi": "screen time, digital và safe đều không phải từ chỉ hành động — chúng mô tả khái niệm hoặc phẩm chất. 'comment' là động từ — hành động để lại phản hồi hoặc ý kiến về bài đăng."
+          "reason": "online, digital, and safe are adjectives that can describe technology use. 'comment' is a noun or action involving a posted response.",
+          "reason_vi": "online, digital và safe đều là tính từ có thể mô tả việc sử dụng công nghệ. 'comment' là danh từ hoặc hành động chỉ một phản hồi được đăng."
         },
         {
           "id": 10,

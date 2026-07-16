@@ -584,14 +584,14 @@
         {
           "id": 2,
           "words": [
-            "recipe",
+            "instruction",
             "ingredient",
             "amount",
             "slice"
           ],
           "answer": "slice",
-          "reason": "recipe, ingredient, and amount are nouns related to cooking instructions and quantities. 'slice' is a verb — the action of cutting something into thin pieces.",
-          "reason_vi": "recipe, ingredient và amount đều là danh từ liên quan đến hướng dẫn nấu và định lượng. 'slice' là động từ — hành động cắt thứ gì thành lát mỏng."
+          "reason": "instruction, ingredient, and amount are elements stated in a recipe. 'slice' is a cutting action performed while preparing food.",
+          "reason_vi": "instruction, ingredient và amount đều là các yếu tố được nêu trong công thức nấu ăn. 'slice' là hành động cắt khi chuẩn bị thức ăn."
         },
         {
           "id": 3,
@@ -682,12 +682,12 @@
           "words": [
             "step",
             "amount",
-            "utensil",
+            "ingredient",
             "heat"
           ],
           "answer": "heat",
-          "reason": "step, amount, and utensil are all nouns — things found in a recipe or kitchen. 'heat' is a verb — the cooking action of making food warm using a stove or oven.",
-          "reason_vi": "step, amount và utensil đều là danh từ — thứ tìm thấy trong công thức hoặc bếp. 'heat' là động từ — hành động làm nóng thức ăn bằng bếp hoặc lò."
+          "reason": "step, amount, and ingredient are elements specified in a recipe. 'heat' is an action used to make food hot.",
+          "reason_vi": "step, amount và ingredient đều là các yếu tố được nêu trong công thức. 'heat' là hành động làm nóng thức ăn."
         }
       ]
     }

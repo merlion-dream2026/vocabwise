@@ -584,14 +584,14 @@
         {
           "id": 2,
           "words": [
-            "friend",
+            "loyalty",
             "bond",
             "support",
             "argument"
           ],
           "answer": "argument",
-          "reason": "friend, bond, and support are all positive parts of a friendship. 'argument' is a disagreement — it causes conflict, not connection.",
-          "reason_vi": "friend, bond và support đều là những khía cạnh tích cực của tình bạn. 'argument' là mâu thuẫn — gây xung đột, không phải gắn kết."
+          "reason": "loyalty, bond, and support are positive qualities or sources of connection in a friendship. 'argument' is a disagreement that creates conflict.",
+          "reason_vi": "loyalty, bond và support đều là những phẩm chất hoặc nguồn gắn kết tích cực trong tình bạn. 'argument' là sự bất đồng gây ra xung đột."
         },
         {
           "id": 3,
@@ -620,14 +620,14 @@
         {
           "id": 5,
           "words": [
-            "friend",
+            "loyalty",
             "support",
             "trust",
             "miss"
           ],
           "answer": "miss",
-          "reason": "friend, support, and trust are positive things you have in a friendship. 'miss' is a feeling of sadness — the longing you feel when a friend is away.",
-          "reason_vi": "friend, support và trust đều là những điều tích cực trong tình bạn. 'miss' là cảm giác buồn — nỗi nhớ khi bạn vắng mặt."
+          "reason": "loyalty, support, and trust are positive foundations of a friendship. 'miss' describes the sadness felt when someone is absent.",
+          "reason_vi": "loyalty, support và trust đều là những nền tảng tích cực của tình bạn. 'miss' mô tả nỗi buồn khi ai đó vắng mặt."
         },
         {
           "id": 6,
@@ -682,12 +682,12 @@
           "words": [
             "remember",
             "miss",
-            "laugh",
+            "care",
             "forgive"
           ],
           "answer": "forgive",
-          "reason": "remember, miss, and laugh all relate to positive feelings or happy memories. 'forgive' involves healing after a hurt or conflict — a different kind of act.",
-          "reason_vi": "remember, miss và laugh đều liên quan đến cảm xúc tích cực hoặc kỷ niệm vui. 'forgive' là hành động hàn gắn sau mâu thuẫn hoặc tổn thương — một loại hành động khác."
+          "reason": "remember, miss, and care describe thoughts or feelings about someone without implying wrongdoing. 'forgive' specifically follows a hurt or offence.",
+          "reason_vi": "remember, miss và care mô tả suy nghĩ hoặc cảm xúc về ai đó mà không hàm ý họ đã làm sai. 'forgive' cụ thể xảy ra sau một tổn thương hoặc lỗi lầm."
         }
       ]
     }

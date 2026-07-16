@@ -578,10 +578,10 @@
         },
         {
           "id": 2,
-          "a": "He wears glasses every day.",
-          "b": "He puts on glasses every day.",
+          "a": "He puts on his glasses every morning.",
+          "b": "He places his glasses on his face every morning.",
           "answer": "S",
-          "explanation": "\"Wear\" and \"put on\" both describe having glasses on your face. In everyday use, these two sentences mean the same thing."
+          "explanation": "Put on and place on his face both describe the same action of positioning the glasses for use."
         },
         {
           "id": 3,
@@ -599,10 +599,10 @@
         },
         {
           "id": 5,
-          "a": "She has a warm smile.",
-          "b": "She has a nice smile.",
+          "a": "She has a warm, welcoming smile.",
+          "b": "She has a friendly, welcoming smile.",
           "answer": "S",
-          "explanation": "Warm and nice both describe a smile in a positive way. Both sentences compliment the same thing about her face."
+          "explanation": "Warm and friendly both describe a smile that makes other people feel welcome. The two sentences express the same quality."
         },
         {
           "id": 6,

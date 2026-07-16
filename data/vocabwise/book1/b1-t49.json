@@ -578,10 +578,10 @@
         },
         {
           "id": 2,
-          "a": "The machine is broken.",
-          "b": "The machine is damaged.",
+          "a": "The machine is broken and cannot operate.",
+          "b": "The machine is damaged so badly that it cannot operate.",
           "answer": "S",
-          "explanation": "Broken and damaged both describe something that is not working or in its full condition. These sentences carry the same basic meaning."
+          "explanation": "Both sentences state that physical damage has left the machine unable to function."
         },
         {
           "id": 3,
@@ -607,9 +607,9 @@
         {
           "id": 6,
           "a": "The problem is urgent.",
-          "b": "The problem is important.",
+          "b": "The problem needs immediate attention.",
           "answer": "S",
-          "explanation": "Urgent and important both describe something that needs attention. In everyday use, these two sentences suggest the problem cannot wait."
+          "explanation": "Urgent means requiring immediate attention. The sentences express the same time-sensitive need."
         },
         {
           "id": 7,

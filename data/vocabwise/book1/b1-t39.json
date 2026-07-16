@@ -592,12 +592,12 @@
           "words": [
             "cold",
             "hot",
-            "liquid",
+            "warm",
             "change"
           ],
           "answer": "change",
-          "reason": "cold, hot, and liquid are all physical states or properties — ways of describing matter. 'change' is a verb or noun describing a process — something that happens over time, not a state.",
-          "reason_vi": "cold, hot và liquid đều là trạng thái hoặc tính chất vật lý — cách mô tả vật chất. 'change' là động từ hoặc danh từ mô tả quá trình — thứ xảy ra theo thời gian, không phải trạng thái."
+          "reason": "cold, hot, and warm are temperature descriptions. 'change' refers to a process in which something becomes different.",
+          "reason_vi": "cold, hot và warm đều là các từ mô tả nhiệt độ. 'change' chỉ quá trình một thứ trở nên khác đi."
         },
         {
           "id": 3,

@@ -586,12 +586,12 @@
           "words": [
             "noise",
             "dispute",
-            "loud",
+            "conflict",
             "peace"
           ],
           "answer": "peace",
-          "reason": "noise, dispute, and loud all relate to conflict and disturbance in a neighbourhood. 'peace' is the opposite — a calm, harmonious state without problems.",
-          "reason_vi": "noise, dispute và loud đều liên quan đến xung đột và sự phiền nhiễu trong khu phố. 'peace' là điều ngược lại — trạng thái yên bình, hài hòa."
+          "reason": "noise, dispute, and conflict are unpleasant conditions that disturb harmony. 'peace' is the absence of disturbance or conflict.",
+          "reason_vi": "noise, dispute và conflict đều là những tình trạng khó chịu phá vỡ sự hòa thuận. 'peace' là trạng thái không có sự quấy nhiễu hoặc xung đột."
         },
         {
           "id": 3,
