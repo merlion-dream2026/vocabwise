@@ -613,12 +613,12 @@
           "words": [
             "comfortable",
             "pretty",
-            "colour",
+            "stylish",
             "shirt"
           ],
           "answer": "shirt",
-          "reason": "comfortable, pretty, and colour are all words used to describe clothing. 'shirt' is the clothing item itself, not a descriptor.",
-          "reason_vi": "comfortable, pretty và colour đều được dùng để mô tả trang phục. 'shirt' là bản thân trang phục, không phải từ mô tả."
+          "reason": "comfortable, pretty, and stylish are adjectives that can describe clothing. 'shirt' is a clothing item, not a describing word.",
+          "reason_vi": "comfortable, pretty và stylish đều là tính từ có thể mô tả trang phục. 'shirt' là một món đồ mặc, không phải từ miêu tả."
         },
         {
           "id": 5,

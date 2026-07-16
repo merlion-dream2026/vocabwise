@@ -652,12 +652,12 @@
           "words": [
             "kitchen",
             "bedroom",
-            "room",
+            "bathroom",
             "garden"
           ],
           "answer": "garden",
-          "reason": "kitchen, bedroom, and room are indoor spaces. 'garden' is an outdoor area.",
-          "reason_vi": "kitchen, bedroom và room đều là không gian trong nhà. 'garden' là khu vực ngoài trời."
+          "reason": "kitchen, bedroom, and bathroom are indoor rooms in a house. 'garden' is an outdoor area.",
+          "reason_vi": "kitchen, bedroom và bathroom đều là các phòng ở bên trong nhà. 'garden' là khu vực ngoài trời."
         },
         {
           "id": 8,
@@ -688,12 +688,12 @@
           "words": [
             "tidy",
             "clean",
-            "share",
+            "organise",
             "house"
           ],
           "answer": "house",
-          "reason": "tidy, clean, and share can all be used as verbs in English. 'house' is a noun only.",
-          "reason_vi": "tidy, clean và share đều có thể dùng như động từ trong tiếng Anh. 'house' chỉ là danh từ."
+          "reason": "tidy, clean, and organise are common actions used to keep a home neat. 'house' is the building itself, not a housekeeping action.",
+          "reason_vi": "tidy, clean và organise đều là các hành động thường dùng để giữ nhà cửa ngăn nắp. 'house' là bản thân ngôi nhà, không phải hành động dọn dẹp."
         }
       ]
     }

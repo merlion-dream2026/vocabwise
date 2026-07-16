@@ -610,12 +610,12 @@
           "words": [
             "search",
             "connect",
-            "power",
+            "download",
             "device"
           ],
           "answer": "device",
-          "reason": "search, connect, and power can all be used as verbs — actions you perform with technology. 'device' is a noun — a physical gadget.",
-          "reason_vi": "search, connect và power đều có thể dùng như động từ — hành động bạn thực hiện với công nghệ. 'device' là danh từ — thiết bị điện tử."
+          "reason": "search, connect, and download are actions performed when using technology. 'device' is a piece of equipment, not an action.",
+          "reason_vi": "search, connect và download đều là các hành động khi sử dụng công nghệ. 'device' là một thiết bị, không phải hành động."
         },
         {
           "id": 5,
@@ -646,24 +646,24 @@
           "words": [
             "search",
             "connect",
-            "power",
+            "download",
             "screen"
           ],
           "answer": "screen",
-          "reason": "search, connect, and power can all function as verbs. 'screen' is a noun — the display surface of a device.",
-          "reason_vi": "search, connect và power đều có thể dùng như động từ. 'screen' là danh từ — màn hình hiển thị của thiết bị."
+          "reason": "search, connect, and download are digital actions. 'screen' is a physical part of a device.",
+          "reason_vi": "search, connect và download đều là các hành động kỹ thuật số. 'screen' là một bộ phận vật lý của thiết bị."
         },
         {
           "id": 8,
           "words": [
-            "online",
+            "website",
             "internet",
             "app",
             "phone"
           ],
           "answer": "phone",
-          "reason": "online, internet, and app are all digital or virtual concepts. 'phone' is a physical device you can touch.",
-          "reason_vi": "online, internet và app đều là khái niệm kỹ thuật số hoặc ảo. 'phone' là thiết bị vật lý bạn có thể chạm vào."
+          "reason": "website, internet, and app are digital services or environments accessed through technology. 'phone' is the physical device used to access them.",
+          "reason_vi": "website, internet và app đều là dịch vụ hoặc môi trường kỹ thuật số được truy cập qua công nghệ. 'phone' là thiết bị vật lý dùng để truy cập chúng."
         },
         {
           "id": 9,

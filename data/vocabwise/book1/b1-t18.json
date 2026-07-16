@@ -598,24 +598,24 @@
           "words": [
             "salary",
             "task",
-            "apron",
+            "shift",
             "nurse"
           ],
           "answer": "nurse",
-          "reason": "salary, task, and apron are all things or concepts related to work. 'nurse' is a job title — a person who cares for sick people.",
-          "reason_vi": "salary, task và apron đều là thứ hoặc khái niệm liên quan đến công việc. 'nurse' là tên nghề — người chăm sóc bệnh nhân."
+          "reason": "salary, task, and shift are work-related terms that describe pay or parts of a job. 'nurse' is a person who does a job.",
+          "reason_vi": "salary, task và shift đều là các thuật ngữ liên quan đến tiền lương hoặc các phần của công việc. 'nurse' là người làm một nghề."
         },
         {
           "id": 4,
           "words": [
-            "tired",
+            "salary",
             "dream",
             "shift",
             "office"
           ],
           "answer": "office",
-          "reason": "tired, dream, and shift all relate to the experience or feeling of work. 'office' is a physical place — a building or room where people work.",
-          "reason_vi": "tired, dream và shift đều liên quan đến trải nghiệm hoặc cảm xúc về công việc. 'office' là nơi chốn vật lý — tòa nhà hoặc phòng làm việc."
+          "reason": "salary, dream, and shift are non-physical concepts connected with working life. 'office' is a physical workplace.",
+          "reason_vi": "salary, dream và shift đều là các khái niệm phi vật thể liên quan đến đời sống công việc. 'office' là một nơi làm việc vật lý."
         },
         {
           "id": 5,
@@ -634,12 +634,12 @@
           "words": [
             "salary",
             "task",
-            "apron",
+            "deadline",
             "dream"
           ],
           "answer": "dream",
-          "reason": "salary, task, and apron are all concrete things connected to doing a job. 'dream' is abstract — it refers to a hope or ambition for the future.",
-          "reason_vi": "salary, task và apron đều là thứ cụ thể gắn với việc làm. 'dream' là trừu tượng — chỉ hy vọng hoặc tham vọng cho tương lai."
+          "reason": "salary, task, and deadline are concrete terms used in day-to-day work. 'dream' is a personal ambition for the future.",
+          "reason_vi": "salary, task và deadline đều là những thuật ngữ cụ thể dùng trong công việc hằng ngày. 'dream' là một hoài bão cá nhân cho tương lai."
         },
         {
           "id": 7,
@@ -656,14 +656,14 @@
         {
           "id": 8,
           "words": [
-            "office",
+            "meeting",
             "salary",
             "boss",
             "apron"
           ],
           "answer": "apron",
-          "reason": "office, salary, and boss are all abstract or intangible work concepts. 'apron' is a physical item — a piece of clothing worn to protect clothes while working.",
-          "reason_vi": "office, salary và boss đều là khái niệm công việc trừu tượng hoặc vô hình. 'apron' là đồ vật thực tế — trang phục mặc để bảo vệ quần áo khi làm việc."
+          "reason": "meeting, salary, and boss are general workplace terms found across many occupations. 'apron' is a specific item of protective clothing.",
+          "reason_vi": "meeting, salary và boss đều là các thuật ngữ nơi làm việc phổ biến trong nhiều nghề. 'apron' là một món trang phục bảo hộ cụ thể."
         },
         {
           "id": 9,

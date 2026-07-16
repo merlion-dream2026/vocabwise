@@ -622,12 +622,12 @@
           "words": [
             "school",
             "park",
-            "building",
+            "museum",
             "street"
           ],
           "answer": "street",
-          "reason": "school, park, and building are destinations — places you go to or enter. 'street' is a path or road that connects places.",
-          "reason_vi": "school, park và building đều là nơi bạn đến hoặc vào bên trong. 'street' là đường đi nối các nơi lại với nhau."
+          "reason": "school, park, and museum are destinations that people visit. 'street' is a route used to travel between destinations.",
+          "reason_vi": "school, park và museum đều là những địa điểm người ta đến thăm. 'street' là tuyến đường dùng để di chuyển giữa các địa điểm."
         },
         {
           "id": 6,
@@ -681,13 +681,13 @@
           "id": 10,
           "words": [
             "park",
-            "school",
+            "square",
             "district",
             "tower"
           ],
           "answer": "tower",
-          "reason": "park, school, and district are wide open areas or zones. 'tower' is a tall, narrow vertical structure.",
-          "reason_vi": "park, school và district đều là không gian rộng hoặc khu vực. 'tower' là công trình thẳng đứng cao và hẹp."
+          "reason": "park, square, and district are areas or zones that extend across the ground. 'tower' is a tall, narrow vertical structure.",
+          "reason_vi": "park, square và district đều là các khu vực hoặc vùng trải rộng trên mặt đất. 'tower' là một công trình cao và hẹp theo chiều thẳng đứng."
         }
       ]
     }

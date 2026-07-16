@@ -602,14 +602,14 @@
         {
           "id": 3,
           "words": [
-            "hungry",
+            "tasty",
             "fresh",
             "delicious",
             "meal"
           ],
           "answer": "meal",
-          "reason": "hungry, fresh, and delicious are adjectives. 'meal' is a noun — a time when you eat food.",
-          "reason_vi": "hungry, fresh và delicious đều là tính từ. 'meal' là danh từ — bữa ăn."
+          "reason": "tasty, fresh, and delicious are adjectives that can describe food. 'meal' is a noun referring to food eaten at a particular time.",
+          "reason_vi": "tasty, fresh và delicious đều là tính từ có thể mô tả thức ăn. 'meal' là danh từ chỉ một bữa ăn."
         },
         {
           "id": 4,
@@ -640,12 +640,12 @@
           "words": [
             "eat",
             "cook",
-            "buy",
+            "chew",
             "water"
           ],
           "answer": "water",
-          "reason": "eat, cook, and buy are verbs (actions). 'water' is a noun — a liquid.",
-          "reason_vi": "eat, cook và buy đều là động từ (hành động). 'water' là danh từ — một loại chất lỏng."
+          "reason": "eat, cook, and chew are actions involving food. 'water' is a liquid, not an action.",
+          "reason_vi": "eat, cook và chew đều là các hành động liên quan đến thức ăn. 'water' là một chất lỏng, không phải hành động."
         },
         {
           "id": 7,
@@ -688,12 +688,12 @@
           "words": [
             "eat",
             "cook",
-            "buy",
+            "chew",
             "market"
           ],
           "answer": "market",
-          "reason": "eat, cook, and buy are verbs (actions). 'market' is a noun — a place where you buy things.",
-          "reason_vi": "eat, cook và buy đều là động từ (hành động). 'market' là danh từ — nơi bạn mua đồ."
+          "reason": "eat, cook, and chew are actions involving food. 'market' is a place where food and other goods are sold.",
+          "reason_vi": "eat, cook và chew đều là các hành động liên quan đến thức ăn. 'market' là nơi bán thực phẩm và các hàng hóa khác."
         }
       ]
     }

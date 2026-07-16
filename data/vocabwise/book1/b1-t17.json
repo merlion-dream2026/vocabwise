@@ -571,17 +571,17 @@
       "items": [
         {
           "id": 1,
-          "a": "I have an exam tomorrow morning.",
-          "b": "I have a quiz tomorrow morning.",
+          "a": "I have a short classroom quiz tomorrow morning.",
+          "b": "I have a short classroom test tomorrow morning.",
           "answer": "S",
-          "explanation": "Both exam and quiz are tests that check your knowledge. An exam is usually more formal and longer than a quiz, but both test what you have learned."
+          "explanation": "In this context, both quiz and short classroom test refer to the same brief assessment given by a teacher."
         },
         {
           "id": 2,
-          "a": "I need to learn this word.",
-          "b": "I need to study this word.",
+          "a": "I need to study this word carefully.",
+          "b": "I need to examine this word carefully.",
           "answer": "S",
-          "explanation": "Both learn and study involve gaining knowledge. In everyday use, \"learn this word\" and \"study this word\" mean the same thing — to understand and remember it."
+          "explanation": "Study and examine both mean to look at the word carefully in order to understand it. The sentences express the same action."
         },
         {
           "id": 3,
@@ -635,9 +635,9 @@
         {
           "id": 10,
           "a": "Do your homework every evening.",
-          "b": "You should study every evening.",
+          "b": "Complete your homework every evening.",
           "answer": "S",
-          "explanation": "Both sentences suggest doing academic work in the evenings. In practice, doing homework and studying often overlap — they both help you learn."
+          "explanation": "Do your homework and complete your homework both instruct the learner to finish the assigned work each evening."
         }
       ]
     }
