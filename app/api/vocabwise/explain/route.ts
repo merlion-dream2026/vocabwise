@@ -37,7 +37,7 @@ Ví dụ: ${example_en}
 
 Viết 3-4 câu ngắn bằng tiếng Việt: ngữ cảnh thường dùng, phân biệt với từ đồng nghĩa nếu có, và 1 ví dụ mới dễ nhớ. Không lặp lại ví dụ gốc.`
 
-  const explanation = await aiChat({ order: ['groq', 'cerebras'], prompt, maxTokens: 250, temperature: 0.7 })
+  const explanation = await aiChat({ order: ['groq', 'cerebras'], prompt, maxTokens: 400, temperature: 0.7 })
   if (explanation === null) return NextResponse.json({ error: 'AI unavailable' }, { status: 502 })
 
   // Save to DB for future requests
