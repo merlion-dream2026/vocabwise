@@ -559,19 +559,19 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                             <span className="text-amber-300 text-sm group-open/ff:rotate-180 transition-transform flex-shrink-0 ml-2">▾</span>
                           </summary>
                           <div className="mt-2 bg-amber-50 border border-amber-200 rounded-xl px-3 py-3 space-y-2.5">
-                            <p className="text-amber-800 text-xs leading-relaxed">{item.false_friend.explanation_vi}</p>
+                            <p className="text-amber-800 text-sm leading-relaxed">{item.false_friend.explanation_vi}</p>
                             {item.false_friend.example_en && (
                               <div>
-                                <p className="text-amber-700 text-xs font-black mb-0.5">{item.word}</p>
-                                <p className="text-amber-800 text-xs italic">{item.false_friend.example_en}</p>
-                                <p className="text-amber-600 text-xs italic">{item.false_friend.example_vi}</p>
+                                <p className="text-amber-700 text-sm font-black mb-0.5">{item.word}</p>
+                                <p className="text-amber-800 text-sm italic">{item.false_friend.example_en}</p>
+                                <p className="text-amber-600 text-sm italic">{item.false_friend.example_vi}</p>
                               </div>
                             )}
                             {item.false_friend.ff_example_en && (
                               <div>
-                                <p className="text-amber-700 text-xs font-black mb-0.5">{item.false_friend.word}</p>
-                                <p className="text-amber-800 text-xs italic">{item.false_friend.ff_example_en}</p>
-                                <p className="text-amber-600 text-xs italic">{item.false_friend.ff_example_vi}</p>
+                                <p className="text-amber-700 text-sm font-black mb-0.5">{item.false_friend.word}</p>
+                                <p className="text-amber-800 text-sm italic">{item.false_friend.ff_example_en}</p>
+                                <p className="text-amber-600 text-sm italic">{item.false_friend.ff_example_vi}</p>
                               </div>
                             )}
                           </div>
@@ -579,7 +579,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                       )}
                       {!isCollocation && item.word && (
                         <details className="pt-1 group/explain">
-                          <summary className="list-none cursor-pointer flex items-center justify-between py-1.5 px-2 bg-indigo-50 rounded-xl">
+                          <summary className="list-none cursor-pointer flex items-center justify-between py-1.5 px-2 bg-indigo-50 border border-indigo-200 rounded-xl">
                             <span className="text-sm font-black text-indigo-600">✨ Giải nghĩa</span>
                             <span className="text-indigo-300 text-sm group-open/explain:rotate-180 transition-transform">▾</span>
                           </summary>
