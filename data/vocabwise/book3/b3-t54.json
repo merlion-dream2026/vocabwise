@@ -61,7 +61,14 @@
         "adjective": "biased / unbiased",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "prejudice",
+        "explanation_vi": "'Bias' là xu hướng thiên lệch có thể có ý thức hoặc vô thức; 'prejudice' thường là định kiến tiêu cực đã hình thành trước về một nhóm người.",
+        "example_en": "The editor checked the article for political bias.",
+        "example_vi": "Biên tập viên kiểm tra bài báo để phát hiện sự thiên lệch chính trị.",
+        "ff_example_en": "The editor removed a sentence that showed prejudice against migrants.",
+        "ff_example_vi": "Biên tập viên xóa một câu thể hiện định kiến đối với người di cư."
+      },
       "receptive_productive": "P"
     },
     {
@@ -79,7 +86,14 @@
         "adjective": "transparent",
         "adverb": "transparently"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "translucency",
+        "explanation_vi": "'Transparency' là tính minh bạch hoặc khả năng nhìn xuyên rõ; 'translucency' là tính cho ánh sáng đi qua nhưng không nhìn rõ vật phía sau.",
+        "example_en": "The company promised transparency about how its smart window collected user data.",
+        "example_vi": "Công ty cam kết minh bạch về cách cửa sổ thông minh thu thập dữ liệu người dùng.",
+        "ff_example_en": "The company adjusted the translucency of the smart window.",
+        "ff_example_vi": "Công ty điều chỉnh độ trong mờ của cửa sổ thông minh."
+      },
       "receptive_productive": "P"
     },
     {
@@ -98,8 +112,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "responsibility",
-        "explanation_vi": "'Accountability' nhấn mạnh nghĩa vụ báo cáo và chịu hậu quả trước người khác; 'responsibility' là nghĩa vụ thực hiện nhiệm vụ — có thể chồng chéo nhưng không hoán đổi được."
+        "word": "responsibility",
+        "explanation_vi": "'Accountability' nhấn mạnh nghĩa vụ báo cáo và chịu hậu quả trước người khác; 'responsibility' là nghĩa vụ thực hiện nhiệm vụ — có thể chồng chéo nhưng không hoán đổi được.",
+        "example_en": "The agency has accountability to the public and must explain any failure.",
+        "example_vi": "Cơ quan có trách nhiệm giải trình trước công chúng và phải giải thích mọi thất bại.",
+        "ff_example_en": "Its director has responsibility for completing the annual report.",
+        "ff_example_vi": "Giám đốc cơ quan có trách nhiệm hoàn thành báo cáo hằng năm."
       },
       "receptive_productive": "P"
     },
@@ -154,7 +172,14 @@
         "adjective": "surveillance (attributive)",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "survey",
+        "explanation_vi": "'Surveillance' là sự giám sát có hệ thống; 'survey' là khảo sát hoặc đo đạc.",
+        "example_en": "The city expanded camera surveillance in the station.",
+        "example_vi": "Thành phố mở rộng hệ thống giám sát bằng camera tại nhà ga.",
+        "ff_example_en": "The city conducted a passenger survey in the station.",
+        "ff_example_vi": "Thành phố tiến hành khảo sát hành khách tại nhà ga."
+      },
       "receptive_productive": "P"
     },
     {
@@ -172,7 +197,14 @@
         "adjective": "consensual",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "consensus",
+        "explanation_vi": "'Consent' là sự đồng ý của một cá nhân cho một hành động; 'consensus' là sự đồng thuận chung của một nhóm.",
+        "example_en": "Each patient gave consent before joining the trial.",
+        "example_vi": "Mỗi bệnh nhân đồng ý trước khi tham gia thử nghiệm.",
+        "ff_example_en": "The medical team reached a consensus on the trial design.",
+        "ff_example_vi": "Nhóm y tế đạt đồng thuận về thiết kế thử nghiệm."
+      },
       "receptive_productive": "P"
     },
     {

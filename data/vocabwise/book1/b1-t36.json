@@ -61,7 +61,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "bookstore",
+        "explanation_vi": "“Library” cho mượn sách; “bookstore” bán sách.",
+        "example_en": "Lan borrowed the dictionary from the library.",
+        "example_vi": "Lan mượn từ điển từ thư viện.",
+        "ff_example_en": "Lan bought the dictionary from a bookstore.",
+        "ff_example_vi": "Lan mua từ điển từ hiệu sách."
+      }
     },
     {
       "id": 2,
@@ -78,7 +85,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "self",
+        "explanation_vi": "“Shelf” là kệ; “self” là bản thân. Hai từ có cách viết và phát âm gần nhau.",
+        "example_en": "Lan returned the novel to the shelf.",
+        "example_vi": "Lan trả cuốn tiểu thuyết về kệ.",
+        "ff_example_en": "Lan found the novel by herself.",
+        "ff_example_vi": "Lan tự mình tìm thấy cuốn tiểu thuyết."
+      }
     },
     {
       "id": 3,
@@ -95,7 +109,14 @@
         "adjective": "novel (meaning new/original)",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "story",
+        "explanation_vi": "“Novel” là một tác phẩm hư cấu dài dưới dạng sách; “story” là câu chuyện và có thể ngắn hoặc dài.",
+        "example_en": "Lan borrowed a historical novel from the library.",
+        "example_vi": "Lan mượn một cuốn tiểu thuyết lịch sử từ thư viện.",
+        "ff_example_en": "Lan read a short story in a magazine at the library.",
+        "ff_example_vi": "Lan đọc một truyện ngắn trong tạp chí tại thư viện."
+      }
     },
     {
       "id": 4,
@@ -112,7 +133,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "journal",
+        "explanation_vi": "“Magazine” thường dành cho độc giả phổ thông; “journal” thường là ấn phẩm chuyên môn hoặc học thuật.",
+        "example_en": "The library subscribes to a popular science magazine.",
+        "example_vi": "Thư viện đặt mua một tạp chí khoa học phổ thông.",
+        "ff_example_en": "The library subscribes to an academic science journal.",
+        "ff_example_vi": "Thư viện đặt mua một tạp chí khoa học học thuật."
+      }
     },
     {
       "id": 5,
@@ -147,8 +175,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "mượn vs. cho mượn",
-        "explanation_vi": "Trong tiếng Anh, 'borrow' = nhận mượn (tôi mượn sách từ thư viện), còn 'lend' = cho mượn (thư viện cho tôi mượn sách). Đừng dùng nhầm hai từ này."
+        "word": "lend",
+        "explanation_vi": "Trong tiếng Anh, 'borrow' = nhận mượn (tôi mượn sách từ thư viện), còn 'lend' = cho mượn (thư viện cho tôi mượn sách). Đừng dùng nhầm hai từ này.",
+        "example_en": "I borrowed a history book from the school library.",
+        "example_vi": "Tôi mượn một cuốn sách lịch sử từ thư viện trường.",
+        "ff_example_en": "The school library lent me a history book.",
+        "ff_example_vi": "Thư viện trường cho tôi mượn một cuốn sách lịch sử."
       }
     },
     {
@@ -183,7 +215,14 @@
         "adjective": "quiet / noisy",
         "adverb": "quietly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "quite",
+        "explanation_vi": "“Quiet” nghĩa là yên tĩnh; “quite” là trạng từ nghĩa là khá hoặc hoàn toàn.",
+        "example_en": "The reading room is quiet in the morning.",
+        "example_vi": "Phòng đọc yên tĩnh vào buổi sáng.",
+        "ff_example_en": "The reading room is quite crowded in the afternoon.",
+        "ff_example_vi": "Phòng đọc khá đông vào buổi chiều."
+      }
     },
     {
       "id": 9,
@@ -200,7 +239,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "isle",
+        "explanation_vi": "“Aisle” là lối đi giữa các hàng ghế hoặc kệ; “isle” là hòn đảo. Hai từ phát âm giống nhau.",
+        "example_en": "Lan walked down the aisle between the bookshelves.",
+        "example_vi": "Lan đi dọc lối đi giữa các kệ sách.",
+        "ff_example_en": "Lan found a travel book about a tropical isle.",
+        "ff_example_vi": "Lan tìm thấy một cuốn sách du lịch về một hòn đảo nhiệt đới."
+      }
     },
     {
       "id": 10,
@@ -269,8 +315,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "fine (tốt/ổn) vs. fine (tiền phạt)",
-        "explanation_vi": "Trong tiếng Anh, 'fine' có hai nghĩa hoàn toàn khác nhau: (1) tính từ: 'I'm fine' = tôi ổn; (2) danh từ: 'a library fine' = tiền phạt khi trả sách trễ. Đừng nhầm lẫn hai nghĩa này."
+        "word": "",
+        "explanation_vi": "Trong tiếng Anh, 'fine' có hai nghĩa hoàn toàn khác nhau: (1) tính từ: 'I'm fine' = tôi ổn; (2) danh từ: 'a library fine' = tiền phạt khi trả sách trễ. Đừng nhầm lẫn hai nghĩa này.",
+        "example_en": "Because Minh returned the library book late, he had to pay a fine.",
+        "example_vi": "Vì Minh trả sách thư viện muộn nên em phải nộp tiền phạt.",
+        "ff_example_en": "Although Minh had to pay the library fine, he said he was fine.",
+        "ff_example_vi": "Mặc dù phải nộp tiền phạt cho thư viện, Minh nói rằng mình vẫn ổn."
       }
     },
     {

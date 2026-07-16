@@ -98,8 +98,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "inspiration",
-        "explanation_vi": "'Aspiration' là khát vọng hướng tới mục tiêu; 'inspiration' là sự truyền cảm hứng từ bên ngoài — không thay thế cho nhau."
+        "word": "inspiration",
+        "explanation_vi": "'Aspiration' là khát vọng hướng tới mục tiêu; 'inspiration' là sự truyền cảm hứng từ bên ngoài — không thay thế cho nhau.",
+        "example_en": "Lan’s aspiration is to build an ethical advertising agency.",
+        "example_vi": "Khát vọng của Lan là xây dựng một công ty quảng cáo có đạo đức.",
+        "ff_example_en": "A former teacher provided the inspiration for that goal.",
+        "ff_example_vi": "Một giáo viên cũ là nguồn cảm hứng cho mục tiêu đó."
       },
       "receptive_productive": "P"
     },
@@ -155,8 +159,12 @@
         "adverb": "subliminally"
       },
       "false_friend": {
-        "word_vi": "sublime",
-        "explanation_vi": "'Subliminal' liên quan đến tác động dưới ngưỡng ý thức; 'sublime' có nghĩa là tuyệt vời hoặc cao cả — hoàn toàn khác nghĩa."
+        "word": "sublime",
+        "explanation_vi": "'Subliminal' liên quan đến tác động dưới ngưỡng ý thức; 'sublime' có nghĩa là tuyệt vời hoặc cao cả — hoàn toàn khác nghĩa.",
+        "example_en": "The advertisement used subliminal images to influence viewers unconsciously.",
+        "example_vi": "Quảng cáo dùng hình ảnh dưới ngưỡng ý thức để ảnh hưởng đến người xem một cách vô thức.",
+        "ff_example_en": "Critics described the advertisement’s mountain scenery as sublime.",
+        "ff_example_vi": "Các nhà phê bình mô tả phong cảnh núi trong quảng cáo là tuyệt mỹ."
       },
       "receptive_productive": "P"
     },
@@ -230,8 +238,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "exploration",
-        "explanation_vi": "'Exploitation' là sự bóc lột hay khai thác vì lợi ích riêng; 'exploration' là sự khám phá — phát âm tương tự nhưng nghĩa hoàn toàn khác."
+        "word": "exploration",
+        "explanation_vi": "'Exploitation' là sự bóc lột hay khai thác vì lợi ích riêng; 'exploration' là sự khám phá — phát âm tương tự nhưng nghĩa hoàn toàn khác.",
+        "example_en": "The documentary criticised the exploitation of child workers in the industry.",
+        "example_vi": "Bộ phim tài liệu chỉ trích việc bóc lột lao động trẻ em trong ngành.",
+        "ff_example_en": "It also followed a journalist’s exploration of factories across the region.",
+        "ff_example_vi": "Phim cũng theo chân cuộc khảo sát khám phá các nhà máy trên toàn khu vực của một nhà báo."
       },
       "receptive_productive": "P"
     },

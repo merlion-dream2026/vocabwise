@@ -61,7 +61,14 @@
         "adjective": "etymological",
         "adverb": "etymologically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "entomology",
+        "explanation_vi": "'Etymology' là từ nguyên học; 'entomology' là côn trùng học.",
+        "example_en": "The student researched the etymology of the word 'butterfly'.",
+        "example_vi": "Sinh viên nghiên cứu nguồn gốc của từ 'butterfly'.",
+        "ff_example_en": "The student studied butterflies in an entomology course.",
+        "ff_example_vi": "Sinh viên nghiên cứu loài bướm trong một khóa côn trùng học."
+      },
       "receptive_productive": "P"
     },
     {
@@ -115,7 +122,14 @@
         "adjective": "borrowed",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "lending",
+        "explanation_vi": "'Borrowing' là sự vay mượn hoặc nhận mượn; 'lending' là việc cho mượn.",
+        "example_en": "The lecture examined lexical borrowing from French into English.",
+        "example_vi": "Bài giảng xem xét sự vay mượn từ vựng từ tiếng Pháp vào tiếng Anh.",
+        "ff_example_en": "The library changed its book-lending policy.",
+        "ff_example_vi": "Thư viện thay đổi chính sách cho mượn sách."
+      },
       "receptive_productive": "P"
     },
     {
@@ -152,8 +166,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "creole",
-        "explanation_vi": "'Pidgin' là ngôn ngữ lai ghép đơn giản không có người bản ngữ; 'creole' là ngôn ngữ lai đã phát triển đầy đủ với người bản ngữ — đây là hai giai đoạn phát triển khác nhau."
+        "word": "creole",
+        "explanation_vi": "'Pidgin' là ngôn ngữ lai ghép đơn giản không có người bản ngữ; 'creole' là ngôn ngữ lai đã phát triển đầy đủ với người bản ngữ — đây là hai giai đoạn phát triển khác nhau.",
+        "example_en": "Traders developed a pidgin to communicate, but no community spoke it as a native language.",
+        "example_vi": "Các thương nhân phát triển một ngôn ngữ bồi để giao tiếp, nhưng không cộng đồng nào nói nó như tiếng mẹ đẻ.",
+        "ff_example_en": "Their children later developed a creole with native speakers and a fuller grammar.",
+        "ff_example_vi": "Con cái của họ sau đó phát triển một ngôn ngữ creole có người bản ngữ và ngữ pháp đầy đủ hơn."
       },
       "receptive_productive": "P"
     },
@@ -173,8 +191,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "pidgin",
-        "explanation_vi": "'Creole' là ngôn ngữ lai đã có người bản ngữ và ngữ pháp hoàn chỉnh; 'pidgin' là dạng sơ khai hơn, không có người bản ngữ — cần phân biệt rõ."
+        "word": "pidgin",
+        "explanation_vi": "'Creole' là ngôn ngữ lai đã có người bản ngữ và ngữ pháp hoàn chỉnh; 'pidgin' là dạng sơ khai hơn, không có người bản ngữ — cần phân biệt rõ.",
+        "example_en": "The creole is now the first language of many children in the community.",
+        "example_vi": "Ngôn ngữ creole hiện là tiếng mẹ đẻ của nhiều trẻ em trong cộng đồng.",
+        "ff_example_en": "The earlier pidgin had no native speakers and a more limited grammar.",
+        "ff_example_vi": "Ngôn ngữ bồi trước đó không có người bản ngữ và có ngữ pháp hạn chế hơn."
       },
       "receptive_productive": "P"
     },

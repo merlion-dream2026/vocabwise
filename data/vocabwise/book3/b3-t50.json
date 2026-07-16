@@ -61,7 +61,14 @@
         "adjective": "equivalent",
         "adverb": "equivalently"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "equality",
+        "explanation_vi": "'Equivalence' là sự tương đương về giá trị hoặc nghĩa; 'equality' là sự bình đẳng về địa vị, quyền hoặc cách đối xử.",
+        "example_en": "The translator searched for equivalence between the two expressions.",
+        "example_vi": "Dịch giả tìm sự tương đương giữa hai cách diễn đạt.",
+        "ff_example_en": "The article discussed equality between the two language communities.",
+        "ff_example_vi": "Bài báo thảo luận sự bình đẳng giữa hai cộng đồng ngôn ngữ."
+      },
       "receptive_productive": "P"
     },
     {
@@ -116,8 +123,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "location",
-        "explanation_vi": "'Localisation' là quá trình bản địa hóa sản phẩm/nội dung; 'location' chỉ vị trí địa lý — khác nhau hoàn toàn."
+        "word": "location",
+        "explanation_vi": "'Localisation' là quá trình bản địa hóa sản phẩm/nội dung; 'location' chỉ vị trí địa lý — khác nhau hoàn toàn.",
+        "example_en": "The localisation of the app included Vietnamese menus and local payment methods.",
+        "example_vi": "Việc bản địa hóa ứng dụng bao gồm menu tiếng Việt và phương thức thanh toán địa phương.",
+        "ff_example_en": "The app also uses the phone’s location to suggest nearby shops.",
+        "ff_example_vi": "Ứng dụng cũng dùng vị trí của điện thoại để đề xuất các cửa hàng gần đó."
       },
       "receptive_productive": "P"
     },
@@ -136,7 +147,14 @@
         "adjective": "ambiguous",
         "adverb": "ambiguously"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "ambivalence",
+        "explanation_vi": "'Ambiguity' là sự mơ hồ do có nhiều cách hiểu; 'ambivalence' là cảm giác vừa tích cực vừa tiêu cực về cùng một điều.",
+        "example_en": "The wording created ambiguity about the deadline.",
+        "example_vi": "Cách diễn đạt tạo ra sự mơ hồ về thời hạn.",
+        "ff_example_en": "The students felt ambivalence about the difficult project.",
+        "ff_example_vi": "Các sinh viên có cảm xúc lẫn lộn về dự án khó."
+      },
       "receptive_productive": "P"
     },
     {
@@ -227,8 +245,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "translation",
-        "explanation_vi": "'Interpreting' là phiên dịch nói (oral); 'translation' là dịch thuật viết (written) — đây là hai nghề khác nhau dù liên quan."
+        "word": "translation",
+        "explanation_vi": "'Interpreting' là phiên dịch nói (oral); 'translation' là dịch thuật viết (written) — đây là hai nghề khác nhau dù liên quan.",
+        "example_en": "Interpreting allowed the speaker’s words to be conveyed orally during the meeting.",
+        "example_vi": "Phiên dịch giúp lời nói của diễn giả được truyền đạt bằng lời trong cuộc họp.",
+        "ff_example_en": "Translation was used to prepare a written Vietnamese version of the report.",
+        "ff_example_vi": "Biên dịch được dùng để chuẩn bị phiên bản tiếng Việt bằng văn bản của báo cáo."
       },
       "receptive_productive": "P"
     },

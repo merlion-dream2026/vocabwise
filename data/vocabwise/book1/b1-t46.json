@@ -78,7 +78,14 @@
         "adjective": "planned / unplanned",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "plane",
+        "explanation_vi": "“Plan” là kế hoạch; “plane” là máy bay hoặc mặt phẳng. Hai từ có cách viết và phát âm khá gần nhau.",
+        "example_en": "We made a plan for the class trip.",
+        "example_vi": "Chúng tôi lập kế hoạch cho chuyến đi của lớp.",
+        "ff_example_en": "We took a plane to the destination.",
+        "ff_example_vi": "Chúng tôi đi máy bay đến điểm đến."
+      }
     },
     {
       "id": 3,
@@ -163,7 +170,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "remember",
+        "explanation_vi": "“Remind” là làm cho ai nhớ; “remember” là tự nhớ một điều.",
+        "example_en": "Please remind me to pack my passport tonight.",
+        "example_vi": "Vui lòng nhắc tôi đóng gói hộ chiếu tối nay.",
+        "ff_example_en": "I remembered to pack my passport tonight.",
+        "ff_example_vi": "Tôi đã nhớ đóng gói hộ chiếu tối nay."
+      }
     },
     {
       "id": 8,
@@ -180,7 +194,14 @@
         "adjective": "confirmed",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "conform",
+        "explanation_vi": "“Confirm” nghĩa là xác nhận; “conform” nghĩa là tuân theo hoặc phù hợp với một tiêu chuẩn. Hai từ có cách viết gần giống nhau.",
+        "example_en": "Please confirm the departure time by email.",
+        "example_vi": "Vui lòng xác nhận giờ khởi hành qua email.",
+        "ff_example_en": "All travel documents must conform to the airline’s rules.",
+        "ff_example_vi": "Mọi giấy tờ du lịch phải tuân theo quy định của hãng hàng không."
+      }
     },
     {
       "id": 9,
@@ -214,7 +235,14 @@
         "adjective": "priority",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "prior",
+        "explanation_vi": "“Priority” là danh từ nghĩa là điều được ưu tiên; “prior” thường là tính từ nghĩa là trước đó.",
+        "example_en": "Safety is our first priority during the trip.",
+        "example_vi": "An toàn là ưu tiên hàng đầu trong chuyến đi.",
+        "ff_example_en": "All students need prior permission to join the trip.",
+        "ff_example_vi": "Mọi học sinh cần có sự cho phép trước để tham gia chuyến đi."
+      }
     },
     {
       "id": 11,
@@ -282,7 +310,14 @@
         "adjective": "complete / incomplete",
         "adverb": "completely"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "finish",
+        "explanation_vi": "“Complete” thường nhấn mạnh làm đầy đủ mọi phần; “finish” nhấn mạnh đi đến điểm kết thúc.",
+        "example_en": "Complete every item on the checklist before leaving.",
+        "example_vi": "Hãy hoàn thành đầy đủ mọi mục trong danh sách kiểm tra trước khi rời đi.",
+        "ff_example_en": "Finish packing your bag before leaving.",
+        "ff_example_vi": "Hãy đóng gói xong túi trước khi rời đi."
+      }
     },
     {
       "id": 15,
@@ -299,7 +334,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "access",
+        "explanation_vi": "“Assess” nghĩa là đánh giá; “access” nghĩa là truy cập hoặc quyền tiếp cận. Hai từ có cách viết và phát âm gần nhau.",
+        "example_en": "The teacher assessed the risks before the trip.",
+        "example_vi": "Giáo viên đánh giá các rủi ro trước chuyến đi.",
+        "ff_example_en": "The teacher accessed the online schedule before the trip.",
+        "ff_example_vi": "Giáo viên truy cập lịch trình trực tuyến trước chuyến đi."
+      }
     }
   ],
   "exercises": {

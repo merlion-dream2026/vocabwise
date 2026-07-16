@@ -62,8 +62,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "equality",
-        "explanation_vi": "'Equilibrium' là trạng thái cân bằng ổn định; 'equality' là sự bình đẳng về quyền hoặc cơ hội — hai khái niệm hoàn toàn khác nhau."
+        "word": "equality",
+        "explanation_vi": "'Equilibrium' là trạng thái cân bằng ổn định; 'equality' là sự bình đẳng về quyền hoặc cơ hội — hai khái niệm hoàn toàn khác nhau.",
+        "example_en": "The employee achieved equilibrium between work demands and personal recovery.",
+        "example_vi": "Nhân viên đạt được trạng thái cân bằng giữa yêu cầu công việc và sự phục hồi cá nhân.",
+        "ff_example_en": "The company also introduced equality in access to flexible working hours.",
+        "ff_example_vi": "Công ty cũng áp dụng sự bình đẳng trong quyền tiếp cận giờ làm linh hoạt."
       },
       "receptive_productive": "P"
     },
@@ -101,8 +105,12 @@
         "adverb": "gratifyingly"
       },
       "false_friend": {
-        "word_vi": "gratitude",
-        "explanation_vi": "'Gratification' là cảm giác thỏa mãn khi đạt được điều mình muốn; 'gratitude' là lòng biết ơn — hai cảm xúc khác nhau."
+        "word": "gratitude",
+        "explanation_vi": "'Gratification' là cảm giác thỏa mãn khi đạt được điều mình muốn; 'gratitude' là lòng biết ơn — hai cảm xúc khác nhau.",
+        "example_en": "Finishing the difficult project gave Minh a sense of gratification.",
+        "example_vi": "Hoàn thành dự án khó mang lại cho Minh cảm giác thỏa mãn.",
+        "ff_example_en": "He expressed gratitude to the colleagues who had helped him.",
+        "ff_example_vi": "Anh ấy bày tỏ lòng biết ơn với những đồng nghiệp đã giúp đỡ mình."
       },
       "receptive_productive": "P"
     },
@@ -157,7 +165,14 @@
         "adjective": "productive / unproductive",
         "adverb": "productively"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "production",
+        "explanation_vi": "'Productivity' là mức hiệu quả tạo ra đầu ra; 'production' là quá trình hoặc tổng lượng sản xuất.",
+        "example_en": "The factory improved productivity by reducing wasted time.",
+        "example_vi": "Nhà máy cải thiện năng suất bằng cách giảm thời gian lãng phí.",
+        "ff_example_en": "The factory increased production to meet demand.",
+        "ff_example_vi": "Nhà máy tăng sản lượng để đáp ứng nhu cầu."
+      },
       "receptive_productive": "P"
     },
     {
@@ -212,8 +227,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "disappointment",
-        "explanation_vi": "'Disengagement' là sự rút lui khỏi hoạt động; 'disappointment' là cảm giác thất vọng — phát âm có phần giống nhau nhưng nghĩa khác hoàn toàn."
+        "word": "disappointment",
+        "explanation_vi": "'Disengagement' là sự rút lui khỏi hoạt động; 'disappointment' là cảm giác thất vọng — phát âm có phần giống nhau nhưng nghĩa khác hoàn toàn.",
+        "example_en": "Repeated overtime led to disengagement from the team’s work.",
+        "example_vi": "Việc liên tục làm thêm giờ dẫn đến sự rút lui và thiếu gắn kết với công việc của nhóm.",
+        "ff_example_en": "Missing the promotion caused disappointment among several employees.",
+        "ff_example_vi": "Việc không được thăng chức gây thất vọng cho một số nhân viên."
       },
       "receptive_productive": "P"
     },

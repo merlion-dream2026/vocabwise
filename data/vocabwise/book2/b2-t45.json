@@ -223,7 +223,14 @@
         "adjective": "identifiable",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "identification",
+        "explanation_vi": "'Identity' là danh tính hoặc bản sắc của một người hay nhóm; 'identification' là giấy tờ hoặc quá trình xác định người đó là ai.",
+        "example_en": "The passport confirmed the traveller's identity.",
+        "example_vi": "Hộ chiếu xác nhận danh tính của hành khách.",
+        "ff_example_en": "The officer asked the traveller to show identification.",
+        "ff_example_vi": "Nhân viên yêu cầu hành khách xuất trình giấy tờ tùy thân."
+      },
       "receptive_productive": "P"
     },
     {
@@ -259,7 +266,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "carrier",
+        "explanation_vi": "'Career' là sự nghiệp; 'carrier' là người hoặc phương tiện vận chuyển, hoặc vật mang mầm bệnh.",
+        "example_en": "Lan hopes to build a career in journalism.",
+        "example_vi": "Lan hy vọng xây dựng sự nghiệp trong ngành báo chí.",
+        "ff_example_en": "The airline is the country's largest international carrier.",
+        "ff_example_vi": "Hãng hàng không là đơn vị vận chuyển quốc tế lớn nhất của đất nước."
+      },
       "receptive_productive": "P"
     },
     {
@@ -296,8 +310,12 @@
         "adverb": "stressfully"
       },
       "false_friend": {
-        "word_vi": "pressure",
-        "explanation_vi": "'Stress' thường chỉ trạng thái tâm lý nội tâm — cảm giác bị áp đảo; 'pressure' thường chỉ lực bên ngoài tác động lên bạn (từ kỳ vọng, cạnh tranh...). Người ta thường nói 'under pressure' (đang chịu áp lực bên ngoài) và 'feel stressed' (cảm thấy căng thẳng bên trong)."
+        "word": "pressure",
+        "explanation_vi": "'Stress' thường chỉ trạng thái tâm lý nội tâm — cảm giác bị áp đảo; 'pressure' thường chỉ lực bên ngoài tác động lên bạn (từ kỳ vọng, cạnh tranh...). Người ta thường nói 'under pressure' (đang chịu áp lực bên ngoài) và 'feel stressed' (cảm thấy căng thẳng bên trong).",
+        "example_en": "Mai felt stress while preparing for the important examination.",
+        "example_vi": "Mai cảm thấy căng thẳng khi chuẩn bị cho kỳ thi quan trọng.",
+        "ff_example_en": "Much of that stress came from pressure placed on her by her family.",
+        "ff_example_vi": "Phần lớn sự căng thẳng đó đến từ áp lực mà gia đình đặt lên cô ấy."
       },
       "receptive_productive": "P"
     },
@@ -316,7 +334,14 @@
         "adjective": "inspired / inspiring / inspirational",
         "adverb": "inspiringly"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "expire",
+        "explanation_vi": "'Inspire' là truyền cảm hứng; 'expire' là hết hạn hoặc qua đời trong cách dùng trang trọng cũ.",
+        "example_en": "The artist hoped her work would inspire young students.",
+        "example_vi": "Nghệ sĩ hy vọng tác phẩm của mình sẽ truyền cảm hứng cho học sinh trẻ.",
+        "ff_example_en": "The students checked that their museum passes had not expired.",
+        "ff_example_vi": "Các học sinh kiểm tra để chắc rằng thẻ vào bảo tàng chưa hết hạn."
+      },
       "receptive_productive": "P"
     }
   ],

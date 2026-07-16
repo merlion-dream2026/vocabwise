@@ -79,7 +79,14 @@
         "adjective": "tidal",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "tied",
+        "explanation_vi": "'Tide' là thủy triều; 'tied' là dạng quá khứ của 'tie', nghĩa là buộc hoặc hòa điểm.",
+        "example_en": "The fishermen waited for the tide to rise.",
+        "example_vi": "Ngư dân chờ thủy triều dâng.",
+        "ff_example_en": "The fishermen tied the boat to the dock.",
+        "ff_example_vi": "Ngư dân buộc thuyền vào cầu tàu."
+      },
       "receptive_productive": "R"
     },
     {
@@ -97,7 +104,14 @@
         "adjective": "current",
         "adverb": "currently"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "currant",
+        "explanation_vi": "'Current' là dòng chảy, hiện tại hoặc hiện hành; 'currant' là quả lý chua khô hoặc tươi.",
+        "example_en": "The strong ocean current carried the boat east.",
+        "example_vi": "Dòng hải lưu mạnh cuốn con thuyền về phía đông.",
+        "ff_example_en": "The sailor ate a currant cake on the boat.",
+        "ff_example_vi": "Thủy thủ ăn một chiếc bánh lý chua trên thuyền."
+      },
       "receptive_productive": "R"
     },
     {
@@ -242,8 +256,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "iceberg",
-        "explanation_vi": "'Glacier' là khối băng lớn trên đất liền chảy chậm; 'iceberg' là tảng băng trôi nổi trong đại dương — hai thứ khác nhau."
+        "word": "iceberg",
+        "explanation_vi": "'Glacier' là khối băng lớn trên đất liền chảy chậm; 'iceberg' là tảng băng trôi nổi trong đại dương — hai thứ khác nhau.",
+        "example_en": "The research team studied a glacier moving slowly across the land.",
+        "example_vi": "Nhóm nghiên cứu khảo sát một sông băng đang di chuyển chậm trên đất liền.",
+        "ff_example_en": "Later, they observed an iceberg floating in the ocean.",
+        "ff_example_vi": "Sau đó, họ quan sát một tảng băng trôi nổi trên đại dương."
       },
       "receptive_productive": "R"
     },
@@ -262,7 +280,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "participation",
+        "explanation_vi": "'Precipitation' là mưa, tuyết hoặc các dạng nước rơi từ khí quyển; 'participation' là sự tham gia.",
+        "example_en": "The study measured annual precipitation in the region.",
+        "example_vi": "Nghiên cứu đo lượng giáng thủy hằng năm trong khu vực.",
+        "ff_example_en": "The study required participation from local farmers.",
+        "ff_example_vi": "Nghiên cứu cần sự tham gia của nông dân địa phương."
+      },
       "receptive_productive": "R"
     },
     {
@@ -280,7 +305,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "evaluation",
+        "explanation_vi": "'Evaporation' là sự bốc hơi; 'evaluation' là sự đánh giá.",
+        "example_en": "The experiment measured the rate of evaporation.",
+        "example_vi": "Thí nghiệm đo tốc độ bốc hơi.",
+        "ff_example_en": "The teacher completed an evaluation of the experiment.",
+        "ff_example_vi": "Giáo viên hoàn thành phần đánh giá thí nghiệm."
+      },
       "receptive_productive": "R"
     },
     {

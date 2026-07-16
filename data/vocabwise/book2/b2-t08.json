@@ -98,7 +98,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "commend",
+        "explanation_vi": "'Comment' là bình luận; 'commend' là khen ngợi hoặc biểu dương.",
+        "example_en": "The teacher made a comment on Lan's essay.",
+        "example_vi": "Giáo viên đưa ra một nhận xét về bài luận của Lan.",
+        "ff_example_en": "The teacher commended Lan for her excellent essay.",
+        "ff_example_vi": "Giáo viên khen ngợi Lan vì bài luận xuất sắc."
+      },
       "receptive_productive": "R"
     },
     {
@@ -171,8 +178,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "download",
-        "explanation_vi": "'Upload' là tải lên; 'download' là tải xuống — ngược nhau."
+        "word": "download",
+        "explanation_vi": "'Upload' là tải lên; 'download' là tải xuống — ngược nhau.",
+        "example_en": "Mai uploaded the presentation from her laptop to the class website.",
+        "example_vi": "Mai tải bài thuyết trình từ máy tính xách tay lên trang web của lớp.",
+        "ff_example_en": "Her teacher downloaded the presentation from the class website to his computer.",
+        "ff_example_vi": "Giáo viên của cô ấy tải bài thuyết trình từ trang web của lớp xuống máy tính."
       },
       "receptive_productive": "R"
     },
@@ -191,7 +202,14 @@
         "adjective": "viral",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "virus",
+        "explanation_vi": "'Viral' là tính từ chỉ nội dung lan truyền nhanh hoặc điều liên quan đến vi-rút; 'virus' là danh từ chỉ vi-rút.",
+        "example_en": "The health video went viral within a day.",
+        "example_vi": "Video về sức khỏe lan truyền mạnh chỉ trong một ngày.",
+        "ff_example_en": "The health video explained how the virus spreads.",
+        "ff_example_vi": "Video về sức khỏe giải thích cách vi-rút lây lan."
+      },
       "receptive_productive": "R"
     },
     {
@@ -281,7 +299,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "audition",
+        "explanation_vi": "'Audience' là khán giả; 'audition' là buổi thử vai hoặc thử giọng.",
+        "example_en": "The singer performed in front of a large audience.",
+        "example_vi": "Ca sĩ biểu diễn trước một lượng khán giả đông đảo.",
+        "ff_example_en": "The singer performed the same song at an audition.",
+        "ff_example_vi": "Ca sĩ biểu diễn cùng bài hát trong một buổi thử giọng."
+      },
       "receptive_productive": "P"
     },
     {
@@ -300,8 +325,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "content (hài lòng)",
-        "explanation_vi": "'Content' (danh từ) = nội dung; 'content' (tính từ) = hài lòng — cùng cách viết, khác nghĩa."
+        "word": "",
+        "explanation_vi": "'Content' (danh từ) = nội dung; 'content' (tính từ) = hài lòng — cùng cách viết, khác nghĩa.",
+        "example_en": "The website publishes educational content for teenagers.",
+        "example_vi": "Trang web đăng nội dung giáo dục dành cho thanh thiếu niên.",
+        "ff_example_en": "The editor was content with the quality of the new article.",
+        "ff_example_vi": "Biên tập viên hài lòng với chất lượng của bài viết mới."
       },
       "receptive_productive": "P"
     },

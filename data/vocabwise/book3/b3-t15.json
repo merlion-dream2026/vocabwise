@@ -116,8 +116,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "intent",
-        "explanation_vi": "'Incentive' là thứ khuyến khích hoặc thúc đẩy hành động; 'intent' là mục đích hay ý định — không thay thế nhau được."
+        "word": "intent",
+        "explanation_vi": "'Incentive' là thứ khuyến khích hoặc thúc đẩy hành động; 'intent' là mục đích hay ý định — không thay thế nhau được.",
+        "example_en": "A cash reward acted as an incentive for employees to exercise more.",
+        "example_vi": "Phần thưởng tiền mặt đóng vai trò là động lực khuyến khích nhân viên tập thể dục nhiều hơn.",
+        "ff_example_en": "The company’s intent was to improve long-term health.",
+        "ff_example_vi": "Mục đích của công ty là cải thiện sức khỏe lâu dài."
       },
       "receptive_productive": "P"
     },
@@ -155,8 +159,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "collapse",
-        "explanation_vi": "'Relapse' là sự trở lại trạng thái xấu sau giai đoạn cải thiện; 'collapse' là sự sụp đổ hoàn toàn — khác nhau về ngữ cảnh và ý nghĩa."
+        "word": "collapse",
+        "explanation_vi": "'Relapse' là sự trở lại trạng thái xấu sau giai đoạn cải thiện; 'collapse' là sự sụp đổ hoàn toàn — khác nhau về ngữ cảnh và ý nghĩa.",
+        "example_en": "After six months without smoking, the patient experienced a relapse.",
+        "example_vi": "Sau sáu tháng không hút thuốc, bệnh nhân tái nghiện.",
+        "ff_example_en": "During the same week, severe exhaustion caused him to collapse at work.",
+        "ff_example_vi": "Trong cùng tuần đó, kiệt sức nghiêm trọng khiến anh ấy ngã quỵ tại nơi làm việc."
       },
       "receptive_productive": "P"
     },
@@ -230,8 +238,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "queue",
-        "explanation_vi": "'Cue' là tín hiệu hoặc dấu hiệu kích hoạt hành vi; 'queue' là hàng đợi — phát âm giống nhau nhưng nghĩa hoàn toàn khác."
+        "word": "queue",
+        "explanation_vi": "'Cue' là tín hiệu hoặc dấu hiệu kích hoạt hành vi; 'queue' là hàng đợi — phát âm giống nhau nhưng nghĩa hoàn toàn khác.",
+        "example_en": "The smell of coffee was a cue that triggered her morning habit.",
+        "example_vi": "Mùi cà phê là một tín hiệu kích hoạt thói quen buổi sáng của cô ấy.",
+        "ff_example_en": "She then joined the queue at the café.",
+        "ff_example_vi": "Sau đó, cô ấy xếp vào hàng chờ tại quán cà phê."
       },
       "receptive_productive": "P"
     },

@@ -79,7 +79,14 @@
         "adjective": "sustainable / unsustainable",
         "adverb": "sustainably"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "sustained",
+        "explanation_vi": "'Sustainable' nghĩa là có thể duy trì lâu dài mà không làm cạn kiệt nguồn lực; 'sustained' nghĩa là được duy trì liên tục trong một khoảng thời gian.",
+        "example_en": "The city needs a sustainable transport system.",
+        "example_vi": "Thành phố cần một hệ thống giao thông bền vững.",
+        "ff_example_en": "The city experienced sustained growth in public transport use.",
+        "ff_example_vi": "Thành phố ghi nhận mức tăng liên tục trong việc sử dụng giao thông công cộng."
+      },
       "receptive_productive": "P"
     },
     {
@@ -97,7 +104,14 @@
         "adjective": "ethical / unethical",
         "adverb": "ethically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "ethnic",
+        "explanation_vi": "'Ethical' nghĩa là thuộc về đạo đức; 'ethnic' nghĩa là thuộc về một nhóm sắc tộc hoặc văn hóa.",
+        "example_en": "The researchers discussed the ethical issues in the study.",
+        "example_vi": "Các nhà nghiên cứu thảo luận những vấn đề đạo đức trong nghiên cứu.",
+        "ff_example_en": "The researchers included participants from several ethnic groups.",
+        "ff_example_vi": "Các nhà nghiên cứu đưa vào người tham gia từ nhiều nhóm sắc tộc."
+      },
       "receptive_productive": "P"
     },
     {
@@ -133,7 +147,14 @@
         "adjective": "identifiable",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "identification",
+        "explanation_vi": "'Identity' là danh tính hoặc bản sắc của một người hay nhóm; 'identification' là giấy tờ hoặc quá trình xác định người đó là ai.",
+        "example_en": "The passport confirmed the traveller's identity.",
+        "example_vi": "Hộ chiếu xác nhận danh tính của hành khách.",
+        "ff_example_en": "The officer asked the traveller to show identification.",
+        "ff_example_vi": "Nhân viên yêu cầu hành khách xuất trình giấy tờ tùy thân."
+      },
       "receptive_productive": "P"
     },
     {
@@ -169,7 +190,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "customer",
+        "explanation_vi": "'Consumer' là người sử dụng hàng hóa hoặc dịch vụ; 'customer' là người trực tiếp mua từ một doanh nghiệp.",
+        "example_en": "The survey examined how consumers use the product.",
+        "example_vi": "Khảo sát xem xét cách người tiêu dùng sử dụng sản phẩm.",
+        "ff_example_en": "The shop gave each customer a product sample.",
+        "ff_example_vi": "Cửa hàng tặng mỗi khách hàng một mẫu sản phẩm."
+      },
       "receptive_productive": "P"
     },
     {

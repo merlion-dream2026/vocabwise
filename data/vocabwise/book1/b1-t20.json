@@ -61,7 +61,14 @@
         "adjective": "celebrated (famous)",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "congratulate",
+        "explanation_vi": "“Celebrate” là tổ chức hoặc tham gia hoạt động vui mừng vì một sự kiện; “congratulate” là nói lời chúc mừng với một người.",
+        "example_en": "The team celebrated its victory with a party.",
+        "example_vi": "Đội đã ăn mừng chiến thắng bằng một bữa tiệc.",
+        "ff_example_en": "The coach congratulated the team on its victory.",
+        "ff_example_vi": "Huấn luyện viên chúc mừng đội vì chiến thắng."
+      }
     },
     {
       "id": 2,
@@ -78,7 +85,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "vacation",
+        "explanation_vi": "“Holiday” trong Anh-Anh có thể là ngày lễ hoặc kỳ nghỉ; “vacation” trong Anh-Mỹ chủ yếu là kỳ nghỉ khỏi học tập hoặc công việc.",
+        "example_en": "The school is closed for the national holiday.",
+        "example_vi": "Trường đóng cửa trong ngày lễ quốc gia.",
+        "ff_example_en": "The family is spending its summer vacation at the beach.",
+        "ff_example_vi": "Gia đình đang dành kỳ nghỉ hè tại bãi biển."
+      }
     },
     {
       "id": 3,
@@ -231,7 +245,14 @@
         "adjective": "traditional",
         "adverb": "traditionally"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "custom",
+        "explanation_vi": "“Tradition” là niềm tin hoặc cách làm được truyền qua nhiều thế hệ; “custom” là tập quán xã hội cụ thể của một cộng đồng.",
+        "example_en": "Giving lucky money is a long-standing Tet tradition.",
+        "example_vi": "Tặng tiền lì xì là một truyền thống lâu đời trong dịp Tết.",
+        "ff_example_en": "Removing shoes before entering the house is a common local custom.",
+        "ff_example_vi": "Cởi giày trước khi vào nhà là một phong tục phổ biến ở địa phương."
+      }
     },
     {
       "id": 12,
@@ -265,7 +286,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "audience",
+        "explanation_vi": "“Spectator” thường là người xem một sự kiện thể thao hoặc hoạt động trực tiếp; “audience” là tập thể người xem hoặc nghe một buổi biểu diễn, bài nói hay chương trình.",
+        "example_en": "Thousands of spectators watched the parade from the street.",
+        "example_vi": "Hàng nghìn khán giả xem cuộc diễu hành từ đường phố.",
+        "ff_example_en": "The audience applauded after the festival performance.",
+        "ff_example_vi": "Khán giả vỗ tay sau màn biểu diễn tại lễ hội."
+      }
     },
     {
       "id": 14,

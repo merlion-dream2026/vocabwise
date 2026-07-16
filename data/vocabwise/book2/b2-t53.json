@@ -115,7 +115,14 @@
         "adjective": "biased",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "prejudice",
+        "explanation_vi": "'Bias' là xu hướng thiên lệch có thể có ý thức hoặc vô thức; 'prejudice' thường là định kiến tiêu cực đã hình thành trước về một nhóm người.",
+        "example_en": "The editor checked the article for political bias.",
+        "example_vi": "Biên tập viên kiểm tra bài báo để phát hiện sự thiên lệch chính trị.",
+        "ff_example_en": "The editor removed a sentence that showed prejudice against migrants.",
+        "ff_example_vi": "Biên tập viên xóa một câu thể hiện định kiến đối với người di cư."
+      },
       "receptive_productive": "P"
     },
     {
@@ -151,7 +158,14 @@
         "adjective": "data-driven",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "date",
+        "explanation_vi": "'Data' là dữ liệu; 'date' là ngày tháng hoặc cuộc hẹn.",
+        "example_en": "The researcher entered the data into the computer.",
+        "example_vi": "Nhà nghiên cứu nhập dữ liệu vào máy tính.",
+        "ff_example_en": "The researcher entered the date at the top of the form.",
+        "ff_example_vi": "Nhà nghiên cứu điền ngày tháng ở đầu biểu mẫu."
+      },
       "receptive_productive": "P"
     },
     {
@@ -241,7 +255,14 @@
         "adjective": "regulated / regulatory",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "regular",
+        "explanation_vi": "'Regulate' là quản lý hoặc kiểm soát bằng quy định; 'regular' là đều đặn hoặc thông thường.",
+        "example_en": "The government regulates online banking services.",
+        "example_vi": "Chính phủ quản lý các dịch vụ ngân hàng trực tuyến.",
+        "ff_example_en": "The bank sends regular security updates to customers.",
+        "ff_example_vi": "Ngân hàng gửi các bản cập nhật bảo mật thường xuyên cho khách hàng."
+      },
       "receptive_productive": "P"
     },
     {

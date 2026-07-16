@@ -80,8 +80,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "prosecution",
-        "explanation_vi": "'Persecution' là sự bức hại, ngược đãi vì lý do tôn giáo, chính trị; 'prosecution' là sự truy tố hình sự — khác nhau về bản chất."
+        "word": "prosecution",
+        "explanation_vi": "'Persecution' là sự bức hại, ngược đãi vì lý do tôn giáo, chính trị; 'prosecution' là sự truy tố hình sự — khác nhau về bản chất.",
+        "example_en": "The family fled religious persecution in their home country.",
+        "example_vi": "Gia đình chạy trốn sự bức hại tôn giáo tại quê hương.",
+        "ff_example_en": "In the host country, a criminal prosecution began against the people who had attacked them.",
+        "ff_example_vi": "Tại nước tiếp nhận, một vụ truy tố hình sự được tiến hành đối với những người đã tấn công họ."
       },
       "receptive_productive": "P"
     },
@@ -191,8 +195,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "exportation",
-        "explanation_vi": "'Deportation' là trục xuất người ra khỏi một quốc gia; 'exportation' là xuất khẩu hàng hóa — hai khái niệm hoàn toàn khác nhau."
+        "word": "exportation",
+        "explanation_vi": "'Deportation' là trục xuất người ra khỏi một quốc gia; 'exportation' là xuất khẩu hàng hóa — hai khái niệm hoàn toàn khác nhau.",
+        "example_en": "The court ordered the deportation of the foreign offender.",
+        "example_vi": "Tòa án ra lệnh trục xuất người phạm tội nước ngoài.",
+        "ff_example_en": "The trade ministry approved the exportation of goods from the same port.",
+        "ff_example_vi": "Bộ thương mại phê duyệt việc xuất khẩu hàng hóa từ cùng cảng đó."
       },
       "receptive_productive": "P"
     },

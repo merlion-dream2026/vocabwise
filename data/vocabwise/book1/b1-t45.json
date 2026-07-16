@@ -61,7 +61,14 @@
         "adjective": "accidental",
         "adverb": "accidentally"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "incident",
+        "explanation_vi": "“Accident” là sự việc ngoài ý muốn gây thiệt hại hoặc thương tích; “incident” là một sự việc xảy ra, thường bất thường nhưng không nhất thiết là tai nạn.",
+        "example_en": "Two people were injured in a road accident.",
+        "example_vi": "Hai người bị thương trong một vụ tai nạn đường bộ.",
+        "ff_example_en": "The police recorded a minor incident near the road.",
+        "ff_example_vi": "Cảnh sát ghi nhận một sự cố nhỏ gần con đường."
+      }
     },
     {
       "id": 2,
@@ -78,7 +85,14 @@
         "adjective": "hurt / hurtful",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "injure",
+        "explanation_vi": "“Hurt” là từ thông dụng nghĩa là làm đau hoặc bị đau; “injure” thường dùng cho thương tích thể chất nghiêm trọng hoặc trang trọng hơn.",
+        "example_en": "Lan hurt her ankle when she fell.",
+        "example_vi": "Lan bị đau mắt cá chân khi ngã.",
+        "ff_example_en": "Lan injured her ankle seriously when she fell.",
+        "ff_example_vi": "Lan bị thương nặng ở mắt cá chân khi ngã."
+      }
     },
     {
       "id": 3,
@@ -95,7 +109,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "fail",
+        "explanation_vi": "“Fall” nghĩa là ngã hoặc rơi; “fail” nghĩa là thất bại hoặc trượt. Hai từ thường bị nhầm khi phát âm.",
+        "example_en": "Be careful not to fall on the wet floor.",
+        "example_vi": "Hãy cẩn thận để không ngã trên sàn ướt.",
+        "ff_example_en": "The machine may fail if water enters it.",
+        "ff_example_vi": "Máy có thể hỏng nếu nước lọt vào."
+      }
     },
     {
       "id": 4,
@@ -112,7 +133,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "crush",
+        "explanation_vi": "“Crash” là va chạm mạnh; “crush” là nghiền, ép hoặc làm bẹp.",
+        "example_en": "The car crashed into a wall.",
+        "example_vi": "Chiếc ô tô đâm vào tường.",
+        "ff_example_en": "The wall crushed the front of the car when it collapsed.",
+        "ff_example_vi": "Bức tường làm bẹp phần đầu xe khi đổ xuống."
+      }
     },
     {
       "id": 5,
@@ -180,7 +208,14 @@
         "adjective": "hazardous",
         "adverb": "hazardously"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "danger",
+        "explanation_vi": "“Hazard” là nguồn hoặc yếu tố có khả năng gây hại; “danger” là tình trạng có nguy cơ bị hại.",
+        "example_en": "The wet floor is a safety hazard.",
+        "example_vi": "Sàn ướt là một mối nguy an toàn.",
+        "ff_example_en": "The warning sign tells visitors that they are in danger.",
+        "ff_example_vi": "Biển cảnh báo cho khách biết rằng họ đang gặp nguy hiểm."
+      }
     },
     {
       "id": 9,
@@ -197,7 +232,14 @@
         "adjective": "safe / unsafe",
         "adverb": "safely"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "save",
+        "explanation_vi": "“Safe” là tính từ nghĩa là an toàn; “save” là động từ nghĩa là cứu hoặc lưu.",
+        "example_en": "The children are safe inside the building.",
+        "example_vi": "Những đứa trẻ an toàn bên trong tòa nhà.",
+        "ff_example_en": "The firefighters saved the children from the building.",
+        "ff_example_vi": "Lính cứu hỏa cứu những đứa trẻ khỏi tòa nhà."
+      }
     },
     {
       "id": 10,
@@ -214,7 +256,14 @@
         "adjective": "alert",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "warn",
+        "explanation_vi": "“Alert” là báo cho ai biết ngay về nguy hiểm; “warn” là cảnh báo trước về nguy cơ hoặc hậu quả.",
+        "example_en": "The alarm alerted the staff to the fire.",
+        "example_vi": "Chuông báo động báo cho nhân viên biết về đám cháy.",
+        "ff_example_en": "The manager warned the staff not to use the damaged machine.",
+        "ff_example_vi": "Người quản lý cảnh báo nhân viên không sử dụng máy bị hỏng."
+      }
     },
     {
       "id": 11,
@@ -231,7 +280,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "exit",
+        "explanation_vi": "“Escape” là thoát khỏi nguy hiểm hoặc sự giam giữ; “exit” là rời một nơi hoặc lối ra.",
+        "example_en": "The family escaped from the burning house.",
+        "example_vi": "Gia đình thoát khỏi ngôi nhà đang cháy.",
+        "ff_example_en": "The family exited the building through the back door.",
+        "ff_example_vi": "Gia đình rời tòa nhà qua cửa sau."
+      }
     },
     {
       "id": 12,
@@ -248,7 +304,14 @@
         "adjective": "bleeding",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "blood",
+        "explanation_vi": "“Bleed” là động từ nghĩa là chảy máu; “blood” là danh từ nghĩa là máu.",
+        "example_en": "His hand began to bleed after the cut.",
+        "example_vi": "Tay anh ấy bắt đầu chảy máu sau vết cắt.",
+        "ff_example_en": "There was blood on his hand after the cut.",
+        "ff_example_vi": "Có máu trên tay anh ấy sau vết cắt."
+      }
     },
     {
       "id": 13,
@@ -265,7 +328,14 @@
         "adjective": "biting",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "bit",
+        "explanation_vi": "“Bite” là động từ nguyên thể hoặc danh từ nghĩa là cắn; “bit” là dạng quá khứ của “bite” và cũng có thể nghĩa là một chút.",
+        "example_en": "Be careful because the dog may bite.",
+        "example_vi": "Hãy cẩn thận vì con chó có thể cắn.",
+        "ff_example_en": "The dog bit the rescuer on the hand.",
+        "ff_example_vi": "Con chó đã cắn người cứu hộ vào tay."
+      }
     },
     {
       "id": 14,
@@ -299,7 +369,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "save",
+        "explanation_vi": "“Rescue” nhấn mạnh việc đưa ai ra khỏi tình huống nguy hiểm; “save” là từ rộng hơn, nghĩa là cứu khỏi nguy hiểm, mất mát hoặc lãng phí.",
+        "example_en": "Firefighters rescued the driver from the crashed car.",
+        "example_vi": "Lính cứu hỏa giải cứu tài xế khỏi chiếc xe bị tai nạn.",
+        "ff_example_en": "The seat belt saved the driver’s life in the crash.",
+        "ff_example_vi": "Dây an toàn đã cứu mạng tài xế trong vụ va chạm."
+      }
     }
   ],
   "exercises": {

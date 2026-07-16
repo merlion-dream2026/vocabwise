@@ -79,7 +79,14 @@
         "adjective": "evident",
         "adverb": "evidently"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "proof",
+        "explanation_vi": "'Evidence' là thông tin hoặc dữ liệu hỗ trợ một kết luận; 'proof' là bằng chứng đủ sức xác lập điều gì đó là đúng, nên thường mạnh và dứt khoát hơn.",
+        "example_en": "The scientist presented evidence that the treatment might work.",
+        "example_vi": "Nhà khoa học trình bày bằng chứng cho thấy phương pháp điều trị có thể hiệu quả.",
+        "ff_example_en": "The scientist said the results were not yet proof that the treatment worked.",
+        "ff_example_vi": "Nhà khoa học nói rằng kết quả vẫn chưa phải là bằng chứng xác thực rằng phương pháp điều trị có hiệu quả."
+      },
       "receptive_productive": "P"
     },
     {
@@ -97,7 +104,14 @@
         "adjective": "experimental",
         "adverb": "experimentally"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "experience",
+        "explanation_vi": "'Experiment' là thí nghiệm có kiểm soát; 'experience' là trải nghiệm hoặc kinh nghiệm.",
+        "example_en": "The students conducted an experiment in the laboratory.",
+        "example_vi": "Các học sinh tiến hành một thí nghiệm trong phòng thí nghiệm.",
+        "ff_example_en": "The students gained valuable experience in the laboratory.",
+        "ff_example_vi": "Các học sinh có được kinh nghiệm quý báu trong phòng thí nghiệm."
+      },
       "receptive_productive": "P"
     },
     {
@@ -116,8 +130,12 @@
         "adverb": "theoretically"
       },
       "false_friend": {
-        "word_vi": "đoán mò",
-        "explanation_vi": "Trong tiếng Anh thông thường, người ta đôi khi nói 'just a theory' với nghĩa 'chỉ là đoán mò'. Nhưng trong khoa học, 'theory' là một giải thích đã được kiểm chứng bởi nhiều bằng chứng — ví dụ: 'the theory of evolution'. Đây là hiểu lầm phổ biến."
+        "word": "",
+        "explanation_vi": "Trong tiếng Anh thông thường, người ta đôi khi nói 'just a theory' với nghĩa 'chỉ là đoán mò'. Nhưng trong khoa học, 'theory' là một giải thích đã được kiểm chứng bởi nhiều bằng chứng — ví dụ: 'the theory of evolution'. Đây là hiểu lầm phổ biến.",
+        "example_en": "The theory of evolution is supported by a large body of scientific evidence.",
+        "example_vi": "Thuyết tiến hóa được hỗ trợ bởi một lượng lớn bằng chứng khoa học.",
+        "ff_example_en": "Before collecting data, the student used the word theory for an untested personal guess.",
+        "ff_example_vi": "Trước khi thu thập dữ liệu, học sinh dùng từ “theory” để chỉ một phỏng đoán cá nhân chưa được kiểm chứng."
       },
       "receptive_productive": "P"
     },
@@ -154,7 +172,14 @@
         "adjective": "ethical / unethical",
         "adverb": "ethically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "ethnic",
+        "explanation_vi": "'Ethical' nghĩa là thuộc về đạo đức; 'ethnic' nghĩa là thuộc về một nhóm sắc tộc hoặc văn hóa.",
+        "example_en": "The researchers discussed the ethical issues in the study.",
+        "example_vi": "Các nhà nghiên cứu thảo luận những vấn đề đạo đức trong nghiên cứu.",
+        "ff_example_en": "The researchers included participants from several ethnic groups.",
+        "ff_example_vi": "Các nhà nghiên cứu đưa vào người tham gia từ nhiều nhóm sắc tộc."
+      },
       "receptive_productive": "P"
     },
     {
@@ -172,7 +197,14 @@
         "adjective": "funded / unfunded",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "found",
+        "explanation_vi": "'Fund' là tài trợ tiền hoặc quỹ; 'found' là thành lập, hoặc dạng quá khứ của 'find'.",
+        "example_en": "The university will fund the new research centre.",
+        "example_vi": "Trường đại học sẽ tài trợ cho trung tâm nghiên cứu mới.",
+        "ff_example_en": "The university will found a new research centre.",
+        "ff_example_vi": "Trường đại học sẽ thành lập một trung tâm nghiên cứu mới."
+      },
       "receptive_productive": "P"
     },
     {
@@ -208,7 +240,14 @@
         "adjective": "progressive",
         "adverb": "progressively"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "process",
+        "explanation_vi": "'Progress' là sự tiến bộ; 'process' là quy trình gồm các bước.",
+        "example_en": "The researchers reported progress in developing the vaccine.",
+        "example_vi": "Các nhà nghiên cứu báo cáo tiến bộ trong việc phát triển vắc-xin.",
+        "ff_example_en": "The researchers explained the process used to develop the vaccine.",
+        "ff_example_vi": "Các nhà nghiên cứu giải thích quy trình dùng để phát triển vắc-xin."
+      },
       "receptive_productive": "P"
     },
     {
@@ -226,7 +265,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "invent",
+        "explanation_vi": "'Discover' là tìm ra điều đã tồn tại nhưng chưa được biết; 'invent' là tạo ra thứ mới.",
+        "example_en": "The scientists discovered a new property of the material.",
+        "example_vi": "Các nhà khoa học khám phá một đặc tính mới của vật liệu.",
+        "ff_example_en": "The scientists invented a device that uses the material.",
+        "ff_example_vi": "Các nhà khoa học phát minh một thiết bị sử dụng vật liệu đó."
+      },
       "receptive_productive": "P"
     },
     {
@@ -280,7 +326,14 @@
         "adjective": "reliable / unreliable",
         "adverb": "reliably"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "reliant",
+        "explanation_vi": "'Reliable' nghĩa là đáng tin cậy; 'reliant' nghĩa là phụ thuộc vào.",
+        "example_en": "The team used a reliable source for the report.",
+        "example_vi": "Nhóm sử dụng một nguồn đáng tin cậy cho báo cáo.",
+        "ff_example_en": "The team was reliant on one source for the report.",
+        "ff_example_vi": "Nhóm phụ thuộc vào một nguồn duy nhất cho báo cáo."
+      },
       "receptive_productive": "P"
     },
     {

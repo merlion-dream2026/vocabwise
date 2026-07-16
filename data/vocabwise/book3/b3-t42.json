@@ -62,8 +62,12 @@
         "adverb": "coherently"
       },
       "false_friend": {
-        "word_vi": "cohesion",
-        "explanation_vi": "'Coherence' là tính mạch lạc về mặt ý nghĩa và logic; 'cohesion' là tính liên kết về mặt ngôn ngữ và cấu trúc — hai khái niệm khác nhau trong ngôn ngữ học."
+        "word": "cohesion",
+        "explanation_vi": "'Coherence' là tính mạch lạc về mặt ý nghĩa và logic; 'cohesion' là tính liên kết về mặt ngôn ngữ và cấu trúc — hai khái niệm khác nhau trong ngôn ngữ học.",
+        "example_en": "The essay has coherence because every paragraph supports the central argument.",
+        "example_vi": "Bài luận có tính mạch lạc vì mọi đoạn đều hỗ trợ lập luận trung tâm.",
+        "ff_example_en": "It has cohesion because pronouns and linking words connect the sentences.",
+        "ff_example_vi": "Bài luận có tính liên kết vì đại từ và từ nối kết nối các câu."
       },
       "receptive_productive": "P"
     },
@@ -83,8 +87,12 @@
         "adverb": "cohesively"
       },
       "false_friend": {
-        "word_vi": "coherence",
-        "explanation_vi": "'Cohesion' là liên kết ngôn ngữ (dùng từ nối, đại từ...); 'coherence' là mạch lạc về ý nghĩa tổng thể — thường bị nhầm lẫn nhưng khác nhau về phạm vi."
+        "word": "coherence",
+        "explanation_vi": "'Cohesion' là liên kết ngôn ngữ (dùng từ nối, đại từ...); 'coherence' là mạch lạc về ý nghĩa tổng thể — thường bị nhầm lẫn nhưng khác nhau về phạm vi.",
+        "example_en": "Repeated key terms give the paragraph cohesion.",
+        "example_vi": "Việc lặp lại các thuật ngữ chính tạo tính liên kết cho đoạn văn.",
+        "ff_example_en": "A logical sequence of ideas gives the paragraph coherence.",
+        "ff_example_vi": "Trình tự ý tưởng hợp lý tạo tính mạch lạc cho đoạn văn."
       },
       "receptive_productive": "P"
     },
@@ -175,7 +183,14 @@
         "adjective": "nominal",
         "adverb": "nominally"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "normalization",
+        "explanation_vi": "'Nominalization' là quá trình biến động từ hoặc tính từ thành danh từ; 'normalization' là quá trình đưa điều gì về trạng thái hoặc chuẩn thông thường.",
+        "example_en": "The editor reduced excessive nominalization in the research paper.",
+        "example_vi": "Biên tập viên giảm việc danh từ hóa quá mức trong bài nghiên cứu.",
+        "ff_example_en": "The analyst completed normalization of the data used in the research paper.",
+        "ff_example_vi": "Nhà phân tích hoàn thành việc chuẩn hóa dữ liệu dùng trong bài nghiên cứu."
+      },
       "receptive_productive": "P"
     },
     {

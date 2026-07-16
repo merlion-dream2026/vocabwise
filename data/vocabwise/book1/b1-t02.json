@@ -61,7 +61,14 @@
         "adjective": "awake",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "get up",
+        "explanation_vi": "“Wake” hoặc “wake up” là tỉnh giấc; “get up” là rời khỏi giường sau khi đã tỉnh.",
+        "example_en": "I usually wake up at six but stay in bed for a few minutes.",
+        "example_vi": "Tôi thường thức giấc lúc sáu giờ nhưng vẫn nằm trên giường thêm vài phút.",
+        "ff_example_en": "I usually get up at six fifteen and get dressed.",
+        "ff_example_vi": "Tôi thường ra khỏi giường lúc sáu giờ mười lăm và mặc quần áo."
+      }
     },
     {
       "id": 2,
@@ -164,8 +171,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "diner",
-        "explanation_vi": "'Dinner' (bữa tối) khác với 'diner' (quán ăn nhỏ) — phát âm và nghĩa đều khác nhau."
+        "word": "diner",
+        "explanation_vi": "'Dinner' (bữa tối) khác với 'diner' (quán ăn nhỏ) — phát âm và nghĩa đều khác nhau.",
+        "example_en": "We had dinner at a small restaurant near the station.",
+        "example_vi": "Chúng tôi ăn tối tại một nhà hàng nhỏ gần nhà ga.",
+        "ff_example_en": "The diner near the station serves simple evening meals.",
+        "ff_example_vi": "Quán ăn nhỏ gần nhà ga phục vụ những bữa tối đơn giản."
       }
     },
     {
@@ -201,8 +212,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "slip",
-        "explanation_vi": "'Sleep' (ngủ) không phải 'slip' (trượt ngã) — phát âm tương tự nhưng nghĩa khác hoàn toàn."
+        "word": "slip",
+        "explanation_vi": "'Sleep' (ngủ) không phải 'slip' (trượt ngã) — phát âm tương tự nhưng nghĩa khác hoàn toàn.",
+        "example_en": "After the long hike, we needed to sleep for several hours.",
+        "example_vi": "Sau chuyến đi bộ dài, chúng tôi cần ngủ trong vài giờ.",
+        "ff_example_en": "During the long hike, we were careful not to slip on the wet path.",
+        "ff_example_vi": "Trong chuyến đi bộ dài, chúng tôi cẩn thận để không trượt ngã trên con đường ướt."
       }
     },
     {
@@ -220,7 +235,14 @@
         "adjective": "early",
         "adverb": "early"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "soon",
+        "explanation_vi": "“Early” nghĩa là sớm hơn thời điểm thông thường hoặc dự kiến; “soon” nghĩa là trong một thời gian ngắn kể từ bây giờ.",
+        "example_en": "Lan arrived early for the morning class.",
+        "example_vi": "Lan đến sớm trong buổi học sáng.",
+        "ff_example_en": "The morning class will begin soon.",
+        "ff_example_vi": "Buổi học sáng sẽ sớm bắt đầu."
+      }
     },
     {
       "id": 11,
@@ -238,8 +260,12 @@
         "adverb": "late / lately"
       },
       "false_friend": {
-        "word_vi": "lately",
-        "explanation_vi": "'Late' (muộn/trễ) và 'lately' (gần đây) là hai từ khác nghĩa — đừng dùng lẫn lộn."
+        "word": "lately",
+        "explanation_vi": "'Late' (muộn/trễ) và 'lately' (gần đây) là hai từ khác nghĩa — đừng dùng lẫn lộn.",
+        "example_en": "Minh was late for football practice today.",
+        "example_vi": "Hôm nay Minh đến buổi tập bóng đá muộn.",
+        "ff_example_en": "Minh has been arriving early for football practice lately.",
+        "ff_example_vi": "Gần đây Minh thường đến buổi tập bóng đá sớm."
       }
     },
     {
@@ -258,8 +284,12 @@
         "adverb": "busily"
       },
       "false_friend": {
-        "word_vi": "business",
-        "explanation_vi": "'Busy' (/ˈbɪzi/) và 'business' (/ˈbɪznəs/) phát âm rất khác — đừng nhầm lẫn."
+        "word": "business",
+        "explanation_vi": "'Busy' (/ˈbɪzi/) và 'business' (/ˈbɪznəs/) phát âm rất khác — đừng nhầm lẫn.",
+        "example_en": "Ms Lan is busy preparing for an important meeting.",
+        "example_vi": "Cô Lan đang bận chuẩn bị cho một cuộc họp quan trọng.",
+        "ff_example_en": "Ms Lan runs a small business with her sister.",
+        "ff_example_vi": "Cô Lan điều hành một doanh nghiệp nhỏ cùng chị gái."
       }
     },
     {

@@ -97,7 +97,14 @@
         "adjective": "allocated",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "location",
+        "explanation_vi": "'Allocation' là sự phân bổ nguồn lực; 'location' là địa điểm.",
+        "example_en": "The committee discussed the allocation of hospital beds.",
+        "example_vi": "Ủy ban thảo luận việc phân bổ giường bệnh.",
+        "ff_example_en": "The committee discussed the location of the new hospital.",
+        "ff_example_vi": "Ủy ban thảo luận địa điểm của bệnh viện mới."
+      },
       "receptive_productive": "P"
     },
     {
@@ -116,8 +123,12 @@
         "adverb": "disparately"
       },
       "false_friend": {
-        "word_vi": "inequality",
-        "explanation_vi": "'Disparity' nhấn mạnh sự chênh lệch về mức độ hay khoảng cách; 'inequality' nghiêng về sự thiếu công bằng về quyền lợi hay cơ hội — dùng trong những ngữ cảnh khác nhau."
+        "word": "inequality",
+        "explanation_vi": "'Disparity' nhấn mạnh sự chênh lệch về mức độ hay khoảng cách; 'inequality' nghiêng về sự thiếu công bằng về quyền lợi hay cơ hội — dùng trong những ngữ cảnh khác nhau.",
+        "example_en": "The study measured a large disparity in hospital waiting times between regions.",
+        "example_vi": "Nghiên cứu đo được sự chênh lệch lớn về thời gian chờ tại bệnh viện giữa các vùng.",
+        "ff_example_en": "Researchers argued that this disparity reflected wider health inequality.",
+        "ff_example_vi": "Các nhà nghiên cứu cho rằng sự chênh lệch này phản ánh tình trạng bất bình đẳng y tế rộng hơn."
       },
       "receptive_productive": "P"
     },
@@ -155,8 +166,12 @@
         "adverb": "morbidly"
       },
       "false_friend": {
-        "word_vi": "mortality",
-        "explanation_vi": "'Morbidity' là tỷ lệ mắc bệnh; 'mortality' là tỷ lệ tử vong — cả hai là chỉ số y tế nhưng đo lường những điều khác nhau."
+        "word": "mortality",
+        "explanation_vi": "'Morbidity' là tỷ lệ mắc bệnh; 'mortality' là tỷ lệ tử vong — cả hai là chỉ số y tế nhưng đo lường những điều khác nhau.",
+        "example_en": "The programme reduced morbidity by lowering the number of people living with the disease.",
+        "example_vi": "Chương trình làm giảm tỷ lệ mắc bệnh bằng cách giảm số người sống chung với căn bệnh.",
+        "ff_example_en": "It also reduced mortality by lowering the number of deaths.",
+        "ff_example_vi": "Chương trình cũng làm giảm tỷ lệ tử vong bằng cách giảm số ca tử vong."
       },
       "receptive_productive": "P"
     },
@@ -176,8 +191,12 @@
         "adverb": "mortally"
       },
       "false_friend": {
-        "word_vi": "morbidity",
-        "explanation_vi": "'Mortality' đề cập đến cái chết; 'morbidity' đề cập đến bệnh tật — không thể thay thế cho nhau trong văn bản học thuật."
+        "word": "morbidity",
+        "explanation_vi": "'Mortality' đề cập đến cái chết; 'morbidity' đề cập đến bệnh tật — không thể thay thế cho nhau trong văn bản học thuật.",
+        "example_en": "The report recorded lower mortality after the new treatment was introduced.",
+        "example_vi": "Báo cáo ghi nhận tỷ lệ tử vong thấp hơn sau khi phương pháp điều trị mới được áp dụng.",
+        "ff_example_en": "It also recorded lower morbidity among patients who received early care.",
+        "ff_example_vi": "Báo cáo cũng ghi nhận tỷ lệ mắc bệnh thấp hơn ở những bệnh nhân được chăm sóc sớm."
       },
       "receptive_productive": "P"
     },
@@ -232,7 +251,14 @@
         "adjective": "universal",
         "adverb": "universally"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "university",
+        "explanation_vi": "'Universality' là tính phổ quát; 'university' là trường đại học.",
+        "example_en": "The paper questions the universality of the healthcare model.",
+        "example_vi": "Bài báo đặt câu hỏi về tính phổ quát của mô hình chăm sóc sức khỏe.",
+        "ff_example_en": "The paper was published by a leading university.",
+        "ff_example_vi": "Bài báo được xuất bản bởi một trường đại học hàng đầu."
+      },
       "receptive_productive": "P"
     },
     {

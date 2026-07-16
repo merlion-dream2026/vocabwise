@@ -95,7 +95,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "subscribe",
+        "explanation_vi": "“Follow” là theo dõi tài khoản hoặc nội dung; “subscribe” thường là đăng ký nhận nội dung hoặc dịch vụ, đôi khi có trả phí.",
+        "example_en": "Lan followed the school’s social-media account.",
+        "example_vi": "Lan theo dõi tài khoản mạng xã hội của trường.",
+        "ff_example_en": "Lan subscribed to the school’s weekly email newsletter.",
+        "ff_example_vi": "Lan đăng ký nhận bản tin email hằng tuần của trường."
+      }
     },
     {
       "id": 4,
@@ -113,8 +120,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "upload vs download",
-        "explanation_vi": "Học viên hay nhầm 'upload' và 'download'. 'Upload' = tải lên (gửi dữ liệu từ máy của bạn lên internet). 'Download' = tải xuống (lấy dữ liệu từ internet về máy của bạn)."
+        "word": "download",
+        "explanation_vi": "Học viên hay nhầm 'upload' và 'download'. 'Upload' = tải lên (gửi dữ liệu từ máy của bạn lên internet). 'Download' = tải xuống (lấy dữ liệu từ internet về máy của bạn).",
+        "example_en": "Mai uploaded her homework from her laptop to the school website.",
+        "example_vi": "Mai tải bài tập từ máy tính xách tay lên trang web của trường.",
+        "ff_example_en": "The teacher downloaded Mai's homework from the school website to her laptop.",
+        "ff_example_vi": "Giáo viên tải bài tập của Mai từ trang web của trường xuống máy tính xách tay."
       }
     },
     {
@@ -132,7 +143,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "upload",
+        "explanation_vi": "“Download” là tải dữ liệu từ internet về thiết bị; “upload” là tải dữ liệu từ thiết bị lên internet.",
+        "example_en": "Lan downloaded the worksheet from the class website.",
+        "example_vi": "Lan tải phiếu bài tập từ trang web của lớp xuống.",
+        "ff_example_en": "Lan uploaded her completed worksheet to the class website.",
+        "ff_example_vi": "Lan tải phiếu bài tập đã hoàn thành lên trang web của lớp."
+      }
     },
     {
       "id": 6,
@@ -166,7 +184,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "count",
+        "explanation_vi": "“Account” là tài khoản hoặc bản tường thuật; “count” là đếm. Hai từ có cách viết gần giống nhau.",
+        "example_en": "Lan created an account on the learning website.",
+        "example_vi": "Lan tạo một tài khoản trên trang web học tập.",
+        "ff_example_en": "Lan counted the messages in her account.",
+        "ff_example_vi": "Lan đếm số tin nhắn trong tài khoản."
+      }
     },
     {
       "id": 8,
@@ -183,7 +208,14 @@
         "adjective": "safe / unsafe",
         "adverb": "safely"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "save",
+        "explanation_vi": "“Safe” là tính từ nghĩa là an toàn; “save” là động từ nghĩa là lưu hoặc cứu.",
+        "example_en": "The website is safe for young students.",
+        "example_vi": "Trang web an toàn cho học sinh nhỏ tuổi.",
+        "ff_example_en": "Students should save their work before closing the website.",
+        "ff_example_vi": "Học sinh nên lưu bài trước khi đóng trang web."
+      }
     },
     {
       "id": 9,
@@ -200,7 +232,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "team",
+        "explanation_vi": "“Group” là bất kỳ tập hợp người hoặc vật; “team” là nhóm người phối hợp để đạt mục tiêu chung.",
+        "example_en": "Lan joined an online study group.",
+        "example_vi": "Lan tham gia một nhóm học trực tuyến.",
+        "ff_example_en": "Lan’s project team worked together on one presentation.",
+        "ff_example_vi": "Nhóm dự án của Lan cùng làm một bài thuyết trình."
+      }
     },
     {
       "id": 10,
@@ -217,7 +256,14 @@
         "adjective": "updated / up-to-date",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "upgrade",
+        "explanation_vi": "“Update” là đưa thông tin hoặc phần mềm lên phiên bản mới nhất; “upgrade” là nâng cấp để có tính năng hoặc chất lượng cao hơn.",
+        "example_en": "Lan updated the app to fix a security problem.",
+        "example_vi": "Lan cập nhật ứng dụng để sửa lỗi bảo mật.",
+        "ff_example_en": "Lan upgraded her account to get more storage.",
+        "ff_example_vi": "Lan nâng cấp tài khoản để có thêm dung lượng."
+      }
     },
     {
       "id": 11,
@@ -234,7 +280,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "account",
+        "explanation_vi": "“Profile” là trang thông tin cá nhân trong một dịch vụ; “account” là quyền truy cập và toàn bộ hồ sơ đăng nhập của người dùng.",
+        "example_en": "Lan added a new photo to her profile.",
+        "example_vi": "Lan thêm ảnh mới vào hồ sơ cá nhân.",
+        "ff_example_en": "Lan changed the password for her account.",
+        "ff_example_vi": "Lan đổi mật khẩu cho tài khoản."
+      }
     },
     {
       "id": 12,
@@ -268,7 +321,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "notice",
+        "explanation_vi": "“Notify” là chính thức báo cho ai biết; “notice” là nhận thấy hoặc một thông báo.",
+        "example_en": "The app will notify Lan when the teacher posts an update.",
+        "example_vi": "Ứng dụng sẽ thông báo cho Lan khi giáo viên đăng cập nhật.",
+        "ff_example_en": "Lan noticed the new update on the class page.",
+        "ff_example_vi": "Lan nhận thấy bản cập nhật mới trên trang lớp."
+      }
     },
     {
       "id": 14,
@@ -302,7 +362,14 @@
         "adjective": "digital",
         "adverb": "digitally"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "digit",
+        "explanation_vi": "“Digital” là tính từ liên quan đến công nghệ số; “digit” là một chữ số từ 0 đến 9.",
+        "example_en": "The school introduced a digital learning platform.",
+        "example_vi": "Nhà trường giới thiệu một nền tảng học tập kỹ thuật số.",
+        "ff_example_en": "Students need a six-digit code to enter the platform.",
+        "ff_example_vi": "Học sinh cần mã gồm sáu chữ số để vào nền tảng."
+      }
     }
   ],
   "exercises": {

@@ -115,7 +115,14 @@
         "adjective": "authentic",
         "adverb": "authentically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "authority",
+        "explanation_vi": "'Authenticity' là tính chân thực hoặc xác thực; 'authority' là quyền lực, thẩm quyền hoặc chuyên gia có uy tín.",
+        "example_en": "The journalist verified the authenticity of the photograph.",
+        "example_vi": "Nhà báo xác minh tính xác thực của bức ảnh.",
+        "ff_example_en": "The journalist asked the relevant authority to confirm the event.",
+        "ff_example_vi": "Nhà báo yêu cầu cơ quan có thẩm quyền xác nhận sự kiện."
+      },
       "receptive_productive": "P"
     },
     {
@@ -152,8 +159,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "agent",
-        "explanation_vi": "'Agency' là năng lực hành động tự chủ (trong triết học) hoặc công ty đại lý; 'agent' là cá nhân hoặc thực thể thực hiện hành động — 'agent' là người/vật thực hiện, 'agency' là khả năng thực hiện đó."
+        "word": "agent",
+        "explanation_vi": "'Agency' là năng lực hành động tự chủ (trong triết học) hoặc công ty đại lý; 'agent' là cá nhân hoặc thực thể thực hiện hành động — 'agent' là người/vật thực hiện, 'agency' là khả năng thực hiện đó.",
+        "example_en": "The character demonstrates agency by choosing her own future.",
+        "example_vi": "Nhân vật thể hiện năng lực hành động tự chủ bằng cách tự chọn tương lai của mình.",
+        "ff_example_en": "She becomes an agent who acts on behalf of the resistance group.",
+        "ff_example_vi": "Cô ấy trở thành một đặc vụ hành động thay mặt nhóm kháng chiến."
       },
       "receptive_productive": "P"
     },
@@ -191,8 +202,12 @@
         "adverb": "vocationally"
       },
       "false_friend": {
-        "word_vi": "vacation",
-        "explanation_vi": "'Vocation' là thiên chức hay nghề nghiệp mang ý nghĩa sứ mệnh; 'vacation' là kỳ nghỉ. Hai từ này trông giống nhau nhưng nghĩa hoàn toàn khác nhau."
+        "word": "vacation",
+        "explanation_vi": "'Vocation' là thiên chức hay nghề nghiệp mang ý nghĩa sứ mệnh; 'vacation' là kỳ nghỉ. Hai từ này trông giống nhau nhưng nghĩa hoàn toàn khác nhau.",
+        "example_en": "Medicine became Minh’s vocation because he wanted to serve others.",
+        "example_vi": "Y khoa trở thành thiên chức của Minh vì anh muốn phục vụ người khác.",
+        "ff_example_en": "During his vacation, Minh volunteered at a rural clinic.",
+        "ff_example_vi": "Trong kỳ nghỉ, Minh tình nguyện tại một phòng khám nông thôn."
       },
       "receptive_productive": "P"
     },
@@ -211,7 +226,14 @@
         "adjective": "aspirational",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "inspiration",
+        "explanation_vi": "'Aspiration' là khát vọng hoặc mục tiêu lớn; 'inspiration' là nguồn hoặc cảm giác truyền cảm hứng.",
+        "example_en": "Becoming a surgeon was Lan's childhood aspiration.",
+        "example_vi": "Trở thành bác sĩ phẫu thuật là khát vọng thời thơ ấu của Lan.",
+        "ff_example_en": "Her science teacher was the inspiration behind that ambition.",
+        "ff_example_vi": "Giáo viên khoa học là nguồn cảm hứng đằng sau hoài bão đó."
+      },
       "receptive_productive": "P"
     },
     {

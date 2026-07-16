@@ -61,7 +61,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "habit",
+        "explanation_vi": "“Hobby” là hoạt động làm vì sở thích trong thời gian rảnh; “habit” là hành vi được lặp lại thường xuyên, có thể tốt hoặc xấu.",
+        "example_en": "Reading novels is Lan’s favourite hobby.",
+        "example_vi": "Đọc tiểu thuyết là sở thích yêu thích của Lan.",
+        "ff_example_en": "Reading for twenty minutes before bed is Lan’s daily habit.",
+        "ff_example_vi": "Đọc sách hai mươi phút trước khi ngủ là thói quen hằng ngày của Lan."
+      }
     },
     {
       "id": 2,
@@ -95,7 +102,14 @@
         "adjective": "musical",
         "adverb": "musically"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "song",
+        "explanation_vi": "“Music” là âm nhạc nói chung và thường không đếm được; “song” là một bài hát cụ thể.",
+        "example_en": "We listened to music during the class party.",
+        "example_vi": "Chúng tôi nghe nhạc trong bữa tiệc của lớp.",
+        "ff_example_en": "We listened to a new song during the class party.",
+        "ff_example_vi": "Chúng tôi nghe một bài hát mới trong bữa tiệc của lớp."
+      }
     },
     {
       "id": 4,
@@ -112,7 +126,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "paint",
+        "explanation_vi": "“Draw” thường là vẽ bằng bút chì, bút mực hoặc đường nét; “paint” là vẽ hoặc tô bằng sơn, màu nước hay màu vẽ.",
+        "example_en": "Mai drew a picture of the school garden with a pencil.",
+        "example_vi": "Mai vẽ một bức tranh về vườn trường bằng bút chì.",
+        "ff_example_en": "Mai painted a picture of the school garden with watercolours.",
+        "ff_example_vi": "Mai vẽ một bức tranh về vườn trường bằng màu nước."
+      }
     },
     {
       "id": 5,
@@ -266,8 +287,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "funny",
-        "explanation_vi": "'Fun' (vui vẻ, thú vị) và 'funny' (hài hước, buồn cười) — gần giống nhưng nghĩa khác nhau."
+        "word": "funny",
+        "explanation_vi": "'Fun' (vui vẻ, thú vị) và 'funny' (hài hước, buồn cười) — gần giống nhưng nghĩa khác nhau.",
+        "example_en": "The school play was fun for both the students and their parents.",
+        "example_vi": "Vở kịch của trường rất thú vị đối với cả học sinh và phụ huynh.",
+        "ff_example_en": "The main actor told a funny joke during the school play.",
+        "ff_example_vi": "Diễn viên chính kể một câu chuyện cười hài hước trong vở kịch của trường."
       }
     },
     {

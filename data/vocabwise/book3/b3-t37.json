@@ -98,8 +98,12 @@
         "adverb": "subjectively"
       },
       "false_friend": {
-        "word_vi": "objectivity",
-        "explanation_vi": "'Subjectivity' là tính chủ quan (dựa trên cảm nhận cá nhân); 'objectivity' là tính khách quan (dựa trên thực tế độc lập) — hai khái niệm đối lập nhau."
+        "word": "objectivity",
+        "explanation_vi": "'Subjectivity' là tính chủ quan (dựa trên cảm nhận cá nhân); 'objectivity' là tính khách quan (dựa trên thực tế độc lập) — hai khái niệm đối lập nhau.",
+        "example_en": "The critic acknowledged the subjectivity of her response to the painting.",
+        "example_vi": "Nhà phê bình thừa nhận tính chủ quan trong phản ứng của mình với bức tranh.",
+        "ff_example_en": "The museum catalogue aimed for objectivity when describing the painting’s history.",
+        "ff_example_vi": "Danh mục bảo tàng hướng tới tính khách quan khi mô tả lịch sử của bức tranh."
       },
       "receptive_productive": "P"
     },
@@ -118,7 +122,14 @@
         "adjective": "interpretive / interpretable",
         "adverb": "interpretively"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "translation",
+        "explanation_vi": "'Interpretation' là cách hiểu hoặc diễn giải; 'translation' là bản chuyển từ ngôn ngữ này sang ngôn ngữ khác.",
+        "example_en": "The historian offered a new interpretation of the speech.",
+        "example_vi": "Nhà sử học đưa ra một cách diễn giải mới về bài phát biểu.",
+        "ff_example_en": "The linguist produced a new translation of the speech.",
+        "ff_example_vi": "Nhà ngôn ngữ học tạo ra một bản dịch mới của bài phát biểu."
+      },
       "receptive_productive": "P"
     },
     {
@@ -137,8 +148,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "media",
-        "explanation_vi": "'Medium' (số nhiều: media) trong nghệ thuật chỉ vật liệu hoặc hình thức biểu đạt (sơn dầu, điêu khắc...); 'the media' thường chỉ các phương tiện truyền thông — dễ nhầm ngữ cảnh."
+        "word": "",
+        "explanation_vi": "'Medium' (số nhiều: media) trong nghệ thuật chỉ vật liệu hoặc hình thức biểu đạt (sơn dầu, điêu khắc...); 'the media' thường chỉ các phương tiện truyền thông — dễ nhầm ngữ cảnh.",
+        "example_en": "Stone was the sculptor’s preferred medium for the new work.",
+        "example_vi": "Đá là chất liệu ưa thích của nhà điêu khắc cho tác phẩm mới.",
+        "ff_example_en": "The media published several reviews of the new work.",
+        "ff_example_vi": "Các phương tiện truyền thông đăng một số bài đánh giá về tác phẩm mới."
       },
       "receptive_productive": "P"
     },
@@ -175,7 +190,14 @@
         "adjective": "representative / representational",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "presentation",
+        "explanation_vi": "'Representation' là sự đại diện hoặc cách một nhóm được thể hiện; 'presentation' là bài trình bày trước người nghe.",
+        "example_en": "The report examined the representation of women in the media.",
+        "example_vi": "Báo cáo xem xét sự đại diện của phụ nữ trên truyền thông.",
+        "ff_example_en": "Lan gave a presentation about women in the media.",
+        "ff_example_vi": "Lan thực hiện một bài thuyết trình về phụ nữ trên truyền thông."
+      },
       "receptive_productive": "P"
     },
     {
@@ -194,8 +216,12 @@
         "adverb": "canonically"
       },
       "false_friend": {
-        "word_vi": "cannon",
-        "explanation_vi": "'Canon' là tập hợp tác phẩm hoặc quy tắc được công nhận; 'cannon' là đại bác — cùng phát âm nhưng khác hoàn toàn về nghĩa và cách viết."
+        "word": "cannon",
+        "explanation_vi": "'Canon' là tập hợp tác phẩm hoặc quy tắc được công nhận; 'cannon' là đại bác — cùng phát âm nhưng khác hoàn toàn về nghĩa và cách viết.",
+        "example_en": "The novel is now part of the national literary canon.",
+        "example_vi": "Cuốn tiểu thuyết hiện là một phần của hệ thống tác phẩm văn học kinh điển quốc gia.",
+        "ff_example_en": "A historical cannon appears on the novel’s cover.",
+        "ff_example_vi": "Một khẩu đại bác lịch sử xuất hiện trên bìa cuốn tiểu thuyết."
       },
       "receptive_productive": "P"
     },

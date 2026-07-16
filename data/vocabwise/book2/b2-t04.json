@@ -62,7 +62,14 @@
         "adjective": "evident",
         "adverb": "evidently"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "proof",
+        "explanation_vi": "'Evidence' là thông tin hoặc dữ liệu hỗ trợ một kết luận; 'proof' là bằng chứng đủ sức xác lập điều gì đó là đúng, nên thường mạnh và dứt khoát hơn.",
+        "example_en": "The scientist presented evidence that the treatment might work.",
+        "example_vi": "Nhà khoa học trình bày bằng chứng cho thấy phương pháp điều trị có thể hiệu quả.",
+        "ff_example_en": "The scientist said the results were not yet proof that the treatment worked.",
+        "ff_example_vi": "Nhà khoa học nói rằng kết quả vẫn chưa phải là bằng chứng xác thực rằng phương pháp điều trị có hiệu quả."
+      },
       "receptive_productive": "R"
     },
     {
@@ -98,7 +105,14 @@
         "adjective": "suspicious",
         "adverb": "suspiciously"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "suspicious",
+        "explanation_vi": "'Suspect' là nghi phạm hoặc động từ nghi ngờ; 'suspicious' là tính từ mô tả người hoặc hành vi đáng ngờ.",
+        "example_en": "The police questioned the main suspect about the missing money.",
+        "example_vi": "Cảnh sát thẩm vấn nghi phạm chính về số tiền bị mất.",
+        "ff_example_en": "The police questioned him because his behaviour seemed suspicious.",
+        "ff_example_vi": "Cảnh sát thẩm vấn anh ta vì hành vi của anh ta có vẻ đáng ngờ."
+      },
       "receptive_productive": "R"
     },
     {
@@ -189,8 +203,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "appeal (hấp dẫn)",
-        "explanation_vi": "'Appeal' còn có nghĩa là thu hút — context quyết định nghĩa."
+        "word": "",
+        "explanation_vi": "'Appeal' còn có nghĩa là thu hút — context quyết định nghĩa.",
+        "example_en": "The lawyer filed an appeal against the court’s decision.",
+        "example_vi": "Luật sư nộp đơn kháng cáo quyết định của tòa án.",
+        "ff_example_en": "The lawyer’s clear argument may appeal to the judges.",
+        "ff_example_vi": "Lập luận rõ ràng của luật sư có thể thu hút và thuyết phục các thẩm phán."
       },
       "receptive_productive": "R"
     },
@@ -227,7 +245,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "fine",
+        "explanation_vi": "'Penalty' là hình phạt nói chung; 'fine' là một khoản tiền phạt cụ thể.",
+        "example_en": "The court imposed a severe penalty for the offence.",
+        "example_vi": "Tòa án áp dụng một hình phạt nghiêm khắc cho hành vi phạm tội.",
+        "ff_example_en": "The court ordered the offender to pay a large fine.",
+        "ff_example_vi": "Tòa án yêu cầu người vi phạm nộp một khoản tiền phạt lớn."
+      },
       "receptive_productive": "R"
     },
     {
@@ -246,8 +271,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "thử nghiệm",
-        "explanation_vi": "'Trial' có thể là phiên tòa hoặc thử nghiệm — context quyết định nghĩa."
+        "word": "",
+        "explanation_vi": "'Trial' có thể là phiên tòa hoặc thử nghiệm — context quyết định nghĩa.",
+        "example_en": "The suspect will appear in court for trial next month.",
+        "example_vi": "Nghi phạm sẽ ra tòa xét xử vào tháng tới.",
+        "ff_example_en": "Before the trial, the laboratory conducted a trial of the new identification system.",
+        "ff_example_vi": "Trước phiên tòa, phòng thí nghiệm đã tiến hành thử nghiệm hệ thống nhận dạng mới."
       },
       "receptive_productive": "P"
     },
@@ -267,8 +296,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "offense (US)",
-        "explanation_vi": "'Offence' là cách viết UK; 'offense' là cách viết US — cùng nghĩa."
+        "word": "offense",
+        "explanation_vi": "'Offence' là cách viết UK; 'offense' là cách viết US — cùng nghĩa.",
+        "example_en": "The driver was charged with a serious offence under British law.",
+        "example_vi": "Người lái xe bị buộc tội về một hành vi vi phạm nghiêm trọng theo luật Anh.",
+        "ff_example_en": "The same act is described as an offense in the American report.",
+        "ff_example_vi": "Hành vi tương tự được viết là “offense” trong báo cáo của Mỹ."
       },
       "receptive_productive": "P"
     },
@@ -287,7 +320,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "persecute",
+        "explanation_vi": "'Prosecute' là truy tố ai trước tòa; 'persecute' là ngược đãi hoặc đàn áp một người hay nhóm người trong thời gian dài.",
+        "example_en": "The authorities decided to prosecute the official for corruption.",
+        "example_vi": "Nhà chức trách quyết định truy tố viên chức vì tham nhũng.",
+        "ff_example_en": "The regime continued to persecute journalists who criticised corruption.",
+        "ff_example_vi": "Chế độ tiếp tục đàn áp các nhà báo chỉ trích tham nhũng."
+      },
       "receptive_productive": "P"
     },
     {
@@ -305,7 +345,14 @@
         "adjective": "convicted",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "convince",
+        "explanation_vi": "'Convict' là kết tội một người tại tòa; 'convince' là thuyết phục ai tin hoặc làm điều gì.",
+        "example_en": "The evidence was strong enough to convict the suspect.",
+        "example_vi": "Bằng chứng đủ mạnh để kết tội nghi phạm.",
+        "ff_example_en": "The evidence was strong enough to convince the jury.",
+        "ff_example_vi": "Bằng chứng đủ mạnh để thuyết phục bồi thẩm đoàn."
+      },
       "receptive_productive": "P"
     },
     {
@@ -323,7 +370,14 @@
         "adjective": "enforceable",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "reinforce",
+        "explanation_vi": "'Enforce' là buộc mọi người tuân thủ luật hoặc quy định; 'reinforce' là củng cố, làm cho điều gì mạnh hơn.",
+        "example_en": "The school must enforce its rule against bullying.",
+        "example_vi": "Nhà trường phải thực thi quy định chống bắt nạt.",
+        "ff_example_en": "The school used the campaign to reinforce its message against bullying.",
+        "ff_example_vi": "Nhà trường dùng chiến dịch để củng cố thông điệp chống bắt nạt."
+      },
       "receptive_productive": "P"
     }
   ],

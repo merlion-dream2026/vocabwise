@@ -61,7 +61,14 @@
         "adjective": "visionary",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "mission",
+        "explanation_vi": "'Vision' là hình dung dài hạn về tương lai; 'mission' là mục tiêu cốt lõi hoặc nhiệm vụ cụ thể của tổ chức.",
+        "example_en": "The leader presented a vision of a fairer society.",
+        "example_vi": "Nhà lãnh đạo trình bày tầm nhìn về một xã hội công bằng hơn.",
+        "ff_example_en": "The organisation's mission is to reduce inequality.",
+        "ff_example_vi": "Sứ mệnh của tổ chức là giảm bất bình đẳng."
+      },
       "receptive_productive": "P"
     },
     {
@@ -80,8 +87,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "probability",
-        "explanation_vi": "'Probity' là đức chính trực, liêm chính; 'probability' là xác suất — hoàn toàn khác nghĩa, dễ nhầm vì hình thức tương tự."
+        "word": "probability",
+        "explanation_vi": "'Probity' là đức chính trực, liêm chính; 'probability' là xác suất — hoàn toàn khác nghĩa, dễ nhầm vì hình thức tương tự.",
+        "example_en": "The inquiry praised the minister’s probity in handling public funds.",
+        "example_vi": "Cuộc điều tra ca ngợi sự liêm chính của bộ trưởng trong việc quản lý công quỹ.",
+        "ff_example_en": "It also calculated the probability of similar financial errors occurring again.",
+        "ff_example_vi": "Cuộc điều tra cũng tính xác suất những sai sót tài chính tương tự tái diễn."
       },
       "receptive_productive": "P"
     },
@@ -118,7 +129,14 @@
         "adjective": "empowered / empowering",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "employment",
+        "explanation_vi": "'Empowerment' là sự trao quyền và tăng khả năng tự quyết; 'employment' là việc làm hoặc tình trạng có việc làm.",
+        "example_en": "The programme promotes women's empowerment in rural areas.",
+        "example_vi": "Chương trình thúc đẩy sự trao quyền cho phụ nữ ở vùng nông thôn.",
+        "ff_example_en": "The programme creates employment for women in rural areas.",
+        "ff_example_vi": "Chương trình tạo việc làm cho phụ nữ ở vùng nông thôn."
+      },
       "receptive_productive": "P"
     },
     {
@@ -137,8 +155,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "government",
-        "explanation_vi": "'Governance' chỉ hệ thống và quá trình quản trị; 'government' chỉ tổ chức hay cơ quan cụ thể đang nắm quyền — cùng gốc nhưng dùng khác nhau."
+        "word": "government",
+        "explanation_vi": "'Governance' chỉ hệ thống và quá trình quản trị; 'government' chỉ tổ chức hay cơ quan cụ thể đang nắm quyền — cùng gốc nhưng dùng khác nhau.",
+        "example_en": "The reform improved governance by making decision-making more transparent.",
+        "example_vi": "Cuộc cải cách cải thiện hoạt động quản trị bằng cách làm quá trình ra quyết định minh bạch hơn.",
+        "ff_example_en": "The government introduced the reform after the election.",
+        "ff_example_vi": "Chính phủ đưa ra cuộc cải cách sau cuộc bầu cử."
       },
       "receptive_productive": "P"
     },

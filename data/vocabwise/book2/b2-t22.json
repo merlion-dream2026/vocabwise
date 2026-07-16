@@ -98,8 +98,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "consumer",
-        "explanation_vi": "'Customer' là người mua hàng từ một công ty cụ thể; 'consumer' là người tiêu dùng nói chung — 'consumer' rộng hơn và thường dùng trong kinh tế học."
+        "word": "consumer",
+        "explanation_vi": "'Customer' là người mua hàng từ một công ty cụ thể; 'consumer' là người tiêu dùng nói chung — 'consumer' rộng hơn và thường dùng trong kinh tế học.",
+        "example_en": "The shop gave each customer a receipt after the purchase.",
+        "example_vi": "Cửa hàng đưa cho mỗi khách hàng một biên lai sau khi mua hàng.",
+        "ff_example_en": "The report examined how the product affects the average consumer.",
+        "ff_example_vi": "Báo cáo xem xét sản phẩm ảnh hưởng đến người tiêu dùng nói chung như thế nào."
       },
       "receptive_productive": "P"
     },
@@ -118,7 +122,14 @@
         "adjective": "competitive",
         "adverb": "competitively"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "complete",
+        "explanation_vi": "'Compete' là thi đấu hoặc cạnh tranh; 'complete' là hoàn thành hoặc đầy đủ.",
+        "example_en": "The teams will compete in the final round.",
+        "example_vi": "Các đội sẽ thi đấu trong vòng chung kết.",
+        "ff_example_en": "The teams must complete the registration form before the final round.",
+        "ff_example_vi": "Các đội phải hoàn thành mẫu đăng ký trước vòng chung kết."
+      },
       "receptive_productive": "P"
     },
     {
@@ -155,8 +166,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "logo",
-        "explanation_vi": "'Brand' là toàn bộ nhận diện và hình ảnh của công ty (tên, giá trị, cảm xúc); 'logo' chỉ là biểu tượng hình ảnh — logo là một phần nhỏ của brand."
+        "word": "logo",
+        "explanation_vi": "'Brand' là toàn bộ nhận diện và hình ảnh của công ty (tên, giá trị, cảm xúc); 'logo' chỉ là biểu tượng hình ảnh — logo là một phần nhỏ của brand.",
+        "example_en": "The company built a strong brand around quality and trust.",
+        "example_vi": "Công ty xây dựng một thương hiệu mạnh dựa trên chất lượng và sự tin cậy.",
+        "ff_example_en": "Its logo is a simple blue circle printed on every package.",
+        "ff_example_vi": "Logo của công ty là một hình tròn màu xanh đơn giản được in trên mọi bao bì."
       },
       "receptive_productive": "P"
     },
@@ -193,7 +208,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "lunch",
+        "explanation_vi": "'Launch' là ra mắt hoặc phóng; 'lunch' là bữa trưa.",
+        "example_en": "The company will launch its new product at noon.",
+        "example_vi": "Công ty sẽ ra mắt sản phẩm mới vào buổi trưa.",
+        "ff_example_en": "The company will serve lunch after the product event.",
+        "ff_example_vi": "Công ty sẽ phục vụ bữa trưa sau sự kiện sản phẩm."
+      },
       "receptive_productive": "P"
     },
     {
@@ -212,8 +234,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "advertise",
-        "explanation_vi": "'Promote' là nâng cao nhận thức và hình ảnh thương hiệu một cách rộng rãi; 'advertise' cụ thể hơn, chỉ việc đăng quảng cáo trả tiền trên các kênh truyền thông."
+        "word": "advertise",
+        "explanation_vi": "'Promote' là nâng cao nhận thức và hình ảnh thương hiệu một cách rộng rãi; 'advertise' cụ thể hơn, chỉ việc đăng quảng cáo trả tiền trên các kênh truyền thông.",
+        "example_en": "The company used events and social media to promote its new product.",
+        "example_vi": "Công ty dùng sự kiện và mạng xã hội để quảng bá sản phẩm mới.",
+        "ff_example_en": "It also paid to advertise the product on television.",
+        "ff_example_vi": "Công ty cũng trả tiền để quảng cáo sản phẩm trên truyền hình."
       },
       "receptive_productive": "P"
     },
@@ -232,7 +258,14 @@
         "adjective": "expanding / expandable",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "expend",
+        "explanation_vi": "'Expand' là mở rộng; 'expend' là tiêu tốn tiền, thời gian hoặc năng lượng.",
+        "example_en": "The business plans to expand into new markets.",
+        "example_vi": "Doanh nghiệp dự định mở rộng sang các thị trường mới.",
+        "ff_example_en": "The business will expend more resources on market research.",
+        "ff_example_vi": "Doanh nghiệp sẽ dành thêm nguồn lực cho nghiên cứu thị trường."
+      },
       "receptive_productive": "P"
     },
     {
@@ -269,8 +302,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "investor",
-        "explanation_vi": "'Backer' thường ngụ ý sự hỗ trợ cá nhân và tin tưởng vào người sáng lập; 'investor' mang tính chất thể chế và chính thức hơn, tập trung vào lợi nhuận tài chính."
+        "word": "investor",
+        "explanation_vi": "'Backer' thường ngụ ý sự hỗ trợ cá nhân và tin tưởng vào người sáng lập; 'investor' mang tính chất thể chế và chính thức hơn, tập trung vào lợi nhuận tài chính.",
+        "example_en": "A family friend became an early backer of the start-up.",
+        "example_vi": "Một người bạn của gia đình trở thành người ủng hộ ban đầu của công ty khởi nghiệp.",
+        "ff_example_en": "A professional investor later provided a larger sum in exchange for shares.",
+        "ff_example_vi": "Sau đó, một nhà đầu tư chuyên nghiệp cung cấp số tiền lớn hơn để đổi lấy cổ phần."
       },
       "receptive_productive": "R"
     },
@@ -290,8 +327,12 @@
         "adverb": "profitably"
       },
       "false_friend": {
-        "word_vi": "income / revenue",
-        "explanation_vi": "'Profit' là tiền còn lại sau khi trừ hết chi phí (lợi nhuận ròng); 'revenue' là tổng doanh thu trước khi trừ chi phí — đây là hai con số rất khác nhau."
+        "word": "revenue",
+        "explanation_vi": "'Profit' là tiền còn lại sau khi trừ hết chi phí (lợi nhuận ròng); 'revenue' là tổng doanh thu trước khi trừ chi phí — đây là hai con số rất khác nhau.",
+        "example_en": "The company made a profit after subtracting all its costs.",
+        "example_vi": "Công ty có lợi nhuận sau khi trừ toàn bộ chi phí.",
+        "ff_example_en": "Its revenue was much higher because that figure included all sales before costs.",
+        "ff_example_vi": "Doanh thu của công ty cao hơn nhiều vì con số đó bao gồm toàn bộ tiền bán hàng trước khi trừ chi phí."
       },
       "receptive_productive": "P"
     },
@@ -311,8 +352,12 @@
         "adverb": "strategically"
       },
       "false_friend": {
-        "word_vi": "tactic",
-        "explanation_vi": "'Strategy' là kế hoạch dài hạn ở cấp độ cao; 'tactic' là hành động cụ thể ngắn hạn để thực thi chiến lược — strategy định hướng, tactics thực hiện."
+        "word": "tactic",
+        "explanation_vi": "'Strategy' là kế hoạch dài hạn ở cấp độ cao; 'tactic' là hành động cụ thể ngắn hạn để thực thi chiến lược — strategy định hướng, tactics thực hiện.",
+        "example_en": "The company’s strategy is to become the most trusted local brand within five years.",
+        "example_vi": "Chiến lược của công ty là trở thành thương hiệu địa phương đáng tin cậy nhất trong vòng năm năm.",
+        "ff_example_en": "Offering a one-week discount is one tactic used to support that strategy.",
+        "ff_example_vi": "Giảm giá trong một tuần là một chiến thuật được dùng để hỗ trợ chiến lược đó."
       },
       "receptive_productive": "P"
     },

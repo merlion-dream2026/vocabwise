@@ -61,7 +61,14 @@
         "adjective": "sculptural",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "sculptor",
+        "explanation_vi": "'Sculpture' là tác phẩm hoặc nghệ thuật điêu khắc; 'sculptor' là nhà điêu khắc.",
+        "example_en": "The museum displayed a marble sculpture by the entrance.",
+        "example_vi": "Bảo tàng trưng bày một tác phẩm điêu khắc bằng đá cẩm thạch gần lối vào.",
+        "ff_example_en": "The museum invited the sculptor to speak about the marble work.",
+        "ff_example_vi": "Bảo tàng mời nhà điêu khắc nói về tác phẩm bằng đá cẩm thạch."
+      },
       "receptive_productive": "P"
     },
     {
@@ -79,7 +86,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "exhibit",
+        "explanation_vi": "'Exhibition' là cuộc triển lãm; 'exhibit' là vật trưng bày hoặc động từ trưng bày.",
+        "example_en": "The gallery opened a new photography exhibition.",
+        "example_vi": "Phòng tranh khai mạc một triển lãm nhiếp ảnh mới.",
+        "ff_example_en": "The gallery placed each exhibit under soft lighting.",
+        "ff_example_vi": "Phòng tranh đặt từng hiện vật trưng bày dưới ánh sáng dịu."
+      },
       "receptive_productive": "P"
     },
     {
@@ -133,7 +147,14 @@
         "adjective": "inspired / inspiring / inspirational",
         "adverb": "inspiringly"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "expire",
+        "explanation_vi": "'Inspire' là truyền cảm hứng; 'expire' là hết hạn hoặc qua đời trong cách dùng trang trọng cũ.",
+        "example_en": "The artist hoped her work would inspire young students.",
+        "example_vi": "Nghệ sĩ hy vọng tác phẩm của mình sẽ truyền cảm hứng cho học sinh trẻ.",
+        "ff_example_en": "The students checked that their museum passes had not expired.",
+        "ff_example_vi": "Các học sinh kiểm tra để chắc rằng thẻ vào bảo tàng chưa hết hạn."
+      },
       "receptive_productive": "P"
     },
     {
@@ -152,8 +173,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "media",
-        "explanation_vi": "'Medium' (số nhiều 'media') trong nghệ thuật chỉ chất liệu hoặc phương pháp tạo tác phẩm; trong truyền thông, 'media' là 'phương tiện truyền thông đại chúng'. Hai nghĩa này hoàn toàn khác nhau."
+        "word": "",
+        "explanation_vi": "'Medium' (số nhiều 'media') trong nghệ thuật chỉ chất liệu hoặc phương pháp tạo tác phẩm; trong truyền thông, 'media' là 'phương tiện truyền thông đại chúng'. Hai nghĩa này hoàn toàn khác nhau.",
+        "example_en": "Oil paint was the artist’s main medium for the exhibition.",
+        "example_vi": "Sơn dầu là chất liệu chính của nghệ sĩ trong triển lãm.",
+        "ff_example_en": "The media reported widely on the artist’s exhibition.",
+        "ff_example_vi": "Các phương tiện truyền thông đưa tin rộng rãi về triển lãm của nghệ sĩ."
       },
       "receptive_productive": "P"
     },
@@ -172,7 +197,14 @@
         "adjective": "technical",
         "adverb": "technically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "technology",
+        "explanation_vi": "'Technique' là kỹ thuật hoặc cách thực hiện cụ thể; 'technology' là công nghệ hoặc hệ thống công cụ kỹ thuật.",
+        "example_en": "The artist demonstrated a new painting technique.",
+        "example_vi": "Họa sĩ trình diễn một kỹ thuật vẽ mới.",
+        "ff_example_en": "The artist used digital technology to create the image.",
+        "ff_example_vi": "Họa sĩ sử dụng công nghệ số để tạo ra hình ảnh."
+      },
       "receptive_productive": "P"
     },
     {
@@ -190,7 +222,14 @@
         "adjective": "non-realistic / abstract",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "unrealistic",
+        "explanation_vi": "'Non-realistic' mô tả nghệ thuật không nhằm tái hiện hiện thực; 'unrealistic' nghĩa là không thực tế hoặc khó có thể xảy ra.",
+        "example_en": "The exhibition included several non-realistic portraits.",
+        "example_vi": "Triển lãm có một số bức chân dung phi hiện thực.",
+        "ff_example_en": "The curator said the plan to finish the exhibition in one day was unrealistic.",
+        "ff_example_vi": "Giám tuyển nói rằng kế hoạch hoàn thành triển lãm trong một ngày là không thực tế."
+      },
       "receptive_productive": "R"
     },
     {
@@ -208,7 +247,14 @@
         "adjective": "modern",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "contemporary art",
+        "explanation_vi": "'Modern art' thường chỉ một giai đoạn lịch sử nghệ thuật từ cuối thế kỷ 19 đến giữa thế kỷ 20; 'contemporary art' là nghệ thuật được sáng tác trong thời hiện tại.",
+        "example_en": "The museum has a permanent collection of modern art from the early twentieth century.",
+        "example_vi": "Bảo tàng có bộ sưu tập cố định về nghệ thuật hiện đại đầu thế kỷ 20.",
+        "ff_example_en": "The museum is hosting an exhibition of contemporary art by living artists.",
+        "ff_example_vi": "Bảo tàng đang tổ chức một triển lãm nghệ thuật đương đại của các nghệ sĩ còn sống."
+      },
       "receptive_productive": "R"
     },
     {
@@ -227,8 +273,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "đọc (văn bản)",
-        "explanation_vi": "Trong nghệ thuật, 'read' có nghĩa là giải mã và diễn giải một tác phẩm — không phải đọc chữ viết. Ví dụ: 'to read a painting' = hiểu thông điệp ẩn trong bức tranh đó."
+        "word": "",
+        "explanation_vi": "Trong nghệ thuật, 'read' có nghĩa là giải mã và diễn giải một tác phẩm — không phải đọc chữ viết. Ví dụ: 'to read a painting' = hiểu thông điệp ẩn trong bức tranh đó.",
+        "example_en": "The critic tried to read the painting as a comment on modern life.",
+        "example_vi": "Nhà phê bình cố gắng diễn giải bức tranh như một lời bình luận về cuộc sống hiện đại.",
+        "ff_example_en": "The critic also read the artist’s written notes beside the painting.",
+        "ff_example_vi": "Nhà phê bình cũng đọc các ghi chú bằng chữ của nghệ sĩ bên cạnh bức tranh."
       },
       "receptive_productive": "P"
     },

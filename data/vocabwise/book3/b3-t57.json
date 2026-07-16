@@ -61,7 +61,14 @@
         "adjective": "private",
         "adverb": "privately"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "security",
+        "explanation_vi": "'Privacy' là quyền kiểm soát thông tin và đời sống riêng tư; 'security' là sự bảo vệ khỏi truy cập, tấn công hoặc nguy hiểm.",
+        "example_en": "The app lets users control their privacy settings.",
+        "example_vi": "Ứng dụng cho phép người dùng kiểm soát cài đặt quyền riêng tư.",
+        "ff_example_en": "The app uses encryption to improve account security.",
+        "ff_example_vi": "Ứng dụng dùng mã hóa để tăng cường bảo mật tài khoản."
+      },
       "receptive_productive": "P"
     },
     {
@@ -79,7 +86,14 @@
         "adjective": "surveillant",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "survey",
+        "explanation_vi": "'Surveillance' là sự giám sát có hệ thống; 'survey' là khảo sát hoặc đo đạc.",
+        "example_en": "The city expanded camera surveillance in the station.",
+        "example_vi": "Thành phố mở rộng hệ thống giám sát bằng camera tại nhà ga.",
+        "ff_example_en": "The city conducted a passenger survey in the station.",
+        "ff_example_vi": "Thành phố tiến hành khảo sát hành khách tại nhà ga."
+      },
       "receptive_productive": "P"
     },
     {
@@ -97,7 +111,14 @@
         "adjective": "autonomous",
         "adverb": "autonomously"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "automation",
+        "explanation_vi": "'Autonomy' là quyền hoặc khả năng tự quyết; 'automation' là việc dùng máy móc hoặc phần mềm để tự động thực hiện nhiệm vụ.",
+        "example_en": "The policy gives doctors greater autonomy in clinical decisions.",
+        "example_vi": "Chính sách trao cho bác sĩ quyền tự chủ lớn hơn trong quyết định lâm sàng.",
+        "ff_example_en": "The hospital uses automation to process routine records.",
+        "ff_example_vi": "Bệnh viện dùng tự động hóa để xử lý hồ sơ thường lệ."
+      },
       "receptive_productive": "P"
     },
     {
@@ -116,8 +137,12 @@
         "adverb": "consensually"
       },
       "false_friend": {
-        "word_vi": "consensus",
-        "explanation_vi": "'Consent' là sự đồng ý của một cá nhân; 'consensus' là sự đồng thuận chung của một nhóm — khác nhau về chủ thể và phạm vi sử dụng."
+        "word": "consensus",
+        "explanation_vi": "'Consent' là sự đồng ý của một cá nhân; 'consensus' là sự đồng thuận chung của một nhóm — khác nhau về chủ thể và phạm vi sử dụng.",
+        "example_en": "Each patient must give informed consent before the procedure.",
+        "example_vi": "Mỗi bệnh nhân phải đưa ra sự đồng ý có hiểu biết trước thủ thuật.",
+        "ff_example_en": "The medical committee reached a consensus on the hospital’s new policy.",
+        "ff_example_vi": "Ủy ban y khoa đạt được đồng thuận về chính sách mới của bệnh viện."
       },
       "receptive_productive": "P"
     },
@@ -154,7 +179,14 @@
         "adjective": "transparent",
         "adverb": "transparently"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "translucency",
+        "explanation_vi": "'Transparency' là tính minh bạch hoặc khả năng nhìn xuyên rõ; 'translucency' là tính cho ánh sáng đi qua nhưng không nhìn rõ vật phía sau.",
+        "example_en": "The company promised transparency about how its smart window collected user data.",
+        "example_vi": "Công ty cam kết minh bạch về cách cửa sổ thông minh thu thập dữ liệu người dùng.",
+        "ff_example_en": "The company adjusted the translucency of the smart window.",
+        "ff_example_vi": "Công ty điều chỉnh độ trong mờ của cửa sổ thông minh."
+      },
       "receptive_productive": "P"
     },
     {

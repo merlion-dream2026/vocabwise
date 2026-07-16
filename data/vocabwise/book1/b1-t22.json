@@ -163,7 +163,14 @@
         "adjective": "excited / exciting",
         "adverb": "excitedly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "exciting",
+        "explanation_vi": "“Excited” mô tả cảm xúc của người; “exciting” mô tả sự việc gây ra cảm xúc hào hứng.",
+        "example_en": "The students were excited about the school trip.",
+        "example_vi": "Các học sinh hào hứng về chuyến đi của trường.",
+        "ff_example_en": "The school trip was exciting for the students.",
+        "ff_example_vi": "Chuyến đi của trường rất thú vị đối với các học sinh."
+      }
     },
     {
       "id": 8,
@@ -197,7 +204,14 @@
         "adjective": "lonely / alone",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "alone",
+        "explanation_vi": "“Alone” chỉ trạng thái ở một mình; “lonely” là cảm giác buồn vì thiếu sự đồng hành.",
+        "example_en": "Lan felt lonely after her best friend moved away.",
+        "example_vi": "Lan cảm thấy cô đơn sau khi bạn thân chuyển đi.",
+        "ff_example_en": "Lan was alone in the classroom after everyone left.",
+        "ff_example_vi": "Lan ở một mình trong lớp sau khi mọi người rời đi."
+      }
     },
     {
       "id": 10,
@@ -248,7 +262,14 @@
         "adjective": "surprised / surprising",
         "adverb": "surprisingly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "surprising",
+        "explanation_vi": "“Surprised” mô tả cảm xúc của người; “surprising” mô tả điều gây ngạc nhiên.",
+        "example_en": "Minh was surprised by the exam result.",
+        "example_vi": "Minh ngạc nhiên trước kết quả bài thi.",
+        "ff_example_en": "The exam result was surprising to Minh.",
+        "ff_example_vi": "Kết quả bài thi khiến Minh ngạc nhiên."
+      }
     },
     {
       "id": 13,
@@ -265,7 +286,14 @@
         "adjective": "scared / scary",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "scary",
+        "explanation_vi": "“Scared” mô tả người cảm thấy sợ; “scary” mô tả người hoặc vật gây sợ.",
+        "example_en": "The child was scared by the film.",
+        "example_vi": "Đứa trẻ sợ hãi vì bộ phim.",
+        "ff_example_en": "The film was scary for the child.",
+        "ff_example_vi": "Bộ phim đáng sợ đối với đứa trẻ."
+      }
     },
     {
       "id": 14,

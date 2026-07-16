@@ -98,8 +98,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "dry",
-        "explanation_vi": "'Drought' là hạn hán — một thời kỳ dài không có mưa; không chỉ đơn giản là 'khô' như 'dry'."
+        "word": "dry",
+        "explanation_vi": "'Drought' là hạn hán — một thời kỳ dài không có mưa; không chỉ đơn giản là 'khô' như 'dry'.",
+        "example_en": "The region suffered a severe drought after months without rain.",
+        "example_vi": "Khu vực này chịu một đợt hạn hán nghiêm trọng sau nhiều tháng không có mưa.",
+        "ff_example_en": "Even before the drought, the soil was unusually dry.",
+        "ff_example_vi": "Ngay cả trước đợt hạn hán, đất đã khô bất thường."
       },
       "receptive_productive": "R"
     },
@@ -119,8 +123,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "typhoon",
-        "explanation_vi": "'Hurricane' và 'typhoon' đều là bão nhiệt đới mạnh — nhưng 'hurricane' ở Đại Tây Dương, 'typhoon' ở Thái Bình Dương."
+        "word": "typhoon",
+        "explanation_vi": "'Hurricane' và 'typhoon' đều là bão nhiệt đới mạnh — nhưng 'hurricane' ở Đại Tây Dương, 'typhoon' ở Thái Bình Dương.",
+        "example_en": "The hurricane formed over the Atlantic Ocean.",
+        "example_vi": "Cơn bão nhiệt đới hình thành trên Đại Tây Dương.",
+        "ff_example_en": "A typhoon of similar strength formed over the Pacific Ocean.",
+        "ff_example_vi": "Một cơn bão nhiệt đới có sức mạnh tương tự hình thành trên Thái Bình Dương."
       },
       "receptive_productive": "R"
     },
@@ -265,7 +273,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "evict",
+        "explanation_vi": "'Evacuate' là đưa người ra khỏi nơi nguy hiểm; 'evict' là buộc người thuê hoặc người cư trú rời khỏi một nơi.",
+        "example_en": "Officials evacuated the families because of the flood.",
+        "example_vi": "Các quan chức sơ tán các gia đình vì trận lũ.",
+        "ff_example_en": "The landlord tried to evict the families for unpaid rent.",
+        "ff_example_vi": "Chủ nhà cố đuổi các gia đình đi vì chưa trả tiền thuê."
+      },
       "receptive_productive": "P"
     },
     {
@@ -284,8 +299,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "casually",
-        "explanation_vi": "'Casualty' (thương vong) không liên quan đến 'casually' (một cách bình thản) — đây là hai từ hoàn toàn khác nhau."
+        "word": "casually",
+        "explanation_vi": "'Casualty' (thương vong) không liên quan đến 'casually' (một cách bình thản) — đây là hai từ hoàn toàn khác nhau.",
+        "example_en": "The earthquake caused several casualties in the town.",
+        "example_vi": "Trận động đất gây ra một số thương vong trong thị trấn.",
+        "ff_example_en": "Before the earthquake, tourists were walking casually through the town square.",
+        "ff_example_vi": "Trước trận động đất, du khách đang thong thả đi qua quảng trường thị trấn."
       },
       "receptive_productive": "R"
     },
@@ -304,7 +323,14 @@
         "adjective": "relieved",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "release",
+        "explanation_vi": "'Relief' là sự cứu trợ hoặc cảm giác nhẹ nhõm; 'release' là thả, phát hành hoặc giải phóng.",
+        "example_en": "Aid workers delivered emergency relief after the earthquake.",
+        "example_vi": "Nhân viên cứu trợ cung cấp hàng cứu trợ khẩn cấp sau trận động đất.",
+        "ff_example_en": "The authorities ordered the release of people trapped in the area.",
+        "ff_example_vi": "Nhà chức trách ra lệnh giải thoát những người mắc kẹt trong khu vực."
+      },
       "receptive_productive": "R"
     },
     {
@@ -322,7 +348,14 @@
         "adjective": "resilient",
         "adverb": "resiliently"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "resistance",
+        "explanation_vi": "'Resilience' là khả năng phục hồi sau khó khăn; 'resistance' là sự chống lại một lực, thay đổi hoặc tác nhân.",
+        "example_en": "The community showed resilience after the flood.",
+        "example_vi": "Cộng đồng thể hiện khả năng phục hồi sau trận lũ.",
+        "ff_example_en": "The community showed resistance to the proposed relocation plan.",
+        "ff_example_vi": "Cộng đồng thể hiện sự phản đối kế hoạch di dời được đề xuất."
+      },
       "receptive_productive": "R"
     }
   ],

@@ -61,7 +61,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "travel",
+        "explanation_vi": "“Trip” là một chuyến đi cụ thể và đếm được; “travel” là việc đi lại nói chung.",
+        "example_en": "Our class took a three-day trip to Huế.",
+        "example_vi": "Lớp chúng tôi thực hiện chuyến đi ba ngày đến Huế.",
+        "ff_example_en": "Travel helps students learn about different cultures.",
+        "ff_example_vi": "Việc đi đây đó giúp học sinh tìm hiểu các nền văn hóa khác nhau."
+      }
     },
     {
       "id": 2,
@@ -78,7 +85,14 @@
         "adjective": "destined",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "destiny",
+        "explanation_vi": "“Destination” là điểm đến của một hành trình; “destiny” là số phận. Hai từ có cách viết gần giống nhau.",
+        "example_en": "Huế was the final destination on our trip.",
+        "example_vi": "Huế là điểm đến cuối cùng trong chuyến đi.",
+        "ff_example_en": "The hero believed it was his destiny to protect Huế.",
+        "ff_example_vi": "Người anh hùng tin rằng bảo vệ Huế là số phận của mình."
+      }
     },
     {
       "id": 3,
@@ -197,7 +211,14 @@
         "adjective": "lost",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "lose",
+        "explanation_vi": "“Get lost” nghĩa là bị lạc đường; “lose” nghĩa là làm mất một vật hoặc không thắng.",
+        "example_en": "We got lost while exploring the old town.",
+        "example_vi": "Chúng tôi bị lạc khi khám phá khu phố cổ.",
+        "ff_example_en": "We lost our map while exploring the old town.",
+        "ff_example_vi": "Chúng tôi làm mất bản đồ khi khám phá khu phố cổ."
+      }
     },
     {
       "id": 10,
@@ -214,7 +235,14 @@
         "adjective": "exploratory",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "discover",
+        "explanation_vi": "“Explore” là đi tìm hiểu một nơi hoặc chủ đề; “discover” là tìm thấy hoặc biết đến điều chưa biết trước đó.",
+        "example_en": "We explored the old town on foot.",
+        "example_vi": "Chúng tôi khám phá khu phố cổ bằng cách đi bộ.",
+        "ff_example_en": "We discovered a quiet café while exploring the old town.",
+        "ff_example_vi": "Chúng tôi phát hiện một quán cà phê yên tĩnh khi khám phá khu phố cổ."
+      }
     },
     {
       "id": 11,
@@ -282,7 +310,14 @@
         "adjective": "scenic",
         "adverb": "scenically"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "scene",
+        "explanation_vi": "“Scenery” là phong cảnh nói chung và không đếm được; “scene” là một cảnh cụ thể trong phim, kịch hoặc ngoài đời.",
+        "example_en": "The mountain scenery was beautiful during the journey.",
+        "example_vi": "Phong cảnh núi non rất đẹp trong chuyến đi.",
+        "ff_example_en": "We photographed a peaceful village scene during the journey.",
+        "ff_example_vi": "Chúng tôi chụp một cảnh làng quê yên bình trong chuyến đi."
+      }
     },
     {
       "id": 15,
@@ -299,7 +334,14 @@
         "adjective": "exhausted / exhausting",
         "adverb": "exhaustedly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "tired",
+        "explanation_vi": "“Exhausted” nghĩa là cực kỳ mệt; “tired” là từ chung nghĩa là mệt.",
+        "example_en": "We were exhausted after hiking for ten hours.",
+        "example_vi": "Chúng tôi kiệt sức sau khi đi bộ đường dài mười giờ.",
+        "ff_example_en": "We were tired after walking around the museum for two hours.",
+        "ff_example_vi": "Chúng tôi mệt sau khi đi quanh bảo tàng hai giờ."
+      }
     }
   ],
   "exercises": {

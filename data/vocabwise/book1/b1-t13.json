@@ -163,7 +163,14 @@
         "adjective": "quiet",
         "adverb": "quietly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "quite",
+        "explanation_vi": "“Quiet” nghĩa là yên tĩnh; “quite” là trạng từ nghĩa là khá hoặc hoàn toàn, tùy ngữ cảnh.",
+        "example_en": "The street is quiet in the early morning.",
+        "example_vi": "Con phố yên tĩnh vào sáng sớm.",
+        "ff_example_en": "The street is quite busy in the afternoon.",
+        "ff_example_vi": "Con phố khá đông đúc vào buổi chiều."
+      }
     },
     {
       "id": 8,
@@ -282,7 +289,14 @@
         "adjective": "nearby",
         "adverb": "nearby"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "near",
+        "explanation_vi": "“Nearby” có thể đứng một mình như trạng từ hoặc đứng trước danh từ; “near” thường là giới từ hoặc tính từ chỉ khoảng cách gần.",
+        "example_en": "There is a nearby café where we can wait.",
+        "example_vi": "Có một quán cà phê gần đây nơi chúng ta có thể chờ.",
+        "ff_example_en": "There is a café near the station where we can wait.",
+        "ff_example_vi": "Có một quán cà phê gần nhà ga nơi chúng ta có thể chờ."
+      }
     },
     {
       "id": 15,

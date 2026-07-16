@@ -61,7 +61,14 @@
         "adjective": "diagnostic",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "prognosis",
+        "explanation_vi": "'Diagnosis' xác định bệnh hoặc vấn đề sức khỏe hiện tại; 'prognosis' dự đoán diễn biến và khả năng hồi phục của bệnh.",
+        "example_en": "The doctor confirmed the diagnosis after reviewing the test results.",
+        "example_vi": "Bác sĩ xác nhận chẩn đoán sau khi xem kết quả xét nghiệm.",
+        "ff_example_en": "The doctor gave a positive prognosis after reviewing the treatment response.",
+        "ff_example_vi": "Bác sĩ đưa ra tiên lượng tích cực sau khi xem phản ứng với điều trị."
+      },
       "receptive_productive": "R"
     },
     {
@@ -115,7 +122,14 @@
         "adjective": "symptomatic",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "sign",
+        "explanation_vi": "'Symptom' là điều người bệnh tự cảm nhận, như đau hoặc chóng mặt; 'sign' là dấu hiệu khách quan mà bác sĩ có thể quan sát hoặc đo được.",
+        "example_en": "A headache was the first symptom the patient reported.",
+        "example_vi": "Đau đầu là triệu chứng đầu tiên mà bệnh nhân cho biết.",
+        "ff_example_en": "A high temperature was the first sign the doctor recorded.",
+        "ff_example_vi": "Nhiệt độ cao là dấu hiệu đầu tiên mà bác sĩ ghi nhận."
+      },
       "receptive_productive": "R"
     },
     {
@@ -169,7 +183,14 @@
         "adjective": "prescribed",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "description",
+        "explanation_vi": "'Prescription' là đơn thuốc hoặc chỉ định dùng thuốc; 'description' là lời mô tả một người, vật hoặc tình trạng.",
+        "example_en": "The doctor gave Lan a prescription for antibiotics.",
+        "example_vi": "Bác sĩ kê cho Lan một đơn thuốc kháng sinh.",
+        "ff_example_en": "The doctor wrote a description of Lan's symptoms in her record.",
+        "ff_example_vi": "Bác sĩ viết phần mô tả các triệu chứng của Lan trong hồ sơ."
+      },
       "receptive_productive": "R"
     },
     {
@@ -260,8 +281,12 @@
         "adverb": "patiently"
       },
       "false_friend": {
-        "word_vi": "patient (adj)",
-        "explanation_vi": "'Patient' vừa là danh từ (bệnh nhân) vừa là tính từ (kiên nhẫn) — cùng cách viết, khác nghĩa."
+        "word": "",
+        "explanation_vi": "'Patient' vừa là danh từ (bệnh nhân) vừa là tính từ (kiên nhẫn) — cùng cách viết, khác nghĩa.",
+        "example_en": "The patient waited outside the doctor’s office.",
+        "example_vi": "Bệnh nhân chờ bên ngoài phòng khám của bác sĩ.",
+        "ff_example_en": "The doctor was patient while explaining the treatment again.",
+        "ff_example_vi": "Bác sĩ kiên nhẫn khi giải thích lại phương pháp điều trị."
       },
       "receptive_productive": "P"
     },
@@ -280,7 +305,14 @@
         "adjective": "conditional",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "disease",
+        "explanation_vi": "'Condition' là thuật ngữ rộng chỉ tình trạng sức khỏe; 'disease' là một bệnh cụ thể có nguyên nhân hoặc đặc điểm bệnh lý xác định.",
+        "example_en": "The clinic treats several long-term health conditions.",
+        "example_vi": "Phòng khám điều trị nhiều tình trạng sức khỏe kéo dài.",
+        "ff_example_en": "The clinic specialises in a rare heart disease.",
+        "ff_example_vi": "Phòng khám chuyên điều trị một bệnh tim hiếm gặp."
+      },
       "receptive_productive": "P"
     },
     {
@@ -316,7 +348,14 @@
         "adjective": "clinical",
         "adverb": "clinically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "hospital",
+        "explanation_vi": "'Clinic' thường là cơ sở khám và điều trị ngoại trú quy mô nhỏ; 'hospital' có nhiều khoa, giường bệnh và khả năng điều trị nội trú.",
+        "example_en": "Lan visited the clinic for a routine check-up.",
+        "example_vi": "Lan đến phòng khám để kiểm tra sức khỏe định kỳ.",
+        "ff_example_en": "Lan was admitted to the hospital for an operation.",
+        "ff_example_vi": "Lan được nhập viện để phẫu thuật."
+      },
       "receptive_productive": "P"
     }
   ],

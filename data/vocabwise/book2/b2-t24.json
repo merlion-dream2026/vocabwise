@@ -61,7 +61,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "count",
+        "explanation_vi": "'Account' là tài khoản hoặc bản tường thuật; 'count' là đếm.",
+        "example_en": "Lan opened a new bank account.",
+        "example_vi": "Lan mở một tài khoản ngân hàng mới.",
+        "ff_example_en": "Lan counted the cash before depositing it.",
+        "ff_example_vi": "Lan đếm tiền mặt trước khi gửi vào ngân hàng."
+      },
       "receptive_productive": "P"
     },
     {
@@ -115,7 +122,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "transition",
+        "explanation_vi": "'Transaction' là giao dịch; 'transition' là quá trình chuyển đổi.",
+        "example_en": "The bank recorded every transaction on the statement.",
+        "example_vi": "Ngân hàng ghi lại mọi giao dịch trên sao kê.",
+        "ff_example_en": "The bank managed its transition to a new digital system.",
+        "ff_example_vi": "Ngân hàng quản lý quá trình chuyển đổi sang hệ thống số mới."
+      },
       "receptive_productive": "P"
     },
     {
@@ -152,8 +166,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "fine / interest",
-        "explanation_vi": "'Fee' là khoản phí cố định cho một dịch vụ; 'fine' là tiền phạt vì vi phạm quy định; 'interest' là lãi suất tính theo tỷ lệ phần trăm trên số tiền vay."
+        "word": "fine",
+        "explanation_vi": "'Fee' là khoản phí cố định cho một dịch vụ; 'fine' là tiền phạt vì vi phạm quy định; 'interest' là lãi suất tính theo tỷ lệ phần trăm trên số tiền vay.",
+        "example_en": "The bank charges a monthly fee for this account.",
+        "example_vi": "Ngân hàng thu một khoản phí hằng tháng cho tài khoản này.",
+        "ff_example_en": "It may also charge a fine if a customer breaks certain rules.",
+        "ff_example_vi": "Ngân hàng cũng có thể thu tiền phạt nếu khách hàng vi phạm một số quy định."
       },
       "receptive_productive": "P"
     },
@@ -173,8 +191,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "credit",
-        "explanation_vi": "'Debit' lấy tiền trực tiếp từ tài khoản ngay khi giao dịch; 'credit' cho phép chi tiêu trước và hoàn trả sau. Thẻ debit giống dùng tiền của mình, thẻ credit giống vay tiền tạm thời."
+        "word": "credit",
+        "explanation_vi": "'Debit' lấy tiền trực tiếp từ tài khoản ngay khi giao dịch; 'credit' cho phép chi tiêu trước và hoàn trả sau. Thẻ debit giống dùng tiền của mình, thẻ credit giống vay tiền tạm thời.",
+        "example_en": "Mai paid with a debit card, so the money came directly from her account.",
+        "example_vi": "Mai thanh toán bằng thẻ ghi nợ nên tiền được trừ trực tiếp từ tài khoản.",
+        "ff_example_en": "Lan paid with a credit card and will repay the bank later.",
+        "ff_example_vi": "Lan thanh toán bằng thẻ tín dụng và sẽ trả lại tiền cho ngân hàng sau."
       },
       "receptive_productive": "P"
     },
@@ -212,8 +234,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "lend",
-        "explanation_vi": "'Borrow' là nhận tiền hoặc vật từ người khác (người đi vay); 'lend' là đưa tiền hoặc vật cho người khác (người cho vay) — phương hướng ngược nhau."
+        "word": "lend",
+        "explanation_vi": "'Borrow' là nhận tiền hoặc vật từ người khác (người đi vay); 'lend' là đưa tiền hoặc vật cho người khác (người cho vay) — phương hướng ngược nhau.",
+        "example_en": "Minh asked to borrow ten million đồng from the bank.",
+        "example_vi": "Minh đề nghị vay mười triệu đồng từ ngân hàng.",
+        "ff_example_en": "The bank agreed to lend him the money for one year.",
+        "ff_example_vi": "Ngân hàng đồng ý cho anh ấy vay số tiền đó trong một năm."
       },
       "receptive_productive": "P"
     },
@@ -232,7 +258,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "borrow",
+        "explanation_vi": "'Lend' là cho mượn; 'borrow' là nhận mượn.",
+        "example_en": "The bank agreed to lend Minh enough money to buy a car.",
+        "example_vi": "Ngân hàng đồng ý cho Minh vay đủ tiền để mua ô tô.",
+        "ff_example_en": "Minh agreed to borrow the money from the bank.",
+        "ff_example_vi": "Minh đồng ý vay số tiền đó từ ngân hàng."
+      },
       "receptive_productive": "P"
     },
     {
@@ -287,8 +320,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "invoice",
-        "explanation_vi": "'Bill' là yêu cầu thanh toán cho dịch vụ tiêu dùng (điện, nước, điện thoại); 'invoice' là chứng từ thanh toán chính thức trong kinh doanh giữa các doanh nghiệp."
+        "word": "invoice",
+        "explanation_vi": "'Bill' là yêu cầu thanh toán cho dịch vụ tiêu dùng (điện, nước, điện thoại); 'invoice' là chứng từ thanh toán chính thức trong kinh doanh giữa các doanh nghiệp.",
+        "example_en": "The family received an electricity bill at the end of the month.",
+        "example_vi": "Gia đình nhận hóa đơn tiền điện vào cuối tháng.",
+        "ff_example_en": "Their business received an invoice from the equipment supplier.",
+        "ff_example_vi": "Doanh nghiệp của họ nhận một hóa đơn thương mại từ nhà cung cấp thiết bị."
       },
       "receptive_productive": "P"
     },
@@ -307,7 +344,14 @@
         "adjective": "cash-only",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "cache",
+        "explanation_vi": "'Cash' là tiền mặt; 'cache' là bộ nhớ đệm hoặc nơi cất giấu.",
+        "example_en": "Lan paid for the laptop in cash.",
+        "example_vi": "Lan thanh toán chiếc máy tính xách tay bằng tiền mặt.",
+        "ff_example_en": "Lan cleared the browser cache on the laptop.",
+        "ff_example_vi": "Lan xóa bộ nhớ đệm của trình duyệt trên máy tính xách tay."
+      },
       "receptive_productive": "P"
     },
     {
@@ -326,8 +370,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "fine",
-        "explanation_vi": "'Penalty' trong tài chính là khoản phí phát sinh do vi phạm hợp đồng hoặc điều khoản; 'fine' thường là khoản phạt hành chính do vi phạm luật (ví dụ: phạt giao thông)."
+        "word": "fine",
+        "explanation_vi": "'Penalty' trong tài chính là khoản phí phát sinh do vi phạm hợp đồng hoặc điều khoản; 'fine' thường là khoản phạt hành chính do vi phạm luật (ví dụ: phạt giao thông).",
+        "example_en": "The bank imposed a penalty because the borrower broke the loan agreement.",
+        "example_vi": "Ngân hàng áp dụng một khoản phạt vì người vay vi phạm hợp đồng vay.",
+        "ff_example_en": "The same borrower also paid a traffic fine for speeding.",
+        "ff_example_vi": "Người vay đó cũng nộp phạt giao thông vì chạy quá tốc độ."
       },
       "receptive_productive": "P"
     }

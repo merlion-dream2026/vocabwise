@@ -62,8 +62,12 @@
         "adverb": "hypothetically"
       },
       "false_friend": {
-        "word_vi": "theory",
-        "explanation_vi": "'Hypothesis' là một giả thuyết chưa được kiểm chứng; 'theory' trong khoa học là một khuôn khổ giải thích đã được kiểm chứng rộng rãi — không đồng nghĩa nhau."
+        "word": "theory",
+        "explanation_vi": "'Hypothesis' là một giả thuyết chưa được kiểm chứng; 'theory' trong khoa học là một khuôn khổ giải thích đã được kiểm chứng rộng rãi — không đồng nghĩa nhau.",
+        "example_en": "The scientist proposed a hypothesis that the drug would reduce inflammation.",
+        "example_vi": "Nhà khoa học đề xuất giả thuyết rằng thuốc sẽ làm giảm viêm.",
+        "ff_example_en": "The broader theory explaining the disease is supported by decades of research.",
+        "ff_example_vi": "Lý thuyết rộng hơn giải thích căn bệnh được hỗ trợ bởi nhiều thập kỷ nghiên cứu."
       },
       "receptive_productive": "P"
     },
@@ -82,7 +86,14 @@
         "adjective": "methodological",
         "adverb": "methodologically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "method",
+        "explanation_vi": "'Methodology' là hệ thống và cơ sở lý luận của các phương pháp nghiên cứu; 'method' là một cách làm cụ thể.",
+        "example_en": "The paper explains the methodology of the entire study.",
+        "example_vi": "Bài báo giải thích phương pháp luận của toàn bộ nghiên cứu.",
+        "ff_example_en": "The paper describes the method used to collect the samples.",
+        "ff_example_vi": "Bài báo mô tả phương pháp dùng để thu thập mẫu."
+      },
       "receptive_productive": "P"
     },
     {
@@ -136,7 +147,14 @@
         "adjective": "sceptical",
         "adverb": "sceptically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "cynicism",
+        "explanation_vi": "'Scepticism' là thái độ nghi ngờ và đòi hỏi bằng chứng; 'cynicism' là niềm tin tiêu cực rằng người khác chủ yếu hành động vì ích kỷ.",
+        "example_en": "The scientist expressed scepticism about the unsupported claim.",
+        "example_vi": "Nhà khoa học tỏ ra hoài nghi đối với tuyên bố thiếu bằng chứng.",
+        "ff_example_en": "The journalist expressed cynicism about the company's motives.",
+        "ff_example_vi": "Nhà báo tỏ ra hoài nghi mang tính tiêu cực về động cơ của công ty."
+      },
       "receptive_productive": "P"
     },
     {
@@ -190,7 +208,14 @@
         "adjective": "variable / varying",
         "adverb": "variably"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "various",
+        "explanation_vi": "'Variable' là biến số hoặc tính từ nghĩa là có thể thay đổi; 'various' nghĩa là nhiều loại khác nhau.",
+        "example_en": "The researchers controlled every variable in the experiment.",
+        "example_vi": "Các nhà nghiên cứu kiểm soát mọi biến số trong thí nghiệm.",
+        "ff_example_en": "The researchers tested various materials in the experiment.",
+        "ff_example_vi": "Các nhà nghiên cứu thử nghiệm nhiều loại vật liệu khác nhau trong thí nghiệm."
+      },
       "receptive_productive": "P"
     },
     {
@@ -209,8 +234,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "causation",
-        "explanation_vi": "'Correlation' chỉ cho thấy hai biến cùng thay đổi; 'causation' nghĩa là một biến trực tiếp gây ra biến kia — hai khái niệm thường bị nhầm lẫn nhưng hoàn toàn khác nhau."
+        "word": "causation",
+        "explanation_vi": "'Correlation' chỉ cho thấy hai biến cùng thay đổi; 'causation' nghĩa là một biến trực tiếp gây ra biến kia — hai khái niệm thường bị nhầm lẫn nhưng hoàn toàn khác nhau.",
+        "example_en": "The data showed a correlation between screen time and poor sleep.",
+        "example_vi": "Dữ liệu cho thấy mối tương quan giữa thời gian dùng màn hình và giấc ngủ kém.",
+        "ff_example_en": "The study did not prove causation between the two variables.",
+        "ff_example_vi": "Nghiên cứu không chứng minh quan hệ nhân quả giữa hai biến."
       },
       "receptive_productive": "P"
     },
@@ -230,8 +259,12 @@
         "adverb": "causally"
       },
       "false_friend": {
-        "word_vi": "correlation",
-        "explanation_vi": "'Causation' nghĩa là A trực tiếp gây ra B; 'correlation' chỉ nghĩa là A và B có xu hướng xảy ra cùng nhau — không nhất thiết có quan hệ nhân quả."
+        "word": "correlation",
+        "explanation_vi": "'Causation' nghĩa là A trực tiếp gây ra B; 'correlation' chỉ nghĩa là A và B có xu hướng xảy ra cùng nhau — không nhất thiết có quan hệ nhân quả.",
+        "example_en": "A controlled experiment provided evidence of causation between the chemical and the reaction.",
+        "example_vi": "Một thí nghiệm có kiểm soát cung cấp bằng chứng về quan hệ nhân quả giữa hóa chất và phản ứng.",
+        "ff_example_en": "An earlier survey had shown only a correlation between their presence.",
+        "ff_example_vi": "Một khảo sát trước đó chỉ cho thấy mối tương quan giữa sự hiện diện của chúng."
       },
       "receptive_productive": "P"
     },

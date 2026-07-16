@@ -61,7 +61,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "resource",
+        "explanation_vi": "'Source' là nơi thông tin hoặc vật chất bắt nguồn; 'resource' là tài liệu, công cụ hoặc nguồn lực có thể sử dụng.",
+        "example_en": "The journalist checked the original source of the statistic.",
+        "example_vi": "Nhà báo kiểm tra nguồn gốc ban đầu của số liệu.",
+        "ff_example_en": "The journalist used the library as a research resource.",
+        "ff_example_vi": "Nhà báo sử dụng thư viện như một nguồn tài liệu nghiên cứu."
+      },
       "receptive_productive": "P"
     },
     {
@@ -115,7 +122,14 @@
         "adjective": "biased / unbiased",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "prejudice",
+        "explanation_vi": "'Bias' là xu hướng thiên lệch có thể có ý thức hoặc vô thức; 'prejudice' thường là định kiến tiêu cực đã hình thành trước về một nhóm người.",
+        "example_en": "The editor checked the article for political bias.",
+        "example_vi": "Biên tập viên kiểm tra bài báo để phát hiện sự thiên lệch chính trị.",
+        "ff_example_en": "The editor removed a sentence that showed prejudice against migrants.",
+        "ff_example_vi": "Biên tập viên xóa một câu thể hiện định kiến đối với người di cư."
+      },
       "receptive_productive": "P"
     },
     {
@@ -187,7 +201,14 @@
         "adjective": "trustworthy / trusted",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "believe",
+        "explanation_vi": "'Trust' thường là tin tưởng một người hoặc nguồn là đáng tin; 'believe' là tin một thông tin hoặc cho rằng điều gì đúng.",
+        "example_en": "Readers trust the newspaper because it checks its sources.",
+        "example_vi": "Độc giả tin tưởng tờ báo vì tờ báo kiểm tra nguồn tin.",
+        "ff_example_en": "Readers believe the report because it includes evidence.",
+        "ff_example_vi": "Độc giả tin báo cáo vì báo cáo có bằng chứng."
+      },
       "receptive_productive": "P"
     },
     {
@@ -296,8 +317,12 @@
         "adverb": "reliably"
       },
       "false_friend": {
-        "word_vi": "trustworthy",
-        "explanation_vi": "'Reliable' nhấn mạnh tính nhất quán và chính xác theo thời gian — ta nói 'a reliable source' (nguồn có thể dựa vào vì luôn chính xác). 'Trustworthy' nhấn mạnh sự trung thực và tính chính trực — 'a trustworthy person'. Hai từ gần nghĩa nhưng không hoàn toàn thay thế nhau."
+        "word": "trustworthy",
+        "explanation_vi": "'Reliable' nhấn mạnh tính nhất quán và chính xác theo thời gian — ta nói 'a reliable source' (nguồn có thể dựa vào vì luôn chính xác). 'Trustworthy' nhấn mạnh sự trung thực và tính chính trực — 'a trustworthy person'. Hai từ gần nghĩa nhưng không hoàn toàn thay thế nhau.",
+        "example_en": "The news website is reliable because its reports remain accurate over time.",
+        "example_vi": "Trang tin đáng tin cậy vì các báo cáo của trang luôn chính xác theo thời gian.",
+        "ff_example_en": "The editor is trustworthy because she refuses to hide important facts.",
+        "ff_example_vi": "Biên tập viên đáng tin về mặt đạo đức vì cô ấy từ chối che giấu các sự thật quan trọng."
       },
       "receptive_productive": "P"
     },

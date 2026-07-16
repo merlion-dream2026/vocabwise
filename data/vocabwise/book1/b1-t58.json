@@ -61,7 +61,14 @@
         "adjective": "composed",
         "adverb": "composedly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "comprise",
+        "explanation_vi": "“Compose” nghĩa là soạn hoặc tạo nên; “comprise” nghĩa là bao gồm. Hai từ thường bị nhầm trong văn viết học thuật.",
+        "example_en": "Lan composed a formal email to the manager.",
+        "example_vi": "Lan soạn một email trang trọng cho người quản lý.",
+        "ff_example_en": "The email comprised three short paragraphs and an attachment.",
+        "ff_example_vi": "Email gồm ba đoạn ngắn và một tệp đính kèm."
+      }
     },
     {
       "id": 2,
@@ -78,7 +85,14 @@
         "adjective": "professional / unprofessional",
         "adverb": "professionally"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "profession",
+        "explanation_vi": "“Professional” là tính từ nghĩa là chuyên nghiệp hoặc danh từ chỉ người có chuyên môn; “profession” là nghề nghiệp chuyên môn.",
+        "example_en": "Lan wrote a professional email to the doctor.",
+        "example_vi": "Lan viết một email chuyên nghiệp cho bác sĩ.",
+        "ff_example_en": "Medicine is the doctor’s profession.",
+        "ff_example_vi": "Y khoa là nghề nghiệp của bác sĩ."
+      }
     },
     {
       "id": 3,
@@ -112,7 +126,14 @@
         "adjective": "topical",
         "adverb": "topically"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "subject",
+        "explanation_vi": "“Topic” là chủ đề được thảo luận; “subject” trong email là dòng tiêu đề cho biết nội dung chính.",
+        "example_en": "The topic of the email is the upcoming meeting.",
+        "example_vi": "Chủ đề của email là cuộc họp sắp tới.",
+        "ff_example_en": "The subject of the email is “Meeting on Friday”.",
+        "ff_example_vi": "Tiêu đề email là “Cuộc họp vào thứ Sáu”."
+      }
     },
     {
       "id": 5,
@@ -129,7 +150,14 @@
         "adjective": "signed",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "sign",
+        "explanation_vi": "“Signature” là chữ ký của một người; “sign” là ký tên hoặc một dấu hiệu, biển báo.",
+        "example_en": "Lan added her signature at the end of the email.",
+        "example_vi": "Lan thêm chữ ký ở cuối email.",
+        "ff_example_en": "Lan signed the printed letter before sending it.",
+        "ff_example_vi": "Lan ký vào lá thư đã in trước khi gửi."
+      }
     },
     {
       "id": 6,
@@ -146,7 +174,14 @@
         "adjective": "attached",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "file",
+        "explanation_vi": "“Attachment” là tệp được đính kèm vào email; “file” là bất kỳ tệp dữ liệu nào trên thiết bị.",
+        "example_en": "Lan added the report as an email attachment.",
+        "example_vi": "Lan thêm báo cáo dưới dạng tệp đính kèm email.",
+        "ff_example_en": "Lan saved the report as a PDF file.",
+        "ff_example_vi": "Lan lưu báo cáo dưới dạng tệp PDF."
+      }
     },
     {
       "id": 7,
@@ -180,7 +215,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "answer",
+        "explanation_vi": "“Reply” thường là phản hồi email hoặc tin nhắn; “answer” thường dùng cho câu hỏi hoặc cuộc gọi.",
+        "example_en": "Lan replied to the manager’s email.",
+        "example_vi": "Lan trả lời email của người quản lý.",
+        "ff_example_en": "Lan answered the manager’s question in her reply.",
+        "ff_example_vi": "Lan trả lời câu hỏi của người quản lý trong email phản hồi."
+      }
     },
     {
       "id": 9,
@@ -197,7 +239,14 @@
         "adjective": "forward",
         "adverb": "forward"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "ahead",
+        "explanation_vi": "“Forward” trong email nghĩa là chuyển tiếp; “ahead” nghĩa là ở phía trước hoặc trước về thời gian.",
+        "example_en": "Lan forwarded the email to her colleague.",
+        "example_vi": "Lan chuyển tiếp email cho đồng nghiệp.",
+        "ff_example_en": "Lan checked the schedule for the week ahead.",
+        "ff_example_vi": "Lan kiểm tra lịch trình cho tuần sắp tới."
+      }
     },
     {
       "id": 10,
@@ -214,7 +263,14 @@
         "adjective": "tonal",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "voice",
+        "explanation_vi": "“Tone” là thái độ hoặc sắc thái thể hiện trong văn bản; “voice” là phong cách và bản sắc của người viết.",
+        "example_en": "The email uses a polite and professional tone.",
+        "example_vi": "Email sử dụng giọng điệu lịch sự và chuyên nghiệp.",
+        "ff_example_en": "The writer’s friendly voice makes the email feel personal.",
+        "ff_example_vi": "Phong cách thân thiện của người viết khiến email mang tính cá nhân."
+      }
     },
     {
       "id": 11,
@@ -231,7 +287,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "salutation",
+        "explanation_vi": "“Greeting” là lời chào nói chung; “salutation” là lời chào mở đầu trang trọng trong thư hoặc email.",
+        "example_en": "Lan opened the email with a friendly greeting.",
+        "example_vi": "Lan mở đầu email bằng lời chào thân thiện.",
+        "ff_example_en": "Lan used “Dear Dr Brown” as the formal salutation.",
+        "ff_example_vi": "Lan dùng “Kính gửi Tiến sĩ Brown” làm lời chào mở đầu trang trọng."
+      }
     },
     {
       "id": 12,
@@ -248,7 +311,14 @@
         "adjective": "closing",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "conclusion",
+        "explanation_vi": "“Closing” là lời kết thư; “conclusion” là phần kết luận tóm lại lập luận hoặc nội dung.",
+        "example_en": "Lan ended the email with a polite closing.",
+        "example_vi": "Lan kết thúc email bằng lời chào cuối lịch sự.",
+        "ff_example_en": "Lan ended the report with a clear conclusion.",
+        "ff_example_vi": "Lan kết thúc báo cáo bằng một kết luận rõ ràng."
+      }
     },
     {
       "id": 13,
@@ -265,7 +335,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "pronounce",
+        "explanation_vi": "“Spell” là viết hoặc đọc tên các chữ cái trong từ; “pronounce” là phát âm từ.",
+        "example_en": "Can you spell the recipient’s surname?",
+        "example_vi": "Bạn có thể đánh vần họ của người nhận không?",
+        "ff_example_en": "Can you pronounce the recipient’s surname?",
+        "ff_example_vi": "Bạn có thể phát âm họ của người nhận không?"
+      }
     },
     {
       "id": 14,
@@ -282,7 +359,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "revise",
+        "explanation_vi": "“Proofread” là kiểm tra lỗi chính tả, ngữ pháp và đánh máy; “revise” là chỉnh sửa nội dung hoặc cấu trúc để cải thiện văn bản.",
+        "example_en": "Lan proofread the email for spelling mistakes.",
+        "example_vi": "Lan đọc soát email để tìm lỗi chính tả.",
+        "ff_example_en": "Lan revised the email to make its argument clearer.",
+        "ff_example_vi": "Lan chỉnh sửa email để lập luận rõ ràng hơn."
+      }
     },
     {
       "id": 15,
@@ -299,7 +383,14 @@
         "adjective": "clear / unclear",
         "adverb": "clearly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "clean",
+        "explanation_vi": "“Clear” nghĩa là rõ ràng hoặc dễ hiểu; “clean” nghĩa là sạch.",
+        "example_en": "The email is clear and easy to understand.",
+        "example_vi": "Email rõ ràng và dễ hiểu.",
+        "ff_example_en": "The computer screen is clean and easy to read.",
+        "ff_example_vi": "Màn hình máy tính sạch và dễ đọc."
+      }
     }
   ],
   "exercises": {

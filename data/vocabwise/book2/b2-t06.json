@@ -62,7 +62,14 @@
         "adjective": "ritualistic",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "routine",
+        "explanation_vi": "'Ritual' là nghi thức có ý nghĩa biểu tượng, văn hóa hoặc tôn giáo; 'routine' là chuỗi việc làm đều đặn hằng ngày.",
+        "example_en": "Lighting the candles is an important ritual at the festival.",
+        "example_vi": "Thắp nến là một nghi thức quan trọng tại lễ hội.",
+        "ff_example_en": "Checking the equipment is part of the staff's daily routine.",
+        "ff_example_vi": "Kiểm tra thiết bị là một phần trong thói quen hằng ngày của nhân viên."
+      },
       "receptive_productive": "R"
     },
     {
@@ -80,7 +87,14 @@
         "adjective": "sacred",
         "adverb": "sacredly"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "scared",
+        "explanation_vi": "'Sacred' nghĩa là thiêng liêng; 'scared' nghĩa là sợ hãi.",
+        "example_en": "The villagers consider the ancient temple sacred.",
+        "example_vi": "Dân làng coi ngôi đền cổ là nơi thiêng liêng.",
+        "ff_example_en": "The children felt scared inside the dark temple.",
+        "ff_example_vi": "Những đứa trẻ cảm thấy sợ hãi bên trong ngôi đền tối."
+      },
       "receptive_productive": "R"
     },
     {
@@ -98,7 +112,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "warship",
+        "explanation_vi": "'Worship' là thờ phụng; 'warship' là tàu chiến.",
+        "example_en": "People gathered near the harbour to worship at the old temple.",
+        "example_vi": "Mọi người tập trung gần bến cảng để thờ phụng tại ngôi đền cổ.",
+        "ff_example_en": "People gathered near the harbour to see a warship.",
+        "ff_example_vi": "Mọi người tập trung gần bến cảng để xem một chiếc tàu chiến."
+      },
       "receptive_productive": "R"
     },
     {
@@ -116,7 +137,14 @@
         "adjective": "inherited",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "inheritance",
+        "explanation_vi": "'Heritage' là di sản văn hóa hoặc truyền thống được truyền lại; 'inheritance' là tài sản một người nhận sau khi người khác qua đời.",
+        "example_en": "The old house is part of the town's cultural heritage.",
+        "example_vi": "Ngôi nhà cổ là một phần di sản văn hóa của thị trấn.",
+        "ff_example_en": "The old house became Lan's inheritance from her grandfather.",
+        "ff_example_vi": "Ngôi nhà cổ trở thành tài sản thừa kế Lan nhận từ ông mình."
+      },
       "receptive_productive": "R"
     },
     {
@@ -134,7 +162,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "identification",
+        "explanation_vi": "'Identity' là danh tính hoặc bản sắc của một người hay nhóm; 'identification' là giấy tờ hoặc quá trình xác định người đó là ai.",
+        "example_en": "The passport confirmed the traveller's identity.",
+        "example_vi": "Hộ chiếu xác nhận danh tính của hành khách.",
+        "ff_example_en": "The officer asked the traveller to show identification.",
+        "ff_example_vi": "Nhân viên yêu cầu hành khách xuất trình giấy tờ tùy thân."
+      },
       "receptive_productive": "R"
     },
     {
@@ -206,7 +241,14 @@
         "adjective": "believable",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "believe",
+        "explanation_vi": "'Belief' là danh từ nghĩa là niềm tin; 'believe' là động từ nghĩa là tin.",
+        "example_en": "Her belief in equal education shaped the campaign.",
+        "example_vi": "Niềm tin của cô vào giáo dục bình đẳng đã định hình chiến dịch.",
+        "ff_example_en": "She believes that every child deserves an education.",
+        "ff_example_vi": "Cô tin rằng mọi trẻ em đều xứng đáng được đi học."
+      },
       "receptive_productive": "R"
     },
     {
@@ -225,8 +267,12 @@
         "adverb": "customarily"
       },
       "false_friend": {
-        "word_vi": "costume",
-        "explanation_vi": "'Custom' là phong tục; 'costume' là trang phục — không nhầm lẫn."
+        "word": "costume",
+        "explanation_vi": "'Custom' là phong tục; 'costume' là trang phục — không nhầm lẫn.",
+        "example_en": "Removing shoes before entering is a local custom.",
+        "example_vi": "Cởi giày trước khi bước vào là một phong tục địa phương.",
+        "ff_example_en": "The visitor wore a traditional costume during the festival.",
+        "ff_example_vi": "Du khách mặc trang phục truyền thống trong lễ hội."
       },
       "receptive_productive": "R"
     },
@@ -282,8 +328,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "practice vs practise",
-        "explanation_vi": "'Practise' là động từ (UK); 'practice' là danh từ (UK) hoặc cả động từ/danh từ (US)."
+        "word": "practice",
+        "explanation_vi": "'Practise' là động từ (UK); 'practice' là danh từ (UK) hoặc cả động từ/danh từ (US).",
+        "example_en": "The students practise the ceremony every afternoon.",
+        "example_vi": "Các học sinh luyện tập nghi lễ vào mỗi buổi chiều.",
+        "ff_example_en": "Their daily practice helps the ceremony run smoothly.",
+        "ff_example_vi": "Việc luyện tập hằng ngày giúp nghi lễ diễn ra suôn sẻ."
       },
       "receptive_productive": "P"
     },
@@ -302,7 +352,14 @@
         "adjective": "faithful",
         "adverb": "faithfully"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "fate",
+        "explanation_vi": "'Faith' là niềm tin, thường mang sắc thái tôn giáo; 'fate' là số phận.",
+        "example_en": "The family kept their faith during the difficult journey.",
+        "example_vi": "Gia đình vẫn giữ vững đức tin trong hành trình khó khăn.",
+        "ff_example_en": "The family wondered whether fate would bring them home.",
+        "ff_example_vi": "Gia đình tự hỏi liệu số phận có đưa họ trở về nhà hay không."
+      },
       "receptive_productive": "P"
     },
     {

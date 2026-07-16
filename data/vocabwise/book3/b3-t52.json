@@ -152,8 +152,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "preservation",
-        "explanation_vi": "'Conservation' nhấn mạnh quản lý bền vững để sử dụng lâu dài; 'preservation' nhấn mạnh bảo vệ nguyên vẹn không can thiệp — hai khái niệm khác nhau trong khoa học môi trường."
+        "word": "preservation",
+        "explanation_vi": "'Conservation' nhấn mạnh quản lý bền vững để sử dụng lâu dài; 'preservation' nhấn mạnh bảo vệ nguyên vẹn không can thiệp — hai khái niệm khác nhau trong khoa học môi trường.",
+        "example_en": "Forest conservation allows careful use of timber while protecting the ecosystem.",
+        "example_vi": "Bảo tồn rừng cho phép sử dụng gỗ cẩn thận trong khi vẫn bảo vệ hệ sinh thái.",
+        "ff_example_en": "Strict preservation would leave the most sensitive forest area completely untouched.",
+        "ff_example_vi": "Việc gìn giữ nghiêm ngặt sẽ để khu vực rừng nhạy cảm nhất hoàn toàn không bị tác động."
       },
       "receptive_productive": "P"
     },
@@ -208,7 +212,14 @@
         "adjective": "resilient",
         "adverb": "resiliently"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "resistance",
+        "explanation_vi": "'Resilience' là khả năng phục hồi sau khó khăn; 'resistance' là sự chống lại một lực, thay đổi hoặc tác nhân.",
+        "example_en": "The community showed resilience after the flood.",
+        "example_vi": "Cộng đồng thể hiện khả năng phục hồi sau trận lũ.",
+        "ff_example_en": "The community showed resistance to the proposed relocation plan.",
+        "ff_example_vi": "Cộng đồng thể hiện sự phản đối kế hoạch di dời được đề xuất."
+      },
       "receptive_productive": "P"
     },
     {
@@ -227,8 +238,12 @@
         "adverb": "ecologically"
       },
       "false_friend": {
-        "word_vi": "economical",
-        "explanation_vi": "'Ecological' liên quan đến sinh thái học và môi trường; 'economical' có nghĩa là tiết kiệm, chi phí thấp — dễ nhầm vì hình thức gần nhau."
+        "word": "economical",
+        "explanation_vi": "'Ecological' liên quan đến sinh thái học và môi trường; 'economical' có nghĩa là tiết kiệm, chi phí thấp — dễ nhầm vì hình thức gần nhau.",
+        "example_en": "The project assessed the ecological effects of the new transport system.",
+        "example_vi": "Dự án đánh giá các tác động sinh thái của hệ thống giao thông mới.",
+        "ff_example_en": "It also examined whether the system was economical to operate.",
+        "ff_example_vi": "Dự án cũng xem xét liệu hệ thống có tiết kiệm chi phí vận hành hay không."
       },
       "receptive_productive": "P"
     },

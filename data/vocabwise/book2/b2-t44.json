@@ -205,7 +205,14 @@
         "adjective": "caring",
         "adverb": "caringly"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "cure",
+        "explanation_vi": "'Care' là chăm sóc; 'cure' là chữa khỏi bệnh.",
+        "example_en": "The nurses care for older patients at the centre.",
+        "example_vi": "Các y tá chăm sóc bệnh nhân lớn tuổi tại trung tâm.",
+        "ff_example_en": "The doctors hope to cure the patients' infections.",
+        "ff_example_vi": "Các bác sĩ hy vọng chữa khỏi bệnh nhiễm trùng cho các bệnh nhân."
+      },
       "receptive_productive": "P"
     },
     {
@@ -223,7 +230,14 @@
         "adjective": "contributory",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "distribute",
+        "explanation_vi": "'Contribute' là đóng góp; 'distribute' là phân phát hoặc phân phối.",
+        "example_en": "Local businesses contributed food to the charity.",
+        "example_vi": "Các doanh nghiệp địa phương đóng góp thực phẩm cho tổ chức từ thiện.",
+        "ff_example_en": "Volunteers distributed the food to older residents.",
+        "ff_example_vi": "Các tình nguyện viên phân phát thực phẩm cho người dân lớn tuổi."
+      },
       "receptive_productive": "P"
     },
     {
@@ -241,7 +255,14 @@
         "adjective": "active / inactive",
         "adverb": "actively"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "actual",
+        "explanation_vi": "'Active' nghĩa là năng động hoặc đang hoạt động; 'actual' nghĩa là thực tế, có thật.",
+        "example_en": "The programme helps older people remain active.",
+        "example_vi": "Chương trình giúp người lớn tuổi duy trì sự năng động.",
+        "ff_example_en": "The report measured the actual number of participants.",
+        "ff_example_vi": "Báo cáo đo số người tham gia thực tế."
+      },
       "receptive_productive": "P"
     },
     {
@@ -259,7 +280,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "politics",
+        "explanation_vi": "'Policy' là chính sách hoặc nguyên tắc hành động; 'politics' là hoạt động và lĩnh vực chính trị.",
+        "example_en": "The government introduced a new education policy.",
+        "example_vi": "Chính phủ ban hành một chính sách giáo dục mới.",
+        "ff_example_en": "The students discussed education and politics in class.",
+        "ff_example_vi": "Các học sinh thảo luận về giáo dục và chính trị trong lớp."
+      },
       "receptive_productive": "P"
     },
     {
@@ -278,8 +306,12 @@
         "adverb": "lonelily"
       },
       "false_friend": {
-        "word_vi": "alone",
-        "explanation_vi": "'Lonely' là trạng thái cảm thấy CÔ ĐƠN và buồn vì thiếu bạn bè hoặc người đồng hành; 'alone' chỉ đơn giản là trạng thái VẬT LÝ một mình, không hàm chứa cảm xúc. Một người có thể ở một mình nhưng không cảm thấy cô đơn."
+        "word": "alone",
+        "explanation_vi": "'Lonely' là trạng thái cảm thấy CÔ ĐƠN và buồn vì thiếu bạn bè hoặc người đồng hành; 'alone' chỉ đơn giản là trạng thái VẬT LÝ một mình, không hàm chứa cảm xúc. Một người có thể ở một mình nhưng không cảm thấy cô đơn.",
+        "example_en": "Lan felt lonely after moving to a city where she knew nobody.",
+        "example_vi": "Lan cảm thấy cô đơn sau khi chuyển đến một thành phố nơi cô không quen ai.",
+        "ff_example_en": "Lan sometimes chose to be alone in her apartment without feeling unhappy.",
+        "ff_example_vi": "Đôi khi Lan chọn ở một mình trong căn hộ mà không cảm thấy buồn."
       },
       "receptive_productive": "P"
     },

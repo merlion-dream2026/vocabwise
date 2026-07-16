@@ -146,7 +146,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "tell",
+        "explanation_vi": "“Ask” dùng khi đặt câu hỏi hoặc yêu cầu; “tell” dùng khi cung cấp thông tin cho ai đó.",
+        "example_en": "Lan asked the guide where the museum was.",
+        "example_vi": "Lan hỏi hướng dẫn viên bảo tàng ở đâu.",
+        "ff_example_en": "The guide told Lan where the museum was.",
+        "ff_example_vi": "Hướng dẫn viên nói cho Lan biết bảo tàng ở đâu."
+      }
     },
     {
       "id": 7,
@@ -163,7 +170,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "answer",
+        "explanation_vi": "“Reply” thường là phản hồi lời nói, tin nhắn hoặc email; “answer” thường dùng cho câu hỏi, cuộc gọi hoặc bài tập.",
+        "example_en": "Lan replied to Minh’s email that evening.",
+        "example_vi": "Lan trả lời email của Minh vào tối hôm đó.",
+        "ff_example_en": "Lan answered Minh’s question in the email.",
+        "ff_example_vi": "Lan trả lời câu hỏi của Minh trong email."
+      }
     },
     {
       "id": 8,
@@ -180,7 +194,14 @@
         "adjective": "memorable",
         "adverb": "memorably"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "remind",
+        "explanation_vi": "“Remember” là tự nhớ; “remind” là làm cho một người nhớ điều gì.",
+        "example_en": "I remembered the new student’s name.",
+        "example_vi": "Tôi nhớ tên của học sinh mới.",
+        "ff_example_en": "Lan reminded me of the new student’s name.",
+        "ff_example_vi": "Lan nhắc tôi nhớ tên của học sinh mới."
+      }
     },
     {
       "id": 9,
@@ -197,7 +218,14 @@
         "adjective": "forgetful",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "leave",
+        "explanation_vi": "“Forget” là không nhớ một việc hoặc vật; khi nói bỏ quên đồ ở một nơi, tiếng Anh thường dùng “leave” để chỉ vị trí đồ bị bỏ lại.",
+        "example_en": "I forgot to bring my notebook to class.",
+        "example_vi": "Tôi quên mang vở đến lớp.",
+        "ff_example_en": "I left my notebook on the kitchen table.",
+        "ff_example_vi": "Tôi để quên vở trên bàn bếp."
+      }
     },
     {
       "id": 10,
@@ -214,7 +242,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "contract",
+        "explanation_vi": "“Contact” là liên lạc hoặc thông tin liên hệ; “contract” là hợp đồng. Hai từ có cách viết khá giống nhau.",
+        "example_en": "Please contact the company before the meeting.",
+        "example_vi": "Vui lòng liên lạc với công ty trước cuộc họp.",
+        "ff_example_en": "Please read the contract before the meeting.",
+        "ff_example_vi": "Vui lòng đọc hợp đồng trước cuộc họp."
+      }
     },
     {
       "id": 11,
@@ -265,7 +300,14 @@
         "adjective": "talkative",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "speak",
+        "explanation_vi": "“Talk” thường nhấn mạnh cuộc trò chuyện hai chiều; “speak” thường nói về khả năng ngôn ngữ hoặc hành động phát biểu.",
+        "example_en": "Lan talked to the new student during lunch.",
+        "example_vi": "Lan nói chuyện với học sinh mới trong giờ ăn trưa.",
+        "ff_example_en": "Lan spoke English to the new student during lunch.",
+        "ff_example_vi": "Lan nói tiếng Anh với học sinh mới trong giờ ăn trưa."
+      }
     },
     {
       "id": 14,

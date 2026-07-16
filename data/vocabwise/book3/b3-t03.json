@@ -62,8 +62,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "committee",
-        "explanation_vi": "'Commitment' là sự cam kết hoặc nghĩa vụ; 'committee' là ủy ban — phát âm tương tự nhưng nghĩa hoàn toàn khác."
+        "word": "committee",
+        "explanation_vi": "'Commitment' là sự cam kết hoặc nghĩa vụ; 'committee' là ủy ban — phát âm tương tự nhưng nghĩa hoàn toàn khác.",
+        "example_en": "Both partners made a long-term commitment to the project.",
+        "example_vi": "Cả hai đối tác đưa ra cam kết dài hạn với dự án.",
+        "ff_example_en": "A committee was formed to monitor that project.",
+        "ff_example_vi": "Một ủy ban được thành lập để giám sát dự án đó."
       },
       "receptive_productive": "P"
     },
@@ -82,7 +86,14 @@
         "adjective": "intimate",
         "adverb": "intimately"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "intensity",
+        "explanation_vi": "'Intimacy' là sự thân mật, gần gũi; 'intensity' là mức độ mạnh hoặc gay gắt.",
+        "example_en": "The quiet conversation created a sense of intimacy between the friends.",
+        "example_vi": "Cuộc trò chuyện yên tĩnh tạo cảm giác gần gũi giữa hai người bạn.",
+        "ff_example_en": "The argument increased in intensity as the evening continued.",
+        "ff_example_vi": "Cuộc tranh cãi trở nên gay gắt hơn khi buổi tối tiếp diễn."
+      },
       "receptive_productive": "P"
     },
     {
@@ -101,8 +112,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "resolution",
-        "explanation_vi": "'Dissolution' là sự tan vỡ hoặc chấm dứt; 'resolution' là sự quyết tâm hoặc giải pháp — dễ nhầm vì cùng vần '-olution'."
+        "word": "resolution",
+        "explanation_vi": "'Dissolution' là sự tan vỡ hoặc chấm dứt; 'resolution' là sự quyết tâm hoặc giải pháp — dễ nhầm vì cùng vần '-olution'.",
+        "example_en": "The court approved the dissolution of the marriage.",
+        "example_vi": "Tòa án phê chuẩn việc chấm dứt cuộc hôn nhân.",
+        "ff_example_en": "The couple later reached a resolution on child care.",
+        "ff_example_vi": "Sau đó, cặp đôi đạt được một giải pháp về việc chăm sóc con."
       },
       "receptive_productive": "P"
     },
@@ -139,7 +154,14 @@
         "adjective": "compatible / incompatible",
         "adverb": "compatibly"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "capability",
+        "explanation_vi": "'Compatibility' là mức độ phù hợp giữa người hoặc hệ thống; 'capability' là năng lực thực hiện một việc.",
+        "example_en": "The interview assessed the candidates' compatibility with the team.",
+        "example_vi": "Buổi phỏng vấn đánh giá mức độ phù hợp của ứng viên với nhóm.",
+        "ff_example_en": "The test assessed the candidates' capability to solve complex problems.",
+        "ff_example_vi": "Bài kiểm tra đánh giá năng lực giải quyết vấn đề phức tạp của ứng viên."
+      },
       "receptive_productive": "P"
     },
     {
@@ -158,8 +180,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "strange",
-        "explanation_vi": "'Estrangement' là sự xa cách về cảm xúc trong một mối quan hệ; 'strange' là kỳ lạ — cùng gốc từ nhưng nghĩa rất khác."
+        "word": "strange",
+        "explanation_vi": "'Estrangement' là sự xa cách về cảm xúc trong một mối quan hệ; 'strange' là kỳ lạ — cùng gốc từ nhưng nghĩa rất khác.",
+        "example_en": "Years of conflict led to estrangement between the two brothers.",
+        "example_vi": "Nhiều năm xung đột dẫn đến sự xa cách giữa hai anh em.",
+        "ff_example_en": "Their relatives found the brothers’ silence strange.",
+        "ff_example_vi": "Họ hàng cảm thấy sự im lặng của hai anh em thật kỳ lạ."
       },
       "receptive_productive": "P"
     },
@@ -196,7 +222,14 @@
         "adjective": "vulnerable",
         "adverb": "vulnerably"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "volatility",
+        "explanation_vi": "'Vulnerability' là mức độ dễ bị tổn thương; 'volatility' là mức độ biến động nhanh và khó dự đoán.",
+        "example_en": "The report assessed coastal communities' vulnerability to floods.",
+        "example_vi": "Báo cáo đánh giá mức độ dễ bị tổn thương do lũ của các cộng đồng ven biển.",
+        "ff_example_en": "The report also examined volatility in energy prices.",
+        "ff_example_vi": "Báo cáo cũng xem xét sự biến động của giá năng lượng."
+      },
       "receptive_productive": "P"
     },
     {
@@ -233,8 +266,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "alien",
-        "explanation_vi": "'Alienation' là trạng thái cô lập hoặc xa lánh xã hội; 'alien' là người ngoài hành tinh hoặc người nước ngoài — liên quan về gốc từ nhưng khác nhau trong ngữ cảnh học thuật."
+        "word": "alien",
+        "explanation_vi": "'Alienation' là trạng thái cô lập hoặc xa lánh xã hội; 'alien' là người ngoài hành tinh hoặc người nước ngoài — liên quan về gốc từ nhưng khác nhau trong ngữ cảnh học thuật.",
+        "example_en": "Long-term unemployment caused a sense of alienation from society.",
+        "example_vi": "Tình trạng thất nghiệp kéo dài gây ra cảm giác xa lánh khỏi xã hội.",
+        "ff_example_en": "In the same discussion, a science-fiction film used an alien as its main character.",
+        "ff_example_vi": "Trong cùng cuộc thảo luận, một bộ phim khoa học viễn tưởng dùng người ngoài hành tinh làm nhân vật chính."
       },
       "receptive_productive": "P"
     },

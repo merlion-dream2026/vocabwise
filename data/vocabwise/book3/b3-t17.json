@@ -98,8 +98,12 @@
         "adverb": "diagnostically"
       },
       "false_friend": {
-        "word_vi": "prognosis",
-        "explanation_vi": "'Diagnosis' là xác định bệnh đang mắc phải; 'prognosis' là dự đoán diễn tiến hoặc kết quả của bệnh — hai khái niệm khác nhau trong y khoa."
+        "word": "prognosis",
+        "explanation_vi": "'Diagnosis' là xác định bệnh đang mắc phải; 'prognosis' là dự đoán diễn tiến hoặc kết quả của bệnh — hai khái niệm khác nhau trong y khoa.",
+        "example_en": "The tests confirmed a diagnosis of pneumonia.",
+        "example_vi": "Các xét nghiệm xác nhận chẩn đoán viêm phổi.",
+        "ff_example_en": "The doctor gave a favourable prognosis because treatment began early.",
+        "ff_example_vi": "Bác sĩ đưa ra tiên lượng thuận lợi vì việc điều trị bắt đầu sớm."
       },
       "receptive_productive": "P"
     },
@@ -119,8 +123,12 @@
         "adverb": "efficaciously"
       },
       "false_friend": {
-        "word_vi": "efficiency",
-        "explanation_vi": "'Efficacy' chỉ khả năng đạt được kết quả mong muốn (thường dùng trong y tế); 'efficiency' chỉ khả năng thực hiện việc gì đó mà ít lãng phí nguồn lực — không dùng thay thế nhau trong ngữ cảnh y khoa."
+        "word": "efficiency",
+        "explanation_vi": "'Efficacy' chỉ khả năng đạt được kết quả mong muốn (thường dùng trong y tế); 'efficiency' chỉ khả năng thực hiện việc gì đó mà ít lãng phí nguồn lực — không dùng thay thế nhau trong ngữ cảnh y khoa.",
+        "example_en": "The trial measured the efficacy of the vaccine in preventing infection.",
+        "example_vi": "Thử nghiệm đo hiệu lực của vắc-xin trong việc ngăn nhiễm bệnh.",
+        "ff_example_en": "The hospital measured the efficiency of its vaccine delivery system.",
+        "ff_example_vi": "Bệnh viện đo hiệu suất của hệ thống phân phối vắc-xin."
       },
       "receptive_productive": "P"
     },
@@ -158,8 +166,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "vaccination",
-        "explanation_vi": "'Immunisation' là quá trình làm cho cơ thể miễn dịch (có thể qua nhiều phương pháp); 'vaccination' cụ thể hơn, chỉ việc tiêm vắc-xin — 'immunisation' là khái niệm rộng hơn."
+        "word": "vaccination",
+        "explanation_vi": "'Immunisation' là quá trình làm cho cơ thể miễn dịch (có thể qua nhiều phương pháp); 'vaccination' cụ thể hơn, chỉ việc tiêm vắc-xin — 'immunisation' là khái niệm rộng hơn.",
+        "example_en": "The campaign improved immunisation against several childhood diseases.",
+        "example_vi": "Chiến dịch cải thiện khả năng miễn dịch đối với một số bệnh ở trẻ em.",
+        "ff_example_en": "Vaccination with the new injection was one method used in the campaign.",
+        "ff_example_vi": "Tiêm chủng bằng mũi tiêm mới là một phương pháp được dùng trong chiến dịch."
       },
       "receptive_productive": "P"
     },
@@ -196,7 +208,14 @@
         "adjective": "transplanted",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "transport",
+        "explanation_vi": "'Transplant' là cấy ghép cơ quan hoặc chuyển cây; 'transport' là vận chuyển người hoặc hàng hóa.",
+        "example_en": "The hospital arranged a kidney transplant for the patient.",
+        "example_vi": "Bệnh viện sắp xếp ca ghép thận cho bệnh nhân.",
+        "ff_example_en": "The hospital arranged transport for the patient.",
+        "ff_example_vi": "Bệnh viện sắp xếp phương tiện vận chuyển cho bệnh nhân."
+      },
       "receptive_productive": "P"
     },
     {

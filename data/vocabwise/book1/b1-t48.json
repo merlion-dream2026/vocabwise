@@ -61,7 +61,14 @@
         "adjective": "eventful",
         "adverb": "eventually"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "activity",
+        "explanation_vi": "“Event” là sự kiện có thời gian và mục đích cụ thể; “activity” là hoạt động được thực hiện.",
+        "example_en": "The school held a formal event for graduating students.",
+        "example_vi": "Nhà trường tổ chức một sự kiện trang trọng cho học sinh tốt nghiệp.",
+        "ff_example_en": "The event included a group singing activity.",
+        "ff_example_vi": "Sự kiện có một hoạt động hát theo nhóm."
+      }
     },
     {
       "id": 2,
@@ -78,7 +85,14 @@
         "adjective": "ceremonial",
         "adverb": "ceremonially"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "celebration",
+        "explanation_vi": "“Ceremony” là nghi lễ trang trọng theo trình tự; “celebration” là hoạt động ăn mừng vui vẻ.",
+        "example_en": "The school held an award ceremony in the hall.",
+        "example_vi": "Nhà trường tổ chức lễ trao giải trong hội trường.",
+        "ff_example_en": "The students held a celebration after the ceremony.",
+        "ff_example_vi": "Các học sinh tổ chức ăn mừng sau buổi lễ."
+      }
     },
     {
       "id": 3,
@@ -95,7 +109,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "join",
+        "explanation_vi": "“Attend” nghĩa là có mặt tại một sự kiện; “join” nghĩa là trở thành thành viên hoặc tham gia cùng một nhóm/người.",
+        "example_en": "Lan attended the graduation ceremony.",
+        "example_vi": "Lan tham dự lễ tốt nghiệp.",
+        "ff_example_en": "Lan joined the choir performing at the ceremony.",
+        "ff_example_vi": "Lan tham gia dàn hợp xướng biểu diễn tại buổi lễ."
+      }
     },
     {
       "id": 4,
@@ -112,7 +133,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "talk",
+        "explanation_vi": "“Speech” thường là bài phát biểu trang trọng trước khán giả; “talk” thường ít trang trọng hơn và mang tính trò chuyện.",
+        "example_en": "The principal gave a formal speech at the ceremony.",
+        "example_vi": "Hiệu trưởng có bài phát biểu trang trọng tại buổi lễ.",
+        "ff_example_en": "The guest gave an informal talk to the students after the ceremony.",
+        "ff_example_vi": "Khách mời có một buổi nói chuyện thân mật với học sinh sau buổi lễ."
+      }
     },
     {
       "id": 5,
@@ -129,7 +157,14 @@
         "adjective": "cheerful / cheering",
         "adverb": "cheerfully"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "applause",
+        "explanation_vi": "“Cheer” là reo hò hoặc cổ vũ; “applause” là tiếng vỗ tay tán thưởng.",
+        "example_en": "The students cheered when the winner’s name was announced.",
+        "example_vi": "Các học sinh reo hò khi tên người chiến thắng được công bố.",
+        "ff_example_en": "The winner received loud applause from the audience.",
+        "ff_example_vi": "Người chiến thắng nhận được tiếng vỗ tay lớn từ khán giả."
+      }
     },
     {
       "id": 6,
@@ -146,7 +181,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "visitor",
+        "explanation_vi": "“Guest” là người được mời; “visitor” là người đến thăm một nơi hoặc người khác, không nhất thiết được mời chính thức.",
+        "example_en": "The principal welcomed the guest speaker to the ceremony.",
+        "example_vi": "Hiệu trưởng chào đón diễn giả khách mời đến buổi lễ.",
+        "ff_example_en": "The school asked every visitor to sign in at reception.",
+        "ff_example_vi": "Nhà trường yêu cầu mọi khách đến thăm đăng ký tại quầy lễ tân."
+      }
     },
     {
       "id": 7,
@@ -197,7 +239,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "guest",
+        "explanation_vi": "“Host” là người hoặc tổ chức đón tiếp và điều hành sự kiện; “guest” là người được mời đến.",
+        "example_en": "Lan hosted the award ceremony.",
+        "example_vi": "Lan dẫn chương trình lễ trao giải.",
+        "ff_example_en": "Lan welcomed each guest at the ceremony.",
+        "ff_example_vi": "Lan chào đón từng khách mời tại buổi lễ."
+      }
     },
     {
       "id": 10,
@@ -214,7 +263,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "reward",
+        "explanation_vi": "“Award” là giải thưởng chính thức ghi nhận thành tích; “reward” là phần thưởng cho một hành động hoặc hành vi cụ thể.",
+        "example_en": "The school gave Minh an award for academic excellence.",
+        "example_vi": "Nhà trường trao cho Minh một giải thưởng vì thành tích học tập xuất sắc.",
+        "ff_example_en": "The school gave Minh a reward for returning a lost wallet.",
+        "ff_example_vi": "Nhà trường trao cho Minh phần thưởng vì trả lại chiếc ví bị thất lạc."
+      }
     },
     {
       "id": 11,
@@ -248,7 +304,14 @@
         "adjective": "dressed up",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "wear",
+        "explanation_vi": "“Dress up” nghĩa là ăn mặc trang trọng hoặc hóa trang; “wear” chỉ trạng thái mặc một món đồ.",
+        "example_en": "The students dressed up for the formal ceremony.",
+        "example_vi": "Các học sinh ăn mặc trang trọng cho buổi lễ.",
+        "ff_example_en": "The students wore their school uniforms at the ceremony.",
+        "ff_example_vi": "Các học sinh mặc đồng phục tại buổi lễ."
+      }
     },
     {
       "id": 13,
@@ -282,7 +345,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "receptionist",
+        "explanation_vi": "“Reception” là khu vực tiếp đón hoặc tiệc đón tiếp; “receptionist” là nhân viên lễ tân.",
+        "example_en": "The guests waited at reception before the ceremony.",
+        "example_vi": "Các khách mời chờ tại khu vực lễ tân trước buổi lễ.",
+        "ff_example_en": "The receptionist gave each guest a programme.",
+        "ff_example_vi": "Nhân viên lễ tân đưa cho mỗi khách một chương trình."
+      }
     },
     {
       "id": 15,
@@ -299,7 +369,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "applaud",
+        "explanation_vi": "“Applause” là danh từ nghĩa là tiếng vỗ tay; “applaud” là động từ nghĩa là vỗ tay.",
+        "example_en": "The speaker received warm applause.",
+        "example_vi": "Diễn giả nhận được tiếng vỗ tay nhiệt tình.",
+        "ff_example_en": "The audience applauded the speaker warmly.",
+        "ff_example_vi": "Khán giả nhiệt tình vỗ tay tán thưởng diễn giả."
+      }
     }
   ],
   "exercises": {

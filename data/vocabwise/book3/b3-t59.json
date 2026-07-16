@@ -62,8 +62,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "posthumanism",
-        "explanation_vi": "'Transhumanism' tin vào việc nâng cấp con người qua công nghệ trong khi vẫn giữ bản sắc người; 'posthumanism' đặt câu hỏi về chính khái niệm 'con người' như một phạm trù đặc quyền — hai hướng tư duy khác nhau."
+        "word": "posthumanism",
+        "explanation_vi": "'Transhumanism' tin vào việc nâng cấp con người qua công nghệ trong khi vẫn giữ bản sắc người; 'posthumanism' đặt câu hỏi về chính khái niệm 'con người' như một phạm trù đặc quyền — hai hướng tư duy khác nhau.",
+        "example_en": "Transhumanism supports using technology to enhance human abilities.",
+        "example_vi": "Chủ nghĩa siêu nhân học ủng hộ việc dùng công nghệ để nâng cao năng lực con người.",
+        "ff_example_en": "Posthumanism questions whether humans should remain the central category in that debate.",
+        "ff_example_vi": "Chủ nghĩa hậu nhân loại đặt câu hỏi liệu con người có nên tiếp tục là phạm trù trung tâm trong cuộc tranh luận đó hay không."
       },
       "receptive_productive": "P"
     },
@@ -173,8 +177,12 @@
         "adverb": "consciously"
       },
       "false_friend": {
-        "word_vi": "conscience",
-        "explanation_vi": "'Consciousness' là ý thức hay sự tỉnh táo về bản thân và môi trường; 'conscience' là lương tâm — cảm giác đúng sai về mặt đạo đức. Hai từ này dễ nhầm."
+        "word": "conscience",
+        "explanation_vi": "'Consciousness' là ý thức hay sự tỉnh táo về bản thân và môi trường; 'conscience' là lương tâm — cảm giác đúng sai về mặt đạo đức. Hai từ này dễ nhầm.",
+        "example_en": "The patient regained consciousness after the operation.",
+        "example_vi": "Bệnh nhân tỉnh lại sau ca phẫu thuật.",
+        "ff_example_en": "The surgeon’s conscience required him to report the error honestly.",
+        "ff_example_vi": "Lương tâm của bác sĩ phẫu thuật buộc ông phải báo cáo trung thực sai sót."
       },
       "receptive_productive": "P"
     },
@@ -194,8 +202,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "dystopia",
-        "explanation_vi": "'Utopia' là xã hội lý tưởng hoàn hảo; 'dystopia' là xã hội phản địa đàng — tồi tệ, áp bức và đau khổ. Hai từ trái nghĩa nhau."
+        "word": "dystopia",
+        "explanation_vi": "'Utopia' là xã hội lý tưởng hoàn hảo; 'dystopia' là xã hội phản địa đàng — tồi tệ, áp bức và đau khổ. Hai từ trái nghĩa nhau.",
+        "example_en": "The novel presents a utopia in which technology eliminates poverty.",
+        "example_vi": "Cuốn tiểu thuyết mô tả một xã hội lý tưởng nơi công nghệ xóa bỏ nghèo đói.",
+        "ff_example_en": "Its sequel presents a dystopia in which the same technology controls every citizen.",
+        "ff_example_vi": "Phần tiếp theo mô tả một xã hội phản địa đàng nơi chính công nghệ đó kiểm soát mọi công dân."
       },
       "receptive_productive": "P"
     },
@@ -214,7 +226,14 @@
         "adjective": "dystopian",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "utopia",
+        "explanation_vi": "'Dystopia' là xã hội tưởng tượng tồi tệ và áp bức; 'utopia' là xã hội lý tưởng hoàn hảo.",
+        "example_en": "The novel presents a dystopia controlled by artificial intelligence.",
+        "example_vi": "Tiểu thuyết mô tả một xã hội phản địa đàng do trí tuệ nhân tạo kiểm soát.",
+        "ff_example_en": "The characters dream of a utopia where technology benefits everyone.",
+        "ff_example_vi": "Các nhân vật mơ về một xã hội lý tưởng nơi công nghệ mang lại lợi ích cho mọi người."
+      },
       "receptive_productive": "P"
     },
     {

@@ -61,7 +61,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "ring",
+        "explanation_vi": "“Call” là gọi điện cho ai; “ring” trong Anh-Anh cũng có nghĩa là gọi điện hoặc điện thoại đổ chuông.",
+        "example_en": "I called Lan after school.",
+        "example_vi": "Tôi gọi cho Lan sau giờ học.",
+        "ff_example_en": "I rang Lan after school.",
+        "ff_example_vi": "Tôi gọi cho Lan sau giờ học."
+      }
     },
     {
       "id": 2,
@@ -95,7 +102,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "message",
+        "explanation_vi": "“Text” thường là tin nhắn văn bản ngắn hoặc hành động nhắn; “message” là từ rộng hơn, gồm tin nhắn văn bản, thoại hoặc trên ứng dụng.",
+        "example_en": "Lan texted me the meeting time.",
+        "example_vi": "Lan nhắn tin cho tôi giờ họp.",
+        "ff_example_en": "Lan sent me a voice message with the meeting time.",
+        "ff_example_vi": "Lan gửi cho tôi một tin nhắn thoại có giờ họp."
+      }
     },
     {
       "id": 4,
@@ -112,7 +126,14 @@
         "adjective": "busy / busier / busiest",
         "adverb": "busily"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "occupied",
+        "explanation_vi": "“Busy” có thể nói người bận hoặc đường dây đang được sử dụng; “occupied” nghĩa là đang có người dùng.",
+        "example_en": "The line was busy when I called Lan.",
+        "example_vi": "Đường dây bận khi tôi gọi cho Lan.",
+        "ff_example_en": "The phone booth was occupied when I tried to call Lan.",
+        "ff_example_vi": "Buồng điện thoại đang có người dùng khi tôi cố gọi Lan."
+      }
     },
     {
       "id": 5,
@@ -129,7 +150,14 @@
         "adjective": "saved",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "safe",
+        "explanation_vi": "“Save” là động từ nghĩa là lưu hoặc cứu; “safe” là tính từ nghĩa là an toàn.",
+        "example_en": "Save Lan’s number in your phone.",
+        "example_vi": "Hãy lưu số của Lan trong điện thoại.",
+        "ff_example_en": "Keep your phone safe while travelling.",
+        "ff_example_vi": "Hãy giữ điện thoại an toàn khi đi lại."
+      }
     },
     {
       "id": 6,
@@ -146,7 +174,14 @@
         "adjective": "alert",
         "adverb": "alertly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "alarm",
+        "explanation_vi": "“Alert” là thông báo cảnh báo; “alarm” thường là tín hiệu âm thanh báo nguy hoặc nhắc giờ.",
+        "example_en": "My phone displayed an alert about the missed call.",
+        "example_vi": "Điện thoại hiển thị thông báo về cuộc gọi nhỡ.",
+        "ff_example_en": "My phone’s alarm rang at seven.",
+        "ff_example_vi": "Chuông báo thức trên điện thoại reo lúc bảy giờ."
+      }
     },
     {
       "id": 7,
@@ -163,7 +198,14 @@
         "adjective": "silent",
         "adverb": "silently"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "silence",
+        "explanation_vi": "“Silent” là tính từ nghĩa là im lặng; “silence” là danh từ nghĩa là sự im lặng.",
+        "example_en": "Put your phone on silent during the meeting.",
+        "example_vi": "Hãy đặt điện thoại ở chế độ im lặng trong cuộc họp.",
+        "ff_example_en": "Complete silence was required during the meeting.",
+        "ff_example_vi": "Sự im lặng hoàn toàn được yêu cầu trong cuộc họp."
+      }
     },
     {
       "id": 8,
@@ -180,7 +222,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "sign",
+        "explanation_vi": "“Signal” là tín hiệu điện tử hoặc dấu hiệu truyền lệnh; “sign” là biển báo hoặc dấu hiệu nói chung.",
+        "example_en": "My phone has a weak signal inside the building.",
+        "example_vi": "Điện thoại của tôi có sóng yếu bên trong tòa nhà.",
+        "ff_example_en": "A sign outside the building shows the network provider’s name.",
+        "ff_example_vi": "Một biển hiệu bên ngoài tòa nhà cho biết tên nhà mạng."
+      }
     },
     {
       "id": 9,
@@ -214,7 +263,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "hold on",
+        "explanation_vi": "“Hang up” là kết thúc cuộc gọi; “hold on” là chờ và giữ máy.",
+        "example_en": "Do not hang up before I give you the address.",
+        "example_vi": "Đừng cúp máy trước khi tôi đưa địa chỉ.",
+        "ff_example_en": "Please hold on while I find the address.",
+        "ff_example_vi": "Vui lòng giữ máy trong khi tôi tìm địa chỉ."
+      }
     },
     {
       "id": 11,
@@ -231,7 +287,14 @@
         "adjective": "missed / missing",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "missing",
+        "explanation_vi": "“Missed” nói một sự kiện hoặc cuộc gọi đã không được nhận; “missing” nói người hoặc vật không tìm thấy.",
+        "example_en": "Lan returned my missed call.",
+        "example_vi": "Lan gọi lại cuộc gọi nhỡ của tôi.",
+        "ff_example_en": "Lan used her phone to report a missing bag.",
+        "ff_example_vi": "Lan dùng điện thoại để báo một chiếc túi bị thất lạc."
+      }
     },
     {
       "id": 12,
@@ -248,7 +311,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "talker",
+        "explanation_vi": "“Speaker” có thể là loa hoặc người phát biểu; “talker” là người nói nhiều hoặc có cách nói nhất định.",
+        "example_en": "Turn on the phone’s speaker so everyone can hear.",
+        "example_vi": "Hãy bật loa điện thoại để mọi người đều nghe được.",
+        "ff_example_en": "Lan is a fast talker, so listen carefully on the call.",
+        "ff_example_vi": "Lan là người nói nhanh, vì vậy hãy nghe kỹ trong cuộc gọi."
+      }
     },
     {
       "id": 13,
@@ -282,7 +352,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "internet",
+        "explanation_vi": "“Network” là hệ thống kết nối thiết bị hoặc nhà cung cấp liên lạc; “internet” là mạng toàn cầu kết nối nhiều mạng.",
+        "example_en": "My phone cannot connect to the mobile network.",
+        "example_vi": "Điện thoại của tôi không thể kết nối với mạng di động.",
+        "ff_example_en": "My phone cannot access the internet through the network.",
+        "ff_example_vi": "Điện thoại của tôi không thể truy cập internet qua mạng."
+      }
     },
     {
       "id": 15,

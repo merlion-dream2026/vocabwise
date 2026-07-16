@@ -61,7 +61,14 @@
         "adjective": "spoken",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "talk",
+        "explanation_vi": "“Speak” thường dùng cho khả năng ngôn ngữ hoặc phát biểu; “talk” thường nhấn mạnh cuộc trò chuyện.",
+        "example_en": "Lan spoke English during the classroom activity.",
+        "example_vi": "Lan nói tiếng Anh trong hoạt động trên lớp.",
+        "ff_example_en": "Lan talked to her partner during the classroom activity.",
+        "ff_example_vi": "Lan trò chuyện với bạn cùng cặp trong hoạt động trên lớp."
+      }
     },
     {
       "id": 2,
@@ -78,7 +85,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "hear",
+        "explanation_vi": "“Listen” là chủ động chú ý đến âm thanh; “hear” là nghe thấy âm thanh.",
+        "example_en": "Listen carefully to the teacher’s instructions.",
+        "example_vi": "Hãy lắng nghe kỹ hướng dẫn của giáo viên.",
+        "ff_example_en": "I could hear the teacher despite the noise outside.",
+        "ff_example_vi": "Tôi vẫn nghe thấy giáo viên dù bên ngoài có tiếng ồn."
+      }
     },
     {
       "id": 3,
@@ -112,7 +126,14 @@
         "adjective": "fast / faster / fastest",
         "adverb": "fast / quickly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "quick",
+        "explanation_vi": "“Fast” thường mô tả tốc độ chuyển động hoặc hoạt động; “quick” thường nói việc diễn ra trong thời gian ngắn.",
+        "example_en": "Lan speaks English very fast.",
+        "example_vi": "Lan nói tiếng Anh rất nhanh.",
+        "ff_example_en": "Lan gave a quick answer to the teacher’s question.",
+        "ff_example_vi": "Lan đưa ra câu trả lời nhanh cho câu hỏi của giáo viên."
+      }
     },
     {
       "id": 5,
@@ -129,7 +150,14 @@
         "adjective": "paired",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "pear",
+        "explanation_vi": "“Pair” là một cặp gồm hai người hoặc vật; “pear” là quả lê. Hai từ phát âm giống nhau.",
+        "example_en": "Work with a partner in a pair.",
+        "example_vi": "Hãy làm việc với một bạn theo cặp.",
+        "ff_example_en": "Share a pear with your partner during the break.",
+        "ff_example_vi": "Hãy chia một quả lê với bạn cùng cặp trong giờ nghỉ."
+      }
     },
     {
       "id": 6,
@@ -147,8 +175,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "cuộn (bánh mì) / cuộn",
-        "explanation_vi": "\"Roll\" (cuộn) và \"role\" (vai diễn) phát âm giống nhau nhưng khác nghĩa hoàn toàn. Trong lớp học, \"role\" luôn có nghĩa là vai diễn trong bài tập."
+        "word": "roll",
+        "explanation_vi": "\"Roll\" (cuộn) và \"role\" (vai diễn) phát âm giống nhau nhưng khác nghĩa hoàn toàn. Trong lớp học, \"role\" luôn có nghĩa là vai diễn trong bài tập.",
+        "example_en": "Nam played the role of a king in the school play.",
+        "example_vi": "Nam đóng vai một vị vua trong vở kịch của trường.",
+        "ff_example_en": "Nam ate a bread roll during a break in the school play rehearsal.",
+        "ff_example_vi": "Nam ăn một chiếc bánh mì cuộn trong giờ nghỉ của buổi tập kịch ở trường."
       }
     },
     {
@@ -200,7 +232,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "rise",
+        "explanation_vi": "“Raise” cần tân ngữ và nghĩa là nâng một thứ lên; “rise” không cần tân ngữ và nghĩa là tự tăng hoặc đứng dậy.",
+        "example_en": "Raise your hand if you know the answer.",
+        "example_vi": "Hãy giơ tay nếu em biết câu trả lời.",
+        "ff_example_en": "Please rise when the guest enters the classroom.",
+        "ff_example_vi": "Vui lòng đứng dậy khi khách bước vào lớp."
+      }
     },
     {
       "id": 10,
@@ -251,7 +290,14 @@
         "adjective": "improved / improving",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "increase",
+        "explanation_vi": "“Improve” nghĩa là trở nên tốt hơn; “increase” nghĩa là tăng về số lượng hoặc mức độ.",
+        "example_en": "Lan improved her pronunciation through daily practice.",
+        "example_vi": "Lan cải thiện phát âm nhờ luyện tập hằng ngày.",
+        "ff_example_en": "Lan increased her practice time to thirty minutes a day.",
+        "ff_example_vi": "Lan tăng thời gian luyện tập lên ba mươi phút mỗi ngày."
+      }
     },
     {
       "id": 13,
@@ -302,7 +348,14 @@
         "adjective": "progressive",
         "adverb": "progressively"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "process",
+        "explanation_vi": "“Progress” là sự tiến bộ; “process” là một chuỗi bước để thực hiện việc gì. Hai từ có cách viết khá giống nhau.",
+        "example_en": "Lan made good progress in speaking this term.",
+        "example_vi": "Lan tiến bộ tốt về kỹ năng nói trong học kỳ này.",
+        "ff_example_en": "Lan followed a clear process for preparing each speech.",
+        "ff_example_vi": "Lan làm theo một quy trình rõ ràng để chuẩn bị từng bài nói."
+      }
     }
   ],
   "exercises": {

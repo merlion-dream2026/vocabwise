@@ -61,7 +61,14 @@
         "adjective": "tall / taller / tallest",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "high",
+        "explanation_vi": "“Tall” thường dùng cho người hoặc vật có chiều cao theo phương thẳng đứng; “high” thường nói vị trí hoặc độ cao so với mặt đất.",
+        "example_en": "The basketball player is very tall.",
+        "example_vi": "Cầu thủ bóng rổ rất cao.",
+        "ff_example_en": "The basketball hoop is very high above the floor.",
+        "ff_example_vi": "Rổ bóng nằm rất cao so với mặt sàn."
+      }
     },
     {
       "id": 2,
@@ -78,7 +85,14 @@
         "adjective": "short / shorter / shortest",
         "adverb": "shortly (= soon)"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "low",
+        "explanation_vi": "“Short” thường dùng cho người hoặc vật có chiều dài hay chiều cao nhỏ; “low” nói vị trí hoặc mức độ thấp.",
+        "example_en": "The new student is short for his age.",
+        "example_vi": "Học sinh mới khá thấp so với tuổi.",
+        "ff_example_en": "The classroom window is low enough for him to reach.",
+        "ff_example_vi": "Cửa sổ lớp học đủ thấp để em ấy với tới."
+      }
     },
     {
       "id": 3,
@@ -95,7 +109,14 @@
         "adjective": "thin / slim / slender",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "slim",
+        "explanation_vi": "“Thin” chỉ cơ thể ít mỡ và đôi khi gợi ý quá gầy; “slim” thường mang sắc thái tích cực, nghĩa là thon gọn.",
+        "example_en": "The patient looked thin after being ill for several weeks.",
+        "example_vi": "Bệnh nhân trông gầy sau khi bị ốm vài tuần.",
+        "ff_example_en": "The athlete looked slim and healthy after training.",
+        "ff_example_vi": "Vận động viên trông thon gọn và khỏe mạnh sau khi tập luyện."
+      }
     },
     {
       "id": 4,
@@ -146,7 +167,14 @@
         "adjective": "old / older / oldest",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "elderly",
+        "explanation_vi": "“Old” là từ chung nghĩa là già hoặc cũ; “elderly” là cách lịch sự hơn để nói về người lớn tuổi.",
+        "example_en": "An old man was waiting outside the clinic.",
+        "example_vi": "Một ông lão đang chờ bên ngoài phòng khám.",
+        "ff_example_en": "An elderly patient was waiting outside the clinic.",
+        "ff_example_vi": "Một bệnh nhân cao tuổi đang chờ bên ngoài phòng khám."
+      }
     },
     {
       "id": 7,
@@ -265,7 +293,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "put on",
+        "explanation_vi": "“Put on” là hành động mặc hoặc đeo vào; “wear” là trạng thái đang mặc hoặc đeo.",
+        "example_en": "Lan put on her school jacket before leaving home.",
+        "example_vi": "Lan mặc áo khoác đồng phục trước khi rời nhà.",
+        "ff_example_en": "Lan wore her school jacket throughout the journey.",
+        "ff_example_vi": "Lan mặc áo khoác đồng phục trong suốt chuyến đi."
+      }
     },
     {
       "id": 14,
@@ -299,7 +334,14 @@
         "adjective": "similar",
         "adverb": "similarly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "same",
+        "explanation_vi": "“Similar” nghĩa là giống nhau ở nhiều điểm nhưng không hoàn toàn; “same” nghĩa là hoàn toàn giống hoặc là chính cùng một vật.",
+        "example_en": "The twins wore similar blue shirts.",
+        "example_vi": "Cặp song sinh mặc những chiếc áo xanh tương tự nhau.",
+        "ff_example_en": "The twins tried to wear the same blue shirt.",
+        "ff_example_vi": "Cặp song sinh cố mặc cùng một chiếc áo xanh."
+      }
     }
   ],
   "exercises": {

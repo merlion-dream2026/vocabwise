@@ -115,7 +115,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "omit",
+        "explanation_vi": "'Emit' là phát ra khí, ánh sáng hoặc âm thanh; 'omit' là bỏ sót hoặc loại khỏi nội dung.",
+        "example_en": "The report states that the factory emits harmful gases.",
+        "example_vi": "Báo cáo nêu rằng nhà máy thải ra khí độc hại.",
+        "ff_example_en": "The report should not omit data about harmful gases.",
+        "ff_example_vi": "Báo cáo không nên bỏ sót dữ liệu về khí độc hại."
+      },
       "receptive_productive": "R"
     },
     {
@@ -223,7 +230,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "investigation",
+        "explanation_vi": "'Investment' là việc đầu tư tiền hoặc nguồn lực; 'investigation' là cuộc điều tra.",
+        "example_en": "The company announced a major investment in clean energy.",
+        "example_vi": "Công ty công bố một khoản đầu tư lớn vào năng lượng sạch.",
+        "ff_example_en": "The authorities announced an investigation into the energy company.",
+        "ff_example_vi": "Nhà chức trách công bố một cuộc điều tra đối với công ty năng lượng."
+      },
       "receptive_productive": "R"
     },
     {
@@ -241,7 +255,14 @@
         "adjective": "transitional",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "transmission",
+        "explanation_vi": "'Transition' là sự chuyển đổi từ trạng thái này sang trạng thái khác; 'transmission' là sự truyền tải điện, dữ liệu hoặc bệnh.",
+        "example_en": "The country is planning a transition to renewable energy.",
+        "example_vi": "Quốc gia này đang lên kế hoạch chuyển đổi sang năng lượng tái tạo.",
+        "ff_example_en": "The new grid will improve the transmission of renewable electricity.",
+        "ff_example_vi": "Lưới điện mới sẽ cải thiện việc truyền tải điện tái tạo."
+      },
       "receptive_productive": "R"
     },
     {
@@ -313,7 +334,14 @@
         "adjective": "sustainable",
         "adverb": "sustainably"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "sustained",
+        "explanation_vi": "'Sustainable' nghĩa là có thể duy trì lâu dài mà không làm cạn kiệt nguồn lực; 'sustained' nghĩa là được duy trì liên tục trong một khoảng thời gian.",
+        "example_en": "The city needs a sustainable transport system.",
+        "example_vi": "Thành phố cần một hệ thống giao thông bền vững.",
+        "ff_example_en": "The city experienced sustained growth in public transport use.",
+        "ff_example_vi": "Thành phố ghi nhận mức tăng liên tục trong việc sử dụng giao thông công cộng."
+      },
       "receptive_productive": "R"
     }
   ],

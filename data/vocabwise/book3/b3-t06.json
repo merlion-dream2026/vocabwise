@@ -152,8 +152,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "persistence",
-        "explanation_vi": "'Perseverance' nhấn mạnh tiếp tục dù có khó khăn lớn; 'persistence' thường mang nghĩa trung lập hơn — tiếp tục lặp lại. Trong ngữ cảnh thể thao, 'perseverance' là lựa chọn tự nhiên hơn."
+        "word": "persistence",
+        "explanation_vi": "'Perseverance' nhấn mạnh tiếp tục dù có khó khăn lớn; 'persistence' thường mang nghĩa trung lập hơn — tiếp tục lặp lại. Trong ngữ cảnh thể thao, 'perseverance' là lựa chọn tự nhiên hơn.",
+        "example_en": "The runner showed perseverance by continuing despite a serious injury.",
+        "example_vi": "Vận động viên thể hiện sự kiên trì khi tiếp tục dù bị chấn thương nghiêm trọng.",
+        "ff_example_en": "Her persistence in asking for a review eventually produced a response.",
+        "ff_example_vi": "Việc cô ấy kiên trì yêu cầu xem xét lại cuối cùng đã nhận được phản hồi."
       },
       "receptive_productive": "P"
     },
@@ -173,8 +177,12 @@
         "adverb": "spectacularly"
       },
       "false_friend": {
-        "word_vi": "spectacles",
-        "explanation_vi": "'Spectacle' (số ít) là cảnh tượng/màn trình diễn; 'spectacles' (số nhiều) là kính mắt — hai nghĩa hoàn toàn khác nhau."
+        "word": "spectacles",
+        "explanation_vi": "'Spectacle' (số ít) là cảnh tượng/màn trình diễn; 'spectacles' (số nhiều) là kính mắt — hai nghĩa hoàn toàn khác nhau.",
+        "example_en": "The opening ceremony was an impressive spectacle for the crowd.",
+        "example_vi": "Lễ khai mạc là một cảnh tượng ấn tượng đối với đám đông.",
+        "ff_example_en": "One spectator used spectacles to see the ceremony clearly.",
+        "ff_example_vi": "Một khán giả dùng kính mắt để nhìn rõ buổi lễ."
       },
       "receptive_productive": "P"
     },
@@ -193,7 +201,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "integration",
+        "explanation_vi": "'Integrity' là sự chính trực hoặc tính toàn vẹn; 'integration' là sự hòa nhập hoặc kết hợp thành một hệ thống.",
+        "example_en": "The athlete was respected for her integrity.",
+        "example_vi": "Vận động viên được tôn trọng vì sự chính trực.",
+        "ff_example_en": "The team supported the integration of new athletes.",
+        "ff_example_vi": "Đội hỗ trợ sự hòa nhập của các vận động viên mới."
+      },
       "receptive_productive": "P"
     },
     {
@@ -212,8 +227,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "enthusiast",
-        "explanation_vi": "'Amateur' là người làm việc gì đó không vì tiền lương, dù có thể rất giỏi; 'enthusiast' là người đam mê — không nhất thiết thực hành."
+        "word": "enthusiast",
+        "explanation_vi": "'Amateur' là người làm việc gì đó không vì tiền lương, dù có thể rất giỏi; 'enthusiast' là người đam mê — không nhất thiết thực hành.",
+        "example_en": "The amateur cyclist competes regularly but receives no salary.",
+        "example_vi": "Tay đua xe đạp nghiệp dư thi đấu thường xuyên nhưng không nhận lương.",
+        "ff_example_en": "His brother is a cycling enthusiast who mainly watches races.",
+        "ff_example_vi": "Anh trai anh ấy là người đam mê đua xe đạp và chủ yếu xem các cuộc đua."
       },
       "receptive_productive": "P"
     },
@@ -232,7 +251,14 @@
         "adjective": "psychological",
         "adverb": "psychologically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "physiology",
+        "explanation_vi": "'Psychology' nghiên cứu tâm trí và hành vi; 'physiology' nghiên cứu chức năng của cơ thể sống.",
+        "example_en": "The course examines the psychology of elite athletes.",
+        "example_vi": "Khóa học nghiên cứu tâm lý của vận động viên ưu tú.",
+        "ff_example_en": "The course also examines the physiology of elite athletes.",
+        "ff_example_vi": "Khóa học cũng nghiên cứu sinh lý của vận động viên ưu tú."
+      },
       "receptive_productive": "P"
     },
     {

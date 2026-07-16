@@ -98,8 +98,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "wage",
-        "explanation_vi": "'Salary' là lương cố định hàng tháng; 'wage' là lương theo giờ."
+        "word": "wage",
+        "explanation_vi": "'Salary' là lương cố định hàng tháng; 'wage' là lương theo giờ.",
+        "example_en": "Lan receives a fixed monthly salary from the company.",
+        "example_vi": "Lan nhận mức lương cố định hằng tháng từ công ty.",
+        "ff_example_en": "The factory worker earns an hourly wage from the same company.",
+        "ff_example_vi": "Người công nhân nhà máy nhận lương theo giờ từ cùng công ty đó."
       },
       "receptive_productive": "R"
     },
@@ -118,7 +122,14 @@
         "adjective": "resigned",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "retire",
+        "explanation_vi": "'Resign' là chủ động thôi việc hoặc từ chức; 'retire' là nghỉ hưu, thường vì đã đến tuổi kết thúc sự nghiệp.",
+        "example_en": "Ms Hoa decided to resign from the company at the age of forty.",
+        "example_vi": "Cô Hoa quyết định nghỉ việc ở công ty khi bốn mươi tuổi.",
+        "ff_example_en": "Ms Hoa plans to retire from the company at the age of sixty.",
+        "ff_example_vi": "Cô Hoa dự định nghỉ hưu ở công ty khi sáu mươi tuổi."
+      },
       "receptive_productive": "P"
     },
     {
@@ -136,7 +147,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "employee",
+        "explanation_vi": "'Employer' là người hoặc tổ chức thuê lao động; 'employee' là người làm việc cho tổ chức đó.",
+        "example_en": "The employer offered Lan a full-time contract.",
+        "example_vi": "Nhà tuyển dụng đề nghị Lan một hợp đồng toàn thời gian.",
+        "ff_example_en": "The employee signed the full-time contract.",
+        "ff_example_vi": "Nhân viên đã ký hợp đồng toàn thời gian."
+      },
       "receptive_productive": "R"
     },
     {
@@ -154,7 +172,14 @@
         "adjective": "professional",
         "adverb": "professionally"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "profession",
+        "explanation_vi": "'Professional' thường là tính từ nghĩa là chuyên nghiệp hoặc danh từ chỉ người có chuyên môn; 'profession' là nghề nghiệp đòi hỏi đào tạo chuyên môn.",
+        "example_en": "Mai gave a professional presentation at the career fair.",
+        "example_vi": "Mai có một bài thuyết trình chuyên nghiệp tại hội chợ nghề nghiệp.",
+        "ff_example_en": "Teaching is the profession Mai hopes to enter.",
+        "ff_example_vi": "Giảng dạy là nghề nghiệp mà Mai mong muốn theo đuổi."
+      },
       "receptive_productive": "R"
     },
     {
@@ -226,7 +251,14 @@
         "adjective": "contractual",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "contact",
+        "explanation_vi": "'Contract' là hợp đồng; 'contact' là sự liên lạc hoặc người để liên hệ.",
+        "example_en": "Lan signed a contract with the new company.",
+        "example_vi": "Lan ký hợp đồng với công ty mới.",
+        "ff_example_en": "Lan saved the manager as a contact on her phone.",
+        "ff_example_vi": "Lan lưu người quản lý làm một liên hệ trong điện thoại."
+      },
       "receptive_productive": "R"
     },
     {
@@ -263,8 +295,12 @@
         "adverb": "industriously"
       },
       "false_friend": {
-        "word_vi": "industrious",
-        "explanation_vi": "'Industry' là ngành nghề; 'industrious' là chăm chỉ — không phải cùng nghĩa."
+        "word": "industrious",
+        "explanation_vi": "'Industry' là ngành nghề; 'industrious' là chăm chỉ — không phải cùng nghĩa.",
+        "example_en": "The technology industry employs thousands of people in the city.",
+        "example_vi": "Ngành công nghệ tuyển dụng hàng nghìn người trong thành phố.",
+        "ff_example_en": "The company values industrious employees who work carefully and consistently.",
+        "ff_example_vi": "Công ty coi trọng những nhân viên chăm chỉ, làm việc cẩn thận và đều đặn."
       },
       "receptive_productive": "R"
     },

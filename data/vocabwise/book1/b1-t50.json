@@ -61,7 +61,14 @@
         "adjective": "direct / directional",
         "adverb": "directly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "directions",
+        "explanation_vi": "“Direction” thường là một hướng; “directions” thường là các chỉ dẫn đường đi hoặc hướng dẫn.",
+        "example_en": "The arrow points in the direction of the station.",
+        "example_vi": "Mũi tên chỉ về hướng nhà ga.",
+        "ff_example_en": "The tourist asked for directions to the station.",
+        "ff_example_vi": "Khách du lịch hỏi đường đến nhà ga."
+      }
     },
     {
       "id": 2,
@@ -79,8 +86,12 @@
         "adverb": "left"
       },
       "false_friend": {
-        "word_vi": "left (quá khứ của 'leave')",
-        "explanation_vi": "'Left' vừa có nghĩa là 'bên trái', vừa là quá khứ của động từ 'leave' (rời đi). Hãy chú ý ngữ cảnh để phân biệt: 'Turn left' (rẽ trái) khác với 'She left the room' (cô ấy rời phòng)."
+        "word": "",
+        "explanation_vi": "'Left' vừa có nghĩa là 'bên trái', vừa là quá khứ của động từ 'leave' (rời đi). Hãy chú ý ngữ cảnh để phân biệt: 'Turn left' (rẽ trái) khác với 'She left the room' (cô ấy rời phòng).",
+        "example_en": "Turn left when you reach the entrance to the station.",
+        "example_vi": "Hãy rẽ trái khi bạn đến lối vào nhà ga.",
+        "ff_example_en": "Lan left the station through the main entrance.",
+        "ff_example_vi": "Lan rời nhà ga qua lối vào chính."
       }
     },
     {
@@ -99,8 +110,12 @@
         "adverb": "right / rightly"
       },
       "false_friend": {
-        "word_vi": "right = đúng",
-        "explanation_vi": "'Right' có hai nghĩa phổ biến: 'bên phải' (về hướng đi) và 'đúng' (về sự chính xác). Ví dụ: 'Turn right' (rẽ phải) và 'That answer is right' (câu trả lời đó đúng). Đừng nhầm lẫn hai nghĩa này."
+        "word": "",
+        "explanation_vi": "'Right' có hai nghĩa phổ biến: 'bên phải' (về hướng đi) và 'đúng' (về sự chính xác). Ví dụ: 'Turn right' (rẽ phải) và 'That answer is right' (câu trả lời đó đúng). Đừng nhầm lẫn hai nghĩa này.",
+        "example_en": "Write your name on the right side of the answer sheet.",
+        "example_vi": "Hãy viết tên của em ở phía bên phải của phiếu trả lời.",
+        "ff_example_en": "The teacher said that every answer on the sheet was right.",
+        "ff_example_vi": "Giáo viên nói rằng mọi câu trả lời trên phiếu đều đúng."
       }
     },
     {
@@ -118,7 +133,14 @@
         "adjective": "straight",
         "adverb": "straight / straightly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "directly",
+        "explanation_vi": "“Straight” nghĩa là theo đường thẳng, không rẽ; “directly” nghĩa là ngay lập tức hoặc theo cách trực tiếp.",
+        "example_en": "Go straight until you reach the traffic lights.",
+        "example_vi": "Hãy đi thẳng cho đến khi đến đèn giao thông.",
+        "ff_example_en": "Go directly to the information desk when you arrive.",
+        "ff_example_vi": "Hãy đi thẳng đến quầy thông tin ngay khi bạn tới nơi."
+      }
     },
     {
       "id": 5,
@@ -152,7 +174,14 @@
         "adjective": "cross",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "across",
+        "explanation_vi": "“Cross” là động từ nghĩa là băng qua; “across” thường là giới từ hoặc trạng từ nghĩa là từ bên này sang bên kia.",
+        "example_en": "Cross the road at the traffic lights.",
+        "example_vi": "Hãy băng qua đường tại đèn giao thông.",
+        "ff_example_en": "The bank is across the road from the station.",
+        "ff_example_vi": "Ngân hàng nằm bên kia đường đối diện nhà ga."
+      }
     },
     {
       "id": 7,
@@ -169,7 +198,14 @@
         "adjective": "passing",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "past",
+        "explanation_vi": "“Pass” là động từ nghĩa là đi qua; “past” thường là giới từ hoặc trạng từ nghĩa là qua khỏi. Hai từ phát âm giống nhau.",
+        "example_en": "You will pass the museum on your way to the station.",
+        "example_vi": "Bạn sẽ đi qua bảo tàng trên đường đến nhà ga.",
+        "ff_example_en": "Walk past the museum and turn left.",
+        "ff_example_vi": "Hãy đi ngang qua bảo tàng rồi rẽ trái."
+      }
     },
     {
       "id": 8,
@@ -203,7 +239,14 @@
         "adjective": "opposite",
         "adverb": "opposite"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "across from",
+        "explanation_vi": "“Opposite” và “across from” đều có thể nghĩa là đối diện; “opposite” thường dùng phổ biến trong Anh-Anh, còn “across from” phổ biến trong Anh-Mỹ.",
+        "example_en": "The café is opposite the station.",
+        "example_vi": "Quán cà phê nằm đối diện nhà ga.",
+        "ff_example_en": "The café is across from the station.",
+        "ff_example_vi": "Quán cà phê nằm đối diện nhà ga."
+      }
     },
     {
       "id": 10,
@@ -220,7 +263,14 @@
         "adjective": "near / nearest",
         "adverb": "nearly / near"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "nearly",
+        "explanation_vi": "“Near” nghĩa là gần; “nearly” nghĩa là gần như hoặc xấp xỉ.",
+        "example_en": "The hotel is near the station.",
+        "example_vi": "Khách sạn ở gần nhà ga.",
+        "ff_example_en": "The hotel is nearly two kilometres from the station.",
+        "ff_example_vi": "Khách sạn cách nhà ga gần hai ki-lô-mét."
+      }
     },
     {
       "id": 11,
@@ -255,8 +305,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "block = chặn lại",
-        "explanation_vi": "'Block' có nghĩa là 'dãy nhà' khi dùng để chỉ đường ('two blocks away'). Nhưng nó cũng có nghĩa là 'chặn lại' khi dùng như động từ ('the road is blocked'). Đừng nhầm lẫn hai nghĩa này."
+        "word": "",
+        "explanation_vi": "'Block' có nghĩa là 'dãy nhà' khi dùng để chỉ đường ('two blocks away'). Nhưng nó cũng có nghĩa là 'chặn lại' khi dùng như động từ ('the road is blocked'). Đừng nhầm lẫn hai nghĩa này.",
+        "example_en": "The bookshop is one block away from the school.",
+        "example_vi": "Hiệu sách cách trường một dãy nhà.",
+        "ff_example_en": "A delivery truck is blocking the road between the bookshop and the school.",
+        "ff_example_vi": "Một chiếc xe tải giao hàng đang chặn con đường giữa hiệu sách và trường học."
       }
     },
     {
@@ -274,7 +328,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "signal",
+        "explanation_vi": "“Sign” là biển báo hoặc dấu hiệu cung cấp thông tin; “signal” là tín hiệu truyền lệnh hoặc thông báo.",
+        "example_en": "The road sign shows the way to the airport.",
+        "example_vi": "Biển chỉ đường cho biết đường đến sân bay.",
+        "ff_example_en": "The traffic signal turned green near the airport.",
+        "ff_example_vi": "Đèn tín hiệu giao thông chuyển xanh gần sân bay."
+      }
     },
     {
       "id": 14,
@@ -291,7 +352,14 @@
         "adjective": "distant",
         "adverb": "distantly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "length",
+        "explanation_vi": "“Distance” là khoảng cách giữa hai địa điểm; “length” là chiều dài của một vật hoặc tuyến đường.",
+        "example_en": "The distance from the hotel to the station is two kilometres.",
+        "example_vi": "Khoảng cách từ khách sạn đến nhà ga là hai ki-lô-mét.",
+        "ff_example_en": "The length of the bridge near the station is two kilometres.",
+        "ff_example_vi": "Chiều dài của cây cầu gần nhà ga là hai ki-lô-mét."
+      }
     },
     {
       "id": 15,
@@ -308,7 +376,14 @@
         "adjective": "reachable / unreachable",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "arrive",
+        "explanation_vi": "“Reach” đi trực tiếp với địa điểm; “arrive” thường đi với “at” hoặc “in”.",
+        "example_en": "We reached the station at nine.",
+        "example_vi": "Chúng tôi đến nhà ga lúc chín giờ.",
+        "ff_example_en": "We arrived at the station at nine.",
+        "ff_example_vi": "Chúng tôi đến nhà ga lúc chín giờ."
+      }
     }
   ],
   "exercises": {

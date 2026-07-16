@@ -61,7 +61,14 @@
         "adjective": "experimental",
         "adverb": "experimentally"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "experience",
+        "explanation_vi": "“Experiment” là thí nghiệm có quy trình kiểm chứng; “experience” là trải nghiệm hoặc kinh nghiệm.",
+        "example_en": "The students conducted an experiment with hot water.",
+        "example_vi": "Các học sinh tiến hành một thí nghiệm với nước nóng.",
+        "ff_example_en": "The students gained useful experience in the laboratory.",
+        "ff_example_vi": "Các học sinh có được kinh nghiệm hữu ích trong phòng thí nghiệm."
+      }
     },
     {
       "id": 2,
@@ -95,7 +102,14 @@
         "adjective": "cold / colder / coldest",
         "adverb": "coldly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "cool",
+        "explanation_vi": "“Cold” nghĩa là lạnh; “cool” nghĩa là mát hoặc hơi lạnh, thường dễ chịu hơn.",
+        "example_en": "The water became cold after an hour in the refrigerator.",
+        "example_vi": "Nước trở nên lạnh sau một giờ trong tủ lạnh.",
+        "ff_example_en": "The water became cool after standing on the table for ten minutes.",
+        "ff_example_vi": "Nước trở nên mát sau khi để trên bàn mười phút."
+      }
     },
     {
       "id": 4,
@@ -112,7 +126,14 @@
         "adjective": "hot / hotter / hottest",
         "adverb": "hotly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "heat",
+        "explanation_vi": "“Hot” là tính từ chỉ nhiệt độ cao; “heat” là danh từ hoặc động từ chỉ nhiệt hoặc làm nóng.",
+        "example_en": "The liquid was too hot to touch.",
+        "example_vi": "Chất lỏng quá nóng để chạm vào.",
+        "ff_example_en": "The students used heat to change the liquid.",
+        "ff_example_vi": "Các học sinh dùng nhiệt để làm thay đổi chất lỏng."
+      }
     },
     {
       "id": 5,
@@ -147,8 +168,12 @@
         "adverb": "watchfully"
       },
       "false_friend": {
-        "word_vi": "đồng hồ đeo tay",
-        "explanation_vi": "\"Watch\" vừa có nghĩa là \"quan sát\" (động từ) vừa là \"đồng hồ đeo tay\" (danh từ). Trong ngữ cảnh thí nghiệm, \"watch\" có nghĩa là quan sát, không phải đồng hồ."
+        "word": "",
+        "explanation_vi": "\"Watch\" vừa có nghĩa là \"quan sát\" (động từ) vừa là \"đồng hồ đeo tay\" (danh từ). Trong ngữ cảnh thí nghiệm, \"watch\" có nghĩa là quan sát, không phải đồng hồ.",
+        "example_en": "Watch the liquid carefully as it changes colour.",
+        "example_vi": "Hãy quan sát chất lỏng cẩn thận khi nó đổi màu.",
+        "ff_example_en": "The student checked his watch while waiting for the liquid to change colour.",
+        "ff_example_vi": "Học sinh xem đồng hồ đeo tay trong khi chờ chất lỏng đổi màu."
       }
     },
     {
@@ -183,7 +208,14 @@
         "adjective": "safe / unsafe",
         "adverb": "safely"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "save",
+        "explanation_vi": "“Safe” là tính từ nghĩa là an toàn; “save” là động từ nghĩa là cứu hoặc lưu lại. Hai từ có phát âm gần nhau.",
+        "example_en": "The experiment is safe when students wear gloves.",
+        "example_vi": "Thí nghiệm an toàn khi học sinh đeo găng tay.",
+        "ff_example_en": "The students saved the results on the computer.",
+        "ff_example_vi": "Các học sinh lưu kết quả trên máy tính."
+      }
     },
     {
       "id": 9,
@@ -217,7 +249,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "experiment",
+        "explanation_vi": "“Trial” là một lần thử để kiểm tra hiệu quả; “experiment” là nghiên cứu có kiểm soát nhằm kiểm chứng giả thuyết.",
+        "example_en": "The first trial produced an unexpected result.",
+        "example_vi": "Lần thử đầu tiên tạo ra kết quả bất ngờ.",
+        "ff_example_en": "The full experiment tested how temperature affected the liquid.",
+        "ff_example_vi": "Thí nghiệm đầy đủ kiểm tra nhiệt độ ảnh hưởng đến chất lỏng như thế nào."
+      }
     },
     {
       "id": 11,
@@ -268,7 +307,14 @@
         "adjective": "observant",
         "adverb": "observantly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "watch",
+        "explanation_vi": "“Observe” là quan sát kỹ, thường có mục đích khoa học; “watch” là nhìn một hoạt động trong một khoảng thời gian.",
+        "example_en": "The students observed the colour change and wrote notes.",
+        "example_vi": "Các học sinh quan sát sự thay đổi màu sắc và ghi chép.",
+        "ff_example_en": "The students watched the teacher perform the experiment.",
+        "ff_example_vi": "Các học sinh xem giáo viên thực hiện thí nghiệm."
+      }
     },
     {
       "id": 14,
@@ -285,7 +331,14 @@
         "adjective": "measurable",
         "adverb": "measurably"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "measurement",
+        "explanation_vi": "“Measure” là động từ “đo” hoặc dụng cụ đo; “measurement” là kết quả hoặc quá trình đo.",
+        "example_en": "The students measured the temperature every minute.",
+        "example_vi": "Các học sinh đo nhiệt độ mỗi phút.",
+        "ff_example_en": "The students recorded each temperature measurement in a table.",
+        "ff_example_vi": "Các học sinh ghi lại từng số đo nhiệt độ trong bảng."
+      }
     },
     {
       "id": 15,
@@ -303,8 +356,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "kỷ lục / đĩa nhạc",
-        "explanation_vi": "\"Record\" (danh từ, đọc là /ˈrekɔːd/) có nghĩa là kỷ lục hoặc đĩa nhạc. \"Record\" (động từ, đọc là /rɪˈkɔːd/) có nghĩa là ghi lại. Trong thí nghiệm, ta dùng động từ \"record\" — ghi chép kết quả."
+        "word": "",
+        "explanation_vi": "\"Record\" (danh từ, đọc là /ˈrekɔːd/) có nghĩa là kỷ lục hoặc đĩa nhạc. \"Record\" (động từ, đọc là /rɪˈkɔːd/) có nghĩa là ghi lại. Trong thí nghiệm, ta dùng động từ \"record\" — ghi chép kết quả.",
+        "example_en": "The students recorded the temperature every five minutes during the experiment.",
+        "example_vi": "Các học sinh ghi lại nhiệt độ năm phút một lần trong thí nghiệm.",
+        "ff_example_en": "The class set a new record by completing the experiment in ten minutes.",
+        "ff_example_vi": "Cả lớp lập kỷ lục mới khi hoàn thành thí nghiệm trong mười phút."
       }
     }
   ],

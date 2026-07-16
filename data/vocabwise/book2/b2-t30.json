@@ -61,7 +61,14 @@
         "adjective": "consumer",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "customer",
+        "explanation_vi": "'Consumer' là người sử dụng hàng hóa hoặc dịch vụ; 'customer' là người trực tiếp mua từ một doanh nghiệp.",
+        "example_en": "The survey examined how consumers use the product.",
+        "example_vi": "Khảo sát xem xét cách người tiêu dùng sử dụng sản phẩm.",
+        "ff_example_en": "The shop gave each customer a product sample.",
+        "ff_example_vi": "Cửa hàng tặng mỗi khách hàng một mẫu sản phẩm."
+      },
       "receptive_productive": "P"
     },
     {
@@ -133,7 +140,14 @@
         "adjective": "ethical / unethical",
         "adverb": "ethically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "ethnic",
+        "explanation_vi": "'Ethical' nghĩa là thuộc về đạo đức; 'ethnic' nghĩa là thuộc về một nhóm sắc tộc hoặc văn hóa.",
+        "example_en": "The researchers discussed the ethical issues in the study.",
+        "example_vi": "Các nhà nghiên cứu thảo luận những vấn đề đạo đức trong nghiên cứu.",
+        "ff_example_en": "The researchers included participants from several ethnic groups.",
+        "ff_example_vi": "Các nhà nghiên cứu đưa vào người tham gia từ nhiều nhóm sắc tộc."
+      },
       "receptive_productive": "P"
     },
     {
@@ -205,7 +219,14 @@
         "adjective": "quality / high-quality / low-quality",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "quantity",
+        "explanation_vi": "'Quality' là chất lượng; 'quantity' là số lượng.",
+        "example_en": "The inspector checked the quality of the rice.",
+        "example_vi": "Thanh tra kiểm tra chất lượng gạo.",
+        "ff_example_en": "The inspector measured the quantity of rice in storage.",
+        "ff_example_vi": "Thanh tra đo số lượng gạo trong kho."
+      },
       "receptive_productive": "P"
     },
     {
@@ -224,8 +245,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "second-hand",
-        "explanation_vi": "'Used' và 'second-hand' đều có nghĩa đã qua sử dụng — trong bối cảnh mua sắm chúng gần như đồng nghĩa. 'Pre-owned' là từ ngữ thương mại lịch sự hơn, thường dùng cho ô tô và đồ cao cấp."
+        "word": "second-hand",
+        "explanation_vi": "'Used' và 'second-hand' đều có nghĩa đã qua sử dụng — trong bối cảnh mua sắm chúng gần như đồng nghĩa. 'Pre-owned' là từ ngữ thương mại lịch sự hơn, thường dùng cho ô tô và đồ cao cấp.",
+        "example_en": "The shop sells used laptops that have been tested carefully.",
+        "example_vi": "Cửa hàng bán máy tính xách tay đã qua sử dụng và được kiểm tra cẩn thận.",
+        "ff_example_en": "The same shop describes these products as second-hand laptops in its advertisements.",
+        "ff_example_vi": "Cũng cửa hàng đó mô tả các sản phẩm này là máy tính xách tay cũ trong quảng cáo."
       },
       "receptive_productive": "P"
     },
@@ -262,7 +287,14 @@
         "adjective": "affordable / unaffordable",
         "adverb": "affordably"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "effort",
+        "explanation_vi": "'Afford' là đủ khả năng tài chính hoặc thời gian để làm gì; 'effort' là nỗ lực.",
+        "example_en": "Lan cannot afford the expensive course.",
+        "example_vi": "Lan không đủ khả năng chi trả cho khóa học đắt tiền.",
+        "ff_example_en": "Lan made a great effort to win a scholarship for the course.",
+        "ff_example_vi": "Lan đã rất nỗ lực để giành học bổng cho khóa học."
+      },
       "receptive_productive": "P"
     },
     {
@@ -281,8 +313,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "buy",
-        "explanation_vi": "'Purchase' và 'buy' đều có nghĩa mua — 'purchase' chính thức, thường dùng trong văn bản pháp lý, thương mại hoặc văn viết; 'buy' thông dụng hơn, phù hợp với ngôn ngữ nói hàng ngày."
+        "word": "buy",
+        "explanation_vi": "'Purchase' và 'buy' đều có nghĩa mua — 'purchase' chính thức, thường dùng trong văn bản pháp lý, thương mại hoặc văn viết; 'buy' thông dụng hơn, phù hợp với ngôn ngữ nói hàng ngày.",
+        "example_en": "Customers may purchase the camera through the company’s website.",
+        "example_vi": "Khách hàng có thể mua máy ảnh qua trang web của công ty.",
+        "ff_example_en": "Customers can also buy the camera directly from the local shop.",
+        "ff_example_vi": "Khách hàng cũng có thể mua máy ảnh trực tiếp tại cửa hàng địa phương."
       },
       "receptive_productive": "P"
     },
@@ -319,7 +355,14 @@
         "adjective": "refundable / non-refundable",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "return",
+        "explanation_vi": "'Return' là trả lại hàng; 'refund' là khoản tiền được hoàn lại.",
+        "example_en": "The shop gave Lan a full refund for the damaged phone.",
+        "example_vi": "Cửa hàng hoàn lại toàn bộ tiền cho Lan vì chiếc điện thoại bị hỏng.",
+        "ff_example_en": "Lan returned the damaged phone to the shop.",
+        "ff_example_vi": "Lan trả lại chiếc điện thoại bị hỏng cho cửa hàng."
+      },
       "receptive_productive": "P"
     }
   ],

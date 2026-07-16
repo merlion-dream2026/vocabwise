@@ -78,7 +78,14 @@
         "adjective": "cooked / raw",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "cooker",
+        "explanation_vi": "“Cook” là người nấu ăn hoặc động từ “nấu”; “cooker” là thiết bị dùng để nấu thức ăn.",
+        "example_en": "The cook prepared rice for the students.",
+        "example_vi": "Người đầu bếp đã nấu cơm cho học sinh.",
+        "ff_example_en": "The cooker was used to prepare rice for the students.",
+        "ff_example_vi": "Thiết bị nấu được dùng để nấu cơm cho học sinh."
+      }
     },
     {
       "id": 3,
@@ -95,7 +102,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "food",
+        "explanation_vi": "“Meal” là một bữa ăn cụ thể, còn “food” là thức ăn nói chung.",
+        "example_en": "Lunch is the main meal served at the school.",
+        "example_vi": "Bữa trưa là bữa ăn chính được phục vụ tại trường.",
+        "ff_example_en": "The school serves healthy food at lunchtime.",
+        "ff_example_vi": "Nhà trường phục vụ thức ăn lành mạnh vào giờ ăn trưa."
+      }
     },
     {
       "id": 4,
@@ -112,7 +126,14 @@
         "adjective": "hungry",
         "adverb": "hungrily"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "angry",
+        "explanation_vi": "“Hungry” nghĩa là đói, còn “angry” nghĩa là tức giận. Hai từ thường bị nhầm vì phát âm khá giống nhau.",
+        "example_en": "Tom was hungry because he had missed lunch.",
+        "example_vi": "Tom đói vì cậu ấy đã bỏ lỡ bữa trưa.",
+        "ff_example_en": "Tom was angry because someone had taken his lunch.",
+        "ff_example_vi": "Tom tức giận vì ai đó đã lấy mất bữa trưa của cậu ấy."
+      }
     },
     {
       "id": 5,
@@ -181,8 +202,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "meet",
-        "explanation_vi": "'Meat' (thịt) và 'meet' (gặp gỡ) phát âm giống nhau nhưng nghĩa hoàn toàn khác — đây là cặp từ đồng âm."
+        "word": "meet",
+        "explanation_vi": "'Meat' (thịt) và 'meet' (gặp gỡ) phát âm giống nhau nhưng nghĩa hoàn toàn khác — đây là cặp từ đồng âm.",
+        "example_en": "We bought some meat for the class picnic.",
+        "example_vi": "Chúng tôi mua một ít thịt cho buổi dã ngoại của lớp.",
+        "ff_example_en": "We will meet at the school gate before the class picnic.",
+        "ff_example_vi": "Chúng tôi sẽ gặp nhau tại cổng trường trước buổi dã ngoại của lớp."
       }
     },
     {
@@ -217,7 +242,14 @@
         "adjective": "watery",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "waiter",
+        "explanation_vi": "“Water” là nước, còn “waiter” là nam nhân viên phục vụ trong nhà hàng. Hai từ có thể bị nghe nhầm khi phát âm không rõ.",
+        "example_en": "We asked for some water at the restaurant.",
+        "example_vi": "Chúng tôi gọi một ít nước tại nhà hàng.",
+        "ff_example_en": "We asked the waiter for the menu at the restaurant.",
+        "ff_example_vi": "Chúng tôi hỏi người phục vụ nam xin thực đơn tại nhà hàng."
+      }
     },
     {
       "id": 11,
@@ -286,8 +318,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "by",
-        "explanation_vi": "'Buy' (mua) và 'by' (bằng/bởi) phát âm giống nhau nhưng nghĩa khác — đây là cặp từ đồng âm."
+        "word": "by",
+        "explanation_vi": "'Buy' (mua) và 'by' (bằng/bởi) phát âm giống nhau nhưng nghĩa khác — đây là cặp từ đồng âm.",
+        "example_en": "Mai decided to buy the new novel at the school fair.",
+        "example_vi": "Mai quyết định mua cuốn tiểu thuyết mới tại hội chợ của trường.",
+        "ff_example_en": "The new novel was written by a former student.",
+        "ff_example_vi": "Cuốn tiểu thuyết mới được viết bởi một cựu học sinh."
       }
     },
     {

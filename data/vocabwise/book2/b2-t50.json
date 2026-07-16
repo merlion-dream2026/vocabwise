@@ -61,7 +61,14 @@
         "adjective": "populated / densely populated",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "popularity",
+        "explanation_vi": "'Population' là dân số; 'popularity' là mức độ được yêu thích.",
+        "example_en": "The city's population has increased rapidly.",
+        "example_vi": "Dân số của thành phố đã tăng nhanh.",
+        "ff_example_en": "The city's popularity with tourists has increased rapidly.",
+        "ff_example_vi": "Mức độ được du khách yêu thích của thành phố đã tăng nhanh."
+      },
       "receptive_productive": "P"
     },
     {
@@ -151,7 +158,14 @@
         "adjective": "affordable / unaffordable",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "effort",
+        "explanation_vi": "'Afford' là đủ khả năng tài chính hoặc thời gian để làm gì; 'effort' là nỗ lực.",
+        "example_en": "Lan cannot afford the expensive course.",
+        "example_vi": "Lan không đủ khả năng chi trả cho khóa học đắt tiền.",
+        "ff_example_en": "Lan made a great effort to win a scholarship for the course.",
+        "ff_example_vi": "Lan đã rất nỗ lực để giành học bổng cho khóa học."
+      },
       "receptive_productive": "P"
     },
     {
@@ -187,7 +201,14 @@
         "adjective": "resourceful",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "source",
+        "explanation_vi": "'Resource' là tài liệu, công cụ hoặc nguồn lực có thể sử dụng; 'source' là nơi thông tin hoặc vật chất bắt nguồn.",
+        "example_en": "The website is a useful resource for students.",
+        "example_vi": "Trang web là một nguồn tài liệu hữu ích cho học sinh.",
+        "ff_example_en": "The government report is the original source of the statistics.",
+        "ff_example_vi": "Báo cáo của chính phủ là nguồn gốc ban đầu của các số liệu."
+      },
       "receptive_productive": "P"
     },
     {
@@ -313,7 +334,14 @@
         "adjective": "expandable / expanding",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "expend",
+        "explanation_vi": "'Expand' là mở rộng; 'expend' là tiêu tốn tiền, thời gian hoặc năng lượng.",
+        "example_en": "The business plans to expand into new markets.",
+        "example_vi": "Doanh nghiệp dự định mở rộng sang các thị trường mới.",
+        "ff_example_en": "The business will expend more resources on market research.",
+        "ff_example_vi": "Doanh nghiệp sẽ dành thêm nguồn lực cho nghiên cứu thị trường."
+      },
       "receptive_productive": "P"
     }
   ],

@@ -97,7 +97,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "outcome",
+        "explanation_vi": "'Output' là sản phẩm hoặc lượng công việc tạo ra; 'outcome' là kết quả cuối cùng của một quá trình.",
+        "example_en": "The manager measured the team's weekly output.",
+        "example_vi": "Người quản lý đo lượng công việc hằng tuần của nhóm.",
+        "ff_example_en": "The manager evaluated the outcome of the project.",
+        "ff_example_vi": "Người quản lý đánh giá kết quả cuối cùng của dự án."
+      },
       "receptive_productive": "P"
     },
     {
@@ -260,8 +267,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "wage",
-        "explanation_vi": "'Salary' thường chỉ lương tháng hoặc năm (dành cho nhân viên văn phòng), trong khi 'wage' thường chỉ lương tính theo giờ hoặc ngày (dành cho lao động thủ công). Cả hai đều là tiền công nhưng cách tính và đối tượng khác nhau."
+        "word": "wage",
+        "explanation_vi": "'Salary' thường chỉ lương tháng hoặc năm (dành cho nhân viên văn phòng), trong khi 'wage' thường chỉ lương tính theo giờ hoặc ngày (dành cho lao động thủ công). Cả hai đều là tiền công nhưng cách tính và đối tượng khác nhau.",
+        "example_en": "The office manager receives an annual salary.",
+        "example_vi": "Người quản lý văn phòng nhận lương theo năm.",
+        "ff_example_en": "The temporary worker receives an hourly wage.",
+        "ff_example_vi": "Người lao động tạm thời nhận lương theo giờ."
       },
       "receptive_productive": "P"
     },
@@ -316,7 +327,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "workplace",
+        "explanation_vi": "'Workload' là khối lượng công việc; 'workplace' là nơi làm việc.",
+        "example_en": "The manager reduced Lan's workload this week.",
+        "example_vi": "Người quản lý giảm khối lượng công việc của Lan trong tuần này.",
+        "ff_example_en": "The manager introduced new safety rules in the workplace.",
+        "ff_example_vi": "Người quản lý đưa ra các quy định an toàn mới tại nơi làm việc."
+      },
       "receptive_productive": "P"
     }
   ],

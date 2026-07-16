@@ -98,8 +98,12 @@
         "adverb": "depressingly"
       },
       "false_friend": {
-        "word_vi": "recession",
-        "explanation_vi": "'Depression' trong y khoa nghĩa là trầm cảm; trong kinh tế là suy thoái nặng — khác với 'recession' (suy thoái nhẹ). Ngữ cảnh quyết định nghĩa."
+        "word": "",
+        "explanation_vi": "'Depression' trong y khoa nghĩa là trầm cảm; trong kinh tế là suy thoái nặng — khác với 'recession' (suy thoái nhẹ). Ngữ cảnh quyết định nghĩa.",
+        "example_en": "The clinic provides treatment for depression and anxiety.",
+        "example_vi": "Phòng khám cung cấp phương pháp điều trị trầm cảm và lo âu.",
+        "ff_example_en": "The economics lecture examined the Great Depression of the 1930s.",
+        "ff_example_vi": "Bài giảng kinh tế xem xét cuộc Đại suy thoái trong thập niên 1930."
       },
       "receptive_productive": "P"
     },
@@ -136,7 +140,14 @@
         "adjective": "resilient",
         "adverb": "resiliently"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "resistance",
+        "explanation_vi": "'Resilience' là khả năng phục hồi sau khó khăn; 'resistance' là sự chống lại một lực, thay đổi hoặc tác nhân.",
+        "example_en": "The community showed resilience after the flood.",
+        "example_vi": "Cộng đồng thể hiện khả năng phục hồi sau trận lũ.",
+        "ff_example_en": "The community showed resistance to the proposed relocation plan.",
+        "ff_example_vi": "Cộng đồng thể hiện sự phản đối kế hoạch di dời được đề xuất."
+      },
       "receptive_productive": "P"
     },
     {
@@ -191,8 +202,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "consulting",
-        "explanation_vi": "'Counselling' là tư vấn tâm lý/cảm xúc; 'consulting' là tư vấn chuyên môn trong lĩnh vực kinh doanh hay kỹ thuật — không dùng thay thế nhau."
+        "word": "consulting",
+        "explanation_vi": "'Counselling' là tư vấn tâm lý/cảm xúc; 'consulting' là tư vấn chuyên môn trong lĩnh vực kinh doanh hay kỹ thuật — không dùng thay thế nhau.",
+        "example_en": "The company offers counselling to employees experiencing emotional stress.",
+        "example_vi": "Công ty cung cấp tư vấn tâm lý cho nhân viên đang chịu căng thẳng cảm xúc.",
+        "ff_example_en": "It also hires a consulting firm to improve its management system.",
+        "ff_example_vi": "Công ty cũng thuê một hãng tư vấn chuyên môn để cải thiện hệ thống quản lý."
       },
       "receptive_productive": "P"
     },

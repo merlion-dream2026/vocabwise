@@ -78,7 +78,14 @@
         "adjective": "growing / grown",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "grow up",
+        "explanation_vi": "“Grow” là phát triển về kích thước, số lượng hoặc mức độ; “grow up” là trưởng thành từ trẻ em thành người lớn.",
+        "example_en": "The child is growing quickly and needs larger clothes.",
+        "example_vi": "Đứa trẻ đang lớn nhanh và cần quần áo rộng hơn.",
+        "ff_example_en": "The child wants to be a doctor when she grows up.",
+        "ff_example_vi": "Đứa trẻ muốn trở thành bác sĩ khi lớn lên."
+      }
     },
     {
       "id": 3,
@@ -265,7 +272,14 @@
         "adjective": "hopeful / hopeless",
         "adverb": "hopefully"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "wish",
+        "explanation_vi": "“Hope” dùng cho điều có khả năng xảy ra; “wish” thường nói điều khó, không thật hoặc trái với hiện tại.",
+        "example_en": "I hope I will pass the exam next week.",
+        "example_vi": "Tôi hy vọng mình sẽ đỗ kỳ thi vào tuần tới.",
+        "ff_example_en": "I wish the exam were not so difficult.",
+        "ff_example_vi": "Tôi ước kỳ thi không khó đến vậy."
+      }
     },
     {
       "id": 14,
@@ -282,7 +296,14 @@
         "adjective": "ambitious",
         "adverb": "ambitiously"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "goal",
+        "explanation_vi": "“Ambition” là khát vọng lớn và lâu dài; “goal” là mục tiêu cụ thể có thể được đặt ra và hoàn thành.",
+        "example_en": "Lan’s ambition is to become a doctor.",
+        "example_vi": "Hoài bão của Lan là trở thành bác sĩ.",
+        "ff_example_en": "Lan’s immediate goal is to pass the entrance exam.",
+        "ff_example_vi": "Mục tiêu trước mắt của Lan là vượt qua kỳ thi đầu vào."
+      }
     },
     {
       "id": 15,

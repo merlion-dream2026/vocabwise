@@ -62,8 +62,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "promote",
-        "explanation_vi": "'Advertise' là đăng quảng cáo trả tiền trên các kênh truyền thông; 'promote' rộng hơn, bao gồm mọi hoạt động nâng cao nhận thức thương hiệu, kể cả không trả tiền."
+        "word": "promote",
+        "explanation_vi": "'Advertise' là đăng quảng cáo trả tiền trên các kênh truyền thông; 'promote' rộng hơn, bao gồm mọi hoạt động nâng cao nhận thức thương hiệu, kể cả không trả tiền.",
+        "example_en": "The company paid to advertise its new phone on television.",
+        "example_vi": "Công ty trả tiền để quảng cáo điện thoại mới trên truyền hình.",
+        "ff_example_en": "It also used free online events to promote the phone more broadly.",
+        "ff_example_vi": "Công ty cũng dùng các sự kiện trực tuyến miễn phí để quảng bá điện thoại rộng rãi hơn."
       },
       "receptive_productive": "P"
     },
@@ -82,7 +86,14 @@
         "adjective": "productive",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "production",
+        "explanation_vi": "'Product' là sản phẩm cuối cùng; 'production' là quá trình hoặc hoạt động sản xuất.",
+        "example_en": "The company displayed its newest product at the fair.",
+        "example_vi": "Công ty trưng bày sản phẩm mới nhất tại hội chợ.",
+        "ff_example_en": "The company explained the production process at the fair.",
+        "ff_example_vi": "Công ty giải thích quy trình sản xuất tại hội chợ."
+      },
       "receptive_productive": "P"
     },
     {
@@ -119,8 +130,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "customer",
-        "explanation_vi": "'Consumer' là người tiêu dùng chung trong xã hội; 'customer' là người mua hàng từ một công ty cụ thể. 'Consumer rights' = quyền người tiêu dùng (nói chung), 'customer service' = dịch vụ khách hàng (của một công ty)."
+        "word": "customer",
+        "explanation_vi": "'Consumer' là người tiêu dùng chung trong xã hội; 'customer' là người mua hàng từ một công ty cụ thể. 'Consumer rights' = quyền người tiêu dùng (nói chung), 'customer service' = dịch vụ khách hàng (của một công ty).",
+        "example_en": "The study examined how advertising influences the average consumer.",
+        "example_vi": "Nghiên cứu xem xét quảng cáo ảnh hưởng đến người tiêu dùng nói chung như thế nào.",
+        "ff_example_en": "The company interviewed each customer who bought the advertised product.",
+        "ff_example_vi": "Công ty phỏng vấn từng khách hàng đã mua sản phẩm được quảng cáo."
       },
       "receptive_productive": "P"
     },
@@ -139,7 +154,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "camping",
+        "explanation_vi": "'Campaign' là một chiến dịch có mục tiêu; 'camping' là hoạt động cắm trại.",
+        "example_en": "The students organised a campaign to protect the forest.",
+        "example_vi": "Các học sinh tổ chức một chiến dịch bảo vệ rừng.",
+        "ff_example_en": "The students went camping in the forest at the weekend.",
+        "ff_example_vi": "Các học sinh đi cắm trại trong rừng vào cuối tuần."
+      },
       "receptive_productive": "P"
     },
     {
@@ -194,8 +216,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "popularity",
-        "explanation_vi": "'Awareness' là mức độ mọi người biết đến một thương hiệu (nhận biết); 'popularity' là mức độ mọi người yêu thích nó (ưa chuộng) — biết đến không đồng nghĩa với thích."
+        "word": "popularity",
+        "explanation_vi": "'Awareness' là mức độ mọi người biết đến một thương hiệu (nhận biết); 'popularity' là mức độ mọi người yêu thích nó (ưa chuộng) — biết đến không đồng nghĩa với thích.",
+        "example_en": "The campaign increased public awareness of the new brand.",
+        "example_vi": "Chiến dịch làm tăng mức độ nhận biết của công chúng về thương hiệu mới.",
+        "ff_example_en": "Positive reviews later increased the brand’s popularity.",
+        "ff_example_vi": "Những đánh giá tích cực sau đó làm tăng mức độ được yêu thích của thương hiệu."
       },
       "receptive_productive": "P"
     },
@@ -214,7 +240,14 @@
         "adjective": "persuasive",
         "adverb": "persuasively"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "convince",
+        "explanation_vi": "'Persuade' thường nhấn mạnh khiến ai làm điều gì; 'convince' thường nhấn mạnh khiến ai tin rằng điều gì đúng.",
+        "example_en": "The advertisement persuaded Lan to buy the product.",
+        "example_vi": "Quảng cáo thuyết phục Lan mua sản phẩm.",
+        "ff_example_en": "The advertisement convinced Lan that the product was safe.",
+        "ff_example_vi": "Quảng cáo khiến Lan tin rằng sản phẩm an toàn."
+      },
       "receptive_productive": "P"
     },
     {
@@ -250,7 +283,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "massage",
+        "explanation_vi": "'Message' là tin nhắn hoặc thông điệp; 'massage' là sự xoa bóp.",
+        "example_en": "The hotel sent Lan a message about her booking.",
+        "example_vi": "Khách sạn gửi Lan một tin nhắn về đặt phòng.",
+        "ff_example_en": "The hotel offered Lan a massage during her stay.",
+        "ff_example_vi": "Khách sạn cung cấp cho Lan một buổi mát-xa trong thời gian lưu trú."
+      },
       "receptive_productive": "P"
     },
     {
@@ -269,8 +309,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "catch phrase",
-        "explanation_vi": "'Tagline' là câu slogan tóm tắt bản sắc của thương hiệu (gắn với thương hiệu lâu dài); 'catch phrase' là câu nói bắt tai dễ nhớ, thường gắn với một chiến dịch hoặc nhân vật cụ thể."
+        "word": "catch phrase",
+        "explanation_vi": "'Tagline' là câu slogan tóm tắt bản sắc của thương hiệu (gắn với thương hiệu lâu dài); 'catch phrase' là câu nói bắt tai dễ nhớ, thường gắn với một chiến dịch hoặc nhân vật cụ thể.",
+        "example_en": "The company has used the same tagline for twenty years.",
+        "example_vi": "Công ty đã dùng cùng một câu khẩu hiệu thương hiệu trong hai mươi năm.",
+        "ff_example_en": "The actor repeated a catchy catch phrase throughout the short campaign.",
+        "ff_example_vi": "Nam diễn viên lặp lại một câu nói bắt tai trong suốt chiến dịch ngắn."
       },
       "receptive_productive": "R"
     },

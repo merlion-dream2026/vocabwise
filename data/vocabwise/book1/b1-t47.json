@@ -78,7 +78,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "entry",
+        "explanation_vi": "“Entrance” là lối vào hoặc hành động đi vào; “entry” có thể là quyền vào, sự tham gia hoặc một bài dự thi.",
+        "example_en": "Visitors waited at the museum entrance.",
+        "example_vi": "Khách tham quan chờ tại lối vào bảo tàng.",
+        "ff_example_en": "Students received free entry to the museum.",
+        "ff_example_vi": "Học sinh được vào bảo tàng miễn phí."
+      }
     },
     {
       "id": 3,
@@ -95,7 +102,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "exhibition",
+        "explanation_vi": "“Exhibit” là hiện vật hoặc động từ trưng bày; “exhibition” là toàn bộ cuộc triển lãm.",
+        "example_en": "This ancient vase is the museum’s most valuable exhibit.",
+        "example_vi": "Chiếc bình cổ này là hiện vật giá trị nhất của bảo tàng.",
+        "ff_example_en": "The museum is holding an exhibition of ancient pottery.",
+        "ff_example_vi": "Bảo tàng đang tổ chức một cuộc triển lãm đồ gốm cổ."
+      }
     },
     {
       "id": 4,
@@ -112,7 +126,14 @@
         "adjective": "guided",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "guard",
+        "explanation_vi": "“Guide” là người hướng dẫn; “guard” là người bảo vệ. Hai từ có cách viết và phát âm khá gần nhau.",
+        "example_en": "The guide explained the history of the collection.",
+        "example_vi": "Hướng dẫn viên giải thích lịch sử của bộ sưu tập.",
+        "ff_example_en": "The guard protected the collection during the tour.",
+        "ff_example_vi": "Nhân viên bảo vệ bảo vệ bộ sưu tập trong chuyến tham quan."
+      }
     },
     {
       "id": 5,
@@ -146,7 +167,14 @@
         "adjective": "touring",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "trip",
+        "explanation_vi": "“Tour” là chuyến tham quan có lộ trình quanh một nơi; “trip” là chuyến đi nói chung.",
+        "example_en": "We joined a guided tour of the museum.",
+        "example_vi": "Chúng tôi tham gia chuyến tham quan có hướng dẫn quanh bảo tàng.",
+        "ff_example_en": "We took a school trip to the museum.",
+        "ff_example_vi": "Chúng tôi thực hiện một chuyến đi của trường đến bảo tàng."
+      }
     },
     {
       "id": 7,
@@ -180,7 +208,14 @@
         "adjective": "level",
         "adverb": "level"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "floor",
+        "explanation_vi": "“Level” là tầng hoặc mức độ; “floor” là tầng cụ thể trong tòa nhà và cũng có nghĩa là sàn.",
+        "example_en": "The dinosaur gallery is on the upper level.",
+        "example_vi": "Phòng trưng bày khủng long nằm ở tầng trên.",
+        "ff_example_en": "The dinosaur gallery is on the second floor.",
+        "ff_example_vi": "Phòng trưng bày khủng long nằm ở tầng hai."
+      }
     },
     {
       "id": 9,
@@ -197,7 +232,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "",
+        "explanation_vi": "“Object” là danh từ /ˈɒbdʒɪkt/ nghĩa là đồ vật; “object” là động từ /əbˈdʒekt/ nghĩa là phản đối.",
+        "example_en": "The guide showed us an ancient object.",
+        "example_vi": "Hướng dẫn viên cho chúng tôi xem một đồ vật cổ.",
+        "ff_example_en": "One visitor objected to touching the ancient object.",
+        "ff_example_vi": "Một khách tham quan phản đối việc chạm vào đồ vật cổ."
+      }
     },
     {
       "id": 10,
@@ -214,7 +256,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "label",
+        "explanation_vi": "“Tag” thường là thẻ nhỏ gắn vào một vật; “label” là nhãn cung cấp thông tin hoặc phân loại.",
+        "example_en": "The museum attached a numbered tag to the object.",
+        "example_vi": "Bảo tàng gắn một thẻ đánh số vào hiện vật.",
+        "ff_example_en": "The museum placed an information label beside the object.",
+        "ff_example_vi": "Bảo tàng đặt một nhãn thông tin bên cạnh hiện vật."
+      }
     },
     {
       "id": 11,
@@ -231,7 +280,14 @@
         "adjective": "ancient",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "antique",
+        "explanation_vi": "“Ancient” nghĩa là rất cổ, thường hàng trăm hoặc hàng nghìn năm; “antique” là đồ cổ có giá trị, thường ít nhất khoảng một trăm năm tuổi.",
+        "example_en": "The museum displayed an ancient Egyptian bowl.",
+        "example_vi": "Bảo tàng trưng bày một chiếc bát Ai Cập cổ đại.",
+        "ff_example_en": "The museum shop sold an antique wooden table.",
+        "ff_example_vi": "Cửa hàng bảo tàng bán một chiếc bàn gỗ cổ."
+      }
     },
     {
       "id": 12,
@@ -282,7 +338,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "exit",
+        "explanation_vi": "“Way out” là cách nói thông thường chỉ lối ra; “exit” là từ chính thức hơn trên biển báo hoặc sơ đồ.",
+        "example_en": "The guide showed us the way out after the tour.",
+        "example_vi": "Hướng dẫn viên chỉ cho chúng tôi lối ra sau chuyến tham quan.",
+        "ff_example_en": "The floor plan marks the emergency exit in red.",
+        "ff_example_vi": "Sơ đồ tầng đánh dấu lối thoát hiểm bằng màu đỏ."
+      }
     },
     {
       "id": 15,
@@ -299,7 +362,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "map",
+        "explanation_vi": "“Floor plan” thể hiện bố trí các phòng trong một tầng hoặc tòa nhà; “map” thể hiện một khu vực địa lý hoặc không gian rộng hơn.",
+        "example_en": "The floor plan shows every gallery in the museum.",
+        "example_vi": "Sơ đồ tầng thể hiện mọi phòng trưng bày trong bảo tàng.",
+        "ff_example_en": "The city map shows where the museum is located.",
+        "ff_example_vi": "Bản đồ thành phố cho biết bảo tàng nằm ở đâu."
+      }
     }
   ],
   "exercises": {

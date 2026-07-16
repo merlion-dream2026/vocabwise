@@ -61,7 +61,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "work",
+        "explanation_vi": "“Job” là một vị trí công việc cụ thể và là danh từ đếm được; “work” là công việc nói chung và thường không đếm được.",
+        "example_en": "Lan found a new job at a software company.",
+        "example_vi": "Lan tìm được một công việc mới tại công ty phần mềm.",
+        "ff_example_en": "Lan has a lot of work to finish at the software company.",
+        "ff_example_vi": "Lan có nhiều việc phải hoàn thành tại công ty phần mềm."
+      }
     },
     {
       "id": 2,
@@ -95,7 +102,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "officer",
+        "explanation_vi": "“Office” là văn phòng; “officer” là viên chức hoặc người giữ một chức vụ, chẳng hạn cảnh sát.",
+        "example_en": "Minh works in an office near the station.",
+        "example_vi": "Minh làm việc trong một văn phòng gần nhà ga.",
+        "ff_example_en": "Minh is a police officer at the station.",
+        "ff_example_vi": "Minh là một sĩ quan cảnh sát tại đồn."
+      }
     },
     {
       "id": 4,
@@ -129,7 +143,14 @@
         "adjective": "salaried",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "wage",
+        "explanation_vi": "“Salary” thường là khoản lương cố định trả theo tháng hoặc năm; “wage” thường được tính theo giờ, ngày hoặc tuần.",
+        "example_en": "The engineer receives a monthly salary.",
+        "example_vi": "Kỹ sư nhận lương hằng tháng.",
+        "ff_example_en": "The factory worker receives an hourly wage.",
+        "ff_example_vi": "Công nhân nhà máy nhận tiền công theo giờ."
+      }
     },
     {
       "id": 6,
@@ -146,7 +167,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "appointment",
+        "explanation_vi": "“Meeting” là cuộc họp hoặc buổi gặp giữa nhiều người; “appointment” là cuộc hẹn được sắp trước, thường với bác sĩ hoặc một chuyên gia.",
+        "example_en": "Lan has a team meeting at the office at ten.",
+        "example_vi": "Lan có cuộc họp nhóm tại văn phòng lúc mười giờ.",
+        "ff_example_en": "Lan has a doctor’s appointment at the clinic at ten.",
+        "ff_example_vi": "Lan có lịch hẹn với bác sĩ tại phòng khám lúc mười giờ."
+      }
     },
     {
       "id": 7,
@@ -197,7 +225,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "mechanic",
+        "explanation_vi": "“Engineer” thiết kế, phát triển hoặc quản lý hệ thống kỹ thuật; “mechanic” chủ yếu sửa chữa và bảo dưỡng máy móc hoặc xe cộ.",
+        "example_en": "The engineer designed a new engine for the company.",
+        "example_vi": "Kỹ sư thiết kế một động cơ mới cho công ty.",
+        "ff_example_en": "The mechanic repaired the engine at the garage.",
+        "ff_example_vi": "Thợ máy sửa động cơ tại gara."
+      }
     },
     {
       "id": 10,
@@ -231,7 +266,14 @@
         "adjective": "tired / tiring",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "tiring",
+        "explanation_vi": "“Tired” mô tả người cảm thấy mệt; “tiring” mô tả hoạt động hoặc sự việc gây mệt.",
+        "example_en": "The nurse felt tired after the night shift.",
+        "example_vi": "Y tá cảm thấy mệt sau ca đêm.",
+        "ff_example_en": "The night shift was tiring for the nurse.",
+        "ff_example_vi": "Ca đêm khiến y tá mệt mỏi."
+      }
     },
     {
       "id": 12,

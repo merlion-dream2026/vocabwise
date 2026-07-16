@@ -78,7 +78,14 @@
         "adjective": "fixed",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "repair",
+        "explanation_vi": "“Fix” là từ thông dụng nghĩa là sửa một vấn đề; “repair” thường nhấn mạnh sửa vật bị hỏng và trang trọng hơn.",
+        "example_en": "The technician fixed the computer problem.",
+        "example_vi": "Kỹ thuật viên khắc phục sự cố máy tính.",
+        "ff_example_en": "The technician repaired the damaged computer screen.",
+        "ff_example_vi": "Kỹ thuật viên sửa màn hình máy tính bị hỏng."
+      }
     },
     {
       "id": 3,
@@ -112,7 +119,14 @@
         "adjective": "broken",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "brake",
+        "explanation_vi": "“Break” nghĩa là làm vỡ hoặc hỏng; “brake” là phanh xe. Hai từ phát âm giống nhau.",
+        "example_en": "Be careful not to break the bicycle light.",
+        "example_vi": "Hãy cẩn thận đừng làm hỏng đèn xe đạp.",
+        "ff_example_en": "Check the bicycle brake before riding downhill.",
+        "ff_example_vi": "Hãy kiểm tra phanh xe đạp trước khi xuống dốc."
+      }
     },
     {
       "id": 5,
@@ -146,7 +160,14 @@
         "adjective": "successful / unsuccessful",
         "adverb": "successfully"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "success",
+        "explanation_vi": "“Succeed” là động từ nghĩa là thành công; “success” là danh từ nghĩa là sự thành công.",
+        "example_en": "The team succeeded in repairing the machine.",
+        "example_vi": "Nhóm đã sửa máy thành công.",
+        "ff_example_en": "The repair was a complete success.",
+        "ff_example_vi": "Việc sửa chữa là một thành công hoàn toàn."
+      }
     },
     {
       "id": 7,
@@ -163,7 +184,14 @@
         "adjective": "replaceable / irreplaceable",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "change",
+        "explanation_vi": "“Replace” là lấy vật cũ ra và dùng vật khác thay vào; “change” là làm cho một thứ trở nên khác hoặc đổi nói chung.",
+        "example_en": "The technician replaced the broken battery with a new one.",
+        "example_vi": "Kỹ thuật viên thay pin hỏng bằng pin mới.",
+        "ff_example_en": "The technician changed the machine’s settings.",
+        "ff_example_vi": "Kỹ thuật viên thay đổi cài đặt của máy."
+      }
     },
     {
       "id": 8,
@@ -180,7 +208,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "instrument",
+        "explanation_vi": "“Tool” là dụng cụ thực hiện công việc; “instrument” thường là thiết bị chính xác hoặc nhạc cụ.",
+        "example_en": "The mechanic used a tool to open the machine.",
+        "example_vi": "Thợ máy dùng dụng cụ để mở máy.",
+        "ff_example_en": "The mechanic used a measuring instrument to test the machine.",
+        "ff_example_vi": "Thợ máy dùng thiết bị đo để kiểm tra máy."
+      }
     },
     {
       "id": 9,
@@ -197,7 +232,14 @@
         "adjective": "mechanical",
         "adverb": "mechanically"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "device",
+        "explanation_vi": "“Machine” thường có các bộ phận chuyển động và thực hiện công việc cơ học; “device” là từ rộng hơn cho thiết bị có chức năng cụ thể.",
+        "example_en": "The factory uses a large machine to cut metal.",
+        "example_vi": "Nhà máy dùng một cỗ máy lớn để cắt kim loại.",
+        "ff_example_en": "The worker uses a small device to measure the metal.",
+        "ff_example_vi": "Công nhân dùng một thiết bị nhỏ để đo kim loại."
+      }
     },
     {
       "id": 10,
@@ -214,7 +256,14 @@
         "adjective": "wrong",
         "adverb": "wrongly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "false",
+        "explanation_vi": "“Wrong” nghĩa là không đúng hoặc không phù hợp; “false” thường nói thông tin không đúng sự thật hoặc vật giả.",
+        "example_en": "The technician entered the wrong password.",
+        "example_vi": "Kỹ thuật viên nhập sai mật khẩu.",
+        "ff_example_en": "The warning message gave false information about the machine.",
+        "ff_example_vi": "Thông báo cảnh báo đưa ra thông tin sai về máy."
+      }
     },
     {
       "id": 11,
@@ -231,7 +280,14 @@
         "adjective": "damaged / undamaged",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "injury",
+        "explanation_vi": "“Damage” là hư hại đối với đồ vật hoặc tài sản; “injury” là thương tích đối với người hoặc động vật.",
+        "example_en": "The crash caused serious damage to the machine.",
+        "example_vi": "Vụ va chạm gây hư hại nghiêm trọng cho máy.",
+        "ff_example_en": "The crash caused a minor injury to the operator.",
+        "ff_example_vi": "Vụ va chạm gây thương tích nhẹ cho người vận hành."
+      }
     },
     {
       "id": 12,
@@ -248,7 +304,14 @@
         "adjective": "cautious / cautionary",
         "adverb": "cautiously"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "warning",
+        "explanation_vi": "“Caution” nhắc người đọc phải cẩn thận; “warning” báo một nguy hiểm hoặc hậu quả cụ thể.",
+        "example_en": "The manual advises caution when opening the machine.",
+        "example_vi": "Sách hướng dẫn khuyên phải thận trọng khi mở máy.",
+        "ff_example_en": "The machine displays a warning when it becomes too hot.",
+        "ff_example_vi": "Máy hiển thị cảnh báo khi trở nên quá nóng."
+      }
     },
     {
       "id": 13,
@@ -265,7 +328,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "record",
+        "explanation_vi": "“Report” là trình bày thông tin về sự việc; “record” là ghi lại dữ liệu để lưu giữ.",
+        "example_en": "The technician reported the fault to the manager.",
+        "example_vi": "Kỹ thuật viên báo cáo lỗi cho người quản lý.",
+        "ff_example_en": "The technician recorded the fault in the maintenance log.",
+        "ff_example_vi": "Kỹ thuật viên ghi lại lỗi trong sổ bảo trì."
+      }
     },
     {
       "id": 14,
@@ -282,7 +352,14 @@
         "adjective": "solvable / unsolvable",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "answer",
+        "explanation_vi": "“Solution” là cách giải quyết một vấn đề; “answer” là câu trả lời cho một câu hỏi.",
+        "example_en": "The engineer found a solution to the machine problem.",
+        "example_vi": "Kỹ sư tìm ra giải pháp cho sự cố máy.",
+        "ff_example_en": "The engineer answered the manager’s question about the problem.",
+        "ff_example_vi": "Kỹ sư trả lời câu hỏi của người quản lý về sự cố."
+      }
     },
     {
       "id": 15,
@@ -299,7 +376,14 @@
         "adjective": "urgent",
         "adverb": "urgently"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "emergency",
+        "explanation_vi": "“Urgent” là tính từ nghĩa là cần xử lý nhanh; “emergency” là tình huống nguy cấp cần hành động ngay.",
+        "example_en": "The machine needs urgent repair.",
+        "example_vi": "Máy cần được sửa gấp.",
+        "ff_example_en": "The fire in the machine room is an emergency.",
+        "ff_example_vi": "Đám cháy trong phòng máy là một tình huống khẩn cấp."
+      }
     }
   ],
   "exercises": {

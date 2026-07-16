@@ -61,7 +61,14 @@
         "adjective": "neighbouring",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "neighbourhood",
+        "explanation_vi": "“Neighbour” là người hàng xóm; “neighbourhood” là khu phố hoặc khu dân cư.",
+        "example_en": "Our new neighbour helped us carry the boxes.",
+        "example_vi": "Người hàng xóm mới giúp chúng tôi mang các thùng đồ.",
+        "ff_example_en": "Our new neighbourhood is quiet and friendly.",
+        "ff_example_vi": "Khu dân cư mới của chúng tôi yên tĩnh và thân thiện."
+      }
     },
     {
       "id": 2,
@@ -95,7 +102,14 @@
         "adjective": "noisy",
         "adverb": "noisily"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "sound",
+        "explanation_vi": "“Sound” là bất kỳ âm thanh nào; “noise” thường là âm thanh lớn, khó chịu hoặc không mong muốn.",
+        "example_en": "We heard the sound of birds in the garden.",
+        "example_vi": "Chúng tôi nghe thấy tiếng chim trong vườn.",
+        "ff_example_en": "We heard a loud noise from the neighbour’s garden.",
+        "ff_example_vi": "Chúng tôi nghe thấy một tiếng ồn lớn từ vườn nhà hàng xóm."
+      }
     },
     {
       "id": 4,
@@ -197,7 +211,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "gate",
+        "explanation_vi": "“Door” là cánh cửa của phòng hoặc tòa nhà; “gate” là cổng trong hàng rào hoặc lối vào khu đất.",
+        "example_en": "Minh knocked on the neighbour’s front door.",
+        "example_vi": "Minh gõ cửa chính nhà hàng xóm.",
+        "ff_example_en": "Minh waited for the neighbour at the garden gate.",
+        "ff_example_vi": "Minh chờ người hàng xóm tại cổng vườn."
+      }
     },
     {
       "id": 10,
@@ -265,7 +286,14 @@
         "adjective": "loud",
         "adverb": "loudly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "noisy",
+        "explanation_vi": "“Loud” mô tả một âm thanh có âm lượng lớn; “noisy” mô tả người hoặc nơi có nhiều tiếng ồn.",
+        "example_en": "The music next door was very loud.",
+        "example_vi": "Âm nhạc ở nhà bên cạnh rất to.",
+        "ff_example_en": "The house next door was very noisy during the party.",
+        "ff_example_vi": "Nhà bên cạnh rất ồn ào trong bữa tiệc."
+      }
     },
     {
       "id": 14,
@@ -282,7 +310,14 @@
         "adjective": "peaceful",
         "adverb": "peacefully"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "piece",
+        "explanation_vi": "“Peace” là sự bình yên hoặc hòa bình; “piece” là một phần hoặc mảnh. Hai từ phát âm giống nhau.",
+        "example_en": "The neighbours want to live together in peace.",
+        "example_vi": "Những người hàng xóm muốn chung sống trong hòa bình.",
+        "ff_example_en": "The neighbours shared a piece of cake after settling the dispute.",
+        "ff_example_vi": "Những người hàng xóm chia nhau một miếng bánh sau khi giải quyết tranh chấp."
+      }
     },
     {
       "id": 15,

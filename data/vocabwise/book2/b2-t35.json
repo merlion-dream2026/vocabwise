@@ -80,8 +80,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "dialect",
-        "explanation_vi": "Một 'accent' chỉ cách phát âm khác nhau của cùng một ngôn ngữ; một 'dialect' là một biến thể của ngôn ngữ có cả từ vựng, ngữ pháp và phát âm khác — rộng hơn nhiều so với accent."
+        "word": "dialect",
+        "explanation_vi": "Một 'accent' chỉ cách phát âm khác nhau của cùng một ngôn ngữ; một 'dialect' là một biến thể của ngôn ngữ có cả từ vựng, ngữ pháp và phát âm khác — rộng hơn nhiều so với accent.",
+        "example_en": "Lan speaks English with a Vietnamese accent.",
+        "example_vi": "Lan nói tiếng Anh với giọng Việt Nam.",
+        "ff_example_en": "Her grandmother speaks a regional dialect with distinctive grammar and vocabulary.",
+        "ff_example_vi": "Bà của cô ấy nói một phương ngữ địa phương có ngữ pháp và từ vựng đặc trưng."
       },
       "receptive_productive": "P"
     },
@@ -100,7 +104,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "interpret",
+        "explanation_vi": "'Translate' thường là chuyển văn bản sang ngôn ngữ khác; 'interpret' thường là phiên dịch lời nói trực tiếp hoặc diễn giải ý nghĩa.",
+        "example_en": "Lan translated the speaker's written report into Vietnamese.",
+        "example_vi": "Lan dịch báo cáo viết của diễn giả sang tiếng Việt.",
+        "ff_example_en": "Lan interpreted the speaker's presentation into Vietnamese.",
+        "ff_example_vi": "Lan phiên dịch bài thuyết trình của diễn giả sang tiếng Việt."
+      },
       "receptive_productive": "P"
     },
     {
@@ -118,7 +129,14 @@
         "adjective": "native",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "national",
+        "explanation_vi": "'Native' chỉ người, loài hoặc ngôn ngữ có nguồn gốc tại một nơi; 'national' nghĩa là thuộc về cả một quốc gia.",
+        "example_en": "The guide is a native speaker of the local language.",
+        "example_vi": "Hướng dẫn viên là người bản ngữ của ngôn ngữ địa phương.",
+        "ff_example_en": "The guide also speaks the national language.",
+        "ff_example_vi": "Hướng dẫn viên cũng nói ngôn ngữ quốc gia."
+      },
       "receptive_productive": "P"
     },
     {
@@ -136,7 +154,14 @@
         "adjective": "extinct",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "distinct",
+        "explanation_vi": "'Extinct' nghĩa là đã tuyệt chủng hoặc không còn tồn tại; 'distinct' nghĩa là khác biệt rõ ràng.",
+        "example_en": "The researcher studied an extinct language once spoken on the island.",
+        "example_vi": "Nhà nghiên cứu tìm hiểu một ngôn ngữ đã biến mất từng được nói trên đảo.",
+        "ff_example_en": "The researcher identified two distinct dialects still spoken on the island.",
+        "ff_example_vi": "Nhà nghiên cứu xác định hai phương ngữ khác biệt rõ ràng vẫn được nói trên đảo."
+      },
       "receptive_productive": "P"
     },
     {
@@ -190,7 +215,14 @@
         "adjective": "preserved",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "conserve",
+        "explanation_vi": "'Preserve' nhấn mạnh giữ nguyên hoặc bảo vệ khỏi mất mát; 'conserve' thường nhấn mạnh sử dụng tài nguyên tiết kiệm và bảo vệ chúng.",
+        "example_en": "The project records stories to preserve the local language.",
+        "example_vi": "Dự án ghi lại các câu chuyện để bảo tồn ngôn ngữ địa phương.",
+        "ff_example_en": "The project uses less paper to conserve natural resources.",
+        "ff_example_vi": "Dự án dùng ít giấy hơn để bảo tồn tài nguyên thiên nhiên."
+      },
       "receptive_productive": "P"
     },
     {
@@ -244,7 +276,14 @@
         "adjective": "official / unofficial",
         "adverb": "officially"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "officer",
+        "explanation_vi": "'Official' là tính từ nghĩa là chính thức hoặc danh từ chỉ viên chức; 'officer' là người giữ một chức vụ cụ thể trong cảnh sát, quân đội hoặc tổ chức.",
+        "example_en": "Vietnamese is the official language used in the document.",
+        "example_vi": "Tiếng Việt là ngôn ngữ chính thức được dùng trong tài liệu.",
+        "ff_example_en": "An immigration officer checked the document.",
+        "ff_example_vi": "Một nhân viên xuất nhập cảnh kiểm tra tài liệu."
+      },
       "receptive_productive": "P"
     },
     {
@@ -299,8 +338,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "bilingual",
-        "explanation_vi": "'Multilingual' có nghĩa biết nhiều hơn hai ngôn ngữ; 'bilingual' chính xác hơn là biết hai ngôn ngữ; 'monolingual' là chỉ biết một ngôn ngữ."
+        "word": "bilingual",
+        "explanation_vi": "'Multilingual' có nghĩa biết nhiều hơn hai ngôn ngữ; 'bilingual' chính xác hơn là biết hai ngôn ngữ; 'monolingual' là chỉ biết một ngôn ngữ.",
+        "example_en": "The guide is multilingual and can speak Vietnamese, English and French.",
+        "example_vi": "Hướng dẫn viên biết nhiều ngôn ngữ và có thể nói tiếng Việt, tiếng Anh và tiếng Pháp.",
+        "ff_example_en": "Her colleague is bilingual and speaks only Vietnamese and English.",
+        "ff_example_vi": "Đồng nghiệp của cô ấy biết hai ngôn ngữ và chỉ nói tiếng Việt và tiếng Anh."
       },
       "receptive_productive": "P"
     },

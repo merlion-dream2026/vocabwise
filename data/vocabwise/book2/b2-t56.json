@@ -241,7 +241,14 @@
         "adjective": "social",
         "adverb": "socially"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "sociable",
+        "explanation_vi": "'Social' nghĩa là thuộc xã hội hoặc hoạt động cùng người khác; 'sociable' mô tả người thích giao tiếp.",
+        "example_en": "The study examined the social effects of screen time.",
+        "example_vi": "Nghiên cứu xem xét tác động xã hội của thời gian dùng màn hình.",
+        "ff_example_en": "The study found that Minh remained sociable despite spending time online.",
+        "ff_example_vi": "Nghiên cứu cho thấy Minh vẫn hòa đồng dù dành thời gian trên mạng."
+      },
       "receptive_productive": "P"
     },
     {

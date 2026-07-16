@@ -62,8 +62,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "where",
-        "explanation_vi": "'Wear' (mặc) và 'where' (ở đâu) phát âm giống nhau nhưng nghĩa hoàn toàn khác — đây là cặp từ đồng âm."
+        "word": "where",
+        "explanation_vi": "'Wear' (mặc) và 'where' (ở đâu) phát âm giống nhau nhưng nghĩa hoàn toàn khác — đây là cặp từ đồng âm.",
+        "example_en": "Lan will wear her new dress to the school party.",
+        "example_vi": "Lan sẽ mặc chiếc váy mới đến bữa tiệc của trường.",
+        "ff_example_en": "Lan asked where the school party would be held.",
+        "ff_example_vi": "Lan hỏi bữa tiệc của trường sẽ được tổ chức ở đâu."
       }
     },
     {
@@ -132,7 +136,14 @@
         "adjective": "colourful / colourless",
         "adverb": "colourfully"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "collar",
+        "explanation_vi": "“Colour” là màu sắc, còn “collar” là cổ áo. Hai từ có cách viết và phát âm khá gần nhau.",
+        "example_en": "I like the colour of this school shirt.",
+        "example_vi": "Tôi thích màu của chiếc áo sơ mi đồng phục này.",
+        "ff_example_en": "I like the collar of this school shirt.",
+        "ff_example_vi": "Tôi thích cổ áo của chiếc áo sơ mi đồng phục này."
+      }
     },
     {
       "id": 6,
@@ -166,7 +177,14 @@
         "adjective": "good-looking",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "see",
+        "explanation_vi": "“Look” là chủ động hướng mắt về một thứ, còn “see” là nhìn thấy hoặc nhận ra bằng mắt.",
+        "example_en": "Look at the red jacket in the window.",
+        "example_vi": "Hãy nhìn chiếc áo khoác đỏ trong cửa sổ trưng bày.",
+        "ff_example_en": "I can see the red jacket from across the street.",
+        "ff_example_vi": "Tôi có thể nhìn thấy chiếc áo khoác đỏ từ bên kia đường."
+      }
     },
     {
       "id": 8,
@@ -183,7 +201,14 @@
         "adjective": "fit / fitting",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "suit",
+        "explanation_vi": "“Fit” nói quần áo có đúng kích cỡ hay không; “suit” nói quần áo có hợp với ngoại hình hoặc phong cách của người mặc hay không.",
+        "example_en": "This jacket fits Lan perfectly.",
+        "example_vi": "Chiếc áo khoác này vừa vặn hoàn hảo với Lan.",
+        "ff_example_en": "This jacket suits Lan because blue looks good on her.",
+        "ff_example_vi": "Chiếc áo khoác này hợp với Lan vì màu xanh trông đẹp trên người cô ấy."
+      }
     },
     {
       "id": 9,
@@ -200,7 +225,14 @@
         "adjective": "comfortable / uncomfortable",
         "adverb": "comfortably"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "convenient",
+        "explanation_vi": "“Comfortable” nghĩa là thoải mái về thể chất hoặc tinh thần; “convenient” nghĩa là thuận tiện, dễ sử dụng hoặc tiết kiệm thời gian.",
+        "example_en": "These shoes are comfortable enough to wear all day.",
+        "example_vi": "Đôi giày này đủ thoải mái để đi cả ngày.",
+        "ff_example_en": "These shoes are convenient because they are easy to put on.",
+        "ff_example_vi": "Đôi giày này rất tiện vì dễ xỏ vào."
+      }
     },
     {
       "id": 10,

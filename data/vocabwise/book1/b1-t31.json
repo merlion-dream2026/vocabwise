@@ -78,7 +78,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "bored",
+        "explanation_vi": "“Board” là cái bảng; “bored” là tính từ nghĩa là cảm thấy chán. Hai từ phát âm giống nhau.",
+        "example_en": "The teacher wrote the answer on the board.",
+        "example_vi": "Giáo viên viết đáp án lên bảng.",
+        "ff_example_en": "The students felt bored while waiting for the lesson to begin.",
+        "ff_example_vi": "Các học sinh cảm thấy chán trong khi chờ tiết học bắt đầu."
+      }
     },
     {
       "id": 3,
@@ -129,7 +136,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "cheer",
+        "explanation_vi": "“Chair” là cái ghế; “cheer” là reo hò hoặc cổ vũ. Hai từ có phát âm khá gần nhau.",
+        "example_en": "Lan sat on a chair during the school event.",
+        "example_vi": "Lan ngồi trên một chiếc ghế trong sự kiện của trường.",
+        "ff_example_en": "Lan began to cheer when her team won the event.",
+        "ff_example_vi": "Lan bắt đầu reo hò khi đội của cô ấy thắng sự kiện."
+      }
     },
     {
       "id": 6,
@@ -180,7 +194,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "ruler",
+        "explanation_vi": "“Rule” là quy tắc hoặc nội quy; “ruler” là thước kẻ hoặc người cai trị.",
+        "example_en": "The teacher explained the classroom rule.",
+        "example_vi": "Giáo viên giải thích nội quy lớp học.",
+        "ff_example_en": "The teacher used a ruler to draw a straight line.",
+        "ff_example_vi": "Giáo viên dùng thước kẻ để vẽ một đường thẳng."
+      }
     },
     {
       "id": 9,
@@ -197,7 +218,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "bill",
+        "explanation_vi": "“Bell” là chuông; “bill” là hóa đơn hoặc dự luật. Hai từ chỉ khác một nguyên âm khi phát âm.",
+        "example_en": "The school bell rang at noon.",
+        "example_vi": "Chuông trường reo vào buổi trưa.",
+        "ff_example_en": "The school received the electricity bill at noon.",
+        "ff_example_vi": "Nhà trường nhận hóa đơn tiền điện vào buổi trưa."
+      }
     },
     {
       "id": 10,
@@ -215,8 +243,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "bờ-rếch",
-        "explanation_vi": "Người Việt hay dùng 'break' theo nghĩa 'nghỉ giải lao' (đúng), nhưng đừng nhầm với 'break' nghĩa là 'phá vỡ' (động từ). Ví dụ: 'We have a break now' (nghỉ giải lao) khác với 'Don't break the glass' (đừng làm vỡ cốc)."
+        "word": "",
+        "explanation_vi": "Người Việt hay dùng 'break' theo nghĩa 'nghỉ giải lao' (đúng), nhưng đừng nhầm với 'break' nghĩa là 'phá vỡ' (động từ). Ví dụ: 'We have a break now' (nghỉ giải lao) khác với 'Don't break the glass' (đừng làm vỡ cốc).",
+        "example_en": "During the science lesson, we took a short break and drank some water.",
+        "example_vi": "Trong tiết khoa học, chúng tôi nghỉ giải lao một lát và uống nước.",
+        "ff_example_en": "During the science lesson, the teacher warned us not to break the glass bottle.",
+        "ff_example_vi": "Trong tiết khoa học, giáo viên nhắc chúng tôi không được làm vỡ chai thủy tinh."
       }
     },
     {
@@ -302,7 +334,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "door",
+        "explanation_vi": "“Gate” là cổng ở lối vào khu đất hoặc hàng rào; “door” là cửa của phòng hoặc tòa nhà.",
+        "example_en": "The students waited at the school gate.",
+        "example_vi": "Các học sinh chờ ở cổng trường.",
+        "ff_example_en": "The students waited outside the classroom door.",
+        "ff_example_vi": "Các học sinh chờ bên ngoài cửa lớp học."
+      }
     }
   ],
   "exercises": {

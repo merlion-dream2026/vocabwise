@@ -61,7 +61,14 @@
         "adjective": "disruptive",
         "adverb": "disruptively"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "destruction",
+        "explanation_vi": "'Disruption' là sự gián đoạn hoặc xáo trộn; 'destruction' là sự phá hủy.",
+        "example_en": "The cyberattack caused major disruption to the service.",
+        "example_vi": "Cuộc tấn công mạng gây gián đoạn lớn cho dịch vụ.",
+        "ff_example_en": "The fire caused the destruction of the main server room.",
+        "ff_example_vi": "Đám cháy phá hủy phòng máy chủ chính."
+      },
       "receptive_productive": "P"
     },
     {
@@ -79,7 +86,14 @@
         "adjective": "iterative",
         "adverb": "iteratively"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "reiteration",
+        "explanation_vi": "'Iteration' là một phiên bản hoặc lần lặp trong quá trình phát triển; 'reiteration' là việc nhắc lại một ý đã nói.",
+        "example_en": "The team tested the third iteration of the prototype.",
+        "example_vi": "Nhóm thử nghiệm phiên bản lặp thứ ba của nguyên mẫu.",
+        "ff_example_en": "The manager's email was a reiteration of the original deadline.",
+        "ff_example_vi": "Email của quản lý là sự nhắc lại thời hạn ban đầu."
+      },
       "receptive_productive": "P"
     },
     {
@@ -206,8 +220,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "pattern",
-        "explanation_vi": "'Patent' là bằng sáng chế hoặc quyền bảo hộ phát minh; 'pattern' là mẫu hoa văn hoặc quy luật — phát âm và nghĩa đều khác nhau."
+        "word": "pattern",
+        "explanation_vi": "'Patent' là bằng sáng chế hoặc quyền bảo hộ phát minh; 'pattern' là mẫu hoa văn hoặc quy luật — phát âm và nghĩa đều khác nhau.",
+        "example_en": "The inventor applied for a patent on the new medical device.",
+        "example_vi": "Nhà phát minh nộp đơn xin bằng sáng chế cho thiết bị y tế mới.",
+        "ff_example_en": "The device’s surface had a distinctive geometric pattern.",
+        "ff_example_vi": "Bề mặt của thiết bị có một hoa văn hình học đặc trưng."
       },
       "receptive_productive": "P"
     },

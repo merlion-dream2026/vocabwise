@@ -78,8 +78,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "achievement",
-        "explanation_vi": "'Attainment' thường chỉ mức độ đạt được theo chuẩn đánh giá; 'achievement' mang nghĩa thành tựu cá nhân rộng hơn."
+        "word": "achievement",
+        "explanation_vi": "'Attainment' thường chỉ mức độ đạt được theo chuẩn đánh giá; 'achievement' mang nghĩa thành tựu cá nhân rộng hơn.",
+        "example_en": "The national test measures pupils’ attainment in mathematics at age fifteen.",
+        "example_vi": "Bài kiểm tra quốc gia đo mức độ đạt chuẩn môn toán của học sinh ở tuổi mười lăm.",
+        "ff_example_en": "Winning the mathematics competition was a major personal achievement for Lan.",
+        "ff_example_vi": "Chiến thắng cuộc thi toán là một thành tựu cá nhân lớn đối với Lan."
       },
       "receptive_productive": "P"
     },
@@ -97,7 +101,14 @@
         "adjective": "curricular",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "syllabus",
+        "explanation_vi": "'Curriculum' là toàn bộ chương trình học của một khóa hoặc hệ thống; 'syllabus' là nội dung và kế hoạch cụ thể của một môn học.",
+        "example_en": "The university revised its engineering curriculum.",
+        "example_vi": "Trường đại học điều chỉnh chương trình đào tạo kỹ thuật.",
+        "ff_example_en": "The lecturer uploaded the syllabus for the first engineering course.",
+        "ff_example_vi": "Giảng viên tải lên đề cương của môn kỹ thuật đầu tiên."
+      },
       "receptive_productive": "P"
     },
     {
@@ -115,8 +126,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "literature",
-        "explanation_vi": "'Literacy' là khả năng đọc viết hoặc hiểu biết; 'literature' là văn học — hai từ này không thay thế cho nhau."
+        "word": "literature",
+        "explanation_vi": "'Literacy' là khả năng đọc viết hoặc hiểu biết; 'literature' là văn học — hai từ này không thay thế cho nhau.",
+        "example_en": "The programme aims to improve adult literacy in rural areas.",
+        "example_vi": "Chương trình nhằm cải thiện khả năng đọc viết của người lớn ở vùng nông thôn.",
+        "ff_example_en": "It also introduces learners to simple Vietnamese literature.",
+        "ff_example_vi": "Chương trình cũng giới thiệu người học với văn học Việt Nam đơn giản."
       },
       "receptive_productive": "P"
     },
@@ -134,7 +149,14 @@
         "adjective": "credentialed",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "qualification",
+        "explanation_vi": "'Credential' là giấy tờ hoặc thành tích chứng minh năng lực; 'qualification' là bằng cấp, kỹ năng hoặc điều kiện giúp một người đủ tiêu chuẩn.",
+        "example_en": "Applicants must upload a teaching credential.",
+        "example_vi": "Ứng viên phải tải lên chứng chỉ hành nghề giảng dạy.",
+        "ff_example_en": "A university degree is the main qualification for the post.",
+        "ff_example_vi": "Bằng đại học là bằng cấp chính cần có cho vị trí này."
+      },
       "receptive_productive": "P"
     },
     {
@@ -168,7 +190,14 @@
         "adjective": "retentive",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "retirement",
+        "explanation_vi": "'Retention' là sự duy trì hoặc khả năng ghi nhớ; 'retirement' là sự nghỉ hưu.",
+        "example_en": "The company introduced bonuses to improve staff retention.",
+        "example_vi": "Công ty đưa ra tiền thưởng để cải thiện khả năng giữ chân nhân viên.",
+        "ff_example_en": "The company offered financial advice to staff approaching retirement.",
+        "ff_example_vi": "Công ty tư vấn tài chính cho nhân viên sắp nghỉ hưu."
+      },
       "receptive_productive": "P"
     },
     {
@@ -185,7 +214,14 @@
         "adjective": "autonomous",
         "adverb": "autonomously"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "automation",
+        "explanation_vi": "'Autonomy' là quyền hoặc khả năng tự quyết; 'automation' là việc dùng máy móc hoặc phần mềm để tự động thực hiện nhiệm vụ.",
+        "example_en": "The policy gives doctors greater autonomy in clinical decisions.",
+        "example_vi": "Chính sách trao cho bác sĩ quyền tự chủ lớn hơn trong quyết định lâm sàng.",
+        "ff_example_en": "The hospital uses automation to process routine records.",
+        "ff_example_vi": "Bệnh viện dùng tự động hóa để xử lý hồ sơ thường lệ."
+      },
       "receptive_productive": "P"
     },
     {
@@ -203,8 +239,12 @@
         "adverb": "disparately"
       },
       "false_friend": {
-        "word_vi": "inequality",
-        "explanation_vi": "'Disparity' nhấn mạnh sự chênh lệch cụ thể, đo lường được; 'inequality' là khái niệm bất bình đẳng rộng hơn."
+        "word": "inequality",
+        "explanation_vi": "'Disparity' nhấn mạnh sự chênh lệch cụ thể, đo lường được; 'inequality' là khái niệm bất bình đẳng rộng hơn.",
+        "example_en": "The report found a measurable disparity in exam scores between the two regions.",
+        "example_vi": "Báo cáo phát hiện một sự chênh lệch có thể đo lường trong điểm thi giữa hai khu vực.",
+        "ff_example_en": "It linked that disparity to broader educational inequality.",
+        "ff_example_vi": "Báo cáo liên hệ sự chênh lệch đó với tình trạng bất bình đẳng giáo dục rộng hơn."
       },
       "receptive_productive": "P"
     },

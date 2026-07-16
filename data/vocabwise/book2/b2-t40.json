@@ -79,7 +79,14 @@
         "adjective": "ritual / ritualistic",
         "adverb": "ritually"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "routine",
+        "explanation_vi": "'Ritual' là nghi thức có ý nghĩa biểu tượng, văn hóa hoặc tôn giáo; 'routine' là chuỗi việc làm đều đặn hằng ngày.",
+        "example_en": "Lighting the candles is an important ritual at the festival.",
+        "example_vi": "Thắp nến là một nghi thức quan trọng tại lễ hội.",
+        "ff_example_en": "Checking the equipment is part of the staff's daily routine.",
+        "ff_example_vi": "Kiểm tra thiết bị là một phần trong thói quen hằng ngày của nhân viên."
+      },
       "receptive_productive": "P"
     },
     {
@@ -97,7 +104,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "inheritance",
+        "explanation_vi": "'Heritage' là di sản văn hóa hoặc truyền thống được truyền lại; 'inheritance' là tài sản một người nhận sau khi người khác qua đời.",
+        "example_en": "The old house is part of the town's cultural heritage.",
+        "example_vi": "Ngôi nhà cổ là một phần di sản văn hóa của thị trấn.",
+        "ff_example_en": "The old house became Lan's inheritance from her grandfather.",
+        "ff_example_vi": "Ngôi nhà cổ trở thành tài sản thừa kế Lan nhận từ ông mình."
+      },
       "receptive_productive": "P"
     },
     {
@@ -169,7 +183,14 @@
         "adjective": "preserved",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "conserve",
+        "explanation_vi": "'Preserve' nhấn mạnh giữ nguyên hoặc bảo vệ khỏi mất mát; 'conserve' thường nhấn mạnh sử dụng tài nguyên tiết kiệm và bảo vệ chúng.",
+        "example_en": "The project records stories to preserve the local language.",
+        "example_vi": "Dự án ghi lại các câu chuyện để bảo tồn ngôn ngữ địa phương.",
+        "ff_example_en": "The project uses less paper to conserve natural resources.",
+        "ff_example_vi": "Dự án dùng ít giấy hơn để bảo tồn tài nguyên thiên nhiên."
+      },
       "receptive_productive": "P"
     },
     {
@@ -223,7 +244,14 @@
         "adjective": "adaptable",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "adopt",
+        "explanation_vi": "'Adapt' là điều chỉnh để phù hợp; 'adopt' là tiếp nhận một ý tưởng, phương pháp hoặc nhận nuôi.",
+        "example_en": "The school adapted the programme for younger students.",
+        "example_vi": "Nhà trường điều chỉnh chương trình cho học sinh nhỏ tuổi hơn.",
+        "ff_example_en": "The school adopted a new programme for younger students.",
+        "ff_example_vi": "Nhà trường áp dụng một chương trình mới cho học sinh nhỏ tuổi hơn."
+      },
       "receptive_productive": "P"
     },
     {
@@ -241,7 +269,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "stand up for",
+        "explanation_vi": "'Stand for' nghĩa là đại diện cho hoặc viết tắt của; 'stand up for' nghĩa là bảo vệ hoặc lên tiếng ủng hộ.",
+        "example_en": "The red flower stands for good luck at the festival.",
+        "example_vi": "Bông hoa đỏ tượng trưng cho may mắn tại lễ hội.",
+        "ff_example_en": "The organisers stood up for local artists at the festival.",
+        "ff_example_vi": "Ban tổ chức lên tiếng bảo vệ các nghệ sĩ địa phương tại lễ hội."
+      },
       "receptive_productive": "P"
     },
     {

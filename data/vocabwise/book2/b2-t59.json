@@ -133,7 +133,14 @@
         "adjective": "economic / economical",
         "adverb": "economically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "economics",
+        "explanation_vi": "'Economy' là hệ thống kinh tế của một quốc gia hoặc khu vực; 'economics' là môn khoa học nghiên cứu kinh tế.",
+        "example_en": "The report examines how trade affects the national economy.",
+        "example_vi": "Báo cáo xem xét cách thương mại ảnh hưởng đến nền kinh tế quốc gia.",
+        "ff_example_en": "The university offers a course in international economics.",
+        "ff_example_vi": "Trường đại học có một khóa học về kinh tế học quốc tế."
+      },
       "receptive_productive": "P"
     },
     {
@@ -169,7 +176,14 @@
         "adjective": "identifiable",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "identification",
+        "explanation_vi": "'Identity' là danh tính hoặc bản sắc của một người hay nhóm; 'identification' là giấy tờ hoặc quá trình xác định người đó là ai.",
+        "example_en": "The passport confirmed the traveller's identity.",
+        "example_vi": "Hộ chiếu xác nhận danh tính của hành khách.",
+        "ff_example_en": "The officer asked the traveller to show identification.",
+        "ff_example_vi": "Nhân viên yêu cầu hành khách xuất trình giấy tờ tùy thân."
+      },
       "receptive_productive": "P"
     },
     {

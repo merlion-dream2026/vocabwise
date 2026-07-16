@@ -98,7 +98,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "immigration",
+        "explanation_vi": "'Migration' là sự di chuyển nói chung của người hoặc động vật; 'immigration' là việc đi vào một quốc gia để sinh sống.",
+        "example_en": "The report examined rural-to-urban migration within Vietnam.",
+        "example_vi": "Báo cáo xem xét sự di cư từ nông thôn ra thành thị trong Việt Nam.",
+        "ff_example_en": "The report examined immigration into Vietnam from other countries.",
+        "ff_example_vi": "Báo cáo xem xét hoạt động nhập cư vào Việt Nam từ các quốc gia khác."
+      },
       "receptive_productive": "R"
     },
     {
@@ -116,7 +123,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "communicate",
+        "explanation_vi": "'Commute' là đi lại thường xuyên giữa nhà và nơi làm việc hoặc học tập; 'communicate' là giao tiếp, truyền đạt thông tin.",
+        "example_en": "Lan commutes to the office by train every day.",
+        "example_vi": "Lan đi làm bằng tàu hỏa mỗi ngày.",
+        "ff_example_en": "Lan communicates with the office by email every day.",
+        "ff_example_vi": "Lan liên lạc với văn phòng bằng email mỗi ngày."
+      },
       "receptive_productive": "R"
     },
     {
@@ -170,7 +184,14 @@
         "adjective": "accessible",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "assess",
+        "explanation_vi": "'Access' là tiếp cận hoặc sử dụng; 'assess' là đánh giá.",
+        "example_en": "Students can access the online learning platform.",
+        "example_vi": "Học sinh có thể truy cập nền tảng học trực tuyến.",
+        "ff_example_en": "Teachers can assess students on the online learning platform.",
+        "ff_example_vi": "Giáo viên có thể đánh giá học sinh trên nền tảng học trực tuyến."
+      },
       "receptive_productive": "R"
     },
     {
@@ -224,7 +245,14 @@
         "adjective": "populous",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "popularity",
+        "explanation_vi": "'Population' là dân số; 'popularity' là mức độ được yêu thích.",
+        "example_en": "The city's population has increased rapidly.",
+        "example_vi": "Dân số của thành phố đã tăng nhanh.",
+        "ff_example_en": "The city's popularity with tourists has increased rapidly.",
+        "ff_example_vi": "Mức độ được du khách yêu thích của thành phố đã tăng nhanh."
+      },
       "receptive_productive": "R"
     },
     {

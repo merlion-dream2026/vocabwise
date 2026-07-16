@@ -98,8 +98,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "assimilation",
-        "explanation_vi": "'Acculturation' là quá trình tiếp nhận một số yếu tố của văn hóa khác trong khi vẫn giữ bản sắc riêng; 'assimilation' là sự hòa tan hoàn toàn vào văn hóa chủ đạo — mức độ thay đổi khác nhau."
+        "word": "assimilation",
+        "explanation_vi": "'Acculturation' là quá trình tiếp nhận một số yếu tố của văn hóa khác trong khi vẫn giữ bản sắc riêng; 'assimilation' là sự hòa tan hoàn toàn vào văn hóa chủ đạo — mức độ thay đổi khác nhau.",
+        "example_en": "Through acculturation, the migrant family adopted local foods while keeping its home language.",
+        "example_vi": "Thông qua tiếp biến văn hóa, gia đình di cư tiếp nhận món ăn địa phương trong khi vẫn giữ ngôn ngữ quê nhà.",
+        "ff_example_en": "Under assimilation, the family would be expected to abandon most elements of its original culture.",
+        "ff_example_vi": "Trong quá trình đồng hóa, gia đình có thể bị kỳ vọng từ bỏ phần lớn các yếu tố của văn hóa gốc."
       },
       "receptive_productive": "P"
     },

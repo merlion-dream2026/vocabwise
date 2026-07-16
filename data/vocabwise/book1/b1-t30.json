@@ -146,7 +146,14 @@
         "adjective": "comfortable / comforting",
         "adverb": "comfortably"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "comfortable",
+        "explanation_vi": "“Comfort” là danh từ hoặc động từ nghĩa là sự an ủi hoặc an ủi; “comfortable” là tính từ nghĩa là thoải mái.",
+        "example_en": "Lan tried to comfort her friend after the argument.",
+        "example_vi": "Lan cố gắng an ủi bạn sau cuộc cãi nhau.",
+        "ff_example_en": "Lan’s friend felt comfortable talking to her after the argument.",
+        "ff_example_vi": "Bạn của Lan cảm thấy thoải mái khi nói chuyện với cô ấy sau cuộc cãi nhau."
+      }
     },
     {
       "id": 7,
@@ -180,7 +187,14 @@
         "adjective": "argumentative",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "discuss",
+        "explanation_vi": "“Argue” thường là tranh cãi hoặc bất đồng mạnh; “discuss” là trao đổi ý kiến một cách trung lập.",
+        "example_en": "The friends argued about who had caused the problem.",
+        "example_vi": "Những người bạn cãi nhau về việc ai đã gây ra vấn đề.",
+        "ff_example_en": "The friends discussed how to solve the problem.",
+        "ff_example_vi": "Những người bạn thảo luận cách giải quyết vấn đề."
+      }
     },
     {
       "id": 9,
@@ -197,7 +211,14 @@
         "adjective": "apologetic",
         "adverb": "apologetically"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "excuse",
+        "explanation_vi": "“Apologise” là nói lời xin lỗi vì mình đã làm sai; “excuse” thường là tha thứ, biện hộ hoặc cho phép ai rời đi.",
+        "example_en": "Minh apologised to Lan for arriving late.",
+        "example_vi": "Minh xin lỗi Lan vì đến muộn.",
+        "ff_example_en": "Lan excused Minh because the bus had broken down.",
+        "ff_example_vi": "Lan bỏ qua cho Minh vì xe buýt bị hỏng."
+      }
     },
     {
       "id": 10,
@@ -231,7 +252,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "standby",
+        "explanation_vi": "“Stand by” là cụm động từ nghĩa là ủng hộ hoặc sẵn sàng; “standby” thường là danh từ hoặc tính từ chỉ trạng thái dự phòng.",
+        "example_en": "Lan promised to stand by her friend during the difficult time.",
+        "example_vi": "Lan hứa sẽ ở bên và ủng hộ bạn trong giai đoạn khó khăn.",
+        "ff_example_en": "The school kept a standby teacher ready to help the class.",
+        "ff_example_vi": "Nhà trường bố trí một giáo viên dự phòng sẵn sàng hỗ trợ lớp."
+      }
     },
     {
       "id": 12,

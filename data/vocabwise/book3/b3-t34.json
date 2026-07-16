@@ -98,8 +98,12 @@
         "adverb": "perceptively"
       },
       "false_friend": {
-        "word_vi": "perspective",
-        "explanation_vi": "'Perception' là quá trình nhận biết hay cảm nhận thông tin; 'perspective' là góc nhìn hay quan điểm về một vấn đề — không thay thế nhau được."
+        "word": "perspective",
+        "explanation_vi": "'Perception' là quá trình nhận biết hay cảm nhận thông tin; 'perspective' là góc nhìn hay quan điểm về một vấn đề — không thay thế nhau được.",
+        "example_en": "Fear altered the witness’s perception of the event.",
+        "example_vi": "Nỗi sợ làm thay đổi cách nhân chứng cảm nhận sự kiện.",
+        "ff_example_en": "The investigator considered the event from the witness’s perspective.",
+        "ff_example_vi": "Điều tra viên xem xét sự kiện từ góc nhìn của nhân chứng."
       },
       "receptive_productive": "P"
     },
@@ -118,7 +122,14 @@
         "adjective": "reinforced",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "enforcement",
+        "explanation_vi": "'Reinforcement' là sự củng cố; 'enforcement' là việc thực thi luật hoặc quy định.",
+        "example_en": "The teacher used praise as reinforcement for good behaviour.",
+        "example_vi": "Giáo viên dùng lời khen để củng cố hành vi tốt.",
+        "ff_example_en": "The head teacher was responsible for enforcement of the school rules.",
+        "ff_example_vi": "Hiệu trưởng chịu trách nhiệm thực thi nội quy trường."
+      },
       "receptive_productive": "P"
     },
     {
@@ -154,7 +165,14 @@
         "adjective": "attributable",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "contribution",
+        "explanation_vi": "'Attribution' là sự quy nguồn hoặc quy nguyên nhân; 'contribution' là sự đóng góp.",
+        "example_en": "The article included proper attribution of the photograph.",
+        "example_vi": "Bài báo ghi nguồn bức ảnh đúng cách.",
+        "ff_example_en": "The article thanked Lan for her contribution to the research.",
+        "ff_example_vi": "Bài báo cảm ơn Lan vì sự đóng góp cho nghiên cứu."
+      },
       "receptive_productive": "P"
     },
     {
@@ -172,7 +190,14 @@
         "adjective": "resilient",
         "adverb": "resiliently"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "resistance",
+        "explanation_vi": "'Resilience' là khả năng phục hồi sau khó khăn; 'resistance' là sự chống lại một lực, thay đổi hoặc tác nhân.",
+        "example_en": "The community showed resilience after the flood.",
+        "example_vi": "Cộng đồng thể hiện khả năng phục hồi sau trận lũ.",
+        "ff_example_en": "The community showed resistance to the proposed relocation plan.",
+        "ff_example_vi": "Cộng đồng thể hiện sự phản đối kế hoạch di dời được đề xuất."
+      },
       "receptive_productive": "P"
     },
     {
@@ -209,8 +234,12 @@
         "adverb": "unconsciously"
       },
       "false_friend": {
-        "word_vi": "subconscious",
-        "explanation_vi": "'Unconscious' thường chỉ những quá trình hoàn toàn ngoài tầm nhận thức; 'subconscious' (đặc biệt trong ngôn ngữ thông thường) chỉ những gì nằm ngay dưới ngưỡng ý thức và có thể tiếp cận được — hai thuật ngữ này thường bị dùng lẫn lộn."
+        "word": "subconscious",
+        "explanation_vi": "'Unconscious' thường chỉ những quá trình hoàn toàn ngoài tầm nhận thức; 'subconscious' (đặc biệt trong ngôn ngữ thông thường) chỉ những gì nằm ngay dưới ngưỡng ý thức và có thể tiếp cận được — hai thuật ngữ này thường bị dùng lẫn lộn.",
+        "example_en": "The patient remained unconscious for several hours after the accident.",
+        "example_vi": "Bệnh nhân bất tỉnh trong vài giờ sau tai nạn.",
+        "ff_example_en": "Later, the therapist explored subconscious memories connected with the accident.",
+        "ff_example_vi": "Sau đó, nhà trị liệu khám phá những ký ức tiềm thức liên quan đến tai nạn."
       },
       "receptive_productive": "P"
     },
@@ -230,8 +259,12 @@
         "adverb": "efficaciously"
       },
       "false_friend": {
-        "word_vi": "self-esteem",
-        "explanation_vi": "'Self-efficacy' là niềm tin vào khả năng thực hiện một nhiệm vụ cụ thể; 'self-esteem' là đánh giá chung về giá trị bản thân — hai khái niệm liên quan nhưng khác nhau về phạm vi."
+        "word": "self-esteem",
+        "explanation_vi": "'Self-efficacy' là niềm tin vào khả năng thực hiện một nhiệm vụ cụ thể; 'self-esteem' là đánh giá chung về giá trị bản thân — hai khái niệm liên quan nhưng khác nhau về phạm vi.",
+        "example_en": "Completing the task improved the student’s self-efficacy in mathematics.",
+        "example_vi": "Hoàn thành nhiệm vụ làm tăng niềm tin của học sinh vào khả năng làm toán của mình.",
+        "ff_example_en": "Supportive feedback also improved her overall self-esteem.",
+        "ff_example_vi": "Phản hồi hỗ trợ cũng cải thiện lòng tự trọng tổng thể của cô ấy."
       },
       "receptive_productive": "P"
     },

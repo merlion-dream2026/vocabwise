@@ -134,8 +134,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "heritage",
-        "explanation_vi": "'Legacy' thường chỉ những gì để lại — cả tích cực lẫn tiêu cực — từ người hay sự kiện cụ thể; 'heritage' thiên về di sản văn hóa hay tự nhiên mang tính tự hào và bảo tồn."
+        "word": "heritage",
+        "explanation_vi": "'Legacy' thường chỉ những gì để lại — cả tích cực lẫn tiêu cực — từ người hay sự kiện cụ thể; 'heritage' thiên về di sản văn hóa hay tự nhiên mang tính tự hào và bảo tồn.",
+        "example_en": "The former leader left a complex legacy of economic growth and social division.",
+        "example_vi": "Nhà lãnh đạo trước đây để lại một di sản phức tạp gồm tăng trưởng kinh tế và chia rẽ xã hội.",
+        "ff_example_en": "The country protects its architectural heritage as a source of cultural pride.",
+        "ff_example_vi": "Đất nước bảo vệ di sản kiến trúc như một nguồn tự hào văn hóa."
       },
       "receptive_productive": "P"
     },
@@ -173,8 +177,12 @@
         "adverb": "objectively"
       },
       "false_friend": {
-        "word_vi": "subjectivity",
-        "explanation_vi": "'Objectivity' là tính khách quan, không bị cảm xúc hay quan điểm cá nhân chi phối; 'subjectivity' là tính chủ quan, phụ thuộc vào cảm nhận riêng — hai khái niệm đối lập nhau."
+        "word": "subjectivity",
+        "explanation_vi": "'Objectivity' là tính khách quan, không bị cảm xúc hay quan điểm cá nhân chi phối; 'subjectivity' là tính chủ quan, phụ thuộc vào cảm nhận riêng — hai khái niệm đối lập nhau.",
+        "example_en": "The historian tried to maintain objectivity when assessing the conflict.",
+        "example_vi": "Nhà sử học cố gắng duy trì tính khách quan khi đánh giá cuộc xung đột.",
+        "ff_example_en": "Her personal memories nevertheless introduced some subjectivity into the account.",
+        "ff_example_vi": "Tuy vậy, ký ức cá nhân của bà vẫn đưa một phần tính chủ quan vào bản tường thuật."
       },
       "receptive_productive": "P"
     },
@@ -193,7 +201,14 @@
         "adjective": "biased / unbiased",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "prejudice",
+        "explanation_vi": "'Bias' là xu hướng thiên lệch có thể có ý thức hoặc vô thức; 'prejudice' thường là định kiến tiêu cực đã hình thành trước về một nhóm người.",
+        "example_en": "The editor checked the article for political bias.",
+        "example_vi": "Biên tập viên kiểm tra bài báo để phát hiện sự thiên lệch chính trị.",
+        "ff_example_en": "The editor removed a sentence that showed prejudice against migrants.",
+        "ff_example_vi": "Biên tập viên xóa một câu thể hiện định kiến đối với người di cư."
+      },
       "receptive_productive": "P"
     },
     {
@@ -211,7 +226,14 @@
         "adjective": "interpretive / interpretative",
         "adverb": "interpretively"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "translation",
+        "explanation_vi": "'Interpretation' là cách hiểu hoặc diễn giải; 'translation' là bản chuyển từ ngôn ngữ này sang ngôn ngữ khác.",
+        "example_en": "The historian offered a new interpretation of the speech.",
+        "example_vi": "Nhà sử học đưa ra một cách diễn giải mới về bài phát biểu.",
+        "ff_example_en": "The linguist produced a new translation of the speech.",
+        "ff_example_vi": "Nhà ngôn ngữ học tạo ra một bản dịch mới của bài phát biểu."
+      },
       "receptive_productive": "P"
     },
     {

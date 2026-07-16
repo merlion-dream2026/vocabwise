@@ -115,7 +115,14 @@
         "adjective": "opinionated",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "fact",
+        "explanation_vi": "'Opinion' là ý kiến hoặc đánh giá chủ quan; 'fact' là thông tin có thể kiểm chứng là đúng.",
+        "example_en": "The article clearly labels the writer's opinion.",
+        "example_vi": "Bài báo ghi rõ đâu là ý kiến của tác giả.",
+        "ff_example_en": "The article checks every fact before publication.",
+        "ff_example_vi": "Bài báo kiểm chứng mọi sự thật trước khi xuất bản."
+      },
       "receptive_productive": "P"
     },
     {
@@ -152,8 +159,12 @@
         "adverb": "arguably"
       },
       "false_friend": {
-        "word_vi": "cãi nhau",
-        "explanation_vi": "Trong tiếng Việt, 'cãi nhau' thường ngụ ý xung đột cảm xúc. 'Argument' trong tiếng Anh học thuật thường có nghĩa trung tính hơn: một lập luận có logic và bằng chứng — 'to make an argument' = đưa ra lập luận."
+        "word": "",
+        "explanation_vi": "Trong tiếng Việt, 'cãi nhau' thường ngụ ý xung đột cảm xúc. 'Argument' trong tiếng Anh học thuật thường có nghĩa trung tính hơn: một lập luận có logic và bằng chứng — 'to make an argument' = đưa ra lập luận.",
+        "example_en": "The essay presents a clear argument supported by local evidence.",
+        "example_vi": "Bài luận trình bày một lập luận rõ ràng được hỗ trợ bằng bằng chứng địa phương.",
+        "ff_example_en": "Two residents had an angry argument about the proposed solution.",
+        "ff_example_vi": "Hai cư dân có một cuộc cãi vã gay gắt về giải pháp được đề xuất."
       },
       "receptive_productive": "P"
     },
@@ -172,7 +183,14 @@
         "adjective": "evident",
         "adverb": "evidently"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "proof",
+        "explanation_vi": "'Evidence' là thông tin hoặc dữ liệu hỗ trợ một kết luận; 'proof' là bằng chứng đủ sức xác lập điều gì đó là đúng, nên thường mạnh và dứt khoát hơn.",
+        "example_en": "The scientist presented evidence that the treatment might work.",
+        "example_vi": "Nhà khoa học trình bày bằng chứng cho thấy phương pháp điều trị có thể hiệu quả.",
+        "ff_example_en": "The scientist said the results were not yet proof that the treatment worked.",
+        "ff_example_vi": "Nhà khoa học nói rằng kết quả vẫn chưa phải là bằng chứng xác thực rằng phương pháp điều trị có hiệu quả."
+      },
       "receptive_productive": "P"
     },
     {
@@ -190,7 +208,14 @@
         "adjective": "persuasive",
         "adverb": "persuasively"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "convince",
+        "explanation_vi": "'Persuade' thường nhấn mạnh khiến ai làm điều gì; 'convince' thường nhấn mạnh khiến ai tin rằng điều gì đúng.",
+        "example_en": "The advertisement persuaded Lan to buy the product.",
+        "example_vi": "Quảng cáo thuyết phục Lan mua sản phẩm.",
+        "ff_example_en": "The advertisement convinced Lan that the product was safe.",
+        "ff_example_vi": "Quảng cáo khiến Lan tin rằng sản phẩm an toàn."
+      },
       "receptive_productive": "P"
     },
     {
@@ -208,7 +233,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "prospect",
+        "explanation_vi": "'Perspective' là góc nhìn hoặc quan điểm; 'prospect' là triển vọng hoặc khả năng trong tương lai.",
+        "example_en": "The novel tells the story from a child's perspective.",
+        "example_vi": "Tiểu thuyết kể câu chuyện từ góc nhìn của một đứa trẻ.",
+        "ff_example_en": "The novel improved the young author's prospects of finding a publisher.",
+        "ff_example_vi": "Tiểu thuyết giúp cải thiện triển vọng tìm được nhà xuất bản của tác giả trẻ."
+      },
       "receptive_productive": "P"
     },
     {

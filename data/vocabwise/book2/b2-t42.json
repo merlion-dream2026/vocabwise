@@ -97,7 +97,14 @@
         "adjective": "accessible / inaccessible",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "assess",
+        "explanation_vi": "'Access' là tiếp cận hoặc sử dụng; 'assess' là đánh giá.",
+        "example_en": "Students can access the online learning platform.",
+        "example_vi": "Học sinh có thể truy cập nền tảng học trực tuyến.",
+        "ff_example_en": "Teachers can assess students on the online learning platform.",
+        "ff_example_vi": "Giáo viên có thể đánh giá học sinh trên nền tảng học trực tuyến."
+      },
       "receptive_productive": "P"
     },
     {
@@ -133,7 +140,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "wellbeing",
+        "explanation_vi": "'Welfare' là phúc lợi hoặc sự hỗ trợ xã hội; 'wellbeing' là trạng thái khỏe mạnh và hạnh phúc tổng thể.",
+        "example_en": "The charity provides welfare support to older residents.",
+        "example_vi": "Tổ chức từ thiện cung cấp hỗ trợ phúc lợi cho người dân lớn tuổi.",
+        "ff_example_en": "The community programme aims to improve older residents' wellbeing.",
+        "ff_example_vi": "Chương trình cộng đồng nhằm cải thiện trạng thái an sinh của người dân lớn tuổi."
+      },
       "receptive_productive": "P"
     },
     {
@@ -241,7 +255,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "camping",
+        "explanation_vi": "'Campaign' là một chiến dịch có mục tiêu; 'camping' là hoạt động cắm trại.",
+        "example_en": "The students organised a campaign to protect the forest.",
+        "example_vi": "Các học sinh tổ chức một chiến dịch bảo vệ rừng.",
+        "ff_example_en": "The students went camping in the forest at the weekend.",
+        "ff_example_vi": "Các học sinh đi cắm trại trong rừng vào cuối tuần."
+      },
       "receptive_productive": "P"
     },
     {
@@ -277,7 +298,14 @@
         "adjective": "funded",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "found",
+        "explanation_vi": "'Fund' là tài trợ tiền hoặc quỹ; 'found' là thành lập, hoặc dạng quá khứ của 'find'.",
+        "example_en": "The university will fund the new research centre.",
+        "example_vi": "Trường đại học sẽ tài trợ cho trung tâm nghiên cứu mới.",
+        "ff_example_en": "The university will found a new research centre.",
+        "ff_example_vi": "Trường đại học sẽ thành lập một trung tâm nghiên cứu mới."
+      },
       "receptive_productive": "P"
     },
     {
@@ -295,7 +323,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "rise",
+        "explanation_vi": "'Raise' là ngoại động từ, phải có tân ngữ; 'rise' là nội động từ, nghĩa là tự tăng hoặc đứng dậy.",
+        "example_en": "The charity hopes to raise more money this year.",
+        "example_vi": "Tổ chức từ thiện hy vọng gây quỹ được nhiều tiền hơn trong năm nay.",
+        "ff_example_en": "The amount of money raised may rise this year.",
+        "ff_example_vi": "Số tiền gây quỹ được có thể tăng trong năm nay."
+      },
       "receptive_productive": "P"
     },
     {

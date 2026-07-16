@@ -61,7 +61,14 @@
         "adjective": "noticeable",
         "adverb": "noticeably"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "notification",
+        "explanation_vi": "“Notice” là thông báo chính thức hoặc hành động nhận thấy; “notification” thường là thông báo từ hệ thống hoặc ứng dụng.",
+        "example_en": "The school posted a safety notice near the gate.",
+        "example_vi": "Nhà trường dán một thông báo an toàn gần cổng.",
+        "ff_example_en": "The safety app sent a notification to every student.",
+        "ff_example_vi": "Ứng dụng an toàn gửi thông báo đến mọi học sinh."
+      }
     },
     {
       "id": 2,
@@ -78,7 +85,14 @@
         "adjective": "warned",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "caution",
+        "explanation_vi": "“Warning” báo một nguy hiểm cụ thể; “caution” nhắc phải cẩn thận.",
+        "example_en": "The sign gives a warning about falling rocks.",
+        "example_vi": "Biển báo đưa ra cảnh báo về đá rơi.",
+        "ff_example_en": "The sign advises caution on the narrow path.",
+        "ff_example_vi": "Biển báo khuyên phải thận trọng trên lối đi hẹp."
+      }
     },
     {
       "id": 3,
@@ -129,7 +143,14 @@
         "adjective": "instructive",
         "adverb": "instructively"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "direction",
+        "explanation_vi": "“Instruction” cho biết cách thực hiện việc gì; “direction” chỉ hướng hoặc chỉ dẫn đường đi.",
+        "example_en": "The notice gives instructions for using the emergency door.",
+        "example_vi": "Thông báo đưa ra hướng dẫn sử dụng cửa thoát hiểm.",
+        "ff_example_en": "The arrow shows the direction of the emergency door.",
+        "ff_example_vi": "Mũi tên chỉ hướng đến cửa thoát hiểm."
+      }
     },
     {
       "id": 6,
@@ -163,7 +184,14 @@
         "adjective": "risky",
         "adverb": "riskily"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "danger",
+        "explanation_vi": "“Risk” là khả năng điều xấu xảy ra; “danger” là tình trạng hoặc nguồn có thể gây hại.",
+        "example_en": "There is a risk of falling on the wet floor.",
+        "example_vi": "Có nguy cơ bị ngã trên sàn ướt.",
+        "ff_example_en": "The broken wire puts visitors in immediate danger.",
+        "ff_example_vi": "Dây điện hỏng khiến khách tham quan gặp nguy hiểm ngay lập tức."
+      }
     },
     {
       "id": 8,
@@ -180,7 +208,14 @@
         "adjective": "forbidden",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "prohibited",
+        "explanation_vi": "“Forbidden” và “prohibited” đều nghĩa là bị cấm; “prohibited” thường trang trọng và phổ biến trên biển báo, quy định.",
+        "example_en": "Taking photographs is forbidden in this room.",
+        "example_vi": "Chụp ảnh bị cấm trong phòng này.",
+        "ff_example_en": "Photography is prohibited in this room.",
+        "ff_example_vi": "Việc chụp ảnh bị cấm trong phòng này."
+      }
     },
     {
       "id": 9,
@@ -197,7 +232,14 @@
         "adjective": "cautious",
         "adverb": "cautiously"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "warning",
+        "explanation_vi": "“Caution” nhấn mạnh sự cẩn thận; “warning” báo nguy hiểm cụ thể.",
+        "example_en": "Use caution when walking down the wet stairs.",
+        "example_vi": "Hãy thận trọng khi đi xuống cầu thang ướt.",
+        "ff_example_en": "The sign gives a warning that the stairs are wet.",
+        "ff_example_vi": "Biển báo cảnh báo rằng cầu thang đang ướt."
+      }
     },
     {
       "id": 10,
@@ -214,7 +256,14 @@
         "adjective": "symbolic",
         "adverb": "symbolically"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "sign",
+        "explanation_vi": "“Symbol” là hình hoặc dấu đại diện cho một ý tưởng; “sign” là biển hoặc dấu cung cấp thông tin hay hướng dẫn.",
+        "example_en": "A flame symbol marks materials that can burn easily.",
+        "example_vi": "Biểu tượng ngọn lửa đánh dấu vật liệu dễ cháy.",
+        "ff_example_en": "A warning sign tells visitors not to use matches.",
+        "ff_example_vi": "Biển cảnh báo yêu cầu khách không sử dụng diêm."
+      }
     },
     {
       "id": 11,
@@ -248,7 +297,14 @@
         "adjective": "emergency",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "urgency",
+        "explanation_vi": "“Emergency” là tình huống khẩn cấp; “urgency” là mức độ cần hành động nhanh.",
+        "example_en": "Call this number in an emergency.",
+        "example_vi": "Hãy gọi số này trong tình huống khẩn cấp.",
+        "ff_example_en": "The red colour communicates the urgency of the warning.",
+        "ff_example_vi": "Màu đỏ thể hiện tính cấp bách của cảnh báo."
+      }
     },
     {
       "id": 13,
@@ -265,7 +321,14 @@
         "adjective": "obedient",
         "adverb": "obediently"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "follow",
+        "explanation_vi": "“Obey” là tuân lệnh hoặc quy tắc; “follow” là làm theo chỉ dẫn hoặc đi theo một tuyến.",
+        "example_en": "Visitors must obey the safety rules.",
+        "example_vi": "Khách tham quan phải tuân thủ quy tắc an toàn.",
+        "ff_example_en": "Visitors must follow the marked escape route.",
+        "ff_example_vi": "Khách tham quan phải đi theo đường thoát hiểm được đánh dấu."
+      }
     },
     {
       "id": 14,
@@ -282,7 +345,14 @@
         "adjective": "pointed",
         "adverb": "pointedly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "show",
+        "explanation_vi": "“Point” là chỉ bằng ngón tay, mũi tên hoặc hướng; “show” là làm cho ai nhìn thấy hoặc hiểu.",
+        "example_en": "The arrow points towards the emergency exit.",
+        "example_vi": "Mũi tên chỉ về phía lối thoát hiểm.",
+        "ff_example_en": "The map shows every emergency exit.",
+        "ff_example_vi": "Bản đồ thể hiện mọi lối thoát hiểm."
+      }
     },
     {
       "id": 15,
@@ -299,7 +369,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "road",
+        "explanation_vi": "“Route” là tuyến đường được chọn để đi từ nơi này đến nơi khác; “road” là con đường vật lý.",
+        "example_en": "The map marks the safest escape route.",
+        "example_vi": "Bản đồ đánh dấu tuyến thoát hiểm an toàn nhất.",
+        "ff_example_en": "The emergency vehicles used the main road.",
+        "ff_example_vi": "Các phương tiện khẩn cấp sử dụng con đường chính."
+      }
     }
   ],
   "exercises": {

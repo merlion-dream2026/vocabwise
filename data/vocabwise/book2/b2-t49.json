@@ -169,7 +169,14 @@
         "adjective": "polluted",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "contamination",
+        "explanation_vi": "'Pollution' thường chỉ sự ô nhiễm môi trường trên diện rộng; 'contamination' là việc một chất hoặc vật cụ thể bị nhiễm bẩn.",
+        "example_en": "The factory caused serious pollution in the river.",
+        "example_vi": "Nhà máy gây ô nhiễm nghiêm trọng cho con sông.",
+        "ff_example_en": "The leak caused contamination of the town's drinking water.",
+        "ff_example_vi": "Vụ rò rỉ khiến nguồn nước uống của thị trấn bị nhiễm bẩn."
+      },
       "receptive_productive": "P"
     },
     {

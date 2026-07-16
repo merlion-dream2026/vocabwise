@@ -163,7 +163,14 @@
         "adjective": "relative / related",
         "adverb": "relatively"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "relationship",
+        "explanation_vi": "“Relative” là một người họ hàng; “relationship” là mối quan hệ giữa hai hoặc nhiều người.",
+        "example_en": "A relative from Huế visited our family.",
+        "example_vi": "Một người họ hàng từ Huế đến thăm gia đình chúng tôi.",
+        "ff_example_en": "Our family has a close relationship with our relatives in Huế.",
+        "ff_example_vi": "Gia đình chúng tôi có mối quan hệ thân thiết với họ hàng ở Huế."
+      }
     },
     {
       "id": 8,
@@ -214,7 +221,14 @@
         "adjective": "old / older / oldest",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "elder",
+        "explanation_vi": "“Older” dùng để so sánh tuổi của người hoặc vật; “elder” chủ yếu dùng trước danh từ để nói người lớn tuổi hơn trong gia đình.",
+        "example_en": "My sister is two years older than me.",
+        "example_vi": "Chị gái tôi lớn hơn tôi hai tuổi.",
+        "ff_example_en": "My elder sister is studying at university.",
+        "ff_example_vi": "Chị gái của tôi đang học đại học."
+      }
     },
     {
       "id": 11,
@@ -282,7 +296,14 @@
         "adjective": "bloody / bloodless",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "bleed",
+        "explanation_vi": "“Blood” là danh từ nghĩa là máu; “bleed” là động từ nghĩa là chảy máu.",
+        "example_en": "There was a little blood on Minh’s hand after the accident.",
+        "example_vi": "Có một ít máu trên tay Minh sau tai nạn.",
+        "ff_example_en": "Minh’s hand began to bleed after the accident.",
+        "ff_example_vi": "Tay Minh bắt đầu chảy máu sau tai nạn."
+      }
     },
     {
       "id": 15,

@@ -98,8 +98,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "import",
-        "explanation_vi": "'Export' là xuất khẩu (bán ra nước ngoài); 'import' là nhập khẩu (mua từ nước ngoài) — hai hành động ngược chiều nhau."
+        "word": "import",
+        "explanation_vi": "'Export' là xuất khẩu (bán ra nước ngoài); 'import' là nhập khẩu (mua từ nước ngoài) — hai hành động ngược chiều nhau.",
+        "example_en": "The company exports coffee from Vietnam to Japan.",
+        "example_vi": "Công ty xuất khẩu cà phê từ Việt Nam sang Nhật Bản.",
+        "ff_example_en": "The same company imports machinery from Japan to Vietnam.",
+        "ff_example_vi": "Cũng công ty đó nhập khẩu máy móc từ Nhật Bản vào Việt Nam."
       },
       "receptive_productive": "P"
     },
@@ -118,7 +122,14 @@
         "adjective": "imported",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "export",
+        "explanation_vi": "'Import' là đưa hàng hóa vào một quốc gia; 'export' là đưa hàng hóa ra nước ngoài để bán.",
+        "example_en": "The company imports coffee beans from Brazil.",
+        "example_vi": "Công ty nhập khẩu hạt cà phê từ Brazil.",
+        "ff_example_en": "The company exports roasted coffee to Japan.",
+        "ff_example_vi": "Công ty xuất khẩu cà phê rang sang Nhật Bản."
+      },
       "receptive_productive": "P"
     },
     {
@@ -137,8 +148,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "demand",
-        "explanation_vi": "'Supply' là lượng hàng hóa sẵn có để bán; 'demand' là lượng hàng hóa người mua muốn mua — cung và cầu là hai lực đối lập định giá thị trường."
+        "word": "demand",
+        "explanation_vi": "'Supply' là lượng hàng hóa sẵn có để bán; 'demand' là lượng hàng hóa người mua muốn mua — cung và cầu là hai lực đối lập định giá thị trường.",
+        "example_en": "A poor harvest reduced the supply of rice in the market.",
+        "example_vi": "Một vụ mùa kém làm giảm nguồn cung gạo trên thị trường.",
+        "ff_example_en": "At the same time, demand for rice remained high.",
+        "ff_example_vi": "Cùng lúc đó, nhu cầu về gạo vẫn ở mức cao."
       },
       "receptive_productive": "P"
     },
@@ -175,7 +190,14 @@
         "adjective": "competitive",
         "adverb": "competitively"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "complete",
+        "explanation_vi": "'Compete' là thi đấu hoặc cạnh tranh; 'complete' là hoàn thành hoặc đầy đủ.",
+        "example_en": "The teams will compete in the final round.",
+        "example_vi": "Các đội sẽ thi đấu trong vòng chung kết.",
+        "ff_example_en": "The teams must complete the registration form before the final round.",
+        "ff_example_vi": "Các đội phải hoàn thành mẫu đăng ký trước vòng chung kết."
+      },
       "receptive_productive": "P"
     },
     {
@@ -193,7 +215,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "current",
+        "explanation_vi": "'Currency' là tiền tệ; 'current' là hiện tại, hiện hành hoặc dòng chảy.",
+        "example_en": "The bank exchanged the foreign currency for Lan.",
+        "example_vi": "Ngân hàng đổi ngoại tệ cho Lan.",
+        "ff_example_en": "The bank displayed the current exchange rate for Lan.",
+        "ff_example_vi": "Ngân hàng hiển thị tỷ giá hiện hành cho Lan."
+      },
       "receptive_productive": "P"
     },
     {
@@ -229,7 +258,14 @@
         "adjective": "negotiable",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "neglect",
+        "explanation_vi": "'Negotiate' là đàm phán; 'neglect' là bỏ bê hoặc không chú ý đầy đủ.",
+        "example_en": "The manager negotiated better pay for the workers.",
+        "example_vi": "Người quản lý đàm phán mức lương tốt hơn cho công nhân.",
+        "ff_example_en": "The manager neglected the workers' safety concerns.",
+        "ff_example_vi": "Người quản lý bỏ qua những lo ngại về an toàn của công nhân."
+      },
       "receptive_productive": "P"
     },
     {
@@ -248,8 +284,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "deal",
-        "explanation_vi": "'Agreement' là văn bản chính thức, thường có tính pháp lý; 'deal' mang nghĩa thông thường hơn và thường dùng trong giao tiếp không trang trọng."
+        "word": "deal",
+        "explanation_vi": "'Agreement' là văn bản chính thức, thường có tính pháp lý; 'deal' mang nghĩa thông thường hơn và thường dùng trong giao tiếp không trang trọng.",
+        "example_en": "The two governments signed a formal trade agreement.",
+        "example_vi": "Hai chính phủ ký một hiệp định thương mại chính thức.",
+        "ff_example_en": "The two companies also made an informal deal on delivery dates.",
+        "ff_example_vi": "Hai công ty cũng đạt một thỏa thuận không chính thức về ngày giao hàng."
       },
       "receptive_productive": "P"
     },
@@ -268,7 +308,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "border",
+        "explanation_vi": "'Barrier' là vật hoặc yếu tố cản trở sự tiếp cận hay tiến bộ; 'border' là đường ranh giới giữa hai khu vực hoặc quốc gia.",
+        "example_en": "High fees created a barrier to education for poor students.",
+        "example_vi": "Học phí cao tạo ra rào cản đối với việc học của học sinh nghèo.",
+        "ff_example_en": "The school is located near the border between the two provinces.",
+        "ff_example_vi": "Ngôi trường nằm gần ranh giới giữa hai tỉnh."
+      },
       "receptive_productive": "P"
     },
     {
@@ -287,8 +334,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "tariff",
-        "explanation_vi": "Trong tiếng Anh học thuật và kinh tế, 'tariff' là từ chính xác hơn cho thuế đánh vào hàng nhập khẩu; 'trade tax' là cách diễn đạt đơn giản hơn nhưng có cùng nghĩa."
+        "word": "tariff",
+        "explanation_vi": "Trong tiếng Anh học thuật và kinh tế, 'tariff' là từ chính xác hơn cho thuế đánh vào hàng nhập khẩu; 'trade tax' là cách diễn đạt đơn giản hơn nhưng có cùng nghĩa.",
+        "example_en": "The textbook uses the simple phrase “trade tax” for a tax on imported goods.",
+        "example_vi": "Sách giáo khoa dùng cụm đơn giản “trade tax” để chỉ thuế đánh vào hàng nhập khẩu.",
+        "ff_example_en": "The economics report uses the formal term “tariff” for the same tax.",
+        "ff_example_vi": "Báo cáo kinh tế dùng thuật ngữ chính thức “tariff” cho cùng loại thuế đó."
       },
       "receptive_productive": "R"
     },
@@ -307,7 +358,14 @@
         "adjective": "regulatory / regulated",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "regular",
+        "explanation_vi": "'Regulate' là quản lý hoặc kiểm soát bằng quy định; 'regular' là đều đặn hoặc thông thường.",
+        "example_en": "The government regulates online banking services.",
+        "example_vi": "Chính phủ quản lý các dịch vụ ngân hàng trực tuyến.",
+        "ff_example_en": "The bank sends regular security updates to customers.",
+        "ff_example_vi": "Ngân hàng gửi các bản cập nhật bảo mật thường xuyên cho khách hàng."
+      },
       "receptive_productive": "P"
     },
     {
@@ -326,8 +384,12 @@
         "adverb": "productively"
       },
       "false_friend": {
-        "word_vi": "product",
-        "explanation_vi": "'Produce' (động từ) là hành động sản xuất; 'product' (danh từ) là thứ được sản xuất ra. Phát âm cũng khác: động từ /prəˈdjuːs/, danh từ /ˈprɒd.juːs/."
+        "word": "product",
+        "explanation_vi": "'Produce' (động từ) là hành động sản xuất; 'product' (danh từ) là thứ được sản xuất ra. Phát âm cũng khác: động từ /prəˈdjuːs/, danh từ /ˈprɒd.juːs/.",
+        "example_en": "The factory can produce five hundred bicycles a day.",
+        "example_vi": "Nhà máy có thể sản xuất năm trăm chiếc xe đạp mỗi ngày.",
+        "ff_example_en": "Each bicycle is a product that the company sells overseas.",
+        "ff_example_vi": "Mỗi chiếc xe đạp là một sản phẩm mà công ty bán ra nước ngoài."
       },
       "receptive_productive": "P"
     }

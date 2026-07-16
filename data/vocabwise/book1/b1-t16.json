@@ -95,7 +95,14 @@
         "adjective": "internet-based",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "website",
+        "explanation_vi": "“Internet” là mạng lưới toàn cầu kết nối các thiết bị; “website” là một địa chỉ hoặc tập hợp trang cụ thể trên internet.",
+        "example_en": "The students used the internet to find information for the project.",
+        "example_vi": "Các học sinh sử dụng internet để tìm thông tin cho dự án.",
+        "ff_example_en": "The students visited the school website to download the project guide.",
+        "ff_example_vi": "Các học sinh truy cập trang web của trường để tải hướng dẫn dự án."
+      }
     },
     {
       "id": 4,
@@ -146,7 +153,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "massage",
+        "explanation_vi": "“Message” là tin nhắn hoặc lời nhắn; “massage” là việc xoa bóp cơ thể. Hai từ có cách viết khá giống nhau.",
+        "example_en": "Lan sent her mother a message after school.",
+        "example_vi": "Lan gửi cho mẹ một tin nhắn sau giờ học.",
+        "ff_example_en": "Lan gave her mother a shoulder massage after school.",
+        "ff_example_vi": "Lan xoa bóp vai cho mẹ sau giờ học."
+      }
     },
     {
       "id": 7,
@@ -214,7 +228,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "bottom",
+        "explanation_vi": "“Button” là nút bấm hoặc cúc áo; “bottom” là phần dưới cùng. Hai từ thường bị nghe hoặc phát âm nhầm.",
+        "example_en": "Press the green button on the phone.",
+        "example_vi": "Hãy nhấn nút màu xanh trên điện thoại.",
+        "ff_example_en": "The charging port is at the bottom of the phone.",
+        "ff_example_vi": "Cổng sạc nằm ở phía dưới cùng của điện thoại."
+      }
     },
     {
       "id": 11,
@@ -231,7 +252,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "research",
+        "explanation_vi": "“Search” là tìm một thứ hoặc thông tin cụ thể; “research” là nghiên cứu có hệ thống để tìm hiểu sâu về một chủ đề.",
+        "example_en": "I searched the website for a definition of the word.",
+        "example_vi": "Tôi tìm trên trang web định nghĩa của từ đó.",
+        "ff_example_en": "I researched how the word has changed over time.",
+        "ff_example_vi": "Tôi nghiên cứu cách từ đó thay đổi theo thời gian."
+      }
     },
     {
       "id": 12,
@@ -282,7 +310,14 @@
         "adjective": "connected",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "contact",
+        "explanation_vi": "“Connect” nghĩa là kết nối hai thiết bị, người hoặc hệ thống; “contact” nghĩa là liên lạc với một người.",
+        "example_en": "Connect the laptop to the classroom screen.",
+        "example_vi": "Hãy kết nối máy tính xách tay với màn hình lớp học.",
+        "ff_example_en": "Contact the teacher if the classroom screen does not work.",
+        "ff_example_vi": "Hãy liên lạc với giáo viên nếu màn hình lớp học không hoạt động."
+      }
     },
     {
       "id": 15,

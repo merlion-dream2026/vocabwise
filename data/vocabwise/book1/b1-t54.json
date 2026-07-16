@@ -61,7 +61,14 @@
         "adjective": "characteristic",
         "adverb": "characteristically"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "personality",
+        "explanation_vi": "“Character” có thể là nhân vật trong truyện hoặc phẩm chất đạo đức; “personality” là tính cách của một người.",
+        "example_en": "The main character is a brave young girl.",
+        "example_vi": "Nhân vật chính là một cô gái trẻ dũng cảm.",
+        "ff_example_en": "The young girl has a cheerful personality.",
+        "ff_example_vi": "Cô gái trẻ có tính cách vui vẻ."
+      }
     },
     {
       "id": 2,
@@ -78,7 +85,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "start",
+        "explanation_vi": "“Beginning” thường là phần đầu của một câu chuyện hoặc giai đoạn; “start” là thời điểm hoặc hành động bắt đầu.",
+        "example_en": "The beginning of the story introduces the hero.",
+        "example_vi": "Phần đầu câu chuyện giới thiệu người anh hùng.",
+        "ff_example_en": "The story starts with the hero leaving home.",
+        "ff_example_vi": "Câu chuyện bắt đầu bằng việc người anh hùng rời nhà."
+      }
     },
     {
       "id": 3,
@@ -95,7 +109,14 @@
         "adjective": "middle",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "centre",
+        "explanation_vi": "“Middle” là phần ở giữa một quá trình, thời gian hoặc vật; “centre” là điểm trung tâm của một khu vực hoặc hình dạng.",
+        "example_en": "A new problem appears in the middle of the story.",
+        "example_vi": "Một vấn đề mới xuất hiện ở giữa câu chuyện.",
+        "ff_example_en": "The map is printed in the centre of the page.",
+        "ff_example_vi": "Bản đồ được in ở trung tâm trang."
+      }
     },
     {
       "id": 4,
@@ -112,7 +133,14 @@
         "adjective": "endless",
         "adverb": "endlessly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "finish",
+        "explanation_vi": "“End” có thể là danh từ hoặc động từ chỉ điểm cuối; “finish” thường nhấn mạnh hoàn thành một hoạt động.",
+        "example_en": "The villain is defeated at the end of the story.",
+        "example_vi": "Kẻ phản diện bị đánh bại ở cuối câu chuyện.",
+        "ff_example_en": "Lan finished reading the story before dinner.",
+        "ff_example_vi": "Lan đọc xong câu chuyện trước bữa tối."
+      }
     },
     {
       "id": 5,
@@ -163,7 +191,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "plan",
+        "explanation_vi": "“Plot” là chuỗi sự kiện trong câu chuyện; “plan” là dự định về việc sẽ làm.",
+        "example_en": "The plot follows a hero searching for his family.",
+        "example_vi": "Cốt truyện theo chân một anh hùng đi tìm gia đình.",
+        "ff_example_en": "The hero makes a plan to rescue his family.",
+        "ff_example_vi": "Người anh hùng lập kế hoạch giải cứu gia đình."
+      }
     },
     {
       "id": 8,
@@ -180,7 +215,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "set",
+        "explanation_vi": "“Setting” là bối cảnh thời gian và địa điểm của câu chuyện; “set” có thể là động từ nghĩa là đặt bối cảnh.",
+        "example_en": "The setting of the story is a mountain village.",
+        "example_vi": "Bối cảnh câu chuyện là một ngôi làng miền núi.",
+        "ff_example_en": "The author set the story in a mountain village.",
+        "ff_example_vi": "Tác giả đặt bối cảnh câu chuyện tại một ngôi làng miền núi."
+      }
     },
     {
       "id": 9,
@@ -197,7 +239,14 @@
         "adjective": "made-up",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "makeup",
+        "explanation_vi": "“Made-up” nghĩa là hư cấu hoặc bịa ra; “makeup” là mỹ phẩm trang điểm. Hai từ có cách viết gần giống nhau.",
+        "example_en": "The story describes a made-up kingdom.",
+        "example_vi": "Câu chuyện mô tả một vương quốc hư cấu.",
+        "ff_example_en": "The actress wore stage makeup to play the queen.",
+        "ff_example_vi": "Nữ diễn viên trang điểm sân khấu để đóng vai nữ hoàng."
+      }
     },
     {
       "id": 10,
@@ -214,7 +263,14 @@
         "adjective": "real / unreal",
         "adverb": "really"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "true",
+        "explanation_vi": "“Real” nói người hoặc vật thực sự tồn tại; “true” nói thông tin hoặc lời kể đúng sự thật.",
+        "example_en": "The story is based on a real person.",
+        "example_vi": "Câu chuyện dựa trên một người có thật.",
+        "ff_example_en": "The details about that person’s childhood are true.",
+        "ff_example_vi": "Những chi tiết về tuổi thơ của người đó là đúng sự thật."
+      }
     },
     {
       "id": 11,
@@ -248,7 +304,14 @@
         "adjective": "moral / immoral",
         "adverb": "morally"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "morale",
+        "explanation_vi": "“Moral” là bài học đạo đức; “morale” là tinh thần và sự tự tin của một nhóm. Hai từ phát âm gần giống nhau.",
+        "example_en": "The moral of the story is that honesty matters.",
+        "example_vi": "Bài học đạo đức của câu chuyện là sự trung thực rất quan trọng.",
+        "ff_example_en": "The hero’s speech raised the villagers’ morale.",
+        "ff_example_vi": "Bài phát biểu của người anh hùng nâng cao tinh thần dân làng."
+      }
     },
     {
       "id": 13,
@@ -282,7 +345,14 @@
         "adjective": "narrative",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "author",
+        "explanation_vi": "“Narrator” là giọng hoặc nhân vật kể chuyện; “author” là người sáng tác tác phẩm.",
+        "example_en": "The narrator tells the story in the first person.",
+        "example_vi": "Người kể chuyện kể câu chuyện ở ngôi thứ nhất.",
+        "ff_example_en": "The author wrote the story for young readers.",
+        "ff_example_vi": "Tác giả viết câu chuyện cho độc giả trẻ."
+      }
     },
     {
       "id": 15,
@@ -299,7 +369,14 @@
         "adjective": "imaginative / imaginary",
         "adverb": "imaginatively"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "image",
+        "explanation_vi": "“Imagine” là động từ nghĩa là tưởng tượng; “image” là danh từ nghĩa là hình ảnh. Hai từ có cách viết gần giống nhau.",
+        "example_en": "Imagine the castle described in the story.",
+        "example_vi": "Hãy tưởng tượng lâu đài được mô tả trong câu chuyện.",
+        "ff_example_en": "The book includes an image of the castle.",
+        "ff_example_vi": "Cuốn sách có một hình ảnh của lâu đài."
+      }
     }
   ],
   "exercises": {

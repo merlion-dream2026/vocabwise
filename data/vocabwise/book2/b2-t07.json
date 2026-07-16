@@ -62,7 +62,14 @@
         "adjective": "equal",
         "adverb": "equally"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "equity",
+        "explanation_vi": "'Equality' là đối xử hoặc cung cấp như nhau; 'equity' là phân bổ công bằng dựa trên nhu cầu khác nhau.",
+        "example_en": "The school promoted equality by giving every class the same number of computers.",
+        "example_vi": "Nhà trường thúc đẩy sự bình đẳng bằng cách cấp cho mỗi lớp cùng số lượng máy tính.",
+        "ff_example_en": "The school promoted equity by giving more computers to classes with greater needs.",
+        "ff_example_vi": "Nhà trường thúc đẩy sự công bằng bằng cách cấp nhiều máy tính hơn cho các lớp có nhu cầu lớn hơn."
+      },
       "receptive_productive": "R"
     },
     {
@@ -80,7 +87,14 @@
         "adjective": "stereotypical",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "prejudice",
+        "explanation_vi": "'Stereotype' là hình ảnh khái quát cứng nhắc về một nhóm; 'prejudice' là thái độ đánh giá tiêu cực có sẵn đối với nhóm đó.",
+        "example_en": "The advertisement repeated a stereotype about older workers.",
+        "example_vi": "Quảng cáo lặp lại một khuôn mẫu về người lao động lớn tuổi.",
+        "ff_example_en": "The manager's prejudice against older workers affected his decision.",
+        "ff_example_vi": "Định kiến của người quản lý đối với lao động lớn tuổi ảnh hưởng đến quyết định của ông."
+      },
       "receptive_productive": "R"
     },
     {
@@ -98,7 +112,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "presentation",
+        "explanation_vi": "'Representation' là sự đại diện hoặc cách một nhóm được thể hiện; 'presentation' là bài trình bày trước người nghe.",
+        "example_en": "The report examined the representation of women in the media.",
+        "example_vi": "Báo cáo xem xét sự đại diện của phụ nữ trên truyền thông.",
+        "ff_example_en": "Lan gave a presentation about women in the media.",
+        "ff_example_vi": "Lan thực hiện một bài thuyết trình về phụ nữ trên truyền thông."
+      },
       "receptive_productive": "R"
     },
     {
@@ -134,7 +155,14 @@
         "adjective": "biased / unbiased",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "prejudice",
+        "explanation_vi": "'Bias' là xu hướng thiên lệch có thể có ý thức hoặc vô thức; 'prejudice' thường là định kiến tiêu cực đã hình thành trước về một nhóm người.",
+        "example_en": "The editor checked the article for political bias.",
+        "example_vi": "Biên tập viên kiểm tra bài báo để phát hiện sự thiên lệch chính trị.",
+        "ff_example_en": "The editor removed a sentence that showed prejudice against migrants.",
+        "ff_example_vi": "Biên tập viên xóa một câu thể hiện định kiến đối với người di cư."
+      },
       "receptive_productive": "R"
     },
     {
@@ -170,7 +198,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "border",
+        "explanation_vi": "'Barrier' là vật hoặc yếu tố cản trở sự tiếp cận hay tiến bộ; 'border' là đường ranh giới giữa hai khu vực hoặc quốc gia.",
+        "example_en": "High fees created a barrier to education for poor students.",
+        "example_vi": "Học phí cao tạo ra rào cản đối với việc học của học sinh nghèo.",
+        "ff_example_en": "The school is located near the border between the two provinces.",
+        "ff_example_vi": "Ngôi trường nằm gần ranh giới giữa hai tỉnh."
+      },
       "receptive_productive": "R"
     },
     {
@@ -188,7 +223,14 @@
         "adjective": "discriminatory",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "distinction",
+        "explanation_vi": "'Discrimination' thường chỉ sự đối xử bất công; 'distinction' là sự khác biệt hoặc việc phân biệt trung tính giữa hai điều.",
+        "example_en": "The company was accused of discrimination against older applicants.",
+        "example_vi": "Công ty bị cáo buộc phân biệt đối xử với ứng viên lớn tuổi.",
+        "ff_example_en": "The report made a clear distinction between age and experience.",
+        "ff_example_vi": "Báo cáo nêu rõ sự khác biệt giữa tuổi tác và kinh nghiệm."
+      },
       "receptive_productive": "R"
     },
     {
@@ -225,8 +267,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "sex",
-        "explanation_vi": "'Gender' là vai trò xã hội; 'sex' là đặc điểm sinh học — hai khái niệm khác nhau."
+        "word": "sex",
+        "explanation_vi": "'Gender' là vai trò xã hội; 'sex' là đặc điểm sinh học — hai khái niệm khác nhau.",
+        "example_en": "The survey examined how gender roles affect career choices.",
+        "example_vi": "Cuộc khảo sát xem xét cách vai trò giới ảnh hưởng đến lựa chọn nghề nghiệp.",
+        "ff_example_en": "The medical form asked participants to state their biological sex.",
+        "ff_example_vi": "Phiếu y tế yêu cầu người tham gia ghi giới tính sinh học của họ."
       },
       "receptive_productive": "R"
     },
@@ -245,7 +291,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "camping",
+        "explanation_vi": "'Campaign' là một chiến dịch có mục tiêu; 'camping' là hoạt động cắm trại.",
+        "example_en": "The students organised a campaign to protect the forest.",
+        "example_vi": "Các học sinh tổ chức một chiến dịch bảo vệ rừng.",
+        "ff_example_en": "The students went camping in the forest at the weekend.",
+        "ff_example_vi": "Các học sinh đi cắm trại trong rừng vào cuối tuần."
+      },
       "receptive_productive": "P"
     },
     {
@@ -317,7 +370,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "protect",
+        "explanation_vi": "'Protest' là phản đối hoặc biểu tình; 'protect' là bảo vệ khỏi nguy hiểm hay tổn hại.",
+        "example_en": "Residents gathered to protest against the factory.",
+        "example_vi": "Người dân tập trung để phản đối nhà máy.",
+        "ff_example_en": "Residents planted trees to protect the area from pollution.",
+        "ff_example_vi": "Người dân trồng cây để bảo vệ khu vực khỏi ô nhiễm."
+      },
       "receptive_productive": "P"
     }
   ],

@@ -169,7 +169,14 @@
         "adjective": "contractual",
         "adverb": "contractually"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "contact",
+        "explanation_vi": "'Contract' là hợp đồng; 'contact' là sự liên lạc hoặc người để liên hệ.",
+        "example_en": "Lan signed a contract with the new company.",
+        "example_vi": "Lan ký hợp đồng với công ty mới.",
+        "ff_example_en": "Lan saved the manager as a contact on her phone.",
+        "ff_example_vi": "Lan lưu người quản lý làm một liên hệ trong điện thoại."
+      },
       "receptive_productive": "P"
     },
     {
@@ -187,7 +194,14 @@
         "adjective": "adaptable",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "adopt",
+        "explanation_vi": "'Adapt' là điều chỉnh để phù hợp; 'adopt' là tiếp nhận một ý tưởng, phương pháp hoặc nhận nuôi.",
+        "example_en": "The school adapted the programme for younger students.",
+        "example_vi": "Nhà trường điều chỉnh chương trình cho học sinh nhỏ tuổi hơn.",
+        "ff_example_en": "The school adopted a new programme for younger students.",
+        "ff_example_vi": "Nhà trường áp dụng một chương trình mới cho học sinh nhỏ tuổi hơn."
+      },
       "receptive_productive": "P"
     },
     {
@@ -277,7 +291,14 @@
         "adjective": "efficient / inefficient",
         "adverb": "efficiently"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "effective",
+        "explanation_vi": "'Efficient' nghĩa là đạt kết quả với ít thời gian hoặc nguồn lực; 'effective' nghĩa là thực sự tạo ra kết quả mong muốn.",
+        "example_en": "The new system is efficient because it uses less electricity.",
+        "example_vi": "Hệ thống mới hiệu quả về nguồn lực vì dùng ít điện hơn.",
+        "ff_example_en": "The new system is effective because it reduces errors.",
+        "ff_example_vi": "Hệ thống mới có hiệu quả vì làm giảm lỗi."
+      },
       "receptive_productive": "P"
     },
     {

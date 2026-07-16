@@ -95,7 +95,14 @@
         "adjective": "historic / historical",
         "adverb": "historically"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "story",
+        "explanation_vi": "“History” là lịch sử hoặc sự nghiên cứu các sự kiện có thật trong quá khứ; “story” là câu chuyện, có thể có thật hoặc hư cấu.",
+        "example_en": "In history class, we learned about an ancient king.",
+        "example_vi": "Trong giờ lịch sử, chúng tôi học về một vị vua cổ đại.",
+        "ff_example_en": "In English class, we read a story about an ancient king.",
+        "ff_example_vi": "Trong giờ tiếng Anh, chúng tôi đọc một câu chuyện về một vị vua cổ đại."
+      }
     },
     {
       "id": 4,
@@ -163,7 +170,14 @@
         "adjective": "English",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "England",
+        "explanation_vi": "“English” là tiếng Anh hoặc tính từ chỉ nước Anh; “England” là tên một quốc gia thuộc Vương quốc Anh.",
+        "example_en": "Lan is studying English before her trip.",
+        "example_vi": "Lan đang học tiếng Anh trước chuyến đi.",
+        "ff_example_en": "Lan is travelling to England during the summer.",
+        "ff_example_vi": "Lan sẽ đi đến nước Anh trong mùa hè."
+      }
     },
     {
       "id": 8,
@@ -197,7 +211,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "class",
+        "explanation_vi": "“Lesson” là nội dung hoặc một tiết học; “class” có thể là buổi học hoặc nhóm học sinh.",
+        "example_en": "Today’s science lesson is about electricity.",
+        "example_vi": "Bài học khoa học hôm nay nói về điện.",
+        "ff_example_en": "Our science class has twenty-five students.",
+        "ff_example_vi": "Lớp khoa học của chúng tôi có hai mươi lăm học sinh."
+      }
     },
     {
       "id": 10,
@@ -265,7 +286,14 @@
         "adjective": "understandable",
         "adverb": "understandably"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "know",
+        "explanation_vi": "“Understand” là nắm được ý nghĩa hoặc cách hoạt động; “know” là có thông tin hoặc quen thuộc với một sự việc.",
+        "example_en": "I understand how to solve this maths problem.",
+        "example_vi": "Tôi hiểu cách giải bài toán này.",
+        "ff_example_en": "I know the formula needed for this maths problem.",
+        "ff_example_vi": "Tôi biết công thức cần dùng cho bài toán này."
+      }
     },
     {
       "id": 14,
@@ -282,7 +310,14 @@
         "adjective": "explanatory",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "describe",
+        "explanation_vi": "“Explain” làm rõ lý do hoặc cách thức; “describe” nói một người hoặc vật trông như thế nào hoặc có đặc điểm gì.",
+        "example_en": "The teacher explained why the experiment failed.",
+        "example_vi": "Giáo viên giải thích vì sao thí nghiệm thất bại.",
+        "ff_example_en": "The teacher described what the failed experiment looked like.",
+        "ff_example_vi": "Giáo viên mô tả thí nghiệm thất bại trông như thế nào."
+      }
     },
     {
       "id": 15,
@@ -299,7 +334,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "mark",
+        "explanation_vi": "“Score” thường là tổng số điểm đạt được; “mark” thường là điểm giáo viên cho một bài làm cụ thể.",
+        "example_en": "Lan’s final score in maths was 90 out of 100.",
+        "example_vi": "Điểm tổng kết môn toán của Lan là 90 trên 100.",
+        "ff_example_en": "The teacher gave Lan a high mark for her final answer.",
+        "ff_example_vi": "Giáo viên cho Lan điểm cao cho câu trả lời cuối cùng."
+      }
     }
   ],
   "exercises": {

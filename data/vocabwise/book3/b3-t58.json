@@ -80,8 +80,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "adoption",
-        "explanation_vi": "'Adaptation' là sự thích nghi với hoàn cảnh; 'adoption' là sự nhận nuôi hoặc chính thức chấp nhận một chính sách — hai từ dễ nhầm nhưng khác nghĩa hoàn toàn."
+        "word": "adoption",
+        "explanation_vi": "'Adaptation' là sự thích nghi với hoàn cảnh; 'adoption' là sự nhận nuôi hoặc chính thức chấp nhận một chính sách — hai từ dễ nhầm nhưng khác nghĩa hoàn toàn.",
+        "example_en": "Coastal adaptation included moving homes away from areas at risk of flooding.",
+        "example_vi": "Hoạt động thích ứng ven biển bao gồm di chuyển nhà ở khỏi những khu vực có nguy cơ ngập lụt.",
+        "ff_example_en": "The adoption of a national climate plan occurred the following year.",
+        "ff_example_vi": "Việc chính thức áp dụng kế hoạch khí hậu quốc gia diễn ra vào năm sau."
       },
       "receptive_productive": "P"
     },
@@ -154,7 +158,14 @@
         "adjective": "vulnerable",
         "adverb": "vulnerably"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "volatility",
+        "explanation_vi": "'Vulnerability' là mức độ dễ bị tổn thương; 'volatility' là mức độ biến động nhanh và khó dự đoán.",
+        "example_en": "The report assessed coastal communities' vulnerability to floods.",
+        "example_vi": "Báo cáo đánh giá mức độ dễ bị tổn thương do lũ của các cộng đồng ven biển.",
+        "ff_example_en": "The report also examined volatility in energy prices.",
+        "ff_example_vi": "Báo cáo cũng xem xét sự biến động của giá năng lượng."
+      },
       "receptive_productive": "P"
     },
     {
@@ -227,8 +238,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "carbon neutrality",
-        "explanation_vi": "'Net zero' và 'carbon neutrality' thường được dùng thay thế nhau nhưng có thể khác nhau về phạm vi — 'net zero' thường bao gồm toàn bộ khí nhà kính, trong khi 'carbon neutrality' đôi khi chỉ tính CO₂."
+        "word": "carbon neutrality",
+        "explanation_vi": "'Net zero' và 'carbon neutrality' thường được dùng thay thế nhau nhưng có thể khác nhau về phạm vi — 'net zero' thường bao gồm toàn bộ khí nhà kính, trong khi 'carbon neutrality' đôi khi chỉ tính CO₂.",
+        "example_en": "The company’s net-zero target covers carbon dioxide, methane and other greenhouse gases.",
+        "example_vi": "Mục tiêu phát thải ròng bằng không của công ty bao gồm carbon dioxide, methane và các khí nhà kính khác.",
+        "ff_example_en": "Its earlier carbon-neutrality claim focused mainly on balancing carbon dioxide emissions.",
+        "ff_example_vi": "Tuyên bố trung hòa carbon trước đó của công ty chủ yếu tập trung vào cân bằng lượng khí carbon dioxide thải ra."
       },
       "receptive_productive": "P"
     },

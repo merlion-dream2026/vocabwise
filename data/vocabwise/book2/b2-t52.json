@@ -61,7 +61,14 @@
         "adjective": "private",
         "adverb": "privately"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "security",
+        "explanation_vi": "'Privacy' là quyền kiểm soát thông tin và đời sống riêng tư; 'security' là sự bảo vệ khỏi truy cập, tấn công hoặc nguy hiểm.",
+        "example_en": "The app lets users control their privacy settings.",
+        "example_vi": "Ứng dụng cho phép người dùng kiểm soát cài đặt quyền riêng tư.",
+        "ff_example_en": "The app uses encryption to improve account security.",
+        "ff_example_vi": "Ứng dụng dùng mã hóa để tăng cường bảo mật tài khoản."
+      },
       "receptive_productive": "P"
     },
     {
@@ -79,7 +86,14 @@
         "adjective": "data-driven",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "date",
+        "explanation_vi": "'Data' là dữ liệu; 'date' là ngày tháng hoặc cuộc hẹn.",
+        "example_en": "The researcher entered the data into the computer.",
+        "example_vi": "Nhà nghiên cứu nhập dữ liệu vào máy tính.",
+        "ff_example_en": "The researcher entered the date at the top of the form.",
+        "ff_example_vi": "Nhà nghiên cứu điền ngày tháng ở đầu biểu mẫu."
+      },
       "receptive_productive": "P"
     },
     {
@@ -133,7 +147,14 @@
         "adjective": "regulated / regulatory",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "regular",
+        "explanation_vi": "'Regulate' là quản lý hoặc kiểm soát bằng quy định; 'regular' là đều đặn hoặc thông thường.",
+        "example_en": "The government regulates online banking services.",
+        "example_vi": "Chính phủ quản lý các dịch vụ ngân hàng trực tuyến.",
+        "ff_example_en": "The bank sends regular security updates to customers.",
+        "ff_example_vi": "Ngân hàng gửi các bản cập nhật bảo mật thường xuyên cho khách hàng."
+      },
       "receptive_productive": "P"
     },
     {
@@ -151,7 +172,14 @@
         "adjective": "secure / insecure",
         "adverb": "securely"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "safety",
+        "explanation_vi": "'Security' là sự bảo vệ trước đe dọa có chủ ý như trộm cắp hoặc tấn công; 'safety' là trạng thái không gặp nguy hiểm hoặc tai nạn.",
+        "example_en": "The company improved data security to prevent hacking.",
+        "example_vi": "Công ty tăng cường bảo mật dữ liệu để ngăn bị tấn công mạng.",
+        "ff_example_en": "The company improved workplace safety to prevent accidents.",
+        "ff_example_vi": "Công ty cải thiện an toàn nơi làm việc để ngăn tai nạn."
+      },
       "receptive_productive": "P"
     },
     {
@@ -205,7 +233,14 @@
         "adjective": "accessible",
         "adverb": "accessibly"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "assess",
+        "explanation_vi": "'Access' là tiếp cận hoặc sử dụng; 'assess' là đánh giá.",
+        "example_en": "Students can access the online learning platform.",
+        "example_vi": "Học sinh có thể truy cập nền tảng học trực tuyến.",
+        "ff_example_en": "Teachers can assess students on the online learning platform.",
+        "ff_example_vi": "Giáo viên có thể đánh giá học sinh trên nền tảng học trực tuyến."
+      },
       "receptive_productive": "P"
     },
     {
@@ -295,7 +330,14 @@
         "adjective": "personal",
         "adverb": "personally"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "personnel",
+        "explanation_vi": "'Personal' nghĩa là thuộc về cá nhân; 'personnel' là nhân sự hoặc đội ngũ nhân viên.",
+        "example_en": "The form asks for personal information.",
+        "example_vi": "Biểu mẫu yêu cầu thông tin cá nhân.",
+        "ff_example_en": "Only authorised personnel may view the information.",
+        "ff_example_vi": "Chỉ nhân sự được cấp quyền mới được xem thông tin."
+      },
       "receptive_productive": "P"
     },
     {
@@ -313,7 +355,14 @@
         "adjective": "identifiable",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "identification",
+        "explanation_vi": "'Identity' là danh tính hoặc bản sắc của một người hay nhóm; 'identification' là giấy tờ hoặc quá trình xác định người đó là ai.",
+        "example_en": "The passport confirmed the traveller's identity.",
+        "example_vi": "Hộ chiếu xác nhận danh tính của hành khách.",
+        "ff_example_en": "The officer asked the traveller to show identification.",
+        "ff_example_vi": "Nhân viên yêu cầu hành khách xuất trình giấy tờ tùy thân."
+      },
       "receptive_productive": "P"
     }
   ],

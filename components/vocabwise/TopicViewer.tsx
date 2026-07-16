@@ -19,7 +19,11 @@ type GlossaryItem = {
   // word items (1–10)
   word?: string; ipa?: string; pos?: string
   word_family?: Record<string, string | null> | null
-  false_friend?: { word_vi: string; explanation_vi: string } | null
+  false_friend?: {
+    word?: string; explanation_vi: string
+    example_en?: string; example_vi?: string
+    ff_example_en?: string; ff_example_vi?: string
+  } | null
   // collocation items (11–15)
   collocation?: string
   // shared
@@ -547,9 +551,31 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                         </div>
                       )}
                       {!isCollocation && item.false_friend && (
-                        <div className="bg-amber-50 border border-amber-200 rounded-xl px-3 py-2">
-                          <p className="text-amber-700 text-xs"><span className="font-black">⚠️ False friend: </span>{item.false_friend.explanation_vi}</p>
-                        </div>
+                        <details className="group/ff">
+                          <summary className="list-none cursor-pointer flex items-center justify-between py-1.5 px-2 bg-amber-50 border border-amber-200 rounded-xl">
+                            <span className="text-xs font-black text-amber-700">
+                              ⚠️ Cần phân biệt{item.false_friend.word ? `: ${item.word} ≠ ${item.false_friend.word}` : ''}
+                            </span>
+                            <span className="text-amber-300 text-sm group-open/ff:rotate-180 transition-transform flex-shrink-0 ml-2">▾</span>
+                          </summary>
+                          <div className="mt-2 bg-amber-50 border border-amber-200 rounded-xl px-3 py-3 space-y-2.5">
+                            <p className="text-amber-800 text-xs leading-relaxed">{item.false_friend.explanation_vi}</p>
+                            {item.false_friend.example_en && (
+                              <div>
+                                <p className="text-amber-700 text-xs font-black mb-0.5">{item.word}</p>
+                                <p className="text-amber-800 text-xs italic">{item.false_friend.example_en}</p>
+                                <p className="text-amber-600 text-xs italic">{item.false_friend.example_vi}</p>
+                              </div>
+                            )}
+                            {item.false_friend.ff_example_en && (
+                              <div>
+                                <p className="text-amber-700 text-xs font-black mb-0.5">{item.false_friend.word}</p>
+                                <p className="text-amber-800 text-xs italic">{item.false_friend.ff_example_en}</p>
+                                <p className="text-amber-600 text-xs italic">{item.false_friend.ff_example_vi}</p>
+                              </div>
+                            )}
+                          </div>
+                        </details>
                       )}
                       {!isCollocation && item.word && (
                         <details className="pt-1 group/explain">

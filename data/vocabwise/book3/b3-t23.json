@@ -98,8 +98,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "misinformation",
-        "explanation_vi": "'Disinformation' là thông tin sai lệch được tạo ra có chủ đích để lừa dối; 'misinformation' là thông tin sai nhưng không nhất thiết có ý định xấu — khác nhau về chủ đích."
+        "word": "misinformation",
+        "explanation_vi": "'Disinformation' là thông tin sai lệch được tạo ra có chủ đích để lừa dối; 'misinformation' là thông tin sai nhưng không nhất thiết có ý định xấu — khác nhau về chủ đích.",
+        "example_en": "The campaign spread disinformation deliberately to influence voters.",
+        "example_vi": "Chiến dịch cố ý phát tán thông tin sai lệch để ảnh hưởng đến cử tri.",
+        "ff_example_en": "Some users then shared the same claim as misinformation without knowing it was false.",
+        "ff_example_vi": "Sau đó, một số người dùng chia sẻ cùng tuyên bố đó như thông tin sai nhưng không biết nó là giả."
       },
       "receptive_productive": "P"
     },
@@ -136,7 +140,14 @@
         "adjective": "censored / censorial",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "censure",
+        "explanation_vi": "'Censorship' là việc kiểm duyệt hoặc ngăn thông tin được công bố; 'censure' là sự chỉ trích chính thức.",
+        "example_en": "The journalists protested against government censorship.",
+        "example_vi": "Các nhà báo phản đối sự kiểm duyệt của chính phủ.",
+        "ff_example_en": "The committee issued a formal censure of the official.",
+        "ff_example_vi": "Ủy ban đưa ra lời khiển trách chính thức đối với viên chức."
+      },
       "receptive_productive": "P"
     },
     {
@@ -226,7 +237,14 @@
         "adjective": "distorted / distorting",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "distraction",
+        "explanation_vi": "'Distortion' là sự bóp méo thông tin hoặc hình ảnh; 'distraction' là điều làm mất tập trung.",
+        "example_en": "The editor corrected a distortion of the survey results.",
+        "example_vi": "Biên tập viên sửa một sự bóp méo kết quả khảo sát.",
+        "ff_example_en": "The editor turned off notifications to avoid distraction.",
+        "ff_example_vi": "Biên tập viên tắt thông báo để tránh bị phân tâm."
+      },
       "receptive_productive": "P"
     },
     {

@@ -79,7 +79,14 @@
         "adjective": "opinionated",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "fact",
+        "explanation_vi": "'Opinion' là ý kiến hoặc đánh giá chủ quan; 'fact' là thông tin có thể kiểm chứng là đúng.",
+        "example_en": "The article clearly labels the writer's opinion.",
+        "example_vi": "Bài báo ghi rõ đâu là ý kiến của tác giả.",
+        "ff_example_en": "The article checks every fact before publication.",
+        "ff_example_vi": "Bài báo kiểm chứng mọi sự thật trước khi xuất bản."
+      },
       "receptive_productive": "P"
     },
     {
@@ -97,7 +104,14 @@
         "adjective": "evident",
         "adverb": "evidently"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "proof",
+        "explanation_vi": "'Evidence' là thông tin hoặc dữ liệu hỗ trợ một kết luận; 'proof' là bằng chứng đủ sức xác lập điều gì đó là đúng, nên thường mạnh và dứt khoát hơn.",
+        "example_en": "The scientist presented evidence that the treatment might work.",
+        "example_vi": "Nhà khoa học trình bày bằng chứng cho thấy phương pháp điều trị có thể hiệu quả.",
+        "ff_example_en": "The scientist said the results were not yet proof that the treatment worked.",
+        "ff_example_vi": "Nhà khoa học nói rằng kết quả vẫn chưa phải là bằng chứng xác thực rằng phương pháp điều trị có hiệu quả."
+      },
       "receptive_productive": "P"
     },
     {
@@ -115,7 +129,14 @@
         "adjective": "logical / illogical",
         "adverb": "logically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "logistics",
+        "explanation_vi": "'Logical' nghĩa là hợp lý, có logic; 'logistics' là công tác tổ chức vận chuyển, nhân lực và nguồn cung.",
+        "example_en": "The team presented a logical argument for the project.",
+        "example_vi": "Nhóm trình bày một lập luận hợp lý cho dự án.",
+        "ff_example_en": "The team discussed the logistics of delivering the project materials.",
+        "ff_example_vi": "Nhóm thảo luận công tác hậu cần để giao vật liệu của dự án."
+      },
       "receptive_productive": "P"
     },
     {
@@ -187,7 +208,14 @@
         "adjective": "reliable / unreliable",
         "adverb": "reliably"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "reliant",
+        "explanation_vi": "'Reliable' nghĩa là đáng tin cậy; 'reliant' nghĩa là phụ thuộc vào.",
+        "example_en": "The team used a reliable source for the report.",
+        "example_vi": "Nhóm sử dụng một nguồn đáng tin cậy cho báo cáo.",
+        "ff_example_en": "The team was reliant on one source for the report.",
+        "ff_example_vi": "Nhóm phụ thuộc vào một nguồn duy nhất cho báo cáo."
+      },
       "receptive_productive": "P"
     },
     {
@@ -205,7 +233,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "resource",
+        "explanation_vi": "'Source' là nơi thông tin hoặc vật chất bắt nguồn; 'resource' là tài liệu, công cụ hoặc nguồn lực có thể sử dụng.",
+        "example_en": "The journalist checked the original source of the statistic.",
+        "example_vi": "Nhà báo kiểm tra nguồn gốc ban đầu của số liệu.",
+        "ff_example_en": "The journalist used the library as a research resource.",
+        "ff_example_vi": "Nhà báo sử dụng thư viện như một nguồn tài liệu nghiên cứu."
+      },
       "receptive_productive": "P"
     },
     {
@@ -223,7 +258,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "prospect",
+        "explanation_vi": "'Perspective' là góc nhìn hoặc quan điểm; 'prospect' là triển vọng hoặc khả năng trong tương lai.",
+        "example_en": "The novel tells the story from a child's perspective.",
+        "example_vi": "Tiểu thuyết kể câu chuyện từ góc nhìn của một đứa trẻ.",
+        "ff_example_en": "The novel improved the young author's prospects of finding a publisher.",
+        "ff_example_vi": "Tiểu thuyết giúp cải thiện triển vọng tìm được nhà xuất bản của tác giả trẻ."
+      },
       "receptive_productive": "P"
     },
     {
@@ -241,7 +283,14 @@
         "adjective": "reasonable / unreasonable",
         "adverb": "reasonably"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "cause",
+        "explanation_vi": "'Reason' thường giải thích tại sao một người hành động hoặc tin điều gì; 'cause' là yếu tố trực tiếp làm một sự việc xảy ra.",
+        "example_en": "The resident gave a reason for opposing the factory.",
+        "example_vi": "Người dân đưa ra lý do phản đối nhà máy.",
+        "ff_example_en": "The investigation identified the cause of the factory fire.",
+        "ff_example_vi": "Cuộc điều tra xác định nguyên nhân vụ cháy nhà máy."
+      },
       "receptive_productive": "P"
     },
     {

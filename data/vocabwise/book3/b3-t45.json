@@ -97,7 +97,14 @@
         "adjective": "ambiguous",
         "adverb": "ambiguously"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "ambivalence",
+        "explanation_vi": "'Ambiguity' là sự mơ hồ do có nhiều cách hiểu; 'ambivalence' là cảm giác vừa tích cực vừa tiêu cực về cùng một điều.",
+        "example_en": "The wording created ambiguity about the deadline.",
+        "example_vi": "Cách diễn đạt tạo ra sự mơ hồ về thời hạn.",
+        "ff_example_en": "The students felt ambivalence about the difficult project.",
+        "ff_example_vi": "Các sinh viên có cảm xúc lẫn lộn về dự án khó."
+      },
       "receptive_productive": "P"
     },
     {
@@ -170,8 +177,12 @@
         "adverb": "comprehensively"
       },
       "false_friend": {
-        "word_vi": "comprehensive",
-        "explanation_vi": "'Comprehension' là danh từ chỉ khả năng hiểu; 'comprehensive' là tính từ nghĩa là toàn diện, đầy đủ — không thay thế nhau được."
+        "word": "comprehensive",
+        "explanation_vi": "'Comprehension' là danh từ chỉ khả năng hiểu; 'comprehensive' là tính từ nghĩa là toàn diện, đầy đủ — không thay thế nhau được.",
+        "example_en": "The listening test measures students’ comprehension of the lecture.",
+        "example_vi": "Bài kiểm tra nghe đo khả năng hiểu bài giảng của học sinh.",
+        "ff_example_en": "The teacher provided a comprehensive summary of the lecture.",
+        "ff_example_vi": "Giáo viên cung cấp một bản tóm tắt toàn diện về bài giảng."
       },
       "receptive_productive": "P"
     },
@@ -208,7 +219,14 @@
         "adjective": "clarifying",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "classification",
+        "explanation_vi": "'Clarification' là sự làm rõ; 'classification' là sự phân loại.",
+        "example_en": "The student asked for clarification of the assignment.",
+        "example_vi": "Sinh viên yêu cầu làm rõ bài tập.",
+        "ff_example_en": "The student proposed a classification of the source materials.",
+        "ff_example_vi": "Sinh viên đề xuất cách phân loại các tài liệu nguồn."
+      },
       "receptive_productive": "P"
     },
     {
@@ -227,8 +245,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "implication",
-        "explanation_vi": "'Implicature' là thuật ngữ ngữ dụng học chỉ điều được ngụ ý trong hội thoại; 'implication' nghĩa rộng hơn, chỉ hậu quả hoặc ý nghĩa được ngụ ý nói chung."
+        "word": "implication",
+        "explanation_vi": "'Implicature' là thuật ngữ ngữ dụng học chỉ điều được ngụ ý trong hội thoại; 'implication' nghĩa rộng hơn, chỉ hậu quả hoặc ý nghĩa được ngụ ý nói chung.",
+        "example_en": "The reply “It is getting late” carried an implicature that the guest should leave.",
+        "example_vi": "Câu trả lời “Trời đang muộn” mang hàm ý hội thoại rằng vị khách nên ra về.",
+        "ff_example_en": "The wider implication was that the host wanted to end the meeting.",
+        "ff_example_vi": "Hàm ý rộng hơn là chủ nhà muốn kết thúc cuộc gặp."
       },
       "receptive_productive": "P"
     },

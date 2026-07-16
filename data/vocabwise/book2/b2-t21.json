@@ -80,8 +80,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "revenue",
-        "explanation_vi": "'Income' là thu nhập cá nhân hoặc thu nhập từ công việc; 'revenue' là doanh thu của doanh nghiệp hoặc tổ chức — hai từ này không thay thế được cho nhau."
+        "word": "revenue",
+        "explanation_vi": "'Income' là thu nhập cá nhân hoặc thu nhập từ công việc; 'revenue' là doanh thu của doanh nghiệp hoặc tổ chức — hai từ này không thay thế được cho nhau.",
+        "example_en": "Mai’s annual income comes from her salary and investments.",
+        "example_vi": "Thu nhập hằng năm của Mai đến từ lương và các khoản đầu tư.",
+        "ff_example_en": "Her company’s annual revenue comes from product sales.",
+        "ff_example_vi": "Doanh thu hằng năm của công ty cô ấy đến từ việc bán sản phẩm."
       },
       "receptive_productive": "P"
     },
@@ -119,8 +123,12 @@
         "adverb": "expensively"
       },
       "false_friend": {
-        "word_vi": "expensive",
-        "explanation_vi": "'Expense' (danh từ) là một khoản chi tiêu cụ thể; 'expensive' (tính từ) có nghĩa là đắt tiền — hai từ này thường bị nhầm lẫn vì cùng gốc."
+        "word": "expensive",
+        "explanation_vi": "'Expense' (danh từ) là một khoản chi tiêu cụ thể; 'expensive' (tính từ) có nghĩa là đắt tiền — hai từ này thường bị nhầm lẫn vì cùng gốc.",
+        "example_en": "The hotel bill was a business expense.",
+        "example_vi": "Hóa đơn khách sạn là một khoản chi phí kinh doanh.",
+        "ff_example_en": "The hotel was expensive during the holiday season.",
+        "ff_example_vi": "Khách sạn rất đắt trong mùa nghỉ lễ."
       },
       "receptive_productive": "P"
     },
@@ -194,8 +202,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "loan",
-        "explanation_vi": "'Debt' là tình trạng đang nợ tiền; 'loan' là khoản tiền cụ thể được vay. Chú ý: 'debt' đọc là /det/ — chữ 'b' câm, không đọc."
+        "word": "loan",
+        "explanation_vi": "'Debt' là tình trạng đang nợ tiền; 'loan' là khoản tiền cụ thể được vay. Chú ý: 'debt' đọc là /det/ — chữ 'b' câm, không đọc.",
+        "example_en": "After losing his job, Minh struggled to repay his debt.",
+        "example_vi": "Sau khi mất việc, Minh gặp khó khăn trong việc trả nợ.",
+        "ff_example_en": "The debt began with a bank loan for his small business.",
+        "ff_example_vi": "Khoản nợ bắt đầu từ một khoản vay ngân hàng cho doanh nghiệp nhỏ của anh ấy."
       },
       "receptive_productive": "P"
     },
@@ -215,8 +227,12 @@
         "adverb": "interestingly"
       },
       "false_friend": {
-        "word_vi": "sự quan tâm",
-        "explanation_vi": "'Interest' có hai nghĩa: (1) lãi suất trong tài chính và (2) sự quan tâm/hứng thú. Trong ngữ cảnh tài chính, luôn hiểu là lãi suất."
+        "word": "",
+        "explanation_vi": "'Interest' có hai nghĩa: (1) lãi suất trong tài chính và (2) sự quan tâm/hứng thú. Trong ngữ cảnh tài chính, luôn hiểu là lãi suất.",
+        "example_en": "The bank charges five per cent interest on the loan.",
+        "example_vi": "Ngân hàng tính lãi suất năm phần trăm cho khoản vay.",
+        "ff_example_en": "The customer also showed great interest in the bank’s savings plan.",
+        "ff_example_vi": "Khách hàng cũng thể hiện sự quan tâm lớn đến kế hoạch tiết kiệm của ngân hàng."
       },
       "receptive_productive": "P"
     },
@@ -254,8 +270,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "borrow / lend",
-        "explanation_vi": "'Loan' (danh từ) là khoản tiền được vay; 'borrow' (vay tiền — nhận tiền) và 'lend' (cho vay — đưa tiền cho người khác) là động từ mô tả hành động."
+        "word": "borrow",
+        "explanation_vi": "'Loan' (danh từ) là khoản tiền được vay; 'borrow' (vay tiền — nhận tiền) và 'lend' (cho vay — đưa tiền cho người khác) là động từ mô tả hành động.",
+        "example_en": "The bank approved a loan for Lan’s new business.",
+        "example_vi": "Ngân hàng phê duyệt một khoản vay cho doanh nghiệp mới của Lan.",
+        "ff_example_en": "Lan decided to borrow the money from the bank.",
+        "ff_example_vi": "Lan quyết định vay số tiền đó từ ngân hàng."
       },
       "receptive_productive": "P"
     },
@@ -274,7 +294,14 @@
         "adjective": "affordable / unaffordable",
         "adverb": "affordably"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "effort",
+        "explanation_vi": "'Afford' là đủ khả năng tài chính hoặc thời gian để làm gì; 'effort' là nỗ lực.",
+        "example_en": "Lan cannot afford the expensive course.",
+        "example_vi": "Lan không đủ khả năng chi trả cho khóa học đắt tiền.",
+        "ff_example_en": "Lan made a great effort to win a scholarship for the course.",
+        "ff_example_vi": "Lan đã rất nỗ lực để giành học bổng cho khóa học."
+      },
       "receptive_productive": "P"
     },
     {
@@ -293,8 +320,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "debit",
-        "explanation_vi": "'Credit' là vay mượn hoặc tín dụng (trả sau); 'debit' là tiền trực tiếp từ tài khoản (trả ngay). Thẻ credit và thẻ debit hoạt động theo cơ chế ngược nhau."
+        "word": "debit",
+        "explanation_vi": "'Credit' là vay mượn hoặc tín dụng (trả sau); 'debit' là tiền trực tiếp từ tài khoản (trả ngay). Thẻ credit và thẻ debit hoạt động theo cơ chế ngược nhau.",
+        "example_en": "Lan used a credit card and will pay the bank next month.",
+        "example_vi": "Lan dùng thẻ tín dụng và sẽ trả tiền cho ngân hàng vào tháng tới.",
+        "ff_example_en": "Her brother used a debit card, so the money left his account immediately.",
+        "ff_example_vi": "Anh trai cô ấy dùng thẻ ghi nợ nên tiền được trừ khỏi tài khoản ngay lập tức."
       },
       "receptive_productive": "R"
     },
@@ -313,7 +344,14 @@
         "adjective": "invested",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "investigate",
+        "explanation_vi": "'Invest' là đầu tư tiền hoặc nguồn lực; 'investigate' là điều tra, tìm hiểu kỹ.",
+        "example_en": "The company will invest in a new factory.",
+        "example_vi": "Công ty sẽ đầu tư vào một nhà máy mới.",
+        "ff_example_en": "The authorities will investigate safety problems at the factory.",
+        "ff_example_vi": "Nhà chức trách sẽ điều tra các vấn đề an toàn tại nhà máy."
+      },
       "receptive_productive": "P"
     },
     {

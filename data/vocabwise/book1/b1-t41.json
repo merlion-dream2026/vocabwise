@@ -61,7 +61,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "receipt",
+        "explanation_vi": "“Recipe” là công thức nấu ăn; “receipt” là biên lai thanh toán. Hai từ có cách viết gần giống nhau.",
+        "example_en": "Lan followed a recipe to make the cake.",
+        "example_vi": "Lan làm theo công thức để làm bánh.",
+        "ff_example_en": "Lan kept the receipt after buying the cake ingredients.",
+        "ff_example_vi": "Lan giữ lại biên lai sau khi mua nguyên liệu làm bánh."
+      }
     },
     {
       "id": 2,
@@ -78,7 +85,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "material",
+        "explanation_vi": "“Ingredient” là nguyên liệu dùng trong món ăn; “material” là chất liệu dùng để làm đồ vật.",
+        "example_en": "Flour is the main ingredient in the bread.",
+        "example_vi": "Bột mì là nguyên liệu chính trong bánh mì.",
+        "ff_example_en": "Paper is the main material used for the recipe card.",
+        "ff_example_vi": "Giấy là vật liệu chính dùng làm thẻ công thức."
+      }
     },
     {
       "id": 3,
@@ -112,7 +126,14 @@
         "adjective": "boiling / boiled",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "cook",
+        "explanation_vi": "“Boil” là nấu trong nước sôi hoặc làm chất lỏng sôi; “cook” là từ chung cho việc chế biến thức ăn bằng nhiệt.",
+        "example_en": "Boil the potatoes in water for ten minutes.",
+        "example_vi": "Hãy luộc khoai tây trong nước mười phút.",
+        "ff_example_en": "Cook the potatoes until they are soft.",
+        "ff_example_vi": "Hãy nấu khoai tây cho đến khi mềm."
+      }
     },
     {
       "id": 5,
@@ -146,7 +167,14 @@
         "adjective": "baked",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "roast",
+        "explanation_vi": "“Bake” thường là nướng bánh hoặc thức ăn bằng nhiệt khô trong lò; “roast” thường là nướng thịt hoặc rau bằng nhiệt cao.",
+        "example_en": "We baked a cake in the oven.",
+        "example_vi": "Chúng tôi nướng một chiếc bánh trong lò.",
+        "ff_example_en": "We roasted vegetables in the same oven.",
+        "ff_example_vi": "Chúng tôi nướng rau củ trong cùng chiếc lò."
+      }
     },
     {
       "id": 7,
@@ -163,7 +191,14 @@
         "adjective": "sliced",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "piece",
+        "explanation_vi": "“Slice” là lát mỏng được cắt từ thức ăn; “piece” là một phần hoặc miếng nói chung.",
+        "example_en": "Lan put a slice of bread on the plate.",
+        "example_vi": "Lan đặt một lát bánh mì lên đĩa.",
+        "ff_example_en": "Lan put a piece of cake on the plate.",
+        "ff_example_vi": "Lan đặt một miếng bánh lên đĩa."
+      }
     },
     {
       "id": 8,
@@ -180,7 +215,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "spill",
+        "explanation_vi": "“Pour” là chủ động rót chất lỏng; “spill” là làm chất lỏng đổ ra ngoài, thường ngoài ý muốn.",
+        "example_en": "Lan poured the milk into the bowl.",
+        "example_vi": "Lan rót sữa vào bát.",
+        "ff_example_en": "Lan spilled some milk beside the bowl.",
+        "ff_example_vi": "Lan làm đổ một ít sữa bên cạnh bát."
+      }
     },
     {
       "id": 9,
@@ -197,7 +239,14 @@
         "adjective": "heated / hot",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "hot",
+        "explanation_vi": "“Heat” là danh từ hoặc động từ chỉ nhiệt hoặc làm nóng; “hot” là tính từ chỉ trạng thái có nhiệt độ cao.",
+        "example_en": "Heat the soup before serving it.",
+        "example_vi": "Hãy hâm nóng món súp trước khi phục vụ.",
+        "ff_example_en": "The soup is hot, so serve it carefully.",
+        "ff_example_vi": "Món súp nóng, vì vậy hãy phục vụ cẩn thận."
+      }
     },
     {
       "id": 10,
@@ -231,7 +280,14 @@
         "adjective": "following",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "obey",
+        "explanation_vi": "“Follow” là làm theo hướng dẫn hoặc các bước; “obey” là tuân lệnh hoặc quy tắc có tính bắt buộc.",
+        "example_en": "Follow the recipe carefully when making the soup.",
+        "example_vi": "Hãy làm theo công thức cẩn thận khi nấu súp.",
+        "ff_example_en": "Obey the kitchen safety rules when making the soup.",
+        "ff_example_vi": "Hãy tuân thủ các quy tắc an toàn nhà bếp khi nấu súp."
+      }
     },
     {
       "id": 12,
@@ -248,7 +304,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "service",
+        "explanation_vi": "“Serve” là động từ nghĩa là phục vụ hoặc dọn món; “service” là danh từ nghĩa là dịch vụ.",
+        "example_en": "The waiter served the soup at noon.",
+        "example_vi": "Người phục vụ dọn món súp vào buổi trưa.",
+        "ff_example_en": "The restaurant provided excellent service at noon.",
+        "ff_example_vi": "Nhà hàng cung cấp dịch vụ xuất sắc vào buổi trưa."
+      }
     },
     {
       "id": 13,
@@ -265,7 +328,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "number",
+        "explanation_vi": "“Amount” dùng với danh từ không đếm được; “number” dùng với danh từ đếm được.",
+        "example_en": "Use a small amount of salt in the soup.",
+        "example_vi": "Hãy dùng một lượng nhỏ muối trong món súp.",
+        "ff_example_en": "Use a small number of tomatoes in the soup.",
+        "ff_example_vi": "Hãy dùng một số ít cà chua trong món súp."
+      }
     },
     {
       "id": 14,

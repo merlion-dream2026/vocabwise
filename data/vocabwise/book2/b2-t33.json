@@ -62,8 +62,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "plot",
-        "explanation_vi": "'Storyline' thường chỉ chuỗi sự kiện tổng thể hoặc đường chính của câu chuyện; 'plot' tập trung hơn vào cấu trúc nhân quả — những gì xảy ra và tại sao. Trong thực tế, hai từ thường được dùng thay thế nhau."
+        "word": "plot",
+        "explanation_vi": "'Storyline' thường chỉ chuỗi sự kiện tổng thể hoặc đường chính của câu chuyện; 'plot' tập trung hơn vào cấu trúc nhân quả — những gì xảy ra và tại sao. Trong thực tế, hai từ thường được dùng thay thế nhau.",
+        "example_en": "The film’s storyline follows a family across three generations.",
+        "example_vi": "Mạch truyện của bộ phim theo chân một gia đình qua ba thế hệ.",
+        "ff_example_en": "Its plot links each family conflict to a later decision.",
+        "ff_example_vi": "Cốt truyện của phim liên kết mỗi xung đột gia đình với một quyết định về sau."
       },
       "receptive_productive": "P"
     },
@@ -82,7 +86,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "theme",
+        "explanation_vi": "'Plot' là chuỗi sự kiện tạo nên cốt truyện; 'theme' là ý tưởng hoặc thông điệp trung tâm.",
+        "example_en": "The reviewer summarised the plot of the novel.",
+        "example_vi": "Nhà phê bình tóm tắt cốt truyện của tiểu thuyết.",
+        "ff_example_en": "The reviewer discussed the theme of social inequality in the novel.",
+        "ff_example_vi": "Nhà phê bình thảo luận chủ đề bất bình đẳng xã hội trong tiểu thuyết."
+      },
       "receptive_productive": "P"
     },
     {
@@ -100,7 +111,14 @@
         "adjective": "thematic",
         "adverb": "thematically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "topic",
+        "explanation_vi": "'Theme' thường là ý tưởng sâu hoặc thông điệp xuyên suốt tác phẩm; 'topic' là chủ đề được nói hoặc viết đến.",
+        "example_en": "The theme of the novel is the cost of ambition.",
+        "example_vi": "Chủ đề sâu sắc của tiểu thuyết là cái giá của tham vọng.",
+        "ff_example_en": "The topic of today's class is ambition in literature.",
+        "ff_example_vi": "Chủ đề của buổi học hôm nay là tham vọng trong văn học."
+      },
       "receptive_productive": "P"
     },
     {
@@ -118,7 +136,14 @@
         "adjective": "characteristic",
         "adverb": "characteristically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "personality",
+        "explanation_vi": "'Character' có thể là nhân vật trong truyện; 'personality' là tính cách của một người.",
+        "example_en": "The main character changes greatly during the film.",
+        "example_vi": "Nhân vật chính thay đổi rất nhiều trong bộ phim.",
+        "ff_example_en": "The actor's cheerful personality impressed the film crew.",
+        "ff_example_vi": "Tính cách vui vẻ của diễn viên gây ấn tượng với đoàn làm phim."
+      },
       "receptive_productive": "P"
     },
     {
@@ -136,7 +161,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "prospect",
+        "explanation_vi": "'Perspective' là góc nhìn hoặc quan điểm; 'prospect' là triển vọng hoặc khả năng trong tương lai.",
+        "example_en": "The novel tells the story from a child's perspective.",
+        "example_vi": "Tiểu thuyết kể câu chuyện từ góc nhìn của một đứa trẻ.",
+        "ff_example_en": "The novel improved the young author's prospects of finding a publisher.",
+        "ff_example_vi": "Tiểu thuyết giúp cải thiện triển vọng tìm được nhà xuất bản của tác giả trẻ."
+      },
       "receptive_productive": "P"
     },
     {
@@ -172,7 +204,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "gender",
+        "explanation_vi": "'Genre' là thể loại nghệ thuật; 'gender' là giới.",
+        "example_en": "The teacher asked students to identify the film's genre.",
+        "example_vi": "Giáo viên yêu cầu học sinh xác định thể loại của bộ phim.",
+        "ff_example_en": "The teacher asked students to discuss gender roles in the film.",
+        "ff_example_vi": "Giáo viên yêu cầu học sinh thảo luận về vai trò giới trong bộ phim."
+      },
       "receptive_productive": "P"
     },
     {
@@ -298,7 +337,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "revise",
+        "explanation_vi": "'Review' là bài đánh giá hoặc xem xét lại; 'revise' là chỉnh sửa hoặc ôn tập.",
+        "example_en": "Lan wrote a review of the novel for the school magazine.",
+        "example_vi": "Lan viết một bài đánh giá tiểu thuyết cho tạp chí trường.",
+        "ff_example_en": "Lan revised her review before sending it to the magazine.",
+        "ff_example_vi": "Lan chỉnh sửa bài đánh giá trước khi gửi cho tạp chí."
+      },
       "receptive_productive": "P"
     },
     {

@@ -98,8 +98,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "tourist",
-        "explanation_vi": "'Visitor' là bất kỳ ai đến thăm một nơi (cả mục đích du lịch lẫn công việc); 'tourist' cụ thể hơn, chỉ người đi du lịch để nghỉ ngơi và tham quan."
+        "word": "tourist",
+        "explanation_vi": "'Visitor' là bất kỳ ai đến thăm một nơi (cả mục đích du lịch lẫn công việc); 'tourist' cụ thể hơn, chỉ người đi du lịch để nghỉ ngơi và tham quan.",
+        "example_en": "Every visitor must show identification at the museum entrance.",
+        "example_vi": "Mọi khách đến thăm đều phải xuất trình giấy tờ tùy thân tại lối vào bảo tàng.",
+        "ff_example_en": "Each tourist can also collect a city map at the museum entrance.",
+        "ff_example_vi": "Mỗi khách du lịch cũng có thể lấy bản đồ thành phố tại lối vào bảo tàng."
       },
       "receptive_productive": "P"
     },
@@ -136,7 +140,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "destiny",
+        "explanation_vi": "'Destination' là điểm đến; 'destiny' là số phận.",
+        "example_en": "Hoi An was the final destination on their trip.",
+        "example_vi": "Hội An là điểm đến cuối cùng trong chuyến đi.",
+        "ff_example_en": "The traveller believed it was his destiny to visit Hoi An.",
+        "ff_example_vi": "Người du khách tin rằng số phận đã đưa anh đến Hội An."
+      },
       "receptive_productive": "P"
     },
     {
@@ -172,7 +183,14 @@
         "adjective": "hospitable",
         "adverb": "hospitably"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "hospital",
+        "explanation_vi": "'Hospitality' là sự hiếu khách hoặc ngành dịch vụ lưu trú; 'hospital' là bệnh viện.",
+        "example_en": "The hotel was praised for its warm hospitality.",
+        "example_vi": "Khách sạn được khen ngợi vì sự hiếu khách nồng hậu.",
+        "ff_example_en": "The hotel called a hospital when a guest became ill.",
+        "ff_example_vi": "Khách sạn gọi bệnh viện khi một vị khách bị ốm."
+      },
       "receptive_productive": "P"
     },
     {
@@ -244,7 +262,14 @@
         "adjective": "sustainable / unsustainable",
         "adverb": "sustainably"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "sustained",
+        "explanation_vi": "'Sustainable' nghĩa là có thể duy trì lâu dài mà không làm cạn kiệt nguồn lực; 'sustained' nghĩa là được duy trì liên tục trong một khoảng thời gian.",
+        "example_en": "The city needs a sustainable transport system.",
+        "example_vi": "Thành phố cần một hệ thống giao thông bền vững.",
+        "ff_example_en": "The city experienced sustained growth in public transport use.",
+        "ff_example_vi": "Thành phố ghi nhận mức tăng liên tục trong việc sử dụng giao thông công cộng."
+      },
       "receptive_productive": "P"
     },
     {
@@ -298,7 +323,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "inheritance",
+        "explanation_vi": "'Heritage' là di sản văn hóa hoặc truyền thống được truyền lại; 'inheritance' là tài sản một người nhận sau khi người khác qua đời.",
+        "example_en": "The old house is part of the town's cultural heritage.",
+        "example_vi": "Ngôi nhà cổ là một phần di sản văn hóa của thị trấn.",
+        "ff_example_en": "The old house became Lan's inheritance from her grandfather.",
+        "ff_example_vi": "Ngôi nhà cổ trở thành tài sản thừa kế Lan nhận từ ông mình."
+      },
       "receptive_productive": "P"
     },
     {
@@ -317,8 +349,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "conserve",
-        "explanation_vi": "'Preserve' nhấn mạnh việc giữ nguyên hiện trạng và ngăn sự thay đổi; 'conserve' thường dùng cho tài nguyên thiên nhiên, hàm ý sử dụng cẩn thận để tránh cạn kiệt — hai từ gần nghĩa nhưng không hoán đổi hoàn toàn."
+        "word": "conserve",
+        "explanation_vi": "'Preserve' nhấn mạnh việc giữ nguyên hiện trạng và ngăn sự thay đổi; 'conserve' thường dùng cho tài nguyên thiên nhiên, hàm ý sử dụng cẩn thận để tránh cạn kiệt — hai từ gần nghĩa nhưng không hoán đổi hoàn toàn.",
+        "example_en": "The museum works to preserve the ancient paintings in their original condition.",
+        "example_vi": "Bảo tàng nỗ lực bảo tồn các bức tranh cổ trong tình trạng nguyên bản.",
+        "ff_example_en": "The city also encourages residents to conserve water during the dry season.",
+        "ff_example_vi": "Thành phố cũng khuyến khích cư dân sử dụng tiết kiệm nước trong mùa khô."
       },
       "receptive_productive": "P"
     }

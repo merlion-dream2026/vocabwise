@@ -115,7 +115,14 @@
         "adjective": "ethical / unethical",
         "adverb": "ethically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "ethnic",
+        "explanation_vi": "'Ethical' nghĩa là thuộc về đạo đức; 'ethnic' nghĩa là thuộc về một nhóm sắc tộc hoặc văn hóa.",
+        "example_en": "The researchers discussed the ethical issues in the study.",
+        "example_vi": "Các nhà nghiên cứu thảo luận những vấn đề đạo đức trong nghiên cứu.",
+        "ff_example_en": "The researchers included participants from several ethnic groups.",
+        "ff_example_vi": "Các nhà nghiên cứu đưa vào người tham gia từ nhiều nhóm sắc tộc."
+      },
       "receptive_productive": "P"
     },
     {
@@ -134,8 +141,12 @@
         "adverb": "morally"
       },
       "false_friend": {
-        "word_vi": "morale (tinh thần)",
-        "explanation_vi": "'Moral' (có đạo đức) và 'morale' (tinh thần, nhuệ khí) là hai từ khác nhau nhưng dễ nhầm lẫn. 'High morale' = tinh thần cao (đội nhóm thoải mái, tự tin). 'Moral decision' = quyết định đạo đức."
+        "word": "morale",
+        "explanation_vi": "'Moral' (có đạo đức) và 'morale' (tinh thần, nhuệ khí) là hai từ khác nhau nhưng dễ nhầm lẫn. 'High morale' = tinh thần cao (đội nhóm thoải mái, tự tin). 'Moral decision' = quyết định đạo đức.",
+        "example_en": "The doctor faced a difficult moral decision about the patient’s treatment.",
+        "example_vi": "Bác sĩ đối mặt với một quyết định đạo đức khó khăn về việc điều trị cho bệnh nhân.",
+        "ff_example_en": "The medical team’s morale improved after the patient began to recover.",
+        "ff_example_vi": "Tinh thần của đội ngũ y tế được cải thiện sau khi bệnh nhân bắt đầu hồi phục."
       },
       "receptive_productive": "P"
     },
@@ -280,7 +291,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "weight",
+        "explanation_vi": "'Weigh up' là cân nhắc các lựa chọn; 'weight' là trọng lượng hoặc sức nặng.",
+        "example_en": "The committee weighed up the benefits and risks.",
+        "example_vi": "Ủy ban cân nhắc các lợi ích và rủi ro.",
+        "ff_example_en": "The committee considered the weight of the equipment.",
+        "ff_example_vi": "Ủy ban xem xét trọng lượng của thiết bị."
+      },
       "receptive_productive": "P"
     },
     {

@@ -79,7 +79,14 @@
         "adjective": "curricular",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "syllabus",
+        "explanation_vi": "'Curriculum' là toàn bộ chương trình học của một khóa hoặc hệ thống; 'syllabus' là nội dung và kế hoạch cụ thể của một môn học.",
+        "example_en": "The university revised its engineering curriculum.",
+        "example_vi": "Trường đại học điều chỉnh chương trình đào tạo kỹ thuật.",
+        "ff_example_en": "The lecturer uploaded the syllabus for the first engineering course.",
+        "ff_example_vi": "Giảng viên tải lên đề cương của môn kỹ thuật đầu tiên."
+      },
       "receptive_productive": "P"
     },
     {
@@ -116,8 +123,12 @@
         "adverb": "autonomously"
       },
       "false_friend": {
-        "word_vi": "automatic",
-        "explanation_vi": "'Autonomy' là tính tự chủ hay quyền tự quyết; 'automatic' có nghĩa là tự động, hoạt động mà không cần sự kiểm soát có ý thức — khác nghĩa hoàn toàn."
+        "word": "automatic",
+        "explanation_vi": "'Autonomy' là tính tự chủ hay quyền tự quyết; 'automatic' có nghĩa là tự động, hoạt động mà không cần sự kiểm soát có ý thức — khác nghĩa hoàn toàn.",
+        "example_en": "The programme gives students greater autonomy over their learning choices.",
+        "example_vi": "Chương trình trao cho học sinh quyền tự chủ lớn hơn đối với lựa chọn học tập.",
+        "ff_example_en": "An automatic system records each choice without teacher input.",
+        "ff_example_vi": "Một hệ thống tự động ghi lại từng lựa chọn mà không cần giáo viên nhập liệu."
       },
       "receptive_productive": "P"
     },
@@ -154,7 +165,14 @@
         "adjective": "transmissible",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "transition",
+        "explanation_vi": "'Transmission' là sự truyền tải hoặc lây truyền; 'transition' là sự chuyển đổi giữa hai trạng thái.",
+        "example_en": "The study examined the transmission of the virus.",
+        "example_vi": "Nghiên cứu xem xét sự lây truyền của vi-rút.",
+        "ff_example_en": "The hospital managed the transition to a digital records system.",
+        "ff_example_vi": "Bệnh viện quản lý quá trình chuyển đổi sang hệ thống hồ sơ số."
+      },
       "receptive_productive": "P"
     },
     {
@@ -227,8 +245,12 @@
         "adverb": "equitably"
       },
       "false_friend": {
-        "word_vi": "equality",
-        "explanation_vi": "'Equity' nhấn mạnh sự công bằng dựa trên nhu cầu cá nhân; 'equality' là sự bình đẳng theo nghĩa mọi người nhận được như nhau — hai khái niệm có sắc thái khác nhau quan trọng trong giáo dục."
+        "word": "equality",
+        "explanation_vi": "'Equity' nhấn mạnh sự công bằng dựa trên nhu cầu cá nhân; 'equality' là sự bình đẳng theo nghĩa mọi người nhận được như nhau — hai khái niệm có sắc thái khác nhau quan trọng trong giáo dục.",
+        "example_en": "Equity provides extra tutoring to pupils who need more support.",
+        "example_vi": "Công bằng theo nhu cầu cung cấp thêm gia sư cho những học sinh cần hỗ trợ nhiều hơn.",
+        "ff_example_en": "Equality gives every pupil the same number of standard lessons.",
+        "ff_example_vi": "Bình đẳng cung cấp cho mọi học sinh cùng số lượng tiết học tiêu chuẩn."
       },
       "receptive_productive": "P"
     },

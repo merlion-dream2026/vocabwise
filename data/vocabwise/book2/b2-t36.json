@@ -61,7 +61,14 @@
         "adjective": "accessible / inaccessible",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "assess",
+        "explanation_vi": "'Access' là tiếp cận hoặc sử dụng; 'assess' là đánh giá.",
+        "example_en": "Students can access the online learning platform.",
+        "example_vi": "Học sinh có thể truy cập nền tảng học trực tuyến.",
+        "ff_example_en": "Teachers can assess students on the online learning platform.",
+        "ff_example_vi": "Giáo viên có thể đánh giá học sinh trên nền tảng học trực tuyến."
+      },
       "receptive_productive": "P"
     },
     {
@@ -97,7 +104,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "border",
+        "explanation_vi": "'Barrier' là vật hoặc yếu tố cản trở sự tiếp cận hay tiến bộ; 'border' là đường ranh giới giữa hai khu vực hoặc quốc gia.",
+        "example_en": "High fees created a barrier to education for poor students.",
+        "example_vi": "Học phí cao tạo ra rào cản đối với việc học của học sinh nghèo.",
+        "ff_example_en": "The school is located near the border between the two provinces.",
+        "ff_example_vi": "Ngôi trường nằm gần ranh giới giữa hai tỉnh."
+      },
       "receptive_productive": "P"
     },
     {
@@ -151,7 +165,14 @@
         "adjective": "resourceful",
         "adverb": "resourcefully"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "source",
+        "explanation_vi": "'Resource' là tài liệu, công cụ hoặc nguồn lực có thể sử dụng; 'source' là nơi thông tin hoặc vật chất bắt nguồn.",
+        "example_en": "The website is a useful resource for students.",
+        "example_vi": "Trang web là một nguồn tài liệu hữu ích cho học sinh.",
+        "ff_example_en": "The government report is the original source of the statistics.",
+        "ff_example_vi": "Báo cáo của chính phủ là nguồn gốc ban đầu của các số liệu."
+      },
       "receptive_productive": "P"
     },
     {
@@ -187,7 +208,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "politics",
+        "explanation_vi": "'Policy' là chính sách hoặc nguyên tắc hành động; 'politics' là hoạt động và lĩnh vực chính trị.",
+        "example_en": "The government introduced a new education policy.",
+        "example_vi": "Chính phủ ban hành một chính sách giáo dục mới.",
+        "ff_example_en": "The students discussed education and politics in class.",
+        "ff_example_vi": "Các học sinh thảo luận về giáo dục và chính trị trong lớp."
+      },
       "receptive_productive": "P"
     },
     {
@@ -206,8 +234,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "result",
-        "explanation_vi": "'Outcome' thường nhấn mạnh đến kết quả cuối cùng của một quá trình dài hoặc chính sách; 'result' là từ thông dụng hơn, dùng cho cả kết quả ngắn hạn và dài hạn. Trong các văn bản chính sách và học thuật, 'outcome' phổ biến hơn."
+        "word": "result",
+        "explanation_vi": "'Outcome' thường nhấn mạnh đến kết quả cuối cùng của một quá trình dài hoặc chính sách; 'result' là từ thông dụng hơn, dùng cho cả kết quả ngắn hạn và dài hạn. Trong các văn bản chính sách và học thuật, 'outcome' phổ biến hơn.",
+        "example_en": "The long-term outcome of the education reform was a lower dropout rate.",
+        "example_vi": "Kết quả dài hạn của cuộc cải cách giáo dục là tỷ lệ bỏ học thấp hơn.",
+        "ff_example_en": "The immediate result of the first test was a small rise in attendance.",
+        "ff_example_vi": "Kết quả tức thời của lần thử đầu tiên là số người đi học tăng nhẹ."
       },
       "receptive_productive": "P"
     },
@@ -226,7 +258,14 @@
         "adjective": "private / public / state",
         "adverb": "privately"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "personal",
+        "explanation_vi": "'Private' nghĩa là không công khai hoặc thuộc khu vực tư nhân; 'personal' nghĩa là liên quan đến một cá nhân.",
+        "example_en": "Lan attends a private school funded by fees.",
+        "example_vi": "Lan học tại một trường tư thục được tài trợ bằng học phí.",
+        "ff_example_en": "Lan wrote about her personal experience at the school.",
+        "ff_example_vi": "Lan viết về trải nghiệm cá nhân của mình tại trường."
+      },
       "receptive_productive": "P"
     },
     {

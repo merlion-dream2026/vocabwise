@@ -61,7 +61,14 @@
         "adjective": "orbital",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "rotate",
+        "explanation_vi": "'Orbit' là chuyển động quanh một vật thể khác; 'rotate' là xoay quanh trục của chính mình.",
+        "example_en": "The Moon orbits the Earth once every month.",
+        "example_vi": "Mặt Trăng quay quanh Trái Đất mỗi tháng một lần.",
+        "ff_example_en": "The Earth rotates on its axis once every day.",
+        "ff_example_vi": "Trái Đất tự quay quanh trục mỗi ngày một lần."
+      },
       "receptive_productive": "P"
     },
     {
@@ -98,8 +105,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "intergalactic",
-        "explanation_vi": "'Interstellar' chỉ khoảng không gian giữa các ngôi sao trong cùng một thiên hà; 'intergalactic' chỉ khoảng không gian giữa các thiên hà — quy mô lớn hơn nhiều."
+        "word": "intergalactic",
+        "explanation_vi": "'Interstellar' chỉ khoảng không gian giữa các ngôi sao trong cùng một thiên hà; 'intergalactic' chỉ khoảng không gian giữa các thiên hà — quy mô lớn hơn nhiều.",
+        "example_en": "The spacecraft crossed interstellar space between two stars in the same galaxy.",
+        "example_vi": "Tàu vũ trụ đi qua không gian liên sao giữa hai ngôi sao trong cùng một thiên hà.",
+        "ff_example_en": "A later mission was designed for intergalactic travel between two galaxies.",
+        "ff_example_vi": "Một sứ mệnh sau đó được thiết kế cho hành trình liên thiên hà giữa hai thiên hà."
       },
       "receptive_productive": "P"
     },
@@ -119,8 +130,12 @@
         "adverb": "astrophysically"
       },
       "false_friend": {
-        "word_vi": "astronomy",
-        "explanation_vi": "'Astrophysics' tập trung vào việc áp dụng các nguyên lý vật lý để giải thích các hiện tượng vũ trụ; 'astronomy' là nghiên cứu tổng quát hơn về các thiên thể — astrophysics là một nhánh chuyên sâu hơn."
+        "word": "astronomy",
+        "explanation_vi": "'Astrophysics' tập trung vào việc áp dụng các nguyên lý vật lý để giải thích các hiện tượng vũ trụ; 'astronomy' là nghiên cứu tổng quát hơn về các thiên thể — astrophysics là một nhánh chuyên sâu hơn.",
+        "example_en": "Astrophysics explains how gravity shapes the life of a star.",
+        "example_vi": "Vật lý thiên văn giải thích cách trọng lực định hình vòng đời của một ngôi sao.",
+        "ff_example_en": "Astronomy includes the broader observation and study of stars and planets.",
+        "ff_example_vi": "Thiên văn học bao gồm việc quan sát và nghiên cứu rộng hơn về các ngôi sao và hành tinh."
       },
       "receptive_productive": "P"
     },
@@ -212,8 +227,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "terrestrial",
-        "explanation_vi": "'Extraterrestrial' nghĩa là có nguồn gốc hoặc tồn tại ngoài Trái Đất; 'terrestrial' nghĩa là thuộc về hoặc sống trên Trái Đất — hai từ trái nghĩa nhau."
+        "word": "terrestrial",
+        "explanation_vi": "'Extraterrestrial' nghĩa là có nguồn gốc hoặc tồn tại ngoài Trái Đất; 'terrestrial' nghĩa là thuộc về hoặc sống trên Trái Đất — hai từ trái nghĩa nhau.",
+        "example_en": "Scientists searched the meteorite for evidence of extraterrestrial life.",
+        "example_vi": "Các nhà khoa học tìm kiếm bằng chứng về sự sống ngoài Trái Đất trong thiên thạch.",
+        "ff_example_en": "They compared it with terrestrial organisms found on Earth.",
+        "ff_example_vi": "Họ so sánh nó với các sinh vật trên Trái Đất."
       },
       "receptive_productive": "P"
     },

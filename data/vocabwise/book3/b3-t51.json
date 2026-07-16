@@ -134,8 +134,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "utility",
-        "explanation_vi": "'Utilitarianism' là một học thuyết đạo đức; 'utility' đơn giản là sự hữu dụng hoặc tiện ích — không đồng nghĩa."
+        "word": "utility",
+        "explanation_vi": "'Utilitarianism' là một học thuyết đạo đức; 'utility' đơn giản là sự hữu dụng hoặc tiện ích — không đồng nghĩa.",
+        "example_en": "The ethics seminar examined utilitarianism as a theory of judging actions by their consequences.",
+        "example_vi": "Hội thảo đạo đức xem xét chủ nghĩa vị lợi như một học thuyết đánh giá hành động theo hệ quả.",
+        "ff_example_en": "The seminar room’s utility came from its flexible furniture and equipment.",
+        "ff_example_vi": "Tính hữu dụng của phòng hội thảo đến từ nội thất và thiết bị linh hoạt."
       },
       "receptive_productive": "P"
     },
@@ -154,7 +158,14 @@
         "adjective": "autonomous",
         "adverb": "autonomously"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "automation",
+        "explanation_vi": "'Autonomy' là quyền hoặc khả năng tự quyết; 'automation' là việc dùng máy móc hoặc phần mềm để tự động thực hiện nhiệm vụ.",
+        "example_en": "The policy gives doctors greater autonomy in clinical decisions.",
+        "example_vi": "Chính sách trao cho bác sĩ quyền tự chủ lớn hơn trong quyết định lâm sàng.",
+        "ff_example_en": "The hospital uses automation to process routine records.",
+        "ff_example_vi": "Bệnh viện dùng tự động hóa để xử lý hồ sơ thường lệ."
+      },
       "receptive_productive": "P"
     },
     {
@@ -191,8 +202,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "integration",
-        "explanation_vi": "'Integrity' là tính chính trực hoặc sự toàn vẹn về mặt đạo đức; 'integration' là sự hội nhập hoặc tích hợp — hai từ khác nghĩa hoàn toàn."
+        "word": "integration",
+        "explanation_vi": "'Integrity' là tính chính trực hoặc sự toàn vẹn về mặt đạo đức; 'integration' là sự hội nhập hoặc tích hợp — hai từ khác nghĩa hoàn toàn.",
+        "example_en": "The doctor demonstrated integrity by reporting the medical error honestly.",
+        "example_vi": "Bác sĩ thể hiện sự chính trực bằng cách báo cáo trung thực sai sót y khoa.",
+        "ff_example_en": "The hospital improved the integration of patient records across departments.",
+        "ff_example_vi": "Bệnh viện cải thiện việc tích hợp hồ sơ bệnh nhân giữa các khoa."
       },
       "receptive_productive": "P"
     },
@@ -211,7 +226,14 @@
         "adjective": "culpable",
         "adverb": "culpably"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "capability",
+        "explanation_vi": "'Culpability' là mức độ đáng bị quy trách nhiệm; 'capability' là năng lực thực hiện việc gì.",
+        "example_en": "The inquiry examined the manager's culpability for the accident.",
+        "example_vi": "Cuộc điều tra xem xét trách nhiệm của người quản lý đối với tai nạn.",
+        "ff_example_en": "The inquiry examined the system's capability to prevent accidents.",
+        "ff_example_vi": "Cuộc điều tra xem xét năng lực ngăn tai nạn của hệ thống."
+      },
       "receptive_productive": "P"
     },
     {

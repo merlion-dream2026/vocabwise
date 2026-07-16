@@ -78,7 +78,14 @@
         "adjective": "champion",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "championship",
+        "explanation_vi": "“Champion” là người hoặc đội vô địch; “championship” là giải đấu hoặc danh hiệu vô địch.",
+        "example_en": "Lan became the national swimming champion.",
+        "example_vi": "Lan trở thành nhà vô địch bơi lội quốc gia.",
+        "ff_example_en": "Lan won the national swimming championship.",
+        "ff_example_vi": "Lan giành chức vô địch bơi lội quốc gia."
+      }
     },
     {
       "id": 3,
@@ -95,7 +102,14 @@
         "adjective": "medal-winning",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "metal",
+        "explanation_vi": "“Medal” là huy chương; “metal” là kim loại. Hai từ có phát âm gần giống nhau.",
+        "example_en": "The athlete won a gold medal.",
+        "example_vi": "Vận động viên giành huy chương vàng.",
+        "ff_example_en": "The medal was made of a shiny metal.",
+        "ff_example_vi": "Chiếc huy chương được làm từ một kim loại sáng bóng."
+      }
     },
     {
       "id": 4,
@@ -129,7 +143,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "judge",
+        "explanation_vi": "“Referee” điều khiển trận đấu thể thao và áp dụng luật; “judge” đánh giá màn trình diễn hoặc quyết định kết quả trong nhiều cuộc thi.",
+        "example_en": "The referee stopped the football match after the foul.",
+        "example_vi": "Trọng tài dừng trận bóng đá sau pha phạm lỗi.",
+        "ff_example_en": "The judge gave the gymnast a high score after her performance.",
+        "ff_example_vi": "Giám khảo cho vận động viên thể dục điểm cao sau màn trình diễn."
+      }
     },
     {
       "id": 6,
@@ -147,8 +168,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "tàu hỏa",
-        "explanation_vi": "'Train' trong thể thao có nghĩa là 'luyện tập', không phải 'tàu hỏa' (cũng là 'train' nhưng là danh từ khác nghĩa)."
+        "word": "",
+        "explanation_vi": "'Train' trong thể thao có nghĩa là 'luyện tập', không phải 'tàu hỏa' (cũng là 'train' nhưng là danh từ khác nghĩa).",
+        "example_en": "The athletes train every morning before the competition.",
+        "example_vi": "Các vận động viên luyện tập mỗi sáng trước cuộc thi.",
+        "ff_example_en": "The athletes took a train to the city where the competition was held.",
+        "ff_example_vi": "Các vận động viên đi tàu hỏa đến thành phố nơi cuộc thi được tổ chức."
       }
     },
     {
@@ -166,7 +191,14 @@
         "adjective": "athletic",
         "adverb": "athletically"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "player",
+        "explanation_vi": "“Athlete” là người thi đấu thể thao, đặc biệt các môn cá nhân hoặc điền kinh; “player” thường là người chơi một trò chơi hoặc môn thể thao đồng đội.",
+        "example_en": "The athlete trained for the 100-metre race.",
+        "example_vi": "Vận động viên luyện tập cho cuộc đua 100 mét.",
+        "ff_example_en": "The football player trained for the final match.",
+        "ff_example_vi": "Cầu thủ bóng đá luyện tập cho trận chung kết."
+      }
     },
     {
       "id": 8,
@@ -183,7 +215,14 @@
         "adjective": "final",
         "adverb": "finally"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "finale",
+        "explanation_vi": "“Final” là vòng hoặc trận cuối của cuộc thi; “finale” là phần kết nổi bật của một buổi biểu diễn.",
+        "example_en": "Our team reached the football final.",
+        "example_vi": "Đội của chúng tôi lọt vào trận chung kết bóng đá.",
+        "ff_example_en": "The dancers returned to the stadium for the closing finale.",
+        "ff_example_vi": "Các vũ công quay lại sân vận động cho màn kết thúc."
+      }
     },
     {
       "id": 9,
@@ -217,7 +256,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "audience",
+        "explanation_vi": "“Fans” là những người đặc biệt yêu thích và ủng hộ một đội hoặc nghệ sĩ; “audience” là toàn bộ người đang xem hoặc nghe một sự kiện.",
+        "example_en": "The team’s fans cheered throughout the match.",
+        "example_vi": "Người hâm mộ của đội cổ vũ suốt trận đấu.",
+        "ff_example_en": "The audience applauded after the opening performance.",
+        "ff_example_vi": "Khán giả vỗ tay sau màn biểu diễn mở đầu."
+      }
     },
     {
       "id": 11,
@@ -234,7 +280,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "cheer",
+        "explanation_vi": "“Root for” nghĩa là ủng hộ và mong một người hoặc đội thắng; “cheer” là reo hò để thể hiện sự ủng hộ.",
+        "example_en": "We rooted for the school team in the final.",
+        "example_vi": "Chúng tôi ủng hộ đội của trường trong trận chung kết.",
+        "ff_example_en": "We cheered loudly when the school team scored.",
+        "ff_example_vi": "Chúng tôi reo hò lớn khi đội của trường ghi điểm."
+      }
     },
     {
       "id": 12,
@@ -252,8 +305,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "ghi âm / ghi lại",
-        "explanation_vi": "'Record' là danh từ nghĩa là 'kỷ lục', nhưng cũng là động từ nghĩa là 'ghi lại / quay phim'. Trong thể thao, 'record' thường là danh từ."
+        "word": "",
+        "explanation_vi": "'Record' là danh từ nghĩa là 'kỷ lục', nhưng cũng là động từ nghĩa là 'ghi lại / quay phim'. Trong thể thao, 'record' thường là danh từ.",
+        "example_en": "The young runner broke the school record in the 100-metre race.",
+        "example_vi": "Vận động viên trẻ đã phá kỷ lục của trường trong cuộc đua 100 mét.",
+        "ff_example_en": "The coach recorded the young runner's 100-metre race.",
+        "ff_example_vi": "Huấn luyện viên đã quay lại cuộc đua 100 mét của vận động viên trẻ."
       }
     },
     {
@@ -271,7 +328,14 @@
         "adjective": "performing",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "perform",
+        "explanation_vi": "“Performance” là danh từ nghĩa là màn trình diễn hoặc thành tích; “perform” là động từ nghĩa là biểu diễn hoặc thực hiện.",
+        "example_en": "The athlete gave an excellent performance in the final.",
+        "example_vi": "Vận động viên có màn trình diễn xuất sắc trong trận chung kết.",
+        "ff_example_en": "The athlete performed well in the final.",
+        "ff_example_vi": "Vận động viên thi đấu tốt trong trận chung kết."
+      }
     },
     {
       "id": 14,

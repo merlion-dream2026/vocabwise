@@ -98,8 +98,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "compromise",
-        "explanation_vi": "'Concession' là điều một bên chủ động nhường trong đàm phán; 'compromise' là kết quả mà cả hai bên cùng nhường nhịn để đạt đồng thuận — không hoàn toàn đồng nghĩa."
+        "word": "compromise",
+        "explanation_vi": "'Concession' là điều một bên chủ động nhường trong đàm phán; 'compromise' là kết quả mà cả hai bên cùng nhường nhịn để đạt đồng thuận — không hoàn toàn đồng nghĩa.",
+        "example_en": "The seller made a concession by reducing the price by ten per cent.",
+        "example_vi": "Người bán đưa ra một nhượng bộ bằng cách giảm giá mười phần trăm.",
+        "ff_example_en": "The final compromise required both the seller and buyer to change their demands.",
+        "ff_example_vi": "Thỏa hiệp cuối cùng yêu cầu cả người bán và người mua thay đổi yêu cầu của mình."
       },
       "receptive_productive": "P"
     },
@@ -118,7 +122,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "report",
+        "explanation_vi": "'Rapport' là mối quan hệ tin tưởng và hòa hợp; 'report' là báo cáo hoặc hành động báo cáo.",
+        "example_en": "The negotiator built rapport with the local community.",
+        "example_vi": "Nhà đàm phán xây dựng mối quan hệ tin cậy với cộng đồng địa phương.",
+        "ff_example_en": "The negotiator wrote a report about the meeting.",
+        "ff_example_vi": "Nhà đàm phán viết một báo cáo về cuộc họp."
+      },
       "receptive_productive": "P"
     },
     {
@@ -173,8 +184,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "meditation",
-        "explanation_vi": "'Mediation' là quá trình hòa giải tranh chấp; 'meditation' là sự thiền định — phát âm và nghĩa hoàn toàn khác nhau."
+        "word": "meditation",
+        "explanation_vi": "'Mediation' là quá trình hòa giải tranh chấp; 'meditation' là sự thiền định — phát âm và nghĩa hoàn toàn khác nhau.",
+        "example_en": "The mediator used mediation to help the two companies settle their dispute.",
+        "example_vi": "Hòa giải viên dùng quá trình hòa giải để giúp hai công ty giải quyết tranh chấp.",
+        "ff_example_en": "Before the meeting, she used meditation to remain calm.",
+        "ff_example_vi": "Trước cuộc họp, cô ấy thiền để giữ bình tĩnh."
       },
       "receptive_productive": "P"
     },
@@ -193,7 +208,14 @@
         "adjective": "assertive",
         "adverb": "assertively"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "aggressiveness",
+        "explanation_vi": "'Assertiveness' là khả năng nêu rõ nhu cầu và quan điểm một cách tôn trọng; 'aggressiveness' là thái độ hung hăng hoặc gây hấn.",
+        "example_en": "Her assertiveness helped her state the team's needs clearly.",
+        "example_vi": "Sự quyết đoán giúp cô trình bày rõ nhu cầu của nhóm.",
+        "ff_example_en": "His aggressiveness made the negotiation more hostile.",
+        "ff_example_vi": "Thái độ hung hăng của anh khiến cuộc đàm phán căng thẳng hơn."
+      },
       "receptive_productive": "P"
     },
     {

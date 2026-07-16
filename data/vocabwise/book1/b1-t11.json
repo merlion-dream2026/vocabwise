@@ -146,7 +146,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "eat",
+        "explanation_vi": "“Feed” nghĩa là cho người hoặc động vật ăn; “eat” nghĩa là chính người hoặc động vật đó ăn.",
+        "example_en": "Lan feeds her cat at seven every morning.",
+        "example_vi": "Lan cho mèo ăn lúc bảy giờ mỗi sáng.",
+        "ff_example_en": "Her cat eats at seven every morning.",
+        "ff_example_vi": "Con mèo của cô ấy ăn lúc bảy giờ mỗi sáng."
+      }
     },
     {
       "id": 7,
@@ -163,7 +170,14 @@
         "adjective": "furry",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "hair",
+        "explanation_vi": "“Fur” thường chỉ lớp lông dày bao phủ cơ thể động vật; “hair” thường chỉ tóc người hoặc từng sợi lông riêng lẻ.",
+        "example_en": "The dog has thick brown fur.",
+        "example_vi": "Con chó có bộ lông nâu dày.",
+        "ff_example_en": "The girl has thick brown hair.",
+        "ff_example_vi": "Cô bé có mái tóc nâu dày."
+      }
     },
     {
       "id": 8,
@@ -181,8 +195,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "tale",
-        "explanation_vi": "'Tail' (đuôi) và 'tale' (câu chuyện) phát âm giống nhau nhưng nghĩa hoàn toàn khác — đây là cặp từ đồng âm."
+        "word": "tale",
+        "explanation_vi": "'Tail' (đuôi) và 'tale' (câu chuyện) phát âm giống nhau nhưng nghĩa hoàn toàn khác — đây là cặp từ đồng âm.",
+        "example_en": "The child drew a fox with a long tail.",
+        "example_vi": "Đứa trẻ vẽ một con cáo có chiếc đuôi dài.",
+        "ff_example_en": "The child wrote a tale about a clever fox.",
+        "ff_example_vi": "Đứa trẻ viết một câu chuyện về một con cáo thông minh."
       }
     },
     {

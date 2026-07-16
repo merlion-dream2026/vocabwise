@@ -61,7 +61,14 @@
         "adjective": "cultivated",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "culture",
+        "explanation_vi": "'Cultivate' là canh tác hoặc phát triển một phẩm chất; 'culture' là văn hóa hoặc nuôi cấy trong phòng thí nghiệm.",
+        "example_en": "The farmers cultivate rice in the valley.",
+        "example_vi": "Nông dân canh tác lúa trong thung lũng.",
+        "ff_example_en": "The festival celebrates the farming culture of the valley.",
+        "ff_example_vi": "Lễ hội tôn vinh văn hóa nông nghiệp của thung lũng."
+      },
       "receptive_productive": "P"
     },
     {
@@ -115,7 +122,14 @@
         "adjective": "staple",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "stable",
+        "explanation_vi": "'Staple' là thực phẩm chủ lực hoặc vật ghim; 'stable' là ổn định hoặc chuồng ngựa.",
+        "example_en": "Rice is a staple food in the region.",
+        "example_vi": "Gạo là lương thực chủ lực trong khu vực.",
+        "ff_example_en": "Rice prices remained stable throughout the year.",
+        "ff_example_vi": "Giá gạo duy trì ổn định suốt năm."
+      },
       "receptive_productive": "R"
     },
     {
@@ -134,8 +148,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "water (tưới nước)",
-        "explanation_vi": "'Irrigate' là thuật ngữ chính xác trong nông nghiệp chỉ việc cấp nước có hệ thống cho ruộng đồng; 'water' (tưới) là từ thông thường dùng cho cây trong vườn nhà."
+        "word": "water",
+        "explanation_vi": "'Irrigate' là thuật ngữ chính xác trong nông nghiệp chỉ việc cấp nước có hệ thống cho ruộng đồng; 'water' (tưới) là từ thông thường dùng cho cây trong vườn nhà.",
+        "example_en": "Farmers irrigate the rice fields through a network of canals.",
+        "example_vi": "Nông dân tưới ruộng lúa bằng một mạng lưới kênh mương.",
+        "ff_example_en": "At home, the farmer uses a small can to water the tomato plants.",
+        "ff_example_vi": "Ở nhà, người nông dân dùng một bình nhỏ để tưới cây cà chua."
       },
       "receptive_productive": "P"
     },
@@ -173,8 +191,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "fungicide / herbicide",
-        "explanation_vi": "'Pesticide' diệt côn trùng; 'fungicide' diệt nấm; 'herbicide' diệt cỏ dại — tất cả đều là thuốc nông nghiệp nhưng nhắm vào đối tượng khác nhau."
+        "word": "fungicide",
+        "explanation_vi": "'Pesticide' diệt côn trùng; 'fungicide' diệt nấm; 'herbicide' diệt cỏ dại — tất cả đều là thuốc nông nghiệp nhưng nhắm vào đối tượng khác nhau.",
+        "example_en": "The farmer applied a pesticide to control harmful insects.",
+        "example_vi": "Người nông dân sử dụng thuốc trừ sâu để kiểm soát côn trùng gây hại.",
+        "ff_example_en": "The farmer applied a fungicide to control a fungal disease on the same crop.",
+        "ff_example_vi": "Người nông dân sử dụng thuốc diệt nấm để kiểm soát bệnh nấm trên cùng loại cây trồng."
       },
       "receptive_productive": "R"
     },
@@ -211,7 +233,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "lifestyle",
+        "explanation_vi": "'Livestock' là gia súc, vật nuôi trong nông nghiệp; 'lifestyle' là lối sống.",
+        "example_en": "The family raises livestock on its farm.",
+        "example_vi": "Gia đình nuôi gia súc tại trang trại.",
+        "ff_example_en": "The family enjoys a quiet rural lifestyle on the farm.",
+        "ff_example_vi": "Gia đình tận hưởng lối sống nông thôn yên bình tại trang trại."
+      },
       "receptive_productive": "R"
     },
     {
@@ -229,7 +258,14 @@
         "adjective": "organic",
         "adverb": "organically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "organ",
+        "explanation_vi": "'Organic' là tính từ nghĩa là hữu cơ hoặc phát triển tự nhiên; 'organ' là cơ quan cơ thể hoặc nhạc cụ.",
+        "example_en": "The study compared organic food with processed food.",
+        "example_vi": "Nghiên cứu so sánh thực phẩm hữu cơ với thực phẩm chế biến.",
+        "ff_example_en": "The study examined how each organ processes nutrients.",
+        "ff_example_vi": "Nghiên cứu xem xét cách từng cơ quan xử lý chất dinh dưỡng."
+      },
       "receptive_productive": "P"
     },
     {
@@ -284,8 +320,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "famine",
-        "explanation_vi": "'Drought' là nguyên nhân (thiếu mưa); 'famine' là hậu quả (thiếu lương thực) — đây là hai từ khác nhau mà học sinh dễ nhầm lẫn."
+        "word": "famine",
+        "explanation_vi": "'Drought' là nguyên nhân (thiếu mưa); 'famine' là hậu quả (thiếu lương thực) — đây là hai từ khác nhau mà học sinh dễ nhầm lẫn.",
+        "example_en": "A long drought destroyed much of the region’s harvest.",
+        "example_vi": "Một đợt hạn hán kéo dài phá hủy phần lớn vụ mùa của khu vực.",
+        "ff_example_en": "The resulting food shortage led to a severe famine.",
+        "ff_example_vi": "Tình trạng thiếu lương thực sau đó dẫn đến một nạn đói nghiêm trọng."
       },
       "receptive_productive": "R"
     },
@@ -322,7 +362,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "substance",
+        "explanation_vi": "'Subsistence' là mức sống tối thiểu hoặc hoạt động tự cung tự cấp; 'substance' là chất hoặc nội dung thực chất.",
+        "example_en": "The family depends on subsistence farming for food.",
+        "example_vi": "Gia đình phụ thuộc vào nông nghiệp tự cung tự cấp để có thực phẩm.",
+        "ff_example_en": "The laboratory tested a substance found in the farm's water.",
+        "ff_example_vi": "Phòng thí nghiệm kiểm tra một chất được tìm thấy trong nguồn nước của trang trại."
+      },
       "receptive_productive": "R"
     }
   ],

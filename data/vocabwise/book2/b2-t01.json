@@ -79,7 +79,14 @@
         "adjective": "curricular",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "syllabus",
+        "explanation_vi": "'Curriculum' là toàn bộ chương trình học của một khóa hoặc hệ thống; 'syllabus' là nội dung và kế hoạch cụ thể của một môn học.",
+        "example_en": "The university revised its engineering curriculum.",
+        "example_vi": "Trường đại học điều chỉnh chương trình đào tạo kỹ thuật.",
+        "ff_example_en": "The lecturer uploaded the syllabus for the first engineering course.",
+        "ff_example_vi": "Giảng viên tải lên đề cương của môn kỹ thuật đầu tiên."
+      },
       "receptive_productive": "R"
     },
     {
@@ -151,7 +158,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "assessment",
+        "explanation_vi": "'Assignment' là bài tập được giao để học sinh hoàn thành; 'assessment' là hoạt động hoặc công cụ dùng để đánh giá năng lực.",
+        "example_en": "The lecturer gave us an assignment to complete at home.",
+        "example_vi": "Giảng viên giao cho chúng tôi một bài tập để hoàn thành ở nhà.",
+        "ff_example_en": "The lecturer used a short test as an assessment of our progress.",
+        "ff_example_vi": "Giảng viên dùng một bài kiểm tra ngắn để đánh giá sự tiến bộ của chúng tôi."
+      },
       "receptive_productive": "R"
     },
     {
@@ -260,8 +274,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "literature",
-        "explanation_vi": "'Literacy' là khả năng đọc viết; 'literature' là văn học — đừng nhầm lẫn hai từ này."
+        "word": "literature",
+        "explanation_vi": "'Literacy' là khả năng đọc viết; 'literature' là văn học — đừng nhầm lẫn hai từ này.",
+        "example_en": "The course aims to improve students’ digital literacy.",
+        "example_vi": "Khóa học nhằm nâng cao khả năng sử dụng công nghệ số của học sinh.",
+        "ff_example_en": "The course also introduces students to modern English literature.",
+        "ff_example_vi": "Khóa học cũng giới thiệu cho học sinh về văn học Anh hiện đại."
       },
       "receptive_productive": "R"
     },
@@ -299,8 +317,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "subject",
-        "explanation_vi": "'Discipline' trong học thuật có nghĩa là 'lĩnh vực nghiên cứu', không hoàn toàn giống 'subject' (môn học thông thường)."
+        "word": "subject",
+        "explanation_vi": "'Discipline' trong học thuật có nghĩa là 'lĩnh vực nghiên cứu', không hoàn toàn giống 'subject' (môn học thông thường).",
+        "example_en": "Economics is an academic discipline that studies how resources are used.",
+        "example_vi": "Kinh tế học là một lĩnh vực học thuật nghiên cứu cách các nguồn lực được sử dụng.",
+        "ff_example_en": "Economics is also a popular subject at this school.",
+        "ff_example_vi": "Kinh tế học cũng là một môn học phổ biến tại trường này."
       },
       "receptive_productive": "P"
     },

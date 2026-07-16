@@ -151,7 +151,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "resource",
+        "explanation_vi": "'Source' là nơi thông tin hoặc vật chất bắt nguồn; 'resource' là tài liệu, công cụ hoặc nguồn lực có thể sử dụng.",
+        "example_en": "The journalist checked the original source of the statistic.",
+        "example_vi": "Nhà báo kiểm tra nguồn gốc ban đầu của số liệu.",
+        "ff_example_en": "The journalist used the library as a research resource.",
+        "ff_example_vi": "Nhà báo sử dụng thư viện như một nguồn tài liệu nghiên cứu."
+      },
       "receptive_productive": "P"
     },
     {
@@ -170,8 +177,12 @@
         "adverb": "reliably"
       },
       "false_friend": {
-        "word_vi": "trustworthy",
-        "explanation_vi": "'Reliable' nhấn mạnh tính nhất quán và có thể dự đoán được; 'trustworthy' nhấn mạnh vào tính trung thực và phẩm chất đạo đức — hai từ gần nghĩa, nhưng 'reliable' thường dùng cho thông tin/hệ thống, còn 'trustworthy' dùng cho con người và tổ chức."
+        "word": "trustworthy",
+        "explanation_vi": "'Reliable' nhấn mạnh tính nhất quán và có thể dự đoán được; 'trustworthy' nhấn mạnh vào tính trung thực và phẩm chất đạo đức — hai từ gần nghĩa, nhưng 'reliable' thường dùng cho thông tin/hệ thống, còn 'trustworthy' dùng cho con người và tổ chức.",
+        "example_en": "The transport app is reliable and gives accurate arrival times every day.",
+        "example_vi": "Ứng dụng giao thông đáng tin cậy và cung cấp thời gian đến chính xác mỗi ngày.",
+        "ff_example_en": "Its developer is considered trustworthy because the company handles user data honestly.",
+        "ff_example_vi": "Nhà phát triển được xem là đáng tin về mặt đạo đức vì công ty xử lý dữ liệu người dùng một cách trung thực."
       },
       "receptive_productive": "P"
     },
@@ -190,7 +201,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "audition",
+        "explanation_vi": "'Audience' là khán giả; 'audition' là buổi thử vai hoặc thử giọng.",
+        "example_en": "The singer performed in front of a large audience.",
+        "example_vi": "Ca sĩ biểu diễn trước một lượng khán giả đông đảo.",
+        "ff_example_en": "The singer performed the same song at an audition.",
+        "ff_example_vi": "Ca sĩ biểu diễn cùng bài hát trong một buổi thử giọng."
+      },
       "receptive_productive": "P"
     },
     {
@@ -298,7 +316,14 @@
         "adjective": "biased / unbiased",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "prejudice",
+        "explanation_vi": "'Bias' là xu hướng thiên lệch có thể có ý thức hoặc vô thức; 'prejudice' thường là định kiến tiêu cực đã hình thành trước về một nhóm người.",
+        "example_en": "The editor checked the article for political bias.",
+        "example_vi": "Biên tập viên kiểm tra bài báo để phát hiện sự thiên lệch chính trị.",
+        "ff_example_en": "The editor removed a sentence that showed prejudice against migrants.",
+        "ff_example_vi": "Biên tập viên xóa một câu thể hiện định kiến đối với người di cư."
+      },
       "receptive_productive": "P"
     },
     {

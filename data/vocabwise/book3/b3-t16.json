@@ -80,8 +80,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "defect",
-        "explanation_vi": "'Deficiency' là sự thiếu hụt về lượng hoặc chất; 'defect' là lỗi hay khuyết điểm về cấu tạo — ngữ cảnh sử dụng khác nhau."
+        "word": "defect",
+        "explanation_vi": "'Deficiency' là sự thiếu hụt về lượng hoặc chất; 'defect' là lỗi hay khuyết điểm về cấu tạo — ngữ cảnh sử dụng khác nhau.",
+        "example_en": "The blood test revealed an iron deficiency.",
+        "example_vi": "Xét nghiệm máu cho thấy tình trạng thiếu sắt.",
+        "ff_example_en": "The laboratory later found a defect in the testing device.",
+        "ff_example_vi": "Sau đó, phòng thí nghiệm phát hiện một lỗi cấu tạo trong thiết bị xét nghiệm."
       },
       "receptive_productive": "P"
     },
@@ -118,7 +122,14 @@
         "adjective": "organic / inorganic",
         "adverb": "organically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "organ",
+        "explanation_vi": "'Organic' là tính từ nghĩa là hữu cơ hoặc phát triển tự nhiên; 'organ' là cơ quan cơ thể hoặc nhạc cụ.",
+        "example_en": "The study compared organic food with processed food.",
+        "example_vi": "Nghiên cứu so sánh thực phẩm hữu cơ với thực phẩm chế biến.",
+        "ff_example_en": "The study examined how each organ processes nutrients.",
+        "ff_example_vi": "Nghiên cứu xem xét cách từng cơ quan xử lý chất dinh dưỡng."
+      },
       "receptive_productive": "P"
     },
     {
@@ -136,7 +147,14 @@
         "adjective": "sustainable / unsustainable",
         "adverb": "sustainably"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "sustained",
+        "explanation_vi": "'Sustainable' nghĩa là có thể duy trì lâu dài mà không làm cạn kiệt nguồn lực; 'sustained' nghĩa là được duy trì liên tục trong một khoảng thời gian.",
+        "example_en": "The city needs a sustainable transport system.",
+        "example_vi": "Thành phố cần một hệ thống giao thông bền vững.",
+        "ff_example_en": "The city experienced sustained growth in public transport use.",
+        "ff_example_vi": "Thành phố ghi nhận mức tăng liên tục trong việc sử dụng giao thông công cộng."
+      },
       "receptive_productive": "P"
     },
     {
@@ -227,8 +245,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "undernutrition",
-        "explanation_vi": "'Malnutrition' bao gồm cả thiếu lẫn thừa chất dinh dưỡng; 'undernutrition' chỉ đề cập đến tình trạng thiếu hụt — phạm vi hẹp hơn."
+        "word": "undernutrition",
+        "explanation_vi": "'Malnutrition' bao gồm cả thiếu lẫn thừa chất dinh dưỡng; 'undernutrition' chỉ đề cập đến tình trạng thiếu hụt — phạm vi hẹp hơn.",
+        "example_en": "The clinic treats malnutrition caused by both nutrient deficiency and severe obesity.",
+        "example_vi": "Phòng khám điều trị suy dinh dưỡng do cả thiếu chất và béo phì nghiêm trọng.",
+        "ff_example_en": "Its emergency programme focuses specifically on undernutrition among children who lack food.",
+        "ff_example_vi": "Chương trình khẩn cấp của phòng khám tập trung riêng vào tình trạng thiếu dinh dưỡng ở trẻ em thiếu thức ăn."
       },
       "receptive_productive": "P"
     },

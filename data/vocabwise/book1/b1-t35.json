@@ -61,7 +61,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "test",
+        "explanation_vi": "“Exam” thường dài và quan trọng hơn; “test” là từ chung cho bài kiểm tra và có thể ngắn hơn.",
+        "example_en": "The students took a final exam at the end of the course.",
+        "example_vi": "Các học sinh làm bài thi cuối khóa.",
+        "ff_example_en": "The students took a short test at the end of the lesson.",
+        "ff_example_vi": "Các học sinh làm một bài kiểm tra ngắn vào cuối tiết học."
+      }
     },
     {
       "id": 2,
@@ -78,7 +85,14 @@
         "adjective": "prepared / unprepared",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "practise",
+        "explanation_vi": "“Prepare” là chuẩn bị mọi thứ cần thiết; “practise” là luyện tập một kỹ năng hoặc hoạt động.",
+        "example_en": "Lan prepared her notes before the speaking exam.",
+        "example_vi": "Lan chuẩn bị ghi chú trước bài thi nói.",
+        "ff_example_en": "Lan practised answering questions before the speaking exam.",
+        "ff_example_vi": "Lan luyện trả lời câu hỏi trước bài thi nói."
+      }
     },
     {
       "id": 3,
@@ -95,7 +109,14 @@
         "adjective": "passing",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "past",
+        "explanation_vi": "“Pass” là động từ nghĩa là vượt qua hoặc đi qua; “past” thường chỉ thời gian đã qua hoặc vị trí vượt qua một điểm. Hai từ phát âm giống nhau.",
+        "example_en": "Lan hopes to pass the exam this term.",
+        "example_vi": "Lan hy vọng vượt qua kỳ thi trong học kỳ này.",
+        "ff_example_en": "Lan walked past the exam room before class.",
+        "ff_example_vi": "Lan đi ngang qua phòng thi trước giờ học."
+      }
     },
     {
       "id": 4,
@@ -112,7 +133,14 @@
         "adjective": "failing",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "fall",
+        "explanation_vi": "“Fail” nghĩa là thất bại hoặc trượt; “fall” nghĩa là ngã hoặc rơi. Hai từ thường bị nhầm khi phát âm.",
+        "example_en": "Minh was worried that he might fail the exam.",
+        "example_vi": "Minh lo rằng mình có thể trượt kỳ thi.",
+        "ff_example_en": "Minh was careful not to fall on the wet steps outside the exam room.",
+        "ff_example_vi": "Minh cẩn thận để không bị ngã trên bậc thềm ướt bên ngoài phòng thi."
+      }
     },
     {
       "id": 5,
@@ -129,7 +157,14 @@
         "adjective": "nervous / calm",
         "adverb": "nervously"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "anxious",
+        "explanation_vi": "“Nervous” thường là hồi hộp trước một tình huống cụ thể; “anxious” thường nhấn mạnh sự lo âu và có thể kéo dài hơn.",
+        "example_en": "Lan felt nervous just before the exam began.",
+        "example_vi": "Lan cảm thấy hồi hộp ngay trước khi kỳ thi bắt đầu.",
+        "ff_example_en": "Lan felt anxious for several days while waiting for the result.",
+        "ff_example_vi": "Lan cảm thấy lo âu trong vài ngày khi chờ kết quả."
+      }
     },
     {
       "id": 6,
@@ -163,7 +198,14 @@
         "adjective": "marked",
         "adverb": "markedly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "grade",
+        "explanation_vi": "“Mark” thường là điểm cho một bài cụ thể; “grade” thường là mức xếp loại hoặc kết quả tổng thể.",
+        "example_en": "Lan received a mark of 18 out of 20 on the test.",
+        "example_vi": "Lan nhận 18 trên 20 điểm trong bài kiểm tra.",
+        "ff_example_en": "Lan received an A grade for the whole course.",
+        "ff_example_vi": "Lan nhận mức điểm A cho toàn bộ khóa học."
+      }
     },
     {
       "id": 8,
@@ -197,7 +239,14 @@
         "adjective": "periodic",
         "adverb": "periodically"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "lesson",
+        "explanation_vi": "“Period” là khoảng thời gian cố định trong thời khóa biểu; “lesson” là nội dung hoặc hoạt động được dạy trong khoảng thời gian đó.",
+        "example_en": "The English period starts at nine o’clock.",
+        "example_vi": "Tiết tiếng Anh bắt đầu lúc chín giờ.",
+        "ff_example_en": "Today’s English lesson focuses on exam vocabulary.",
+        "ff_example_vi": "Bài học tiếng Anh hôm nay tập trung vào từ vựng thi cử."
+      }
     },
     {
       "id": 10,
@@ -214,7 +263,14 @@
         "adjective": "revised",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "review",
+        "explanation_vi": "“Revise” trong Anh-Anh thường là ôn bài trước kỳ thi; “review” có thể là xem lại hoặc đánh giá nội dung.",
+        "example_en": "Lan revised all the grammar rules before the exam.",
+        "example_vi": "Lan ôn lại toàn bộ quy tắc ngữ pháp trước kỳ thi.",
+        "ff_example_en": "Lan reviewed her answers before submitting the exam paper.",
+        "ff_example_vi": "Lan kiểm tra lại câu trả lời trước khi nộp bài thi."
+      }
     },
     {
       "id": 11,
@@ -248,7 +304,14 @@
         "adjective": "paper (as modifier, e.g. paper round)",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "article",
+        "explanation_vi": "“Paper” có thể là bài thi hoặc bài nghiên cứu học thuật; “article” là bài viết trên báo, tạp chí hoặc trang web.",
+        "example_en": "The students completed the English exam paper in two hours.",
+        "example_vi": "Các học sinh hoàn thành đề thi tiếng Anh trong hai giờ.",
+        "ff_example_en": "The students read a newspaper article about the exam system.",
+        "ff_example_vi": "Các học sinh đọc một bài báo về hệ thống thi cử."
+      }
     },
     {
       "id": 13,
@@ -282,7 +345,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "page",
+        "explanation_vi": "“Sheet” là một tờ giấy rời; “page” là một mặt hoặc trang trong sách, tài liệu.",
+        "example_en": "Write your name at the top of the answer sheet.",
+        "example_vi": "Hãy viết tên ở đầu tờ trả lời.",
+        "ff_example_en": "Read the instructions on the first page of the exam booklet.",
+        "ff_example_vi": "Hãy đọc hướng dẫn trên trang đầu của tập đề thi."
+      }
     },
     {
       "id": 15,

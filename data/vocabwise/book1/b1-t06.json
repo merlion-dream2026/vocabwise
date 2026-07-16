@@ -130,8 +130,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "hospitality",
-        "explanation_vi": "'Hospital' (bệnh viện) và 'hospitality' (lòng hiếu khách) — cùng gốc nhưng nghĩa hoàn toàn khác."
+        "word": "hospitality",
+        "explanation_vi": "'Hospital' (bệnh viện) và 'hospitality' (lòng hiếu khách) — cùng gốc nhưng nghĩa hoàn toàn khác.",
+        "example_en": "The injured tourist was taken to the nearest hospital.",
+        "example_vi": "Người du khách bị thương được đưa đến bệnh viện gần nhất.",
+        "ff_example_en": "The hospital staff showed great hospitality to the tourist's family.",
+        "ff_example_vi": "Nhân viên bệnh viện thể hiện lòng hiếu khách với gia đình người du khách."
       }
     },
     {
@@ -149,7 +153,14 @@
         "adjective": "medical",
         "adverb": "medically"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "drug",
+        "explanation_vi": "“Medicine” thường là thuốc dùng để điều trị bệnh; “drug” có thể chỉ dược chất nói chung và cũng có thể chỉ chất gây nghiện bất hợp pháp.",
+        "example_en": "The doctor gave Minh some medicine for his cough.",
+        "example_vi": "Bác sĩ cho Minh một ít thuốc trị ho.",
+        "ff_example_en": "The doctor warned Minh never to take an unknown drug.",
+        "ff_example_vi": "Bác sĩ cảnh báo Minh không bao giờ được dùng một loại dược chất không rõ nguồn gốc."
+      }
     },
     {
       "id": 7,
@@ -183,7 +194,14 @@
         "adjective": "painful / painless",
         "adverb": "painfully / painlessly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "ache",
+        "explanation_vi": "“Pain” là từ chung cho cơn đau, thường có thể mạnh hoặc đột ngột; “ache” thường là cơn đau âm ỉ và hay đi trong các từ như “headache” hoặc “stomach ache”.",
+        "example_en": "Lan felt a sharp pain in her back after the fall.",
+        "example_vi": "Lan cảm thấy một cơn đau nhói ở lưng sau khi bị ngã.",
+        "ff_example_en": "Lan had a dull backache after sitting all day.",
+        "ff_example_vi": "Lan bị đau lưng âm ỉ sau khi ngồi cả ngày."
+      }
     },
     {
       "id": 9,
@@ -200,7 +218,14 @@
         "adjective": "feverish",
         "adverb": "feverishly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "temperature",
+        "explanation_vi": "“Fever” là tình trạng sốt; “temperature” là nhiệt độ cơ thể được đo bằng con số và không phải lúc nào nhiệt độ cũng cho thấy người đó bị sốt.",
+        "example_en": "The child has a fever and should rest at home.",
+        "example_vi": "Đứa trẻ bị sốt và nên nghỉ ở nhà.",
+        "ff_example_en": "The nurse took the child’s temperature with a thermometer.",
+        "ff_example_vi": "Y tá đo nhiệt độ của đứa trẻ bằng nhiệt kế."
+      }
     },
     {
       "id": 10,
@@ -251,7 +276,14 @@
         "adjective": "handy / hand-made",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "arm",
+        "explanation_vi": "“Hand” là bàn tay từ cổ tay trở xuống; “arm” là toàn bộ cánh tay từ vai đến cổ tay.",
+        "example_en": "Nam hurt his hand when the ball hit his fingers.",
+        "example_vi": "Nam bị đau bàn tay khi quả bóng đập vào các ngón tay.",
+        "ff_example_en": "Nam hurt his arm when he fell on his shoulder.",
+        "ff_example_vi": "Nam bị đau cánh tay khi ngã đè lên vai."
+      }
     },
     {
       "id": 13,
@@ -302,7 +334,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "fill",
+        "explanation_vi": "“Feel” nghĩa là cảm thấy hoặc sờ thấy; “fill” nghĩa là làm đầy. Hai từ thường bị nhầm vì phát âm khá gần nhau.",
+        "example_en": "I feel better after drinking some water.",
+        "example_vi": "Tôi cảm thấy khỏe hơn sau khi uống một ít nước.",
+        "ff_example_en": "I fill my bottle with water before exercising.",
+        "ff_example_vi": "Tôi đổ đầy nước vào chai trước khi tập thể dục."
+      }
     }
   ],
   "exercises": {

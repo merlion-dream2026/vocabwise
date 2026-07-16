@@ -62,8 +62,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "supremacy",
-        "explanation_vi": "'Sovereignty' là chủ quyền quốc gia — quyền tự trị tối cao về lãnh thổ; 'supremacy' là sự thống trị hay vượt trội về quyền lực — phạm vi rộng hơn và không chuyên biệt cho nhà nước."
+        "word": "supremacy",
+        "explanation_vi": "'Sovereignty' là chủ quyền quốc gia — quyền tự trị tối cao về lãnh thổ; 'supremacy' là sự thống trị hay vượt trội về quyền lực — phạm vi rộng hơn và không chuyên biệt cho nhà nước.",
+        "example_en": "The treaty recognised the country’s sovereignty over its territory.",
+        "example_vi": "Hiệp ước công nhận chủ quyền của quốc gia đối với lãnh thổ của mình.",
+        "ff_example_en": "The regime sought military supremacy over neighbouring states.",
+        "ff_example_vi": "Chế độ tìm cách đạt ưu thế quân sự đối với các quốc gia láng giềng."
       },
       "receptive_productive": "P"
     },
@@ -82,7 +86,14 @@
         "adjective": "universal",
         "adverb": "universally"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "university",
+        "explanation_vi": "'Universality' là tính phổ quát; 'university' là trường đại học.",
+        "example_en": "The paper questions the universality of the healthcare model.",
+        "example_vi": "Bài báo đặt câu hỏi về tính phổ quát của mô hình chăm sóc sức khỏe.",
+        "ff_example_en": "The paper was published by a leading university.",
+        "ff_example_vi": "Bài báo được xuất bản bởi một trường đại học hàng đầu."
+      },
       "receptive_productive": "P"
     },
     {
@@ -119,8 +130,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "human rights",
-        "explanation_vi": "'Civil liberties' đặc biệt chỉ các quyền tự do cá nhân khỏi sự can thiệp của nhà nước (ngôn luận, hội họp…); 'human rights' là khái niệm rộng hơn bao gồm cả các quyền kinh tế, xã hội và văn hóa."
+        "word": "human rights",
+        "explanation_vi": "'Civil liberties' đặc biệt chỉ các quyền tự do cá nhân khỏi sự can thiệp của nhà nước (ngôn luận, hội họp…); 'human rights' là khái niệm rộng hơn bao gồm cả các quyền kinh tế, xã hội và văn hóa.",
+        "example_en": "The constitution protects civil liberties such as freedom of speech and assembly.",
+        "example_vi": "Hiến pháp bảo vệ các quyền tự do dân sự như tự do ngôn luận và hội họp.",
+        "ff_example_en": "The international agreement protects broader human rights, including education and health.",
+        "ff_example_vi": "Hiệp định quốc tế bảo vệ các quyền con người rộng hơn, bao gồm giáo dục và y tế."
       },
       "receptive_productive": "P"
     },
@@ -140,8 +155,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "prosecution",
-        "explanation_vi": "'Persecution' là đàn áp hoặc ngược đãi vì lý do chính trị, tôn giáo hay chủng tộc; 'prosecution' là việc truy tố theo trình tự pháp luật — hoàn toàn khác nhau."
+        "word": "prosecution",
+        "explanation_vi": "'Persecution' là đàn áp hoặc ngược đãi vì lý do chính trị, tôn giáo hay chủng tộc; 'prosecution' là việc truy tố theo trình tự pháp luật — hoàn toàn khác nhau.",
+        "example_en": "The minority community suffered persecution because of its religious beliefs.",
+        "example_vi": "Cộng đồng thiểu số chịu sự bức hại vì niềm tin tôn giáo.",
+        "ff_example_en": "The court began a prosecution against officials responsible for the attacks.",
+        "ff_example_vi": "Tòa án bắt đầu truy tố các quan chức chịu trách nhiệm về những vụ tấn công."
       },
       "receptive_productive": "P"
     },
@@ -160,7 +179,14 @@
         "adjective": null,
         "adverb": "with impunity"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "immunity",
+        "explanation_vi": "'Impunity' là tình trạng không bị trừng phạt; 'immunity' là khả năng miễn dịch hoặc quyền miễn trừ pháp lý.",
+        "example_en": "The report condemned officials who acted with impunity.",
+        "example_vi": "Báo cáo lên án các quan chức hành động mà không bị trừng phạt.",
+        "ff_example_en": "The court considered whether the official had legal immunity.",
+        "ff_example_vi": "Tòa án xem xét liệu quan chức có quyền miễn trừ pháp lý hay không."
+      },
       "receptive_productive": "P"
     },
     {
@@ -197,8 +223,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "compensation",
-        "explanation_vi": "'Reparation' mang nghĩa bồi thường kèm theo sự thừa nhận lỗi và hàm ý lịch sử/chính trị; 'compensation' là bồi thường thuần túy về tài chính, không nhất thiết có hàm nghĩa đạo đức hay lịch sử."
+        "word": "compensation",
+        "explanation_vi": "'Reparation' mang nghĩa bồi thường kèm theo sự thừa nhận lỗi và hàm ý lịch sử/chính trị; 'compensation' là bồi thường thuần túy về tài chính, không nhất thiết có hàm nghĩa đạo đức hay lịch sử.",
+        "example_en": "The state paid reparation that included money and a formal admission of historical wrongdoing.",
+        "example_vi": "Nhà nước trả khoản bồi thường gồm tiền và sự thừa nhận chính thức về sai phạm lịch sử.",
+        "ff_example_en": "Individual workers received compensation for their immediate financial losses.",
+        "ff_example_vi": "Từng người lao động nhận khoản bồi thường cho tổn thất tài chính trực tiếp của họ."
       },
       "receptive_productive": "P"
     },
@@ -218,8 +248,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "court",
-        "explanation_vi": "'Tribunal' thường là cơ quan xét xử đặc biệt được lập ra cho một mục đích cụ thể (chiến tranh, lao động…); 'court' là tòa án thường trực trong hệ thống tư pháp chính thức."
+        "word": "court",
+        "explanation_vi": "'Tribunal' thường là cơ quan xét xử đặc biệt được lập ra cho một mục đích cụ thể (chiến tranh, lao động…); 'court' là tòa án thường trực trong hệ thống tư pháp chính thức.",
+        "example_en": "A special tribunal was established to hear war-crime cases.",
+        "example_vi": "Một tòa đặc biệt được thành lập để xét xử các vụ tội ác chiến tranh.",
+        "ff_example_en": "An ordinary criminal court continued to hear other offences.",
+        "ff_example_vi": "Một tòa hình sự thông thường tiếp tục xét xử các hành vi phạm tội khác."
       },
       "receptive_productive": "P"
     },
@@ -238,7 +272,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "advertising",
+        "explanation_vi": "'Advocacy' là hoạt động vận động ủng hộ một mục tiêu hoặc chính sách; 'advertising' là hoạt động quảng cáo sản phẩm hoặc dịch vụ.",
+        "example_en": "The organisation runs an advocacy campaign for refugee rights.",
+        "example_vi": "Tổ chức thực hiện chiến dịch vận động cho quyền của người tị nạn.",
+        "ff_example_en": "The company runs an advertising campaign for its new service.",
+        "ff_example_vi": "Công ty thực hiện chiến dịch quảng cáo cho dịch vụ mới."
+      },
       "receptive_productive": "P"
     },
     {

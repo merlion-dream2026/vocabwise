@@ -80,8 +80,12 @@
         "adverb": "perceptively"
       },
       "false_friend": {
-        "word_vi": "perspective",
-        "explanation_vi": "'Perception' là quá trình nhận biết hay cảm nhận; 'perspective' là góc nhìn hay quan điểm — không thay thế nhau được."
+        "word": "perspective",
+        "explanation_vi": "'Perception' là quá trình nhận biết hay cảm nhận; 'perspective' là góc nhìn hay quan điểm — không thay thế nhau được.",
+        "example_en": "Tourists’ perception of the city changed after they lived there for a month.",
+        "example_vi": "Nhận thức của du khách về thành phố thay đổi sau khi họ sống ở đó một tháng.",
+        "ff_example_en": "A local guide offered a different perspective on the same city.",
+        "ff_example_vi": "Một hướng dẫn viên địa phương đưa ra một góc nhìn khác về cùng thành phố đó."
       },
       "receptive_productive": "P"
     },
@@ -100,7 +104,14 @@
         "adjective": "authentic",
         "adverb": "authentically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "authority",
+        "explanation_vi": "'Authenticity' là tính chân thực hoặc xác thực; 'authority' là quyền lực, thẩm quyền hoặc chuyên gia có uy tín.",
+        "example_en": "The journalist verified the authenticity of the photograph.",
+        "example_vi": "Nhà báo xác minh tính xác thực của bức ảnh.",
+        "ff_example_en": "The journalist asked the relevant authority to confirm the event.",
+        "ff_example_vi": "Nhà báo yêu cầu cơ quan có thẩm quyền xác nhận sự kiện."
+      },
       "receptive_productive": "P"
     },
     {
@@ -173,8 +184,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "adoption",
-        "explanation_vi": "'Adaptation' là sự thích nghi hoặc điều chỉnh; 'adoption' là sự nhận nuôi hoặc chấp nhận — khác nghĩa hoàn toàn."
+        "word": "adoption",
+        "explanation_vi": "'Adaptation' là sự thích nghi hoặc điều chỉnh; 'adoption' là sự nhận nuôi hoặc chấp nhận — khác nghĩa hoàn toàn.",
+        "example_en": "Cultural adaptation helped the exchange students adjust to local customs.",
+        "example_vi": "Sự thích nghi văn hóa giúp sinh viên trao đổi thích ứng với phong tục địa phương.",
+        "ff_example_en": "Their adoption of local greetings made communication easier.",
+        "ff_example_vi": "Việc họ chấp nhận sử dụng lời chào địa phương khiến giao tiếp dễ dàng hơn."
       },
       "receptive_productive": "P"
     },
@@ -212,8 +227,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "perception",
-        "explanation_vi": "'Perspective' là góc nhìn hay quan điểm; 'perception' là quá trình cảm nhận hay nhận thức — dễ nhầm lẫn nhưng khác nghĩa."
+        "word": "perception",
+        "explanation_vi": "'Perspective' là góc nhìn hay quan điểm; 'perception' là quá trình cảm nhận hay nhận thức — dễ nhầm lẫn nhưng khác nghĩa.",
+        "example_en": "From the residents’ perspective, tourism created useful jobs.",
+        "example_vi": "Từ góc nhìn của cư dân, du lịch tạo ra những việc làm hữu ích.",
+        "ff_example_en": "Their perception of tourists improved after several community projects.",
+        "ff_example_vi": "Cách họ nhìn nhận du khách được cải thiện sau một số dự án cộng đồng."
       },
       "receptive_productive": "P"
     },

@@ -61,7 +61,14 @@
         "adjective": "instrumental",
         "adverb": "instrumentally"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "tool",
+        "explanation_vi": "“Instrument” thường là nhạc cụ hoặc thiết bị chính xác; “tool” là dụng cụ dùng để thực hiện công việc.",
+        "example_en": "The student learned to play a musical instrument.",
+        "example_vi": "Học sinh học chơi một nhạc cụ.",
+        "ff_example_en": "The technician used a tool to repair the instrument.",
+        "ff_example_vi": "Kỹ thuật viên dùng một dụng cụ để sửa nhạc cụ."
+      }
     },
     {
       "id": 2,
@@ -129,7 +136,14 @@
         "adjective": "loud / louder / loudest",
         "adverb": "loudly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "aloud",
+        "explanation_vi": "“Loud” là tính từ hoặc trạng từ chỉ âm lượng lớn; “aloud” là trạng từ nghĩa là thành tiếng.",
+        "example_en": "The music was too loud for the small room.",
+        "example_vi": "Âm nhạc quá to đối với căn phòng nhỏ.",
+        "ff_example_en": "The teacher read the song lyrics aloud to the class.",
+        "ff_example_vi": "Giáo viên đọc lời bài hát thành tiếng cho cả lớp."
+      }
     },
     {
       "id": 6,
@@ -163,7 +177,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "spectator",
+        "explanation_vi": "“Audience” là tập thể người xem hoặc nghe một buổi biểu diễn; “spectator” thường là một người xem sự kiện thể thao hoặc hoạt động trực tiếp.",
+        "example_en": "The audience applauded at the end of the concert.",
+        "example_vi": "Khán giả vỗ tay khi buổi hòa nhạc kết thúc.",
+        "ff_example_en": "A spectator recorded the outdoor performance on her phone.",
+        "ff_example_vi": "Một khán giả quay lại màn biểu diễn ngoài trời bằng điện thoại."
+      }
     },
     {
       "id": 8,
@@ -198,8 +219,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "nốt nhạc vs. ghi chú",
-        "explanation_vi": "Trong tiếng Anh, 'note' vừa có nghĩa là nốt nhạc vừa có nghĩa là ghi chú/lời nhắn. Hãy dựa vào ngữ cảnh để xác định nghĩa đúng."
+        "word": "",
+        "explanation_vi": "Trong tiếng Anh, 'note' vừa có nghĩa là nốt nhạc vừa có nghĩa là ghi chú/lời nhắn. Hãy dựa vào ngữ cảnh để xác định nghĩa đúng.",
+        "example_en": "The music teacher played a high note in the difficult part of the song.",
+        "example_vi": "Giáo viên âm nhạc chơi một nốt cao trong đoạn khó của bài hát.",
+        "ff_example_en": "The music teacher wrote a note beside the difficult part of the song.",
+        "ff_example_vi": "Giáo viên âm nhạc viết một lời ghi chú bên cạnh đoạn khó của bài hát."
       }
     },
     {
@@ -217,7 +242,14 @@
         "adjective": "vocal",
         "adverb": "vocally"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "sound",
+        "explanation_vi": "“Voice” là âm thanh do người tạo ra khi nói hoặc hát; “sound” là bất kỳ âm thanh nào.",
+        "example_en": "The singer’s voice filled the concert hall.",
+        "example_vi": "Giọng hát của ca sĩ vang khắp phòng hòa nhạc.",
+        "ff_example_en": "The sound of the piano filled the concert hall.",
+        "ff_example_vi": "Âm thanh của đàn piano vang khắp phòng hòa nhạc."
+      }
     },
     {
       "id": 11,
@@ -251,7 +283,14 @@
         "adjective": "tuneful / tuneless",
         "adverb": "tunefully"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "tone",
+        "explanation_vi": "“Tune” là giai điệu; “tone” là chất giọng, sắc thái âm thanh hoặc thái độ.",
+        "example_en": "The guitarist played a cheerful tune.",
+        "example_vi": "Nghệ sĩ guitar chơi một giai điệu vui tươi.",
+        "ff_example_en": "The guitarist produced a warm tone on the instrument.",
+        "ff_example_vi": "Nghệ sĩ guitar tạo ra âm sắc ấm trên nhạc cụ."
+      }
     },
     {
       "id": 13,
@@ -268,7 +307,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "applause",
+        "explanation_vi": "“Applaud” là động từ nghĩa là vỗ tay; “applause” là danh từ nghĩa là tiếng vỗ tay.",
+        "example_en": "The audience applauded after the solo.",
+        "example_vi": "Khán giả vỗ tay sau màn độc tấu.",
+        "ff_example_en": "The solo received loud applause from the audience.",
+        "ff_example_vi": "Màn độc tấu nhận được tiếng vỗ tay lớn từ khán giả."
+      }
     },
     {
       "id": 14,
@@ -302,7 +348,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "stadium",
+        "explanation_vi": "“Stage” là sân khấu biểu diễn; “stadium” là sân vận động lớn dành cho thể thao hoặc sự kiện.",
+        "example_en": "The band performed on a small stage.",
+        "example_vi": "Ban nhạc biểu diễn trên một sân khấu nhỏ.",
+        "ff_example_en": "The band performed in a large stadium.",
+        "ff_example_vi": "Ban nhạc biểu diễn trong một sân vận động lớn."
+      }
     }
   ],
   "exercises": {

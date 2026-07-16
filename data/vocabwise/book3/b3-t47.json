@@ -79,7 +79,14 @@
         "adjective": "plot-driven",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "theme",
+        "explanation_vi": "'Plot' là chuỗi sự kiện tạo nên cốt truyện; 'theme' là ý tưởng hoặc thông điệp trung tâm.",
+        "example_en": "The reviewer summarised the plot of the novel.",
+        "example_vi": "Nhà phê bình tóm tắt cốt truyện của tiểu thuyết.",
+        "ff_example_en": "The reviewer discussed the theme of social inequality in the novel.",
+        "ff_example_vi": "Nhà phê bình thảo luận chủ đề bất bình đẳng xã hội trong tiểu thuyết."
+      },
       "receptive_productive": "P"
     },
     {
@@ -98,8 +105,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "antagonist",
-        "explanation_vi": "'Protagonist' là nhân vật chính (thường là người hùng); 'antagonist' là nhân vật phản diện đối lập — hai vai trò trái ngược nhau."
+        "word": "antagonist",
+        "explanation_vi": "'Protagonist' là nhân vật chính (thường là người hùng); 'antagonist' là nhân vật phản diện đối lập — hai vai trò trái ngược nhau.",
+        "example_en": "The protagonist tries to protect the village from destruction.",
+        "example_vi": "Nhân vật chính cố gắng bảo vệ ngôi làng khỏi bị phá hủy.",
+        "ff_example_en": "The antagonist attempts to take control of the same village.",
+        "ff_example_vi": "Nhân vật đối lập cố gắng giành quyền kiểm soát chính ngôi làng đó."
       },
       "receptive_productive": "P"
     },
@@ -172,7 +183,14 @@
         "adjective": "thematic",
         "adverb": "thematically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "topic",
+        "explanation_vi": "'Theme' thường là ý tưởng sâu hoặc thông điệp xuyên suốt tác phẩm; 'topic' là chủ đề được nói hoặc viết đến.",
+        "example_en": "The theme of the novel is the cost of ambition.",
+        "example_vi": "Chủ đề sâu sắc của tiểu thuyết là cái giá của tham vọng.",
+        "ff_example_en": "The topic of today's class is ambition in literature.",
+        "ff_example_vi": "Chủ đề của buổi học hôm nay là tham vọng trong văn học."
+      },
       "receptive_productive": "P"
     },
     {
@@ -209,8 +227,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "perception",
-        "explanation_vi": "'Perspective' là góc nhìn hoặc quan điểm; 'perception' là quá trình cảm nhận hay nhận thức — dễ nhầm nhưng khác nghĩa."
+        "word": "perception",
+        "explanation_vi": "'Perspective' là góc nhìn hoặc quan điểm; 'perception' là quá trình cảm nhận hay nhận thức — dễ nhầm nhưng khác nghĩa.",
+        "example_en": "The story is told from the child’s perspective.",
+        "example_vi": "Câu chuyện được kể từ góc nhìn của đứa trẻ.",
+        "ff_example_en": "Fear shapes the child’s perception of the dark forest.",
+        "ff_example_vi": "Nỗi sợ định hình cách đứa trẻ cảm nhận khu rừng tối."
       },
       "receptive_productive": "P"
     },

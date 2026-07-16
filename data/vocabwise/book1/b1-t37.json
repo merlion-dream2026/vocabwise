@@ -163,7 +163,14 @@
         "adjective": "designer",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "draw",
+        "explanation_vi": "“Design” là lập kế hoạch về hình dáng và chức năng; “draw” là tạo hình bằng đường nét.",
+        "example_en": "The students designed a poster for the art exhibition.",
+        "example_vi": "Các học sinh thiết kế một tấm áp phích cho triển lãm nghệ thuật.",
+        "ff_example_en": "The students drew the first version of the poster with pencils.",
+        "ff_example_vi": "Các học sinh vẽ phiên bản đầu tiên của tấm áp phích bằng bút chì."
+      }
     },
     {
       "id": 8,
@@ -197,7 +204,14 @@
         "adjective": "sketchy",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "draw",
+        "explanation_vi": "“Sketch” là vẽ nhanh một bản phác thảo ít chi tiết; “draw” là từ chung cho hành động vẽ.",
+        "example_en": "The artist sketched the sculpture in a few minutes.",
+        "example_vi": "Họa sĩ phác nhanh tác phẩm điêu khắc trong vài phút.",
+        "ff_example_en": "The artist drew a detailed picture of the sculpture.",
+        "ff_example_vi": "Họa sĩ vẽ một bức tranh chi tiết về tác phẩm điêu khắc."
+      }
     },
     {
       "id": 10,
@@ -248,7 +262,14 @@
         "adjective": "original",
         "adverb": "originally"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "origin",
+        "explanation_vi": "“Original” là tính từ nghĩa là nguyên bản hoặc độc đáo; “origin” là danh từ nghĩa là nguồn gốc.",
+        "example_en": "The student created an original pattern for the vase.",
+        "example_vi": "Học sinh tạo ra một hoa văn độc đáo cho chiếc bình.",
+        "ff_example_en": "The student researched the origin of the pattern on the vase.",
+        "ff_example_vi": "Học sinh nghiên cứu nguồn gốc của hoa văn trên chiếc bình."
+      }
     },
     {
       "id": 13,
@@ -265,7 +286,14 @@
         "adjective": "ideal",
         "adverb": "ideally"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "ideal",
+        "explanation_vi": "“Idea” là ý tưởng; “ideal” là điều hoặc trạng thái được xem là hoàn hảo, hoặc tính từ nghĩa là lý tưởng.",
+        "example_en": "Lan had an idea for the class sculpture.",
+        "example_vi": "Lan có một ý tưởng cho tác phẩm điêu khắc của lớp.",
+        "ff_example_en": "Clay was the ideal material for the class sculpture.",
+        "ff_example_vi": "Đất sét là vật liệu lý tưởng cho tác phẩm điêu khắc của lớp."
+      }
     },
     {
       "id": 14,
@@ -282,7 +310,14 @@
         "adjective": "sculptural",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "statue",
+        "explanation_vi": "“Sculpture” là nghệ thuật hoặc tác phẩm điêu khắc nói chung; “statue” là tượng thể hiện người hoặc động vật.",
+        "example_en": "The museum displayed an abstract stone sculpture.",
+        "example_vi": "Bảo tàng trưng bày một tác phẩm điêu khắc đá trừu tượng.",
+        "ff_example_en": "The museum displayed a stone statue of a famous artist.",
+        "ff_example_vi": "Bảo tàng trưng bày một bức tượng đá của một nghệ sĩ nổi tiếng."
+      }
     },
     {
       "id": 15,
@@ -299,7 +334,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "exhibition",
+        "explanation_vi": "“Exhibit” có thể là một vật được trưng bày hoặc động từ “trưng bày”; “exhibition” là toàn bộ cuộc triển lãm.",
+        "example_en": "This clay vase is the most popular exhibit in the room.",
+        "example_vi": "Chiếc bình đất sét này là hiện vật được yêu thích nhất trong phòng.",
+        "ff_example_en": "The school art exhibition includes fifty student works.",
+        "ff_example_vi": "Triển lãm nghệ thuật của trường gồm năm mươi tác phẩm của học sinh."
+      }
     }
   ],
   "exercises": {

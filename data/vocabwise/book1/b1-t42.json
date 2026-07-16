@@ -79,8 +79,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "way",
-        "explanation_vi": "'Way' /weɪ/ và 'weigh' /weɪ/ phát âm giống nhau nhưng nghĩa khác hoàn toàn: 'way' là con đường hoặc cách thức, còn 'weigh' là đo trọng lượng."
+        "word": "way",
+        "explanation_vi": "'Way' /weɪ/ và 'weigh' /weɪ/ phát âm giống nhau nhưng nghĩa khác hoàn toàn: 'way' là con đường hoặc cách thức, còn 'weigh' là đo trọng lượng.",
+        "example_en": "The nurse will weigh you before the health examination.",
+        "example_vi": "Y tá sẽ cân cho em trước buổi kiểm tra sức khỏe.",
+        "ff_example_en": "The nurse showed us the way to the examination room.",
+        "ff_example_vi": "Y tá chỉ cho chúng tôi đường đến phòng kiểm tra sức khỏe."
       }
     },
     {
@@ -98,7 +102,14 @@
         "adjective": "discounted",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "sale",
+        "explanation_vi": "“Discount” là mức giảm so với giá gốc; “sale” là đợt bán hàng giảm giá hoặc hoạt động bán.",
+        "example_en": "The vendor gave us a ten-percent discount on the bag.",
+        "example_vi": "Người bán giảm cho chúng tôi mười phần trăm giá chiếc túi.",
+        "ff_example_en": "The bag was included in the weekend sale.",
+        "ff_example_vi": "Chiếc túi nằm trong đợt giảm giá cuối tuần."
+      }
     },
     {
       "id": 4,
@@ -115,7 +126,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "line",
+        "explanation_vi": "“Queue” là từ Anh-Anh chỉ hàng người chờ; “line” thường được dùng với nghĩa này trong Anh-Mỹ.",
+        "example_en": "We stood in a queue at the market stall.",
+        "example_vi": "Chúng tôi xếp hàng tại quầy trong chợ.",
+        "ff_example_en": "We stood in line at the market stall.",
+        "ff_example_vi": "Chúng tôi xếp hàng tại quầy trong chợ."
+      }
     },
     {
       "id": 5,
@@ -132,7 +150,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "bring",
+        "explanation_vi": "“Carry” nhấn mạnh việc cầm hoặc mang vật; “bring” nhấn mạnh đưa vật đến nơi hoặc người nói.",
+        "example_en": "Lan carried the shopping bags across the market.",
+        "example_vi": "Lan xách các túi đồ qua khu chợ.",
+        "ff_example_en": "Lan brought the shopping bags to her mother.",
+        "ff_example_vi": "Lan mang các túi đồ đến cho mẹ."
+      }
     },
     {
       "id": 6,
@@ -149,7 +174,14 @@
         "adjective": "wrapped",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "rap",
+        "explanation_vi": "“Wrap” nghĩa là gói hoặc bọc; “rap” là một thể loại âm nhạc hoặc động từ gõ nhanh. Hai từ phát âm giống nhau.",
+        "example_en": "The vendor wrapped the gift in colourful paper.",
+        "example_vi": "Người bán gói món quà bằng giấy nhiều màu.",
+        "ff_example_en": "The vendor played rap music while wrapping the gift.",
+        "ff_example_vi": "Người bán bật nhạc rap trong khi gói quà."
+      }
     },
     {
       "id": 7,
@@ -166,7 +198,14 @@
         "adjective": "crowded",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "busy",
+        "explanation_vi": "“Crowded” nghĩa là có quá nhiều người trong một không gian; “busy” nghĩa là có nhiều hoạt động, người hoặc xe cộ.",
+        "example_en": "The market was crowded with shoppers.",
+        "example_vi": "Khu chợ đông kín người mua sắm.",
+        "ff_example_en": "The market was busy throughout the morning.",
+        "ff_example_vi": "Khu chợ nhộn nhịp suốt buổi sáng."
+      }
     },
     {
       "id": 8,
@@ -183,7 +222,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "choose",
+        "explanation_vi": "“Pick” thường là chọn nhanh hoặc khá thân mật; “choose” là từ chung và có thể nhấn mạnh việc cân nhắc giữa các lựa chọn.",
+        "example_en": "Lan picked a red scarf from the basket.",
+        "example_vi": "Lan chọn một chiếc khăn đỏ từ giỏ.",
+        "ff_example_en": "Lan chose the red scarf after comparing several colours.",
+        "ff_example_vi": "Lan chọn chiếc khăn đỏ sau khi so sánh nhiều màu."
+      }
     },
     {
       "id": 9,
@@ -200,7 +246,14 @@
         "adjective": "comparable / comparative",
         "adverb": "comparatively"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "contrast",
+        "explanation_vi": "“Compare” xem xét điểm giống và khác; “contrast” nhấn mạnh sự khác biệt.",
+        "example_en": "Lan compared the prices of the two bags.",
+        "example_vi": "Lan so sánh giá của hai chiếc túi.",
+        "ff_example_en": "Lan contrasted the simple design with the colourful one.",
+        "ff_example_vi": "Lan đối chiếu thiết kế đơn giản với thiết kế nhiều màu sắc."
+      }
     },
     {
       "id": 10,
@@ -217,7 +270,14 @@
         "adjective": "quality / high-quality",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "quantity",
+        "explanation_vi": "“Quality” là chất lượng; “quantity” là số lượng. Hai từ có cách viết gần giống nhau.",
+        "example_en": "The customer checked the quality of the fruit.",
+        "example_vi": "Khách hàng kiểm tra chất lượng trái cây.",
+        "ff_example_en": "The customer checked the quantity of fruit in the box.",
+        "ff_example_vi": "Khách hàng kiểm tra số lượng trái cây trong hộp."
+      }
     },
     {
       "id": 11,
@@ -268,7 +328,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "seller",
+        "explanation_vi": "“Vendor” thường là người hoặc doanh nghiệp bán hàng, đặc biệt tại quầy hoặc trực tuyến; “seller” là từ chung cho bất kỳ người bán nào.",
+        "example_en": "A street vendor sold fruit near the market entrance.",
+        "example_vi": "Một người bán hàng rong bán trái cây gần lối vào chợ.",
+        "ff_example_en": "The online seller delivered the same fruit to our home.",
+        "ff_example_vi": "Người bán hàng trực tuyến giao loại trái cây đó đến nhà chúng tôi."
+      }
     },
     {
       "id": 14,
@@ -302,7 +369,14 @@
         "adjective": "on sale",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "sell",
+        "explanation_vi": "“Sale” là danh từ nghĩa là việc bán hoặc đợt giảm giá; “sell” là động từ nghĩa là bán.",
+        "example_en": "The shop is holding a summer sale.",
+        "example_vi": "Cửa hàng đang tổ chức đợt giảm giá mùa hè.",
+        "ff_example_en": "The shop will sell summer clothes at lower prices.",
+        "ff_example_vi": "Cửa hàng sẽ bán quần áo mùa hè với giá thấp hơn."
+      }
     }
   ],
   "exercises": {

@@ -112,7 +112,14 @@
         "adjective": "hilly",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "mountain",
+        "explanation_vi": "“Hill” là đồi, thường thấp và thoải hơn; “mountain” là núi, thường cao và dốc hơn.",
+        "example_en": "We climbed the small hill behind the village.",
+        "example_vi": "Chúng tôi leo lên ngọn đồi nhỏ phía sau ngôi làng.",
+        "ff_example_en": "We climbed the high mountain behind the village.",
+        "ff_example_vi": "Chúng tôi leo lên ngọn núi cao phía sau ngôi làng."
+      }
     },
     {
       "id": 5,
@@ -180,7 +187,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "pond",
+        "explanation_vi": "“Lake” là hồ nước tương đối lớn; “pond” là ao hoặc hồ rất nhỏ.",
+        "example_en": "The town is beside a large lake.",
+        "example_vi": "Thị trấn nằm cạnh một hồ nước lớn.",
+        "ff_example_en": "The garden has a small pond with fish in it.",
+        "ff_example_vi": "Khu vườn có một cái ao nhỏ với cá ở bên trong."
+      }
     },
     {
       "id": 9,
@@ -197,7 +211,14 @@
         "adjective": "leafy",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "leave",
+        "explanation_vi": "“Leaf” là chiếc lá; “leave” là rời đi hoặc để lại. Hai từ có cách viết gần giống nhau nhưng phát âm và nghĩa khác nhau.",
+        "example_en": "A yellow leaf fell onto the path.",
+        "example_vi": "Một chiếc lá vàng rơi xuống lối đi.",
+        "ff_example_en": "We will leave the park before it gets dark.",
+        "ff_example_vi": "Chúng tôi sẽ rời công viên trước khi trời tối."
+      }
     },
     {
       "id": 10,
@@ -283,8 +304,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "shade",
-        "explanation_vi": "'Shadow' là bóng do vật thể chắn sáng tạo ra; 'shade' là vùng tối mát (không có nắng trực tiếp) — ví dụ 'sit in the shade of a tree'."
+        "word": "shade",
+        "explanation_vi": "'Shadow' là bóng do vật thể chắn sáng tạo ra; 'shade' là vùng tối mát (không có nắng trực tiếp) — ví dụ 'sit in the shade of a tree'.",
+        "example_en": "The tree's shadow stretched across the playground in the afternoon.",
+        "example_vi": "Bóng của cái cây trải dài trên sân chơi vào buổi chiều.",
+        "ff_example_en": "The students sat in the shade of the tree during their break.",
+        "ff_example_vi": "Các học sinh ngồi trong bóng mát của cái cây vào giờ nghỉ."
       }
     },
     {

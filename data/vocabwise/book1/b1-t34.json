@@ -61,7 +61,14 @@
         "adjective": "numerical",
         "adverb": "numerically"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "amount",
+        "explanation_vi": "“Number” dùng với danh từ đếm được; “amount” dùng với danh từ không đếm được.",
+        "example_en": "The number of students in the class is thirty.",
+        "example_vi": "Số học sinh trong lớp là ba mươi.",
+        "ff_example_en": "The amount of time allowed for the test is thirty minutes.",
+        "ff_example_vi": "Khoảng thời gian được phép cho bài kiểm tra là ba mươi phút."
+      }
     },
     {
       "id": 2,
@@ -78,7 +85,14 @@
         "adjective": "countable / uncountable",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "calculate",
+        "explanation_vi": "“Count” là đếm từng người hoặc vật; “calculate” là tính toán bằng các phép toán.",
+        "example_en": "The students counted the books on the desk.",
+        "example_vi": "Các học sinh đếm số sách trên bàn.",
+        "ff_example_en": "The students calculated the total price of the books.",
+        "ff_example_vi": "Các học sinh tính tổng giá của những cuốn sách."
+      }
     },
     {
       "id": 3,
@@ -163,7 +177,14 @@
         "adjective": "total",
         "adverb": "totally"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "sum",
+        "explanation_vi": "“Total” là toàn bộ số lượng hoặc kết quả cuối cùng; “sum” trong toán học là kết quả của phép cộng.",
+        "example_en": "The total number of points was one hundred.",
+        "example_vi": "Tổng số điểm là một trăm.",
+        "ff_example_en": "The sum of 40 and 60 is one hundred.",
+        "ff_example_vi": "Tổng của 40 và 60 là một trăm."
+      }
     },
     {
       "id": 8,
@@ -180,7 +201,14 @@
         "adjective": "equal / unequal",
         "adverb": "equally"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "same",
+        "explanation_vi": "“Equal” nghĩa là bằng nhau về số lượng, giá trị hoặc quyền; “same” nghĩa là giống hệt hoặc chính cùng một thứ.",
+        "example_en": "The two teams received an equal number of points.",
+        "example_vi": "Hai đội nhận được số điểm bằng nhau.",
+        "ff_example_en": "The two students wrote the same answer.",
+        "ff_example_vi": "Hai học sinh viết cùng một đáp án."
+      }
     },
     {
       "id": 9,
@@ -197,7 +225,14 @@
         "adjective": "solvable / unsolvable",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "answer",
+        "explanation_vi": "“Solve” dùng với vấn đề hoặc bài toán; “answer” dùng với câu hỏi.",
+        "example_en": "Lan solved the difficult maths problem.",
+        "example_vi": "Lan giải được bài toán khó.",
+        "ff_example_en": "Lan answered the final question correctly.",
+        "ff_example_vi": "Lan trả lời đúng câu hỏi cuối cùng."
+      }
     },
     {
       "id": 10,
@@ -214,7 +249,14 @@
         "adjective": "problematic",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "question",
+        "explanation_vi": "“Problem” là vấn đề cần giải quyết hoặc bài toán; “question” là câu hỏi cần được trả lời.",
+        "example_en": "The teacher gave the class a difficult maths problem.",
+        "example_vi": "Giáo viên cho lớp một bài toán khó.",
+        "ff_example_en": "The teacher asked the class a difficult question about the problem.",
+        "ff_example_vi": "Giáo viên đặt cho lớp một câu hỏi khó về bài toán."
+      }
     },
     {
       "id": 11,

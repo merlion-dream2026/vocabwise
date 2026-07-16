@@ -62,8 +62,12 @@
         "adverb": "equally"
       },
       "false_friend": {
-        "word_vi": "equity",
-        "explanation_vi": "'Equality' là bình đẳng (mọi người nhận cùng một thứ); 'equity' là công bằng theo nhu cầu — không hoán đổi cho nhau."
+        "word": "equity",
+        "explanation_vi": "'Equality' là bình đẳng (mọi người nhận cùng một thứ); 'equity' là công bằng theo nhu cầu — không hoán đổi cho nhau.",
+        "example_en": "Equality would give every employee the same parental leave.",
+        "example_vi": "Bình đẳng sẽ cho mọi nhân viên cùng một thời gian nghỉ chăm con.",
+        "ff_example_en": "Equity might give additional leave to employees with greater care needs.",
+        "ff_example_vi": "Công bằng theo nhu cầu có thể cho thêm thời gian nghỉ đối với nhân viên có nhu cầu chăm sóc lớn hơn."
       },
       "receptive_productive": "P"
     },
@@ -82,7 +86,14 @@
         "adjective": "stereotypical / stereotyped",
         "adverb": "stereotypically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "prejudice",
+        "explanation_vi": "'Stereotype' là hình ảnh khái quát cứng nhắc về một nhóm; 'prejudice' là thái độ đánh giá tiêu cực có sẵn đối với nhóm đó.",
+        "example_en": "The advertisement repeated a stereotype about older workers.",
+        "example_vi": "Quảng cáo lặp lại một khuôn mẫu về người lao động lớn tuổi.",
+        "ff_example_en": "The manager's prejudice against older workers affected his decision.",
+        "ff_example_vi": "Định kiến của người quản lý đối với lao động lớn tuổi ảnh hưởng đến quyết định của ông."
+      },
       "receptive_productive": "P"
     },
     {
@@ -100,7 +111,14 @@
         "adjective": "representative",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "presentation",
+        "explanation_vi": "'Representation' là sự đại diện hoặc cách một nhóm được thể hiện; 'presentation' là bài trình bày trước người nghe.",
+        "example_en": "The report examined the representation of women in the media.",
+        "example_vi": "Báo cáo xem xét sự đại diện của phụ nữ trên truyền thông.",
+        "ff_example_en": "Lan gave a presentation about women in the media.",
+        "ff_example_vi": "Lan thực hiện một bài thuyết trình về phụ nữ trên truyền thông."
+      },
       "receptive_productive": "P"
     },
     {
@@ -119,8 +137,12 @@
         "adverb": "patriarchally"
       },
       "false_friend": {
-        "word_vi": "matriarchy",
-        "explanation_vi": "'Patriarchy' là xã hội do đàn ông lãnh đạo; 'matriarchy' là xã hội do phụ nữ lãnh đạo — đối lập nhau về nghĩa."
+        "word": "matriarchy",
+        "explanation_vi": "'Patriarchy' là xã hội do đàn ông lãnh đạo; 'matriarchy' là xã hội do phụ nữ lãnh đạo — đối lập nhau về nghĩa.",
+        "example_en": "The article describes a patriarchy in which men hold most political power.",
+        "example_vi": "Bài báo mô tả một xã hội phụ quyền nơi nam giới nắm phần lớn quyền lực chính trị.",
+        "ff_example_en": "It contrasts this with a matriarchy in which women hold the leading roles.",
+        "ff_example_vi": "Bài báo đối chiếu điều này với một xã hội mẫu quyền nơi phụ nữ giữ vai trò lãnh đạo."
       },
       "receptive_productive": "P"
     },
@@ -139,7 +161,14 @@
         "adjective": "empowered / empowering",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "employment",
+        "explanation_vi": "'Empowerment' là sự trao quyền và tăng khả năng tự quyết; 'employment' là việc làm hoặc tình trạng có việc làm.",
+        "example_en": "The programme promotes women's empowerment in rural areas.",
+        "example_vi": "Chương trình thúc đẩy sự trao quyền cho phụ nữ ở vùng nông thôn.",
+        "ff_example_en": "The programme creates employment for women in rural areas.",
+        "ff_example_vi": "Chương trình tạo việc làm cho phụ nữ ở vùng nông thôn."
+      },
       "receptive_productive": "P"
     },
     {
@@ -157,7 +186,14 @@
         "adjective": "biased / unbiased",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "prejudice",
+        "explanation_vi": "'Bias' là xu hướng thiên lệch có thể có ý thức hoặc vô thức; 'prejudice' thường là định kiến tiêu cực đã hình thành trước về một nhóm người.",
+        "example_en": "The editor checked the article for political bias.",
+        "example_vi": "Biên tập viên kiểm tra bài báo để phát hiện sự thiên lệch chính trị.",
+        "ff_example_en": "The editor removed a sentence that showed prejudice against migrants.",
+        "ff_example_vi": "Biên tập viên xóa một câu thể hiện định kiến đối với người di cư."
+      },
       "receptive_productive": "P"
     },
     {
@@ -175,7 +211,14 @@
         "adjective": "discriminatory",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "distinction",
+        "explanation_vi": "'Discrimination' thường chỉ sự đối xử bất công; 'distinction' là sự khác biệt hoặc việc phân biệt trung tính giữa hai điều.",
+        "example_en": "The company was accused of discrimination against older applicants.",
+        "example_vi": "Công ty bị cáo buộc phân biệt đối xử với ứng viên lớn tuổi.",
+        "ff_example_en": "The report made a clear distinction between age and experience.",
+        "ff_example_vi": "Báo cáo nêu rõ sự khác biệt giữa tuổi tác và kinh nghiệm."
+      },
       "receptive_productive": "P"
     },
     {
@@ -211,7 +254,14 @@
         "adjective": "identifiable",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "identification",
+        "explanation_vi": "'Identity' là danh tính hoặc bản sắc của một người hay nhóm; 'identification' là giấy tờ hoặc quá trình xác định người đó là ai.",
+        "example_en": "The passport confirmed the traveller's identity.",
+        "example_vi": "Hộ chiếu xác nhận danh tính của hành khách.",
+        "ff_example_en": "The officer asked the traveller to show identification.",
+        "ff_example_vi": "Nhân viên yêu cầu hành khách xuất trình giấy tờ tùy thân."
+      },
       "receptive_productive": "P"
     },
     {
@@ -230,8 +280,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "border",
-        "explanation_vi": "'Barrier' là rào cản (vật lý hoặc ẩn dụ); 'border' là biên giới địa lý — nghĩa và cách dùng khác nhau."
+        "word": "border",
+        "explanation_vi": "'Barrier' là rào cản (vật lý hoặc ẩn dụ); 'border' là biên giới địa lý — nghĩa và cách dùng khác nhau.",
+        "example_en": "Lack of childcare is a barrier to women entering the workforce.",
+        "example_vi": "Thiếu dịch vụ chăm sóc trẻ là một rào cản đối với phụ nữ tham gia lực lượng lao động.",
+        "ff_example_en": "The study was conducted in towns near the national border.",
+        "ff_example_vi": "Nghiên cứu được tiến hành tại các thị trấn gần biên giới quốc gia."
       },
       "receptive_productive": "P"
     },

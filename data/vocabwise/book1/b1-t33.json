@@ -78,7 +78,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "history",
+        "explanation_vi": "“Story” là câu chuyện; “history” là lịch sử hoặc các sự kiện có thật trong quá khứ.",
+        "example_en": "The book tells a story about a young explorer.",
+        "example_vi": "Cuốn sách kể một câu chuyện về một nhà thám hiểm trẻ.",
+        "ff_example_en": "The book explains the history of early exploration.",
+        "ff_example_vi": "Cuốn sách giải thích lịch sử của những cuộc thám hiểm thời kỳ đầu."
+      }
     },
     {
       "id": 3,
@@ -112,7 +119,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "phrase",
+        "explanation_vi": "“Sentence” là một câu hoàn chỉnh, thường có chủ ngữ và động từ; “phrase” là một nhóm từ không nhất thiết tạo thành câu hoàn chỉnh.",
+        "example_en": "The student wrote a complete sentence in her notebook.",
+        "example_vi": "Học sinh viết một câu hoàn chỉnh vào vở.",
+        "ff_example_en": "The student copied a useful phrase into her notebook.",
+        "ff_example_vi": "Học sinh chép một cụm từ hữu ích vào vở."
+      }
     },
     {
       "id": 5,
@@ -129,7 +143,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "dairy",
+        "explanation_vi": "“Diary” là nhật ký; “dairy” liên quan đến sữa và các sản phẩm từ sữa. Hai từ có cách viết gần giống nhau.",
+        "example_en": "Lan wrote about the farm visit in her diary.",
+        "example_vi": "Lan viết về chuyến thăm trang trại trong nhật ký.",
+        "ff_example_en": "Lan learned how dairy products were made during the farm visit.",
+        "ff_example_vi": "Lan tìm hiểu cách các sản phẩm từ sữa được sản xuất trong chuyến thăm trang trại."
+      }
     },
     {
       "id": 6,
@@ -146,7 +167,14 @@
         "adjective": "poetic",
         "adverb": "poetically"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "poetry",
+        "explanation_vi": "“Poem” là một bài thơ cụ thể và đếm được; “poetry” là thơ ca nói chung và thường không đếm được.",
+        "example_en": "The student read a poem about the sea.",
+        "example_vi": "Học sinh đọc một bài thơ về biển.",
+        "ff_example_en": "The student enjoys reading poetry about nature.",
+        "ff_example_vi": "Học sinh thích đọc thơ ca về thiên nhiên."
+      }
     },
     {
       "id": 7,
@@ -163,7 +191,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "writer",
+        "explanation_vi": "“Author” thường là người sáng tác một cuốn sách hoặc tác phẩm; “writer” là từ rộng hơn cho người viết sách, báo hoặc nội dung khác.",
+        "example_en": "The author signed her new novel at the event.",
+        "example_vi": "Tác giả ký tặng cuốn tiểu thuyết mới tại sự kiện.",
+        "ff_example_en": "The writer published an article about the novel after the event.",
+        "ff_example_vi": "Nhà văn đăng một bài viết về cuốn tiểu thuyết sau sự kiện."
+      }
     },
     {
       "id": 8,
@@ -197,7 +232,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "title",
+        "explanation_vi": "“Heading” là tiêu đề của một phần trong văn bản; “title” là tên của toàn bộ sách, bài viết hoặc tác phẩm.",
+        "example_en": "The heading of the first section is “Early Life”.",
+        "example_vi": "Tiêu đề của phần đầu tiên là “Thời niên thiếu”.",
+        "ff_example_en": "The title of the whole book is “A Great Scientist”.",
+        "ff_example_vi": "Tên của toàn bộ cuốn sách là “Một nhà khoa học vĩ đại”."
+      }
     },
     {
       "id": 10,
@@ -265,7 +307,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "revise",
+        "explanation_vi": "“Review” có thể là bài nhận xét hoặc hành động xem xét lại; “revise” trong Anh-Anh thường nghĩa là ôn lại bài trước kỳ thi.",
+        "example_en": "Lan wrote a review of the novel for the school magazine.",
+        "example_vi": "Lan viết một bài nhận xét về cuốn tiểu thuyết cho tạp chí trường.",
+        "ff_example_en": "Lan revised the novel’s key themes before the literature exam.",
+        "ff_example_vi": "Lan ôn lại các chủ đề chính của cuốn tiểu thuyết trước kỳ thi văn học."
+      }
     },
     {
       "id": 14,

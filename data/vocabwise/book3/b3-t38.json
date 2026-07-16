@@ -61,7 +61,14 @@
         "adjective": "linguistic",
         "adverb": "linguistically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "linguistics",
+        "explanation_vi": "'Linguistic' là tính từ nghĩa là thuộc ngôn ngữ; 'linguistics' là ngành ngôn ngữ học.",
+        "example_en": "The study examined linguistic differences between the groups.",
+        "example_vi": "Nghiên cứu xem xét khác biệt ngôn ngữ giữa các nhóm.",
+        "ff_example_en": "The researcher teaches linguistics at the university.",
+        "ff_example_vi": "Nhà nghiên cứu giảng dạy ngôn ngữ học tại trường đại học."
+      },
       "receptive_productive": "P"
     },
     {
@@ -79,7 +86,14 @@
         "adjective": "deterministic / determined",
         "adverb": "deterministically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "determination",
+        "explanation_vi": "'Determinism' là học thuyết cho rằng sự kiện được quyết định bởi nguyên nhân trước đó; 'determination' là sự quyết tâm hoặc việc xác định.",
+        "example_en": "The lecture examined linguistic determinism.",
+        "example_vi": "Bài giảng xem xét thuyết quyết định luận ngôn ngữ.",
+        "ff_example_en": "The students showed determination while completing the difficult project.",
+        "ff_example_vi": "Các sinh viên thể hiện quyết tâm khi hoàn thành dự án khó."
+      },
       "receptive_productive": "P"
     },
     {
@@ -134,8 +148,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "dialogue",
-        "explanation_vi": "'Dialect' là biến thể ngôn ngữ của một vùng hay nhóm xã hội; 'dialogue' là đoạn hội thoại — cùng gốc 'dia-' nhưng khác hoàn toàn về nghĩa."
+        "word": "dialogue",
+        "explanation_vi": "'Dialect' là biến thể ngôn ngữ của một vùng hay nhóm xã hội; 'dialogue' là đoạn hội thoại — cùng gốc 'dia-' nhưng khác hoàn toàn về nghĩa.",
+        "example_en": "The researcher recorded a rural dialect spoken in the mountain village.",
+        "example_vi": "Nhà nghiên cứu ghi lại một phương ngữ nông thôn được nói tại ngôi làng miền núi.",
+        "ff_example_en": "She also recorded a dialogue between two elderly speakers.",
+        "ff_example_vi": "Cô ấy cũng ghi lại một đoạn hội thoại giữa hai người cao tuổi."
       },
       "receptive_productive": "P"
     },
@@ -155,8 +173,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "denotation",
-        "explanation_vi": "'Connotation' là nghĩa bóng hoặc hàm ý cảm xúc/văn hóa của một từ; 'denotation' là nghĩa đen, nghĩa từ điển — cặp đôi quan trọng trong ngôn ngữ học."
+        "word": "denotation",
+        "explanation_vi": "'Connotation' là nghĩa bóng hoặc hàm ý cảm xúc/văn hóa của một từ; 'denotation' là nghĩa đen, nghĩa từ điển — cặp đôi quan trọng trong ngôn ngữ học.",
+        "example_en": "The word “home” has a warm connotation of safety and belonging.",
+        "example_vi": "Từ “home” có hàm ý ấm áp về sự an toàn và cảm giác thuộc về.",
+        "ff_example_en": "Its denotation is simply the place where a person lives.",
+        "ff_example_vi": "Nghĩa biểu vật của nó đơn giản là nơi một người sinh sống."
       },
       "receptive_productive": "P"
     },
@@ -175,7 +197,14 @@
         "adjective": "registered",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "registry",
+        "explanation_vi": "'Register' trong ngôn ngữ là phong cách dùng trong một bối cảnh; 'registry' là cơ quan hoặc danh sách đăng ký chính thức.",
+        "example_en": "The speaker used a formal register during the ceremony.",
+        "example_vi": "Người nói sử dụng văn phong trang trọng trong buổi lễ.",
+        "ff_example_en": "The organiser checked the guest registry before the ceremony.",
+        "ff_example_vi": "Người tổ chức kiểm tra danh sách khách đăng ký trước buổi lễ."
+      },
       "receptive_productive": "P"
     },
     {

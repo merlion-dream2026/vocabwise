@@ -62,8 +62,12 @@
         "adverb": "judicially"
       },
       "false_friend": {
-        "word_vi": "justice",
-        "explanation_vi": "'Judiciary' là hệ thống tòa án và thẩm phán; 'justice' là khái niệm công lý hoặc chức danh thẩm phán cấp cao — không thay thế nhau được."
+        "word": "justice",
+        "explanation_vi": "'Judiciary' là hệ thống tòa án và thẩm phán; 'justice' là khái niệm công lý hoặc chức danh thẩm phán cấp cao — không thay thế nhau được.",
+        "example_en": "The constitution protects the independence of the judiciary.",
+        "example_vi": "Hiến pháp bảo vệ tính độc lập của hệ thống tư pháp.",
+        "ff_example_en": "Citizens expect that independent system to deliver justice.",
+        "ff_example_vi": "Người dân kỳ vọng hệ thống độc lập đó mang lại công lý."
       },
       "receptive_productive": "P"
     },
@@ -83,8 +87,12 @@
         "adverb": "unprecedentedly"
       },
       "false_friend": {
-        "word_vi": "president",
-        "explanation_vi": "'Precedent' (tiền lệ pháp) và 'president' (tổng thống/chủ tịch) phát âm gần giống nhau nhưng hoàn toàn khác nghĩa."
+        "word": "president",
+        "explanation_vi": "'Precedent' (tiền lệ pháp) và 'president' (tổng thống/chủ tịch) phát âm gần giống nhau nhưng hoàn toàn khác nghĩa.",
+        "example_en": "The judge relied on an earlier precedent when deciding the case.",
+        "example_vi": "Thẩm phán dựa vào một tiền lệ trước đó khi quyết định vụ án.",
+        "ff_example_en": "The president commented publicly on the same case.",
+        "ff_example_vi": "Tổng thống bình luận công khai về cùng vụ án đó."
       },
       "receptive_productive": "P"
     },
@@ -103,7 +111,14 @@
         "adjective": "culpable",
         "adverb": "culpably"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "capable",
+        "explanation_vi": "'Culpable' nghĩa là có lỗi hoặc đáng bị quy trách nhiệm; 'capable' nghĩa là có năng lực.",
+        "example_en": "The court found the director culpable for the safety failure.",
+        "example_vi": "Tòa án xác định giám đốc có lỗi trong sự cố an toàn.",
+        "ff_example_en": "The court found the director capable of understanding the safety rules.",
+        "ff_example_vi": "Tòa án xác định giám đốc có khả năng hiểu các quy định an toàn."
+      },
       "receptive_productive": "P"
     },
     {
@@ -121,7 +136,14 @@
         "adjective": "deterrent",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "deterioration",
+        "explanation_vi": "'Deterrence' là sự răn đe nhằm ngăn hành vi; 'deterioration' là sự xuống cấp hoặc xấu đi.",
+        "example_en": "The policy aims to strengthen deterrence against cybercrime.",
+        "example_vi": "Chính sách nhằm tăng cường tính răn đe đối với tội phạm mạng.",
+        "ff_example_en": "The report describes the deterioration of prison conditions.",
+        "ff_example_vi": "Báo cáo mô tả sự xuống cấp của điều kiện nhà tù."
+      },
       "receptive_productive": "P"
     },
     {
@@ -176,8 +198,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "persecution",
-        "explanation_vi": "'Prosecution' là truy tố pháp lý; 'persecution' là sự ngược đãi hoặc bức hại — dễ nhầm nhưng khác nghĩa hoàn toàn."
+        "word": "persecution",
+        "explanation_vi": "'Prosecution' là truy tố pháp lý; 'persecution' là sự ngược đãi hoặc bức hại — dễ nhầm nhưng khác nghĩa hoàn toàn.",
+        "example_en": "The prosecution presented evidence against the accused official.",
+        "example_vi": "Bên công tố trình bày bằng chứng chống lại quan chức bị cáo buộc.",
+        "ff_example_en": "The official claimed that the case was political persecution.",
+        "ff_example_vi": "Quan chức cho rằng vụ án là sự bức hại chính trị."
       },
       "receptive_productive": "P"
     },
@@ -215,8 +241,12 @@
         "adverb": "statutorily"
       },
       "false_friend": {
-        "word_vi": "statue",
-        "explanation_vi": "'Statute' là đạo luật thành văn; 'statue' là tượng điêu khắc — khác nhau hoàn toàn về nghĩa dù phát âm gần giống."
+        "word": "statue",
+        "explanation_vi": "'Statute' là đạo luật thành văn; 'statue' là tượng điêu khắc — khác nhau hoàn toàn về nghĩa dù phát âm gần giống.",
+        "example_en": "Parliament passed a statute protecting historic sites.",
+        "example_vi": "Quốc hội thông qua một đạo luật bảo vệ các địa điểm lịch sử.",
+        "ff_example_en": "One protected site contains a statue of the country’s first judge.",
+        "ff_example_vi": "Một địa điểm được bảo vệ có bức tượng vị thẩm phán đầu tiên của đất nước."
       },
       "receptive_productive": "P"
     },

@@ -115,7 +115,14 @@
         "adjective": "affordable / unaffordable",
         "adverb": "affordably"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "effort",
+        "explanation_vi": "'Afford' là đủ khả năng tài chính hoặc thời gian để làm gì; 'effort' là nỗ lực.",
+        "example_en": "Lan cannot afford the expensive course.",
+        "example_vi": "Lan không đủ khả năng chi trả cho khóa học đắt tiền.",
+        "ff_example_en": "Lan made a great effort to win a scholarship for the course.",
+        "ff_example_vi": "Lan đã rất nỗ lực để giành học bổng cho khóa học."
+      },
       "receptive_productive": "P"
     },
     {
@@ -133,7 +140,14 @@
         "adjective": "rented",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "lease",
+        "explanation_vi": "'Rent' thường chỉ khoản tiền thuê hoặc hành động thuê; 'lease' là hợp đồng thuê hoặc cho thuê trong một thời hạn xác định.",
+        "example_en": "Lan pays rent for the apartment every month.",
+        "example_vi": "Lan trả tiền thuê căn hộ mỗi tháng.",
+        "ff_example_en": "Lan signed a one-year lease for the apartment.",
+        "ff_example_vi": "Lan ký hợp đồng thuê căn hộ trong một năm."
+      },
       "receptive_productive": "P"
     },
     {
@@ -152,8 +166,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "tenant",
-        "explanation_vi": "'Landlord' là người sở hữu bất động sản và cho thuê (chủ nhà); 'tenant' là người thuê bất động sản đó — hai vai trò đối lập trong hợp đồng thuê."
+        "word": "tenant",
+        "explanation_vi": "'Landlord' là người sở hữu bất động sản và cho thuê (chủ nhà); 'tenant' là người thuê bất động sản đó — hai vai trò đối lập trong hợp đồng thuê.",
+        "example_en": "The landlord repaired the heating before the new resident moved in.",
+        "example_vi": "Chủ nhà sửa hệ thống sưởi trước khi người thuê mới chuyển vào.",
+        "ff_example_en": "The tenant reported the heating problem to the property owner.",
+        "ff_example_vi": "Người thuê báo vấn đề về hệ thống sưởi cho chủ bất động sản."
       },
       "receptive_productive": "P"
     },
@@ -173,8 +191,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "rent",
-        "explanation_vi": "'Lease' là văn bản hợp đồng thuê chính thức có thời hạn cố định; 'rent' là khoản tiền trả định kỳ hoặc hành động thuê — 'rent' là số tiền bạn trả, 'lease' là hợp đồng bạn ký."
+        "word": "rent",
+        "explanation_vi": "'Lease' là văn bản hợp đồng thuê chính thức có thời hạn cố định; 'rent' là khoản tiền trả định kỳ hoặc hành động thuê — 'rent' là số tiền bạn trả, 'lease' là hợp đồng bạn ký.",
+        "example_en": "Mai signed a one-year lease for the apartment.",
+        "example_vi": "Mai ký hợp đồng thuê căn hộ trong một năm.",
+        "ff_example_en": "Mai pays the rent for the apartment on the first day of each month.",
+        "ff_example_vi": "Mai trả tiền thuê căn hộ vào ngày đầu tiên mỗi tháng."
       },
       "receptive_productive": "P"
     },
@@ -194,8 +216,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "mortgage",
-        "explanation_vi": "Trong tiếng Anh học thuật, 'mortgage' là từ chính thức hơn cho khoản vay mua bất động sản; 'home loan' là cách nói đơn giản hơn nhưng có cùng nghĩa."
+        "word": "mortgage",
+        "explanation_vi": "Trong tiếng Anh học thuật, 'mortgage' là từ chính thức hơn cho khoản vay mua bất động sản; 'home loan' là cách nói đơn giản hơn nhưng có cùng nghĩa.",
+        "example_en": "The couple applied for a home loan to buy their first house.",
+        "example_vi": "Cặp vợ chồng nộp đơn xin khoản vay mua nhà để mua căn nhà đầu tiên.",
+        "ff_example_en": "The bank approved a thirty-year mortgage on the same house.",
+        "ff_example_vi": "Ngân hàng phê duyệt một khoản vay thế chấp ba mươi năm cho chính căn nhà đó."
       },
       "receptive_productive": "P"
     },
@@ -232,7 +258,14 @@
         "adjective": "valuable / valued",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "price",
+        "explanation_vi": "'Price' là số tiền phải trả; 'value' là giá trị hoặc mức lợi ích tương xứng với chi phí.",
+        "example_en": "The apartment offers good value because it is spacious and well located.",
+        "example_vi": "Căn hộ có giá trị tốt so với chi phí vì rộng rãi và có vị trí thuận lợi.",
+        "ff_example_en": "The price of the apartment is two billion đồng.",
+        "ff_example_vi": "Giá của căn hộ là hai tỷ đồng."
+      },
       "receptive_productive": "P"
     },
     {
@@ -286,7 +319,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "landlord",
+        "explanation_vi": "'Tenant' là người thuê nhà; 'landlord' là chủ nhà cho thuê.",
+        "example_en": "The tenant reported a leak in the kitchen.",
+        "example_vi": "Người thuê nhà báo có chỗ rò rỉ trong bếp.",
+        "ff_example_en": "The landlord arranged for the leak to be repaired.",
+        "ff_example_vi": "Chủ nhà sắp xếp sửa chỗ rò rỉ."
+      },
       "receptive_productive": "P"
     },
     {
@@ -305,8 +345,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "repair",
-        "explanation_vi": "'Renovate' là cải tạo toàn diện để nâng cấp và làm mới không gian; 'repair' là sửa chữa một thứ hỏng cụ thể — renovate rộng hơn và tốn kém hơn repair."
+        "word": "repair",
+        "explanation_vi": "'Renovate' là cải tạo toàn diện để nâng cấp và làm mới không gian; 'repair' là sửa chữa một thứ hỏng cụ thể — renovate rộng hơn và tốn kém hơn repair.",
+        "example_en": "The owners plan to renovate the entire apartment before renting it out.",
+        "example_vi": "Chủ sở hữu dự định cải tạo toàn bộ căn hộ trước khi cho thuê.",
+        "ff_example_en": "They must first repair the broken bathroom window.",
+        "ff_example_vi": "Trước tiên, họ phải sửa chiếc cửa sổ phòng tắm bị hỏng."
       },
       "receptive_productive": "P"
     },
@@ -325,7 +369,14 @@
         "adjective": "invested",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "investigate",
+        "explanation_vi": "'Invest' là đầu tư tiền hoặc nguồn lực; 'investigate' là điều tra, tìm hiểu kỹ.",
+        "example_en": "The company will invest in a new factory.",
+        "example_vi": "Công ty sẽ đầu tư vào một nhà máy mới.",
+        "ff_example_en": "The authorities will investigate safety problems at the factory.",
+        "ff_example_vi": "Nhà chức trách sẽ điều tra các vấn đề an toàn tại nhà máy."
+      },
       "receptive_productive": "P"
     }
   ],

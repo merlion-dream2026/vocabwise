@@ -61,7 +61,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "anniversary",
+        "explanation_vi": "“Birthday” kỷ niệm ngày một người được sinh ra; “anniversary” kỷ niệm ngày một sự kiện đã xảy ra, chẳng hạn ngày cưới.",
+        "example_en": "The family held a party for Lan’s eighteenth birthday.",
+        "example_vi": "Gia đình tổ chức tiệc mừng sinh nhật lần thứ mười tám của Lan.",
+        "ff_example_en": "The family held a party for her parents’ twentieth wedding anniversary.",
+        "ff_example_vi": "Gia đình tổ chức tiệc kỷ niệm hai mươi năm ngày cưới của bố mẹ cô ấy."
+      }
     },
     {
       "id": 2,
@@ -248,7 +255,14 @@
         "adjective": "dressed",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "wear",
+        "explanation_vi": "“Dress” có thể là danh từ nghĩa là váy hoặc động từ nghĩa là mặc quần áo cho ai; “wear” là mặc hoặc đeo một món đồ.",
+        "example_en": "Lan bought a blue dress for the birthday party.",
+        "example_vi": "Lan mua một chiếc váy xanh cho bữa tiệc sinh nhật.",
+        "ff_example_en": "Lan wore the blue dress to the birthday party.",
+        "ff_example_vi": "Lan mặc chiếc váy xanh đến bữa tiệc sinh nhật."
+      }
     },
     {
       "id": 13,
@@ -299,7 +313,14 @@
         "adjective": "special",
         "adverb": "specially / especially"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "specific",
+        "explanation_vi": "“Special” nghĩa là đặc biệt hoặc khác thường; “specific” nghĩa là cụ thể, xác định rõ.",
+        "example_en": "Lan received a special gift on her birthday.",
+        "example_vi": "Lan nhận được một món quà đặc biệt vào sinh nhật.",
+        "ff_example_en": "Lan asked for a specific book as her birthday gift.",
+        "ff_example_vi": "Lan yêu cầu một cuốn sách cụ thể làm quà sinh nhật."
+      }
     }
   ],
   "exercises": {

@@ -78,7 +78,14 @@
         "adjective": "sorry",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "excuse me",
+        "explanation_vi": "“Sorry” dùng để xin lỗi vì đã làm sai hoặc bày tỏ sự tiếc nuối; “excuse me” dùng để thu hút sự chú ý hoặc xin phép đi qua.",
+        "example_en": "I’m sorry that I gave you the wrong directions.",
+        "example_vi": "Tôi xin lỗi vì đã chỉ sai đường cho bạn.",
+        "ff_example_en": "Excuse me, could you show me the way to the station?",
+        "ff_example_vi": "Xin lỗi, bạn có thể chỉ tôi đường đến nhà ga không?"
+      }
     },
     {
       "id": 3,
@@ -95,7 +102,14 @@
         "adjective": "excusable / inexcusable",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "reason",
+        "explanation_vi": "“Excuse” thường là lời biện hộ nhằm giảm trách nhiệm; “reason” là nguyên nhân hoặc lời giải thích trung lập.",
+        "example_en": "Being tired is not a good excuse for giving rude directions.",
+        "example_vi": "Mệt không phải là lý do biện hộ chính đáng cho việc chỉ đường thô lỗ.",
+        "ff_example_en": "The road closure was the reason we gave different directions.",
+        "ff_example_vi": "Việc đóng đường là nguyên nhân chúng tôi chỉ một đường khác."
+      }
     },
     {
       "id": 4,
@@ -112,7 +126,14 @@
         "adjective": "needed / needy",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "want",
+        "explanation_vi": "“Need” là cần thiết; “want” là mong muốn nhưng không nhất thiết phải có.",
+        "example_en": "We need a map because we are lost.",
+        "example_vi": "Chúng tôi cần bản đồ vì đang bị lạc.",
+        "ff_example_en": "We want a better map with more details.",
+        "ff_example_vi": "Chúng tôi muốn một bản đồ tốt hơn với nhiều chi tiết hơn."
+      }
     },
     {
       "id": 5,
@@ -146,7 +167,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "look for",
+        "explanation_vi": "“Look for” là cố gắng tìm; “find” là tìm thấy sau quá trình tìm kiếm.",
+        "example_en": "We looked for the station on the map.",
+        "example_vi": "Chúng tôi tìm nhà ga trên bản đồ.",
+        "ff_example_en": "We found the station near the river.",
+        "ff_example_vi": "Chúng tôi tìm thấy nhà ga gần con sông."
+      }
     },
     {
       "id": 7,
@@ -163,7 +191,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "tell",
+        "explanation_vi": "“Show” là chỉ bằng hình ảnh, hành động hoặc dẫn trực tiếp; “tell” là cung cấp thông tin bằng lời.",
+        "example_en": "Could you show me the way on this map?",
+        "example_vi": "Bạn có thể chỉ đường cho tôi trên bản đồ này không?",
+        "ff_example_en": "Could you tell me which street leads to the station?",
+        "ff_example_vi": "Bạn có thể nói cho tôi biết con phố nào dẫn đến nhà ga không?"
+      }
     },
     {
       "id": 8,
@@ -180,7 +215,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "say",
+        "explanation_vi": "“Tell” thường cần người nhận phía sau; “say” tập trung vào lời được nói và không đi trực tiếp với người nhận.",
+        "example_en": "Lan told us that the station was closed.",
+        "example_vi": "Lan nói với chúng tôi rằng nhà ga đã đóng cửa.",
+        "ff_example_en": "Lan said that the station was closed.",
+        "ff_example_vi": "Lan nói rằng nhà ga đã đóng cửa."
+      }
     },
     {
       "id": 9,
@@ -197,7 +239,14 @@
         "adjective": "known / unknown / knowledgeable",
         "adverb": "knowingly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "understand",
+        "explanation_vi": "“Know” là có thông tin; “understand” là nắm được ý nghĩa hoặc cách thức.",
+        "example_en": "I know the name of this street.",
+        "example_vi": "Tôi biết tên của con phố này.",
+        "ff_example_en": "I understand how to follow these directions.",
+        "ff_example_vi": "Tôi hiểu cách làm theo những chỉ dẫn này."
+      }
     },
     {
       "id": 10,
@@ -248,7 +297,14 @@
         "adjective": "lost",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "lose",
+        "explanation_vi": "“Lost” là tính từ nghĩa là bị lạc hoặc dạng quá khứ của “lose”; “lose” là động từ nguyên thể nghĩa là làm mất.",
+        "example_en": "We are lost and need directions.",
+        "example_vi": "Chúng tôi bị lạc và cần chỉ đường.",
+        "ff_example_en": "Be careful not to lose the map.",
+        "ff_example_vi": "Hãy cẩn thận đừng làm mất bản đồ."
+      }
     },
     {
       "id": 13,
@@ -265,7 +321,14 @@
         "adjective": null,
         "adverb": "on the way / this way"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "road",
+        "explanation_vi": "“Way” là cách hoặc hướng đi; “road” là con đường vật lý dành cho giao thông.",
+        "example_en": "Can you tell me the way to the museum?",
+        "example_vi": "Bạn có thể chỉ tôi đường đến bảo tàng không?",
+        "ff_example_en": "This road leads directly to the museum.",
+        "ff_example_vi": "Con đường này dẫn thẳng đến bảo tàng."
+      }
     },
     {
       "id": 14,
@@ -282,7 +345,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "repeat",
+        "explanation_vi": "“Say again” là cách nói thông thường yêu cầu nói lại; “repeat” là từ trung lập hoặc trang trọng hơn nghĩa là lặp lại.",
+        "example_en": "Could you say the street name again?",
+        "example_vi": "Bạn có thể nói lại tên con phố không?",
+        "ff_example_en": "Could you repeat the street name more slowly?",
+        "ff_example_vi": "Bạn có thể nhắc lại tên con phố chậm hơn không?"
+      }
     },
     {
       "id": 15,
@@ -299,7 +369,14 @@
         "adjective": "following",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "understand",
+        "explanation_vi": "“Follow” có thể nghĩa là hiểu và thực hiện theo chỉ dẫn; “understand” là nắm được ý nghĩa.",
+        "example_en": "I followed the guide’s directions to the museum.",
+        "example_vi": "Tôi làm theo chỉ dẫn của hướng dẫn viên để đến bảo tàng.",
+        "ff_example_en": "I understood the guide’s directions to the museum.",
+        "ff_example_vi": "Tôi hiểu chỉ dẫn của hướng dẫn viên để đến bảo tàng."
+      }
     }
   ],
   "exercises": {

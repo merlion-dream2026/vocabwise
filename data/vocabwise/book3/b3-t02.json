@@ -61,8 +61,12 @@
         "adverb": "vocationally"
       },
       "false_friend": {
-        "word_vi": "vacation",
-        "explanation_vi": "'Vocation' là nghề nghiệp hay ơn gọi; 'vacation' là kỳ nghỉ — hai từ trông giống nhau nhưng nghĩa hoàn toàn khác."
+        "word": "vacation",
+        "explanation_vi": "'Vocation' là nghề nghiệp hay ơn gọi; 'vacation' là kỳ nghỉ — hai từ trông giống nhau nhưng nghĩa hoàn toàn khác.",
+        "example_en": "Teaching is a vocation that gives Mai a strong sense of purpose.",
+        "example_vi": "Giảng dạy là một thiên chức mang lại cho Mai ý thức mạnh mẽ về mục đích sống.",
+        "ff_example_en": "During her summer vacation, Mai still volunteered at a local school.",
+        "ff_example_vi": "Trong kỳ nghỉ hè, Mai vẫn tình nguyện tại một trường địa phương."
       },
       "receptive_productive": "P"
     },
@@ -98,8 +102,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "appreciation",
-        "explanation_vi": "'Appraisal' là đánh giá chính thức về hiệu suất hoặc giá trị; 'appreciation' là sự trân trọng hoặc tăng giá trị."
+        "word": "appreciation",
+        "explanation_vi": "'Appraisal' là đánh giá chính thức về hiệu suất hoặc giá trị; 'appreciation' là sự trân trọng hoặc tăng giá trị.",
+        "example_en": "The manager conducted a formal appraisal of Lan’s performance.",
+        "example_vi": "Người quản lý tiến hành đánh giá chính thức về hiệu suất của Lan.",
+        "ff_example_en": "After the appraisal, he expressed appreciation for her extra effort.",
+        "ff_example_vi": "Sau buổi đánh giá, ông bày tỏ sự trân trọng đối với nỗ lực thêm của cô ấy."
       },
       "receptive_productive": "P"
     },
@@ -117,7 +125,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "workplace",
+        "explanation_vi": "'Workload' là khối lượng công việc; 'workplace' là nơi làm việc.",
+        "example_en": "The manager reduced Lan's workload this week.",
+        "example_vi": "Người quản lý giảm khối lượng công việc của Lan trong tuần này.",
+        "ff_example_en": "The manager introduced new safety rules in the workplace.",
+        "ff_example_vi": "Người quản lý đưa ra các quy định an toàn mới tại nơi làm việc."
+      },
       "receptive_productive": "P"
     },
     {
@@ -151,7 +166,14 @@
         "adjective": "aspirational",
         "adverb": "aspirationally"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "inspiration",
+        "explanation_vi": "'Aspiration' là khát vọng hoặc mục tiêu lớn; 'inspiration' là nguồn hoặc cảm giác truyền cảm hứng.",
+        "example_en": "Becoming a surgeon was Lan's childhood aspiration.",
+        "example_vi": "Trở thành bác sĩ phẫu thuật là khát vọng thời thơ ấu của Lan.",
+        "ff_example_en": "Her science teacher was the inspiration behind that ambition.",
+        "ff_example_vi": "Giáo viên khoa học là nguồn cảm hứng đằng sau hoài bão đó."
+      },
       "receptive_productive": "P"
     },
     {
@@ -203,8 +225,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "renumeration",
-        "explanation_vi": "'Remuneration' (thù lao) thường bị viết sai thành 'renumeration' — chú ý cách đánh vần đúng."
+        "word": "renumeration",
+        "explanation_vi": "'Remuneration' (thù lao) thường bị viết sai thành 'renumeration' — chú ý cách đánh vần đúng.",
+        "example_en": "The contract offers fair remuneration for the consultant’s work.",
+        "example_vi": "Hợp đồng đưa ra mức thù lao công bằng cho công việc của chuyên gia tư vấn.",
+        "ff_example_en": "The draft incorrectly spells the same word as “renumeration”.",
+        "ff_example_vi": "Bản nháp viết sai chính từ đó thành “renumeration”."
       },
       "receptive_productive": "P"
     },

@@ -98,7 +98,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "ethics",
+        "explanation_vi": "'Ethos' là hình ảnh về uy tín và phẩm chất của người nói hoặc một nhóm; 'ethics' là các nguyên tắc đạo đức.",
+        "example_en": "The speaker established ethos by describing her medical experience.",
+        "example_vi": "Người nói xây dựng uy tín bằng cách mô tả kinh nghiệm y khoa của mình.",
+        "ff_example_en": "The speaker discussed the ethics of medical research.",
+        "ff_example_vi": "Người nói thảo luận về đạo đức trong nghiên cứu y khoa."
+      },
       "receptive_productive": "P"
     },
     {
@@ -117,8 +124,12 @@
         "adverb": "pathetically"
       },
       "false_friend": {
-        "word_vi": "pathology",
-        "explanation_vi": "'Pathos' là sức kêu gọi cảm xúc trong tu từ học; 'pathology' là ngành nghiên cứu bệnh tật — hoàn toàn khác nghĩa."
+        "word": "pathology",
+        "explanation_vi": "'Pathos' là sức kêu gọi cảm xúc trong tu từ học; 'pathology' là ngành nghiên cứu bệnh tật — hoàn toàn khác nghĩa.",
+        "example_en": "The speaker used pathos by describing the suffering of displaced families.",
+        "example_vi": "Diễn giả dùng sức gợi cảm xúc bằng cách mô tả nỗi đau của các gia đình phải di dời.",
+        "ff_example_en": "A medical expert later discussed the pathology of stress-related illness.",
+        "ff_example_vi": "Sau đó, một chuyên gia y tế thảo luận bệnh học của các bệnh liên quan đến căng thẳng."
       },
       "receptive_productive": "P"
     },
@@ -137,7 +148,14 @@
         "adjective": "logical",
         "adverb": "logically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "logo",
+        "explanation_vi": "'Logos' là cách thuyết phục bằng logic và bằng chứng; 'logo' là biểu tượng nhận diện của một tổ chức.",
+        "example_en": "The advertisement appealed to logos by presenting statistics.",
+        "example_vi": "Quảng cáo sử dụng lý lẽ logic bằng cách trình bày số liệu.",
+        "ff_example_en": "The advertisement displayed the company's logo at the end.",
+        "ff_example_vi": "Quảng cáo hiển thị biểu tượng của công ty ở cuối."
+      },
       "receptive_productive": "P"
     },
     {
@@ -191,7 +209,14 @@
         "adjective": "hyperbolic",
         "adverb": "hyperbolically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "hyperbola",
+        "explanation_vi": "'Hyperbole' là phép phóng đại trong ngôn ngữ; 'hyperbola' là đường hypebol trong toán học.",
+        "example_en": "The phrase 'the best phone in the universe' is hyperbole.",
+        "example_vi": "Cụm từ 'chiếc điện thoại tốt nhất vũ trụ' là phép phóng đại.",
+        "ff_example_en": "The maths diagram beside the advertisement shows a hyperbola.",
+        "ff_example_vi": "Sơ đồ toán học bên cạnh quảng cáo thể hiện một đường hypebol."
+      },
       "receptive_productive": "P"
     },
     {
@@ -210,8 +235,12 @@
         "adverb": "metaphorically"
       },
       "false_friend": {
-        "word_vi": "simile",
-        "explanation_vi": "'Metaphor' là ẩn dụ — so sánh ngầm, không dùng 'like' hay 'as'; 'simile' là so sánh tu từ có dùng 'like' hoặc 'as' — hai biện pháp khác nhau."
+        "word": "simile",
+        "explanation_vi": "'Metaphor' là ẩn dụ — so sánh ngầm, không dùng 'like' hay 'as'; 'simile' là so sánh tu từ có dùng 'like' hoặc 'as' — hai biện pháp khác nhau.",
+        "example_en": "The poet used the metaphor “time is a river”.",
+        "example_vi": "Nhà thơ dùng ẩn dụ “thời gian là một dòng sông”.",
+        "ff_example_en": "In the next line, she used the simile “time flows like a river”.",
+        "ff_example_vi": "Trong dòng tiếp theo, cô ấy dùng phép so sánh “thời gian trôi như một dòng sông”."
       },
       "receptive_productive": "P"
     },
@@ -231,8 +260,12 @@
         "adverb": "allusively"
       },
       "false_friend": {
-        "word_vi": "illusion",
-        "explanation_vi": "'Allusion' là sự ám chỉ gián tiếp đến điều gì đó; 'illusion' là ảo giác hoặc nhận thức sai lệch — phát âm gần giống nhưng nghĩa hoàn toàn khác."
+        "word": "illusion",
+        "explanation_vi": "'Allusion' là sự ám chỉ gián tiếp đến điều gì đó; 'illusion' là ảo giác hoặc nhận thức sai lệch — phát âm gần giống nhưng nghĩa hoàn toàn khác.",
+        "example_en": "The speech included an allusion to a famous historical battle.",
+        "example_vi": "Bài phát biểu có một sự ám chỉ đến một trận chiến lịch sử nổi tiếng.",
+        "ff_example_en": "The stage lighting created the illusion that the battle was happening nearby.",
+        "ff_example_vi": "Ánh sáng sân khấu tạo ra ảo giác rằng trận chiến đang diễn ra gần đó."
       },
       "receptive_productive": "P"
     },

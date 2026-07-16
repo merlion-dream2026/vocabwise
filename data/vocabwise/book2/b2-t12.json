@@ -98,8 +98,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "specie",
-        "explanation_vi": "'Species' là dạng dùng cho cả số ít lẫn số nhiều — không có dạng 'specie' trong sinh học."
+        "word": "specie",
+        "explanation_vi": "'Species' là dạng dùng cho cả số ít lẫn số nhiều — không có dạng 'specie' trong sinh học.",
+        "example_en": "This island is home to a rare species of bird.",
+        "example_vi": "Hòn đảo này là nơi sinh sống của một loài chim quý hiếm.",
+        "ff_example_en": "The museum displayed old coins and other forms of specie.",
+        "ff_example_vi": "Bảo tàng trưng bày tiền xu cổ và các dạng tiền kim loại khác."
       },
       "receptive_productive": "R"
     },
@@ -191,8 +195,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "pray",
-        "explanation_vi": "'Prey' (con mồi) và 'pray' (cầu nguyện) phát âm giống nhau nhưng nghĩa hoàn toàn khác — đây là một cặp từ đồng âm."
+        "word": "pray",
+        "explanation_vi": "'Prey' (con mồi) và 'pray' (cầu nguyện) phát âm giống nhau nhưng nghĩa hoàn toàn khác — đây là một cặp từ đồng âm.",
+        "example_en": "The eagle circled above its prey.",
+        "example_vi": "Con đại bàng bay vòng phía trên con mồi của nó.",
+        "ff_example_en": "The villagers gathered nearby to pray for the injured animal.",
+        "ff_example_vi": "Người dân làng tập trung gần đó để cầu nguyện cho con vật bị thương."
       },
       "receptive_productive": "R"
     },
@@ -212,8 +220,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "predictor",
-        "explanation_vi": "'Predator' là động vật săn mồi; 'predictor' là thứ dự báo hoặc dự đoán — hai từ hoàn toàn khác nhau."
+        "word": "predictor",
+        "explanation_vi": "'Predator' là động vật săn mồi; 'predictor' là thứ dự báo hoặc dự đoán — hai từ hoàn toàn khác nhau.",
+        "example_en": "The wolf is an important predator in this ecosystem.",
+        "example_vi": "Sói là một loài săn mồi quan trọng trong hệ sinh thái này.",
+        "ff_example_en": "Rainfall is a useful predictor of food availability in the same ecosystem.",
+        "ff_example_vi": "Lượng mưa là một yếu tố dự báo hữu ích về nguồn thức ăn trong cùng hệ sinh thái đó."
       },
       "receptive_productive": "R"
     },
@@ -233,8 +245,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "habitant",
-        "explanation_vi": "'Habitat' là nơi sinh sống của động vật; 'habitant' là người cư dân — không dùng 'habitant' cho động vật."
+        "word": "habitant",
+        "explanation_vi": "'Habitat' là nơi sinh sống của động vật; 'habitant' là người cư dân — không dùng 'habitant' cho động vật.",
+        "example_en": "The wetland is the natural habitat of many birds.",
+        "example_vi": "Vùng đất ngập nước là môi trường sống tự nhiên của nhiều loài chim.",
+        "ff_example_en": "Each human habitant of the island depends on the wetland for water.",
+        "ff_example_vi": "Mỗi cư dân trên đảo đều phụ thuộc vào vùng đất ngập nước để có nước."
       },
       "receptive_productive": "R"
     },
@@ -271,7 +287,14 @@
         "adjective": "native",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "national",
+        "explanation_vi": "'Native' chỉ người, loài hoặc ngôn ngữ có nguồn gốc tại một nơi; 'national' nghĩa là thuộc về cả một quốc gia.",
+        "example_en": "The guide is a native speaker of the local language.",
+        "example_vi": "Hướng dẫn viên là người bản ngữ của ngôn ngữ địa phương.",
+        "ff_example_en": "The guide also speaks the national language.",
+        "ff_example_vi": "Hướng dẫn viên cũng nói ngôn ngữ quốc gia."
+      },
       "receptive_productive": "R"
     },
     {
@@ -289,7 +312,14 @@
         "adjective": "extinct",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "distinction",
+        "explanation_vi": "'Extinction' là sự tuyệt chủng; 'distinction' là sự khác biệt rõ ràng hoặc sự phân biệt.",
+        "example_en": "The report warned that the species faced extinction.",
+        "example_vi": "Báo cáo cảnh báo rằng loài này đối mặt với nguy cơ tuyệt chủng.",
+        "ff_example_en": "The report made a distinction between endangered and extinct species.",
+        "ff_example_vi": "Báo cáo phân biệt rõ giữa loài nguy cấp và loài đã tuyệt chủng."
+      },
       "receptive_productive": "R"
     },
     {
@@ -308,8 +338,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "conservatory",
-        "explanation_vi": "'Conservation' là bảo tồn thiên nhiên; 'conservatory' là nhà kính hoặc nhạc viện — hoàn toàn khác nhau."
+        "word": "conservatory",
+        "explanation_vi": "'Conservation' là bảo tồn thiên nhiên; 'conservatory' là nhà kính hoặc nhạc viện — hoàn toàn khác nhau.",
+        "example_en": "The project supports the conservation of endangered birds.",
+        "example_vi": "Dự án hỗ trợ việc bảo tồn các loài chim có nguy cơ tuyệt chủng.",
+        "ff_example_en": "The nearby conservatory trains young musicians.",
+        "ff_example_vi": "Nhạc viện gần đó đào tạo các nhạc sĩ trẻ."
       },
       "receptive_productive": "R"
     },
@@ -328,7 +362,14 @@
         "adjective": "adaptable",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "adopt",
+        "explanation_vi": "'Adapt' là điều chỉnh để phù hợp; 'adopt' là tiếp nhận một ý tưởng, phương pháp hoặc nhận nuôi.",
+        "example_en": "The school adapted the programme for younger students.",
+        "example_vi": "Nhà trường điều chỉnh chương trình cho học sinh nhỏ tuổi hơn.",
+        "ff_example_en": "The school adopted a new programme for younger students.",
+        "ff_example_vi": "Nhà trường áp dụng một chương trình mới cho học sinh nhỏ tuổi hơn."
+      },
       "receptive_productive": "P"
     }
   ],

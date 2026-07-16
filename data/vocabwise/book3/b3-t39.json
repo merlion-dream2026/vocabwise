@@ -80,8 +80,12 @@
         "adverb": "doctrinally"
       },
       "false_friend": {
-        "word_vi": "dogma",
-        "explanation_vi": "'Doctrine' là tập hợp các giáo huấn chính thức của một tổ chức tôn giáo hay chính trị; 'dogma' mang hàm ý tiêu cực hơn, chỉ niềm tin cứng nhắc không chấp nhận nghi vấn."
+        "word": "dogma",
+        "explanation_vi": "'Doctrine' là tập hợp các giáo huấn chính thức của một tổ chức tôn giáo hay chính trị; 'dogma' mang hàm ý tiêu cực hơn, chỉ niềm tin cứng nhắc không chấp nhận nghi vấn.",
+        "example_en": "The church’s official doctrine sets out its central teachings.",
+        "example_vi": "Giáo lý chính thức của nhà thờ trình bày các giáo huấn trung tâm.",
+        "ff_example_en": "Critics described one rigid teaching as dogma because it allowed no questioning.",
+        "ff_example_vi": "Các nhà phê bình mô tả một giáo huấn cứng nhắc là giáo điều vì nó không cho phép đặt câu hỏi."
       },
       "receptive_productive": "P"
     },
@@ -173,8 +177,12 @@
         "adverb": "sacredly"
       },
       "false_friend": {
-        "word_vi": "scared",
-        "explanation_vi": "'Sacred' (/ˈseɪ.krɪd/) nghĩa là thiêng liêng; 'scared' (/skeəd/) nghĩa là sợ hãi — hai từ dễ nhầm vì phát âm gần giống nhau."
+        "word": "scared",
+        "explanation_vi": "'Sacred' (/ˈseɪ.krɪd/) nghĩa là thiêng liêng; 'scared' (/skeəd/) nghĩa là sợ hãi — hai từ dễ nhầm vì phát âm gần giống nhau.",
+        "example_en": "The temple is considered sacred by the local community.",
+        "example_vi": "Ngôi đền được cộng đồng địa phương coi là thiêng liêng.",
+        "ff_example_en": "A child felt scared when thunder struck near the temple.",
+        "ff_example_vi": "Một đứa trẻ cảm thấy sợ hãi khi sấm đánh gần ngôi đền."
       },
       "receptive_productive": "P"
     },

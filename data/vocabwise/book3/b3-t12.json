@@ -62,8 +62,12 @@
         "adverb": "chronically"
       },
       "false_friend": {
-        "word_vi": "critical",
-        "explanation_vi": "'Chronic' nghĩa là mãn tính (kéo dài); 'critical' nghĩa là nghiêm trọng hoặc then chốt — không thay thế nhau được dù cùng chỉ mức độ nặng nề."
+        "word": "critical",
+        "explanation_vi": "'Chronic' nghĩa là mãn tính (kéo dài); 'critical' nghĩa là nghiêm trọng hoặc then chốt — không thay thế nhau được dù cùng chỉ mức độ nặng nề.",
+        "example_en": "The patient has a chronic condition that has lasted for years.",
+        "example_vi": "Bệnh nhân mắc một bệnh mãn tính đã kéo dài nhiều năm.",
+        "ff_example_en": "Her condition became critical after a sudden infection.",
+        "ff_example_vi": "Tình trạng của cô ấy trở nên nguy kịch sau một đợt nhiễm trùng đột ngột."
       },
       "receptive_productive": "P"
     },
@@ -136,7 +140,14 @@
         "adjective": "coping (as modifier)",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "copying",
+        "explanation_vi": "'Coping' là việc đối phó với khó khăn; 'copying' là sao chép.",
+        "example_en": "The therapist taught students coping strategies for stress.",
+        "example_vi": "Nhà trị liệu dạy học sinh các chiến lược đối phó với căng thẳng.",
+        "ff_example_en": "The teacher warned students that copying answers was dishonest.",
+        "ff_example_vi": "Giáo viên cảnh báo học sinh rằng sao chép đáp án là không trung thực."
+      },
       "receptive_productive": "P"
     },
     {
@@ -191,8 +202,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "interruption",
-        "explanation_vi": "'Intervention' là sự can thiệp có chủ đích nhằm thay đổi tình huống; 'interruption' là sự gián đoạn hay ngắt quãng — khác nhau về mục đích và ngữ cảnh."
+        "word": "interruption",
+        "explanation_vi": "'Intervention' là sự can thiệp có chủ đích nhằm thay đổi tình huống; 'interruption' là sự gián đoạn hay ngắt quãng — khác nhau về mục đích và ngữ cảnh.",
+        "example_en": "Early medical intervention prevented the condition from becoming worse.",
+        "example_vi": "Sự can thiệp y tế sớm ngăn tình trạng bệnh trở nên tồi tệ hơn.",
+        "ff_example_en": "A power cut caused an interruption during the treatment session.",
+        "ff_example_vi": "Việc mất điện gây ra sự gián đoạn trong buổi điều trị."
       },
       "receptive_productive": "P"
     },
@@ -230,8 +245,12 @@
         "adverb": "compulsively"
       },
       "false_friend": {
-        "word_vi": "compulsion vs compulsory",
-        "explanation_vi": "'Compulsion' là hành vi bắt buộc do tâm lý; 'compulsory' là bắt buộc theo quy định pháp lý hoặc xã hội — khác nhau về nguồn gốc của sự ép buộc."
+        "word": "compulsory",
+        "explanation_vi": "'Compulsion' là hành vi bắt buộc do tâm lý; 'compulsory' là bắt buộc theo quy định pháp lý hoặc xã hội — khác nhau về nguồn gốc của sự ép buộc.",
+        "example_en": "The patient described a compulsion to wash his hands repeatedly.",
+        "example_vi": "Bệnh nhân mô tả một thôi thúc bắt buộc phải rửa tay liên tục.",
+        "ff_example_en": "Handwashing is compulsory for staff before entering the ward.",
+        "ff_example_vi": "Việc rửa tay là bắt buộc đối với nhân viên trước khi vào khu điều trị."
       },
       "receptive_productive": "P"
     },

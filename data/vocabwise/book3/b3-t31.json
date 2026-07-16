@@ -61,7 +61,14 @@
         "adjective": "epistemological",
         "adverb": "epistemologically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "epidemiology",
+        "explanation_vi": "'Epistemology' là nhận thức luận, nghiên cứu về tri thức; 'epidemiology' là dịch tễ học, nghiên cứu sự phân bố bệnh trong dân số.",
+        "example_en": "The philosophy seminar introduced students to epistemology.",
+        "example_vi": "Hội thảo triết học giới thiệu cho sinh viên về nhận thức luận.",
+        "ff_example_en": "The medical seminar introduced students to epidemiology.",
+        "ff_example_vi": "Hội thảo y khoa giới thiệu cho sinh viên về dịch tễ học."
+      },
       "receptive_productive": "P"
     },
     {
@@ -80,8 +87,12 @@
         "adverb": "inferentially"
       },
       "false_friend": {
-        "word_vi": "implication",
-        "explanation_vi": "'Inference' là kết luận người đọc/nghe tự rút ra; 'implication' là điều được ngụ ý bởi người nói/viết — hai hướng ngược nhau."
+        "word": "implication",
+        "explanation_vi": "'Inference' là kết luận người đọc/nghe tự rút ra; 'implication' là điều được ngụ ý bởi người nói/viết — hai hướng ngược nhau.",
+        "example_en": "From the evidence, the reader drew the inference that the witness was uncertain.",
+        "example_vi": "Từ bằng chứng, người đọc suy ra rằng nhân chứng không chắc chắn.",
+        "ff_example_en": "The witness’s wording carried the implication that someone else was responsible.",
+        "ff_example_vi": "Cách diễn đạt của nhân chứng hàm ý rằng một người khác phải chịu trách nhiệm."
       },
       "receptive_productive": "P"
     },
@@ -101,8 +112,12 @@
         "adverb": "deductively"
       },
       "false_friend": {
-        "word_vi": "induction",
-        "explanation_vi": "'Deduction' đi từ nguyên lý chung đến kết luận cụ thể; 'induction' đi từ các trường hợp cụ thể đến nguyên lý chung — ngược chiều nhau."
+        "word": "induction",
+        "explanation_vi": "'Deduction' đi từ nguyên lý chung đến kết luận cụ thể; 'induction' đi từ các trường hợp cụ thể đến nguyên lý chung — ngược chiều nhau.",
+        "example_en": "The researcher used deduction to apply a general rule to one specific case.",
+        "example_vi": "Nhà nghiên cứu dùng phép suy diễn để áp dụng một quy tắc chung cho một trường hợp cụ thể.",
+        "ff_example_en": "She used induction to build a general rule from many specific cases.",
+        "ff_example_vi": "Cô ấy dùng phép quy nạp để xây dựng một quy tắc chung từ nhiều trường hợp cụ thể."
       },
       "receptive_productive": "P"
     },
@@ -121,7 +136,14 @@
         "adjective": "fallacious",
         "adverb": "fallaciously"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "fallibility",
+        "explanation_vi": "'Fallacy' là lỗi lập luận; 'fallibility' là khả năng mắc sai lầm.",
+        "example_en": "The lecturer identified a fallacy in the argument.",
+        "example_vi": "Giảng viên chỉ ra một ngụy biện trong lập luận.",
+        "ff_example_en": "The lecturer reminded students of human fallibility.",
+        "ff_example_vi": "Giảng viên nhắc sinh viên về khả năng con người mắc sai lầm."
+      },
       "receptive_productive": "P"
     },
     {
@@ -158,8 +180,12 @@
         "adverb": "subjectively"
       },
       "false_friend": {
-        "word_vi": "objectivity",
-        "explanation_vi": "'Subjectivity' dựa trên quan điểm cá nhân; 'objectivity' là không bị ảnh hưởng bởi cảm xúc hay ý kiến cá nhân — trái nghĩa nhau."
+        "word": "objectivity",
+        "explanation_vi": "'Subjectivity' dựa trên quan điểm cá nhân; 'objectivity' là không bị ảnh hưởng bởi cảm xúc hay ý kiến cá nhân — trái nghĩa nhau.",
+        "example_en": "The memoir reflects the author’s subjectivity and personal emotions.",
+        "example_vi": "Hồi ký phản ánh tính chủ quan và cảm xúc cá nhân của tác giả.",
+        "ff_example_en": "The research report aims for objectivity by relying on verifiable evidence.",
+        "ff_example_vi": "Báo cáo nghiên cứu hướng tới tính khách quan bằng cách dựa vào bằng chứng có thể kiểm chứng."
       },
       "receptive_productive": "P"
     },
@@ -233,8 +259,12 @@
         "adverb": "validly"
       },
       "false_friend": {
-        "word_vi": "truth",
-        "explanation_vi": "'Validity' trong logic chỉ tính đúng đắn về hình thức của lập luận; 'truth' chỉ sự phù hợp của nội dung với thực tế — một lập luận có thể hợp lệ nhưng dựa trên tiền đề sai."
+        "word": "truth",
+        "explanation_vi": "'Validity' trong logic chỉ tính đúng đắn về hình thức của lập luận; 'truth' chỉ sự phù hợp của nội dung với thực tế — một lập luận có thể hợp lệ nhưng dựa trên tiền đề sai.",
+        "example_en": "The argument has validity because its conclusion follows logically from its premises.",
+        "example_vi": "Lập luận có tính hợp lệ vì kết luận suy ra hợp logic từ các tiền đề.",
+        "ff_example_en": "However, the truth of those premises must be checked against reality.",
+        "ff_example_vi": "Tuy nhiên, tính đúng sự thật của các tiền đề đó phải được kiểm tra với thực tế."
       },
       "receptive_productive": "P"
     },

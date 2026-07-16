@@ -61,7 +61,14 @@
         "adjective": "consensual",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "consensus",
+        "explanation_vi": "'Consent' là sự đồng ý của một cá nhân cho một hành động; 'consensus' là sự đồng thuận chung của một nhóm.",
+        "example_en": "Each patient gave consent before joining the trial.",
+        "example_vi": "Mỗi bệnh nhân đồng ý trước khi tham gia thử nghiệm.",
+        "ff_example_en": "The medical team reached a consensus on the trial design.",
+        "ff_example_vi": "Nhóm y tế đạt đồng thuận về thiết kế thử nghiệm."
+      },
       "receptive_productive": "P"
     },
     {
@@ -79,7 +86,14 @@
         "adjective": "autonomous",
         "adverb": "autonomously"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "automation",
+        "explanation_vi": "'Autonomy' là quyền hoặc khả năng tự quyết; 'automation' là việc dùng máy móc hoặc phần mềm để tự động thực hiện nhiệm vụ.",
+        "example_en": "The policy gives doctors greater autonomy in clinical decisions.",
+        "example_vi": "Chính sách trao cho bác sĩ quyền tự chủ lớn hơn trong quyết định lâm sàng.",
+        "ff_example_en": "The hospital uses automation to process routine records.",
+        "ff_example_vi": "Bệnh viện dùng tự động hóa để xử lý hồ sơ thường lệ."
+      },
       "receptive_productive": "P"
     },
     {
@@ -116,8 +130,12 @@
         "adverb": "beneficently"
       },
       "false_friend": {
-        "word_vi": "benevolence",
-        "explanation_vi": "'Beneficence' là hành động cụ thể mang lại lợi ích cho người khác; 'benevolence' là thái độ tốt bụng, thiện chí nói chung — không thay thế nhau trong ngữ cảnh y tế."
+        "word": "benevolence",
+        "explanation_vi": "'Beneficence' là hành động cụ thể mang lại lợi ích cho người khác; 'benevolence' là thái độ tốt bụng, thiện chí nói chung — không thay thế nhau trong ngữ cảnh y tế.",
+        "example_en": "Providing effective pain relief is an act of beneficence toward the patient.",
+        "example_vi": "Cung cấp biện pháp giảm đau hiệu quả là một hành động mang lại lợi ích cho bệnh nhân.",
+        "ff_example_en": "The doctor’s benevolence was evident in her generally kind attitude.",
+        "ff_example_vi": "Lòng nhân từ của bác sĩ thể hiện rõ trong thái độ tử tế nói chung của cô ấy."
       },
       "receptive_productive": "P"
     },
@@ -190,7 +208,14 @@
         "adjective": "allocated",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "location",
+        "explanation_vi": "'Allocation' là sự phân bổ nguồn lực; 'location' là địa điểm.",
+        "example_en": "The committee discussed the allocation of hospital beds.",
+        "example_vi": "Ủy ban thảo luận việc phân bổ giường bệnh.",
+        "ff_example_en": "The committee discussed the location of the new hospital.",
+        "ff_example_vi": "Ủy ban thảo luận địa điểm của bệnh viện mới."
+      },
       "receptive_productive": "P"
     },
     {
@@ -226,7 +251,14 @@
         "adjective": "paternalistic",
         "adverb": "paternalistically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "patriarchy",
+        "explanation_vi": "'Paternalism' là áp đặt quyết định với lý do bảo vệ lợi ích của người khác; 'patriarchy' là hệ thống xã hội trong đó nam giới nắm quyền chi phối.",
+        "example_en": "The policy was criticised for medical paternalism.",
+        "example_vi": "Chính sách bị chỉ trích vì tính gia trưởng trong y khoa.",
+        "ff_example_en": "The study examined how patriarchy affected women's access to healthcare.",
+        "ff_example_vi": "Nghiên cứu xem xét cách chế độ phụ quyền ảnh hưởng đến khả năng tiếp cận y tế của phụ nữ."
+      },
       "receptive_productive": "P"
     },
     {

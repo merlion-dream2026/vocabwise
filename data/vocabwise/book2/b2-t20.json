@@ -61,7 +61,14 @@
         "adjective": "hypothetical",
         "adverb": "hypothetically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "theory",
+        "explanation_vi": "'Hypothesis' là giả thuyết cụ thể có thể kiểm chứng; 'theory' là hệ thống giải thích rộng đã được hỗ trợ bởi nhiều bằng chứng.",
+        "example_en": "The researchers tested a hypothesis about plant growth.",
+        "example_vi": "Các nhà nghiên cứu kiểm tra một giả thuyết về sự phát triển của cây.",
+        "ff_example_en": "The lesson explained a scientific theory about plant evolution.",
+        "ff_example_vi": "Bài học giải thích một lý thuyết khoa học về sự tiến hóa của thực vật."
+      },
       "receptive_productive": "P"
     },
     {
@@ -79,7 +86,14 @@
         "adjective": "experimental",
         "adverb": "experimentally"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "experience",
+        "explanation_vi": "'Experiment' là thí nghiệm có kiểm soát; 'experience' là trải nghiệm hoặc kinh nghiệm.",
+        "example_en": "The students conducted an experiment in the laboratory.",
+        "example_vi": "Các học sinh tiến hành một thí nghiệm trong phòng thí nghiệm.",
+        "ff_example_en": "The students gained valuable experience in the laboratory.",
+        "ff_example_vi": "Các học sinh có được kinh nghiệm quý báu trong phòng thí nghiệm."
+      },
       "receptive_productive": "P"
     },
     {
@@ -97,7 +111,14 @@
         "adjective": "variable / varying",
         "adverb": "variably"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "various",
+        "explanation_vi": "'Variable' là biến số hoặc tính từ nghĩa là có thể thay đổi; 'various' nghĩa là nhiều loại khác nhau.",
+        "example_en": "The researchers controlled every variable in the experiment.",
+        "example_vi": "Các nhà nghiên cứu kiểm soát mọi biến số trong thí nghiệm.",
+        "ff_example_en": "The researchers tested various materials in the experiment.",
+        "ff_example_vi": "Các nhà nghiên cứu thử nghiệm nhiều loại vật liệu khác nhau trong thí nghiệm."
+      },
       "receptive_productive": "R"
     },
     {
@@ -115,7 +136,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "lavatory",
+        "explanation_vi": "'Laboratory' là phòng thí nghiệm; 'lavatory' là nhà vệ sinh.",
+        "example_en": "The students carried the samples into the laboratory.",
+        "example_vi": "Các học sinh mang mẫu vật vào phòng thí nghiệm.",
+        "ff_example_en": "The students washed their hands in the lavatory.",
+        "ff_example_vi": "Các học sinh rửa tay trong nhà vệ sinh."
+      },
       "receptive_productive": "P"
     },
     {
@@ -133,7 +161,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "date",
+        "explanation_vi": "'Data' là dữ liệu; 'date' là ngày tháng hoặc cuộc hẹn.",
+        "example_en": "The researcher entered the data into the computer.",
+        "example_vi": "Nhà nghiên cứu nhập dữ liệu vào máy tính.",
+        "ff_example_en": "The researcher entered the date at the top of the form.",
+        "ff_example_vi": "Nhà nghiên cứu điền ngày tháng ở đầu biểu mẫu."
+      },
       "receptive_productive": "P"
     },
     {
@@ -151,7 +186,14 @@
         "adjective": "analytical",
         "adverb": "analytically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "analysis",
+        "explanation_vi": "'Analyse' là động từ nghĩa là phân tích; 'analysis' là danh từ chỉ sự hoặc bài phân tích.",
+        "example_en": "The students will analyse the survey results.",
+        "example_vi": "Các học sinh sẽ phân tích kết quả khảo sát.",
+        "ff_example_en": "The students will write an analysis of the survey results.",
+        "ff_example_vi": "Các học sinh sẽ viết một bài phân tích kết quả khảo sát."
+      },
       "receptive_productive": "P"
     },
     {
@@ -187,7 +229,14 @@
         "adjective": "methodological",
         "adverb": "methodologically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "method",
+        "explanation_vi": "'Methodology' là hệ thống và cơ sở lý luận của các phương pháp nghiên cứu; 'method' là một cách làm cụ thể.",
+        "example_en": "The paper explains the methodology of the entire study.",
+        "example_vi": "Bài báo giải thích phương pháp luận của toàn bộ nghiên cứu.",
+        "ff_example_en": "The paper describes the method used to collect the samples.",
+        "ff_example_vi": "Bài báo mô tả phương pháp dùng để thu thập mẫu."
+      },
       "receptive_productive": "R"
     },
     {
@@ -205,7 +254,14 @@
         "adjective": "evident",
         "adverb": "evidently"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "proof",
+        "explanation_vi": "'Evidence' là thông tin hoặc dữ liệu hỗ trợ một kết luận; 'proof' là bằng chứng đủ sức xác lập điều gì đó là đúng, nên thường mạnh và dứt khoát hơn.",
+        "example_en": "The scientist presented evidence that the treatment might work.",
+        "example_vi": "Nhà khoa học trình bày bằng chứng cho thấy phương pháp điều trị có thể hiệu quả.",
+        "ff_example_en": "The scientist said the results were not yet proof that the treatment worked.",
+        "ff_example_vi": "Nhà khoa học nói rằng kết quả vẫn chưa phải là bằng chứng xác thực rằng phương pháp điều trị có hiệu quả."
+      },
       "receptive_productive": "P"
     },
     {
@@ -224,8 +280,12 @@
         "adverb": "theoretically"
       },
       "false_friend": {
-        "word_vi": "guess / opinion",
-        "explanation_vi": "Trong khoa học, 'theory' không phải là đoán mò — đó là giải thích được chứng minh bằng nhiều bằng chứng. Nhiều người nhầm 'theory' với 'guess' hoặc 'opinion'."
+        "word": "guess",
+        "explanation_vi": "Trong khoa học, 'theory' không phải là đoán mò — đó là giải thích được chứng minh bằng nhiều bằng chứng. Nhiều người nhầm 'theory' với 'guess' hoặc 'opinion'.",
+        "example_en": "The theory of evolution is supported by extensive scientific evidence.",
+        "example_vi": "Thuyết tiến hóa được hỗ trợ bởi rất nhiều bằng chứng khoa học.",
+        "ff_example_en": "Before seeing the evidence, the student made a guess about the result.",
+        "ff_example_vi": "Trước khi xem bằng chứng, học sinh đưa ra một phỏng đoán về kết quả."
       },
       "receptive_productive": "P"
     },
@@ -281,8 +341,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "repeat / copy",
-        "explanation_vi": "'Replicate' trong khoa học có nghĩa là lặp lại thí nghiệm với điều kiện giống hệt để xác minh kết quả — mang hàm ý kiểm chứng nghiêm ngặt hơn 'repeat' hay 'copy'."
+        "word": "repeat",
+        "explanation_vi": "'Replicate' trong khoa học có nghĩa là lặp lại thí nghiệm với điều kiện giống hệt để xác minh kết quả — mang hàm ý kiểm chứng nghiêm ngặt hơn 'repeat' hay 'copy'.",
+        "example_en": "Another laboratory will replicate the experiment under the same conditions.",
+        "example_vi": "Một phòng thí nghiệm khác sẽ tái lập thí nghiệm trong cùng điều kiện.",
+        "ff_example_en": "The students will repeat the procedure once for extra practice.",
+        "ff_example_vi": "Các học sinh sẽ lặp lại quy trình một lần để luyện tập thêm."
       },
       "receptive_productive": "R"
     },
@@ -320,8 +384,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "invention",
-        "explanation_vi": "A 'breakthrough' là khám phá hoặc tiến bộ đột ngột; 'invention' là việc tạo ra một thứ mới hoàn toàn — khám phá DNA là breakthrough, không phải invention."
+        "word": "invention",
+        "explanation_vi": "A 'breakthrough' là khám phá hoặc tiến bộ đột ngột; 'invention' là việc tạo ra một thứ mới hoàn toàn — khám phá DNA là breakthrough, không phải invention.",
+        "example_en": "The discovery of the new treatment was a major medical breakthrough.",
+        "example_vi": "Việc phát hiện phương pháp điều trị mới là một bước đột phá lớn trong y học.",
+        "ff_example_en": "The device used to deliver the treatment was a new invention.",
+        "ff_example_vi": "Thiết bị dùng để đưa thuốc điều trị vào cơ thể là một phát minh mới."
       },
       "receptive_productive": "R"
     }

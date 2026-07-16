@@ -95,7 +95,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "high",
+        "explanation_vi": "“Hi” là lời chào thân mật; “high” nghĩa là cao. Hai từ phát âm giống nhau.",
+        "example_en": "Lan said hi to the new student.",
+        "example_vi": "Lan nói lời chào với học sinh mới.",
+        "ff_example_en": "Lan raised her hand high to greet the new student.",
+        "ff_example_vi": "Lan giơ tay cao để chào học sinh mới."
+      }
     },
     {
       "id": 4,
@@ -112,7 +119,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "buy",
+        "explanation_vi": "“Bye” là lời tạm biệt; “buy” nghĩa là mua. Hai từ phát âm giống nhau.",
+        "example_en": "Lan said bye before leaving the shop.",
+        "example_vi": "Lan nói tạm biệt trước khi rời cửa hàng.",
+        "ff_example_en": "Lan decided to buy a gift before leaving the shop.",
+        "ff_example_vi": "Lan quyết định mua một món quà trước khi rời cửa hàng."
+      }
     },
     {
       "id": 5,
@@ -129,7 +143,14 @@
         "adjective": "nice / nicer / nicest",
         "adverb": "nicely"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "kind",
+        "explanation_vi": "“Nice” là từ chung nghĩa là dễ chịu, tốt hoặc thân thiện; “kind” nhấn mạnh sự tốt bụng và quan tâm đến người khác.",
+        "example_en": "The new student was nice to everyone in the class.",
+        "example_vi": "Học sinh mới thân thiện với mọi người trong lớp.",
+        "ff_example_en": "The new student was kind enough to help Lan carry her books.",
+        "ff_example_vi": "Học sinh mới tốt bụng giúp Lan mang sách."
+      }
     },
     {
       "id": 6,
@@ -146,7 +167,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "look",
+        "explanation_vi": "“See” là nhìn thấy; “look” là chủ động hướng mắt về phía một vật.",
+        "example_en": "I can see our teacher near the gate.",
+        "example_vi": "Tôi có thể nhìn thấy giáo viên gần cổng.",
+        "ff_example_en": "Look at our teacher near the gate.",
+        "ff_example_vi": "Hãy nhìn giáo viên của chúng ta gần cổng."
+      }
     },
     {
       "id": 7,
@@ -198,8 +226,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "bow /bəʊ/ (nơ / cung tên)",
-        "explanation_vi": "Cùng chính tả nhưng phát âm khác: 'bow' /baʊ/ = cúi chào; 'bow' /bəʊ/ = nơ thắt / cây cung. Đây là từ đồng âm dị nghĩa trong tiếng Anh."
+        "word": "",
+        "explanation_vi": "Cùng chính tả nhưng phát âm khác: 'bow' /baʊ/ = cúi chào; 'bow' /bəʊ/ = nơ thắt / cây cung. Đây là từ đồng âm dị nghĩa trong tiếng Anh.",
+        "example_en": "The actor gave a deep bow at the end of the school play.",
+        "example_vi": "Diễn viên cúi chào thật sâu vào cuối vở kịch của trường.",
+        "ff_example_en": "The actor wore a red bow on his costume during the school play.",
+        "ff_example_vi": "Diễn viên đeo một chiếc nơ đỏ trên trang phục trong vở kịch của trường."
       }
     },
     {
@@ -234,7 +266,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "sentence",
+        "explanation_vi": "“Phrase” là nhóm từ không nhất thiết hoàn chỉnh; “sentence” là câu hoàn chỉnh.",
+        "example_en": "The teacher wrote a polite phrase on the board.",
+        "example_vi": "Giáo viên viết một cụm từ lịch sự lên bảng.",
+        "ff_example_en": "The teacher wrote a complete sentence using the phrase.",
+        "ff_example_vi": "Giáo viên viết một câu hoàn chỉnh sử dụng cụm từ đó."
+      }
     },
     {
       "id": 12,
@@ -268,7 +307,14 @@
         "adjective": "strange",
         "adverb": "strangely"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "foreigner",
+        "explanation_vi": "“Stranger” là người mình không quen; “foreigner” là người đến từ quốc gia khác.",
+        "example_en": "A stranger asked Lan for directions.",
+        "example_vi": "Một người lạ hỏi Lan đường đi.",
+        "ff_example_en": "A foreigner asked Lan for directions in English.",
+        "ff_example_vi": "Một người nước ngoài hỏi Lan đường đi bằng tiếng Anh."
+      }
     },
     {
       "id": 14,
@@ -285,7 +331,14 @@
         "adjective": "responsive",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "reply",
+        "explanation_vi": "“Response” là phản hồi nói chung; “reply” thường là câu trả lời trực tiếp cho lời nói, tin nhắn hoặc email.",
+        "example_en": "Lan’s friendly response made the stranger feel welcome.",
+        "example_vi": "Phản hồi thân thiện của Lan khiến người lạ cảm thấy được chào đón.",
+        "ff_example_en": "Lan sent a polite reply to the stranger’s message.",
+        "ff_example_vi": "Lan gửi một câu trả lời lịch sự cho tin nhắn của người lạ."
+      }
     },
     {
       "id": 15,
@@ -302,7 +355,14 @@
         "adjective": "casual / formal",
         "adverb": "casually"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "causal",
+        "explanation_vi": "“Casual” nghĩa là thân mật hoặc không trang trọng; “causal” nghĩa là thuộc về quan hệ nguyên nhân–kết quả. Hai từ có cách viết gần giống nhau.",
+        "example_en": "Lan used a casual greeting with her classmate.",
+        "example_vi": "Lan dùng lời chào thân mật với bạn cùng lớp.",
+        "ff_example_en": "The report examined the causal link between stress and sleep.",
+        "ff_example_vi": "Báo cáo xem xét mối liên hệ nhân quả giữa căng thẳng và giấc ngủ."
+      }
     }
   ],
   "exercises": {

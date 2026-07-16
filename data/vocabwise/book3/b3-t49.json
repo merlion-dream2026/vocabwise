@@ -188,8 +188,12 @@
         "adverb": "confidently"
       },
       "false_friend": {
-        "word_vi": "confidential",
-        "explanation_vi": "'Confidence' là sự tự tin; 'confidential' nghĩa là bí mật, không được tiết lộ — hoàn toàn khác nhau."
+        "word": "confidential",
+        "explanation_vi": "'Confidence' là sự tự tin; 'confidential' nghĩa là bí mật, không được tiết lộ — hoàn toàn khác nhau.",
+        "example_en": "Practice increased the speaker’s confidence before the presentation.",
+        "example_vi": "Việc luyện tập làm tăng sự tự tin của diễn giả trước bài thuyết trình.",
+        "ff_example_en": "The speaker kept the client’s financial data confidential during the presentation.",
+        "ff_example_vi": "Diễn giả giữ bí mật dữ liệu tài chính của khách hàng trong bài thuyết trình."
       },
       "receptive_productive": "P"
     },

@@ -61,7 +61,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "manager",
+        "explanation_vi": "'Director' trong điện ảnh là đạo diễn chịu trách nhiệm sáng tạo; 'manager' quản lý con người, lịch trình hoặc hoạt động kinh doanh.",
+        "example_en": "The director explained how the final scene should look.",
+        "example_vi": "Đạo diễn giải thích cảnh cuối nên được thể hiện như thế nào.",
+        "ff_example_en": "The production manager arranged the schedule for the final scene.",
+        "ff_example_vi": "Quản lý sản xuất sắp xếp lịch quay cho cảnh cuối."
+      },
       "receptive_productive": "P"
     },
     {
@@ -79,7 +86,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "gender",
+        "explanation_vi": "'Genre' là thể loại nghệ thuật; 'gender' là giới.",
+        "example_en": "The teacher asked students to identify the film's genre.",
+        "example_vi": "Giáo viên yêu cầu học sinh xác định thể loại của bộ phim.",
+        "ff_example_en": "The teacher asked students to discuss gender roles in the film.",
+        "ff_example_vi": "Giáo viên yêu cầu học sinh thảo luận về vai trò giới trong bộ phim."
+      },
       "receptive_productive": "P"
     },
     {
@@ -97,7 +111,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "caste",
+        "explanation_vi": "'Cast' là dàn diễn viên hoặc động từ phân vai; 'caste' là đẳng cấp xã hội cha truyền con nối.",
+        "example_en": "The film's cast attended the premiere.",
+        "example_vi": "Dàn diễn viên của bộ phim tham dự buổi công chiếu.",
+        "ff_example_en": "The documentary examined the caste system in the region.",
+        "ff_example_vi": "Bộ phim tài liệu xem xét hệ thống đẳng cấp trong khu vực."
+      },
       "receptive_productive": "P"
     },
     {
@@ -115,7 +136,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "product",
+        "explanation_vi": "'Production' là quá trình sản xuất hoặc một tác phẩm sân khấu/điện ảnh; 'product' là sản phẩm tạo ra để sử dụng hoặc bán.",
+        "example_en": "The studio began production of the film in June.",
+        "example_vi": "Hãng phim bắt đầu sản xuất bộ phim vào tháng Sáu.",
+        "ff_example_en": "The studio promoted the finished film as its main product of the year.",
+        "ff_example_vi": "Hãng phim quảng bá bộ phim hoàn chỉnh như sản phẩm chính trong năm."
+      },
       "receptive_productive": "P"
     },
     {
@@ -151,7 +179,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "relief",
+        "explanation_vi": "'Release' là phát hành, thả hoặc giải phóng; 'relief' là sự nhẹ nhõm hoặc cứu trợ.",
+        "example_en": "The band announced the release of its new album.",
+        "example_vi": "Ban nhạc thông báo phát hành album mới.",
+        "ff_example_en": "The band felt relief after the album received positive reviews.",
+        "ff_example_vi": "Ban nhạc cảm thấy nhẹ nhõm sau khi album nhận được đánh giá tích cực."
+      },
       "receptive_productive": "P"
     },
     {
@@ -169,7 +204,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "audition",
+        "explanation_vi": "'Audience' là khán giả; 'audition' là buổi thử vai hoặc thử giọng.",
+        "example_en": "The singer performed in front of a large audience.",
+        "example_vi": "Ca sĩ biểu diễn trước một lượng khán giả đông đảo.",
+        "ff_example_en": "The singer performed the same song at an audition.",
+        "ff_example_vi": "Ca sĩ biểu diễn cùng bài hát trong một buổi thử giọng."
+      },
       "receptive_productive": "P"
     },
     {
@@ -205,7 +247,14 @@
         "adjective": "documentary",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "documentation",
+        "explanation_vi": "'Documentary' là phim hoặc chương trình tài liệu; 'documentation' là bộ tài liệu, hồ sơ hoặc hướng dẫn.",
+        "example_en": "The students watched a documentary about climate change.",
+        "example_vi": "Các học sinh xem một bộ phim tài liệu về biến đổi khí hậu.",
+        "ff_example_en": "The students read the documentation for the climate-data software.",
+        "ff_example_vi": "Các học sinh đọc tài liệu hướng dẫn của phần mềm dữ liệu khí hậu."
+      },
       "receptive_productive": "P"
     },
     {
@@ -223,7 +272,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "seen",
+        "explanation_vi": "'Scene' là cảnh trong phim hoặc nơi xảy ra sự việc; 'seen' là quá khứ phân từ của 'see'.",
+        "example_en": "The final scene was filmed on the beach.",
+        "example_vi": "Cảnh cuối được quay trên bãi biển.",
+        "ff_example_en": "The director had never seen such a crowded beach.",
+        "ff_example_vi": "Đạo diễn chưa từng thấy một bãi biển đông như vậy."
+      },
       "receptive_productive": "P"
     },
     {
@@ -241,7 +297,14 @@
         "adjective": "award-winning",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "reward",
+        "explanation_vi": "'Award' là giải thưởng chính thức ghi nhận thành tích; 'reward' là phần thưởng cho một hành động hoặc kết quả cụ thể.",
+        "example_en": "The festival gave the director an award for the film.",
+        "example_vi": "Liên hoan trao cho đạo diễn một giải thưởng cho bộ phim.",
+        "ff_example_en": "The studio gave the crew a bonus as a reward for finishing early.",
+        "ff_example_vi": "Hãng phim thưởng thêm cho đoàn làm phim vì hoàn thành sớm."
+      },
       "receptive_productive": "P"
     },
     {
@@ -314,8 +377,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "prequel",
-        "explanation_vi": "Một 'sequel' kể câu chuyện xảy ra SAU câu chuyện gốc; một 'prequel' kể câu chuyện xảy ra TRƯỚC câu chuyện gốc. Ví dụ: Star Wars: Episode I là prequel của Episode IV."
+        "word": "prequel",
+        "explanation_vi": "Một 'sequel' kể câu chuyện xảy ra SAU câu chuyện gốc; một 'prequel' kể câu chuyện xảy ra TRƯỚC câu chuyện gốc. Ví dụ: Star Wars: Episode I là prequel của Episode IV.",
+        "example_en": "The sequel continues the hero’s story ten years after the original film.",
+        "example_vi": "Phần tiếp theo tiếp tục câu chuyện của người hùng mười năm sau bộ phim gốc.",
+        "ff_example_en": "The prequel shows the hero’s life ten years before the original film.",
+        "ff_example_vi": "Phần tiền truyện kể về cuộc đời người hùng mười năm trước bộ phim gốc."
       },
       "receptive_productive": "P"
     }

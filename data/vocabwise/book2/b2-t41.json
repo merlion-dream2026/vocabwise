@@ -62,8 +62,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "emigrant",
-        "explanation_vi": "Một 'immigrant' là người đến một quốc gia mới để định cư; một 'emigrant' là người rời khỏi quê hương của mình. Cùng người, nhưng góc nhìn khác: từ quan điểm của đất nước tiếp nhận, họ là immigrant; từ quan điểm của đất nước gốc, họ là emigrant."
+        "word": "emigrant",
+        "explanation_vi": "Một 'immigrant' là người đến một quốc gia mới để định cư; một 'emigrant' là người rời khỏi quê hương của mình. Cùng người, nhưng góc nhìn khác: từ quan điểm của đất nước tiếp nhận, họ là immigrant; từ quan điểm của đất nước gốc, họ là emigrant.",
+        "example_en": "After settling in Canada, Hoa was described there as an immigrant from Vietnam.",
+        "example_vi": "Sau khi định cư tại Canada, Hoa được gọi ở đó là một người nhập cư từ Việt Nam.",
+        "ff_example_en": "From Vietnam’s perspective, Hoa was an emigrant who had moved to Canada.",
+        "ff_example_vi": "Từ góc nhìn của Việt Nam, Hoa là một người di cư ra nước ngoài để chuyển đến Canada."
       },
       "receptive_productive": "P"
     },
@@ -118,7 +122,14 @@
         "adjective": "discriminatory",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "distinction",
+        "explanation_vi": "'Discrimination' thường chỉ sự đối xử bất công; 'distinction' là sự khác biệt hoặc việc phân biệt trung tính giữa hai điều.",
+        "example_en": "The company was accused of discrimination against older applicants.",
+        "example_vi": "Công ty bị cáo buộc phân biệt đối xử với ứng viên lớn tuổi.",
+        "ff_example_en": "The report made a clear distinction between age and experience.",
+        "ff_example_vi": "Báo cáo nêu rõ sự khác biệt giữa tuổi tác và kinh nghiệm."
+      },
       "receptive_productive": "P"
     },
     {
@@ -155,8 +166,12 @@
         "adverb": "nationally"
       },
       "false_friend": {
-        "word_vi": "citizenship",
-        "explanation_vi": "'Nationality' là thuộc tính pháp lý xác định quốc gia bạn thuộc về; 'citizenship' là quyền công dân — quyền được trao bởi một quốc gia và kèm theo nghĩa vụ. Hai từ thường dùng thay thế nhau nhưng có sắc thái khác nhau trong luật."
+        "word": "citizenship",
+        "explanation_vi": "'Nationality' là thuộc tính pháp lý xác định quốc gia bạn thuộc về; 'citizenship' là quyền công dân — quyền được trao bởi một quốc gia và kèm theo nghĩa vụ. Hai từ thường dùng thay thế nhau nhưng có sắc thái khác nhau trong luật.",
+        "example_en": "Mai’s nationality is Vietnamese, as shown on her passport.",
+        "example_vi": "Quốc tịch của Mai là Việt Nam, như được ghi trên hộ chiếu.",
+        "ff_example_en": "After living abroad for many years, Mai applied for citizenship in her new country.",
+        "ff_example_vi": "Sau nhiều năm sống ở nước ngoài, Mai nộp đơn xin quyền công dân tại quốc gia mới."
       },
       "receptive_productive": "P"
     },
@@ -175,7 +190,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "politics",
+        "explanation_vi": "'Policy' là chính sách hoặc nguyên tắc hành động; 'politics' là hoạt động và lĩnh vực chính trị.",
+        "example_en": "The government introduced a new education policy.",
+        "example_vi": "Chính phủ ban hành một chính sách giáo dục mới.",
+        "ff_example_en": "The students discussed education and politics in class.",
+        "ff_example_vi": "Các học sinh thảo luận về giáo dục và chính trị trong lớp."
+      },
       "receptive_productive": "P"
     },
     {
@@ -229,7 +251,14 @@
         "adjective": "identifiable",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "identification",
+        "explanation_vi": "'Identity' là danh tính hoặc bản sắc của một người hay nhóm; 'identification' là giấy tờ hoặc quá trình xác định người đó là ai.",
+        "example_en": "The passport confirmed the traveller's identity.",
+        "example_vi": "Hộ chiếu xác nhận danh tính của hành khách.",
+        "ff_example_en": "The officer asked the traveller to show identification.",
+        "ff_example_vi": "Nhân viên yêu cầu hành khách xuất trình giấy tờ tùy thân."
+      },
       "receptive_productive": "P"
     },
     {
@@ -265,7 +294,14 @@
         "adjective": "adaptable",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "adopt",
+        "explanation_vi": "'Adapt' là điều chỉnh để phù hợp; 'adopt' là tiếp nhận một ý tưởng, phương pháp hoặc nhận nuôi.",
+        "example_en": "The school adapted the programme for younger students.",
+        "example_vi": "Nhà trường điều chỉnh chương trình cho học sinh nhỏ tuổi hơn.",
+        "ff_example_en": "The school adopted a new programme for younger students.",
+        "ff_example_vi": "Nhà trường áp dụng một chương trình mới cho học sinh nhỏ tuổi hơn."
+      },
       "receptive_productive": "P"
     },
     {
@@ -320,8 +356,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "refugee",
-        "explanation_vi": "Một 'asylum seeker' đang CHỜ được công nhận là người tị nạn — hồ sơ của họ đang được xem xét; một 'refugee' đã được CÔNG NHẬN chính thức là đang chạy trốn nguy hiểm và được cấp quy chế bảo vệ."
+        "word": "refugee",
+        "explanation_vi": "Một 'asylum seeker' đang CHỜ được công nhận là người tị nạn — hồ sơ của họ đang được xem xét; một 'refugee' đã được CÔNG NHẬN chính thức là đang chạy trốn nguy hiểm và được cấp quy chế bảo vệ.",
+        "example_en": "The asylum seeker is waiting for the government to decide her application.",
+        "example_vi": "Người xin tị nạn đang chờ chính phủ quyết định về hồ sơ của cô ấy.",
+        "ff_example_en": "Her brother has already been officially recognised as a refugee.",
+        "ff_example_vi": "Anh trai cô ấy đã được chính thức công nhận là người tị nạn."
       },
       "receptive_productive": "P"
     }

@@ -98,8 +98,12 @@
         "adverb": "dependently"
       },
       "false_friend": {
-        "word_vi": "dependence",
-        "explanation_vi": "'Dependency' thường dùng trong bối cảnh chính sách (tỷ lệ phụ thuộc); 'dependence' mang nghĩa trạng thái phụ thuộc tổng quát hơn — không hoàn toàn thay thế nhau."
+        "word": "dependence",
+        "explanation_vi": "'Dependency' thường dùng trong bối cảnh chính sách (tỷ lệ phụ thuộc); 'dependence' mang nghĩa trạng thái phụ thuộc tổng quát hơn — không hoàn toàn thay thế nhau.",
+        "example_en": "The policy report calculated the old-age dependency ratio.",
+        "example_vi": "Báo cáo chính sách tính tỷ lệ phụ thuộc của người cao tuổi.",
+        "ff_example_en": "It also examined older people’s dependence on family support.",
+        "ff_example_vi": "Báo cáo cũng xem xét sự phụ thuộc của người cao tuổi vào hỗ trợ gia đình."
       },
       "receptive_productive": "P"
     },
@@ -136,7 +140,14 @@
         "adjective": "isolated / isolating",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "insulation",
+        "explanation_vi": "'Isolation' là sự cô lập hoặc cách ly; 'insulation' là vật liệu hoặc quá trình cách nhiệt, cách âm.",
+        "example_en": "The patient remained in isolation for a week.",
+        "example_vi": "Bệnh nhân được cách ly trong một tuần.",
+        "ff_example_en": "The hospital installed better insulation in the patient's room.",
+        "ff_example_vi": "Bệnh viện lắp vật liệu cách nhiệt tốt hơn trong phòng bệnh nhân."
+      },
       "receptive_productive": "P"
     },
     {
@@ -154,7 +165,14 @@
         "adjective": "contributory / contributing",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "distribution",
+        "explanation_vi": "'Contribution' là sự đóng góp; 'distribution' là sự phân phối.",
+        "example_en": "The charity thanked Lan for her financial contribution.",
+        "example_vi": "Tổ chức từ thiện cảm ơn Lan vì khoản đóng góp tài chính.",
+        "ff_example_en": "The charity organised the distribution of food supplies.",
+        "ff_example_vi": "Tổ chức từ thiện tổ chức việc phân phát thực phẩm."
+      },
       "receptive_productive": "P"
     },
     {
@@ -191,8 +209,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "well-being",
-        "explanation_vi": "'Welfare' thường chỉ hệ thống hỗ trợ xã hội của nhà nước; 'well-being' mang nghĩa rộng hơn về trạng thái hạnh phúc tổng thể — không thay thế nhau trong mọi ngữ cảnh."
+        "word": "well-being",
+        "explanation_vi": "'Welfare' thường chỉ hệ thống hỗ trợ xã hội của nhà nước; 'well-being' mang nghĩa rộng hơn về trạng thái hạnh phúc tổng thể — không thay thế nhau trong mọi ngữ cảnh.",
+        "example_en": "The government expanded welfare payments for unemployed families.",
+        "example_vi": "Chính phủ mở rộng các khoản trợ cấp phúc lợi cho các gia đình thất nghiệp.",
+        "ff_example_en": "The study examined whether those payments improved family well-being.",
+        "ff_example_vi": "Nghiên cứu xem xét liệu các khoản trợ cấp đó có cải thiện trạng thái an sinh tổng thể của gia đình hay không."
       },
       "receptive_productive": "P"
     },

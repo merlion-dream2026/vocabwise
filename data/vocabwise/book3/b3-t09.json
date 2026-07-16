@@ -61,7 +61,14 @@
         "adjective": "addictive / addicted",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "addition",
+        "explanation_vi": "'Addiction' là sự nghiện; 'addition' là sự thêm vào hoặc phép cộng.",
+        "example_en": "The campaign warned teenagers about social-media addiction.",
+        "example_vi": "Chiến dịch cảnh báo thanh thiếu niên về chứng nghiện mạng xã hội.",
+        "ff_example_en": "The addition of time limits made the app safer for teenagers.",
+        "ff_example_vi": "Việc bổ sung giới hạn thời gian khiến ứng dụng an toàn hơn cho thanh thiếu niên."
+      },
       "receptive_productive": "P"
     },
     {
@@ -80,8 +87,12 @@
         "adverb": "validly"
       },
       "false_friend": {
-        "word_vi": "evaluation",
-        "explanation_vi": "'Validation' là sự xác nhận hoặc công nhận giá trị; 'evaluation' là sự đánh giá chất lượng — khác nghĩa và ngữ cảnh sử dụng."
+        "word": "evaluation",
+        "explanation_vi": "'Validation' là sự xác nhận hoặc công nhận giá trị; 'evaluation' là sự đánh giá chất lượng — khác nghĩa và ngữ cảnh sử dụng.",
+        "example_en": "Receiving likes provided social validation for the teenager’s post.",
+        "example_vi": "Việc nhận được lượt thích mang lại sự công nhận xã hội cho bài đăng của thiếu niên.",
+        "ff_example_en": "A teacher’s evaluation focused instead on the quality of the post’s argument.",
+        "ff_example_vi": "Đánh giá của giáo viên lại tập trung vào chất lượng lập luận của bài đăng."
       },
       "receptive_productive": "P"
     },
@@ -100,7 +111,14 @@
         "adjective": "distorted / distorting",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "distraction",
+        "explanation_vi": "'Distortion' là sự bóp méo thông tin hoặc hình ảnh; 'distraction' là điều làm mất tập trung.",
+        "example_en": "The editor corrected a distortion of the survey results.",
+        "example_vi": "Biên tập viên sửa một sự bóp méo kết quả khảo sát.",
+        "ff_example_en": "The editor turned off notifications to avoid distraction.",
+        "ff_example_vi": "Biên tập viên tắt thông báo để tránh bị phân tâm."
+      },
       "receptive_productive": "P"
     },
     {
@@ -137,8 +155,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "distraction",
-        "explanation_vi": "'Detachment' là sự thoát ly hoặc rút lui có chủ đích; 'distraction' là sự phân tâm — hai khái niệm khác nhau về chủ ý."
+        "word": "distraction",
+        "explanation_vi": "'Detachment' là sự thoát ly hoặc rút lui có chủ đích; 'distraction' là sự phân tâm — hai khái niệm khác nhau về chủ ý.",
+        "example_en": "Digital detachment helped Lan step away deliberately from social media.",
+        "example_vi": "Việc chủ động tách khỏi công nghệ giúp Lan rời xa mạng xã hội có chủ đích.",
+        "ff_example_en": "A constant stream of notifications was a distraction during her study time.",
+        "ff_example_vi": "Luồng thông báo liên tục là một yếu tố gây phân tâm trong thời gian cô ấy học."
       },
       "receptive_productive": "P"
     },
@@ -157,7 +179,14 @@
         "adjective": "curated",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "created",
+        "explanation_vi": "'Curated' nghĩa là được chọn lọc và sắp xếp cẩn thận; 'created' nghĩa là được tạo ra.",
+        "example_en": "The editor curated a collection of reliable news stories.",
+        "example_vi": "Biên tập viên tuyển chọn một bộ tin đáng tin cậy.",
+        "ff_example_en": "The editor created a new page for the collection.",
+        "ff_example_vi": "Biên tập viên tạo một trang mới cho bộ sưu tập."
+      },
       "receptive_productive": "P"
     },
     {
@@ -193,7 +222,14 @@
         "adjective": "anonymous",
         "adverb": "anonymously"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "unanimity",
+        "explanation_vi": "'Anonymity' là tình trạng ẩn danh; 'unanimity' là sự nhất trí hoàn toàn.",
+        "example_en": "The platform protects users' anonymity during the survey.",
+        "example_vi": "Nền tảng bảo vệ tính ẩn danh của người dùng trong khảo sát.",
+        "ff_example_en": "The committee reached unanimity on the survey rules.",
+        "ff_example_vi": "Ủy ban đạt được sự nhất trí hoàn toàn về quy tắc khảo sát."
+      },
       "receptive_productive": "P"
     },
     {

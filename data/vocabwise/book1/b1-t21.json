@@ -78,7 +78,14 @@
         "adjective": "kind / unkind",
         "adverb": "kindly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "type",
+        "explanation_vi": "“Kind” có thể nghĩa là tốt bụng, nhưng khi là danh từ nó cũng có nghĩa là loại; “type” chỉ loại hoặc kiểu và không mang nghĩa tốt bụng.",
+        "example_en": "Lan is kind to every new student in her class.",
+        "example_vi": "Lan tốt bụng với mọi học sinh mới trong lớp.",
+        "ff_example_en": "Lan enjoys this type of group activity.",
+        "ff_example_vi": "Lan thích loại hoạt động nhóm này."
+      }
     },
     {
       "id": 3,
@@ -112,7 +119,14 @@
         "adjective": "trustworthy / trusted / trusting",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "believe",
+        "explanation_vi": "“Trust” là tin vào sự trung thực hoặc đáng tin cậy của người nào đó; “believe” là cho rằng một thông tin hoặc lời nói là đúng.",
+        "example_en": "I trust Minh because he always keeps his promises.",
+        "example_vi": "Tôi tin tưởng Minh vì cậu ấy luôn giữ lời hứa.",
+        "ff_example_en": "I believe Minh when he says the meeting starts at nine.",
+        "ff_example_vi": "Tôi tin lời Minh khi cậu ấy nói cuộc họp bắt đầu lúc chín giờ."
+      }
     },
     {
       "id": 5,
@@ -129,7 +143,14 @@
         "adjective": "laughable",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "smile",
+        "explanation_vi": "“Laugh” là cười thành tiếng; “smile” là mỉm cười, thường không phát ra âm thanh.",
+        "example_en": "Lan laughed when her friend told a joke.",
+        "example_vi": "Lan bật cười khi bạn cô ấy kể một câu chuyện cười.",
+        "ff_example_en": "Lan smiled when her friend gave her a gift.",
+        "ff_example_vi": "Lan mỉm cười khi bạn cô ấy tặng quà."
+      }
     },
     {
       "id": 6,
@@ -180,7 +201,14 @@
         "adjective": "argumentative",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "discussion",
+        "explanation_vi": "“Argument” thường là cuộc tranh cãi có bất đồng hoặc tức giận; “discussion” là cuộc trao đổi ý kiến, không nhất thiết có xung đột.",
+        "example_en": "The two classmates had an argument about the group project.",
+        "example_vi": "Hai bạn cùng lớp cãi nhau về dự án nhóm.",
+        "ff_example_en": "The two classmates had a discussion about the group project.",
+        "ff_example_vi": "Hai bạn cùng lớp thảo luận về dự án nhóm."
+      }
     },
     {
       "id": 9,
@@ -231,7 +259,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "know",
+        "explanation_vi": "“Meet” là gặp ai đó, đặc biệt lần đầu; “know” là quen biết hoặc có hiểu biết về người đó.",
+        "example_en": "I met Lan at the school club last week.",
+        "example_vi": "Tôi gặp Lan tại câu lạc bộ trường tuần trước.",
+        "ff_example_en": "I have known Lan since primary school.",
+        "ff_example_vi": "Tôi đã quen Lan từ thời tiểu học."
+      }
     },
     {
       "id": 12,
@@ -248,7 +283,14 @@
         "adjective": "memorable",
         "adverb": "memorably"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "remind",
+        "explanation_vi": "“Remember” là tự nhớ một điều; “remind” là khiến hoặc giúp người khác nhớ.",
+        "example_en": "I remembered to call Minh after class.",
+        "example_vi": "Tôi nhớ gọi cho Minh sau giờ học.",
+        "ff_example_en": "Lan reminded me to call Minh after class.",
+        "ff_example_vi": "Lan nhắc tôi gọi cho Minh sau giờ học."
+      }
     },
     {
       "id": 13,
@@ -265,7 +307,14 @@
         "adjective": "missing",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "lose",
+        "explanation_vi": "“Miss” có thể là nhớ một người vắng mặt hoặc không kịp một sự kiện/phương tiện; “lose” là làm mất đồ hoặc không thắng.",
+        "example_en": "Lan misses her friend who moved abroad.",
+        "example_vi": "Lan nhớ người bạn đã chuyển ra nước ngoài.",
+        "ff_example_en": "Lan lost the photo her friend had given her.",
+        "ff_example_vi": "Lan làm mất bức ảnh mà người bạn đã tặng."
+      }
     },
     {
       "id": 14,
@@ -282,7 +331,14 @@
         "adjective": "true / untrue",
         "adverb": "truly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "real",
+        "explanation_vi": "“True” thường nói một thông tin hoặc câu chuyện là đúng sự thật; “real” nói một người hoặc vật thực sự tồn tại, không phải giả.",
+        "example_en": "The story about the school competition is true.",
+        "example_vi": "Câu chuyện về cuộc thi của trường là có thật.",
+        "ff_example_en": "The trophy in the photograph is real, not a plastic copy.",
+        "ff_example_vi": "Chiếc cúp trong bức ảnh là đồ thật, không phải bản sao bằng nhựa."
+      }
     },
     {
       "id": 15,

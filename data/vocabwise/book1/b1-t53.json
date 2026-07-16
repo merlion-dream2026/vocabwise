@@ -61,7 +61,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "package",
+        "explanation_vi": "“Parcel” và “package” đều có thể nghĩa là gói hàng; “parcel” phổ biến hơn trong Anh-Anh, còn “package” phổ biến hơn trong Anh-Mỹ.",
+        "example_en": "The post office delivered the parcel this morning.",
+        "example_vi": "Bưu điện giao bưu kiện vào sáng nay.",
+        "ff_example_en": "The post office delivered the package this morning.",
+        "ff_example_vi": "Bưu điện giao gói hàng vào sáng nay."
+      }
     },
     {
       "id": 2,
@@ -78,7 +85,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "seal",
+        "explanation_vi": "“Stamp” là tem bưu điện hoặc dấu đóng; “seal” là niêm phong để giữ gói hàng kín và an toàn.",
+        "example_en": "Lan put a stamp on the envelope.",
+        "example_vi": "Lan dán tem lên phong bì.",
+        "ff_example_en": "Lan used tape to seal the envelope.",
+        "ff_example_vi": "Lan dùng băng dính để niêm phong phong bì."
+      }
     },
     {
       "id": 3,
@@ -95,7 +109,14 @@
         "adjective": "postal",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "mail",
+        "explanation_vi": "“Post” thường dùng trong Anh-Anh cho việc gửi thư; “mail” phổ biến trong Anh-Mỹ và cũng chỉ thư từ nói chung.",
+        "example_en": "Lan posted the parcel at the post office.",
+        "example_vi": "Lan gửi bưu kiện tại bưu điện.",
+        "ff_example_en": "Lan mailed the parcel at the post office.",
+        "ff_example_vi": "Lan gửi bưu kiện tại bưu điện."
+      }
     },
     {
       "id": 4,
@@ -146,7 +167,14 @@
         "adjective": "light / lighter / lightest",
         "adverb": "lightly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "",
+        "explanation_vi": "“Light” có thể là tính từ nghĩa là nhẹ hoặc danh từ nghĩa là ánh sáng; phải dựa vào ngữ cảnh để phân biệt.",
+        "example_en": "The parcel is light enough for Lan to carry.",
+        "example_vi": "Bưu kiện đủ nhẹ để Lan mang.",
+        "ff_example_en": "The counter has a bright light above it.",
+        "ff_example_vi": "Quầy giao dịch có một ngọn đèn sáng phía trên."
+      }
     },
     {
       "id": 7,
@@ -163,7 +191,14 @@
         "adjective": "waiting",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "weight",
+        "explanation_vi": "“Wait” nghĩa là chờ; “weight” là trọng lượng. Hai từ phát âm giống nhau.",
+        "example_en": "Please wait while the clerk checks the parcel.",
+        "example_vi": "Vui lòng chờ trong khi nhân viên kiểm tra bưu kiện.",
+        "ff_example_en": "The clerk checked the weight of the parcel.",
+        "ff_example_vi": "Nhân viên kiểm tra trọng lượng của bưu kiện."
+      }
     },
     {
       "id": 8,
@@ -197,7 +232,14 @@
         "adjective": "sealed",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "",
+        "explanation_vi": "“Seal” có thể là động từ nghĩa là niêm phong hoặc danh từ nghĩa là con hải cẩu.",
+        "example_en": "The clerk sealed the parcel with strong tape.",
+        "example_vi": "Nhân viên niêm phong bưu kiện bằng băng dính chắc.",
+        "ff_example_en": "The parcel contained a toy seal for a child.",
+        "ff_example_vi": "Bưu kiện chứa một con hải cẩu đồ chơi cho trẻ em."
+      }
     },
     {
       "id": 10,
@@ -214,7 +256,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "delivery",
+        "explanation_vi": "“Deliver” là động từ nghĩa là giao; “delivery” là danh từ nghĩa là việc hoặc chuyến giao hàng.",
+        "example_en": "The courier will deliver the parcel tomorrow.",
+        "example_vi": "Nhân viên chuyển phát sẽ giao bưu kiện vào ngày mai.",
+        "ff_example_en": "The parcel is scheduled for delivery tomorrow.",
+        "ff_example_vi": "Bưu kiện được lên lịch giao vào ngày mai."
+      }
     },
     {
       "id": 11,
@@ -231,7 +280,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "trace",
+        "explanation_vi": "“Track” là theo dõi vị trí hoặc tiến trình liên tục; “trace” là lần theo dấu vết để tìm nguồn gốc hoặc vị trí.",
+        "example_en": "Lan tracked the parcel through the delivery app.",
+        "example_vi": "Lan theo dõi bưu kiện qua ứng dụng giao hàng.",
+        "ff_example_en": "The post office traced the missing parcel to the wrong depot.",
+        "ff_example_vi": "Bưu điện lần theo bưu kiện thất lạc đến nhầm kho."
+      }
     },
     {
       "id": 12,
@@ -248,7 +304,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "recipient",
+        "explanation_vi": "“Sender” là người gửi; “recipient” là người nhận.",
+        "example_en": "The sender wrote her address on the parcel.",
+        "example_vi": "Người gửi viết địa chỉ của mình lên bưu kiện.",
+        "ff_example_en": "The recipient signed for the parcel at the door.",
+        "ff_example_vi": "Người nhận ký nhận bưu kiện tại cửa."
+      }
     },
     {
       "id": 13,
@@ -299,7 +362,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "fare",
+        "explanation_vi": "“Fee” là khoản phí cho dịch vụ; “fare” là tiền vé cho hành trình bằng phương tiện.",
+        "example_en": "Lan paid a delivery fee for the parcel.",
+        "example_vi": "Lan trả phí giao bưu kiện.",
+        "ff_example_en": "Lan paid the bus fare to reach the post office.",
+        "ff_example_vi": "Lan trả tiền vé xe buýt để đến bưu điện."
+      }
     }
   ],
   "exercises": {

@@ -61,7 +61,14 @@
         "adjective": "adaptable",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "adoptable",
+        "explanation_vi": "'Adaptable' nghĩa là có khả năng thích nghi; 'adoptable' nghĩa là có thể được nhận nuôi hoặc tiếp nhận.",
+        "example_en": "The company needs adaptable employees who can learn new systems.",
+        "example_vi": "Công ty cần những nhân viên có khả năng thích nghi và học hệ thống mới.",
+        "ff_example_en": "The shelter lists adoptable animals on its website.",
+        "ff_example_vi": "Trung tâm cứu hộ đăng các động vật có thể được nhận nuôi trên trang web."
+      },
       "receptive_productive": "P"
     },
     {
@@ -80,8 +87,12 @@
         "adverb": "remotely"
       },
       "false_friend": {
-        "word_vi": "distant / far",
-        "explanation_vi": "Trong ngữ cảnh công việc, 'remote' có nghĩa là làm từ nơi khác (không đến văn phòng), không phải 'xa xôi' về mặt địa lý. 'Remote work' = làm việc từ xa."
+        "word": "",
+        "explanation_vi": "Trong ngữ cảnh công việc, 'remote' có nghĩa là làm từ nơi khác (không đến văn phòng), không phải 'xa xôi' về mặt địa lý. 'Remote work' = làm việc từ xa.",
+        "example_en": "Lan has a remote job and works from home three days a week.",
+        "example_vi": "Lan làm công việc từ xa và làm tại nhà ba ngày mỗi tuần.",
+        "ff_example_en": "Her parents live in a remote village far from the city.",
+        "ff_example_vi": "Bố mẹ cô ấy sống ở một ngôi làng xa xôi, cách xa thành phố."
       },
       "receptive_productive": "P"
     },
@@ -100,7 +111,14 @@
         "adjective": "conditional",
         "adverb": "conditionally"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "disease",
+        "explanation_vi": "'Condition' là thuật ngữ rộng chỉ tình trạng sức khỏe; 'disease' là một bệnh cụ thể có nguyên nhân hoặc đặc điểm bệnh lý xác định.",
+        "example_en": "The clinic treats several long-term health conditions.",
+        "example_vi": "Phòng khám điều trị nhiều tình trạng sức khỏe kéo dài.",
+        "ff_example_en": "The clinic specialises in a rare heart disease.",
+        "ff_example_vi": "Phòng khám chuyên điều trị một bệnh tim hiếm gặp."
+      },
       "receptive_productive": "P"
     },
     {
@@ -118,7 +136,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "workplace",
+        "explanation_vi": "'Workload' là khối lượng công việc; 'workplace' là nơi làm việc.",
+        "example_en": "The manager reduced Lan's workload this week.",
+        "example_vi": "Người quản lý giảm khối lượng công việc của Lan trong tuần này.",
+        "ff_example_en": "The manager introduced new safety rules in the workplace.",
+        "ff_example_vi": "Người quản lý đưa ra các quy định an toàn mới tại nơi làm việc."
+      },
       "receptive_productive": "P"
     },
     {
@@ -154,7 +179,14 @@
         "adjective": "contractual",
         "adverb": "contractually"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "contact",
+        "explanation_vi": "'Contract' là hợp đồng; 'contact' là sự liên lạc hoặc người để liên hệ.",
+        "example_en": "Lan signed a contract with the new company.",
+        "example_vi": "Lan ký hợp đồng với công ty mới.",
+        "ff_example_en": "Lan saved the manager as a contact on her phone.",
+        "ff_example_vi": "Lan lưu người quản lý làm một liên hệ trong điện thoại."
+      },
       "receptive_productive": "P"
     },
     {
@@ -191,8 +223,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "argument",
-        "explanation_vi": "'Dispute' trong bối cảnh lao động là tranh chấp chính thức, thường liên quan đến luật pháp hoặc hợp đồng; 'argument' là bất đồng ý kiến thông thường, không mang tính pháp lý."
+        "word": "argument",
+        "explanation_vi": "'Dispute' trong bối cảnh lao động là tranh chấp chính thức, thường liên quan đến luật pháp hoặc hợp đồng; 'argument' là bất đồng ý kiến thông thường, không mang tính pháp lý.",
+        "example_en": "The union entered a formal dispute with the company over unpaid wages.",
+        "example_vi": "Công đoàn bước vào một tranh chấp chính thức với công ty về tiền lương chưa trả.",
+        "ff_example_en": "Two employees had a brief argument about the meeting schedule.",
+        "ff_example_vi": "Hai nhân viên có một cuộc tranh cãi ngắn về lịch họp."
       },
       "receptive_productive": "P"
     },
@@ -247,7 +283,14 @@
         "adjective": "negotiable",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "neglect",
+        "explanation_vi": "'Negotiate' là đàm phán; 'neglect' là bỏ bê hoặc không chú ý đầy đủ.",
+        "example_en": "The manager negotiated better pay for the workers.",
+        "example_vi": "Người quản lý đàm phán mức lương tốt hơn cho công nhân.",
+        "ff_example_en": "The manager neglected the workers' safety concerns.",
+        "ff_example_vi": "Người quản lý bỏ qua những lo ngại về an toàn của công nhân."
+      },
       "receptive_productive": "P"
     },
     {
@@ -284,8 +327,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "dismiss",
-        "explanation_vi": "'Resign' là chủ động rời bỏ công việc (do người lao động quyết định); 'dismiss' là bị sa thải (do người sử dụng lao động quyết định) — chiều ngược nhau."
+        "word": "dismiss",
+        "explanation_vi": "'Resign' là chủ động rời bỏ công việc (do người lao động quyết định); 'dismiss' là bị sa thải (do người sử dụng lao động quyết định) — chiều ngược nhau.",
+        "example_en": "Lan chose to resign from the company after receiving another offer.",
+        "example_vi": "Lan chủ động nghỉ việc ở công ty sau khi nhận được một lời mời khác.",
+        "ff_example_en": "The company decided to dismiss Minh for repeatedly breaking safety rules.",
+        "ff_example_vi": "Công ty quyết định sa thải Minh vì nhiều lần vi phạm quy tắc an toàn."
       },
       "receptive_productive": "P"
     },
@@ -323,8 +370,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "benefit",
-        "explanation_vi": "'Welfare' là khái niệm rộng hơn về sức khỏe và hạnh phúc tổng thể; 'benefit' là các khoản lợi ích cụ thể trong hợp đồng như bảo hiểm, nghỉ phép có lương."
+        "word": "benefit",
+        "explanation_vi": "'Welfare' là khái niệm rộng hơn về sức khỏe và hạnh phúc tổng thể; 'benefit' là các khoản lợi ích cụ thể trong hợp đồng như bảo hiểm, nghỉ phép có lương.",
+        "example_en": "The company introduced a programme to protect employee welfare.",
+        "example_vi": "Công ty triển khai một chương trình nhằm bảo vệ phúc lợi và sức khỏe tổng thể của nhân viên.",
+        "ff_example_en": "Health insurance is one specific benefit included in every contract.",
+        "ff_example_vi": "Bảo hiểm y tế là một phúc lợi cụ thể có trong mọi hợp đồng."
       },
       "receptive_productive": "P"
     }

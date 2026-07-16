@@ -112,7 +112,14 @@
         "adjective": "winning",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "beat",
+        "explanation_vi": "“Win” đi với trận đấu, cuộc thi hoặc giải thưởng; “beat” đi với đối thủ bị đánh bại.",
+        "example_en": "Our team won the football match yesterday.",
+        "example_vi": "Đội của chúng tôi đã thắng trận bóng đá hôm qua.",
+        "ff_example_en": "Our team beat the school champions yesterday.",
+        "ff_example_vi": "Đội của chúng tôi đã đánh bại nhà vô địch của trường hôm qua."
+      }
     },
     {
       "id": 5,
@@ -130,8 +137,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "loose",
-        "explanation_vi": "'Lose' (thua/mất, động từ) và 'loose' (lỏng lẻo, tính từ) — phát âm gần giống nhưng nghĩa hoàn toàn khác."
+        "word": "loose",
+        "explanation_vi": "'Lose' (thua/mất, động từ) và 'loose' (lỏng lẻo, tính từ) — phát âm gần giống nhưng nghĩa hoàn toàn khác.",
+        "example_en": "Be careful not to lose the button from your school coat.",
+        "example_vi": "Hãy cẩn thận đừng làm mất chiếc cúc trên áo khoác đồng phục của em.",
+        "ff_example_en": "The button on your school coat is loose.",
+        "ff_example_vi": "Chiếc cúc trên áo khoác đồng phục của em đang bị lỏng."
       }
     },
     {
@@ -166,7 +177,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "match",
+        "explanation_vi": "“Game” có thể là trò chơi hoặc một trận thi đấu; “match” thường là một trận đấu thể thao có hai bên thi đấu với nhau.",
+        "example_en": "The children played a ball game after class.",
+        "example_vi": "Lũ trẻ chơi một trò chơi với bóng sau giờ học.",
+        "ff_example_en": "The school teams played a football match after class.",
+        "ff_example_vi": "Các đội của trường thi đấu một trận bóng đá sau giờ học."
+      }
     },
     {
       "id": 8,

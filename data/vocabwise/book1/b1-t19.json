@@ -112,7 +112,14 @@
         "adjective": "spicy",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "hot",
+        "explanation_vi": "“Spicy” nghĩa là cay do gia vị; “hot” trong ngữ cảnh thức ăn thường nghĩa là có nhiệt độ cao.",
+        "example_en": "The noodles are spicy because they contain chilli.",
+        "example_vi": "Món mì cay vì có ớt.",
+        "ff_example_en": "The noodles are hot because they have just been cooked.",
+        "ff_example_vi": "Món mì nóng vì vừa được nấu xong."
+      }
     },
     {
       "id": 5,
@@ -180,7 +187,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "plate",
+        "explanation_vi": "“Dish” có thể là một món ăn đã được chế biến; “plate” là chiếc đĩa dùng để đựng thức ăn.",
+        "example_en": "This noodle dish is popular with tourists.",
+        "example_vi": "Món mì này được khách du lịch yêu thích.",
+        "ff_example_en": "This blue plate is used to serve the noodles.",
+        "ff_example_vi": "Chiếc đĩa màu xanh này được dùng để phục vụ món mì."
+      }
     },
     {
       "id": 9,
@@ -214,7 +228,14 @@
         "adjective": "popular",
         "adverb": "popularly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "famous",
+        "explanation_vi": "“Popular” nghĩa là được nhiều người yêu thích; “famous” nghĩa là được nhiều người biết đến, dù không nhất thiết được yêu thích.",
+        "example_en": "This restaurant is popular with local families.",
+        "example_vi": "Nhà hàng này được các gia đình địa phương yêu thích.",
+        "ff_example_en": "This restaurant is famous because a television programme featured it.",
+        "ff_example_vi": "Nhà hàng này nổi tiếng vì từng xuất hiện trong một chương trình truyền hình."
+      }
     },
     {
       "id": 11,
@@ -265,7 +286,14 @@
         "adjective": "raw",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "rare",
+        "explanation_vi": "“Raw” là hoàn toàn chưa được nấu; “rare” thường chỉ thịt được nấu rất ít nhưng không còn hoàn toàn sống.",
+        "example_en": "The chef kept the raw beef separate from the cooked food.",
+        "example_vi": "Đầu bếp để thịt bò sống tách khỏi thức ăn đã nấu.",
+        "ff_example_en": "The customer ordered the steak rare.",
+        "ff_example_vi": "Khách hàng gọi món bít tết tái."
+      }
     },
     {
       "id": 14,
@@ -282,7 +310,14 @@
         "adjective": "cooked",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "cooker",
+        "explanation_vi": "“Cook” là người nấu ăn hoặc động từ “nấu”; “cooker” là thiết bị dùng để nấu.",
+        "example_en": "The cook prepared the soup in the restaurant kitchen.",
+        "example_vi": "Đầu bếp nấu món súp trong bếp nhà hàng.",
+        "ff_example_en": "The cooker was used to heat the soup in the restaurant kitchen.",
+        "ff_example_vi": "Thiết bị nấu được dùng để hâm món súp trong bếp nhà hàng."
+      }
     },
     {
       "id": 15,

@@ -146,7 +146,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "ride",
+        "explanation_vi": "“Drive” dùng khi điều khiển ô tô hoặc phương tiện bốn bánh; “ride” dùng khi đi xe đạp, xe máy hoặc cưỡi động vật.",
+        "example_en": "Nam drives a car to work every morning.",
+        "example_vi": "Nam lái ô tô đi làm mỗi sáng.",
+        "ff_example_en": "Nam rides a motorbike to work every morning.",
+        "ff_example_vi": "Nam đi xe máy đến chỗ làm mỗi sáng."
+      }
     },
     {
       "id": 7,
@@ -180,7 +187,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "stop",
+        "explanation_vi": "“Station” là nhà ga hoặc cơ sở lớn dành cho tàu, xe buýt; “stop” là điểm phương tiện dừng để đón hoặc trả khách.",
+        "example_en": "We waited inside the bus station before the long journey.",
+        "example_vi": "Chúng tôi chờ bên trong bến xe buýt trước chuyến đi dài.",
+        "ff_example_en": "We waited at the bus stop outside the school.",
+        "ff_example_vi": "Chúng tôi chờ tại trạm xe buýt bên ngoài trường."
+      }
     },
     {
       "id": 9,
@@ -197,7 +211,14 @@
         "adjective": "near / nearby / nearest",
         "adverb": "nearly / near"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "nearly",
+        "explanation_vi": "“Near” nghĩa là gần về khoảng cách hoặc thời gian; “nearly” nghĩa là gần như, suýt hoặc xấp xỉ.",
+        "example_en": "Our hotel is near the train station.",
+        "example_vi": "Khách sạn của chúng tôi ở gần nhà ga.",
+        "ff_example_en": "Our hotel is nearly two kilometres from the train station.",
+        "ff_example_vi": "Khách sạn của chúng tôi cách nhà ga gần hai ki-lô-mét."
+      }
     },
     {
       "id": 10,
@@ -231,7 +252,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "reach",
+        "explanation_vi": "“Arrive” thường đi với “at” hoặc “in”; “reach” đi trực tiếp với địa điểm, không dùng giới từ.",
+        "example_en": "We arrived at the station at eight o’clock.",
+        "example_vi": "Chúng tôi đến nhà ga lúc tám giờ.",
+        "ff_example_en": "We reached the station at eight o’clock.",
+        "ff_example_vi": "Chúng tôi đến nhà ga lúc tám giờ."
+      }
     },
     {
       "id": 12,
@@ -282,7 +310,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "trip",
+        "explanation_vi": "“Journey” nhấn mạnh quá trình di chuyển từ nơi này đến nơi khác; “trip” chỉ toàn bộ chuyến đi, thường gồm cả thời gian ở điểm đến.",
+        "example_en": "The train journey to Đà Nẵng took sixteen hours.",
+        "example_vi": "Hành trình bằng tàu đến Đà Nẵng kéo dài mười sáu giờ.",
+        "ff_example_en": "Our trip to Đà Nẵng lasted four days.",
+        "ff_example_vi": "Chuyến đi Đà Nẵng của chúng tôi kéo dài bốn ngày."
+      }
     },
     {
       "id": 15,

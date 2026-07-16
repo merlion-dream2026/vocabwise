@@ -61,7 +61,14 @@
         "adjective": "algorithmic",
         "adverb": "algorithmically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "logarithm",
+        "explanation_vi": "'Algorithm' là chuỗi quy tắc giải quyết vấn đề; 'logarithm' là một khái niệm toán học liên quan đến số mũ.",
+        "example_en": "The programmer designed an algorithm to sort the data.",
+        "example_vi": "Lập trình viên thiết kế một thuật toán để sắp xếp dữ liệu.",
+        "ff_example_en": "The mathematician used a logarithm to simplify the calculation.",
+        "ff_example_vi": "Nhà toán học dùng logarit để đơn giản hóa phép tính."
+      },
       "receptive_productive": "P"
     },
     {
@@ -115,7 +122,14 @@
         "adjective": "curated",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "created",
+        "explanation_vi": "'Curated' nghĩa là được chọn lọc và sắp xếp cẩn thận; 'created' nghĩa là được tạo ra.",
+        "example_en": "The editor curated a collection of reliable news stories.",
+        "example_vi": "Biên tập viên tuyển chọn một bộ tin đáng tin cậy.",
+        "ff_example_en": "The editor created a new page for the collection.",
+        "ff_example_vi": "Biên tập viên tạo một trang mới cho bộ sưu tập."
+      },
       "receptive_productive": "P"
     },
     {
@@ -134,8 +148,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "misinformation",
-        "explanation_vi": "'Disinformation' là thông tin sai được cố ý tạo ra để đánh lừa; 'misinformation' là thông tin sai nhưng không nhất thiết có chủ đích — hai từ khác nhau về mức độ cố ý."
+        "word": "misinformation",
+        "explanation_vi": "'Disinformation' là thông tin sai được cố ý tạo ra để đánh lừa; 'misinformation' là thông tin sai nhưng không nhất thiết có chủ đích — hai từ khác nhau về mức độ cố ý.",
+        "example_en": "The account posted disinformation deliberately to damage the candidate.",
+        "example_vi": "Tài khoản cố ý đăng thông tin sai lệch để gây tổn hại cho ứng viên.",
+        "ff_example_en": "Other users shared the same claim as misinformation without checking it.",
+        "ff_example_vi": "Những người dùng khác chia sẻ cùng tuyên bố đó như thông tin sai mà không kiểm chứng."
       },
       "receptive_productive": "P"
     },

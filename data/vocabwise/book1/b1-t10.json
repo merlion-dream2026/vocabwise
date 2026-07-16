@@ -62,8 +62,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "whether",
-        "explanation_vi": "'Weather' (thời tiết) và 'whether' (liệu có... không) phát âm giống nhau nhưng nghĩa hoàn toàn khác."
+        "word": "whether",
+        "explanation_vi": "'Weather' (thời tiết) và 'whether' (liệu có... không) phát âm giống nhau nhưng nghĩa hoàn toàn khác.",
+        "example_en": "Because the weather was sunny, the class held its picnic outside.",
+        "example_vi": "Vì thời tiết có nắng nên lớp đã tổ chức buổi dã ngoại ngoài trời.",
+        "ff_example_en": "The teacher asked whether the class should hold its picnic outside.",
+        "ff_example_vi": "Giáo viên hỏi liệu lớp có nên tổ chức buổi dã ngoại ngoài trời hay không."
       }
     },
     {
@@ -81,7 +85,14 @@
         "adjective": "hot",
         "adverb": "hotly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "spicy",
+        "explanation_vi": "“Hot” có thể nghĩa là có nhiệt độ cao; “spicy” nghĩa là có vị cay do gia vị.",
+        "example_en": "The soup is hot, so wait before eating it.",
+        "example_vi": "Món súp còn nóng, vì vậy hãy đợi trước khi ăn.",
+        "ff_example_en": "The soup is spicy because it contains a lot of chilli.",
+        "ff_example_vi": "Món súp cay vì có nhiều ớt."
+      }
     },
     {
       "id": 3,
@@ -183,7 +194,14 @@
         "adjective": "seasonal",
         "adverb": "seasonally"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "weather",
+        "explanation_vi": "“Season” là một mùa kéo dài trong năm; “weather” là tình trạng nắng, mưa, nóng hoặc lạnh tại một thời điểm cụ thể.",
+        "example_en": "Summer is the hottest season in many parts of Việt Nam.",
+        "example_vi": "Mùa hè là mùa nóng nhất ở nhiều vùng của Việt Nam.",
+        "ff_example_en": "The weather is especially hot this afternoon.",
+        "ff_example_vi": "Thời tiết đặc biệt nóng vào chiều nay."
+      }
     },
     {
       "id": 9,

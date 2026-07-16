@@ -61,7 +61,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "home",
+        "explanation_vi": "“House” chỉ tòa nhà dùng để ở, còn “home” nhấn mạnh nơi một người sinh sống và có cảm giác thuộc về.",
+        "example_en": "The family bought a new house near the school.",
+        "example_vi": "Gia đình đó mua một ngôi nhà mới gần trường học.",
+        "ff_example_en": "After the trip, the family was happy to return home.",
+        "ff_example_vi": "Sau chuyến đi, gia đình đó rất vui khi được trở về nhà."
+      }
     },
     {
       "id": 2,
@@ -113,8 +120,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "live /laɪv/",
-        "explanation_vi": "Đừng nhầm 'live' (động từ /lɪv/ = sống) với 'live' (tính từ /laɪv/ = trực tiếp, đang phát sóng)."
+        "word": "",
+        "explanation_vi": "Đừng nhầm 'live' (động từ /lɪv/ = sống) với 'live' (tính từ /laɪv/ = trực tiếp, đang phát sóng).",
+        "example_en": "The musicians live near the school where they perform.",
+        "example_vi": "Các nhạc công sống gần ngôi trường nơi họ biểu diễn.",
+        "ff_example_en": "The school will broadcast their performance live tonight.",
+        "ff_example_vi": "Nhà trường sẽ phát trực tiếp phần biểu diễn của họ tối nay."
       }
     },
     {
@@ -166,7 +177,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "chicken",
+        "explanation_vi": "“Kitchen” là nhà bếp, còn “chicken” là con gà hoặc thịt gà. Hai từ có cách viết và phát âm khá gần nhau.",
+        "example_en": "My mother is cooking in the kitchen.",
+        "example_vi": "Mẹ tôi đang nấu ăn trong bếp.",
+        "ff_example_en": "My mother is cooking chicken for dinner.",
+        "ff_example_vi": "Mẹ tôi đang nấu thịt gà cho bữa tối."
+      }
     },
     {
       "id": 8,
@@ -201,8 +219,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "lầu/tầng",
-        "explanation_vi": "'Floor' có thể là sàn nhà hoặc tầng lầu (first floor = tầng 1). Không nhầm với 'flour' (bột mì)."
+        "word": "flour",
+        "explanation_vi": "'Floor' có thể là sàn nhà hoặc tầng lầu (first floor = tầng 1). Không nhầm với 'flour' (bột mì).",
+        "example_en": "The baker cleaned the kitchen floor before making bread.",
+        "example_vi": "Người thợ làm bánh lau sàn bếp trước khi làm bánh mì.",
+        "ff_example_en": "The baker poured the flour into a bowl before making bread.",
+        "ff_example_vi": "Người thợ làm bánh đổ bột mì vào một chiếc bát trước khi làm bánh mì."
       }
     },
     {

@@ -78,7 +78,14 @@
         "adjective": "priceless / pricey",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "prize",
+        "explanation_vi": "“Price” là số tiền phải trả để mua một thứ; “prize” là phần thưởng giành được trong một cuộc thi.",
+        "example_en": "The price of the bicycle was five million đồng.",
+        "example_vi": "Giá của chiếc xe đạp là năm triệu đồng.",
+        "ff_example_en": "The prize in the cycling competition was five million đồng.",
+        "ff_example_vi": "Giải thưởng trong cuộc thi đua xe đạp là năm triệu đồng."
+      }
     },
     {
       "id": 3,
@@ -129,7 +136,14 @@
         "adjective": "paid / unpaid",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "spend",
+        "explanation_vi": "“Pay” nhấn mạnh việc trả tiền cho một món hàng, dịch vụ hoặc người nhận; “spend” nói về số tiền hoặc thời gian được sử dụng.",
+        "example_en": "Mai paid the shop 500,000 đồng for the jacket.",
+        "example_vi": "Mai trả cho cửa hàng 500.000 đồng để mua chiếc áo khoác.",
+        "ff_example_en": "Mai spent 500,000 đồng on the jacket.",
+        "ff_example_vi": "Mai đã chi 500.000 đồng cho chiếc áo khoác."
+      }
     },
     {
       "id": 6,
@@ -181,8 +195,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "cloth",
-        "explanation_vi": "'Clothes' (quần áo, luôn dùng số nhiều) khác với 'cloth' (vải) — đừng nhầm lẫn."
+        "word": "cloth",
+        "explanation_vi": "'Clothes' (quần áo, luôn dùng số nhiều) khác với 'cloth' (vải) — đừng nhầm lẫn.",
+        "example_en": "The tailor placed the finished clothes on the table.",
+        "example_vi": "Người thợ may đặt những bộ quần áo đã hoàn thành lên bàn.",
+        "ff_example_en": "The tailor spread a piece of cloth across the table.",
+        "ff_example_vi": "Người thợ may trải một mảnh vải lên bàn."
       }
     },
     {
@@ -217,7 +235,14 @@
         "adjective": "choosy",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "chose",
+        "explanation_vi": "“Choose” là dạng nguyên thể hoặc hiện tại; “chose” là dạng quá khứ của cùng động từ.",
+        "example_en": "I usually choose a blue bag when I go shopping.",
+        "example_vi": "Tôi thường chọn một chiếc túi màu xanh khi đi mua sắm.",
+        "ff_example_en": "Yesterday, I chose a blue bag at the same shop.",
+        "ff_example_vi": "Hôm qua, tôi đã chọn một chiếc túi màu xanh tại chính cửa hàng đó."
+      }
     },
     {
       "id": 11,
@@ -235,8 +260,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "sale",
-        "explanation_vi": "'Sell' (bán, động từ) và 'sale' (đợt giảm giá / sự bán hàng, danh từ) khác nhau — đừng nhầm lẫn."
+        "word": "sale",
+        "explanation_vi": "'Sell' (bán, động từ) và 'sale' (đợt giảm giá / sự bán hàng, danh từ) khác nhau — đừng nhầm lẫn.",
+        "example_en": "The shop will sell its old school bags at lower prices.",
+        "example_vi": "Cửa hàng sẽ bán những chiếc cặp học sinh cũ với giá thấp hơn.",
+        "ff_example_en": "The old school bags are on sale this weekend.",
+        "ff_example_vi": "Những chiếc cặp học sinh cũ đang được giảm giá vào cuối tuần này."
       }
     },
     {
@@ -255,8 +284,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "costume",
-        "explanation_vi": "'Customer' (khách hàng) và 'costume' (trang phục, hóa trang) — phát âm gần giống nhưng nghĩa hoàn toàn khác."
+        "word": "costume",
+        "explanation_vi": "'Customer' (khách hàng) và 'costume' (trang phục, hóa trang) — phát âm gần giống nhưng nghĩa hoàn toàn khác.",
+        "example_en": "The customer paid at the counter before the school play.",
+        "example_vi": "Khách hàng thanh toán tại quầy trước vở kịch của trường.",
+        "ff_example_en": "The actor put on a pirate costume before the school play.",
+        "ff_example_vi": "Nam diễn viên mặc trang phục cướp biển trước vở kịch của trường."
       }
     },
     {
@@ -292,8 +325,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "coast",
-        "explanation_vi": "'Cost' (chi phí, giá) và 'coast' (bờ biển) — phát âm gần giống nhau nhưng nghĩa hoàn toàn khác."
+        "word": "coast",
+        "explanation_vi": "'Cost' (chi phí, giá) và 'coast' (bờ biển) — phát âm gần giống nhau nhưng nghĩa hoàn toàn khác.",
+        "example_en": "Our stay at the seaside hotel cost eighty dollars.",
+        "example_vi": "Kỳ nghỉ của chúng tôi tại khách sạn ven biển có giá tám mươi đô la.",
+        "ff_example_en": "The hotel was located on the coast near a quiet beach.",
+        "ff_example_vi": "Khách sạn nằm trên bờ biển gần một bãi biển yên tĩnh."
       }
     },
     {
@@ -312,8 +349,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "recipe",
-        "explanation_vi": "'Receipt' (biên lai mua hàng) và 'recipe' (công thức nấu ăn) — phát âm và nghĩa đều khác nhau."
+        "word": "recipe",
+        "explanation_vi": "'Receipt' (biên lai mua hàng) và 'recipe' (công thức nấu ăn) — phát âm và nghĩa đều khác nhau.",
+        "example_en": "After buying the ingredients, Hoa placed the receipt beside the bowl.",
+        "example_vi": "Sau khi mua nguyên liệu, Hoa đặt biên lai bên cạnh chiếc bát.",
+        "ff_example_en": "Before cooking, Hoa placed the recipe beside the bowl.",
+        "ff_example_vi": "Trước khi nấu ăn, Hoa đặt công thức nấu ăn bên cạnh chiếc bát."
       }
     }
   ],

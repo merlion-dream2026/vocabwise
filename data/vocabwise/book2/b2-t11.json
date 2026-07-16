@@ -80,7 +80,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "omission",
+        "explanation_vi": "'Emission' là sự phát thải; 'omission' là việc bỏ sót hoặc không đưa điều gì vào.",
+        "example_en": "The report measured each factory's carbon emissions.",
+        "example_vi": "Báo cáo đo lượng khí thải carbon của từng nhà máy.",
+        "ff_example_en": "The report contained an important omission about one factory.",
+        "ff_example_vi": "Báo cáo đã bỏ sót một thông tin quan trọng về một nhà máy."
+      },
       "receptive_productive": "R"
     },
     {
@@ -134,7 +141,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "draft",
+        "explanation_vi": "'Drought' là hạn hán; 'draft' là bản nháp hoặc luồng gió.",
+        "example_en": "The farmer wrote a report about the drought.",
+        "example_vi": "Người nông dân viết một báo cáo về đợt hạn hán.",
+        "ff_example_en": "The farmer prepared the first draft of the report.",
+        "ff_example_vi": "Người nông dân chuẩn bị bản nháp đầu tiên của báo cáo."
+      },
       "receptive_productive": "R"
     },
     {
@@ -279,8 +293,12 @@
         "adverb": "effectively"
       },
       "false_friend": {
-        "word_vi": "affect",
-        "explanation_vi": "'Effect' là danh từ (tác động); 'affect' là động từ (ảnh hưởng) — không nhầm lẫn."
+        "word": "affect",
+        "explanation_vi": "'Effect' là danh từ (tác động); 'affect' là động từ (ảnh hưởng) — không nhầm lẫn.",
+        "example_en": "The policy had a positive effect on air quality.",
+        "example_vi": "Chính sách có tác động tích cực đến chất lượng không khí.",
+        "ff_example_en": "The policy may also affect how often people drive.",
+        "ff_example_vi": "Chính sách cũng có thể ảnh hưởng đến tần suất người dân lái xe."
       },
       "receptive_productive": "P"
     },
@@ -300,8 +318,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "bằng cấp",
-        "explanation_vi": "'Degree' có thể là độ nhiệt độ hoặc bằng cấp — context quyết định nghĩa."
+        "word": "",
+        "explanation_vi": "'Degree' có thể là độ nhiệt độ hoặc bằng cấp — context quyết định nghĩa.",
+        "example_en": "The temperature rose by three degrees during the experiment.",
+        "example_vi": "Nhiệt độ tăng ba độ trong thí nghiệm.",
+        "ff_example_en": "The researcher earned a science degree from the same university.",
+        "ff_example_vi": "Nhà nghiên cứu nhận bằng khoa học từ chính trường đại học đó."
       },
       "receptive_productive": "P"
     },

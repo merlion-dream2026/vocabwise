@@ -79,7 +79,14 @@
         "adjective": "recessionary",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "regression",
+        "explanation_vi": "'Recession' là suy thoái kinh tế; 'regression' là sự thụt lùi hoặc phương pháp thống kê.",
+        "example_en": "The country entered a recession after exports fell.",
+        "example_vi": "Đất nước bước vào suy thoái sau khi xuất khẩu giảm.",
+        "ff_example_en": "The researchers used regression to analyse the export data.",
+        "ff_example_vi": "Các nhà nghiên cứu dùng phân tích hồi quy để phân tích dữ liệu xuất khẩu."
+      },
       "receptive_productive": "P"
     },
     {
@@ -98,8 +105,12 @@
         "adverb": "fiscally"
       },
       "false_friend": {
-        "word_vi": "physical",
-        "explanation_vi": "'Fiscal' liên quan đến tài chính công; 'physical' liên quan đến thể chất hoặc vật lý — phát âm gần giống nhưng nghĩa hoàn toàn khác."
+        "word": "physical",
+        "explanation_vi": "'Fiscal' liên quan đến tài chính công; 'physical' liên quan đến thể chất hoặc vật lý — phát âm gần giống nhưng nghĩa hoàn toàn khác.",
+        "example_en": "The government introduced a fiscal policy to reduce the budget deficit.",
+        "example_vi": "Chính phủ đưa ra chính sách tài khóa để giảm thâm hụt ngân sách.",
+        "ff_example_en": "The policy document was stored in both digital and physical form.",
+        "ff_example_vi": "Tài liệu chính sách được lưu ở cả dạng số và dạng vật lý."
       },
       "receptive_productive": "P"
     },
@@ -190,7 +201,14 @@
         "adjective": "commodified",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "community",
+        "explanation_vi": "'Commodity' là hàng hóa cơ bản được mua bán; 'community' là cộng đồng.",
+        "example_en": "Coffee is an important export commodity for the region.",
+        "example_vi": "Cà phê là một mặt hàng xuất khẩu quan trọng của khu vực.",
+        "ff_example_en": "Coffee farming supports the local community.",
+        "ff_example_vi": "Việc trồng cà phê hỗ trợ cộng đồng địa phương."
+      },
       "receptive_productive": "P"
     },
     {

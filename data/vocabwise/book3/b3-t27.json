@@ -134,8 +134,12 @@
         "adverb": "systemically"
       },
       "false_friend": {
-        "word_vi": "systematic",
-        "explanation_vi": "'Systemic' mô tả điều gì đó ảnh hưởng toàn bộ hệ thống (e.g. systemic racism); 'systematic' có nghĩa là có phương pháp, có hệ thống (e.g. a systematic approach). Hai từ không thay thế nhau được."
+        "word": "systematic",
+        "explanation_vi": "'Systemic' mô tả điều gì đó ảnh hưởng toàn bộ hệ thống (e.g. systemic racism); 'systematic' có nghĩa là có phương pháp, có hệ thống (e.g. a systematic approach). Hai từ không thay thế nhau được.",
+        "example_en": "The report identified systemic discrimination throughout the housing system.",
+        "example_vi": "Báo cáo xác định tình trạng phân biệt đối xử mang tính toàn hệ thống trong hệ thống nhà ở.",
+        "ff_example_en": "Researchers used a systematic method to examine each housing application.",
+        "ff_example_vi": "Các nhà nghiên cứu dùng một phương pháp có hệ thống để kiểm tra từng hồ sơ nhà ở."
       },
       "receptive_productive": "P"
     },
@@ -190,7 +194,14 @@
         "adjective": "cyclical / cyclic",
         "adverb": "cyclically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "circle",
+        "explanation_vi": "'Cycle' là chu kỳ lặp lại; 'circle' là hình tròn hoặc nhóm người.",
+        "example_en": "The report describes a cycle of poverty and poor education.",
+        "example_vi": "Báo cáo mô tả một vòng luẩn quẩn của nghèo đói và giáo dục kém.",
+        "ff_example_en": "The diagram shows the families living inside a large circle.",
+        "ff_example_vi": "Sơ đồ cho thấy các gia đình sống bên trong một vòng tròn lớn."
+      },
       "receptive_productive": "P"
     },
     {
@@ -227,8 +238,12 @@
         "adverb": "unequally / inequitably"
       },
       "false_friend": {
-        "word_vi": "inequity",
-        "explanation_vi": "'Inequality' là sự không bằng nhau (thường về số lượng, mức độ); 'inequity' nhấn mạnh sự không công bằng về đạo đức. Trong văn cảnh xã hội học, cả hai thường được dùng thay nhau nhưng có sắc thái khác nhau."
+        "word": "inequity",
+        "explanation_vi": "'Inequality' là sự không bằng nhau (thường về số lượng, mức độ); 'inequity' nhấn mạnh sự không công bằng về đạo đức. Trong văn cảnh xã hội học, cả hai thường được dùng thay nhau nhưng có sắc thái khác nhau.",
+        "example_en": "The data showed income inequality between the richest and poorest households.",
+        "example_vi": "Dữ liệu cho thấy sự bất bình đẳng thu nhập giữa các hộ giàu nhất và nghèo nhất.",
+        "ff_example_en": "The researchers described unequal access to healthcare as a serious inequity.",
+        "ff_example_vi": "Các nhà nghiên cứu mô tả việc tiếp cận y tế không công bằng là một sự bất công nghiêm trọng."
       },
       "receptive_productive": "P"
     },

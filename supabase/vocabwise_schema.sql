@@ -62,7 +62,7 @@ CREATE TABLE IF NOT EXISTS vw_glossary (
   example_en            TEXT NOT NULL,
   example_vi            TEXT NOT NULL,
   word_family           JSONB,                  -- {noun, verb, adjective, adverb}
-  false_friend          JSONB,                  -- {word_vi, explanation_vi} or null
+  false_friend          JSONB,                  -- {word, explanation_vi, example_en, example_vi, ff_example_en, ff_example_vi} or null
   receptive_productive  TEXT,                   -- 'R' or 'P' (Book 2 & 3 only)
   item_type             TEXT NOT NULL DEFAULT 'word', -- 'word' or 'collocation'
   UNIQUE (topic_id, item_order)

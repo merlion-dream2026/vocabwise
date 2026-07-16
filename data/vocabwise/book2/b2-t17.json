@@ -61,7 +61,14 @@
         "adjective": "cellular",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "sell",
+        "explanation_vi": "'Cell' là tế bào hoặc ô nhỏ; 'sell' là bán.",
+        "example_en": "The laboratory studied a damaged cell under the microscope.",
+        "example_vi": "Phòng thí nghiệm nghiên cứu một tế bào bị tổn thương dưới kính hiển vi.",
+        "ff_example_en": "The laboratory plans to sell the new microscope.",
+        "ff_example_vi": "Phòng thí nghiệm dự định bán chiếc kính hiển vi mới."
+      },
       "receptive_productive": "R"
     },
     {
@@ -80,8 +87,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "tissue (khăn giấy)",
-        "explanation_vi": "'Tissue' trong sinh học nghĩa là mô cơ thể; trong cuộc sống hàng ngày 'tissue' cũng là 'khăn giấy' — chú ý phân biệt theo ngữ cảnh."
+        "word": "",
+        "explanation_vi": "'Tissue' trong sinh học nghĩa là mô cơ thể; trong cuộc sống hàng ngày 'tissue' cũng là 'khăn giấy' — chú ý phân biệt theo ngữ cảnh.",
+        "example_en": "The scientist examined muscle tissue under a microscope.",
+        "example_vi": "Nhà khoa học kiểm tra mô cơ dưới kính hiển vi.",
+        "ff_example_en": "After the experiment, she wiped the microscope with a tissue.",
+        "ff_example_vi": "Sau thí nghiệm, cô ấy lau kính hiển vi bằng khăn giấy."
       },
       "receptive_productive": "R"
     },
@@ -100,7 +111,14 @@
         "adjective": "organic / organ-related",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "organic",
+        "explanation_vi": "'Organ' là cơ quan trong cơ thể hoặc nhạc cụ; 'organic' là tính từ nghĩa là hữu cơ hoặc thuộc về sinh vật sống.",
+        "example_en": "The liver is an organ that helps remove toxins.",
+        "example_vi": "Gan là một cơ quan giúp loại bỏ độc tố.",
+        "ff_example_en": "The farm produces organic vegetables without synthetic pesticides.",
+        "ff_example_vi": "Trang trại sản xuất rau hữu cơ không dùng thuốc trừ sâu tổng hợp."
+      },
       "receptive_productive": "R"
     },
     {
@@ -137,8 +155,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "nerve system",
-        "explanation_vi": "Cụm từ đúng là 'nervous system', không phải 'nerve system' — 'nervous' là tính từ đúng để mô tả hệ thần kinh."
+        "word": "nerve system",
+        "explanation_vi": "Cụm từ đúng là 'nervous system', không phải 'nerve system' — 'nervous' là tính từ đúng để mô tả hệ thần kinh.",
+        "example_en": "The nervous system carries signals throughout the body.",
+        "example_vi": "Hệ thần kinh truyền tín hiệu khắp cơ thể.",
+        "ff_example_en": "The student incorrectly wrote “nerve system” in the biology report.",
+        "ff_example_vi": "Học sinh đã viết sai cụm “nerve system” trong báo cáo sinh học."
       },
       "receptive_productive": "R"
     },
@@ -176,8 +198,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "vitamin",
-        "explanation_vi": "'Hormone' là chất truyền tin hóa học do cơ thể tự tạo ra; 'vitamin' là chất dinh dưỡng lấy từ thức ăn — hai thứ hoàn toàn khác nhau."
+        "word": "vitamin",
+        "explanation_vi": "'Hormone' là chất truyền tin hóa học do cơ thể tự tạo ra; 'vitamin' là chất dinh dưỡng lấy từ thức ăn — hai thứ hoàn toàn khác nhau.",
+        "example_en": "Insulin is a hormone produced by the body.",
+        "example_vi": "Insulin là một hormone do cơ thể sản xuất.",
+        "ff_example_en": "Vitamin D is a nutrient that the body can obtain from food and sunlight.",
+        "ff_example_vi": "Vitamin D là một chất dinh dưỡng mà cơ thể có thể nhận từ thức ăn và ánh nắng."
       },
       "receptive_productive": "R"
     },
@@ -196,7 +222,14 @@
         "adjective": "muscular",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "mussel",
+        "explanation_vi": "'Muscle' là cơ bắp; 'mussel' là con trai, một loại động vật có vỏ.",
+        "example_en": "The swimmer injured a muscle during training.",
+        "example_vi": "Vận động viên bơi lội bị chấn thương cơ trong lúc tập luyện.",
+        "ff_example_en": "The swimmer ate a mussel at the seafood restaurant after training.",
+        "ff_example_vi": "Vận động viên bơi lội ăn một con trai tại nhà hàng hải sản sau buổi tập."
+      },
       "receptive_productive": "R"
     },
     {
@@ -268,7 +301,14 @@
         "adjective": "nutritious / nutritional",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "nutrition",
+        "explanation_vi": "'Nutrient' là một chất dinh dưỡng cụ thể; 'nutrition' là quá trình hoặc lĩnh vực dinh dưỡng nói chung.",
+        "example_en": "Iron is an important nutrient for the body.",
+        "example_vi": "Sắt là một chất dinh dưỡng quan trọng đối với cơ thể.",
+        "ff_example_en": "The doctor gave the athlete advice about nutrition.",
+        "ff_example_vi": "Bác sĩ tư vấn cho vận động viên về dinh dưỡng."
+      },
       "receptive_productive": "P"
     },
     {
@@ -304,7 +344,14 @@
         "adjective": "reproductive",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "produce",
+        "explanation_vi": "'Reproduce' là sinh sản hoặc tạo lại một bản sao; 'produce' là sản xuất hoặc tạo ra.",
+        "example_en": "These insects reproduce rapidly in warm weather.",
+        "example_vi": "Những loài côn trùng này sinh sản nhanh trong thời tiết ấm.",
+        "ff_example_en": "These farms produce more crops in warm weather.",
+        "ff_example_vi": "Những trang trại này sản xuất nhiều cây trồng hơn trong thời tiết ấm."
+      },
       "receptive_productive": "R"
     },
     {
@@ -323,8 +370,12 @@
         "adverb": "genetically"
       },
       "false_friend": {
-        "word_vi": "jean (quần)",
-        "explanation_vi": "'Gene' (gen di truyền) và 'jean' (quần jean) phát âm giống nhau nhưng nghĩa hoàn toàn khác — đây là một cặp từ đồng âm."
+        "word": "jean",
+        "explanation_vi": "'Gene' (gen di truyền) và 'jean' (quần jean) phát âm giống nhau nhưng nghĩa hoàn toàn khác — đây là một cặp từ đồng âm.",
+        "example_en": "The researcher identified a gene linked to the condition.",
+        "example_vi": "Nhà nghiên cứu xác định một gen liên quan đến tình trạng bệnh.",
+        "ff_example_en": "The researcher wore a blue jean jacket in the laboratory.",
+        "ff_example_vi": "Nhà nghiên cứu mặc một chiếc áo khoác jean xanh trong phòng thí nghiệm."
       },
       "receptive_productive": "R"
     }

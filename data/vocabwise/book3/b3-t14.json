@@ -62,8 +62,12 @@
         "adverb": "subjectively"
       },
       "false_friend": {
-        "word_vi": "objective",
-        "explanation_vi": "'Subjective' dựa trên cảm nhận hay quan điểm cá nhân; 'objective' dựa trên sự thật có thể kiểm chứng bên ngoài — đây là cặp từ trái nghĩa quan trọng."
+        "word": "objective",
+        "explanation_vi": "'Subjective' dựa trên cảm nhận hay quan điểm cá nhân; 'objective' dựa trên sự thật có thể kiểm chứng bên ngoài — đây là cặp từ trái nghĩa quan trọng.",
+        "example_en": "The patient gave a subjective account of her pain.",
+        "example_vi": "Bệnh nhân đưa ra mô tả chủ quan về cơn đau của mình.",
+        "ff_example_en": "The doctor collected objective data from blood tests.",
+        "ff_example_vi": "Bác sĩ thu thập dữ liệu khách quan từ các xét nghiệm máu."
       },
       "receptive_productive": "P"
     },
@@ -100,7 +104,14 @@
         "adjective": "grateful",
         "adverb": "gratefully"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "gratification",
+        "explanation_vi": "'Gratitude' là lòng biết ơn; 'gratification' là sự thỏa mãn khi một mong muốn được đáp ứng.",
+        "example_en": "Lan felt gratitude after her friends gave her a thoughtful gift.",
+        "example_vi": "Lan cảm thấy biết ơn sau khi bạn bè tặng cô một món quà đầy ý nghĩa.",
+        "ff_example_en": "Lan felt immediate gratification after opening the gift.",
+        "ff_example_vi": "Lan cảm thấy thỏa mãn tức thời sau khi mở món quà."
+      },
       "receptive_productive": "P"
     },
     {
@@ -137,8 +148,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "hedonic",
-        "explanation_vi": "'Eudaimonic' liên quan đến ý nghĩa và sự phát triển bản thân; 'hedonic' liên quan đến niềm vui và sự hưởng thụ — đây là hai trường phái triết học khác nhau về hạnh phúc."
+        "word": "hedonic",
+        "explanation_vi": "'Eudaimonic' liên quan đến ý nghĩa và sự phát triển bản thân; 'hedonic' liên quan đến niềm vui và sự hưởng thụ — đây là hai trường phái triết học khác nhau về hạnh phúc.",
+        "example_en": "Volunteering supported eudaimonic wellbeing by giving Lan a sense of purpose.",
+        "example_vi": "Hoạt động tình nguyện hỗ trợ hạnh phúc theo hướng ý nghĩa bằng cách mang lại cho Lan cảm giác có mục đích.",
+        "ff_example_en": "Eating a favourite dessert provided brief hedonic pleasure.",
+        "ff_example_vi": "Ăn món tráng miệng yêu thích mang lại niềm vui hưởng thụ ngắn ngủi."
       },
       "receptive_productive": "P"
     },
@@ -158,8 +173,12 @@
         "adverb": "contentedly"
       },
       "false_friend": {
-        "word_vi": "happiness",
-        "explanation_vi": "'Contentment' gợi sự thỏa mãn bình lặng và lâu dài; 'happiness' thường mang cảm giác vui mừng hoặc phấn khởi ngắn hạn hơn."
+        "word": "happiness",
+        "explanation_vi": "'Contentment' gợi sự thỏa mãn bình lặng và lâu dài; 'happiness' thường mang cảm giác vui mừng hoặc phấn khởi ngắn hạn hơn.",
+        "example_en": "After years of stable family life, Minh felt deep contentment.",
+        "example_vi": "Sau nhiều năm có cuộc sống gia đình ổn định, Minh cảm thấy sự mãn nguyện sâu sắc.",
+        "ff_example_en": "Winning the surprise prize produced immediate happiness.",
+        "ff_example_vi": "Việc bất ngờ thắng giải mang lại niềm vui tức thời."
       },
       "receptive_productive": "P"
     },
@@ -179,8 +198,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "causation",
-        "explanation_vi": "'Correlation' cho thấy hai biến số có liên hệ với nhau; 'causation' có nghĩa là một biến gây ra biến kia — đây là sự phân biệt quan trọng trong nghiên cứu khoa học."
+        "word": "causation",
+        "explanation_vi": "'Correlation' cho thấy hai biến số có liên hệ với nhau; 'causation' có nghĩa là một biến gây ra biến kia — đây là sự phân biệt quan trọng trong nghiên cứu khoa học.",
+        "example_en": "The study found a correlation between exercise and better mood.",
+        "example_vi": "Nghiên cứu phát hiện mối tương quan giữa tập thể dục và tâm trạng tốt hơn.",
+        "ff_example_en": "The data did not prove that exercise was the direct causation of every mood change.",
+        "ff_example_vi": "Dữ liệu không chứng minh rằng tập thể dục là nguyên nhân trực tiếp của mọi thay đổi tâm trạng."
       },
       "receptive_productive": "P"
     },
@@ -236,8 +259,12 @@
         "adverb": "perceptively"
       },
       "false_friend": {
-        "word_vi": "perspective",
-        "explanation_vi": "'Perception' là cách một người cảm nhận hay diễn giải thực tế; 'perspective' là góc nhìn hay quan điểm — dễ nhầm nhưng dùng trong những bối cảnh khác nhau."
+        "word": "perspective",
+        "explanation_vi": "'Perception' là cách một người cảm nhận hay diễn giải thực tế; 'perspective' là góc nhìn hay quan điểm — dễ nhầm nhưng dùng trong những bối cảnh khác nhau.",
+        "example_en": "Stress changed the patient’s perception of ordinary events.",
+        "example_vi": "Căng thẳng làm thay đổi cách bệnh nhân cảm nhận các sự việc thông thường.",
+        "ff_example_en": "The therapist offered a different perspective on those events.",
+        "ff_example_vi": "Nhà trị liệu đưa ra một góc nhìn khác về những sự việc đó."
       },
       "receptive_productive": "P"
     },

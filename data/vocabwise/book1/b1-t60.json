@@ -61,7 +61,14 @@
         "adjective": null,
         "adverb": "what"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "which",
+        "explanation_vi": "“What” dùng khi lựa chọn không được giới hạn rõ; “which” dùng khi chọn trong một nhóm lựa chọn xác định.",
+        "example_en": "What book would you like to read?",
+        "example_vi": "Bạn muốn đọc cuốn sách nào?",
+        "ff_example_en": "Which of these three books would you like to read?",
+        "ff_example_vi": "Trong ba cuốn sách này, bạn muốn đọc cuốn nào?"
+      }
     },
     {
       "id": 2,
@@ -78,7 +85,14 @@
         "adjective": null,
         "adverb": "where / wherever"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "were",
+        "explanation_vi": "“Where” là từ hỏi nơi chốn; “were” là dạng quá khứ của “be”. Hai từ thường phát âm giống hoặc gần giống nhau.",
+        "example_en": "Where were the students yesterday?",
+        "example_vi": "Hôm qua các học sinh ở đâu?",
+        "ff_example_en": "The students were in the library yesterday.",
+        "ff_example_vi": "Hôm qua các học sinh ở trong thư viện."
+      }
     },
     {
       "id": 3,
@@ -112,7 +126,14 @@
         "adjective": "whose",
         "adverb": "whom / whoever"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "whom",
+        "explanation_vi": "“Who” thường làm chủ ngữ; “whom” làm tân ngữ và chủ yếu dùng trong văn phong trang trọng.",
+        "example_en": "Who asked the final question?",
+        "example_vi": "Ai đã đặt câu hỏi cuối cùng?",
+        "ff_example_en": "Whom did the teacher ask to answer the final question?",
+        "ff_example_vi": "Giáo viên yêu cầu ai trả lời câu hỏi cuối cùng?"
+      }
     },
     {
       "id": 5,
@@ -163,7 +184,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "tell",
+        "explanation_vi": "“Ask” dùng cho câu hỏi hoặc yêu cầu; “tell” dùng để cung cấp thông tin hoặc ra lệnh.",
+        "example_en": "Lan asked the teacher when the test would begin.",
+        "example_vi": "Lan hỏi giáo viên khi nào bài kiểm tra bắt đầu.",
+        "ff_example_en": "The teacher told Lan when the test would begin.",
+        "ff_example_vi": "Giáo viên nói cho Lan biết khi nào bài kiểm tra bắt đầu."
+      }
     },
     {
       "id": 8,
@@ -180,7 +208,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "reply",
+        "explanation_vi": "“Answer” thường dùng cho câu hỏi; “reply” thường là phản hồi lời nói, email hoặc tin nhắn.",
+        "example_en": "Lan answered the teacher’s question.",
+        "example_vi": "Lan trả lời câu hỏi của giáo viên.",
+        "ff_example_en": "Lan replied to the teacher’s email.",
+        "ff_example_vi": "Lan trả lời email của giáo viên."
+      }
     },
     {
       "id": 9,
@@ -197,7 +232,14 @@
         "adjective": "knowledgeable / known / unknown",
         "adverb": "knowingly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "understand",
+        "explanation_vi": "“Know” là có thông tin; “understand” là nắm được ý nghĩa hoặc cách thức.",
+        "example_en": "I know the answer to the question.",
+        "example_vi": "Tôi biết đáp án của câu hỏi.",
+        "ff_example_en": "I understand why that answer is correct.",
+        "ff_example_vi": "Tôi hiểu vì sao đáp án đó đúng."
+      }
     },
     {
       "id": 10,
@@ -232,8 +274,12 @@
         "adverb": "meaningfully"
       },
       "false_friend": {
-        "word_vi": "mean (tính từ)",
-        "explanation_vi": "'Mean' (động từ) nghĩa là 'có nghĩa là'. Nhưng 'mean' (tính từ) nghĩa là 'xấu bụng, độc ác'. Ví dụ: What does it mean? (Nó có nghĩa là gì?) ≠ He is mean. (Anh ấy xấu bụng.)"
+        "word": "",
+        "explanation_vi": "'Mean' (động từ) nghĩa là 'có nghĩa là'. Nhưng 'mean' (tính từ) nghĩa là 'xấu bụng, độc ác'. Ví dụ: What does it mean? (Nó có nghĩa là gì?) ≠ He is mean. (Anh ấy xấu bụng.)",
+        "example_en": "The student asked what the new word meant.",
+        "example_vi": "Học sinh hỏi từ mới có nghĩa là gì.",
+        "ff_example_en": "The student thought the character in the story was mean.",
+        "ff_example_vi": "Học sinh cho rằng nhân vật trong câu chuyện rất xấu tính."
       }
     },
     {
@@ -302,7 +348,14 @@
         "adjective": "sure / unsure",
         "adverb": "surely / certainly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "surely",
+        "explanation_vi": "“Sure” là tính từ nghĩa là chắc chắn; “surely” là trạng từ nghĩa là chắc hẳn hoặc chắc chắn.",
+        "example_en": "I am sure that this answer is correct.",
+        "example_vi": "Tôi chắc chắn rằng đáp án này đúng.",
+        "ff_example_en": "Surely this answer cannot be wrong.",
+        "ff_example_vi": "Chắc hẳn đáp án này không thể sai."
+      }
     }
   ],
   "exercises": {

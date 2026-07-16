@@ -78,7 +78,14 @@
         "adjective": "funny",
         "adverb": "funnily"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "fun",
+        "explanation_vi": "“Funny” nghĩa là hài hước hoặc buồn cười; “fun” nghĩa là vui và thú vị.",
+        "example_en": "The actor was funny and made the class laugh.",
+        "example_vi": "Nam diễn viên hài hước và khiến cả lớp bật cười.",
+        "ff_example_en": "The school play was fun for the whole class.",
+        "ff_example_vi": "Vở kịch của trường rất thú vị đối với cả lớp."
+      }
     },
     {
       "id": 3,
@@ -95,7 +102,14 @@
         "adjective": "quiet",
         "adverb": "quietly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "quite",
+        "explanation_vi": "“Quiet” nghĩa là yên tĩnh hoặc ít nói; “quite” là trạng từ nghĩa là khá hoặc hoàn toàn.",
+        "example_en": "The new classmate is quiet during lessons.",
+        "example_vi": "Bạn cùng lớp mới ít nói trong giờ học.",
+        "ff_example_en": "The new classmate is quite talkative during breaks.",
+        "ff_example_vi": "Bạn cùng lớp mới khá hay nói trong giờ nghỉ."
+      }
     },
     {
       "id": 4,
@@ -129,7 +143,14 @@
         "adjective": "serious",
         "adverb": "seriously"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "severe",
+        "explanation_vi": "“Serious” có thể nói người nghiêm túc hoặc vấn đề quan trọng; “severe” thường mô tả mức độ rất nghiêm trọng, khắc nghiệt hoặc dữ dội.",
+        "example_en": "The manager looked serious during the meeting.",
+        "example_vi": "Người quản lý trông nghiêm túc trong cuộc họp.",
+        "ff_example_en": "The company faced severe financial problems during the year.",
+        "ff_example_vi": "Công ty đối mặt với những vấn đề tài chính nghiêm trọng trong năm."
+      }
     },
     {
       "id": 6,
@@ -180,7 +201,14 @@
         "adjective": "helpful / unhelpful",
         "adverb": "helpfully"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "useful",
+        "explanation_vi": "“Helpful” thường nói người sẵn lòng giúp hoặc điều có tác dụng hỗ trợ; “useful” chủ yếu nói vật hoặc thông tin có ích cho một mục đích.",
+        "example_en": "The classmate was helpful when Lan could not solve the problem.",
+        "example_vi": "Bạn cùng lớp rất hay giúp đỡ khi Lan không giải được bài.",
+        "ff_example_en": "The classmate gave Lan a useful formula for solving the problem.",
+        "ff_example_vi": "Bạn cùng lớp đưa cho Lan một công thức hữu ích để giải bài."
+      }
     },
     {
       "id": 9,
@@ -214,7 +242,14 @@
         "adjective": "shy",
         "adverb": "shyly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "embarrassed",
+        "explanation_vi": "“Shy” là tính cách rụt rè trong giao tiếp; “embarrassed” là cảm giác ngượng ngùng vì một tình huống cụ thể.",
+        "example_en": "Lan is shy when she meets new classmates.",
+        "example_vi": "Lan rụt rè khi gặp bạn cùng lớp mới.",
+        "ff_example_en": "Lan was embarrassed when she forgot her classmate’s name.",
+        "ff_example_vi": "Lan cảm thấy ngượng khi quên tên bạn cùng lớp."
+      }
     },
     {
       "id": 11,
@@ -299,7 +334,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "colleague",
+        "explanation_vi": "“Classmate” là người học cùng lớp; “colleague” là người làm việc cùng cơ quan hoặc nghề nghiệp.",
+        "example_en": "Minh discussed the assignment with a classmate.",
+        "example_vi": "Minh thảo luận bài tập với một bạn cùng lớp.",
+        "ff_example_en": "Years later, Minh discussed a work project with a colleague.",
+        "ff_example_vi": "Nhiều năm sau, Minh thảo luận một dự án công việc với một đồng nghiệp."
+      }
     }
   ],
   "exercises": {

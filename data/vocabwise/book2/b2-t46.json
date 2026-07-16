@@ -80,8 +80,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "câu (ngữ pháp)",
-        "explanation_vi": "'Sentence' trong ngữ pháp có nghĩa là câu văn; trong luật pháp, 'sentence' là bản án tòa tuyên. Đây là hai nghĩa hoàn toàn khác nhau của cùng một từ."
+        "word": "",
+        "explanation_vi": "'Sentence' trong ngữ pháp có nghĩa là câu văn; trong luật pháp, 'sentence' là bản án tòa tuyên. Đây là hai nghĩa hoàn toàn khác nhau của cùng một từ.",
+        "example_en": "The judge gave the offender a five-year sentence.",
+        "example_vi": "Thẩm phán tuyên người phạm tội bản án năm năm tù.",
+        "ff_example_en": "The reporter wrote a sentence about the court’s decision.",
+        "ff_example_vi": "Phóng viên viết một câu về quyết định của tòa án."
       },
       "receptive_productive": "P"
     },
@@ -136,7 +140,14 @@
         "adjective": "penal",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "fine",
+        "explanation_vi": "'Penalty' là hình phạt nói chung; 'fine' là một khoản tiền phạt cụ thể.",
+        "example_en": "The court imposed a severe penalty for the offence.",
+        "example_vi": "Tòa án áp dụng một hình phạt nghiêm khắc cho hành vi phạm tội.",
+        "ff_example_en": "The court ordered the offender to pay a large fine.",
+        "ff_example_vi": "Tòa án yêu cầu người vi phạm nộp một khoản tiền phạt lớn."
+      },
       "receptive_productive": "P"
     },
     {
@@ -190,7 +201,14 @@
         "adjective": "evident",
         "adverb": "evidently"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "proof",
+        "explanation_vi": "'Evidence' là thông tin hoặc dữ liệu hỗ trợ một kết luận; 'proof' là bằng chứng đủ sức xác lập điều gì đó là đúng, nên thường mạnh và dứt khoát hơn.",
+        "example_en": "The scientist presented evidence that the treatment might work.",
+        "example_vi": "Nhà khoa học trình bày bằng chứng cho thấy phương pháp điều trị có thể hiệu quả.",
+        "ff_example_en": "The scientist said the results were not yet proof that the treatment worked.",
+        "ff_example_vi": "Nhà khoa học nói rằng kết quả vẫn chưa phải là bằng chứng xác thực rằng phương pháp điều trị có hiệu quả."
+      },
       "receptive_productive": "P"
     },
     {
@@ -208,7 +226,14 @@
         "adjective": "legal / illegal",
         "adverb": "legally"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "legitimate",
+        "explanation_vi": "'Legal' nghĩa là hợp pháp theo luật; 'legitimate' nghĩa là chính đáng, hợp lý hoặc hợp pháp, với phạm vi rộng hơn.",
+        "example_en": "The company confirmed that the payment was legal.",
+        "example_vi": "Công ty xác nhận khoản thanh toán là hợp pháp.",
+        "ff_example_en": "Customers questioned whether the extra charge was legitimate.",
+        "ff_example_vi": "Khách hàng đặt câu hỏi liệu khoản phụ phí có chính đáng hay không."
+      },
       "receptive_productive": "P"
     },
     {
@@ -226,7 +251,14 @@
         "adjective": "offensive",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "defence",
+        "explanation_vi": "'Offence' là hành vi phạm pháp hoặc sự xúc phạm; 'defence' là sự bảo vệ hoặc lập luận bào chữa.",
+        "example_en": "The court considered the seriousness of the offence.",
+        "example_vi": "Tòa án xem xét mức độ nghiêm trọng của hành vi phạm tội.",
+        "ff_example_en": "The lawyer presented evidence for the defence.",
+        "ff_example_vi": "Luật sư trình bày bằng chứng cho bên bào chữa."
+      },
       "receptive_productive": "P"
     },
     {

@@ -81,8 +81,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "value (giá tiền)",
-        "explanation_vi": "'Values' (số nhiều) là giá trị đạo đức; 'value' (số ít) thường là giá tiền — ngữ cảnh quyết định."
+        "word": "value",
+        "explanation_vi": "'Values' (số nhiều) là giá trị đạo đức; 'value' (số ít) thường là giá tiền — ngữ cảnh quyết định.",
+        "example_en": "The family teaches children values such as honesty and respect.",
+        "example_vi": "Gia đình dạy trẻ những giá trị như sự trung thực và tôn trọng.",
+        "ff_example_en": "The family also considers the value of the house before selling it.",
+        "ff_example_vi": "Gia đình cũng cân nhắc giá trị của căn nhà trước khi bán."
       },
       "receptive_productive": "R"
     },
@@ -137,7 +141,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "altitude",
+        "explanation_vi": "'Attitude' là thái độ; 'altitude' là độ cao so với mực nước biển.",
+        "example_en": "The guide praised Lan's positive attitude during the climb.",
+        "example_vi": "Hướng dẫn viên khen thái độ tích cực của Lan trong chuyến leo núi.",
+        "ff_example_en": "The guide checked the altitude during the climb.",
+        "ff_example_vi": "Hướng dẫn viên kiểm tra độ cao trong chuyến leo núi."
+      },
       "receptive_productive": "R"
     },
     {
@@ -318,8 +329,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "ca làm việc",
-        "explanation_vi": "'Shift' còn có nghĩa là ca làm việc (work shift) — context quyết định nghĩa."
+        "word": "",
+        "explanation_vi": "'Shift' còn có nghĩa là ca làm việc (work shift) — context quyết định nghĩa.",
+        "example_en": "There has been a major shift in parents’ attitudes toward technology.",
+        "example_vi": "Đã có một sự thay đổi lớn trong thái độ của phụ huynh đối với công nghệ.",
+        "ff_example_en": "Many parents now work an evening shift at the local hospital.",
+        "ff_example_vi": "Nhiều phụ huynh hiện làm ca tối tại bệnh viện địa phương."
       },
       "receptive_productive": "P"
     }

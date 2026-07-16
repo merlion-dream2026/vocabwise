@@ -98,8 +98,12 @@
         "adverb": "theoretically"
       },
       "false_friend": {
-        "word_vi": "theory",
-        "explanation_vi": "'Theorem' là một mệnh đề đã được chứng minh nghiêm ngặt; 'theory' là một khung giải thích rộng hơn, không nhất thiết phải được chứng minh hoàn toàn — hai từ không dùng thay thế nhau trong toán học."
+        "word": "theory",
+        "explanation_vi": "'Theorem' là một mệnh đề đã được chứng minh nghiêm ngặt; 'theory' là một khung giải thích rộng hơn, không nhất thiết phải được chứng minh hoàn toàn — hai từ không dùng thay thế nhau trong toán học.",
+        "example_en": "The students proved the theorem using established mathematical rules.",
+        "example_vi": "Các học sinh chứng minh định lý bằng các quy tắc toán học đã được thiết lập.",
+        "ff_example_en": "The teacher then discussed a broader theory about mathematical learning.",
+        "ff_example_vi": "Sau đó, giáo viên thảo luận một lý thuyết rộng hơn về việc học toán."
       },
       "receptive_productive": "P"
     },
@@ -118,7 +122,14 @@
         "adjective": "logical / illogical",
         "adverb": "logically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "logistics",
+        "explanation_vi": "'Logic' là hệ thống suy luận hợp lý; 'logistics' là việc tổ chức vận chuyển và nguồn lực.",
+        "example_en": "The professor examined the logic of the argument.",
+        "example_vi": "Giáo sư xem xét tính logic của lập luận.",
+        "ff_example_en": "The organiser managed the logistics of the conference.",
+        "ff_example_vi": "Người tổ chức quản lý công tác hậu cần của hội nghị."
+      },
       "receptive_productive": "P"
     },
     {
@@ -136,7 +147,14 @@
         "adjective": "algorithmic",
         "adverb": "algorithmically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "logarithm",
+        "explanation_vi": "'Algorithm' là chuỗi quy tắc giải quyết vấn đề; 'logarithm' là một khái niệm toán học liên quan đến số mũ.",
+        "example_en": "The programmer designed an algorithm to sort the data.",
+        "example_vi": "Lập trình viên thiết kế một thuật toán để sắp xếp dữ liệu.",
+        "ff_example_en": "The mathematician used a logarithm to simplify the calculation.",
+        "ff_example_vi": "Nhà toán học dùng logarit để đơn giản hóa phép tính."
+      },
       "receptive_productive": "P"
     },
     {
@@ -154,7 +172,14 @@
         "adjective": "probable / improbable",
         "adverb": "probably"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "possibility",
+        "explanation_vi": "'Probability' là mức độ có khả năng xảy ra, thường có thể định lượng; 'possibility' chỉ việc điều gì có thể xảy ra.",
+        "example_en": "The model calculated the probability of rain as 70 percent.",
+        "example_vi": "Mô hình tính xác suất mưa là 70 phần trăm.",
+        "ff_example_en": "The forecast mentioned the possibility of a storm.",
+        "ff_example_vi": "Dự báo đề cập khả năng có bão."
+      },
       "receptive_productive": "P"
     },
     {

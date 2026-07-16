@@ -61,7 +61,14 @@
         "adjective": "athletic",
         "adverb": "athletically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "athletics",
+        "explanation_vi": "'Athlete' là vận động viên; 'athletics' là môn điền kinh hoặc hoạt động thể thao nói chung.",
+        "example_en": "The athlete won the 800-metre race.",
+        "example_vi": "Vận động viên giành chiến thắng trong cuộc đua 800 mét.",
+        "ff_example_en": "The school improved its athletics facilities before the race.",
+        "ff_example_vi": "Nhà trường cải thiện cơ sở vật chất điền kinh trước cuộc đua."
+      },
       "receptive_productive": "P"
     },
     {
@@ -79,7 +86,14 @@
         "adjective": "competitive",
         "adverb": "competitively"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "complete",
+        "explanation_vi": "'Compete' là thi đấu hoặc cạnh tranh; 'complete' là hoàn thành hoặc đầy đủ.",
+        "example_en": "The teams will compete in the final round.",
+        "example_vi": "Các đội sẽ thi đấu trong vòng chung kết.",
+        "ff_example_en": "The teams must complete the registration form before the final round.",
+        "ff_example_vi": "Các đội phải hoàn thành mẫu đăng ký trước vòng chung kết."
+      },
       "receptive_productive": "P"
     },
     {
@@ -134,8 +148,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "audience",
-        "explanation_vi": "'Spectator' chủ yếu dùng cho người xem thể thao trực tiếp tại sân; 'audience' dùng cho người xem biểu diễn nghệ thuật (phim, nhạc, sân khấu) hoặc xem qua TV/phát sóng."
+        "word": "audience",
+        "explanation_vi": "'Spectator' chủ yếu dùng cho người xem thể thao trực tiếp tại sân; 'audience' dùng cho người xem biểu diễn nghệ thuật (phim, nhạc, sân khấu) hoặc xem qua TV/phát sóng.",
+        "example_en": "Thousands of spectators watched the football final inside the stadium.",
+        "example_vi": "Hàng nghìn khán giả theo dõi trận chung kết bóng đá trong sân vận động.",
+        "ff_example_en": "A television audience of millions watched the same final from home.",
+        "ff_example_vi": "Hàng triệu khán giả truyền hình theo dõi cùng trận chung kết đó tại nhà."
       },
       "receptive_productive": "P"
     },
@@ -244,7 +262,14 @@
         "adjective": "physical / mental",
         "adverb": "physically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "physician",
+        "explanation_vi": "'Physical' là tính từ nghĩa là thuộc cơ thể; 'physician' là bác sĩ.",
+        "example_en": "The coach checked the athlete's physical condition.",
+        "example_vi": "Huấn luyện viên kiểm tra tình trạng thể chất của vận động viên.",
+        "ff_example_en": "A physician examined the athlete after the race.",
+        "ff_example_vi": "Một bác sĩ khám cho vận động viên sau cuộc đua."
+      },
       "receptive_productive": "P"
     },
     {
@@ -298,7 +323,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "couch",
+        "explanation_vi": "'Coach' là huấn luyện viên hoặc xe khách đường dài; 'couch' là ghế sofa.",
+        "example_en": "The coach spoke to the team after the match.",
+        "example_vi": "Huấn luyện viên nói chuyện với đội sau trận đấu.",
+        "ff_example_en": "The players rested on a couch after the match.",
+        "ff_example_vi": "Các cầu thủ nghỉ trên ghế sofa sau trận đấu."
+      },
       "receptive_productive": "P"
     },
     {

@@ -61,7 +61,14 @@
         "adjective": "likeable",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "alike",
+        "explanation_vi": "“Like” là động từ nghĩa là thích hoặc giới từ nghĩa là giống; “alike” là tính từ/trạng từ nghĩa là giống nhau và thường đứng sau động từ.",
+        "example_en": "Lan likes both of the new films.",
+        "example_vi": "Lan thích cả hai bộ phim mới.",
+        "ff_example_en": "The two new films are alike in several ways.",
+        "ff_example_vi": "Hai bộ phim mới giống nhau ở một số điểm."
+      }
     },
     {
       "id": 2,
@@ -112,7 +119,14 @@
         "adjective": "enjoyable",
         "adverb": "enjoyably"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "fun",
+        "explanation_vi": "“Enjoy” là động từ nghĩa là thích thú; “fun” là danh từ hoặc tính từ không trang trọng nghĩa là niềm vui hoặc thú vị.",
+        "example_en": "The students enjoyed the class game.",
+        "example_vi": "Các học sinh thích trò chơi trong lớp.",
+        "ff_example_en": "The class game was fun for the students.",
+        "ff_example_vi": "Trò chơi trong lớp rất thú vị đối với các học sinh."
+      }
     },
     {
       "id": 5,
@@ -129,7 +143,14 @@
         "adjective": "preferable / preferred",
         "adverb": "preferably"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "favourite",
+        "explanation_vi": "“Prefer” là động từ nghĩa là thích một lựa chọn hơn; “favourite” là tính từ hoặc danh từ chỉ lựa chọn được yêu thích nhất.",
+        "example_en": "Lan prefers the blue dress to the red one.",
+        "example_vi": "Lan thích chiếc váy xanh hơn chiếc váy đỏ.",
+        "ff_example_en": "The blue dress is Lan’s favourite.",
+        "ff_example_vi": "Chiếc váy xanh là chiếc Lan yêu thích nhất."
+      }
     },
     {
       "id": 6,
@@ -163,7 +184,14 @@
         "adjective": "good / better / best",
         "adverb": "well"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "well",
+        "explanation_vi": "“Good” thường là tính từ mô tả danh từ; “well” thường là trạng từ mô tả cách thực hiện hành động.",
+        "example_en": "Lan is a good singer.",
+        "example_vi": "Lan là một ca sĩ giỏi.",
+        "ff_example_en": "Lan sings well at school events.",
+        "ff_example_vi": "Lan hát hay tại các sự kiện của trường."
+      }
     },
     {
       "id": 8,
@@ -180,7 +208,14 @@
         "adjective": "bad / worse / worst",
         "adverb": "badly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "badly",
+        "explanation_vi": "“Bad” là tính từ; “badly” là trạng từ mô tả cách một hành động được thực hiện.",
+        "example_en": "The first performance was bad.",
+        "example_vi": "Màn biểu diễn đầu tiên rất tệ.",
+        "ff_example_en": "The band performed badly in the first round.",
+        "ff_example_vi": "Ban nhạc biểu diễn tệ trong vòng đầu."
+      }
     },
     {
       "id": 9,
@@ -197,7 +232,14 @@
         "adjective": "boring / bored",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "bored",
+        "explanation_vi": "“Boring” mô tả sự việc gây chán; “bored” mô tả người cảm thấy chán.",
+        "example_en": "The film was boring for the students.",
+        "example_vi": "Bộ phim gây chán đối với các học sinh.",
+        "ff_example_en": "The students were bored during the film.",
+        "ff_example_vi": "Các học sinh cảm thấy chán trong lúc xem phim."
+      }
     },
     {
       "id": 10,
@@ -214,7 +256,14 @@
         "adjective": "exciting / excited",
         "adverb": "excitingly"
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "excited",
+        "explanation_vi": "“Exciting” mô tả sự việc gây hào hứng; “excited” mô tả người cảm thấy hào hứng.",
+        "example_en": "The final match was exciting.",
+        "example_vi": "Trận chung kết rất hấp dẫn.",
+        "ff_example_en": "The fans were excited during the final match.",
+        "ff_example_vi": "Người hâm mộ rất hào hứng trong trận chung kết."
+      }
     },
     {
       "id": 11,
@@ -232,8 +281,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "funny",
-        "explanation_vi": "'Fun' nghĩa là vui, thú vị (trải nghiệm tốt). 'Funny' nghĩa là hài hước, buồn cười. Ví dụ: The game was fun (Trò chơi thú vị). The story was funny (Câu chuyện buồn cười)."
+        "word": "funny",
+        "explanation_vi": "'Fun' nghĩa là vui, thú vị (trải nghiệm tốt). 'Funny' nghĩa là hài hước, buồn cười. Ví dụ: The game was fun (Trò chơi thú vị). The story was funny (Câu chuyện buồn cười).",
+        "example_en": "The class game was fun for everyone.",
+        "example_vi": "Trò chơi trong lớp rất thú vị đối với mọi người.",
+        "ff_example_en": "The teacher told a funny story during the class game.",
+        "ff_example_vi": "Giáo viên kể một câu chuyện hài hước trong lúc chơi trò chơi ở lớp."
       }
     },
     {
@@ -251,7 +304,14 @@
         "adjective": "wanted / unwanted",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "need",
+        "explanation_vi": "“Want” là mong muốn; “need” là cần thiết.",
+        "example_en": "Lan wants a new laptop for her birthday.",
+        "example_vi": "Lan muốn một chiếc máy tính xách tay mới vào sinh nhật.",
+        "ff_example_en": "Lan needs a laptop to complete her school project.",
+        "ff_example_vi": "Lan cần máy tính xách tay để hoàn thành dự án ở trường."
+      }
     },
     {
       "id": 13,
@@ -285,7 +345,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "fill",
+        "explanation_vi": "“Feel” nghĩa là cảm thấy; “fill” nghĩa là làm đầy. Hai từ phát âm khá gần nhau.",
+        "example_en": "I feel happy when I listen to this song.",
+        "example_vi": "Tôi cảm thấy vui khi nghe bài hát này.",
+        "ff_example_en": "I fill my room with music when I study.",
+        "ff_example_vi": "Tôi để âm nhạc tràn ngập căn phòng khi học."
+      }
     },
     {
       "id": 15,
@@ -302,7 +369,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "tell",
+        "explanation_vi": "“Say” tập trung vào lời được nói; “tell” thường cần người nhận.",
+        "example_en": "Lan said that she enjoyed the film.",
+        "example_vi": "Lan nói rằng cô ấy thích bộ phim.",
+        "ff_example_en": "Lan told her friend that she enjoyed the film.",
+        "ff_example_vi": "Lan nói với bạn rằng cô ấy thích bộ phim."
+      }
     }
   ],
   "exercises": {

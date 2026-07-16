@@ -61,7 +61,14 @@
         "adjective": "algorithmic",
         "adverb": "algorithmically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "logarithm",
+        "explanation_vi": "'Algorithm' là chuỗi quy tắc giải quyết vấn đề; 'logarithm' là một khái niệm toán học liên quan đến số mũ.",
+        "example_en": "The programmer designed an algorithm to sort the data.",
+        "example_vi": "Lập trình viên thiết kế một thuật toán để sắp xếp dữ liệu.",
+        "ff_example_en": "The mathematician used a logarithm to simplify the calculation.",
+        "ff_example_vi": "Nhà toán học dùng logarit để đơn giản hóa phép tính."
+      },
       "receptive_productive": "P"
     },
     {
@@ -79,7 +86,14 @@
         "adjective": "biased / biasedly",
         "adverb": "biasedly"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "prejudice",
+        "explanation_vi": "'Bias' là xu hướng thiên lệch có thể có ý thức hoặc vô thức; 'prejudice' thường là định kiến tiêu cực đã hình thành trước về một nhóm người.",
+        "example_en": "The editor checked the article for political bias.",
+        "example_vi": "Biên tập viên kiểm tra bài báo để phát hiện sự thiên lệch chính trị.",
+        "ff_example_en": "The editor removed a sentence that showed prejudice against migrants.",
+        "ff_example_vi": "Biên tập viên xóa một câu thể hiện định kiến đối với người di cư."
+      },
       "receptive_productive": "P"
     },
     {
@@ -97,7 +111,14 @@
         "adjective": "autonomous",
         "adverb": "autonomously"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "automatic",
+        "explanation_vi": "'Autonomous' nghĩa là có khả năng tự quyết hoặc hoạt động độc lập; 'automatic' nghĩa là tự vận hành theo cơ chế định sẵn.",
+        "example_en": "The autonomous vehicle can choose a safe route.",
+        "example_vi": "Phương tiện tự hành có thể lựa chọn tuyến đường an toàn.",
+        "ff_example_en": "The automatic door opens when a sensor detects movement.",
+        "ff_example_vi": "Cửa tự động mở khi cảm biến phát hiện chuyển động."
+      },
       "receptive_productive": "P"
     },
     {
@@ -115,7 +136,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "survey",
+        "explanation_vi": "'Surveillance' là sự giám sát có hệ thống; 'survey' là khảo sát hoặc đo đạc.",
+        "example_en": "The city expanded camera surveillance in the station.",
+        "example_vi": "Thành phố mở rộng hệ thống giám sát bằng camera tại nhà ga.",
+        "ff_example_en": "The city conducted a passenger survey in the station.",
+        "ff_example_vi": "Thành phố tiến hành khảo sát hành khách tại nhà ga."
+      },
       "receptive_productive": "P"
     },
     {
@@ -152,8 +180,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "responsibility",
-        "explanation_vi": "'Accountability' nhấn mạnh nghĩa vụ giải trình và chịu hậu quả; 'responsibility' nhấn mạnh bổn phận thực hiện nhiệm vụ — hai khái niệm liên quan nhưng khác nhau."
+        "word": "responsibility",
+        "explanation_vi": "'Accountability' nhấn mạnh nghĩa vụ giải trình và chịu hậu quả; 'responsibility' nhấn mạnh bổn phận thực hiện nhiệm vụ — hai khái niệm liên quan nhưng khác nhau.",
+        "example_en": "The agency has accountability to Parliament and must explain its decisions.",
+        "example_vi": "Cơ quan có trách nhiệm giải trình trước Quốc hội và phải giải thích các quyết định của mình.",
+        "ff_example_en": "Its technical team has responsibility for maintaining the system.",
+        "ff_example_vi": "Đội kỹ thuật của cơ quan có trách nhiệm bảo trì hệ thống."
       },
       "receptive_productive": "P"
     },
@@ -209,8 +241,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "surveillance",
-        "explanation_vi": "'Oversight' mang nghĩa giám sát mang tính quản lý nhằm đảm bảo tuân thủ; 'surveillance' là theo dõi thường xuyên nhằm thu thập thông tin — mục đích và hàm ý khác nhau."
+        "word": "surveillance",
+        "explanation_vi": "'Oversight' mang nghĩa giám sát mang tính quản lý nhằm đảm bảo tuân thủ; 'surveillance' là theo dõi thường xuyên nhằm thu thập thông tin — mục đích và hàm ý khác nhau.",
+        "example_en": "Independent oversight ensures that the AI system follows legal rules.",
+        "example_vi": "Hoạt động giám sát độc lập bảo đảm hệ thống AI tuân thủ các quy định pháp luật.",
+        "ff_example_en": "Continuous surveillance records how users behave on the platform.",
+        "ff_example_vi": "Việc theo dõi liên tục ghi lại cách người dùng hành xử trên nền tảng."
       },
       "receptive_productive": "P"
     },
@@ -229,7 +265,14 @@
         "adjective": "sentient",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "sentence",
+        "explanation_vi": "'Sentience' là khả năng cảm nhận và có trải nghiệm chủ quan; 'sentence' là câu văn hoặc bản án.",
+        "example_en": "The debate focused on whether advanced AI could develop sentience.",
+        "example_vi": "Cuộc tranh luận tập trung vào việc liệu AI tiên tiến có thể phát triển khả năng cảm nhận hay không.",
+        "ff_example_en": "The student wrote a sentence about advanced AI.",
+        "ff_example_vi": "Học sinh viết một câu về AI tiên tiến."
+      },
       "receptive_productive": "P"
     },
     {

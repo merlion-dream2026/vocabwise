@@ -80,8 +80,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "binoculars",
-        "explanation_vi": "'Telescope' dùng để quan sát vật thể xa như ngôi sao; 'binoculars' (ống nhòm) dùng cho khoảng cách gần hơn trên mặt đất."
+        "word": "binoculars",
+        "explanation_vi": "'Telescope' dùng để quan sát vật thể xa như ngôi sao; 'binoculars' (ống nhòm) dùng cho khoảng cách gần hơn trên mặt đất.",
+        "example_en": "The students used a telescope to observe a distant planet.",
+        "example_vi": "Các học sinh dùng kính thiên văn để quan sát một hành tinh xa.",
+        "ff_example_en": "They used binoculars to observe birds on a nearby hill.",
+        "ff_example_vi": "Các em dùng ống nhòm để quan sát chim trên một ngọn đồi gần đó."
       },
       "receptive_productive": "R"
     },
@@ -118,7 +122,14 @@
         "adjective": "orbital",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "rotate",
+        "explanation_vi": "'Orbit' là chuyển động quanh một vật thể khác; 'rotate' là xoay quanh trục của chính mình.",
+        "example_en": "The Moon orbits the Earth once every month.",
+        "example_vi": "Mặt Trăng quay quanh Trái Đất mỗi tháng một lần.",
+        "ff_example_en": "The Earth rotates on its axis once every day.",
+        "ff_example_vi": "Trái Đất tự quay quanh trục mỗi ngày một lần."
+      },
       "receptive_productive": "P"
     },
     {
@@ -137,8 +148,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "astronomer",
-        "explanation_vi": "'Astronaut' là người du hành vào vũ trụ; 'astronomer' là nhà thiên văn học nghiên cứu không gian từ Trái Đất — hai nghề hoàn toàn khác nhau."
+        "word": "astronomer",
+        "explanation_vi": "'Astronaut' là người du hành vào vũ trụ; 'astronomer' là nhà thiên văn học nghiên cứu không gian từ Trái Đất — hai nghề hoàn toàn khác nhau.",
+        "example_en": "The astronaut travelled into space aboard the spacecraft.",
+        "example_vi": "Phi hành gia bay vào không gian trên tàu vũ trụ.",
+        "ff_example_en": "The astronomer studied the spacecraft’s destination from an observatory on Earth.",
+        "ff_example_vi": "Nhà thiên văn học nghiên cứu điểm đến của tàu vũ trụ từ một đài quan sát trên Trái Đất."
       },
       "receptive_productive": "R"
     },
@@ -176,8 +191,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "lunch",
-        "explanation_vi": "'Launch' (phóng tàu/ra mắt) và 'lunch' (bữa trưa) phát âm rất giống nhau — đây là lỗi phổ biến với người học tiếng Anh!"
+        "word": "lunch",
+        "explanation_vi": "'Launch' (phóng tàu/ra mắt) và 'lunch' (bữa trưa) phát âm rất giống nhau — đây là lỗi phổ biến với người học tiếng Anh!",
+        "example_en": "The agency will launch the rocket at noon.",
+        "example_vi": "Cơ quan sẽ phóng tên lửa vào buổi trưa.",
+        "ff_example_en": "The engineers will have lunch after the rocket leaves the ground.",
+        "ff_example_vi": "Các kỹ sư sẽ ăn trưa sau khi tên lửa rời mặt đất."
       },
       "receptive_productive": "P"
     },
@@ -214,7 +233,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "prove",
+        "explanation_vi": "'Probe' là thiết bị thăm dò hoặc hành động điều tra kỹ; 'prove' là chứng minh điều gì đúng.",
+        "example_en": "The space agency sent a probe to study the planet.",
+        "example_vi": "Cơ quan vũ trụ phóng một tàu thăm dò để nghiên cứu hành tinh.",
+        "ff_example_en": "The mission aimed to prove that water once existed there.",
+        "ff_example_vi": "Sứ mệnh nhằm chứng minh rằng nước từng tồn tại ở đó."
+      },
       "receptive_productive": "R"
     },
     {
@@ -287,8 +313,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "garbage / rubbish",
-        "explanation_vi": "'Debris' là thuật ngữ học thuật/khoa học cho mảnh vỡ hoặc phế liệu; 'garbage' và 'rubbish' mang nghĩa thông thường hơn và thường không dùng trong văn phong khoa học."
+        "word": "garbage",
+        "explanation_vi": "'Debris' là thuật ngữ học thuật/khoa học cho mảnh vỡ hoặc phế liệu; 'garbage' và 'rubbish' mang nghĩa thông thường hơn và thường không dùng trong văn phong khoa học.",
+        "example_en": "The satellite detected space debris around the damaged spacecraft.",
+        "example_vi": "Vệ tinh phát hiện các mảnh vỡ không gian quanh tàu vũ trụ bị hỏng.",
+        "ff_example_en": "The crew stored ordinary garbage inside a sealed container.",
+        "ff_example_vi": "Phi hành đoàn cất rác sinh hoạt thông thường trong một thùng kín."
       },
       "receptive_productive": "R"
     },
@@ -325,7 +355,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "trust",
+        "explanation_vi": "'Thrust' là lực đẩy hoặc đẩy mạnh; 'trust' là tin tưởng.",
+        "example_en": "The engineers increased the rocket's thrust before launch.",
+        "example_vi": "Các kỹ sư tăng lực đẩy của tên lửa trước khi phóng.",
+        "ff_example_en": "The astronauts trusted the engineers before the launch.",
+        "ff_example_vi": "Các phi hành gia tin tưởng các kỹ sư trước vụ phóng."
+      },
       "receptive_productive": "R"
     }
   ],

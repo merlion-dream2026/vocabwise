@@ -61,7 +61,14 @@
         "adjective": "disruptive",
         "adverb": "disruptively"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "destruction",
+        "explanation_vi": "'Disruption' là sự gián đoạn hoặc xáo trộn; 'destruction' là sự phá hủy.",
+        "example_en": "The cyberattack caused major disruption to the service.",
+        "example_vi": "Cuộc tấn công mạng gây gián đoạn lớn cho dịch vụ.",
+        "ff_example_en": "The fire caused the destruction of the main server room.",
+        "ff_example_vi": "Đám cháy phá hủy phòng máy chủ chính."
+      },
       "receptive_productive": "P"
     },
     {
@@ -98,8 +105,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "adaptation",
-        "explanation_vi": "'Adoption' là sự chấp nhận hay áp dụng một cái gì đó mới; 'adaptation' là sự thích nghi hay điều chỉnh — khác nghĩa hoàn toàn."
+        "word": "adaptation",
+        "explanation_vi": "'Adoption' là sự chấp nhận hay áp dụng một cái gì đó mới; 'adaptation' là sự thích nghi hay điều chỉnh — khác nghĩa hoàn toàn.",
+        "example_en": "The adoption of digital records changed how the hospital stored information.",
+        "example_vi": "Việc áp dụng hồ sơ số đã thay đổi cách bệnh viện lưu trữ thông tin.",
+        "ff_example_en": "Staff adaptation to the new system required several months of training.",
+        "ff_example_vi": "Sự thích nghi của nhân viên với hệ thống mới đòi hỏi vài tháng đào tạo."
       },
       "receptive_productive": "P"
     },
@@ -118,7 +129,14 @@
         "adjective": "convergent",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "conversion",
+        "explanation_vi": "'Convergence' là sự hội tụ của nhiều yếu tố; 'conversion' là sự chuyển đổi từ dạng này sang dạng khác.",
+        "example_en": "The phone illustrates the convergence of several technologies.",
+        "example_vi": "Chiếc điện thoại thể hiện sự hội tụ của nhiều công nghệ.",
+        "ff_example_en": "The project involved the conversion of paper records into digital files.",
+        "ff_example_vi": "Dự án liên quan đến việc chuyển đổi hồ sơ giấy thành tệp số."
+      },
       "receptive_productive": "P"
     },
     {
@@ -155,8 +173,12 @@
         "adverb": "efficiently"
       },
       "false_friend": {
-        "word_vi": "effectiveness",
-        "explanation_vi": "'Efficiency' nhấn mạnh việc đạt kết quả với ít nguồn lực nhất; 'effectiveness' nhấn mạnh việc đạt được mục tiêu đề ra — hai khái niệm khác nhau."
+        "word": "effectiveness",
+        "explanation_vi": "'Efficiency' nhấn mạnh việc đạt kết quả với ít nguồn lực nhất; 'effectiveness' nhấn mạnh việc đạt được mục tiêu đề ra — hai khái niệm khác nhau.",
+        "example_en": "Automation improved efficiency by reducing the time and energy needed for production.",
+        "example_vi": "Tự động hóa cải thiện hiệu suất bằng cách giảm thời gian và năng lượng cần cho sản xuất.",
+        "ff_example_en": "The company measured effectiveness by checking whether production targets were achieved.",
+        "ff_example_vi": "Công ty đo tính hiệu quả bằng cách kiểm tra liệu các mục tiêu sản xuất có đạt được hay không."
       },
       "receptive_productive": "P"
     },
@@ -193,7 +215,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "interference",
+        "explanation_vi": "'Interface' là giao diện hoặc điểm kết nối; 'interference' là sự can thiệp hoặc nhiễu.",
+        "example_en": "Users found the new interface easy to navigate.",
+        "example_vi": "Người dùng thấy giao diện mới dễ điều hướng.",
+        "ff_example_en": "Users reported radio interference near the device.",
+        "ff_example_vi": "Người dùng báo cáo hiện tượng nhiễu sóng vô tuyến gần thiết bị."
+      },
       "receptive_productive": "P"
     },
     {
@@ -229,7 +258,14 @@
         "adjective": "private",
         "adverb": "privately"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "security",
+        "explanation_vi": "'Privacy' là quyền kiểm soát thông tin và đời sống riêng tư; 'security' là sự bảo vệ khỏi truy cập, tấn công hoặc nguy hiểm.",
+        "example_en": "The app lets users control their privacy settings.",
+        "example_vi": "Ứng dụng cho phép người dùng kiểm soát cài đặt quyền riêng tư.",
+        "ff_example_en": "The app uses encryption to improve account security.",
+        "ff_example_vi": "Ứng dụng dùng mã hóa để tăng cường bảo mật tài khoản."
+      },
       "receptive_productive": "P"
     },
     {

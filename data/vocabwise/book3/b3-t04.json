@@ -62,8 +62,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "unclear",
-        "explanation_vi": "'Nuclear' (hạt nhân) và 'unclear' (không rõ ràng) — phát âm tương tự nhưng nghĩa hoàn toàn khác."
+        "word": "unclear",
+        "explanation_vi": "'Nuclear' (hạt nhân) và 'unclear' (không rõ ràng) — phát âm tương tự nhưng nghĩa hoàn toàn khác.",
+        "example_en": "The report examined the effects of nuclear energy on families living nearby.",
+        "example_vi": "Báo cáo xem xét tác động của năng lượng hạt nhân đối với các gia đình sống gần đó.",
+        "ff_example_en": "Several parts of the report were unclear to local residents.",
+        "ff_example_vi": "Một số phần của báo cáo không rõ ràng đối với cư dân địa phương."
       },
       "receptive_productive": "P"
     },
@@ -83,8 +87,12 @@
         "adverb": "extensively"
       },
       "false_friend": {
-        "word_vi": "extensive",
-        "explanation_vi": "'Extended family' là đại gia đình nhiều thế hệ; 'extensive' có nghĩa là rộng lớn, bao quát — không dùng thay thế cho nhau."
+        "word": "extensive",
+        "explanation_vi": "'Extended family' là đại gia đình nhiều thế hệ; 'extensive' có nghĩa là rộng lớn, bao quát — không dùng thay thế cho nhau.",
+        "example_en": "Lan grew up in an extended family with grandparents, aunts and cousins.",
+        "example_vi": "Lan lớn lên trong một đại gia đình gồm ông bà, cô dì và anh chị em họ.",
+        "ff_example_en": "Her family provided extensive support during her childhood.",
+        "ff_example_vi": "Gia đình cô ấy cung cấp sự hỗ trợ rộng khắp trong suốt thời thơ ấu."
       },
       "receptive_productive": "P"
     },
@@ -122,8 +130,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "custom",
-        "explanation_vi": "'Custody' là quyền nuôi con hoặc sự giam giữ; 'custom' là tập tục hoặc hải quan — phát âm tương tự nhưng hoàn toàn khác nghĩa."
+        "word": "custom",
+        "explanation_vi": "'Custody' là quyền nuôi con hoặc sự giam giữ; 'custom' là tập tục hoặc hải quan — phát âm tương tự nhưng hoàn toàn khác nghĩa.",
+        "example_en": "After the divorce, the mother received custody of the children.",
+        "example_vi": "Sau khi ly hôn, người mẹ được quyền nuôi con.",
+        "ff_example_en": "The family continued the custom of meeting every Sunday.",
+        "ff_example_vi": "Gia đình tiếp tục phong tục gặp nhau vào mỗi Chủ nhật."
       },
       "receptive_productive": "P"
     },
@@ -179,8 +191,12 @@
         "adverb": "obligatorily"
       },
       "false_friend": {
-        "word_vi": "option",
-        "explanation_vi": "'Obligation' là điều bắt buộc phải làm; 'option' là lựa chọn tự nguyện — hai từ mang nghĩa đối lập nhau."
+        "word": "option",
+        "explanation_vi": "'Obligation' là điều bắt buộc phải làm; 'option' là lựa chọn tự nguyện — hai từ mang nghĩa đối lập nhau.",
+        "example_en": "Parents have a legal obligation to protect their children.",
+        "example_vi": "Cha mẹ có nghĩa vụ pháp lý phải bảo vệ con cái.",
+        "ff_example_en": "Choosing a particular after-school activity is usually an option.",
+        "ff_example_vi": "Việc chọn một hoạt động sau giờ học cụ thể thường là một lựa chọn."
       },
       "receptive_productive": "P"
     },

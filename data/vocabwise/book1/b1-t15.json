@@ -231,7 +231,14 @@
         "adjective": "spacious",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "place",
+        "explanation_vi": "“Space” là khoảng trống hoặc diện tích có sẵn; “place” là một địa điểm cụ thể.",
+        "example_en": "There is enough space for the children to play beside the pond.",
+        "example_vi": "Có đủ không gian để trẻ em chơi bên cạnh ao.",
+        "ff_example_en": "This park is a safe place for children to play.",
+        "ff_example_vi": "Công viên này là một địa điểm an toàn để trẻ em vui chơi."
+      }
     },
     {
       "id": 12,
@@ -265,7 +272,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "run",
+        "explanation_vi": "“Jog” là chạy chậm và đều để tập thể dục; “run” là từ chung cho hành động chạy và có thể nhanh hơn.",
+        "example_en": "Mai jogs slowly around the park every morning.",
+        "example_vi": "Mai chạy bộ chậm quanh công viên mỗi sáng.",
+        "ff_example_en": "Mai runs quickly across the park during training.",
+        "ff_example_vi": "Mai chạy nhanh qua công viên trong lúc tập luyện."
+      }
     },
     {
       "id": 14,
@@ -300,8 +314,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "shadow",
-        "explanation_vi": "'Shade' là vùng mát tránh nắng (e.g., sit in the shade). 'Shadow' là hình bóng cụ thể của một vật thể khi có ánh sáng chiếu vào."
+        "word": "shadow",
+        "explanation_vi": "'Shade' là vùng mát tránh nắng (e.g., sit in the shade). 'Shadow' là hình bóng cụ thể của một vật thể khi có ánh sáng chiếu vào.",
+        "example_en": "We rested in the shade of a large beach umbrella.",
+        "example_vi": "Chúng tôi nghỉ ngơi trong bóng mát của một chiếc ô lớn trên bãi biển.",
+        "ff_example_en": "The beach umbrella cast a round shadow on the sand.",
+        "ff_example_vi": "Chiếc ô trên bãi biển tạo ra một cái bóng tròn trên cát."
       }
     }
   ],

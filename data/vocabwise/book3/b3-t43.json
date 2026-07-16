@@ -80,8 +80,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "registry",
-        "explanation_vi": "'Register' trong ngôn ngữ học là phong cách ngôn ngữ theo bối cảnh; 'registry' là sổ đăng ký hoặc văn phòng lưu trữ hồ sơ — không liên quan."
+        "word": "registry",
+        "explanation_vi": "'Register' trong ngôn ngữ học là phong cách ngôn ngữ theo bối cảnh; 'registry' là sổ đăng ký hoặc văn phòng lưu trữ hồ sơ — không liên quan.",
+        "example_en": "The lecturer used a formal register during the academic presentation.",
+        "example_vi": "Giảng viên dùng văn phong trang trọng trong bài thuyết trình học thuật.",
+        "ff_example_en": "After the presentation, she submitted a document to the university registry.",
+        "ff_example_vi": "Sau bài thuyết trình, cô ấy nộp một tài liệu cho văn phòng đăng ký của trường đại học."
       },
       "receptive_productive": "P"
     },
@@ -155,8 +159,12 @@
         "adverb": "interculturally"
       },
       "false_friend": {
-        "word_vi": "multicultural",
-        "explanation_vi": "'Intercultural' nhấn mạnh sự tương tác và trao đổi giữa các nền văn hóa; 'multicultural' chỉ mô tả sự hiện diện của nhiều nền văn hóa trong cùng một không gian."
+        "word": "multicultural",
+        "explanation_vi": "'Intercultural' nhấn mạnh sự tương tác và trao đổi giữa các nền văn hóa; 'multicultural' chỉ mô tả sự hiện diện của nhiều nền văn hóa trong cùng một không gian.",
+        "example_en": "The intercultural workshop encouraged students from different cultures to exchange ideas.",
+        "example_vi": "Hội thảo liên văn hóa khuyến khích sinh viên từ các nền văn hóa khác nhau trao đổi ý tưởng.",
+        "ff_example_en": "The multicultural campus includes students from many cultural backgrounds.",
+        "ff_example_vi": "Khuôn viên đa văn hóa có sinh viên đến từ nhiều nền văn hóa khác nhau."
       },
       "receptive_productive": "P"
     },
@@ -175,7 +183,14 @@
         "adjective": "stereotypical / stereotyped",
         "adverb": "stereotypically"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "prejudice",
+        "explanation_vi": "'Stereotype' là hình ảnh khái quát cứng nhắc về một nhóm; 'prejudice' là thái độ đánh giá tiêu cực có sẵn đối với nhóm đó.",
+        "example_en": "The advertisement repeated a stereotype about older workers.",
+        "example_vi": "Quảng cáo lặp lại một khuôn mẫu về người lao động lớn tuổi.",
+        "ff_example_en": "The manager's prejudice against older workers affected his decision.",
+        "ff_example_vi": "Định kiến của người quản lý đối với lao động lớn tuổi ảnh hưởng đến quyết định của ông."
+      },
       "receptive_productive": "P"
     },
     {
@@ -230,8 +245,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "adoption",
-        "explanation_vi": "'Adaptation' là sự thích nghi hoặc điều chỉnh; 'adoption' là sự nhận nuôi hay chấp nhận chính thức — khác nghĩa hoàn toàn."
+        "word": "adoption",
+        "explanation_vi": "'Adaptation' là sự thích nghi hoặc điều chỉnh; 'adoption' là sự nhận nuôi hay chấp nhận chính thức — khác nghĩa hoàn toàn.",
+        "example_en": "The adaptation of the training materials made them suitable for local learners.",
+        "example_vi": "Việc điều chỉnh tài liệu đào tạo khiến chúng phù hợp với người học địa phương.",
+        "ff_example_en": "The adoption of those materials by every department occurred the following year.",
+        "ff_example_vi": "Việc chính thức áp dụng các tài liệu đó tại mọi khoa diễn ra vào năm sau."
       },
       "receptive_productive": "P"
     },

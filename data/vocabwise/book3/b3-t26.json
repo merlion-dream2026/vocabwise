@@ -80,8 +80,12 @@
         "adverb": "legislatively"
       },
       "false_friend": {
-        "word_vi": "regulation",
-        "explanation_vi": "'Legislation' là luật được quốc hội ban hành; 'regulation' là quy định hoặc nghị định cấp thấp hơn — không hoàn toàn thay thế nhau trong ngữ cảnh chính sách."
+        "word": "regulation",
+        "explanation_vi": "'Legislation' là luật được quốc hội ban hành; 'regulation' là quy định hoặc nghị định cấp thấp hơn — không hoàn toàn thay thế nhau trong ngữ cảnh chính sách.",
+        "example_en": "Parliament approved legislation governing the use of personal data.",
+        "example_vi": "Quốc hội thông qua luật điều chỉnh việc sử dụng dữ liệu cá nhân.",
+        "ff_example_en": "The ministry later issued a regulation explaining how companies must store that data.",
+        "ff_example_vi": "Sau đó, bộ ban hành một quy định giải thích cách các công ty phải lưu trữ dữ liệu đó."
       },
       "receptive_productive": "P"
     },
@@ -136,7 +140,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "reference",
+        "explanation_vi": "'Referendum' là cuộc trưng cầu dân ý; 'reference' là sự tham chiếu, tài liệu tham khảo hoặc lời giới thiệu.",
+        "example_en": "Citizens voted in a referendum on the new constitution.",
+        "example_vi": "Công dân bỏ phiếu trong cuộc trưng cầu dân ý về hiến pháp mới.",
+        "ff_example_en": "The article included a reference to the new constitution.",
+        "ff_example_vi": "Bài báo có một phần tham chiếu đến hiến pháp mới."
+      },
       "receptive_productive": "P"
     },
     {
@@ -155,8 +166,12 @@
         "adverb": "electorally"
       },
       "false_friend": {
-        "word_vi": "electric / electrical",
-        "explanation_vi": "'Electoral' liên quan đến bầu cử; 'electrical' liên quan đến điện — phát âm gần giống nhưng nghĩa hoàn toàn khác."
+        "word": "electrical",
+        "explanation_vi": "'Electoral' liên quan đến bầu cử; 'electrical' liên quan đến điện — phát âm gần giống nhưng nghĩa hoàn toàn khác.",
+        "example_en": "The electoral commission checked the voting machines before the election.",
+        "example_vi": "Ủy ban bầu cử kiểm tra các máy bỏ phiếu trước cuộc bầu cử.",
+        "ff_example_en": "An electrical engineer checked the machines’ power supply.",
+        "ff_example_vi": "Một kỹ sư điện kiểm tra nguồn điện của các máy đó."
       },
       "receptive_productive": "P"
     },
@@ -194,8 +209,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "popularity",
-        "explanation_vi": "'Populism' là một hệ tư tưởng chính trị đặt 'nhân dân' đối lập với 'giới tinh hoa'; 'popularity' chỉ đơn giản là sự phổ biến hay được ưa thích."
+        "word": "popularity",
+        "explanation_vi": "'Populism' là một hệ tư tưởng chính trị đặt 'nhân dân' đối lập với 'giới tinh hoa'; 'popularity' chỉ đơn giản là sự phổ biến hay được ưa thích.",
+        "example_en": "The candidate used populism by presenting ordinary citizens against a corrupt elite.",
+        "example_vi": "Ứng viên sử dụng chủ nghĩa dân túy bằng cách đặt người dân bình thường đối lập với giới tinh hoa tham nhũng.",
+        "ff_example_en": "His popularity rose after several successful television debates.",
+        "ff_example_vi": "Mức độ được yêu thích của ông tăng sau một số cuộc tranh luận truyền hình thành công."
       },
       "receptive_productive": "P"
     },
@@ -233,8 +252,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "disinformation",
-        "explanation_vi": "'Misinformation' là thông tin sai lệch được lan truyền không nhất thiết có chủ ý; 'disinformation' là thông tin sai lệch được tạo ra và phát tán có chủ đích để gây hại."
+        "word": "disinformation",
+        "explanation_vi": "'Misinformation' là thông tin sai lệch được lan truyền không nhất thiết có chủ ý; 'disinformation' là thông tin sai lệch được tạo ra và phát tán có chủ đích để gây hại.",
+        "example_en": "A voter shared misinformation because she believed the false claim was true.",
+        "example_vi": "Một cử tri chia sẻ thông tin sai vì cô ấy tin tuyên bố giả là đúng.",
+        "ff_example_en": "The campaign had created the claim as disinformation to deceive voters.",
+        "ff_example_vi": "Chiến dịch đã tạo ra tuyên bố đó như thông tin sai lệch có chủ đích để đánh lừa cử tri."
       },
       "receptive_productive": "P"
     },

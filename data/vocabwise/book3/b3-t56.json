@@ -62,8 +62,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "prevention",
-        "explanation_vi": "'Deterrence' ngăn chặn bằng cách đe dọa hậu quả; 'prevention' ngăn chặn bằng cách loại bỏ nguyên nhân hoặc tạo rào cản — khác nhau về cơ chế tác động."
+        "word": "prevention",
+        "explanation_vi": "'Deterrence' ngăn chặn bằng cách đe dọa hậu quả; 'prevention' ngăn chặn bằng cách loại bỏ nguyên nhân hoặc tạo rào cản — khác nhau về cơ chế tác động.",
+        "example_en": "The threat of imprisonment is intended to create deterrence.",
+        "example_vi": "Mối đe dọa bị bỏ tù nhằm tạo ra tác dụng răn đe.",
+        "ff_example_en": "Better street lighting supports crime prevention by removing opportunities for offending.",
+        "ff_example_vi": "Hệ thống chiếu sáng đường phố tốt hơn hỗ trợ phòng ngừa tội phạm bằng cách loại bỏ cơ hội phạm tội."
       },
       "receptive_productive": "P"
     },
@@ -101,8 +105,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "armistice / truce",
-        "explanation_vi": "'Ceasefire' là ngừng bắn tạm thời, thường là điều kiện để đàm phán; 'armistice' là thỏa thuận chấm dứt chiến sự chính thức hơn; 'truce' mang tính thông thường và có thể ngắn hạn — cả ba đều khác nhau về mức độ chính thức."
+        "word": "armistice",
+        "explanation_vi": "'Ceasefire' là ngừng bắn tạm thời, thường là điều kiện để đàm phán; 'armistice' là thỏa thuận chấm dứt chiến sự chính thức hơn; 'truce' mang tính thông thường và có thể ngắn hạn — cả ba đều khác nhau về mức độ chính thức.",
+        "example_en": "The two sides agreed to a temporary ceasefire so that talks could begin.",
+        "example_vi": "Hai bên đồng ý ngừng bắn tạm thời để các cuộc đàm phán có thể bắt đầu.",
+        "ff_example_en": "Months later, they signed a formal armistice ending active hostilities.",
+        "ff_example_vi": "Vài tháng sau, họ ký một hiệp định đình chiến chính thức chấm dứt giao tranh."
       },
       "receptive_productive": "P"
     },
@@ -122,8 +130,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "arbitration",
-        "explanation_vi": "'Mediation' là hòa giải — bên thứ ba hỗ trợ các bên tự thỏa thuận; 'arbitration' là trọng tài — bên thứ ba đưa ra phán quyết ràng buộc. Hai quy trình khác nhau về mức độ thẩm quyền."
+        "word": "arbitration",
+        "explanation_vi": "'Mediation' là hòa giải — bên thứ ba hỗ trợ các bên tự thỏa thuận; 'arbitration' là trọng tài — bên thứ ba đưa ra phán quyết ràng buộc. Hai quy trình khác nhau về mức độ thẩm quyền.",
+        "example_en": "Through mediation, a neutral third party helped the two sides reach their own agreement.",
+        "example_vi": "Thông qua hòa giải, bên thứ ba trung lập giúp hai bên tự đạt thỏa thuận.",
+        "ff_example_en": "Through arbitration, a neutral third party issued a binding decision.",
+        "ff_example_vi": "Thông qua trọng tài, bên thứ ba trung lập đưa ra phán quyết có tính ràng buộc."
       },
       "receptive_productive": "P"
     },
@@ -197,8 +209,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "autonomy",
-        "explanation_vi": "'Sovereignty' là chủ quyền đầy đủ của một quốc gia độc lập; 'autonomy' là quyền tự quản ở mức độ nhất định, thường của một vùng hay tổ chức bên trong một hệ thống lớn hơn."
+        "word": "autonomy",
+        "explanation_vi": "'Sovereignty' là chủ quyền đầy đủ của một quốc gia độc lập; 'autonomy' là quyền tự quản ở mức độ nhất định, thường của một vùng hay tổ chức bên trong một hệ thống lớn hơn.",
+        "example_en": "The agreement recognised the state’s full sovereignty as an independent country.",
+        "example_vi": "Thỏa thuận công nhận chủ quyền đầy đủ của quốc gia như một nước độc lập.",
+        "ff_example_en": "It granted one region limited autonomy within that state.",
+        "ff_example_vi": "Thỏa thuận trao cho một khu vực quyền tự quản hạn chế trong quốc gia đó."
       },
       "receptive_productive": "P"
     },

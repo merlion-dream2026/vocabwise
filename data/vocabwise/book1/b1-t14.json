@@ -61,7 +61,14 @@
         "adjective": "country (attributive)",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "countryside",
+        "explanation_vi": "“Country” thường là quốc gia; “countryside” là vùng nông thôn bên ngoài thành phố.",
+        "example_en": "Japan is a country that many tourists visit.",
+        "example_vi": "Nhật Bản là một quốc gia được nhiều khách du lịch ghé thăm.",
+        "ff_example_en": "Many tourists leave the city to visit the Japanese countryside.",
+        "ff_example_vi": "Nhiều khách du lịch rời thành phố để tham quan vùng nông thôn Nhật Bản."
+      }
     },
     {
       "id": 2,
@@ -78,7 +85,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "trip",
+        "explanation_vi": "“Travel” nói về việc đi lại nói chung và thường không dùng với “a”; “trip” là một chuyến đi cụ thể và là danh từ đếm được.",
+        "example_en": "Travel teaches students about other cultures.",
+        "example_vi": "Việc đi đây đó giúp học sinh hiểu về các nền văn hóa khác.",
+        "ff_example_en": "Our class took a trip to Huế to learn about its culture.",
+        "ff_example_vi": "Lớp chúng tôi thực hiện một chuyến đi đến Huế để tìm hiểu văn hóa nơi đây."
+      }
     },
     {
       "id": 3,
@@ -112,7 +126,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "visa",
+        "explanation_vi": "“Passport” là giấy tờ xác nhận danh tính và quốc tịch; “visa” là sự cho phép nhập cảnh vào một quốc gia cụ thể.",
+        "example_en": "Lan showed her passport at the airport.",
+        "example_vi": "Lan xuất trình hộ chiếu tại sân bay.",
+        "ff_example_en": "Lan applied for a visa before travelling to Australia.",
+        "ff_example_vi": "Lan xin thị thực trước khi đi Úc."
+      }
     },
     {
       "id": 5,
@@ -197,7 +218,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "hostel",
+        "explanation_vi": "“Hotel” thường cung cấp phòng riêng và nhiều dịch vụ hơn; “hostel” thường rẻ hơn và có phòng hoặc tiện nghi dùng chung.",
+        "example_en": "We booked a private room in a hotel near the beach.",
+        "example_vi": "Chúng tôi đặt một phòng riêng trong khách sạn gần bãi biển.",
+        "ff_example_en": "We booked two beds in a shared room at a hostel near the beach.",
+        "ff_example_vi": "Chúng tôi đặt hai giường trong một phòng chung tại nhà nghỉ giá rẻ gần bãi biển."
+      }
     },
     {
       "id": 10,
@@ -231,7 +259,14 @@
         "adjective": "foreign",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": {
+        "word": "abroad",
+        "explanation_vi": "“Foreign” là tính từ đứng trước danh từ; “abroad” là trạng từ nghĩa là ở hoặc ra nước ngoài.",
+        "example_en": "Lan hopes to study at a foreign university.",
+        "example_vi": "Lan hy vọng học tại một trường đại học nước ngoài.",
+        "ff_example_en": "Lan hopes to study abroad after finishing school.",
+        "ff_example_vi": "Lan hy vọng đi du học sau khi tốt nghiệp."
+      }
     },
     {
       "id": 12,

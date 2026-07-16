@@ -133,7 +133,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "camping",
+        "explanation_vi": "'Campaign' là một chiến dịch có mục tiêu; 'camping' là hoạt động cắm trại.",
+        "example_en": "The students organised a campaign to protect the forest.",
+        "example_vi": "Các học sinh tổ chức một chiến dịch bảo vệ rừng.",
+        "ff_example_en": "The students went camping in the forest at the weekend.",
+        "ff_example_vi": "Các học sinh đi cắm trại trong rừng vào cuối tuần."
+      },
       "receptive_productive": "P"
     },
     {
@@ -187,7 +194,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "carry on",
+        "explanation_vi": "'Carry out' là thực hiện một nhiệm vụ; 'carry on' là tiếp tục.",
+        "example_en": "The volunteers carried out a survey in the village.",
+        "example_vi": "Các tình nguyện viên thực hiện một cuộc khảo sát trong làng.",
+        "ff_example_en": "The volunteers carried on working after the survey.",
+        "ff_example_vi": "Các tình nguyện viên tiếp tục làm việc sau cuộc khảo sát."
+      },
       "receptive_productive": "P"
     },
     {
@@ -242,8 +256,12 @@
         "adverb": "dutifully"
       },
       "false_friend": {
-        "word_vi": "responsibility",
-        "explanation_vi": "'Duty' thường chỉ nghĩa vụ pháp lý hoặc đạo đức bắt buộc — điều bạn PHẢI làm; 'responsibility' là trách nhiệm rộng hơn — điều bạn được kỳ vọng làm tốt. Duty mang sắc thái nghĩa vụ mạnh hơn."
+        "word": "responsibility",
+        "explanation_vi": "'Duty' thường chỉ nghĩa vụ pháp lý hoặc đạo đức bắt buộc — điều bạn PHẢI làm; 'responsibility' là trách nhiệm rộng hơn — điều bạn được kỳ vọng làm tốt. Duty mang sắc thái nghĩa vụ mạnh hơn.",
+        "example_en": "The police officer has a legal duty to protect the public.",
+        "example_vi": "Cảnh sát có nghĩa vụ pháp lý phải bảo vệ công chúng.",
+        "ff_example_en": "The officer also has responsibility for training new team members.",
+        "ff_example_vi": "Viên cảnh sát cũng có trách nhiệm đào tạo các thành viên mới trong đội."
       },
       "receptive_productive": "P"
     },
@@ -281,8 +299,12 @@
         "adverb": "equally"
       },
       "false_friend": {
-        "word_vi": "equity",
-        "explanation_vi": "'Equality' có nghĩa đối xử giống nhau với tất cả mọi người; 'equity' có nghĩa đảm bảo kết quả công bằng bằng cách điều chỉnh theo nhu cầu — có thể đòi hỏi đối xử KHÁC nhau để đạt được kết quả CÔNG BẰNG."
+        "word": "equity",
+        "explanation_vi": "'Equality' có nghĩa đối xử giống nhau với tất cả mọi người; 'equity' có nghĩa đảm bảo kết quả công bằng bằng cách điều chỉnh theo nhu cầu — có thể đòi hỏi đối xử KHÁC nhau để đạt được kết quả CÔNG BẰNG.",
+        "example_en": "Equality would give every student the same learning materials.",
+        "example_vi": "Bình đẳng sẽ cung cấp cho mọi học sinh cùng một bộ tài liệu học tập.",
+        "ff_example_en": "Equity would give additional materials to students who need more support.",
+        "ff_example_vi": "Công bằng theo nhu cầu sẽ cung cấp thêm tài liệu cho những học sinh cần hỗ trợ nhiều hơn."
       },
       "receptive_productive": "P"
     },

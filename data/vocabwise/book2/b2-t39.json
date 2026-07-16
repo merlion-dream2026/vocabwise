@@ -115,7 +115,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "receipt",
+        "explanation_vi": "'Recipe' là công thức nấu ăn; 'receipt' là biên lai xác nhận giao dịch.",
+        "example_en": "Lan followed the recipe while making the local dish.",
+        "example_vi": "Lan làm theo công thức khi nấu món địa phương.",
+        "ff_example_en": "Lan kept the receipt for the ingredients she bought.",
+        "ff_example_vi": "Lan giữ biên lai mua các nguyên liệu."
+      },
       "receptive_productive": "P"
     },
     {
@@ -133,7 +140,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "inheritance",
+        "explanation_vi": "'Heritage' là di sản văn hóa hoặc truyền thống được truyền lại; 'inheritance' là tài sản một người nhận sau khi người khác qua đời.",
+        "example_en": "The old house is part of the town's cultural heritage.",
+        "example_vi": "Ngôi nhà cổ là một phần di sản văn hóa của thị trấn.",
+        "ff_example_en": "The old house became Lan's inheritance from her grandfather.",
+        "ff_example_vi": "Ngôi nhà cổ trở thành tài sản thừa kế Lan nhận từ ông mình."
+      },
       "receptive_productive": "P"
     },
     {
@@ -169,7 +183,14 @@
         "adjective": "preserved",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "conserve",
+        "explanation_vi": "'Preserve' nhấn mạnh giữ nguyên hoặc bảo vệ khỏi mất mát; 'conserve' thường nhấn mạnh sử dụng tài nguyên tiết kiệm và bảo vệ chúng.",
+        "example_en": "The project records stories to preserve the local language.",
+        "example_vi": "Dự án ghi lại các câu chuyện để bảo tồn ngôn ngữ địa phương.",
+        "ff_example_en": "The project uses less paper to conserve natural resources.",
+        "ff_example_vi": "Dự án dùng ít giấy hơn để bảo tồn tài nguyên thiên nhiên."
+      },
       "receptive_productive": "P"
     },
     {
@@ -223,7 +244,14 @@
         "adjective": "identifiable",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "identification",
+        "explanation_vi": "'Identity' là danh tính hoặc bản sắc của một người hay nhóm; 'identification' là giấy tờ hoặc quá trình xác định người đó là ai.",
+        "example_en": "The passport confirmed the traveller's identity.",
+        "example_vi": "Hộ chiếu xác nhận danh tính của hành khách.",
+        "ff_example_en": "The officer asked the traveller to show identification.",
+        "ff_example_vi": "Nhân viên yêu cầu hành khách xuất trình giấy tờ tùy thân."
+      },
       "receptive_productive": "P"
     },
     {
@@ -241,7 +269,14 @@
         "adjective": "ritual / ritualistic",
         "adverb": "ritually"
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "routine",
+        "explanation_vi": "'Ritual' là nghi thức có ý nghĩa biểu tượng, văn hóa hoặc tôn giáo; 'routine' là chuỗi việc làm đều đặn hằng ngày.",
+        "example_en": "Lighting the candles is an important ritual at the festival.",
+        "example_vi": "Thắp nến là một nghi thức quan trọng tại lễ hội.",
+        "ff_example_en": "Checking the equipment is part of the staff's daily routine.",
+        "ff_example_vi": "Kiểm tra thiết bị là một phần trong thói quen hằng ngày của nhân viên."
+      },
       "receptive_productive": "P"
     },
     {
@@ -296,8 +331,12 @@
         "adverb": null
       },
       "false_friend": {
-        "word_vi": "cooker",
-        "explanation_vi": "Trong tiếng Anh, 'cook' là người nấu ăn; 'cooker' là thiết bị nấu ăn (như bếp lò). Đây là lỗi phổ biến của người học: 'She is a good cook' (đúng) — không dùng 'cooker' chỉ người."
+        "word": "cooker",
+        "explanation_vi": "Trong tiếng Anh, 'cook' là người nấu ăn; 'cooker' là thiết bị nấu ăn (như bếp lò). Đây là lỗi phổ biến của người học: 'She is a good cook' (đúng) — không dùng 'cooker' chỉ người.",
+        "example_en": "The restaurant hired a skilled cook to prepare local dishes.",
+        "example_vi": "Nhà hàng thuê một đầu bếp lành nghề để chế biến các món địa phương.",
+        "ff_example_en": "The cook used a large electric cooker to prepare the rice.",
+        "ff_example_vi": "Đầu bếp dùng một thiết bị nấu cơm điện lớn để nấu cơm."
       },
       "receptive_productive": "P"
     },

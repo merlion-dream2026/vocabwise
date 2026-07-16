@@ -80,7 +80,14 @@
         "adjective": "electoral",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "selection",
+        "explanation_vi": "'Election' là cuộc bầu cử bằng phiếu; 'selection' là quá trình lựa chọn theo tiêu chí.",
+        "example_en": "Students voted in the election for class president.",
+        "example_vi": "Học sinh bỏ phiếu trong cuộc bầu cử lớp trưởng.",
+        "ff_example_en": "Teachers made the final selection for the debate team.",
+        "ff_example_vi": "Giáo viên thực hiện việc lựa chọn cuối cùng cho đội tranh biện."
+      },
       "receptive_productive": "R"
     },
     {
@@ -98,7 +105,14 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "politics",
+        "explanation_vi": "'Policy' là chính sách hoặc nguyên tắc hành động; 'politics' là hoạt động và lĩnh vực chính trị.",
+        "example_en": "The government introduced a new education policy.",
+        "example_vi": "Chính phủ ban hành một chính sách giáo dục mới.",
+        "ff_example_en": "The students discussed education and politics in class.",
+        "ff_example_vi": "Các học sinh thảo luận về giáo dục và chính trị trong lớp."
+      },
       "receptive_productive": "R"
     },
     {
@@ -116,7 +130,14 @@
         "adjective": "parliamentary",
         "adverb": null
       },
-      "false_friend": null,
+      "false_friend": {
+        "word": "government",
+        "explanation_vi": "'Parliament' là cơ quan lập pháp tranh luận và thông qua luật; 'government' là bộ máy điều hành đất nước.",
+        "example_en": "Parliament debated the proposed education law.",
+        "example_vi": "Quốc hội tranh luận về dự luật giáo dục được đề xuất.",
+        "ff_example_en": "The government will implement the education law.",
+        "ff_example_vi": "Chính phủ sẽ thực thi luật giáo dục."
+      },
       "receptive_productive": "R"
     },
     {
