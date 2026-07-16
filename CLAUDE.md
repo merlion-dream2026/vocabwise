@@ -99,8 +99,9 @@ Gating phụ thuộc DB — fetch `/api/auth/me` với `cache: 'no-store'` để
 ```
 NEXT_PUBLIC_SUPABASE_URL  NEXT_PUBLIC_SUPABASE_ANON_KEY  SUPABASE_SERVICE_ROLE_KEY
 JWT_SECRET  GMAIL_USER  GMAIL_APP_PASSWORD
-OPENAI_API_KEY  GROQ_API_KEY  NEXT_PUBLIC_APP_URL
+OPENAI_API_KEY  GROQ_API_KEY  CEREBRAS_API_KEY  NEXT_PUBLIC_APP_URL
 ```
+AI text-helper fallback chain (`lib/aiChat.ts`, dùng bởi explain/hint/grammar-note/writing-check/generate-exercises): Groq → Cerebras, tự động rớt sang provider kế nếu fail/rate-limit.
 
 ## Scripts & Assets
 - **Audio:** `public/audio/stories/[level].[topic-id].mp3` — Kids mini story
