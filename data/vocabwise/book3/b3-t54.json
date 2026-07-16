@@ -469,9 +469,9 @@
             "is",
             "collected",
             "or",
-            "processed"
+            "processed,"
           ],
-          "answer": "Citizens must consent before their data is collected or processed."
+          "answer": "Before their data is collected or processed, citizens must consent."
         },
         {
           "id": 5,
@@ -666,7 +666,7 @@
       "1": "Bias in training data leads to unfair algorithmic outcomes.",
       "2": "Automation creates both opportunities and risks of job displacement.",
       "3": "Transparency and accountability are essential for trustworthy AI systems.",
-      "4": "Citizens must consent before their data is collected or processed.",
+      "4": "Before their data is collected or processed, citizens must consent.",
       "5": "Human oversight of AI prevents unchecked errors from causing widespread harm."
     },
     "ex5": {

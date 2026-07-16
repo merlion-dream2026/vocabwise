@@ -453,7 +453,7 @@
           "id": 3,
           "words": [
             "advertising",
-            "often",
+            "Often,",
             "exploits",
             "cognitive",
             "biases",
@@ -462,7 +462,7 @@
             "purchases",
             "impulse"
           ],
-          "answer": "Advertising often exploits cognitive biases to trigger impulse purchases."
+          "answer": "Often, advertising exploits cognitive biases to trigger impulse purchases."
         },
         {
           "id": 4,
@@ -653,7 +653,7 @@
     "ex4": {
       "1": "Consumerism has transformed buying from a practical necessity into an identity statement.",
       "2": "Subliminal cues influence behaviour without conscious awareness.",
-      "3": "Advertising often exploits cognitive biases to trigger impulse purchases.",
+      "3": "Often, advertising exploits cognitive biases to trigger impulse purchases.",
       "4": "The commodification of human relationships erodes genuine connection.",
       "5": "Movements challenging throwaway culture advocate mindful consumption and repair."
     },

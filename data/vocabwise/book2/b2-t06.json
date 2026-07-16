@@ -479,13 +479,13 @@
           "words": [
             "religious",
             "ideas",
-            "often",
+            "Often,",
             "spread",
             "as",
             "cultures",
             "mix"
           ],
-          "answer": "Religious ideas often spread as cultures mix."
+          "answer": "Often, religious ideas spread as cultures mix."
         },
         {
           "id": 3,
@@ -521,11 +521,11 @@
             "country's",
             "cultural",
             "heritage",
-            "reflects",
+            "embodies",
             "its",
             "history"
           ],
-          "answer": "A country's cultural heritage reflects its history."
+          "answer": "A country's cultural heritage embodies its history."
         }
       ]
     },
@@ -701,10 +701,10 @@
     },
     "ex4": {
       "1": "The temple is considered sacred by the community.",
-      "2": "Religious ideas often spread as cultures mix.",
+      "2": "Often, religious ideas spread as cultures mix.",
       "3": "Everyone has the right to practise their faith.",
       "4": "Tolerance is essential for a peaceful society.",
-      "5": "A country's cultural heritage reflects its history."
+      "5": "A country's cultural heritage embodies its history."
     },
     "ex5": {
       "1": "B",

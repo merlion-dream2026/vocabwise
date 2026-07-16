@@ -501,7 +501,7 @@
             "the",
             "evidence",
             "showed",
-            "clearly",
+            "Clearly,",
             "that",
             "the",
             "accused",
@@ -513,7 +513,7 @@
             "the",
             "crime"
           ],
-          "answer": "The evidence showed clearly that the accused was at the scene of the crime."
+          "answer": "Clearly, the evidence showed that the accused was at the scene of the crime."
         },
         {
           "id": 4,
@@ -715,7 +715,7 @@
     "ex4": {
       "1": "The court decided to find him guilty of all three offences.",
       "2": "Early release is only granted to prisoners who behave well and do not commit crime again.",
-      "3": "The evidence showed clearly that the accused was at the scene of the crime.",
+      "3": "Clearly, the evidence showed that the accused was at the scene of the crime.",
       "4": "Heavier penalties may deter some offenders but social reform is equally important.",
       "5": "Unpaid work gives offenders a chance to contribute to the community instead of going to prison."
     },

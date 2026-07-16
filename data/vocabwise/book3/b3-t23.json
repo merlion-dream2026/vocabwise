@@ -430,7 +430,7 @@
           "words": [
             "echo",
             "chambers",
-            "reinforce",
+            "amplify",
             "existing",
             "beliefs",
             "and",
@@ -438,7 +438,7 @@
             "political",
             "polarisation"
           ],
-          "answer": "Echo chambers reinforce existing beliefs and deepen political polarisation."
+          "answer": "Echo chambers amplify existing beliefs and deepen political polarisation."
         },
         {
           "id": 3,
@@ -657,7 +657,7 @@
     },
     "ex4": {
       "1": "Media literacy helps citizens identify disinformation online.",
-      "2": "Echo chambers reinforce existing beliefs and deepen political polarisation.",
+      "2": "Echo chambers amplify existing beliefs and deepen political polarisation.",
       "3": "Censorship prevents journalists from reporting government corruption.",
       "4": "Propaganda exploits emotional language to shape public opinion.",
       "5": "The amplification of false narratives undermines trust in mainstream journalism."

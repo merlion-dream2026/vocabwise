@@ -480,12 +480,12 @@
             "should",
             "read",
             "contract",
-            "carefully",
+            "Carefully,",
             "your",
             "before",
             "signing"
           ],
-          "answer": "You should read your contract carefully before signing."
+          "answer": "Carefully, you should read your contract before signing."
         },
         {
           "id": 3,
@@ -524,10 +524,10 @@
             "was",
             "with",
             "her",
-            "salary",
+            "salary,",
             "she"
           ],
-          "answer": "She resigned because she was unhappy with her salary."
+          "answer": "Because she was unhappy with her salary, she resigned."
         }
       ]
     },
@@ -703,10 +703,10 @@
     },
     "ex4": {
       "1": "She received a promotion after her positive appraisal.",
-      "2": "You should read your contract carefully before signing.",
+      "2": "Carefully, you should read your contract before signing.",
       "3": "He plans to retire at the age of sixty.",
       "4": "Always be professional in the workplace.",
-      "5": "She resigned because she was unhappy with her salary."
+      "5": "Because she was unhappy with her salary, she resigned."
     },
     "ex5": {
       "1": "B",

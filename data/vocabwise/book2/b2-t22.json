@@ -484,9 +484,9 @@
             "business",
             "on",
             "social",
-            "media"
+            "media,"
           ],
-          "answer": "She worked hard to promote her new business on social media."
+          "answer": "On social media, she worked hard to promote her new business."
         },
         {
           "id": 2,
@@ -779,7 +779,7 @@
       "5": "strategy"
     },
     "ex4": {
-      "1": "She worked hard to promote her new business on social media.",
+      "1": "On social media, she worked hard to promote her new business.",
       "2": "A financial backer provided the funds needed to expand the company.",
       "3": "Understanding your target customer is essential before launching a product.",
       "4": "The company competed successfully by offering lower prices than its rivals.",

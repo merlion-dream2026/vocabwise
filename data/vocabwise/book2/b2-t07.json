@@ -482,9 +482,9 @@
             "illegal",
             "in",
             "many",
-            "countries"
+            "countries,"
           ],
-          "answer": "Discrimination based on gender is illegal in many countries."
+          "answer": "In many countries, discrimination based on gender is illegal."
         },
         {
           "id": 3,
@@ -749,7 +749,7 @@
     },
     "ex4": {
       "1": "Everyone deserves equal treatment regardless of their background.",
-      "2": "Discrimination based on gender is illegal in many countries.",
+      "2": "In many countries, discrimination based on gender is illegal.",
       "3": "The campaign aimed to raise awareness about inequality.",
       "4": "Education can empower women from all backgrounds.",
       "5": "Thousands protested to demand equal rights."

@@ -515,7 +515,7 @@
           "words": [
             "unplanned",
             "purchases",
-            "often",
+            "Often,",
             "happen",
             "when",
             "consumers",
@@ -524,7 +524,7 @@
             "tempting",
             "discount"
           ],
-          "answer": "Unplanned purchases often happen when consumers see a tempting discount."
+          "answer": "Often, unplanned purchases happen when consumers see a tempting discount."
         },
         {
           "id": 5,
@@ -707,7 +707,7 @@
       "1": "She could not afford the item so she asked for a discount.",
       "2": "Many consumers prefer used products to reduce both cost and waste.",
       "3": "The trend towards ethical shopping is changing how brands operate.",
-      "4": "Unplanned purchases often happen when consumers see a tempting discount.",
+      "4": "Often, unplanned purchases happen when consumers see a tempting discount.",
       "5": "Reducing plastic wrapping is one way retailers can show they care about the environment."
     },
     "ex5": {

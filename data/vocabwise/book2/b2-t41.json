@@ -531,15 +531,15 @@
             "to",
             "a",
             "new",
-            "country"
+            "country,"
           ],
-          "answer": "Asylum seekers face enormous challenges as they try to adapt to a new country."
+          "answer": "As they try to adapt to a new country, asylum seekers face enormous challenges."
         },
         {
           "id": 5,
           "words": [
             "immigrants",
-            "often",
+            "Often,",
             "contribute",
             "invaluable",
             "skills",
@@ -550,7 +550,7 @@
             "adopted",
             "communities"
           ],
-          "answer": "Immigrants often contribute invaluable skills and perspectives to their adopted communities."
+          "answer": "Often, immigrants contribute invaluable skills and perspectives to their adopted communities."
         }
       ]
     },
@@ -778,8 +778,8 @@
       "1": "Living abroad is a challenging experience that can also be deeply rewarding.",
       "2": "The government's immigration policy was designed to attract skilled workers from diverse backgrounds.",
       "3": "Discrimination based on nationality or culture violates basic human rights.",
-      "4": "Asylum seekers face enormous challenges as they try to adapt to a new country.",
-      "5": "Immigrants often contribute invaluable skills and perspectives to their adopted communities."
+      "4": "As they try to adapt to a new country, asylum seekers face enormous challenges.",
+      "5": "Often, immigrants contribute invaluable skills and perspectives to their adopted communities."
     },
     "ex5": {
       "1": "A",

@@ -419,7 +419,7 @@
           "id": 1,
           "words": [
             "algorithmic",
-            "bias",
+            "systems",
             "can",
             "perpetuate",
             "historical",
@@ -427,7 +427,7 @@
             "at",
             "scale"
           ],
-          "answer": "Algorithmic bias can perpetuate historical inequalities at scale."
+          "answer": "Algorithmic systems can perpetuate historical inequalities at scale."
         },
         {
           "id": 2,
@@ -650,7 +650,7 @@
       "5": "regulation"
     },
     "ex4": {
-      "1": "Algorithmic bias can perpetuate historical inequalities at scale.",
+      "1": "Algorithmic systems can perpetuate historical inequalities at scale.",
       "2": "Explainability is essential for building public trust in AI systems.",
       "3": "Mass surveillance threatens individual privacy and civil liberties.",
       "4": "Autonomous systems must be subject to independent oversight and regulation.",

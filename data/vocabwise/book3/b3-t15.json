@@ -479,9 +479,9 @@
             "the",
             "original",
             "reward",
-            "disappears"
+            "disappears,"
           ],
-          "answer": "Conditioning explains why habitual responses persist long after the original reward disappears."
+          "answer": "Long after the original reward disappears, conditioning explains why habitual responses persist."
         },
         {
           "id": 5,
@@ -493,9 +493,9 @@
             "consistent",
             "repetition",
             "over",
-            "time"
+            "time,"
           ],
-          "answer": "Rewiring neural pathways requires consistent repetition over time."
+          "answer": "Over time, rewiring neural pathways requires consistent repetition."
         }
       ]
     },
@@ -723,8 +723,8 @@
       "1": "Automaticity frees the brain for more demanding tasks.",
       "2": "A single environmental cue can trigger a powerful urge to relapse.",
       "3": "Willpower is a finite resource that diminishes with repeated use.",
-      "4": "Conditioning explains why habitual responses persist long after the original reward disappears.",
-      "5": "Rewiring neural pathways requires consistent repetition over time."
+      "4": "Long after the original reward disappears, conditioning explains why habitual responses persist.",
+      "5": "Over time, rewiring neural pathways requires consistent repetition."
     },
     "ex5": {
       "1": "A",

@@ -526,9 +526,9 @@
             "a",
             "difficult",
             "choice",
-            "arises"
+            "arises,"
           ],
-          "answer": "Having a clear rule of life gives you a reference point beyond self-interest when a difficult choice arises."
+          "answer": "When a difficult choice arises, having a clear rule of life gives you a reference point beyond self-interest."
         },
         {
           "id": 4,
@@ -551,9 +551,9 @@
             "out",
             "as",
             "they",
-            "hoped"
+            "hoped,"
           ],
-          "answer": "A responsible person accepts the result of their decisions even when things do not turn out as they hoped."
+          "answer": "Even when things do not turn out as they hoped, a responsible person accepts the result of their decisions."
         },
         {
           "id": 5,
@@ -742,8 +742,8 @@
     "ex4": {
       "1": "Difficult decisions require us to slow down, consider the impact on others, and weigh up the likely consequences.",
       "2": "A benefit to one person or group may cause harm to another, which is why ethical decisions are never simple.",
-      "3": "Having a clear rule of life gives you a reference point beyond self-interest when a difficult choice arises.",
-      "4": "A responsible person accepts the result of their decisions even when things do not turn out as they hoped.",
+      "3": "When a difficult choice arises, having a clear rule of life gives you a reference point beyond self-interest.",
+      "4": "Even when things do not turn out as they hoped, a responsible person accepts the result of their decisions.",
       "5": "Reflecting on past decisions and asking what was right and what caused harm helps us make wiser choices in the future."
     },
     "ex5": {

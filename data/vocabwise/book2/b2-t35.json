@@ -469,7 +469,7 @@
             "speaking",
             "two",
             "languages",
-            "often",
+            "Often,",
             "find",
             "it",
             "easier",
@@ -478,7 +478,7 @@
             "a",
             "third"
           ],
-          "answer": "Children who grow up speaking two languages often find it easier to learn a third."
+          "answer": "Often, children who grow up speaking two languages find it easier to learn a third."
         },
         {
           "id": 2,
@@ -727,7 +727,7 @@
       "5": "preserve"
     },
     "ex4": {
-      "1": "Children who grow up speaking two languages often find it easier to learn a third.",
+      "1": "Often, children who grow up speaking two languages find it easier to learn a third.",
       "2": "The government introduced programmes to preserve dying languages in the region.",
       "3": "Being multilingual is a significant advantage in today's globalised job market.",
       "4": "His strong local accent shows that he grew up in a small village in the mountains.",

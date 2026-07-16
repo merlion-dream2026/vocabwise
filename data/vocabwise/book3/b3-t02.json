@@ -415,12 +415,12 @@
             "chronic",
             "from",
             "stems",
-            "often",
+            "Often,",
             "stress",
             "unmanaged",
             "workplace"
           ],
-          "answer": "Burnout often stems from chronic unmanaged workplace stress."
+          "answer": "Often, burnout stems from chronic unmanaged workplace stress."
         },
         {
           "id": 2,
@@ -459,12 +459,12 @@
             "career",
             "seeking",
             "can",
-            "significantly",
+            "significantly.",
             "accelerate",
             "professional",
             "development"
           ],
-          "answer": "Seeking career mentorship can significantly accelerate professional development."
+          "answer": "Seeking career mentorship can accelerate professional development significantly."
         },
         {
           "id": 5,
@@ -638,10 +638,10 @@
       "5": "workload"
     },
     "ex4": {
-      "1": "Burnout often stems from chronic unmanaged workplace stress.",
+      "1": "Often, burnout stems from chronic unmanaged workplace stress.",
       "2": "Employees should feel confident to negotiate a pay rise.",
       "3": "Climbing the career ladder requires dedication and strategic networking.",
-      "4": "Seeking career mentorship can significantly accelerate professional development.",
+      "4": "Seeking career mentorship can accelerate professional development significantly.",
       "5": "Fair remuneration is essential to long-term sustainable engagement."
     },
     "ex5": {

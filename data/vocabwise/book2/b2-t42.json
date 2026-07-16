@@ -487,9 +487,9 @@
             "community",
             "after",
             "the",
-            "disaster"
+            "disaster,"
           ],
-          "answer": "Thousands of volunteers donated their time to help rebuild the community after the disaster."
+          "answer": "After the disaster, thousands of volunteers donated their time to help rebuild the community."
         },
         {
           "id": 3,
@@ -708,7 +708,7 @@
     },
     "ex4": {
       "1": "The charity launched a nationwide campaign to raise awareness about child poverty.",
-      "2": "Thousands of volunteers donated their time to help rebuild the community after the disaster.",
+      "2": "After the disaster, thousands of volunteers donated their time to help rebuild the community.",
       "3": "The welfare system provides critical support to families living in poverty.",
       "4": "Giving the less fortunate access to education is the best way to break the cycle of poverty.",
       "5": "Organisations that fund long-term projects create more lasting change than emergency aid."

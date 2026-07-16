@@ -436,14 +436,14 @@
             "stateless",
             "people",
             "are",
-            "often",
+            "Often,",
             "denied",
             "access",
             "to",
             "basic",
             "services"
           ],
-          "answer": "Stateless people are often denied access to basic services."
+          "answer": "Often, stateless people are denied access to basic services."
         },
         {
           "id": 3,
@@ -646,7 +646,7 @@
     },
     "ex4": {
       "1": "Millions of people seek asylum from persecution every year.",
-      "2": "Stateless people are often denied access to basic services.",
+      "2": "Often, stateless people are denied access to basic services.",
       "3": "Remittances sustain communities left behind by migration.",
       "4": "Education can help combat xenophobia in divided societies.",
       "5": "Assimilation should be voluntary rather than imposed by law."

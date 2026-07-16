@@ -522,12 +522,12 @@
             "last",
             "graduated",
             "from",
-            "year",
+            "year,",
             "university",
             "honours",
             "with"
           ],
-          "answer": "She graduated from university with honours last year."
+          "answer": "Last year, she graduated from university with honours."
         }
       ]
     },
@@ -691,7 +691,7 @@
       "2": "All students must enrol before the course starts.",
       "3": "The tutor helped her complete a difficult assignment.",
       "4": "Literacy is a key goal of education worldwide.",
-      "5": "She graduated from university with honours last year."
+      "5": "Last year, she graduated from university with honours."
     },
     "ex5": {
       "1": "A",

@@ -455,12 +455,12 @@
             "rehabilitation",
             "programmes",
             "can",
-            "significantly",
+            "significantly.",
             "reduce",
             "offender",
             "recidivism"
           ],
-          "answer": "Rehabilitation programmes can significantly reduce offender recidivism."
+          "answer": "Rehabilitation programmes can reduce offender recidivism significantly."
         },
         {
           "id": 4,
@@ -668,7 +668,7 @@
     "ex4": {
       "1": "The judiciary must remain independent of political influence.",
       "2": "Legal precedent ensures consistency across similar court cases.",
-      "3": "Rehabilitation programmes can significantly reduce offender recidivism.",
+      "3": "Rehabilitation programmes can reduce offender recidivism significantly.",
       "4": "The prosecution must prove guilt beyond all reasonable doubt.",
       "5": "Restorative justice focuses on repairing harm rather than imposing punishment."
     },

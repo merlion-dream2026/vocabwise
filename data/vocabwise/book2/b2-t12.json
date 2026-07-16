@@ -512,13 +512,13 @@
             "many",
             "face",
             "species",
-            "loss",
+            "loss,",
             "habitat",
             "due",
             "to",
             "extinction"
           ],
-          "answer": "Many species face extinction due to habitat loss."
+          "answer": "Due to habitat loss, many species face extinction."
         },
         {
           "id": 5,
@@ -708,7 +708,7 @@
       "1": "The rainforest is home to thousands of species.",
       "2": "Energy flows through a food chain.",
       "3": "Invasive species can harm native wildlife.",
-      "4": "Many species face extinction due to habitat loss.",
+      "4": "Due to habitat loss, many species face extinction.",
       "5": "Conservation efforts aim to protect biodiversity."
     },
     "ex5": {

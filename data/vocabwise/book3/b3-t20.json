@@ -455,9 +455,9 @@
             "tipping",
             "points",
             "are",
-            "reached"
+            "reached,"
           ],
-          "answer": "Mitigation strategies must be implemented before tipping points are reached."
+          "answer": "Before tipping points are reached, mitigation strategies must be implemented."
         },
         {
           "id": 4,
@@ -664,7 +664,7 @@
     "ex4": {
       "1": "Reducing carbon emissions is essential to slowing climate change.",
       "2": "Deforestation threatens biodiversity and disrupts ecosystem services.",
-      "3": "Mitigation strategies must be implemented before tipping points are reached.",
+      "3": "Before tipping points are reached, mitigation strategies must be implemented.",
       "4": "Custodianship of natural resources demands both discipline and long-term vision.",
       "5": "Sustainability requires embedding environmental thinking into every decision."
     },

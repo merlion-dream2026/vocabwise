@@ -467,7 +467,7 @@
             "we",
             "use",
             "every",
-            "day",
+            "day,",
             "from",
             "music",
             "recommendations",
@@ -475,7 +475,7 @@
             "medical",
             "diagnosis"
           ],
-          "answer": "Artificial intelligence is already embedded in the apps we use every day from music recommendations to medical diagnosis."
+          "answer": "Every day, artificial intelligence is already embedded in the apps we use from music recommendations to medical diagnosis."
         },
         {
           "id": 2,
@@ -794,7 +794,7 @@
       "5": "machine"
     },
     "ex4": {
-      "1": "Artificial intelligence is already embedded in the apps we use every day from music recommendations to medical diagnosis.",
+      "1": "Every day, artificial intelligence is already embedded in the apps we use from music recommendations to medical diagnosis.",
       "2": "Tasks that are repetitive or rule-based can now be done automatically by machines more efficiently than by humans.",
       "3": "AI systems trained on biased data may make decisions that discriminate against certain groups without anyone realising.",
       "4": "Governments must regulate artificial intelligence to ensure its benefits are shared fairly and its risks are controlled.",

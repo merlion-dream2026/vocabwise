@@ -470,9 +470,9 @@
             "of",
             "words",
             "over",
-            "time"
+            "time,"
           ],
-          "answer": "Semantic shift changes the meaning of words over time."
+          "answer": "Over time, semantic shift changes the meaning of words."
         },
         {
           "id": 5,
@@ -485,9 +485,9 @@
             "dialects",
             "before",
             "they",
-            "disappear"
+            "disappear,"
           ],
-          "answer": "Linguists work to preserve endangered dialects before they disappear."
+          "answer": "Before they disappear, linguists work to preserve endangered dialects."
         }
       ]
     },
@@ -650,8 +650,8 @@
       "1": "Etymology reveals the distant origins of everyday words.",
       "2": "Borrowing from other languages has enriched the English lexicon.",
       "3": "A pidgin can develop into a creole over generations.",
-      "4": "Semantic shift changes the meaning of words over time.",
-      "5": "Linguists work to preserve endangered dialects before they disappear."
+      "4": "Over time, semantic shift changes the meaning of words.",
+      "5": "Before they disappear, linguists work to preserve endangered dialects."
     },
     "ex5": {
       "1": "B",

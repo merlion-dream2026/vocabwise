@@ -544,9 +544,9 @@
             "suits",
             "her",
             "delicate",
-            "style"
+            "style,"
           ],
-          "answer": "She chose watercolour as her medium because it suits her delicate style."
+          "answer": "Because it suits her delicate style, she chose watercolour as her medium."
         }
       ]
     },
@@ -775,7 +775,7 @@
       "2": "Learning to read a painting takes time and a lot of exposure to art.",
       "3": "The gallery display was arranged to show the artist's creative journey.",
       "4": "The exhibition inspired many young people to explore modern art.",
-      "5": "She chose watercolour as her medium because it suits her delicate style."
+      "5": "Because it suits her delicate style, she chose watercolour as her medium."
     },
     "ex5": {
       "1": "B",

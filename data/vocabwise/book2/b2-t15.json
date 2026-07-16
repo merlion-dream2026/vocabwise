@@ -485,9 +485,9 @@
             "evacuated",
             "area",
             "danger",
-            "quickly"
+            "Immediately,"
           ],
-          "answer": "People were quickly evacuated from the danger area."
+          "answer": "Immediately, people were evacuated from the danger area."
         },
         {
           "id": 3,
@@ -754,7 +754,7 @@
     },
     "ex4": {
       "1": "An earthquake occurs when tectonic plates shift.",
-      "2": "People were quickly evacuated from the danger area.",
+      "2": "Immediately, people were evacuated from the danger area.",
       "3": "The earthquake destroyed all roads and bridges.",
       "4": "Relief organisations provide emergency food and water.",
       "5": "Communities can recover from natural disasters and grow stronger."

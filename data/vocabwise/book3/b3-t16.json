@@ -451,7 +451,7 @@
           "words": [
             "structural",
             "inequality",
-            "often",
+            "Often,",
             "determines",
             "what",
             "food",
@@ -461,7 +461,7 @@
             "to",
             "eat"
           ],
-          "answer": "Structural inequality often determines what food families can afford to eat."
+          "answer": "Often, structural inequality determines what food families can afford to eat."
         },
         {
           "id": 4,
@@ -654,7 +654,7 @@
     "ex4": {
       "1": "Processed foods are engineered for palatability rather than nutritional value.",
       "2": "Diet culture equates thinness with health and moral worth.",
-      "3": "Structural inequality often determines what food families can afford to eat.",
+      "3": "Often, structural inequality determines what food families can afford to eat.",
       "4": "Regulating food advertising can protect children from unhealthy dietary influences.",
       "5": "Obesity and malnutrition can coexist in the same community."
     },

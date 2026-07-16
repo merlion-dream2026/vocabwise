@@ -464,23 +464,23 @@
             "a",
             "doctor",
             "prescription",
-            "patient",
+            "patient,",
             "for",
             "the"
           ],
-          "answer": "The doctor wrote a prescription for the patient."
+          "answer": "For the patient, the doctor wrote a prescription."
         },
         {
           "id": 2,
           "words": [
             "builds",
             "vaccination",
-            "body",
+            "body,",
             "immunity",
             "the",
             "in"
           ],
-          "answer": "Vaccination builds immunity in the body."
+          "answer": "In the body, vaccination builds immunity."
         },
         {
           "id": 3,
@@ -516,10 +516,10 @@
             "recovery",
             "was",
             "after",
-            "weeks",
+            "weeks,",
             "six"
           ],
-          "answer": "His recovery was complete after six weeks."
+          "answer": "After six weeks, his recovery was complete."
         }
       ]
     },
@@ -744,11 +744,11 @@
       "5": "specialist"
     },
     "ex4": {
-      "1": "The doctor wrote a prescription for the patient.",
-      "2": "Vaccination builds immunity in the body.",
+      "1": "For the patient, the doctor wrote a prescription.",
+      "2": "In the body, vaccination builds immunity.",
       "3": "She was referred to a specialist by her doctor.",
       "4": "Chronic conditions require long-term treatment.",
-      "5": "His recovery was complete after six weeks."
+      "5": "After six weeks, his recovery was complete."
     },
     "ex5": {
       "1": "A",

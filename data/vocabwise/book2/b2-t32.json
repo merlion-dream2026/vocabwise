@@ -520,9 +520,9 @@
             "city",
             "throughout",
             "the",
-            "tour"
+            "tour,"
           ],
-          "answer": "Devoted fans followed the singer from city to city throughout the tour."
+          "answer": "Throughout the tour, devoted fans followed the singer from city to city."
         },
         {
           "id": 5,
@@ -539,9 +539,9 @@
             "reading",
             "her",
             "grandmother's",
-            "letters"
+            "letters,"
           ],
-          "answer": "She wrote the lyrics in just one evening after reading her grandmother's letters."
+          "answer": "After reading her grandmother's letters, she wrote the lyrics in just one evening."
         }
       ]
     },
@@ -704,8 +704,8 @@
       "1": "The band decided to remain independent and release the album themselves.",
       "2": "The concert was a tribute to the artist who had influenced a whole generation.",
       "3": "Music streaming has changed the way the industry earns money.",
-      "4": "Devoted fans followed the singer from city to city throughout the tour.",
-      "5": "She wrote the lyrics in just one evening after reading her grandmother's letters."
+      "4": "Throughout the tour, devoted fans followed the singer from city to city.",
+      "5": "After reading her grandmother's letters, she wrote the lyrics in just one evening."
     },
     "ex5": {
       "1": "A",

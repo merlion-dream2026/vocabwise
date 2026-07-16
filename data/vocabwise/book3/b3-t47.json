@@ -425,9 +425,9 @@
             "information",
             "from",
             "the",
-            "reader"
+            "readers"
           ],
-          "answer": "The narrator conceals crucial information from the reader."
+          "answer": "The narrator conceals crucial information from the readers."
         },
         {
           "id": 2,
@@ -660,7 +660,7 @@
       "5": "characterisation"
     },
     "ex4": {
-      "1": "The narrator conceals crucial information from the reader.",
+      "1": "The narrator conceals crucial information from the readers.",
       "2": "Conflict between the characters drives the plot forward.",
       "3": "Foreshadowing rewards attentive readers without revealing the outcome.",
       "4": "Complex characterisation makes fictional figures feel genuinely human.",

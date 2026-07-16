@@ -440,9 +440,9 @@
             "artistic",
             "canon",
             "for",
-            "centuries"
+            "centuries,"
           ],
-          "answer": "Patronage has shaped the artistic canon for centuries."
+          "answer": "For centuries, patronage has shaped the artistic canon."
         },
         {
           "id": 3,
@@ -482,7 +482,7 @@
             "redefine",
             "artistic",
             "representation",
-            "globally"
+            "globally."
           ],
           "answer": "Digital tools allow artists to redefine artistic representation globally."
         }
@@ -660,7 +660,7 @@
     },
     "ex4": {
       "1": "The avant-garde challenged established aesthetic conventions.",
-      "2": "Patronage has shaped the artistic canon for centuries.",
+      "2": "For centuries, patronage has shaped the artistic canon.",
       "3": "The medium can be as meaningful as the message.",
       "4": "Subjectivity makes artistic judgement inherently personal.",
       "5": "Digital tools allow artists to redefine artistic representation globally."

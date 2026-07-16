@@ -470,9 +470,9 @@
             "within",
             "a",
             "few",
-            "hours"
+            "hours,"
           ],
-          "answer": "The video went viral within a few hours."
+          "answer": "Within a few hours, the video went viral."
         },
         {
           "id": 2,
@@ -508,9 +508,9 @@
             "new",
             "photos",
             "every",
-            "day"
+            "day,"
           ],
-          "answer": "She uploads new photos every day."
+          "answer": "Every day, she uploads new photos."
         },
         {
           "id": 5,
@@ -522,9 +522,9 @@
             "use",
             "social",
             "media",
-            "wisely"
+            "responsibly"
           ],
-          "answer": "It is important to use social media wisely."
+          "answer": "It is important to use social media responsibly."
         }
       ]
     },
@@ -684,11 +684,11 @@
       "5": "platform"
     },
     "ex4": {
-      "1": "The video went viral within a few hours.",
+      "1": "Within a few hours, the video went viral.",
       "2": "Content creators study which topics are trending.",
       "3": "Engaging content built her a large audience.",
-      "4": "She uploads new photos every day.",
-      "5": "It is important to use social media wisely."
+      "4": "Every day, she uploads new photos.",
+      "5": "It is important to use social media responsibly."
     },
     "ex5": {
       "1": "B",

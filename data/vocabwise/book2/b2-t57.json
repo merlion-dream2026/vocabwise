@@ -521,9 +521,9 @@
             "income",
             "or",
             "employee",
-            "benefits"
+            "benefits,"
           ],
-          "answer": "Contract workers enjoy flexibility but face uncertainty because they have no guaranteed income or employee benefits."
+          "answer": "Because they have no guaranteed income or employee benefits, contract workers enjoy flexibility but face uncertainty."
         },
         {
           "id": 4,
@@ -749,7 +749,7 @@
     "ex4": {
       "1": "Technology has changed the way people work, making it possible to work flexibly from almost anywhere in the world.",
       "2": "As machines do more routine tasks, workers will need to adapt their skills to focus on creativity and problem-solving.",
-      "3": "Contract workers enjoy flexibility but face uncertainty because they have no guaranteed income or employee benefits.",
+      "3": "Because they have no guaranteed income or employee benefits, contract workers enjoy flexibility but face uncertainty.",
       "4": "An efficient automated system can replace many of the repetitive tasks that used to require large numbers of workers.",
       "5": "The future workforce will need strong digital skills and the ability to manage complex projects across different platforms."
     },

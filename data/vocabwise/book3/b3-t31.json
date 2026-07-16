@@ -441,14 +441,14 @@
           "id": 2,
           "words": [
             "paradoxes",
-            "reveal",
+            "illustrate",
             "the",
             "limits",
             "of",
             "ordinary",
             "logic"
           ],
-          "answer": "Paradoxes reveal the limits of ordinary logic."
+          "answer": "Paradoxes illustrate the limits of ordinary logic."
         },
         {
           "id": 3,
@@ -670,7 +670,7 @@
     },
     "ex4": {
       "1": "The validity of an argument depends on its logical structure.",
-      "2": "Paradoxes reveal the limits of ordinary logic.",
+      "2": "Paradoxes illustrate the limits of ordinary logic.",
       "3": "Empiricism holds that knowledge must be grounded in experience.",
       "4": "Subjectivity means that personal bias can colour our reasoning.",
       "5": "Identifying a fallacy is the first step towards stronger reasoning."

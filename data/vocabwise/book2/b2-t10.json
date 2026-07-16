@@ -465,14 +465,14 @@
           "words": [
             "her",
             "upbringing",
-            "shaped",
+            "instilled",
             "the",
             "values",
             "she",
             "has",
             "today"
           ],
-          "answer": "Her upbringing shaped the values she has today."
+          "answer": "Her upbringing instilled the values she has today."
         },
         {
           "id": 2,
@@ -507,14 +507,14 @@
           "words": [
             "tension",
             "can",
-            "often",
+            "Often,",
             "arise",
             "between",
             "parents",
             "and",
             "teenagers"
           ],
-          "answer": "Tension can often arise between parents and teenagers."
+          "answer": "Often, tension can arise between parents and teenagers."
         },
         {
           "id": 5,
@@ -754,10 +754,10 @@
       "5": "freedom"
     },
     "ex4": {
-      "1": "Her upbringing shaped the values she has today.",
+      "1": "Her upbringing instilled the values she has today.",
       "2": "A strong emotional bond is important for families.",
       "3": "There has been a shift in family roles.",
-      "4": "Tension can often arise between parents and teenagers.",
+      "4": "Often, tension can arise between parents and teenagers.",
       "5": "It is important to teach children to be responsible."
     },
     "ex5": {

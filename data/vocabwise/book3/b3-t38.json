@@ -419,13 +419,13 @@
           "id": 1,
           "words": [
             "language",
-            "can",
+            "helps",
             "shape",
             "our",
             "cognitive",
             "frameworks"
           ],
-          "answer": "Language can shape our cognitive frameworks."
+          "answer": "Language helps shape our cognitive frameworks."
         },
         {
           "id": 2,
@@ -450,7 +450,7 @@
             "and",
             "social",
             "identity",
-            "simultaneously"
+            "simultaneously."
           ],
           "answer": "Dialect signals regional and social identity simultaneously."
         },
@@ -642,7 +642,7 @@
       "5": "multilingualism"
     },
     "ex4": {
-      "1": "Language can shape our cognitive frameworks.",
+      "1": "Language helps shape our cognitive frameworks.",
       "2": "Code-switching allows speakers to navigate multiple social identities.",
       "3": "Dialect signals regional and social identity simultaneously.",
       "4": "Multilingualism is a resource not a barrier to understanding.",

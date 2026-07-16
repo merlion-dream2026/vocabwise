@@ -478,9 +478,9 @@
             "two",
             "hours",
             "every",
-            "day"
+            "day,"
           ],
-          "answer": "Her commute takes two hours every day."
+          "answer": "Every day, her commute takes two hours."
         },
         {
           "id": 3,
@@ -492,9 +492,9 @@
             "suburbs",
             "for",
             "more",
-            "space"
+            "space,"
           ],
-          "answer": "They moved to the suburbs for more space."
+          "answer": "For more space, they moved to the suburbs."
         },
         {
           "id": 4,
@@ -695,8 +695,8 @@
     },
     "ex4": {
       "1": "The gap between urban and rural areas is growing.",
-      "2": "Her commute takes two hours every day.",
-      "3": "They moved to the suburbs for more space.",
+      "2": "Every day, her commute takes two hours.",
+      "3": "For more space, they moved to the suburbs.",
       "4": "Rural areas have limited access to healthcare.",
       "5": "Rural life offers a peaceful environment."
     },

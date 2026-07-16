@@ -473,9 +473,9 @@
             "content",
             "generates",
             "more",
-            "engagement"
+            "engagement,"
           ],
-          "answer": "False news spreads faster on social media than corrections because emotional content generates more engagement."
+          "answer": "Because emotional content generates more engagement, false news spreads faster on social media than corrections."
         },
         {
           "id": 2,
@@ -738,7 +738,7 @@
       "5": "spread"
     },
     "ex4": {
-      "1": "False news spreads faster on social media than corrections because emotional content generates more engagement.",
+      "1": "Because emotional content generates more engagement, false news spreads faster on social media than corrections.",
       "2": "Every source of information has some degree of bias so critical thinkers always check multiple outlets.",
       "3": "Social media platforms are under pressure to reveal how their algorithms influence what users see.",
       "4": "The best way to avoid being misled is to verify facts using reliable and trustworthy sources.",

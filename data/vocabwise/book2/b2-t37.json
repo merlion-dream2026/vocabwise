@@ -469,9 +469,9 @@
             "drugs",
             "before",
             "the",
-            "race"
+            "race,"
           ],
-          "answer": "The athlete was disqualified for using performance drugs before the race."
+          "answer": "Before the race, the athlete was disqualified for using performance drugs."
         },
         {
           "id": 2,
@@ -769,7 +769,7 @@
       "5": "lasting impact"
     },
     "ex4": {
-      "1": "The athlete was disqualified for using performance drugs before the race.",
+      "1": "Before the race, the athlete was disqualified for using performance drugs.",
       "2": "The tournament was broadcast live to millions of spectators around the world.",
       "3": "A great coach can motivate athletes to achieve results beyond their expectations.",
       "4": "Sport has a lasting impact on communities by building teamwork and resilience.",

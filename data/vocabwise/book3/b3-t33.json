@@ -450,14 +450,14 @@
           "words": [
             "commemoration",
             "rituals",
-            "help",
+            "actively",
             "preserve",
             "a",
             "society's",
             "collective",
             "memory"
           ],
-          "answer": "Commemoration rituals help preserve a society's collective memory."
+          "answer": "Commemoration rituals actively preserve a society's collective memory."
         },
         {
           "id": 4,
@@ -716,7 +716,7 @@
     "ex4": {
       "1": "Historical narratives always reflect the biases of their authors.",
       "2": "Archival research can overturn long-accepted interpretations of key events.",
-      "3": "Commemoration rituals help preserve a society's collective memory.",
+      "3": "Commemoration rituals actively preserve a society's collective memory.",
       "4": "The legacy of historical events is continually rewritten by new generations.",
       "5": "Objectivity in history requires acknowledging one's own cultural bias."
     },

@@ -511,7 +511,7 @@
             "because",
             "global",
             "trade",
-            "often",
+            "Often,",
             "benefits",
             "wealthier",
             "nations",
@@ -520,7 +520,7 @@
             "poorer",
             "ones"
           ],
-          "answer": "Economic unfairness is a serious challenge because global trade often benefits wealthier nations more than poorer ones."
+          "answer": "Often, economic unfairness is a serious challenge because global trade benefits wealthier nations more than poorer ones."
         },
         {
           "id": 4,
@@ -565,9 +565,9 @@
             "can",
             "solve",
             "them",
-            "alone"
+            "alone,"
           ],
-          "answer": "Addressing global problems like climate change requires international cooperation because no country can solve them alone."
+          "answer": "Because no country can solve them alone, addressing global problems like climate change requires international cooperation."
         }
       ]
     },
@@ -794,9 +794,9 @@
     "ex4": {
       "1": "The world has become global through trade, travel, and digital communication, connecting people across continents.",
       "2": "Globalisation benefits consumers by making goods cheaper and more diverse but it can also threaten local culture and identity.",
-      "3": "Economic unfairness is a serious challenge because global trade often benefits wealthier nations more than poorer ones.",
+      "3": "Often, economic unfairness is a serious challenge because global trade benefits wealthier nations more than poorer ones.",
       "4": "The world's economies are so closely linked that a financial crisis in one country can affect dozens of others.",
-      "5": "Addressing global problems like climate change requires international cooperation because no country can solve them alone."
+      "5": "Because no country can solve them alone, addressing global problems like climate change requires international cooperation."
     },
     "ex5": {
       "1": "B",

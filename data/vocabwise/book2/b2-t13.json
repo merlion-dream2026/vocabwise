@@ -491,9 +491,9 @@
             "you",
             "carbon",
             "by",
-            "cycling"
+            "cycling,"
           ],
-          "answer": "You can reduce your carbon footprint by cycling."
+          "answer": "By cycling, you can reduce your carbon footprint."
         },
         {
           "id": 4,
@@ -747,7 +747,7 @@
     "ex4": {
       "1": "Burning fossil fuels pollutes the air.",
       "2": "Plastics take hundreds of years to decompose.",
-      "3": "You can reduce your carbon footprint by cycling.",
+      "3": "By cycling, you can reduce your carbon footprint.",
       "4": "Untreated sewage contaminates rivers and water supplies.",
       "5": "Recycling helps keep useful materials out of landfill."
     },

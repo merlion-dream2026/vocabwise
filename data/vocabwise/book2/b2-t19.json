@@ -490,14 +490,14 @@
           "words": [
             "glaciers",
             "melt",
-            "slowly",
+            "Slowly,",
             "and",
             "feed",
             "rivers",
             "and",
             "lakes"
           ],
-          "answer": "Glaciers melt slowly and feed rivers and lakes."
+          "answer": "Slowly, glaciers melt and feed rivers and lakes."
         },
         {
           "id": 4,
@@ -507,7 +507,7 @@
             "reduced",
             "fish",
             "populations",
-            "worldwide"
+            "worldwide."
           ],
           "answer": "Overfishing has reduced fish populations worldwide."
         },
@@ -684,7 +684,7 @@
     "ex4": {
       "1": "Oceans cover more than 70% of Earth's surface.",
       "2": "Coral reefs are home to millions of marine species.",
-      "3": "Glaciers melt slowly and feed rivers and lakes.",
+      "3": "Slowly, glaciers melt and feed rivers and lakes.",
       "4": "Overfishing has reduced fish populations worldwide.",
       "5": "Desalination turns seawater into safe drinking water."
     },

@@ -481,9 +481,9 @@
             "durable",
             "peace",
             "after",
-            "conflict"
+            "conflict,"
           ],
-          "answer": "Reconciliation is essential for building durable peace after conflict."
+          "answer": "After conflict, reconciliation is essential for building durable peace."
         },
         {
           "id": 5,
@@ -726,7 +726,7 @@
       "1": "Diplomacy remains the most reliable tool for resolving international disputes.",
       "2": "A lasting ceasefire requires the genuine commitment of all parties.",
       "3": "Asymmetric warfare makes it harder to uphold humanitarian principles in conflict.",
-      "4": "Reconciliation is essential for building durable peace after conflict.",
+      "4": "After conflict, reconciliation is essential for building durable peace.",
       "5": "Disarmament agreements must include robust verification mechanisms to succeed."
     },
     "ex5": {

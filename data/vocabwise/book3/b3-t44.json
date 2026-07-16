@@ -433,7 +433,7 @@
           "words": [
             "disinformation",
             "spreads",
-            "rapidly",
+            "Rapidly,",
             "when",
             "users",
             "share",
@@ -441,14 +441,14 @@
             "verifying",
             "sources"
           ],
-          "answer": "Disinformation spreads rapidly when users share without verifying sources."
+          "answer": "Rapidly, disinformation spreads when users share without verifying sources."
         },
         {
           "id": 3,
           "words": [
             "echo",
             "chambers",
-            "reinforce",
+            "amplify",
             "existing",
             "beliefs",
             "and",
@@ -458,7 +458,7 @@
             "opposing",
             "views"
           ],
-          "answer": "Echo chambers reinforce existing beliefs and reduce exposure to opposing views."
+          "answer": "Echo chambers amplify existing beliefs and reduce exposure to opposing views."
         },
         {
           "id": 4,
@@ -467,7 +467,7 @@
             "an",
             "online",
             "presence",
-            "requires",
+            "needs",
             "consistent",
             "content",
             "and",
@@ -475,7 +475,7 @@
             "audience",
             "interaction"
           ],
-          "answer": "Building an online presence requires consistent content and genuine audience interaction."
+          "answer": "Building an online presence needs consistent content and genuine audience interaction."
         },
         {
           "id": 5,
@@ -668,9 +668,9 @@
     },
     "ex4": {
       "1": "Algorithms reward content that generates high engagement over factual reporting.",
-      "2": "Disinformation spreads rapidly when users share without verifying sources.",
-      "3": "Echo chambers reinforce existing beliefs and reduce exposure to opposing views.",
-      "4": "Building an online presence requires consistent content and genuine audience interaction.",
+      "2": "Rapidly, disinformation spreads when users share without verifying sources.",
+      "3": "Echo chambers amplify existing beliefs and reduce exposure to opposing views.",
+      "4": "Building an online presence needs consistent content and genuine audience interaction.",
       "5": "Anonymity online can embolden users to post harmful or misleading content."
     },
     "ex5": {

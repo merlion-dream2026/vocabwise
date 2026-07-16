@@ -487,9 +487,9 @@
             "during",
             "the",
             "dry",
-            "season"
+            "season,"
           ],
-          "answer": "Farmers irrigate their fields during the dry season."
+          "answer": "During the dry season, farmers irrigate their fields."
         },
         {
           "id": 3,
@@ -759,7 +759,7 @@
     },
     "ex4": {
       "1": "Rice is a staple food for billions of people.",
-      "2": "Farmers irrigate their fields during the dry season.",
+      "2": "During the dry season, farmers irrigate their fields.",
       "3": "Organic farming avoids the use of artificial chemicals.",
       "4": "A drought can destroy entire crops and cause famine.",
       "5": "Subsistence farmers grow only enough to feed their families."

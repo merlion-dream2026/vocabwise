@@ -434,9 +434,9 @@
             "suspended",
             "even",
             "during",
-            "emergencies"
+            "emergencies,"
           ],
-          "answer": "Non-derogable rights cannot be suspended even during emergencies."
+          "answer": "Even during emergencies, non-derogable rights cannot be suspended."
         },
         {
           "id": 2,
@@ -661,7 +661,7 @@
       "5": "reparation"
     },
     "ex4": {
-      "1": "Non-derogable rights cannot be suspended even during emergencies.",
+      "1": "Even during emergencies, non-derogable rights cannot be suspended.",
       "2": "Impunity emboldens future perpetrators and undermines the rule of law.",
       "3": "Advocacy organisations document abuses and amplify the voices of victims.",
       "4": "Sovereignty cannot be used to justify the persecution of minorities.",

@@ -486,9 +486,9 @@
             "outstanding",
             "reviews",
             "from",
-            "critics"
+            "critics,"
           ],
-          "answer": "The novel became a bestseller after receiving outstanding reviews from critics."
+          "answer": "After receiving outstanding reviews from critics, the novel became a bestseller."
         },
         {
           "id": 3,
@@ -534,7 +534,7 @@
             "her",
             "first",
             "novel",
-            "digitally",
+            "Digitally,",
             "without",
             "going",
             "through",
@@ -542,7 +542,7 @@
             "traditional",
             "publisher"
           ],
-          "answer": "She published her first novel digitally without going through a traditional publisher."
+          "answer": "Digitally, she published her first novel without going through a traditional publisher."
         }
       ]
     },
@@ -718,10 +718,10 @@
     },
     "ex4": {
       "1": "The author used the villain's perspective to challenge the reader's assumptions.",
-      "2": "The novel became a bestseller after receiving outstanding reviews from critics.",
+      "2": "After receiving outstanding reviews from critics, the novel became a bestseller.",
       "3": "The sad ending left many readers deeply moved but also satisfied.",
       "4": "The central theme of the story is the conflict between love and duty.",
-      "5": "She published her first novel digitally without going through a traditional publisher."
+      "5": "Digitally, she published her first novel without going through a traditional publisher."
     },
     "ex5": {
       "1": "A",

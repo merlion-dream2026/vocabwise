@@ -463,7 +463,7 @@
             "to",
             "cities",
             "each",
-            "year",
+            "year,",
             "in",
             "search",
             "of",
@@ -474,7 +474,7 @@
             "public",
             "services"
           ],
-          "answer": "Millions of people move to cities each year in search of better jobs, education, and public services."
+          "answer": "Each year, millions of people move to cities in search of better jobs, education, and public services."
         },
         {
           "id": 2,
@@ -505,7 +505,7 @@
             "city-centre",
             "rents",
             "are",
-            "often",
+            "Often,",
             "pushed",
             "to",
             "the",
@@ -517,7 +517,7 @@
             "be",
             "weaker"
           ],
-          "answer": "Families who cannot afford city-centre rents are often pushed to the suburbs where transport links may be weaker."
+          "answer": "Often, families who cannot afford city-centre rents are pushed to the suburbs where transport links may be weaker."
         },
         {
           "id": 4,
@@ -786,9 +786,9 @@
       "5": "pressure"
     },
     "ex4": {
-      "1": "Millions of people move to cities each year in search of better jobs, education, and public services.",
+      "1": "Each year, millions of people move to cities in search of better jobs, education, and public services.",
       "2": "Overcrowding in rapidly growing cities creates pressure on housing, transport, and public resources.",
-      "3": "Families who cannot afford city-centre rents are often pushed to the suburbs where transport links may be weaker.",
+      "3": "Often, families who cannot afford city-centre rents are pushed to the suburbs where transport links may be weaker.",
       "4": "Cities must develop efficient transport systems and expand public services to keep pace with population growth.",
       "5": "Migration can enrich urban culture but also places additional pressure on resources in already crowded areas."
     },

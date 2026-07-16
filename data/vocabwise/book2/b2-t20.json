@@ -472,9 +472,9 @@
             "before",
             "running",
             "an",
-            "experiment"
+            "experiment,"
           ],
-          "answer": "Scientists form a hypothesis before running an experiment."
+          "answer": "Before running an experiment, scientists form a hypothesis."
         },
         {
           "id": 2,
@@ -757,7 +757,7 @@
       "5": "publish"
     },
     "ex4": {
-      "1": "Scientists form a hypothesis before running an experiment.",
+      "1": "Before running an experiment, scientists form a hypothesis.",
       "2": "Peer review ensures the quality of published research.",
       "3": "Researchers analyse data to identify patterns and trends.",
       "4": "A breakthrough can change our understanding of the world.",

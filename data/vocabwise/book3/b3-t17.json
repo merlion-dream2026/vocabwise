@@ -444,9 +444,9 @@
             "and",
             "efficacy",
             "before",
-            "approval"
+            "approval,"
           ],
-          "answer": "Clinical trials must confirm both safety and efficacy before approval."
+          "answer": "Before approval, clinical trials must confirm both safety and efficacy."
         },
         {
           "id": 3,
@@ -668,7 +668,7 @@
     },
     "ex4": {
       "1": "Vaccines have eradicated diseases that once threatened millions.",
-      "2": "Clinical trials must confirm both safety and efficacy before approval.",
+      "2": "Before approval, clinical trials must confirm both safety and efficacy.",
       "3": "Gene therapy targets inherited disorders at the molecular level.",
       "4": "All new treatments carry the risk of side effects.",
       "5": "Immunisation programmes are vital for protecting communities from infectious disease."

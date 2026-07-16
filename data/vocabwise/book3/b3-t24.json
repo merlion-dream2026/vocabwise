@@ -422,7 +422,7 @@
             "interconnectedness",
             "of",
             "cultures",
-            "worldwide"
+            "worldwide."
           ],
           "answer": "Globalisation has increased the interconnectedness of cultures worldwide."
         },
@@ -431,7 +431,7 @@
           "words": [
             "diaspora",
             "communities",
-            "often",
+            "Often,",
             "maintain",
             "strong",
             "ties",
@@ -440,7 +440,7 @@
             "cultural",
             "heritage"
           ],
-          "answer": "Diaspora communities often maintain strong ties to their cultural heritage."
+          "answer": "Often, diaspora communities maintain strong ties to their cultural heritage."
         },
         {
           "id": 3,
@@ -451,12 +451,12 @@
             "local",
             "traditions",
             "can",
-            "undermine",
+            "diminish",
             "their",
             "cultural",
             "significance"
           ],
-          "answer": "The commodification of local traditions can undermine their cultural significance."
+          "answer": "The commodification of local traditions can diminish their cultural significance."
         },
         {
           "id": 4,
@@ -715,8 +715,8 @@
     },
     "ex4": {
       "1": "Globalisation has increased the interconnectedness of cultures worldwide.",
-      "2": "Diaspora communities often maintain strong ties to their cultural heritage.",
-      "3": "The commodification of local traditions can undermine their cultural significance.",
+      "2": "Often, diaspora communities maintain strong ties to their cultural heritage.",
+      "3": "The commodification of local traditions can diminish their cultural significance.",
       "4": "Hybrid identities reflect the complexity of life between two cultures.",
       "5": "A cosmopolitan outlook values cultural diversity as a source of enrichment."
     },

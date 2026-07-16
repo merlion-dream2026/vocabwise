@@ -453,7 +453,7 @@
           "id": 3,
           "words": [
             "consciousness",
-            "remains",
+            "poses",
             "one",
             "of",
             "the",
@@ -463,7 +463,7 @@
             "in",
             "philosophy"
           ],
-          "answer": "Consciousness remains one of the deepest unsolved problems in philosophy."
+          "answer": "Consciousness poses one of the deepest unsolved problems in philosophy."
         },
         {
           "id": 4,
@@ -476,9 +476,9 @@
             "before",
             "pursuing",
             "radical",
-            "enhancement"
+            "enhancement,"
           ],
-          "answer": "Societies must mitigate existential risks before pursuing radical enhancement."
+          "answer": "Before pursuing radical enhancement, societies must mitigate existential risks."
         },
         {
           "id": 5,
@@ -720,8 +720,8 @@
     "ex4": {
       "1": "Transhumanism believes technology should overcome our biological limits.",
       "2": "The singularity could either lead to a utopia or a dystopia.",
-      "3": "Consciousness remains one of the deepest unsolved problems in philosophy.",
-      "4": "Societies must mitigate existential risks before pursuing radical enhancement.",
+      "3": "Consciousness poses one of the deepest unsolved problems in philosophy.",
+      "4": "Before pursuing radical enhancement, societies must mitigate existential risks.",
       "5": "Imagining alternative futures is essential to responsible technological policymaking."
     },
     "ex5": {

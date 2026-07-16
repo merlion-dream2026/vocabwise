@@ -490,9 +490,9 @@
             "the",
             "Moon",
             "in",
-            "1969"
+            "1969,"
           ],
-          "answer": "The first astronauts walked on the Moon in 1969."
+          "answer": "In 1969, the first astronauts walked on the Moon."
         },
         {
           "id": 3,
@@ -697,7 +697,7 @@
     },
     "ex4": {
       "1": "Thousands of satellites travel around Earth in orbit.",
-      "2": "The first astronauts walked on the Moon in 1969.",
+      "2": "In 1969, the first astronauts walked on the Moon.",
       "3": "Space agencies send unmanned probes to distant planets.",
       "4": "Space debris poses a serious threat to future missions.",
       "5": "Rockets must generate enough thrust to escape Earth's gravity."

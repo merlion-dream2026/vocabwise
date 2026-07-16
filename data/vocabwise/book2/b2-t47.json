@@ -515,9 +515,9 @@
             "reviewing",
             "their",
             "monthly",
-            "output"
+            "output,"
           ],
-          "answer": "The manager gave clear feedback to each team member after reviewing their monthly output."
+          "answer": "After reviewing their monthly output, the manager gave clear feedback to each team member."
         },
         {
           "id": 4,
@@ -535,9 +535,9 @@
             "set",
             "by",
             "the",
-            "company"
+            "company,"
           ],
-          "answer": "She was promoted because her performance consistently exceeded the targets set by the company."
+          "answer": "Because her performance consistently exceeded the targets set by the company, she was promoted."
         },
         {
           "id": 5,
@@ -786,8 +786,8 @@
     "ex4": {
       "1": "Remote work gives employees more flexibility but requires strong self-discipline to manage time effectively.",
       "2": "A heavy workload and tight deadlines are the most common causes of stress in the modern workplace.",
-      "3": "The manager gave clear feedback to each team member after reviewing their monthly output.",
-      "4": "She was promoted because her performance consistently exceeded the targets set by the company.",
+      "3": "After reviewing their monthly output, the manager gave clear feedback to each team member.",
+      "4": "Because her performance consistently exceeded the targets set by the company, she was promoted.",
       "5": "A clear career path and good benefits make employees more loyal and less likely to leave."
     },
     "ex5": {

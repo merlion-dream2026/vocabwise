@@ -505,9 +505,9 @@
             "growing",
             "wider",
             "each",
-            "year"
+            "year,"
           ],
-          "answer": "The gap between private and state school outcomes is growing wider each year."
+          "answer": "Each year, the gap between private and state school outcomes is growing wider."
         },
         {
           "id": 4,
@@ -705,7 +705,7 @@
     "ex4": {
       "1": "Scholarship programmes help talented students from low-income families access higher education.",
       "2": "The government must put more money into schools in disadvantaged areas.",
-      "3": "The gap between private and state school outcomes is growing wider each year.",
+      "3": "Each year, the gap between private and state school outcomes is growing wider.",
       "4": "Bold education reform is needed to give all children equal opportunity.",
       "5": "Students who leave early are more likely to struggle to find stable work."
     },

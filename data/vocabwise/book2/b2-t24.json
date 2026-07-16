@@ -477,13 +477,13 @@
             "bank",
             "statement",
             "every",
-            "month",
+            "month,",
             "to",
             "track",
             "her",
             "spending"
           ],
-          "answer": "She checks her bank statement every month to track her spending."
+          "answer": "Every month, she checks her bank statement to track her spending."
         },
         {
           "id": 2,
@@ -775,7 +775,7 @@
       "5": "account"
     },
     "ex4": {
-      "1": "She checks her bank statement every month to track her spending.",
+      "1": "Every month, she checks her bank statement to track her spending.",
       "2": "Paying bills on time helps you avoid unnecessary penalties.",
       "3": "He needed to borrow money from the bank to pay for the repairs.",
       "4": "The bank charges a fee for international money transfers.",

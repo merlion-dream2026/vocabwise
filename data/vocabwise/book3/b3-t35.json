@@ -463,7 +463,7 @@
           "words": [
             "scalability",
             "is",
-            "often",
+            "Often,",
             "more",
             "challenging",
             "than",
@@ -471,7 +471,7 @@
             "original",
             "invention"
           ],
-          "answer": "Scalability is often more challenging than the original invention."
+          "answer": "Often, scalability is more challenging than the original invention."
         },
         {
           "id": 5,
@@ -652,7 +652,7 @@
       "1": "Rapid iteration allows teams to correct design flaws early.",
       "2": "A patent gives inventors exclusive rights to their innovation.",
       "3": "The diffusion of new technology reshapes industries and daily life.",
-      "4": "Scalability is often more challenging than the original invention.",
+      "4": "Often, scalability is more challenging than the original invention.",
       "5": "Startups need venture capital to fund their early growth and prototype development."
     },
     "ex5": {

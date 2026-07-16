@@ -469,9 +469,9 @@
             "script",
             "before",
             "starting",
-            "production"
+            "production,"
           ],
-          "answer": "The director spent two years developing the script before starting production."
+          "answer": "Before starting production, the director spent two years developing the script."
         },
         {
           "id": 2,
@@ -767,7 +767,7 @@
       "5": "stream"
     },
     "ex4": {
-      "1": "The director spent two years developing the script before starting production.",
+      "1": "Before starting production, the director spent two years developing the script.",
       "2": "The film was released widely in over 80 countries on the same day.",
       "3": "The sequel failed to capture the magic of the original film.",
       "4": "The documentary changed the way many people thought about environmental issues.",

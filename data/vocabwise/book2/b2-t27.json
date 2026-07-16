@@ -472,7 +472,7 @@
             "saved",
             "for",
             "five",
-            "years",
+            "years,",
             "to",
             "make",
             "a",
@@ -483,7 +483,7 @@
             "first",
             "home"
           ],
-          "answer": "She saved for five years to make a down payment on her first home."
+          "answer": "For five years, she saved to make a down payment on her first home."
         },
         {
           "id": 2,
@@ -499,9 +499,9 @@
             "the",
             "tenant",
             "moved",
-            "in"
+            "in,"
           ],
-          "answer": "The landlord agreed to renovate the kitchen before the tenant moved in."
+          "answer": "Before the tenant moved in, the landlord agreed to renovate the kitchen."
         },
         {
           "id": 3,
@@ -779,8 +779,8 @@
       "5": "property"
     },
     "ex4": {
-      "1": "She saved for five years to make a down payment on her first home.",
-      "2": "The landlord agreed to renovate the kitchen before the tenant moved in.",
+      "1": "For five years, she saved to make a down payment on her first home.",
+      "2": "Before the tenant moved in, the landlord agreed to renovate the kitchen.",
       "3": "Rising demand and limited supply have pushed property prices higher.",
       "4": "Many families move to the suburbs for more space and quieter surroundings.",
       "5": "He applied for a home loan to cover the cost of the flat."
