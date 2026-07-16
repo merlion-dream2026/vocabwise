@@ -682,9 +682,9 @@
         {
           "id": 5,
           "a": "The area lacks affordable housing.",
-          "b": "There is a housing shortage in the area.",
+          "b": "There is a shortage of affordable housing in the area.",
           "answer": "S",
-          "explanation": "Lacking affordable housing and having a housing shortage both describe a situation where there are not enough homes for people who need them. These sentences carry the same meaning."
+          "explanation": "Both sentences state that the supply of housing people can afford is insufficient."
         },
         {
           "id": 6,
@@ -696,9 +696,9 @@
         {
           "id": 7,
           "a": "The area has good public transport links.",
-          "b": "The area is well-connected.",
+          "b": "The area is well-connected by public transport.",
           "answer": "S",
-          "explanation": "Good public transport links and being well-connected both describe a place that is easy to travel to and from. These sentences carry the same meaning."
+          "explanation": "Good public transport links mean that public transport connects the area well."
         },
         {
           "id": 8,
@@ -710,9 +710,9 @@
         {
           "id": 9,
           "a": "Litter is a big problem in the town centre.",
-          "b": "The town centre is poorly maintained.",
+          "b": "The town centre has a serious litter problem.",
           "answer": "S",
-          "explanation": "A litter problem and poor maintenance both describe a neglected environment. These sentences describe the same underlying issue."
+          "explanation": "The sentences state the same problem using a different grammatical structure."
         },
         {
           "id": 10,

@@ -633,10 +633,10 @@
       "items": [
         {
           "id": 1,
-          "a": "She speaks two languages.",
+          "a": "She speaks exactly one language.",
           "b": "She is multilingual.",
           "answer": "D",
-          "explanation": "Speaking two languages means she knows exactly two. Multilingual typically means knowing several languages. These describe different levels of language ability."
+          "explanation": "A person who speaks exactly one language is monolingual. A multilingual person speaks more than one language."
         },
         {
           "id": 2,
@@ -676,9 +676,9 @@
         {
           "id": 7,
           "a": "They want to preserve the language.",
-          "b": "They want to promote the language.",
+          "b": "They want to protect the language from disappearing.",
           "answer": "S",
-          "explanation": "Preserve and promote both describe efforts to keep a language alive and in use. In this context, these sentences carry the same general meaning."
+          "explanation": "Preserving a language means protecting it so that it continues to exist."
         },
         {
           "id": 8,
@@ -689,10 +689,10 @@
         },
         {
           "id": 9,
-          "a": "She communicates well in English.",
-          "b": "She speaks well in English.",
+          "a": "She communicates orally very well in English.",
+          "b": "She speaks very well in English.",
           "answer": "S",
-          "explanation": "Communicate well and speak well both describe someone who uses English effectively. These sentences carry the same meaning."
+          "explanation": "Communicating orally in English and speaking English refer to the same spoken-language ability."
         },
         {
           "id": 10,

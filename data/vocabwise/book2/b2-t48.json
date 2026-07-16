@@ -644,10 +644,10 @@
       "items": [
         {
           "id": 1,
-          "a": "Exercise is good for your mental health.",
-          "b": "Exercise improves your mood.",
+          "a": "Exercise can improve your mood.",
+          "b": "Exercise helps you feel more positive.",
           "answer": "S",
-          "explanation": "Being good for mental health and improving mood are closely related — both describe positive psychological effects of exercise. These sentences carry the same meaning."
+          "explanation": "Improving mood and helping someone feel more positive describe the same mental-health benefit."
         },
         {
           "id": 2,
@@ -679,10 +679,10 @@
         },
         {
           "id": 6,
-          "a": "She takes care of her wellbeing.",
+          "a": "She maintains good health.",
           "b": "She stays healthy.",
           "answer": "S",
-          "explanation": "Taking care of wellbeing and staying healthy both describe actively maintaining good physical and mental condition. These sentences carry the same meaning."
+          "explanation": "Maintaining good health and staying healthy express the same continuing condition."
         },
         {
           "id": 7,
@@ -707,10 +707,10 @@
         },
         {
           "id": 10,
-          "a": "Good sleep quality is important for concentration.",
+          "a": "Getting enough sleep is important for concentration.",
           "b": "Getting enough sleep helps you focus better.",
           "answer": "S",
-          "explanation": "Good sleep quality and getting enough sleep both describe adequate, restorative rest. Concentration and focus better are the same cognitive benefit. These sentences carry the same meaning."
+          "explanation": "Concentration and the ability to focus refer to the same mental function, and both sentences identify sufficient sleep as helpful."
         }
       ]
     }

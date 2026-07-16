@@ -723,11 +723,11 @@
             "profit",
             "risk",
             "income",
-            "market"
+            "revenue"
           ],
           "answer": "risk",
-          "reason": "profit, income, and market are all neutral or positive business concepts — things you earn or operate within. 'risk' is negative — the danger of loss that every business faces.",
-          "reason_vi": "profit, income và market đều là khái niệm kinh doanh trung tính hoặc tích cực. 'risk' là tiêu cực — nguy cơ thua lỗ mà mọi doanh nghiệp phải đối mặt."
+          "reason": "profit, income, and revenue are financial inflows or earnings. 'risk' is the possibility of financial loss or failure.",
+          "reason_vi": "profit, income và revenue đều là dòng tiền vào hoặc thu nhập. 'risk' là khả năng xảy ra thua lỗ hoặc thất bại."
         },
         {
           "id": 9,

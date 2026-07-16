@@ -650,14 +650,14 @@
         {
           "id": 3,
           "words": [
-            "tournament",
+            "athlete",
             "sponsor",
             "champion",
             "fair play"
           ],
           "answer": "fair play",
-          "reason": "tournament, sponsor, and champion are all nouns in sport — an event, a financial backer, and a winner. 'fair play' is a value or principle — an idea about how sport should be conducted.",
-          "reason_vi": "tournament, sponsor và champion đều là danh từ trong thể thao — sự kiện, nhà tài trợ và người chiến thắng. 'fair play' là giá trị hoặc nguyên tắc — ý tưởng về cách thể thao nên được tiến hành."
+          "reason": "athlete, sponsor, and champion refer to people or organisations participating in or supporting sport. 'fair play' is an ethical principle.",
+          "reason_vi": "athlete, sponsor và champion chỉ người hoặc tổ chức tham gia hay hỗ trợ thể thao. 'fair play' là một nguyên tắc đạo đức."
         },
         {
           "id": 4,
@@ -676,12 +676,12 @@
           "words": [
             "tournament",
             "broadcast",
-            "sponsor",
+            "coverage",
             "lasting impact"
           ],
           "answer": "lasting impact",
-          "reason": "tournament, broadcast, and sponsor are all concrete things in the sport world — events, media, and money. 'lasting impact' is an abstract concept — a long-term effect on society or culture.",
-          "reason_vi": "tournament, broadcast và sponsor đều là thứ cụ thể trong thể thao — sự kiện, truyền thông và tiền bạc. 'lasting impact' là khái niệm trừu tượng — tác động lâu dài lên xã hội hoặc văn hóa."
+          "reason": "tournament, broadcast, and coverage are events or media activities occurring around a competition. 'lasting impact' is a long-term consequence.",
+          "reason_vi": "tournament, broadcast và coverage là các sự kiện hoặc hoạt động truyền thông diễn ra quanh một cuộc thi. 'lasting impact' là hậu quả lâu dài."
         },
         {
           "id": 6,

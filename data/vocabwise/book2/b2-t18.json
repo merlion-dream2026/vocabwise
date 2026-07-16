@@ -616,13 +616,13 @@
           "id": 1,
           "words": [
             "gene",
-            "vaccine",
+            "biopsy",
             "scan",
             "surgery"
           ],
           "answer": "gene",
-          "reason": "vaccine, scan, and surgery are all medical procedures or treatments used on a patient. 'gene' is a unit of biological material — it is the subject of research, not a medical action.",
-          "reason_vi": "vaccine, scan và surgery đều là thủ thuật hoặc điều trị y tế. 'gene' là đơn vị vật liệu sinh học — là đối tượng nghiên cứu, không phải hành động y tế."
+          "reason": "biopsy, scan, and surgery are medical procedures performed on a patient. 'gene' is a unit of hereditary biological information.",
+          "reason_vi": "biopsy, scan và surgery đều là các thủ thuật y tế được thực hiện trên bệnh nhân. 'gene' là đơn vị thông tin sinh học di truyền."
         },
         {
           "id": 2,
@@ -666,11 +666,11 @@
             "gene",
             "vaccine",
             "side effect",
-            "pharmacy"
+            "dose"
           ],
           "answer": "gene",
-          "reason": "vaccine, side effect, and pharmacy are all things experienced or found within a medical treatment context. 'gene' is a unit of DNA — the subject of genetic research, not a treatment concept.",
-          "reason_vi": "vaccine, side effect và pharmacy đều là thứ trải qua hoặc tìm thấy trong bối cảnh điều trị y tế. 'gene' là đơn vị DNA — đối tượng nghiên cứu di truyền, không phải khái niệm điều trị."
+          "reason": "vaccine, side effect, and dose are concepts directly related to administering medication or treatment. 'gene' is a unit of DNA.",
+          "reason_vi": "vaccine, side effect và dose đều là các khái niệm trực tiếp liên quan đến việc dùng thuốc hoặc điều trị. 'gene' là một đơn vị DNA."
         },
         {
           "id": 6,
@@ -690,11 +690,11 @@
             "diagnosis",
             "treatment",
             "advance",
-            "pharmacy"
+            "prescription"
           ],
           "answer": "advance",
-          "reason": "diagnosis, treatment, and pharmacy are all parts of a patient's direct medical journey. 'advance' is a general concept — progress in medicine that benefits future patients, not a step in current care.",
-          "reason_vi": "diagnosis, treatment và pharmacy đều là phần trong hành trình y tế trực tiếp của bệnh nhân. 'advance' là khái niệm chung — tiến bộ trong y học mang lại lợi ích cho bệnh nhân trong tương lai."
+          "reason": "diagnosis, treatment, and prescription are elements of an individual patient's medical care. 'advance' means broader progress in medical knowledge or technology.",
+          "reason_vi": "diagnosis, treatment và prescription đều là các yếu tố trong quá trình chăm sóc một bệnh nhân cụ thể. 'advance' chỉ tiến bộ rộng hơn trong kiến thức hoặc công nghệ y tế."
         },
         {
           "id": 8,
@@ -725,12 +725,12 @@
           "words": [
             "diagnosis",
             "treatment",
-            "study",
+            "cure",
             "advance"
           ],
           "answer": "diagnosis",
-          "reason": "treatment, study, and advance are all things that move medicine forward — curing patients, building knowledge, or making progress. 'diagnosis' is the identification of what is wrong — it precedes treatment but does not itself improve or solve anything.",
-          "reason_vi": "treatment, study và advance đều là thứ thúc đẩy y học tiến lên — chữa bệnh nhân, xây dựng kiến thức hoặc tạo tiến bộ. 'diagnosis' là việc xác định vấn đề — đi trước điều trị nhưng bản thân không cải thiện hay giải quyết gì."
+          "reason": "treatment, cure, and advance all involve improvement in healthcare or a patient's condition. 'diagnosis' only identifies the illness.",
+          "reason_vi": "treatment, cure và advance đều liên quan đến sự cải thiện trong y tế hoặc tình trạng của bệnh nhân. 'diagnosis' chỉ xác định căn bệnh."
         }
       ]
     }

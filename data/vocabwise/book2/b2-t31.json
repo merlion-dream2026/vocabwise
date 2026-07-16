@@ -643,23 +643,23 @@
             "sculpture",
             "medium",
             "technique",
-            "modern art"
+            "approach"
           ],
           "answer": "sculpture",
-          "reason": "medium, technique, and modern art are all concepts describing how or what type of art is made. 'sculpture' is a specific art form — a three-dimensional work of art, not a method or concept.",
-          "reason_vi": "medium, technique và modern art đều là khái niệm mô tả cách hoặc loại nghệ thuật được tạo ra. 'sculpture' là hình thức nghệ thuật cụ thể — tác phẩm ba chiều, không phải phương pháp hay khái niệm."
+          "reason": "medium, technique, and approach describe how an artist creates a work. 'sculpture' is a specific three-dimensional art form.",
+          "reason_vi": "medium, technique và approach mô tả cách nghệ sĩ tạo ra tác phẩm. 'sculpture' là một loại hình nghệ thuật ba chiều cụ thể."
         },
         {
           "id": 3,
           "words": [
             "display",
             "show",
-            "exhibit",
+            "present",
             "design"
           ],
           "answer": "design",
-          "reason": "display, show, and exhibit are all verbs meaning to present art or objects for others to see. 'design' is different — it refers to the planning or visual style of something, not the act of showing it.",
-          "reason_vi": "display, show và exhibit đều là động từ có nghĩa trình bày nghệ thuật hoặc đồ vật cho người khác xem. 'design' khác — đề cập đến việc lên kế hoạch hoặc phong cách hình ảnh, không phải hành động trình bày."
+          "reason": "display, show, and present mean to place something where an audience can see it. 'design' means to plan or create how something will look or work.",
+          "reason_vi": "display, show và present đều có nghĩa đưa thứ gì ra để khán giả nhìn thấy. 'design' có nghĩa lập kế hoạch hoặc tạo ra hình thức hay cách hoạt động của thứ đó."
         },
         {
           "id": 4,
@@ -677,13 +677,13 @@
           "id": 5,
           "words": [
             "sculpture",
-            "non-realistic",
+            "abstract style",
             "modern art",
             "style"
           ],
           "answer": "sculpture",
-          "reason": "non-realistic, modern art, and style are all descriptive concepts — ways of categorising or describing how art looks or feels. 'sculpture' is a specific medium — a type of three-dimensional art, not a style label.",
-          "reason_vi": "non-realistic, modern art và style đều là khái niệm mô tả — cách phân loại hoặc mô tả cảm quan của nghệ thuật. 'sculpture' là phương tiện cụ thể — loại nghệ thuật ba chiều, không phải nhãn phong cách."
+          "reason": "abstract style, modern art, and style are concepts used to classify or describe artistic appearance. 'sculpture' is a physical art form or medium.",
+          "reason_vi": "abstract style, modern art và style là các khái niệm dùng để phân loại hoặc mô tả diện mạo nghệ thuật. 'sculpture' là một loại hình hoặc phương tiện nghệ thuật vật lý."
         },
         {
           "id": 6,
@@ -713,13 +713,13 @@
           "id": 8,
           "words": [
             "inspire",
-            "design",
+            "abstract",
             "creative",
             "non-realistic"
           ],
           "answer": "inspire",
-          "reason": "design, creative, and non-realistic are all adjectives or concepts describing the nature or style of art. 'inspire' is a verb — the action of stirring someone's imagination or emotions.",
-          "reason_vi": "design, creative và non-realistic đều là tính từ hoặc khái niệm mô tả bản chất hoặc phong cách nghệ thuật. 'inspire' là động từ — hành động khơi dậy trí tưởng tượng hoặc cảm xúc."
+          "reason": "abstract, creative, and non-realistic are adjectives that can describe art. 'inspire' is a verb describing the effect art has on someone.",
+          "reason_vi": "abstract, creative và non-realistic đều là tính từ có thể mô tả nghệ thuật. 'inspire' là động từ mô tả tác động của nghệ thuật lên con người."
         },
         {
           "id": 9,

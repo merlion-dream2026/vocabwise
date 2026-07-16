@@ -631,12 +631,12 @@
           "words": [
             "campaign",
             "protest",
-            "inclusion",
+            "demonstration",
             "barrier"
           ],
           "answer": "barrier",
-          "reason": "campaign, protest, and inclusion are all positive forces — things people do or strive for to create equality. 'barrier' is an obstacle — something that prevents equality from happening.",
-          "reason_vi": "campaign, protest và inclusion đều là lực lượng tích cực — thứ mọi người làm để tạo ra bình đẳng. 'barrier' là chướng ngại vật — thứ ngăn cản bình đẳng xảy ra."
+          "reason": "campaign, protest, and demonstration are forms of collective action used to demand change. 'barrier' is an obstacle that prevents progress.",
+          "reason_vi": "campaign, protest và demonstration đều là các hình thức hành động tập thể nhằm yêu cầu thay đổi. 'barrier' là trở ngại ngăn cản tiến bộ."
         },
         {
           "id": 4,
@@ -691,12 +691,12 @@
           "words": [
             "background",
             "gender",
-            "rights",
+            "ethnicity",
             "protest"
           ],
           "answer": "protest",
-          "reason": "background, gender, and rights are nouns — characteristics or principles that describe a person's identity or status. 'protest' is a verb — an active, public action taken to demand change.",
-          "reason_vi": "background, gender và rights đều là danh từ — đặc điểm hoặc nguyên tắc mô tả danh tính hoặc địa vị. 'protest' là động từ — hành động công khai chủ động để yêu cầu thay đổi."
+          "reason": "background, gender, and ethnicity are characteristics connected with a person's identity. 'protest' is an action taken to express opposition.",
+          "reason_vi": "background, gender và ethnicity đều là những đặc điểm liên quan đến danh tính của một người. 'protest' là hành động thể hiện sự phản đối."
         },
         {
           "id": 9,

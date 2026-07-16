@@ -604,14 +604,14 @@
         {
           "id": 1,
           "words": [
-            "democracy",
+            "ballot",
             "election",
             "vote",
             "candidate"
           ],
           "answer": "candidate",
-          "reason": "democracy, election, and vote are all concepts or processes in a political system. 'candidate' is a person — someone who stands to be elected, not a process.",
-          "reason_vi": "democracy, election và vote đều là khái niệm hoặc quy trình trong hệ thống chính trị. 'candidate' là người — người đứng ra để được bầu, không phải quy trình."
+          "reason": "ballot, election, and vote are elements or processes used to choose a representative. 'candidate' is the person seeking election.",
+          "reason_vi": "ballot, election và vote đều là các yếu tố hoặc quá trình dùng để lựa chọn người đại diện. 'candidate' là người ra tranh cử."
         },
         {
           "id": 2,
@@ -630,12 +630,12 @@
           "words": [
             "parliament",
             "authority",
-            "lawmaker",
+            "government",
             "debate"
           ],
           "answer": "debate",
-          "reason": "parliament, authority, and lawmaker are all institutions or people involved in making decisions. 'debate' is a process — a formal discussion of ideas and arguments.",
-          "reason_vi": "parliament, authority và lawmaker đều là tổ chức hoặc người tham gia ra quyết định. 'debate' là quá trình — thảo luận chính thức về ý kiến và lập luận."
+          "reason": "parliament, authority, and government refer to governing bodies or institutional power. 'debate' is a process of discussing opposing views.",
+          "reason_vi": "parliament, authority và government chỉ các cơ quan quản lý hoặc quyền lực thể chế. 'debate' là quá trình thảo luận các quan điểm đối lập."
         },
         {
           "id": 4,

@@ -662,9 +662,9 @@
         {
           "id": 6,
           "a": "The message is very persuasive.",
-          "b": "The message is very effective.",
+          "b": "The message is very convincing.",
           "answer": "S",
-          "explanation": "A persuasive message and an effective message both describe something that successfully achieves its goal of influencing the audience. In context, these sentences carry the same meaning."
+          "explanation": "Persuasive and convincing both describe a message that successfully leads people to accept an idea."
         },
         {
           "id": 7,
@@ -676,9 +676,9 @@
         {
           "id": 8,
           "a": "The product targets a specific audience.",
-          "b": "The product appeals to a specific audience.",
+          "b": "The product is aimed at a specific audience.",
           "answer": "S",
-          "explanation": "Target and appeal to both describe directing a product or message toward a particular group. In this context, these sentences carry the same meaning."
+          "explanation": "Targets and is aimed at both identify the particular audience for whom the product is intended."
         },
         {
           "id": 9,

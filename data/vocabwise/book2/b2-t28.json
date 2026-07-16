@@ -635,10 +635,10 @@
         },
         {
           "id": 3,
-          "a": "The town has a good tourism experience.",
-          "b": "The town welcomes many visitors.",
+          "a": "The town gives visitors a warm welcome.",
+          "b": "The town welcomes visitors warmly.",
           "answer": "S",
-          "explanation": "A good tourism experience and welcoming many visitors both describe a place that successfully engages tourists. In context, these sentences carry the same meaning."
+          "explanation": "Giving visitors a warm welcome and welcoming them warmly express the same hospitable behaviour."
         },
         {
           "id": 4,
@@ -663,17 +663,17 @@
         },
         {
           "id": 7,
-          "a": "The resort has reached its capacity.",
-          "b": "The resort is fully booked.",
+          "a": "All the resort's rooms have reached booking capacity.",
+          "b": "Every room at the resort is fully booked.",
           "answer": "S",
-          "explanation": "Reaching capacity and being fully booked both mean the resort cannot accept more guests. These sentences carry the same practical meaning."
+          "explanation": "Both sentences state that no rooms remain available for booking."
         },
         {
           "id": 8,
-          "a": "The tourism industry supports the local economy.",
-          "b": "The hospitality industry supports the local economy.",
+          "a": "The hospitality industry supports the local economy.",
+          "b": "Hotels and restaurants support the local economy.",
           "answer": "S",
-          "explanation": "Tourism and hospitality are closely related industries — both involve serving visitors. In this context, the sentences carry the same broad meaning."
+          "explanation": "Hotels and restaurants are the core businesses of the hospitality industry, so the sentences refer to the same sector."
         },
         {
           "id": 9,

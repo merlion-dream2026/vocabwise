@@ -656,9 +656,9 @@
         {
           "id": 1,
           "a": "She made a strong argument.",
-          "b": "She made a convincing point.",
+          "b": "She presented a convincing argument.",
           "answer": "S",
-          "explanation": "A strong argument and a convincing point both describe reasoning that persuades others. These sentences carry the same meaning."
+          "explanation": "A strong argument and a convincing argument both describe reasoning that effectively supports a position."
         },
         {
           "id": 2,
@@ -718,10 +718,10 @@
         },
         {
           "id": 10,
-          "a": "They came to an agreement after the discussion.",
-          "b": "They reached a compromise after the discussion.",
+          "a": "They reached a compromise after the discussion.",
+          "b": "They came to a compromise after the discussion.",
           "answer": "S",
-          "explanation": "Coming to an agreement and reaching a compromise both describe a situation where two parties find a shared position or solution. These sentences carry the same meaning."
+          "explanation": "Reached a compromise and came to a compromise are equivalent expressions."
         }
       ]
     }

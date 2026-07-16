@@ -659,16 +659,16 @@
         {
           "id": 4,
           "a": "Peer pressure can lead to poor decisions.",
-          "b": "Friends can influence your choices.",
+          "b": "Pressure from friends can lead to poor choices.",
           "answer": "S",
-          "explanation": "Peer pressure and influence from friends both describe how social relationships shape decisions. In this general sense, these sentences carry the same meaning."
+          "explanation": "Peer pressure means pressure from people of the same social group, such as friends; decisions and choices are equivalent here."
         },
         {
           "id": 5,
           "a": "She is under a lot of academic pressure.",
-          "b": "She is struggling to cope with schoolwork.",
+          "b": "She feels severe stress from her schoolwork.",
           "answer": "S",
-          "explanation": "Being under academic pressure and struggling to cope with schoolwork both describe a student who finds the demands of study difficult. These sentences carry the same meaning."
+          "explanation": "Academic pressure and severe stress from schoolwork describe the same difficulty."
         },
         {
           "id": 6,
@@ -679,17 +679,17 @@
         },
         {
           "id": 7,
-          "a": "He felt isolated from his peers.",
-          "b": "He had no friends at school.",
+          "a": "He was socially isolated and had no friends at school.",
+          "b": "He had no friends at school and was socially isolated.",
           "answer": "S",
-          "explanation": "Feeling isolated from peers and having no friends both describe social exclusion at school. In this context, these sentences carry the same meaning."
+          "explanation": "The sentences state the same two facts in a different order."
         },
         {
           "id": 8,
           "a": "The pressure to succeed is common among students.",
-          "b": "The fear of failure is common among students.",
+          "b": "Students commonly feel pressure to achieve success.",
           "answer": "S",
-          "explanation": "The pressure to succeed and the fear of failure are two sides of the same coin — both describe the anxiety that comes from high expectations. These sentences carry the same meaning."
+          "explanation": "Pressure to succeed and pressure to achieve success are equivalent."
         },
         {
           "id": 9,

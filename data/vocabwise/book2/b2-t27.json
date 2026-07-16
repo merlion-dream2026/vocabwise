@@ -698,12 +698,12 @@
           "words": [
             "landlord",
             "tenant",
-            "property",
+            "lease",
             "suburb"
           ],
           "answer": "suburb",
-          "reason": "landlord, tenant, and property are all directly involved in a rental relationship. 'suburb' is a location — a residential area outside the city centre, not a person or legal item.",
-          "reason_vi": "landlord, tenant và property đều trực tiếp liên quan đến mối quan hệ cho thuê. 'suburb' là vị trí — khu dân cư ngoài trung tâm thành phố, không phải người hay vật pháp lý."
+          "reason": "landlord, tenant, and lease are all parts of a rental relationship. 'suburb' is a geographical area.",
+          "reason_vi": "landlord, tenant và lease đều là các thành phần của quan hệ thuê nhà. 'suburb' là một khu vực địa lý."
         },
         {
           "id": 7,
@@ -733,13 +733,13 @@
           "id": 9,
           "words": [
             "landlord",
-            "tenant",
+            "district",
             "suburb",
             "area"
           ],
           "answer": "landlord",
-          "reason": "tenant, suburb, and area are all neutral terms — a person who rents, or locations. 'landlord' is the person who owns and rents out property — their role defines the rental relationship.",
-          "reason_vi": "tenant, suburb và area đều là thuật ngữ trung tính — người thuê hoặc vị trí. 'landlord' là người sở hữu và cho thuê bất động sản — vai trò của họ xác định mối quan hệ cho thuê."
+          "reason": "district, suburb, and area are geographical locations. 'landlord' is a person who owns and rents out property.",
+          "reason_vi": "district, suburb và area đều là các địa điểm địa lý. 'landlord' là người sở hữu và cho thuê bất động sản."
         },
         {
           "id": 10,

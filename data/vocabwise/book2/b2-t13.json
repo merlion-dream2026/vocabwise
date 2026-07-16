@@ -652,12 +652,12 @@
           "words": [
             "habitat",
             "reserve",
-            "species",
+            "sanctuary",
             "hunter"
           ],
           "answer": "hunter",
-          "reason": "habitat, reserve, and species are all nouns related to the natural world and conservation. 'hunter' is a person — a human whose actions can threaten wildlife.",
-          "reason_vi": "habitat, reserve và species đều là danh từ liên quan đến thế giới tự nhiên và bảo tồn. 'hunter' là người — con người có hành động có thể đe dọa động vật hoang dã."
+          "reason": "habitat, reserve, and sanctuary are places where wildlife lives or is protected. 'hunter' is a person who pursues animals.",
+          "reason_vi": "habitat, reserve và sanctuary đều là nơi động vật hoang dã sinh sống hoặc được bảo vệ. 'hunter' là người săn đuổi động vật."
         },
         {
           "id": 6,

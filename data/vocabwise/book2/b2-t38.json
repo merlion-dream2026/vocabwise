@@ -627,9 +627,9 @@
         {
           "id": 1,
           "a": "The brand promotes sustainable fashion.",
-          "b": "The brand promotes ethical fashion.",
+          "b": "The brand promotes environmentally sustainable fashion.",
           "answer": "S",
-          "explanation": "Sustainable and ethical are closely related in fashion — both describe clothing that is produced responsibly, with care for people and the planet. In this context, these sentences carry the same meaning."
+          "explanation": "Both sentences state that the brand supports fashion designed to reduce long-term environmental harm."
         },
         {
           "id": 2,
@@ -648,9 +648,9 @@
         {
           "id": 4,
           "a": "Fashion is a way to express your identity.",
-          "b": "Fashion is a way to make a statement.",
+          "b": "Fashion is a way to communicate your identity.",
           "answer": "S",
-          "explanation": "Expressing your identity and making a statement both describe using fashion to communicate who you are or what you believe. These sentences carry the same meaning."
+          "explanation": "Expressing and communicating identity through fashion convey the same idea."
         },
         {
           "id": 5,
@@ -669,16 +669,16 @@
         {
           "id": 7,
           "a": "The industry needs to recycle more materials.",
-          "b": "The industry needs to use more sustainable materials.",
+          "b": "The industry needs to use more recycled materials.",
           "answer": "S",
-          "explanation": "Recycling and using sustainable materials are both environmentally responsible practices in fashion. In this context, both sentences call for more eco-friendly production."
+          "explanation": "Recycling more materials results in using more materials that have been recycled; both sentences call for the same practice."
         },
         {
           "id": 8,
           "a": "His fashion choices reflect his cultural background.",
-          "b": "His fashion choices reflect his identity.",
+          "b": "His fashion choices reflect his cultural identity.",
           "answer": "S",
-          "explanation": "Cultural background and identity are closely connected — your background shapes your identity. In this context, both sentences say the same thing about fashion as self-expression."
+          "explanation": "Cultural background and cultural identity both refer here to the traditions and culture with which he identifies."
         },
         {
           "id": 9,

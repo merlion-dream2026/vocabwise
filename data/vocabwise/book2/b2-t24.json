@@ -646,12 +646,12 @@
           "words": [
             "account",
             "balance",
-            "credit card",
+            "statement",
             "fee"
           ],
           "answer": "fee",
-          "reason": "account, balance, and credit card are all things you have or manage in banking. 'fee' is a charge — money you pay for a service, not something you own or hold.",
-          "reason_vi": "account, balance và credit card đều là thứ bạn có hoặc quản lý trong ngân hàng. 'fee' là khoản phí — tiền bạn trả cho dịch vụ, không phải thứ bạn sở hữu."
+          "reason": "account, balance, and statement describe or record the money held in a bank account. 'fee' is a charge paid for a service.",
+          "reason_vi": "account, balance và statement mô tả hoặc ghi lại số tiền trong tài khoản ngân hàng. 'fee' là khoản phí trả cho một dịch vụ."
         },
         {
           "id": 3,

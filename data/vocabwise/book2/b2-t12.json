@@ -612,16 +612,16 @@
         {
           "id": 1,
           "a": "They use solar energy.",
-          "b": "They use renewable energy.",
+          "b": "They use energy from the sun.",
           "answer": "S",
-          "explanation": "Solar energy is a type of renewable energy. In this broad context, both sentences describe using energy that comes from natural, sustainable sources."
+          "explanation": "Solar energy literally means energy obtained from the sun. The sentences are equivalent."
         },
         {
           "id": 2,
           "a": "The new device is very efficient.",
-          "b": "The new device is very smart.",
+          "b": "The new device works with very little wasted time or energy.",
           "answer": "S",
-          "explanation": "Efficient and smart both describe something that works well without wasting resources. In everyday use, these sentences carry the same positive meaning."
+          "explanation": "Efficient means operating effectively while wasting little time or energy."
         },
         {
           "id": 3,
@@ -639,10 +639,10 @@
         },
         {
           "id": 5,
-          "a": "We need to find an alternative source.",
-          "b": "We need to find a clean source.",
+          "a": "We need to find an alternative clean source.",
+          "b": "We need to find another clean source.",
           "answer": "S",
-          "explanation": "Alternative and clean both describe an energy source that is different from fossil fuels. In this context, the sentences suggest the same type of solution."
+          "explanation": "Alternative and another both refer to a different clean source that could be used instead."
         },
         {
           "id": 6,
@@ -661,9 +661,9 @@
         {
           "id": 8,
           "a": "The government will fund the project.",
-          "b": "The government will support the project.",
+          "b": "The government will provide funding for the project.",
           "answer": "S",
-          "explanation": "Fund and support both mean to give resources or backing to something. In this context, both sentences say the government will help the project go ahead."
+          "explanation": "To fund a project means to provide money or funding for it."
         },
         {
           "id": 9,

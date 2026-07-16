@@ -608,9 +608,9 @@
         {
           "id": 1,
           "a": "She is a very skilled worker.",
-          "b": "She is a very professional worker.",
+          "b": "She is a very highly trained and capable worker.",
           "answer": "S",
-          "explanation": "Skilled and professional both describe someone who does their job well and to a high standard. In this context, the two sentences carry the same basic meaning."
+          "explanation": "Skilled and highly trained and capable both describe a worker who has the ability needed to perform the job well."
         },
         {
           "id": 2,
@@ -635,10 +635,10 @@
         },
         {
           "id": 5,
-          "a": "The workplace has changed a great deal.",
-          "b": "The work environment has changed a great deal.",
+          "a": "The work environment has changed a great deal.",
+          "b": "The working environment has changed a great deal.",
           "answer": "S",
-          "explanation": "Workplace and work environment both refer to the physical and social conditions where someone works. In this context, these sentences say the same thing."
+          "explanation": "Work environment and working environment are equivalent expressions for the conditions in which people work."
         },
         {
           "id": 6,

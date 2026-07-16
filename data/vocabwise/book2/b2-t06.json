@@ -607,16 +607,16 @@
         {
           "id": 1,
           "a": "This place is considered sacred.",
-          "b": "This place is considered spiritual.",
+          "b": "This place is considered holy.",
           "answer": "S",
-          "explanation": "Sacred and spiritual both describe something connected to religion or deep belief. In this context, the two sentences carry the same meaning."
+          "explanation": "Sacred and holy both mean regarded as connected with religion and deserving special reverence."
         },
         {
           "id": 2,
           "a": "They perform a ritual every year.",
-          "b": "They follow a custom every year.",
+          "b": "They perform a traditional ceremony every year.",
           "answer": "S",
-          "explanation": "A ritual and a custom are both traditional practices that are repeated regularly. In everyday use, these sentences describe the same kind of behaviour."
+          "explanation": "A ritual and a traditional ceremony both refer to the same formal repeated observance."
         },
         {
           "id": 3,
@@ -635,9 +635,9 @@
         {
           "id": 5,
           "a": "They worship at the temple every week.",
-          "b": "They practise their religion at the temple every week.",
+          "b": "They practise their religion by worshipping at the temple every week.",
           "answer": "S",
-          "explanation": "Worship and practise (a religion) both describe the act of observing religious duties. These sentences express the same activity."
+          "explanation": "Both sentences state that their weekly religious practice at the temple is worship."
         },
         {
           "id": 6,
@@ -663,16 +663,16 @@
         {
           "id": 9,
           "a": "The religion spread quickly across the region.",
-          "b": "The religion grew quickly across the region.",
+          "b": "The religion expanded quickly across the region.",
           "answer": "S",
-          "explanation": "Spread and grow both describe an increase in reach or number. In this context, both sentences say the religion reached more people over time."
+          "explanation": "Spread and expanded across the region both describe the religion reaching a wider geographical area."
         },
         {
           "id": 10,
           "a": "Their customs have been preserved for centuries.",
-          "b": "Their heritage has been preserved for centuries.",
+          "b": "Their traditional practices have been preserved for centuries.",
           "answer": "S",
-          "explanation": "Customs and heritage both refer to traditions passed down over generations. In this context, the two sentences carry the same meaning about long-term preservation."
+          "explanation": "Customs and traditional practices refer to the same established ways of behaving passed down over time."
         }
       ]
     }

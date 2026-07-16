@@ -601,16 +601,16 @@
         {
           "id": 1,
           "a": "The population is increasing rapidly.",
-          "b": "The area is becoming more crowded.",
+          "b": "The number of people living in the area is increasing rapidly.",
           "answer": "S",
-          "explanation": "A rapidly increasing population and a place becoming more crowded both describe the same situation — more people are living in the same space."
+          "explanation": "Population means the number of people living in an area. Both sentences describe that number rising quickly."
         },
         {
           "id": 2,
           "a": "She prefers rural living.",
-          "b": "She prefers peaceful living.",
+          "b": "She prefers life in the countryside.",
           "answer": "S",
-          "explanation": "Rural and peaceful are often used together to describe the calm, quiet lifestyle of the countryside. In this context, the sentences carry the same meaning."
+          "explanation": "Rural living and life in the countryside describe the same type of place and lifestyle."
         },
         {
           "id": 3,

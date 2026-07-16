@@ -644,9 +644,9 @@
         {
           "id": 3,
           "a": "She decided to invest her money.",
-          "b": "She decided to save up her money.",
+          "b": "She decided to put her money into investments.",
           "answer": "S",
-          "explanation": "Invest and save up both describe putting money aside to grow or use in the future. In everyday use, these sentences carry the same general meaning."
+          "explanation": "To invest money means to put it into investments with the aim of earning a return."
         },
         {
           "id": 4,
@@ -678,10 +678,10 @@
         },
         {
           "id": 8,
-          "a": "His credit score is excellent.",
-          "b": "His financial record is excellent.",
+          "a": "His credit history is excellent.",
+          "b": "His record of borrowing and repayment is excellent.",
           "answer": "S",
-          "explanation": "A credit score and a financial record both describe how reliably someone manages their money. In this context, these sentences carry the same general meaning."
+          "explanation": "Credit history is the record of a person's borrowing and repayment behaviour."
         },
         {
           "id": 9,

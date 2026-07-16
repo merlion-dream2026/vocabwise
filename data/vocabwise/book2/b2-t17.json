@@ -615,16 +615,16 @@
         {
           "id": 1,
           "a": "You should upgrade the software.",
-          "b": "You should update the software.",
+          "b": "You should install a newer and more capable version of the software.",
           "answer": "S",
-          "explanation": "Upgrade and update are often used interchangeably for software. Both mean improving it to a newer or better version. In this context, the sentences carry the same meaning."
+          "explanation": "Upgrading software means replacing it with a newer version that offers improved capabilities."
         },
         {
           "id": 2,
           "a": "This device is very smart.",
-          "b": "This device is very efficient.",
+          "b": "This device uses intelligent technology.",
           "answer": "S",
-          "explanation": "Smart and efficient both describe a device that works well and saves effort or resources. In everyday use, these sentences give the same positive description."
+          "explanation": "A smart device is one that uses intelligent technology to perform advanced functions."
         },
         {
           "id": 3,
@@ -642,10 +642,10 @@
         },
         {
           "id": 5,
-          "a": "The device is very efficient.",
+          "a": "The device is very time-efficient.",
           "b": "The device saves a lot of time.",
           "answer": "S",
-          "explanation": "An efficient device and one that saves time both describe the same quality — doing things faster or with less effort. The sentences express the same idea."
+          "explanation": "Time-efficient means completing tasks while using less time, so both sentences express the same benefit."
         },
         {
           "id": 6,
@@ -657,23 +657,23 @@
         {
           "id": 7,
           "a": "The software needs a security update.",
-          "b": "The software needs a security upgrade.",
+          "b": "The software needs a security patch.",
           "answer": "S",
-          "explanation": "In the context of fixing security issues, update and upgrade are used interchangeably. Both sentences say the software needs to be improved for security reasons."
+          "explanation": "A security patch is a type of software update designed to fix security weaknesses."
         },
         {
           "id": 8,
           "a": "This device is designed for the user.",
-          "b": "This device is designed for the customer.",
+          "b": "This device is designed for the person who uses it.",
           "answer": "S",
-          "explanation": "User and customer both refer to the person using or buying a product. In this context, the sentences carry the same meaning."
+          "explanation": "The user is the person who uses the device, so the sentences are equivalent."
         },
         {
           "id": 9,
-          "a": "Download the app to use this feature.",
-          "b": "Install the app to use this feature.",
+          "a": "Download and install the app to use this feature.",
+          "b": "Install the app after downloading it to use this feature.",
           "answer": "S",
-          "explanation": "In everyday speech, download and install are often used together to describe getting an app onto a device. In this context, both sentences give the same instruction."
+          "explanation": "Both instructions require the same two steps—downloading and installing the app—before the feature can be used."
         },
         {
           "id": 10,

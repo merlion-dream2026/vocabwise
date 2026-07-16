@@ -631,9 +631,9 @@
         {
           "id": 2,
           "a": "The book became a bestseller.",
-          "b": "The book became very popular.",
+          "b": "The book sold enough copies to become a bestseller.",
           "answer": "S",
-          "explanation": "A bestseller is a book that sells in very large numbers — it is, by definition, very popular. These sentences express the same idea."
+          "explanation": "Both sentences state that the book achieved bestseller status through very high sales."
         },
         {
           "id": 3,
@@ -665,10 +665,10 @@
         },
         {
           "id": 7,
-          "a": "The character changed a lot throughout the story.",
-          "b": "The character developed throughout the story.",
+          "a": "The character underwent substantial development throughout the story.",
+          "b": "The character developed substantially throughout the story.",
           "answer": "S",
-          "explanation": "Changed and developed both describe a character who is different by the end of the story from how they began. In this literary context, these sentences carry the same meaning."
+          "explanation": "Underwent substantial development and developed substantially describe the same change in the character."
         },
         {
           "id": 8,

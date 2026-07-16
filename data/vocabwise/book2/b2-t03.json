@@ -625,14 +625,14 @@
         {
           "id": 3,
           "words": [
-            "chronic",
+            "illness",
             "disorder",
             "condition",
             "recovery"
           ],
           "answer": "recovery",
-          "reason": "chronic, disorder, and condition all describe negative or ongoing health states. 'recovery' is a positive outcome — the process of getting better.",
-          "reason_vi": "chronic, disorder và condition đều mô tả trạng thái sức khỏe tiêu cực hoặc kéo dài. 'recovery' là kết quả tích cực — quá trình hồi phục."
+          "reason": "illness, disorder, and condition describe health problems. 'recovery' is the process of becoming well again.",
+          "reason_vi": "illness, disorder và condition đều mô tả các vấn đề sức khỏe. 'recovery' là quá trình khỏe lại."
         },
         {
           "id": 4,
@@ -663,12 +663,12 @@
           "words": [
             "specialist",
             "patient",
-            "clinic",
+            "doctor",
             "prescription"
           ],
           "answer": "prescription",
-          "reason": "specialist, patient, and clinic are people or places involved in healthcare. 'prescription' is a written document from a doctor — not a person or place.",
-          "reason_vi": "specialist, patient và clinic đều là người hoặc nơi chốn trong y tế. 'prescription' là tài liệu viết từ bác sĩ — không phải người hay nơi."
+          "reason": "specialist, patient, and doctor are people involved in healthcare. 'prescription' is a written medical instruction or document.",
+          "reason_vi": "specialist, patient và doctor đều là những người tham gia vào chăm sóc sức khỏe. 'prescription' là một chỉ dẫn hoặc tài liệu y tế bằng văn bản."
         },
         {
           "id": 7,

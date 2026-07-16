@@ -742,12 +742,12 @@
           "words": [
             "adapt",
             "blend in",
-            "diverse",
+            "fit in",
             "identity"
           ],
           "answer": "identity",
-          "reason": "adapt, blend in, and diverse are all process or description words — things that happen when adjusting to life abroad. 'identity' is a core concept — who a person is — not specifically about the process of living abroad.",
-          "reason_vi": "adapt, blend in và diverse đều là từ mô tả quá trình — thứ xảy ra khi thích nghi với cuộc sống ở nước ngoài. 'identity' là khái niệm cốt lõi — con người là ai — không đặc biệt về quá trình sống ở nước ngoài."
+          "reason": "adapt, blend in, and fit in describe the process of adjusting to a new society. 'identity' refers to a person's sense of who they are.",
+          "reason_vi": "adapt, blend in và fit in mô tả quá trình thích nghi với một xã hội mới. 'identity' chỉ cảm nhận của một người về bản thân."
         }
       ]
     }

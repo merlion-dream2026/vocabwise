@@ -650,12 +650,12 @@
           "words": [
             "genre",
             "documentary",
-            "new version",
+            "comedy",
             "production"
           ],
           "answer": "production",
-          "reason": "genre, documentary, and new version are all types or categories of film content. 'production' is the process of making a film — the set of activities behind the scenes.",
-          "reason_vi": "genre, documentary và new version đều là loại hoặc danh mục nội dung phim. 'production' là quá trình làm phim — tập hợp hoạt động hậu trường."
+          "reason": "genre, documentary, and comedy classify films by type. 'production' is the process of making a film.",
+          "reason_vi": "genre, documentary và comedy phân loại phim theo thể loại. 'production' là quá trình làm phim."
         },
         {
           "id": 4,

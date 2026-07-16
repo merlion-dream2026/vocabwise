@@ -683,12 +683,12 @@
           "words": [
             "bias",
             "headline",
-            "source",
+            "persuasion",
             "influence"
           ],
           "answer": "headline",
-          "reason": "bias, source, and influence are all abstract concepts affecting the credibility of journalism. 'headline' is a concrete text element — the title at the top of a news article.",
-          "reason_vi": "bias, source và influence đều là khái niệm trừu tượng ảnh hưởng đến độ tin cậy của báo chí. 'headline' là yếu tố văn bản cụ thể — tiêu đề ở đầu bài báo."
+          "reason": "bias, influence, and persuasion describe forces that shape people's opinions. 'headline' is a specific piece of text at the top of a news story.",
+          "reason_vi": "bias, influence và persuasion mô tả các lực tác động đến quan điểm của con người. 'headline' là một phần văn bản cụ thể ở đầu bản tin."
         },
         {
           "id": 7,
@@ -719,12 +719,12 @@
           "words": [
             "journalism",
             "platform",
-            "audience",
+            "news industry",
             "headline"
           ],
           "answer": "headline",
-          "reason": "journalism, platform, and audience are broad concepts in the media industry. 'headline' is a specific part of a single news article — not a broad concept.",
-          "reason_vi": "journalism, platform và audience đều là khái niệm rộng trong ngành truyền thông. 'headline' là phần cụ thể của một bài báo đơn lẻ — không phải khái niệm rộng."
+          "reason": "journalism, platform, and news industry are broad parts of the media system. 'headline' is one small textual element of an individual story.",
+          "reason_vi": "journalism, platform và news industry đều là các bộ phận rộng của hệ thống truyền thông. 'headline' là một thành phần văn bản nhỏ của một bản tin cụ thể."
         },
         {
           "id": 10,

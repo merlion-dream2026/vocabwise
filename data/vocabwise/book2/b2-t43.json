@@ -649,10 +649,10 @@
         },
         {
           "id": 4,
-          "a": "Equality means treating everyone the same.",
-          "b": "Equality means everyone has the same opportunities.",
+          "a": "Formal equality means applying exactly the same rule to everyone.",
+          "b": "Equal opportunity means removing barriers so everyone has a fair chance to succeed.",
           "answer": "D",
-          "explanation": "These are two different concepts. Treating everyone the same ignores individual differences. Having the same opportunities focuses on fair access. Equality of outcome vs. equality of opportunity are debated ideas."
+          "explanation": "Applying identical rules is formal equality, while removing unequal barriers is equality of opportunity. These are distinct approaches."
         },
         {
           "id": 5,
@@ -664,9 +664,9 @@
         {
           "id": 6,
           "a": "He fought for civil rights.",
-          "b": "He fought for basic human rights.",
+          "b": "He fought for legal equality and civil liberties.",
           "answer": "S",
-          "explanation": "Civil rights and basic human rights are closely related — both refer to fundamental rights such as equality and freedom. In general use, these sentences carry the same meaning."
+          "explanation": "Civil rights include legal equality and civil liberties, so both sentences describe the same cause."
         },
         {
           "id": 7,
@@ -678,9 +678,9 @@
         {
           "id": 8,
           "a": "She campaigned for women's rights.",
-          "b": "She protested against discrimination.",
+          "b": "She campaigned against discrimination against women.",
           "answer": "S",
-          "explanation": "Campaigning for women's rights and protesting against discrimination (against women) describe the same kind of activist action. These sentences carry the same meaning."
+          "explanation": "Campaigning against discrimination against women is a direct way of campaigning for women's rights."
         },
         {
           "id": 9,
