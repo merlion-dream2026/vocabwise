@@ -68,7 +68,8 @@
         "example_vi": "Mũi tên chỉ về hướng nhà ga.",
         "ff_example_en": "The tourist asked for directions to the station.",
         "ff_example_vi": "Khách du lịch hỏi đường đến nhà ga."
-      }
+      },
+      "explanation_vi": "Từ \"direction\" (noun) trong tiếng Anh nghĩa là hướng đi hoặc chỉ dẫn đường. Từ này thường được sử dụng trong các ngữ cảnh như:\n\n- Khi hỏi người khác hướng đến một địa điểm cụ thể: \"Bạn có thể chỉ cho tôi hướng đến bãi biển không?\"\n- Khi giải thích cách đến một nơi: \"Để đến trường, bạn hãy đi qua đường này, tiếp đó là ngã tư, và cuối cùng là đường chính.\"\n- Trong các bản đồ hoặc bản đồ điện tử: \"Bản đồ này sẽ chỉ cho bạn hướng đi đến điểm đến của bạn.\"\n\nTừ \"direction\" có thể phân biệt với từ đồng nghĩa như \"way\" (hướng) hoặc \"route\" (quy trình đi). Tuy nhiên, \"direction\" thường được sử dụng khi cần chỉ dẫn cụ thể về hướng đi hoặc vị trí.\n\nVí dụ mới dễ nhớ: Một người du khách hỏi người địa phương: \"Xin chào, bạn có thể cho tôi hướng đi đến nhà thờ Saint Patrick không?\" (Tôi muốn đi đến nhà thờ Saint Patrick, bạn có thể chỉ cho tôi hướng đi không?)"
     },
     {
       "id": 2,
@@ -92,7 +93,8 @@
         "example_vi": "Hãy rẽ trái khi bạn đến lối vào nhà ga.",
         "ff_example_en": "Lan left the station through the main entrance.",
         "ff_example_vi": "Lan rời nhà ga qua lối vào chính."
-      }
+      },
+      "explanation_vi": "**Left /lɛft/**  \n\n- **Tính từ**: chỉ vị trí “bên trái”, “trái” của một vật, một hướng.  \n- **Trạng từ**: diễn tả hành động “đi/đi về phía bên trái”.  \n- **Danh từ**: dùng để chỉ “bên trái” của một không gian, hoặc “phần còn lại” (ví dụ: the left of the page → phần trái của trang).  \n\n1. Khi nói về vị trí, “left” được dùng để phân"
     },
     {
       "id": 3,
@@ -116,7 +118,8 @@
         "example_vi": "Hãy viết tên của em ở phía bên phải của phiếu trả lời.",
         "ff_example_en": "The teacher said that every answer on the sheet was right.",
         "ff_example_vi": "Giáo viên nói rằng mọi câu trả lời trên phiếu đều đúng."
-      }
+      },
+      "explanation_vi": "**Giải thích từ “right” (adjective / adverb / noun)**  \n\n---\n\n### 1. T"
     },
     {
       "id": 4,
@@ -140,7 +143,8 @@
         "example_vi": "Hãy đi thẳng cho đến khi đến đèn giao thông.",
         "ff_example_en": "Go directly to the information desk when you arrive.",
         "ff_example_vi": "Hãy đi thẳng đến quầy thông tin ngay khi bạn tới nơi."
-      }
+      },
+      "explanation_vi": "Từ tiếng Anh \"straight\" có thể là một tính từ (adjective) hoặc một tính ngữ (adverb), nghĩa là \"thẳng\" hoặc \"đi thẳng\".\n\n- Là tính ngữ (adverb): chỉ hướng đi của một con đường, một tuyến đường.\n- Là tính từ (adjective): chỉ một vật thể thẳng, không cong hoặc không có hình dạng khác.\n\nVí dụ ngữ cảnh thường dùng:\n\n- \"The road is straight for five kilometers.\" (Con đường thẳng hàng năm kilômét)\n- \"Please go straight to the airport.\" (Xin đi thẳng đến sân bay)\n\nTừ đồng nghĩa với \"straight\" là \"direct\" hay \"straightforward\". Ví dụ: \"The direct road will take you to the city center.\"\n\nVí dụ mới dễ nhớ:\n\n- \"The pilot flew the plane straight to the emergency landing site to avoid the storm.\" (Phi công đã lái máy bay thẳng đến vị trí hạ cánh khẩn cấp để tránh cơn bão.)"
     },
     {
       "id": 5,
@@ -157,7 +161,8 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "**turn /tɜːn/** – *động từ / danh từ*  \n\n1. Khi dùng làm động từ, “turn” thường chỉ hành động thay đổi hướng đi hoặc quay vòng; trong ngữ cảnh giao thông, nó thường dùng để chỉ việc rẽ sang phía bên trái hoặc bên phải.  \n2. Từ đồng nghĩa “quay” thường nói về việc xoay tròn quanh một điểm cố định, còn “rẽ” nhấn mạnh việc thay đổi hướng sang một phía mới, không nhất thiết phải quay tròn.  \n3. Khi dùng làm danh từ, “turn” chỉ một góc rẽ, một điểm giao nhau hoặc một lần thực hiện hành động thay đổi hướng.  \n\n**Ví dụ mới**: Khi bạn đi bộ từ nhà đến trường, hãy rẽ trái ở ngã ba và tiếp tục đi khoảng ba trăm mét."
     },
     {
       "id": 6,
@@ -181,7 +186,8 @@
         "example_vi": "Hãy băng qua đường tại đèn giao thông.",
         "ff_example_en": "The bank is across the road from the station.",
         "ff_example_vi": "Ngân hàng nằm bên kia đường đối diện nhà ga."
-      }
+      },
+      "explanation_vi": "Từ \"cross\" (verb) trong tiếng Anh có nghĩa là băng qua, đi qua. Từ này thường được sử dụng trong các ngữ cảnh như sau:\n\n- Khi nói về việc đi qua đường giao thông: \"Tôi sẽ đi qua đường để đến trường.\"\n- Khi nói về việc băng qua một khu vực nguy hiểm: \"Cần cẩn thận khi băng qua khu vực này.\"\n- Khi nói về việc đi qua một khoảng cách hoặc một đối tượng: \"Tôi sẽ đi qua rừng để đến bờ biển.\"\n\nTừ \"cross\" khác với từ đồng nghĩa \"pass\" ở chỗ \"cross\" thường được sử dụng khi nói về việc đi qua một khu vực hoặc một đối tượng có thể gây nguy hiểm hoặc khó khăn. Ví dụ: \"Tôi sẽ đi qua rừng, nhưng không đi qua sông.\"\n\nVí dụ mới dễ nhớ: \"Bạn cần cross sông để đến đảo.\""
     },
     {
       "id": 7,
@@ -205,7 +211,8 @@
         "example_vi": "Bạn sẽ đi qua bảo tàng trên đường đến nhà ga.",
         "ff_example_en": "Walk past the museum and turn left.",
         "ff_example_vi": "Hãy đi ngang qua bảo tàng rồi rẽ trái."
-      }
+      },
+      "explanation_vi": "Từ \"pass\" (verb) trong tiếng Anh có nghĩa là đi qua, vượt qua.\n\nTừ này thường được sử dụng trong các ngữ cảnh sau:\n\n- Khi đi xe hoặc đi bộ, bạn đi qua một nơi: \"Tôi sẽ pass qua chợ trên đường phố chủ nhật này.\"\n- Khi vượt qua một chướng ngại vật hoặc một thử thách: \"Cô ấy đã pass qua kỳ thi khó khăn.\"\n- Khi chuyển qua một cấp độ hoặc một giai đoạn mới: \"Anh ấy sẽ pass qua giai đoạn học sinh và trở thành sinh viên.\"\n\nTừ \"pass\" có thể phân biệt với từ đồng nghĩa \"cross\" vì \"cross\" thường có nghĩa là đi qua một vật thể hoặc một đường ray, trong khi \"pass\" có nghĩa rộng hơn bao gồm cả việc đi qua một nơi hoặc vượt qua một thử thách.\n\nVí dụ mới dễ nhớ:\n\n- \"Tôi sẽ pass qua khu vườn để đến công viên.\""
     },
     {
       "id": 8,
@@ -222,7 +229,8 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ \"corner\" (noun) trong tiếng Anh có nghĩa là góc phố, góc đường.\n\n* Từ \"corner\" thường được sử dụng trong ngữ cảnh như sau: Khi bạn muốn chỉ địa điểm giao nhau giữa hai đường phố, bạn có thể sử dụng từ \"corner\".\n Ví dụ: \"Tôi sẽ gặp bạn tại góc phố giữa đường Tôn Đức Thắng và đường Đinh Tiên Hoàng.\"\n* Để phân biệt với từ đồng nghĩa, bạn có thể hiểu từ \"intersection\" (giao điểm) là nơi hai hoặc nhiều đường phố giao nhau, còn từ \"corner\" chỉ một góc cụ thể của giao điểm.\n Ví dụ: \"Giao lộ giữa đường Tôn Đức Thắng và đường Đinh Tiên Hoàng là một giao điểm quan trọng.\" (Địa điểm giao nhau giữa 2 đường phố)\n Ví dụ khác: \"Tôi sẽ gặp bạn tại góc đường phía tây của giao lộ.\" (Góc cụ thể của giao điểm)\n* Ví dụ mới dễ nhớ: \"Tôi sẽ gặp bạn tại góc phố bên cạnh quán cà phê yêu thích.\""
     },
     {
       "id": 9,
@@ -246,7 +254,8 @@
         "example_vi": "Quán cà phê nằm đối diện nhà ga.",
         "ff_example_en": "The café is across from the station.",
         "ff_example_vi": "Quán cà phê nằm đối diện nhà ga."
-      }
+      },
+      "explanation_vi": "**opposite /ˈɒpəzɪt/** – (tính từ / giới từ) “đối diện, ở phía đối diện”\n\n1. Khi muốn chỉ vị trí một địa điểm nằm ngay phía bên kia của một vật khác, ta dùng"
     },
     {
       "id": 10,
@@ -270,7 +279,8 @@
         "example_vi": "Khách sạn ở gần nhà ga.",
         "ff_example_en": "The hotel is nearly two kilometres from the station.",
         "ff_example_vi": "Khách sạn cách nhà ga gần hai ki-lô-mét."
-      }
+      },
+      "explanation_vi": "**Near** (IPA: /niːər/)\n\nTừ tiếng Anh \"near\" có thể được sử dụng như một tính từ (adjective), một động từ (adverb) hoặc một từ chỉ vị trí (preposition).\n\n**Cách sử dụng:**\n\n- Tính từ: chỉ vị trí gần, gần đây\n- Động từ: chỉ sự gần gũi, gần nhau\n- Từ chỉ vị trí: chỉ vị trí gần một nơi nào đó\n\n**Ngữ cảnh thường dùng:**\n\n- **Near** thường được sử dụng để chỉ vị trí gần một nơi nào đó. Ví dụ: \"Cửa hàng nằm gần trường học\" (The shop is near the school).\n- **Near** cũng có thể được sử dụng để chỉ sự gần gũi giữa hai người hoặc hai vật. Ví dụ: \"Cô ấy là một người bạn gần gũi của tôi\" (She is a close friend of mine).\n\n**Phân biệt với từ đồng nghĩa:**\n\n- **Near** thường được sử dụng để chỉ vị trí gần một nơi nào đó, trong khi **close** thường được sử dụng để chỉ sự gần gũi giữa hai người hoặc hai vật. Ví dụ: \"Cửa hàng nằm gần trường học\" (The shop is near the school) so với \"Cô ấy là một người bạn gần gũi của tôi\" (She is a close friend of mine).\n- **Near** cũng có thể được sử dụng để chỉ"
     },
     {
       "id": 11,
@@ -287,7 +297,8 @@
         "adjective": "far / farther / farthest",
         "adverb": "far / farther / farthest"
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ tiếng Anh \"far\" có nghĩa là \"xa\" hoặc \"ở xa\". Đây là một từ đa năng có thể dùng làm tính từ (adjective) hoặc động từ (adverb).\n\n- Khi dùng làm tính từ, \"far\" mô tả vị trí hoặc khoảng cách vật thể với một điểm tham khảo khác. Ví dụ:\n\n \"Cánh đồng lúa nằm ở phía xa của thành phố.\"\n\n- Khi dùng làm động từ, \"far\" mô tả khoảng cách vật thể di chuyển hoặc chuyển hướng. Ví dụ:\n\n \"Tôi đi bộ xa hơn nữa để tìm thấy nơi ẩn náu.\"\n\nTừ đồng nghĩa của \"far\" bao gồm \"distant\", \"remote\", \"away\", và \"far-off\". Mỗi từ này có thể được sử dụng trong ngữ cảnh khác nhau, nhưng chúng đều mô tả vị trí hoặc khoảng cách vật thể với một điểm tham khảo khác.\n\nVí dụ mới dễ nhớ:\n\n \"Tôi không muốn đi bộ xa để đến trường vì thời tiết quá nóng.\"\n\nLưu ý: \"far\" thường được sử dụng trong ngữ cảnh về vị trí địa lý hoặc khoảng cách vật thể, trong khi các từ đồng nghĩa có thể được sử dụng trong ngữ cảnh khác nhau."
     },
     {
       "id": 12,
@@ -311,7 +322,8 @@
         "example_vi": "Hiệu sách cách trường một dãy nhà.",
         "ff_example_en": "A delivery truck is blocking the road between the bookshop and the school.",
         "ff_example_vi": "Một chiếc xe tải giao hàng đang chặn con đường giữa hiệu sách và trường học."
-      }
+      },
+      "explanation_vi": "Từ \"block\" trong tiếng Anh nghĩa là một dãy nhà hay một đoạn đường giữa hai ngã tư. Đây là một khái niệm thường được sử dụng trong hướng dẫn định vị hoặc chỉ dẫn đường đi.\n\nTừ \"block\" thường được sử dụng trong ngữ cảnh như sau:\n\n- Khi chỉ dẫn đường đi: \"Đi hai block phía bắc rồi rẽ phải, nhà hàng sẽ nằm bên trái của bạn.\"\n- Khi mô tả địa hình: \"Cảng nằm ở một dãy block của thành phố, cách trung tâm khoảng 5 block.\"\n\nSo sánh với từ đồng nghĩa \"street\", \"block\" thường chỉ một đoạn đường ngắn hơn và thường chỉ có một dãy nhà.\n\nMột ví dụ mới dễ nhớ: \"Tôi phải đi 3 block để đến văn phòng, rẽ trái tại đèn đỏ.\"\n\nLưu ý: Trong một số trường hợp, \"block\" cũng có thể chỉ một khu vực hoặc một cụm nhà được phân chia thành nhiều phần nhỏ. Nhưng trong ngữ cảnh này, \"block\" thường được hiểu là một đoạn đường hoặc một dãy nhà."
     },
     {
       "id": 13,
@@ -335,7 +347,8 @@
         "example_vi": "Biển chỉ đường cho biết đường đến sân bay.",
         "ff_example_en": "The traffic signal turned green near the airport.",
         "ff_example_vi": "Đèn tín hiệu giao thông chuyển xanh gần sân bay."
-      }
+      },
+      "explanation_vi": "Từ \"sign\" (noun) trong tiếng Anh có nghĩa là \"bảng hiệu\", \"biển chỉ đường\". Nó thường được sử dụng trong các ngữ cảnh như:\n\n- Chỉ dẫn đường đi: \"Bên phải có bảng hiệu chỉ đường đến trung tâm thành phố.\"\n- Quảng cáo: \"Bảng hiệu lớn của cửa hàng điện tử bắt mắt mọi người.\"\n- Chỉ định địa điểm: \"Bảng hiệu ở cổng trường chỉ dẫn vị trí phòng học.\"\n\nTừ này khác với \"billboard\" vì thường nhỏ hơn và không nhất thiết phải là biển quảng cáo lớn. Ví dụ về một ngữ cảnh mới: \"Bên đường có bảng hiệu chỉ đường đến bãi biển, giúp du khách tìm đường đi.\"\n\nNếu muốn tìm hiểu thêm về từ \"sign\" trong tiếng Anh, bạn có thể tìm hiểu thêm về các từ liên quan như \"banner\", \"poster\", \"directional sign\" v.v."
     },
     {
       "id": 14,
@@ -359,7 +372,8 @@
         "example_vi": "Khoảng cách từ khách sạn đến nhà ga là hai ki-lô-mét.",
         "ff_example_en": "The length of the bridge near the station is two kilometres.",
         "ff_example_vi": "Chiều dài của cây cầu gần nhà ga là hai ki-lô-mét."
-      }
+      },
+      "explanation_vi": "Từ \"distance\" trong tiếng Anh có nghĩa là khoảng cách. Đây là một từ ngữ thường được sử dụng trong nhiều ngữ cảnh khác nhau.\n\n- Khi nói về khoảng cách địa lý: \"Tôi sống ở khoảng cách 5 km từ trung tâm thành phố.\"\n\n- Khi nói về khoảng cách tâm lý: \"Cảm giác xa cách giữa anh em đã khiến họ không muốn gặp nhau.\"\n\n- Khi nói về khoảng cách thời gian: \"Quãng thời gian chờ đợi khiến tôi trở nên mệt mỏi.\"\n\nTrong một số trường hợp, \"distance\" cũng được sử dụng thay thế cho các từ khác như \"khoảng cách\", \"cách xa\", \"hạn cách\", \"cách biệt\". Tuy nhiên, tùy thuộc vào ngữ cảnh cụ thể, người ta thường chọn từ phù hợp.\n\nVí dụ mới dễ nhớ: \"Khoảng cách giữa hai điểm sáng nhất định được xác định là khoảng 20 km.\""
     },
     {
       "id": 15,
@@ -383,7 +397,8 @@
         "example_vi": "Chúng tôi đến nhà ga lúc chín giờ.",
         "ff_example_en": "We arrived at the station at nine.",
         "ff_example_vi": "Chúng tôi đến nhà ga lúc chín giờ."
-      }
+      },
+      "explanation_vi": "Từ tiếng Anh \"reach\" (verb) có nghĩa là đến nơi, tới được. Dưới đây là một số ví dụ và thông tin giúp học sinh IELTS hiểu rõ hơn về từ này:\n\n- Từ \"reach\" thường được sử dụng trong ngữ cảnh di chuyển hoặc đạt được một điểm đến. Ví dụ: Khi chúng tôi tới thành phố lớn, chúng tôi đã reach trung tâm thành phố sau một chuyến đi bằng xe buýt dài hai giờ.\n\n- Từ \"reach\" có thể được sử dụng với các từ chỉ thời gian như \"sáng\", \"trưa\", \"tối\" hoặc các cụm từ chỉ điểm đến như \"đường đến\", \"giữa đường\". Ví dụ: Khi chúng tôi đi đến khu du lịch, chúng tôi đã reach trung tâm du lịch vào trưa.\n\n- Trong một số trường hợp, từ \"reach\" có thể được sử dụng để chỉ việc đạt được một mức độ hoặc một mục tiêu nhất định. Ví dụ: Khi tôi tập thể dục, tôi không thể reach được mức độ cao nhất trên máy tập.\n\n- Từ \"reach\" khác với từ đồng nghĩa \"arrive\" ở chỗ \"arrive\" thường được sử dụng để chỉ việc tới nơi sau một chuyến đi, trong khi \"reach\" có thể được sử dụng trong cả ngữ cảnh di chuyển và đạt được một mục tiêu. Ví dụ: Khi chúng tôi tới thành phố lớn, chúng tôi đã arrive và check-in vào khách sạn.\n\n- Ví"
     }
   ],
   "exercises": {

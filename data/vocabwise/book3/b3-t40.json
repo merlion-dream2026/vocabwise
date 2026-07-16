@@ -62,7 +62,8 @@
         "adverb": "abstractly"
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Abstraction** (danh từ) – sự trừu tượng hoá, khái niệm trừu tượng.  \n1. Từ này thường dùng trong các lĩnh vực khoa học, công nghệ và nghệ thuật để chỉ việc bỏ qua các chi tiết cụ thể, chỉ giữ lại những đặc điểm chung quan trọng.  \n2. Không giống “abstract” (tính từ, nghĩa là “trừu tượng” hoặc “khái niệm”), “abstraction” là danh từ chỉ **quá trình** hoặc **đối tượng** trừu tượng; còn “generalisation” (khái quát) nhấn mạnh việc mở rộng quy luật, trong khi “abstraction” nhấn mạnh việc tách rời chi tiết.  \n3. Ví dụ dễ nhớ: *Trong lập trình, việc tạo một lớp “Vehicle” chỉ chứa các thuộc tính “speed” và “capacity” là một dạng abstraction, giúp ta mô tả chung cho ô tô, xe máy và xe đạp mà không cần liệt kê từng loại xe.*"
     },
     {
       "id": 2,
@@ -80,7 +81,8 @@
         "adverb": "provably"
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "Từ \"proof\" (noun) trong tiếng Anh có thể được giải thích như sau:\n\n\"Proof\" thường được sử dụng trong toán học để chỉ hành động chứng minh một lý thuyết hoặc một định lý cụ thể. Nó có thể được hiểu là bằng chứng hoặc chứng minh để xác nhận sự đúng đắn của một lý thuyết hoặc một kết quả toán học.\n\nTrong ngữ cảnh thường dùng, \"proof\" thường được sử dụng trong các lĩnh vực như toán học, khoa học và pháp lý.\n\n\"Proof\" khác biệt với các từ đồng nghĩa như \"evidence\" (bằng chứng) hoặc \"argument\" (người ta trình bày một ý kiến hoặc lý lẽ nào đó). Tuy nhiên, cả \"evidence\" và \"argument\" cũng có thể được sử dụng để chỉ bằng chứng hoặc lý lẽ, nhưng \"proof\" thường có ý nghĩa cụ thể hơn trong toán học và khoa học.\n\nVí dụ dễ nhớ: Một nhà khoa học đã có một bằng chứng (proof) thuyết phục để chứng minh rằng nước không thể được chuyển đổi thành đá trong điều kiện bình thường.\n\nPhiên âm IPA: /pruːf/"
     },
     {
       "id": 3,
@@ -105,7 +107,8 @@
         "ff_example_en": "The teacher then discussed a broader theory about mathematical learning.",
         "ff_example_vi": "Sau đó, giáo viên thảo luận một lý thuyết rộng hơn về việc học toán."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**theorem** /θiːˈɔːrəm/ (noun) – “định lý”.\n\n1. **Ngữ cảnh thường dùng**: Từ này xuất hiện trong các bài toán, lý thuyết toán học hoặc logic, chỉ một mệnh đề đã được chứng minh dựa trên các tiên đề và định nghĩa.  \n2. **Phân biệt với từ đồng nghĩa**: “Law” (luật) thường chỉ một quy luật được quan sát trong tự nhiên (như “law of gravity”) và chưa được “chứng minh” theo kiểu toán học, trong khi “theorem” luôn là kết quả đã được chứng minh chặt chẽ.  \n3. **Ví dụ mới**: *Fermat's Last Theorem* nói rằng không tồn tại ba số nguyên dương \\(a, b, c\\) sao cho \\(a^n + b^n = c^n\\) khi \\(n > 2\\); đây là một định lý nổi tiếng đã được Andrew Wiles chứng minh vào năm 1994."
     },
     {
       "id": 4,
@@ -130,7 +133,8 @@
         "ff_example_en": "The organiser managed the logistics of the conference.",
         "ff_example_vi": "Người tổ chức quản lý công tác hậu cần của hội nghị."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**logic /ˈlɒdʒɪk/**  \n\n- “logic” chỉ hệ thống các quy tắc và phương pháp suy luận, giúp một luận điểm được chứng minh một cách chặt chẽ"
     },
     {
       "id": 5,
@@ -155,7 +159,8 @@
         "ff_example_en": "The mathematician used a logarithm to simplify the calculation.",
         "ff_example_vi": "Nhà toán học dùng logarit để đơn giản hóa phép tính."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Algorithm** /ˈælɡərɪðəm/ (danh từ)\n\n1. **Nghĩa cơ bản**: “Thuật toán” – một tập hợp các bước logic, có thứ tự, được thiết kế để giải quyết một bài toán hoặc thực hiện một công việc nhất định.  \n2. **Ngữ cảnh thường dùng**: Thường xuất hiện trong lĩnh vực công nghệ thông tin, lập trình, trí tuệ nhân tạo và khoa học dữ liệu; khi nói về cách máy tính “nghĩ” hoặc “xử lý” dữ liệu.  \n3. **Phân biệt với các từ đồng nghĩa**: *Formula* (công thức) chỉ một biểu thức toán học cố định, còn *procedure* (quy trình) có thể bao hàm nhiều thuật toán khác nhau; *algorithm* nhấn mạnh vào “cách thực hiện” có tính lặp lại và tối ưu.  \n4. **Ví dụ mới**: *The search algorithm of the new app can find relevant results in under two seconds, even on a slow network.* – Thuật toán tìm kiếm của ứng dụng mới có thể đưa ra kết quả phù hợp trong vòng chưa đầy hai giây, ngay cả khi mạng chậm."
     },
     {
       "id": 6,
@@ -180,7 +185,8 @@
         "ff_example_en": "The forecast mentioned the possibility of a storm.",
         "ff_example_vi": "Dự báo đề cập khả năng có bão."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Probability (noun)** – *xác suất, khả năng xảy ra*  \n\n1. Từ này thường dùng trong các tình huống cần tính toán hoặc mô tả mức độ có thể xảy ra của một sự kiện, nhất là trong khoa học, thống kê và các đề thi IELTS.  \n2. Khi muốn nhấn mạnh “cơ hội” chung, ta có thể dùng **chance** hoặc **likelihood**, nhưng **probability** thường đi kèm số liệu hoặc tỷ lệ phần trăm (ví dụ: “the probability is 70%”).  \n3. **Ví dụ dễ nhớ:** *The probability of it raining tomorrow is 30 %*, nghĩa là khả năng trời sẽ mưa vào ngày mai là 30 %."
     },
     {
       "id": 7,
@@ -198,7 +204,8 @@
         "adverb": "conjecturally"
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**conjecture /kənˈdʒɛktʃər/**  \n\n- “Conjecture” thường xuất hiện khi nói về một giả thuyết chưa có bằng chứng, đặc biệt trong toán học hoặc các ngành khoa học.  \n- Khi"
     },
     {
       "id": 8,
@@ -216,7 +223,8 @@
         "adverb": "axiomatically"
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**axiom /ˈæksiəm/**  \n\n1. Từ “axiom” thường được dùng trong các lĩnh vực như toán học, logic hay triết học để chỉ một nguyên tắc được chấp nhận là đúng mà không cần chứng minh.  \n2. Nó khác với “principle” (nguyên tắc)"
     },
     {
       "id": 9,
@@ -234,7 +242,8 @@
         "adverb": "recursively"
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Recursion** (danh từ): đệ quy, nghĩa là một định nghĩa hoặc một quy trình “gọi lại chính nó” trên một phần dữ liệu thu nhỏ hơn.  \n\n- **Ngữ cảnh thường dùng**: Thuật ngữ này xuất hiện nhiều trong lĩnh vực khoa học máy tính, toán học và lập trình; khi nói tới các thuật toán “tự lặp lại” để giải quyết vấn đề.  \n- **Phân biệt với từ đồng nghĩa**: “Iteration” (lặp lại) cũng mô tả việc thực hiện nhiều lần, nhưng “iteration” dùng một vòng lặp cố định, trong khi “recursion” dùng việc hàm tự gọi lại chính mình cho tới khi đạt tới trường hợp cơ sở.  \n- **Ví dụ dễ nhớ**: Khi bạn muốn tính giai thừa của số 5, hàm `factorial(n)` sẽ trả về `5 × factorial(4)`, và `factorial(4)` lại trả về `4 × factorial(3)`… cho tới `factorial(1)=1`; toàn bộ quá trình này chính là một ví dụ của **recursion**."
     },
     {
       "id": 10,
@@ -252,7 +261,8 @@
         "adverb": "infinitely"
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Infinity** /ɪnˈfɪnɪti/ (danh từ) – *vô cực, sự vô hạn*  \n\n1. **Ngữ cảnh thường dùng**:  \n   - Trong toán học hoặc khoa học để nói về một giá trị không có giới hạn, ví dụ “the limit approaches infinity”.  \n   - Trong đời sống thường ngày, “infinity” có thể dùng để nhấn mạnh sự vô tận, như “a love that feels like infinity”.  \n\n2. **Phân biệt với các từ đồng nghĩa**:  \n   - *Eternity* (vĩnh cửu) chỉ “khoảng thời gian vô hạn” – liên quan tới thời gian.  \n   - *Limitlessness* (không giới hạn) là tính chất chung của việc không có ranh giới, nhưng “infinity” thường mang hàm ý “một số cụ thể không có giới hạn” (như số vô hạn).  \n\n3. **Ví dụ mới dễ nhớ**:  \n   - “The number of grains of sand on a beach seems like infinity, but it is actually finite.”  \n   - *Số hạt cát trên một bãi biển có vẻ như vô hạn, nhưng thực tế lại có giới hạn.*"
     },
     {
       "id": 11,

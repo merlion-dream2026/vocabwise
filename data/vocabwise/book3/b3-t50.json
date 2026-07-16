@@ -69,7 +69,8 @@
         "ff_example_en": "The article discussed equality between the two language communities.",
         "ff_example_vi": "Bài báo thảo luận sự bình đẳng giữa hai cộng đồng ngôn ngữ."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Equivalence (noun) – “sự tương đương”**  \n\n1. *Ngữ cảnh thường dùng*: “Equivalence” xuất hiện khi bạn muốn nói hai thứ (từ, khái niệm, phương pháp…) có cùng giá trị, cùng mức độ hoặc cùng nghĩa trong một hệ thống, một quy chuẩn hay một so sánh. Thường gặp trong các bài viết học thuật, kỹ thuật, luật pháp hoặc dịch thuật.  \n\n2. *Phân biệt với các từ đồng nghĩa*:  \n- **Equality**: nhấn mạnh “bằng nhau” về số lượng hoặc quyền lợi (ví dụ: equality before the law).  \n- **Equivalence**: nhấn mạnh “có cùng giá trị/độ tương đương” trong một phép đo hoặc một ngữ cảnh cụ thể, không nhất thiết phải bằng nhau ở mọi khía cạnh.  \n\n3. *Ví dụ mới*: “The equivalence between the metric system and the imperial system can be shown by converting 1 mile to approximately 1.609 kilometers.” (Mức độ tương đương giữa hệ mét và hệ đo lường Anh được minh họa bằng việc đổi 1 dặm sang khoảng 1,609 km.)"
     },
     {
       "id": 2,
@@ -87,7 +88,8 @@
         "adverb": null
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Source text** (danh từ) – từ chỉ “văn bản gốc” hoặc “tài liệu nguồn” mà người dịch, nhà nghiên cứu, hoặc người phân tích sẽ dựa vào để thực hiện công việc của mình.  \n\n- Thường dùng trong các ngữ cảnh liên quan tới dịch thuật, biên tập, nghiên cứu ngôn ngữ: *“source text”* là tài liệu được đưa vào, còn *“target text”* là bản dịch ra.  \n- Từ đồng nghĩa gần nhất là **original text**, nhưng *original text* nhấn mạnh tính “nguyên bản, chưa qua chỉnh sửa”, trong khi *source text* tập trung vào vai trò “nguồn tham chiếu” cho quá trình dịch/đánh giá.  \n- Ví dụ mới: *Trước khi viết luận phân tích, sinh viên cần đọc kỹ source text để nắm rõ các luận điểm chính của tác giả.*"
     },
     {
       "id": 3,
@@ -105,7 +107,8 @@
         "adverb": null
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Target language** (ngôn ngữ đích) là ngôn ngữ mà bạn muốn dịch **đến**, tức là ngôn ngữ mà người nhận bản dịch sẽ đọc và hiểu.  \nTrong lĩnh vực dịch thuật và giảng dạy ngôn ngữ, “target language” thường đối lập với “source language” (ngôn ngữ gốc), vì nó chỉ nơi mà nội dung được chuyển sang.  \nNếu muốn nhấn mạnh rằng người học đang hướng tới một ngôn ngữ cụ thể, ta có thể dùng “ngôn ngữ mục tiêu”, nhưng “ngôn ngữ đích” là cách diễn đạt chuẩn hơn trong tài liệu chuyên ngành.  \n*Ví dụ*: Khi viết một bài luận IELTS, bạn cần chú ý rằng các từ ngữ và cấu trúc câu phải phù hợp với **ngôn ngữ đích** là tiếng Anh, chứ không nên dùng cách diễn đạt của tiếng Việt."
     },
     {
       "id": 4,
@@ -130,7 +133,8 @@
         "ff_example_en": "The app also uses the phone’s location to suggest nearby shops.",
         "ff_example_vi": "Ứng dụng cũng dùng vị trí của điện thoại để đề xuất các cửa hàng gần đó."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Localisation (noun)** – “bản địa hóa”: nghĩa là điều chỉnh một sản phẩm, tài liệu hoặc nội dung sao cho phù hợp với ngôn ngữ, phong cách, định dạng ngày‑giờ, tiền tệ và các yếu tố văn hoá của một khu vực cụ thể.  \n\n- Từ này thường xuất hiện trong lĩnh vực công nghệ thông tin, truyền thông và marketing khi nói về việc đưa phần mềm, trang web, trò chơi hay tài liệu quảng cáo ra thị trường quốc tế.  \n- Nó khác với “translation” (dịch thuật) ở chỗ dịch chỉ chuyển ngữ, còn localisation còn bao gồm việc thay đổi giao diện, biểu tượng, quy tắc pháp lý, thậm chí cả cách thể hiện màu sắc hay hình ảnh để người dùng địa phương cảm thấy tự nhiên.  \n- **Ví dụ mới:** Khi một công ty video‑game mở rộng sang Nhật Bản, localisation yêu cầu thay đổi nhân vật chính thành người Nhật, chỉnh sửa các lễ hội trong trò chơi theo Lễ hội Obon và điều chỉnh âm thanh để phù hợp với thói quen nghe nhạc của người Nhật."
     },
     {
       "id": 5,
@@ -155,7 +159,8 @@
         "ff_example_en": "The students felt ambivalence about the difficult project.",
         "ff_example_vi": "Các sinh viên có cảm xúc lẫn lộn về dự án khó."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Ambiguity (noun) – sự mơ hồ, tính đa nghĩa**  \n\n1. *Ngữ cảnh thường dùng*: “ambiguity” xuất hiện trong các bài đọc, đề thi hay trong giao tiếp khi một từ, câu hoặc một văn bản có **nhiều cách hiểu khác nhau**, khiến người nghe/đọc không chắc chắn ý định thực sự.  \n\n2. *Phân biệt với các từ đồng nghĩa*:  \n   - **Vagueness** (sự không rõ ràng) chỉ việc thiếu chi tiết, thông tin không đủ; còn **ambiguity** là khi thông tin đủ nhưng **có hai hoặc nhiều cách giải thích hợp lý**.  \n   - **Uncertainty** (sự không chắc chắn) nói chung về tình huống không biết trước, không phải vì ngôn ngữ có nhiều nghĩa.  \n\n3. *Ví dụ mới dễ nhớ*:  \n   - “The sentence ‘I saw her with a telescope’ contains **ambiguity**: it could mean I used a telescope to see her, or I saw her who was holding a telescope.”  \n\n4. *Khi viết IELTS*: Nếu bạn muốn nhấn mạnh rằng một câu, một đoạn văn hay một câu hỏi có **nhiều cách hiểu** và có thể gây nhầm lẫn, hãy dùng “ambiguity” (cùng với từ “ambiguous” cho tính từ)."
     },
     {
       "id": 6,
@@ -173,7 +178,8 @@
         "adverb": null
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Nuance** (danh từ) – sự khác biệt nhẹ, tinh tế trong nghĩa, cảm xúc hoặc cách diễn đạt.\n\n- Thường dùng khi nói về “các sắc thái nhỏ” của một từ, một ý tưởng hay một tình huống, ví dụ: “Bạn cần nắm bắt **nuance** trong cách người bản địa dùng từ ‘love’ để không hiểu lầm.”  \n- Từ đồng nghĩa gần nhất là *subtlety* (sự tinh vi), nhưng *subtlety* nhấn mạnh vào “độ khéo léo” chung, còn *nuance* chỉ “một chi tiết nhỏ” giữa các lựa chọn.  \n- Ví dụ dễ nhớ: *The nuance between “ask” and “inquire” lies in their level of formality; “inquire” sounds more professional.*  \n\nNhư vậy, khi bạn muốn nhấn mạnh một “sự khác biệt nhẹ” trong nghĩa hay cách dùng, hãy dùng **nuance**."
     },
     {
       "id": 7,
@@ -191,7 +197,8 @@
         "adverb": null
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Cultural transfer** (danh từ) – sự chuyển giao / truyền tải các yếu tố văn hoá (tập tục, quan niệm, biểu tượng…) từ một ngôn ngữ, một cộng đồng sang ngôn ngữ, một cộng đồng khác.  \n\n- Thường xuất hiện trong các bài nói hoặc viết về **dịch thuật, biên dịch, hoặc giao lưu văn hoá**; nó nhấn mạnh rằng không chỉ từ ngữ mà còn cả bối cảnh và ý nghĩa văn hoá phải được “đưa sang” một cách thích hợp.  \n- Từ đồng nghĩa gần nhất là **cultural adaptation** (điều chỉnh văn hoá), nhưng “cultural transfer” nhấn mạnh việc **bảo tồn** nguyên bản của yếu tố văn hoá, trong khi “cultural adaptation” thường cho phép thay đổi để phù hợp hơn với người nhận.  \n\n**Ví dụ:** Khi dịch một tiểu thuyết Nhật sang tiếng Anh, việc chuyển giao văn hoá đòi hỏi dịch giả phải giải thích khái niệm “hanami” (ngắm hoa anh đào) bằng chú thích, để độc giả không Nhật vẫn hiểu được ý nghĩa lễ hội mùa xuân."
     },
     {
       "id": 8,
@@ -209,7 +216,8 @@
         "adverb": "faithfully"
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**fidelity** /fəˈdɛlɪti/  \n\n- “Fidelity” chỉ mức độ trung thực, độ giữ nguyên bản gốc của một thông tin, một tác phẩm hoặc một tín hiệu.  \n- Từ này thường xuất hiện trong lĩnh vực dịch thuật, công nghệ âm thanh, nghiên cứu khoa học, nơi yêu cầu sao chép hoặc truyền tải dữ liệu phải gần giống nhất với nguyên bản.  \n- Từ đồng nghĩa gần nhất là “trung thành” (đối với con người) hoặc “độ chính xác” (đối với dữ liệu); tuy nhiên “fidelity” còn dùng cho các hiện tượng vật lý, kỹ thuật, trong khi “trung thành” chỉ mối quan hệ con người‑cảm xúc.  \n- Ví dụ: “Bản sao lưu dữ liệu cần có fidelity cao để khi khôi phục lại không bị mất mát thông tin quan trọng.”"
     },
     {
       "id": 9,
@@ -227,7 +235,8 @@
         "adverb": null
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Back‑translation (danh từ)** – Quá trình dịch một đoạn văn đã được dịch sang ngôn ngữ khác trở lại ngôn ngữ gốc, nhằm kiểm tra xem nội dung có giữ nguyên ý nghĩa ban đầu không.  \n\n- Thường dùng trong nghiên cứu, biên soạn câu hỏi khảo sát, tài liệu y khoa hay các dự án đa ngôn ngữ, khi cần chắc chắn rằng bản dịch không làm mất hoặc làm sai lệch thông tin.  \n- Từ gần nghĩa là “re‑translation”, nhưng “back‑translation” nhấn mạnh việc *trở lại* ngôn ngữ nguồn (A→B→A), trong khi “re‑translation” chỉ đơn giản là dịch lại mà không nhất thiết phải qua ngôn ngữ trung gian.  \n\n**Ví dụ:** Để phát hành ứng dụng giáo dục trên 7 quốc gia, nhóm phát triển đã thực hiện back‑translation các hướng dẫn sử dụng, rồi so sánh kết quả với bản tiếng Anh gốc để chắc chắn rằng các thuật ngữ kỹ thuật không bị hiểu sai."
     },
     {
       "id": 10,
@@ -252,7 +261,8 @@
         "ff_example_en": "Translation was used to prepare a written Vietnamese version of the report.",
         "ff_example_vi": "Biên dịch được dùng để chuẩn bị phiên bản tiếng Việt bằng văn bản của báo cáo."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**interpreting /ˈɪntərˈprɪtɪŋ/**  \n\n1. “interpreting” là danh từ chỉ hành động phiên dịch lời nói từ ngôn ngữ này sang ngôn ngữ khác.  \n2. Thường xuất hiện trong ngữ cảnh các buổi hội nghị, hội thảo hoặc các sự kiện đa"
     },
     {
       "id": 11,

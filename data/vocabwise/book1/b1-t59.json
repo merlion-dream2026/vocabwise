@@ -68,7 +68,8 @@
         "example_vi": "Lan thích cả hai bộ phim mới.",
         "ff_example_en": "The two new films are alike in several ways.",
         "ff_example_vi": "Hai bộ phim mới giống nhau ở một số điểm."
-      }
+      },
+      "explanation_vi": "**like /laɪk**  \n\n1. “Like” là động từ dùng để diễn tả sở thích, cảm giác hài lòng với một người, vật, hoạt động nào đó.  \n2. Khi muốn nhấn mạnh mức độ yêu thích mạnh mẽ hơn, chúng ta có thể dùng “love”; ngược lại, “prefer” chỉ sự lựa chọn ưu tiên giữa hai lựa chọn.  \n3. Thường xuất hiện trong câu khẳng định, câu hỏi hoặc câu phủ định, kèm theo danh từ, đại từ hoặc động từ ở dạng V‑ing.  \n4. Ví dụ: *Cô ấy thích đi dạo vào buổi sáng khi không khí trong lành.*   (She likes walking in the morning when the air is fresh.)"
     },
     {
       "id": 2,
@@ -85,7 +86,8 @@
         "adjective": "lovely / lovable",
         "adverb": "lovingly"
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "**love /lʌv/**  \n\n- **love** là động từ chỉ cảm giác yêu thích mạnh mẽ hoặc tình cảm sâu đậm đối với người, vật, hoạt động. Khi dùng để nói về sở thích, nó mang nghĩa “thích rất nhiều”.  \n- Khi là danh từ, **love** diễn tả mối quan hệ tình cảm đặc biệt giữa hai người, hoặc cảm giác chung chung về một đối tượng.  \n- Từ đồng nghĩa: *adore* (có mức độ yêu thích cao hơn, gần như tôn thờ), *like* (mức độ nhẹ hơn). *Love* thường mạnh hơn *like* và ít trang trọng hơn *adore*.  \n\n**Ví dụ mới:**  \n- Cô ấy **love** việc nấu ăn, vì mỗi bữa ăn đều là một tác phẩm nghệ thuật.  \n- Tình **love** của họ đã nảy sinh từ những buổi chiều cùng nhau học tiếng Anh.  \n\n*Lưu ý:* Khi muốn nhấn mạnh mức độ yêu thích, hãy dùng **love**; khi chỉ đơn giản là “thích”, có thể dùng *like*."
     },
     {
       "id": 3,
@@ -102,7 +104,8 @@
         "adjective": "hateful",
         "adverb": "hatefully"
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "**Từ “hate” /heɪt/**  \n\n- “Hate” là động từ và danh từ, mang nghĩa “ghét, căm ghét”; “sự ghét bỏ”.  \n\n- Thường dùng khi cảm xúc tiêu cực mạnh mẽ, kéo dài đối với người, vật, hành động hoặc ý tưởng nào đó.  \n\n- Đồng nghĩa gần nhất là “detest”, nhưng “detest” nhấn mạnh sự khinh bỉ, trong khi “hate” nhấn mạnh cảm giác thù địch và muốn tránh xa.  \n\n- Ví dụ mới: **Cô ấy ghét tiếng ồn của xe máy vào buổi sáng, nên luôn mở cửa sổ để tránh tiếng ồn.**"
     },
     {
       "id": 4,
@@ -126,7 +129,8 @@
         "example_vi": "Các học sinh thích trò chơi trong lớp.",
         "ff_example_en": "The class game was fun for the students.",
         "ff_example_vi": "Trò chơi trong lớp rất thú vị đối với các học sinh."
-      }
+      },
+      "explanation_vi": "Từ \"enjoy\" (verb) có nghĩa là thích thú, tận hưởng. Đây là một từ thường được sử dụng trong các ngữ cảnh như:\n\n- Lựa chọn hoạt động giải trí: \"Tôi sẽ enjoy xem phim tại rạp vào cuối tuần này.\"\n- Hưởng thụ món ăn ngon: \"Tôi sẽ enjoy món ăn tại nhà hàng vào tối nay.\"\n- Tham gia vào các hoạt động du lịch: \"Tôi sẽ enjoy chuyến đi đến biển vào mùa hè này.\"\n\nSo với các từ đồng nghĩa như \"hưởng thụ\", \"thích thú\", \"tận hưởng\", \"phấn khích\", từ \"enjoy\" thường mang ý nghĩa nhẹ nhàng, tự nhiên hơn. Ví dụ, khi nói \"Tôi sẽ enjoy xem phim\", ý nghĩa là bạn sẽ thấy thoải mái, vui vẻ khi xem phim, chứ không phải là một cảm giác phấn khích hoặc thích thú mạnh mẽ.\n\nVí dụ mới dễ nhớ: \"Tôi sẽ enjoy đi dạo trong công viên vào buổi sáng này.\""
     },
     {
       "id": 5,
@@ -150,7 +154,8 @@
         "example_vi": "Lan thích chiếc váy xanh hơn chiếc váy đỏ.",
         "ff_example_en": "The blue dress is Lan’s favourite.",
         "ff_example_vi": "Chiếc váy xanh là chiếc Lan yêu thích nhất."
-      }
+      },
+      "explanation_vi": "**Prefer /prɪˈfɜː"
     },
     {
       "id": 6,
@@ -167,7 +172,8 @@
         "adjective": "favourite / favourable",
         "adverb": "favourably"
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ \"favourite\" (tương đương với \"ưa thích nhất\" hoặc \"điều/thứ ưa thích nhất\" trong tiếng Việt) là một từ đồng nghĩa với \"favorite\" (cả hai từ này đều có nghĩa tương tự). Nó thường được sử dụng để chỉ một điều gì đó mà người nói yêu thích nhất, hay một người mà họ yêu thích nhất.\n\nTừ \"favourite\" thường được sử dụng trong ngữ cảnh như sau:\n\n- Khi nói về màu sắc yêu thích: \"Màu xanh lá cây là màu yêu thích nhất của em tôi.\"\n- Khi nói về món ăn yêu thích: \"Sushi là món ăn yêu thích nhất của tôi khi du lịch Nhật Bản.\"\n- Khi nói về người yêu thích: \"Bố mẹ tôi là hai người yêu thích nhất của tôi.\"\n\nPhân biệt với từ đồng nghĩa \"beloved\", \"cherished\" hay \"dear\", vì những từ này có nghĩa nhẹ nhàng và tình cảm hơn, thường được sử dụng để chỉ người thân yêu hoặc điều gì đó quý giá.\n\nVí dụ mới: \"Hồ sơ đó là hồ sơ yêu thích nhất của tôi trong suốt quá trình học tập.\""
     },
     {
       "id": 7,
@@ -191,7 +197,8 @@
         "example_vi": "Lan là một ca sĩ giỏi.",
         "ff_example_en": "Lan sings well at school events.",
         "ff_example_vi": "Lan hát hay tại các sự kiện của trường."
-      }
+      },
+      "explanation_vi": "**Good (adjective) – IPA: /ɡʊd/**  \n\n1. “Good” dùng để mô tả một vật, hành động hoặc người có chất lượng tích cực, đáp ứng hoặc vượt qua tiêu chuẩn thông thường.  \n2. Khi nói “good” về thực phẩm, nghĩa là món ăn ngon, vừa miệng; còn khi nói về người thì mang ý nghĩa “giỏi”, “khéo léo”.  \n3. Từ đồng nghĩa “great” thường nhấn mạnh mức độ xuất sắc hơn, còn “nice” chỉ tính cách dễ chịu, không mạnh như “good”.  \n4. Ví dụ: *Bài thuyết trình của cô ấy rất good, mọi người đều khen ngợi* → *Bài thuyết trình của cô ấy rất tốt, mọi người đều khen ngợi*."
     },
     {
       "id": 8,
@@ -215,7 +222,8 @@
         "example_vi": "Màn biểu diễn đầu tiên rất tệ.",
         "ff_example_en": "The band performed badly in the first round.",
         "ff_example_vi": "Ban nhạc biểu diễn tệ trong vòng đầu."
-      }
+      },
+      "explanation_vi": "**bad /bæd/**  \n\n- Tính từ “bad” diễn tả tính chất tiêu cực, có thể bao hàm “xấu”, “tệ” hoặc “có hại” tùy ngữ cảnh.  \n- Khi muốn nhấn mạnh mức độ không tốt cho sức khỏe, thường dùng “có hại”; còn khi nói về phẩm chất hay hành vi, ta dùng “xấu” hoặc “tệ”.  \n- Từ đồng nghĩa “poor” chỉ mức độ kém, không hoàn toàn mang ý “có hại” như “bad”.  \n- Ví dụ: “Khói thuốc lá rất có hại cho phổi, nên hạn chế hút càng nhiều càng tốt.”"
     },
     {
       "id": 9,
@@ -239,7 +247,8 @@
         "example_vi": "Bộ phim gây chán đối với các học sinh.",
         "ff_example_en": "The students were bored during the film.",
         "ff_example_vi": "Các học sinh cảm thấy chán trong lúc xem phim."
-      }
+      },
+      "explanation_vi": "**Boring /ˈbɔːrɪŋ/**  \n\n- “Boring” dùng để mô tả một sự việc, hoạt động hoặc đối tượng khiến người ta cảm thấy không hứng thú, mất hồn.  \n- Khi muốn nhấn mạnh mức độ tệ hơn, có thể dùng “tedious” (đòi hỏi thời gian, công sức mà không mang lại gì) hoặc “dull” (khô khan, thiếu màu sắc). “Boring” thường nhấn mạnh cảm giác buồn chán của người nghe/đọc.  \n- Thường xuất hiện trong các tình huống nói về lớp học, buổi họp, sách, phim,… mà người nghe cảm thấy không muốn tiếp tục.  \n\n**Ví dụ:**  \nCuộc hội thảo vừa kết thúc, nhưng phần trình bày số liệu quá “boring” khiến mọi người đều dẫm mắt.   (→ người tham dự cảm thấy buồn ngủ, không tập trung)."
     },
     {
       "id": 10,
@@ -263,7 +272,8 @@
         "example_vi": "Trận chung kết rất hấp dẫn.",
         "ff_example_en": "The fans were excited during the final match.",
         "ff_example_vi": "Người hâm mộ rất hào hứng trong trận chung kết."
-      }
+      },
+      "explanation_vi": "**exciting /ɪkˈsaɪtɪŋ/**  \n\n- Từ “exciting” được dùng để mô tả cảm giác hào hứng, kích thích khi một sự việc, sự kiện hay hoạt động mang lại trải nghiệm thú vị và đầy năng lượng.  \n- Khi muốn nhấn mạnh yếu tố “hấp dẫn, lôi cuốn” hơn, ta có thể dùng “captivating”; khi muốn nói về “đầy kịch tính, gây hồi hộp”, ta dùng “thrilling”. “Exciting” thường nhấn mạnh cảm giác vui vẻ, tích cực hơn là sợ hãi.  \n- Ví dụ: Buổi hòa nhạc cuối năm thật “exciting” – khán giả reo hò và không ai muốn rời khỏi sân khấu."
     },
     {
       "id": 11,
@@ -287,7 +297,8 @@
         "example_vi": "Trò chơi trong lớp rất thú vị đối với mọi người.",
         "ff_example_en": "The teacher told a funny story during the class game.",
         "ff_example_vi": "Giáo viên kể một câu chuyện hài hước trong lúc chơi trò chơi ở lớp."
-      }
+      },
+      "explanation_vi": "Từ \"fun\" có nghĩa là niềm vui hoặc sự thú vị. Nó thường được sử dụng để mô tả những trải nghiệm hoặc hoạt động mang lại cảm giác hứng thú và vui vẻ.\n\n- Từ \"fun\" thường được sử dụng trong ngữ cảnh giải trí, chẳng hạn như: \"Tôi đã có một buổi tối rất fun khi xem phim với bạn bè.\"\n- \"Fun\" khác với \"amusement\" vì \"amusement\" nhấn mạnh vào việc giải trí hoặc làm cho ai đó vui vẻ, trong khi \"fun\" nhấn mạnh vào cảm giác vui vẻ hoặc thú vị.\n- Ví dụ mới dễ nhớ: \"Cưỡi ngựa trên bãi biển là một hoạt động rất fun và thú vị.\"\n\nLưu ý: Trong tiếng Anh, \"fun\" cũng có thể được sử dụng như một động từ, có nghĩa là \"sự thú vị\" hoặc \"cảm giác vui vẻ\"."
     },
     {
       "id": 12,
@@ -311,7 +322,8 @@
         "example_vi": "Lan muốn một chiếc máy tính xách tay mới vào sinh nhật.",
         "ff_example_en": "Lan needs a laptop to complete her school project.",
         "ff_example_vi": "Lan cần máy tính xách tay để hoàn thành dự án ở trường."
-      }
+      },
+      "explanation_vi": "**want /wɒnt/**  \n\n- “want” là động từ chỉ mong muốn, ước muốn một điều gì đó; nó thường đi kèm với danh từ hoặc động từ nguyên thể (to + động từ).  \n- Khi muốn nhấn mạnh việc cần thiết hoặc bắt buộc, ta dùng “need”; còn khi nói về sở thích cá nhân, “like” hoặc “prefer” là những từ gần nghĩa nhưng không mang nghĩa “muốn” mạnh như “want”.  \n- Ví dụ mới: *Tôi muốn học tiếng Nhật để có thể du lịch ở Tokyo vào mùa xuân.*"
     },
     {
       "id": 13,
@@ -328,7 +340,8 @@
         "adjective": "thoughtful / thoughtless",
         "adverb": "thoughtfully"
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ \"think\" (verb) trong tiếng Anh có nghĩa là nghĩ, suy nghĩ. Dưới đây là một số ví dụ và thông tin hữu ích:\n\n- \"Think\" thường dùng trong các ngữ cảnh như suy luận, đánh giá, hoặc hình dung. Ví dụ: \"I think this movie will be a hit this summer.\" (Tôi nghĩ bộ phim này sẽ thành công vào mùa hè này.)\n\n- So với từ đồng nghĩa như \"believe\", \"suppose\", \"imagine\", thì \"think\" thường dùng trong các ngữ cảnh suy luận hoặc đánh giá một cách khách quan hơn. Ví dụ: \"I think the teacher is right.\" (Tôi nghĩ giáo viên đúng.)\n\n- Ví dụ mới dễ nhớ: \"I think I left my phone at home.\" (Tôi nghĩ tôi đã để điện thoại tại nhà.)\n\nTóm lại, \"think\" là một từ quan trọng trong tiếng Anh, giúp bạn thể hiện cách suy nghĩ và đánh giá một cách khách quan."
     },
     {
       "id": 14,
@@ -352,7 +365,8 @@
         "example_vi": "Tôi cảm thấy vui khi nghe bài hát này.",
         "ff_example_en": "I fill my room with music when I study.",
         "ff_example_vi": "Tôi để âm nhạc tràn ngập căn phòng khi học."
-      }
+      },
+      "explanation_vi": "Từ \"feel\" (verb) có nghĩa là cảm thấy, cảm nhận. Từ này thường được sử dụng trong các ngữ cảnh sau:\n\n- Cảm nhận cảm xúc: \"Tôi cảm thấy hạnh phúc khi được gặp lại bạn.\"\n- Cảm nhận về cảm giác cơ thể: \"Tôi cảm thấy mệt mỏi sau một ngày làm việc dài.\"\n- Cảm nhận về sự an toàn: \"Tôi cảm thấy an toàn khi có bạn bên tôi.\"\n\nTừ \"feel\" khác với \"think\" ở chỗ:\n\n- \"Think\" thường chỉ suy nghĩ, còn \"feel\" thường chỉ cảm nhận.\n- Ví dụ: \"Tôi nghĩ rằng đó là một ý tưởng tuyệt vời\" (suy nghĩ), còn \"Tôi cảm thấy rằng đó là một ý tưởng tuyệt vời\" (cảm nhận).\n\nVí dụ mới dễ nhớ: \"Tôi cảm thấy thích thú khi được tham gia vào dự án này.\""
     },
     {
       "id": 15,
@@ -376,7 +390,8 @@
         "example_vi": "Lan nói rằng cô ấy thích bộ phim.",
         "ff_example_en": "Lan told her friend that she enjoyed the film.",
         "ff_example_vi": "Lan nói với bạn rằng cô ấy thích bộ phim."
-      }
+      },
+      "explanation_vi": "Từ \"say\" (verb) trong tiếng Anh có nghĩa là nói, phát biểu. Từ này thường được sử dụng trong các ngữ cảnh như sau:\n\n- Khi người nói bày tỏ ý kiến hoặc quan điểm của mình: \"She always says what she thinks — I really admire that about her.\"\n- Khi người nói đưa ra một nhận xét hoặc bình luận: \"He always says what's on his mind.\"\n\nNếu bạn muốn sử dụng từ khác có nghĩa tương tự, có thể dùng từ \"comment\" hoặc \"remark\". Tuy nhiên, \"say\" thường được sử dụng trong các ngữ cảnh thân mật hơn, trong khi \"comment\" và \"remark\" có thể được sử dụng trong các ngữ cảnh công khai hơn.\n\nMột ví dụ mới dễ nhớ:\n\n- \"She says she's going to the party tonight, but I'm not sure if she's serious.\"\n- Ví dụ này cho thấy cách sử dụng từ \"say\" để thể hiện sự nghi ngờ hoặc không chắc chắn về thông tin được người khác đưa ra."
     }
   ],
   "exercises": {

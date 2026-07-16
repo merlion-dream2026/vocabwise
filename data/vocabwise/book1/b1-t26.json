@@ -68,7 +68,8 @@
         "example_vi": "Người hàng xóm mới giúp chúng tôi mang các thùng đồ.",
         "ff_example_en": "Our new neighbourhood is quiet and friendly.",
         "ff_example_vi": "Khu dân cư mới của chúng tôi yên tĩnh và thân thiện."
-      }
+      },
+      "explanation_vi": "Từ \"neighbour\" có nghĩa là hàng xóm, người láng giềng. Từ này thường được sử dụng trong các ngữ cảnh sau:\n\n- Khi mô tả người sống gần nhà mình: \"Mẹ tôi thường giúp hàng xóm nấu ăn.\"\n- Khi nói về mối quan hệ gần gũi với người sống gần: \"Hàng xóm của chúng ta đã giúp đỡ chúng tôi rất nhiều lần.\"\n\nPhân biệt với từ đồng nghĩa:\n\n- \"Hàng xóm\" và \"người láng giềng\" đều có nghĩa tương tự với \"neighbour\", nhưng \"hàng xóm\" thường được sử dụng trong ngữ cảnh Việt Nam, trong khi \"người láng giềng\" có thể được sử dụng trong ngữ cảnh chung.\n- \"Bác hàng xóm\" thường được sử dụng để mô tả người lớn hơn và có kinh nghiệm hơn, trong khi \"hàng xóm\" chỉ đơn giản là người sống gần nhà.\n\nVí dụ mới dễ nhớ:\n\"Mẹ tôi thường giúp hàng xóm của chúng ta sửa chữa nhà cửa vào cuối tuần.\""
     },
     {
       "id": 2,
@@ -85,7 +86,8 @@
         "adjective": "helpful / helpless",
         "adverb": "helpfully"
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "**help /hɛlp/ (verb & noun)**  \n\n1. Khi muốn nói ai đó thực hiện hành động hỗ trợ người khác, ta dùng “giúp” (động từ); ví dụ: “Bạn ấy đã giúp tôi sửa máy tính bị hỏng”.  \n2. Khi muốn nhắc tới sự hỗ trợ nhận được, ta dùng “sự giúp đỡ” (danh từ); ví dụ: “Sự giúp đỡ của đồng nghiệp đã giúp dự án hoàn thành đúng hạn”.  \n3. “Giúp” thường chỉ hành động thực hiện ngay, trong khi “hỗ trợ” thường dùng cho sự trợ giúp chung, rộng hơn và có thể không trực tiếp; vì vậy trong một số ngữ cảnh, “giúp” sẽ nhấn mạnh tính cá nhân, “hỗ trợ” nhấn mạnh tính tổ chức.  \n4. Một câu mới"
     },
     {
       "id": 3,
@@ -109,7 +111,8 @@
         "example_vi": "Chúng tôi nghe thấy tiếng chim trong vườn.",
         "ff_example_en": "We heard a loud noise from the neighbour’s garden.",
         "ff_example_vi": "Chúng tôi nghe thấy một tiếng ồn lớn từ vườn nhà hàng xóm."
-      }
+      },
+      "explanation_vi": "**noise /nɔ"
     },
     {
       "id": 4,
@@ -126,7 +129,8 @@
         "adjective": "community (adj: community centre)",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ \"community\" (noun) có nghĩa là \"cộng đồng\" hoặc \"khu dân cư\". Từ này thường được sử dụng để chỉ một nhóm người sống trong một khu vực cụ thể và có quan hệ với nhau.\n\nTrong ngữ cảnh thường dùng, từ \"community\" thường được sử dụng để chỉ một khu phố, một khu dân cư, hoặc một nhóm người có quan hệ với nhau, thường bao gồm các yếu tố như:\n\n* Cơ sở hạ tầng (ví dụ: trường học, chợ, bệnh viện)\n* Hoạt động cộng đồng (ví dụ: tổ chức sự kiện, dự án phát triển cộng đồng)\n* Quan hệ giữa người dân (ví dụ: sự giúp đỡ, hỗ trợ lẫn nhau)\n\nTừ \"community\" có thể phân biệt với từ đồng nghĩa \"society\" (tổ chức xã hội), vì \"community\" thường tập trung vào quan hệ giữa người dân trong một khu vực cụ thể, trong khi \"society\" có thể bao gồm nhiều mức độ và loại hình tổ chức xã hội hơn.\n\nVí dụ mới dễ nhớ: \"Họ đã thành lập một cộng đồng trực tuyến để kết nối với bạn bè và người thân sống ở các vùng xa.\""
     },
     {
       "id": 5,
@@ -143,7 +147,8 @@
         "adjective": "warm",
         "adverb": "warmly"
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "**Warm /wɔːrm/**  \n\n- Từ “warm” thường dùng để mô tả cảm giác ấm áp về nhiệt độ hoặc tính cách hiền hòa, dễ chịu.  \n- Khi nói về nhiệt độ, “warm” khác “hot” (nóng) ở mức độ nhẹ hơn, không gây khó chịu.  \n- Khi nói về tính cách, “warm” gần nghĩa với “friendly” (thân thiện) nhưng nhấn mạnh sự ấm áp, thân mật trong cách giao tiếp.  \n\nVí dụ: “Giọng nói ấm áp của cô giáo khiến học sinh cảm thấy yên bình và tin tưởng.”"
     },
     {
       "id": 6,
@@ -160,7 +165,8 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": "lend ≠ borrow: 'lend' = cho mượn (bạn đưa cho người khác); 'borrow' = mượn (bạn nhận từ người khác)"
+      "false_friend": "lend ≠ borrow: 'lend' = cho mượn (bạn đưa cho người khác); 'borrow' = mượn (bạn nhận từ người khác)",
+      "explanation_vi": "Từ \"lend\" (verb) có nghĩa là \"cho mượn\" (tạm thời). Đây là một từ thường được sử dụng trong giao tiếp hàng ngày, đặc biệt là trong các tình huống cần sự giúp đỡ tạm thời.\n\n- Ví dụ ngữ cảnh thường dùng: Bạn đến thăm bạn thân và bạn thân không có tiền, bạn có thể cho bạn thân mượn tiền để mua một món đồ cần thiết.\n\n- Phân biệt với từ đồng nghĩa: Từ \"lend\" khác với từ \"borrow\" (mượn). Khi bạn \"lend\" cho ai đó một vật dụng, bạn không phải trả lại hoặc trả lại một khoản tiền nhất định. Ngược lại, khi bạn \"borrow\", bạn phải trả lại vật dụng hoặc khoản tiền đó sau một khoảng thời gian.\n\n- Ví dụ mới dễ nhớ: \"Tôi có thể lend bạn một cuốn sách để bạn đọc trong tuần này, sau đó bạn sẽ trả lại cho tôi.\""
     },
     {
       "id": 7,
@@ -177,7 +183,8 @@
         "adjective": "shared",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ \"share\" có thể là động từ hoặc danh từ, nghĩa là:\n\n- Động từ: chia sẻ (công việc, trách nhiệm, cảm xúc, v.v.)\n- Danh từ: phần chia (của tài sản, lợi ích, v.v.)\n\nNgữ cảnh thường dùng:\n- Chia sẻ công việc hoặc trách nhiệm trong một dự án hoặc nhiệm vụ: \"Tôi sẽ share một số công việc với đồng nghiệp để giảm bớt tải.\"\n- Chia sẻ cảm xúc hoặc ý tưởng với người khác: \"Tôi rất hạnh phúc khi được share cảm xúc với bạn.\"\n- Phân chia tài sản hoặc lợi ích: \"Sau khi chia tay, chúng tôi sẽ share tài sản của mình.\"\n\nPhân biệt với từ đồng nghĩa:\n- \"Share\" khác với \"đồng tác giả\" ở điểm đó \"đồng tác giả\" thường dùng trong ngữ cảnh sáng tác văn học hoặc nghệ thuật, trong khi \"share\" có thể dùng trong nhiều ngữ cảnh khác nhau.\n- \"Share\" khác với \"chia nhau\" ở điểm đó \"chia nhau\" thường dùng trong ngữ cảnh chia sẻ vật chất, còn \"share\" có thể dùng trong cả ngữ cảnh chia sẻ vật chất và không vật chất."
     },
     {
       "id": 8,
@@ -194,7 +201,8 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "**Knock /kɒk/** – nghĩa và cách dùng  \n\n1. Khi muốn thông báo rằng mình đang ở ngoài, người ta thường *gõ"
     },
     {
       "id": 9,
@@ -218,7 +226,8 @@
         "example_vi": "Minh gõ cửa chính nhà hàng xóm.",
         "ff_example_en": "Minh waited for the neighbour at the garden gate.",
         "ff_example_vi": "Minh chờ người hàng xóm tại cổng vườn."
-      }
+      },
+      "explanation_vi": "Từ \"door\" trong tiếng Anh là một động từ (noun), có nghĩa là cửa (ra vào), cánh cửa. Từ này thường được sử dụng trong ngữ cảnh như sau:\n\n- Cửa ra vào của một ngôi nhà, tòa nhà, hoặc một phòng.\n- Phía sau một cánh cửa, có thể là một không gian riêng tư hoặc một phòng bí mật.\n\nSo với từ đồng nghĩa \"gate\", \"entrance\" hay \"entranceway\", từ \"door\" thường được sử dụng để chỉ một cánh cửa cụ thể, còn \"gate\" thường chỉ một cánh cổng lớn hơn, thường được sử dụng ở các khu vực như sân bay, công viên,... \"Entrance\" và \"entranceway\" thường chỉ khu vực ra vào của một tòa nhà hoặc một khu vực.\n\nVí dụ mới dễ nhớ:\n\n- \"She opened the door to let the cat out, but it ran back in.\" (Cô mở cửa để cho mèo ra ngoài, nhưng nó lại chạy vào trong).\n\nTrong ví dụ này, \"door\" được sử dụng để chỉ cánh cửa của ngôi nhà, và \"opened\" là động từ mà cô thực hiện."
     },
     {
       "id": 10,
@@ -235,7 +244,8 @@
         "adjective": "outside / outdoor",
         "adverb": "outside / outdoors"
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ \"outside\" trong tiếng Anh có thể là một tính từ (adjective) hoặc một từ chỉ vị trí (adverb). Nó thường được sử dụng để chỉ sự vật hoặc người ở bên ngoài một không gian cụ thể.\n\nNghĩa thường dùng của \"outside\" là bên ngoài, ngoài trời, ví dụ như:\n\n- Chúng tôi thích nằm ngoài trời vào buổi tối để ngắm sao. (We like to lie outside in the evenings to watch the stars.)\n- Cô ấy đang đứng ngoài trời chờ tôi. (She is standing outside waiting for me.)\n\nTừ đồng nghĩa của \"outside\" có thể là \"outdoor\", nhưng \"outdoor\" thường được sử dụng để chỉ không gian ngoài trời như sân, công viên, v.v. trong khi \"outside\" có thể chỉ bất kỳ không gian nào bên ngoài một vật thể hoặc một không gian cụ thể.\n\nVí dụ mới dễ nhớ: Chúng tôi thường đi dạo bên ngoài công viên vào buổi sáng để tập thể dục. (We usually go for a walk outside the park in the mornings to exercise.)"
     },
     {
       "id": 11,
@@ -252,7 +262,8 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ \"fence\" (noun) trong tiếng Anh có nghĩa là hàng rào. Đây là một trong những từ vựng quan trọng trong tiếng Anh, thường được sử dụng trong các ngữ cảnh sau:\n\n- Hàng rào ngăn cách hai khu vực riêng biệt, như một khu vườn và một khu nhà hàng xóm (ví dụ trên).\n- Hàng rào trang trí trong những khu vườn hoặc công viên để tạo không gian đẹp và yên tĩnh.\n- Hàng rào được sử dụng để chứa hoặc ngăn chặn động vật, như một hàng rào để chứa lợn trong trang trại.\n\nĐể phân biệt với từ đồng nghĩa, có thể sử dụng từ \"gate\" (cửa hàng rào), \"wall\" (hàng tường), hoặc \"enclosure\" (khu vực bị giới hạn hoặc bao quanh).\n\nVí dụ mới dễ nhớ: \"The new housing projects will have a fence around the playground to ensure children's safety.\" (Các dự án nhà ở mới sẽ có một hàng rào bao quanh sân chơi để đảm bảo an toàn cho trẻ em.)"
     },
     {
       "id": 12,
@@ -269,7 +280,8 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ \"garden\" (noun) trong tiếng Anh có nghĩa là vườn hoặc khu vườn. Đây là nơi trồng cây, hoa, rau và thường được thiết kế để tạo ra một không gian đẹp và yên tĩnh.\n\nTừ này thường được sử dụng trong ngữ cảnh sau:\n\n- Đất dành cho trồng cây, hoa, rau: \"Bố tôi đã tạo một khu vườn trong backyard để trồng các loại rau và hoa.\"\n\n- Khu vực ngoài trời được thiết kế đẹp: \"Khu vườn sau nhà của chúng tôi có một cái hồ nhỏ và nhiều loại cây cảnh.\"\n\n- Nơi thư giãn và giải trí: \"Tôi luôn cảm thấy thư giãn khi đi dạo trong khu vườn sau nhà.\"\n\nMột từ đồng nghĩa của \"garden\" là \"yard\", nhưng \"yard\" thường chỉ mặt bằng rộng hơn và không nhất thiết phải có cây trồng.\n\nVí dụ mới dễ nhớ: \"Tôi đã tạo một khu vườn mini trên ban công để trồng một số loại cây nhỏ và hoa.\""
     },
     {
       "id": 13,
@@ -293,7 +305,8 @@
         "example_vi": "Âm nhạc ở nhà bên cạnh rất to.",
         "ff_example_en": "The house next door was very noisy during the party.",
         "ff_example_vi": "Nhà bên cạnh rất ồn ào trong bữa tiệc."
-      }
+      },
+      "explanation_vi": "Từ tiếng Anh \"loud\" có nghĩa là ồn ào, to. Từ này thường được sử dụng để mô tả âm thanh hoặc tiếng nói có mức độ lớn.\n\nTrong các ngữ cảnh thường dùng, \"loud\" thường được sử dụng để mô tả:\n\n- Âm thanh ồn ào, như âm nhạc, tiếng ồn đường phố, v.v.\n- Tiếng nói to, như khi người nói đang hét to hoặc nói với giọng điệu mạnh.\n\nTừ \"loud\" khác với từ đồng nghĩa \"noise\" ở chỗ \"noise\" thường được sử dụng để mô tả âm thanh ồn ào nhưng không nhất thiết phải có nghĩa là âm thanh lớn, trong khi \"loud\" luôn có nghĩa là âm thanh lớn.\n\nVí dụ mới dễ nhớ:\n\n- \"The fireworks exploded in the sky, making a very loud boom that startled everyone.\" (Pháo hoa nổ lên trong bầu trời, tạo ra một tiếng động lớn khiến mọi người đều kinh ngạc.)\n\nHy vọng thông tin trên sẽ giúp các học sinh IELTS hiểu rõ hơn về từ \"loud\" và cách sử dụng nó trong các ngữ cảnh khác nhau."
     },
     {
       "id": 14,
@@ -317,7 +330,8 @@
         "example_vi": "Những người hàng xóm muốn chung sống trong hòa bình.",
         "ff_example_en": "The neighbours shared a piece of cake after settling the dispute.",
         "ff_example_vi": "Những người hàng xóm chia nhau một miếng bánh sau khi giải quyết tranh chấp."
-      }
+      },
+      "explanation_vi": "Từ \"peace\" (noun) trong tiếng Anh có nghĩa là sự bình yên, hòa bình. Từ này thường được sử dụng trong các ngữ cảnh sau:\n\n- Sự yên tĩnh: \"Peace and quiet\" dùng để miêu tả một môi trường yên tĩnh, không ồn ào.\n- Sự hòa bình: \"Peace treaty\" dùng để miêu tả một hiệp định hòa bình giữa các quốc gia hoặc nhóm người.\n- Sự ổn định: \"Peace of mind\" dùng để miêu tả một trạng thái tinh thần ổn định, không lo lắng.\n\nPhân biệt với từ đồng nghĩa, \"peace\" thường tập trung vào khía cạnh hòa bình và ổn định, trong khi \"calm\" và \"serene\" thường tập trung vào khía cạnh yên tĩnh.\n\nVí dụ mới dễ nhớ: \"The peace of the forest was soothing to my soul.\""
     },
     {
       "id": 15,
@@ -334,7 +348,8 @@
         "adjective": "disputed",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ tiếng Anh \"dispute\" có thể là danh từ (noun) hoặc động từ (verb). Nghĩa của từ này là tranh chấp, mâu thuẫn hoặc tranh cãi.\n\nDanh từ (noun): tranh chấp, mâu thuẫn\n- Ví dụ: Câu tranh chấp giữa hai bên đã kéo dài nhiều tháng.\n\nĐộng từ (verb): tranh cãi, mâu thuẫn\n- Ví dụ: Họ đã tranh cãi về vấn đề tài chính.\n\nTừ đồng nghĩa: conflict, argument, disagreement. Tuy nhiên, mỗi từ này có sắc thái nhẹ nhàng hoặc nghiêm trọng khác nhau:\n\n- Conflict: tranh chấp, xung đột (nghe nặng nề hơn)\n- Argument: tranh cãi, mâu thuẫn (nghe nhẹ nhàng hơn)\n- Disagreement: khác ý kiến, mâu thuẫn (nghe nhẹ nhàng hơn)\n\nVí dụ mới dễ nhớ: Hai anh em đã có một dispute về việc chia tài sản khi cha mẹ mất."
     }
   ],
   "exercises": {

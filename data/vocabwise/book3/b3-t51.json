@@ -62,7 +62,8 @@
         "adverb": null
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Consequentialism (khoàn ngữ hệ quả)**\n\nConsequentialism là một triết lý đạo đức đánh giá hành động theo kết quả cuối cùng. Người ta thường áp dụng nguyên tắc này để quyết định liệu một hành động nào đó có đạo đức hay không.\n\nNguyên tắc này thường được sử dụng trong các tình huống quyết định lớn, như quyết định về chính sách, quyết định về dự án hoặc quyết định về hành động cá nhân.\n\nConsequentialism khác với deontology (chủ nghĩa trách nhiệm), một triết lý đạo đức khác tập trung vào nguyên tắc và quy tắc mà một hành động phải tuân thủ. Ví dụ, một người theo deontology có thể cho rằng một hành động bất hợp pháp vẫn có thể được coi là đạo đức nếu nó được thực hiện vì mục đích tốt.\n\nVí dụ mới dễ nhớ: Một công ty quyết định đầu tư vào một dự án mới, nhưng dự án này có thể gây ra ô nhiễm môi trường nghiêm trọng. Nếu công ty theo nguyên tắc consequentialism, họ sẽ cân nhắc xem kết quả cuối cùng của dự án có tốt hay không, và quyết định đầu tư dựa trên kết quả đó."
     },
     {
       "id": 2,
@@ -80,7 +81,8 @@
         "adverb": "deontologically"
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Deontology /diːˈɒn.tə.lə.dʒi/**  \n\n- “Deontology” thường được dùng để chỉ trường phái đạo đức nhấn mạnh rằng hành vi phải dựa trên các quy tắc và nghĩa vụ, không phụ thuộc vào hậu quả.  \n- Khác với “utilitarianism” (đạo đức lợi ích), “deontology” không chấp nhận việc vi phạm nguyên tắc chỉ vì có thể mang lại lợi ích tổng thể.  \n- Khi muốn nói rằng một nguyên tắc đạo đức không được phép nhượng bộ, ta có thể dùng “deontology” để nhấn mạnh tính bất biến của quy tắc.  \n- Ví dụ: “Theo deontology, việc nói dối trong bất kỳ hoàn cảnh nào đều bị coi là sai, dù mục đích là bảo vệ người thân.”"
     },
     {
       "id": 3,
@@ -98,7 +100,8 @@
         "adverb": "virtuously"
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**virtue ethics /ˈvɜːrtʃu ˈɛθɪks/**  \n\n1. “đức hạnh đạo đức” là một trường phái triết học nhấn mạnh việc rèn luyện những tính cách tốt, thay vì chỉ tuân theo các quy tắc cứng nhắc.  \n2. Khi so sánh với “đạo đức quy tắc”, “đức hạnh đạo đức” tập trung vào việc hình thành nhân cách, còn “đạo đức quy tắc” chú trọng vào việc tuân thủ luật lệ hay nguyên tắc.  \n3. Ví dụ: Khi quyết định giúp đỡ người nghèo, người theo “đức hạnh đạo đức” sẽ hỏi mình nên trở thành người nào có lòng nhân ái, chứ không chỉ hỏi liệu hành động có phù hợp với quy định hay không."
     },
     {
       "id": 4,
@@ -116,7 +119,8 @@
         "adverb": "relativistically"
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**moral relativism /ˈmɔːrəl rɪˈlativɪzəm/**  \n\n1. “Chủ nghĩa tương đối đạo đức” thường được dùng khi nói về quan điểm cho rằng chuẩn mực đạo đức thay đổi tùy vào nền văn hoá, lịch sử hay hoàn cảnh xã hội của mỗi nhóm người.  \n2. Nó khác với “chủ nghĩa tuyệt đối đạo đức” – khái niệm cho rằng có những quy tắc đạo đức cố định, không phụ thuộc vào bất kỳ nền văn hoá nào.  \n3. Khi thảo luận về các vấn đề như quyền phụ nữ hay hình thức trừng phạt, người ủng hộ “chủ nghĩa tương đối đạo đức” sẽ nhấn mạnh rằng không thể áp dụng một tiêu chuẩn chung cho tất cả các xã hội.  \n4. Ví dụ: “Trong một số nền văn hoá, việc ăn thịt chó được xem là bình thường; vì vậy, người theo chủ nghĩa tương đối đạo đức sẽ cho rằng việc lên án hành vi này là không công bằng nếu không xét đến bối cảnh văn hoá địa phương.”"
     },
     {
       "id": 5,
@@ -141,7 +145,8 @@
         "ff_example_en": "The seminar room’s utility came from its flexible furniture and equipment.",
         "ff_example_vi": "Tính hữu dụng của phòng hội thảo đến từ nội thất và thiết bị linh hoạt."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Utilitarianism** /juːˌtɪlɪˈtɛərɪənɪzəm/ (danh từ)\n\n- **Ngữ cảnh thường dùng**: Thuật ngữ này xuất hiện trong các bài viết, bài nói về triết học đạo đức, chính sách công, hoặc các quyết định kinh doanh khi người nói muốn nhấn mạnh rằng “lợi ích chung” hoặc “hạnh phúc tổng thể” là tiêu chí tối thượng.  \n- **Phân biệt với từ đồng nghĩa**: “Utilitarianism” là **thuyết vị lợi** – một hệ thống đạo đức, còn “utilitarian” (tính từ) chỉ người hoặc hành động “vị lợi”. Từ “pragmatism” (thực dụng) chỉ cách tiếp cận dựa trên tính khả thi, không nhất thiết liên quan tới việc tối đa hoá hạnh phúc.  \n- **Ví dụ mới dễ nhớ**: *Chính phủ quyết định đóng cửa một số khu công nghiệp cũ để xây dựng công viên xanh, vì theo quan điểm utilitarianism, việc này sẽ mang lại không khí trong lành và niềm vui cho đa số cư dân thành phố.*"
     },
     {
       "id": 6,
@@ -166,7 +171,8 @@
         "ff_example_en": "The hospital uses automation to process routine records.",
         "ff_example_vi": "Bệnh viện dùng tự động hóa để xử lý hồ sơ thường lệ."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**autonomy** /ɔːˈtɒnəmi/  \n\n- “Autonomy” thường được dùng để chỉ quyền tự quyết, quyền làm chủ các quyết định của một cá nhân hoặc một tổ chức, chứ không chỉ là sự không phụ thuộc chung chung.  \n- Từ đồng nghĩa gần nhất là “độc lập”, nhưng “độc lập” thường dùng để mô tả trạng thái của một quốc gia, một khu vực hay một hệ thống không chịu sự kiểm soát của bên khác; còn “autonomy” nhấn mạnh vào quyền lựa chọn và hành động của người hoặc nhóm cụ thể.  \n- Khi nói “cái quyền tự chủ”, chúng ta thường gặp trong các bối cảnh y tế, giáo dục, hoặc quản trị công việc, nơi mà người chịu ảnh hưởng có thể tự quyết định về hành động của mình.  \n- **Ví dụ:** Sinh viên có autonomy trong việc lựa chọn đề tài nghiên cứu, vì vậy họ có thể tự do quyết"
     },
     {
       "id": 7,
@@ -184,7 +190,8 @@
         "adverb": "justly"
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Justice (noun) – “công lý / sự công bằng”**  \n\n1. **Ngữ cảnh thường dùng:** “Justice” xuất hiện trong các cuộc thảo luận về luật, đạo đức, quyền con người hoặc khi nói về việc xã hội xử lý một cách công bằng, không thiên vị.  \n2. **Phân biệt với từ đồng nghĩa:**  \n   - **Fairness** (công bằng) nhấn mạnh tính “đối xử công bằng” trong từng trường hợp cụ thể.  \n   - **Justice** (công lý) rộng hơn, bao hàm cả nguyên tắc pháp lý và đạo đức, thường gắn với việc “đáp trả đúng” cho hành động sai trái.  \n3. **Ví dụ dễ nhớ:** *Sau khi xét xử, tòa án đã đưa ra bản án để bảo đảm justice cho nạn nhân, khiến kẻ phạm tội phải chịu trách nhiệm.*   (Ở đây “justice” mang nghĩa “công lý” – việc đưa ra quyết định đúng đắn dựa trên luật pháp và đạo đức.)"
     },
     {
       "id": 8,
@@ -209,7 +216,8 @@
         "ff_example_en": "The hospital improved the integration of patient records across departments.",
         "ff_example_vi": "Bệnh viện cải thiện việc tích hợp hồ sơ bệnh nhân giữa các khoa."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Integrity** (noun) – tính chính trực, sự liêm chính  \n\n1. Thường dùng để mô tả người luôn giữ vững các nguyên tắc đạo đức, không thay đổi quan điểm dù không có ai giám sát.  \n2. Từ đồng nghĩa gần nhất là **honesty** (sự trung thực), nhưng “integrity” nhấn mạnh toàn bộ hệ thống giá trị và hành động nhất quán, còn “honesty” chỉ tập trung vào việc không nói dối.  \n3. Ví dụ dễ nhớ: *Nhân viên kế toán có integrity sẽ không sửa đổi số liệu tài chính dù sếp không có mặt để kiểm tra.*"
     },
     {
       "id": 9,
@@ -234,7 +242,8 @@
         "ff_example_en": "The inquiry examined the system's capability to prevent accidents.",
         "ff_example_vi": "Cuộc điều tra xem xét năng lực ngăn tai nạn của hệ thống."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Culpability** /kʌlˈpəbɪlɪti/ (danh từ)\n\n1. **Nghĩa cơ bản**: “cú pháp” chỉ mức độ **có tội, chịu trách nhiệm (pháp lý hoặc đạo đức)** của một người đối với một hành vi sai trái. Khi nói “culpability” chúng ta nhấn mạnh *độ nghiêm trọng* và *độ liên quan* của người đó với lỗi.\n\n2. **Ngữ cảnh thường dùng**:  \n   - Trong **pháp luật**: xét xử, quyết định án, hoặc khi đánh giá “degree of culpability” (mức độ tội lỗi).  \n   - Trong **đạo đức**: bàn về trách nhiệm cá nhân trong các tình huống gây hại, ví dụ trong các bài luận về trách nhiệm xã hội.\n\n3. **Phân biệt với từ đồng nghĩa**:  \n   - **Responsibility**: chỉ “trách nhiệm” chung, không nhất thiết là có lỗi; có thể dùng cho cả việc làm tốt (ví dụ: “responsibility for a project”).  \n   - **Guilt**: thường dùng để nói “cảm giác tội lỗi” hay “tội lỗi đã được xác định”, tập trung vào cảm xúc cá nhân.  \n   - **Culpability**: nhấn mạnh *mức độ* và *có/không có* lỗi trong một hành vi; thường đi kèm với từ “degree” (mức độ) hoặc “liability” (trách nhiệm pháp lý).\n\n4. **Ví dụ mới dễ nhớ**:  \n   - *“The investigation focused on the culpability of the manager, who ignored the safety warnings that led to the accident.”*"
     },
     {
       "id": 10,
@@ -252,7 +261,8 @@
         "adverb": null
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Dilemma** /daɪˈlɛmə/ – danh từ, chỉ “tình huống nan giải, tiến thoái lưỡng nan” khi người ta phải lựa chọn giữa hai (hoặc nhiều) lựa chọn đều có hậu quả không mong muốn.\n\n- Thường dùng trong các bối cảnh cần đưa ra quyết định khó khăn: trong công việc, trong đạo đức, hoặc trong các vấn đề xã hội.  \n- Từ đồng nghĩa gần nhất là **predicament** (tình huống khó xử), nhưng *predicament* nhấn mạnh vào sự bất lợi, còn *dilemma* nhấn mạnh vào sự “hai con đường” phải chọn, mỗi con đường đều có rủi ro.  \n- **Ví dụ:** Khi công ty yêu cầu bạn làm thêm giờ để hoàn thành dự án, nhưng bạn cũng phải chăm lo việc học cho kỳ thi IELTS, bạn rơi vào một dilemma giữa công việc và tương lai học tập."
     },
     {
       "id": 11,

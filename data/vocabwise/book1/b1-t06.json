@@ -61,7 +61,8 @@
         "adjective": "bodily",
         "adverb": "bodily"
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ \"body\" trong tiếng Anh có nghĩa là cơ thể. Từ này thường được sử dụng trong các ngữ cảnh sau:\n\n- Cảm giác và cảm xúc: \"Body language\" (ngôn ngữ cơ thể) dùng để chỉ cách thể hiện cảm xúc và ý định thông qua cử chỉ và hành động.\n- Sinh học và y học: \"Human body\" (cơ thể con người) dùng để chỉ cấu trúc và chức năng của cơ thể con người.\n- Bóng đá và thể thao: \"Body kiểm tra\" (kiểm tra cơ thể) dùng để chỉ hành động chạm vào đối thủ trong một cuộc chiến tranh.\n\nTừ \"body\" khác với từ \"cơ thể vật lý\", vì \"cơ thể vật lý\" chỉ bộ phận vật chất của cơ thể, trong khi \"body\" có thể bao gồm cả cảm xúc và tinh thần.\n\nVí dụ mới dễ nhớ: \"She took care of her body by eating healthy food and exercising regularly.\""
     },
     {
       "id": 2,
@@ -78,7 +79,8 @@
         "adjective": "healthy / unhealthy",
         "adverb": "healthily"
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ \"healthy\" (adjective) trong tiếng Anh có nghĩa là khỏe mạnh, tốt cho sức khỏe. Từ này thường được sử dụng để mô tả tình trạng sức khỏe tốt, không có bệnh tật hoặc không có biểu hiện bất thường.\n\nTừ \"healthy\" thường được sử dụng trong các ngữ cảnh như:\n\n- Ăn uống cân đối và tập thể dục thường xuyên giúp cơ thể khỏe mạnh.\n- Một chế độ ăn uống lành mạnh đóng vai trò quan trọng trong việc duy trì sức khỏe tốt.\n- Cô ấy luôn chọn thực phẩm tốt cho sức khỏe để giảm cân.\n\nTừ \"healthy\" có thể phân biệt với các từ đồng nghĩa như \"well\" hoặc \"sick-free\", nhưng \"healthy\" thường tập trung vào việc duy trì sức khỏe tốt và ngăn ngừa bệnh tật, trong khi \"well\" có thể chỉ tình trạng sức khỏe tốt trong một thời gian ngắn, và \"sick-free\" chỉ trạng thái không bị bệnh.\n\nVí dụ mới dễ nhớ: \"Bên cạnh việc uống nhiều nước, một chế độ ăn uống lành mạnh giúp cơ thể khỏe mạnh và tránh các bệnh lý về đường tiêu hóa.\""
     },
     {
       "id": 3,
@@ -95,7 +97,8 @@
         "adjective": "sick / sickly",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ tiếng Anh \"sick\" có nghĩa là bệnh, ốm, thường được sử dụng để mô tả cảm giác không khỏe hoặc bị ốm.\n\nNgữ cảnh thường dùng:\n\n- Sử dụng khi mô tả cảm giác không khỏe: \"Tôi cảm thấy sick khi nhìn thấy máu.\"\n- Sử dụng khi mô tả bị ốm: \"Cô ấy đã bị sick và phải nằm viện.\"\n\nPhân biệt với từ đồng nghĩa:\n\n- \"Sick\" thường được sử dụng để mô tả cảm giác không khỏe hoặc bị ốm trong một thời gian ngắn.\n- \"Ill\" thường được sử dụng để mô tả tình trạng bệnh tật kéo dài hoặc nghiêm trọng hơn.\n- Ví dụ: \"Cô ấy bị ill từ lâu và phải được chăm sóc y tế chuyên sâu.\"\n\nVí dụ mới dễ nhớ:\n\n- \"Tôi cảm thấy sick khi xem phim kinh dị và phải bỏ qua một phần.\""
     },
     {
       "id": 4,
@@ -112,7 +115,8 @@
         "adjective": "doctoral",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ \"doctor\" trong tiếng Anh có nghĩa là bác sĩ. Đây là một công việc đòi hỏi chuyên môn cao và trách nhiệm lớn trong lĩnh vực y tế.\n\nTừ \"doctor\" thường được sử dụng trong các ngữ cảnh như:\n\n- Bác sĩ khám bệnh: \"Bác sĩ khám bệnh cho em bé của tôi.\"\n- Điều trị bệnh: \"Bác sĩ kê đơn thuốc cho tôi.\"\n- Cố vấn sức khỏe: \"Bác sĩ tư vấn cho tôi về cách sống khỏe.\"\n\nĐể phân biệt với từ đồng nghĩa, ta có thể sử dụng từ \"nurse\" (y tá), người có thể giúp đỡ bác sĩ trong quá trình khám bệnh và điều trị bệnh.\n\nVí dụ mới dễ nhớ: \"Bác sĩ đã cứu sống bệnh nhân sau cơn đột quỵ.\""
     },
     {
       "id": 5,
@@ -136,7 +140,8 @@
         "example_vi": "Người du khách bị thương được đưa đến bệnh viện gần nhất.",
         "ff_example_en": "The hospital staff showed great hospitality to the tourist's family.",
         "ff_example_vi": "Nhân viên bệnh viện thể hiện lòng hiếu khách với gia đình người du khách."
-      }
+      },
+      "explanation_vi": "Từ \"hospital\" trong tiếng Anh có nghĩa là bệnh viện. Đây là nơi điều trị và chăm sóc bệnh nhân.\n\nTừ \"hospital\" thường được sử dụng trong các ngữ cảnh như:\n\n- Đưa bệnh nhân đến bệnh viện để điều trị: \"Bệnh nhân sẽ được đưa đến bệnh viện để kiểm tra và điều trị.\"\n- Bệnh viện có nhiều khoa và bộ phận khác nhau: \"Bệnh viện có khoa nhi, khoa ngoại khoa và khoa khám bệnh.\"\n\nSo với từ đồng nghĩa \"clinic\", \"hospital\" thường chỉ bệnh viện lớn và có nhiều phòng khám và khoa hơn. \"Clinic\" thường chỉ nơi khám bệnh nhỏ và không có phòng dài hạn.\n\nVí dụ mới: \"Sau khi bị tai nạn, anh ta được đưa đến bệnh viện để được điều trị vết thương.\"\n\nTóm lại, từ \"hospital\" là một từ quan trọng trong tiếng Anh, thường được sử dụng trong các ngữ cảnh liên quan đến bệnh viện và chăm sóc sức khỏe."
     },
     {
       "id": 6,
@@ -160,7 +165,8 @@
         "example_vi": "Bác sĩ cho Minh một ít thuốc trị ho.",
         "ff_example_en": "The doctor warned Minh never to take an unknown drug.",
         "ff_example_vi": "Bác sĩ cảnh báo Minh không bao giờ được dùng một loại dược chất không rõ nguồn gốc."
-      }
+      },
+      "explanation_vi": "Từ \"medicine\" trong tiếng Anh có nghĩa là thuốc hoặc y học. Dưới đây là một số ví dụ và thông tin về từ này:\n\n- Từ \"medicine\" thường được sử dụng trong ngữ cảnh về chăm sóc sức khỏe. Ví dụ: \"Tôi cần mua thêm thuốc để điều trị bệnh tật.\"\n- Từ này có thể được sử dụng để chỉ cả loại thuốc để chữa bệnh và ngành y học. Tuy nhiên, trong nhiều trường hợp, \"medicine\" được sử dụng để chỉ loại thuốc, còn ngành y học được gọi là \"medicine\" hoặc \"medical science\".\n- Một từ đồng nghĩa của \"medicine\" là \"drug\", nhưng \"drug\" thường được sử dụng để chỉ loại thuốc cụ thể, có thể có tác dụng phụ hoặc gây nghiện. Ví dụ: \"Tôi không nên uống quá nhiều thuốc vì nó có thể gây hại cho sức khỏe.\"\n- Một ví dụ mới dễ nhớ: \"Chuyên gia về y học đã phát triển một loại thuốc mới để điều trị bệnh ung thư.\"\n\nTrong các câu trên, chúng ta có thể thấy từ \"medicine\" được sử dụng trong các ngữ cảnh khác nhau: mua thuốc, ngành y học, loại thuốc chữa bệnh và phát triển thuốc mới."
     },
     {
       "id": 7,
@@ -177,7 +183,8 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ \"exercise\" có hai nghĩa là danh từ (noun) và động từ (verb).\n\n- Danh từ (noun): bài tập thể dục; tập thể dục\n- Động từ (verb): thực hiện, áp dụng hoặc sử dụng một kỹ năng hoặc hành động cụ thể.\n\nVí dụ về ngữ cảnh thường dùng:\n\n- \"Tôi thực hành yoga hàng tuần để cải thiện sức khỏe.\" (động từ)\n- \"Tôi cần thực hành bài tập này nhiều hơn để thành thạo nó.\" (động từ)\n- \"Tôi yêu thích việc đi bộ trong rừng như một bài tập thể dục ngoài trời.\" (danh từ)\n\nTừ đồng nghĩa với \"exercise\" là \"physical activity\" hoặc \"gym workout\", nhưng ý nghĩa và ngữ cảnh sử dụng có thể khác nhau.\n\nVí dụ mới dễ nhớ: \"Tôi thường thực hành viết lách vào mỗi sáng để cải thiện kỹ năng viết.\" (động từ)\n\nHãy nhớ rằng, khi sử dụng từ \"exercise\", bạn cần xem xét ngữ cảnh và nghĩa của từ để tránh nhầm lẫn."
     },
     {
       "id": 8,
@@ -201,7 +208,8 @@
         "example_vi": "Lan cảm thấy một cơn đau nhói ở lưng sau khi bị ngã.",
         "ff_example_en": "Lan had a dull backache after sitting all day.",
         "ff_example_vi": "Lan bị đau lưng âm ỉ sau khi ngồi cả ngày."
-      }
+      },
+      "explanation_vi": "**pain /peɪn/**  \n\n- “Pain” chỉ cảm giác đau đớn, thường xuất hiện đột ngột và có thể kéo dài trong một thời gian ngắn.  \n- Khi nói “cơn đau”, nhấn mạnh vào một lần đau cụ thể; còn “sự đau đớn” nhấn mạnh mức độ và tính chất kéo dài, có thể kèm theo cảm xúc buồn bã.  \n- Từ đồng nghĩa gần nhất là “đau”, nhưng “pain” thường dùng trong ngữ cảnh y khoa hoặc mô tả cảm giác vật lý rõ ràng, trong khi “đau” có thể bao hàm cả nỗi buồn tinh thần.  \n- Ví dụ: “Cô ấy cảm thấy một cơn đau nhói ở lưng sau khi ngồi lâu trên ghế.”"
     },
     {
       "id": 9,
@@ -225,7 +233,8 @@
         "example_vi": "Đứa trẻ bị sốt và nên nghỉ ở nhà.",
         "ff_example_en": "The nurse took the child’s temperature with a thermometer.",
         "ff_example_vi": "Y tá đo nhiệt độ của đứa trẻ bằng nhiệt kế."
-      }
+      },
+      "explanation_vi": "**fever /ˈfiːvər/**  \n\n- “Fever” là danh từ chỉ tình trạng cơ thể nhiệt độ cao hơn mức bình thường, thường kèm theo cảm giác ấm và có thể xuất hiện các triệu chứng như đổ mồ hôi, ớn lạnh.  \n- Từ đồng nghĩa gần nhất là “sốt”, nhưng “cơn sốt” nhấn mạnh vào thời gian ngắn và mức độ cao của nhiệt độ, trong khi “sốt” có thể dùng cho cả trường hợp nhẹ hoặc kéo dài.  \n- Khi muốn nói người đang bị sốt, ta dùng cấu trúc “bị sốt” hoặc “có cơn sốt”; không dùng “cảm lạnh” vì đó là hiện tượng nhiệt độ cơ thể giảm, hoàn toàn ngược lại.  \n- Ví dụ: “Sau khi tiêm phòng, cô bé đã bị sốt và phải nghỉ ngơi trong nhà suốt một ngày.”"
     },
     {
       "id": 10,
@@ -242,7 +251,8 @@
         "adjective": "restful / restless",
         "adverb": "restfully"
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ \"rest\" trong tiếng Anh có nghĩa là nghỉ ngơi, có thể sử dụng như một động từ (verb) hoặc một danh từ (noun).\n\n- Động từ (verb): có nghĩa là nghỉ ngơi, thư giãn, không làm việc gì.\n- Danh từ (noun): có nghĩa là sự nghỉ ngơi, khoảng thời gian nghỉ ngơi.\n\nTừ \"rest\" thường được sử dụng trong các ngữ cảnh sau:\n\n- Sau khi ốm hoặc bị thương, cần thời gian để hồi phục sức khỏe.\n- Khi mệt mỏi hoặc căng thẳng, cần nghỉ ngơi để thư giãn.\n\nTừ đồng nghĩa của \"rest\" bao gồm \"relax\", \"recovery\", \"holiday\", nhưng \"rest\" thường được sử dụng trong các ngữ cảnh cụ thể hơn.\n\nVí dụ: Sau khi chạy marathon, cô ấy cần thời gian để rest và hồi phục sức khỏe.\n\nLưu ý: Trong một số ngữ cảnh, từ \"rest\" có thể được sử dụng thay thế cho từ \"sleep\", nhưng thông thường \"sleep\" có nghĩa là ngủ, còn \"rest\" có nghĩa là nghỉ ngơi, bao gồm cả việc ngủ và không ngủ."
     },
     {
       "id": 11,
@@ -259,7 +269,8 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ tiếng Anh \"head\" (noun) có nghĩa là \"đầu, cái đầu\". Đây là một từ cơ bản và thường được sử dụng trong nhiều ngữ cảnh khác nhau.\n\nTừ \"head\" thường được dùng để chỉ phần trên của cơ thể, chẳng hạn như:\n\n- Đầu người: \"Hôm nay, tôi bị đau đầu vì thức khuya.\" (headache)\n- Đầu con vật: \"Con chó có một cái đầu to và mạnh mẽ.\"\n- Đầu một đường sông: \"Đầu sông chảy vào biển.\"\n\nTừ \"head\" khác với từ đồng nghĩa \"brain\" (tâm trí), vì \"head\" chỉ phần trên của cơ thể, trong khi \"brain\" chỉ phần não bộ.\n\nVí dụ mới dễ nhớ: \"Tôi đã đốt cháy đầu tóc khi sử dụng máy sấy tóc không đúng cách.\" (head - phần tóc ở trên đầu)\n\nTóm lại, \"head\" là một từ cơ bản và thường được sử dụng trong nhiều ngữ cảnh khác nhau, chỉ phần trên của cơ thể hoặc một phần cụ thể khác."
     },
     {
       "id": 12,
@@ -283,7 +294,8 @@
         "example_vi": "Nam bị đau bàn tay khi quả bóng đập vào các ngón tay.",
         "ff_example_en": "Nam hurt his arm when he fell on his shoulder.",
         "ff_example_vi": "Nam bị đau cánh tay khi ngã đè lên vai."
-      }
+      },
+      "explanation_vi": "Từ \"hand\" (noun) trong tiếng Anh có nghĩa là bàn tay. Dưới đây là một số ví dụ và phân tích:\n\nTừ \"hand\" thường được sử dụng trong các ngữ cảnh như:\n\n- Rửa tay trước khi ăn để tránh bệnh tật: Always wash your hands before eating to stay healthy.\n- Chức năng của bàn tay trong hoạt động hàng ngày: My hands are busy cooking dinner.\n- Mặc dù bàn tay có thể được sử dụng để viết, nhưng có thể dùng từ \"palm\" để chỉ phần thịt của bàn tay.\n- Bàn tay cũng có thể được sử dụng để chỉ khả năng hoặc kỹ năng: She has a skilled hand in painting.\n\nVí dụ mới dễ nhớ: Sau khi tập thể dục, hãy rửa tay để tránh bị ốm. (After exercising, wash your hands to stay healthy.)"
     },
     {
       "id": 13,
@@ -300,7 +312,8 @@
         "adjective": "strong",
         "adverb": "strongly"
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "**strong /strɒŋ/ – tính từ**\n\n1. “Strong” thường dùng để mô tả sức lực của người hoặc vật, nghĩa là có khả năng chịu đựng, vận động hoặc chịu lực tốt.  \n2. Khi muốn nhấn mạnh sức mạnh về ý chí hoặc tinh thần, ta dùng “strong” để chỉ người có quyết tâm, kiên định.  \n3. Từ đồng nghĩa gần nhất là “mạnh mẽ” (nhấn mạnh sức mạnh ở mức độ cao hơn) và “vững chắc” (nhấn mạnh khả năng chịu đựng, không bị gãy vỡ). “Strong” không bao hàm ý “đầy quyền lực” như “powerful”.  \n4. Ví dụ: “Ngủ đủ giấc mỗi đêm sẽ giúp cơ thể bạn trở nên mạnh hơn.”"
     },
     {
       "id": 14,
@@ -317,7 +330,8 @@
         "adjective": "washable",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ \"wash\" trong tiếng Anh có nghĩa là rửa hoặc giặt. \n\nTừ này thường được sử dụng trong các ngữ cảnh như:\n\n* Rửa tay trước khi nấu ăn hoặc sau khi sử dụng nhà vệ sinh: \"She washes her hands carefully before preparing food.\" (Cô rửa tay cẩn thận trước khi chuẩn bị thức ăn.)\n* Rửa mặt hoặc thân thể: \"He washes his face every morning.\" (Anh rửa mặt mỗi sáng.)\n* Giặt quần áo: \"She washes her clothes by hand.\" (Cô giặt quần áo bằng tay.)\n\nTừ \"wash\" khác với \"wipe\" (rửa tay hoặc bề mặt bằng khăn) và \"clean\" (sạch sẽ). Ví dụ, \"She wipes down the table after eating.\" (Cô lau sạch bàn sau khi ăn), trong khi \"The floor is clean now.\" (Bàn nhà đã sạch sẽ).\n\nVí dụ mới dễ nhớ: \"After the hike, he washes his feet to remove the dirt.\" (Sau khi đi bộ đường dài, anh rửa chân để loại bỏ đất.)"
     },
     {
       "id": 15,
@@ -341,7 +355,8 @@
         "example_vi": "Tôi cảm thấy khỏe hơn sau khi uống một ít nước.",
         "ff_example_en": "I fill my bottle with water before exercising.",
         "ff_example_vi": "Tôi đổ đầy nước vào chai trước khi tập thể dục."
-      }
+      },
+      "explanation_vi": "Từ \"feel\" (verb) trong tiếng Anh có nghĩa là \"cảm thấy\" hoặc \"cảm giác\". Đây là một trong những từ cơ bản trong tiếng Anh.\n\nNgữ cảnh thường dùng:\n\n- Khi nói về cảm giác của cơ thể: \"I feel tired after running.\" (Tôi cảm thấy mệt mỏi sau khi chạy.)\n- Khi nói về cảm xúc của tâm trí: \"I feel happy when I see my family.\" (Tôi cảm thấy hạnh phúc khi thấy gia đình tôi.)\n\nPhân biệt với từ đồng nghĩa:\n\n- Từ đồng nghĩa của \"feel\" có thể là \"sense\", nhưng \"sense\" thường dùng trong ngữ cảnh chuyên môn như khoa học, y học hoặc cảm nhận qua giác quan. Ví dụ: \"I sense a strange smell in the room.\" (Tôi cảm thấy mùi kỳ lạ trong phòng.)\n\nVí dụ mới dễ nhớ:\n\n- \"I feel the need to travel to new places.\" (Tôi cảm thấy cần phải đi du lịch đến những nơi mới.)\n\nTóm lại, \"feel\" là một từ cơ bản trong tiếng Anh mà học sinh IELTS cần biết và sử dụng một cách chính xác trong ngữ cảnh khác nhau."
     }
   ],
   "exercises": {

@@ -68,7 +68,8 @@
         "example_vi": "Vì thời tiết có nắng nên lớp đã tổ chức buổi dã ngoại ngoài trời.",
         "ff_example_en": "The teacher asked whether the class should hold its picnic outside.",
         "ff_example_vi": "Giáo viên hỏi liệu lớp có nên tổ chức buổi dã ngoại ngoài trời hay không."
-      }
+      },
+      "explanation_vi": "Từ \"weather\" trong tiếng Anh có nghĩa là \"thời tiết\". Đây là một trong những từ quan trọng trong tiếng Anh, thường được sử dụng trong các chủ đề liên quan đến khí hậu, thời tiết và các tác động của nó lên cuộc sống hàng ngày.\n\nTừ này thường được sử dụng trong các ngữ cảnh như:\n\n- Dự báo thời tiết: \"The weather forecast says it will rain tomorrow.\"\n- Mô tả thời tiết hiện tại: \"The weather today is rainy and cold.\"\n- Ảnh hưởng của thời tiết đến hoạt động hàng ngày: \"The weather is too hot, so we decided to cancel the outdoor concert.\"\n\nSo sánh với từ \"climate\", từ \"weather\" thường được sử dụng để mô tả thời tiết trong một khoảng thời gian ngắn, trong khi \"climate\" mô tả thời tiết trung bình trong một khu vực hoặc một thời gian dài.\n\nVí dụ mới dễ nhớ: \"I love the weather in summer, it's perfect for traveling.\""
     },
     {
       "id": 2,
@@ -92,7 +93,8 @@
         "example_vi": "Món súp còn nóng, vì vậy hãy đợi trước khi ăn.",
         "ff_example_en": "The soup is spicy because it contains a lot of chilli.",
         "ff_example_vi": "Món súp cay vì có nhiều ớt."
-      }
+      },
+      "explanation_vi": "Từ \"hot\" trong tiếng Anh có nghĩa là nóng. Từ này thường được sử dụng để mô tả nhiệt độ cao hoặc điều kiện thời tiết nóng bức.\n\nCụ thể, \"hot\" thường được sử dụng trong ngữ cảnh như sau:\n\n- Mô tả nhiệt độ: \"The weather is hot, so we need to stay hydrated.\"\n- Mô tả chất lượng âm thanh: \"The music is hot, it's really loud and energetic.\"\n- Mô tả mức độ phổ biến: \"The new movie is hot, everyone wants to see it.\"\n\nPhân biệt với từ đồng nghĩa: \"hot\" khác với \"warm\" (nóng nhẹ) và \"scorching\" (nóng cháy). Ví dụ, \"The room is warm\" thường đề cập đến nhiệt độ thoải mái, trong khi \"The sun is scorching\" thường đề cập đến nhiệt độ cao đến mức gây hại.\n\nVí dụ mới: \"The coffee is hot, so please be careful when you drink it.\""
     },
     {
       "id": 3,
@@ -109,7 +111,8 @@
         "adjective": "cold",
         "adverb": "coldly"
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ tiếng Anh \"cold\" có hai nghĩa khác nhau: tính từ (adjective) và danh từ (noun).\n\n- Tính từ (adjective): chỉ sự không nóng, thấp nhiệt độ.\n- Danh từ (noun): chỉ cảm lạnh, bệnh do nhiễm trùng virus hoặc vi khuẩn gây ra.\n\nTừ \"cold\" thường được sử dụng trong ngữ cảnh sau:\n\n- \"It's cold outside, hãy mang áo ấm đi ra ngoài.\"\n- \"Tôi bị cảm lạnh nên không thể đi học hôm nay.\"\n- \"Cảm lạnh là bệnh dễ lây lan, hãy mặc áo ấm và tránh tiếp xúc với người bị bệnh.\"\n\nTừ đồng nghĩa của \"cold\" có thể là \"chilly\" (tính từ), chỉ sự không nóng nhưng còn hơi mỏng manh. Ví dụ: \"It's chilly in the morning, nên hãy mặc áo ấm khi ra ngoài.\"\n\nMột ví dụ mới dễ nhớ: \"Tôi đã uống nước đá không mát mẻ, nên tôi cảm thấy lạnh khi đi ra ngoài.\""
     },
     {
       "id": 4,
@@ -126,7 +129,8 @@
         "adjective": "rainy",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ tiếng Anh \"rain\" (noun / verb)\n\nNghĩa: mưa, trời mưa\n\nTừ \"rain\" thường được sử dụng trong ngữ cảnh sau:\n\n- \"Mưa nhiều\": It rains a lot in Đà Lạt vào mùa mưa.\n- \"Trời mưa\": Trời mưa hôm qua nên chúng tôi không thể ra ngoài.\n\nTừ đồng nghĩa của \"rain\" là \"mưa\" hoặc \"xuống mưa\". Tuy nhiên, \"rain\" thường được sử dụng trong ngữ cảnh thời tiết, trong khi \"mưa\" hoặc \"xuống mưa\" có thể được sử dụng trong nhiều ngữ cảnh khác nhau.\n\nMột ví dụ mới dễ nhớ: Khi đi du lịch ở các vùng núi, bạn nên cân nhắc thời tiết trước khi lên núi để tránh bị trời mưa.\n\nGiải thích thêm: Từ \"rain\" có thể được sử dụng như một động từ, nghĩa là \"trời mưa\". Ví dụ: It rains heavily today."
     },
     {
       "id": 5,
@@ -143,7 +147,8 @@
         "adjective": "sunny",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ tiếng Anh \"sun\" có nghĩa là mặt trời hoặc nắng.\n\nTừ này thường được sử dụng trong các ngữ cảnh sau:\n\n- Mô tả thời tiết: \"The sun is shining today, let's go to the beach.\"\n- Mô tả sự ảnh hưởng của mặt trời: \"The sun's rays are too strong, we need to wear sunglasses.\"\n- Mô tả một vật thể hoặc một hiện tượng liên quan đến mặt trời: \"The sunflower follows the sun's movement.\"\n\nTừ đồng nghĩa với \"sun\" có thể là \"daylight\" (ánh sáng ban ngày), \"sunlight\" (ánh sáng của mặt trời), hoặc \"weather\" (thời tiết).\n\nVí dụ mới dễ nhớ: \"The sun rises over the mountains, creating a beautiful sunrise.\"\n\nLưu ý rằng \"sun\" cũng có thể được sử dụng để chỉ một vật thể như Mặt Trời, nhưng trong ngữ cảnh trên, nó thường được sử dụng để chỉ ánh sáng hoặc nắng."
     },
     {
       "id": 6,
@@ -160,7 +165,8 @@
         "adjective": "windy",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ \"wind\" trong tiếng Anh có nghĩa là gió. Trong các ngữ cảnh thông thường, từ này thường được sử dụng để mô tả một hiện tượng tự nhiên mang tính chất di chuyển của không khí:\n\n- \"The wind blows gently through the trees.\" (Gió thổi nhẹ qua các cây thông.)\n- \"I love walking in the wind on the beach.\" (Tôi yêu đi dạo trong gió trên bãi biển.)\n\nNếu bạn muốn tìm từ đồng nghĩa cho \"wind\", có thể sử dụng từ \"breeze\" (gió nhẹ) hoặc \"gust\" (sóng gió mạnh). Ví dụ:\n\n- \"The breeze is pleasant today.\" (Gió nhẹ rất dễ chịu hôm nay.)\n- \"The gust of wind blew away my papers.\" (Sóng gió mạnh đã吹 bay tờ giấy của tôi.)\n\nVí dụ mới dễ nhớ: \"Wind turbines are used to generate electricity.\" (Lá gió được sử dụng để tạo ra điện năng.)"
     },
     {
       "id": 7,
@@ -177,7 +183,8 @@
         "adjective": "cloudy",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "**cloud /klaʊd/ – Đám mây**\n\n1. “cloud” thường xuất hiện trong các mô tả thời tiết, ví dụ khi nói về sự thay đổi"
     },
     {
       "id": 8,
@@ -201,7 +208,8 @@
         "example_vi": "Mùa hè là mùa nóng nhất ở nhiều vùng của Việt Nam.",
         "ff_example_en": "The weather is especially hot this afternoon.",
         "ff_example_vi": "Thời tiết đặc biệt nóng vào chiều nay."
-      }
+      },
+      "explanation_vi": "Từ \"season\" trong tiếng Anh có nghĩa là mùa trong năm. Đây là một từ thường được sử dụng trong các ngữ cảnh sau:\n\n- Mô tả thời tiết: \"Tôi thích mùa hè vì thời tiết luôn ấm áp.\"\n- Mô tả hoạt động: \"Tôi thích mùa đông vì có thể tham gia các hoạt động trượt tuyết và đạp xe.\"\n- Mô tả sự kiện: \"Mùa thu là thời gian lý tưởng để tổ chức các bữa tiệc ngoài trời.\"\n\nTừ đồng nghĩa của \"season\" là \"period\" (kỳ hạn, thời kỳ) nhưng có thể phân biệt bằng cách sử dụng trong ngữ cảnh cụ thể. Ví dụ: \"Tôi thích mùa hè (season) vì thời tiết luôn ấm áp\" nhưng \"Tôi thích thời kỳ học tập (period) vì nó giúp tôi trưởng thành.\"\n\nVí dụ mới dễ nhớ: \"Mùa xuân là thời điểm lý tưởng để trồng cây và hoa vì thời tiết thường ấm áp và mưa phùn.\"\n\nLưu ý rằng trong một số ngữ cảnh, \"season\" cũng có thể được sử dụng để chỉ một giai đoạn trong một chu kỳ nào đó, chẳng hạn như một mùa giải thể thao."
     },
     {
       "id": 9,
@@ -218,7 +226,8 @@
         "adjective": "dry",
         "adverb": "dryly"
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "**dry /draɪ/**  \n\n1. Từ “dry” thường dùng để mô tả thời tiết hoặc bề mặt không có độ ẩm; trong tiếng Việt thường dịch là “khô”.  \n2. Khi muốn nói “khô không mưa”, ta dùng “dry” thay vì “arid” (khô cằn) – “dry”"
     },
     {
       "id": 10,
@@ -235,7 +244,8 @@
         "adjective": "wet",
         "adverb": "wetly"
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "**wet /wet/ (adj.) – ướt**\n\n1. Từ “wet” thường dùng để mô tả bề mặt, vật thể hoặc không gian đã bị nước hoặc chất lỏng thấm đầy, không còn khô.  \n2. Khi muốn nhấn mạnh mức độ chỉ hơi ẩm, không bão hòa, ta dùng “damp” hoặc “moist”; “wet” ngược lại biểu thị trạng thái ướt hoàn toàn, như một tấm vải ngập nước.  \n3. Ví dụ dễ nhớ: *Chiếc áo khoác của anh ấy bị ướt sau khi chạy qua con suối.*"
     },
     {
       "id": 11,
@@ -252,7 +262,8 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ \"temperature\" (noun) trong tiếng Anh có nghĩa là \"nhiệt độ\". Đây là một khái niệm quan trọng trong nhiều lĩnh vực như khí tượng, y học, và kỹ thuật.\n\nNgữ cảnh thường dùng: Khi nói về thời tiết, nhiệt độ, khí hậu, hoặc khi mô tả tình trạng sức khỏe của một người.\n\nPhân biệt với từ đồng nghĩa: \n- \"Temperature\" thường được sử dụng để chỉ mức độ nóng hoặc lạnh của một vật thể, môi trường.\n- \"Weather\" thường được sử dụng để chỉ tình trạng thời tiết, bao gồm cả nhiệt độ, độ ẩm, ánh nắng, mưa, gió, v.v.\n- \"Climate\" thường được sử dụng để chỉ khí hậu của một khu vực, bao gồm cả những đặc điểm thời tiết trung bình trong nhiều năm.\n\nVí dụ mới: \"The temperature in the fridge is set to 4 degrees Celsius to keep the food fresh.\""
     },
     {
       "id": 12,
@@ -269,7 +280,8 @@
         "adjective": "warm",
         "adverb": "warmly"
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ tiếng Anh \"warm\" có nghĩa là ấm, ấm áp. Từ này thường được sử dụng để mô tả thứ gì đó có nhiệt độ cao hoặc có cảm giác ấm áp.\n\nTừ này thường được sử dụng trong các ngữ cảnh như:\n\n- Thời tiết: \"Hôm nay trời rất ấm, lý tưởng cho những hoạt động ngoài trời.\"\n- Khả năng thể chất: \"Cô ấy có một cơ thể ấm và mạnh mẽ.\"\n- Sự thân thiện: \"Cô ấy có một nụ cười ấm và thân thiện.\"\n\nTừ đồng nghĩa của \"warm\" bao gồm \"hot\", \"cozy\", và \"comforting\". Tuy nhiên, \"hot\" thường được sử dụng để mô tả thứ gì đó có nhiệt độ cao hơn, trong khi \"cozy\" thường được sử dụng để mô tả thứ gì đó có cảm giác ấm áp và thân mật. \"Comforting\" thường được sử dụng để mô tả thứ gì đó mang lại cảm giác an ủi và dễ chịu.\n\nVí dụ mới dễ nhớ: \"Warm hug\" (hôn ấm) là một biểu tượng của sự yêu thương và ấm áp."
     },
     {
       "id": 13,
@@ -286,7 +298,8 @@
         "adjective": "stormy",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "**storm /stɔːrm/** – nghĩa và cách dùng  \n\n1. *Storm* thường chỉ hiện tượng thời tiết dữ dội, bao gồm mưa to, gió mạnh, sấm sét, thường xuất hiện vào các mùa chuyển giao.  \n2. Khi muốn nhấn mạnh tính chất mạnh mẽ, tàn phá của bão, ta dùng *storm*; trong khi *tempest* mang tính cổ điển, *gale* chỉ gió mạnh mà không có mưa.  \n3. Ngoài nghĩa đen, *storm* còn được dùng ẩn dụ để mô tả cảm xúc mạnh"
     },
     {
       "id": 14,
@@ -303,7 +316,8 @@
         "adjective": "snowy",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "**snow /snəʊ/**  \n\n- “snow” là danh từ chỉ hiện tượng tuyết rơi, hay khối tuyết trên mặt đất; thường dùng khi mô tả thời tiết lạnh giá ở các vùng cao hoặc vào mùa đông.  \n- Khi dùng làm động từ, “snow” diễn tả hành động tuyết rơi hoặc làm cho một nơi nào đó bị phủ đầy tuyết; nghĩa này gần với “tuyết rơi” nhưng không đồng nghĩa với “mưa đá” (hail) – “hail” là những viên đá băng rơi, còn “snow” là bột tuyết"
     },
     {
       "id": 15,
@@ -320,7 +334,8 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ \"umbrella\" trong tiếng Anh có nghĩa là cái ô hoặc dù, thường được sử dụng như một vật dụng để che mưa hoặc tránh nắng.\n\nTừ \"umbrella\" thường được sử dụng trong các ngữ cảnh sau:\n\n- Khi đi ra ngoài trời mưa: \"Tôi luôn mang một cái ô khi đi học trong mùa mưa.\"\n- Khi tổ chức sự kiện ngoài trời: \"Cái ô lớn được sử dụng để che mưa cho các khách mời tại lễ khai mạc.\"\n\nTừ \"umbrella\" khác biệt với từ đồng nghĩa \"parasol\" (cái ô che nắng), mặc dù cả hai đều có thể được sử dụng để che mưa, nhưng \"umbrella\" thường được sử dụng nhiều hơn cho mục đích che mưa.\n\nVí dụ mới dễ nhớ: \"Cô ấy không thể đi làm vào ngày mưa vì không có cái ô để che mưa.\"\n\nTrong IELTS, bạn cần phải sử dụng từ \"umbrella\" đúng ngữ cảnh và tránh sử dụng từ đồng nghĩa \"parasol\" nếu không cần thiết."
     }
   ],
   "exercises": {

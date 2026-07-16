@@ -69,7 +69,8 @@
         "ff_example_en": "The mathematician used a logarithm to simplify the calculation.",
         "ff_example_vi": "Nhà toán học dùng logarit để đơn giản hóa phép tính."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Algorithm** (danh từ) – “thuật toán”: một tập hợp các bước, quy tắc logic được lập trình sẵn để xử lý dữ liệu và giải quyết một vấn đề cụ thể.  \n\n- Từ này thường xuất hiện trong các lĩnh vực công nghệ thông tin, khoa học dữ liệu và trí tuệ nhân tạo, khi nói về cách máy tính “nghĩ” và thực hiện các tác vụ.  \n\n- Các từ gần nghĩa như **procedure**, **method** hay **formula** cũng chỉ cách thực hiện, nhưng *procedure* và *method* nhấn mạnh quy trình chung, còn *formula* thường là công thức toán học cố định; *algorithm* đặc trưng cho chuỗi các bước có thứ tự rõ ràng, có thể được lập trình.  \n\n- *Ví dụ*: “The search engine’s algorithm ranks web pages according to relevance and popularity, so the most useful sites appear at the top of the results.”  \n\n(Trong tiếng Việt: “Thuật toán của công cụ tìm kiếm xếp hạng các trang web dựa trên mức độ liên quan và độ phổ biến, vì vậy các trang hữu ích nhất xuất hiện ở đầu kết quả.”)"
     },
     {
       "id": 2,
@@ -94,7 +95,8 @@
         "ff_example_en": "The editor removed a sentence that showed prejudice against migrants.",
         "ff_example_vi": "Biên tập viên xóa một câu thể hiện định kiến đối với người di cư."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Bias** (danh từ) thường được dùng khi nói về một sự thiên lệch hoặc ưu tiên một phía một cách không công bằng trong dữ liệu, nghiên cứu, hay quyết định.  \nNó khác với “prejudice” (định kiến) ở chỗ *bias* thường chỉ sự sai lệch có thể đo lường được (ví dụ: trong thống kê), trong khi *prejudice* là thái độ cá nhân mang tính cảm xúc và chủ quan.  \nTrong tiếng Anh, “bias” còn được dùng để chỉ “độ lệch” của một công cụ, thuật toán hoặc một báo cáo, chứ không phải nghĩa “nghiêng” (tilt) của một vật thể.  \n*Ví dụ*: The documentary displayed a clear bias toward renewable energy, presenting only positive aspects while ignoring the challenges."
     },
     {
       "id": 3,
@@ -119,7 +121,8 @@
         "ff_example_en": "The automatic door opens when a sensor detects movement.",
         "ff_example_vi": "Cửa tự động mở khi cảm biến phát hiện chuyển động."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Từ “autonomous” (adj.)** – có nghĩa là “tự trị, độc lập, không cần sự điều khiển hay giám sát của người khác”.\n\n1. **Ngữ cảnh thường dùng:** Thường xuất hiện khi nói về các hệ thống, thiết bị hoặc khu vực có khả năng tự đưa ra quyết định và hoạt động mà không cần người can thiệp (ví dụ: robot, xe tự lái, khu vực tự quản).  \n2. **Phân biệt với từ đồng nghĩa:** “Independent” cũng chỉ “độc lập”, nhưng “autonomous” nhấn mạnh việc **tự quyết định** và **tự vận hành** (có cơ chế, thuật toán riêng), còn “independent” chỉ chung chung không phụ thuộc vào người khác.  \n3. **Ví dụ mới dễ nhớ:** *Các trạm năng lượng mặt trời tự động (autonomous solar stations) có thể thu và lưu trữ điện năng mà không cần nhân viên bảo trì thường xuyên.*"
     },
     {
       "id": 4,
@@ -144,7 +147,8 @@
         "ff_example_en": "The city conducted a passenger survey in the station.",
         "ff_example_vi": "Thành phố tiến hành khảo sát hành khách tại nhà ga."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**surveillance** /sərˈveɪləns/\n\n- “Surveillance” thường dùng để chỉ việc giám sát có hệ thống, thường bằng công nghệ hoặc lực lượng chuyên trách, nhằm thu thập thông tin hoặc kiểm soát hành vi của một nhóm người.  \n- Từ này khác với “monitoring” (theo dõi) ở chỗ “surveillance” nhấn mạnh vào tính chất rộng lớn, liên tục và thường có mục đích an ninh hoặc kiểm soát, trong khi “monitoring” chỉ đơn giản là kiểm tra, giám sát một cách hạn chế.  \n- “Surveillance” cũng khác với “observation” (quan sát) vì “observation” thường mang tính chất khách quan, không can thiệp, còn “surveillance” có thể bao hàm việc thu thập dữ liệu và can thiệp.  \n- Ví dụ: Các camera an ninh trong trung tâm thương mại hoạt động 24 giờ một ngày, ghi lại mọi hoạt động để hỗ trợ công an trong trường hợp có sự cố."
     },
     {
       "id": 5,
@@ -162,7 +166,8 @@
         "adverb": null
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "Từ \"explainability\" (noun) có nghĩa là khả năng giải thích, mức độ mà một hệ thống AI có thể diễn đạt lý do ra quyết định.\n\nNgữ cảnh thường dùng: Trong việc áp dụng trí tuệ nhân tạo (AI) vào các lĩnh vực quan trọng như y tế, tài chính, hoặc công lý, tính giải thích là một yêu cầu quan trọng để đảm bảo sự minh bạch và tin tưởng.\n\nTính giải thích khác với tính \"đoán biết trước\" (predictability) vì đó là khả năng dự đoán kết quả dựa trên mẫu dữ liệu, nhưng không giải thích lý do tại sao kết quả đó được dự đoán.\n\nVí dụ mới: \"Tính giải thích của hệ thống AI trong lĩnh vực y tế đã giúp bác sĩ hiểu rõ hơn về các quyết định chẩn đoán, từ đó cải thiện chất lượng dịch vụ chăm sóc sức khỏe cho bệnh nhân.\"\n\nHình ảnh dễ nhớ: Một bác sĩ đang nghiên cứu trên máy tính, với hình ảnh AI trong nền, đang giải thích lý do tại sao nó đưa ra một quyết định chẩn đoán cụ thể."
     },
     {
       "id": 6,
@@ -187,7 +192,8 @@
         "ff_example_en": "Its technical team has responsibility for maintaining the system.",
         "ff_example_vi": "Đội kỹ thuật của cơ quan có trách nhiệm bảo trì hệ thống."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Accountability** – danh từ, nghĩa “trách nhiệm giải trình, nghĩa vụ phải chịu trách nhiệm về hành động hoặc quyết định của mình”.\n\n- Từ này thường xuất hiện trong các bối cảnh quản lý, chính sách hoặc đạo đức: doanh nghiệp, cơ quan nhà nước, trường học… khi muốn nhấn mạnh rằng người hoặc tổ chức phải “báo cáo, giải thích” kết quả công việc của mình cho người có thẩm quyền.  \n- **Responsibility** chỉ “trách nhiệm” chung (công việc, nhiệm vụ), còn **accountability** nhấn mạnh “tính minh bạch, phải giải thích và chịu hậu quả” nếu không đạt yêu cầu.  \n- *Ví dụ*: “Sau vụ rò rỉ dữ liệu, công ty phải chịu **accountability** trước khách hàng và cơ quan quản lý, phải công khai nguyên nhân và biện pháp khắc phục”."
     },
     {
       "id": 7,
@@ -205,7 +211,8 @@
         "adverb": null
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Neural network (mạng nơ‑ron)** – là một mô hình trí tuệ nhân tạo được thiết kế theo cấu trúc của các nơ‑ron trong não người; nó học hỏi bằng cách “kết nối” và “điều chỉnh trọng số” giữa các lớp (layers) để nhận diện mẫu, dự đoán hay sinh ngôn ngữ.  \n\n- **Ngữ cảnh thường dùng:** Khi nói về công nghệ AI hiện đại, đặc biệt trong các lĩnh vực như nhận dạng hình ảnh, dịch máy, hay dự báo thời tiết, người ta thường nhắc tới “neural network”.  \n- **Phân biệt với từ đồng nghĩa:** “Artificial intelligence (AI)” là khái niệm bao trùm rộng hơn, còn “machine learning” là một nhánh của AI; “neural network” là một phương pháp cụ thể trong machine learning, tương tự như “deep learning” (học sâu) là mạng nơ‑ron có nhiều lớp.  \n- **Ví dụ mới dễ nhớ:** *Các nhà khoa học đã dùng neural network để phát hiện sớm các dấu hiệu ung thư trong ảnh chụp X‑quang, đạt độ chính xác cao hơn so với các phương pháp truyền thống.*"
     },
     {
       "id": 8,
@@ -223,7 +230,8 @@
         "adverb": null
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Regulation (noun) – “quy định”**  \n\n1. Từ này thường xuất hiện khi nói đến **các quy tắc pháp lý hoặc tiêu chuẩn kỹ thuật mà một ngành, lĩnh vực hoặc sản phẩm phải tuân theo** (ví dụ: y tế, tài chính, công nghệ).  \n\n2. *Regulation* khác với **rule** (quy tắc nội bộ, thường do công ty hoặc tổ chức đặt ra) và **law** (luật chung, được Quốc hội thông qua). *Policy* lại chỉ chính sách hướng dẫn, chưa có tính ràng buộc pháp lý như regulation.  \n\n3. **Ví dụ:** “The government’s new emissions regulation forces factories to cut carbon output by 30 % within the next five years.” – Quy định mới về khí thải của chính phủ buộc các nhà máy phải giảm lượng carbon thải ra 30 % trong vòng năm năm tới."
     },
     {
       "id": 9,
@@ -248,7 +256,8 @@
         "ff_example_en": "Continuous surveillance records how users behave on the platform.",
         "ff_example_vi": "Việc theo dõi liên tục ghi lại cách người dùng hành xử trên nền tảng."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Oversight** /ˈoʊvərˌsaɪt/  \n\n1. Từ này thường được dùng khi nói về việc thực hiện công việc giám sát, kiểm tra để bảo đảm các quy trình, chính sách được tuân thủ đúng quy định.  \n2. Nó khác với “giám định” hoặc “đánh giá” ở chỗ “oversight” nhấn mạnh tính trách nhiệm giám sát liên tục, còn “giám định” chỉ xét nghiệm, “đánh giá” là đưa ra nhận xét sau khi đã hoàn thành."
     },
     {
       "id": 10,
@@ -273,7 +282,8 @@
         "ff_example_en": "The student wrote a sentence about advanced AI.",
         "ff_example_vi": "Học sinh viết một câu về AI tiên tiến."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Sentience** (danh từ) thường được dùng để chỉ khả năng cảm nhận, nhận thức và trải nghiệm một cách chủ quan của sinh vật hoặc hệ thống nào đó.  \n- Nó nhấn mạnh *cảm giác* (sensation) và *cảm xúc* (feeling), trong khi “**consciousness**” lại bao hàm toàn bộ trạng thái tỉnh táo, suy nghĩ và nhận thức của một người.  \n- “**Awareness**” chỉ mức độ biết tới một sự việc, không nhất thiết đi kèm với cảm giác nội tâm như “sentience”.  \n\n**Ví dụ mới:** “Scientists debate whether cetaceans such as dolphins possess true sentience, because they exhibit empathy and self‑recognition.” (Các nhà khoa học tranh luận liệu cá heo có thực sự có khả năng cảm nhận chủ quan không, vì chúng biểu hiện sự đồng cảm và nhận dạng bản thân.)"
     },
     {
       "id": 11,

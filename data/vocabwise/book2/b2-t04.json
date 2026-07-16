@@ -70,7 +70,8 @@
         "ff_example_en": "The scientist said the results were not yet proof that the treatment worked.",
         "ff_example_vi": "Nhà khoa học nói rằng kết quả vẫn chưa phải là bằng chứng xác thực rằng phương pháp điều trị có hiệu quả."
       },
-      "receptive_productive": "R"
+      "receptive_productive": "R",
+      "explanation_vi": "Từ tiếng Anh \"evidence\" (noun) có nghĩa là \"bằng chứng\". Đây là một từ quan trọng trong tiếng Anh, thường được sử dụng trong các tình huống như:\n\n- Trong các vụ án hình sự: Để chứng minh sự thật của vụ án.\n- Trong nghiên cứu khoa học: Để chứng minh kết quả của một nghiên cứu.\n- Trong các tranh chấp: Để chứng minh một bên sai trái.\n\nTừ đồng nghĩa của \"evidence\" là \"proof\" và \"testimony\". Tuy nhiên, \"proof\" thường được sử dụng trong ngữ cảnh của một kết quả chắc chắn, trong khi \"testimony\" thường được sử dụng trong ngữ cảnh của một tuyên bố hoặc khẳng định.\n\nVí dụ mới dễ nhớ: \"The new technology provided strong evidence of its effectiveness in reducing energy consumption.\"\n\nLưu ý: Từ \"evidence\" có thể được sử dụng trong các hình thức khác nhau như \"evidences\" (một số bằng chứng), nhưng trong nhiều trường hợp, \"evidence\" đã trở thành hình thức thông dụng và được chấp nhận rộng rãi."
     },
     {
       "id": 2,
@@ -88,7 +89,8 @@
         "adverb": null
       },
       "false_friend": null,
-      "receptive_productive": "R"
+      "receptive_productive": "R",
+      "explanation_vi": "Từ \"verdict\" có nghĩa là \"phán quyết\", thường được sử dụng trong ngữ cảnh xét xử, tố tụng.\n\nTrong tiếng Việt, từ đồng nghĩa của \"verdict\" có thể là \"phán quyết\", \"tuyên bố kết tội\" hoặc \"giải quyết vụ án\".\n\nVí dụ: \"Sau khi xem xét các bằng chứng, tòa án đưa ra phán quyết chống lại người tội phạm.\" (trong trường hợp này, \"phán quyết\" và \"verdict\" có thể được sử dụng một cách tương đương)\n\nVí dụ mới: \"Sau khi kiểm tra các mẫu máu, bệnh viện đưa ra verdict là bệnh nhân không bị bệnh nặng.\" (trong trường hợp này, \"verdict\" được sử dụng trong ngữ cảnh y tế để chỉ kết quả cuối cùng của một xét nghiệm hoặc chẩn đoán)\n\nTóm lại, \"verdict\" là từ được sử dụng trong các ngữ cảnh xét xử, tố tụng và có thể được sử dụng một cách tương đương với từ đồng nghĩa \"phán quyết\"."
     },
     {
       "id": 3,
@@ -113,7 +115,8 @@
         "ff_example_en": "The police questioned him because his behaviour seemed suspicious.",
         "ff_example_vi": "Cảnh sát thẩm vấn anh ta vì hành vi của anh ta có vẻ đáng ngờ."
       },
-      "receptive_productive": "R"
+      "receptive_productive": "R",
+      "explanation_vi": "Từ \"suspect\" có nghĩa là nghi phạm, thường được sử dụng trong ngữ cảnh về tội phạm và điều tra.\n\n- Ngữ cảnh thường dùng: Khi cảnh sát bắt giữ nghi phạm, hoặc khi đang điều tra vụ án.\n- Phân biệt với từ đồng nghĩa: Từ \"nghi phạm\" được sử dụng nhiều hơn trong tiếng Việt, trong khi \"suspect\" có thể được sử dụng trong nhiều ngữ cảnh khác nhau, bao gồm cả nghi ngờ về một điều gì đó không liên quan đến tội phạm.\n- Ví dụ mới: \"Tôi nghi ngờ rằng dự án sẽ chậm tiến độ vì một số yếu tố bất ngờ\", trong đó \"suspect\" được sử dụng để chỉ sự nghi ngờ về một điều gì đó.\n\nHãy lưu ý rằng trong tiếng Anh, \"suspect\" cũng có thể được sử dụng để chỉ một người hoặc một tổ chức mà người ta nghi ngờ về một điều gì đó, không chỉ giới hạn trong ngữ cảnh tội phạm."
     },
     {
       "id": 4,
@@ -131,7 +134,8 @@
         "adverb": "fraudulently"
       },
       "false_friend": null,
-      "receptive_productive": "R"
+      "receptive_productive": "R",
+      "explanation_vi": "Từ \"fraud\" trong tiếng Anh có nghĩa là \"gian lận\" hoặc \"lừa đảo\". Nó thường được sử dụng trong ngữ cảnh của tội phạm, đặc biệt là liên quan đến tài chính, thuế, hoặc hợp đồng.\n\nVí dụ: Cô bị kết tội gian lận khi bán hàng giả.\n\nTừ \"fraud\" có thể được sử dụng thay thế cho từ \"lừa đảo\", nhưng không phải lúc nào cũng có thể sử dụng từ \"gian lận\" để thay thế. \"Gian lận\" thường có nghĩa rộng hơn, bao gồm cả việc gian lận trong học tập, thể thao, hoặc các lĩnh vực khác.\n\nVí dụ khác: Bà phải trả lại tiền mặt vì đã gian lận khi sử dụng thẻ tín dụng.\n\nTừ khác có thể liên quan đến \"fraud\" là \"scam\" (lừa đảo), nhưng \"scam\" thường có nghĩa cụ thể hơn, liên quan đến việc lừa đảo qua internet hoặc qua điện thoại."
     },
     {
       "id": 5,
@@ -149,7 +153,8 @@
         "adverb": "corruptly"
       },
       "false_friend": null,
-      "receptive_productive": "R"
+      "receptive_productive": "R",
+      "explanation_vi": "Từ \"corruption\" trong tiếng Anh có nghĩa là \"tham nhũng\". Đây là một vấn đề nghiêm trọng trong nhiều lĩnh vực, bao gồm chính trị, kinh tế, xã hội.\n\nTừ này thường được sử dụng trong ngữ cảnh như sau:\n\n- Trong chính trị: Corruption là một phần của sự bất công và lạm quyền.\n- Trong kinh tế: Corruption có thể dẫn đến sự bất công và mất niềm tin trong thị trường.\n- Trong xã hội: Corruption có thể ảnh hưởng đến sự phát triển và tiến bộ của xã hội.\n\nTừ \"corruption\" khác với từ đồng nghĩa \"bribery\" (lợi dụng tiền bạc hoặc lợi ích để ảnh hưởng đến quyết định) và \"embezzlement\" (lợi dụng quyền lực để lấy tài sản cho mình). Tuy nhiên, cả ba từ đều liên quan đến việc tham nhũng.\n\nVí dụ dễ nhớ: Corruption trong lĩnh vực giáo dục có thể dẫn đến việc học sinh bị ép buộc phải mua bán bằng cấp hoặc điểm số.\n\nHãy nhớ rằng, \"corruption\" là một từ rộng, bao gồm nhiều hình thức tham nhũng khác nhau."
     },
     {
       "id": 6,
@@ -167,7 +172,8 @@
         "adverb": null
       },
       "false_friend": null,
-      "receptive_productive": "R"
+      "receptive_productive": "R",
+      "explanation_vi": "Từ \"witness\" có nghĩa là nhân chứng. Từ này thường được sử dụng trong các ngữ cảnh sau:\n\n- Trong các vụ án hình sự, nhân chứng có thể mô tả các sự kiện hoặc cung cấp thông tin về vụ án.\n- Trong các cuộc điều tra, nhân chứng có thể cung cấp thông tin về các sự kiện hoặc tình huống.\n- Trong các vụ tai nạn hoặc sự cố, nhân chứng có thể mô tả các sự kiện và cung cấp thông tin về các bên liên quan.\n\nTừ \"witness\" khác với từ đồng nghĩa \"bằng chứng\" ở chỗ \"bằng chứng\" thường ám chỉ các tài liệu hoặc bằng chứng vật chất, trong khi \"nhân chứng\" ám chỉ cá nhân có mặt tại hiện trường và có thể mô tả các sự kiện.\n\nVí dụ mới dễ nhớ: \"Cô học sinh đã là nhân chứng quan trọng trong vụ nổ súng ở trường học.\""
     },
     {
       "id": 7,
@@ -185,7 +191,8 @@
         "adverb": null
       },
       "false_friend": null,
-      "receptive_productive": "R"
+      "receptive_productive": "R",
+      "explanation_vi": "Từ \"offender\" trong tiếng Anh có nghĩa là người vi phạm pháp luật.\n\nTừ này thường được sử dụng trong ngữ cảnh liên quan đến tội phạm, hình sự và công lý. Ví dụ, \"The police are investigating the offender who broke into the store.\"\n\nTừ \"offender\" có thể khác với từ đồng nghĩa \"convict\", vì \"convict\" thường ám chỉ người đã bị kết án tội phạm và phải chịu hình phạt, trong khi \"offender\" có thể ám chỉ người đang bị điều tra hoặc đang chờ xử lý. Ví dụ, \"The convict was sentenced to 10 years in prison.\"\n\nMột ví dụ mới dễ nhớ là: \"The school authorities are taking action against the offender who damaged the school property.\""
     },
     {
       "id": 8,
@@ -210,7 +217,8 @@
         "ff_example_en": "The lawyer’s clear argument may appeal to the judges.",
         "ff_example_vi": "Lập luận rõ ràng của luật sư có thể thu hút và thuyết phục các thẩm phán."
       },
-      "receptive_productive": "R"
+      "receptive_productive": "R",
+      "explanation_vi": "**appeal /əˈpiːl/ (động từ / danh từ)**  \n\n1. Khi muốn nói ai đó không đồng ý với một phán quyết của tòa án và yêu cầu xét lại, ta dùng “kháng cáo”.  \n2. “Appeal” khác với “yêu cầu” (đề nghị đưa ra quyết định mới) vì “kháng cáo” chỉ áp dụng trong ngữ cảnh pháp lý, còn “yêu cầu” có thể dùng cho mọi tình huống.  \n3. “Appeal” cũng khác với “thu hút” (gây ấn tượng, hấp dẫn) vì nghĩa này chỉ mang tính cảm xúc, không liên quan tới việc tranh đấu pháp lý.  \n4. Ví dụ: *Cô luật sư quyết định kháng cáo quyết định của tòa án để bảo vệ quyền lợi của khách hàng.*"
     },
     {
       "id": 9,
@@ -228,7 +236,8 @@
         "adverb": "justly"
       },
       "false_friend": null,
-      "receptive_productive": "R"
+      "receptive_productive": "R",
+      "explanation_vi": "**justice /ˈdʒʌstɪs/**  \n\n1. “Justice” đề cập đến khái niệm công lý – sự tuân thủ pháp luật và việc mọi người nhận được quyền lợi hay hình phạt phù hợp với hành động của mình.  \n2. Khi muốn nhấn mạnh tính nghiêm minh của pháp luật, ta dùng “justice”; còn “fair"
     },
     {
       "id": 10,
@@ -253,7 +262,8 @@
         "ff_example_en": "The court ordered the offender to pay a large fine.",
         "ff_example_vi": "Tòa án yêu cầu người vi phạm nộp một khoản tiền phạt lớn."
       },
-      "receptive_productive": "R"
+      "receptive_productive": "R",
+      "explanation_vi": "Từ \"penalty\" trong tiếng Anh có nghĩa là \"hình phạt\". Đây là một thuật ngữ thường được sử dụng trong nhiều ngữ cảnh khác nhau, như:\n\n- Hình phạt cho hành vi vi phạm quy định ( ví dụ: Penalty for driving without a license)\n- Hình phạt cho đội trong một trận đấu thể thao (ví dụ: Penalty cho đội bóng trong một trận đấu bóng đá)\n- Hình phạt cho hành vi vi phạm quy định trong một tổ chức hoặc công ty (ví dụ: Penalty cho nhân viên vi phạm chính sách của công ty)\n\nTừ \"penalty\" có thể được phân biệt với từ đồng nghĩa \"punishment\", nhưng \"punishment\" thường có nghĩa rộng hơn và không chỉ giới hạn trong hình phạt pháp lý.\n\nVí dụ mới dễ nhớ: \"Nếu bạn không trả tiền thuê nhà đúng hạn, bạn sẽ phải chịu penalty của chủ nhà.\""
     },
     {
       "id": 11,
@@ -278,7 +288,8 @@
         "ff_example_en": "Before the trial, the laboratory conducted a trial of the new identification system.",
         "ff_example_vi": "Trước phiên tòa, phòng thí nghiệm đã tiến hành thử nghiệm hệ thống nhận dạng mới."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "Từ \"trial\" trong tiếng Anh có nghĩa là phiên tòa xét xử hoặc là một thử nghiệm, kiểm tra. Trong ngữ cảnh xét xử, từ này thường được sử dụng để chỉ một quá trình xét xử một người hoặc một tổ chức vì một tội lỗi hoặc hành vi vi phạm pháp luật.\n\nVí dụ: Anh ta bị kết án 5 năm tù sau phiên tòa xét xử.\n\nTrái ngược với từ này, \"court\" thường chỉ tòa án hoặc nơi xét xử, không nhất thiết phải đề cập đến quá trình xét xử cụ thể.\n\nVí dụ: Tòa án tối cao là cơ quan xét xử cao nhất trong hệ thống pháp luật.\n\nMột ví dụ mới dễ nhớ:\n\n- Trial là quá trình xét xử một người vì tội giết người trong một vụ tai nạn xe hơi."
     },
     {
       "id": 12,
@@ -303,7 +314,8 @@
         "ff_example_en": "The same act is described as an offense in the American report.",
         "ff_example_vi": "Hành vi tương tự được viết là “offense” trong báo cáo của Mỹ."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**offence /ɒˈfens/**  \n\n- “offence” dùng để chỉ một hành vi vi phạm pháp luật, thường là vi phạm nhẹ hoặc vi phạm hành chính, không mang tính chất tội nghiêm trọng.  \n- Từ đồng nghĩa gần nhất là “vi phạm”, nhưng “vi phạm” có thể dùng cho cả quy định, quy tắc xã hội; còn “offence” chỉ tập trung vào khía cạnh pháp lý.  \n- Khi muốn nhấn mạnh mức độ nhẹ hơn so với “crime” (tội), người nói thường chọn “offence”.  \n\n**Ví dụ:**  \nViệc đi vào khu vực cấm hút thuốc mà không chịu phạt là một hành vi vi phạm pháp luật."
     },
     {
       "id": 13,
@@ -328,7 +340,8 @@
         "ff_example_en": "The regime continued to persecute journalists who criticised corruption.",
         "ff_example_vi": "Chế độ tiếp tục đàn áp các nhà báo chỉ trích tham nhũng."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "Từ \"prosecute\" là một động từ tiếng Anh có nghĩa là \"truy tố\" hoặc \"đưa ra xét xử\". Đây là một từ thường được sử dụng trong ngữ cảnh pháp lý, khi một cá nhân hoặc tổ chức bị buộc tội phải đối mặt với quy trình xét xử.\n\nTổng quan, \"prosecute\" thường được sử dụng trong các ngữ cảnh sau:\n\n- Khi một cá nhân hoặc tổ chức bị buộc tội phải đối mặt với quy trình xét xử.\n- Khi một cơ quan chức năng điều tra và truy tố một vụ án.\n\nTừ đồng nghĩa của \"prosecute\" có thể là \"indict\" hoặc \"charge\". Tuy nhiên, mỗi từ đều có một chút khác biệt trong cách sử dụng:\n\n- \"Indict\" thường được sử dụng khi một cơ quan chức năng đưa ra cáo buộc chống lại một cá nhân hoặc tổ chức.\n- \"Charge\" thường được sử dụng khi một cá nhân hoặc tổ chức bị buộc tội và phải đối mặt với quy trình xét xử.\n\nVí dụ mới dễ nhớ: Company A đã bị truy tố vì vi phạm bảo vệ môi trường và phải bồi thường cho các thiệt hại gây ra."
     },
     {
       "id": 14,
@@ -353,7 +366,8 @@
         "ff_example_en": "The evidence was strong enough to convince the jury.",
         "ff_example_vi": "Bằng chứng đủ mạnh để thuyết phục bồi thẩm đoàn."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "Từ tiếng Anh \"convict\" có nghĩa là kết tội hoặc tuyên phạt ai đó. Đây là hành động chính thức xác định tội phạm và áp dụng hình phạt.\n\nNgữ cảnh thường dùng: Từ này thường được sử dụng trong các trường hợp xét xử, tòa án, hoặc khi ai đó bị kết tội về một tội phạm.\n\nTừ đồng nghĩa: Một số từ đồng nghĩa với \"convict\" bao gồm \"sentence\", \"punish\", hoặc \"find guilty\".\n\nVí dụ mới dễ nhớ: Một người bị kết tội vì đánh nhau và bị phạt tiền và tù.\n\n- Anh ta bị kết tội đánh nhau và bị phạt 10 triệu đồng và 6 tháng tù."
     },
     {
       "id": 15,
@@ -378,7 +392,8 @@
         "ff_example_en": "The school used the campaign to reinforce its message against bullying.",
         "ff_example_vi": "Nhà trường dùng chiến dịch để củng cố thông điệp chống bắt nạt."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "Từ \"enforce\" có nghĩa là thực thi (pháp luật). Đây là một hành động áp dụng và thực hiện một quy định, luật lệ hoặc quyết định.\n\nNgữ cảnh thường dùng: \n\n- Thực thi luật pháp: \"Cảnh sát phải enforce luật giao thông để đảm bảo an toàn cho mọi người.\"\n- Áp dụng quy định: \"Công ty phải enforce các chính sách bảo vệ môi trường để giảm thiểu tác động tiêu cực.\"\n- Thực hiện quyết định: \"Chính phủ phải enforce quyết định về tăng giá điện để đảm bảo cân đối ngân sách.\"\n\nPhân biệt với từ đồng nghĩa:\n\n- Từ \"thực hiện\" cũng có nghĩa là thực thi, nhưng thường được sử dụng trong ngữ cảnh áp dụng một kế hoạch hoặc chương trình.\n- Từ \"adhere\" có nghĩa là tuân thủ, nhưng thường được sử dụng trong ngữ cảnh tuân thủ một quy định hoặc luật lệ.\n\nVí dụ mới dễ nhớ: \"Các nhà chức trách phải enforce các quy định về an toàn lao động để bảo vệ quyền lợi của người lao động.\""
     }
   ],
   "exercises": {

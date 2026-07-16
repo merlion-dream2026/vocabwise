@@ -354,6 +354,21 @@ function buildVocabulary(glossary, bc) {
       }
     }
 
+    if (item.explanation_vi) {
+      const box = {
+        shading: { type: ShadingType.SOLID, color: C.grayXS },
+        indent: { left: 380 },
+        border: { left: { style: BorderStyle.THICK, size: 12, color: bc.accent, space: 6 } },
+      }
+      const lines = item.explanation_vi.split('\n').map(l => l.trim()).filter(Boolean)
+      items.push(p([r('✨ Giải nghĩa', { bold: true, color: bc.accent, size: SZ.xs })],
+        { ...box, spacing: { before: 40, after: 20 } }))
+      lines.forEach((line, i) => {
+        items.push(p([r(line, { color: C.text, size: SZ.xs })],
+          { ...box, spacing: { before: 0, after: i === lines.length - 1 ? 40 : 20 } }))
+      })
+    }
+
     items.push(gap(80, 0))
   }
 

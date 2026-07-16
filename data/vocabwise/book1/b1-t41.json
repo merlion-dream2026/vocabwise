@@ -68,7 +68,8 @@
         "example_vi": "Lan làm theo công thức để làm bánh.",
         "ff_example_en": "Lan kept the receipt after buying the cake ingredients.",
         "ff_example_vi": "Lan giữ lại biên lai sau khi mua nguyên liệu làm bánh."
-      }
+      },
+      "explanation_vi": "Từ \"recipe\" (noun) trong tiếng Anh có nghĩa là công thức nấu ăn. Đây là từ thường được sử dụng trong ngữ cảnh nấu ăn, ẩm thực và bếp nướng.\n\nTừ này thường được sử dụng trong các văn bản như hướng dẫn nấu ăn, sách dạy nấu ăn, hoặc trang web nấu ăn trực tuyến.\n\nNếu muốn phân biệt từ này với các từ đồng nghĩa, ta có thể nói rằng \"recipe\" thường tập trung vào các bước và nguyên liệu cần thiết để nấu một món ăn cụ thể. Các từ đồng nghĩa như \"formula\" hoặc \"method\" có thể được sử dụng trong nhiều ngữ cảnh khác nhau, không chỉ chỉ riêng nấu ăn.\n\nVí dụ mới dễ nhớ: Tôi đã tìm thấy một công thức nấu ăn cho món pizza tuyệt vời trên mạng xã hội.\n\nCâu ví dụ này cho thấy cách sử dụng \"recipe\" trong ngữ cảnh thực tế, khi người dùng tìm kiếm và sử dụng công thức nấu ăn trên mạng xã hội."
     },
     {
       "id": 2,
@@ -92,7 +93,8 @@
         "example_vi": "Bột mì là nguyên liệu chính trong bánh mì.",
         "ff_example_en": "Paper is the main material used for the recipe card.",
         "ff_example_vi": "Giấy là vật liệu chính dùng làm thẻ công thức."
-      }
+      },
+      "explanation_vi": "Từ \"ingredient\" trong tiếng Anh có nghĩa là nguyên liệu (nấu ăn). Từ này thường được sử dụng trong ngữ cảnh nấu ăn, chế biến thực phẩm.\n\nNgữ cảnh thường dùng: Khi liệt kê các thành phần chính trong một món ăn, ví dụ như \"Các nguyên liệu chính trong món salad này bao gồm rau củ, trái cây và phô mai\".\n\nPhân biệt với từ đồng nghĩa: Từ đồng nghĩa của \"ingredient\" có thể là \"component\" hoặc \"material\", nhưng \"ingredient\" thường được sử dụng trong ngữ cảnh nấu ăn và chế biến thực phẩm.\n\nVí dụ mới: \"Nguyên liệu chính trong món bánh quy này bao gồm bột mì, đường và bơ\".\n\nHoặc: \"Để làm món nước sốt, bạn cần có một số nguyên liệu như nước, đường, nước cốt chanh và dầu ăn.\"\n\nHoặc: \"Các nguyên liệu trong món salad thường bao gồm rau, trái cây, phô mai và sốt dressing.\"\n\nHoặc: \"Nguyên liệu chính để làm món bánh mì bao gồm bột mì, nước và men nở.\""
     },
     {
       "id": 3,
@@ -109,7 +111,8 @@
         "adjective": "mixed",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ \"mix\" trong tiếng Anh có thể là động từ (verb) hoặc danh từ (noun). Khi là động từ, nó có nghĩa là trộn, kết hợp các nguyên liệu lại với nhau. Khi là danh từ, nó có nghĩa là hỗn hợp, kết quả của việc trộn các nguyên liệu.\n\nNgữ cảnh thường dùng: Trộn bơ, đường và bột mì để làm bánh, trộn trái cây với nước để làm nước uống, trộn màu sắc để tạo ra một màu mới.\n\nPhân biệt với từ đồng nghĩa: Từ \"mix\" khác với từ \"stir\" vì stir thường chỉ việc khuấy nhẹ nhàng, còn mix thường chỉ việc trộn mạnh mẽ.\n\nVí dụ mới dễ nhớ: Mix màu sơn đỏ và xanh để tạo ra màu hồng đẹp mắt."
     },
     {
       "id": 4,
@@ -133,7 +136,8 @@
         "example_vi": "Hãy luộc khoai tây trong nước mười phút.",
         "ff_example_en": "Cook the potatoes until they are soft.",
         "ff_example_vi": "Hãy nấu khoai tây cho đến khi mềm."
-      }
+      },
+      "explanation_vi": "Từ \"boil\" có nghĩa là \"luộc\" hoặc \"đun sôi\". Đây là một động từ thường dùng trong ngữ cảnh nấu ăn, đặc biệt khi nhắc đến việc nấu thức ăn bằng nước sôi.\n\nTrong ngữ cảnh này, \"boil\" thường đi kèm với các từ như \"water\" (nước), \"eggs\" (trứng), \"pot\" (chảo) hoặc \"stew\" (cháo).\n\nĐể phân biệt với các từ đồng nghĩa, bạn có thể lưu ý rằng \"boil\" thường chỉ quá trình đun sôi một loại thức ăn hoặc chất lỏng, trong khi các từ khác có thể chỉ quá trình nấu ăn khác nhau, chẳng hạn như \"fry\" (xào), \"roast\" (rán), \"grill\" (xào trên than) hoặc \"steep\" (chắm).\n\nDưới đây là một ví dụ mới dễ nhớ: \"Tôi sẽ boil một chậu nước sôi để pha trà.\"\n\nTừ đồng nghĩa: \"fry\", \"roast\", \"grill\""
     },
     {
       "id": 5,
@@ -150,7 +154,8 @@
         "adjective": "fried",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ \"fry\" trong tiếng Anh có nghĩa là chiên, rán, thường dùng trong ngữ cảnh nấu ăn. \n\n- Trong nấu ăn, \"fry\" thường dùng để chiên thực phẩm trong dầu hoặc mỡ, tạo ra bọt và màu vàng đẹp mắt.\n- \"Fry\" khác với từ đồng nghĩa \"grill\", vì grill thường dùng để nướng thực phẩm trên than hồng hoặc trên một bề mặt bằng kim loại.\n\nVí dụ: \n\n- Cô thường fry tôm với hành và một chút dầu để ăn sáng.\n- Anh thích grill thịt bò trên một chiếc chảo để tạo ra hương vị đặc trưng.\n- Chị đã fry trứng ốp la và phục vụ như bữa sáng cho gia đình."
     },
     {
       "id": 6,
@@ -174,7 +179,8 @@
         "example_vi": "Chúng tôi nướng một chiếc bánh trong lò.",
         "ff_example_en": "We roasted vegetables in the same oven.",
         "ff_example_vi": "Chúng tôi nướng rau củ trong cùng chiếc lò."
-      }
+      },
+      "explanation_vi": "Từ \"bake\" (verb) trong tiếng Anh có nghĩa là nướng (bằng lò), thường được sử dụng trong ngữ cảnh nấu nướng hoặc ẩm thực.\n\n- Ví dụ: \"Cô ấy sẽ bake bánh kem vào ngày lễ Valentine\".\n\n- Từ này thường được sử dụng để chỉ quá trình nướng thực phẩm, khác với từ \"roast\" (nướng bằng lò hoặc trên than) hoặc \"grill\" (nướng trên than hồng hoặc chảo nướng).\n\n- Ví dụ khác: \"Bà nội tôi yêu thích bake bánh quy vào các dịp lễ Tết\".\n\n- Trong ngữ cảnh khác, từ \"bake\" có thể ám chỉ việc tạo hình hoặc tạo nên một sản phẩm từ bột, ví dụ như \"bake một con ếch bằng bột\".\n\n- Ví dụ: \"Em bé nhỏ của tôi yêu thích bake những con ếch bằng bột từ bữa sáng.\"\n\nLưu ý rằng trong một số ngữ cảnh, từ \"bake\" có thể đồng nghĩa với từ \"cook\" (nấu), nhưng trong ngữ cảnh nấu nướng bằng lò, từ \"bake\" thường được sử dụng để chỉ quá trình nướng thực phẩm."
     },
     {
       "id": 7,
@@ -198,7 +204,8 @@
         "example_vi": "Lan đặt một lát bánh mì lên đĩa.",
         "ff_example_en": "Lan put a piece of cake on the plate.",
         "ff_example_vi": "Lan đặt một miếng bánh lên đĩa."
-      }
+      },
+      "explanation_vi": "Từ tiếng Anh \"slice\" có nghĩa là thái, cắt lát; lát mỏng. Từ này thường được dùng để mô tả hành động cắt hoặc thái thực phẩm thành lát mỏng.\n\nNgữ cảnh thường dùng: Khi nấu ăn, bạn cần thái thịt, rau củ hoặc trái cây thành lát mỏng để phục vụ.\n\nPhân biệt với từ đồng nghĩa: Từ \"slice\" khác với từ \"chop\" vì \"slice\" thường được sử dụng để tạo ra những lát mỏng và đều nhau, trong khi \"chop\" thường được sử dụng để cắt thực phẩm thành những miếng lớn hơn.\n\nVí dụ mới: Hãy slice bánh mì thành những lát mỏng để làm bánh mì kẹp.\n\nTừ \"slice\" cũng có thể được sử dụng như một từ danh từ để chỉ một lát mỏng của một thực phẩm, chẳng hạn như \"slice of pizza\" (một lát pizza)."
     },
     {
       "id": 8,
@@ -222,7 +229,8 @@
         "example_vi": "Lan rót sữa vào bát.",
         "ff_example_en": "Lan spilled some milk beside the bowl.",
         "ff_example_vi": "Lan làm đổ một ít sữa bên cạnh bát."
-      }
+      },
+      "explanation_vi": "Từ \"pour\" (verb) trong tiếng Anh có nghĩa là đổ hoặc rót. Từ này thường được sử dụng trong các ngữ cảnh sau:\n\n- Đổ chất lỏng từ một đựng vào một nơi khác: \"Pour the oil into the pan before cooking.\"\n- Rót chất lỏng từ một nguồn vào một nơi khác: \"Pour water from the bottle into the glass.\"\n\nTừ \"pour\" khác với từ đồng nghĩa \"drain\" (rửa trôi), vì \"drain\" thường được sử dụng để mô tả nước hoặc chất lỏng chảy ra từ một nơi do lực hấp dẫn hoặc do một quá trình tự nhiên khác.\n\nVí dụ dễ nhớ: \"Pour the coffee into the cup slowly so it doesn't spill on the table.\" (Đổ cà phê từ máy pha cà phê vào ly một cách chậm rãi để cà phê không đổ lên bàn.)"
     },
     {
       "id": 9,
@@ -246,7 +254,8 @@
         "example_vi": "Hãy hâm nóng món súp trước khi phục vụ.",
         "ff_example_en": "The soup is hot, so serve it carefully.",
         "ff_example_vi": "Món súp nóng, vì vậy hãy phục vụ cẩn thận."
-      }
+      },
+      "explanation_vi": "Từ tiếng Anh \"heat\" có thể là động từ (verb) hoặc danh từ (noun), đều có nghĩa liên quan đến nhiệt độ.\n\n- Động từ \"heat\" có nghĩa là làm nóng hoặc tạo ra nhiệt độ cao. Ví dụ: Bạn cần đun nước sôi trước khi pha trà.\n\n- Danh từ \"heat\" có nghĩa là nhiệt độ hoặc sức nóng. Ví dụ: Nhiệt độ ngoài trời đã tăng lên rất cao trong mùa hè.\n\nTừ đồng nghĩa với \"heat\" là \"temperature\" hoặc \"warmth\". Tuy nhiên, \"temperature\" thường được sử dụng trong ngữ cảnh khoa học hoặc đo lường, trong khi \"warmth\" thường có nghĩa là sự ấm áp hoặc thoải mái.\n\nVí dụ mới dễ nhớ: \"Heat của ánh nắng mặt trời làm tan băng trên bề mặt sông.\""
     },
     {
       "id": 10,
@@ -263,7 +272,8 @@
         "adjective": "prepared / unprepared",
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ tiếng Anh \"prepare\" có nghĩa là chuẩn bị. Đây là một động từ thường được sử dụng trong nhiều ngữ cảnh khác nhau.\n\n- Ngữ cảnh thường dùng: Khi chuẩn bị cho một nhiệm vụ, một sự kiện hoặc một hoạt động nào đó.\n\nVí dụ: Anh ấy chuẩn bị cho kỳ thi bằng cách học tập và ôn luyện.\n\n- Phân biệt với từ đồng nghĩa: Một từ đồng nghĩa của \"prepare\" là \"get ready\". Tuy nhiên, \"prepare\" thường có nghĩa rộng hơn và bao gồm cả việc chuẩn bị vật chất và tinh thần.\n\n- Ví dụ mới: Cô chuẩn bị bữa tiệc bằng cách nấu ăn và trang trí phòng khách.\n\nTóm lại, \"prepare\" là một động từ quan trọng trong tiếng Anh, thường được sử dụng để chỉ hành động chuẩn bị cho một mục tiêu hoặc một sự kiện nào đó."
     },
     {
       "id": 11,
@@ -287,7 +297,8 @@
         "example_vi": "Hãy làm theo công thức cẩn thận khi nấu súp.",
         "ff_example_en": "Obey the kitchen safety rules when making the soup.",
         "ff_example_vi": "Hãy tuân thủ các quy tắc an toàn nhà bếp khi nấu súp."
-      }
+      },
+      "explanation_vi": "**follow /fɒləʊ/**  \n\n1. “follow” thường dùng khi chỉ hành động thực hiện đúng những chỉ dẫn, quy trình hoặc lời khuyên của người khác.  \n2. Khi muốn nhấn mạnh sự tuân thủ nghiêm ngặt, có thể dùng “obey”; còn “adhere to” thường xuất hiện trong ngữ cảnh pháp lý hoặc tiêu chuẩn kỹ thuật. “follow” mang tính linh hoạt, dùng cho cả tình huống thường ngày.  \n3. Ví dụ dễ nhớ: *Hãy luôn follow lời giáo viên khi làm bài tập về nhà để tránh mắc lỗi.*"
     },
     {
       "id": 12,
@@ -311,7 +322,8 @@
         "example_vi": "Người phục vụ dọn món súp vào buổi trưa.",
         "ff_example_en": "The restaurant provided excellent service at noon.",
         "ff_example_vi": "Nhà hàng cung cấp dịch vụ xuất sắc vào buổi trưa."
-      }
+      },
+      "explanation_vi": "**Serve /sɜːv/** – *dọn ra, phục vụ*  \n\n1. Khi nói một nhà hàng, quán cà phê hay khách sạn “serve” một món ăn, chúng ta dùng “phục vụ” để chỉ việc đưa món đó ra cho khách.  \n2. Nếu muốn nhấn mạnh việc cung cấp hàng hoá hoặc dịch vụ một cách rộng hơn (không chỉ là món ăn), thường dùng “cung cấp” thay vì “phục vụ”.  \n3. “Phục vụ” tập trung vào hành động chăm sóc, đưa đồ ăn, đồ uống tới khách; còn “cung cấp” nhấn vào việc làm sẵn nguồn hàng, đáp ứng nhu cầu.  \n4. Ví dụ: “Quán bánh mì này phục"
     },
     {
       "id": 13,
@@ -335,7 +347,8 @@
         "example_vi": "Hãy dùng một lượng nhỏ muối trong món súp.",
         "ff_example_en": "Use a small number of tomatoes in the soup.",
         "ff_example_vi": "Hãy dùng một số ít cà chua trong món súp."
-      }
+      },
+      "explanation_vi": "Từ \"amount\" (noun) trong tiếng Anh có nghĩa là \"lượng\" hoặc \"số lượng\". Từ này thường được sử dụng trong các ngữ cảnh như:\n\n- Mua hàng hóa: \"Tôi muốn mua một lượng lớn gạo.\"\n- Đánh giá kích thước: \"Một lượng nhỏ nước đã đầy bình.\"\n- Xác định giá trị: \"Lượng tiền tiết kiệm của tôi đang tăng lên.\"\n\nPhân biệt từ đồng nghĩa với \"amount\" là \"quantity\", \"amount\" thường được sử dụng trong các ngữ cảnh cụ thể hơn như thương mại, kinh tế, trong khi \"quantity\" thường được sử dụng trong các ngữ cảnh chung hơn. Tuy nhiên, hai từ này có thể được sử dụng thay thế cho nhau trong nhiều trường hợp.\n\nVí dụ mới dễ nhớ: \"Cô ấy đã nhận được một lượng lớn thư từ từ bạn bè.\""
     },
     {
       "id": 14,
@@ -352,7 +365,8 @@
         "adjective": "step-by-step",
         "adverb": "step by step"
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "**step /stɛp/**  \n\n- “step” thường được dùng để chỉ một hành động cụ thể trong chuỗi các bước của một quy trình, ví dụ như trong hướng dẫn nấu ăn hay trong tài liệu kỹ thuật.  \n- Khi muốn nhấn mạnh rằng mỗi phần là một hành động riêng biệt, ta dùng “bước” thay vì “giai đoạn”; “giai đoạn” mang tính tổng thể, còn “bước” nhấn mạnh tính tuần tự và thực hiện.  \n- “step” khác với “điểm” (chỉ vị trí) và “mốc”"
     },
     {
       "id": 15,
@@ -369,7 +383,8 @@
         "adjective": null,
         "adverb": null
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ \"utensil\" trong tiếng Anh có nghĩa là dụng cụ nấu bếp. \n\nNgữ cảnh thường dùng: Từ này thường được sử dụng trong các câu bàn về nấu ăn, thiết bị nhà bếp, và các vật dụng cần thiết khi chế biến thức ăn.\n\nPhân biệt với từ đồng nghĩa: Từ đồng nghĩa của \"utensil\" có thể là \"kitchenware\" hoặc \"cookware\", nhưng \"utensil\" tập trung nhiều hơn vào các vật dụng dùng để cầm, dùng tay như thìa, nĩa, đũa, muỗng,...\n\nVí dụ mới dễ nhớ: Một chiếc chảo chống dính là một dụng cụ nấu bếp quan trọng trong nhà bếp."
     }
   ],
   "exercises": {

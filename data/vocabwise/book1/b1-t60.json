@@ -68,7 +68,8 @@
         "example_vi": "Bạn muốn đọc cuốn sách nào?",
         "ff_example_en": "Which of these three books would you like to read?",
         "ff_example_vi": "Trong ba cuốn sách này, bạn muốn đọc cuốn nào?"
-      }
+      },
+      "explanation_vi": "Từ \"what\" trong tiếng Anh là một từ hỏi, thường dùng để hỏi về một cái gì đó hoặc điều gì đó. Dưới đây là một số ví dụ về ngữ cảnh thường dùng:\n\n- \"What's your name?\" (Cái tên của bạn là gì?)\n- \"What time is it?\" (Giờ mấy?)\n- \"What's your favorite food?\" (Món ăn yêu thích của bạn là gì?)\n\nTừ \"what\" thường được sử dụng trong các câu hỏi thông dụng, giúp người nói thể hiện sự quan tâm hoặc tò mò về một điều gì đó.\n\nTừ \"what\" có thể phân biệt với từ \"which\" trong một số trường hợp. Từ \"which\" thường được sử dụng trong các câu hỏi hỏi về một lựa chọn cụ thể, ví dụ: \"Which book do you like best?\" (Sách nào bạn thích nhất?)\n\nMột ví dụ mới dễ nhớ về \"what\" là: \"What's your plan for the weekend?\" (Kế hoạch của bạn vào cuối tuần là gì?)"
     },
     {
       "id": 2,
@@ -92,7 +93,8 @@
         "example_vi": "Hôm qua các học sinh ở đâu?",
         "ff_example_en": "The students were in the library yesterday.",
         "ff_example_vi": "Hôm qua các học sinh ở trong thư viện."
-      }
+      },
+      "explanation_vi": "Từ \"where\" là một từ hỏi trong tiếng Anh, chỉ thể hiện sự tò mò về vị trí hoặc địa điểm của một sự vật, một người hoặc một nơi.\n\n- Từ \"where\" thường được sử dụng trong các câu hỏi về địa điểm, ví dụ: \"Where is the library?\" (Nơi đâu có thư viện?).\n\n- So với từ \"where\" là từ \"which\" (nơi nào trong số nhiều nơi), nhưng cách sử dụng khác nhau. \"Which\" thường được sử dụng để chỉ giữa nhiều lựa chọn, ví dụ: \"Which coffee shop do you prefer?\" (Nơi nào trong các quán cà phê mà bạn thích?).\n\n- Một ví dụ mới, dễ nhớ: \"Where did you go on vacation?\" (Nơi nào bạn đã đi du lịch?).\n\n- Một lưu ý khác: \"Where\" có thể được sử dụng để chỉ một nơi cụ thể, ví dụ: \"Where is Tokyo?\" (Nơi đâu là Tokyo?). Trong trường hợp này, \"where\" tương tự như \"tại sao\", nhưng \"where\" chỉ thể hiện sự tò mò về vị trí."
     },
     {
       "id": 3,
@@ -109,7 +111,8 @@
         "adjective": null,
         "adverb": "when / whenever"
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ \"when\" là một từ hỏi trong tiếng Anh, thường được sử dụng để hỏi về thời gian cụ thể. Nghĩa của từ này tương đương với \"khi nào\" hoặc \"lúc nào\" trong tiếng Việt.\n\nTừ \"when\" thường được sử dụng trong các câu hỏi như \"When sẽ có thể đi du lịch?\", \"When sẽ kết thúc dự án?\" hoặc \"When có thể nhận được kết quả?\"\n\nSo với từ đồng nghĩa \"at what time\", \"when\" thường được sử dụng trong các ngữ cảnh khác nhau, như hỏi về thời gian cụ thể (ví dụ: \"When là giờ mở cửa của cửa hàng?\" ) còn \"at what time\" thường hỏi về thời gian cụ thể hơn (ví dụ: \"At what time sẽ đến buổi tối hôm nay?\").\n\nMột ví dụ mới dễ nhớ: \"When sẽ có thể nhận được vé máy bay?\" (khi nào sẽ nhận được vé máy bay?)"
     },
     {
       "id": 4,
@@ -133,7 +136,8 @@
         "example_vi": "Ai đã đặt câu hỏi cuối cùng?",
         "ff_example_en": "Whom did the teacher ask to answer the final question?",
         "ff_example_vi": "Giáo viên yêu cầu ai trả lời câu hỏi cuối cùng?"
-      }
+      },
+      "explanation_vi": "Từ \"who\" trong tiếng Anh là một từ hỏi (question word) dùng để hỏi về người, thường sử dụng trong các câu hỏi có mục tiêu tìm kiếm thông tin về một cá nhân cụ thể.\n\nTừ \"who\" thường được sử dụng trong các ngữ cảnh sau:\n\n- Hỏi về người cụ thể: \"Who is the best teacher in this school?\"\n- Hỏi về người tham gia hoạt động hoặc sự kiện: \"Who is participating in the math competition?\"\n\nTừ \"who\" có thể được phân biệt với từ đồng nghĩa \"whom\" (người được hỏi) hoặc \"which\" (vật, sự vật). Ví dụ:\n\n- \"Who is going to the movies?\" (Hỏi về người cụ thể)\n- \"Whom did you invite to the party?\" (Hỏi về người được hỏi)\n- \"Which book do you like most?\" (Hỏi về vật hoặc sự vật)\n\nVí dụ mới dễ nhớ:\n\"Who is the lead singer of the band that just performed at the concert?\" (Ai là ca sĩ chính của ban nhạc vừa biểu diễn ở buổi hòa nhạc?)"
     },
     {
       "id": 5,
@@ -150,7 +154,8 @@
         "adjective": null,
         "adverb": "why"
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "**Why /waɪ/**  \n\n- “Why” là từ để hỏi nguyên nhân, mục đích; thường dùng khi muốn biết lý do của một hành động, một hiện tượng.  \n- Khi muốn hỏi “tại sao” ở dạng câu khẳng định, chúng ta dùng “why” ở đầu câu; trong khi “what” hay “how” chỉ hỏi về vật thể hoặc cách thức, không thay thế được “why”.  \n- “Why” thường xuất hiện trong các câu hỏi ngắn gọn, đặc biệt là khi người nói muốn nhấn mạnh sự bất ngờ hoặc mong muốn giải thích rõ ràng.  \n\n**Ví dụ:**  \nWhy did she quit her job? She felt the work was no longer challenging."
     },
     {
       "id": 6,
@@ -167,7 +172,8 @@
         "adjective": null,
         "adverb": "how / however"
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "\"How\" là một từ tiếng Anh được sử dụng như một từ hỏi (question word), thường được sử dụng để hỏi về cách thức, phương pháp hoặc hình thức của một việc gì đó.\n\nNghĩa của từ \"how\" thường được sử dụng như \"như thế nào\", \"bằng cách nào\", \"cách gì\" và được sử dụng rộng rãi trong các câu hỏi như: \"How are you?\" (Bạn đang làm gì?), \"How do you like it?\" (Bạn thích nó không?) hoặc \"How can I do it?\" (Tôi có thể làm nó như thế nào?).\n\nTừ \"how\" khác với từ \"why\" (một từ hỏi khác), vì \"why\" thường được sử dụng để hỏi về nguyên nhân hoặc lý do của một việc gì đó.\n\nVí dụ mới dễ nhớ:\n\n- How long does it take to get to the airport from here? (Sao lâu thì đến sân bay từ đây?)"
     },
     {
       "id": 7,
@@ -191,7 +197,8 @@
         "example_vi": "Lan hỏi giáo viên khi nào bài kiểm tra bắt đầu.",
         "ff_example_en": "The teacher told Lan when the test would begin.",
         "ff_example_vi": "Giáo viên nói cho Lan biết khi nào bài kiểm tra bắt đầu."
-      }
+      },
+      "explanation_vi": "Từ \"ask\" (verb) có nghĩa là hỏi, đặt câu hỏi, yêu cầu. \n\nTừ này thường được sử dụng trong các ngữ cảnh như:\n\n- Hỏi thông tin: \"Hãy hỏi cô giáo về bài tập nhà.\" \n- Yêu cầu giúp đỡ: \"Hãy ask tôi giúp đỡ nếu bạn cần.\"\n- Đặt câu hỏi: \"Tôi sẽ ask bạn câu hỏi về chủ đề này sau.\"\n\nTừ đồng nghĩa với \"ask\" có thể là \"question\" hoặc \"request\", tuy nhiên mỗi từ này có nghĩa và ngữ cảnh khác nhau. Ví dụ:\n\n- \"Question\" thường được sử dụng khi đặt câu hỏi một cách cẩn thận và nghiêm túc. \"Hãy question bản thân về quyết định của bạn.\"\n- \"Request\" thường được sử dụng khi yêu cầu một việc gì đó một cách lịch sự. \"Hãy request một bản sao của tài liệu đó.\"\n\nVí dụ mới dễ nhớ: \"Nếu bạn cần một cuốn sách, hãy ask giáo viên để mượn.\""
     },
     {
       "id": 8,
@@ -215,7 +222,8 @@
         "example_vi": "Lan trả lời câu hỏi của giáo viên.",
         "ff_example_en": "Lan replied to the teacher’s email.",
         "ff_example_vi": "Lan trả lời email của giáo viên."
-      }
+      },
+      "explanation_vi": "Từ \"answer\" trong tiếng Anh có hai nghĩa khác nhau: động từ (verb) và danh từ (noun).\n\n- Động từ (verb): trả lời, giải đáp\n Ví dụ: Anh ấy đã trả lời câu hỏi của cô ấy một cách rõ ràng.\n\n- Danh từ (noun): câu trả lời, lời giải thích\n Ví dụ: Câu trả lời của em rất hay, cô giáo đã khen ngợi em.\n\nTừ \"answer\" thường được sử dụng trong các ngữ cảnh như:\n\n- Trả lời câu hỏi: \"Bạn đã trả lời câu hỏi của cô giáo chưa?\"\n- Giải đáp thắc mắc: \"Tôi cần giải đáp về vấn đề này, hy vọng bạn có thể giúp tôi.\"\n\nTừ \"answer\" khác với từ đồng nghĩa \"trả lời\" ở chỗ, \"trả lời\" thường được sử dụng trong các ngữ cảnh như trả lời một cách nhanh chóng hoặc phản ứng một cách mạnh mẽ, trong khi \"answer\" thường được sử dụng trong các ngữ cảnh như trả lời một cách rõ ràng và chính xác.\n\nVí dụ mới dễ nhớ: \"Tôi đã trả lời email của anh ấy ngay lập tức.\""
     },
     {
       "id": 9,
@@ -239,7 +247,8 @@
         "example_vi": "Tôi biết đáp án của câu hỏi.",
         "ff_example_en": "I understand why that answer is correct.",
         "ff_example_vi": "Tôi hiểu vì sao đáp án đó đúng."
-      }
+      },
+      "explanation_vi": "**Từ “know” /noʊ/**  \n\n1. “Know” thường dùng để diễn tả việc có thông tin hoặc nhận thức chắc chắn về một sự việc, một người hoặc một sự kiện.  \n2. Khi muốn nhấn mạnh rằng mình đã học, nghiên cứu hoặc trải nghiệm trực tiếp, “know” khác với “think” (nghĩ) vì nó không chỉ là suy đo"
     },
     {
       "id": 10,
@@ -256,7 +265,8 @@
         "adjective": "understandable / misunderstood",
         "adverb": "understandably"
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "Từ \"understand\" là một động từ trong tiếng Anh, có nghĩa là hiểu, nắm được một thông tin, ý nghĩa hoặc tình huống.\n\n- **Ngữ cảnh thường dùng:** Từ \"understand\" thường được sử dụng trong các tình huống như giải thích một vấn đề phức tạp, phân tích một ý tưởng hoặc ý nghĩa của một từ ngữ, câu văn.\n- **Phân biệt với từ đồng nghĩa:** Một từ đồng nghĩa của \"understand\" là \"know\", tuy nhiên \"know\" thường được sử dụng trong các ngữ cảnh khác nhau. Ví dụ, \"I know this city\" (Tôi biết thành phố này) khác với \"I understand the traffic system in this city\" (Tôi hiểu hệ thống giao thông của thành phố này).\n- **Ví dụ mới dễ nhớ:** \"The teacher asked the students to understand the plot of the novel before discussing it in class\" (Giáo viên yêu cầu các học sinh hiểu cốt truyện của tiểu thuyết trước khi thảo luận về nó trong lớp học)."
     },
     {
       "id": 11,
@@ -280,7 +290,8 @@
         "example_vi": "Học sinh hỏi từ mới có nghĩa là gì.",
         "ff_example_en": "The student thought the character in the story was mean.",
         "ff_example_vi": "Học sinh cho rằng nhân vật trong câu chuyện rất xấu tính."
-      }
+      },
+      "explanation_vi": "**mean /miːn/ (verb)**  \n\n- Động từ này thường dùng khi muốn biết hoặc giải thích ý nghĩa của một từ, một câu, hoặc một hành động.  \n- Khi so sánh với “ý chỉ” hoặc “định nghĩa”, “mean” nhấn mạnh vào việc hỏi hoặc đưa ra nghĩa cụ thể của một biểu đạt, trong khi “ý chỉ” có thể chỉ một ẩn dụ chung và “định nghĩa” thường dùng cho mô tả chi tiết hơn.  \n- Ví dụ: “Bạn có thể cho tôi biết từ này có nghĩa là gì không?”  \n\n(Trong bài thi IELTS, câu hỏi kiểu này xuất hiện thường xuyên trong phần Đọc và Viết để kiểm tra khả năng hiểu từ vựng trong ngữ cảnh.)"
     },
     {
       "id": 12,
@@ -297,7 +308,8 @@
         "adjective": "repeated / repetitive",
         "adverb": "repeatedly"
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "**repeat /rɪˈpiːt/**  \n\n1. Khi muốn người khác nói lại một câu đã nói trước đó, ta dùng “repeat”.  \n2. Từ này khác với “again” (chỉ thời gian lặp lại) và “reiterate” (nhấn mạnh việc diễn đạt lại một cách chi tiết).  \n3. “Repeat” thường xuất hiện trong các tình huống giao tiếp hàng ngày, nhất là khi không nghe rõ.  \n4. Ví dụ: “Xin lỗi, bạn có thể lặp lại câu vừa nói không?”"
     },
     {
       "id": 13,
@@ -314,7 +326,8 @@
         "adjective": null,
         "adverb": "again"
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "**again /əˈɡen/**  \n\n- “again” là trạng từ dùng để diễn tả hành động được lặp lại, thường xuất hiện khi một việc đã xảy ra trước đó và cần thực hiện thêm một lần nữa.  \n- Khi muốn nhấn mạnh việc làm lại, ta thường dùng “lại” hoặc “một lần nữa”; “again” khác với “already” (đã) hay “still” (vẫn) vì nó không chỉ nói về thời gian hiện tại mà còn nhấn mạnh sự lặp lại.  \n- Từ đồng nghĩa gần nhất là “once more”, nhưng “again” ngắn gọn, thường dùng trong giao tiếp và trong đề thi IELTS để diễn đạt ý “làm lại”.  \n\n**Ví dụ:** “Sau khi tôi không nghe rõ, anh ấy đã nói lại câu trả lời một cách rõ ràng hơn.”"
     },
     {
       "id": 14,
@@ -331,7 +344,8 @@
         "adjective": "pleased / pleasing / pleasant",
         "adverb": "please / pleasantly"
       },
-      "false_friend": null
+      "false_friend": null,
+      "explanation_vi": "**Từ \"please\" (adverb / verb)**\n\nTừ \"please\" có nghĩa là \"làm ơn\" hoặc \"làm hài lòng\". Nó thường được sử dụng để xin phép hoặc thể hiện sự lịch sự.\n\n**Ngữ cảnh thường dùng:**\n\n- Khi xin phép: Bạn nên nói \"làm ơn\" khi xin phép ai đó làm điều gì đó cho bạn.\n- Khi thể hiện sự lịch sự: Từ \"please\" có thể được sử dụng để thể hiện sự lịch sự khi giao tiếp với người khác.\n\n**Phân biệt với từ đồng nghĩa:**\n\n- Từ đồng nghĩa của \"please\" là \"làm ơn\", \"hãy\", \"xin\".\n- Tuy nhiên, \"please\" thường được sử dụng trong ngữ cảnh lịch sự hơn, trong khi \"làm ơn\" hoặc \"xin\" có thể được sử dụng trong ngữ cảnh bình thường.\n\n**Ví dụ mới:**\n\n- Xin nói chậm lại một chút, tôi đang học tiếng Anh. (Hãy nói chậm lại một chút, tôi đang học tiếng Anh.)\n\n- Bạn nên cân nhắc thời gian khi đặt lịch gặp gỡ."
     },
     {
       "id": 15,
@@ -355,7 +369,8 @@
         "example_vi": "Tôi chắc chắn rằng đáp án này đúng.",
         "ff_example_en": "Surely this answer cannot be wrong.",
         "ff_example_vi": "Chắc hẳn đáp án này không thể sai."
-      }
+      },
+      "explanation_vi": "**Sure /ʃʊr/ – nghĩa và cách dùng**  \n\n1. “Sure” là tính từ chỉ sự chắc chắn, tự tin; dùng để khẳng định một điều nào đó.  \n2. Thường xuất hiện trong các câu hỏi xác nhận (ví dụ: “Bạn có chắc không?”) hoặc câu trả lời để bày tỏ sự đồng ý mạnh mẽ (ví dụ: “Tôi chắc chắn là đúng”).  \n3. Từ đồng nghĩa gần nhất là “certain”, nhưng “sure” thường mang tính thân mật, đời thường hơn, trong khi “certain” mang sắc thái trang trọng, lịch sự.  \n4"
     }
   ],
   "exercises": {

@@ -69,7 +69,8 @@
         "ff_example_en": "The student studied butterflies in an entomology course.",
         "ff_example_vi": "Sinh viên nghiên cứu loài bướm trong một khóa côn trùng học."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Etymology (n.) - Từ nguyên học, nguồn gốc của từ**\n\nTừ \"etymology\" thường được sử dụng trong ngữ cảnh nghiên cứu và phân tích nguồn gốc của từ trong ngôn ngữ. Trong đó, người ta thường tìm hiểu về lịch sử hình thành, các thay đổi và phát triển của từ qua thời gian.\n\nSo với từ đồng nghĩa \"ngữ nghĩa học\", etymology tập trung vào tìm hiểu nguồn gốc và lịch sử của từ, trong khi ngữ nghĩa học tập trung vào việc phân tích ý nghĩa của từ trong ngôn ngữ hiện đại.\n\nVí dụ: Từ \"tài năng\" có nguồn gốc từ tiếng Pháp \"talent\", bắt nguồn từ tiếng Latinh \"talentum\", nghĩa là \"công cụ\"."
     },
     {
       "id": 2,
@@ -87,7 +88,8 @@
         "adverb": null
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Neologism** /niːˈɒlədʒ"
     },
     {
       "id": 3,
@@ -105,7 +107,8 @@
         "adverb": "semantically"
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**semantic shift** ( danh từ) – quá trình một từ thay đổi ý nghĩa so với nghĩa gốc của nó theo thời gian.  \n\n- Thường dùng khi nói về cách một từ “đổi màu” trong tư duy của người nói, ví dụ trong ngôn ngữ học, lịch sử từ vựng, hoặc khi giải thích tại sao một từ hiện nay có nghĩa khác so với trong sách giáo trình cũ.  \n- Từ đồng nghĩa gần nhất là **“semantic change”**, nhưng “semantic shift” nhấn mạnh hơn vào “sự dịch chuyển” (shift) – tức là một bước chuyển cụ thể, thường được nhận thấy qua các giai đoạn lịch sử; “semantic change” có thể chỉ bất kỳ sự thay đổi nào, kể cả nhỏ.  \n\n**Ví dụ mới:** Trong tiếng Anh hiện đại, từ “sick” đã trải qua một semantic shift: từ “bị bệnh” (đúng nghĩa) sang nghĩa “rất tuyệt vời, gây ấn tượng” trong tiếng lóng trẻ; ví dụ: “That skateboard trick was sick!” (Mánh khóe trượt ván đó thật tuyệt)."
     },
     {
       "id": 4,
@@ -130,7 +133,8 @@
         "ff_example_en": "The library changed its book-lending policy.",
         "ff_example_vi": "Thư viện thay đổi chính sách cho mượn sách."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**borrowing /ˈbɒr.oʊ.ɪŋ/**  \n\n1. “Borrowing” dùng để chỉ hiện tượng một ngôn ngữ mượn từ ngữ của ngôn ngữ khác, thường xuất hiện trong các bài viết về ngôn ngữ học hoặc lịch sử ngôn ngữ.  \n2. Khi muốn nhắc tới việc mượn tiền, chúng ta dùng “loan”; “borrowing” chỉ riêng việc mượn từ ngữ, vì vậy hai từ này không thể hoán đổi cho nhau.  \n3. Từ đồng nghĩa gần nhất là “sự mượn” nhưng “borrowing” nhấn mạnh tính chất chung của việc thu thập từ vựng từ các nguồn ngôn ngữ khác.  \n4. Ví dụ: “Tiếng Anh"
     },
     {
       "id": 5,
@@ -148,7 +152,8 @@
         "adverb": null
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**standardisation** /ˌstændərdaɪˈzeɪʃən/  \n\n- *standardisation* (danh từ) chỉ quá trình đưa một hệ thống, một quy tắc hoặc một cách thực hành vào tiêu chuẩn chung, để mọi người đều áp dụng một cách đồng nhất.  \n\n- Từ này thường được dùng trong các lĩnh vực như giáo dục, công nghệ, y tế, hoặc ngôn ngữ, khi muốn nhấn mạnh việc thiết lập một chuẩn mực duy nhất cho toàn bộ cộng đồng.  \n\n- Khi so sánh với *uniformity* (đồng nhất), *standardisation* nhấn mạnh vào “cách tạo ra” chuẩn mực, còn *uniformity* chỉ trạng thái đã đồng nhất; còn *regularisation* (điều chỉnh để phù hợp) lại mang nghĩa làm cho phù hợp hơn chứ không nhất thiết là tạo tiêu chuẩn chung.  \n\n- Ví dụ mới: “Việc chuẩn hoá cách ghi chú tài chính trong các báo cáo ngân hàng đã giúp giảm thiểu sai sót và tăng tính minh bạch.”"
     },
     {
       "id": 6,
@@ -173,7 +178,8 @@
         "ff_example_en": "Their children later developed a creole with native speakers and a fuller grammar.",
         "ff_example_vi": "Con cái của họ sau đó phát triển một ngôn ngữ creole có người bản ngữ và ngữ pháp đầy đủ hơn."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Pidgin** (n.) – một ngôn ngữ “lai ghép” được tạo ra nhanh chóng giữa các nhóm người nói các ngôn ngữ khác nhau, chỉ dùng những từ và ngữ pháp cơ bản nhất để giao tiếp.  \n\n- **Ngữ cảnh thường dùng:** Khi nói về lịch sử ngôn ngữ hoặc về cách người dân ở các cảng, khu vực thương mại đa ngôn ngữ giao tiếp, ta sẽ dùng “pidgin”.  \n- **Phân biệt với từ đồng nghĩa:** “Creole” cũng là ngôn ngữ lai, nhưng khác ở chỗ creole đã phát triển thành một hệ thống ngôn ngữ đầy đủ, được truyền từ thế hệ này sang thế hệ khác; pidgin thì chỉ tồn tại như một “cầu nối” tạm thời và thường không có người mẹ‑ngôn ngữ.  \n- **Ví dụ mới:** *Hải quan Singapore từng dùng một pidgin tiếng Anh‑Mã để giao tiếp với các thương nhân Trung Quốc vào thế kỷ 19.*"
     },
     {
       "id": 7,
@@ -198,7 +204,8 @@
         "ff_example_en": "The earlier pidgin had no native speakers and a more limited grammar.",
         "ff_example_vi": "Ngôn ngữ bồi trước đó không có người bản ngữ và có ngữ pháp hạn chế hơn."
       },
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Creole (danh từ) – giải thích cho học sinh Việt Nam**\n\n- “Creole” chỉ một ngôn ngữ được sinh ra từ sự pha trộn của nhiều ngôn ngữ khác nhau, nhưng đã phát triển thành một hệ thống ngôn ngữ độc lập, có đầy đủ ngữ pháp và từ v"
     },
     {
       "id": 8,
@@ -216,7 +223,8 @@
         "adverb": "lexically"
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Lexicon** /ˈlɛk.sɪ.kɒn/ (danh từ)\n\n1. **Ngữ cảnh thường dùng**: “lexicon” chỉ toàn bộ hệ thống từ ngữ của một ngôn ngữ, một lĩnh vực chuyên môn, hoặc một người nói. Nó thường xuất hiện trong các bài viết học thuật, nghiên cứu ngôn ngữ hoặc khi so sánh các ngôn ngữ khác nhau.  \n\n2. **Phân biệt với từ đồng nghĩa**: “vocabulary” cũng có nghĩa là “từ vựng”, nhưng “vocabulary” thường dùng để nói tới danh sách các từ mà một người biết hoặc học, trong khi “lexicon” nhấn mạnh *cấu trúc và phạm vi* của toàn bộ hệ thống từ ngữ của một ngôn ngữ hoặc một chuyên ngành.  \n\n3. **Ví dụ mới dễ nhớ**:  \n   *The medical lexicon includes words such as “diagnosis,” “intravenous,” and “metastasis.”*  \n   → *Từ điển y học (lexicon) chứa các từ như “diagnosis,” “intravenous,” và “metastasis.”*"
     },
     {
       "id": 9,
@@ -234,7 +242,8 @@
         "adverb": null
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**obsolescence** /əbˈsəʊləs(ə)ns/ (n.) – “sự lỗi thời, hiện tượng một vật, công nghệ, hay khái niệm trở nên không còn hữu dụng nữa”.\n\n- **Ngữ cảnh thường dùng:** thường xuất hiện khi nói về công nghệ, sản phẩm, phần mềm, hay thậm chí từ ngữ, phong cách đã bị thay thế bởi những thứ mới, hiện đại hơn.  \n- **Phân biệt với từ đồng nghĩa:** *outdated* chỉ “cũ kỹ, không còn thời thượng” nhưng không nhấn mạnh quá trình “trở nên không còn dùng được”; *obsolescence* nhấn mạnh **quá trình** và **kết quả** của việc lỗi thời (ví dụ: “planned obsolescence” – thiết kế cố ý để làm sản phẩm nhanh chóng lỗi thời).  \n- **Ví dụ mới:** *The rapid obsolescence of DVD players has forced many households to switch to streaming services.* → Sự lỗi thời nhanh chóng của máy DVD đã buộc nhiều gia đình chuyển sang dịch vụ truyền phát trực tuyến."
     },
     {
       "id": 10,
@@ -252,7 +261,8 @@
         "adverb": null
       },
       "false_friend": null,
-      "receptive_productive": "P"
+      "receptive_productive": "P",
+      "explanation_vi": "**Coinage** /ˈkɔɪnɪdʒ/ (danh từ) – trong ngữ cảnh ngôn ngữ, nghĩa là “sự bịa ra, tạo ra một từ mới”.  \n\n1. *Ngữ cảnh thường dùng*: Khi nói về việc một người, một nhóm hoặc một thời đại đưa ra một từ chưa từng có trước đó, ta dùng **coinage**.  \n2. *Phân biệt với từ đồng nghĩa*: **Neologism** cũng chỉ “từ mới”, nhưng “neologism” nhấn mạnh vào *từ* đã tồn tại trong ngôn ngữ, trong khi **coinage** nhấn mạnh vào *hành động* sáng tạo ra từ đó. (Ngoài ra, “coinage” còn có nghĩa là “đúc tiền”, nhưng trong bài học từ vựng IELTS chúng ta chỉ xét nghĩa “tạo từ”.)  \n3. *Ví dụ mới*: *The coinage of “selfie” in 2002 quickly spread worldwide and is now listed in every major dictionary.*  \n\nNhư vậy, khi gặp **coinage** trong bài đọc hoặc đề thi, hãy nhớ rằng nó đề cập tới “việc bịa ra, tạo ra một từ mới”."
     },
     {
       "id": 11,
