@@ -107,13 +107,6 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
       .catch(() => {})
   }, [topic.id])
 
-  // Auto-fetch explanation for current word (and prefetch next)
-  useEffect(() => {
-    const toFetch = [topic.words[currentIndex], topic.words[currentIndex + 1]].filter(Boolean)
-    toFetch.forEach(w => { if (w && !explanations[w.word] && !explaining.has(w.word)) explainWord(w) })
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [currentIndex, topic.words])
-
   function handleStarClick(w: Word) {
     const isSaved = savedWords.has(w.word)
     if (isSaved) {
@@ -400,26 +393,27 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
             ))}
           </div>
 
-          {/* AI Explainer — collapsible */}
-          {(explanations[word.word] || explaining.has(word.word)) && (
-            <details className="w-full mt-3 bg-amber-50 border border-amber-200 rounded-2xl overflow-hidden group">
-              <summary className="px-4 py-3 list-none cursor-pointer flex items-center justify-between">
-                <p className="text-sm font-black text-amber-600">✨ Giải nghĩa</p>
-                <span className="text-amber-400 text-sm group-open:rotate-180 transition-transform">▾</span>
-              </summary>
-              <div className="px-4 pb-3 pt-1 border-t border-amber-200">
-                {explaining.has(word.word) ? (
-                  <>
-                    <div className="h-3 bg-amber-200 rounded animate-pulse w-3/4 mb-2" />
-                    <div className="h-3 bg-amber-200 rounded animate-pulse w-full mb-2" />
-                    <div className="h-3 bg-amber-200 rounded animate-pulse w-2/3" />
-                  </>
-                ) : (
-                  <p className="text-base text-gray-700 leading-relaxed">{explanations[word.word]}</p>
-                )}
-              </div>
-            </details>
-          )}
+          {/* AI Explainer — fetched on tap, not prefetched */}
+          <details className="w-full mt-3 bg-amber-50 border border-amber-200 rounded-2xl overflow-hidden group">
+            <summary
+              onClick={() => { if (!explanations[word.word] && !explaining.has(word.word)) explainWord(word) }}
+              className="px-4 py-3 list-none cursor-pointer flex items-center justify-between"
+            >
+              <p className="text-sm font-black text-amber-600">✨ Giải nghĩa</p>
+              <span className="text-amber-400 text-sm group-open:rotate-180 transition-transform">▾</span>
+            </summary>
+            <div className="px-4 pb-3 pt-1 border-t border-amber-200">
+              {explaining.has(word.word) ? (
+                <>
+                  <div className="h-3 bg-amber-200 rounded animate-pulse w-3/4 mb-2" />
+                  <div className="h-3 bg-amber-200 rounded animate-pulse w-full mb-2" />
+                  <div className="h-3 bg-amber-200 rounded animate-pulse w-2/3" />
+                </>
+              ) : explanations[word.word] ? (
+                <p className="text-base text-gray-700 leading-relaxed">{explanations[word.word]}</p>
+              ) : null}
+            </div>
+          </details>
         </div>
 
         {/* Navigation */}
