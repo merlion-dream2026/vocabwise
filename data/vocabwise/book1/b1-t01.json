@@ -486,7 +486,7 @@
         },
         {
           "id": 4,
-          "sentence": "My father loves _____ — he grows roses and tomatoes at home. (GARDEN)",
+          "sentence": "My father spends every weekend _____ — he grows roses and tomatoes at home. (GARDEN)",
           "base_word": "GARDEN",
           "answer": "gardening",
           "form_used": "noun/gerund"

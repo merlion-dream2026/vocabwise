@@ -472,14 +472,14 @@
         },
         {
           "id": 2,
-          "sentence": "The _____ showed that hot liquid cools down faster in a metal cup. (OBSERVE)",
+          "sentence": "The _____ made during the experiment showed that hot liquid cools down faster in a metal cup. (OBSERVE)",
           "base_word": "OBSERVE",
           "answer": "observation",
           "form_used": "noun"
         },
         {
           "id": 3,
-          "sentence": "We were happy because our results were _____ — we could count and compare them. (MEASURE)",
+          "sentence": "Before collecting any data, we chose outcomes that were _____ in principle because each could be counted and compared. (MEASURE)",
           "base_word": "MEASURE",
           "answer": "measurable",
           "form_used": "adjective"

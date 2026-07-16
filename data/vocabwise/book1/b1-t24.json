@@ -344,7 +344,7 @@
         },
         {
           "id": "D",
-          "text": "a member of your family, either close or distant"
+          "text": "a member of your family such as an aunt, uncle, or cousin, but not your brother or sister"
         },
         {
           "id": "E",
@@ -473,10 +473,10 @@
         },
         {
           "id": 3,
-          "sentence": "Her grandmother was very _____ — she always made sure everyone had enough to eat. (CARE)",
+          "sentence": "Her grandmother spent every day _____ for sick relatives and elderly neighbours. (CARE)",
           "base_word": "CARE",
           "answer": "caring",
-          "form_used": "adjective"
+          "form_used": "present participle / gerund"
         },
         {
           "id": 4,

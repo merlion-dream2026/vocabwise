@@ -465,7 +465,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "She looked at the food _____ because she had not eaten all day. (HUNGRY)",
+          "sentence": "She stared _____ at the food because she had not eaten all day. (HUNGRY)",
           "base_word": "HUNGRY",
           "answer": "hungrily",
           "form_used": "adverb"

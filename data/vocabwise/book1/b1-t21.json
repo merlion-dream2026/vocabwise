@@ -480,7 +480,7 @@
         },
         {
           "id": 4,
-          "sentence": "She is a _____ friend — she has never shared my secrets with anyone. (TRUST)",
+          "sentence": "She is a friend _____ by everyone in our group — she has never shared anyone's secrets. (TRUST)",
           "base_word": "TRUST",
           "answer": "trusted",
           "form_used": "adjective"

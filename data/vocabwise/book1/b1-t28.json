@@ -487,10 +487,10 @@
         },
         {
           "id": 5,
-          "sentence": "We _____ that she will do well in her exams — she has worked so hard this term. (HOPE)",
+          "sentence": "We do _____ that she will do well in her exams — she has worked so hard this term. (HOPE)",
           "base_word": "HOPE",
-          "answer": "hope / are hoping",
-          "form_used": "present simple / present continuous"
+          "answer": "hope",
+          "form_used": "verb (base form after auxiliary)"
         }
       ]
     },
@@ -669,7 +669,7 @@
       "2": "ambitious",
       "3": "learned / learnt",
       "4": "independence",
-      "5": "hope / are hoping"
+      "5": "hope"
     },
     "ex5": {
       "1": "C",

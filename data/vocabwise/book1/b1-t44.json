@@ -473,7 +473,7 @@
         },
         {
           "id": 3,
-          "sentence": "The team's _____ of the cave system took three full days and covered many kilometres. (EXPLORE)",
+          "sentence": "The team's three-day scientific _____ of the cave system covered many kilometres. (EXPLORE)",
           "base_word": "EXPLORE",
           "answer": "exploration",
           "form_used": "noun"

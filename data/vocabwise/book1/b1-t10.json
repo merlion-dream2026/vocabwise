@@ -476,7 +476,7 @@
         },
         {
           "id": 3,
-          "sentence": "She dressed _____ in a thick coat and a woolly hat before going outside. (WARM)",
+          "sentence": "She was _____ dressed in a thick coat and a woolly hat before going outside. (WARM)",
           "base_word": "WARM",
           "answer": "warmly",
           "form_used": "adverb"

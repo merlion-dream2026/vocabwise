@@ -473,7 +473,7 @@
         },
         {
           "id": 3,
-          "sentence": "The teacher's _____ of the grammar rule was very clear and helped everyone in the class. (EXPLAIN)",
+          "sentence": "The written _____ of the grammar rule was very clear and helped everyone in the class. (EXPLAIN)",
           "base_word": "EXPLAIN",
           "answer": "explanation",
           "form_used": "noun"

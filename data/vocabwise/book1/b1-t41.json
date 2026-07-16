@@ -466,7 +466,7 @@
         },
         {
           "id": 2,
-          "sentence": "The soup was _____ for twenty minutes before we added the vegetables. (BOIL)",
+          "sentence": "The soup was _____ by the chef for twenty minutes before the vegetables were added. (BOIL)",
           "base_word": "BOIL",
           "answer": "boiled",
           "form_used": "adjective/past participle"
@@ -487,7 +487,7 @@
         },
         {
           "id": 5,
-          "sentence": "The _____ of this café is very slow — we waited thirty minutes for our food. (SERVE)",
+          "sentence": "The quality of customer _____ at this café is poor — we waited thirty minutes for our food. (SERVE)",
           "base_word": "SERVE",
           "answer": "service",
           "form_used": "noun"

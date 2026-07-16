@@ -465,7 +465,7 @@
       "items": [
         {
           "id": 1,
-          "sentence": "The new school _____ has over ten thousand books and a digital search system. (LIBRARY)",
+          "sentence": "The new school _____ manages over ten thousand books and the digital search system. (LIBRARY)",
           "base_word": "LIBRARY",
           "answer": "librarian",
           "form_used": "noun"

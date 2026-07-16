@@ -483,7 +483,7 @@
         },
         {
           "id": 4,
-          "sentence": "The _____ of the bag told us it was three kilograms — too heavy for me to carry. (WEIGH)",
+          "sentence": "The digital scale displayed the exact _____ of the bag: three kilograms. (WEIGH)",
           "base_word": "WEIGH",
           "answer": "weight",
           "form_used": "noun"

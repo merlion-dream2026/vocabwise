@@ -476,10 +476,10 @@
         },
         {
           "id": 3,
-          "sentence": "The video was _____ — it appeared in the top searches for three days in a row. (TREND)",
+          "sentence": "The video was actively _____ on the platform's live popularity chart for three days. (TREND)",
           "base_word": "TREND",
           "answer": "trending",
-          "form_used": "verb (present participle / adjective)"
+          "form_used": "present participle / adjective"
         },
         {
           "id": 4,
@@ -490,7 +490,7 @@
         },
         {
           "id": 5,
-          "sentence": "Her _____ of the holiday photos took a long time because the files were very large. (UPLOAD)",
+          "sentence": "The completed _____ of the holiday photos was two gigabytes in size. (UPLOAD)",
           "base_word": "UPLOAD",
           "answer": "upload",
           "form_used": "noun"

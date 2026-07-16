@@ -490,10 +490,10 @@
         },
         {
           "id": 5,
-          "sentence": "She made a _____ note in the margin of her textbook to remind herself to revise this section. (PENCIL)",
+          "sentence": "She made a note _____ in the margin of her textbook to remind herself to revise this section. (PENCIL)",
           "base_word": "PENCIL",
           "answer": "pencilled",
-          "form_used": "verb (adjective form)"
+          "form_used": "past participle / adjective"
         }
       ]
     },

@@ -489,7 +489,7 @@
         },
         {
           "id": 4,
-          "sentence": "The destination is _____ — you can walk there in less than two minutes. (NEAR)",
+          "sentence": "The destination is at a _____ location — you can walk there in less than two minutes. (NEAR)",
           "base_word": "NEAR",
           "answer": "nearby",
           "form_used": "adjective"
