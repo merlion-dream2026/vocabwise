@@ -337,7 +337,7 @@
         {
           "id": 2,
           "statement": "The passage claims that all consumers now prefer to buy used products over new ones.",
-          "answer": "False"
+          "answer": "Not Given"
         },
         {
           "id": 3,
@@ -684,7 +684,7 @@
   "answer_key": {
     "ex1": {
       "1": "True",
-      "2": "False",
+      "2": "Not Given",
       "3": "True",
       "4": "Not Given",
       "5": "True"

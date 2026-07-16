@@ -290,7 +290,7 @@
         {
           "id": 1,
           "statement": "The passage states that vaccines work by exposing patients to a live form of the disease.",
-          "answer": "False"
+          "answer": "Not Given"
         },
         {
           "id": 2,
@@ -646,7 +646,7 @@
   },
   "answer_key": {
     "ex1": {
-      "1": "False",
+      "1": "Not Given",
       "2": "True",
       "3": "Not Given",
       "4": "True",

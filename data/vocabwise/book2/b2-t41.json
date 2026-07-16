@@ -340,7 +340,7 @@
         {
           "id": 2,
           "statement": "The passage says that diverse societies always experience more conflict than homogeneous ones.",
-          "answer": "False"
+          "answer": "Not Given"
         },
         {
           "id": 3,
@@ -755,7 +755,7 @@
   "answer_key": {
     "ex1": {
       "1": "True",
-      "2": "False",
+      "2": "Not Given",
       "3": "Not Given",
       "4": "True",
       "5": "False"

@@ -308,7 +308,7 @@
         {
           "id": 4,
           "statement": "The passage argues that family dysfunction is caused primarily by financial hardship.",
-          "answer": "False"
+          "answer": "Not Given"
         },
         {
           "id": 5,
@@ -698,7 +698,7 @@
       "1": "True",
       "2": "Not Given",
       "3": "True",
-      "4": "False",
+      "4": "Not Given",
       "5": "True"
     },
     "ex2": {

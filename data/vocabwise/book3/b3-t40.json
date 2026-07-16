@@ -289,7 +289,7 @@
         {
           "id": 2,
           "statement": "The passage implies that all conjectures are eventually either proven or disproven within a generation.",
-          "answer": "Not Given"
+          "answer": "False"
         },
         {
           "id": 3,
@@ -646,7 +646,7 @@
   "answer_key": {
     "ex1": {
       "1": "False",
-      "2": "Not Given",
+      "2": "False",
       "3": "True",
       "4": "True",
       "5": "Not Given"

@@ -331,7 +331,7 @@
         {
           "id": 2,
           "statement": "The passage says that all successful musicians prefer to be independent.",
-          "answer": "False"
+          "answer": "Not Given"
         },
         {
           "id": 3,
@@ -681,7 +681,7 @@
   "answer_key": {
     "ex1": {
       "1": "True",
-      "2": "False",
+      "2": "Not Given",
       "3": "Not Given",
       "4": "True",
       "5": "Not Given"

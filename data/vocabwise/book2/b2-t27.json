@@ -353,12 +353,12 @@
         {
           "id": 4,
           "statement": "A tenant is responsible for setting the rules of a lease agreement.",
-          "answer": "False"
+          "answer": "Not Given"
         },
         {
           "id": 5,
           "statement": "Property investment always leads to a guaranteed increase in value over time.",
-          "answer": "Not Given"
+          "answer": "False"
         }
       ]
     },
@@ -761,8 +761,8 @@
       "1": "True",
       "2": "True",
       "3": "Not Given",
-      "4": "False",
-      "5": "Not Given"
+      "4": "Not Given",
+      "5": "False"
     },
     "ex2": {
       "1": "landlord",

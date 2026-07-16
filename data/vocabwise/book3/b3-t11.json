@@ -302,7 +302,7 @@
         {
           "id": 4,
           "statement": "The passage argues that reactive healthcare is more cost-effective than proactive approaches.",
-          "answer": "False"
+          "answer": "Not Given"
         },
         {
           "id": 5,
@@ -633,7 +633,7 @@
       "1": "False",
       "2": "True",
       "3": "Not Given",
-      "4": "False",
+      "4": "Not Given",
       "5": "True"
     },
     "ex2": {

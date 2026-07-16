@@ -334,12 +334,12 @@
         {
           "id": 2,
           "statement": "The passage argues that discussing decisions with others always leads to the right answer.",
-          "answer": "False"
+          "answer": "Not Given"
         },
         {
           "id": 3,
           "statement": "A rule of life provides a fixed set of answers for every ethical dilemma a person might face.",
-          "answer": "Not Given"
+          "answer": "False"
         },
         {
           "id": 4,
@@ -720,8 +720,8 @@
   "answer_key": {
     "ex1": {
       "1": "True",
-      "2": "False",
-      "3": "Not Given",
+      "2": "Not Given",
+      "3": "False",
       "4": "True",
       "5": "Not Given"
     },

@@ -335,13 +335,13 @@
         },
         {
           "id": 3,
-          "statement": "Project management apps allow managers to monitor employees' work rate more easily.",
+          "statement": "Project management apps, instant messaging, and video calls can make it harder for employees to switch off from work.",
           "answer": "True"
         },
         {
           "id": 4,
           "statement": "The passage says that creativity and emotional intelligence cannot be replicated by machines.",
-          "answer": "True"
+          "answer": "Not Given"
         },
         {
           "id": 5,
@@ -729,7 +729,7 @@
       "1": "True",
       "2": "False",
       "3": "True",
-      "4": "True",
+      "4": "Not Given",
       "5": "Not Given"
     },
     "ex2": {

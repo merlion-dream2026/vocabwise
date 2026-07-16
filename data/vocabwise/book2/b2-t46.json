@@ -349,7 +349,7 @@
         {
           "id": 5,
           "statement": "Early release is available to all prisoners in every country.",
-          "answer": "Not Given"
+          "answer": "False"
         }
       ]
     },
@@ -696,7 +696,7 @@
       "2": "False",
       "3": "Not Given",
       "4": "True",
-      "5": "Not Given"
+      "5": "False"
     },
     "ex2": {
       "1": "person harmed",

@@ -307,7 +307,7 @@
         {
           "id": 5,
           "statement": "The passage argues that inclusive curricula should be limited to schools with particularly diverse student populations.",
-          "answer": "Not Given"
+          "answer": "False"
         }
       ]
     },
@@ -698,7 +698,7 @@
       "2": "Not Given",
       "3": "True",
       "4": "True",
-      "5": "Not Given"
+      "5": "False"
     },
     "ex2": {
       "1": "scaffolding",

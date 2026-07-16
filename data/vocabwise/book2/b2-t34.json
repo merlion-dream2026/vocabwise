@@ -349,7 +349,7 @@
         {
           "id": 5,
           "statement": "Studios always prefer to make sequels rather than new versions of old films.",
-          "answer": "Not Given"
+          "answer": "False"
         }
       ]
     },
@@ -750,7 +750,7 @@
       "2": "False",
       "3": "Not Given",
       "4": "True",
-      "5": "Not Given"
+      "5": "False"
     },
     "ex2": {
       "1": "cast",

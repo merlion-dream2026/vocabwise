@@ -307,7 +307,7 @@
         {
           "id": 5,
           "statement": "The passage states that leaders who focus on their legacy tend to make worse short-term decisions.",
-          "answer": "False"
+          "answer": "Not Given"
         }
       ]
     },
@@ -694,7 +694,7 @@
       "2": "True",
       "3": "Not Given",
       "4": "True",
-      "5": "False"
+      "5": "Not Given"
     },
     "ex2": {
       "1": "vision",

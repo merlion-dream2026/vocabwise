@@ -346,7 +346,7 @@
         {
           "id": 5,
           "statement": "The passage says that data sharing should be completely banned to protect individual privacy.",
-          "answer": "Not Given"
+          "answer": "False"
         }
       ]
     },
@@ -701,7 +701,7 @@
       "2": "False",
       "3": "False",
       "4": "True",
-      "5": "Not Given"
+      "5": "False"
     },
     "ex2": {
       "1": "gathering",
