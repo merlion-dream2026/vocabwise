@@ -325,15 +325,33 @@ function buildVocabulary(glossary, bc) {
     }
 
     if (item.false_friend) {
-      items.push(p([
-        r('⚠ False friend  ', { bold: true, color: C.amber, size: SZ.xs }),
-        r(item.false_friend.explanation_vi, { color: '92400E', size: SZ.xs }),
-      ], {
+      const ff = item.false_friend
+      const box = {
         shading: { type: ShadingType.SOLID, color: C.amberXL },
         indent: { left: 380 },
-        spacing: { before: 40, after: 0 },
         border: { left: { style: BorderStyle.THICK, size: 12, color: C.amber, space: 6 } },
-      }))
+      }
+      const label = ff.word ? `Cần phân biệt: ${item.word} ≠ ${ff.word}` : 'Cần phân biệt'
+      items.push(p([r('⚠ ' + label, { bold: true, color: C.amber, size: SZ.xs })],
+        { ...box, spacing: { before: 40, after: 20 } }))
+      items.push(p([r(ff.explanation_vi, { color: '92400E', size: SZ.xs })],
+        { ...box, spacing: { before: 0, after: ff.example_en ? 40 : 0 } }))
+      if (ff.example_en) {
+        items.push(p([
+          r(`${item.word}:  `, { bold: true, color: '92400E', size: SZ.xs }),
+          r(ff.example_en, { italics: true, color: '92400E', size: SZ.xs }),
+        ], { ...box, spacing: { before: 0, after: 0 } }))
+        items.push(p([r('     ' + ff.example_vi, { italics: true, color: '92400E', size: SZ.xs })],
+          { ...box, spacing: { before: 0, after: 20 } }))
+      }
+      if (ff.ff_example_en) {
+        items.push(p([
+          r(`${ff.word || '(nghĩa khác)'}:  `, { bold: true, color: '92400E', size: SZ.xs }),
+          r(ff.ff_example_en, { italics: true, color: '92400E', size: SZ.xs }),
+        ], { ...box, spacing: { before: 0, after: 0 } }))
+        items.push(p([r('     ' + ff.ff_example_vi, { italics: true, color: '92400E', size: SZ.xs })],
+          { ...box, spacing: { before: 0, after: 0 } }))
+      }
     }
 
     items.push(gap(80, 0))
