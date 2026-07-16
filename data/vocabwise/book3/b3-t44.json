@@ -573,10 +573,10 @@
       "items": [
         {
           "id": 1,
-          "a": "The speech used rhetorical devices effectively.",
-          "b": "The speech was persuasive.",
+          "a": "The speech used rhetorical devices effectively to persuade the audience.",
+          "b": "The speech was persuasive because of its effective rhetorical devices.",
           "answer": "S",
-          "explanation": "Rhetorical devices are techniques of persuasion. Using them effectively produces persuasion. These sentences describe the same speech outcome."
+          "explanation": "Both sentences state that effective rhetorical devices made the speech persuasive."
         },
         {
           "id": 2,
@@ -636,10 +636,10 @@
         },
         {
           "id": 10,
-          "a": "The message was framed to downplay the risks.",
+          "a": "The message was deceptively framed to downplay the risks.",
           "b": "The message was deliberately misleading about the risks.",
           "answer": "S",
-          "explanation": "Framing to downplay and being deliberately misleading both describe selective presentation of information to minimise the perceived severity of risks. These sentences carry the same meaning."
+          "explanation": "Deceptively downplaying risks is a deliberate form of misleading the audience about those risks."
         }
       ]
     }

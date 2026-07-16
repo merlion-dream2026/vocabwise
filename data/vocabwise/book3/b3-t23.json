@@ -597,10 +597,10 @@
         },
         {
           "id": 6,
-          "a": "Propaganda is used to manipulate public opinion.",
-          "b": "Advertising is used to manipulate public opinion.",
+          "a": "Political propaganda is used to manipulate public opinion.",
+          "b": "Political propaganda is used to influence public opinion deceptively.",
           "answer": "S",
-          "explanation": "Both propaganda and advertising use persuasive techniques to influence what people think or do. In this context, these sentences make the same fundamental claim about intent."
+          "explanation": "Both sentences describe propaganda as deceptive communication intended to manipulate public opinion."
         },
         {
           "id": 7,
@@ -626,9 +626,9 @@
         {
           "id": 10,
           "a": "The journalist set the agenda.",
-          "b": "The journalist influenced what the public thought about.",
+          "b": "The journalist influenced which issues the public thought about.",
           "answer": "S",
-          "explanation": "Agenda-setting in media theory means the media shapes which issues the public considers important. Influencing what the public thinks about is the same concept. These sentences carry the same meaning."
+          "explanation": "Agenda setting means influencing which issues receive public attention, not necessarily what opinions people hold."
         }
       ]
     }

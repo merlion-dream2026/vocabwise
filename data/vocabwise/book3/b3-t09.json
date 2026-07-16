@@ -617,14 +617,14 @@
         {
           "id": 5,
           "words": [
-            "validation",
+            "envy",
             "comparison",
             "distortion",
             "exposure"
           ],
           "answer": "exposure",
-          "reason": "validation, comparison, and distortion are all psychological processes driven by social media content. 'exposure' is more neutral — it simply means being seen or reached by information, which can be positive or negative.",
-          "reason_vi": "validation, comparison và distortion đều là quá trình tâm lý được thúc đẩy bởi nội dung mạng xã hội. 'exposure' trung tính hơn — đơn giản là được nhìn thấy hoặc tiếp cận thông tin, có thể tích cực hoặc tiêu cực."
+          "reason": "envy, comparison, and distortion are psychological effects that can negatively shape a user's self-perception. 'exposure' simply describes contact with content and may be positive or negative.",
+          "reason_vi": "envy, comparison và distortion là các tác động tâm lý có thể làm méo mó nhận thức của người dùng về bản thân. 'exposure' chỉ việc tiếp xúc với nội dung và có thể tích cực hoặc tiêu cực."
         },
         {
           "id": 6,

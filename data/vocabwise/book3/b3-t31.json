@@ -590,9 +590,9 @@
         {
           "id": 3,
           "a": "His claim was supported by corroborating evidence.",
-          "b": "His claim was confirmed by additional evidence.",
+          "b": "His claim was confirmed by additional independent evidence.",
           "answer": "S",
-          "explanation": "Corroborate and confirm with additional evidence mean the same thing — providing extra support that makes a claim more credible. These sentences carry the same meaning."
+          "explanation": "Corroborating evidence is additional independent evidence that confirms a claim."
         },
         {
           "id": 4,
@@ -610,17 +610,17 @@
         },
         {
           "id": 6,
-          "a": "His conjecture was later proved correct.",
-          "b": "His hypothesis was later confirmed.",
+          "a": "His mathematical conjecture was later proved correct.",
+          "b": "His proposed mathematical claim was later established by proof.",
           "answer": "S",
-          "explanation": "Conjecture and hypothesis both refer to an educated guess or proposed explanation not yet verified. Proved correct and confirmed describe the same outcome. These sentences carry the same meaning."
+          "explanation": "A mathematical conjecture is a proposed claim; proving it correct means establishing it by proof."
         },
         {
           "id": 7,
           "a": "The refutation was successful.",
-          "b": "The counter-argument was convincing.",
+          "b": "The counter-argument successfully disproved the claim.",
           "answer": "S",
-          "explanation": "Refutation and a convincing counter-argument both describe the same thing — successfully disproving or undermining an opposing position. These sentences carry the same meaning."
+          "explanation": "A successful refutation is a counter-argument that disproves the opposing claim."
         },
         {
           "id": 8,

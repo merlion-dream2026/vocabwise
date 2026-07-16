@@ -599,10 +599,10 @@
         },
         {
           "id": 4,
-          "a": "Interference disrupted his retrieval.",
+          "a": "Proactive interference disrupted his retrieval.",
           "b": "Prior learning blocked his ability to recall new information.",
           "answer": "S",
-          "explanation": "Interference is when older or newer learning disrupts retrieval. Blocking the ability to recall describes the same effect. These sentences describe the same phenomenon."
+          "explanation": "Proactive interference occurs when previously learned material obstructs the retrieval of newer information."
         },
         {
           "id": 5,

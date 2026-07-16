@@ -583,10 +583,10 @@
         },
         {
           "id": 3,
-          "a": "We have an obligation to future generations.",
-          "b": "Intergenerational equity requires us to preserve resources.",
+          "a": "We have an obligation to preserve resources for future generations.",
+          "b": "Intergenerational equity requires us to preserve resources for future generations.",
           "answer": "S",
-          "explanation": "An obligation to future generations and intergenerational equity both describe the same ethical duty — ensuring the current generation does not exhaust what future ones will need. These sentences carry the same meaning."
+          "explanation": "Both sentences express the duty to conserve resources so future generations are treated fairly."
         },
         {
           "id": 4,
@@ -632,10 +632,10 @@
         },
         {
           "id": 10,
-          "a": "She felt an obligation to protect the natural world.",
+          "a": "She felt an obligation to protect nature because of its intrinsic value.",
           "b": "She felt that nature had intrinsic value worth protecting.",
           "answer": "S",
-          "explanation": "Feeling an obligation and recognising intrinsic value both express the same ethical commitment — a moral duty to protect the environment independent of its utility to humans. These sentences carry the same meaning."
+          "explanation": "Both sentences state that nature's value in itself gave her a reason to protect it."
         }
       ]
     }

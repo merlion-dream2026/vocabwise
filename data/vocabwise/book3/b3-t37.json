@@ -593,10 +593,10 @@
         },
         {
           "id": 5,
-          "a": "The aesthetic quality of the work was striking.",
-          "b": "The visual impact of the work was striking.",
+          "a": "The visual aesthetic quality of the work was striking.",
+          "b": "The visual artistic impact of the work was striking.",
           "answer": "S",
-          "explanation": "Aesthetic quality and visual impact both describe the sensory and artistic impression made by a work. In context, these sentences carry the same meaning."
+          "explanation": "Both sentences describe the striking visual and artistic impression made by the work."
         },
         {
           "id": 6,

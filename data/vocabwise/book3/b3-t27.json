@@ -617,14 +617,14 @@
         {
           "id": 5,
           "words": [
-            "systemic",
+            "inequality",
             "marginalisation",
             "stratification",
             "redistribution"
           ],
           "answer": "redistribution",
-          "reason": "systemic, marginalisation, and stratification describe the nature and experience of inequality. 'redistribution' is a corrective mechanism — a policy to shift resources towards those who lack them.",
-          "reason_vi": "systemic, marginalisation và stratification mô tả bản chất và trải nghiệm của bất bình đẳng. 'redistribution' là cơ chế khắc phục — chính sách chuyển dịch nguồn lực cho những người thiếu thốn."
+          "reason": "inequality, marginalisation, and stratification describe structures or conditions of social disadvantage. 'redistribution' is a policy response that transfers resources.",
+          "reason_vi": "inequality, marginalisation và stratification mô tả các cấu trúc hoặc tình trạng bất lợi xã hội. 'redistribution' là phản ứng chính sách chuyển giao nguồn lực."
         },
         {
           "id": 6,

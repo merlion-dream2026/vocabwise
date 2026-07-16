@@ -595,10 +595,10 @@
         },
         {
           "id": 4,
-          "a": "The child had not yet reached full fluency.",
+          "a": "The child had not yet achieved native-like fluency.",
           "b": "The child had not yet achieved native-speaker proficiency.",
           "answer": "S",
-          "explanation": "Fluency and native-speaker proficiency both refer to a high level of language mastery. Not yet reaching or achieving either describes the same incomplete development. These sentences carry the same meaning."
+          "explanation": "Native-like fluency and native-speaker proficiency both refer to language ability approaching that of a native speaker."
         },
         {
           "id": 5,

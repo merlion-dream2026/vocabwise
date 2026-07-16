@@ -581,9 +581,9 @@
         {
           "id": 1,
           "a": "Her cortisol levels rose sharply under stress.",
-          "b": "Her body showed a clear physiological stress response.",
+          "b": "Her physiological stress response included a sharp rise in cortisol.",
           "answer": "S",
-          "explanation": "Cortisol is the primary stress hormone. A rise in cortisol is exactly what a physiological stress response entails. These sentences describe the same biological event."
+          "explanation": "Both sentences describe the same physiological change: cortisol rose sharply in response to stress."
         },
         {
           "id": 2,
@@ -609,9 +609,9 @@
         {
           "id": 5,
           "a": "She struggled to control her compulsion.",
-          "b": "She struggled to control her urge.",
+          "b": "She struggled to control her compulsive behaviour.",
           "answer": "S",
-          "explanation": "Compulsion and urge both describe a powerful internal drive to do something, often experienced as difficult to resist. In this context, these sentences carry the same meaning."
+          "explanation": "A compulsion is compulsive behaviour that a person feels driven to perform."
         },
         {
           "id": 6,

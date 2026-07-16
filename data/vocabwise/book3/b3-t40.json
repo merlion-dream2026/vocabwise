@@ -594,9 +594,9 @@
         {
           "id": 4,
           "a": "His account of events was entirely subjective.",
-          "b": "His account of events was biased by personal experience.",
+          "b": "His account was based entirely on his personal perspective.",
           "answer": "S",
-          "explanation": "Subjective and biased by personal experience both describe a perspective shaped by individual feelings rather than objective facts. These sentences carry the same meaning."
+          "explanation": "A subjective account is one based on personal perspective rather than objective facts alone."
         },
         {
           "id": 5,

@@ -595,13 +595,13 @@
           "id": 4,
           "words": [
             "pedagogy",
-            "curriculum",
+            "equality",
             "meritocracy",
             "autonomy"
           ],
           "answer": "pedagogy",
-          "reason": "meritocracy, autonomy, and curriculum are all broad frameworks or principles — systems or concepts about education and society. 'pedagogy' is the specific practice of teaching — the methods used in the classroom, not an abstract social theory.",
-          "reason_vi": "meritocracy, autonomy và curriculum đều là khuôn khổ hoặc nguyên tắc rộng. 'pedagogy' là thực hành giảng dạy cụ thể — các phương pháp dùng trong lớp học, không phải lý thuyết xã hội trừu tượng."
+          "reason": "equality, meritocracy, and autonomy are abstract principles about fairness or independence. 'pedagogy' is the practical theory and method of teaching.",
+          "reason_vi": "equality, meritocracy và autonomy đều là các nguyên tắc trừu tượng về công bằng hoặc tính độc lập. 'pedagogy' là lý thuyết và phương pháp thực hành giảng dạy."
         },
         {
           "id": 5,
@@ -618,14 +618,14 @@
         {
           "id": 6,
           "words": [
-            "cognitive",
+            "equity",
             "autonomy",
             "meritocracy",
             "curriculum"
           ],
           "answer": "curriculum",
-          "reason": "cognitive, autonomy, and meritocracy are all abstract concepts about how minds and societies function. 'curriculum' is a structured plan — the specific content and subjects taught in a course of study.",
-          "reason_vi": "cognitive, autonomy và meritocracy đều là khái niệm trừu tượng về cách tâm trí và xã hội vận hành. 'curriculum' là kế hoạch có cấu trúc — nội dung và môn học cụ thể trong một chương trình học."
+          "reason": "equity, autonomy, and meritocracy are abstract educational or social principles. 'curriculum' is a structured plan of subjects and content.",
+          "reason_vi": "equity, autonomy và meritocracy đều là các nguyên tắc giáo dục hoặc xã hội trừu tượng. 'curriculum' là kế hoạch có cấu trúc về môn học và nội dung."
         },
         {
           "id": 7,
@@ -668,12 +668,12 @@
           "words": [
             "pedagogy",
             "curriculum",
-            "cognitive",
+            "assessment",
             "disparity"
           ],
           "answer": "disparity",
-          "reason": "pedagogy, curriculum, and cognitive all relate to how education is designed and experienced. 'disparity' is a societal critique — an unequal outcome in education, not part of its design.",
-          "reason_vi": "pedagogy, curriculum và cognitive đều liên quan đến cách giáo dục được thiết kế và trải nghiệm. 'disparity' là phê bình xã hội — kết quả bất bình đẳng trong giáo dục, không phải một phần trong thiết kế của nó."
+          "reason": "pedagogy, curriculum, and assessment are components of educational design and practice. 'disparity' is an unequal outcome between groups.",
+          "reason_vi": "pedagogy, curriculum và assessment đều là các thành phần của thiết kế và thực hành giáo dục. 'disparity' là kết quả bất bình đẳng giữa các nhóm."
         }
       ]
     }

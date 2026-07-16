@@ -583,9 +583,9 @@
         {
           "id": 2,
           "a": "Doping undermines the integrity of sport.",
-          "b": "Cheating undermines the integrity of sport.",
+          "b": "Using banned performance-enhancing drugs undermines the integrity of sport.",
           "answer": "S",
-          "explanation": "Doping is a form of cheating — using prohibited substances to gain an unfair advantage. Both sentences say that dishonest practices damage the fundamental fairness of sport."
+          "explanation": "Doping means using banned performance-enhancing substances or methods, so the sentences make the same claim."
         },
         {
           "id": 3,
@@ -611,16 +611,16 @@
         {
           "id": 6,
           "a": "Rivalry between competitors can enhance performance.",
-          "b": "Competition between athletes can raise standards.",
+          "b": "Rivalry between athletes can raise performance standards.",
           "answer": "S",
-          "explanation": "Rivalry and competition describe the same dynamic between athletes striving to outperform each other. Enhanced performance and raised standards describe the same positive outcome."
+          "explanation": "Both sentences state that rivalry between competitors can improve the level of performance."
         },
         {
           "id": 7,
           "a": "He is an elite athlete.",
-          "b": "He is a professional athlete.",
+          "b": "He is an athlete competing at the highest level.",
           "answer": "S",
-          "explanation": "Elite and professional both describe a high-performing athlete who competes at the top level. In most sporting contexts, these sentences carry the same meaning."
+          "explanation": "An elite athlete is one who competes at the highest level of the sport."
         },
         {
           "id": 8,
@@ -638,10 +638,10 @@
         },
         {
           "id": 10,
-          "a": "The event became a global spectacle.",
-          "b": "The event attracted global attention.",
+          "a": "The event attracted global attention.",
+          "b": "The event drew attention from around the world.",
           "answer": "S",
-          "explanation": "A global spectacle and attracting global attention both describe an event that drew widespread international interest and admiration. These sentences carry the same meaning."
+          "explanation": "Global attention and attention from around the world are equivalent."
         }
       ]
     }

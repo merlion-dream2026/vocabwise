@@ -575,10 +575,10 @@
       "items": [
         {
           "id": 1,
-          "a": "He suffered from professional exhaustion.",
-          "b": "He experienced burnout.",
+          "a": "He experienced occupational burnout.",
+          "b": "He experienced burnout caused by work.",
           "answer": "S",
-          "explanation": "Professional exhaustion and burnout are near-synonyms — both describe a state of severe physical and emotional depletion caused by sustained workplace stress. These sentences carry the same meaning."
+          "explanation": "Occupational burnout is burnout caused by prolonged work-related stress."
         },
         {
           "id": 2,
@@ -589,31 +589,31 @@
         },
         {
           "id": 3,
-          "a": "Flexibility in working hours improved her wellbeing.",
-          "b": "Autonomy over her schedule improved her wellbeing.",
+          "a": "Having control over her flexible working hours improved her wellbeing.",
+          "b": "Autonomy over her work schedule improved her wellbeing.",
           "answer": "S",
-          "explanation": "Flexibility in working hours and autonomy over schedule both describe the same condition — having control over when one works. These sentences carry the same meaning."
+          "explanation": "Control over working hours and autonomy over a work schedule describe the same ability to decide when to work."
         },
         {
           "id": 4,
           "a": "He experienced overcommitment at work.",
-          "b": "He struggled to prioritise his workload.",
+          "b": "He took on more work than he could reasonably manage.",
           "answer": "S",
-          "explanation": "Overcommitment means taking on too many tasks; struggling to prioritise describes the same inability to manage competing demands. In context, these sentences describe the same situation."
+          "explanation": "Overcommitment means accepting more duties or work than can reasonably be managed."
         },
         {
           "id": 5,
-          "a": "Restoration is essential after a period of intense work.",
-          "b": "Productivity requires periods of rest and recovery.",
+          "a": "Rest and recovery are essential after a period of intense work.",
+          "b": "Restoration after intense work requires rest and recovery.",
           "answer": "S",
-          "explanation": "Restoration and rest/recovery both refer to the same process — allowing the body and mind to recover from effort. Both sentences make the case that recovery is necessary for sustained performance."
+          "explanation": "Both sentences state that rest and recovery are necessary to restore a person after intense work."
         },
         {
           "id": 6,
-          "a": "Disengagement from work can be healthy.",
-          "b": "Disconnecting from work is beneficial.",
+          "a": "Temporary disengagement from work outside working hours can be healthy.",
+          "b": "Disconnecting from work outside working hours can be beneficial.",
           "answer": "S",
-          "explanation": "Disengagement from work and disconnecting from work both describe the same practice of mentally or physically switching off from professional demands. These sentences carry the same meaning."
+          "explanation": "Temporary disengagement and disconnecting from work outside working hours describe the same healthy boundary."
         },
         {
           "id": 7,
@@ -625,16 +625,16 @@
         {
           "id": 8,
           "a": "She lacked self-determination in her career.",
-          "b": "She had no say in decisions that affected her life.",
+          "b": "She had no say in decisions that affected her career.",
           "answer": "S",
-          "explanation": "Self-determination is the capacity to make choices about one's own life. Having no say means being excluded from decisions. Both sentences describe a lack of personal agency."
+          "explanation": "Lacking self-determination in a career means lacking control over career decisions."
         },
         {
           "id": 9,
-          "a": "A poor work-life balance led to exhaustion.",
-          "b": "Overcommitment led to exhaustion.",
+          "a": "Overcommitment at work led to exhaustion.",
+          "b": "Taking on too much work led to exhaustion.",
           "answer": "S",
-          "explanation": "A poor work-life balance and overcommitment are closely related — both describe a state where too much is given to work at the expense of personal wellbeing, leading to the same result."
+          "explanation": "Overcommitment means taking on too much, so the sentences identify the same cause of exhaustion."
         },
         {
           "id": 10,

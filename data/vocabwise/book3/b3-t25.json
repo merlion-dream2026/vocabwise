@@ -580,9 +580,9 @@
         {
           "id": 2,
           "a": "The verdict was based on legal precedent.",
-          "b": "The verdict followed established law.",
+          "b": "The verdict followed an earlier binding court decision.",
           "answer": "S",
-          "explanation": "Legal precedent and established law are closely related — both refer to prior rulings and statutes that guide current judicial decisions. These sentences carry the same meaning."
+          "explanation": "A legal precedent is an earlier court decision that guides or binds a later ruling."
         },
         {
           "id": 3,
@@ -615,9 +615,9 @@
         {
           "id": 7,
           "a": "The statute was repealed.",
-          "b": "The law was overturned.",
+          "b": "The law was formally repealed by the legislature.",
           "answer": "S",
-          "explanation": "Statute and law refer to the same thing in this context — a written rule enacted by a legislature. Repealed and overturned both mean officially removed or cancelled. These sentences carry the same meaning."
+          "explanation": "A statute is a law enacted by a legislature, and repeal is its formal legislative cancellation."
         },
         {
           "id": 8,

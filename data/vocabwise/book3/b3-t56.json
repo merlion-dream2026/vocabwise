@@ -595,11 +595,11 @@
             "oppression",
             "disenfranchise",
             "solidarity",
-            "dissent"
+            "exclusion"
           ],
           "answer": "solidarity",
-          "reason": "oppression, disenfranchise, and dissent all describe power imbalances or responses to injustice. 'solidarity' is a positive social value — unity and mutual support in a shared cause, not a problem or act of resistance.",
-          "reason_vi": "oppression, disenfranchise và dissent đều mô tả sự mất cân bằng quyền lực hoặc phản ứng với bất công. 'solidarity' là giá trị xã hội tích cực — sự đoàn kết và hỗ trợ lẫn nhau trong mục tiêu chung, không phải vấn đề hay hành động kháng cự."
+          "reason": "oppression, disenfranchise, and exclusion describe forms of denying people power, rights, or participation. 'solidarity' is mutual support among people.",
+          "reason_vi": "oppression, disenfranchise và exclusion mô tả các hình thức tước bỏ quyền lực, quyền lợi hoặc sự tham gia của con người. 'solidarity' là sự hỗ trợ và đoàn kết lẫn nhau."
         },
         {
           "id": 3,
@@ -619,11 +619,11 @@
             "civil disobedience",
             "dissent",
             "solidarity",
-            "redress"
+            "protest"
           ],
           "answer": "solidarity",
-          "reason": "civil disobedience, dissent, and redress are all responses to injustice — acts or demands for change. 'solidarity' is an attitude or value — the emotional and political unity that motivates those responses, not a response itself.",
-          "reason_vi": "civil disobedience, dissent và redress đều là phản ứng với bất công. 'solidarity' là thái độ hoặc giá trị — sự đoàn kết cảm xúc và chính trị thúc đẩy những phản ứng đó, không phải bản thân phản ứng."
+          "reason": "civil disobedience, dissent, and protest are forms of expressing opposition. 'solidarity' is the unity and mutual support that may connect participants.",
+          "reason_vi": "civil disobedience, dissent và protest đều là các hình thức thể hiện sự phản đối. 'solidarity' là sự đoàn kết và hỗ trợ lẫn nhau có thể gắn kết những người tham gia."
         },
         {
           "id": 5,
@@ -653,13 +653,13 @@
           "id": 7,
           "words": [
             "civil disobedience",
-            "solidarity",
+            "protest",
             "redress",
             "dissent"
           ],
           "answer": "redress",
-          "reason": "civil disobedience, solidarity, and dissent are all acts or values of political activism. 'redress' is a remedy — the correction of a wrong, typically through legal or institutional means, not an act of resistance.",
-          "reason_vi": "civil disobedience, solidarity và dissent đều là hành động hoặc giá trị của hoạt động chính trị. 'redress' là biện pháp khắc phục — sửa chữa sai trái, thường qua phương tiện pháp lý hoặc thể chế, không phải hành động kháng cự."
+          "reason": "civil disobedience, protest, and dissent are forms of resistance or opposition. 'redress' is the remedy sought for a wrong.",
+          "reason_vi": "civil disobedience, protest và dissent đều là các hình thức kháng cự hoặc phản đối. 'redress' là biện pháp khắc phục được yêu cầu cho một sai trái."
         },
         {
           "id": 8,
@@ -678,12 +678,12 @@
           "words": [
             "oppression",
             "disenfranchise",
-            "solidarity",
+            "exclusion",
             "self-governance"
           ],
           "answer": "self-governance",
-          "reason": "oppression, disenfranchise, and solidarity are all political concepts about injustice and collective response. 'self-governance' is about political structure — a community's ability to make its own decisions, not about injustice or solidarity.",
-          "reason_vi": "oppression, disenfranchise và solidarity đều là khái niệm chính trị về bất công và phản ứng tập thể. 'self-governance' là về cấu trúc chính trị — khả năng của cộng đồng để đưa ra quyết định của mình, không phải về bất công hay đoàn kết."
+          "reason": "oppression, disenfranchise, and exclusion remove power or participation from people. 'self-governance' is the ability of people to govern themselves.",
+          "reason_vi": "oppression, disenfranchise và exclusion tước bỏ quyền lực hoặc sự tham gia của con người. 'self-governance' là khả năng con người tự quản trị."
         },
         {
           "id": 10,

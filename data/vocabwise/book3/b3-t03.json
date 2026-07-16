@@ -596,9 +596,9 @@
         {
           "id": 5,
           "a": "The relationship ended due to incompatibility.",
-          "b": "The relationship ended because they had nothing in common.",
+          "b": "The relationship ended because the partners were fundamentally incompatible.",
           "answer": "S",
-          "explanation": "Incompatibility and having nothing in common both describe a failure of alignment between two people's values, personalities, or lifestyles."
+          "explanation": "Both sentences state that the partners could not maintain the relationship because they were fundamentally unsuitable for each other."
         },
         {
           "id": 6,
@@ -624,9 +624,9 @@
         {
           "id": 9,
           "a": "Their relationship was characterised by mutual respect.",
-          "b": "Their relationship was characterised by reciprocity.",
+          "b": "Both partners treated each other with equal respect.",
           "answer": "S",
-          "explanation": "Mutual respect and reciprocity are very closely related — both describe a relationship where both people give and receive equally. In context, these sentences convey the same idea."
+          "explanation": "Mutual respect means that each partner respects the other, which is exactly what the second sentence states."
         },
         {
           "id": 10,

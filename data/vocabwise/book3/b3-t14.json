@@ -606,10 +606,10 @@
         },
         {
           "id": 5,
-          "a": "Flourishing involves more than the absence of distress.",
-          "b": "Mental health is not merely the absence of illness.",
+          "a": "Human flourishing involves more than the absence of distress.",
+          "b": "Human flourishing is not merely the absence of distress.",
           "answer": "S",
-          "explanation": "Both sentences assert the same idea — that positive wellbeing is a richer concept than simply not being ill or unhappy. These sentences carry the same meaning."
+          "explanation": "Both sentences state that flourishing requires more than simply having no distress."
         },
         {
           "id": 6,
@@ -641,10 +641,10 @@
         },
         {
           "id": 10,
-          "a": "Research shows that gratitude improves wellbeing.",
+          "a": "Research shows that gratitude is associated with wellbeing.",
           "b": "There is a correlation between gratitude and wellbeing.",
           "answer": "S",
-          "explanation": "Research showing improvement and a correlation both describe the same empirical finding — that gratitude and wellbeing go together. These sentences carry the same meaning."
+          "explanation": "Being associated with wellbeing and having a correlation with wellbeing express the same non-causal relationship."
         }
       ]
     }

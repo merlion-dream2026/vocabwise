@@ -600,9 +600,9 @@
         {
           "id": 5,
           "a": "He was found complicit in the wrongdoing.",
-          "b": "He was held responsible for the wrongdoing.",
+          "b": "He was held responsible for participating in the wrongdoing.",
           "answer": "S",
-          "explanation": "Complicit means being involved in or contributing to a wrongdoing. Being held responsible describes the same kind of moral accountability. These sentences carry the same meaning."
+          "explanation": "Complicity means responsibility arising from participation in wrongdoing."
         },
         {
           "id": 6,
@@ -614,23 +614,23 @@
         {
           "id": 7,
           "a": "The punishment was proportionate to the offence.",
-          "b": "The punishment was just.",
+          "b": "The punishment was just because its severity matched the offence.",
           "answer": "S",
-          "explanation": "Proportionality and justice are closely related — a proportionate punishment is generally considered a just one. These sentences carry the same meaning in most ethical contexts."
+          "explanation": "A punishment whose severity appropriately matches the offence is proportionate and, in this stated sense, just."
         },
         {
           "id": 8,
-          "a": "His integrity was never questioned.",
+          "a": "His honesty was never questioned.",
           "b": "His honesty was never in doubt.",
           "answer": "S",
-          "explanation": "Integrity and honesty are closely related — both describe a commitment to ethical behaviour. Not being questioned or in doubt both affirm the same positive quality. These sentences carry the same meaning."
+          "explanation": "Never questioned and never in doubt both state that nobody doubted his honesty."
         },
         {
           "id": 9,
           "a": "She felt complicit in the harm caused.",
-          "b": "She felt morally responsible for the harm caused.",
+          "b": "She felt morally responsible because she had participated in causing the harm.",
           "answer": "S",
-          "explanation": "Feeling complicit and feeling morally responsible both describe the same sense of ethical involvement in an outcome. These sentences carry the same meaning."
+          "explanation": "Feeling complicit means feeling morally responsible because of one's participation in wrongdoing or harm."
         },
         {
           "id": 10,

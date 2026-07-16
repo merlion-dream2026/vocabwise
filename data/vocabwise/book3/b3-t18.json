@@ -591,14 +591,14 @@
         {
           "id": 2,
           "words": [
-            "exoplanet",
+            "cosmic",
             "interstellar",
             "extraterrestrial",
             "gravitational"
           ],
           "answer": "gravitational",
-          "reason": "exoplanet, interstellar, and extraterrestrial are all terms describing things beyond Earth. 'gravitational' is an adjective describing a force — the pull of mass — which applies everywhere, not specifically beyond Earth.",
-          "reason_vi": "exoplanet, interstellar và extraterrestrial đều là thuật ngữ mô tả thứ gì đó ngoài Trái Đất. 'gravitational' là tính từ mô tả lực — lực hút của khối lượng — áp dụng ở khắp nơi, không đặc biệt ngoài Trái Đất."
+          "reason": "cosmic, interstellar, and extraterrestrial describe locations or origins beyond Earth. 'gravitational' describes a force caused by mass.",
+          "reason_vi": "cosmic, interstellar và extraterrestrial mô tả vị trí hoặc nguồn gốc ngoài Trái Đất. 'gravitational' mô tả lực do khối lượng gây ra."
         },
         {
           "id": 3,
@@ -615,26 +615,26 @@
         {
           "id": 4,
           "words": [
-            "exoplanet",
+            "alien",
             "atmosphere",
             "interstellar",
             "extraterrestrial"
           ],
           "answer": "atmosphere",
-          "reason": "exoplanet, interstellar, and extraterrestrial all refer to things or spaces beyond our solar system or beyond Earth. 'atmosphere' is a layer of gas surrounding a planet — not inherently about deep space.",
-          "reason_vi": "exoplanet, interstellar và extraterrestrial đều đề cập đến thứ gì đó hoặc không gian ngoài hệ mặt trời hoặc ngoài Trái Đất. 'atmosphere' là lớp khí bao quanh một hành tinh — không vốn dĩ liên quan đến không gian sâu."
+          "reason": "alien, interstellar, and extraterrestrial describe things or regions beyond Earth. 'atmosphere' is a layer of gas surrounding a planet.",
+          "reason_vi": "alien, interstellar và extraterrestrial mô tả các sự vật hoặc khu vực ngoài Trái Đất. 'atmosphere' là lớp khí bao quanh một hành tinh."
         },
         {
           "id": 5,
           "words": [
             "astrophysics",
             "gravitational",
-            "magnitude",
+            "relativity",
             "extraterrestrial"
           ],
           "answer": "extraterrestrial",
-          "reason": "astrophysics, gravitational, and magnitude are all scientific terms — disciplines, forces, and measurements. 'extraterrestrial' is a descriptive term — it simply means originating outside Earth, not a scientific concept or measurement.",
-          "reason_vi": "astrophysics, gravitational và magnitude đều là thuật ngữ khoa học — ngành học, lực và thước đo. 'extraterrestrial' là thuật ngữ mô tả — đơn giản có nghĩa là có nguồn gốc từ ngoài Trái Đất, không phải khái niệm hoặc thước đo khoa học."
+          "reason": "astrophysics, gravitational, and relativity are terms directly associated with physical theories, forces, or scientific study. 'extraterrestrial' is a descriptor meaning originating outside Earth.",
+          "reason_vi": "astrophysics, gravitational và relativity là các thuật ngữ trực tiếp liên quan đến lý thuyết vật lý, lực hoặc nghiên cứu khoa học. 'extraterrestrial' là từ mô tả có nghĩa bắt nguồn ngoài Trái Đất."
         },
         {
           "id": 6,
@@ -653,12 +653,12 @@
           "words": [
             "astrophysics",
             "gravitational",
-            "magnitude",
+            "relativity",
             "propulsion"
           ],
           "answer": "propulsion",
-          "reason": "astrophysics, gravitational, and magnitude are all concepts from theoretical or observational science. 'propulsion' is an engineering concept — the physical mechanism that drives a spacecraft forward.",
-          "reason_vi": "astrophysics, gravitational và magnitude đều là khái niệm từ khoa học lý thuyết hoặc quan sát. 'propulsion' là khái niệm kỹ thuật — cơ chế vật lý đẩy tàu vũ trụ về phía trước."
+          "reason": "astrophysics, gravitational, and relativity belong to theoretical or scientific descriptions of the universe. 'propulsion' is an engineering mechanism used to drive a vehicle.",
+          "reason_vi": "astrophysics, gravitational và relativity thuộc các mô tả lý thuyết hoặc khoa học về vũ trụ. 'propulsion' là cơ chế kỹ thuật dùng để đẩy một phương tiện."
         },
         {
           "id": 8,
@@ -675,14 +675,14 @@
         {
           "id": 9,
           "words": [
-            "astrophysics",
+            "gravity",
             "magnitude",
             "atmosphere",
             "gravitational"
           ],
           "answer": "atmosphere",
-          "reason": "astrophysics, magnitude, and gravitational are all scientific concepts with precise technical definitions. 'atmosphere' is a physical layer of gas — a tangible structure, not a scientific principle or measurement.",
-          "reason_vi": "astrophysics, magnitude và gravitational đều là khái niệm khoa học với định nghĩa kỹ thuật chính xác. 'atmosphere' là lớp khí vật lý — cấu trúc hữu hình, không phải nguyên lý hoặc thước đo khoa học."
+          "reason": "gravity, magnitude, and gravitational refer to abstract physical forces, quantities, or properties. 'atmosphere' is a physical layer of gas.",
+          "reason_vi": "gravity, magnitude và gravitational chỉ các lực, đại lượng hoặc thuộc tính vật lý trừu tượng. 'atmosphere' là một lớp khí vật lý."
         },
         {
           "id": 10,

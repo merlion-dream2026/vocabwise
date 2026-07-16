@@ -581,9 +581,9 @@
         {
           "id": 3,
           "a": "The passage used nominalisation extensively.",
-          "b": "The passage was written in an abstract style.",
+          "b": "The passage extensively turned verbs and adjectives into nouns.",
           "answer": "S",
-          "explanation": "Nominalisation converts verbs or adjectives into nouns, which creates a more abstract, formal style. These sentences describe the same stylistic feature of academic prose."
+          "explanation": "Nominalisation is the process of expressing actions or qualities as nouns."
         },
         {
           "id": 4,
@@ -602,9 +602,9 @@
         {
           "id": 6,
           "a": "The thesis statement was clear and specific.",
-          "b": "The essay had a strong, focused argument.",
+          "b": "The essay's central thesis was clear and focused.",
           "answer": "S",
-          "explanation": "A clear, specific thesis statement is the foundation of a strong, focused argument. These sentences describe the same quality in different terms."
+          "explanation": "Both sentences describe a clearly defined central claim for the essay."
         },
         {
           "id": 7,

@@ -585,12 +585,12 @@
           "words": [
             "thesis",
             "position",
-            "qualification",
+            "claim",
             "integration"
           ],
           "answer": "integration",
-          "reason": "thesis, position, and qualification all relate to the writer's stance and how it is presented. 'integration' refers to how sources are incorporated into the argument — a technical skill, not a stance.",
-          "reason_vi": "thesis, position và qualification đều liên quan đến quan điểm của tác giả và cách trình bày. 'integration' đề cập đến cách tích hợp các nguồn vào lập luận — kỹ năng kỹ thuật, không phải quan điểm."
+          "reason": "thesis, position, and claim state ideas or arguments. 'integration' is the process of combining material into a unified whole.",
+          "reason_vi": "thesis, position và claim đều nêu ý tưởng hoặc lập luận. 'integration' là quá trình kết hợp tài liệu thành một thể thống nhất."
         },
         {
           "id": 3,
@@ -610,11 +610,11 @@
             "thesis",
             "position",
             "integration",
-            "precision"
+            "claim"
           ],
           "answer": "integration",
-          "reason": "thesis, position, and precision describe what a writer aims for and how clearly it is expressed. 'integration' is a structural technique — the method of blending quoted or paraphrased material into prose.",
-          "reason_vi": "thesis, position và precision mô tả những gì tác giả hướng đến và cách diễn đạt rõ ràng. 'integration' là kỹ thuật cấu trúc — phương pháp kết hợp tài liệu trích dẫn hoặc paraphrase vào bài văn."
+          "reason": "thesis, position, and claim are statements of an argument. 'integration' is the process of combining sources or ideas.",
+          "reason_vi": "thesis, position và claim đều là các phát biểu trong một lập luận. 'integration' là quá trình kết hợp nguồn hoặc ý tưởng."
         },
         {
           "id": 5,
@@ -634,11 +634,11 @@
             "thesis",
             "position",
             "precision",
-            "formality"
+            "argument"
           ],
           "answer": "precision",
-          "reason": "thesis, position, and formality are all macro-level academic writing concerns — the writer's central argument, stance, and register. 'precision' is a micro-level concern — the accuracy and exactness of specific word choices.",
-          "reason_vi": "thesis, position và formality đều là mối quan tâm viết học thuật cấp vĩ mô. 'precision' là mối quan tâm cấp vi mô — độ chính xác của lựa chọn từ cụ thể."
+          "reason": "thesis, position, and argument refer to the content or stance being presented. 'precision' is a quality of how accurately that content is expressed.",
+          "reason_vi": "thesis, position và argument chỉ nội dung hoặc lập trường được trình bày. 'precision' là phẩm chất về mức độ chính xác khi diễn đạt nội dung đó."
         },
         {
           "id": 7,

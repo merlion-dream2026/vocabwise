@@ -599,11 +599,11 @@
             "disruption",
             "dependency",
             "digital divide",
-            "privacy"
+            "inequality"
           ],
           "answer": "disruption",
-          "reason": "dependency, digital divide, and privacy are all ongoing concerns or conditions of the digital age. 'disruption' is specifically about change — an industry or behaviour being fundamentally altered by new technology.",
-          "reason_vi": "dependency, digital divide và privacy đều là mối lo ngại hoặc điều kiện liên tục của kỷ nguyên số. 'disruption' đặc biệt về thay đổi — một ngành hoặc hành vi bị thay đổi cơ bản bởi công nghệ mới."
+          "reason": "dependency, digital divide, and inequality are persistent social or structural problems linked to technology. 'disruption' is a process of sudden change.",
+          "reason_vi": "dependency, digital divide và inequality đều là các vấn đề xã hội hoặc cấu trúc kéo dài liên quan đến công nghệ. 'disruption' là quá trình thay đổi đột ngột."
         },
         {
           "id": 4,
@@ -669,13 +669,13 @@
           "id": 9,
           "words": [
             "convergence",
-            "interface",
+            "diffusion",
             "efficiency",
             "adoption"
           ],
           "answer": "efficiency",
-          "reason": "convergence, interface, and adoption are all structural or behavioural technology concepts. 'efficiency' is a performance metric — how well a system uses resources to achieve results.",
-          "reason_vi": "convergence, interface và adoption đều là khái niệm công nghệ cấu trúc hoặc hành vi. 'efficiency' là thước đo hiệu suất — mức độ hệ thống sử dụng nguồn lực để đạt kết quả."
+          "reason": "convergence, diffusion, and adoption are processes through which technologies combine, spread, or become used. 'efficiency' is a performance outcome.",
+          "reason_vi": "convergence, diffusion và adoption là các quá trình công nghệ kết hợp, lan truyền hoặc được sử dụng. 'efficiency' là kết quả về hiệu suất."
         },
         {
           "id": 10,

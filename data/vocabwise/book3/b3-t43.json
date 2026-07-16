@@ -588,13 +588,13 @@
           "id": 2,
           "words": [
             "adaptation",
-            "etiquette",
+            "accommodation",
             "equivalence",
             "pragmatic transfer"
           ],
           "answer": "pragmatic transfer",
-          "reason": "adaptation, etiquette, and equivalence are all strategies or standards used to navigate cross-cultural communication. 'pragmatic transfer' is an error — using the communication rules of one culture inappropriately in another.",
-          "reason_vi": "adaptation, etiquette và equivalence đều là chiến lược hoặc tiêu chuẩn trong giao tiếp giao thoa văn hóa. 'pragmatic transfer' là lỗi — dùng quy tắc giao tiếp của một nền văn hóa không phù hợp trong nền khác."
+          "reason": "adaptation, accommodation, and equivalence describe efforts or outcomes that make communication fit a new language or culture. 'pragmatic transfer' is the unintended carryover of source-culture conventions.",
+          "reason_vi": "adaptation, accommodation và equivalence mô tả những nỗ lực hoặc kết quả giúp giao tiếp phù hợp với ngôn ngữ hay văn hóa mới. 'pragmatic transfer' là việc vô tình chuyển các quy ước từ văn hóa nguồn."
         },
         {
           "id": 3,
@@ -614,11 +614,11 @@
             "convention",
             "etiquette",
             "equivalence",
-            "generalisation"
+            "protocol"
           ],
           "answer": "equivalence",
-          "reason": "convention, etiquette, and generalisation are all cultural or social phenomena — shared rules and assumptions. 'equivalence' is a translation concept — the degree to which meaning is maintained when converting between languages.",
-          "reason_vi": "convention, etiquette và generalisation đều là hiện tượng văn hóa hoặc xã hội. 'equivalence' là khái niệm dịch thuật — mức độ ý nghĩa được duy trì khi chuyển đổi giữa các ngôn ngữ."
+          "reason": "convention, etiquette, and protocol are systems of accepted social rules. 'equivalence' is a relationship of corresponding meaning or value.",
+          "reason_vi": "convention, etiquette và protocol đều là các hệ thống quy tắc xã hội được chấp nhận. 'equivalence' là quan hệ tương ứng về nghĩa hoặc giá trị."
         },
         {
           "id": 5,
@@ -649,12 +649,12 @@
           "words": [
             "convention",
             "etiquette",
-            "adaptation",
+            "protocol",
             "generalisation"
           ],
           "answer": "generalisation",
-          "reason": "convention, etiquette, and adaptation are all tools or norms that can improve cross-cultural interaction. 'generalisation' is a risk — applying assumptions too broadly, which can lead to stereotyping.",
-          "reason_vi": "convention, etiquette và adaptation đều là công cụ hoặc chuẩn mực có thể cải thiện tương tác giao thoa văn hóa. 'generalisation' là rủi ro — áp dụng giả định quá rộng, có thể dẫn đến định kiến."
+          "reason": "convention, etiquette, and protocol are accepted rules for social behaviour. 'generalisation' is a broad conclusion applied to a group.",
+          "reason_vi": "convention, etiquette và protocol đều là các quy tắc được chấp nhận về hành vi xã hội. 'generalisation' là kết luận rộng được áp dụng cho một nhóm."
         },
         {
           "id": 8,
@@ -673,12 +673,12 @@
           "words": [
             "convention",
             "etiquette",
-            "equivalence",
+            "protocol",
             "mediation"
           ],
           "answer": "mediation",
-          "reason": "convention, etiquette, and equivalence are all existing norms or standards — things that already exist in communication. 'mediation' is an active process — the work of a person who bridges communication gaps.",
-          "reason_vi": "convention, etiquette và equivalence đều là chuẩn mực hoặc tiêu chuẩn hiện có. 'mediation' là quá trình chủ động — công việc của người thu hẹp khoảng cách giao tiếp."
+          "reason": "convention, etiquette, and protocol are established social rules. 'mediation' is an intervention used to help parties resolve a conflict.",
+          "reason_vi": "convention, etiquette và protocol đều là các quy tắc xã hội đã được thiết lập. 'mediation' là sự can thiệp giúp các bên giải quyết xung đột."
         },
         {
           "id": 10,

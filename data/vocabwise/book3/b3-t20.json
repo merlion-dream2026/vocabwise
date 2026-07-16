@@ -575,10 +575,10 @@
         },
         {
           "id": 2,
-          "a": "Deforestation threatens biodiversity.",
-          "b": "Deforestation reduces ecosystem health.",
+          "a": "Deforestation causes biodiversity loss.",
+          "b": "Deforestation reduces biological diversity.",
           "answer": "S",
-          "explanation": "Biodiversity and ecosystem health are closely linked — destroying forests reduces species diversity and destabilises ecosystems. These sentences describe the same environmental harm."
+          "explanation": "Biodiversity loss and reduced biological diversity are equivalent consequences of deforestation."
         },
         {
           "id": 3,
@@ -624,10 +624,10 @@
         },
         {
           "id": 9,
-          "a": "Deforestation is a major driver of biodiversity loss.",
-          "b": "Habitat destruction is a major driver of biodiversity loss.",
+          "a": "Habitat destruction through deforestation is a major driver of biodiversity loss.",
+          "b": "Deforestation-driven habitat destruction is a major driver of biodiversity loss.",
           "answer": "S",
-          "explanation": "Deforestation is a specific form of habitat destruction — clearing forests. Both sentences identify the same causal relationship: destroying habitat leads to losing species."
+          "explanation": "The sentences describe the same causal process using a different word order."
         },
         {
           "id": 10,

@@ -587,11 +587,11 @@
             "dysfunction",
             "fragmentation",
             "obligation",
-            "kinship"
+            "instability"
           ],
           "answer": "obligation",
-          "reason": "dysfunction, fragmentation, and kinship are all concepts that describe the nature or condition of a family. 'obligation' describes a duty — something a person must do, which is a personal or legal matter, not a description of family condition.",
-          "reason_vi": "dysfunction, fragmentation và kinship đều là khái niệm mô tả bản chất hoặc tình trạng của gia đình. 'obligation' mô tả nghĩa vụ — thứ một người phải làm, không phải mô tả tình trạng gia đình."
+          "reason": "dysfunction, fragmentation, and instability describe problems affecting a family or social unit. 'obligation' is a duty someone is expected to fulfil.",
+          "reason_vi": "dysfunction, fragmentation và instability mô tả các vấn đề ảnh hưởng đến gia đình hoặc đơn vị xã hội. 'obligation' là nghĩa vụ một người phải thực hiện."
         },
         {
           "id": 3,
@@ -622,12 +622,12 @@
           "words": [
             "dysfunction",
             "fragmentation",
-            "kinship",
+            "breakdown",
             "custody"
           ],
           "answer": "custody",
-          "reason": "dysfunction, fragmentation, and kinship are all concepts about the nature or quality of family bonds. 'custody' is a legal arrangement — specifying who is responsible for a child after a family separation.",
-          "reason_vi": "dysfunction, fragmentation và kinship đều là khái niệm về bản chất hoặc chất lượng của quan hệ gia đình. 'custody' là sắp xếp pháp lý — chỉ định ai chịu trách nhiệm với trẻ sau khi gia đình ly tán."
+          "reason": "dysfunction, fragmentation, and breakdown describe the deterioration of family relationships. 'custody' is a legal arrangement concerning responsibility for a child.",
+          "reason_vi": "dysfunction, fragmentation và breakdown mô tả sự suy yếu của các mối quan hệ gia đình. 'custody' là một thỏa thuận pháp lý về trách nhiệm đối với trẻ."
         },
         {
           "id": 6,
@@ -644,14 +644,14 @@
         {
           "id": 7,
           "words": [
-            "kinship",
+            "parenting",
             "obligation",
             "custody",
             "cohabitation"
           ],
           "answer": "obligation",
-          "reason": "kinship, custody, and cohabitation are all specific relational or living arrangements. 'obligation' is a moral or legal duty — a broader concept not exclusive to family arrangements.",
-          "reason_vi": "kinship, custody và cohabitation đều là sắp xếp quan hệ hoặc sống cụ thể. 'obligation' là nghĩa vụ đạo đức hoặc pháp lý — khái niệm rộng hơn không chỉ riêng sắp xếp gia đình."
+          "reason": "parenting, custody, and cohabitation are family practices or arrangements. 'obligation' is a duty, not an arrangement.",
+          "reason_vi": "parenting, custody và cohabitation là các thực hành hoặc sự sắp xếp trong gia đình. 'obligation' là nghĩa vụ, không phải một sự sắp xếp."
         },
         {
           "id": 8,
@@ -659,11 +659,11 @@
             "dysfunction",
             "fragmentation",
             "parenting",
-            "kinship"
+            "breakdown"
           ],
           "answer": "parenting",
-          "reason": "dysfunction, fragmentation, and kinship are all abstract concepts about the nature and quality of family bonds. 'parenting' is a practice — the active process of raising and caring for children.",
-          "reason_vi": "dysfunction, fragmentation và kinship đều là khái niệm trừu tượng về bản chất và chất lượng của quan hệ gia đình. 'parenting' là thực hành — quá trình chủ động nuôi dưỡng và chăm sóc trẻ."
+          "reason": "dysfunction, fragmentation, and breakdown describe family problems or deterioration. 'parenting' is the practice of raising children.",
+          "reason_vi": "dysfunction, fragmentation và breakdown mô tả các vấn đề hoặc sự suy yếu trong gia đình. 'parenting' là hoạt động nuôi dạy trẻ."
         },
         {
           "id": 9,

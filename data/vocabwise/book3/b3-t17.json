@@ -601,10 +601,10 @@
         },
         {
           "id": 5,
-          "a": "The patient experienced serious side effects.",
-          "b": "The treatment caused unexpected complications.",
+          "a": "The patient experienced serious unexpected adverse effects.",
+          "b": "The treatment caused serious unexpected adverse effects.",
           "answer": "S",
-          "explanation": "Side effects and unexpected complications both describe negative, unintended consequences of medical treatment. These sentences carry the same meaning."
+          "explanation": "Both sentences state that the treatment produced serious adverse effects that were not expected."
         },
         {
           "id": 6,

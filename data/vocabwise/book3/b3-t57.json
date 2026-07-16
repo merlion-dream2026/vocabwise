@@ -604,10 +604,10 @@
         },
         {
           "id": 6,
-          "a": "The state's sovereignty was violated.",
-          "b": "The state's independence was compromised.",
+          "a": "The state's sovereign independence was violated.",
+          "b": "The state's political independence was compromised.",
           "answer": "S",
-          "explanation": "Sovereignty and independence both refer to a state's right to govern itself without external interference. Violated and compromised both describe the same breach. These sentences carry the same meaning."
+          "explanation": "Both sentences state that external action undermined the state's independent authority."
         },
         {
           "id": 7,
