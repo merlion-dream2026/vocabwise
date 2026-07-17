@@ -8,7 +8,7 @@ const FOCUS_RING = 'focus-visible:outline-none focus-visible:ring-2 focus-visibl
 const SCREENSHOTS = [
   { src: '/screenshots/select%20profile.jpg',              caption: 'Mỗi bé một hồ sơ riêng' },
   { src: '/screenshots/select%20level.jpg',                caption: '6 cấp độ từ Pre-A1 đến C1-C2' },
-  { src: '/screenshots/select%20vocab%20topic.jpg',        caption: '30 chủ đề · 4.500+ từ vựng' },
+  { src: '/screenshots/select%20vocab%20topic.jpg',        caption: '30 chủ đề/level · 2.400+ từ vựng' },
   { src: '/screenshots/select%20game.jpg',                 caption: '10 trò chơi đa dạng mỗi chủ đề' },
   { src: '/screenshots/demo%20flashcard.jpg',              caption: 'Flashcard — học từ trong ngữ cảnh' },
   { src: '/screenshots/demo%20game%20ghep%20chu.jpg',      caption: 'Ghép chữ — luyện chính tả vui' },

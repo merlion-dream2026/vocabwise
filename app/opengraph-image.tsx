@@ -29,7 +29,7 @@ export default function Image() {
           Learn English — Fun, Effective & Bilingual
         </div>
         <div style={{ display: 'flex', gap: 24 }}>
-          {['4,500+ words', '6 levels', '10+ games'].map(item => (
+          {['2,400+ words', '6 levels', '10 games'].map(item => (
             <div key={item} style={{
               background: 'rgba(255,255,255,0.2)',
               borderRadius: 50,

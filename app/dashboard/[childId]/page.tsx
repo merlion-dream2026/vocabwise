@@ -18,7 +18,7 @@ const KID_FAQ = [
   },
   {
     q: '🎮 Có những trò chơi gì?',
-    a: 'Level Seeker / Starter / Ranger (10 trò):\n📖 Flashcard từ mới · 👂 Nghe & Chọn · ✅ Đúng / Sai · 🖼️ Nối từ với hình\n🧠 Lật thẻ · 🫧 Bắn bong bóng · 🔡 Điền chữ thiếu\n🔤 Đánh vần · 🔁 Sắp xếp câu · 🎤 Phát âm cùng AI ✨\n\nLevel Explorer / Scholar / Master (11 trò khác):\n📖 Flashcard · 👂 Nghe & Chọn · ✅ Đúng / Sai · 🖼️ Nối từ với hình\n❓ Trắc nghiệm · ✏️ Điền từ · 🔀 Ghép định nghĩa · 🎤 Phát âm cùng AI ✨\n⌨️ Gõ từ nhanh 15s · 🔁 Sắp xếp câu · ⚡ Speed Round',
+    a: 'Level Seeker / Starter / Ranger (10 trò):\n📖 Flashcard từ mới · 👂 Nghe & Chọn · ✅ Đúng / Sai · 🖼️ Nối từ với hình\n🧠 Lật thẻ · 🫧 Bắn bong bóng · 🔡 Điền chữ thiếu\n🔤 Đánh vần · 🔁 Sắp xếp câu · 🎤 Phát âm cùng AI ✨\n\nLevel Explorer / Scholar / Master (10 trò khác):\n📖 Flashcard · 👂 Nghe & Chọn · ✅ Đúng / Sai\n❓ Trắc nghiệm · ✏️ Điền từ · 🔀 Ghép định nghĩa · 🎤 Phát âm cùng AI ✨\n⌨️ Gõ từ nhanh 15s · 🔁 Sắp xếp câu · ⚡ Speed Round',
   },
   {
     q: '🏆 Khi nào chủ đề được tính là hoàn thành?',
@@ -38,7 +38,7 @@ const KID_FAQ = [
   },
   {
     q: '🔤 Module Phonics là gì?',
-    a: 'Ngoài học từ vựng theo chủ đề, bạn còn có thể luyện phát âm tiếng Anh theo chuẩn IPA!\n\nBấm card 🔤 "Phonics" ở màn hình chọn level để vào.\n\nCó 3 nhóm âm cần học theo thứ tự:\n① 🎵 Nguyên âm — /iː/ vs /ɪ/, /æ/ vs /e/...\n② 🔊 Phụ âm — /p/ vs /b/, /θ/ vs /ð/...\n③ 🇻🇳 Khó với người Việt — /l/ vs /r/, âm cuối, cụm phụ âm\n\nMỗi nhóm âm: học → 3 game đạt ≥70% = 🏆 Thành thạo!',
+    a: 'Ngoài học từ vựng theo chủ đề, bạn còn có thể luyện phát âm tiếng Anh theo chuẩn IPA!\n\nBấm card 🔤 "Phonics" ở màn hình chọn level để vào.\n\n9 nhóm, 58 bài — học theo thứ tự:\nNguyên âm ngắn · Nguyên âm đôi · Cặp phụ âm · Phụ âm khác · Khó với người Việt · Đọc từ thông minh · Quy tắc phát âm · Ngữ điệu · Nói liên tục\n\nMỗi bài: học → hoàn thành các game bắt buộc, mỗi game ≥70% = 🏆 Thành thạo!',
   },
 ]
 

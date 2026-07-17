@@ -4,7 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: 'VocabWise',
     short_name: 'VocabWise',
-    description: 'Học từ vựng tiếng Anh cho bé — 4.500+ từ, 6 cấp độ, 10+ trò chơi',
+    description: 'Học từ vựng tiếng Anh cho bé — 2.400+ từ, 6 cấp độ, 10 trò chơi',
     start_url: '/kids',
     display: 'standalone',
     orientation: 'portrait',

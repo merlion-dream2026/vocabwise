@@ -400,7 +400,7 @@ function HowToLearnCard() {
             <p className="font-bold text-blue-700 text-xs mb-1">🏆 Thành thạo 1 bài khi:</p>
             <p className="text-xs text-gray-600">Đã học + hoàn thành các game bắt buộc <strong>mỗi game ≥70%</strong></p>
           </div>
-          <p className="text-xs text-gray-400">Level sau mở khi <strong>thành thạo ≥3 bài</strong> ở level trước 🔓</p>
+          <p className="text-xs text-gray-400">Gói Free học thử bài đầu tiên (Nguyên âm ngắn) · Nâng cấp Pro để mở toàn bộ 58 bài 🔓</p>
           <div className="bg-orange-50 rounded-xl p-3 border border-orange-100">
             <p className="font-bold text-orange-700 text-xs mb-1">🔄 Điểm ôn tập (Decay):</p>
             <p className="text-xs text-gray-600">Bài đã thành thạo nhưng lâu không ôn sẽ giảm điểm. Ôn lại để giữ ≥65%</p>

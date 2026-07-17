@@ -20,7 +20,7 @@ const MODULE_CARDS = [
       { icon: '📐', text: 'IPA chuẩn Cambridge — nguyên âm, phụ âm, minimal pairs' },
       { icon: '🔊', text: 'Nghe phát âm chuẩn từ native speaker' },
       { icon: '🤖', text: 'AI chấm phát âm ngay lập tức — biết sai biết đúng' },
-      { icon: '🎮', text: '3 game/nhóm âm: Phân biệt · Chọn hình · Luyện đọc' },
+      { icon: '🎮', text: 'Game luyện tập theo bài: Nghe & Phân biệt · Nghe & Chọn IPA · Phát âm cùng AI' },
     ],
   },
   {
@@ -78,11 +78,11 @@ const MODULE_CARDS = [
 const FAQ_ITEMS = [
   {
     q: 'VocabWise có những gì?',
-    a: 'VocabWise là nền tảng học tiếng Anh toàn diện với 3 module:\n\n📚 VocabWise Daily — 2.400+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1-C2), 10–11 trò chơi tương tác — dành riêng cho trẻ em 5–15 tuổi.\n\n🎤 Phonics — học IPA chuẩn Cambridge qua nguyên âm, phụ âm, minimal pairs — phù hợp mọi lứa tuổi.\n\n🎓 VocabWise Academic — từ vựng học thuật cho IELTS/SAT với 3 books · 180 chủ đề · passage, glossary và 8 dạng bài tập theo chuẩn CEFR A1–C2.',
+    a: 'VocabWise là nền tảng học tiếng Anh toàn diện với 3 module:\n\n📚 VocabWise Daily — 2.400+ từ vựng, 6 cấp độ CEFR (Pre-A1 đến C1-C2), 10 trò chơi tương tác — dành riêng cho trẻ em 5–15 tuổi.\n\n🎤 Phonics — học IPA chuẩn Cambridge qua 58 bài (nguyên âm, phụ âm, minimal pairs, quy tắc phát âm, ngữ điệu...) — phù hợp mọi lứa tuổi.\n\n🎓 VocabWise Academic — từ vựng học thuật cho IELTS/SAT với 3 books · 180 chủ đề · passage, glossary và 8 dạng bài tập theo chuẩn CEFR A1–C2.',
   },
   {
     q: 'Module Phonics là gì?',
-    a: 'Module Phonics là tính năng độc lập giúp bé học phát âm tiếng Anh đúng chuẩn theo ký hiệu IPA.\n\nBé sẽ học qua 3 nhóm âm:\n• Nguyên âm (dài & ngắn): /iː/ vs /ɪ/, /æ/ vs /e/...\n• Phụ âm (cặp hữu thanh/vô thanh): /p/ vs /b/, /θ/ vs /ð/...\n• Khó với người Việt: /l/ vs /r/, âm cuối, cụm phụ âm\n\nMỗi nhóm âm có 3 game: Nghe & Phân biệt · Nghe & Chọn · Luyện đọc (AI chấm điểm).\nBé nghe phát âm mẫu từ native speaker rồi tự đọc theo — AI cho biết đúng hay sai ngay lập tức!',
+    a: 'Module Phonics là tính năng độc lập giúp bé học phát âm tiếng Anh đúng chuẩn theo ký hiệu IPA.\n\nBé sẽ học qua 9 nhóm, 58 bài:\n• Nguyên âm ngắn · Nguyên âm đôi\n• Cặp phụ âm · Phụ âm khác\n• Khó với người Việt\n• Đọc từ thông minh\n• Quy tắc phát âm (đuôi -s/-ed, linking...)\n• Ngữ điệu · Nói liên tục\n\nMỗi bài luyện qua các game: Nghe & Phân biệt · Nghe & Chọn IPA · Phát âm cùng AI (AI chấm điểm).\nBé nghe phát âm mẫu từ native speaker rồi tự đọc theo — AI cho biết đúng hay sai ngay lập tức!',
   },
   {
     q: 'Bé có thể tự học một mình không?',
@@ -114,7 +114,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Các gói Pro 1 tháng, 3 tháng và 6 tháng khác nhau thế nào?',
-    a: 'Tất cả gói Pro đều có:\n📚 Daily: 180 chủ đề · 2.400+ từ · 10–11 trò chơi/chủ đề\n🎓 Academic: 3 books · 180 chủ đề học thuật (A1–C2)\n🔤 Phonics IPA đầy đủ · ⭐ Từ của tôi không giới hạn · SRS ôn từ yếu không giới hạn · Push notification nhắc học.\n\nSự khác biệt:\n• Pro 1 tháng (59k): 2 hồ sơ bé · AI Speak 30 lần/ngày\n• Pro 3 tháng (53k/th): 3 hồ sơ bé · AI Speak không giới hạn · Module Word Stress · Báo cáo email tự động hàng tuần\n• Pro 6 tháng (50k/th): Tất cả như 3 tháng + 🎁 Tặng bạn bè 14 ngày Pro + 📅 Email tổng kết học tập hàng tháng',
+    a: 'Tất cả gói Pro đều có:\n📚 Daily: 180 chủ đề · 2.400+ từ · 10 trò chơi/chủ đề\n🎓 Academic: 3 books · 180 chủ đề học thuật (A1–C2)\n🔤 Phonics IPA đầy đủ · ⭐ Từ của tôi không giới hạn · SRS ôn từ yếu không giới hạn · Push notification nhắc học.\n\nSự khác biệt:\n• Pro 1 tháng (59k): 2 hồ sơ bé · AI Speak 30 lần/ngày\n• Pro 3 tháng (53k/th): 3 hồ sơ bé · AI Speak không giới hạn · Module Word Stress · Báo cáo email tự động hàng tuần\n• Pro 6 tháng (50k/th): Tất cả như 3 tháng + 🎁 Tặng bạn bè 14 ngày Pro + 📅 Email tổng kết học tập hàng tháng',
   },
 ]
 

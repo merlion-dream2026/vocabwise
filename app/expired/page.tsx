@@ -37,7 +37,7 @@ export default function ExpiredPage() {
 
       <div className="grid grid-cols-2 gap-3 w-full max-w-xs mb-8">
         {[
-          { icon: '📚', text: '4.500+ từ vựng' },
+          { icon: '📚', text: '5.100+ từ vựng' },
           { icon: '🎤', text: 'AI chấm phát âm' },
           { icon: '🎮', text: '10 game/chủ đề' },
           { icon: '📊', text: 'Báo cáo tiến độ' },

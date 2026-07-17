@@ -9,7 +9,7 @@ const FAQ_ITEMS = [
     items: [
       {
         q: 'App có mấy level và bao nhiêu từ vựng?',
-        a: '6 levels từ Pre-A1 đến C1-C2 (tất cả đã hoàn thiện):\n🌱 Seeker (Pre-A1) · ⭐ Starter (A1) · 🏕️ Ranger (A2) · 🔭 Explorer (B1) · 🎓 Scholar (B2) · 🏆 Master (C1-C2)\n\nMỗi level: 30 chủ đề × 10–15 từ. Tổng toàn app: ~2.360 từ vựng.',
+        a: '6 levels từ Pre-A1 đến C1-C2 (tất cả đã hoàn thiện):\n🌱 Seeker (Pre-A1) · ⭐ Starter (A1) · 🏕️ Ranger (A2) · 🔭 Explorer (B1) · 🎓 Scholar (B2) · 🏆 Master (C1-C2)\n\nMỗi level: 30 chủ đề × 10–15 từ. Tổng toàn app: 2.400 từ vựng.',
       },
       {
         q: 'Một chủ đề gồm những gì?',
@@ -26,7 +26,7 @@ const FAQ_ITEMS = [
       },
       {
         q: 'App có những trò chơi gì?',
-        a: 'Level cơ bản (Seeker / Starter / Ranger) — 10 trò:\n📖 Flashcard từ mới · 👂 Nghe & Chọn · ✅ Đúng / Sai · 🖼️ Nối từ với hình · 🧠 Lật thẻ · 🫧 Bắn bong bóng · 🔡 Điền chữ thiếu · 🔤 Đánh vần · 🔁 Sắp xếp câu · 🎤 Phát âm cùng AI ✨\n\nLevel nâng cao (Explorer / Scholar / Master) — 11 trò:\n📖 Flashcard từ mới · 👂 Nghe & Chọn · ✅ Đúng / Sai · 🖼️ Nối từ với hình · ❓ Trắc nghiệm · ✏️ Điền từ · ⌨️ Gõ từ nhanh 15s · 🔀 Ghép định nghĩa · 🔁 Sắp xếp câu · 🎤 Phát âm cùng AI ✨ · ⚡ Speed Round\n\nNgoài ra, mỗi chủ đề đều có 📖 Mini Story tích hợp ngay trong trang chủ đề — bé đọc chuyện, nghe audio, rồi làm bài điền từ ngay tại chỗ.',
+        a: 'Level cơ bản (Seeker / Starter / Ranger) — 10 trò:\n📖 Flashcard từ mới · 👂 Nghe & Chọn · ✅ Đúng / Sai · 🖼️ Nối từ với hình · 🧠 Lật thẻ · 🫧 Bắn bong bóng · 🔡 Điền chữ thiếu · 🔤 Đánh vần · 🔁 Sắp xếp câu · 🎤 Phát âm cùng AI ✨\n\nLevel nâng cao (Explorer / Scholar / Master) — 10 trò:\n📖 Flashcard từ mới · 👂 Nghe & Chọn · ✅ Đúng / Sai · ❓ Trắc nghiệm · ✏️ Điền từ · 🔀 Ghép định nghĩa · 🎤 Phát âm cùng AI ✨ · ⌨️ Gõ từ nhanh 15s · 🔁 Sắp xếp câu · ⚡ Speed Round\n\nNgoài ra, mỗi chủ đề đều có 📖 Mini Story tích hợp ngay trong trang chủ đề — bé đọc chuyện, nghe audio, rồi làm bài điền từ ngay tại chỗ.',
       },
     ],
   },
@@ -35,11 +35,11 @@ const FAQ_ITEMS = [
     items: [
       {
         q: 'Các ký hiệu trên thẻ tiến độ nghĩa là gì?',
-        a: '% · X/N từ → Số từ bé đã học / tổng từ của level đó\n✅ X/30 chủ đề → Chủ đề hoàn thành đủ flashcard + 3 games\n🔤 Phát âm X/23 nhóm 🏆 → Nhóm âm IPA bé đã thành thạo (học + 3 game đạt ≥70%)\n🔥 Streak → Số ngày học liên tiếp không bỏ ngày nào (tính gộp toàn app)\n⚡ X/20 XP hôm nay → Mục tiêu XP mỗi ngày — đạt 20 XP là hoàn thành mục tiêu\n⚠️ Từ yếu → Từ bé trả lời sai nhiều lần, cần ôn thêm\n📅 Ngày → Lần gần nhất bé có hoạt động học\n🏅 Badges → Huy hiệu đạt được theo cột mốc học tập',
+        a: '📚 Daily X/30 chủ đề · X/N từ → Chủ đề hoàn thành đủ flashcard + 3 games / số từ bé đã học trong level đó\n🎓 Academic X/180 chủ đề · X/N từ → Tiến độ học thuật (3 books, A1–C2)\n🔤 Phonics X/58 bài → Số bài phát âm IPA bé đã học + thành thạo (xem chi tiết trên trang Phonics)\n🔥 Streak → Số ngày học liên tiếp không bỏ ngày nào (tính gộp toàn app)\n⚡ X/20 XP hôm nay → Mục tiêu XP mỗi ngày — đạt 20 XP là hoàn thành mục tiêu\n⚠️ Từ yếu → Từ bé trả lời sai nhiều lần, cần ôn thêm\n📅 Ngày → Lần gần nhất bé có hoạt động học\n🏅 Badges → Huy hiệu đạt được theo cột mốc học tập',
       },
       {
         q: '🔤 Module Phonics là gì?',
-        a: 'Ngoài học từ vựng, bé còn có thể luyện phát âm tiếng Anh theo chuẩn IPA — module Phonics xuất hiện dưới dạng card 🔤 trên màn hình chọn level của bé.\n\nModule độc lập với các level từ vựng — bé học phát âm song song với học từ.\n\nCó 3 nhóm âm:\n• 🎵 Nguyên âm: /iː/ vs /ɪ/, /æ/ vs /e/, và các diphthongs\n• 🔊 Phụ âm: /p/ vs /b/, /θ/ vs /ð/...\n• 🇻🇳 Khó với người Việt: /l/ vs /r/, âm cuối, cụm phụ âm\n\nMỗi nhóm âm thành thạo khi bé: học xem thẻ âm + hoàn thành 3 game đạt ≥70%.\nProgress tracking hiện trên dashboard: 🔤 X/23 nhóm 🏆',
+        a: 'Ngoài học từ vựng, bé còn có thể luyện phát âm tiếng Anh theo chuẩn IPA — module Phonics xuất hiện dưới dạng card 🔤 trên màn hình chọn level của bé.\n\nModule độc lập với các level từ vựng — bé học phát âm song song với học từ.\n\n9 nhóm, 58 bài:\n• Nguyên âm ngắn (7) · Nguyên âm đôi (5)\n• Cặp phụ âm (8) · Phụ âm khác (8)\n• Khó với người Việt (4) · Đọc từ thông minh (4)\n• Quy tắc phát âm (12)\n• Ngữ điệu (4) · Nói liên tục (6)\n\nMỗi bài thành thạo khi bé: học xem thẻ âm + hoàn thành các game bắt buộc, mỗi game đạt ≥70%.\nProgress tracking hiện trên dashboard: 🔤 X/58 bài',
       },
       {
         q: 'Các huy hiệu (badges) có ý nghĩa gì?',
@@ -123,7 +123,7 @@ const FAQ_ITEMS = [
     items: [
       {
         q: 'Pro 1 tháng, 3 tháng và 6 tháng khác nhau thế nào?',
-        a: 'Tất cả gói Pro đều có đầy đủ:\n✅ 📚 Daily: 180 chủ đề · 4.500+ từ vựng (6 levels)\n✅ 🎓 Academic: 3 books · 180 chủ đề học thuật (A1–C2)\n✅ 10–11 trò chơi/chủ đề · Mini Story audio\n✅ Module phát âm IPA đầy đủ\n✅ ⭐ Từ của tôi không giới hạn (Free chỉ lưu 20 từ)\n✅ SRS ôn tập từ yếu không giới hạn · Push notification nhắc học\n✅ Dashboard phụ huynh · Không giới hạn thiết bị\n\nĐiểm khác biệt:\n• Pro 1 tháng (59k): 2 hồ sơ bé · AI phát âm 30 lần/ngày · Báo cáo email thủ công\n• Pro 3 tháng (53k/th): 3 hồ sơ bé · AI không giới hạn · Module Word Stress · Báo cáo tự động hàng tuần\n• Pro 6 tháng (50k/th): Tất cả như 3 tháng + 🎁 Tặng bạn bè 14 ngày Pro + 📅 Email tổng kết học hàng tháng',
+        a: 'Tất cả gói Pro đều có đầy đủ:\n✅ 📚 Daily: 180 chủ đề · 2.400+ từ vựng (6 levels)\n✅ 🎓 Academic: 3 books · 180 chủ đề học thuật (A1–C2)\n✅ 10 trò chơi/chủ đề · Mini Story audio\n✅ Module phát âm IPA đầy đủ\n✅ ⭐ Từ của tôi không giới hạn (Free chỉ lưu 20 từ)\n✅ SRS ôn tập từ yếu không giới hạn · Push notification nhắc học\n✅ Dashboard phụ huynh · Không giới hạn thiết bị\n\nĐiểm khác biệt:\n• Pro 1 tháng (59k): 2 hồ sơ bé · AI phát âm 30 lần/ngày · Báo cáo email thủ công\n• Pro 3 tháng (53k/th): 3 hồ sơ bé · AI không giới hạn · Module Word Stress · Báo cáo tự động hàng tuần\n• Pro 6 tháng (50k/th): Tất cả như 3 tháng + 🎁 Tặng bạn bè 14 ngày Pro + 📅 Email tổng kết học hàng tháng',
       },
       {
         q: 'Module Word Stress là gì? (Pro 3 tháng trở lên)',

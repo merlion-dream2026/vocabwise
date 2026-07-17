@@ -66,7 +66,7 @@ export default function UpgradeModal({ onClose, username }: Props) {
         <div className="bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-5 text-center relative">
           <button ref={closeBtnRef} onClick={onClose} aria-label="Đóng" className="absolute right-4 top-4 text-white/70 hover:text-white text-xl leading-none">×</button>
           <h2 id="upgrade-modal-title" className="text-white font-black text-xl flex items-center justify-center gap-2">⭐ Nâng cấp Pro</h2>
-          <p className="text-white/80 text-sm font-semibold mt-0.5">4.500+ từ · Daily + Academic · Gói dài = nhiều ưu đãi hơn</p>
+          <p className="text-white/80 text-sm font-semibold mt-0.5">5.100+ từ · Daily + Academic · Gói dài = nhiều ưu đãi hơn</p>
         </div>
 
         <div className="p-5 space-y-4 max-h-[80vh] overflow-y-auto">

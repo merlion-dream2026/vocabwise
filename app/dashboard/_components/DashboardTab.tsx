@@ -89,7 +89,7 @@ export function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditCh
       {session.plan === 'free' && (
         <div className="bg-gradient-to-r from-purple-50 to-blue-50 border border-purple-200 rounded-2xl p-4 text-center">
           <p className="text-sm text-purple-700 font-bold">🔒 Gói Free: tối đa {session.max_kids ?? 1} hồ sơ · 1 chủ đề/level</p>
-          <p className="text-xs text-purple-500 mt-1">Nâng cấp Pro để mở toàn bộ 4.500+ từ và 10 game</p>
+          <p className="text-xs text-purple-500 mt-1">Nâng cấp Pro để mở toàn bộ 5.100+ từ và 10 game</p>
         </div>
       )}
 
