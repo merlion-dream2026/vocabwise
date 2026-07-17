@@ -373,7 +373,7 @@ export default function LandingPage() {
       {/* Founder trust */}
       <section className="bg-white py-4 lg:py-10">
       <Reveal className="max-w-5xl mx-auto px-4 lg:px-12">
-        <div className="bg-white rounded-3xl p-4 lg:p-6 shadow-sm border-2 border-purple-200 flex gap-4 lg:gap-6 items-start">
+        <div className="bg-white rounded-3xl p-4 lg:p-5 shadow-sm border-2 border-purple-200 flex gap-4 lg:gap-6 items-start">
           <div className="text-4xl lg:text-5xl flex-shrink-0">👨‍🏫</div>
           <div>
             <p className="font-black text-gray-800 text-sm lg:text-base mb-1">Được thiết kế bởi Thầy Andie Nguyễn</p>
