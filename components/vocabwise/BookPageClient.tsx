@@ -6,7 +6,7 @@ import UpgradeModal from '@/components/UpgradeModal'
 import UpgradeBanner from '@/components/UpgradeBanner'
 import CertificateModal from '@/components/vocabwise/CertificateModal'
 import OfflineDownloadButton from '@/components/OfflineDownloadButton'
-import { getEffectivePlan, getOfflineDownloadLimit } from '@/lib/planUtils'
+import { getEffectivePlan, getOfflineDownloadLimit, getAcademicTopicLimit } from '@/lib/planUtils'
 import { getDownloadedCount } from '@/lib/useOfflineDownload'
 import { cachedFetch } from '@/lib/cachedFetch'
 
@@ -22,7 +22,6 @@ type TopicMeta = {
 }
 type Props = { book: string; info: BookInfo; topics: TopicMeta[]; byTheme: Record<string, TopicMeta[]> }
 
-const FREE_TOPIC_LIMIT = 1
 
 const FLAT_COLOR: Record<string, string> = {
   book1: 'bg-emerald-500',
@@ -172,7 +171,8 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
   }
 
   // ─── Derived state ──────────────────────────────────────────────────────────
-  const isPaid       = !session || getEffectivePlan(session).isProActive || !!(session.bonus_features?.includes('academic_full'))
+  const academicLimit = session ? getAcademicTopicLimit(session) : null
+  const isPaid       = !session || academicLimit === null
   const isProForDl   = !!(session && getEffectivePlan(session).isProActive)
   const dlLimit      = session ? getOfflineDownloadLimit(session) : 0
 
@@ -436,7 +436,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                   <div className="grid grid-cols-2 gap-3">
                     {themeTopics.map((t, themeIdx) => {
                       const globalIdx  = topics.findIndex(x => x.topic_id === t.topic_id)
-                      const locked     = !isPaid && globalIdx >= FREE_TOPIC_LIMIT
+                      const locked     = academicLimit !== null && globalIdx >= academicLimit
                       const sync       = syncMap[t.topic_id]
                       const isMastered = !!sync?.mastered
                       const needsWork  = !!sync?.completed && !isMastered
@@ -522,7 +522,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
         {topics.length > 0 && viewMode === 'list' && (
           <div className="bg-white rounded-2xl shadow-sm overflow-hidden divide-y divide-gray-100 mb-5">
             {topics.map((t, globalIdx) => {
-              const locked     = !isPaid && globalIdx >= FREE_TOPIC_LIMIT
+              const locked     = academicLimit !== null && globalIdx >= academicLimit
               const sync       = syncMap[t.topic_id]
               const isMastered = !!sync?.mastered
               const needsWork  = !!sync?.completed && !isMastered
@@ -576,6 +576,32 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
               )
             })}
           </div>
+        )}
+
+        {/* Module Test — final test spanning the whole book */}
+        {topics.length > 0 && (
+          <Link href={`/vocabwise/${book}/module-test`}
+            className="block bg-gradient-to-r from-amber-400 to-yellow-500 rounded-2xl px-4 py-3.5 shadow-md active:scale-[0.98] transition-all mb-5">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2.5 min-w-0">
+                <span className="text-2xl flex-shrink-0">🏆</span>
+                <div className="min-w-0">
+                  <p className="font-black text-white text-sm leading-snug">Module Test — {info.title}</p>
+                  <p className="text-white/80 text-xs mt-0.5">44 câu · Tổng kết toàn bộ book</p>
+                </div>
+              </div>
+              <div className="flex items-center gap-2 flex-shrink-0 ml-2">
+                {revScores[`${book}_test`] ? (
+                  <span className="text-xs font-black bg-white/30 text-white px-2 py-0.5 rounded-full">
+                    {revScores[`${book}_test`].score}/{revScores[`${book}_test`].max}
+                  </span>
+                ) : (
+                  <span className="text-xs font-black bg-white/20 text-white px-2 py-0.5 rounded-full">MODULE TEST</span>
+                )}
+                <span className="text-white/70 text-sm">›</span>
+              </div>
+            </div>
+          </Link>
         )}
 
       </div>

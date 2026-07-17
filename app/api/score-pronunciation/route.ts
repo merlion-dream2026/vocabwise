@@ -79,7 +79,7 @@ export async function POST(req: NextRequest) {
   // AI Speak daily limit — skip for superadmin
   if (session.familyId !== 'superadmin') {
     const profile = await getFamilyProfile(session.familyId)
-    const aiLimit = profile ? getAISpeakLimit(profile) : 5
+    const aiLimit = profile ? getAISpeakLimit(profile) : 0
     if (aiLimit !== null) {
       const allowed = await checkAndIncrementAISpeakUsage(session.familyId, aiLimit)
       if (!allowed) {

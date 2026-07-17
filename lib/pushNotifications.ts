@@ -1,5 +1,6 @@
 import webpush from 'web-push'
 import { createClient } from '@supabase/supabase-js'
+import { getEffectivePlan } from '@/lib/planUtils'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -66,11 +67,29 @@ export async function sendSmartDailyPush(): Promise<{ sent: number; skipped: num
   const nowVN = new Date(Date.now() + 7 * 3600_000)
   const todayVN = nowVN.toISOString().slice(0, 10)
 
-  const { data: subs, error: subErr } = await supabase
+  const { data: rawSubs, error: subErr } = await supabase
     .from('push_subscriptions')
     .select('id, subscription, family_id')
   if (subErr) throw subErr
-  if (!subs?.length) return { sent: 0, skipped: 0, failed: 0, removed: 0 }
+  if (!rawSubs?.length) return { sent: 0, skipped: 0, failed: 0, removed: 0 }
+
+  // Push is a Pro-only perk — drop subscriptions for families whose plan has since lapsed
+  // (subscribe is gated too, but a family can downgrade after subscribing).
+  const rawFamilyIds = [...new Set(rawSubs.map(s => s.family_id).filter(Boolean))]
+  const { data: families } = await supabase
+    .from('families')
+    .select('id, plan, plan_end_date, bonus_pro_expires_at, bonus_features')
+    .in('id', rawFamilyIds)
+  const proFamilyIds = new Set(
+    (families ?? []).filter(f => getEffectivePlan(f).isProActive).map(f => f.id)
+  )
+  const staleSubIds = rawSubs.filter(s => !proFamilyIds.has(s.family_id)).map(s => s.id)
+  if (staleSubIds.length) {
+    await supabase.from('push_subscriptions').delete().in('id', staleSubIds)
+  }
+  const subs = rawSubs.filter(s => proFamilyIds.has(s.family_id))
+  let removed = staleSubIds.length
+  if (!subs.length) return { sent: 0, skipped: 0, failed: 0, removed }
 
   const familyIds = [...new Set(subs.map(s => s.family_id).filter(Boolean))]
 
@@ -116,7 +135,7 @@ export async function sendSmartDailyPush(): Promise<{ sent: number; skipped: num
     familyChildren[c.family_id].push({ id: c.id, name: c.name })
   }
 
-  let sent = 0; let skipped = 0; let failed = 0; let removed = 0
+  let sent = 0; let skipped = 0; let failed = 0
 
   await Promise.all(subs.map(async (row) => {
     const fid = row.family_id

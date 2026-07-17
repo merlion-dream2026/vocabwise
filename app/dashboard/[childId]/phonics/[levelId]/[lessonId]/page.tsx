@@ -10,9 +10,13 @@ import {
 } from '@/lib/phonicsSync'
 import QuickRecordButton from '@/components/QuickRecordButton'
 import MouthDiagram from '@/components/MouthDiagram'
-import phonicsLevels from '@/data/phonicsLevels.json'
-import phonicsKnowledge from '@/data/phonicsKnowledge.json'
 
+// Content (phonicsLevels.json / phonicsKnowledge.json) is fetched server-side, gated, from
+// /api/phonics/lesson/[levelId]/[lessonId] — NOT statically imported, so locked lessons never
+// ship in the client bundle. These types describe the JSON shape without pulling in the data.
+type PhonicsLevelsFile = typeof import('@/data/phonicsLevels.json')
+type Level  = Omit<PhonicsLevelsFile['levels'][number], 'lessons'>
+type Lesson = PhonicsLevelsFile['levels'][number]['lessons'][number]
 type KnowledgeEntry = {
   how_to?: string[]
   vs_vietnamese?: string
@@ -22,12 +26,19 @@ type KnowledgeEntry = {
   why?: string
   exceptions?: string[]
 }
+type LessonNav = { id: string; title: string; emoji: string } | null
 
-type Level  = typeof phonicsLevels.levels[number]
-type Lesson = Level['lessons'][number]
 type Sound  = { symbol: string; keyword: string; emoji: string; vi: string; wikiAudio: string | null; learnAudio: string | null }
 type PairLesson = Lesson & { type: 'pair'; sounds: Sound[]; practice_words: string[]; practice_words_ipa?: string[]; tip: string }
 type RuleLesson = Lesson & { type: 'rule'; buckets: { label: string; condition: string; tip?: string; words: string[] }[] }
+
+type LessonApiResponse = {
+  level: Level
+  lesson: Lesson
+  prevLesson: LessonNav
+  nextLesson: LessonNav
+  knowledge: KnowledgeEntry | null
+}
 
 const GAME_META: Record<string, { emoji: string; label: string; desc: string }> = {
   'minimal-pairs': { emoji: '🎧', label: 'Nghe & Phân biệt', desc: 'Nghe từ → chọn đúng âm' },
@@ -45,10 +56,9 @@ const BUCKET_COLORS = [
 ]
 
 // ── Knowledge Panel — always open ────────────────────────────────────────────
-function KnowledgePanel({ lessonId, levelText, levelBorder, levelBg }: {
-  lessonId: string; levelText: string; levelBorder: string; levelBg: string
+function KnowledgePanel({ lessonId, knowledge, levelText, levelBorder, levelBg }: {
+  lessonId: string; knowledge: KnowledgeEntry | null; levelText: string; levelBorder: string; levelBg: string
 }) {
-  const knowledge = (phonicsKnowledge as Record<string, KnowledgeEntry>)[lessonId]
   if (!knowledge) return null
 
   return (
@@ -228,24 +238,26 @@ export default function LessonPage() {
   const [ready, setReady]       = useState(false)
   const [, forceUpdate]         = useState(0)
   const [progressOpen, setProgressOpen] = useState(false)
-
-  const level      = phonicsLevels.levels.find(l => l.id === levelId) as Level | undefined
-  const lessonIdx  = level?.lessons.findIndex(l => l.id === lessonId) ?? -1
-  const lesson     = level?.lessons[lessonIdx] as Lesson | undefined
-  const prevLesson = level && lessonIdx > 0 ? level.lessons[lessonIdx - 1] : null
-  const nextLesson = level && lessonIdx < (level.lessons.length - 1) ? level.lessons[lessonIdx + 1] : null
+  const [data, setData] = useState<LessonApiResponse | null>(null)
+  const [notFound, setNotFound] = useState(false)
 
   useEffect(() => {
-    if (!level || !lesson) { router.push(`/dashboard/${childId}/phonics`); return }
-    fetch(`/api/sync/${childId}?level=phonics`)
-      .then(r => r.json()).catch(() => null)
-      .then(data => {
-        initPhonicsSync(childId, data)
-        markPairSeen(lessonId)
-        flushPhonics()
-        setReady(true)
-        forceUpdate(n => n + 1)
-      })
+    setData(null)
+    setReady(false)
+    setNotFound(false)
+    Promise.all([
+      fetch(`/api/phonics/lesson/${encodeURIComponent(levelId)}/${encodeURIComponent(lessonId)}`),
+      fetch(`/api/sync/${childId}?level=phonics`).then(r => r.json()).catch(() => null),
+    ]).then(async ([lessonRes, syncData]) => {
+      if (!lessonRes.ok) { router.push(`/dashboard/${childId}/phonics`); setNotFound(true); return }
+      const lessonData = await lessonRes.json() as LessonApiResponse
+      setData(lessonData)
+      initPhonicsSync(childId, syncData)
+      markPairSeen(lessonId)
+      flushPhonics()
+      setReady(true)
+      forceUpdate(n => n + 1)
+    })
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [childId, levelId, lessonId])
 
@@ -255,11 +267,13 @@ export default function LessonPage() {
     router.push(`/dashboard/${childId}/phonics/${levelId}/${encodeURIComponent(targetLessonId)}`)
   }, [router, childId, levelId])
 
-  if (!level || !lesson || !ready) return (
-    <div className={`min-h-screen ${level?.bg ?? 'bg-gray-50'} flex items-center justify-center`}>
-      <div className="text-4xl animate-pulse">{lesson?.emoji ?? '🔤'}</div>
+  if (!data || !ready || notFound) return (
+    <div className={`min-h-screen ${data?.level.bg ?? 'bg-gray-50'} flex items-center justify-center`}>
+      <div className="text-4xl animate-pulse">{data?.lesson.emoji ?? '🔤'}</div>
     </div>
   )
+
+  const { level, lesson, prevLesson, nextLesson, knowledge } = data
 
   const seen      = isPairSeen(lessonId)
   const games     = getPairGames(lessonId)
@@ -350,7 +364,7 @@ export default function LessonPage() {
         </div>
 
         {/* ── Knowledge Panel — always open ── */}
-        <KnowledgePanel lessonId={lessonId} levelText={level.text} levelBorder={level.border} levelBg={level.bg} />
+        <KnowledgePanel lessonId={lessonId} knowledge={knowledge} levelText={level.text} levelBorder={level.border} levelBg={level.bg} />
 
         {/* ── PAIR LESSON ── */}
         {pairLesson && (

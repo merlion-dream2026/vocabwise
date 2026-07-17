@@ -64,7 +64,7 @@ export function getEffectivePlan(family: FamilyPlanData): EffectivePlanResult {
 
 export type PlanTier = 'free' | 'pro1' | 'pro3' | 'pro6'
 
-/** Trả về tier thực tế (tính cả bonus Pro, nhưng tier dựa vào plan field). */
+/** Trả về tier thực tế (tính cả bonus Pro, nhưng tier dựa vào plan field). Trial KHÔNG nâng tier — chỉ mở vài giới hạn cụ thể (xem getKidsTopicLimit/getAcademicTopicLimit/getAISpeakLimit). */
 export function getPlanTier(family: FamilyPlanData): PlanTier {
   const { isProActive } = getEffectivePlan(family)
   if (!isProActive) return 'free'
@@ -75,11 +75,15 @@ export function getPlanTier(family: FamilyPlanData): PlanTier {
 
 // ─── Feature access gates ────────────────────────────────────────────────────
 
-/** Phonics: free chỉ được bài đầu tiên của level đầu tiên (vowels-short, idx 0). */
+/**
+ * Phonics: trong trial, đúng 1 bài đầu (vowels-short idx 0) — giống Free.
+ * Hết trial mà chưa nâng cấp: khoá hoàn toàn (chống scrape nội dung sau khi hết hạn dùng thử).
+ */
 export function canAccessPhonicsLesson(family: FamilyPlanData, levelId: string, lessonIdx: number): boolean {
   if (getEffectivePlan(family).isProActive) return true
   if (family.bonus_features?.includes('phonics_full')) return true
-  return levelId === 'vowels-short' && lessonIdx === 0
+  if (getEffectivePlan(family).isTrialActive) return levelId === 'vowels-short' && lessonIdx === 0
+  return false
 }
 
 /** Word Stress: Pro 3 tháng trở lên (hoặc bonus grant). */
@@ -94,7 +98,7 @@ export function canAccessMyWords(_family: FamilyPlanData): boolean {
   return true
 }
 
-/** My Words word limit: null = unlimited (Pro), 20 = Free cap. */
+/** My Words word limit: null = unlimited (Pro), 20 = Free/Trial cap. */
 export function getMyWordsLimit(family: FamilyPlanData): number | null {
   if (family.bonus_features?.includes('my_words')) return null
   if (getEffectivePlan(family).isProActive) return null
@@ -106,23 +110,43 @@ export function canAccessSRS(_family: FamilyPlanData): boolean {
   return true
 }
 
-/** SRS session limit: null = unlimited (Pro), 20 = Free cap. */
+/** SRS session limit: null = unlimited (Pro), 20 = Free/Trial cap. */
 export function getSRSLimit(family: FamilyPlanData): number | null {
   if (family.bonus_features?.includes('srs')) return null
   if (getEffectivePlan(family).isProActive) return null
   return 20
 }
 
-/** Kids content: Pro bất kỳ (hoặc bonus grant). */
-export function canAccessKidsFull(family: FamilyPlanData): boolean {
-  if (family.bonus_features?.includes('kids_full')) return true
-  return getEffectivePlan(family).isProActive
+/**
+ * Số topic Daily (Kids) được mở, tính từ đầu level (0-indexed idx < limit được mở).
+ * null = unlimited (Pro/bonus). Trial: 1 topic/level (giống Free). Hết trial: 0 (khoá hoàn toàn).
+ */
+export function getKidsTopicLimit(family: FamilyPlanData): number | null {
+  if (family.bonus_features?.includes('kids_full')) return null
+  const { isProActive, isTrialActive } = getEffectivePlan(family)
+  if (isProActive) return null
+  return isTrialActive ? 1 : 0
 }
 
-/** Academic content: Pro bất kỳ (hoặc bonus grant). */
+/** Kids content: Pro bất kỳ, trial, hoặc bonus grant — dùng cho UI (badge, ẩn giới hạn...). */
+export function canAccessKidsFull(family: FamilyPlanData): boolean {
+  return getKidsTopicLimit(family) === null
+}
+
+/**
+ * Số topic Academic được mở, tính từ đầu book (0-indexed idx < limit được mở).
+ * null = unlimited (Pro/bonus). Trial: 1 topic/book (giống Free). Hết trial: 0 (khoá hoàn toàn).
+ */
+export function getAcademicTopicLimit(family: FamilyPlanData): number | null {
+  if (family.bonus_features?.includes('academic_full')) return null
+  const { isProActive, isTrialActive } = getEffectivePlan(family)
+  if (isProActive) return null
+  return isTrialActive ? 1 : 0
+}
+
+/** Academic content: Pro bất kỳ, trial, hoặc bonus grant — dùng cho UI (badge, ẩn giới hạn...). */
 export function canAccessAcademicFull(family: FamilyPlanData): boolean {
-  if (family.bonus_features?.includes('academic_full')) return true
-  return getEffectivePlan(family).isProActive
+  return getAcademicTopicLimit(family) === null
 }
 
 /** Offline download limit: 0 (free), 20 (pro1), null = unlimited (pro3+). */
@@ -133,13 +157,15 @@ export function getOfflineDownloadLimit(family: FamilyPlanData): number | null {
   return null
 }
 
-/** AI Speak limit: null = unlimited (Pro 3+ hoặc bonus grant), 30 (Pro 1), 5 (Free). */
+/** AI Speak limit: null = unlimited (Pro 3+ hoặc bonus grant), 30 (Pro 1), 10 (Trial), 0 (Free hết trial). */
 export function getAISpeakLimit(family: FamilyPlanData): number | null {
   if (family.bonus_features?.includes('ai_speak_unlimited')) return null
-  const tier = getPlanTier(family)
-  if (tier === 'free')  return 5
-  if (tier === 'pro1')  return 30
-  return null
+  const { isProActive, isTrialActive } = getEffectivePlan(family)
+  if (isProActive) {
+    const tier = getPlanTier(family)
+    return tier === 'pro1' ? 30 : null
+  }
+  return isTrialActive ? 10 : 0
 }
 
 // ─── Bonus days ──────────────────────────────────────────────────────────────

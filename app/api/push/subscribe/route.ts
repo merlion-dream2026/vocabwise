@@ -14,6 +14,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 import { getSession } from '@/lib/auth'
+import { getFamilyProfile } from '@/lib/security'
+import { getEffectivePlan } from '@/lib/planUtils'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -23,6 +25,13 @@ const supabase = createClient(
 export async function POST(req: NextRequest) {
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+
+  // Push notification is a Pro-only perk — checked fresh from DB, not the JWT's cached plan.
+  const profile = await getFamilyProfile(session.familyId)
+  if (!profile) return NextResponse.json({ error: 'Account not found' }, { status: 404 })
+  if (!getEffectivePlan(profile).isProActive) {
+    return NextResponse.json({ error: 'Pro plan required for push notifications.' }, { status: 403 })
+  }
 
   let subscription: unknown
   try {

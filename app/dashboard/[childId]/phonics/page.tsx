@@ -7,40 +7,38 @@ import {
   getDecayScore, getDecayedLessons, canUseStreakFreeze, applyStreakFreeze,
   getBadges, isLessonMastered, flushPhonics,
 } from '@/lib/phonicsSync'
-import phonicsLevels from '@/data/phonicsLevels.json'
 import UpgradeModal from '@/components/UpgradeModal'
 import { getEffectivePlan, canAccessWordStress } from '@/lib/planUtils'
 import { cachedFetch } from '@/lib/cachedFetch'
 
-type Level      = typeof phonicsLevels.levels[number]
+// Navigation metadata fetched from /api/phonics/levels — NOT statically imported, so the
+// full teaching content (tip/practice_words/sentences/buckets) never ships in this bundle.
+type ApiSound  = { symbol: string; keyword: string; emoji: string; vi: string }
+type ApiLesson = { id: string; type: string; title: string; subtitle: string; emoji: string; masteryGames: string[]; games: string[]; sounds?: ApiSound[] }
+type Level     = { id: string; title: string; titleVi: string; subtitle: string; emoji: string; gradient: string; bg: string; border: string; text: string; bar: string; btn: string; lessons: ApiLesson[] }
 type MasteryMap = Record<string, { flashcard: boolean; games: string[] }>
 type LessonBase = { id: string; masteryGames: string[] }
 type Session    = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; bonus_features?: string[] | null }
 
-const TOTAL_LESSONS = phonicsLevels.levels.reduce((s, l) => s + l.lessons.length, 0)
-const ALL_LESSONS: LessonBase[] = phonicsLevels.levels.flatMap(l => l.lessons as LessonBase[])
-
 type SoundInfo = { levelId: string; lessonId: string; keyword: string; emoji: string; masteryGames: string[] }
-const SOUND_TO_LESSON: Record<string, SoundInfo> = (() => {
-  const map: Record<string, SoundInfo> = {}
-  for (const level of phonicsLevels.levels) {
-    for (const lesson of level.lessons) {
-      const sounds = (lesson as { sounds?: { symbol: string; keyword: string; emoji: string }[] }).sounds ?? []
-      for (const s of sounds) map[s.symbol] = { levelId: level.id, lessonId: lesson.id, keyword: s.keyword, emoji: s.emoji, masteryGames: lesson.masteryGames }
-    }
-  }
-  return map
-})()
+type LessonMeta = { levelId: string; title: string; emoji: string; masteryGames: string[] }
 
-const LESSON_META: Record<string, { levelId: string; title: string; emoji: string; masteryGames: string[] }> = (() => {
-  const map: Record<string, { levelId: string; title: string; emoji: string; masteryGames: string[] }> = {}
-  for (const level of phonicsLevels.levels) {
+function buildDerived(levels: Level[]) {
+  const totalLessons = levels.reduce((s, l) => s + l.lessons.length, 0)
+  const allLessons: LessonBase[] = levels.flatMap(l => l.lessons as LessonBase[])
+
+  const soundToLesson: Record<string, SoundInfo> = {}
+  const lessonMeta: Record<string, LessonMeta> = {}
+  for (const level of levels) {
     for (const lesson of level.lessons) {
-      map[lesson.id] = { levelId: level.id, title: lesson.title, emoji: lesson.emoji, masteryGames: lesson.masteryGames }
+      for (const s of lesson.sounds ?? []) {
+        soundToLesson[s.symbol] = { levelId: level.id, lessonId: lesson.id, keyword: s.keyword, emoji: s.emoji, masteryGames: lesson.masteryGames }
+      }
+      lessonMeta[lesson.id] = { levelId: level.id, title: lesson.title, emoji: lesson.emoji, masteryGames: lesson.masteryGames }
     }
   }
-  return map
-})()
+  return { totalLessons, allLessons, soundToLesson, lessonMeta }
+}
 
 function isLessonMasteredLocal(lesson: LessonBase, mastery: MasteryMap): boolean {
   const m = mastery[lesson.id]
@@ -63,6 +61,7 @@ export default function PhonicsHub() {
   const [mastery, setMastery]     = useState<MasteryMap>({})
   const [loading, setLoading]     = useState(true)
   const [session, setSession]     = useState<Session | null>(null)
+  const [levels, setLevels]       = useState<Level[]>([])
   const [showUpgrade, setShowUpgrade] = useState(false)
   const [freezeApplied, setFreezeApplied] = useState(false)
 
@@ -70,13 +69,17 @@ export default function PhonicsHub() {
     Promise.all([
       cachedFetch('/api/auth/me').then(r => r.ok ? r.json() : null) as Promise<Session | null>,
       fetch(`/api/sync/${childId}?level=phonics`).then(r => r.json()).catch(() => null),
-    ]).then(([sess, data]) => {
+      cachedFetch('/api/phonics/levels').then(r => r.ok ? r.json() : { levels: [] }) as Promise<{ levels: Level[] }>,
+    ]).then(([sess, data, phonicsData]) => {
       setSession(sess)
       initPhonicsSync(childId, data)
       setMastery(data?.mastery ?? {})
+      setLevels(phonicsData.levels)
       setLoading(false)
     })
   }, [childId])
+
+  const { totalLessons, allLessons, soundToLesson, lessonMeta } = buildDerived(levels)
 
   const handleStreakFreeze = useCallback(async () => {
     if (!canUseStreakFreeze()) return
@@ -103,27 +106,27 @@ export default function PhonicsHub() {
     </div>
   )
 
-  const totalMastered  = ALL_LESSONS.filter(l => isLessonMasteredLocal(l, mastery)).length
+  const totalMastered  = allLessons.filter(l => isLessonMasteredLocal(l, mastery)).length
   const totalSeen      = Object.values(mastery).filter(m => m.flashcard).length
-  const pct            = TOTAL_LESSONS > 0 ? Math.round((totalMastered / TOTAL_LESSONS) * 100) : 0
+  const pct            = totalLessons > 0 ? Math.round((totalMastered / totalLessons) * 100) : 0
   const streak         = getPhonicsStreak()
   const weakSounds     = getWeakSounds(3, 0.6).slice(0, 5)
-  const decayedLessons = getDecayedLessons(ALL_LESSONS, 65).slice(0, 3)
+  const decayedLessons = getDecayedLessons(allLessons, 65).slice(0, 3)
   const canFreeze      = canUseStreakFreeze() && !freezeApplied
 
   // Daily challenge: weak sound first, then decayed lesson, then next unstarted
   const dailyChallenge: { type: 'sound' | 'decay' | 'next'; lessonId: string; levelId: string; emoji: string; label: string; game: string } | null = (() => {
     const topWeak = weakSounds[0]
     if (topWeak) {
-      const info = SOUND_TO_LESSON[topWeak]
+      const info = soundToLesson[topWeak]
       if (info) return { type: 'sound', lessonId: info.lessonId, levelId: info.levelId, emoji: info.emoji, label: `Ôn âm /${topWeak}/`, game: 'speak' }
     }
     if (decayedLessons[0]) {
-      const meta = LESSON_META[decayedLessons[0]]
+      const meta = lessonMeta[decayedLessons[0]]
       if (meta) return { type: 'decay', lessonId: decayedLessons[0], levelId: meta.levelId, emoji: meta.emoji, label: `Ôn lại: ${meta.title}`, game: 'minimal-pairs' }
     }
     // Next unstarted lesson
-    for (const level of phonicsLevels.levels) {
+    for (const level of levels) {
       for (const lesson of level.lessons) {
         if (!mastery[lesson.id]?.flashcard) {
           return { type: 'next', lessonId: lesson.id, levelId: level.id, emoji: lesson.emoji, label: `Học tiếp: ${lesson.title}`, game: '' }
@@ -156,7 +159,7 @@ export default function PhonicsHub() {
           <div className="flex-1 bg-white rounded-2xl border border-gray-100 shadow-sm px-4 py-3">
             <div className="flex justify-between items-center mb-2">
               <span className="font-bold text-gray-800 text-sm">🏆 Thành thạo</span>
-              <span className="text-xs font-bold text-gray-400">{totalMastered}/{TOTAL_LESSONS} · {pct}%</span>
+              <span className="text-xs font-bold text-gray-400">{totalMastered}/{totalLessons} · {pct}%</span>
             </div>
             <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
               <div className="h-full bg-gradient-to-r from-blue-400 to-blue-600 rounded-full transition-all duration-500"
@@ -215,7 +218,7 @@ export default function PhonicsHub() {
             <p className="text-xs font-bold text-amber-700 uppercase tracking-wide mb-2.5">📊 Âm cần ôn luyện</p>
             <div className="space-y-2">
               {weakSounds.map(symbol => {
-                const info = SOUND_TO_LESSON[symbol]
+                const info = soundToLesson[symbol]
                 if (!info) return null
                 return (
                   <button key={symbol}
@@ -240,7 +243,7 @@ export default function PhonicsHub() {
             <p className="text-xs font-bold text-orange-700 uppercase tracking-wide mb-2.5">🔄 Cần ôn lại (sắp quên)</p>
             <div className="space-y-2">
               {decayedLessons.map(lessonId => {
-                const meta  = LESSON_META[lessonId]
+                const meta  = lessonMeta[lessonId]
                 const score = getDecayScore(lessonId, meta.masteryGames)
                 if (!meta) return null
                 return (
@@ -264,12 +267,12 @@ export default function PhonicsHub() {
           <div className="bg-white rounded-2xl border border-gray-100 shadow-sm px-4 py-3.5">
             <div className="flex items-center justify-between mb-2.5">
               <p className="text-xs font-bold text-gray-500 uppercase tracking-wide">🏅 Huy hiệu thành thạo</p>
-              <span className="text-xs font-bold text-blue-500">{earnedBadges.length}/{TOTAL_LESSONS}</span>
+              <span className="text-xs font-bold text-blue-500">{earnedBadges.length}/{totalLessons}</span>
             </div>
             <div className="flex flex-wrap gap-1.5">
               {earnedBadges.map(b => {
                 const lessonId = b.replace('mastered:', '')
-                const meta = LESSON_META[lessonId]
+                const meta = lessonMeta[lessonId]
                 if (!meta) return null
                 return (
                   <div key={b}
@@ -289,9 +292,9 @@ export default function PhonicsHub() {
 
         {/* Level cards */}
         <div className="space-y-2">
-          <p className="text-xs font-bold text-gray-400 uppercase tracking-wider px-1">📚 CÁC LEVEL ({phonicsLevels.levels.length})</p>
+          <p className="text-xs font-bold text-gray-400 uppercase tracking-wider px-1">📚 CÁC LEVEL ({levels.length})</p>
           <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden divide-y divide-gray-100">
-            {phonicsLevels.levels.map((level: Level) => {
+            {levels.map((level: Level) => {
               const unlocked      = isPro || level.id === FREE_PHONICS_LEVEL
               const lessons       = level.lessons as LessonBase[]
               const masteredCount = lessons.filter(l => isLessonMasteredLocal(l, mastery)).length

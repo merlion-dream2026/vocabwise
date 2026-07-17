@@ -9,7 +9,7 @@ import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
 import UpgradePaymentModal from '@/components/UpgradeModal'
 import ExpiryBanner from '@/components/ExpiryBanner'
-import { getEffectivePlan, getOfflineDownloadLimit } from '@/lib/planUtils'
+import { getEffectivePlan, getOfflineDownloadLimit, getKidsTopicLimit } from '@/lib/planUtils'
 import OfflineDailyDownloadButton from '@/components/OfflineDailyDownloadButton'
 import { getDownloadedCount } from '@/lib/useOfflineDownload'
 import { cachedFetch } from '@/lib/cachedFetch'
@@ -18,8 +18,6 @@ type Child = { id: string; name: string; emoji: string; level: string }
 type Session = { familyId: string; username: string; plan: string; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; plan_end_date?: string | null; bonus_features?: string[] | null }
 type Topic = { id: string; name: string; emoji: string; color: string; words: { word: string }[]; audioSize?: number }
 type MasteryData = { flashcard: boolean; games: string[] }
-
-const FREE_TOPIC_LIMIT = 1
 
 const LEVEL_COLORS: Record<string, { bg: string; header: string }> = {
   seeker:   { bg: 'from-violet-50 to-purple-50',  header: 'bg-violet-500'  },
@@ -204,7 +202,8 @@ export default function LevelTopicsPage() {
     )
   }
 
-  const isPaid = getEffectivePlan(session!).isProActive || !!(session!.bonus_features?.includes('kids_full'))
+  const kidsLimit = getKidsTopicLimit(session!)
+  const isPaid = kidsLimit === null
   const isProForDl = getEffectivePlan(session!).isProActive
   const dlLimit = getOfflineDownloadLimit(session!)
   const colors = LEVEL_COLORS[level] ?? LEVEL_COLORS.explorer
@@ -267,7 +266,7 @@ export default function LevelTopicsPage() {
   }
 
   function handleTopicClick(topic: Topic, idx: number) {
-    if (!isPaid && idx >= FREE_TOPIC_LIMIT) { setShowUpgrade(true); return }
+    if (kidsLimit !== null && idx >= kidsLimit) { setShowUpgrade(true); return }
     router.push(`/dashboard/${childId}/${level}/${topic.id}`)
   }
 
@@ -382,7 +381,7 @@ export default function LevelTopicsPage() {
         <div className="max-w-2xl mx-auto px-4 pb-5">
           <div className="grid grid-cols-2 gap-3">
             {topics.map((topic, idx) => {
-              const locked = !isPaid && idx >= FREE_TOPIC_LIMIT
+              const locked = kidsLimit !== null && idx >= kidsLimit
               const status = topicStatus(topic)
               const seenCount = topicSeenCount(topic)
               const total = topic.words.length
@@ -491,7 +490,7 @@ export default function LevelTopicsPage() {
         <div className="max-w-2xl mx-auto px-4 pb-5">
           <div className="bg-white rounded-2xl shadow-sm overflow-hidden divide-y divide-gray-100">
             {topics.map((topic, idx) => {
-              const locked = !isPaid && idx >= FREE_TOPIC_LIMIT
+              const locked = kidsLimit !== null && idx >= kidsLimit
               const status = topicStatus(topic)
               const seenCount = topicSeenCount(topic)
               const total = topic.words.length
@@ -574,6 +573,34 @@ export default function LevelTopicsPage() {
               )
             })}
           </div>
+        </div>
+      )}
+
+      {/* Level Test — final test spanning all 30 topics */}
+      {topics.length > 0 && (
+        <div className="max-w-2xl mx-auto px-4 pb-5">
+          <Link href={`/dashboard/${childId}/${level}/level-test`}
+            className="block bg-gradient-to-r from-amber-400 to-yellow-500 rounded-2xl px-4 py-3.5 shadow-md active:scale-[0.98] transition-all">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2.5 min-w-0">
+                <span className="text-2xl flex-shrink-0">🏆</span>
+                <div className="min-w-0">
+                  <p className="font-black text-white text-sm leading-snug">Level Test — {levelInfo.label}</p>
+                  <p className="text-white/80 text-xs mt-0.5">40 câu · Tổng kết toàn bộ level</p>
+                </div>
+              </div>
+              <div className="flex items-center gap-2 flex-shrink-0 ml-2">
+                {revScores['level_test'] ? (
+                  <span className="text-xs font-black bg-white/30 text-white px-2 py-0.5 rounded-full">
+                    {revScores['level_test'].score}/{revScores['level_test'].max}
+                  </span>
+                ) : (
+                  <span className="text-xs font-black bg-white/20 text-white px-2 py-0.5 rounded-full">LEVEL TEST</span>
+                )}
+                <span className="text-white/70 text-sm">›</span>
+              </div>
+            </div>
+          </Link>
         </div>
       )}
 

@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { initPhonicsSync } from '@/lib/phonicsSync'
-import phonicsLevels from '@/data/phonicsLevels.json'
 import UpgradeModal from '@/components/UpgradeModal'
 import { getEffectivePlan, canAccessPhonicsLesson } from '@/lib/planUtils'
 import { cachedFetch } from '@/lib/cachedFetch'
@@ -107,8 +106,10 @@ function LevelArticle({ levelId, gradient: _gradient, text, bg, border: _border 
   )
 }
 
-type Level  = typeof phonicsLevels.levels[number]
-type Lesson = Level['lessons'][number]
+// Navigation metadata fetched from /api/phonics/levels — NOT statically imported, so the full
+// teaching content (tip/practice_words/sentences/buckets) never ships in this bundle.
+type Lesson = { id: string; type: string; title: string; subtitle: string; emoji: string; masteryGames: string[]; games: string[] }
+type Level  = { id: string; title: string; titleVi: string; subtitle: string; emoji: string; gradient: string; bg: string; border: string; text: string; bar: string; btn: string; lessons: Lesson[] }
 
 function lessonMastered(lesson: Lesson, mastery: Record<string, { flashcard: boolean; games: string[] }>): boolean {
   const m = mastery[lesson.id]
@@ -124,24 +125,31 @@ export default function LevelPage() {
   const [mastery, setMastery] = useState<Record<string, { flashcard: boolean; games: string[] }>>({})
   const [loading, setLoading] = useState(true)
   const [session, setSession] = useState<Session | null>(null)
+  const [levels, setLevels]   = useState<Level[]>([])
   const [showUpgrade, setShowUpgrade] = useState(false)
 
-  const level = phonicsLevels.levels.find(l => l.id === levelId) as Level | undefined
   const backUrl = `/dashboard/${childId}/phonics`
+  const level = levels.find(l => l.id === levelId)
 
   useEffect(() => {
-    if (!level) { router.push(backUrl); return }
     Promise.all([
       cachedFetch('/api/auth/me').then(r => r.ok ? r.json() : null) as Promise<Session | null>,
       fetch(`/api/sync/${childId}?level=phonics`).then(r => r.json()).catch(() => null),
-    ]).then(([sess, data]) => {
+      cachedFetch('/api/phonics/levels').then(r => r.ok ? r.json() : { levels: [] }) as Promise<{ levels: Level[] }>,
+    ]).then(([sess, data, phonicsData]) => {
       setSession(sess)
       initPhonicsSync(childId, data)
       setMastery(data?.mastery ?? {})
+      setLevels(phonicsData.levels)
       setLoading(false)
     })
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [childId, levelId])
+
+  useEffect(() => {
+    if (!loading && !level) router.push(backUrl)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [loading, level])
 
   const isPro = session ? getEffectivePlan(session).isProActive : false
 

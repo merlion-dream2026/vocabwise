@@ -8,8 +8,6 @@ import { useRouter } from 'next/navigation'
 import { speak } from '@/lib/speak'
 import Confetti from '@/components/Confetti'
 import UpgradeModal from '@/components/UpgradeModal'
-import wordStressData from '@/data/wordStress.json'
-import { canAccessWordStress } from '@/lib/planUtils'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import GameSoundToggle from '@/components/GameSoundToggle'
 import { cachedFetch } from '@/lib/cachedFetch'
@@ -32,17 +30,26 @@ type Phase = 'listening' | 'choosing' | 'result'
 
 export default function WordStressPage() {
   const router = useRouter()
-  const [session, setSession] = useState<Session | null>(null)
-  const [sessionLoaded, setSessionLoaded] = useState(false)
+  const [username, setUsername] = useState('')
+  const [denied, setDenied] = useState(false)
+  // Fetched from the gated /api/word-stress — never shipped in the client bundle for users
+  // who can't access it, unlike a static import would be.
+  const [groups, setGroups] = useState<Group[] | null>(null)
+  const [questions, setQuestions] = useState<StressWord[]>([])
 
   useEffect(() => {
-    cachedFetch('/api/auth/me')
-      .then(r => r.ok ? r.json() : null)
-      .then((s) => { setSession(s as Session | null); setSessionLoaded(true) })
+    Promise.all([
+      cachedFetch('/api/auth/me').then(r => r.ok ? r.json() : null) as Promise<Session | null>,
+      fetch('/api/word-stress'),
+    ]).then(async ([sess, res]) => {
+      setUsername(sess?.username ?? '')
+      if (!res.ok) { setDenied(true); return }
+      const data = await res.json() as { groups: Group[] }
+      setGroups(data.groups)
+      setQuestions(buildRound(data.groups))
+    })
   }, [])
 
-  const groups = wordStressData.groups as Group[]
-  const [questions] = useState<StressWord[]>(() => buildRound(groups))
   const [idx, setIdx]     = useState(0)
   const [score, setScore] = useState(0)
   const [phase, setPhase] = useState<Phase>('listening')
@@ -106,16 +113,16 @@ export default function WordStressPage() {
     speakingRef.current = false
   }
 
-  // Gate: Pro 3+ only
-  if (!sessionLoaded) return (
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-      <div className="text-4xl animate-pulse">📢</div>
+  // Gate: Pro 3+ only — enforced server-side by /api/word-stress (403 → denied)
+  if (denied) return (
+    <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center px-4 text-center">
+      <UpgradeModal onClose={() => router.back()} username={username} />
     </div>
   )
 
-  if (session && !canAccessWordStress(session)) return (
-    <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center px-4 text-center">
-      <UpgradeModal onClose={() => router.back()} username={session.username} />
+  if (!groups) return (
+    <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <div className="text-4xl animate-pulse">📢</div>
     </div>
   )
 

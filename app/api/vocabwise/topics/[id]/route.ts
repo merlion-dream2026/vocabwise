@@ -7,6 +7,7 @@ import {
   getFamilyProfile, detectSequential,
   checkImpossibleTravel, updateRequestMetadata,
 } from '@/lib/security'
+import { getAcademicTopicLimit } from '@/lib/planUtils'
 
 export async function GET(req: NextRequest, { params }: { params: { id: string } }) {
   const session = await getSession(req)
@@ -37,19 +38,11 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
       return NextResponse.json({ error: 'Account suspended.' }, { status: 403 })
     }
 
-    // Plan/feature gating — free users get 1 topic per book only (b[123]-t01)
-    const now = new Date()
-    const isProActive =
-      profile.bonus_features?.includes('academic_full') ||
-      !!(profile.bonus_pro_expires_at && new Date(profile.bonus_pro_expires_at) > now) ||
-      (profile.plan !== 'free' && !!profile.plan_end_date && new Date(profile.plan_end_date) > now)
-    const isTrialActive =
-      profile.plan === 'free' &&
-      !!profile.free_trial_expires_at &&
-      new Date(profile.free_trial_expires_at) > now
-
-    if (!isProActive && !isTrialActive) {
-      if (!/^b[123]-t01$/.test(topicId)) {
+    // Plan/feature gating — limit is a topic-number cutoff (null = unlimited, 0 = none, 1 = t01 only)
+    const academicLimit = getAcademicTopicLimit(profile)
+    if (academicLimit !== null) {
+      const topicNum = parseInt(topicId.split('-t')[1] ?? '', 10)
+      if (!(topicNum <= academicLimit)) {
         return NextResponse.json({ error: 'Upgrade to Pro to access this topic.' }, { status: 403 })
       }
     }
