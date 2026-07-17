@@ -70,7 +70,7 @@ const matrix: Array<{ name: string; fam: FamilyPlanData; expect: FeatureExpectat
     expect: {
       tier: 'free',
       wordStress: false,
-      aiSpeak: 5,
+      aiSpeak: 0,
       myWordsLimit: 20,
       srsLimit: 20,
       fullContent: false,
@@ -154,7 +154,7 @@ describe('Plan expiry downgrades access (ownership over time)', () => {
     const expired: FamilyPlanData = { plan: '6months', plan_end_date: daysFromNow(-1) }
     expect(getPlanTier(expired)).toBe('free')
     expect(canAccessWordStress(expired)).toBe(false)
-    expect(getAISpeakLimit(expired)).toBe(5)
+    expect(getAISpeakLimit(expired)).toBe(0)
     expect(getMyWordsLimit(expired)).toBe(20)
     expect(canAccessAcademicFull(expired)).toBe(false)
   })

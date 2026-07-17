@@ -67,20 +67,28 @@ describe('getPlanTier', () => {
 })
 
 describe('canAccessPhonicsLesson', () => {
-  it('free user: only first lesson of first level (vowels-short, idx 0)', () => {
-    expect(canAccessPhonicsLesson(freeExpired, 'vowels-short', 0)).toBe(true)
+  it('active trial: only first lesson of first level (vowels-short, idx 0)', () => {
+    expect(canAccessPhonicsLesson(freeTrial, 'vowels-short', 0)).toBe(true)
   })
 
-  it('free user: lessonIdx 1 of first level → false', () => {
+  it('active trial: lessonIdx 1 of first level → false', () => {
+    expect(canAccessPhonicsLesson(freeTrial, 'vowels-short', 1)).toBe(false)
+  })
+
+  it('free user with active trial is still gated to that one lesson (trial ≠ Pro)', () => {
+    expect(canAccessPhonicsLesson(freeTrial, 'vowels-long', 2)).toBe(false)
+  })
+
+  it('expired trial, never upgraded: locked out entirely, even the trial lesson', () => {
+    expect(canAccessPhonicsLesson(freeExpired, 'vowels-short', 0)).toBe(false)
+  })
+
+  it('expired trial: lessonIdx 1 of first level → false', () => {
     expect(canAccessPhonicsLesson(freeExpired, 'vowels-short', 1)).toBe(false)
   })
 
-  it('free user: idx 0 of a non-first level → false', () => {
+  it('expired trial: idx 0 of a non-first level → false', () => {
     expect(canAccessPhonicsLesson(freeExpired, 'vowels-long', 0)).toBe(false)
-  })
-
-  it('free user with active trial is still gated (trial ≠ Pro)', () => {
-    expect(canAccessPhonicsLesson(freeTrial, 'vowels-long', 2)).toBe(false)
   })
 
   it('Pro user: any level / any lesson → true', () => {
@@ -184,8 +192,12 @@ describe('getSRSLimit', () => {
 })
 
 describe('getAISpeakLimit', () => {
-  it('free → 5/day', () => {
-    expect(getAISpeakLimit(freeExpired)).toBe(5)
+  it('expired trial, never upgraded → 0 (locked)', () => {
+    expect(getAISpeakLimit(freeExpired)).toBe(0)
+  })
+
+  it('active trial → 10/day', () => {
+    expect(getAISpeakLimit(freeTrial)).toBe(10)
   })
 
   it('pro1 → 30/day', () => {
