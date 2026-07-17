@@ -65,7 +65,7 @@ export default function LandingScreenshotGallery() {
       <Reveal className="max-w-7xl mx-auto pb-4">
         <h2 className="text-xl lg:text-3xl font-black text-gray-800 text-center mb-1 px-4">Khám phá từng tính năng</h2>
         <p className="text-gray-500 text-sm lg:text-base text-center mb-5 lg:mb-8 px-4">Screenshots thực tế từ app · Không chỉnh sửa</p>
-        <div className="flex gap-4 overflow-x-auto pb-4 px-4 snap-x snap-mandatory" style={{ scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' } as React.CSSProperties}>
+        <div className="flex gap-4 overflow-x-auto pt-3 pb-4 px-4 snap-x snap-mandatory" style={{ scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' } as React.CSSProperties}>
           {SCREENSHOTS.map((s, i) => (
             <button key={i} onClick={() => setActiveScreenshot(s)}
               className={`flex-none self-start snap-center active:scale-95 hover:scale-105 transition-transform rounded-[22px] ${FOCUS_RING}`}
