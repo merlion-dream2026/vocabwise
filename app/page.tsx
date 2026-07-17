@@ -360,7 +360,7 @@ export default function LandingPage() {
           <div className="md:col-span-2 bg-amber-50 border border-amber-200 rounded-2xl p-4 lg:p-5 flex gap-3 items-start">
             <span className="text-xl lg:text-2xl flex-shrink-0">👨‍👩‍👧</span>
             <div>
-              <p className="font-black text-amber-800 text-sm lg:text-base">Lời khuyên từ người tạo ra app</p>
+              <p className="font-black text-amber-800 text-sm lg:text-base">Lời khuyên cho phụ huynh</p>
               <p className="text-amber-700 text-xs lg:text-base mt-1 leading-relaxed">
                 Với bé dưới 10 tuổi, ba/mẹ nên <strong>ngồi học cùng con</strong> — đặc biệt trong những buổi đầu. Các bé chưa tự giác và cần được hướng dẫn, động viên. Chỉ cần 15–20 phút mỗi ngày cùng nhau là đủ. Khi bé đã quen, bé sẽ tự học một mình rất nhanh!
               </p>
