@@ -3,6 +3,7 @@ import { createClient } from '@supabase/supabase-js'
 import { sendEmail } from '@/lib/email'
 import { buildReportHtml, ChildRow, SyncRow } from '@/lib/reportHtml'
 import { runInBatches } from '@/lib/batchProcess'
+import { createNotification } from '@/lib/notifications'
 
 export const maxDuration = 60
 
@@ -71,6 +72,13 @@ export async function GET(req: NextRequest) {
 
       const html = buildReportHtml(family.username, rows)
       await sendEmail({ to: family.email, subject: '📚 Báo cáo học tập tuần này — VocabWise', html })
+      createNotification({
+        familyId: family.id,
+        type: 'weekly_report',
+        title: '📚 Báo cáo tuần đã sẵn sàng',
+        body: 'Xem tổng kết học tập tuần này của cả nhà.',
+        url: '/dashboard',
+      }).catch(() => {})
       sent++
     } catch (e) {
       errors.push(`${family.username}: ${e}`)

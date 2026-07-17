@@ -6,6 +6,7 @@ import { getPhonicsProgress, getAllDailyProgress, getAllAcademicProgress, getGlo
 import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
 import UpgradeBanner from '@/components/UpgradeBanner'
+import NotificationBell from '@/components/NotificationBell'
 import LearningHistoryPanel from '@/components/LearningHistoryPanel'
 import ModuleCard from '@/components/ModuleCard'
 import { cachedFetch } from '@/lib/cachedFetch'
@@ -145,6 +146,9 @@ export default function ChildRoadmap() {
         planEndDate={session?.plan_end_date}
         username={session?.username}
       />
+      <div className="fixed top-4 right-4 z-30">
+        <NotificationBell />
+      </div>
       {/* Header */}
       <div className="flex items-center gap-3 mb-6 max-w-lg mx-auto">
         <button onClick={() => router.push('/kids')} aria-label="Quay lại" className="text-gray-400 hover:text-gray-600 text-2xl font-bold leading-none">←</button>

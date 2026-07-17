@@ -17,6 +17,7 @@ import {
   getFamilyStats,
 } from '@/lib/emailLog'
 import { runInBatches } from '@/lib/batchProcess'
+import { createNotification } from '@/lib/notifications'
 
 export const maxDuration = 60
 
@@ -104,18 +105,33 @@ export async function GET(req: NextRequest) {
               ),
             })
             await logEmail(famId, 'pro_expiry_14d')
+            createNotification({
+              familyId: famId,
+              type: 'pro_expiry_14d',
+              title: '⏰ Pro còn 2 tuần',
+              body: 'Gia hạn sớm để không bị gián đoạn quá trình học.',
+              url: '/dashboard',
+            }).catch(() => {})
             sent++
           } else if (daysLeft === 7 || daysLeft === 1) {
             const emailType = `renewal_reminder_${daysLeft}d`
             if (await hasEmailBeenSent(famId, emailType)) { skipped++; return }
+            const subject = daysLeft <= 1
+              ? '⏰ Tài khoản Pro sắp hết hạn hôm nay — Gia hạn ngay!'
+              : `⏰ Còn ${daysLeft} ngày — Gia hạn VocabWise`
             await sendEmail({
               to: family.email as string,
-              subject: daysLeft <= 1
-                ? '⏰ Tài khoản Pro sắp hết hạn hôm nay — Gia hạn ngay!'
-                : `⏰ Còn ${daysLeft} ngày — Gia hạn VocabWise`,
+              subject,
               html: renewalReminderEmailHtml(displayName, daysLeft, planLabel),
             })
             await logEmail(famId, emailType)
+            createNotification({
+              familyId: famId,
+              type: emailType,
+              title: subject,
+              body: `Gói ${planLabel} sắp hết hạn — gia hạn để không mất tiến độ.`,
+              url: '/dashboard',
+            }).catch(() => {})
             sent++
           } else if (daysLeft === -1) {
             if (await hasEmailBeenSent(famId, 'pro_expiry_d1')) { skipped++; return }
@@ -130,6 +146,13 @@ export async function GET(req: NextRequest) {
               ),
             })
             await logEmail(famId, 'pro_expiry_d1')
+            createNotification({
+              familyId: famId,
+              type: 'pro_expiry_d1',
+              title: 'Tài khoản Pro vừa hết hạn',
+              body: 'Gia hạn trong 7 ngày để giữ toàn bộ dữ liệu và tiến độ học.',
+              url: '/dashboard',
+            }).catch(() => {})
             sent++
           } else if (daysLeft === -7) {
             if (await hasEmailBeenSent(famId, 'pro_expiry_d7')) { skipped++; return }
@@ -140,6 +163,13 @@ export async function GET(req: NextRequest) {
               html: proExpiryD7EmailHtml(displayName, stats.firstChildName || undefined),
             })
             await logEmail(famId, 'pro_expiry_d7')
+            createNotification({
+              familyId: famId,
+              type: 'pro_expiry_d7',
+              title: 'Nhắc lần cuối 🐣',
+              body: 'Bé vẫn ở đây khi bạn sẵn sàng quay lại.',
+              url: '/dashboard',
+            }).catch(() => {})
             sent++
           } else {
             skipped++
@@ -157,6 +187,13 @@ export async function GET(req: NextRequest) {
               html: trialD4EmailHtml(displayName),
             })
             await logEmail(famId, 'trial_d4')
+            createNotification({
+              familyId: famId,
+              type: 'trial_d4',
+              title: '⏰ Còn 3 ngày dùng thử',
+              body: 'Bạn đã thử hết các tính năng chưa?',
+              url: '/dashboard',
+            }).catch(() => {})
             sent++
           } else if (daysLeft === 1) {
             if (await hasEmailBeenSent(famId, 'trial_d6')) { skipped++; return }
@@ -167,6 +204,13 @@ export async function GET(req: NextRequest) {
               html: trialD6EmailHtml(displayName, stats.totalWords),
             })
             await logEmail(famId, 'trial_d6')
+            createNotification({
+              familyId: famId,
+              type: 'trial_d6',
+              title: 'Ngày cuối dùng thử 🚨',
+              body: 'Đừng để mất đà học — nâng cấp để tiếp tục.',
+              url: '/dashboard',
+            }).catch(() => {})
             sent++
           } else if (daysLeft === 0) {
             if (await hasEmailBeenSent(famId, 'trial_d7')) { skipped++; return }
@@ -176,6 +220,13 @@ export async function GET(req: NextRequest) {
               html: trialD7EmailHtml(displayName),
             })
             await logEmail(famId, 'trial_d7')
+            createNotification({
+              familyId: famId,
+              type: 'trial_d7',
+              title: 'Tài khoản Free từ hôm nay',
+              body: 'Đây là những gì bạn vẫn có — xem chi tiết gói Free.',
+              url: '/dashboard',
+            }).catch(() => {})
             sent++
           } else if (daysLeft === -1) {
             if (await hasEmailBeenSent(famId, 'trial_d8')) { skipped++; return }
@@ -185,6 +236,13 @@ export async function GET(req: NextRequest) {
               html: trialD8EmailHtml(displayName),
             })
             await logEmail(famId, 'trial_d8')
+            createNotification({
+              familyId: famId,
+              type: 'trial_d8',
+              title: 'Còn phân vân? 🤔',
+              body: 'Đây là câu trả lời — xem gói Pro phù hợp cho gia đình bạn.',
+              url: '/dashboard',
+            }).catch(() => {})
             sent++
           } else {
             skipped++
