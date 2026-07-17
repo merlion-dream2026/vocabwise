@@ -158,6 +158,29 @@ export async function checkAndIncrementWritingCheckUsage(familyId: string, limit
   return e.count <= limit
 }
 
+// ── Module Test batch-production grading usage (separate, smaller pool than the ──
+// per-sentence writing-check quota — one Module Test submission grades ~9 sentences ──
+// in a single AI call, so a high-frequency quota isn't needed here) ──────────────
+const moduleTestStore = new Map<string, { count: number; resetAt: number }>()
+
+export async function checkAndIncrementModuleTestUsage(familyId: string, limit = 5): Promise<boolean> {
+  const date = new Date().toISOString().split('T')[0]
+  const key = `vw:module-test:${familyId}:${date}`
+  if (redis) {
+    try {
+      const count = await redis.incr(key)
+      if (count === 1) await redis.expire(key, 90000) // 25h
+      return count <= limit
+    } catch (e) { warnRedisFallback('checkAndIncrementModuleTestUsage', e) }
+  }
+  const now = Date.now()
+  const ttl = 25 * 60 * 60 * 1000
+  let e = moduleTestStore.get(key)
+  if (!e || now > e.resetAt) { e = { count: 0, resetAt: now + ttl }; moduleTestStore.set(key, e) }
+  e.count++
+  return e.count <= limit
+}
+
 // ── OTP attempt tracking ──────────────────────────────────────────────────────
 const otpAttemptStore = new Map<string, { count: number; resetAt: number }>()
 
