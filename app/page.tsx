@@ -153,7 +153,7 @@ export default function LandingPage() {
           {/* Text column */}
           <div className="text-center lg:text-left lg:flex-1">
             <p className="text-purple-500 font-black text-sm mb-3 tracking-widest uppercase">Nền tảng học tiếng Anh toàn diện</p>
-            <h1 className="text-3xl lg:text-6xl font-black text-gray-800 leading-tight mb-4 max-w-4xl mx-auto lg:mx-0">
+            <h1 className="text-3xl lg:text-5xl font-black text-gray-800 leading-tight mb-4 max-w-4xl mx-auto lg:mx-0">
               Học tiếng Anh{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">vui, có hệ thống, đúng chuẩn</span>
             </h1>
