@@ -77,8 +77,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
   const [loaded, setLoaded]     = useState(false)
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid')
   const [showUpgrade, setShowUpgrade] = useState(false)
-  const [showOverviewDetail, setShowOverviewDetail] = useState(false)
-  const [showProgressGuide, setShowProgressGuide] = useState(false)
+  const [showProgressDetail, setShowProgressDetail] = useState(false)
   const [showCert, setShowCert] = useState(false)
   const [revScores, setRevScores] = useState<Record<string, { score: number; max: number }>>({})
   const [dlCount, setDlCount]     = useState(0)
@@ -244,93 +243,127 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
 
       <div className="max-w-2xl mx-auto px-4 pt-3 pb-24 space-y-3">
 
-        {/* Overview + progress card (merged) */}
-        <div className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm p-4">
-          <button onClick={() => setShowOverviewDetail(v => !v)} className="w-full flex items-center justify-between text-left">
-            <div className="flex items-center gap-3">
-              <span className={`text-xs font-black px-2 py-0.5 rounded-full bg-gradient-to-r ${numGrad} text-white`}>{info.cefr}</span>
-              <div className="flex items-center gap-2 text-sm text-gray-600">
+        {/* Stats — 3 mini cards, mirrors Daily */}
+        <div className="grid grid-cols-3 gap-2">
+          {/* Progress / CEFR */}
+          <button
+            onClick={() => setShowProgressDetail(true)}
+            className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm p-3 flex flex-col gap-1 text-left active:scale-95 transition-transform"
+          >
+            <div className="flex items-center gap-1">
+              <span className="text-base leading-none">{info.emoji}</span>
+              <span className="text-[11px] font-black text-gray-700 truncate leading-tight">{info.cefr}</span>
+            </div>
+            <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
+              <div className={`h-full bg-gradient-to-r ${numGrad} rounded-full transition-all duration-700`} style={{ width: `${pct}%` }} />
+            </div>
+            <div className="flex items-center justify-between">
+              <span className="text-[10px] font-bold text-gray-500">{pct}% xong</span>
+              <span className="text-[10px] text-gray-400">🏆{masteredCount}</span>
+            </div>
+          </button>
+
+          {/* Cần cải thiện */}
+          <button
+            onClick={() => { if (needsReviewCount > 0) startReview('improve') }}
+            className={`rounded-2xl border-2 shadow-sm p-3 flex flex-col gap-2 text-left transition-transform ${needsReviewCount > 0 ? 'bg-orange-50 border-orange-200 active:scale-95' : 'bg-gray-50 border-gray-100 opacity-50 cursor-default'}`}
+          >
+            <div className="flex items-center gap-1">
+              <span className="text-sm leading-none flex-shrink-0">⚠️</span>
+              <p className="text-[10px] font-black text-gray-700 leading-tight">Cần cải thiện</p>
+            </div>
+            <div className="flex items-baseline gap-1">
+              <span className={`text-xl font-black leading-none ${needsReviewCount > 0 ? 'text-orange-500' : 'text-gray-400'}`}>{needsReviewCount}</span>
+              <span className={`text-[10px] font-medium ${needsReviewCount > 0 ? 'text-orange-400' : 'text-gray-400'}`}>{needsReviewCount > 0 ? 'Ôn ngay' : 'Tốt lắm!'}</span>
+            </div>
+          </button>
+
+          {/* Ôn từ định kỳ (SRS) */}
+          <button
+            onClick={() => { if (srsDueCount > 0) startReview('srs') }}
+            className={`rounded-2xl border-2 shadow-sm p-3 flex flex-col gap-2 text-left transition-transform ${srsDueCount > 0 ? 'bg-teal-50 border-teal-200 active:scale-95' : 'bg-gray-50 border-gray-100 opacity-50 cursor-default'}`}
+          >
+            <div className="flex items-center gap-1">
+              <span className="text-sm leading-none flex-shrink-0">📅</span>
+              <p className="text-[10px] font-black text-gray-700 leading-tight">Ôn từ định kỳ</p>
+            </div>
+            <div className="flex items-baseline gap-1">
+              <span className={`text-xl font-black leading-none ${srsDueCount > 0 ? 'text-teal-500' : 'text-gray-400'}`}>{srsDueCount}</span>
+              <span className={`text-[10px] font-medium ${srsDueCount > 0 ? 'text-teal-400' : 'text-gray-400'}`}>{srsDueCount > 0 ? 'Ôn ngay' : 'Đã xong!'}</span>
+            </div>
+          </button>
+        </div>
+
+        {/* Progress detail modal — theme breakdown, progress legend, certificate CTA */}
+        {showProgressDetail && (
+          <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/40" onClick={() => setShowProgressDetail(false)}>
+            <div className="bg-white w-full max-w-md rounded-t-3xl p-5 pb-8 max-h-[80vh] overflow-y-auto" onClick={e => e.stopPropagation()}>
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="font-black text-gray-800 text-base">{info.emoji} Tiến độ module</h2>
+                <button onClick={() => setShowProgressDetail(false)} aria-label="Đóng" className="text-gray-400 hover:text-gray-600 text-xl leading-none">✕</button>
+              </div>
+
+              <div className="flex items-center gap-2 text-sm text-gray-600 mb-3">
                 <span><strong className="text-gray-800">{Object.keys(byTheme).length}</strong> themes</span>
                 <span className="text-gray-200">·</span>
                 <span><strong className="text-gray-800">{topics.length}</strong> topics</span>
                 <span className="text-gray-200">·</span>
                 <span><strong className="text-gray-800">{totalWords.toLocaleString()}</strong> từ</span>
               </div>
-            </div>
-            <span className={`text-gray-300 text-sm transition-transform duration-200 ${showOverviewDetail ? 'rotate-180' : ''}`}>▾</span>
-          </button>
 
-          {showOverviewDetail && (
-            <div className="mt-3 pt-3 border-t border-gray-100 divide-y divide-gray-50 -mx-1">
-              {Object.entries(byTheme).map(([themeKey, themeTopics]) => {
-                const [themeNum, themeTitle] = themeKey.split('|')
-                const themeViTitle = themeTopics[0]?.theme_title_vi
-                const themeWords = themeTopics.reduce((s, t) => s + (t.word_count ?? 15), 0)
-                return (
-                  <div key={themeKey} className="flex items-center justify-between px-1 py-2">
-                    <div className="flex items-center gap-2 min-w-0">
-                      <span className={`w-5 h-5 rounded-full bg-gradient-to-br ${numGrad} flex items-center justify-center text-[10px] font-black text-white flex-shrink-0`}>{themeNum}</span>
-                      <span className="text-gray-700 text-sm font-medium truncate">{themeViTitle ?? themeTitle}</span>
-                    </div>
-                    <div className="flex items-center gap-1 text-xs text-gray-400 flex-shrink-0 ml-2">
-                      <span className="font-semibold text-gray-600">{themeTopics.length}</span>
-                      <span>topics</span>
-                      <span className="text-gray-200 mx-1">·</span>
-                      <span className="font-semibold text-gray-600">{themeWords}</span>
-                      <span>từ</span>
-                    </div>
-                  </div>
-                )
-              })}
-            </div>
-          )}
-
-          <div className="mt-3 pt-3 border-t border-gray-100">
-            <div className="flex items-center justify-between mb-2">
-              <div className="flex items-center gap-1.5">
-                <span className="text-xs font-black text-gray-400 uppercase tracking-wider">Tiến độ module</span>
-                <button onClick={() => setShowProgressGuide(true)}
-                  className="w-4 h-4 rounded-full bg-gray-100 text-gray-400 text-[10px] font-bold flex items-center justify-center hover:bg-blue-100 hover:text-blue-500 transition-colors">
-                  ?
-                </button>
+              <div className="h-3 bg-gray-100 rounded-full overflow-hidden flex mb-3">
+                {masteredCount > 0 && (
+                  <div className={`h-full bg-gradient-to-r ${numGrad} transition-all duration-500`}
+                    style={{ width: `${(masteredCount / topics.length) * 100}%` }} />
+                )}
+                {needsImprovementCount > 0 && (
+                  <div className="h-full bg-amber-300 transition-all duration-500"
+                    style={{ width: `${(needsImprovementCount / topics.length) * 100}%` }} />
+                )}
               </div>
-              <span className="text-xs font-bold text-gray-500">{pct}% hoàn thành</span>
-            </div>
-            <div className="h-3 bg-gray-100 rounded-full overflow-hidden flex mb-3">
-              {masteredCount > 0 && (
-                <div className={`h-full bg-gradient-to-r ${numGrad} transition-all duration-500`}
-                  style={{ width: `${(masteredCount / topics.length) * 100}%` }} />
-              )}
-              {needsImprovementCount > 0 && (
-                <div className="h-full bg-amber-300 transition-all duration-500"
-                  style={{ width: `${(needsImprovementCount / topics.length) * 100}%` }} />
-              )}
-            </div>
-            <div className="flex items-center gap-3 text-xs text-gray-500 flex-wrap">
-              <span>🏆 <strong className="text-gray-700">{masteredCount}</strong> thành thạo</span>
-              <span className="text-gray-200">·</span>
-              <span>⚠️ <strong className="text-gray-700">{needsImprovementCount}</strong> cần cải thiện</span>
-              <span className="text-gray-200">·</span>
-              <span>📘 <strong className="text-gray-700">{topics.length - completedCount}</strong> chưa học</span>
-            </div>
-            {masteredCount > 0 && (
-              <button
-                onClick={() => setShowCert(true)}
-                className="mt-2 w-full flex items-center justify-center gap-1.5 text-xs font-black text-indigo-600 bg-indigo-50 hover:bg-indigo-100 border border-indigo-100 rounded-xl py-2 active:scale-[0.98] transition-all"
-              >
-                🎓 Xem chứng chỉ học tập
-              </button>
-            )}
-          </div>
-        </div>
+              <div className="flex items-center gap-3 text-xs text-gray-500 flex-wrap mb-4">
+                <span>🏆 <strong className="text-gray-700">{masteredCount}</strong> thành thạo</span>
+                <span className="text-gray-200">·</span>
+                <span>⚠️ <strong className="text-gray-700">{needsImprovementCount}</strong> cần cải thiện</span>
+                <span className="text-gray-200">·</span>
+                <span>📘 <strong className="text-gray-700">{topics.length - completedCount}</strong> chưa học</span>
+              </div>
 
-        {/* Progress guide modal */}
-        {showProgressGuide && (
-          <div className="fixed inset-0 bg-black/40 z-50 flex items-end justify-center p-4"
-            onClick={() => setShowProgressGuide(false)}>
-            <div className="bg-white rounded-2xl w-full max-w-sm p-5 space-y-4" onClick={e => e.stopPropagation()}>
-              <p className="font-black text-gray-800 text-base">Các mức độ tiến độ</p>
-              <div className="space-y-3">
+              {masteredCount > 0 && (
+                <button
+                  onClick={() => { setShowProgressDetail(false); setShowCert(true) }}
+                  className="w-full flex items-center justify-center gap-1.5 text-xs font-black text-indigo-600 bg-indigo-50 hover:bg-indigo-100 border border-indigo-100 rounded-xl py-2 active:scale-[0.98] transition-all mb-4"
+                >
+                  🎓 Xem chứng chỉ học tập
+                </button>
+              )}
+
+              <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">Chi tiết theo theme</p>
+              <div className="divide-y divide-gray-50 -mx-1 mb-4">
+                {Object.entries(byTheme).map(([themeKey, themeTopics]) => {
+                  const [themeNum, themeTitle] = themeKey.split('|')
+                  const themeViTitle = themeTopics[0]?.theme_title_vi
+                  const themeWords = themeTopics.reduce((s, t) => s + (t.word_count ?? 15), 0)
+                  return (
+                    <div key={themeKey} className="flex items-center justify-between px-1 py-2">
+                      <div className="flex items-center gap-2 min-w-0">
+                        <span className={`w-5 h-5 rounded-full bg-gradient-to-br ${numGrad} flex items-center justify-center text-[10px] font-black text-white flex-shrink-0`}>{themeNum}</span>
+                        <span className="text-gray-700 text-sm font-medium truncate">{themeViTitle ?? themeTitle}</span>
+                      </div>
+                      <div className="flex items-center gap-1 text-xs text-gray-400 flex-shrink-0 ml-2">
+                        <span className="font-semibold text-gray-600">{themeTopics.length}</span>
+                        <span>topics</span>
+                        <span className="text-gray-200 mx-1">·</span>
+                        <span className="font-semibold text-gray-600">{themeWords}</span>
+                        <span>từ</span>
+                      </div>
+                    </div>
+                  )
+                })}
+              </div>
+
+              <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">Các mức độ tiến độ</p>
+              <div className="space-y-2">
                 <div className="flex items-start gap-3">
                   <span className="text-xl mt-0.5">🏆</span>
                   <div>
@@ -353,47 +386,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                   </div>
                 </div>
               </div>
-              <button onClick={() => setShowProgressGuide(false)}
-                className={`w-full bg-gradient-to-r ${numGrad} text-white font-black py-3 rounded-2xl active:scale-95 transition-transform`}>
-                Đã hiểu
-              </button>
             </div>
-          </div>
-        )}
-
-        {/* SRS due + needs-review banners (side by side) */}
-        {(srsDueCount > 0 || needsReviewCount > 0) && (
-          <div className={`grid gap-2 ${srsDueCount > 0 && needsReviewCount > 0 ? 'grid-cols-2' : 'grid-cols-1'}`}>
-            {srsDueCount > 0 && (
-              <div className="bg-teal-50 border-2 border-teal-200 rounded-2xl px-3 py-2.5 flex flex-col gap-1">
-                <div className="flex items-center gap-1.5">
-                  <span className="text-base">📅</span>
-                  <p className="text-xs font-black text-teal-700 leading-tight">Ôn lại hôm nay</p>
-                </div>
-                <p className="text-[11px] text-teal-500">{srsDueCount} chủ đề cần ôn</p>
-                <button
-                  onClick={() => startReview('srs')}
-                  className="mt-0.5 self-start text-teal-700 font-black text-xs bg-teal-100 hover:bg-teal-200 px-2.5 py-1 rounded-full active:scale-95 transition-all"
-                >
-                  Bắt đầu →
-                </button>
-              </div>
-            )}
-            {needsReviewCount > 0 && (
-              <div className="bg-orange-50 border-2 border-orange-200 rounded-2xl px-3 py-2.5 flex flex-col gap-1">
-                <div className="flex items-center gap-1.5">
-                  <span className="text-base">⚠️</span>
-                  <p className="text-xs font-black text-orange-700 leading-tight">Cần cải thiện</p>
-                </div>
-                <p className="text-[11px] text-orange-500">{needsReviewCount} chủ đề</p>
-                <button
-                  onClick={() => startReview('improve')}
-                  className="mt-0.5 self-start text-orange-700 font-black text-xs bg-orange-100 hover:bg-orange-200 px-2.5 py-1 rounded-full active:scale-95 transition-all"
-                >
-                  Ôn thêm →
-                </button>
-              </div>
-            )}
           </div>
         )}
 
@@ -478,7 +471,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                           <Link href={`/vocabwise/${book}/${t.topic_id}`}
                             className={`${cardCls} border-2 rounded-2xl p-4 text-left block shadow-sm active:scale-95 transition-all duration-150`}>
                             <div className="flex items-center gap-2.5 mb-2">
-                              <span className="text-3xl flex-shrink-0">{isMastered ? '🏆' : (t.emoji ?? '📚')}</span>
+                              <span className="text-3xl flex-shrink-0">{t.emoji ?? '📚'}</span>
                               <div className="min-w-0 pr-6">
                                 <p className="font-semibold text-gray-800 text-sm leading-snug"><span className="text-gray-400 font-bold mr-1">{String(t.topic_number).padStart(2, '0')}.</span>{t.topic_title_vi ?? t.topic_title}</p>
                                 <p className="text-xs text-gray-400 mt-0.5">{t.word_count ?? 15} từ</p>
@@ -548,7 +541,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                     locked ? 'opacity-50' : 'hover:bg-gray-50 active:bg-gray-100'
                   }`}>
                   <span className="text-2xl flex-shrink-0 w-9 text-center">
-                    {isMastered ? '🏆' : (t.emoji ?? '📚')}
+                    {t.emoji ?? '📚'}
                   </span>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2">
