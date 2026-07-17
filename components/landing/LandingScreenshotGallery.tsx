@@ -17,6 +17,7 @@ const SCREENSHOTS = [
   { src: '/screenshots/luyen%20phat%20am.jpg',             caption: 'Phát âm IPA — nguyên âm & phụ âm' },
   { src: '/screenshots/parent%20dashboard%201.jpg',        caption: 'Ba/Mẹ theo dõi tiến độ mỗi ngày' },
   { src: '/screenshots/parent%20dashboard%202.jpg',        caption: 'Streak · Badges · Từ yếu cần ôn' },
+  { src: '/screenshots/mia%20hoc%20thuc%20te.jpg',          caption: 'Bé Mia học từ vựng mỗi tối' },
 ]
 
 type Screenshot = { src: string; caption: string }

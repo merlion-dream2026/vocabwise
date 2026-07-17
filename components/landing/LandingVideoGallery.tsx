@@ -30,6 +30,30 @@ const VIDEOS = [
     title: 'Bé Tim chơi Sắp xếp câu',
     tag: '📝 Xây câu hoàn chỉnh',
   },
+  {
+    src: '/videos/Mia%20hoc%20tu%20vung%20moi.mp4',
+    poster: '/screenshots/poster%20mia%20hoc%20tu%20vung%20moi.jpg',
+    title: 'Bé Mia học từ vựng mới',
+    tag: '📚 Học mỗi ngày cùng ba mẹ',
+  },
+  {
+    src: '/videos/Tim%20on%20tap%20tu%20vung.mp4',
+    poster: '/screenshots/poster%20tim%20on%20tap%20tu%20vung.jpg',
+    title: 'Bé Tim ôn tập từ vựng',
+    tag: '💻 Học mọi lúc, mọi thiết bị',
+  },
+  {
+    src: '/videos/Mia%20lam%20bai%20on%20tap.mp4',
+    poster: '/screenshots/poster%20mia%20lam%20bai%20on%20tap.jpg',
+    title: 'Bé Mia làm bài ôn tập',
+    tag: '✍️ Vừa học vừa ghi chú',
+  },
+  {
+    src: '/videos/Tim%20lam%20bai%20sap%20xep%20cau.mp4',
+    poster: '/screenshots/poster%20tim%20lam%20bai%20sap%20xep%20cau.jpg',
+    title: 'Bé Tim làm bài Sắp xếp câu',
+    tag: '📝 Luyện ngữ pháp thực tế',
+  },
 ]
 
 export default function LandingVideoGallery() {
