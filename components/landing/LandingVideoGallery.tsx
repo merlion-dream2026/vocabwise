@@ -70,7 +70,7 @@ export default function LandingVideoGallery() {
         <div className="flex gap-4 overflow-x-auto pb-3 px-4 snap-x snap-mandatory" style={{ scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' } as React.CSSProperties}>
           {VIDEOS.map((v, i) => (
             <button key={i} onClick={() => setActiveIdx(i)}
-              className={`flex-none snap-center text-left group active:scale-95 hover:scale-105 transition-transform rounded-[20px] ${FOCUS_RING}`}
+              className={`flex-none self-start snap-center text-left group active:scale-95 hover:scale-105 transition-transform rounded-[20px] ${FOCUS_RING}`}
               style={{ width: 148 }}>
               <div className="relative rounded-[20px] border-[3px] border-gray-800 bg-gray-900 overflow-hidden shadow-xl" style={{ height: 264 }}>
                 <Image src={v.poster} alt={v.title} fill sizes="148px" className="object-cover object-top" />

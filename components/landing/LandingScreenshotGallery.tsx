@@ -68,7 +68,7 @@ export default function LandingScreenshotGallery() {
         <div className="flex gap-4 overflow-x-auto pb-4 px-4 snap-x snap-mandatory" style={{ scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' } as React.CSSProperties}>
           {SCREENSHOTS.map((s, i) => (
             <button key={i} onClick={() => setActiveScreenshot(s)}
-              className={`flex-none snap-center active:scale-95 hover:scale-105 transition-transform rounded-[22px] ${FOCUS_RING}`}
+              className={`flex-none self-start snap-center active:scale-95 hover:scale-105 transition-transform rounded-[22px] ${FOCUS_RING}`}
               style={{ width: 148 }}>
               <div className="rounded-[22px] border-[3px] border-gray-800 bg-gray-800 shadow-xl overflow-hidden">
                 <div className="h-3.5 bg-gray-800 flex items-center justify-center"><div className="w-10 h-1.5 bg-gray-600 rounded-full" /></div>
