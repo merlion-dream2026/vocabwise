@@ -5,7 +5,16 @@ import { useState } from 'react'
 // ── FAQ card ──────────────────────────────────────────────────────────────────
 const FAQ_ITEMS = [
   {
-    group: '📱 Cấu trúc & nội dung',
+    group: '🔤 Phonics',
+    items: [
+      {
+        q: '🔤 Module Phonics là gì?',
+        a: 'Ngoài học từ vựng, bé còn có thể luyện phát âm tiếng Anh theo chuẩn IPA — module Phonics xuất hiện dưới dạng card 🔤 trên màn hình chọn level của bé.\n\nModule độc lập với các level từ vựng — bé học phát âm song song với học từ.\n\n9 nhóm, 58 bài:\n• Nguyên âm ngắn (7) · Nguyên âm đôi (5)\n• Cặp phụ âm (8) · Phụ âm khác (8)\n• Khó với người Việt (4) · Đọc từ thông minh (4)\n• Quy tắc phát âm (12)\n• Ngữ điệu (4) · Nói liên tục (6)\n\nMỗi bài thành thạo khi bé: học xem thẻ âm + hoàn thành các game bắt buộc, mỗi game đạt ≥70%.\nProgress tracking hiện trên dashboard: 🔤 X/58 bài',
+      },
+    ],
+  },
+  {
+    group: '📚 Daily',
     items: [
       {
         q: 'App có mấy level và bao nhiêu từ vựng?',
@@ -15,11 +24,6 @@ const FAQ_ITEMS = [
         q: 'Một chủ đề gồm những gì?',
         a: 'Mỗi chủ đề có 10–15 từ vựng. Mỗi từ bao gồm:\n• Từ tiếng Anh + nghĩa tiếng Việt\n• Emoji minh họa\n• 2 câu ví dụ song ngữ (English + Việt)\n\nNgoài ra, mỗi chủ đề có 1 Mini Story — câu chuyện ngắn dùng các từ vừa học để giúp bé ghi nhớ trong ngữ cảnh thực tế.',
       },
-    ],
-  },
-  {
-    group: '🏆 Tiêu chí hoàn thành (Mastery)',
-    items: [
       {
         q: 'Khi nào một chủ đề được tính là "xong"?',
         a: 'Bé phải hoàn thành đủ 2 điều kiện:\n① Xem hết Flashcard tất cả từ trong chủ đề\n② Đạt kết quả tốt trong ít nhất 3 trò chơi khác nhau\n\nChủ đề xong sẽ hiển thị 🏆 và được tính vào ✅ trên dashboard.',
@@ -27,6 +31,27 @@ const FAQ_ITEMS = [
       {
         q: 'App có những trò chơi gì?',
         a: 'Level cơ bản (Seeker / Starter / Ranger) — 10 trò:\n📖 Flashcard từ mới · 👂 Nghe & Chọn · ✅ Đúng / Sai · 🖼️ Nối từ với hình · 🧠 Lật thẻ · 🫧 Bắn bong bóng · 🔡 Điền chữ thiếu · 🔤 Đánh vần · 🔁 Sắp xếp câu · 🎤 Phát âm cùng AI ✨\n\nLevel nâng cao (Explorer / Scholar / Master) — 10 trò:\n📖 Flashcard từ mới · 👂 Nghe & Chọn · ✅ Đúng / Sai · ❓ Trắc nghiệm · ✏️ Điền từ · 🔀 Ghép định nghĩa · 🎤 Phát âm cùng AI ✨ · ⌨️ Gõ từ nhanh 15s · 🔁 Sắp xếp câu · ⚡ Speed Round\n\nNgoài ra, mỗi chủ đề đều có 📖 Mini Story tích hợp ngay trong trang chủ đề — bé đọc chuyện, nghe audio, rồi làm bài điền từ ngay tại chỗ.',
+      },
+      {
+        q: 'Thứ tự học trong một chủ đề?',
+        a: '① Flashcard từ mới — làm quen và ghi nhớ từ\n② Nghe & Chọn / Đúng & Sai / Nối từ với hình — luyện nhận diện\n③ Điền chữ thiếu / Đánh vần / Sắp xếp câu — củng cố chính tả và ngữ pháp\n④ 🎤 Phát âm cùng AI ✨ — luyện phát âm, bé nghe lại giọng của chính mình\n⑤ Mini Story 📖 — đọc câu chuyện tích hợp sẵn trong trang topic, rồi làm bài điền từ ngay bên dưới\n\nKhông cần làm tất cả trong 1 buổi. Mỗi game hoàn thành tốt tính là 1 "sao" cho chủ đề đó.',
+      },
+      {
+        q: 'Khi nào chuyển sang level tiếp theo?',
+        a: 'Khi bé hoàn thành >70% chủ đề của level hiện tại và cảm thấy tự tin với các từ đã học.\n\nBé vẫn có thể quay lại level cũ bất cứ lúc nào — màn hình chọn level hiển thị % tiến độ từng level để bé và phụ huynh theo dõi.',
+      },
+    ],
+  },
+  {
+    group: '🎓 Academic',
+    items: [
+      {
+        q: '🎓 Module Academic là gì?',
+        a: 'Từ vựng học thuật chuẩn IELTS/SAT, khó và nâng cao hơn Daily — module Academic xuất hiện dưới dạng card 🎓 trên màn hình chọn level của bé.\n\n3 books độc lập theo trình độ, mỗi book 60 chủ đề:\n• Book 1 — A1–A2\n• Book 2 — B1–B2\n• Book 3 — C1–C2\n\nTổng 180 chủ đề · ~2.700 từ vựng học thuật.\n\nMỗi chủ đề có 4 phần theo thứ tự: 📖 Đọc bài (passage ngữ cảnh) → 📔 Từ vựng (glossary song ngữ Việt–Anh) → ✏️ Bài tập (8 dạng bài chuẩn CEFR) → 📐 Ngữ pháp (nếu chủ đề có grammar spotlight)\n\nProgress tracking hiện trên dashboard: 🎓 X/180 chủ đề · X/2.700 từ',
+      },
+      {
+        q: 'Khi nào một chủ đề Academic được tính là hoàn thành?',
+        a: 'Bé cần làm xong phần Bài tập của chủ đề đó → chủ đề hiển thị dấu ✅ "hoàn thành".\n\nĐiểm bài tập tính trên thang 25 (5 bài chính × 5 điểm/bài). Đạt từ 20/25 điểm trở lên (80%) → chủ đề được đánh dấu 🏆 "Thành thạo" thay vì chỉ ✅.\n\nMỗi chủ đề còn có 1 bài tập bonus 10 câu (xoay vòng nhiều dạng) để luyện thêm — không tính vào điểm 25 ở trên.',
       },
     ],
   },
@@ -36,10 +61,6 @@ const FAQ_ITEMS = [
       {
         q: 'Các ký hiệu trên thẻ tiến độ nghĩa là gì?',
         a: '📚 Daily X/30 chủ đề · X/N từ → Chủ đề hoàn thành đủ flashcard + 3 games / số từ bé đã học trong level đó\n🎓 Academic X/180 chủ đề · X/N từ → Tiến độ học thuật (3 books, A1–C2)\n🔤 Phonics X/58 bài → Số bài phát âm IPA bé đã học + thành thạo (xem chi tiết trên trang Phonics)\n🔥 Streak → Số ngày học liên tiếp không bỏ ngày nào (tính gộp toàn app)\n⚡ X/20 XP hôm nay → Mục tiêu XP mỗi ngày — đạt 20 XP là hoàn thành mục tiêu\n⚠️ Từ yếu → Từ bé trả lời sai nhiều lần, cần ôn thêm\n📅 Ngày → Lần gần nhất bé có hoạt động học\n🏅 Badges → Huy hiệu đạt được theo cột mốc học tập',
-      },
-      {
-        q: '🔤 Module Phonics là gì?',
-        a: 'Ngoài học từ vựng, bé còn có thể luyện phát âm tiếng Anh theo chuẩn IPA — module Phonics xuất hiện dưới dạng card 🔤 trên màn hình chọn level của bé.\n\nModule độc lập với các level từ vựng — bé học phát âm song song với học từ.\n\n9 nhóm, 58 bài:\n• Nguyên âm ngắn (7) · Nguyên âm đôi (5)\n• Cặp phụ âm (8) · Phụ âm khác (8)\n• Khó với người Việt (4) · Đọc từ thông minh (4)\n• Quy tắc phát âm (12)\n• Ngữ điệu (4) · Nói liên tục (6)\n\nMỗi bài thành thạo khi bé: học xem thẻ âm + hoàn thành các game bắt buộc, mỗi game đạt ≥70%.\nProgress tracking hiện trên dashboard: 🔤 X/58 bài',
       },
       {
         q: 'Các huy hiệu (badges) có ý nghĩa gì?',
@@ -61,14 +82,6 @@ const FAQ_ITEMS = [
       {
         q: 'Lịch học như thế nào là tốt nhất?',
         a: '15–20 phút/ngày đều đặn tốt hơn học dồn 1–2 tiếng/tuần.\n\nStreak 🔥 chính là chỉ số đo tính kiên trì — hãy giúp bé duy trì streak càng dài càng tốt. Chỉ cần học bất kỳ game nào trong ngày (Phonics, Daily hay Academic) là đủ để giữ streak — streak được tính gộp toàn app.\n\nMục tiêu XP hàng ngày: 20 XP. Bé đạt 20 XP trong ngày → ✅ hiển thị trên dashboard. Game khó (Đánh vần, Gõ từ) cho nhiều XP hơn game dễ!',
-      },
-      {
-        q: 'Thứ tự học trong một chủ đề?',
-        a: '① Flashcard từ mới — làm quen và ghi nhớ từ\n② Nghe & Chọn / Đúng & Sai / Nối từ với hình — luyện nhận diện\n③ Điền chữ thiếu / Đánh vần / Sắp xếp câu — củng cố chính tả và ngữ pháp\n④ 🎤 Phát âm cùng AI ✨ — luyện phát âm, bé nghe lại giọng của chính mình\n⑤ Mini Story 📖 — đọc câu chuyện tích hợp sẵn trong trang topic, rồi làm bài điền từ ngay bên dưới\n\nKhông cần làm tất cả trong 1 buổi. Mỗi game hoàn thành tốt tính là 1 "sao" cho chủ đề đó.',
-      },
-      {
-        q: 'Khi nào chuyển sang level tiếp theo?',
-        a: 'Khi bé hoàn thành >70% chủ đề của level hiện tại và cảm thấy tự tin với các từ đã học.\n\nBé vẫn có thể quay lại level cũ bất cứ lúc nào — màn hình chọn level hiển thị % tiến độ từng level để bé và phụ huynh theo dõi.',
       },
     ],
   },
@@ -135,7 +148,6 @@ const FAQ_ITEMS = [
 
 export function FaqCard() {
   const [open, setOpen] = useState<string | null>(null)
-  const [collapsed, setCollapsed] = useState(true)
 
   function toggle(key: string) {
     setOpen(o => o === key ? null : key)
@@ -143,17 +155,12 @@ export function FaqCard() {
 
   return (
     <div className="bg-white rounded-3xl border-2 border-gray-100 shadow-sm overflow-hidden">
-      <button
-        onClick={() => setCollapsed(c => !c)}
-        className="w-full px-5 py-4 flex items-center justify-between hover:bg-gray-50 transition-colors">
-        <div className="text-left">
-          <h2 className="font-black text-gray-800 text-base">❓ Câu hỏi thường gặp</h2>
-          {collapsed && <p className="text-xs text-gray-400 font-semibold mt-0.5">Hướng dẫn sử dụng app hiệu quả</p>}
-        </div>
-        <span className={`text-gray-400 font-black text-sm flex-shrink-0 transition-transform duration-200 ${collapsed ? '' : 'rotate-180'}`}>▾</span>
-      </button>
+      <div className="px-5 py-4 border-b border-gray-100">
+        <h2 className="font-black text-gray-800 text-base">❓ Câu hỏi thường gặp</h2>
+        <p className="text-xs text-gray-400 font-semibold mt-0.5">Hướng dẫn sử dụng app hiệu quả</p>
+      </div>
 
-      {!collapsed && <div className="border-t border-gray-100 divide-y divide-gray-50">
+      <div className="divide-y divide-gray-50">
         {FAQ_ITEMS.map(group => (
           <div key={group.group}>
             {/* Group header */}
@@ -168,14 +175,14 @@ export function FaqCard() {
                 <div key={key} className="border-t border-gray-100 first:border-t-0">
                   <button
                     onClick={() => toggle(key)}
-                    className="w-full text-left px-5 py-3.5 flex items-start justify-between gap-3 hover:bg-gray-50 transition-colors">
+                    className="w-full text-left pl-7 pr-5 py-3.5 flex items-start justify-between gap-3 hover:bg-gray-50 transition-colors">
                     <p className="text-sm font-bold text-gray-700 leading-snug">{item.q}</p>
                     <span className={`text-gray-400 font-black text-sm flex-shrink-0 mt-0.5 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}>
                       ▾
                     </span>
                   </button>
                   {isOpen && (
-                    <div className="px-5 pb-4">
+                    <div className="pl-7 pr-5 pb-4">
                       <div className="bg-gray-50 rounded-2xl p-3.5">
                         {item.a.split('\n').map((line, j) => (
                           <p key={j} className={`text-xs text-gray-600 leading-relaxed ${j > 0 && line === '' ? 'mt-2' : j > 0 ? 'mt-1' : ''}`}>
@@ -190,7 +197,7 @@ export function FaqCard() {
             })}
           </div>
         ))}
-      </div>}
+      </div>
     </div>
   )
 }

@@ -12,7 +12,6 @@ import { getAvatarSrc } from '@/lib/avatars'
 import LearningHistoryPanel from '@/components/LearningHistoryPanel'
 import BangThanhTich from '@/components/BangThanhTich'
 import LeaderboardCard from '../LeaderboardCard'
-import { FaqCard } from './FaqCard'
 import { OfflineStoragePanel } from '@/components/OfflineStoragePanel'
 import { getDownloadedCount } from '@/lib/useOfflineDownload'
 import type { Child, Session, ChildStats, HistEntry, SyncLevel, SyncAllLevels } from '../_types'
@@ -95,9 +94,6 @@ export function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditCh
 
       {/* Leaderboard */}
       <LeaderboardCard />
-
-      {/* FAQ */}
-      <FaqCard />
 
       {/* Child tabs + add button */}
       <div className="flex gap-2 overflow-x-auto pb-1" style={{ scrollbarWidth: 'none' }}>
