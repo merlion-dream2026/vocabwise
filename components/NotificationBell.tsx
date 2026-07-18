@@ -64,10 +64,11 @@ export default function NotificationBell() {
         aria-label="Thông báo"
         aria-haspopup="true"
         aria-expanded={open}
-        className="relative w-10 h-10 flex items-center justify-center rounded-full bg-white/80 backdrop-blur-sm shadow-sm active:scale-95 transition-transform"
+        className="relative w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-full bg-white/80 backdrop-blur-sm shadow-sm active:scale-95 transition-transform"
       >
         <span className="text-xl">🔔</span>
         {unreadCount > 0 && (
+          // text-[9px] intentional here — numeral inside a fixed 16px dot, no room for text-xs
           <span className="absolute top-1 right-1 min-w-[16px] h-4 px-1 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 text-white text-[9px] font-black flex items-center justify-center leading-none">
             {unreadCount > 9 ? '9+' : unreadCount}
           </span>
@@ -87,7 +88,7 @@ export default function NotificationBell() {
               <div className="w-9 h-1 rounded-full bg-gray-200" />
             </div>
             <div className="flex items-center justify-between px-4 py-2 flex-shrink-0">
-              <span className="text-[11px] font-black tracking-widest uppercase text-gray-400">Thông báo</span>
+              <span className="text-xs font-black tracking-widest uppercase text-gray-400">Thông báo</span>
               {unreadCount > 0 && (
                 <button onClick={handleReadAll} className="text-xs font-bold text-purple-500">
                   Đánh dấu đã đọc
@@ -110,7 +111,7 @@ export default function NotificationBell() {
                   <div className="min-w-0 flex-1">
                     <p className="font-bold text-sm text-gray-800 leading-snug">{n.title}</p>
                     <p className="text-xs text-gray-500 mt-0.5 leading-snug">{n.body}</p>
-                    <p className="text-[10px] text-gray-300 mt-1 font-semibold">{timeAgo(n.created_at)}</p>
+                    <p className="text-xs text-gray-300 mt-1 font-semibold">{timeAgo(n.created_at)}</p>
                   </div>
                 </button>
               ))}

@@ -190,7 +190,7 @@ export default function BottomNav() {
                 ? <Image src={getAvatarSrc(childInfo.emoji)} fill className="object-cover" alt="" unoptimized />
                 : <span className="text-xl">👤</span>}
             </span>
-            <span className={`text-[10px] font-bold leading-none tracking-tight transition-colors duration-100 truncate max-w-[56px] ${
+            <span className={`text-xs font-bold leading-none tracking-tight transition-colors duration-100 truncate max-w-[56px] ${
               profileActive ? 'text-purple-600' : 'text-gray-400'
             }`}>
               {childInfo?.name ?? 'Hồ sơ'}
@@ -219,7 +219,7 @@ export default function BottomNav() {
                 >
                   {icon}
                 </span>
-                <span className={`text-[9px] font-bold leading-none tracking-tight transition-colors duration-100 ${
+                <span className={`text-xs font-bold leading-none tracking-tight transition-colors duration-100 w-full text-center truncate px-0.5 ${
                   isActive ? 'text-purple-600' : isDim ? 'text-gray-300' : 'text-gray-400'
                 }`}>
                   {label}

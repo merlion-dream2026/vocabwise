@@ -38,7 +38,7 @@ function PlanBadge({ plan, planEndDate }: { plan: string; planEndDate?: string |
     ? { label: 'HẾT HẠN', cls: 'bg-red-100 text-red-500' }
     : (PLAN_BADGE[plan] ?? PLAN_BADGE.free)
   return (
-    <span className={`text-[10px] font-black px-2 py-0.5 rounded-full ${cfg.cls}`}>
+    <span className={`text-xs font-black px-2 py-0.5 rounded-full ${cfg.cls}`}>
       {cfg.label}
     </span>
   )
@@ -165,31 +165,33 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 px-4 pt-5 pb-nav flex flex-col items-center">
-      <UpgradeBanner
-        plan={session?.plan ?? 'free'}
-        freeTrialExpiresAt={session?.free_trial_expires_at}
-        planEndDate={session?.plan_end_date}
-      />
-
-      {/* Header row: title + slogan left, parent button + plan badge right */}
-      <div className="w-full max-w-sm mb-5 flex items-start justify-between">
-        <div>
-          <div className="flex items-center gap-2">
-            <span className="text-3xl leading-none">🌟</span>
-            <h1 className="text-3xl font-black text-gray-800 tracking-tight">VocabWise</h1>
+      {/* Header row: title left, upgrade pill + parent button right — tight to slogan below */}
+      <div className="w-full max-w-sm mb-5">
+        <div className="flex items-center justify-between gap-2">
+          <div className="flex items-center gap-2 min-w-0">
+            <span className="text-3xl leading-none flex-shrink-0">🌟</span>
+            <h1 className="text-3xl font-black text-gray-800 tracking-tight truncate">VocabWise</h1>
           </div>
-          <p className="text-gray-500 text-sm font-semibold mt-1 leading-snug">
+          <div className="flex items-center gap-2 flex-shrink-0">
+            <UpgradeBanner
+              variant="inline"
+              plan={session?.plan ?? 'free'}
+              freeTrialExpiresAt={session?.free_trial_expires_at}
+              planEndDate={session?.plan_end_date}
+            />
+            <button
+              onClick={() => router.push('/dashboard')}
+              className="w-10 h-10 flex-shrink-0 rounded-full bg-white/80 backdrop-blur-sm shadow-md flex items-center justify-center text-xl hover:bg-white transition-colors"
+              title="Phụ huynh"
+            >
+              👨‍👩
+            </button>
+          </div>
+        </div>
+        <div className="flex items-center justify-between gap-2 mt-1">
+          <p className="text-gray-500 text-sm font-semibold leading-snug">
             Từ vựng tiếng Anh — vui học mỗi ngày
           </p>
-        </div>
-        <div className="flex flex-col items-end gap-1.5 flex-shrink-0 ml-3 pt-0.5">
-          <button
-            onClick={() => router.push('/dashboard')}
-            className="w-10 h-10 rounded-full bg-white/80 backdrop-blur-sm shadow-md flex items-center justify-center text-xl hover:bg-white transition-colors"
-            title="Phụ huynh"
-          >
-            👨‍👩
-          </button>
           {session && <PlanBadge plan={session.plan} planEndDate={session.plan_end_date} />}
         </div>
       </div>
@@ -235,7 +237,7 @@ export default function HomePage() {
                     {child.name}
                     {child.pin && <span className="text-sm">🔒</span>}
                   </span>
-                  <span className={`text-[11px] font-black px-2 py-0.5 rounded-full ${cfg.badge}`}>
+                  <span className={`text-xs font-black px-2 py-0.5 rounded-full ${cfg.badge}`}>
                     {levelLabel}
                   </span>
                 </button>
@@ -269,14 +271,14 @@ export default function HomePage() {
             onClick={() => { setForgotOpen(true); setForgotState('idle'); setForgotUsername('') }}
             className="text-gray-400 text-xs font-semibold hover:text-gray-600 transition-colors"
           >
-            Quên mật khẩu?
+            🔑 Quên mật khẩu?
           </button>
           <span className="text-gray-200">·</span>
           <button
             onClick={logout}
             className="text-gray-400 text-xs font-semibold hover:text-gray-600 transition-colors"
           >
-            Đăng xuất
+            🚪 Đăng xuất
           </button>
         </div>
       </div>

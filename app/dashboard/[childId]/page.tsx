@@ -125,31 +125,25 @@ export default function ChildRoadmap() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 px-4 py-6">
-      <UpgradeBanner
-        plan={session?.plan ?? 'free'}
-        freeTrialExpiresAt={session?.free_trial_expires_at}
-        planEndDate={session?.plan_end_date}
-        username={session?.username}
-      />
-      <div className="fixed top-4 right-4 z-30">
-        <NotificationBell />
-      </div>
       {/* Header */}
       <div className="flex items-center gap-3 mb-6 max-w-lg mx-auto">
         <button onClick={() => router.push('/kids')} aria-label="Quay lại" className="text-gray-400 hover:text-gray-600 text-2xl font-bold leading-none">←</button>
         <Image src={getAvatarSrc(child!.emoji)} width={40} height={40} className="rounded-full object-cover flex-shrink-0" alt="" unoptimized />
-        <div>
-          <h1 className="text-xl font-black text-gray-800 leading-tight">{child!.name}</h1>
+        <div className="flex-1 min-w-0">
+          <h1 className="text-xl font-black text-gray-800 leading-tight truncate">{child!.name}</h1>
           <p className="text-gray-400 text-xs font-semibold">Chọn module để học</p>
         </div>
+        <UpgradeBanner
+          variant="inline"
+          plan={session?.plan ?? 'free'}
+          freeTrialExpiresAt={session?.free_trial_expires_at}
+          planEndDate={session?.plan_end_date}
+          username={session?.username}
+        />
+        <NotificationBell />
       </div>
 
       <ChildStatsCard child={child!} sync={syncByLevel as SyncAllLevels} />
-
-      {/* Kid FAQ */}
-      <div className="max-w-lg mx-auto mb-4">
-        <KidFaqSection />
-      </div>
 
       <div className="space-y-3 max-w-lg mx-auto">
         <ModuleCard
@@ -191,6 +185,11 @@ export default function ChildRoadmap() {
         <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
           <LearningHistoryPanel syncByLevel={syncByLevel as Record<string, { history?: Record<string, { words: number; games: number; xp: number; topics?: number; topicIds?: string[] }> } | undefined>} />
         </div>
+      </div>
+
+      {/* Kid FAQ */}
+      <div className="max-w-lg mx-auto mt-3 mb-4">
+        <KidFaqSection />
       </div>
     </div>
   )

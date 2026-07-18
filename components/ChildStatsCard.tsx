@@ -57,17 +57,17 @@ export default function ChildStatsCard({ child, sync }: { child: Child; sync: Sy
           <span className="text-xs font-black text-yellow-600">⭐ {totalXP.toLocaleString()} XP</span>
         )}
         {badge && (
-          <span className={`text-[11px] font-black px-1.5 py-0.5 rounded-full ${badge.cls}`}>
+          <span className={`text-xs font-black px-1.5 py-0.5 rounded-full ${badge.cls}`}>
             {badge.icon} {badge.label}
           </span>
         )}
         {streakBadge && (
-          <span className={`inline-flex items-center gap-0.5 text-[11px] font-black px-1.5 py-0.5 rounded-full ${streakBadge.cls}`}>
+          <span className={`inline-flex items-center gap-0.5 text-xs font-black px-1.5 py-0.5 rounded-full ${streakBadge.cls}`}>
             {streakBadge.icon} {streakBadge.label}
           </span>
         )}
         {profileBadges.map(b => (
-          <span key={b.id} className="text-[11px] font-black px-1.5 py-0.5 rounded-full bg-gray-100 text-gray-500">
+          <span key={b.id} className="text-xs font-black px-1.5 py-0.5 rounded-full bg-gray-100 text-gray-500">
             {b.emoji} {b.name}
           </span>
         ))}
@@ -77,7 +77,7 @@ export default function ChildStatsCard({ child, sync }: { child: Child; sync: Sy
           <div className="h-1.5 bg-purple-50 rounded-full overflow-hidden">
             <div className="h-full bg-yellow-400 rounded-full transition-all duration-500" style={{ width: `${xpPct}%` }} />
           </div>
-          <p className="text-[10px] text-gray-400 font-semibold mt-1">
+          <p className="text-xs text-gray-400 font-semibold mt-1">
             {totalXP.toLocaleString()} / {nextXPBadge.minXP.toLocaleString()} XP → {nextXPBadge.icon} {nextXPBadge.label}
           </p>
         </div>

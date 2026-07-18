@@ -72,8 +72,8 @@ export default function BangThanhTich({ entries, variant = 'dashboard' }: Props)
   const isTie  = data.filter(d => d.xp === topXp).length > 1 && topXp > 0
 
   const btnRadius  = variant === 'kids' ? 'rounded-3xl shadow-lg' : 'rounded-2xl shadow-sm'
-  const emojiSize  = variant === 'kids' ? 'text-4xl' : 'text-3xl'
-  const titleSize  = variant === 'kids' ? 'text-lg' : 'text-base'
+  const emojiSize  = 'text-3xl'
+  const titleSize  = 'text-base'
 
   return (
     <>
