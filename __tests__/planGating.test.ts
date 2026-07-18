@@ -200,8 +200,8 @@ describe('getAISpeakLimit', () => {
     expect(getAISpeakLimit(freeTrial)).toBe(10)
   })
 
-  it('pro1 → 30/day', () => {
-    expect(getAISpeakLimit(pro1)).toBe(30)
+  it('pro1 → 40/day', () => {
+    expect(getAISpeakLimit(pro1)).toBe(40)
   })
 
   it('pro3 → null (unlimited)', () => {
