@@ -165,11 +165,22 @@ export default function SentenceOrderGame({ topic, level, backUrl }: Props) {
             </div>
             <button onClick={() => speak(q.word.word)} className="ml-auto bg-indigo-100 text-indigo-600 w-9 h-9 rounded-xl text-lg flex items-center justify-center active:scale-90 transition-all">🔊</button>
           </div>
-          <button onClick={() => setShowHint(h => !h)} className="mt-2 text-xs text-indigo-500 font-semibold">
-            {showHint ? '🙈 Ẩn gợi ý' : '💡 Xem nghĩa câu'}
-          </button>
-          {showHint && <p className="mt-1 text-sm text-gray-500 italic">{q.viHint}</p>}
         </div>
+
+        {/* Token pool */}
+        {!submitted && (
+          <div className="bg-white rounded-2xl p-4 shadow-sm">
+            <p className="text-xs font-bold text-gray-500 mb-2">Danh sách từ:</p>
+            <div className="flex flex-wrap gap-2">
+              {remaining.map(token => (
+                <button key={token.id} onClick={() => tapToken(token)}
+                  className="bg-indigo-50 border-2 border-indigo-200 text-indigo-700 px-3 py-1.5 rounded-xl font-bold text-sm transition-all active:scale-90">
+                  {token.text}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Answer area */}
         <div className={`bg-white rounded-2xl p-4 shadow-sm min-h-[72px] border-2 transition-colors
@@ -204,20 +215,13 @@ export default function SentenceOrderGame({ topic, level, backUrl }: Props) {
           )}
         </div>
 
-        {/* Token pool */}
-        {!submitted && (
-          <div className="bg-white rounded-2xl p-4 shadow-sm">
-            <p className="text-xs font-bold text-gray-500 mb-2">Các từ:</p>
-            <div className="flex flex-wrap gap-2">
-              {remaining.map(token => (
-                <button key={token.id} onClick={() => tapToken(token)}
-                  className="bg-indigo-50 border-2 border-indigo-200 text-indigo-700 px-3 py-1.5 rounded-xl font-bold text-sm transition-all active:scale-90">
-                  {token.text}
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
+        {/* Hint */}
+        <div className="bg-white rounded-2xl p-4 shadow-sm">
+          <button onClick={() => setShowHint(h => !h)} className="text-xs text-indigo-500 font-semibold">
+            {showHint ? '🙈 Ẩn gợi ý' : '💡 Xem gợi ý'}
+          </button>
+          {showHint && <p className="mt-1 text-sm text-gray-500 italic">{q.viHint}</p>}
+        </div>
 
         {/* Action button */}
         {!submitted ? (
