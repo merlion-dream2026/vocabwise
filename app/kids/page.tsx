@@ -410,14 +410,14 @@ export default function HomePage() {
             onClick={() => { setForgotOpen(true); setForgotState('idle'); setForgotUsername('') }}
             className="text-gray-400 text-xs font-semibold hover:text-gray-600 transition-colors"
           >
-            Quên mật khẩu?
+            🔑 Quên mật khẩu?
           </button>
           <span className="text-gray-200">·</span>
           <button
             onClick={logout}
             className="text-gray-400 text-xs font-semibold hover:text-gray-600 transition-colors"
           >
-            Đăng xuất
+            🚪 Đăng xuất
           </button>
         </div>
       </div>
