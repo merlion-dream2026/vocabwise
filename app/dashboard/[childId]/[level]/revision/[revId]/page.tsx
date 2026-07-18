@@ -318,14 +318,14 @@ export default function KidsRevisionPage() {
   }, [level, revId])
 
   useEffect(() => {
-    fetch(`/api/words/${level}`)
+    fetch(`/api/words/${level}/revision/${revId}`)
       .then(r => r.ok ? r.json() : null)
       .then(data => {
         if (!data?.topics) { router.back(); return }
-        const startIdx = (revNum - 1) * 5
-        const fiveTopics = (data.topics as { name: string; words: WordItem[] }[]).slice(startIdx, startIdx + 5)
+        const fiveTopics = data.topics as { name: string; words: WordItem[] }[]
         if (!fiveTopics.length) { router.back(); return }
 
+        const startIdx = (revNum - 1) * 5
         const start = startIdx + 1
         const end   = startIdx + fiveTopics.length
         setTopicRange(`${start}–${end}`)

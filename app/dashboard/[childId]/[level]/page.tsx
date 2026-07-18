@@ -9,7 +9,7 @@ import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
 import UpgradePaymentModal from '@/components/UpgradeModal'
 import ExpiryBanner from '@/components/ExpiryBanner'
-import { getEffectivePlan, getOfflineDownloadLimit, getKidsTopicLimit } from '@/lib/planUtils'
+import { getEffectivePlan, getOfflineDownloadLimit, getKidsTopicLimit, getRevisionLimit } from '@/lib/planUtils'
 import OfflineDailyDownloadButton from '@/components/OfflineDailyDownloadButton'
 import { getDownloadedCount } from '@/lib/useOfflineDownload'
 import { cachedFetch } from '@/lib/cachedFetch'
@@ -206,6 +206,7 @@ export default function LevelTopicsPage() {
   const isPaid = kidsLimit === null
   const isProForDl = getEffectivePlan(session!).isProActive
   const dlLimit = getOfflineDownloadLimit(session!)
+  const revLimit = getRevisionLimit(session!)
   const colors = LEVEL_COLORS[level] ?? LEVEL_COLORS.explorer
 
   function renderRevCard(revNum: number) {
@@ -213,30 +214,33 @@ export default function LevelTopicsPage() {
     const endT   = revNum * 5
     const rid    = `r${String(revNum).padStart(2, '0')}`
     const score  = revScores[rid]
-    return (
-      <Link href={`/dashboard/${childId}/${level}/revision/${rid}`}
-        className={`block ${score ? 'bg-green-500' : colors.header} rounded-2xl px-4 py-3 shadow-md active:scale-[0.98] transition-all`}>
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2.5 min-w-0">
-            <span className="text-xl flex-shrink-0">{score ? '✅' : '✨'}</span>
-            <div className="min-w-0">
-              <p className="font-black text-white text-sm leading-snug">Revision: Topics {startT}–{endT}</p>
-              <p className="text-white/80 text-xs mt-0.5">30 câu · 3 dạng bài</p>
-            </div>
-          </div>
-          <div className="flex items-center gap-2 flex-shrink-0 ml-2">
-            {score ? (
-              <>
-                <span className="text-xs font-black bg-white/30 text-white px-2 py-0.5 rounded-full">Xong · {score.score}/{score.max}</span>
-              </>
-            ) : (
-              <span className="text-xs font-black bg-white/20 text-white px-2 py-0.5 rounded-full">REVISION</span>
-            )}
-            <span className="text-white/70 text-sm">›</span>
+    const locked = revLimit !== null && revNum > revLimit
+
+    const content = (
+      <div className="flex items-center justify-between">
+        <div className="flex items-center gap-2.5 min-w-0">
+          <span className="text-xl flex-shrink-0">{locked ? '🔒' : score ? '✅' : '✨'}</span>
+          <div className="min-w-0">
+            <p className="font-black text-white text-sm leading-snug">Revision: Topics {startT}–{endT}</p>
+            <p className="text-white/80 text-xs mt-0.5">{locked ? 'Nâng cấp Pro để mở' : '30 câu · 3 dạng bài'}</p>
           </div>
         </div>
-      </Link>
+        <div className="flex items-center gap-2 flex-shrink-0 ml-2">
+          {locked ? null : score ? (
+            <span className="text-xs font-black bg-white/30 text-white px-2 py-0.5 rounded-full">Xong · {score.score}/{score.max}</span>
+          ) : (
+            <span className="text-xs font-black bg-white/20 text-white px-2 py-0.5 rounded-full">REVISION</span>
+          )}
+          <span className="text-white/70 text-sm">›</span>
+        </div>
+      </div>
     )
+
+    const cls = `block ${locked ? 'bg-gray-300 opacity-70' : score ? 'bg-green-500' : colors.header} rounded-2xl px-4 py-3 shadow-md active:scale-[0.98] transition-all`
+    if (locked) {
+      return <button onClick={() => setShowUpgrade(true)} className={`w-full text-left ${cls}`}>{content}</button>
+    }
+    return <Link href={`/dashboard/${childId}/${level}/revision/${rid}`} className={cls}>{content}</Link>
   }
   const levelInfo = LEVEL_LABELS[level] ?? { label: level, cefr: '' }
   const totalWeak = weakKeys.size

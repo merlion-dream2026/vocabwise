@@ -6,7 +6,7 @@ import UpgradeModal from '@/components/UpgradeModal'
 import UpgradeBanner from '@/components/UpgradeBanner'
 import CertificateModal from '@/components/vocabwise/CertificateModal'
 import OfflineDownloadButton from '@/components/OfflineDownloadButton'
-import { getEffectivePlan, getOfflineDownloadLimit, getAcademicTopicLimit } from '@/lib/planUtils'
+import { getEffectivePlan, getOfflineDownloadLimit, getAcademicTopicLimit, getRevisionLimit } from '@/lib/planUtils'
 import { getDownloadedCount } from '@/lib/useOfflineDownload'
 import { cachedFetch } from '@/lib/cachedFetch'
 
@@ -39,33 +39,37 @@ const BOOK_CARD_DONE: Record<string, string> = {
   book3: 'bg-purple-50 border-purple-300',
 }
 
-function RevisionCard({ book, revNum, score }: { book: string; revNum: number; score?: { score: number; max: number } }) {
+function RevisionCard({ book, revNum, score, locked, onLocked }: {
+  book: string; revNum: number; score?: { score: number; max: number }; locked: boolean; onLocked: () => void
+}) {
   const startT  = (revNum - 1) * 5 + 1
   const endT    = revNum * 5
   const rid     = `r${String(revNum).padStart(2, '0')}`
   const grad    = NUM_GRAD[book] ?? 'from-blue-400 to-indigo-500'
-  return (
-    <Link href={`/vocabwise/${book}/revision/${rid}`}
-      className={`block bg-gradient-to-r ${grad} rounded-2xl px-4 py-3 shadow-md active:scale-[0.98] transition-all`}>
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-2.5 min-w-0">
-          <span className="text-xl flex-shrink-0">✨</span>
-          <div className="min-w-0">
-            <p className="font-black text-white text-sm leading-snug">Revision: Topics {startT}–{endT}</p>
-            <p className="text-white/80 text-xs mt-0.5">30 câu · 3 dạng bài</p>
-          </div>
-        </div>
-        <div className="flex items-center gap-2 flex-shrink-0 ml-2">
-          {score ? (
-            <span className="text-xs font-black bg-white/30 text-white px-2 py-0.5 rounded-full">{score.score}/{score.max}</span>
-          ) : (
-            <span className="text-xs font-black bg-white/20 text-white px-2 py-0.5 rounded-full">REVISION</span>
-          )}
-          <span className="text-white/70 text-sm">›</span>
+
+  const content = (
+    <div className="flex items-center justify-between">
+      <div className="flex items-center gap-2.5 min-w-0">
+        <span className="text-xl flex-shrink-0">{locked ? '🔒' : '✨'}</span>
+        <div className="min-w-0">
+          <p className="font-black text-white text-sm leading-snug">Revision: Topics {startT}–{endT}</p>
+          <p className="text-white/80 text-xs mt-0.5">{locked ? 'Nâng cấp Pro để mở' : '30 câu · 3 dạng bài'}</p>
         </div>
       </div>
-    </Link>
+      <div className="flex items-center gap-2 flex-shrink-0 ml-2">
+        {locked ? null : score ? (
+          <span className="text-xs font-black bg-white/30 text-white px-2 py-0.5 rounded-full">{score.score}/{score.max}</span>
+        ) : (
+          <span className="text-xs font-black bg-white/20 text-white px-2 py-0.5 rounded-full">REVISION</span>
+        )}
+        <span className="text-white/70 text-sm">›</span>
+      </div>
+    </div>
   )
+
+  const cls = `block bg-gradient-to-r ${locked ? 'from-gray-300 to-gray-400 opacity-70' : grad} rounded-2xl px-4 py-3 shadow-md active:scale-[0.98] transition-all`
+  if (locked) return <button onClick={onLocked} className={`w-full text-left ${cls}`}>{content}</button>
+  return <Link href={`/vocabwise/${book}/revision/${rid}`} className={cls}>{content}</Link>
 }
 
 export default function BookPageClient({ book, info, topics, byTheme }: Props) {
@@ -172,6 +176,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
 
   // ─── Derived state ──────────────────────────────────────────────────────────
   const academicLimit = session ? getAcademicTopicLimit(session) : null
+  const revLimit      = session ? getRevisionLimit(session) : null
   const isPaid       = !session || academicLimit === null
   const isProForDl   = !!(session && getEffectivePlan(session).isProActive)
   const dlLimit      = session ? getOfflineDownloadLimit(session) : 0
@@ -505,7 +510,8 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                           {topicCard}
                           {isRevPoint && (
                             <div className="col-span-2">
-                              <RevisionCard book={book} revNum={revNum} score={revScores[rid]} />
+                              <RevisionCard book={book} revNum={revNum} score={revScores[rid]}
+                                locked={revLimit !== null && revNum > revLimit} onLocked={() => setShowUpgrade(true)} />
                             </div>
                           )}
                         </React.Fragment>
@@ -569,7 +575,8 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                 </button>
                 {isRevPoint && (
                   <div className="px-3 py-2 bg-amber-50">
-                    <RevisionCard book={book} revNum={revNum} score={revScores[rid]} />
+                    <RevisionCard book={book} revNum={revNum} score={revScores[rid]}
+                      locked={revLimit !== null && revNum > revLimit} onLocked={() => setShowUpgrade(true)} />
                   </div>
                 )}
                 </React.Fragment>
