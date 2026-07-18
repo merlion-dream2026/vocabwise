@@ -4,6 +4,11 @@ import { useRouter, useParams } from 'next/navigation'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import GameSoundToggle from '@/components/GameSoundToggle'
 import { pickTestSet, TEST_SET_COUNT } from '@/lib/testSetRotation'
+import UpgradeModal from '@/components/UpgradeModal'
+import { getEffectivePlan } from '@/lib/planUtils'
+import { cachedFetch } from '@/lib/cachedFetch'
+
+type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; bonus_features?: string[] | null }
 
 type GlossaryItem = { word: string; pos: string | null; meaning_vi: string; example_en: string; example_vi: string; topic_id: string; cefr_level: string | null }
 type MCQQuestion = { word: string; pos: string | null; correct: string; options: string[] }
@@ -449,8 +454,18 @@ export default function ModuleTestPage() {
   const [match1Score, setMatch1Score] = useState(0)
   const [match2Score, setMatch2Score] = useState(0)
   const [productionScore, setProductionScore] = useState(0)
+  const [session, setSession] = useState<Session | null>(null)
+  const [sessionLoaded, setSessionLoaded] = useState(false)
 
   useEffect(() => {
+    cachedFetch('/api/auth/me').then(r => r.ok ? r.json() : null).then((s) => {
+      setSession(s as Session | null)
+      setSessionLoaded(true)
+    })
+  }, [])
+
+  useEffect(() => {
+    if (!sessionLoaded || !(session && getEffectivePlan(session).isProActive)) return
     Promise.all([
       fetch(`/api/vocabwise/module-test?book=${book}`).then(r => r.ok ? r.json() : null),
       fetch('/api/vocabwise/sync').then(r => r.ok ? r.json() : null).catch(() => null),
@@ -465,7 +480,8 @@ export default function ModuleTestPage() {
       setQuestions(buildQuestions(pickTestSet(data.glossary, currentAttempt)))
       setPhase('intro')
     }).catch(() => router.back())
-  }, [book, router])
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [book, router, sessionLoaded, session])
 
   const saveScore = useCallback((total: number) => {
     const value = { score: total, max: TOTAL_MAX, date: new Date().toISOString().split('T')[0], attempt: attempt + 1 }
@@ -475,6 +491,18 @@ export default function ModuleTestPage() {
       body: JSON.stringify({ revision_score_key: `${book}_test`, revision_score_value: value }),
     }).catch(() => {})
   }, [book, attempt])
+
+  if (!sessionLoaded) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-amber-50 to-yellow-50 flex items-center justify-center">
+        <div className="text-4xl animate-pulse">🏆</div>
+      </div>
+    )
+  }
+
+  if (!(session && getEffectivePlan(session).isProActive)) {
+    return <UpgradeModal onClose={() => router.back()} username={session?.username ?? ''} />
+  }
 
   if (phase === 'loading') {
     return (

@@ -585,30 +585,46 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
           </div>
         )}
 
-        {/* Module Test — final test spanning the whole book */}
+        {/* Module Test — final test spanning the whole book, Pro-only */}
         {topics.length > 0 && (
-          <Link href={`/vocabwise/${book}/module-test`}
-            className="block bg-gradient-to-r from-amber-400 to-yellow-500 rounded-2xl px-4 py-3.5 shadow-md active:scale-[0.98] transition-all mb-5">
-            <div className="flex items-center justify-between">
-              <div className="flex items-center gap-2.5 min-w-0">
-                <span className="text-2xl flex-shrink-0">🏆</span>
-                <div className="min-w-0">
-                  <p className="font-black text-white text-sm leading-snug">Module Test — {info.title}</p>
-                  <p className="text-white/80 text-xs mt-0.5">44 câu · Tổng kết toàn bộ book</p>
+          isPaid ? (
+            <Link href={`/vocabwise/${book}/module-test`}
+              className="block bg-gradient-to-r from-amber-400 to-yellow-500 rounded-2xl px-4 py-3.5 shadow-md active:scale-[0.98] transition-all mb-5">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2.5 min-w-0">
+                  <span className="text-2xl flex-shrink-0">🏆</span>
+                  <div className="min-w-0">
+                    <p className="font-black text-white text-sm leading-snug">Module Test — {info.title}</p>
+                    <p className="text-white/80 text-xs mt-0.5">44 câu · Tổng kết toàn bộ book</p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2 flex-shrink-0 ml-2">
+                  {revScores[`${book}_test`] ? (
+                    <span className="text-xs font-black bg-white/30 text-white px-2 py-0.5 rounded-full">
+                      {revScores[`${book}_test`].score}/{revScores[`${book}_test`].max}
+                    </span>
+                  ) : (
+                    <span className="text-xs font-black bg-white/20 text-white px-2 py-0.5 rounded-full">MODULE TEST</span>
+                  )}
+                  <span className="text-white/70 text-sm">›</span>
                 </div>
               </div>
-              <div className="flex items-center gap-2 flex-shrink-0 ml-2">
-                {revScores[`${book}_test`] ? (
-                  <span className="text-xs font-black bg-white/30 text-white px-2 py-0.5 rounded-full">
-                    {revScores[`${book}_test`].score}/{revScores[`${book}_test`].max}
-                  </span>
-                ) : (
-                  <span className="text-xs font-black bg-white/20 text-white px-2 py-0.5 rounded-full">MODULE TEST</span>
-                )}
+            </Link>
+          ) : (
+            <button onClick={() => setShowUpgrade(true)}
+              className="w-full text-left block bg-gray-300 opacity-70 rounded-2xl px-4 py-3.5 shadow-md active:scale-[0.98] transition-all mb-5">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2.5 min-w-0">
+                  <span className="text-2xl flex-shrink-0">🔒</span>
+                  <div className="min-w-0">
+                    <p className="font-black text-white text-sm leading-snug">Module Test — {info.title}</p>
+                    <p className="text-white/80 text-xs mt-0.5">Nâng cấp Pro để mở</p>
+                  </div>
+                </div>
                 <span className="text-white/70 text-sm">›</span>
               </div>
-            </div>
-          </Link>
+            </button>
+          )
         )}
 
       </div>
