@@ -18,8 +18,8 @@
 ## Business Model
 | Plan | Giá | Bé | Gating đặc biệt |
 |---|---|---|---|
-| Free | 0đ | 1 | 7 ngày trial |
-| Pro 1 tháng | 59.000đ | 2 | AI Speak 30/ngày · email thủ công |
+| Free | 0đ | 1 | 7 ngày trial (xem bảng Feature Gating) |
+| Pro 1 tháng | 59.000đ | 2 | AI Speak 40/ngày · email thủ công |
 | Pro 3 tháng | 159.000đ | 3 | AI Speak ∞ · Word Stress · email auto tuần |
 | Pro 6 tháng | 299.000đ | 3 | + Monthly recap · Gift Pro 14 ngày |
 
@@ -27,24 +27,28 @@ Payment: chuyển khoản thủ công → admin kích hoạt qua Superadmin UI.
 
 ## Feature Gating — nguồn duy nhất: `lib/planUtils.ts`
 
-| Tính năng | Free | Pro 1T | Pro 3T | Pro 6T |
-|---|---|---|---|---|
-| Kids topics | 1/level | ✅ Full | ✅ Full | ✅ Full |
-| Academic topics | 1/book | ✅ Full | ✅ Full | ✅ Full |
-| Phonics IPA | 1 bài (vowels-short idx 0) | ✅ Full | ✅ Full | ✅ Full |
-| Word Stress | ❌ | ❌ | ✅ | ✅ |
-| My Words | 20 từ | ✅ | ✅ | ✅ |
-| SRS ôn từ yếu | 20 từ | ✅ | ✅ | ✅ |
-| Offline download | 0 | 20 topic | ∞ | ∞ |
-| AI Speak | 5/ngày | 30/ngày | ∞ | ∞ |
-| Push notification | ❌ | ✅ | ✅ | ✅ |
-| Email report | ❌ | Thủ công | Auto tuần | Auto tuần |
-| Monthly recap | ❌ | ❌ | ❌ | ✅ |
-| Gift Pro 14 ngày | ❌ | ❌ | ❌ | ✅ |
+Trial 7 ngày **không** phải reverse-trial toàn phần — chỉ mở đúng vài mục bên dưới (preview), các mục khác giữ nguyên mức Free ngay từ ngày 1. Hết 7 ngày mà chưa nâng cấp: 3 mục preview (topic/revision/Phonics/AI Speak) khoá về **0** — chặt hơn cả giai đoạn trial, chống scrape nội dung bằng tài khoản free lặp lại.
 
-Gate helpers (`lib/planUtils.ts`): `getPlanTier()`, `getEffectivePlan()`, `canAccessPhonicsLesson()`, `canAccessWordStress()`, `getMyWordsLimit()`, `getSRSLimit()`, `getOfflineDownloadLimit()`, `getAISpeakLimit()`. ⚠️ `canAccessMyWords()`/`canAccessSRS()` luôn `true` — limit thật nằm ở `getMyWordsLimit()`/`getSRSLimit()`, tên hàm dễ gây hiểu lầm.
+| Tính năng | Trial 7 ngày | Free (hết trial) | Pro 1T | Pro 3T | Pro 6T |
+|---|---|---|---|---|---|
+| Kids topics | 1/level | 0 (khoá) | ✅ Full | ✅ Full | ✅ Full |
+| Academic topics | 1/book | 0 (khoá) | ✅ Full | ✅ Full | ✅ Full |
+| Revision test (Daily r01 / Academic rev1) | 1 đầu tiên | 0 (khoá) | ✅ Full | ✅ Full | ✅ Full |
+| Phonics IPA | 1 bài (vowels-short idx 0) | 0 (khoá) | ✅ Full | ✅ Full | ✅ Full |
+| Level Test / Module Test | ❌ | ❌ | ✅ | ✅ | ✅ |
+| Word Stress | ❌ | ❌ | ❌ | ✅ | ✅ |
+| My Words | 20 từ | 20 từ | ✅ ∞ | ✅ ∞ | ✅ ∞ |
+| SRS ôn từ yếu | 20 từ | 20 từ | ✅ ∞ | ✅ ∞ | ✅ ∞ |
+| Offline download | 0 | 0 | 20 topic | ∞ | ∞ |
+| AI Speak | 10/ngày | 0 | 40/ngày | ∞ | ∞ |
+| Push notification | ❌ | ❌ | ✅ | ✅ | ✅ |
+| Email report | ❌ | ❌ | Thủ công | Auto tuần | Auto tuần |
+| Monthly recap | ❌ | ❌ | ❌ | ❌ | ✅ |
+| Gift Pro 14 ngày | ❌ | ❌ | ❌ | ❌ | ✅ |
 
-⚠️ **Không phải mọi route đều gate qua `planUtils.ts`:** `report/settings` và `cron/monthly-recap` hiện so trực tiếp `plan==='6months'` thay vì gọi `getEffectivePlan()` → family có Pro qua bonus/referral bị bỏ sót Monthly Recap (bug đang mở, xem memory `project_security_critical_2026_07`).
+Gate helpers (`lib/planUtils.ts`): `getPlanTier()`, `getEffectivePlan()`, `canAccessPhonicsLesson()`, `canAccessWordStress()`, `getMyWordsLimit()`, `getSRSLimit()`, `getKidsTopicLimit()`, `getAcademicTopicLimit()`, `getRevisionLimit()`, `getOfflineDownloadLimit()`, `getAISpeakLimit()`. ⚠️ `canAccessMyWords()`/`canAccessSRS()` luôn `true` — limit thật nằm ở `getMyWordsLimit()`/`getSRSLimit()`, tên hàm dễ gây hiểu lầm.
+
+Mọi route content-serving đều gate ở server bằng data DB tươi (`getFamilyProfile()`/Supabase query trực tiếp) — **không** dựa vào `session.plan` từ JWT (cookie sống 30 ngày, có thể stale qua ngày hết hạn paid plan) và không dựa riêng vào UI ẩn. `report/settings`/`cron/monthly-recap` đã dùng `getPlanTier()` đúng chuẩn (không còn hardcode `plan==='6months'`).
 
 Gating phụ thuộc DB — fetch `/api/auth/me` với `cache: 'no-store'` để áp dụng ngay khi superadmin đổi plan.
 
@@ -53,7 +57,7 @@ Gating phụ thuộc DB — fetch `/api/auth/me` với `cache: 'no-store'` để
   - ⚠️ **Luôn sửa ở `/data/words/{level}.json` rồi chạy `node scripts/split-words-per-topic.js`** — KHÔNG sửa trực tiếp `/data/words/{level}/{topicId}.json` (180 file). Các file này là bản tách tự động phục vụ `/api/words/[level]/[topicId]` (topic/game page tải nhanh); sửa trực tiếp sẽ lệch với file gốc (trang danh sách level, revision, review, srs vẫn đọc file gốc) và bị ghi đè mất khi script chạy lại lần sau.
 - **Academic:** `/data/vocabwise/book{1,2,3}/b{N}-t{NN}.json` → seeded qua `scripts/vw-seed.js` → Supabase · Exercise system: 5 bài chính × 5 câu (E1,E3–E8 tuỳ book) + 1 bài bonus 10 câu (xoay vòng ECategorize/EOddOneOut/ESDSameDiff/ESynSub) = **35 câu/topic**. `answer_key` chỉ cover 5 bài chính.
 - **Word Plans (nguồn duy nhất):** `/data/word-plans/*.csv` — **luôn đọc CSV trước khi tạo/sửa JSON content**, không tự đặt titles hay vocab. Format: `book, theme_no, theme_title, topic_no, topic_id, topic_title, w1…w15` (Book 3: `w1…w10, c1…c5`)
-- **Phonics:** `/data/phonicsKnowledge.json` + `/data/phonicsLevels.json` — 9 levels · 58 lessons
+- **Phonics:** `/data/phonicsKnowledge.json` + `/data/phonicsLevels.json` — 9 levels · 58 lessons. Runtime đọc qua `/api/phonics/levels` (metadata, mọi topic đều thấy) và `/api/phonics/lesson/[levelId]/[lessonId]` (nội dung đầy đủ, gate theo `canAccessPhonicsLesson()`) — KHÔNG import thẳng JSON vào client component (trước đây làm vậy khiến toàn bộ nội dung Phonics/Word Stress nằm sẵn trong JS bundle bất kể plan). Word Stress tương tự qua `/api/word-stress`.
 - ⚠️ **Audio coverage còn thiếu nhiều:** Academic 1/180 topic (0,6%); Story audio Daily thiếu hoàn toàn Scholar+Master (0/30 mỗi level); Daily/Kids không có IPA transcript (0/2.400 từ, chỉ dựa browser TTS)
 
 ## Key Routes
@@ -108,4 +112,4 @@ AI text-helper fallback chain (`lib/aiChat.ts`, dùng bởi explain/hint/grammar
 - **Print:** `node scripts/gen-docx.js [book1|book2|book3|all] [topic-id]` → DOCX · colors: emerald/blue/purple
 
 ---
-*Cập nhật: 09/07/2026 — sau audit toàn diện (bảo mật/tính năng/nội dung/kiến trúc). Chi tiết đầy đủ trong memory `project_security_critical_2026_07`.*
+*Cập nhật: 18/07/2026 — siết gating server-side toàn diện (trial 3-mục-preview, revision test, Level/Module Test Pro-only, Phonics/Word Stress chuyển sang API có gate). Audit bảo mật/tính năng/nội dung/kiến trúc trước đó ngày 09/07, chi tiết trong memory `project_security_critical_2026_07`.*
