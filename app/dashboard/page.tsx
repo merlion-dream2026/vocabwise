@@ -183,10 +183,10 @@ export default function DashboardPage() {
           </div>
 
           {/* Tabs */}
-          <div className="flex gap-1">
+          <div className="flex gap-1 overflow-x-auto" style={{ scrollbarWidth: 'none' }}>
             {(['dashboard', 'referral', 'faq', 'settings'] as const).map(t => (
               <button key={t} onClick={() => setTab(t)}
-                className={`px-4 py-2.5 rounded-t-2xl font-black text-sm transition-colors ${
+                className={`px-3 py-2.5 rounded-t-2xl font-black text-sm whitespace-nowrap flex-shrink-0 transition-colors ${
                   tab === t ? 'bg-white text-gray-800' : 'text-white/70 hover:text-white'}`}>
                 {TAB_LABELS[t]}
               </button>
