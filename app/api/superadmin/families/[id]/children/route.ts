@@ -36,6 +36,14 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
     .select('child_id, level, seen, mastery, history, streak, updated_at')
     .in('child_id', childIds)
 
+  // Academic progress lives in vw_academic_sync, keyed by family (shared across all
+  // children) — not per-child vocab_sync, which no longer receives level='academic' rows.
+  const { data: academicSync } = await supabase
+    .from('vw_academic_sync')
+    .select('mastery, history')
+    .eq('family_id', params.id)
+    .single()
+
   // Shape into SyncAllLevels per child (same format kids page receives)
   const syncByChild: Record<string, SyncAllLevels> = {}
   const lastActiveByChild: Record<string, string> = {}
@@ -67,7 +75,7 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
     const { totalXP, badge } = getXPAndBadge(sync)
     const phonics            = getPhonicsProgress(sync['phonics'])
     const daily              = getAllDailyProgress(sync)
-    const academic           = getAllAcademicProgress(sync['academic'])
+    const academic           = getAllAcademicProgress(academicSync ?? undefined)
     const streak             = streakByChild[c.id] ?? { current: 0, lastActive: '' }
 
     return {

@@ -147,11 +147,14 @@ export default function ChildRoadmap() {
       cachedFetch('/api/children').then(r => r.json()),
       fetch(`/api/sync/${childId}`).then(r => r.json()).catch(() => ({})),
       cachedFetch('/api/auth/me').then(r => r.ok ? r.json() : null) as Promise<Session | null>,
-    ]).then(([kids, allSync, sess]) => {
+      // Academic progress lives in vw_academic_sync, keyed by family — not per-child
+      // vocab_sync — so it's fetched separately and merged into the 'academic' key.
+      fetch('/api/vocabwise/sync').then(r => r.ok ? r.json() : null).catch(() => null),
+    ]).then(([kids, allSync, sess, academicSync]) => {
       const found = (kids as Child[]).find(k => k.id === childId)
       if (!found) { router.push('/kids'); return }
       setChild(found)
-      setSyncByLevel(allSync ?? {})
+      setSyncByLevel({ ...(allSync ?? {}), ...(academicSync ? { academic: academicSync } : {}) })
       setSession(sess)
       setLoading(false)
     })

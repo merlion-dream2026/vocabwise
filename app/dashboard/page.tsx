@@ -60,13 +60,16 @@ export default function DashboardPage() {
         localStorage.setItem('nav_child_info', JSON.stringify({ id: activeChild.id, name: activeChild.name, emoji: activeChild.emoji }))
       }
 
-      // Fetch all-levels sync for each child in parallel
-      const syncResults = await Promise.all(
-        childList.map(c => fetch(`/api/sync/${c.id}`).then(r => r.json()).catch(() => ({})))
-      )
+      // Fetch all-levels sync for each child, plus the family's shared Academic sync
+      // (Academic progress lives in vw_academic_sync, keyed by family — not per-child
+      // vocab_sync — so it's fetched once and merged into every child's 'academic' key).
+      const [syncResults, academicSync] = await Promise.all([
+        Promise.all(childList.map(c => fetch(`/api/sync/${c.id}`).then(r => r.json()).catch(() => ({})))),
+        fetch('/api/vocabwise/sync').then(r => r.ok ? r.json() : null).catch(() => null),
+      ])
       setStats(childList.map((child, i) => ({
         child,
-        syncAll: syncResults[i] ?? {},
+        syncAll: { ...(syncResults[i] ?? {}), ...(academicSync ? { academic: academicSync } : {}) },
       })))
     } catch {
       // Network error — keep existing state, user can retry
