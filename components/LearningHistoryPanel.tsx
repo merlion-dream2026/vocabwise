@@ -54,26 +54,26 @@ export default function LearningHistoryPanel({ syncByLevel, className }: { syncB
       <button
         onClick={() => setOpen(o => !o)}
         className="w-full px-3 py-2 flex items-center justify-between hover:bg-gray-50 transition-colors">
-        <span className="text-base font-bold text-gray-400">📅 Lịch sử 30 ngày</span>
-        <span className={`text-gray-400 text-base font-black transition-transform duration-200 ${open ? 'rotate-180' : ''}`}>▾</span>
+        <span className="text-sm font-bold text-gray-400">📅 Lịch sử 30 ngày</span>
+        <span className={`text-gray-400 text-sm font-black transition-transform duration-200 ${open ? 'rotate-180' : ''}`}>▾</span>
       </button>
 
       {open && (
         <div className="px-3 pb-3 max-h-72 overflow-y-auto space-y-2.5">
           {days.length === 0 ? (
-            <p className="text-base text-gray-400 text-center py-1">Chưa có hoạt động trong 30 ngày qua</p>
+            <p className="text-sm text-gray-400 text-center py-1">Chưa có hoạt động trong 30 ngày qua</p>
           ) : days.map(h => (
             <div key={h.date}>
-              <p className="text-sm font-black text-gray-400 mb-1">{h.label}</p>
+              <p className="text-xs font-black text-gray-400 mb-1">{h.label}</p>
               <div className="space-y-0.5">
                 {h.phonics && (
-                  <div className="flex items-center gap-2 text-base">
+                  <div className="flex items-center gap-2 text-sm">
                     <span className="text-amber-500 font-bold w-20 flex-shrink-0">🔤 Phonics</span>
                     <span className="text-gray-500">{h.phonics.games} bài</span>
                   </div>
                 )}
                 {h.daily && (
-                  <div className="flex items-start gap-2 text-base">
+                  <div className="flex items-start gap-2 text-sm">
                     <span className="text-purple-500 font-bold w-20 flex-shrink-0 pt-px">📚 Daily</span>
                     <span className="text-gray-500">
                       {[
@@ -85,7 +85,7 @@ export default function LearningHistoryPanel({ syncByLevel, className }: { syncB
                   </div>
                 )}
                 {h.academic && (
-                  <div className="flex items-center gap-2 text-base">
+                  <div className="flex items-center gap-2 text-sm">
                     <span className="text-blue-500 font-bold w-20 flex-shrink-0">🎓 Academic</span>
                     <span className="text-gray-500">
                       {h.academic.topics} bài tập{h.academic.topicIds.length > 0 ? ` · ${h.academic.topicIds.length} chủ đề` : ''}

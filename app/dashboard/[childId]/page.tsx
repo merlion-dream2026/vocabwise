@@ -13,36 +13,59 @@ import { cachedFetch } from '@/lib/cachedFetch'
 
 const KID_FAQ = [
   {
-    q: '📖 Học một chủ đề như thế nào?',
-    a: 'Bắt đầu bằng Flashcard để xem và nghe từ mới.\nSau đó chọn các trò chơi để luyện tập.\nHoàn thành Flashcard + 3 trò chơi → nhận 🏆!',
+    group: '📚 Daily',
+    items: [
+      {
+        q: '📖 Học một chủ đề như thế nào?',
+        a: 'Bắt đầu bằng Flashcard để xem và nghe từ mới.\nSau đó chọn các trò chơi để luyện tập.\nHoàn thành Flashcard + 3 trò chơi → nhận 🏆!',
+      },
+      {
+        q: '🎮 Có những trò chơi gì?',
+        a: 'Level Seeker / Starter / Ranger (10 trò):\n📖 Flashcard từ mới · 👂 Nghe & Chọn · ✅ Đúng / Sai · 🖼️ Nối từ với hình\n🧠 Lật thẻ · 🫧 Bắn bong bóng · 🔡 Điền chữ thiếu\n🔤 Đánh vần · 🔁 Sắp xếp câu · 🎤 Phát âm cùng AI ✨\n\nLevel Explorer / Scholar / Master (10 trò khác):\n📖 Flashcard · 👂 Nghe & Chọn · ✅ Đúng / Sai\n❓ Trắc nghiệm · ✏️ Điền từ · 🔀 Ghép định nghĩa · 🎤 Phát âm cùng AI ✨\n⌨️ Gõ từ nhanh 15s · 🔁 Sắp xếp câu · ⚡ Speed Round',
+      },
+      {
+        q: '🏆 Khi nào chủ đề được tính là hoàn thành?',
+        a: 'Cần đủ 2 điều kiện:\n① Xem hết Flashcard tất cả các từ trong chủ đề\n② Đạt kết quả tốt trong ít nhất 3 trò chơi khác nhau\n\nHoàn thành rồi thì chủ đề sẽ hiện 🏆!',
+      },
+      {
+        q: '⭐ XP là gì? Tính như thế nào?',
+        a: 'XP (điểm kinh nghiệm) được tặng mỗi khi hoàn thành game.\n\nGame khó → nhiều XP hơn:\n🔴 Đánh vần, Gõ từ nhanh, Điền chữ thiếu, Speed Round: 2 XP/câu đúng\n🟡 Trắc nghiệm, Điền từ, Nghe & Chọn, Sắp xếp câu, Câu chuyện, Phát âm AI, Ghép định nghĩa: 1,5 XP/câu\n🟢 Nối từ, Lật thẻ, Đúng/Sai, Bắn bong bóng: 1 XP/câu\n\nMục tiêu mỗi ngày: đạt 20 XP → thanh XP trên màn hình này sẽ đầy!\n\nXP tích lũy giúp bạn lên cấp: 🌱 → 🔍 → ⚔️ → 📜 → 👑',
+      },
+      {
+        q: '📚 Mini Story là gì?',
+        a: 'Mỗi chủ đề có 1 câu chuyện ngắn dùng các từ vừa học.\nVào trang chủ đề → cuộn xuống → bấm "Mini Story".\nĐọc chuyện tiếng Anh + tiếng Việt, nghe audio.\nBấm "Làm bài" → điền từ vào chỗ trống trong chuyện!',
+      },
+      {
+        q: '🎤 Game Phát âm cùng AI ✨ dùng như thế nào?',
+        a: 'Bấm nút micro 🎤 → đọc to từ (hoặc câu) hiển thị trên màn hình.\nApp sẽ nhận diện giọng bạn và cho biết đúng hay sai.\nBấm 🔊 "Nghe mẫu" để nghe phát âm chuẩn trước.\nSau khi đọc, bấm ▶️ để nghe lại giọng của chính mình!\n\n⚠️ Cần cho phép quyền Microphone khi trình duyệt hỏi.',
+      },
+    ],
   },
   {
-    q: '🎮 Có những trò chơi gì?',
-    a: 'Level Seeker / Starter / Ranger (10 trò):\n📖 Flashcard từ mới · 👂 Nghe & Chọn · ✅ Đúng / Sai · 🖼️ Nối từ với hình\n🧠 Lật thẻ · 🫧 Bắn bong bóng · 🔡 Điền chữ thiếu\n🔤 Đánh vần · 🔁 Sắp xếp câu · 🎤 Phát âm cùng AI ✨\n\nLevel Explorer / Scholar / Master (10 trò khác):\n📖 Flashcard · 👂 Nghe & Chọn · ✅ Đúng / Sai\n❓ Trắc nghiệm · ✏️ Điền từ · 🔀 Ghép định nghĩa · 🎤 Phát âm cùng AI ✨\n⌨️ Gõ từ nhanh 15s · 🔁 Sắp xếp câu · ⚡ Speed Round',
+    group: '🔤 Phonics',
+    items: [
+      {
+        q: '🔤 Module Phonics là gì?',
+        a: 'Ngoài học từ vựng theo chủ đề, bạn còn có thể luyện phát âm tiếng Anh theo chuẩn IPA!\n\nBấm card 🔤 "Phonics" ở màn hình chọn level để vào.\n\n9 nhóm, 58 bài — học theo thứ tự:\nNguyên âm ngắn · Nguyên âm đôi · Cặp phụ âm · Phụ âm khác · Khó với người Việt · Đọc từ thông minh · Quy tắc phát âm · Ngữ điệu · Nói liên tục',
+      },
+      {
+        q: '🏆 Khi nào một bài Phonics được tính là hoàn thành?',
+        a: 'Học thẻ âm → hoàn thành các game bắt buộc trong bài đó.\nMỗi game đạt ≥70% = 🏆 Thành thạo!',
+      },
+    ],
   },
   {
-    q: '🏆 Khi nào chủ đề được tính là hoàn thành?',
-    a: 'Cần đủ 2 điều kiện:\n① Xem hết Flashcard tất cả các từ trong chủ đề\n② Đạt kết quả tốt trong ít nhất 3 trò chơi khác nhau\n\nHoàn thành rồi thì chủ đề sẽ hiện 🏆!',
-  },
-  {
-    q: '⭐ XP là gì? Tính như thế nào?',
-    a: 'XP (điểm kinh nghiệm) được tặng mỗi khi hoàn thành game.\n\nGame khó → nhiều XP hơn:\n🔴 Đánh vần, Gõ từ nhanh, Điền chữ thiếu, Speed Round: 2 XP/câu đúng\n🟡 Trắc nghiệm, Điền từ, Nghe & Chọn, Sắp xếp câu, Câu chuyện, Phát âm AI, Ghép định nghĩa: 1,5 XP/câu\n🟢 Nối từ, Lật thẻ, Đúng/Sai, Bắn bong bóng: 1 XP/câu\n\nMục tiêu mỗi ngày: đạt 20 XP → thanh XP trên màn hình này sẽ đầy!\n\nXP tích lũy giúp bạn lên cấp: 🌱 → 🔍 → ⚔️ → 📜 → 👑',
-  },
-  {
-    q: '📚 Mini Story là gì?',
-    a: 'Mỗi chủ đề có 1 câu chuyện ngắn dùng các từ vừa học.\nVào trang chủ đề → cuộn xuống → bấm "Mini Story".\nĐọc chuyện tiếng Anh + tiếng Việt, nghe audio.\nBấm "Làm bài" → điền từ vào chỗ trống trong chuyện!',
-  },
-  {
-    q: '🎤 Game Phát âm cùng AI ✨ dùng như thế nào?',
-    a: 'Bấm nút micro 🎤 → đọc to từ (hoặc câu) hiển thị trên màn hình.\nApp sẽ nhận diện giọng bạn và cho biết đúng hay sai.\nBấm 🔊 "Nghe mẫu" để nghe phát âm chuẩn trước.\nSau khi đọc, bấm ▶️ để nghe lại giọng của chính mình!\n\n⚠️ Cần cho phép quyền Microphone khi trình duyệt hỏi.',
-  },
-  {
-    q: '🔤 Module Phonics là gì?',
-    a: 'Ngoài học từ vựng theo chủ đề, bạn còn có thể luyện phát âm tiếng Anh theo chuẩn IPA!\n\nBấm card 🔤 "Phonics" ở màn hình chọn level để vào.\n\n9 nhóm, 58 bài — học theo thứ tự:\nNguyên âm ngắn · Nguyên âm đôi · Cặp phụ âm · Phụ âm khác · Khó với người Việt · Đọc từ thông minh · Quy tắc phát âm · Ngữ điệu · Nói liên tục\n\nMỗi bài: học → hoàn thành các game bắt buộc, mỗi game ≥70% = 🏆 Thành thạo!',
-  },
-  {
-    q: '🎓 Module Academic là gì?',
-    a: 'Từ vựng học thuật kiểu IELTS/SAT — khó và nâng cao hơn Daily.\n\nBấm card 🎓 "VocabWise Academic" ở màn hình chọn level để vào.\n\n3 books: Book 1 (A1–A2) · Book 2 (B1–B2) · Book 3 (C1–C2) — mỗi book 60 chủ đề.\n\nMỗi chủ đề có 4 phần theo thứ tự: 📖 Đọc bài → 📔 Từ vựng → ✏️ Bài tập → 📐 Ngữ pháp (nếu có)\n\nLàm xong bài tập → chủ đề có dấu ✅. Đạt từ 20/25 điểm trở lên → 🏆 Thành thạo!',
+    group: '🎓 Academic',
+    items: [
+      {
+        q: '🎓 Module Academic là gì?',
+        a: 'Từ vựng học thuật kiểu IELTS/SAT — khó và nâng cao hơn Daily.\n\nBấm card 🎓 "Academic" ở màn hình chọn level để vào.\n\n3 books: Book 1 (A1–A2) · Book 2 (B1–B2) · Book 3 (C1–C2) — mỗi book 60 chủ đề.\n\nMỗi chủ đề có 4 phần theo thứ tự: 📖 Đọc bài → 📔 Từ vựng → ✏️ Bài tập → 📐 Ngữ pháp (nếu có)',
+      },
+      {
+        q: '🏆 Khi nào một chủ đề Academic được tính là hoàn thành?',
+        a: 'Làm xong bài tập → chủ đề có dấu ✅.\nĐạt từ 20/25 điểm trở lên → 🏆 Thành thạo!',
+      },
+    ],
   },
 ]
 
@@ -61,32 +84,43 @@ function FaqToggleButton({ open, onToggle }: { open: boolean; onToggle: () => vo
 }
 
 function KidFaqPanel() {
-  const [open, setOpen] = useState<number | null>(null)
+  const [open, setOpen] = useState<string | null>(null)
   return (
     <div className="max-w-lg mx-auto mt-2 mb-6">
-      <div className="bg-white/80 backdrop-blur-sm border-2 border-purple-100 rounded-2xl overflow-hidden shadow-sm divide-y divide-purple-50">
+      <div className="bg-white/80 backdrop-blur-sm border-2 border-purple-100 rounded-2xl overflow-hidden shadow-sm">
         <div className="px-4 py-3 bg-purple-50/60">
           <span className="font-black text-purple-700 text-sm">❓ Hướng dẫn học</span>
         </div>
-        {KID_FAQ.map((item, i) => (
-          <div key={i}>
-            <button
-              onClick={() => setOpen(o => o === i ? null : i)}
-              className="w-full text-left px-4 py-3 flex items-center justify-between gap-2 hover:bg-purple-50/50 transition-colors">
-              <span className="font-bold text-gray-700 text-sm leading-snug">{item.q}</span>
-              <span className={`text-gray-400 font-black text-sm flex-shrink-0 transition-transform duration-200 ${open === i ? 'rotate-180' : ''}`}>▾</span>
-            </button>
-            {open === i && (
-              <div className="px-4 pb-3">
-                <div className="bg-purple-50 rounded-xl p-3">
-                  {item.a.split('\n').map((line, j) => (
-                    <p key={j} className={`text-xs text-gray-600 leading-relaxed ${j > 0 && line === '' ? 'mt-2' : j > 0 ? 'mt-1' : ''}`}>
-                      {line || <span className="block h-1" />}
-                    </p>
-                  ))}
+        {KID_FAQ.map(group => (
+          <div key={group.group} className="border-t border-purple-50 divide-y divide-purple-50">
+            <div className="px-4 py-1.5 bg-purple-50/40">
+              <p className="text-xs font-black text-purple-400 uppercase tracking-wider">{group.group}</p>
+            </div>
+            {group.items.map((item, i) => {
+              const key = `${group.group}-${i}`
+              const isOpen = open === key
+              return (
+                <div key={key}>
+                  <button
+                    onClick={() => setOpen(o => o === key ? null : key)}
+                    className="w-full text-left px-4 py-3 flex items-center justify-between gap-2 hover:bg-purple-50/50 transition-colors">
+                    <span className="font-bold text-gray-700 text-sm leading-snug">{item.q}</span>
+                    <span className={`text-gray-400 font-black text-sm flex-shrink-0 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}>▾</span>
+                  </button>
+                  {isOpen && (
+                    <div className="px-4 pb-3">
+                      <div className="bg-purple-50 rounded-xl p-3">
+                        {item.a.split('\n').map((line, j) => (
+                          <p key={j} className={`text-xs text-gray-600 leading-relaxed ${j > 0 && line === '' ? 'mt-2' : j > 0 ? 'mt-1' : ''}`}>
+                            {line || <span className="block h-1" />}
+                          </p>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                 </div>
-              </div>
-            )}
+              )
+            })}
           </div>
         ))}
       </div>
@@ -182,7 +216,7 @@ export default function ChildRoadmap() {
         <ModuleCard
           onClick={() => { localStorage.setItem('vw_active_child', childId); router.push('/vocabwise') }}
           icon="🎓"
-          title="VocabWise Academic"
+          title="Academic"
           badge="IELTS · SAT"
           description="Từ vựng học thuật · 180 chủ đề · ~2.700 từ · A1 → C2"
           mastered={allAcad.completed}
