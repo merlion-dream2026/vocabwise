@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server'
 import { getSession } from '@/lib/auth'
 import { checkAndIncrementModuleTestUsage } from '@/lib/rateLimit'
 import { aiChat } from '@/lib/aiChat'
+import { getFamilyProfile } from '@/lib/security'
+import { getEffectivePlan } from '@/lib/planUtils'
 
 type Item = { targetWord: string; exampleVi: string; cefr?: string; sentence: string }
 type GradedItem = { score: number; used_correctly: boolean; grammar_ok: boolean; feedback_vi: string; improved: string }
@@ -15,6 +17,14 @@ const MAX_ITEMS = 12
 export async function POST(req: NextRequest) {
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+
+  if (session.familyId !== 'superadmin') {
+    const profile = await getFamilyProfile(session.familyId)
+    if (!profile) return NextResponse.json({ error: 'Account not found' }, { status: 404 })
+    if (!getEffectivePlan(profile).isProActive) {
+      return NextResponse.json({ error: 'Pro plan required for Module Test.' }, { status: 403 })
+    }
+  }
 
   if (!(await checkAndIncrementModuleTestUsage(session.familyId))) {
     return NextResponse.json({ error: 'Đã đạt giới hạn nộp bài Module Test hôm nay. Vui lòng thử lại vào ngày mai.' }, { status: 429 })
