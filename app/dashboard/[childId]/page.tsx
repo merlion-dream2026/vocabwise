@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
-import { getPhonicsProgress, getAllDailyProgress, getAllAcademicProgress, getGlobalStreak, getDailyXP, DAILY_XP_GOAL, type SyncLevel } from '@/lib/childProgress'
+import { getPhonicsProgress, getAllDailyProgress, getAllAcademicProgress, type SyncLevel } from '@/lib/childProgress'
 import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
 import UpgradeBanner from '@/components/UpgradeBanner'
@@ -40,49 +40,59 @@ const KID_FAQ = [
     q: '🔤 Module Phonics là gì?',
     a: 'Ngoài học từ vựng theo chủ đề, bạn còn có thể luyện phát âm tiếng Anh theo chuẩn IPA!\n\nBấm card 🔤 "Phonics" ở màn hình chọn level để vào.\n\n9 nhóm, 58 bài — học theo thứ tự:\nNguyên âm ngắn · Nguyên âm đôi · Cặp phụ âm · Phụ âm khác · Khó với người Việt · Đọc từ thông minh · Quy tắc phát âm · Ngữ điệu · Nói liên tục\n\nMỗi bài: học → hoàn thành các game bắt buộc, mỗi game ≥70% = 🏆 Thành thạo!',
   },
+  {
+    q: '🎓 Module Academic là gì?',
+    a: 'Từ vựng học thuật kiểu IELTS/SAT — khó và nâng cao hơn Daily.\n\nBấm card 🎓 "VocabWise Academic" ở màn hình chọn level để vào.\n\n3 books: Book 1 (A1–A2) · Book 2 (B1–B2) · Book 3 (C1–C2) — mỗi book 60 chủ đề.\n\nMỗi chủ đề có 4 phần theo thứ tự: 📖 Đọc bài → 📔 Từ vựng → ✏️ Bài tập → 📐 Ngữ pháp (nếu có)\n\nLàm xong bài tập → chủ đề có dấu ✅. Đạt từ 20/25 điểm trở lên → 🏆 Thành thạo!',
+  },
 ]
 
-function KidFaqSection() {
-  const [open, setOpen] = useState<number | null>(null)
-  const [visible, setVisible] = useState(false)
+function FaqToggleButton({ open, onToggle }: { open: boolean; onToggle: () => void }) {
   return (
-    <div className="max-w-lg mx-auto mt-4 mb-6">
-      <button
-        onClick={() => setVisible(v => !v)}
-        className="w-full flex items-center justify-between bg-white/70 backdrop-blur-sm border-2 border-purple-100 rounded-2xl px-4 py-3 shadow-sm">
-        <span className="font-black text-purple-700 text-sm">❓ Hướng dẫn học</span>
-        <span className={`text-purple-400 font-black text-sm transition-transform duration-200 ${visible ? 'rotate-180' : ''}`}>▾</span>
-      </button>
-      {visible && (
-        <div className="mt-2 bg-white/80 backdrop-blur-sm border-2 border-purple-100 rounded-2xl overflow-hidden shadow-sm divide-y divide-purple-50">
-          {KID_FAQ.map((item, i) => (
-            <div key={i}>
-              <button
-                onClick={() => setOpen(o => o === i ? null : i)}
-                className="w-full text-left px-4 py-3 flex items-center justify-between gap-2 hover:bg-purple-50/50 transition-colors">
-                <span className="font-bold text-gray-700 text-sm leading-snug">{item.q}</span>
-                <span className={`text-gray-400 font-black text-sm flex-shrink-0 transition-transform duration-200 ${open === i ? 'rotate-180' : ''}`}>▾</span>
-              </button>
-              {open === i && (
-                <div className="px-4 pb-3">
-                  <div className="bg-purple-50 rounded-xl p-3">
-                    {item.a.split('\n').map((line, j) => (
-                      <p key={j} className={`text-xs text-gray-600 leading-relaxed ${j > 0 && line === '' ? 'mt-2' : j > 0 ? 'mt-1' : ''}`}>
-                        {line || <span className="block h-1" />}
-                      </p>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
-          ))}
-        </div>
-      )}
-    </div>
+    <button
+      onClick={onToggle}
+      aria-label="Hướng dẫn học"
+      aria-haspopup="true"
+      aria-expanded={open}
+      className="relative w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-full bg-white/80 backdrop-blur-sm shadow-sm active:scale-95 transition-transform"
+    >
+      <span className="text-xl">❓</span>
+    </button>
   )
 }
 
-const LEVEL_ORDER = ['seeker', 'starter', 'ranger', 'explorer', 'scholar', 'master'] as const
+function KidFaqPanel() {
+  const [open, setOpen] = useState<number | null>(null)
+  return (
+    <div className="max-w-lg mx-auto mt-2 mb-6">
+      <div className="bg-white/80 backdrop-blur-sm border-2 border-purple-100 rounded-2xl overflow-hidden shadow-sm divide-y divide-purple-50">
+        <div className="px-4 py-3 bg-purple-50/60">
+          <span className="font-black text-purple-700 text-sm">❓ Hướng dẫn học</span>
+        </div>
+        {KID_FAQ.map((item, i) => (
+          <div key={i}>
+            <button
+              onClick={() => setOpen(o => o === i ? null : i)}
+              className="w-full text-left px-4 py-3 flex items-center justify-between gap-2 hover:bg-purple-50/50 transition-colors">
+              <span className="font-bold text-gray-700 text-sm leading-snug">{item.q}</span>
+              <span className={`text-gray-400 font-black text-sm flex-shrink-0 transition-transform duration-200 ${open === i ? 'rotate-180' : ''}`}>▾</span>
+            </button>
+            {open === i && (
+              <div className="px-4 pb-3">
+                <div className="bg-purple-50 rounded-xl p-3">
+                  {item.a.split('\n').map((line, j) => (
+                    <p key={j} className={`text-xs text-gray-600 leading-relaxed ${j > 0 && line === '' ? 'mt-2' : j > 0 ? 'mt-1' : ''}`}>
+                      {line || <span className="block h-1" />}
+                    </p>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
 
 type Child = { id: string; name: string; emoji: string; level: string }
 type SyncByLevel = Record<string, SyncLevel>
@@ -96,6 +106,7 @@ export default function ChildRoadmap() {
   const [syncByLevel, setSyncByLevel] = useState<SyncByLevel>({})
   const [loading, setLoading] = useState(true)
   const [session, setSession] = useState<Session | null>(null)
+  const [faqOpen, setFaqOpen] = useState(false)
 
   useEffect(() => {
     Promise.all([
@@ -123,20 +134,6 @@ export default function ChildRoadmap() {
   const allDaily = getAllDailyProgress(syncByLevel)
   const allAcad  = getAllAcademicProgress(syncByLevel['academic'] as SyncLevel | undefined)
 
-  // Daily missions
-  const todayStr = new Date().toISOString().split('T')[0]
-  type DayEntry = { games?: number; topics?: number; words?: number }
-  const todayPhonics  = ((syncByLevel['phonics'] as { history?: Record<string, DayEntry> } | undefined)?.history?.[todayStr]?.games ?? 0) > 0
-  const todayDaily    = LEVEL_ORDER.some(l => ((syncByLevel[l] as { history?: Record<string, DayEntry> } | undefined)?.history?.[todayStr]?.games ?? 0) > 0)
-  const todayAcademic = ((syncByLevel['academic'] as { history?: Record<string, DayEntry> } | undefined)?.history?.[todayStr]?.topics ?? 0) > 0
-  const missionsDone  = [todayPhonics, todayDaily, todayAcademic].filter(Boolean).length
-  const allMissions   = missionsDone === 3
-
-  const todayXP       = getDailyXP(syncByLevel as Record<string, SyncLevel>)
-  const xpGoalDone    = todayXP >= DAILY_XP_GOAL
-  const xpPct         = Math.min(100, Math.round((todayXP / DAILY_XP_GOAL) * 100))
-  const { current: globalStreak } = getGlobalStreak(syncByLevel as Record<string, SyncLevel>)
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 px-4 py-6">
       <UpgradeBanner
@@ -149,73 +146,14 @@ export default function ChildRoadmap() {
       <div className="flex items-center gap-3 mb-6 max-w-lg mx-auto">
         <button onClick={() => router.push('/kids')} aria-label="Quay lại" className="text-gray-400 hover:text-gray-600 text-2xl font-bold leading-none">←</button>
         <Image src={getAvatarSrc(child!.emoji)} width={40} height={40} className="rounded-full object-cover flex-shrink-0" alt="" unoptimized />
-        <div>
-          <h1 className="text-xl font-black text-gray-800 leading-tight">{child!.name}</h1>
+        <div className="flex-1 min-w-0">
+          <h1 className="text-xl font-black text-gray-800 leading-tight truncate">{child!.name}</h1>
           <p className="text-gray-400 text-xs font-semibold">Chọn module để học</p>
         </div>
+        <FaqToggleButton open={faqOpen} onToggle={() => setFaqOpen(v => !v)} />
       </div>
 
-      {/* Daily missions */}
-      <div className="max-w-lg mx-auto mb-4">
-        <div className={`rounded-2xl border-2 p-4 ${allMissions ? 'bg-gradient-to-br from-yellow-50 to-amber-50 border-yellow-200' : 'bg-white/70 border-purple-100'}`}>
-          <div className="flex items-center justify-between mb-3">
-            <div>
-              <p className={`font-black text-sm ${allMissions ? 'text-yellow-700' : 'text-purple-700'}`}>
-                {allMissions ? '🎉 Hoàn thành nhiệm vụ hôm nay!' : `🎯 Nhiệm vụ hôm nay — ${missionsDone}/3`}
-              </p>
-              {!allMissions && <p className="text-xs text-gray-400 font-semibold mt-0.5">Hoàn thành cả 3 để nhận ngôi sao vàng ⭐</p>}
-            </div>
-            <div className="flex gap-1">
-              {[todayPhonics, todayDaily, todayAcademic].map((done, i) => (
-                <div key={i} className={`w-5 h-5 rounded-full flex items-center justify-center text-xs ${done ? 'bg-green-400 text-white' : 'bg-gray-100 text-gray-300'}`}>
-                  {done ? '✓' : '○'}
-                </div>
-              ))}
-            </div>
-          </div>
-          <div className="space-y-1.5">
-            {[
-              { done: todayPhonics,  icon: '🔤', label: 'Phonics', desc: 'Học 1 bài phonics' },
-              { done: todayDaily,    icon: '📚', label: 'Daily', desc: 'Chơi 1 game từ vựng' },
-              { done: todayAcademic, icon: '🎓', label: 'Academic', desc: 'Làm 1 bài tập chủ đề' },
-            ].map(m => (
-              <div key={m.label} className="flex items-center gap-2.5">
-                <div className={`w-6 h-6 rounded-full flex items-center justify-center text-xs flex-shrink-0 ${m.done ? 'bg-green-400 text-white' : 'bg-gray-100 text-gray-400'}`}>
-                  {m.done ? '✓' : '○'}
-                </div>
-                <span className={`text-xs font-bold ${m.done ? 'text-green-600 line-through decoration-green-400' : 'text-gray-600'}`}>
-                  {m.icon} {m.label}
-                </span>
-                {!m.done && <span className="text-xs text-gray-400">{m.desc}</span>}
-              </div>
-            ))}
-          </div>
-
-          {/* Daily XP goal + global streak */}
-          <div className="mt-3 pt-3 border-t border-purple-100/60 space-y-2">
-            <div className="flex items-center justify-between">
-              <span className="text-xs font-bold text-gray-500">⭐ XP hôm nay</span>
-              <span className={`text-xs font-black ${xpGoalDone ? 'text-green-600' : 'text-gray-600'}`}>
-                {todayXP}/{DAILY_XP_GOAL} XP {xpGoalDone ? '✅' : ''}
-              </span>
-            </div>
-            <div className="h-2 bg-white/60 rounded-full overflow-hidden">
-              <div
-                className={`h-full rounded-full transition-all duration-500 ${xpGoalDone ? 'bg-gradient-to-r from-green-400 to-emerald-400' : 'bg-gradient-to-r from-purple-400 to-pink-400'}`}
-                style={{ width: `${Math.max(xpPct, todayXP > 0 ? 3 : 0)}%` }}
-              />
-            </div>
-            {globalStreak > 0 && (
-              <p className="text-xs font-bold text-orange-500">🔥 Streak {globalStreak} ngày liên tiếp</p>
-            )}
-          </div>
-        </div>
-      </div>
-
-      {/* Kid FAQ */}
-      <div className="max-w-lg mx-auto mb-4">
-        <KidFaqSection />
-      </div>
+      {faqOpen && <KidFaqPanel />}
 
       <div className="space-y-3 max-w-lg mx-auto">
         <ModuleCard
