@@ -41,10 +41,15 @@ const CONTENT_RATE_LIMITS: Record<string, [number, number]> = {
 }
 
 function buildCsp(nonce: string): string {
+  // next dev wraps modules with eval() for Fast Refresh/source-maps — CSP must allow
+  // 'unsafe-eval' in dev or the client bundle throws EvalError before hydration completes.
+  // Production builds don't eval(), so this stays out of the CSP that actually ships.
+  const devEval = process.env.NODE_ENV === 'development' ? " 'unsafe-eval'" : ''
+
   return [
     "default-src 'self'",
     // 'strict-dynamic' lets scripts loaded by nonced scripts (e.g. Turnstile injected by React) run
-    `script-src 'self' 'nonce-${nonce}' 'strict-dynamic' https://va.vercel-scripts.com https://challenges.cloudflare.com`,
+    `script-src 'self' 'nonce-${nonce}' 'strict-dynamic'${devEval} https://va.vercel-scripts.com https://challenges.cloudflare.com`,
     "style-src 'self' 'unsafe-inline'",
     "img-src 'self' data: blob: https://img.vietqr.io",
     "font-src 'self'",

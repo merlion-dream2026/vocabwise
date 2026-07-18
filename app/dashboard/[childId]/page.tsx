@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
-import { getPhonicsProgress, getAllDailyProgress, getAllAcademicProgress, getGlobalStreak, getDailyXP, DAILY_XP_GOAL, type SyncLevel, type SyncAllLevels } from '@/lib/childProgress'
+import { getPhonicsProgress, getAllDailyProgress, getAllAcademicProgress, type SyncLevel, type SyncAllLevels } from '@/lib/childProgress'
 import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
 import UpgradeBanner from '@/components/UpgradeBanner'
@@ -83,8 +83,6 @@ function KidFaqSection() {
   )
 }
 
-const LEVEL_ORDER = ['seeker', 'starter', 'ranger', 'explorer', 'scholar', 'master'] as const
-
 type Child = { id: string; name: string; emoji: string; level: string; streak?: { current: number; lastActive: string } }
 type SyncByLevel = Record<string, SyncLevel>
 type Session = { plan: string; username?: string; free_trial_expires_at?: string | null; plan_end_date?: string | null }
@@ -124,20 +122,6 @@ export default function ChildRoadmap() {
   const allDaily = getAllDailyProgress(syncByLevel)
   const allAcad  = getAllAcademicProgress(syncByLevel['academic'] as SyncLevel | undefined)
 
-  // Daily missions
-  const todayStr = new Date().toISOString().split('T')[0]
-  type DayEntry = { games?: number; topics?: number; words?: number }
-  const todayPhonics  = ((syncByLevel['phonics'] as { history?: Record<string, DayEntry> } | undefined)?.history?.[todayStr]?.games ?? 0) > 0
-  const todayDaily    = LEVEL_ORDER.some(l => ((syncByLevel[l] as { history?: Record<string, DayEntry> } | undefined)?.history?.[todayStr]?.games ?? 0) > 0)
-  const todayAcademic = ((syncByLevel['academic'] as { history?: Record<string, DayEntry> } | undefined)?.history?.[todayStr]?.topics ?? 0) > 0
-  const missionsDone  = [todayPhonics, todayDaily, todayAcademic].filter(Boolean).length
-  const allMissions   = missionsDone === 3
-
-  const todayXP       = getDailyXP(syncByLevel as Record<string, SyncLevel>)
-  const xpGoalDone    = todayXP >= DAILY_XP_GOAL
-  const xpPct         = Math.min(100, Math.round((todayXP / DAILY_XP_GOAL) * 100))
-  const { current: globalStreak } = getGlobalStreak(syncByLevel as Record<string, SyncLevel>)
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 px-4 py-6">
       <UpgradeBanner
@@ -158,63 +142,6 @@ export default function ChildRoadmap() {
 
       <ChildStatsCard child={child!} sync={syncByLevel as SyncAllLevels} />
 
-      {/* Daily missions */}
-      <div className="max-w-lg mx-auto mb-4">
-        <div className={`rounded-2xl border-2 p-4 ${allMissions ? 'bg-gradient-to-br from-yellow-50 to-amber-50 border-yellow-200' : 'bg-white/70 border-purple-100'}`}>
-          <div className="flex items-center justify-between mb-3">
-            <div>
-              <p className={`font-black text-sm ${allMissions ? 'text-yellow-700' : 'text-purple-700'}`}>
-                {allMissions ? '🎉 Hoàn thành nhiệm vụ hôm nay!' : `🎯 Nhiệm vụ hôm nay — ${missionsDone}/3`}
-              </p>
-              {!allMissions && <p className="text-xs text-gray-400 font-semibold mt-0.5">Hoàn thành cả 3 để nhận ngôi sao vàng ⭐</p>}
-            </div>
-            <div className="flex gap-1">
-              {[todayPhonics, todayDaily, todayAcademic].map((done, i) => (
-                <div key={i} className={`w-5 h-5 rounded-full flex items-center justify-center text-xs ${done ? 'bg-green-400 text-white' : 'bg-gray-100 text-gray-300'}`}>
-                  {done ? '✓' : '○'}
-                </div>
-              ))}
-            </div>
-          </div>
-          <div className="space-y-1.5">
-            {[
-              { done: todayPhonics,  icon: '🔤', label: 'Phonics', desc: 'Học 1 bài phonics' },
-              { done: todayDaily,    icon: '📚', label: 'Daily', desc: 'Chơi 1 game từ vựng' },
-              { done: todayAcademic, icon: '🎓', label: 'Academic', desc: 'Làm 1 bài tập chủ đề' },
-            ].map(m => (
-              <div key={m.label} className="flex items-center gap-2.5">
-                <div className={`w-6 h-6 rounded-full flex items-center justify-center text-xs flex-shrink-0 ${m.done ? 'bg-green-400 text-white' : 'bg-gray-100 text-gray-400'}`}>
-                  {m.done ? '✓' : '○'}
-                </div>
-                <span className={`text-xs font-bold ${m.done ? 'text-green-600 line-through decoration-green-400' : 'text-gray-600'}`}>
-                  {m.icon} {m.label}
-                </span>
-                {!m.done && <span className="text-xs text-gray-400">{m.desc}</span>}
-              </div>
-            ))}
-          </div>
-
-          {/* Daily XP goal + global streak */}
-          <div className="mt-3 pt-3 border-t border-purple-100/60 space-y-2">
-            <div className="flex items-center justify-between">
-              <span className="text-xs font-bold text-gray-500">⭐ XP hôm nay</span>
-              <span className={`text-xs font-black ${xpGoalDone ? 'text-green-600' : 'text-gray-600'}`}>
-                {todayXP}/{DAILY_XP_GOAL} XP {xpGoalDone ? '✅' : ''}
-              </span>
-            </div>
-            <div className="h-2 bg-white/60 rounded-full overflow-hidden">
-              <div
-                className={`h-full rounded-full transition-all duration-500 ${xpGoalDone ? 'bg-gradient-to-r from-green-400 to-emerald-400' : 'bg-gradient-to-r from-purple-400 to-pink-400'}`}
-                style={{ width: `${Math.max(xpPct, todayXP > 0 ? 3 : 0)}%` }}
-              />
-            </div>
-            {globalStreak > 0 && (
-              <p className="text-xs font-bold text-orange-500">🔥 Streak {globalStreak} ngày liên tiếp</p>
-            )}
-          </div>
-        </div>
-      </div>
-
       {/* Kid FAQ */}
       <div className="max-w-lg mx-auto mb-4">
         <KidFaqSection />
@@ -226,7 +153,6 @@ export default function ChildRoadmap() {
           icon="🔤"
           title="Phonics"
           badge="IPA"
-          description="Học phát âm chuẩn IPA quốc tế · Âm lẻ · Từ · Câu"
           mastered={phonics.mastered}
           total={phonics.total}
           unit="bài"
@@ -237,7 +163,6 @@ export default function ChildRoadmap() {
           icon="📚"
           title="Daily"
           badge="Pre-A1 → C2"
-          description="Từ vựng hàng ngày · 180 chủ đề · ~2.400 từ · Pre-A1 → C2"
           mastered={allDaily.topicsCompleted}
           total={allDaily.totalTopics}
           unit="chủ đề"
@@ -249,7 +174,6 @@ export default function ChildRoadmap() {
           icon="🎓"
           title="VocabWise Academic"
           badge="IELTS · SAT"
-          description="Từ vựng học thuật · 180 chủ đề · ~2.700 từ · A1 → C2"
           mastered={allAcad.completed}
           total={allAcad.total}
           unit="chủ đề"

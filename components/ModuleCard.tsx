@@ -40,7 +40,6 @@ type Props = {
   icon: string
   title: string
   badge: string
-  description: string  // shown when mastered === 0
   mastered: number     // primary completion metric (flashcard + ≥3 games)
   total: number
   unit: string         // "bài" | "chủ đề"
@@ -48,7 +47,7 @@ type Props = {
   scheme: ColorScheme
 }
 
-export default function ModuleCard({ onClick, icon, title, badge, description, mastered, total, unit, secondary, scheme }: Props) {
+export default function ModuleCard({ onClick, icon, title, badge, mastered, total, unit, secondary, scheme }: Props) {
   const c = SCHEMES[scheme]
   const started = mastered > 0
   const pct = total > 0 ? Math.round(mastered / total * 100) : 0
@@ -68,21 +67,17 @@ export default function ModuleCard({ onClick, icon, title, badge, description, m
             <span className={`text-xs font-semibold ${c.badgeCls} px-1.5 py-0.5 rounded-md`}>{badge}</span>
           </div>
           <p className={`text-xs font-semibold ${c.sub}`}>
-            {started
-              ? `${mastered}/${total} ${unit} hoàn thành (${pct}%)${secondary ? ` · ${secondary}` : ''}`
-              : description}
+            {`${mastered}/${total} ${unit} hoàn thành (${pct}%)${secondary ? ` · ${secondary}` : ''}`}
           </p>
         </div>
         <span className={`${c.arrow} font-black text-lg flex-shrink-0`}>→</span>
       </div>
-      {started && (
-        <div className="mt-3 h-2 bg-white/60 rounded-full overflow-hidden">
-          <div
-            className={`h-full bg-gradient-to-r ${c.bar} rounded-full transition-all duration-500`}
-            style={{ width: `${Math.max(pct, 2)}%` }}
-          />
-        </div>
-      )}
+      <div className="mt-3 h-2 bg-white/60 rounded-full overflow-hidden">
+        <div
+          className={`h-full bg-gradient-to-r ${c.bar} rounded-full transition-all duration-500`}
+          style={{ width: `${started ? Math.max(pct, 2) : 0}%` }}
+        />
+      </div>
     </button>
   )
 }

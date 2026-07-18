@@ -21,6 +21,10 @@ function shouldShowNav(pathname: string): boolean {
   const segs = pathname.split('/').filter(Boolean)
   if (segs.length === 0 || HIDE_ROOTS.has(segs[0])) return false
   if (HIDE_TAILS.has(segs[segs.length - 1])) return false
+  // /dashboard/[childId] is the "choosing a module" screen — same "picking" nature as
+  // /kids, so no nav here either. /dashboard (family) and /dashboard/[childId]/<module>
+  // (already inside a module) both keep nav.
+  if (segs[0] === 'dashboard' && segs.length === 2) return false
   return true
 }
 
