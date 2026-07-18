@@ -9,7 +9,7 @@ const DOW = ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7']
 type DayEntry = { words?: number; games?: number; xp?: number; topics?: number; topicIds?: string[] }
 type SyncMap = Record<string, { history?: Record<string, DayEntry> } | undefined>
 type TopicRef = { level: string; id: string }
-type TopicNames = { daily?: Record<string, Record<string, string>>; academic?: Record<string, string> }
+type TopicNames = { daily?: Record<string, Record<string, string>>; phonics?: Record<string, string>; academic?: Record<string, string> }
 
 export default function LearningHistoryPanel({ syncByLevel, className }: { syncByLevel: SyncMap; className?: string }) {
   const [open, setOpen] = useState(false)
@@ -39,6 +39,7 @@ export default function LearningHistoryPanel({ syncByLevel, className }: { syncB
   }
 
   const dailyTopicName  = (r: TopicRef) => topicNames?.daily?.[r.level]?.[r.id] ?? r.id
+  const phonicsTopicName  = (id: string) => topicNames?.phonics?.[id] ?? id
   const academicTopicName = (id: string) => topicNames?.academic?.[id] ?? id
 
   const cutoff = new Date(); cutoff.setDate(cutoff.getDate() - 30)
@@ -56,7 +57,7 @@ export default function LearningHistoryPanel({ syncByLevel, className }: { syncB
       return {
         date,
         label: `${dow} ${d}/${m}`,
-        phonics:  p && (p.games ?? 0) > 0 ? { games: p.games! } : null,
+        phonics:  p && (p.topicIds?.length ?? 0) > 0 ? { topicIds: p.topicIds! } : null,
         daily:    dl && (dl.words + dl.games) > 0 ? dl : null,
         academic: ac && (ac.topics ?? 0) > 0 ? { topics: ac.topics!, topicIds: ac.topicIds ?? [] } : null,
       }
@@ -81,9 +82,11 @@ export default function LearningHistoryPanel({ syncByLevel, className }: { syncB
               <p className="text-xs font-black text-gray-400 mb-1">{h.label}</p>
               <div className="space-y-0.5">
                 {h.phonics && (
-                  <div className="flex items-center gap-2 text-sm">
-                    <span className="text-amber-500 font-bold w-20 flex-shrink-0">🔤 Phonics</span>
-                    <span className="text-gray-500">{h.phonics.games} bài</span>
+                  <div className="flex items-start gap-2 text-sm">
+                    <span className="text-amber-500 font-bold w-20 flex-shrink-0 pt-px">🔤 Phonics</span>
+                    <span className="text-gray-500">
+                      {h.phonics.topicIds.length} bài: {h.phonics.topicIds.map(phonicsTopicName).join(', ')}
+                    </span>
                   </div>
                 )}
                 {h.daily && (
@@ -95,7 +98,7 @@ export default function LearningHistoryPanel({ syncByLevel, className }: { syncB
                         h.daily.games > 0 && `${h.daily.games} game`,
                       ].filter(Boolean).join(' · ')}
                       {h.daily.topicRefs.length > 0 && (
-                        <> · {h.daily.topicRefs.map(dailyTopicName).join(', ')}</>
+                        <> · {h.daily.topicRefs.length} chủ đề: {h.daily.topicRefs.map(dailyTopicName).join(', ')}</>
                       )}
                     </span>
                   </div>
@@ -106,7 +109,7 @@ export default function LearningHistoryPanel({ syncByLevel, className }: { syncB
                     <span className="text-gray-500">
                       {h.academic.topics} bài tập
                       {h.academic.topicIds.length > 0 && (
-                        <> · {h.academic.topicIds.map(academicTopicName).join(', ')}</>
+                        <> · {h.academic.topicIds.length} chủ đề: {h.academic.topicIds.map(academicTopicName).join(', ')}</>
                       )}
                     </span>
                   </div>

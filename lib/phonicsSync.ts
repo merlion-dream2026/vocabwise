@@ -8,6 +8,7 @@ export type GameKey = typeof MASTERY_GAMES[number]
 type PairMastery  = { flashcard: boolean; games: string[] }
 type PhonicsStreak = { current: number; best: number; lastActive: string; freezeUsedWeek?: string }
 export type SoundAccuracy = { attempts: number; correct: number }
+export type PhonicsHistoryEntry = { topicIds: string[] }
 
 let _childId  = ''
 let _mastery: Record<string, PairMastery>   = {}
@@ -17,6 +18,8 @@ let _soundAcc: Record<string, SoundAccuracy> = {}
 let _lastReviewed: Record<string, string> = {}
 // Badge IDs earned (e.g. lesson IDs that were mastered)
 let _badges: string[] = []
+// Lesson IDs touched per day, for the "Lịch sử 30 ngày" panel
+let _history: Record<string, PhonicsHistoryEntry> = {}
 
 export function initPhonicsSync(childId: string, data: {
   mastery?: Record<string, PairMastery>
@@ -24,17 +27,28 @@ export function initPhonicsSync(childId: string, data: {
   soundAcc?: Record<string, SoundAccuracy>
   lastReviewed?: Record<string, string>
   badges?: string[]
+  history?: Record<string, PhonicsHistoryEntry>
 } | null) {
   _childId      = childId
   _mastery      = data?.mastery      ?? {}
   _soundAcc     = data?.soundAcc     ?? {}
   _lastReviewed = data?.lastReviewed ?? {}
   _badges       = data?.badges       ?? []
+  _history      = data?.history      ?? {}
   _streak = {
     current:        data?.streak?.current        ?? 0,
     best:           data?.streak?.best           ?? 0,
     lastActive:     data?.streak?.lastActive     ?? '',
     freezeUsedWeek: data?.streak?.freezeUsedWeek ?? undefined,
+  }
+}
+
+/** Add lessonId to today's history entry (dedup — no-op if already recorded today). */
+function bumpPhonicsHistory(lessonId: string) {
+  const today = todayStr()
+  const prev = _history[today] ?? { topicIds: [] }
+  if (!prev.topicIds.includes(lessonId)) {
+    _history = { ..._history, [today]: { topicIds: [...prev.topicIds, lessonId] } }
   }
 }
 
@@ -115,6 +129,7 @@ export function markPairSeen(pairId: string) {
     _mastery = { ..._mastery, [pairId]: { ...entry, flashcard: true } }
     recordPhonicsActivity()
   }
+  bumpPhonicsHistory(pairId)
 }
 
 /** Only call when user passes ≥70% — the game component enforces the threshold. */
@@ -125,6 +140,7 @@ export function recordPairGame(pairId: string, gameKey: string, masteryGames?: s
   }
   markReviewed(pairId)
   recordPhonicsActivity()
+  bumpPhonicsHistory(pairId)
   // Award mastery badge when all required games completed
   if (masteryGames && isLessonMastered(pairId, masteryGames)) {
     awardBadge(`mastered:${pairId}`)
@@ -209,7 +225,8 @@ export async function flushPhonics() {
       soundAcc: _soundAcc,
       lastReviewed: _lastReviewed,
       badges: _badges,
-      seen: [], weak_words: {}, battle: {}, history: {}, srs: {},
+      history: _history,
+      seen: [], weak_words: {}, battle: {}, srs: {},
     }),
   }).catch(() => {})
 }

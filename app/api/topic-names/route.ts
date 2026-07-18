@@ -8,9 +8,10 @@ import rangerWords from '@/data/words/ranger.json'
 import explorerWords from '@/data/words/explorer.json'
 import scholarWords from '@/data/words/scholar.json'
 import masterWords from '@/data/words/master.json'
+import phonicsLevels from '@/data/phonicsLevels.json'
 
-// Name-only index (id → tên tiếng Việt) cho Daily (theo level) và Academic —
-// dùng bởi LearningHistoryPanel để hiển thị đúng tên chủ đề thay vì chỉ đếm số lượng.
+// Name-only index (id → tên) cho Phonics (bài học), Daily (theo level) và Academic —
+// dùng bởi LearningHistoryPanel để hiển thị đúng tên bài/chủ đề thay vì chỉ đếm số lượng.
 // Không kèm từ vựng/nội dung game nên không cần gate theo plan, chỉ cần đăng nhập.
 
 type DailyLevelFile = { topics: { id: string; name: string }[] }
@@ -29,11 +30,18 @@ export async function GET(req: NextRequest) {
     daily[level] = Object.fromEntries(LEVEL_FILES[level].topics.map(t => [t.id, t.name]))
   }
 
+  const phonics: Record<string, string> = {}
+  for (const level of phonicsLevels.levels) {
+    for (const lesson of level.lessons) {
+      phonics[lesson.id] = lesson.title
+    }
+  }
+
   const { data } = await supabase.from('vw_topics').select('topic_id, topic_title_vi')
   const academic: Record<string, string> = {}
   for (const row of data ?? []) {
     if (row.topic_title_vi) academic[row.topic_id] = row.topic_title_vi
   }
 
-  return NextResponse.json({ daily, academic }, { headers: { 'Cache-Control': 'private, max-age=3600' } })
+  return NextResponse.json({ daily, phonics, academic }, { headers: { 'Cache-Control': 'private, max-age=3600' } })
 }
