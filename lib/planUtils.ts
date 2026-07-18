@@ -149,6 +149,18 @@ export function canAccessAcademicFull(family: FamilyPlanData): boolean {
   return getAcademicTopicLimit(family) === null
 }
 
+/**
+ * Số revision test được mở (Daily lẫn Academic dùng chung policy — revision test là bộ
+ * đề ôn tổng hợp 5 topic/lần, đánh số từ 1). null = unlimited (Pro/bonus). Trial: chỉ
+ * revision đầu tiên. Hết trial: 0 (khoá hoàn toàn).
+ */
+export function getRevisionLimit(family: FamilyPlanData): number | null {
+  if (family.bonus_features?.includes('kids_full') || family.bonus_features?.includes('academic_full')) return null
+  const { isProActive, isTrialActive } = getEffectivePlan(family)
+  if (isProActive) return null
+  return isTrialActive ? 1 : 0
+}
+
 /** Offline download limit: 0 (free), 20 (pro1), null = unlimited (pro3+). */
 export function getOfflineDownloadLimit(family: FamilyPlanData): number | null {
   const tier = getPlanTier(family)
@@ -157,13 +169,13 @@ export function getOfflineDownloadLimit(family: FamilyPlanData): number | null {
   return null
 }
 
-/** AI Speak limit: null = unlimited (Pro 3+ hoặc bonus grant), 30 (Pro 1), 10 (Trial), 0 (Free hết trial). */
+/** AI Speak limit: null = unlimited (Pro 3+ hoặc bonus grant), 40 (Pro 1), 10 (Trial), 0 (Free hết trial). */
 export function getAISpeakLimit(family: FamilyPlanData): number | null {
   if (family.bonus_features?.includes('ai_speak_unlimited')) return null
   const { isProActive, isTrialActive } = getEffectivePlan(family)
   if (isProActive) {
     const tier = getPlanTier(family)
-    return tier === 'pro1' ? 30 : null
+    return tier === 'pro1' ? 40 : null
   }
   return isTrialActive ? 10 : 0
 }

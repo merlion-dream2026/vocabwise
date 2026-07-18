@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { supabase } from '@/lib/supabaseServer'
 import { getSession } from '@/lib/auth'
+import { getFamilyProfile } from '@/lib/security'
+import { getRevisionLimit } from '@/lib/planUtils'
 
 const BOOK_PREFIXES: Record<string, string> = { book1: 'b1', book2: 'b2', book3: 'b3' }
 
@@ -15,6 +17,15 @@ export async function GET(req: NextRequest) {
   const prefix = BOOK_PREFIXES[book]
   if (!prefix || rev < 1 || rev > 12) {
     return NextResponse.json({ error: 'Invalid parameters' }, { status: 400 })
+  }
+
+  if (session.familyId !== 'superadmin') {
+    const profile = await getFamilyProfile(session.familyId)
+    if (!profile) return NextResponse.json({ error: 'Account not found' }, { status: 404 })
+    const limit = getRevisionLimit(profile)
+    if (limit !== null && rev > limit) {
+      return NextResponse.json({ error: 'Upgrade to Pro to access this revision test.' }, { status: 403 })
+    }
   }
 
   const startTopic = (rev - 1) * 5 + 1
