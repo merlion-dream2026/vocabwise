@@ -217,7 +217,7 @@ export default function SpellGame({ topic, level, backUrl }: Props) {
             {target.split('').map((_, i) => (
               <div
                 key={i}
-                className={`w-11 h-11 rounded-xl border-2 flex items-center justify-center font-black text-lg uppercase transition-all duration-200 ${slotStyle}`}
+                className={`w-11 h-11 rounded-xl border-2 flex items-center justify-center font-black text-lg transition-all duration-200 ${slotStyle}`}
               >
                 {answer[i]?.letter ?? ''}
               </div>
@@ -231,7 +231,7 @@ export default function SpellGame({ topic, level, backUrl }: Props) {
                 key={tile.id}
                 onClick={() => tapTile(tile)}
                 disabled={tile.used || result !== 'idle'}
-                className={`w-12 h-12 rounded-2xl font-black text-xl uppercase shadow-md transition-all duration-150 active:scale-90
+                className={`w-12 h-12 rounded-2xl font-black text-xl shadow-md transition-all duration-150 active:scale-90
                   ${tile.used
                     ? 'bg-gray-100 border-2 border-gray-100 text-transparent shadow-none'
                     : 'bg-white border-2 border-pink-200 text-pink-600 hover:border-pink-400'

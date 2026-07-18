@@ -104,7 +104,7 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
               ${answered
                 ? isRight ? 'border-green-400 text-green-600' : 'border-red-400 text-red-500'
                 : 'border-orange-400 text-orange-500'}`}>
-            {answered ? (isRight ? selected.toUpperCase() : selected.toUpperCase()) : '?'}
+            {answered ? selected : '?'}
           </span>
         )
       }
@@ -187,7 +187,7 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
             return (
               <button key={letter} onClick={() => handleSelect(letter)}
                 className={`${style} font-black text-2xl py-4 rounded-2xl transition-all active:scale-95`}>
-                {letter.toUpperCase()}
+                {letter}
               </button>
             )
           })}
