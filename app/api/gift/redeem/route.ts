@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 import { getSession } from '@/lib/auth'
 import { addBonusDays } from '@/lib/planUtils'
+import { createNotification } from '@/lib/notifications'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -55,6 +56,15 @@ export async function POST(req: NextRequest) {
   ])
 
   if (e1 || e2) return NextResponse.json({ error: 'Lỗi hệ thống' }, { status: 500 })
+
+  createNotification({
+    familyId: session.familyId,
+    type: 'gift_redeemed',
+    title: '🎁 Đã đổi quà thành công!',
+    body: 'Bạn vừa nhận +14 ngày Pro miễn phí.',
+    url: '/dashboard',
+    metadata: { days: 14, bonusExpiresAt: newBonusExpiry },
+  }).catch(() => {})
 
   return NextResponse.json({ ok: true, bonusExpiresAt: newBonusExpiry })
 }

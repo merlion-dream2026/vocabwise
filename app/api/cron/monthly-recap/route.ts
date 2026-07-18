@@ -4,6 +4,7 @@ import { sendEmail } from '@/lib/email'
 import { buildMonthlyRecapHtml, calcMonthStats, AllLevelSync, ChildRow, SyncRow } from '@/lib/reportHtml'
 import { getPlanTier } from '@/lib/planUtils'
 import { runInBatches } from '@/lib/batchProcess'
+import { createNotification } from '@/lib/notifications'
 
 export const maxDuration = 60
 
@@ -103,6 +104,13 @@ export async function GET(req: NextRequest) {
         subject: `📅 Tổng kết ${monthLabel} — VocabWise`,
         html,
       })
+      createNotification({
+        familyId: family.id,
+        type: 'monthly_recap',
+        title: `📅 Tổng kết ${monthLabel} đã sẵn sàng`,
+        body: 'Xem hành trình học tập của cả nhà trong tháng vừa qua.',
+        url: '/dashboard',
+      }).catch(() => {})
       sent++
     } catch (e) {
       errors.push(`${family.username}: ${e}`)

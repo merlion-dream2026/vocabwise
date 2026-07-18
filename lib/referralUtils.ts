@@ -3,6 +3,7 @@ import { addBonusDays } from './planUtils'
 import { sendEmail } from './email'
 import { sendPushToFamily } from './pushNotifications'
 import { referralSignupRewardEmailHtml, referralPaidRewardEmailHtml } from './emailTemplates'
+import { createNotification } from './notifications'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -101,6 +102,15 @@ export async function releasePendingSignupRewards(
     url: '/dashboard',
   }).catch(err => console.error('[referral] signup reward push error:', err))
 
+  createNotification({
+    familyId: referrerId,
+    type: 'referral_signup_reward',
+    title: '🎁 Phần thưởng giới thiệu!',
+    body: `Bạn vừa nhận +${totalDays} ngày Pro. Người bạn mời đã bắt đầu học!`,
+    url: '/dashboard',
+    metadata: { days: totalDays },
+  }).catch(() => {})
+
   return newBonusExpiresAt
 }
 
@@ -159,4 +169,13 @@ export async function triggerPaidReward(referredFamilyId: string): Promise<void>
     body: `Bạn nhận thêm +${days} ngày Pro. Cảm ơn vì đã giới thiệu!`,
     url: '/dashboard',
   }).catch(err => console.error('[referral] paid reward push error:', err))
+
+  createNotification({
+    familyId: referral.referrer_id,
+    type: 'referral_paid_reward',
+    title: '🏆 Bạn của bạn vừa mua Pro!',
+    body: `Bạn nhận thêm +${days} ngày Pro. Cảm ơn vì đã giới thiệu!`,
+    url: '/dashboard',
+    metadata: { days },
+  }).catch(() => {})
 }

@@ -22,6 +22,7 @@ import {
   type SyncLevel,
 } from '@/lib/childProgress'
 import { runInBatches } from '@/lib/batchProcess'
+import { createNotification } from '@/lib/notifications'
 
 export const maxDuration = 60
 
@@ -101,6 +102,13 @@ export async function GET(req: NextRequest) {
           ),
         })
         await logEmail(famId, 'streak_7')
+        createNotification({
+          familyId: famId,
+          type: 'streak_7',
+          title: '🔥 7 ngày liên tiếp!',
+          body: 'Bạn thuộc top 10% người học kiên trì nhất — tiếp tục phát huy nhé!',
+          url: '/dashboard',
+        }).catch(() => {})
         sent++
       }
 
@@ -127,6 +135,13 @@ export async function GET(req: NextRequest) {
           ),
         })
         await logEmail(famId, 'streak_30')
+        createNotification({
+          familyId: famId,
+          type: 'streak_30',
+          title: '🏆 30 ngày không nghỉ!',
+          body: 'Bạn chính thức là người học kỷ luật nhất — một cột mốc đáng tự hào!',
+          url: '/dashboard',
+        }).catch(() => {})
         sent++
       }
 
@@ -171,6 +186,15 @@ export async function GET(req: NextRequest) {
             ),
           })
           await logEmail(famId, emailType)
+          createNotification({
+            familyId: famId,
+            childId: child.id,
+            type: 'level_up',
+            title: `🎓 Bé ${child.name} vừa lên level!`,
+            body: `Chúc mừng đã hoàn thành ${DAILY_LEVEL_LABELS[level] ?? level} — tiếp theo là ${nextInfo.label}.`,
+            url: `/dashboard/${child.id}`,
+            metadata: { level, nextLevel: nextInfo.id },
+          }).catch(() => {})
           sent++
         }
       }
@@ -201,6 +225,15 @@ export async function GET(req: NextRequest) {
             ),
           })
           await logEmail(famId, emailTypeFirstTopicMastered)
+          createNotification({
+            familyId: famId,
+            childId: child.id,
+            type: 'topic_mastered_first',
+            title: '✅ Topic MASTERED!',
+            body: `Bé ${child.name} vừa hoàn thành xuất sắc "${topicTitle}" — ${pct}% điểm số!`,
+            url: '/vocabwise',
+            metadata: { topicTitle, totalScore, pct },
+          }).catch(() => {})
           sent++
           break
         }
