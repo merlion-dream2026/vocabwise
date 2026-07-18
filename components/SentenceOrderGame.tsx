@@ -170,7 +170,7 @@ export default function SentenceOrderGame({ topic, level, backUrl }: Props) {
         {/* Token pool */}
         {!submitted && (
           <div className="bg-white rounded-2xl p-4 shadow-sm">
-            <p className="text-xs font-bold text-gray-500 mb-2">Danh sách từ:</p>
+            <p className="text-sm font-bold text-gray-500 mb-2">Danh sách từ:</p>
             <div className="flex flex-wrap gap-2">
               {remaining.map(token => (
                 <button key={token.id} onClick={() => tapToken(token)}
@@ -185,7 +185,7 @@ export default function SentenceOrderGame({ topic, level, backUrl }: Props) {
         {/* Answer area */}
         <div className={`bg-white rounded-2xl p-4 shadow-sm min-h-[72px] border-2 transition-colors
           ${submitted ? (isCorrect ? 'border-green-400' : 'border-red-400') : 'border-dashed border-indigo-200'}`}>
-          <p className="text-xs font-bold text-gray-500 mb-2">Câu của bạn:</p>
+          <p className="text-sm font-bold text-gray-500 mb-2">Câu của bạn:</p>
           {placed.length === 0
             ? <p className="text-gray-300 text-sm italic">Nhấn vào các từ bên dưới...</p>
             : <div className="flex flex-wrap gap-2">
@@ -217,7 +217,7 @@ export default function SentenceOrderGame({ topic, level, backUrl }: Props) {
 
         {/* Hint */}
         <div className="bg-white rounded-2xl p-4 shadow-sm">
-          <button onClick={() => setShowHint(h => !h)} className="text-xs text-indigo-500 font-semibold">
+          <button onClick={() => setShowHint(h => !h)} className="text-sm text-indigo-500 font-semibold">
             {showHint ? '🙈 Ẩn gợi ý' : '💡 Xem gợi ý'}
           </button>
           {showHint && <p className="mt-1 text-sm text-gray-500 italic">{q.viHint}</p>}
