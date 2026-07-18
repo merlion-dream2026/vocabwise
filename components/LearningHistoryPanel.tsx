@@ -1,31 +1,45 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { cachedFetch } from '@/lib/cachedFetch'
 
 const DAILY_LEVELS = ['seeker', 'starter', 'ranger', 'explorer', 'scholar', 'master']
 const DOW = ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7']
 
 type DayEntry = { words?: number; games?: number; xp?: number; topics?: number; topicIds?: string[] }
 type SyncMap = Record<string, { history?: Record<string, DayEntry> } | undefined>
+type TopicRef = { level: string; id: string }
+type TopicNames = { daily?: Record<string, Record<string, string>>; academic?: Record<string, string> }
 
 export default function LearningHistoryPanel({ syncByLevel, className }: { syncByLevel: SyncMap; className?: string }) {
   const [open, setOpen] = useState(false)
+  const [topicNames, setTopicNames] = useState<TopicNames | null>(null)
+
+  useEffect(() => {
+    if (!open || topicNames) return
+    cachedFetch('/api/topic-names').then(r => r.ok ? r.json() : null).then(d => { if (d) setTopicNames(d as TopicNames) }).catch(() => {})
+  }, [open, topicNames])
 
   const phonicsHist = syncByLevel['phonics']?.history ?? {}
   const acadHist    = syncByLevel['academic']?.history ?? {}
 
-  const dailyHist: Record<string, { words: number; games: number; topicIds: string[] }> = {}
+  const dailyHist: Record<string, { words: number; games: number; topicRefs: TopicRef[] }> = {}
   for (const lvl of DAILY_LEVELS) {
     for (const [day, e] of Object.entries(syncByLevel[lvl]?.history ?? {})) {
       if ((e.words ?? 0) + (e.games ?? 0) === 0) continue
-      if (!dailyHist[day]) dailyHist[day] = { words: 0, games: 0, topicIds: [] }
+      if (!dailyHist[day]) dailyHist[day] = { words: 0, games: 0, topicRefs: [] }
       dailyHist[day].words += e.words ?? 0
       dailyHist[day].games += e.games ?? 0
       for (const id of e.topicIds ?? []) {
-        if (!dailyHist[day].topicIds.includes(id)) dailyHist[day].topicIds.push(id)
+        if (!dailyHist[day].topicRefs.some(r => r.level === lvl && r.id === id)) {
+          dailyHist[day].topicRefs.push({ level: lvl, id })
+        }
       }
     }
   }
+
+  const dailyTopicName  = (r: TopicRef) => topicNames?.daily?.[r.level]?.[r.id] ?? r.id
+  const academicTopicName = (id: string) => topicNames?.academic?.[id] ?? id
 
   const cutoff = new Date(); cutoff.setDate(cutoff.getDate() - 30)
   const cutoffStr = cutoff.toISOString().split('T')[0]
@@ -79,16 +93,21 @@ export default function LearningHistoryPanel({ syncByLevel, className }: { syncB
                       {[
                         h.daily.words > 0 && `${h.daily.words} từ`,
                         h.daily.games > 0 && `${h.daily.games} game`,
-                        h.daily.topicIds.length > 0 && `${h.daily.topicIds.length} chủ đề`,
                       ].filter(Boolean).join(' · ')}
+                      {h.daily.topicRefs.length > 0 && (
+                        <> · {h.daily.topicRefs.map(dailyTopicName).join(', ')}</>
+                      )}
                     </span>
                   </div>
                 )}
                 {h.academic && (
-                  <div className="flex items-center gap-2 text-sm">
-                    <span className="text-blue-500 font-bold w-20 flex-shrink-0">🎓 Academic</span>
+                  <div className="flex items-start gap-2 text-sm">
+                    <span className="text-blue-500 font-bold w-20 flex-shrink-0 pt-px">🎓 Academic</span>
                     <span className="text-gray-500">
-                      {h.academic.topics} bài tập{h.academic.topicIds.length > 0 ? ` · ${h.academic.topicIds.length} chủ đề` : ''}
+                      {h.academic.topics} bài tập
+                      {h.academic.topicIds.length > 0 && (
+                        <> · {h.academic.topicIds.map(academicTopicName).join(', ')}</>
+                      )}
                     </span>
                   </div>
                 )}
