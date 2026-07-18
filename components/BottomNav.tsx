@@ -12,7 +12,7 @@ const GAME_SLUGS  = new Set([
 ])
 const HIDE_ROOTS = new Set([
   'login','register','verify-email','forgot-password','reset-password',
-  'privacy','terms','superadmin',
+  'privacy','terms','superadmin','kids',
 ])
 const HIDE_TAILS = new Set([...GAME_SLUGS, 'srs', 'review', 'stress'])
 

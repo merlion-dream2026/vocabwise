@@ -6,12 +6,7 @@ import UpgradeBanner from '@/components/UpgradeBanner'
 import { useExpiryGuard, daysUntilExpiry } from '@/lib/useExpiryGuard'
 import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
-import {
-  XP_BADGES,
-  getPhonicsProgress, getXPAndBadge, getAllDailyProgress, getAllAcademicProgress,
-  type SyncAllLevels,
-} from '@/lib/childProgress'
-import { ALL_BADGES } from '@/lib/badges'
+import { type SyncAllLevels } from '@/lib/childProgress'
 import BangThanhTich from '@/components/BangThanhTich'
 import { cachedFetch, invalidateCachedFetch } from '@/lib/cachedFetch'
 
@@ -223,166 +218,30 @@ export default function HomePage() {
             <p className="text-sm mt-1">Vào <span className="font-bold">Phụ huynh</span> để thêm bé</p>
           </div>
         ) : (
-          children.map((child) => {
-            const cfg = THEME_CONFIG[child.theme ?? 'pink'] ?? THEME_CONFIG.pink
-
-            // Streak badge
-            const streakCur = child.streak?.current ?? 0
-            const lastActive = child.streak?.lastActive ?? ''
-            const todayStr = new Date().toISOString().split('T')[0]
-            const yesterStr = new Date(Date.now() - 86400000).toISOString().split('T')[0]
-            const streakBadge = streakCur === 0 ? null
-              : lastActive === todayStr
-                ? { icon: '🔥', label: `${streakCur} ngày`, cls: 'bg-orange-100 text-orange-600' }
-                : lastActive === yesterStr
-                  ? { icon: '⚡', label: `${streakCur} ngày`, cls: 'bg-yellow-100 text-yellow-700' }
-                  : { icon: '💤', label: 'Đã nghỉ', cls: 'bg-gray-100 text-gray-400' }
-
-            const sync = (syncMap[child.id] ?? {}) as SyncAllLevels
-            const { totalXP, badge } = getXPAndBadge(sync)
-            const phonics  = getPhonicsProgress(sync['phonics'])
-            const allDaily = getAllDailyProgress(sync)
-            const allAcad  = getAllAcademicProgress(sync['academic'])
-            const pf = (a: number, b: number) => b > 0 ? (a >= b ? 100 : Math.floor(a / b * 100)) : 0
-
-            // XP progress to next badge tier
-            const badgeIdx = badge ? XP_BADGES.findIndex(b => b.minXP === badge.minXP) : XP_BADGES.length
-            const nextXPBadge = badgeIdx > 0 ? XP_BADGES[badgeIdx - 1] ?? null : null
-            const xpPct = nextXPBadge
-              ? Math.min(100, Math.round((totalXP - (badge?.minXP ?? 0)) / (nextXPBadge.minXP - (badge?.minXP ?? 0)) * 100))
-              : 0
-
-            // Top earned achievement badges (from data available at profile level)
-            const earnedBadgeIds = new Set([
-              allDaily.seenWords >= 1   && 'first_word',
-              allDaily.seenWords >= 50  && 'words_50',
-              allDaily.seenWords >= 100 && 'words_100',
-              allDaily.seenWords >= 300 && 'words_300',
-              allDaily.topicsCompleted >= 1  && 'master_1',
-              allDaily.topicsCompleted >= 5  && 'master_5',
-              allDaily.topicsCompleted >= 10 && 'master_10',
-              totalXP >= 100  && 'xp_100',
-              totalXP >= 500  && 'xp_500',
-              totalXP >= 1000 && 'xp_1000',
-            ].filter(Boolean) as string[])
-            const profileBadges = ALL_BADGES.filter(b => earnedBadgeIds.has(b.id)).slice(-3)
-
-            return (
-              <button
-                key={child.id}
-                onClick={() => handleChildTap(child)}
-                className={`w-full text-left ${cfg.bg} ${cfg.border} border-2 rounded-3xl p-5 shadow-lg active:scale-95 transition-transform duration-150 cursor-pointer select-none`}
-              >
-                {/* Avatar + Name + XP/Badge/Streak */}
-                <div className="flex items-center gap-4 mb-4">
-                  <div className={`relative w-[86px] h-[86px] rounded-2xl bg-gradient-to-br ${cfg.gradient} flex-shrink-0 shadow-md overflow-hidden`}>
+          <div className="grid grid-cols-2 gap-3">
+            {children.map((child) => {
+              const cfg = THEME_CONFIG[child.theme ?? 'pink'] ?? THEME_CONFIG.pink
+              const levelLabel = child.level.charAt(0).toUpperCase() + child.level.slice(1)
+              return (
+                <button
+                  key={child.id}
+                  onClick={() => handleChildTap(child)}
+                  className={`flex flex-col items-center gap-2 ${cfg.bg} ${cfg.border} border-2 rounded-3xl p-4 shadow-sm active:scale-95 transition-transform duration-150 cursor-pointer select-none`}
+                >
+                  <div className={`relative w-20 h-20 rounded-2xl bg-gradient-to-br ${cfg.gradient} flex-shrink-0 shadow-md overflow-hidden`}>
                     <Image src={getAvatarSrc(child.emoji)} fill className="object-cover rounded-2xl" alt="" unoptimized />
                   </div>
-                  <div className="flex-1 min-w-0">
-                    <h2 className={`text-2xl font-black ${cfg.text} flex items-center gap-1.5`}>
-                      {child.name}
-                      {child.pin && <span className="text-base">🔒</span>}
-                    </h2>
-                    <div className="flex items-center gap-1.5 flex-wrap mt-1">
-                      {totalXP > 0 && (
-                        <span className="text-xs font-black text-yellow-600">⭐ {totalXP.toLocaleString()} XP</span>
-                      )}
-                      {badge && (
-                        <span className={`text-[11px] font-black px-1.5 py-0.5 rounded-full ${badge.cls}`}>
-                          {badge.icon} {badge.label}
-                        </span>
-                      )}
-                      {streakBadge && (
-                        <span className={`inline-flex items-center gap-0.5 text-[11px] font-black px-1.5 py-0.5 rounded-full ${streakBadge.cls}`}>
-                          {streakBadge.icon} {streakBadge.label}
-                        </span>
-                      )}
-                      {profileBadges.map(b => (
-                        <span key={b.id} className="text-[11px] font-black px-1.5 py-0.5 rounded-full bg-gray-100 text-gray-500">
-                          {b.emoji} {b.name}
-                        </span>
-                      ))}
-                    </div>
-                    {nextXPBadge && totalXP > 0 && (
-                      <div className="mt-1.5">
-                        <div className="h-1 bg-white/50 rounded-full overflow-hidden">
-                          <div className="h-full bg-yellow-400 rounded-full transition-all duration-500" style={{ width: `${xpPct}%` }} />
-                        </div>
-                        <p className="text-[10px] text-gray-400 font-semibold mt-0.5">
-                          {totalXP.toLocaleString()} / {nextXPBadge.minXP.toLocaleString()} XP → {nextXPBadge.icon} {nextXPBadge.label}
-                        </p>
-                      </div>
-                    )}
-                  </div>
-                </div>
-
-                {/* Module progress rows */}
-                {syncMap[child.id] === undefined ? (
-                  <div className="space-y-2 mb-4 animate-pulse">
-                    {[1, 0.7, 0.5].map((w, i) => (
-                      <div key={i} className="flex items-center justify-between">
-                        <div className="h-2.5 bg-gray-200 rounded-full w-14" />
-                        <div className="h-2.5 bg-gray-100 rounded-full" style={{ width: `${w * 40}%` }} />
-                      </div>
-                    ))}
-                  </div>
-                ) : totalXP === 0 && phonics.seen === 0 ? (
-                  <div className="bg-white/50 rounded-2xl px-4 py-3 mb-4 space-y-1.5">
-                    <p className={`font-black text-sm ${cfg.text}`}>👋 Bắt đầu hành trình học tiếng Anh!</p>
-                    <p className="text-xs text-gray-500 leading-relaxed">Chọn module để học: Phonics · Từ vựng theo chủ đề · Bài tập học thuật</p>
-                    <div className="flex flex-wrap gap-1.5 pt-0.5">
-                      <span className="text-[11px] font-bold text-gray-400">🔤 Phonics</span>
-                      <span className="text-gray-200">·</span>
-                      <span className="text-[11px] font-bold text-gray-400">📚 Daily</span>
-                      <span className="text-gray-200">·</span>
-                      <span className="text-[11px] font-bold text-gray-400">🎓 Academic</span>
-                    </div>
-                  </div>
-                ) : (
-                  <div className="space-y-1.5 mb-4">
-                    {/* Phonics */}
-                    <div className="flex items-center justify-between text-xs">
-                      <span className={`font-bold ${cfg.text}`}>🔤 Phonics</span>
-                      <span className="text-gray-500">
-                        {phonics.seen}/{phonics.total} bài ({pf(phonics.seen, phonics.total)}%)
-                      </span>
-                    </div>
-
-                    {/* Daily */}
-                    <div className="flex items-center justify-between text-xs">
-                      <span className={`font-bold ${cfg.text} flex-shrink-0`}>📚 Daily</span>
-                      <span className="text-gray-500 text-right">
-                        {allDaily.topicsCompleted}/{allDaily.totalTopics} chủ đề ({pf(allDaily.topicsCompleted, allDaily.totalTopics)}%) · {allDaily.seenWords}/{allDaily.totalWords} từ ({pf(allDaily.seenWords, allDaily.totalWords)}%)
-                      </span>
-                    </div>
-
-                    {/* Academic */}
-                    <div className="flex items-center justify-between text-xs">
-                      <span className={`font-bold ${cfg.text} flex-shrink-0`}>🎓 Academic</span>
-                      <span className="text-gray-500 text-right">
-                        {allAcad.completed}/{allAcad.total} chủ đề ({pf(allAcad.completed, allAcad.total)}%) · {allAcad.seenWords}/{allAcad.totalWords} từ ({pf(allAcad.seenWords, allAcad.totalWords)}%)
-                      </span>
-                    </div>
-                  </div>
-                )}
-
-                {/* CTA — streak-risk aware */}
-                {child.pin ? (
-                  <div className={`${cfg.btn} text-white font-black text-lg py-3 rounded-2xl text-center transition-colors duration-150`}>
-                    🔒 Nhập PIN để vào học
-                  </div>
-                ) : lastActive === yesterStr && streakCur > 0 ? (
-                  <div className="bg-gradient-to-r from-orange-400 to-amber-400 text-white font-black text-base py-3 rounded-2xl text-center transition-colors duration-150">
-                    ⚡ Học ngay để giữ streak 🔥 {streakCur} ngày!
-                  </div>
-                ) : (
-                  <div className={`${cfg.btn} text-white font-black text-lg py-3 rounded-2xl text-center transition-colors duration-150`}>
-                    {syncMap[child.id] !== undefined && totalXP === 0 && phonics.seen === 0 ? '🌟 Bắt đầu học ngay! →' : 'Tiếp tục học! →'}
-                  </div>
-                )}
-              </button>
-            )
-          })
+                  <span className={`text-base font-black ${cfg.text} flex items-center gap-1`}>
+                    {child.name}
+                    {child.pin && <span className="text-sm">🔒</span>}
+                  </span>
+                  <span className={`text-[11px] font-black px-2 py-0.5 rounded-full ${cfg.badge}`}>
+                    {levelLabel}
+                  </span>
+                </button>
+              )
+            })}
+          </div>
         )}
       </div>
 

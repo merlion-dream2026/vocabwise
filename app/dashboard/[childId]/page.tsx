@@ -2,12 +2,13 @@
 
 import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
-import { getPhonicsProgress, getAllDailyProgress, getAllAcademicProgress, getGlobalStreak, getDailyXP, DAILY_XP_GOAL, type SyncLevel } from '@/lib/childProgress'
+import { getPhonicsProgress, getAllDailyProgress, getAllAcademicProgress, getGlobalStreak, getDailyXP, DAILY_XP_GOAL, type SyncLevel, type SyncAllLevels } from '@/lib/childProgress'
 import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
 import UpgradeBanner from '@/components/UpgradeBanner'
 import LearningHistoryPanel from '@/components/LearningHistoryPanel'
 import ModuleCard from '@/components/ModuleCard'
+import ChildStatsCard from '@/components/ChildStatsCard'
 import { cachedFetch } from '@/lib/cachedFetch'
 
 
@@ -84,7 +85,7 @@ function KidFaqSection() {
 
 const LEVEL_ORDER = ['seeker', 'starter', 'ranger', 'explorer', 'scholar', 'master'] as const
 
-type Child = { id: string; name: string; emoji: string; level: string }
+type Child = { id: string; name: string; emoji: string; level: string; streak?: { current: number; lastActive: string } }
 type SyncByLevel = Record<string, SyncLevel>
 type Session = { plan: string; username?: string; free_trial_expires_at?: string | null; plan_end_date?: string | null }
 
@@ -154,6 +155,8 @@ export default function ChildRoadmap() {
           <p className="text-gray-400 text-xs font-semibold">Chọn module để học</p>
         </div>
       </div>
+
+      <ChildStatsCard child={child!} sync={syncByLevel as SyncAllLevels} />
 
       {/* Daily missions */}
       <div className="max-w-lg mx-auto mb-4">
