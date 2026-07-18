@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
-import { getSession, hashPassword } from '@/lib/auth'
+import { getSession, hashPin } from '@/lib/auth'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -27,7 +27,7 @@ export async function POST(req: NextRequest, { params }: { params: { id: string 
     return NextResponse.json({ error: 'PIN phải là 4 chữ số' }, { status: 400 })
   }
 
-  const pinHash = pin ? await hashPassword(pin) : null
+  const pinHash = pin ? await hashPin(pin) : null
   const { error } = await supabase
     .from('children')
     .update({ pin: pinHash })

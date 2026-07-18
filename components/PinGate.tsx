@@ -82,7 +82,7 @@ export default function PinGate({ childId, name, emoji, color, onSuccess, onClos
           {KEYS.map((k, i) => (
             k === '' ? <div key={i} /> : (
               <button key={i} onClick={() => handleKey(k)} disabled={loading}
-                className={`h-16 rounded-2xl font-black text-2xl transition-all active:scale-90 disabled:opacity-40 ${
+                className={`h-16 rounded-2xl font-black text-2xl transition-all active:scale-90 disabled:opacity-40 touch-manipulation select-none ${
                   k === '⌫' ? 'bg-gray-100 text-gray-500 text-xl' : btnColor
                 }`}>
                 {k}
