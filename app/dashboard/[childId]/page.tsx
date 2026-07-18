@@ -13,6 +13,19 @@ import { cachedFetch } from '@/lib/cachedFetch'
 
 const KID_FAQ = [
   {
+    group: '🔤 Phonics',
+    items: [
+      {
+        q: '🔤 Module Phonics là gì?',
+        a: 'Ngoài học từ vựng theo chủ đề, bạn còn có thể luyện phát âm tiếng Anh theo chuẩn IPA!\n\nBấm card 🔤 "Phonics" ở màn hình chọn level để vào.\n\n9 nhóm, 58 bài — học theo thứ tự:\nNguyên âm ngắn · Nguyên âm đôi · Cặp phụ âm · Phụ âm khác · Khó với người Việt · Đọc từ thông minh · Quy tắc phát âm · Ngữ điệu · Nói liên tục',
+      },
+      {
+        q: '🏆 Khi nào một bài Phonics được tính là hoàn thành?',
+        a: 'Học thẻ âm → hoàn thành các game bắt buộc trong bài đó.\nMỗi game đạt ≥70% = 🏆 Thành thạo!',
+      },
+    ],
+  },
+  {
     group: '📚 Daily',
     items: [
       {
@@ -38,19 +51,6 @@ const KID_FAQ = [
       {
         q: '🎤 Game Phát âm cùng AI ✨ dùng như thế nào?',
         a: 'Bấm nút micro 🎤 → đọc to từ (hoặc câu) hiển thị trên màn hình.\nApp sẽ nhận diện giọng bạn và cho biết đúng hay sai.\nBấm 🔊 "Nghe mẫu" để nghe phát âm chuẩn trước.\nSau khi đọc, bấm ▶️ để nghe lại giọng của chính mình!\n\n⚠️ Cần cho phép quyền Microphone khi trình duyệt hỏi.',
-      },
-    ],
-  },
-  {
-    group: '🔤 Phonics',
-    items: [
-      {
-        q: '🔤 Module Phonics là gì?',
-        a: 'Ngoài học từ vựng theo chủ đề, bạn còn có thể luyện phát âm tiếng Anh theo chuẩn IPA!\n\nBấm card 🔤 "Phonics" ở màn hình chọn level để vào.\n\n9 nhóm, 58 bài — học theo thứ tự:\nNguyên âm ngắn · Nguyên âm đôi · Cặp phụ âm · Phụ âm khác · Khó với người Việt · Đọc từ thông minh · Quy tắc phát âm · Ngữ điệu · Nói liên tục',
-      },
-      {
-        q: '🏆 Khi nào một bài Phonics được tính là hoàn thành?',
-        a: 'Học thẻ âm → hoàn thành các game bắt buộc trong bài đó.\nMỗi game đạt ≥70% = 🏆 Thành thạo!',
       },
     ],
   },
@@ -103,12 +103,12 @@ function KidFaqPanel() {
                 <div key={key}>
                   <button
                     onClick={() => setOpen(o => o === key ? null : key)}
-                    className="w-full text-left px-4 py-3 flex items-center justify-between gap-2 hover:bg-purple-50/50 transition-colors">
+                    className="w-full text-left pl-7 pr-4 py-3 flex items-center justify-between gap-2 hover:bg-purple-50/50 transition-colors">
                     <span className="font-bold text-gray-700 text-sm leading-snug">{item.q}</span>
                     <span className={`text-gray-400 font-black text-sm flex-shrink-0 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}>▾</span>
                   </button>
                   {isOpen && (
-                    <div className="px-4 pb-3">
+                    <div className="pl-7 pr-4 pb-3">
                       <div className="bg-purple-50 rounded-xl p-3">
                         {item.a.split('\n').map((line, j) => (
                           <p key={j} className={`text-xs text-gray-600 leading-relaxed ${j > 0 && line === '' ? 'mt-2' : j > 0 ? 'mt-1' : ''}`}>
