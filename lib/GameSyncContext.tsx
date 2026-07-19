@@ -32,6 +32,7 @@ type GameSyncApi = {
   addScore: (level: string, points: number) => void
   recordFlashcardDone: (level: string, topicId: string) => void
   recordPerfectGame: (level: string, topicId: string, gameKey: string) => void
+  recordTestCompleted: (level: string) => void
   flush: () => Promise<void>
 }
 
@@ -223,6 +224,12 @@ function createGameSyncApi(): GameSyncApi {
     bumpTopic(topicId)
   }
 
+  // Level Test / Module Test / Revision test span a whole level or book, not a single topic —
+  // just count the completion itself so it shows up in the 30-day history (words+games gate).
+  function recordTestCompleted(_level: string) {
+    bumpHistory('games')
+  }
+
   async function flush() {
     if (!_childId || !_level) return
     _flushed = true
@@ -245,7 +252,7 @@ function createGameSyncApi(): GameSyncApi {
   return {
     initGameSync, markSeen, recordAnswer, recordReviewAnswer, getWeakWords,
     recordSrsAnswer, getSrsDueCount, recordActivity, addScore,
-    recordFlashcardDone, recordPerfectGame, flush,
+    recordFlashcardDone, recordPerfectGame, recordTestCompleted, flush,
   }
 }
 

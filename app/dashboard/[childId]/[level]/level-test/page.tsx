@@ -8,6 +8,7 @@ import { pickTestSet, TEST_SET_COUNT } from '@/lib/testSetRotation'
 import UpgradeModal from '@/components/UpgradeModal'
 import { getEffectivePlan } from '@/lib/planUtils'
 import { cachedFetch } from '@/lib/cachedFetch'
+import { useGameSync } from '@/lib/GameSyncContext'
 
 type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; bonus_features?: string[] | null }
 
@@ -510,6 +511,7 @@ function BreakScreen({ emoji, title, score, max, accentCls, onContinue }: {
 export default function LevelTestPage() {
   const router = useRouter()
   const { childId, level } = useParams<{ childId: string; level: string }>()
+  const { initGameSync, addScore, recordActivity, recordTestCompleted, flush } = useGameSync()
   const colors = LEVEL_COLORS[level] ?? LEVEL_COLORS.seeker
   const levelLabel = level ? level.charAt(0).toUpperCase() + level.slice(1) : ''
 
@@ -556,6 +558,7 @@ export default function LevelTestPage() {
       setSavedScore(levelTest ? { score: levelTest.score, max: levelTest.max } : null)
       setFullPool(flat)
       setQuestions(buildQuestions(pickTestSet(flat, currentAttempt)))
+      initGameSync(childId, level, syncData)
       setPhase('intro')
     }).catch(() => router.back())
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -568,7 +571,14 @@ export default function LevelTestPage() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ level, revision_score_key: 'level_test', revision_score_value: value }),
     }).catch(() => {})
-  }, [childId, level, attempt])
+    // Level Test previously only wrote revision_scores — it never fed the 30-day history
+    // panel or the profile-card streak, both of which read from the same GameSync-driven
+    // history/streak columns that regular topic games push. Wire it into that shared path too.
+    addScore(level, total)
+    recordTestCompleted(level)
+    recordActivity(level)
+    flush()
+  }, [childId, level, attempt, addScore, recordTestCompleted, recordActivity, flush])
 
   if (!sessionLoaded) {
     return (
