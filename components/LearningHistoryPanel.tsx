@@ -15,10 +15,11 @@ export default function LearningHistoryPanel({ syncByLevel, className }: { syncB
   const [open, setOpen] = useState(false)
   const [topicNames, setTopicNames] = useState<TopicNames | null>(null)
 
+  // Fetch on mount (not gated on `open`) so names are already cached by the time the user
+  // expands the panel — avoids a flash of raw English topic IDs before the Vietnamese name loads.
   useEffect(() => {
-    if (!open || topicNames) return
     cachedFetch('/api/topic-names').then(r => r.ok ? r.json() : null).then(d => { if (d) setTopicNames(d as TopicNames) }).catch(() => {})
-  }, [open, topicNames])
+  }, [])
 
   const phonicsHist = syncByLevel['phonics']?.history ?? {}
   const acadHist    = syncByLevel['academic']?.history ?? {}
@@ -75,7 +76,9 @@ export default function LearningHistoryPanel({ syncByLevel, className }: { syncB
 
       {open && (
         <div className="px-3 pb-3 max-h-72 overflow-y-auto space-y-2.5">
-          {days.length === 0 ? (
+          {topicNames === null ? (
+            <p className="text-sm text-gray-400 text-center py-1 animate-pulse">Đang tải...</p>
+          ) : days.length === 0 ? (
             <p className="text-sm text-gray-400 text-center py-1">Chưa có hoạt động trong 30 ngày qua</p>
           ) : days.map(h => (
             <div key={h.date}>
@@ -83,7 +86,7 @@ export default function LearningHistoryPanel({ syncByLevel, className }: { syncB
               <div className="space-y-0.5">
                 {h.phonics && (
                   <div className="flex items-start gap-2 text-sm">
-                    <span className="text-amber-500 font-bold w-20 flex-shrink-0 pt-px">🔤 Phonics</span>
+                    <span className="text-amber-500 font-bold text-xs w-20 flex-shrink-0 pt-px whitespace-nowrap">🔤 Phonics</span>
                     <span className="text-gray-500">
                       {h.phonics.topicIds.length} bài: {h.phonics.topicIds.map(phonicsTopicName).join(', ')}
                     </span>
@@ -91,7 +94,7 @@ export default function LearningHistoryPanel({ syncByLevel, className }: { syncB
                 )}
                 {h.daily && (
                   <div className="flex items-start gap-2 text-sm">
-                    <span className="text-purple-500 font-bold w-20 flex-shrink-0 pt-px">📚 Daily</span>
+                    <span className="text-purple-500 font-bold text-xs w-20 flex-shrink-0 pt-px whitespace-nowrap">📚 Daily</span>
                     <span className="text-gray-500">
                       {[
                         h.daily.words > 0 && `${h.daily.words} từ`,
@@ -105,7 +108,7 @@ export default function LearningHistoryPanel({ syncByLevel, className }: { syncB
                 )}
                 {h.academic && (
                   <div className="flex items-start gap-2 text-sm">
-                    <span className="text-blue-500 font-bold w-20 flex-shrink-0 pt-px">🎓 Academic</span>
+                    <span className="text-blue-500 font-bold text-xs w-20 flex-shrink-0 pt-px whitespace-nowrap">🎓 Academic</span>
                     <span className="text-gray-500">
                       {h.academic.topics} bài tập
                       {h.academic.topicIds.length > 0 && (

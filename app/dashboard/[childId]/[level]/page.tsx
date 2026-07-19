@@ -275,7 +275,7 @@ export default function LevelTopicsPage() {
   }
 
   return (
-    <div className={`min-h-screen bg-gradient-to-br ${colors.bg}`}>
+    <div className={`min-h-screen bg-gradient-to-br ${colors.bg} pb-nav`}>
       {showUpgrade && <UpsellModal onClose={() => setShowUpgrade(false)} username={session?.username ?? ''} />}
 
       {/* Header */}
