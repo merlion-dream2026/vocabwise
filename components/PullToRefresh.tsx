@@ -72,20 +72,23 @@ export default function PullToRefresh() {
     }
   }, [refreshing])
 
-  if (pullY === 0 && !refreshing) return null
-
   const progress = Math.min(pullY / PULL_THRESHOLD, 1)
+  const visible = pullY > 0 || refreshing
+  // Position/rotation track the finger 1:1 while dragging (0s) — any easing there would feel
+  // laggy/disconnected from the touch. Opacity always eases a little so the icon fades in/out
+  // instead of popping; on release, position also eases (snap-back or settle into the spinner).
+  const transition = `transform ${active.current ? '0s' : '0.25s cubic-bezier(0.22, 1, 0.36, 1)'}, opacity 0.15s ease-out`
 
   return (
     <div
       className="fixed top-0 left-0 right-0 z-[70] flex justify-center pointer-events-none"
-      style={{ transform: `translateY(${pullY - 48}px)`, transition: active.current ? 'none' : 'transform 0.2s ease-out' }}
+      style={{ transform: `translateY(${pullY - 48}px)`, opacity: visible ? 1 : 0, transition }}
     >
       <div className="mt-2 w-9 h-9 rounded-full bg-white shadow-md flex items-center justify-center text-base">
         {refreshing ? (
           <span className="animate-spin">⏳</span>
         ) : (
-          <span style={{ display: 'inline-block', transform: `rotate(${progress * 180}deg)`, opacity: 0.4 + progress * 0.6 }}>
+          <span style={{ display: 'inline-block', transform: `rotate(${progress * 180}deg)`, opacity: 0.4 + progress * 0.6, transition }}>
             ⬇️
           </span>
         )}
