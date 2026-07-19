@@ -11,7 +11,6 @@ import {
   getPhonicsProgress, getXPAndBadge, getAllDailyProgress, getAllAcademicProgress,
   type SyncAllLevels,
 } from '@/lib/childProgress'
-import { ALL_BADGES } from '@/lib/badges'
 import BangThanhTich from '@/components/BangThanhTich'
 import { cachedFetch, invalidateCachedFetch } from '@/lib/cachedFetch'
 
@@ -252,38 +251,23 @@ export default function HomePage() {
               ? Math.min(100, Math.round((totalXP - (badge?.minXP ?? 0)) / (nextXPBadge.minXP - (badge?.minXP ?? 0)) * 100))
               : 0
 
-            // Top earned achievement badges (from data available at profile level)
-            const earnedBadgeIds = new Set([
-              allDaily.seenWords >= 1   && 'first_word',
-              allDaily.seenWords >= 50  && 'words_50',
-              allDaily.seenWords >= 100 && 'words_100',
-              allDaily.seenWords >= 300 && 'words_300',
-              allDaily.topicsCompleted >= 1  && 'master_1',
-              allDaily.topicsCompleted >= 5  && 'master_5',
-              allDaily.topicsCompleted >= 10 && 'master_10',
-              totalXP >= 100  && 'xp_100',
-              totalXP >= 500  && 'xp_500',
-              totalXP >= 1000 && 'xp_1000',
-            ].filter(Boolean) as string[])
-            const profileBadges = ALL_BADGES.filter(b => earnedBadgeIds.has(b.id)).slice(-3)
-
             return (
               <button
                 key={child.id}
                 onClick={() => handleChildTap(child)}
-                className={`w-full text-left ${cfg.bg} ${cfg.border} border-2 rounded-3xl p-5 shadow-lg active:scale-95 transition-transform duration-150 cursor-pointer select-none`}
+                className={`w-full text-left ${cfg.bg} ${cfg.border} border-2 rounded-3xl p-4 shadow-lg active:scale-95 transition-transform duration-150 cursor-pointer select-none`}
               >
                 {/* Avatar + Name + XP/Badge/Streak */}
-                <div className="flex items-center gap-4 mb-4">
-                  <div className={`relative w-[86px] h-[86px] rounded-2xl bg-gradient-to-br ${cfg.gradient} flex-shrink-0 shadow-md overflow-hidden`}>
+                <div className="flex items-center gap-3 mb-3">
+                  <div className={`relative w-14 h-14 rounded-2xl bg-gradient-to-br ${cfg.gradient} flex-shrink-0 shadow-md overflow-hidden`}>
                     <Image src={getAvatarSrc(child.emoji)} fill className="object-cover rounded-2xl" alt="" unoptimized />
                   </div>
                   <div className="flex-1 min-w-0">
-                    <h2 className={`text-2xl font-black ${cfg.text} flex items-center gap-1.5`}>
+                    <h2 className={`text-xl font-black ${cfg.text} flex items-center gap-1.5`}>
                       {child.name}
-                      {child.pin && <span className="text-base">🔒</span>}
+                      {child.pin && <span className="text-sm">🔒</span>}
                     </h2>
-                    <div className="flex items-center gap-1.5 flex-wrap mt-1">
+                    <div className="flex items-center gap-1.5 flex-wrap mt-0.5">
                       {totalXP > 0 && (
                         <span className="text-xs font-black text-yellow-600">⭐ {totalXP.toLocaleString()} XP</span>
                       )}
@@ -297,20 +281,15 @@ export default function HomePage() {
                           {streakBadge.icon} {streakBadge.label}
                         </span>
                       )}
-                      {profileBadges.map(b => (
-                        <span key={b.id} className="text-[11px] font-black px-1.5 py-0.5 rounded-full bg-gray-100 text-gray-500">
-                          {b.emoji} {b.name}
-                        </span>
-                      ))}
                     </div>
                     {nextXPBadge && totalXP > 0 && (
-                      <div className="mt-1.5">
-                        <div className="h-1 bg-white/50 rounded-full overflow-hidden">
+                      <div className="mt-1 flex items-center gap-1.5">
+                        <div className="flex-1 h-1 bg-white/50 rounded-full overflow-hidden">
                           <div className="h-full bg-yellow-400 rounded-full transition-all duration-500" style={{ width: `${xpPct}%` }} />
                         </div>
-                        <p className="text-[10px] text-gray-400 font-semibold mt-0.5">
-                          {totalXP.toLocaleString()} / {nextXPBadge.minXP.toLocaleString()} XP → {nextXPBadge.icon} {nextXPBadge.label}
-                        </p>
+                        <span className="text-[9px] text-gray-400 font-semibold whitespace-nowrap">
+                          {xpPct}% → {nextXPBadge.icon} {nextXPBadge.label}
+                        </span>
                       </div>
                     )}
                   </div>
@@ -366,12 +345,9 @@ export default function HomePage() {
                   </div>
                 )}
 
-                {/* CTA — streak-risk aware */}
-                {child.pin ? (
-                  <div className={`${cfg.btn} text-white font-black text-lg py-3 rounded-2xl text-center transition-colors duration-150`}>
-                    🔒 Nhập PIN để vào học
-                  </div>
-                ) : lastActive === yesterStr && streakCur > 0 ? (
+                {/* CTA — streak-risk aware; PIN case relies on card tap + 🔒 next to name, no separate button */}
+                {child.pin ? null
+                : lastActive === yesterStr && streakCur > 0 ? (
                   <div className="bg-gradient-to-r from-orange-400 to-amber-400 text-white font-black text-base py-3 rounded-2xl text-center transition-colors duration-150">
                     ⚡ Học ngay để giữ streak 🔥 {streakCur} ngày!
                   </div>
