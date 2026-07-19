@@ -5,6 +5,7 @@ import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import GameSoundToggle from '@/components/GameSoundToggle'
 
 type GlossaryItem = { word: string; pos: string | null; meaning_vi: string; example_en: string; topic_id: string }
+type HistoryEntry = { topics?: number; xp?: number; games?: number; words?: number; topicIds?: string[] }
 type MCQQuestion = { word: string; pos: string | null; correct: string; options: string[] }
 type FIBQuestion = { blanked: string; word: string; meaning_vi: string; correct: string; options: string[]; mode: 'mcq' | 'type' }
 type MatchPair = { word: string; meaning: string }
@@ -386,14 +387,25 @@ export default function RevisionPage() {
   const [match1Score, setMatch1Score] = useState(0)
   const [match2Score, setMatch2Score] = useState(0)
 
+  // Academic progress lives in family-level vw_academic_sync (mastery/srs/history), separate
+  // from the revision_scores PATCH below — must round-trip mastery/srs unchanged so the POST
+  // in saveScore doesn't clobber them.
+  const [savedMastery, setSavedMastery] = useState<Record<string, unknown>>({})
+  const [savedSrs, setSavedSrs] = useState<Record<string, unknown>>({})
+  const [savedHistory, setSavedHistory] = useState<Record<string, HistoryEntry>>({})
+
   useEffect(() => {
-    fetch(`/api/vocabwise/revision?book=${book}&rev=${revNum}`)
-      .then(r => r.ok ? r.json() : null)
-      .then(data => {
+    Promise.all([
+      fetch(`/api/vocabwise/revision?book=${book}&rev=${revNum}`).then(r => r.ok ? r.json() : null),
+      fetch('/api/vocabwise/sync').then(r => r.ok ? r.json() : null).catch(() => null),
+    ]).then(([data, sync]) => {
         if (!data?.glossary?.length) { router.back(); return }
         setTopicRange(data.topicRange)
         setPool(data.glossary)
         setQuestions(buildQuestions(data.glossary))
+        setSavedMastery(sync?.mastery ?? {})
+        setSavedSrs(sync?.srs ?? {})
+        setSavedHistory(sync?.history ?? {})
         setPhase('intro')
       })
       .catch(() => router.back())
@@ -408,7 +420,31 @@ export default function RevisionPage() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ revision_score_key: `${book}_${revId}`, revision_score_value: value }),
     }).catch(() => {})
-  }, [book, revId])
+
+    // Revision test previously only wrote revision_scores — it never bumped `history`, so it
+    // never showed up in the 30-day history panel (gate there is history[date].topics > 0).
+    // Mirror TopicViewer's history-merge shape; mastery/srs pass through untouched.
+    const today = new Date().toISOString().split('T')[0]
+    const prev = savedHistory[today] ?? {}
+    const prevTopicIds = prev.topicIds ?? []
+    const revisionTopicIds = Array.from(new Set(pool.map(w => w.topic_id)))
+    const newHistory = {
+      ...savedHistory,
+      [today]: {
+        topics: (prev.topics ?? 0) + 1,
+        xp: (prev.xp ?? 0) + total,
+        games: prev.games ?? 0,
+        words: prev.words ?? 0,
+        topicIds: Array.from(new Set([...prevTopicIds, ...revisionTopicIds])),
+      },
+    }
+    setSavedHistory(newHistory)
+    fetch('/api/vocabwise/sync', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ mastery: savedMastery, srs: savedSrs, history: newHistory }),
+    }).catch(() => {})
+  }, [book, revId, pool, savedMastery, savedSrs, savedHistory])
 
   const totalScore = mcqScore + fibScore + match1Score + match2Score
 

@@ -3,6 +3,7 @@ import { useState, useEffect, useCallback } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import GameSoundToggle from '@/components/GameSoundToggle'
+import { useGameSync } from '@/lib/GameSyncContext'
 
 type WordItem = { word: string; meaning: string; emoji: string; examples: { en: string; vi: string }[] }
 type FlatWord = { word: string; meaning_vi: string; example_en: string; emoji: string }
@@ -298,6 +299,7 @@ function BreakScreen({ emoji, title, score, max, accentCls, onContinue }: {
 export default function KidsRevisionPage() {
   const router = useRouter()
   const { childId, level, revId } = useParams<{ childId: string; level: string; revId: string }>()
+  const { initGameSync, addScore, recordActivity, recordTestCompleted, flush } = useGameSync()
   const revNum = parseInt(revId.replace('r', ''), 10)
   const colors = LEVEL_COLORS[level] ?? LEVEL_COLORS.seeker
 
@@ -318,9 +320,10 @@ export default function KidsRevisionPage() {
   }, [level, revId])
 
   useEffect(() => {
-    fetch(`/api/words/${level}/revision/${revId}`)
-      .then(r => r.ok ? r.json() : null)
-      .then(data => {
+    Promise.all([
+      fetch(`/api/words/${level}/revision/${revId}`).then(r => r.ok ? r.json() : null),
+      fetch(`/api/sync/${childId}?level=${level}`).then(r => r.ok ? r.json() : null).catch(() => null),
+    ]).then(([data, syncData]) => {
         if (!data?.topics) { router.back(); return }
         const fiveTopics = data.topics as { name: string; words: WordItem[] }[]
         if (!fiveTopics.length) { router.back(); return }
@@ -340,10 +343,12 @@ export default function KidsRevisionPage() {
         )
         setPool(flat)
         setQuestions(buildQuestions(flat))
+        initGameSync(childId, level, syncData)
         setPhase('intro')
       })
       .catch(() => router.back())
-  }, [level, revNum, router])
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [level, revNum, router, childId])
 
   const saveScore = useCallback((total: number) => {
     const value = { score: total, max: 30, date: new Date().toISOString().split('T')[0] }
@@ -354,7 +359,13 @@ export default function KidsRevisionPage() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ level, revision_score_key: revId, revision_score_value: value }),
     }).catch(() => {})
-  }, [childId, level, revId])
+    // Revision test previously only wrote revision_scores — same gap as Level Test:
+    // never fed the 30-day history panel or the profile-card streak.
+    addScore(level, total)
+    recordTestCompleted(level)
+    recordActivity(level)
+    flush()
+  }, [childId, level, revId, addScore, recordTestCompleted, recordActivity, flush])
 
   if (phase === 'loading') {
     return (
