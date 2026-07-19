@@ -78,7 +78,7 @@ export default function LearningHistoryPanel({ syncByLevel, className }: { syncB
       </button>
 
       {open && (
-        <div className="px-3 pb-3 max-h-72 overflow-y-auto space-y-2.5">
+        <div className="px-3 pb-3 max-h-[calc(100dvh-var(--bottom-nav-h)-4rem)] overflow-y-auto space-y-2.5">
           {topicNames === null ? (
             <p className="text-sm text-gray-400 text-center py-1 animate-pulse">Đang tải...</p>
           ) : days.length === 0 ? (
