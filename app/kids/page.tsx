@@ -368,6 +368,10 @@ export default function HomePage() {
         <BangThanhTich
           entries={children.map(c => ({ child: c, syncAll: (syncMap[c.id] ?? {}) as Record<string, { history?: Record<string, { words: number; games: number; xp: number }> }> }))}
           variant="kids"
+          onViewChild={(childId) => {
+            const child = children.find(c => c.id === childId)
+            if (child) handleChildTap(child)
+          }}
         />
       </div>
 

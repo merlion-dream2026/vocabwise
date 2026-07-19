@@ -575,10 +575,10 @@ export default function LevelTestPage() {
     // panel or the profile-card streak, both of which read from the same GameSync-driven
     // history/streak columns that regular topic games push. Wire it into that shared path too.
     addScore(level, total)
-    recordTestCompleted(level)
+    recordTestCompleted(level, `Level Test — ${levelLabel}`)
     recordActivity(level)
     flush()
-  }, [childId, level, attempt, addScore, recordTestCompleted, recordActivity, flush])
+  }, [childId, level, attempt, levelLabel, addScore, recordTestCompleted, recordActivity, flush])
 
   if (!sessionLoaded) {
     return (

@@ -7,7 +7,7 @@ import { createContext, useContext, useRef, type ReactNode } from 'react'
 import { saveOfflineProgress } from './offlineStorage'
 
 export type WeakEntry = { wrong: number; correctStreak: number; lastWrong: string }
-export type HistoryEntry = { words: number; games: number; xp: number; topicIds?: string[] }
+export type HistoryEntry = { words: number; games: number; xp: number; topicIds?: string[]; testsDone?: string[] }
 export type SrsEntry = { interval: number; due: string; ef: number }
 
 export type SyncData = {
@@ -32,7 +32,7 @@ type GameSyncApi = {
   addScore: (level: string, points: number) => void
   recordFlashcardDone: (level: string, topicId: string) => void
   recordPerfectGame: (level: string, topicId: string, gameKey: string) => void
-  recordTestCompleted: (level: string) => void
+  recordTestCompleted: (level: string, label: string) => void
   flush: () => Promise<void>
 }
 
@@ -86,6 +86,15 @@ function createGameSyncApi(): GameSyncApi {
     const ids = prev.topicIds ?? []
     if (!ids.includes(topicId)) {
       _history = { ..._history, [today]: { ...prev, topicIds: [...ids, topicId] } }
+    }
+  }
+
+  function bumpTestLabel(label: string) {
+    const today = todayKey()
+    const prev = _history[today] ?? { words: 0, games: 0, xp: 0 }
+    const labels = prev.testsDone ?? []
+    if (!labels.includes(label)) {
+      _history = { ..._history, [today]: { ...prev, testsDone: [...labels, label] } }
     }
   }
 
@@ -225,9 +234,11 @@ function createGameSyncApi(): GameSyncApi {
   }
 
   // Level Test / Module Test / Revision test span a whole level or book, not a single topic —
-  // just count the completion itself so it shows up in the 30-day history (words+games gate).
-  function recordTestCompleted(_level: string) {
+  // bump the completion count (words+games gate) and remember the test's display label so
+  // the 30-day history panel can show which test was done, not just an anonymous game count.
+  function recordTestCompleted(_level: string, label: string) {
     bumpHistory('games')
+    bumpTestLabel(label)
   }
 
   async function flush() {

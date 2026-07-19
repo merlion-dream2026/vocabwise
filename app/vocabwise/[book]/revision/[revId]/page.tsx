@@ -5,7 +5,7 @@ import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import GameSoundToggle from '@/components/GameSoundToggle'
 
 type GlossaryItem = { word: string; pos: string | null; meaning_vi: string; example_en: string; topic_id: string }
-type HistoryEntry = { topics?: number; xp?: number; games?: number; words?: number; topicIds?: string[] }
+type HistoryEntry = { topics?: number; xp?: number; games?: number; words?: number; topicIds?: string[]; testsDone?: string[] }
 type MCQQuestion = { word: string; pos: string | null; correct: string; options: string[] }
 type FIBQuestion = { blanked: string; word: string; meaning_vi: string; correct: string; options: string[]; mode: 'mcq' | 'type' }
 type MatchPair = { word: string; meaning: string }
@@ -428,6 +428,8 @@ export default function RevisionPage() {
     const prev = savedHistory[today] ?? {}
     const prevTopicIds = prev.topicIds ?? []
     const revisionTopicIds = Array.from(new Set(pool.map(w => w.topic_id)))
+    const prevTestsDone = prev.testsDone ?? []
+    const testLabel = `Revision: Topics ${topicRange} — ${bookInfo.title}`
     const newHistory = {
       ...savedHistory,
       [today]: {
@@ -436,6 +438,7 @@ export default function RevisionPage() {
         games: prev.games ?? 0,
         words: prev.words ?? 0,
         topicIds: Array.from(new Set([...prevTopicIds, ...revisionTopicIds])),
+        testsDone: prevTestsDone.includes(testLabel) ? prevTestsDone : [...prevTestsDone, testLabel],
       },
     }
     setSavedHistory(newHistory)
@@ -444,7 +447,7 @@ export default function RevisionPage() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ mastery: savedMastery, srs: savedSrs, history: newHistory }),
     }).catch(() => {})
-  }, [book, revId, pool, savedMastery, savedSrs, savedHistory])
+  }, [book, revId, pool, topicRange, bookInfo.title, savedMastery, savedSrs, savedHistory])
 
   const totalScore = mcqScore + fibScore + match1Score + match2Score
 

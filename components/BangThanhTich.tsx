@@ -54,9 +54,12 @@ function computeResults(entries: BangThanhTichEntry[], days: number) {
 type Props = {
   entries: BangThanhTichEntry[]
   variant?: 'kids' | 'dashboard'
+  // 'kids' variant renders on the PIN-gated child picker — navigation must go through the
+  // caller's own PIN check instead of a raw router.push, or it bypasses the gate entirely.
+  onViewChild?: (childId: string) => void
 }
 
-export default function BangThanhTich({ entries, variant = 'dashboard' }: Props) {
+export default function BangThanhTich({ entries, variant = 'dashboard', onViewChild }: Props) {
   const router = useRouter()
   const [open, setOpen] = useState(false)
   const [period, setPeriod] = useState<Period>('7d')
@@ -177,7 +180,11 @@ export default function BangThanhTich({ entries, variant = 'dashboard' }: Props)
                           />
                         </div>
                         <button
-                          onClick={() => { setOpen(false); router.push(`/dashboard/${d.child.id}`) }}
+                          onClick={() => {
+                            setOpen(false)
+                            if (onViewChild) onViewChild(d.child.id)
+                            else router.push(`/dashboard/${d.child.id}`)
+                          }}
                           className="text-xs font-bold text-purple-500 hover:text-purple-700 transition-colors"
                         >
                           Xem lịch sử học →

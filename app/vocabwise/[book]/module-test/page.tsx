@@ -11,6 +11,7 @@ import { cachedFetch } from '@/lib/cachedFetch'
 type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; bonus_features?: string[] | null }
 
 type GlossaryItem = { word: string; pos: string | null; meaning_vi: string; example_en: string; example_vi: string; topic_id: string; cefr_level: string | null }
+type HistoryEntry = { topics?: number; xp?: number; games?: number; words?: number; topicIds?: string[]; testsDone?: string[] }
 type MCQQuestion = { word: string; pos: string | null; correct: string; options: string[] }
 type FIBQuestion = { blanked: string; word: string; meaning_vi: string; correct: string; options: string[]; mode: 'mcq' | 'type' }
 type MatchPair  = { word: string; meaning: string }
@@ -457,6 +458,13 @@ export default function ModuleTestPage() {
   const [session, setSession] = useState<Session | null>(null)
   const [sessionLoaded, setSessionLoaded] = useState(false)
 
+  // Academic progress lives in family-level vw_academic_sync (mastery/srs/history), separate
+  // from the revision_scores PATCH below — must round-trip mastery/srs unchanged so the POST
+  // in saveScore doesn't clobber them.
+  const [savedMastery, setSavedMastery] = useState<Record<string, unknown>>({})
+  const [savedSrs, setSavedSrs] = useState<Record<string, unknown>>({})
+  const [savedHistory, setSavedHistory] = useState<Record<string, HistoryEntry>>({})
+
   useEffect(() => {
     cachedFetch('/api/auth/me').then(r => r.ok ? r.json() : null).then((s) => {
       setSession(s as Session | null)
@@ -478,6 +486,9 @@ export default function ModuleTestPage() {
       setSavedScore(moduleTest ? { score: moduleTest.score, max: moduleTest.max } : null)
       setFullPool(data.glossary)
       setQuestions(buildQuestions(pickTestSet(data.glossary, currentAttempt)))
+      setSavedMastery(syncData?.mastery ?? {})
+      setSavedSrs(syncData?.srs ?? {})
+      setSavedHistory(syncData?.history ?? {})
       setPhase('intro')
     }).catch(() => router.back())
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -490,7 +501,33 @@ export default function ModuleTestPage() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ revision_score_key: `${book}_test`, revision_score_value: value }),
     }).catch(() => {})
-  }, [book, attempt])
+
+    // Module Test previously only wrote revision_scores — it never bumped `history`, so it
+    // never showed up in the 30-day history panel (gate there is history[date].topics > 0).
+    // Spans the whole book (60 topics), so unlike a 5-topic revision test we don't attach
+    // topicIds here — just the completion count + a named test label.
+    const today = new Date().toISOString().split('T')[0]
+    const prev = savedHistory[today] ?? {}
+    const prevTestsDone = prev.testsDone ?? []
+    const testLabel = `Module Test — ${bookInfo.title}`
+    const newHistory = {
+      ...savedHistory,
+      [today]: {
+        topics: (prev.topics ?? 0) + 1,
+        xp: (prev.xp ?? 0) + total,
+        games: prev.games ?? 0,
+        words: prev.words ?? 0,
+        topicIds: prev.topicIds ?? [],
+        testsDone: prevTestsDone.includes(testLabel) ? prevTestsDone : [...prevTestsDone, testLabel],
+      },
+    }
+    setSavedHistory(newHistory)
+    fetch('/api/vocabwise/sync', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ mastery: savedMastery, srs: savedSrs, history: newHistory }),
+    }).catch(() => {})
+  }, [book, attempt, savedMastery, savedSrs, savedHistory, bookInfo.title])
 
   if (!sessionLoaded) {
     return (

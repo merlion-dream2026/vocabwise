@@ -362,10 +362,11 @@ export default function KidsRevisionPage() {
     // Revision test previously only wrote revision_scores — same gap as Level Test:
     // never fed the 30-day history panel or the profile-card streak.
     addScore(level, total)
-    recordTestCompleted(level)
+    const levelCap = level.charAt(0).toUpperCase() + level.slice(1)
+    recordTestCompleted(level, `Revision: Topics ${topicRange} (${levelCap})`)
     recordActivity(level)
     flush()
-  }, [childId, level, revId, addScore, recordTestCompleted, recordActivity, flush])
+  }, [childId, level, revId, topicRange, addScore, recordTestCompleted, recordActivity, flush])
 
   if (phase === 'loading') {
     return (
