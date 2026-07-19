@@ -25,8 +25,10 @@ const PERIODS = [
 type Period = typeof PERIODS[number]['key']
 
 const GRADIENTS: Record<string, string> = {
-  pink: 'from-pink-400 to-rose-400',
-  blue: 'from-blue-500 to-cyan-400',
+  pink:   'from-pink-400 to-rose-400',
+  blue:   'from-blue-500 to-cyan-400',
+  green:  'from-green-400 to-emerald-400',
+  orange: 'from-orange-400 to-amber-400',
 }
 const DEFAULT_GRADIENT = 'from-purple-400 to-indigo-400'
 

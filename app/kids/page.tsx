@@ -24,8 +24,10 @@ type Session = { familyId: string; username: string; plan: string; free_trial_ex
 const THEME_CONFIG: Record<string, {
   gradient: string; bg: string; border: string; text: string; btn: string; badge: string;
 }> = {
-  pink: { gradient: 'from-pink-400 to-rose-400',  bg: 'bg-gradient-to-br from-pink-50 to-rose-50',  border: 'border-pink-200',  text: 'text-pink-600',  btn: 'bg-pink-500 hover:bg-pink-600',  badge: 'bg-pink-100 text-pink-700'  },
-  blue: { gradient: 'from-blue-400 to-cyan-400',  bg: 'bg-gradient-to-br from-blue-50 to-cyan-50',  border: 'border-blue-200',  text: 'text-blue-600',  btn: 'bg-blue-500 hover:bg-blue-600',  badge: 'bg-blue-100 text-blue-700'  },
+  pink:   { gradient: 'from-pink-400 to-rose-400',    bg: 'bg-gradient-to-br from-pink-50 to-rose-50',    border: 'border-pink-200',   text: 'text-pink-600',   btn: 'bg-pink-500 hover:bg-pink-600',   badge: 'bg-pink-100 text-pink-700'   },
+  blue:   { gradient: 'from-blue-400 to-cyan-400',    bg: 'bg-gradient-to-br from-blue-50 to-cyan-50',    border: 'border-blue-200',   text: 'text-blue-600',   btn: 'bg-blue-500 hover:bg-blue-600',   badge: 'bg-blue-100 text-blue-700'   },
+  green:  { gradient: 'from-green-400 to-emerald-400', bg: 'bg-gradient-to-br from-green-50 to-emerald-50', border: 'border-green-200', text: 'text-green-600', btn: 'bg-green-500 hover:bg-green-600', badge: 'bg-green-100 text-green-700' },
+  orange: { gradient: 'from-orange-400 to-amber-400', bg: 'bg-gradient-to-br from-orange-50 to-amber-50', border: 'border-orange-200', text: 'text-orange-600', btn: 'bg-orange-500 hover:bg-orange-600', badge: 'bg-orange-100 text-orange-700' },
 }
 
 const PLAN_BADGE: Record<string, { label: string; cls: string }> = {
@@ -404,7 +406,7 @@ export default function HomePage() {
           childId={pinChild.id}
           name={pinChild.name}
           emoji={pinChild.emoji}
-          color={(pinChild.theme === 'blue' ? 'blue' : 'pink') as 'pink' | 'blue'}
+          color={pinChild.theme ?? 'pink'}
           onSuccess={() => {
             setPinChild(null)
             router.push(`/dashboard/${pinChild.id}`)

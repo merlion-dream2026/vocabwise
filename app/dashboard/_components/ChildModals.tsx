@@ -3,8 +3,22 @@
 import { useState, FormEvent } from 'react'
 import Image from 'next/image'
 import { AVATARS } from '@/lib/avatars'
+import { CHILD_THEMES, DEFAULT_CHILD_THEME, type ChildThemeId } from '@/lib/childThemes'
 import type { Child } from '../_types'
 import { invalidateCachedFetch } from '@/lib/cachedFetch'
+
+const THEME_RING_CLS: Record<ChildThemeId, string> = {
+  pink:   'bg-pink-100 ring-2 ring-pink-400 scale-110',
+  blue:   'bg-blue-100 ring-2 ring-blue-400 scale-110',
+  green:  'bg-green-100 ring-2 ring-green-400 scale-110',
+  orange: 'bg-orange-100 ring-2 ring-orange-400 scale-110',
+}
+const THEME_PICKER_CLS: Record<ChildThemeId, string> = {
+  pink:   'border-pink-400 bg-pink-50',
+  blue:   'border-blue-400 bg-blue-50',
+  green:  'border-green-400 bg-green-50',
+  orange: 'border-orange-400 bg-orange-50',
+}
 
 // ── Add child modal ────────────────────────────────────────────────────────────
 export function AddChildModal({ maxKids, childCount, onClose, onAdded }: {
@@ -12,7 +26,7 @@ export function AddChildModal({ maxKids, childCount, onClose, onAdded }: {
 }) {
   const [name, setName] = useState('')
   const [emoji, setEmoji] = useState('panda')
-  const [theme, setTheme] = useState<'pink' | 'blue'>('pink')
+  const [theme, setTheme] = useState<ChildThemeId>(DEFAULT_CHILD_THEME)
   const [saving, setSaving] = useState(false)
   const [msg, setMsg] = useState('')
   const blocked = childCount >= maxKids
@@ -29,9 +43,7 @@ export function AddChildModal({ maxKids, childCount, onClose, onAdded }: {
     else { const d = await res.json(); setMsg(d.error) }
   }
 
-  const ringCls = theme === 'pink'
-    ? 'bg-pink-100 ring-2 ring-pink-400 scale-110'
-    : 'bg-blue-100 ring-2 ring-blue-400 scale-110'
+  const ringCls = THEME_RING_CLS[theme]
 
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4 overflow-y-auto" onClick={onClose}>
@@ -55,11 +67,11 @@ export function AddChildModal({ maxKids, childCount, onClose, onAdded }: {
             <div>
               <p className="text-xs font-bold text-gray-500 mb-2">Theme màu</p>
               <div className="grid grid-cols-2 gap-2">
-                {(['pink', 'blue'] as const).map(t => (
-                  <button key={t} type="button" onClick={() => setTheme(t)}
-                    className={`border-2 rounded-2xl px-4 py-2.5 flex items-center justify-center gap-2 transition-all ${theme === t ? (t === 'pink' ? 'border-pink-400 bg-pink-50' : 'border-blue-400 bg-blue-50') : 'border-gray-200 hover:border-gray-300'}`}>
-                    <span className="text-3xl leading-none">{t === 'pink' ? '🩷' : '💙'}</span>
-                    <span className="font-black text-sm text-gray-700">{t === 'pink' ? 'Bé gái' : 'Bé trai'}</span>
+                {CHILD_THEMES.map(t => (
+                  <button key={t.id} type="button" onClick={() => setTheme(t.id)}
+                    className={`border-2 rounded-2xl px-4 py-2.5 flex items-center justify-center gap-2 transition-all ${theme === t.id ? THEME_PICKER_CLS[t.id] : 'border-gray-200 hover:border-gray-300'}`}>
+                    <span className="text-3xl leading-none">{t.emoji}</span>
+                    <span className="font-black text-sm text-gray-700">{t.label}</span>
                   </button>
                 ))}
               </div>
@@ -96,7 +108,7 @@ export function EditChildModal({ child, onClose, onSaved, onDeleted }: {
 }) {
   const [name, setName] = useState(child.name)
   const [emoji, setEmoji] = useState(child.emoji)
-  const [theme, setTheme] = useState<'pink' | 'blue'>((child.theme as 'pink' | 'blue') ?? 'pink')
+  const [theme, setTheme] = useState<ChildThemeId>((child.theme as ChildThemeId) ?? DEFAULT_CHILD_THEME)
   const [saving, setSaving] = useState(false)
   const [confirmDelete, setConfirmDelete] = useState(false)
   const [msg, setMsg] = useState('')
@@ -120,9 +132,7 @@ export function EditChildModal({ child, onClose, onSaved, onDeleted }: {
     else { const d = await res.json(); setMsg(`❌ ${d.error}`) }
   }
 
-  const ringCls = theme === 'pink'
-    ? 'bg-pink-100 ring-2 ring-pink-400 scale-110'
-    : 'bg-blue-100 ring-2 ring-blue-400 scale-110'
+  const ringCls = THEME_RING_CLS[theme]
 
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4 overflow-y-auto" onClick={onClose}>
@@ -139,11 +149,11 @@ export function EditChildModal({ child, onClose, onSaved, onDeleted }: {
           <div>
             <p className="text-xs font-bold text-gray-500 mb-2">Theme màu</p>
             <div className="grid grid-cols-2 gap-2">
-              {(['pink', 'blue'] as const).map(t => (
-                <button key={t} type="button" onClick={() => setTheme(t)}
-                  className={`border-2 rounded-2xl px-4 py-2.5 flex items-center justify-center gap-2 transition-all ${theme === t ? (t === 'pink' ? 'border-pink-400 bg-pink-50' : 'border-blue-400 bg-blue-50') : 'border-gray-200 hover:border-gray-300'}`}>
-                  <span className="text-3xl leading-none">{t === 'pink' ? '🩷' : '💙'}</span>
-                  <span className="font-black text-sm text-gray-700">{t === 'pink' ? 'Bé gái' : 'Bé trai'}</span>
+              {CHILD_THEMES.map(t => (
+                <button key={t.id} type="button" onClick={() => setTheme(t.id)}
+                  className={`border-2 rounded-2xl px-4 py-2.5 flex items-center justify-center gap-2 transition-all ${theme === t.id ? THEME_PICKER_CLS[t.id] : 'border-gray-200 hover:border-gray-300'}`}>
+                  <span className="text-3xl leading-none">{t.emoji}</span>
+                  <span className="font-black text-sm text-gray-700">{t.label}</span>
                 </button>
               ))}
             </div>

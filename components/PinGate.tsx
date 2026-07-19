@@ -49,10 +49,17 @@ export default function PinGate({ childId, name, emoji, color, onSuccess, onClos
     }
   }
 
-  const ringColor = color === 'pink' ? 'bg-pink-500' : 'bg-blue-500'
-  const btnColor  = color === 'pink'
-    ? 'bg-pink-50 text-pink-700 hover:bg-pink-100 active:bg-pink-200'
-    : 'bg-blue-50 text-blue-700 hover:bg-blue-100 active:bg-blue-200'
+  const RING_COLORS: Record<string, string> = {
+    pink: 'bg-pink-500', blue: 'bg-blue-500', green: 'bg-green-500', orange: 'bg-orange-500',
+  }
+  const BTN_COLORS: Record<string, string> = {
+    pink:   'bg-pink-50 text-pink-700 hover:bg-pink-100 active:bg-pink-200',
+    blue:   'bg-blue-50 text-blue-700 hover:bg-blue-100 active:bg-blue-200',
+    green:  'bg-green-50 text-green-700 hover:bg-green-100 active:bg-green-200',
+    orange: 'bg-orange-50 text-orange-700 hover:bg-orange-100 active:bg-orange-200',
+  }
+  const ringColor = RING_COLORS[color] ?? RING_COLORS.pink
+  const btnColor  = BTN_COLORS[color] ?? BTN_COLORS.pink
 
   return (
     <div className="fixed inset-0 bg-black/60 z-50 flex items-center justify-center px-4" onClick={onClose}>

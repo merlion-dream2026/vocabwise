@@ -99,7 +99,7 @@ export function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditCh
       <div className="flex gap-2 overflow-x-auto pb-1" style={{ scrollbarWidth: 'none' }}>
         {stats.map(({ child }) => {
           const isActive = child.id === selectedChildId
-          const c = child.theme && THEME_COLORS[child.theme as 'pink' | 'blue'] ? THEME_COLORS[child.theme as 'pink' | 'blue'] : DEFAULT_COLOR
+          const c = child.theme && THEME_COLORS[child.theme] ? THEME_COLORS[child.theme] : DEFAULT_COLOR
           return (
             <button key={child.id}
               onClick={() => setSelectedChildId(child.id)}
@@ -121,8 +121,8 @@ export function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditCh
       {stats.length > 0 && (
         <div>
           {stats.filter(s => s.child.id === selectedChildId).map(({ child, syncAll }) => {
-            const c = child.theme && THEME_COLORS[child.theme as 'pink' | 'blue']
-              ? THEME_COLORS[child.theme as 'pink' | 'blue']
+            const c = child.theme && THEME_COLORS[child.theme]
+              ? THEME_COLORS[child.theme]
               : DEFAULT_COLOR
 
             // Progress from shared lib (all modules, consistent with kids card)

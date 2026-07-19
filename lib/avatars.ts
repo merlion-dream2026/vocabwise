@@ -9,6 +9,9 @@ export const AVATARS = [
   { id: 'frog',         src: '/avatars/frog.png' },
   { id: 'penguin',      src: '/avatars/penguin.png' },
   { id: 'fox',          src: '/avatars/fox.png' },
+  { id: 'dog',          src: '/avatars/dog.png' },
+  { id: 'elephant',     src: '/avatars/elephant.png' },
+  { id: 'owl',          src: '/avatars/owl.png' },
   // Animals — fierce
   { id: 'tiger',        src: '/avatars/tiger.png' },
   { id: 'lion',         src: '/avatars/lion.png' },
@@ -17,6 +20,8 @@ export const AVATARS = [
   { id: 'boy',          src: '/avatars/boy.png' },
   { id: 'girl',         src: '/avatars/girl.png' },
   { id: 'unicorn',      src: '/avatars/unicorn.png' },
+  { id: 'fairy',        src: '/avatars/fairy.png' },
+  { id: 'astronaut',    src: '/avatars/astronaut.png' },
   // Sports
   { id: 'soccer',       src: '/avatars/soccer.png' },
   { id: 'basketball',   src: '/avatars/basketball.png' },

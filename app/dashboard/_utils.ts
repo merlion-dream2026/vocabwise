@@ -9,9 +9,11 @@ export const LEVEL_INFO_MAP: Record<string, { label: string; desc: string; cefr:
   master:   { label: 'Master',   desc: 'Từ vựng chuyên sâu',cefr: 'C1-C2'  },
 }
 
-export const THEME_COLORS = {
-  pink: { grad: 'from-pink-400 to-rose-400',   bar: 'bg-pink-400',  header: 'from-pink-400 to-rose-500',   text: 'text-pink-600',   ring: 'border-pink-400 bg-pink-50'   },
-  blue: { grad: 'from-blue-500 to-cyan-400',   bar: 'bg-blue-400',  header: 'from-blue-500 to-cyan-500',   text: 'text-blue-600',   ring: 'border-blue-400 bg-blue-50'   },
+export const THEME_COLORS: Record<string, { grad: string; bar: string; header: string; text: string; ring: string }> = {
+  pink:   { grad: 'from-pink-400 to-rose-400',    bar: 'bg-pink-400',   header: 'from-pink-400 to-rose-500',    text: 'text-pink-600',   ring: 'border-pink-400 bg-pink-50'   },
+  blue:   { grad: 'from-blue-500 to-cyan-400',    bar: 'bg-blue-400',   header: 'from-blue-500 to-cyan-500',    text: 'text-blue-600',   ring: 'border-blue-400 bg-blue-50'   },
+  green:  { grad: 'from-green-400 to-emerald-400', bar: 'bg-green-400', header: 'from-green-400 to-emerald-500', text: 'text-green-600', ring: 'border-green-400 bg-green-50' },
+  orange: { grad: 'from-orange-400 to-amber-400', bar: 'bg-orange-400', header: 'from-orange-400 to-amber-500', text: 'text-orange-600', ring: 'border-orange-400 bg-orange-50' },
 }
 export const DEFAULT_COLOR = { grad: 'from-purple-400 to-indigo-400', bar: 'bg-purple-400', header: 'from-purple-500 to-indigo-500', text: 'text-purple-600', ring: 'border-purple-400 bg-purple-50' }
 
@@ -30,8 +32,14 @@ export function getLast7Days() {
 export function histDotColor(entry: HistEntry | undefined, theme: string): string {
   if (!entry || entry.words + entry.games + entry.xp === 0) return 'bg-gray-200'
   const act = entry.words + entry.games
-  if (theme === 'blue') return act >= 8 ? 'bg-blue-500' : act >= 3 ? 'bg-blue-300' : 'bg-blue-200'
-  return act >= 8 ? 'bg-pink-500' : act >= 3 ? 'bg-pink-300' : 'bg-pink-200'
+  const tiers: Record<string, [string, string, string]> = {
+    blue:   ['bg-blue-500',   'bg-blue-300',   'bg-blue-200'],
+    green:  ['bg-green-500',  'bg-green-300',  'bg-green-200'],
+    orange: ['bg-orange-500', 'bg-orange-300', 'bg-orange-200'],
+    pink:   ['bg-pink-500',   'bg-pink-300',   'bg-pink-200'],
+  }
+  const [high, mid, low] = tiers[theme] ?? tiers.pink
+  return act >= 8 ? high : act >= 3 ? mid : low
 }
 
 export function fmtHistEntry(e: HistEntry): string {

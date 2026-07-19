@@ -506,7 +506,7 @@ export function SettingsTab({ kids, session, onChildrenRefresh }: { kids: Child[
           <div className="flex gap-2 overflow-x-auto pb-2 mb-4" style={{ scrollbarWidth: 'none' }}>
             {kids.map(child => {
               const isActive = child.id === selectedPinChildId
-              const c = child.theme && THEME_COLORS[child.theme as 'pink' | 'blue'] ? THEME_COLORS[child.theme as 'pink' | 'blue'] : DEFAULT_COLOR
+              const c = child.theme && THEME_COLORS[child.theme] ? THEME_COLORS[child.theme] : DEFAULT_COLOR
               return (
                 <button key={child.id} onClick={() => setSelectedPinChildId(child.id)}
                   className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl font-black text-sm whitespace-nowrap flex-shrink-0 transition-all ${
