@@ -87,7 +87,7 @@ export default function LearningHistoryPanel({ syncByLevel, className }: { syncB
                 {h.phonics && (
                   <div className="flex items-start gap-2 text-sm">
                     <span className="text-amber-500 font-bold text-xs w-20 flex-shrink-0 pt-px whitespace-nowrap">🔤 Phonics</span>
-                    <span className="text-gray-500">
+                    <span className="text-gray-500 text-xs">
                       {h.phonics.topicIds.length} bài: {h.phonics.topicIds.map(phonicsTopicName).join(', ')}
                     </span>
                   </div>
@@ -95,7 +95,7 @@ export default function LearningHistoryPanel({ syncByLevel, className }: { syncB
                 {h.daily && (
                   <div className="flex items-start gap-2 text-sm">
                     <span className="text-purple-500 font-bold text-xs w-20 flex-shrink-0 pt-px whitespace-nowrap">📚 Daily</span>
-                    <span className="text-gray-500">
+                    <span className="text-gray-500 text-xs">
                       {[
                         h.daily.words > 0 && `${h.daily.words} từ`,
                         h.daily.games > 0 && `${h.daily.games} game`,
@@ -109,7 +109,7 @@ export default function LearningHistoryPanel({ syncByLevel, className }: { syncB
                 {h.academic && (
                   <div className="flex items-start gap-2 text-sm">
                     <span className="text-blue-500 font-bold text-xs w-20 flex-shrink-0 pt-px whitespace-nowrap">🎓 Academic</span>
-                    <span className="text-gray-500">
+                    <span className="text-gray-500 text-xs">
                       {h.academic.topics} bài tập
                       {h.academic.topicIds.length > 0 && (
                         <> · {h.academic.topicIds.length} chủ đề: {h.academic.topicIds.map(academicTopicName).join(', ')}</>
