@@ -25,7 +25,7 @@ const FAQ_ITEMS = [
         a: 'Mỗi chủ đề có 10–15 từ vựng. Mỗi từ bao gồm:\n• Từ tiếng Anh + nghĩa tiếng Việt\n• Emoji minh họa\n• 2 câu ví dụ song ngữ (English + Việt)\n\nNgoài ra, mỗi chủ đề có 1 Mini Story — câu chuyện ngắn dùng các từ vừa học để giúp bé ghi nhớ trong ngữ cảnh thực tế.',
       },
       {
-        q: 'Khi nào một chủ đề được tính là "xong"?',
+        q: '🏆 Tiêu chí hoàn thành bài học',
         a: 'Bé phải hoàn thành đủ 2 điều kiện:\n① Xem hết Flashcard tất cả từ trong chủ đề\n② Đạt kết quả tốt trong ít nhất 3 trò chơi khác nhau\n\nChủ đề xong sẽ hiển thị 🏆 và được tính vào ✅ trên dashboard.',
       },
       {
@@ -50,7 +50,7 @@ const FAQ_ITEMS = [
         a: 'Từ vựng học thuật chuẩn IELTS/SAT, khó và nâng cao hơn Daily — module Academic xuất hiện dưới dạng card 🎓 trên màn hình chọn level của bé.\n\n3 books độc lập theo trình độ, mỗi book 60 chủ đề:\n• Book 1 — A1–A2\n• Book 2 — B1–B2\n• Book 3 — C1–C2\n\nTổng 180 chủ đề · ~2.700 từ vựng học thuật.\n\nMỗi chủ đề có 4 phần theo thứ tự: 📖 Đọc bài (passage ngữ cảnh) → 📔 Từ vựng (glossary song ngữ Việt–Anh) → ✏️ Bài tập (8 dạng bài chuẩn CEFR) → 📐 Ngữ pháp (nếu chủ đề có grammar spotlight)\n\nProgress tracking hiện trên dashboard: 🎓 X/180 chủ đề · X/2.700 từ',
       },
       {
-        q: 'Khi nào một chủ đề Academic được tính là hoàn thành?',
+        q: '🏆 Tiêu chí hoàn thành bài học',
         a: 'Bé cần làm xong phần Bài tập của chủ đề đó → chủ đề hiển thị dấu ✅ "hoàn thành".\n\nĐiểm bài tập tính trên thang 25 (5 bài chính × 5 điểm/bài). Đạt từ 20/25 điểm trở lên (80%) → chủ đề được đánh dấu 🏆 "Thành thạo" thay vì chỉ ✅.\n\nMỗi chủ đề còn có 1 bài tập bonus 10 câu (xoay vòng nhiều dạng) để luyện thêm — không tính vào điểm 25 ở trên.',
       },
     ],

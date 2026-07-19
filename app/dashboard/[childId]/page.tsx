@@ -20,7 +20,7 @@ const KID_FAQ = [
         a: 'Ngoài học từ vựng theo chủ đề, bạn còn có thể luyện phát âm tiếng Anh theo chuẩn IPA!\n\nBấm card 🔤 "Phonics" ở màn hình chọn level để vào.\n\n9 nhóm, 58 bài — học theo thứ tự:\nNguyên âm ngắn · Nguyên âm đôi · Cặp phụ âm · Phụ âm khác · Khó với người Việt · Đọc từ thông minh · Quy tắc phát âm · Ngữ điệu · Nói liên tục',
       },
       {
-        q: '🏆 Khi nào một bài Phonics được tính là hoàn thành?',
+        q: '🏆 Tiêu chí hoàn thành bài học',
         a: 'Học thẻ âm → hoàn thành các game bắt buộc trong bài đó.\nMỗi game đạt ≥70% = 🏆 Thành thạo!',
       },
     ],
@@ -37,7 +37,7 @@ const KID_FAQ = [
         a: 'Level Seeker / Starter / Ranger (10 trò):\n📖 Flashcard từ mới · 👂 Nghe & Chọn · ✅ Đúng / Sai · 🖼️ Nối từ với hình\n🧠 Lật thẻ · 🫧 Bắn bong bóng · 🔡 Điền chữ thiếu\n🔤 Đánh vần · 🔁 Sắp xếp câu · 🎤 Phát âm cùng AI ✨\n\nLevel Explorer / Scholar / Master (10 trò khác):\n📖 Flashcard · 👂 Nghe & Chọn · ✅ Đúng / Sai\n❓ Trắc nghiệm · ✏️ Điền từ · 🔀 Ghép định nghĩa · 🎤 Phát âm cùng AI ✨\n⌨️ Gõ từ nhanh 15s · 🔁 Sắp xếp câu · ⚡ Speed Round',
       },
       {
-        q: '🏆 Khi nào chủ đề được tính là hoàn thành?',
+        q: '🏆 Tiêu chí hoàn thành bài học',
         a: 'Cần đủ 2 điều kiện:\n① Xem hết Flashcard tất cả các từ trong chủ đề\n② Đạt kết quả tốt trong ít nhất 3 trò chơi khác nhau\n\nHoàn thành rồi thì chủ đề sẽ hiện 🏆!',
       },
       {
@@ -62,7 +62,7 @@ const KID_FAQ = [
         a: 'Từ vựng học thuật kiểu IELTS/SAT — khó và nâng cao hơn Daily.\n\nBấm card 🎓 "Academic" ở màn hình chọn level để vào.\n\n3 books: Book 1 (A1–A2) · Book 2 (B1–B2) · Book 3 (C1–C2) — mỗi book 60 chủ đề.\n\nMỗi chủ đề có 4 phần theo thứ tự: 📖 Đọc bài → 📔 Từ vựng → ✏️ Bài tập → 📐 Ngữ pháp (nếu có)',
       },
       {
-        q: '🏆 Khi nào một chủ đề Academic được tính là hoàn thành?',
+        q: '🏆 Tiêu chí hoàn thành bài học',
         a: 'Làm xong bài tập → chủ đề có dấu ✅.\nĐạt từ 20/25 điểm trở lên → 🏆 Thành thạo!',
       },
     ],
