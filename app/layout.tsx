@@ -8,6 +8,7 @@ import OfflineBanner from '@/components/OfflineBanner'
 import BottomNav from '@/components/BottomNav'
 import MainContainer from '@/components/MainContainer'
 import FontSizeApplier from '@/components/FontSizeApplier'
+import PullToRefresh from '@/components/PullToRefresh'
 import { GameSyncProvider } from '@/lib/GameSyncContext'
 import './globals.css'
 
@@ -199,6 +200,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       <body className={`min-h-screen bg-gradient-to-b from-purple-50 to-pink-50 ${nunito.className}`}>
         <GameSyncProvider>
           <FontSizeApplier />
+          <PullToRefresh />
           <MainContainer>{children}</MainContainer>
           <OfflineBanner />
           <NoVoiceBanner />
