@@ -8,6 +8,8 @@ import { pickTestSet, TEST_SET_COUNT } from '@/lib/testSetRotation'
 import UpgradeModal from '@/components/UpgradeModal'
 import { getEffectivePlan } from '@/lib/planUtils'
 import { cachedFetch } from '@/lib/cachedFetch'
+import BonusSentenceRound, { type BonusQuestion } from '@/components/BonusSentenceRound'
+import { pickBonusQuestions } from '@/lib/bonusRound'
 
 type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; bonus_features?: string[] | null }
 
@@ -24,7 +26,11 @@ type Phase =
   | 'fib' | 'fib_done'
   | 'match1' | 'match1_done'
   | 'match2' | 'match2_done'
-  | 'speak' | 'result'
+  | 'speak' | 'bonus' | 'result'
+
+// "Bonus — Viết câu" round: only shown once vocab/grammar is solid enough for free
+// sentence production (Ranger+), not Seeker/Starter.
+const BONUS_LEVELS = new Set(['ranger', 'explorer', 'scholar', 'master'])
 
 const LEVEL_COLORS: Record<string, { header: string; accent: string; light: string }> = {
   seeker:   { header: 'bg-violet-500',  accent: 'bg-violet-400',  light: 'from-violet-50 to-purple-50'  },
@@ -110,6 +116,11 @@ function buildQuestions(chunk: FlatWord[]) {
     match1: match1.map(i => ({ word: i.word, meaning: i.meaning_vi })) as MatchPair[],
     match2: match2.map(i => ({ word: i.word, meaning: i.meaning_vi })) as MatchPair[],
   }
+}
+
+function buildBonusQuestions(pool: FlatWord[], level: string): BonusQuestion[] {
+  if (!BONUS_LEVELS.has(level)) return []
+  return pickBonusQuestions(pool.map(w => ({ targetWord: w.word, exampleVi: w.example_vi })))
 }
 
 // ── MCQ ───────────────────────────────────────────────────────────────────────
@@ -306,11 +317,13 @@ const SPEAK_MAX_SECS = 8
 function SpeakRound({ questions, accentCls, onDone }: { questions: SpeakQuestion[]; accentCls: string; onDone: (s: number) => void }) {
   const [idx, setIdx]     = useState(0)
   const [score, setScore] = useState(0)
-  const [phase, setPhase] = useState<'idle' | 'recording' | 'processing' | 'done'>('idle')
+  const [phase, setPhase] = useState<'idle' | 'countdown' | 'recording' | 'processing' | 'done'>('idle')
+  const [countdown, setCountdown] = useState(3)
   const [transcript, setTranscript] = useState('')
   const [isCorrect, setIsCorrect]   = useState<boolean | null>(null)
   const [unclear, setUnclear]       = useState(false)
   const [micError, setMicError]     = useState<string | null>(null)
+  const [playbackUrl, setPlaybackUrl] = useState<string | null>(null)
   const [timeLeft, setTimeLeft]     = useState(SPEAK_MAX_SECS)
 
   const mediaRecorderRef = useRef<MediaRecorder | null>(null)
@@ -318,6 +331,8 @@ function SpeakRound({ questions, accentCls, onDone }: { questions: SpeakQuestion
   const chunksRef = useRef<BlobPart[]>([])
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null)
   const autoStopRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const countdownRef = useRef<ReturnType<typeof setInterval> | null>(null)
+  const answeredRef = useRef(false)
 
   const q = questions[idx]
   const total = questions.length
@@ -325,6 +340,7 @@ function SpeakRound({ questions, accentCls, onDone }: { questions: SpeakQuestion
   const clearTimers = useCallback(() => {
     if (timerRef.current)    { clearInterval(timerRef.current);   timerRef.current = null }
     if (autoStopRef.current) { clearTimeout(autoStopRef.current); autoStopRef.current = null }
+    if (countdownRef.current){ clearInterval(countdownRef.current); countdownRef.current = null }
   }, [])
   const stopStream = useCallback(() => {
     streamRef.current?.getTracks().forEach(t => t.stop())
@@ -333,12 +349,15 @@ function SpeakRound({ questions, accentCls, onDone }: { questions: SpeakQuestion
 
   useEffect(() => {
     setPhase('idle'); setTranscript(''); setIsCorrect(null); setUnclear(false)
-    setMicError(null); setTimeLeft(SPEAK_MAX_SECS)
+    setMicError(null); setTimeLeft(SPEAK_MAX_SECS); answeredRef.current = false
+    if (playbackUrl) { URL.revokeObjectURL(playbackUrl); setPlaybackUrl(null) }
     return () => { clearTimers(); window.speechSynthesis?.cancel() }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [idx, clearTimers])
 
   const startRecording = async () => {
     setMicError(null)
+    if (playbackUrl) { URL.revokeObjectURL(playbackUrl); setPlaybackUrl(null) }
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true })
       streamRef.current = stream
@@ -349,19 +368,34 @@ function SpeakRound({ questions, accentCls, onDone }: { questions: SpeakQuestion
       mr.onstop = async () => {
         stopStream()
         const blob = new Blob(chunksRef.current, { type: mimeType })
+        setPlaybackUrl(URL.createObjectURL(blob))
         await scoreAudio(blob, mimeType)
       }
       mr.start()
       mediaRecorderRef.current = mr
-      setPhase('recording')
-      setTimeLeft(SPEAK_MAX_SECS)
-      timerRef.current = setInterval(() => {
-        setTimeLeft(prev => { if (prev <= 1) { clearTimers(); return 0 }; return prev - 1 })
+
+      // Countdown 3-2-1: MediaRecorder warms up during this time
+      setPhase('countdown')
+      setCountdown(3)
+      let count = 3
+      countdownRef.current = setInterval(() => {
+        count--
+        if (count > 0) {
+          setCountdown(count)
+        } else {
+          clearInterval(countdownRef.current!)
+          countdownRef.current = null
+          setPhase('recording')
+          setTimeLeft(SPEAK_MAX_SECS)
+          timerRef.current = setInterval(() => {
+            setTimeLeft(prev => { if (prev <= 1) { clearTimers(); return 0 }; return prev - 1 })
+          }, 1000)
+          autoStopRef.current = setTimeout(() => {
+            if (mediaRecorderRef.current?.state === 'recording') mediaRecorderRef.current.stop()
+            clearTimers()
+          }, SPEAK_MAX_SECS * 1000)
+        }
       }, 1000)
-      autoStopRef.current = setTimeout(() => {
-        if (mediaRecorderRef.current?.state === 'recording') mediaRecorderRef.current.stop()
-        clearTimers()
-      }, SPEAK_MAX_SECS * 1000)
     } catch (e: unknown) {
       const name = (e as { name?: string }).name
       setMicError(name === 'NotAllowedError' ? 'Chưa cấp quyền micro.' : 'Không thể mở micro.')
@@ -391,12 +425,22 @@ function SpeakRound({ questions, accentCls, onDone }: { questions: SpeakQuestion
       setUnclear(isUnclear)
       setPhase('done')
       if (!isUnclear) {
-        if (correct) { setScore(s => s + 1); playCorrectSound() } else { playWrongSound() }
+        if (correct && !answeredRef.current) { answeredRef.current = true; setScore(s => s + 1) }
+        if (correct) playCorrectSound(); else playWrongSound()
       }
     } catch {
       setMicError('Lỗi kết nối. Bấm Thử lại.')
       setPhase('idle')
     }
+  }
+
+  const retry = () => {
+    clearTimers()
+    if (mediaRecorderRef.current?.state === 'recording') mediaRecorderRef.current.stop()
+    stopStream()
+    if (playbackUrl) { URL.revokeObjectURL(playbackUrl); setPlaybackUrl(null) }
+    setTranscript(''); setIsCorrect(null); setUnclear(false); setMicError(null); setTimeLeft(SPEAK_MAX_SECS)
+    setPhase('idle')
   }
 
   const advance = () => {
@@ -444,13 +488,29 @@ function SpeakRound({ questions, accentCls, onDone }: { questions: SpeakQuestion
             {micError ? <p className="text-red-500 font-semibold text-sm text-center">{micError}</p> : <p className="text-gray-400 font-semibold text-sm">Bấm để đọc</p>}
           </>
         )}
+        {phase === 'countdown' && (
+          <>
+            <div className="w-20 h-20 rounded-full bg-rose-100 border-4 border-rose-300 flex items-center justify-center animate-pulse">
+              <span className="text-5xl font-black text-rose-500">{countdown}</span>
+            </div>
+            <p className="text-rose-400 font-bold text-sm">Chuẩn bị đọc...</p>
+            <button onClick={retry} className="text-gray-300 text-xs font-semibold underline active:scale-95 transition-all">Huỷ</button>
+          </>
+        )}
         {phase === 'recording' && (
           <>
             <button onClick={stopRecording}
               className="w-20 h-20 rounded-full bg-rose-600 shadow-xl flex items-center justify-center text-3xl animate-pulse active:scale-95 transition-all">
               ⏹️
             </button>
-            <p className="text-rose-500 font-bold text-sm">Đang thu âm... {timeLeft}s</p>
+            <p className="text-rose-500 font-bold text-sm animate-pulse">Đang thu âm...</p>
+            <div className="w-full">
+              <div className="w-full bg-rose-100 rounded-full h-2 overflow-hidden">
+                <div className="h-full bg-rose-400 rounded-full transition-all duration-1000"
+                  style={{ width: `${(timeLeft / SPEAK_MAX_SECS) * 100}%` }} />
+              </div>
+              <p className="text-rose-300 text-xs font-semibold text-center mt-1">{timeLeft}s · bấm ⏹️ để dừng</p>
+            </div>
           </>
         )}
         {phase === 'processing' && (
@@ -471,8 +531,14 @@ function SpeakRound({ questions, accentCls, onDone }: { questions: SpeakQuestion
                   </>
               }
             </div>
+            {playbackUrl && (
+              <button onClick={() => new Audio(playbackUrl).play()}
+                className="w-full bg-white border-2 border-rose-100 text-rose-500 font-bold text-sm py-2.5 rounded-2xl flex items-center justify-center gap-2 active:scale-95 transition-all">
+                ▶️ Nghe lại giọng của bạn
+              </button>
+            )}
             <div className="flex gap-3">
-              <button onClick={() => setPhase('idle')} className="flex-1 bg-white border-2 border-gray-100 text-gray-500 font-bold py-3 rounded-2xl active:scale-95 transition-all">🔄 Thử lại</button>
+              <button onClick={retry} className="flex-1 bg-white border-2 border-gray-100 text-gray-500 font-bold py-3 rounded-2xl active:scale-95 transition-all">🔄 Thử lại</button>
               <button onClick={advance} className={`flex-1 font-black py-3 rounded-2xl shadow-md text-white active:scale-95 transition-all ${accentCls}`}>
                 {idx + 1 >= total ? 'Kết quả →' : 'Tiếp theo →'}
               </button>
@@ -527,6 +593,9 @@ export default function LevelTestPage() {
   const [match2Score, setMatch2Score] = useState(0)
   const [speakScore,  setSpeakScore]  = useState(0)
 
+  const [bonusQuestions, setBonusQuestions] = useState<BonusQuestion[]>([])
+  const [bonusResult, setBonusResult] = useState<{ passed: number; total: number } | null>(null)
+
   useEffect(() => {
     cachedFetch('/api/auth/me').then(r => r.ok ? r.json() : null).then((s) => {
       setSession(s as Session | null)
@@ -556,13 +625,17 @@ export default function LevelTestPage() {
       setSavedScore(levelTest ? { score: levelTest.score, max: levelTest.max } : null)
       setFullPool(flat)
       setQuestions(buildQuestions(pickTestSet(flat, currentAttempt)))
+      setBonusQuestions(buildBonusQuestions(flat, level))
       setPhase('intro')
     }).catch(() => router.back())
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [level, childId, router, sessionLoaded, session])
 
-  const saveScore = useCallback((total: number) => {
-    const value = { score: total, max: TOTAL_MAX, date: new Date().toISOString().split('T')[0], attempt: attempt + 1 }
+  const saveScore = useCallback((total: number, bonus: { passed: number; total: number } | null) => {
+    const value = {
+      score: total, max: TOTAL_MAX, date: new Date().toISOString().split('T')[0], attempt: attempt + 1,
+      ...(bonus ? { bonus } : {}),
+    }
     fetch(`/api/sync/${childId}`, {
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json' },
@@ -628,6 +701,7 @@ export default function LevelTestPage() {
                 { icon: '✏️', label: 'Round 2 — Điền từ', desc: '10 câu điền từ vào câu' },
                 { icon: '🔗', label: 'Round 3 — Matching', desc: '10 cặp nối từ với nghĩa' },
                 { icon: '🎤', label: 'Round 4 — Nói', desc: '5 câu nói lại bằng AI' },
+                ...(bonusQuestions.length > 0 ? [{ icon: '🌟', label: 'Bonus — Viết câu', desc: 'Không bắt buộc, không tính điểm chính' }] : []),
               ].map(r => (
                 <div key={r.label} className="flex items-center gap-3 text-left">
                   <span className="text-2xl flex-shrink-0">{r.icon}</span>
@@ -712,9 +786,34 @@ export default function LevelTestPage() {
             <SpeakRound questions={questions.speak} accentCls={colors.accent} onDone={s => {
               setSpeakScore(s)
               const final = mcqScore + fibScore + match1Score + match2Score + s
-              saveScore(final)
-              setPhase('result')
+              if (bonusQuestions.length > 0) {
+                setPhase('bonus')
+              } else {
+                saveScore(final, null)
+                setPhase('result')
+              }
             }} />
+          </>
+        )}
+
+        {phase === 'bonus' && (
+          <>
+            <div className="flex items-center gap-2 mb-5">
+              <span className="text-lg">🌟</span>
+              <div><p className="font-black text-gray-700 text-sm">Bonus — Viết câu</p><p className="text-xs text-gray-400">Không tính vào điểm chính, AI chấm và góp ý</p></div>
+            </div>
+            <BonusSentenceRound questions={bonusQuestions} accentCls={colors.accent}
+              onDone={(passed, total) => {
+                const final = mcqScore + fibScore + match1Score + match2Score + speakScore
+                setBonusResult({ passed, total })
+                saveScore(final, { passed, total })
+                setPhase('result')
+              }}
+              onSkip={() => {
+                const final = mcqScore + fibScore + match1Score + match2Score + speakScore
+                saveScore(final, null)
+                setPhase('result')
+              }} />
           </>
         )}
 
@@ -757,12 +856,19 @@ export default function LevelTestPage() {
                   </div>
                 ))}
               </div>
+              {bonusResult && (
+                <div className="bg-amber-50 border-2 border-amber-200 rounded-2xl px-4 py-2.5 w-full max-w-xs text-center">
+                  <p className="text-xs font-bold text-amber-700">🌟 Bonus — Viết câu: {bonusResult.passed}/{bonusResult.total} câu đạt</p>
+                </div>
+              )}
               <div className="flex gap-3 w-full max-w-xs">
                 <button onClick={() => {
                   setMcqScore(0); setFibScore(0); setMatch1Score(0); setMatch2Score(0); setSpeakScore(0)
+                  setBonusResult(null)
                   const nextAttempt = attempt + 1
                   setAttempt(nextAttempt)
                   setQuestions(buildQuestions(pickTestSet(fullPool, nextAttempt)))
+                  setBonusQuestions(buildBonusQuestions(fullPool, level))
                   setPhase('intro')
                 }}
                   className="flex-1 bg-white border-2 border-gray-200 text-gray-600 font-black py-3.5 rounded-2xl text-sm active:scale-95 transition-all shadow-sm">

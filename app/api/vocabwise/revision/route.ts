@@ -35,7 +35,7 @@ export async function GET(req: NextRequest) {
 
   const { data, error } = await supabase
     .from('vw_glossary')
-    .select('word, pos, meaning_vi, example_en, topic_id, item_type')
+    .select('word, pos, meaning_vi, example_en, example_vi, topic_id, item_type')
     .in('topic_id', topicIds)
     .eq('item_type', 'word')
     .order('topic_id')

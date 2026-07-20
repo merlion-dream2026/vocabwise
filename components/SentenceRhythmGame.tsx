@@ -62,6 +62,7 @@ export default function SentenceRhythmGame({
   const mediaRef  = useRef<MediaRecorder | null>(null)
   const chunksRef = useRef<Blob[]>([])
   const timerRef  = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const answeredRef = useRef(false)
 
   const questions = lesson.sentences
   const q = questions[idx]
@@ -92,7 +93,8 @@ export default function SentenceRhythmGame({
           const correct = matched.length >= Math.ceil(stressedLower.length * 0.6)
           setTranscript(data.transcript ?? '')
           setIsCorrect(correct)
-          if (correct) { setScore(s => s + 1); playCorrectSound() } else { playWrongSound() }
+          if (correct && !answeredRef.current) { answeredRef.current = true; setScore(s => s + 1) }
+          if (correct) playCorrectSound(); else playWrongSound()
         } catch {
           setTranscript(null)
           setIsCorrect(false)
@@ -119,25 +121,26 @@ export default function SentenceRhythmGame({
   const advance = useCallback(() => {
     const next = idx + 1
     if (next >= questions.length) {
-      const finalScore = score + (isCorrect ? 1 : 0)
-      if (finalScore / questions.length >= 0.7) {
+      if (score / questions.length >= 0.7) {
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         recordPairGame(lesson.id as any, 'rhythm' as any)
         flushPhonics()
       }
-      if (finalScore === questions.length) setShowConfetti(true)
+      if (score === questions.length) setShowConfetti(true)
       setGameDone(true)
     } else {
       setIdx(next)
       setPhase('idle')
       setTranscript(null)
       setIsCorrect(null)
+      answeredRef.current = false
     }
-  }, [idx, questions.length, score, isCorrect, lesson.id])
+  }, [idx, questions.length, score])
 
   const restart = () => {
     setIdx(0); setScore(0); setPhase('idle'); setTranscript(null)
     setIsCorrect(null); setGameDone(false); setShowConfetti(false)
+    answeredRef.current = false
   }
 
   if (gameDone) {

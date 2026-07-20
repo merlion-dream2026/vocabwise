@@ -3,8 +3,10 @@ import { useState, useEffect, useCallback } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import GameSoundToggle from '@/components/GameSoundToggle'
+import BonusSentenceRound, { type BonusQuestion } from '@/components/BonusSentenceRound'
+import { pickBonusQuestions } from '@/lib/bonusRound'
 
-type GlossaryItem = { word: string; pos: string | null; meaning_vi: string; example_en: string; topic_id: string }
+type GlossaryItem = { word: string; pos: string | null; meaning_vi: string; example_en: string; example_vi: string; topic_id: string }
 type MCQQuestion = { word: string; pos: string | null; correct: string; options: string[] }
 type FIBQuestion = { blanked: string; word: string; meaning_vi: string; correct: string; options: string[]; mode: 'mcq' | 'type' }
 type MatchPair = { word: string; meaning: string }
@@ -14,7 +16,15 @@ type Phase =
   | 'mcq' | 'mcq_done'
   | 'fib' | 'fib_done'
   | 'match1' | 'match1_done'
-  | 'match2' | 'result'
+  | 'match2' | 'bonus' | 'result'
+
+// "Bonus — Viết câu": only Book 2+ has enough grammar for free sentence production.
+const BONUS_BOOKS = new Set(['book2', 'book3'])
+
+function buildBonusQuestions(pool: GlossaryItem[], book: string): BonusQuestion[] {
+  if (!BONUS_BOOKS.has(book)) return []
+  return pickBonusQuestions(pool.map(w => ({ targetWord: w.word, exampleVi: w.example_vi })))
+}
 
 const BOOK_LABELS: Record<string, { title: string; color: string; header: string }> = {
   book1: { title: 'Foundation',  color: 'from-emerald-400 to-green-500',  header: 'bg-emerald-500' },
@@ -386,6 +396,9 @@ export default function RevisionPage() {
   const [match1Score, setMatch1Score] = useState(0)
   const [match2Score, setMatch2Score] = useState(0)
 
+  const [bonusQuestions, setBonusQuestions] = useState<BonusQuestion[]>([])
+  const [bonusResult, setBonusResult] = useState<{ passed: number; total: number } | null>(null)
+
   useEffect(() => {
     fetch(`/api/vocabwise/revision?book=${book}&rev=${revNum}`)
       .then(r => r.ok ? r.json() : null)
@@ -394,13 +407,17 @@ export default function RevisionPage() {
         setTopicRange(data.topicRange)
         setPool(data.glossary)
         setQuestions(buildQuestions(data.glossary))
+        setBonusQuestions(buildBonusQuestions(data.glossary, book))
         setPhase('intro')
       })
       .catch(() => router.back())
   }, [book, revNum, router])
 
-  const saveScore = useCallback((total: number) => {
-    const value = { score: total, max: 30, date: new Date().toISOString().split('T')[0] }
+  const saveScore = useCallback((total: number, bonus: { passed: number; total: number } | null) => {
+    const value = {
+      score: total, max: 30, date: new Date().toISOString().split('T')[0],
+      ...(bonus ? { bonus } : {}),
+    }
     localStorage.setItem(`revision_${book}_${revId}`, JSON.stringify(value))
     // Sync to server so score shows on all devices
     fetch('/api/vocabwise/sync', {
@@ -464,6 +481,7 @@ export default function RevisionPage() {
                 { icon: '🧩', label: 'Round 1', desc: '10 câu MCQ — chọn nghĩa tiếng Việt' },
                 { icon: '✏️', label: 'Round 2', desc: '10 câu Fill-in-blank — điền từ vào câu' },
                 { icon: '🔗', label: 'Round 3', desc: '10 cặp Matching — nối từ với nghĩa' },
+                ...(bonusQuestions.length > 0 ? [{ icon: '🌟', label: 'Bonus', desc: 'Viết câu — không bắt buộc, không tính điểm chính' }] : []),
               ].map(r => (
                 <div key={r.label} className="flex items-center gap-3 text-left">
                   <span className="text-2xl flex-shrink-0">{r.icon}</span>
@@ -553,8 +571,30 @@ export default function RevisionPage() {
             <MatchRound key="m2" pairs={questions.match2} setLabel="Bộ 2/2"
               onDone={s => {
                 setMatch2Score(s)
-                const finalScore = mcqScore + fibScore + match1Score + s
-                saveScore(finalScore)
+                if (bonusQuestions.length > 0) {
+                  setPhase('bonus')
+                } else {
+                  saveScore(mcqScore + fibScore + match1Score + s, null)
+                  setPhase('result')
+                }
+              }} />
+          </>
+        )}
+
+        {phase === 'bonus' && (
+          <>
+            <div className="flex items-center gap-2 mb-5">
+              <span className="text-lg">🌟</span>
+              <div><p className="font-black text-gray-700 text-sm">Bonus — Viết câu</p><p className="text-xs text-gray-400">Không tính vào điểm chính, AI chấm và góp ý</p></div>
+            </div>
+            <BonusSentenceRound questions={bonusQuestions} accentCls="bg-amber-400"
+              onDone={(passed, total) => {
+                setBonusResult({ passed, total })
+                saveScore(mcqScore + fibScore + match1Score + match2Score, { passed, total })
+                setPhase('result')
+              }}
+              onSkip={() => {
+                saveScore(mcqScore + fibScore + match1Score + match2Score, null)
                 setPhase('result')
               }} />
           </>
@@ -604,11 +644,19 @@ export default function RevisionPage() {
                 ))}
               </div>
 
+              {bonusResult && (
+                <div className="bg-amber-50 border-2 border-amber-200 rounded-2xl px-4 py-2.5 w-full max-w-xs text-center">
+                  <p className="text-xs font-bold text-amber-700">🌟 Bonus — Viết câu: {bonusResult.passed}/{bonusResult.total} câu đạt</p>
+                </div>
+              )}
+
               <div className="flex gap-3 w-full max-w-xs">
                 <button onClick={() => {
                   setPhase('intro')
                   setMcqScore(0); setFibScore(0); setMatch1Score(0); setMatch2Score(0)
+                  setBonusResult(null)
                   setQuestions(buildQuestions(pool))
+                  setBonusQuestions(buildBonusQuestions(pool, book))
                 }}
                   className="flex-1 bg-white border-2 border-gray-200 text-gray-600 font-black py-3.5 rounded-2xl text-sm active:scale-95 transition-all shadow-sm">
                   Làm lại

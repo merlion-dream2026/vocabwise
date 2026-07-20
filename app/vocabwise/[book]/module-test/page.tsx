@@ -15,7 +15,7 @@ type MCQQuestion = { word: string; pos: string | null; correct: string; options:
 type FIBQuestion = { blanked: string; word: string; meaning_vi: string; correct: string; options: string[]; mode: 'mcq' | 'type' }
 type MatchPair  = { word: string; meaning: string }
 type ProductionQuestion = { targetWord: string; exampleVi: string; cefr: string | null }
-type ProductionResult = { score: number; used_correctly: boolean; grammar_ok: boolean; feedback_vi: string; improved: string }
+type ProductionResult = { score: number; passed: boolean; used_correctly: boolean; grammar_ok: boolean; feedback_vi: string; improved: string }
 
 type Phase =
   | 'loading' | 'intro'
@@ -324,7 +324,7 @@ function ProductionRound({ questions, onDone }: { questions: ProductionQuestion[
   async function submit() {
     setSubmitting(true); setError(null)
     try {
-      const res = await fetch('/api/vocabwise/module-test/grade-production', {
+      const res = await fetch('/api/grade-sentence', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -360,7 +360,10 @@ function ProductionRound({ questions, onDone }: { questions: ProductionQuestion[
             <div key={i} className={`rounded-2xl border-2 p-4 ${cls}`}>
               <div className="flex justify-between items-start gap-2 mb-1">
                 <p className="font-black text-gray-700 text-sm">Câu {i + 1} · &quot;{q.targetWord}&quot;</p>
-                <span className="text-xs font-black text-gray-600 flex-shrink-0">{r.score}/10</span>
+                <span className="flex items-center gap-1.5 flex-shrink-0">
+                  <span className={`text-xs font-black ${r.passed ? 'text-green-600' : 'text-amber-600'}`}>{r.passed ? '✓ Đạt' : 'Chưa đạt'}</span>
+                  <span className="text-xs font-black text-gray-600">{r.score}/10</span>
+                </span>
               </div>
               <p className="text-xs text-gray-500 mb-1.5">🇻🇳 {q.exampleVi}</p>
               <p className="text-sm text-gray-800 font-semibold mb-1.5">

@@ -1,19 +1,19 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getSession } from '@/lib/auth'
-import { checkAndIncrementModuleTestUsage } from '@/lib/rateLimit'
+import { checkAndIncrementSentenceGradingUsage } from '@/lib/rateLimit'
 import { aiChat } from '@/lib/aiChat'
 import { getFamilyProfile } from '@/lib/security'
 import { getEffectivePlan } from '@/lib/planUtils'
 
 type Item = { targetWord: string; exampleVi: string; cefr?: string; sentence: string }
-type GradedItem = { score: number; used_correctly: boolean; grammar_ok: boolean; feedback_vi: string; improved: string }
+type GradedItem = { score: number; passed: boolean; used_correctly: boolean; grammar_ok: boolean; feedback_vi: string; improved: string }
 
 const MAX_ITEMS = 12
 
-// POST /api/vocabwise/module-test/grade-production — grades all Production-round
-// sentences of one Module Test submission in a single AI call (not one call per
-// sentence), matching the "scroll through all questions, submit once" UI and keeping
-// this endpoint's own daily quota cheap regardless of how many sentences a book uses.
+// POST /api/grade-sentence — grades a batch of Vietnamese-cue → English-sentence
+// answers in a single AI call. Shared by Module Test's mandatory Production round
+// and the optional "Bonus — Viết câu" round (Level Test / revision tests), so the
+// prompt and rate limit here are generic, not tied to any one test surface.
 export async function POST(req: NextRequest) {
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
@@ -22,12 +22,12 @@ export async function POST(req: NextRequest) {
     const profile = await getFamilyProfile(session.familyId)
     if (!profile) return NextResponse.json({ error: 'Account not found' }, { status: 404 })
     if (!getEffectivePlan(profile).isProActive) {
-      return NextResponse.json({ error: 'Pro plan required for Module Test.' }, { status: 403 })
+      return NextResponse.json({ error: 'Pro plan required.' }, { status: 403 })
     }
   }
 
-  if (!(await checkAndIncrementModuleTestUsage(session.familyId))) {
-    return NextResponse.json({ error: 'Đã đạt giới hạn nộp bài Module Test hôm nay. Vui lòng thử lại vào ngày mai.' }, { status: 429 })
+  if (!(await checkAndIncrementSentenceGradingUsage(session.familyId))) {
+    return NextResponse.json({ error: 'Đã đạt giới hạn chấm câu hôm nay. Vui lòng thử lại vào ngày mai.' }, { status: 429 })
   }
 
   const body = await req.json().catch(() => ({}))
@@ -53,10 +53,11 @@ ${questionsBlock}
 Chấm từng câu và trả lời đúng định dạng JSON sau (không thêm text ngoài JSON), mảng "results" phải có đúng ${items.length} phần tử theo đúng thứ tự câu:
 {
   "results": [
-    { "score": <số nguyên 0-10>, "used_correctly": <true/false>, "grammar_ok": <true/false>, "feedback_vi": "<1 câu nhận xét ngắn>", "improved": "<câu tiếng Anh đã cải thiện, để trống '' nếu câu bỏ trống hoặc đã tốt>" }
+    { "score": <số nguyên 0-10>, "passed": <true/false>, "used_correctly": <true/false>, "grammar_ok": <true/false>, "feedback_vi": "<1 câu nhận xét ngắn>", "improved": "<câu tiếng Anh đã cải thiện, để trống '' nếu câu bỏ trống hoặc đã tốt>" }
   ]
 }
-Nếu câu học sinh viết bị bỏ trống, chấm score=0, used_correctly=false, grammar_ok=false, feedback_vi="Chưa trả lời câu này."`
+"passed" = true nếu câu diễn đạt đúng ý gốc và có thể hiểu được, dù còn vài lỗi nhỏ (chính tả, giới từ, thì...) — tức là độ chính xác + khả năng hiểu tổng thể đạt khoảng 80% trở lên. "passed" = false nếu sai nghĩa, thiếu từ mục tiêu, hoặc câu khó hiểu.
+Nếu câu học sinh viết bị bỏ trống, chấm score=0, passed=false, used_correctly=false, grammar_ok=false, feedback_vi="Chưa trả lời câu này."`
 
   const maxTokens = Math.min(1800, 150 * items.length + 200)
   const raw = await aiChat({ order: ['cerebras', 'groq'], prompt, maxTokens, temperature: 0.4, json: true })
@@ -69,6 +70,7 @@ Nếu câu học sinh viết bị bỏ trống, chấm score=0, used_correctly=f
       const r = (rawResults[i] ?? {}) as Record<string, unknown>
       return {
         score:          Number(r.score ?? 0),
+        passed:         !!r.passed,
         used_correctly: !!r.used_correctly,
         grammar_ok:     !!r.grammar_ok,
         feedback_vi:    String(r.feedback_vi ?? ''),
