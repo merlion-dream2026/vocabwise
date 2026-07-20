@@ -22,6 +22,12 @@ const CLASS_LABEL: Record<string, string> = {
   prep: 'prep - giới từ',
 }
 
+type WordFamilyForm = {
+  pos: string
+  word: string
+  meaning: string
+}
+
 type Word = {
   word: string
   ipa?: string
@@ -29,7 +35,12 @@ type Word = {
   emoji: string
   class?: string
   examples: Example[]
+  wordFamily?: WordFamilyForm[]
 }
+
+// Word family table only makes sense from Ranger up (level 3+) — Seeker/Starter
+// kids aren't ready for word-form comparisons yet.
+const WORD_FAMILY_LEVELS = ['ranger', 'explorer', 'scholar', 'master']
 
 type Topic = {
   id: string
@@ -392,6 +403,40 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
               </div>
             ))}
           </div>
+
+          {/* Word Family — Ranger+ only, hidden when the word has no meaningful family */}
+          {WORD_FAMILY_LEVELS.includes(level) && word.wordFamily && word.wordFamily.length >= 2 && (
+            <div className="w-full mt-3 bg-white border-2 border-teal-100 rounded-2xl px-4 py-3">
+              <p className="text-sm font-black text-teal-600 mb-2">🌳 Word Family</p>
+              <div className="space-y-1.5">
+                {word.wordFamily.map((form, idx) => {
+                  const isCurrent = form.pos === word.class && form.word.toLowerCase() === word.word.toLowerCase()
+                  return (
+                    <div
+                      key={idx}
+                      className={`flex items-center gap-2 rounded-xl px-2.5 py-1.5 ${isCurrent ? 'bg-teal-50 border border-teal-200' : ''}`}
+                    >
+                      <button
+                        onClick={() => speak(form.word, `wf-${idx}`)}
+                        disabled={speakingId === `wf-${idx}`}
+                        className="flex-shrink-0 w-7 h-7 rounded-lg bg-teal-500 text-white text-sm flex items-center justify-center active:scale-90 disabled:opacity-60 transition-all"
+                        aria-label={`Nghe ${form.word}`}
+                      >
+                        {speakingId === `wf-${idx}` ? '⏸' : '🔊'}
+                      </button>
+                      <span className="text-[0.65rem] font-bold text-gray-400 w-9 flex-shrink-0">
+                        {CLASS_LABEL[form.pos]?.split(' - ')[0] ?? form.pos}
+                      </span>
+                      <span className={`font-bold text-sm flex-shrink-0 ${isCurrent ? 'text-teal-700' : 'text-gray-700'}`}>
+                        {form.word}
+                      </span>
+                      <span className="text-gray-400 text-xs truncate">{form.meaning}</span>
+                    </div>
+                  )
+                })}
+              </div>
+            </div>
+          )}
 
           {/* AI Explainer — fetched on tap, not prefetched */}
           <details className="w-full mt-3 bg-amber-50 border border-amber-200 rounded-2xl overflow-hidden group">

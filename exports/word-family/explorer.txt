@@ -1,0 +1,400 @@
+word=microscope|pos=n|meaning=kính hiển vi
+word=photosynthesis|pos=n|meaning=quang hợp
+word=creature|pos=n|meaning=sinh vật
+word=predator|pos=n|meaning=thú săn mồi
+word=prey|pos=n|meaning=con mồi
+word=evolve|pos=v|meaning=tiến hóa
+word=element|pos=n|meaning=nguyên tố hóa học
+word=carnivore|pos=n|meaning=động vật ăn thịt
+word=herbivore|pos=n|meaning=động vật ăn cỏ
+word=survive|pos=v|meaning=tồn tại, sống sót
+word=invention|pos=n|meaning=phát minh
+word=engineer|pos=n|meaning=kỹ sư
+word=robot|pos=n|meaning=rô-bốt
+word=device|pos=n|meaning=thiết bị
+word=sensor|pos=n|meaning=cảm biến
+word=circuit|pos=n|meaning=mạch điện
+word=software|pos=n|meaning=phần mềm
+word=digital|pos=adj|meaning=kỹ thuật số
+word=program|pos=n|meaning=lập trình / chương trình
+word=artificial|pos=adj|meaning=nhân tạo
+word=brave|pos=adj|meaning=dũng cảm
+word=determined|pos=adj|meaning=quyết tâm
+word=loyal|pos=adj|meaning=trung thành
+word=confident|pos=adj|meaning=tự tin
+word=rescue|pos=v|meaning=giải cứu
+word=defeat|pos=v|meaning=đánh bại
+word=protect|pos=v|meaning=bảo vệ
+word=villain|pos=n|meaning=kẻ phản diện
+word=mission|pos=n|meaning=nhiệm vụ
+word=ambitious|pos=adj|meaning=tham vọng, có hoài bão
+word=discover|pos=v|meaning=khám phá
+word=experiment|pos=v|meaning=thí nghiệm
+word=investigate|pos=v|meaning=điều tra
+word=observe|pos=v|meaning=quan sát
+word=examine|pos=v|meaning=kiểm tra kỹ
+word=hypothesis|pos=n|meaning=giả thuyết
+word=classify|pos=v|meaning=phân loại
+word=measure|pos=v|meaning=đo lường
+word=theory|pos=n|meaning=lý thuyết
+word=evidence|pos=n|meaning=bằng chứng
+word=construct|pos=v|meaning=xây dựng
+word=assemble|pos=v|meaning=lắp ráp
+word=prototype|pos=n|meaning=bản thử nghiệm / nguyên mẫu
+word=manufacture|pos=v|meaning=sản xuất
+word=operate|pos=v|meaning=vận hành
+word=control|pos=v|meaning=điều khiển
+word=adjust|pos=v|meaning=điều chỉnh
+word=mechanism|pos=n|meaning=cơ chế
+word=component|pos=n|meaning=linh kiện / bộ phận
+word=structure|pos=n|meaning=cấu trúc
+word=confront|pos=v|meaning=đối mặt
+word=challenge|pos=v|meaning=thách thức
+word=overcome|pos=v|meaning=vượt qua
+word=alliance|pos=n|meaning=liên minh
+word=sacrifice|pos=v|meaning=hi sinh
+word=transform|pos=v|meaning=biến đổi / hóa thân
+word=superpower|pos=n|meaning=siêu năng lực
+word=quest|pos=n|meaning=cuộc tìm kiếm / hành trình
+word=endure|pos=v|meaning=chịu đựng / bền chí
+word=cunning|pos=adj|meaning=khôn khéo / xảo quyệt
+word=biodiversity|pos=n|meaning=đa dạng sinh học
+word=ecosystem|pos=n|meaning=hệ sinh thái
+word=conservation|pos=n|meaning=bảo tồn
+word=sustainable|pos=adj|meaning=bền vững
+word=renewable|pos=adj|meaning=tái tạo
+word=deforestation|pos=n|meaning=phá rừng
+word=pollution|pos=n|meaning=ô nhiễm
+word=emission|pos=n|meaning=khí thải
+word=endangered|pos=adj|meaning=nguy cấp
+word=atmosphere|pos=n|meaning=khí quyển / bầu không khí
+word=orbit|pos=v|meaning=quỹ đạo
+word=gravity|pos=n|meaning=trọng lực
+word=asteroid|pos=n|meaning=tiểu hành tinh
+word=galaxy|pos=n|meaning=thiên hà
+word=satellite|pos=n|meaning=vệ tinh
+word=telescope|pos=n|meaning=kính thiên văn
+word=astronaut|pos=n|meaning=phi hành gia
+word=launch|pos=v|meaning=phóng (tàu)
+word=spacecraft|pos=n|meaning=tàu vũ trụ
+word=meteor|pos=n|meaning=thiên thạch
+word=influence|pos=v|meaning=ảnh hưởng
+word=persuade|pos=v|meaning=thuyết phục
+word=tone|pos=n|meaning=giọng điệu / ngữ điệu
+word=broadcast|pos=v|meaning=phát sóng
+word=journalist|pos=n|meaning=nhà báo
+word=clarify|pos=v|meaning=làm rõ / giải thích
+word=audience|pos=n|meaning=khán giả
+word=propaganda|pos=n|meaning=tuyên truyền
+word=feedback|pos=n|meaning=phản hồi
+word=misinformation|pos=n|meaning=thông tin sai lệch
+word=accomplish|pos=v|meaning=hoàn thành / đạt được
+word=championship|pos=n|meaning=giải vô địch
+word=teamwork|pos=n|meaning=làm việc nhóm
+word=leadership|pos=n|meaning=khả năng lãnh đạo
+word=perseverance|pos=n|meaning=sự kiên trì
+word=dedication|pos=n|meaning=sự tận tâm
+word=milestone|pos=n|meaning=cột mốc quan trọng
+word=triumph|pos=v|meaning=chiến thắng vẻ vang
+word=opponent|pos=n|meaning=đối thủ
+word=talent|pos=n|meaning=tài năng
+word=cell|pos=n|meaning=tế bào
+word=organ|pos=n|meaning=cơ quan (cơ thể)
+word=muscle|pos=n|meaning=cơ bắp
+word=nerve|pos=n|meaning=dây thần kinh
+word=hormone|pos=n|meaning=hormone
+word=tissue|pos=n|meaning=mô (sinh học)
+word=protein|pos=n|meaning=protein
+word=immune|pos=adj|meaning=miễn dịch
+word=digest|pos=v|meaning=tiêu hóa
+word=breathe|pos=v|meaning=thở
+word=skeleton|pos=n|meaning=bộ xương
+word=vein|pos=n|meaning=tĩnh mạch
+word=enzyme|pos=n|meaning=enzyme
+word=bacteria|pos=n|meaning=vi khuẩn
+word=oxygen|pos=n|meaning=oxy
+word=ancient|pos=adj|meaning=cổ đại
+word=empire|pos=n|meaning=đế chế
+word=siege|pos=n|meaning=cuộc vây hãm
+word=revolution|pos=n|meaning=cuộc cách mạng
+word=civilisation|pos=n|meaning=nền văn minh
+word=conquer|pos=v|meaning=chinh phục
+word=exile|pos=n|meaning=lưu đày / sống lưu vong
+word=monarch|pos=n|meaning=quốc vương
+word=republic|pos=n|meaning=nước cộng hòa
+word=archaeology|pos=n|meaning=khảo cổ học
+word=invasion|pos=n|meaning=cuộc xâm lược
+word=colony|pos=n|meaning=thuộc địa
+word=independence|pos=n|meaning=sự độc lập
+word=dynasty|pos=n|meaning=triều đại
+word=warrior|pos=n|meaning=chiến binh
+word=trade|pos=n|meaning=thương mại
+word=profit|pos=n|meaning=lợi nhuận
+word=invest|pos=v|meaning=đầu tư
+word=budget|pos=n|meaning=ngân sách
+word=currency|pos=n|meaning=tiền tệ
+word=inflation|pos=n|meaning=lạm phát
+word=export|pos=v|meaning=xuất khẩu
+word=import|pos=v|meaning=nhập khẩu
+word=economy|pos=n|meaning=nền kinh tế
+word=poverty|pos=n|meaning=đói nghèo
+word=tax|pos=n|meaning=thuế
+word=debt|pos=n|meaning=nợ
+word=demand|pos=n|meaning=nhu cầu
+word=wage|pos=n|meaning=tiền lương
+word=capital|pos=n|meaning=vốn
+word=metaphor|pos=n|meaning=ẩn dụ
+word=theme|pos=n|meaning=chủ đề
+word=character|pos=n|meaning=nhân vật
+word=symbolism|pos=n|meaning=biểu tượng
+word=narrative|pos=n|meaning=cách kể chuyện
+word=plot|pos=n|meaning=cốt truyện
+word=genre|pos=n|meaning=thể loại
+word=poetry|pos=n|meaning=thơ ca
+word=fiction|pos=n|meaning=văn học hư cấu
+word=critic|pos=n|meaning=nhà phê bình
+word=setting|pos=n|meaning=bối cảnh
+word=dialogue|pos=n|meaning=đối thoại
+word=protagonist|pos=n|meaning=nhân vật chính
+word=irony|pos=n|meaning=sự mỉa mai
+word=climax|pos=n|meaning=cao trào
+word=algorithm|pos=n|meaning=thuật toán
+word=data|pos=n|meaning=dữ liệu
+word=network|pos=n|meaning=mạng lưới
+word=automation|pos=n|meaning=tự động hóa
+word=intelligence|pos=n|meaning=trí thông minh
+word=machine|pos=n|meaning=máy móc
+word=cloud|pos=n|meaning=đám mây (điện toán)
+word=database|pos=n|meaning=cơ sở dữ liệu
+word=interface|pos=n|meaning=giao diện
+word=virtual|pos=adj|meaning=ảo
+word=code|pos=v|meaning=viết code / lập trình
+word=input|pos=n|meaning=dữ liệu đầu vào
+word=output|pos=n|meaning=dữ liệu đầu ra
+word=platform|pos=n|meaning=nền tảng
+word=chatbot|pos=n|meaning=chatbot / trợ lý ảo
+word=law|pos=n|meaning=luật pháp
+word=court|pos=n|meaning=tòa án
+word=judge|pos=n|meaning=thẩm phán
+word=justice|pos=n|meaning=công lý
+word=crime|pos=n|meaning=tội phạm
+word=verdict|pos=n|meaning=phán quyết
+word=rights|pos=n|meaning=quyền lợi
+word=lawyer|pos=n|meaning=luật sư
+word=trial|pos=n|meaning=phiên xét xử
+word=witness|pos=n|meaning=nhân chứng
+word=defendant|pos=n|meaning=bị cáo
+word=appeal|pos=n|meaning=kháng cáo
+word=constitution|pos=n|meaning=hiến pháp
+word=guilty|pos=adj|meaning=có tội
+word=jury|pos=n|meaning=bồi thẩm đoàn
+word=anxiety|pos=n|meaning=lo âu
+word=empathy|pos=n|meaning=sự đồng cảm
+word=motivation|pos=n|meaning=động lực
+word=stress|pos=n|meaning=căng thẳng
+word=perception|pos=n|meaning=nhận thức
+word=behavior|pos=n|meaning=hành vi
+word=memory|pos=n|meaning=trí nhớ
+word=identity|pos=n|meaning=danh tính / bản sắc
+word=resilience|pos=n|meaning=khả năng phục hồi
+word=mindset|pos=n|meaning=tư duy
+word=emotion|pos=n|meaning=cảm xúc
+word=habit|pos=n|meaning=thói quen
+word=trauma|pos=n|meaning=sang chấn tâm lý
+word=instinct|pos=n|meaning=bản năng
+word=self-esteem|pos=n|meaning=lòng tự trọng
+word=diagnose|pos=v|meaning=chẩn đoán
+word=symptom|pos=n|meaning=triệu chứng
+word=vaccine|pos=n|meaning=vắc-xin
+word=surgery|pos=n|meaning=phẫu thuật
+word=therapy|pos=n|meaning=liệu pháp
+word=prescription|pos=n|meaning=đơn thuốc
+word=chronic|pos=adj|meaning=mãn tính
+word=epidemic|pos=n|meaning=dịch bệnh
+word=recovery|pos=n|meaning=sự hồi phục
+word=treatment|pos=n|meaning=điều trị
+word=disease|pos=n|meaning=căn bệnh
+word=patient|pos=n|meaning=bệnh nhân
+word=infection|pos=n|meaning=nhiễm trùng
+word=prevention|pos=n|meaning=phòng ngừa
+word=antibiotic|pos=n|meaning=kháng sinh
+word=continent|pos=n|meaning=châu lục
+word=peninsula|pos=n|meaning=bán đảo
+word=plateau|pos=n|meaning=cao nguyên
+word=delta|pos=n|meaning=châu thổ
+word=equator|pos=n|meaning=đường xích đạo
+word=hemisphere|pos=n|meaning=bán cầu
+word=longitude|pos=n|meaning=kinh độ
+word=latitude|pos=n|meaning=vĩ độ
+word=terrain|pos=n|meaning=địa hình
+word=coastline|pos=n|meaning=đường bờ biển
+word=canyon|pos=n|meaning=hẻm núi
+word=estuary|pos=n|meaning=cửa sông
+word=tundra|pos=n|meaning=đài nguyên
+word=savanna|pos=n|meaning=thảo nguyên
+word=tropic|pos=n|meaning=vùng nhiệt đới
+word=nutrition|pos=n|meaning=dinh dưỡng
+word=calorie|pos=n|meaning=calo
+word=vitamin|pos=n|meaning=vitamin
+word=mineral|pos=n|meaning=khoáng chất
+word=carbohydrate|pos=n|meaning=tinh bột / carbohydrate
+word=fiber|pos=n|meaning=chất xơ
+word=appetite|pos=n|meaning=sự thèm ăn
+word=cuisine|pos=n|meaning=ẩm thực
+word=ingredient|pos=n|meaning=nguyên liệu
+word=supplement|pos=n|meaning=thực phẩm bổ sung
+word=fat|pos=n|meaning=chất béo
+word=sugar|pos=n|meaning=đường
+word=diet|pos=n|meaning=chế độ ăn
+word=portion|pos=n|meaning=khẩu phần
+word=organic|pos=adj|meaning=hữu cơ
+word=climate|pos=n|meaning=khí hậu
+word=permafrost|pos=n|meaning=tầng đất đóng băng vĩnh cửu
+word=carbon|pos=n|meaning=carbon
+word=iceberg|pos=n|meaning=tảng băng trôi
+word=greenhouse|pos=n|meaning=hiệu ứng nhà kính
+word=sea level|pos=n|meaning=mực nước biển
+word=glacier|pos=n|meaning=sông băng
+word=drought|pos=n|meaning=hạn hán
+word=flood|pos=n|meaning=lũ lụt
+word=species|pos=n|meaning=loài (sinh vật)
+word=habitat|pos=n|meaning=môi trường sống
+word=coral|pos=n|meaning=san hô
+word=temperature|pos=n|meaning=nhiệt độ
+word=wildfire|pos=n|meaning=cháy rừng
+word=heatwave|pos=n|meaning=đợt nắng nóng
+word=social media|pos=n|meaning=mạng xã hội
+word=download|pos=v|meaning=tải xuống
+word=privacy|pos=n|meaning=quyền riêng tư
+word=cyberbullying|pos=n|meaning=bắt nạt trực tuyến
+word=digital footprint|pos=n|meaning=dấu vết kỹ thuật số
+word=encrypt|pos=v|meaning=mã hóa
+word=hacker|pos=n|meaning=tin tặc
+word=bandwidth|pos=n|meaning=băng thông
+word=password|pos=n|meaning=mật khẩu
+word=streaming|pos=n|meaning=phát trực tuyến
+word=notification|pos=n|meaning=thông báo
+word=virus|pos=n|meaning=vi-rút máy tính / vi-rút
+word=artificial intelligence|pos=n|meaning=trí tuệ nhân tạo
+word=screen time|pos=n|meaning=thời gian sử dụng màn hình
+word=username|pos=n|meaning=tên đăng nhập
+word=entrance|pos=n|meaning=lối vào
+word=blueprint|pos=n|meaning=bản thiết kế
+word=foundation|pos=n|meaning=nền móng
+word=column|pos=n|meaning=cột trụ
+word=arch|pos=n|meaning=vòm cung
+word=facade|pos=n|meaning=mặt tiền
+word=dome|pos=n|meaning=mái vòm
+word=symmetry|pos=n|meaning=tính đối xứng
+word=proportion|pos=n|meaning=tỷ lệ
+word=renovation|pos=n|meaning=cải tạo / trùng tu
+word=heritage|pos=n|meaning=di sản
+word=urban|pos=adj|meaning=đô thị / thành thị
+word=landscape|pos=n|meaning=cảnh quan
+word=material|pos=n|meaning=vật liệu xây dựng
+word=design|pos=n|meaning=thiết kế
+word=entrepreneur|pos=n|meaning=doanh nhân khởi nghiệp
+word=startup|pos=n|meaning=công ty khởi nghiệp
+word=investment|pos=n|meaning=đầu tư
+word=partnership|pos=n|meaning=hợp tác / quan hệ đối tác
+word=strategy|pos=n|meaning=chiến lược
+word=market|pos=n|meaning=thị trường
+word=customer|pos=n|meaning=khách hàng
+word=revenue|pos=n|meaning=doanh thu
+word=brand|pos=n|meaning=thương hiệu
+word=innovation|pos=n|meaning=đổi mới sáng tạo
+word=compete|pos=v|meaning=cạnh tranh
+word=fund|pos=n|meaning=quỹ / tài trợ
+word=pitch|pos=n|meaning=thuyết trình (ý tưởng)
+word=scale|pos=v|meaning=mở rộng quy mô
+word=failure|pos=n|meaning=thất bại
+word=melody|pos=n|meaning=giai điệu
+word=harmony|pos=n|meaning=hòa âm
+word=rhythm|pos=n|meaning=nhịp điệu
+word=tempo|pos=n|meaning=tốc độ (nhịp)
+word=chord|pos=n|meaning=hợp âm
+word=lyrics|pos=n|meaning=lời bài hát
+word=compose|pos=v|meaning=sáng tác
+word=perform|pos=v|meaning=biểu diễn
+word=rehearse|pos=v|meaning=tập dượt
+word=encore|pos=n|meaning=màn trình diễn thêm
+word=conductor|pos=n|meaning=nhạc trưởng
+word=solo|pos=n|meaning=độc tấu / đơn ca
+word=orchestra|pos=n|meaning=dàn nhạc giao hưởng
+word=verse|pos=n|meaning=lời bài hát / khổ thơ
+word=acoustic|pos=adj|meaning=âm thanh tự nhiên / acoustic
+word=athlete|pos=n|meaning=vận động viên
+word=champion|pos=n|meaning=nhà vô địch
+word=tournament|pos=n|meaning=giải đấu
+word=rival|pos=n|meaning=đối thủ
+word=tactic|pos=n|meaning=chiến thuật
+word=endurance|pos=n|meaning=sức bền
+word=agility|pos=n|meaning=sự nhanh nhẹn / linh hoạt
+word=technique|pos=n|meaning=kỹ thuật
+word=referee|pos=n|meaning=trọng tài
+word=penalty|pos=n|meaning=hình phạt / phạt đền
+word=trophy|pos=n|meaning=cúp / chiến lợi phẩm
+word=sprint|pos=v|meaning=chạy nước rút
+word=qualify|pos=v|meaning=vượt qua vòng loại
+word=sportsmanship|pos=n|meaning=tinh thần thể thao
+word=match|pos=n|meaning=trận đấu
+word=argument|pos=n|meaning=lập luận
+word=claim|pos=n|meaning=tuyên bố / khẳng định
+word=bias|pos=n|meaning=định kiến / thiên lệch
+word=assumption|pos=n|meaning=giả định
+word=logic|pos=n|meaning=logic / lý luận
+word=analyze|pos=v|meaning=phân tích
+word=evaluate|pos=v|meaning=đánh giá
+word=infer|pos=v|meaning=suy luận
+word=perspective|pos=n|meaning=quan điểm / góc nhìn
+word=fallacy|pos=n|meaning=lỗi lập luận
+word=conclusion|pos=n|meaning=kết luận
+word=debate|pos=n|meaning=tranh luận
+word=reliable|pos=adj|meaning=đáng tin cậy
+word=source|pos=n|meaning=nguồn (thông tin)
+word=question|pos=v|meaning=đặt câu hỏi
+word=humanitarian|pos=adj|meaning=nhân đạo
+word=hunger|pos=n|meaning=nạn đói
+word=refugee|pos=n|meaning=người tị nạn
+word=conflict|pos=n|meaning=xung đột
+word=inequality|pos=n|meaning=bất bình đẳng
+word=migration|pos=n|meaning=di cư
+word=sanitation|pos=n|meaning=vệ sinh môi trường
+word=literacy|pos=n|meaning=biết đọc biết viết
+word=aid|pos=n|meaning=viện trợ / hỗ trợ
+word=treaty|pos=n|meaning=hiệp ước
+word=diplomat|pos=n|meaning=nhà ngoại giao
+word=crisis|pos=n|meaning=khủng hoảng
+word=democracy|pos=n|meaning=dân chủ
+word=human rights|pos=n|meaning=quyền con người
+word=cooperation|pos=n|meaning=hợp tác (quốc tế)
+word=gene|pos=n|meaning=gen di truyền
+word=DNA|pos=n|meaning=ADN
+word=chromosome|pos=n|meaning=nhiễm sắc thể
+word=mutation|pos=n|meaning=đột biến gen
+word=inherit|pos=v|meaning=di truyền / thừa hưởng
+word=trait|pos=n|meaning=đặc điểm di truyền
+word=variation|pos=n|meaning=sự biến dị
+word=natural selection|pos=n|meaning=chọn lọc tự nhiên
+word=adaptation|pos=n|meaning=sự thích nghi
+word=evolution|pos=n|meaning=tiến hóa
+word=ancestor|pos=n|meaning=tổ tiên
+word=fossil|pos=n|meaning=hóa thạch
+word=extinct|pos=adj|meaning=tuyệt chủng
+word=organism|pos=n|meaning=sinh vật
+word=reproduce|pos=v|meaning=sinh sản
+word=canvas|pos=n|meaning=vải bố / tranh vẽ
+word=sculpture|pos=n|meaning=điêu khắc / tượng
+word=abstract|pos=adj|meaning=trừu tượng
+word=composition|pos=n|meaning=bố cục
+word=contrast|pos=n|meaning=sự tương phản
+word=exhibition|pos=n|meaning=triển lãm
+word=portrait|pos=n|meaning=chân dung
+word=texture|pos=n|meaning=kết cấu bề mặt
+word=inspire|pos=v|meaning=truyền cảm hứng
+word=creative|pos=adj|meaning=sáng tạo
+word=medium|pos=n|meaning=chất liệu nghệ thuật
+word=gallery|pos=n|meaning=phòng triển lãm
+word=sketch|pos=n|meaning=phác thảo
+word=masterpiece|pos=n|meaning=kiệt tác
+word=digital art|pos=n|meaning=nghệ thuật kỹ thuật số
