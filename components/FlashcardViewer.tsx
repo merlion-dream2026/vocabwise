@@ -334,10 +334,26 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
             />
           </div>
 
-          {/* English word */}
-          <h2 className={`text-4xl font-black ${styles.wordColor} mb-1 tracking-tight`}>
-            {word.word}
-          </h2>
+          {/* English word + speak button, inline */}
+          <div className="flex items-center justify-center gap-2.5 mb-1">
+            <h2 className={`text-4xl font-black ${styles.wordColor} tracking-tight`}>
+              {word.word}
+            </h2>
+            <button
+              onClick={() => speak(word.word, 'word')}
+              disabled={speakingId === 'word'}
+              className={`
+                ${styles.speakBg} text-white flex-shrink-0
+                w-10 h-10 rounded-xl text-lg
+                flex items-center justify-center
+                shadow-md transition-all duration-150
+                active:scale-90 disabled:opacity-70
+              `}
+              aria-label="Phát âm từ"
+            >
+              {speakingId === 'word' ? '⏸' : '🔊'}
+            </button>
+          </div>
 
           {/* IPA + word class — one line, both metadata at the same weight */}
           {(word.ipa || word.class) && (
@@ -352,23 +368,6 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
           <p className="text-2xl font-bold text-gray-700 mb-4">
             {word.meaning}
           </p>
-
-          {/* Speak word button */}
-          <button
-            onClick={() => speak(word.word, 'word')}
-            disabled={speakingId === 'word'}
-            className={`
-              ${styles.speakBg} text-white
-              w-14 h-14 rounded-2xl text-2xl
-              flex items-center justify-center
-              shadow-lg transition-all duration-150
-              active:scale-90 disabled:opacity-70
-              mb-4
-            `}
-            aria-label="Phát âm từ"
-          >
-            {speakingId === 'word' ? '⏸' : '🔊'}
-          </button>
 
           {/* Example sentences */}
           <div className="w-full space-y-2">
