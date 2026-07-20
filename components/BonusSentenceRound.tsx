@@ -2,7 +2,7 @@
 import { useState } from 'react'
 
 export type BonusQuestion = { targetWord: string; exampleVi: string }
-type BonusResult = { score: number; passed: boolean; feedback_vi: string; improved: string }
+type BonusResult = { score: number; passed: boolean; used_correctly: boolean; grammar_ok: boolean; feedback_vi: string; improved: string }
 
 // Optional "Bonus — Viết câu" round: Vietnamese cue → English sentence, graded by AI
 // via the shared /api/grade-sentence endpoint. Does not count toward the parent
@@ -66,6 +66,13 @@ export default function BonusSentenceRound({
               <p className="text-sm text-gray-800 font-semibold mb-1.5">
                 {answers[i]?.trim() ? answers[i] : <em className="text-gray-300 font-normal">(bỏ trống)</em>}
               </p>
+              {answers[i]?.trim() && (
+                <p className="text-xs font-bold text-gray-500 mb-1">
+                  {r.used_correctly ? '✅ Dùng từ đúng' : '⚠️ Dùng từ chưa đúng'}
+                  {' · '}
+                  {r.grammar_ok ? '✅ Ngữ pháp tốt' : '⚠️ Ngữ pháp cần sửa'}
+                </p>
+              )}
               <p className="text-xs text-blue-600">{r.feedback_vi}</p>
               {r.improved && <p className="text-xs text-green-600 mt-1">✓ Gợi ý: &ldquo;{r.improved}&rdquo;</p>}
             </div>

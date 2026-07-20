@@ -53,10 +53,11 @@ ${questionsBlock}
 Chấm từng câu và trả lời đúng định dạng JSON sau (không thêm text ngoài JSON), mảng "results" phải có đúng ${items.length} phần tử theo đúng thứ tự câu:
 {
   "results": [
-    { "score": <số nguyên 0-10>, "passed": <true/false>, "used_correctly": <true/false>, "grammar_ok": <true/false>, "feedback_vi": "<1 câu nhận xét ngắn>", "improved": "<câu tiếng Anh đã cải thiện, để trống '' nếu câu bỏ trống hoặc đã tốt>" }
+    { "score": <số nguyên 0-10>, "passed": <true/false>, "used_correctly": <true/false>, "grammar_ok": <true/false>, "feedback_vi": "<xem hướng dẫn bên dưới>", "improved": "<câu tiếng Anh đã cải thiện, để trống '' nếu câu bỏ trống hoặc đã tốt>" }
   ]
 }
 "passed" = true nếu câu diễn đạt đúng ý gốc và có thể hiểu được, dù còn vài lỗi nhỏ (chính tả, giới từ, thì...) — tức là độ chính xác + khả năng hiểu tổng thể đạt khoảng 80% trở lên. "passed" = false nếu sai nghĩa, thiếu từ mục tiêu, hoặc câu khó hiểu.
+"feedback_vi": 1-2 câu nhận xét, LUÔN gồm cả điểm làm tốt và điểm cần cải thiện (nếu câu đã hoàn hảo thì chỉ nêu điểm làm tốt). Không lặp lại câu đúng — đáp án đã có sẵn ở "improved".
 Nếu câu học sinh viết bị bỏ trống, chấm score=0, passed=false, used_correctly=false, grammar_ok=false, feedback_vi="Chưa trả lời câu này."`
 
   const maxTokens = Math.min(1800, 150 * items.length + 200)
