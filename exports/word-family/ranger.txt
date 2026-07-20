@@ -1,0 +1,351 @@
+word=architect|pos=n|meaning=kiến trúc sư
+word=plumber|pos=n|meaning=thợ ống nước
+word=discount|pos=n|meaning=giảm giá
+word=receipt|pos=n|meaning=hóa đơn / biên lai
+word=refund|pos=n|meaning=hoàn tiền
+word=bargain|pos=n|meaning=món hời / mặc cả
+word=afford|pos=v|meaning=đủ tiền mua / có khả năng chi trả
+word=credit card|pos=n|meaning=thẻ tín dụng
+word=cashier|pos=n|meaning=thu ngân
+word=delivery|pos=n|meaning=giao hàng
+word=brand|pos=n|meaning=thương hiệu
+word=sale|pos=n|meaning=đợt giảm giá
+word=curly|pos=adj|meaning=xoăn
+word=slim|pos=adj|meaning=mảnh mai
+word=athletic|pos=adj|meaning=vạm vỡ / có vóc dáng thể thao
+word=generous|pos=adj|meaning=hào phóng
+word=stubborn|pos=adj|meaning=bướng bỉnh
+word=cheerful|pos=adj|meaning=vui vẻ
+word=reliable|pos=adj|meaning=đáng tin cậy
+word=anxious|pos=adj|meaning=lo lắng
+word=patient|pos=adj|meaning=kiên nhẫn
+word=creative|pos=adj|meaning=sáng tạo
+word=menu|pos=n|meaning=thực đơn
+word=reservation|pos=n|meaning=đặt bàn
+word=ingredient|pos=n|meaning=nguyên liệu
+word=portion|pos=n|meaning=khẩu phần
+word=vegetarian|pos=adj|meaning=ăn chay / người ăn chay
+word=spicy|pos=adj|meaning=cay
+word=dessert|pos=n|meaning=món tráng miệng
+word=buffet|pos=n|meaning=tiệc tự chọn
+word=serve|pos=v|meaning=phục vụ
+word=tip|pos=n|meaning=tiền boa
+word=fever|pos=n|meaning=sốt
+word=symptom|pos=n|meaning=triệu chứng
+word=medicine|pos=n|meaning=thuốc
+word=prescription|pos=n|meaning=đơn thuốc
+word=appointment|pos=n|meaning=lịch hẹn
+word=recovery|pos=n|meaning=sự hồi phục
+word=vaccine|pos=n|meaning=vắc-xin
+word=allergy|pos=n|meaning=dị ứng
+word=nutrition|pos=n|meaning=dinh dưỡng
+word=diagnosis|pos=n|meaning=chẩn đoán
+word=tradition|pos=n|meaning=truyền thống
+word=ceremony|pos=n|meaning=lễ / buổi lễ
+word=monument|pos=n|meaning=công trình lịch sử / tượng đài
+word=religion|pos=n|meaning=tôn giáo
+word=border|pos=n|meaning=biên giới
+word=multilingual|pos=adj|meaning=đa ngôn ngữ
+word=immigrant|pos=n|meaning=người nhập cư
+word=custom|pos=n|meaning=phong tục
+word=continent|pos=n|meaning=châu lục
+word=landmark|pos=n|meaning=địa danh nổi tiếng
+word=crowded|pos=adj|meaning=đông đúc
+word=peaceful|pos=adj|meaning=yên bình
+word=scenic|pos=adj|meaning=có phong cảnh đẹp
+word=historic|pos=adj|meaning=có giá trị lịch sử
+word=coastal|pos=adj|meaning=ven biển
+word=rural|pos=adj|meaning=nông thôn
+word=urban|pos=adj|meaning=đô thị
+word=remote|pos=adj|meaning=hẻo lánh / xa xôi
+word=lively|pos=adj|meaning=sôi động
+word=suburb|pos=n|meaning=vùng ngoại ô
+word=landscape|pos=n|meaning=phong cảnh
+word=neighborhood|pos=n|meaning=khu phố / xóm giềng
+word=attraction|pos=n|meaning=điểm tham quan / điểm thu hút
+word=industrial|pos=adj|meaning=thuộc công nghiệp
+word=pollution|pos=n|meaning=ô nhiễm
+word=sushi|pos=n|meaning=sushi
+word=pasta|pos=n|meaning=mì Ý
+word=curry|pos=n|meaning=cà ri
+word=taco|pos=n|meaning=bánh taco
+word=croissant|pos=n|meaning=bánh sừng bò
+word=dumpling|pos=n|meaning=bánh bao / há cảo
+word=kebab|pos=n|meaning=thịt nướng xiên
+word=paella|pos=n|meaning=cơm hải sản Tây Ban Nha
+word=falafel|pos=n|meaning=bánh falafel
+word=ramen|pos=n|meaning=mì ramen
+word=wok|pos=n|meaning=chảo wok
+word=spice|pos=n|meaning=gia vị
+word=herb|pos=n|meaning=rau thơm / thảo mộc
+word=ferment|pos=v|meaning=lên men
+word=fusion|pos=n|meaning=ẩm thực kết hợp
+word=trust|pos=n|meaning=lòng tin / tin tưởng
+word=loyalty|pos=n|meaning=lòng trung thành
+word=argument|pos=n|meaning=cuộc tranh cãi
+word=forgive|pos=v|meaning=tha thứ
+word=support|pos=v|meaning=hỗ trợ / ủng hộ
+word=companion|pos=n|meaning=người bạn đồng hành
+word=jealous|pos=adj|meaning=ghen tị / ghen tuông
+word=conflict|pos=n|meaning=xung đột / mâu thuẫn
+word=bond|pos=n|meaning=sự gắn kết
+word=gossip|pos=n|meaning=tán gẫu / nói xấu
+word=misunderstand|pos=v|meaning=hiểu lầm
+word=reconcile|pos=v|meaning=hòa giải
+word=respect|pos=n|meaning=tôn trọng
+word=communicate|pos=v|meaning=giao tiếp
+word=sincere|pos=adj|meaning=chân thành
+word=experiment|pos=n|meaning=thí nghiệm
+word=hypothesis|pos=n|meaning=giả thuyết
+word=observe|pos=v|meaning=quan sát
+word=result|pos=n|meaning=kết quả
+word=conclusion|pos=n|meaning=kết luận
+word=gravity|pos=n|meaning=trọng lực
+word=magnetic|pos=adj|meaning=có từ tính
+word=dissolve|pos=v|meaning=hòa tan
+word=react|pos=v|meaning=phản ứng
+word=pressure|pos=n|meaning=áp suất
+word=molecule|pos=n|meaning=phân tử
+word=temperature|pos=n|meaning=nhiệt độ
+word=measure|pos=v|meaning=đo lường
+word=classify|pos=v|meaning=phân loại
+word=evidence|pos=n|meaning=bằng chứng
+word=recycle|pos=v|meaning=tái chế
+word=endangered|pos=adj|meaning=có nguy cơ tuyệt chủng
+word=habitat|pos=n|meaning=môi trường sống
+word=conservation|pos=n|meaning=bảo tồn
+word=solar energy|pos=n|meaning=năng lượng mặt trời
+word=carbon|pos=n|meaning=carbon / khí các-bon
+word=fossil fuel|pos=n|meaning=nhiên liệu hóa thạch
+word=deforestation|pos=n|meaning=nạn phá rừng
+word=organic|pos=adj|meaning=hữu cơ
+word=compost|pos=n|meaning=phân hữu cơ / ủ phân
+word=emission|pos=n|meaning=khí thải
+word=sustainable|pos=adj|meaning=bền vững
+word=wildlife|pos=n|meaning=động thực vật hoang dã
+word=drought|pos=n|meaning=hạn hán
+word=ecosystem|pos=n|meaning=hệ sinh thái
+word=browser|pos=n|meaning=trình duyệt web
+word=download|pos=v|meaning=tải xuống
+word=upload|pos=v|meaning=tải lên
+word=password|pos=n|meaning=mật khẩu
+word=notification|pos=n|meaning=thông báo
+word=update|pos=v|meaning=cập nhật
+word=virus|pos=n|meaning=vi-rút máy tính
+word=cloud|pos=n|meaning=đám mây (lưu trữ)
+word=storage|pos=n|meaning=bộ nhớ / lưu trữ
+word=screenshot|pos=n|meaning=ảnh chụp màn hình
+word=subscribe|pos=v|meaning=đăng ký / theo dõi
+word=stream|pos=v|meaning=phát trực tuyến
+word=wireless|pos=adj|meaning=không dây
+word=backup|pos=n|meaning=sao lưu
+word=account|pos=n|meaning=tài khoản
+word=timetable|pos=n|meaning=lịch trình / thời khóa biểu
+word=platform|pos=n|meaning=sân ga / ke tàu
+word=departure|pos=n|meaning=giờ khởi hành
+word=arrival|pos=n|meaning=giờ đến nơi
+word=delay|pos=n|meaning=sự chậm trễ
+word=transfer|pos=n|meaning=chuyển tuyến / trung chuyển
+word=boarding pass|pos=n|meaning=thẻ lên máy bay
+word=fare|pos=n|meaning=giá vé
+word=express|pos=adj|meaning=tốc hành / nhanh
+word=commute|pos=n|meaning=đi lại hàng ngày
+word=harbor|pos=n|meaning=bến cảng
+word=terminal|pos=n|meaning=nhà ga / sảnh
+word=itinerary|pos=n|meaning=lịch trình chuyến đi
+word=roundtrip|pos=adj|meaning=vé khứ hồi
+word=baggage claim|pos=n|meaning=khu nhận hành lý
+word=forecast|pos=n|meaning=dự báo thời tiết
+word=hurricane|pos=n|meaning=bão lớn / cuồng phong
+word=thunder|pos=n|meaning=tiếng sấm
+word=lightning|pos=n|meaning=sét / tia chớp
+word=snowstorm|pos=n|meaning=bão tuyết
+word=flood|pos=n|meaning=lũ lụt
+word=humidity|pos=n|meaning=độ ẩm
+word=tropical|pos=adj|meaning=nhiệt đới
+word=arctic|pos=adj|meaning=Bắc Cực / cực kỳ lạnh
+word=foggy|pos=adj|meaning=có sương mù
+word=sleet|pos=n|meaning=mưa tuyết
+word=heatwave|pos=n|meaning=đợt nắng nóng
+word=mild|pos=adj|meaning=ôn hòa / dịu nhẹ
+word=drizzle|pos=n|meaning=mưa phùn
+word=barometer|pos=n|meaning=khí áp kế
+word=tournament|pos=n|meaning=giải đấu
+word=champion|pos=n|meaning=nhà vô địch
+word=penalty|pos=n|meaning=quả phạt / hình phạt
+word=referee|pos=n|meaning=trọng tài
+word=substitute|pos=n|meaning=cầu thủ dự bị
+word=spectator|pos=n|meaning=khán giả
+word=stadium|pos=n|meaning=sân vận động
+word=athletics|pos=n|meaning=điền kinh
+word=gymnastics|pos=n|meaning=thể dục dụng cụ
+word=marathon|pos=n|meaning=chạy marathon
+word=trophy|pos=n|meaning=cúp / phần thưởng
+word=qualify|pos=v|meaning=vượt qua vòng loại
+word=training|pos=n|meaning=tập luyện
+word=competitive|pos=adj|meaning=cạnh tranh / có tinh thần thi đấu
+word=martial arts|pos=n|meaning=võ thuật
+word=fireworks|pos=n|meaning=pháo hoa
+word=parade|pos=n|meaning=cuộc diễu hành
+word=lantern|pos=n|meaning=đèn lồng
+word=costume|pos=n|meaning=trang phục / hóa trang
+word=feast|pos=n|meaning=bữa tiệc lớn
+word=ritual|pos=n|meaning=nghi lễ / nghi thức
+word=ancestor|pos=n|meaning=tổ tiên
+word=lunar|pos=adj|meaning=âm lịch / thuộc mặt trăng
+word=decorate|pos=v|meaning=trang trí
+word=carol|pos=n|meaning=bài hát Giáng Sinh
+word=pilgrimage|pos=n|meaning=cuộc hành hương
+word=blessing|pos=n|meaning=lời chúc phúc / ban phước
+word=donation|pos=n|meaning=sự quyên góp
+word=procession|pos=n|meaning=đoàn rước
+word=harvest festival|pos=n|meaning=lễ hội mùa gặt
+word=furniture|pos=n|meaning=đồ nội thất
+word=curtain|pos=n|meaning=rèm cửa
+word=switch|pos=n|meaning=công tắc điện
+word=repair|pos=v|meaning=sửa chữa
+word=tidy|pos=adj|meaning=gọn gàng / dọn dẹp
+word=rubbish|pos=n|meaning=rác
+word=neighbor|pos=n|meaning=hàng xóm
+word=rent|pos=v|meaning=thuê / tiền thuê
+word=balcony|pos=n|meaning=ban công
+word=basement|pos=n|meaning=tầng hầm
+word=heating|pos=n|meaning=hệ thống sưởi
+word=electricity|pos=n|meaning=điện
+word=doorbell|pos=n|meaning=chuông cửa
+word=pipe|pos=n|meaning=ống nước
+word=mattress|pos=n|meaning=nệm
+word=highlight|pos=v|meaning=tô màu / đánh dấu
+word=summarize|pos=v|meaning=tóm tắt
+word=focus|pos=v|meaning=tập trung
+word=revise|pos=v|meaning=ôn tập
+word=memorize|pos=v|meaning=ghi nhớ / học thuộc
+word=concentrate|pos=v|meaning=tập trung chú ý
+word=distraction|pos=n|meaning=sự phân tâm
+word=assignment|pos=n|meaning=bài tập / nhiệm vụ
+word=schedule|pos=n|meaning=lịch học / thời khóa biểu
+word=mind map|pos=n|meaning=sơ đồ tư duy
+word=flashcard|pos=n|meaning=thẻ ghi nhớ
+word=quiz|pos=n|meaning=bài kiểm tra nhanh
+word=practice|pos=v|meaning=luyện tập
+word=deadline|pos=n|meaning=hạn chót
+word=mammal|pos=n|meaning=động vật có vú
+word=reptile|pos=n|meaning=bò sát
+word=feather|pos=n|meaning=lông vũ
+word=claw|pos=n|meaning=móng vuốt
+word=predator|pos=n|meaning=động vật săn mồi
+word=prey|pos=n|meaning=con mồi
+word=hibernate|pos=v|meaning=ngủ đông
+word=migrate|pos=v|meaning=di cư
+word=herd|pos=n|meaning=đàn (động vật)
+word=nest|pos=n|meaning=tổ (chim / côn trùng)
+word=camouflage|pos=n|meaning=ngụy trang
+word=venom|pos=n|meaning=nọc độc
+word=tame|pos=adj|meaning=được thuần dưỡng
+word=wild|pos=adj|meaning=hoang dã
+word=aquatic|pos=adj|meaning=sống dưới nước
+word=district|pos=n|meaning=quận / khu vực
+word=volunteer|pos=v|meaning=tình nguyện / người tình nguyện
+word=traffic|pos=n|meaning=giao thông
+word=pedestrian|pos=n|meaning=người đi bộ
+word=crosswalk|pos=n|meaning=vạch qua đường
+word=sidewalk|pos=n|meaning=vỉa hè
+word=public|pos=adj|meaning=công cộng
+word=mayor|pos=n|meaning=thị trưởng
+word=emergency|pos=n|meaning=tình huống khẩn cấp
+word=safety|pos=n|meaning=sự an toàn
+word=infrastructure|pos=n|meaning=cơ sở hạ tầng
+word=citizen|pos=n|meaning=công dân
+word=resident|pos=n|meaning=cư dân
+word=protest|pos=v|meaning=phản đối / biểu tình
+word=charity|pos=n|meaning=tổ chức từ thiện
+word=decade|pos=n|meaning=thập kỷ
+word=century|pos=n|meaning=thế kỷ
+word=annual|pos=adj|meaning=hàng năm
+word=agenda|pos=n|meaning=chương trình / lịch làm việc
+word=duration|pos=n|meaning=thời gian kéo dài
+word=expire|pos=v|meaning=hết hạn
+word=postpone|pos=v|meaning=hoãn lại
+word=punctual|pos=adj|meaning=đúng giờ
+word=era|pos=n|meaning=kỷ nguyên / thời đại
+word=routine|pos=n|meaning=thói quen hàng ngày
+word=midnight|pos=n|meaning=nửa đêm
+word=dawn|pos=n|meaning=bình minh
+word=weekly|pos=adj|meaning=hàng tuần
+word=monthly|pos=adj|meaning=hàng tháng
+word=instant|pos=adj|meaning=ngay lập tức
+word=scissors|pos=n|meaning=kéo
+word=thread|pos=n|meaning=sợi chỉ
+word=needle|pos=n|meaning=cây kim
+word=glue|pos=n|meaning=keo dán
+word=clay|pos=n|meaning=đất sét
+word=carve|pos=v|meaning=khắc / chạm
+word=weave|pos=v|meaning=đan / dệt
+word=mold|pos=v|meaning=nặn / đúc khuôn
+word=pattern|pos=n|meaning=họa tiết / hoa văn
+word=texture|pos=n|meaning=kết cấu / chất liệu
+word=fold|pos=v|meaning=gấp
+word=stitch|pos=v|meaning=khâu / đường may
+word=origami|pos=n|meaning=nghệ thuật gấp giấy
+word=handmade|pos=adj|meaning=làm bằng tay
+word=dye|pos=v|meaning=nhuộm / thuốc nhuộm
+word=author|pos=n|meaning=tác giả
+word=chapter|pos=n|meaning=chương
+word=fiction|pos=n|meaning=hư cấu / tiểu thuyết
+word=character|pos=n|meaning=nhân vật
+word=plot|pos=n|meaning=cốt truyện
+word=hero|pos=n|meaning=anh hùng
+word=villain|pos=n|meaning=kẻ phản diện
+word=setting|pos=n|meaning=bối cảnh
+word=adventure|pos=n|meaning=cuộc phiêu lưu
+word=mystery|pos=n|meaning=bí ẩn / truyện trinh thám
+word=publish|pos=v|meaning=xuất bản
+word=review|pos=n|meaning=nhận xét / đánh giá
+word=recommend|pos=v|meaning=giới thiệu / đề xuất
+word=series|pos=n|meaning=bộ truyện / loạt sách
+word=illustrate|pos=v|meaning=minh họa
+word=tense|pos=adj|meaning=căng thẳng
+word=grateful|pos=adj|meaning=biết ơn
+word=proud|pos=adj|meaning=tự hào
+word=bitter|pos=adj|meaning=cay đắng / đắng lòng
+word=embarrassed|pos=adj|meaning=xấu hổ / ngượng ngùng
+word=lonely|pos=adj|meaning=cô đơn
+word=relieved|pos=adj|meaning=nhẹ nhõm
+word=confident|pos=adj|meaning=tự tin
+word=nervous|pos=adj|meaning=hồi hộp / lo âu
+word=overwhelmed|pos=adj|meaning=choáng ngợp / quá tải
+word=miserable|pos=adj|meaning=khổ sở / buồn bã
+word=mood|pos=n|meaning=tâm trạng
+word=sympathy|pos=n|meaning=sự đồng cảm
+word=cope|pos=v|meaning=đối phó / vượt qua
+word=comfort|pos=v|meaning=an ủi / vỗ về
+word=peninsula|pos=n|meaning=bán đảo
+word=ocean|pos=n|meaning=đại dương
+word=valley|pos=n|meaning=thung lũng
+word=cliff|pos=n|meaning=vách đá
+word=waterfall|pos=n|meaning=thác nước
+word=glacier|pos=n|meaning=sông băng
+word=volcano|pos=n|meaning=núi lửa
+word=earthquake|pos=n|meaning=động đất
+word=desert|pos=n|meaning=sa mạc
+word=rainforest|pos=n|meaning=rừng nhiệt đới
+word=tide|pos=n|meaning=thủy triều
+word=horizon|pos=n|meaning=đường chân trời
+word=altitude|pos=n|meaning=độ cao
+word=terrain|pos=n|meaning=địa hình
+word=canyon|pos=n|meaning=hẻm núi / vực sâu
+word=post|pos=v|meaning=đăng bài / bài đăng
+word=comment|pos=v|meaning=bình luận
+word=share|pos=v|meaning=chia sẻ
+word=follow|pos=v|meaning=theo dõi
+word=like|pos=v|meaning=thích / lượt thích
+word=profile|pos=n|meaning=hồ sơ cá nhân
+word=caption|pos=n|meaning=chú thích / tiêu đề ảnh
+word=reel|pos=n|meaning=video ngắn / reel
+word=viral|pos=adj|meaning=lan truyền / nổi viral
+word=hashtag|pos=n|meaning=thẻ / hashtag
+word=trend|pos=n|meaning=xu hướng
+word=privacy|pos=n|meaning=quyền riêng tư
+word=influencer|pos=n|meaning=người có ảnh hưởng
+word=subscriber|pos=n|meaning=người đăng ký / người theo dõi
+word=content creator|pos=n|meaning=người tạo nội dung

@@ -1,0 +1,400 @@
+word=microscope|family=n:microscope:kính hiển vi
+word=photosynthesis|family=n:photosynthesis:quang hợp
+word=creature|family=n:creature:sinh vật
+word=predator|family=n:predator:thú săn mồi
+word=prey|family=n:prey:con mồi
+word=evolve|family=v:evolve:tiến hóa;n:evolution:sự tiến hóa;adj:evolutionary:thuộc tiến hóa
+word=element|family=n:element:nguyên tố hóa học
+word=carnivore|family=n:carnivore:động vật ăn thịt
+word=herbivore|family=n:herbivore:động vật ăn cỏ
+word=survive|family=v:survive:tồn tại;n:survival:sự sống sót
+word=invention|family=n:invention:phát minh;v:invent:phát minh;adj:inventive:sáng tạo
+word=engineer|family=n:engineer:kỹ sư;v:engineer:thiết kế kỹ thuật
+word=robot|family=n:robot:rô-bốt
+word=device|family=n:device:thiết bị
+word=sensor|family=n:sensor:cảm biến
+word=circuit|family=n:circuit:mạch điện
+word=software|family=n:software:phần mềm
+word=digital|family=adj:digital:kỹ thuật số;adv:digitally:bằng kỹ thuật số;v:digitize:số hóa;n:digitization:sự số hóa
+word=program|family=n:program:lập trình;v:program:lập trình;adj:programmable:có thể lập trình
+word=artificial|family=adj:artificial:nhân tạo;adv:artificially:một cách nhân tạo
+word=brave|family=adj:brave:dũng cảm;n:bravery:lòng dũng cảm;adv:bravely:một cách dũng cảm
+word=determined|family=adj:determined:quyết tâm;v:determine:xác định;n:determination:sự quyết tâm;adv:determinedly:một cách quyết tâm
+word=loyal|family=adj:loyal:trung thành;n:loyalty:lòng trung thành;adv:loyally:một cách trung thành
+word=confident|family=adj:confident:tự tin;n:confidence:sự tự tin;adv:confidently:một cách tự tin
+word=rescue|family=v:rescue:giải cứu;n:rescue:cuộc giải cứu
+word=defeat|family=v:defeat:đánh bại;n:defeat:sự thất bại;adj:defeated:bị đánh bại
+word=protect|family=v:protect:bảo vệ;n:protection:sự bảo vệ;adj:protective:có tính bảo vệ;adv:protectively:mang tính bảo vệ
+word=villain|family=n:villain:kẻ phản diện
+word=mission|family=n:mission:nhiệm vụ
+word=ambitious|family=adj:ambitious:tham vọng;n:ambition:tham vọng;adv:ambitiously:một cách tham vọng
+word=discover|family=v:discover:khám phá;n:discovery:sự khám phá
+word=experiment|family=v:experiment:thí nghiệm;n:experiment:thí nghiệm;adj:experimental:mang tính thử nghiệm;adv:experimentally:bằng thực nghiệm
+word=investigate|family=v:investigate:điều tra;n:investigation:cuộc điều tra;adj:investigative:mang tính điều tra
+word=observe|family=v:observe:quan sát;n:observation:sự quan sát;adj:observant:tinh ý
+word=examine|family=v:examine:kiểm tra kỹ;n:examination:sự kiểm tra
+word=hypothesis|family=n:hypothesis:giả thuyết
+word=classify|family=v:classify:phân loại;n:classification:sự phân loại;adj:classified:được phân loại
+word=measure|family=v:measure:đo lường;n:measurement:sự đo lường;adj:measurable:có thể đo được;adv:measurably:ở mức đo được
+word=theory|family=n:theory:lý thuyết
+word=evidence|family=n:evidence:bằng chứng
+word=construct|family=v:construct:xây dựng;n:construction:sự xây dựng;adj:constructive:mang tính xây dựng;adv:constructively:mang tính xây dựng
+word=assemble|family=v:assemble:lắp ráp;n:assembly:sự lắp ráp
+word=prototype|family=n:prototype:bản thử nghiệm
+word=manufacture|family=v:manufacture:sản xuất;n:manufacture:sự sản xuất;adj:manufactured:được sản xuất
+word=operate|family=v:operate:vận hành;n:operation:sự vận hành;adj:operational:đang hoạt động
+word=control|family=v:control:điều khiển;n:control:sự kiểm soát;adj:controllable:có thể kiểm soát
+word=adjust|family=v:adjust:điều chỉnh;n:adjustment:sự điều chỉnh;adj:adjustable:có thể điều chỉnh
+word=mechanism|family=n:mechanism:cơ chế
+word=component|family=n:component:linh kiện
+word=structure|family=n:structure:cấu trúc
+word=confront|family=v:confront:đối mặt
+word=challenge|family=v:challenge:thách thức;n:challenge:thử thách;adj:challenging:đầy thử thách
+word=overcome|family=v:overcome:vượt qua
+word=alliance|family=n:alliance:liên minh
+word=sacrifice|family=v:sacrifice:hi sinh;n:sacrifice:sự hi sinh;adj:sacrificial:mang tính hi sinh
+word=transform|family=v:transform:biến đổi;n:transformation:sự biến đổi;adj:transformative:có tính biến đổi
+word=superpower|family=n:superpower:siêu năng lực
+word=quest|family=n:quest:cuộc tìm kiếm
+word=endure|family=v:endure:chịu đựng;n:endurance:sức chịu đựng;adj:enduring:bền lâu
+word=cunning|family=adj:cunning:khôn khéo
+word=biodiversity|family=n:biodiversity:đa dạng sinh học
+word=ecosystem|family=n:ecosystem:hệ sinh thái
+word=conservation|family=n:conservation:bảo tồn;v:conserve:bảo tồn;adj:conservationist:thuộc bảo tồn
+word=sustainable|family=adj:sustainable:bền vững;n:sustainability:tính bền vững;v:sustain:duy trì;adv:sustainably:một cách bền vững
+word=renewable|family=adj:renewable:tái tạo;v:renew:tái tạo;n:renewal:sự tái tạo
+word=deforestation|family=n:deforestation:phá rừng
+word=pollution|family=n:pollution:ô nhiễm;v:pollute:gây ô nhiễm;adj:polluted:bị ô nhiễm
+word=emission|family=n:emission:khí thải
+word=endangered|family=adj:endangered:nguy cấp;v:endanger:gây nguy hiểm;n:endangerment:sự đe dọa
+word=atmosphere|family=n:atmosphere:khí quyển
+word=orbit|family=v:orbit:quỹ đạo;n:orbiter:người quỹ đạo
+word=gravity|family=n:gravity:trọng lực
+word=asteroid|family=n:asteroid:tiểu hành tinh
+word=galaxy|family=n:galaxy:thiên hà
+word=satellite|family=n:satellite:vệ tinh
+word=telescope|family=n:telescope:kính thiên văn
+word=astronaut|family=n:astronaut:phi hành gia
+word=launch|family=v:launch:phóng;n:launcher:người phóng
+word=spacecraft|family=n:spacecraft:tàu vũ trụ
+word=meteor|family=n:meteor:thiên thạch
+word=influence|family=v:influence:ảnh hưởng;n:influence:sự ảnh hưởng;adj:influential:có ảnh hưởng
+word=persuade|family=v:persuade:thuyết phục;n:persuasion:sự thuyết phục;adj:persuasive:có sức thuyết phục;adv:persuasively:một cách thuyết phục
+word=tone|family=n:tone:giọng điệu
+word=broadcast|family=v:broadcast:phát sóng;n:broadcast:chương trình phát sóng
+word=journalist|family=n:journalist:nhà báo
+word=clarify|family=v:clarify:làm rõ;n:clarification:sự làm rõ;adj:clarifying:giúp làm rõ
+word=audience|family=n:audience:khán giả
+word=propaganda|family=n:propaganda:tuyên truyền
+word=feedback|family=n:feedback:phản hồi
+word=misinformation|family=n:misinformation:thông tin sai lệch
+word=accomplish|family=v:accomplish:hoàn thành;n:accomplishment:thành tựu;adj:accomplished:thành thạo
+word=championship|family=n:championship:giải vô địch
+word=teamwork|family=n:teamwork:làm việc nhóm
+word=leadership|family=n:leadership:khả năng lãnh đạo
+word=perseverance|family=n:perseverance:sự kiên trì
+word=dedication|family=n:dedication:sự tận tâm;v:dedicate:cống hiến;adj:dedicated:tận tâm
+word=milestone|family=n:milestone:cột mốc quan trọng
+word=triumph|family=v:triumph:chiến thắng vẻ vang;n:triumph:chiến thắng;adj:triumphant:đắc thắng;adv:triumphantly:một cách đắc thắng
+word=opponent|family=n:opponent:đối thủ
+word=talent|family=n:talent:tài năng;adj:talented:có tài
+word=cell|family=n:cell:tế bào
+word=organ|family=n:organ:cơ quan
+word=muscle|family=n:muscle:cơ bắp
+word=nerve|family=n:nerve:dây thần kinh
+word=hormone|family=n:hormone:hormone
+word=tissue|family=n:tissue:mô
+word=protein|family=n:protein:protein
+word=immune|family=adj:immune:miễn dịch;n:immunity:khả năng miễn dịch;v:immunize:tiêm chủng
+word=digest|family=v:digest:tiêu hóa;n:digestion:sự tiêu hóa;adj:digestive:thuộc tiêu hóa
+word=breathe|family=v:breathe:thở;n:breath:hơi thở;adj:breathless:hết hơi
+word=skeleton|family=n:skeleton:bộ xương
+word=vein|family=n:vein:tĩnh mạch
+word=enzyme|family=n:enzyme:enzyme
+word=bacteria|family=n:bacteria:vi khuẩn
+word=oxygen|family=n:oxygen:oxy
+word=ancient|family=adj:ancient:cổ đại;adv:anciently:từ thời cổ
+word=empire|family=n:empire:đế chế
+word=siege|family=n:siege:cuộc vây hãm
+word=revolution|family=n:revolution:cuộc cách mạng;adj:revolutionary:mang tính cách mạng;v:revolutionize:cách mạng hóa
+word=civilisation|family=n:civilisation:nền văn minh;v:civilise:khai hóa;adj:civilised:văn minh
+word=conquer|family=v:conquer:chinh phục;n:conquest:cuộc chinh phục
+word=exile|family=n:exile:lưu đày
+word=monarch|family=n:monarch:quốc vương
+word=republic|family=n:republic:nước cộng hòa
+word=archaeology|family=n:archaeology:khảo cổ học;adj:archaeological:thuộc khảo cổ
+word=invasion|family=n:invasion:cuộc xâm lược
+word=colony|family=n:colony:thuộc địa
+word=independence|family=n:independence:sự độc lập;adj:independent:độc lập;adv:independently:một cách độc lập
+word=dynasty|family=n:dynasty:triều đại
+word=warrior|family=n:warrior:chiến binh
+word=trade|family=n:trade:thương mại;v:trade:buôn bán;adj:tradable:có thể giao dịch
+word=profit|family=n:profit:lợi nhuận;v:profit:thu lợi;adj:profitable:có lợi nhuận;adv:profitably:có lợi nhuận
+word=invest|family=v:invest:đầu tư;n:investment:sự đầu tư
+word=budget|family=n:budget:ngân sách;v:budget:ngân sách
+word=currency|family=n:currency:tiền tệ
+word=inflation|family=n:inflation:lạm phát;v:inflate:làm tăng;adj:inflationary:gây lạm phát
+word=export|family=v:export:xuất khẩu;n:export:hàng xuất khẩu
+word=import|family=v:import:nhập khẩu;n:import:hàng nhập khẩu
+word=economy|family=n:economy:nền kinh tế;adj:economic:thuộc kinh tế;adv:economically:về kinh tế
+word=poverty|family=n:poverty:đói nghèo;adj:poor:nghèo;adv:poorly:một cách nghèo nàn
+word=tax|family=n:tax:thuế;v:tax:thuế
+word=debt|family=n:debt:nợ
+word=demand|family=n:demand:nhu cầu;v:demand:nhu cầu
+word=wage|family=n:wage:tiền lương
+word=capital|family=n:capital:vốn
+word=metaphor|family=n:metaphor:ẩn dụ;adj:metaphorical:mang tính ẩn dụ;adv:metaphorically:theo nghĩa ẩn dụ
+word=theme|family=n:theme:chủ đề
+word=character|family=n:character:nhân vật
+word=symbolism|family=n:symbolism:biểu tượng;adj:symbolic:mang tính biểu tượng;adv:symbolically:một cách tượng trưng
+word=narrative|family=n:narrative:cách kể chuyện;v:narrate:kể lại;adj:narrative:thuộc tự sự
+word=plot|family=n:plot:cốt truyện;v:plot:cốt truyện
+word=genre|family=n:genre:thể loại
+word=poetry|family=n:poetry:thơ ca
+word=fiction|family=n:fiction:văn học hư cấu
+word=critic|family=n:critic:nhà phê bình;v:criticize:phê bình;adj:critical:mang tính phê bình
+word=setting|family=n:setting:bối cảnh
+word=dialogue|family=n:dialogue:đối thoại
+word=protagonist|family=n:protagonist:nhân vật chính
+word=irony|family=n:irony:sự mỉa mai;adj:ironic:mỉa mai;adv:ironically:một cách trớ trêu
+word=climax|family=n:climax:cao trào
+word=algorithm|family=n:algorithm:thuật toán
+word=data|family=n:data:dữ liệu
+word=network|family=n:network:mạng lưới;v:network:mạng lưới
+word=automation|family=n:automation:tự động hóa;v:automate:tự động hóa;adj:automatic:tự động;adv:automatically:một cách tự động
+word=intelligence|family=n:intelligence:trí thông minh;adj:intelligent:thông minh;adv:intelligently:một cách thông minh
+word=machine|family=n:machine:máy móc
+word=cloud|family=n:cloud:đám mây
+word=database|family=n:database:cơ sở dữ liệu
+word=interface|family=n:interface:giao diện
+word=virtual|family=adj:virtual:ảo;adv:virtually:hầu như
+word=code|family=v:code:viết code;n:code:mã lệnh;adj:coded:được mã hóa
+word=input|family=n:input:dữ liệu đầu vào
+word=output|family=n:output:dữ liệu đầu ra;v:output:dữ liệu đầu ra
+word=platform|family=n:platform:nền tảng
+word=chatbot|family=n:chatbot:chatbot
+word=law|family=n:law:luật pháp
+word=court|family=n:court:tòa án
+word=judge|family=n:judge:thẩm phán;v:judge:phán xét;adj:judicial:thuộc tư pháp
+word=justice|family=n:justice:công lý;adj:just:công bằng;adv:justly:một cách công bằng
+word=crime|family=n:crime:tội phạm;adj:criminal:thuộc tội phạm;adv:criminally:mang tính phạm tội
+word=verdict|family=n:verdict:phán quyết
+word=rights|family=n:rights:quyền lợi
+word=lawyer|family=n:lawyer:luật sư
+word=trial|family=n:trial:phiên xét xử
+word=witness|family=n:witness:nhân chứng;v:witness:nhân chứng
+word=defendant|family=n:defendant:bị cáo
+word=appeal|family=n:appeal:kháng cáo;v:appeal:kháng cáo
+word=constitution|family=n:constitution:hiến pháp
+word=guilty|family=adj:guilty:có tội;n:guilt:cảm giác tội lỗi;adv:guiltily:một cách áy náy
+word=jury|family=n:jury:bồi thẩm đoàn
+word=anxiety|family=n:anxiety:lo âu;adj:anxious:lo lắng;adv:anxiously:một cách lo lắng
+word=empathy|family=n:empathy:sự đồng cảm;adj:empathetic:đồng cảm;adv:empathetically:một cách đồng cảm
+word=motivation|family=n:motivation:động lực;v:motivate:tạo động lực;adj:motivated:có động lực
+word=stress|family=n:stress:căng thẳng;v:stress:nhấn mạnh;adj:stressful:gây căng thẳng
+word=perception|family=n:perception:nhận thức;v:perceive:nhận thức;adj:perceptive:tinh ý;adv:perceptively:một cách tinh ý
+word=behavior|family=n:behavior:hành vi;v:behave:cư xử;adj:behavioral:thuộc hành vi
+word=memory|family=n:memory:trí nhớ
+word=identity|family=n:identity:danh tính;v:identify:xác định;adj:identifiable:có thể nhận dạng
+word=resilience|family=n:resilience:khả năng phục hồi
+word=mindset|family=n:mindset:tư duy
+word=emotion|family=n:emotion:cảm xúc;adj:emotional:giàu cảm xúc;adv:emotionally:về cảm xúc
+word=habit|family=n:habit:thói quen
+word=trauma|family=n:trauma:sang chấn tâm lý
+word=instinct|family=n:instinct:bản năng
+word=self-esteem|family=n:self-esteem:lòng tự trọng
+word=diagnose|family=v:diagnose:chẩn đoán;n:diagnosis:sự chẩn đoán;adj:diagnostic:thuộc chẩn đoán
+word=symptom|family=n:symptom:triệu chứng
+word=vaccine|family=n:vaccine:vắc-xin
+word=surgery|family=n:surgery:phẫu thuật;adj:surgical:thuộc phẫu thuật;adv:surgically:bằng phẫu thuật
+word=therapy|family=n:therapy:liệu pháp;adj:therapeutic:có tác dụng trị liệu;adv:therapeutically:theo cách trị liệu
+word=prescription|family=n:prescription:đơn thuốc;v:prescribe:kê đơn;adj:prescriptive:mang tính quy định
+word=chronic|family=adj:chronic:mãn tính
+word=epidemic|family=n:epidemic:dịch bệnh
+word=recovery|family=n:recovery:sự hồi phục;v:recover:hồi phục;adj:recoverable:có thể phục hồi
+word=treatment|family=n:treatment:điều trị;v:treat:điều trị;adj:treatable:có thể điều trị
+word=disease|family=n:disease:căn bệnh
+word=patient|family=n:patient:bệnh nhân;adj:patient:kiên nhẫn;adv:patiently:một cách kiên nhẫn
+word=infection|family=n:infection:nhiễm trùng;v:infect:lây nhiễm;adj:infectious:dễ lây
+word=prevention|family=n:prevention:phòng ngừa;v:prevent:ngăn ngừa;adj:preventive:mang tính phòng ngừa
+word=antibiotic|family=n:antibiotic:kháng sinh
+word=continent|family=n:continent:châu lục
+word=peninsula|family=n:peninsula:bán đảo
+word=plateau|family=n:plateau:cao nguyên
+word=delta|family=n:delta:châu thổ
+word=equator|family=n:equator:đường xích đạo
+word=hemisphere|family=n:hemisphere:bán cầu
+word=longitude|family=n:longitude:kinh độ
+word=latitude|family=n:latitude:vĩ độ
+word=terrain|family=n:terrain:địa hình
+word=coastline|family=n:coastline:đường bờ biển
+word=canyon|family=n:canyon:hẻm núi
+word=estuary|family=n:estuary:cửa sông
+word=tundra|family=n:tundra:đài nguyên
+word=savanna|family=n:savanna:thảo nguyên
+word=tropic|family=n:tropic:vùng nhiệt đới
+word=nutrition|family=n:nutrition:dinh dưỡng;adj:nutritional:thuộc dinh dưỡng;adv:nutritionally:về dinh dưỡng
+word=calorie|family=n:calorie:calo
+word=vitamin|family=n:vitamin:vitamin
+word=mineral|family=n:mineral:khoáng chất
+word=carbohydrate|family=n:carbohydrate:tinh bột
+word=fiber|family=n:fiber:chất xơ
+word=appetite|family=n:appetite:sự thèm ăn
+word=cuisine|family=n:cuisine:ẩm thực
+word=ingredient|family=n:ingredient:nguyên liệu
+word=supplement|family=n:supplement:thực phẩm bổ sung
+word=fat|family=n:fat:chất béo
+word=sugar|family=n:sugar:đường
+word=diet|family=n:diet:chế độ ăn
+word=portion|family=n:portion:khẩu phần
+word=organic|family=adj:organic:hữu cơ;adv:organically:theo cách hữu cơ
+word=climate|family=n:climate:khí hậu
+word=permafrost|family=n:permafrost:tầng đất đóng băng vĩnh cửu
+word=carbon|family=n:carbon:carbon
+word=iceberg|family=n:iceberg:tảng băng trôi
+word=greenhouse|family=n:greenhouse:hiệu ứng nhà kính
+word=sea level|family=n:sea level:mực nước biển
+word=glacier|family=n:glacier:sông băng
+word=drought|family=n:drought:hạn hán
+word=flood|family=n:flood:lũ lụt
+word=species|family=n:species:loài
+word=habitat|family=n:habitat:môi trường sống
+word=coral|family=n:coral:san hô
+word=temperature|family=n:temperature:nhiệt độ
+word=wildfire|family=n:wildfire:cháy rừng
+word=heatwave|family=n:heatwave:đợt nắng nóng
+word=social media|family=n:social media:mạng xã hội
+word=download|family=v:download:tải xuống;n:download:tệp tải xuống;adj:downloadable:có thể tải xuống
+word=privacy|family=n:privacy:quyền riêng tư;adj:private:riêng tư;adv:privately:một cách riêng tư
+word=cyberbullying|family=n:cyberbullying:bắt nạt trực tuyến
+word=digital footprint|family=n:digital footprint:dấu vết kỹ thuật số
+word=encrypt|family=v:encrypt:mã hóa;n:encryption:sự mã hóa;adj:encrypted:được mã hóa
+word=hacker|family=n:hacker:tin tặc
+word=bandwidth|family=n:bandwidth:băng thông
+word=password|family=n:password:mật khẩu
+word=streaming|family=n:streaming:phát trực tuyến
+word=notification|family=n:notification:thông báo;v:notify:thông báo;adj:notifiable:phải thông báo
+word=virus|family=n:virus:vi-rút máy tính
+word=artificial intelligence|family=n:artificial intelligence:trí tuệ nhân tạo
+word=screen time|family=n:screen time:thời gian sử dụng màn hình
+word=username|family=n:username:tên đăng nhập
+word=entrance|family=n:entrance:lối vào
+word=blueprint|family=n:blueprint:bản thiết kế
+word=foundation|family=n:foundation:nền móng
+word=column|family=n:column:cột trụ
+word=arch|family=n:arch:vòm cung
+word=facade|family=n:facade:mặt tiền
+word=dome|family=n:dome:mái vòm
+word=symmetry|family=n:symmetry:tính đối xứng
+word=proportion|family=n:proportion:tỷ lệ
+word=renovation|family=n:renovation:cải tạo;v:renovate:cải tạo;adj:renovated:đã cải tạo
+word=heritage|family=n:heritage:di sản
+word=urban|family=adj:urban:đô thị;v:urbanize:đô thị hóa;n:urbanization:sự đô thị hóa
+word=landscape|family=n:landscape:cảnh quan
+word=material|family=n:material:vật liệu xây dựng
+word=design|family=n:design:thiết kế;v:design:thiết kế
+word=entrepreneur|family=n:entrepreneur:doanh nhân khởi nghiệp;adj:entrepreneurial:thuộc kinh doanh
+word=startup|family=n:startup:công ty khởi nghiệp
+word=investment|family=n:investment:đầu tư
+word=partnership|family=n:partnership:hợp tác
+word=strategy|family=n:strategy:chiến lược
+word=market|family=n:market:thị trường
+word=customer|family=n:customer:khách hàng
+word=revenue|family=n:revenue:doanh thu
+word=brand|family=n:brand:thương hiệu
+word=innovation|family=n:innovation:đổi mới sáng tạo;v:innovate:đổi mới;adj:innovative:sáng tạo;adv:innovatively:một cách sáng tạo
+word=compete|family=v:compete:cạnh tranh
+word=fund|family=n:fund:quỹ;v:fund:quỹ
+word=pitch|family=n:pitch:thuyết trình
+word=scale|family=v:scale:mở rộng quy mô
+word=failure|family=n:failure:thất bại
+word=melody|family=n:melody:giai điệu
+word=harmony|family=n:harmony:hòa âm
+word=rhythm|family=n:rhythm:nhịp điệu
+word=tempo|family=n:tempo:tốc độ
+word=chord|family=n:chord:hợp âm
+word=lyrics|family=n:lyrics:lời bài hát
+word=compose|family=v:compose:sáng tác
+word=perform|family=v:perform:biểu diễn;n:performer:người biểu diễn
+word=rehearse|family=v:rehearse:tập dượt
+word=encore|family=n:encore:màn trình diễn thêm
+word=conductor|family=n:conductor:nhạc trưởng
+word=solo|family=n:solo:độc tấu
+word=orchestra|family=n:orchestra:dàn nhạc giao hưởng
+word=verse|family=n:verse:lời bài hát
+word=acoustic|family=adj:acoustic:âm thanh tự nhiên
+word=athlete|family=n:athlete:vận động viên;adj:athletic:thuộc thể thao
+word=champion|family=n:champion:nhà vô địch
+word=tournament|family=n:tournament:giải đấu
+word=rival|family=n:rival:đối thủ
+word=tactic|family=n:tactic:chiến thuật
+word=endurance|family=n:endurance:sức bền;v:endure:chịu đựng;adj:enduring:bền bỉ
+word=agility|family=n:agility:sự nhanh nhẹn;adj:agile:nhanh nhẹn;adv:agilely:một cách nhanh nhẹn
+word=technique|family=n:technique:kỹ thuật
+word=referee|family=n:referee:trọng tài
+word=penalty|family=n:penalty:hình phạt
+word=trophy|family=n:trophy:cúp
+word=sprint|family=v:sprint:chạy nước rút;n:sprinter:người chạy nước rút
+word=qualify|family=v:qualify:vượt qua vòng loại;n:qualification:trình độ;adj:qualified:đủ tiêu chuẩn
+word=sportsmanship|family=n:sportsmanship:tinh thần thể thao
+word=match|family=n:match:trận đấu
+word=argument|family=n:argument:lập luận
+word=claim|family=n:claim:tuyên bố
+word=bias|family=n:bias:định kiến
+word=assumption|family=n:assumption:giả định
+word=logic|family=n:logic:logic
+word=analyze|family=v:analyze:phân tích;n:analysis:sự phân tích;adj:analytical:có tính phân tích;adv:analytically:theo cách phân tích
+word=evaluate|family=v:evaluate:đánh giá;n:evaluation:sự đánh giá;adj:evaluative:mang tính đánh giá
+word=infer|family=v:infer:suy luận
+word=perspective|family=n:perspective:quan điểm;adj:perspectival:thuộc góc nhìn
+word=fallacy|family=n:fallacy:lỗi lập luận
+word=conclusion|family=n:conclusion:kết luận;v:conclude:kết luận;adj:conclusive:mang tính kết luận;adv:conclusively:một cách dứt khoát
+word=debate|family=n:debate:tranh luận
+word=reliable|family=adj:reliable:đáng tin cậy;v:rely:tin cậy;n:reliability:độ tin cậy;adv:reliably:một cách đáng tin
+word=source|family=n:source:nguồn
+word=question|family=v:question:đặt câu hỏi;adj:questionable:có thể đặt câu hỏi
+word=humanitarian|family=adj:humanitarian:nhân đạo;n:humanitarian:nhà hoạt động nhân đạo
+word=hunger|family=n:hunger:nạn đói
+word=refugee|family=n:refugee:người tị nạn
+word=conflict|family=n:conflict:xung đột
+word=inequality|family=n:inequality:bất bình đẳng;adj:unequal:không bình đẳng;adv:unequally:một cách bất bình đẳng
+word=migration|family=n:migration:di cư;v:migrate:di cư;adj:migratory:di cư theo mùa
+word=sanitation|family=n:sanitation:vệ sinh môi trường;adj:sanitary:hợp vệ sinh;v:sanitize:khử trùng
+word=literacy|family=n:literacy:biết đọc biết viết
+word=aid|family=n:aid:viện trợ
+word=treaty|family=n:treaty:hiệp ước
+word=diplomat|family=n:diplomat:nhà ngoại giao;adj:diplomatic:thuộc ngoại giao
+word=crisis|family=n:crisis:khủng hoảng
+word=democracy|family=n:democracy:dân chủ;adj:democratic:dân chủ;adv:democratically:một cách dân chủ
+word=human rights|family=n:human rights:quyền con người
+word=cooperation|family=n:cooperation:hợp tác
+word=gene|family=n:gene:gen di truyền
+word=DNA|family=n:DNA:ADN
+word=chromosome|family=n:chromosome:nhiễm sắc thể
+word=mutation|family=n:mutation:đột biến gen
+word=inherit|family=v:inherit:di truyền
+word=trait|family=n:trait:đặc điểm di truyền
+word=variation|family=n:variation:sự biến dị
+word=natural selection|family=n:natural selection:chọn lọc tự nhiên
+word=adaptation|family=n:adaptation:sự thích nghi;v:adapt:thích ứng;adj:adaptable:dễ thích nghi
+word=evolution|family=n:evolution:tiến hóa
+word=ancestor|family=n:ancestor:tổ tiên
+word=fossil|family=n:fossil:hóa thạch
+word=extinct|family=adj:extinct:tuyệt chủng
+word=organism|family=n:organism:sinh vật
+word=reproduce|family=v:reproduce:sinh sản
+word=canvas|family=n:canvas:vải bố
+word=sculpture|family=n:sculpture:điêu khắc
+word=abstract|family=adj:abstract:trừu tượng
+word=composition|family=n:composition:bố cục;v:compose:soạn;adj:composite:hỗn hợp
+word=contrast|family=n:contrast:sự tương phản
+word=exhibition|family=n:exhibition:triển lãm
+word=portrait|family=n:portrait:chân dung
+word=texture|family=n:texture:kết cấu bề mặt
+word=inspire|family=v:inspire:truyền cảm hứng
+word=creative|family=adj:creative:sáng tạo;v:create:tạo ra;n:creation:sự sáng tạo
+word=medium|family=n:medium:chất liệu nghệ thuật
+word=gallery|family=n:gallery:phòng triển lãm
+word=sketch|family=n:sketch:phác thảo
+word=masterpiece|family=n:masterpiece:kiệt tác
+word=digital art|family=n:digital art:nghệ thuật kỹ thuật số

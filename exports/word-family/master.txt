@@ -1,0 +1,365 @@
+word=analyze|pos=v|meaning=phân tích
+word=synthesize|pos=v|meaning=tổng hợp
+word=evaluate|pos=v|meaning=đánh giá
+word=thesis|pos=n|meaning=luận văn / luận điểm
+word=methodology|pos=n|meaning=phương pháp luận
+word=citation|pos=n|meaning=trích dẫn
+word=abstract|pos=n|meaning=tóm tắt (bài nghiên cứu)
+word=paraphrase|pos=v|meaning=diễn giải lại
+word=coherent|pos=adj|meaning=mạch lạc, nhất quán
+word=reasoning|pos=n|meaning=lập luận / tư duy
+word=critique|pos=n|meaning=phê bình, phân tích phê phán
+word=bibliography|pos=n|meaning=danh mục tài liệu tham khảo
+word=peer review|pos=n|meaning=phản biện đồng nghiệp
+word=logical|pos=adj|meaning=có logic, hợp lý
+word=defendant|pos=n|meaning=bị cáo
+word=verdict|pos=n|meaning=phán quyết
+word=testimony|pos=n|meaning=lời khai
+word=prosecution|pos=n|meaning=bên công tố
+word=legislation|pos=n|meaning=luật pháp, lập pháp
+word=indictment|pos=n|meaning=cáo trạng
+word=liable|pos=adj|meaning=chịu trách nhiệm pháp lý
+word=attorney|pos=n|meaning=luật sư
+word=appeal|pos=n|meaning=kháng cáo
+word=extradition|pos=n|meaning=dẫn độ
+word=penalty|pos=n|meaning=hình phạt
+word=statute|pos=n|meaning=quy chế, đạo luật
+word=constitute|pos=v|meaning=cấu thành (tội danh)
+word=evidence|pos=n|meaning=bằng chứng pháp lý
+word=variable|pos=n|meaning=biến số
+word=correlation|pos=n|meaning=mối tương quan
+word=replicate|pos=v|meaning=lặp lại (thí nghiệm)
+word=finding|pos=n|meaning=phát hiện nghiên cứu
+word=sample|pos=n|meaning=mẫu nghiên cứu
+word=molecule|pos=n|meaning=phân tử
+word=genome|pos=n|meaning=bộ gen
+word=clinical|pos=adj|meaning=lâm sàng
+word=theory|pos=n|meaning=lý thuyết (khoa học)
+word=significant|pos=adj|meaning=có ý nghĩa thống kê
+word=conclusion|pos=n|meaning=kết luận
+word=ethics|pos=n|meaning=đạo đức nghiên cứu
+word=data|pos=n|meaning=dữ liệu
+word=peer-reviewed|pos=adj|meaning=được phản biện học thuật
+word=curriculum|pos=n|meaning=chương trình giảng dạy
+word=pedagogy|pos=n|meaning=phương pháp sư phạm
+word=assessment|pos=n|meaning=đánh giá học tập
+word=literacy|pos=n|meaning=năng lực đọc viết
+word=scholarship|pos=n|meaning=học bổng
+word=tuition|pos=n|meaning=học phí
+word=enrollment|pos=n|meaning=sự ghi danh nhập học
+word=compulsory|pos=adj|meaning=bắt buộc
+word=accreditation|pos=n|meaning=công nhận chất lượng
+word=dropout|pos=n|meaning=bỏ học giữa chừng
+word=vocational|pos=adj|meaning=hướng nghề, dạy nghề
+word=extracurricular|pos=adj|meaning=ngoại khóa
+word=discipline|pos=n|meaning=kỷ luật (học đường)
+word=differentiation|pos=n|meaning=phân hóa dạy học
+word=irrigation|pos=n|meaning=tưới tiêu
+word=pesticide|pos=n|meaning=thuốc trừ sâu
+word=harvest|pos=n|meaning=thu hoạch mùa màng
+word=organic|pos=adj|meaning=hữu cơ
+word=fertilizer|pos=n|meaning=phân bón
+word=livestock|pos=n|meaning=gia súc
+word=drought|pos=n|meaning=hạn hán
+word=yield|pos=n|meaning=năng suất
+word=arable|pos=adj|meaning=có thể canh tác được
+word=genetically modified|pos=adj|meaning=biến đổi gen
+word=crop|pos=n|meaning=vụ mùa, cây trồng
+word=agribusiness|pos=n|meaning=nông nghiệp thương mại quy mô lớn
+word=subsistence|pos=adj|meaning=tự cung tự cấp
+word=food security|pos=n|meaning=an ninh lương thực
+word=venture capital|pos=n|meaning=vốn đầu tư mạo hiểm
+word=pitch|pos=n|meaning=thuyết trình kêu gọi đầu tư
+word=scalable|pos=adj|meaning=có thể mở rộng quy mô
+word=disrupt|pos=v|meaning=phá vỡ (thị trường truyền thống)
+word=pivot|pos=v|meaning=thay đổi hướng kinh doanh
+word=incubator|pos=n|meaning=vườn ươm doanh nghiệp
+word=valuation|pos=n|meaning=định giá doanh nghiệp
+word=iteration|pos=n|meaning=chu kỳ phát triển, cải tiến liên tục
+word=funding|pos=n|meaning=vốn tài trợ
+word=accelerator|pos=n|meaning=chương trình tăng tốc khởi nghiệp
+word=lean|pos=adj|meaning=tinh gọn (phương pháp quản lý)
+word=seed round|pos=n|meaning=vòng gọi vốn hạt giống
+word=disruption|pos=n|meaning=sự gián đoạn, phá vỡ trật tự cũ
+word=linguistics|pos=n|meaning=ngôn ngữ học
+word=dialect|pos=n|meaning=phương ngữ, tiếng địa phương
+word=fluency|pos=n|meaning=sự thông thạo ngôn ngữ
+word=rhetoric|pos=n|meaning=tu từ học, nghệ thuật hùng biện
+word=eloquent|pos=adj|meaning=hùng hồn, diễn đạt lưu loát
+word=nuance|pos=n|meaning=sắc thái tinh tế
+word=bilingual|pos=adj|meaning=song ngữ
+word=discourse|pos=n|meaning=diễn ngôn, hội thoại học thuật
+word=ambiguous|pos=adj|meaning=mơ hồ, có nhiều nghĩa
+word=articulate|pos=adj|meaning=diễn đạt rõ ràng, mạch lạc
+word=convey|pos=v|meaning=truyền đạt, diễn đạt
+word=syntax|pos=n|meaning=cú pháp
+word=etymology|pos=n|meaning=từ nguyên học
+word=register|pos=n|meaning=phong cách ngôn ngữ / ngữ điệu
+word=morality|pos=n|meaning=đạo đức, luân lý
+word=virtue|pos=n|meaning=đức hạnh
+word=dilemma|pos=n|meaning=tình huống tiến thoái lưỡng nan
+word=consciousness|pos=n|meaning=ý thức
+word=rational|pos=adj|meaning=hợp lý, có lý trí
+word=doctrine|pos=n|meaning=học thuyết
+word=paradox|pos=n|meaning=nghịch lý
+word=axiom|pos=n|meaning=tiên đề / nguyên lý hiển nhiên
+word=deontology|pos=n|meaning=đạo đức học nghĩa vụ
+word=pragmatic|pos=adj|meaning=thực dụng
+word=skepticism|pos=n|meaning=chủ nghĩa hoài nghi
+word=implication|pos=n|meaning=hàm ý, hệ quả
+word=utilitarianism|pos=n|meaning=chủ nghĩa vị lợi
+word=epistemology|pos=n|meaning=nhận thức luận
+word=constitution|pos=n|meaning=hiến pháp
+word=amendment|pos=n|meaning=tu chính án, điều bổ sung
+word=jurisdiction|pos=n|meaning=thẩm quyền xét xử
+word=precedent|pos=n|meaning=án lệ, tiền lệ pháp lý
+word=impeachment|pos=n|meaning=luận tội
+word=democratic|pos=adj|meaning=dân chủ
+word=legislature|pos=n|meaning=cơ quan lập pháp
+word=habeas corpus|pos=n|meaning=lệnh habeas corpus (quyền ra tòa)
+word=ratify|pos=v|meaning=phê chuẩn
+word=carbon tax|pos=n|meaning=thuế carbon
+word=mitigation|pos=n|meaning=giảm nhẹ
+word=adaptation|pos=n|meaning=thích ứng
+word=stewardship|pos=n|meaning=quản lý / bảo tồn môi trường
+word=enforcement|pos=n|meaning=thực thi
+word=net-zero|pos=adj|meaning=phát thải ròng bằng không
+word=biodiversity|pos=n|meaning=đa dạng sinh học
+word=transition|pos=n|meaning=chuyển đổi (năng lượng)
+word=directive|pos=n|meaning=chỉ thị / quy định
+word=protocol|pos=n|meaning=nghị định thư
+word=sustainability|pos=n|meaning=tính bền vững
+word=offset|pos=v|meaning=bù đắp khí thải
+word=decarbonize|pos=v|meaning=khử carbon
+word=democracy|pos=n|meaning=dân chủ
+word=authoritarianism|pos=n|meaning=chủ nghĩa độc đoán
+word=legitimacy|pos=n|meaning=tính hợp pháp (chính trị)
+word=civil society|pos=n|meaning=xã hội dân sự
+word=ideology|pos=n|meaning=hệ tư tưởng
+word=populism|pos=n|meaning=chủ nghĩa dân túy
+word=governance|pos=n|meaning=quản trị
+word=pluralism|pos=n|meaning=chủ nghĩa đa nguyên
+word=constitutionalism|pos=n|meaning=chủ nghĩa hợp hiến
+word=coercion|pos=n|meaning=sự ép buộc
+word=equality|pos=n|meaning=bình đẳng
+word=federalism|pos=n|meaning=chủ nghĩa liên bang
+word=social contract|pos=n|meaning=khế ước xã hội
+word=policy|pos=n|meaning=chính sách
+word=evidence-based|pos=adj|meaning=dựa trên bằng chứng
+word=implementation|pos=n|meaning=thực thi chính sách
+word=welfare|pos=n|meaning=phúc lợi (xã hội)
+word=public service|pos=n|meaning=dịch vụ công
+word=oversight|pos=n|meaning=giám sát
+word=constituency|pos=n|meaning=khu vực bầu cử / cử tri
+word=outcome|pos=n|meaning=kết quả
+word=regulation|pos=n|meaning=quy định
+word=access|pos=n|meaning=tiếp cận
+word=lobbying|pos=n|meaning=vận động hành lang
+word=mandate|pos=n|meaning=ủy quyền / nhiệm vụ bắt buộc
+word=proposition|pos=n|meaning=mệnh đề / luận điểm
+word=dissemination|pos=n|meaning=phổ biến / lan truyền thông tin
+word=attribution|pos=n|meaning=ghi nhận nguồn / quy gán
+word=framework|pos=n|meaning=khung lý thuyết / phương pháp tiếp cận
+word=plagiarism|pos=n|meaning=đạo văn
+word=publication|pos=n|meaning=ấn phẩm, công bố nghiên cứu
+word=seminar|pos=n|meaning=hội thảo học thuật
+word=collaboration|pos=n|meaning=hợp tác (học thuật)
+word=annotate|pos=v|meaning=chú thích / ghi chú
+word=interdisciplinary|pos=adj|meaning=liên ngành
+word=academic rigor|pos=n|meaning=tính chặt chẽ học thuật
+word=sovereignty|pos=n|meaning=chủ quyền
+word=sanction|pos=n|meaning=lệnh trừng phạt
+word=alliance|pos=n|meaning=liên minh
+word=intervention|pos=n|meaning=can thiệp
+word=nationalism|pos=n|meaning=chủ nghĩa dân tộc
+word=multilateral|pos=adj|meaning=đa phương
+word=treaty|pos=n|meaning=hiệp ước
+word=negotiation|pos=n|meaning=đàm phán
+word=tension|pos=n|meaning=căng thẳng
+word=stability|pos=n|meaning=ổn định
+word=diplomacy|pos=n|meaning=ngoại giao
+word=deterrence|pos=n|meaning=sự răn đe
+word=sphere of influence|pos=n|meaning=vùng ảnh hưởng
+word=recession|pos=n|meaning=suy thoái kinh tế
+word=deficit|pos=n|meaning=thâm hụt
+word=austerity|pos=n|meaning=chính sách thắt lưng buộc bụng
+word=inflation|pos=n|meaning=lạm phát
+word=public debt|pos=n|meaning=nợ công
+word=privatization|pos=n|meaning=tư nhân hóa
+word=stagflation|pos=n|meaning=lạm phát đình trệ
+word=unemployment|pos=n|meaning=thất nghiệp
+word=quantitative easing|pos=n|meaning=nới lỏng định lượng
+word=trade surplus|pos=n|meaning=thặng dư thương mại
+word=euthanasia|pos=n|meaning=an tử
+word=autonomy|pos=n|meaning=quyền tự quyết
+word=experimental|pos=adj|meaning=mang tính thử nghiệm
+word=disclosure|pos=n|meaning=công bố / tiết lộ thông tin
+word=malpractice|pos=n|meaning=hành nghề sai chuẩn / sơ suất nghề nghiệp
+word=placebo|pos=n|meaning=giả dược
+word=inequality|pos=n|meaning=bất bình đẳng
+word=discrimination|pos=n|meaning=phân biệt đối xử
+word=marginalization|pos=n|meaning=sự ngoại lề hóa
+word=privilege|pos=n|meaning=đặc quyền
+word=diversity|pos=n|meaning=đa dạng
+word=exclusion|pos=n|meaning=sự loại trừ
+word=stigma|pos=n|meaning=sự kỳ thị
+word=institution|pos=n|meaning=thể chế
+word=stratification|pos=n|meaning=phân tầng xã hội
+word=intersectionality|pos=n|meaning=giao thoa bản sắc / tính giao thoa
+word=accountability|pos=n|meaning=trách nhiệm giải trình
+word=transparency|pos=n|meaning=minh bạch
+word=corruption|pos=n|meaning=tham nhũng
+word=integrity|pos=n|meaning=liêm chính
+word=compliance|pos=n|meaning=tuân thủ
+word=whistleblower|pos=n|meaning=người tố giác
+word=audit|pos=n|meaning=kiểm toán
+word=bribery|pos=n|meaning=hối lộ
+word=stakeholder|pos=n|meaning=các bên liên quan
+word=due diligence|pos=n|meaning=thẩm định / kiểm tra kỹ lưỡng
+word=fiduciary|pos=adj|meaning=ủy thác / nghĩa vụ tín thác
+word=algorithm|pos=n|meaning=thuật toán
+word=automation|pos=n|meaning=tự động hóa
+word=surveillance|pos=n|meaning=giám sát
+word=obsolescence|pos=n|meaning=sự lỗi thời
+word=platform|pos=n|meaning=nền tảng
+word=AI|pos=n|meaning=trí tuệ nhân tạo
+word=metadata|pos=n|meaning=siêu dữ liệu
+word=privacy|pos=n|meaning=quyền riêng tư
+word=rights|pos=n|meaning=quyền
+word=liability|pos=n|meaning=trách nhiệm pháp lý
+word=deepfake|pos=n|meaning=video/hình ảnh giả mạo bằng AI
+word=explainability|pos=n|meaning=khả năng giải thích (của AI)
+word=bias|pos=n|meaning=thành kiến (truyền thông)
+word=credibility|pos=n|meaning=độ tin cậy
+word=objectivity|pos=n|meaning=tính khách quan
+word=misinformation|pos=n|meaning=thông tin sai lệch
+word=sensationalism|pos=n|meaning=chủ nghĩa giật gân
+word=censorship|pos=n|meaning=kiểm duyệt
+word=framing|pos=n|meaning=đóng khung thông tin
+word=propaganda|pos=n|meaning=tuyên truyền
+word=fact-check|pos=v|meaning=kiểm tra thực tế
+word=representation|pos=n|meaning=sự đại diện
+word=narrative|pos=n|meaning=tường thuật, câu chuyện
+word=influence|pos=n|meaning=ảnh hưởng
+word=disinformation|pos=n|meaning=thông tin sai lệch có chủ ý
+word=argument|pos=n|meaning=lập luận
+word=persuasion|pos=n|meaning=sự thuyết phục
+word=sophistry|pos=n|meaning=ngụy biện
+word=rebuttal|pos=n|meaning=phản bác
+word=concession|pos=n|meaning=nhượng bộ
+word=syllogism|pos=n|meaning=tam đoạn luận
+word=eloquence|pos=n|meaning=sự hùng hồn / khéo ăn nói
+word=antithesis|pos=n|meaning=phản đề / đối lập hoàn toàn
+word=ethos|pos=n|meaning=uy tín đạo đức / tính cách
+word=claim|pos=n|meaning=tuyên bố, luận điểm
+word=deliberation|pos=n|meaning=sự cân nhắc / thảo luận có chủ ý
+word=logos|pos=n|meaning=lập luận lý trí (hùng biện)
+word=pathos|pos=n|meaning=kêu gọi cảm xúc (hùng biện)
+word=supranational|pos=adj|meaning=siêu quốc gia
+word=humanitarian|pos=adj|meaning=nhân đạo
+word=peacekeeping|pos=n|meaning=gìn giữ hòa bình
+word=self-determination|pos=n|meaning=quyền tự quyết
+word=NGO|pos=n|meaning=tổ chức phi chính phủ
+word=harmonization|pos=n|meaning=hài hòa hóa / đồng bộ hóa
+word=cooperation|pos=n|meaning=hợp tác
+word=secretariat|pos=n|meaning=ban thư ký / cơ quan thư ký
+word=embargo|pos=n|meaning=lệnh cấm vận
+word=mediation|pos=n|meaning=hòa giải
+word=collective security|pos=n|meaning=an ninh tập thể
+word=extraterritorial|pos=adj|meaning=ngoài lãnh thổ / ngoại lãnh
+word=consent|pos=n|meaning=sự đồng ý
+word=enhancement|pos=n|meaning=tăng cường năng lực con người
+word=beneficence|pos=n|meaning=nguyên tắc từ thiện / làm điều tốt
+word=permissibility|pos=n|meaning=tính cho phép / sự chấp nhận được
+word=moral|pos=adj|meaning=đạo đức
+word=biosafety|pos=n|meaning=an toàn sinh học
+word=impact|pos=n|meaning=tác động
+word=cloning|pos=n|meaning=nhân bản
+word=transhumanism|pos=n|meaning=chủ nghĩa siêu nhân
+word=warrant|pos=n|meaning=cơ sở biện hộ / chứng cứ nền tảng
+word=counterargument|pos=n|meaning=phản luận
+word=fallacy|pos=n|meaning=ngụy biện
+word=premise|pos=n|meaning=tiền đề
+word=assumption|pos=n|meaning=giả định
+word=inference|pos=n|meaning=suy luận
+word=assertion|pos=n|meaning=khẳng định
+word=deconstruct|pos=v|meaning=phân tích tháo gỡ / giải cấu trúc
+word=perspective|pos=n|meaning=quan điểm
+word=coherence|pos=n|meaning=tính mạch lạc
+word=substantiate|pos=v|meaning=chứng minh, củng cố
+word=refutation|pos=n|meaning=sự bác bỏ
+word=qualifier|pos=n|meaning=từ giới hạn / hạn định từ
+word=trade|pos=n|meaning=thương mại
+word=interdependence|pos=n|meaning=sự phụ thuộc lẫn nhau
+word=migration|pos=n|meaning=di cư
+word=corporation|pos=n|meaning=tập đoàn đa quốc gia
+word=convergence|pos=n|meaning=sự hội tụ
+word=dominance|pos=n|meaning=sự thống trị
+word=localization|pos=n|meaning=địa phương hóa
+word=polarization|pos=n|meaning=phân cực
+word=competition|pos=n|meaning=cạnh tranh
+word=cultural diffusion|pos=n|meaning=lan tỏa văn hóa
+word=opportunity|pos=n|meaning=cơ hội
+word=outsourcing|pos=n|meaning=thuê ngoài
+word=free trade|pos=n|meaning=tự do thương mại
+word=movement|pos=n|meaning=phong trào (xã hội)
+word=protest|pos=n|meaning=biểu tình
+word=advocacy|pos=n|meaning=vận động (xã hội)
+word=activism|pos=n|meaning=chủ nghĩa hoạt động
+word=transformation|pos=n|meaning=sự biến đổi
+word=solidarity|pos=n|meaning=đoàn kết
+word=resistance|pos=n|meaning=kháng cự, phản kháng
+word=mobilize|pos=v|meaning=huy động
+word=demonstration|pos=n|meaning=cuộc biểu tình
+word=reform|pos=n|meaning=cải cách
+word=justice|pos=n|meaning=công lý
+word=grassroots|pos=adj|meaning=cơ sở / từ cơ sở
+word=civil disobedience|pos=n|meaning=bất tuân dân sự
+word=diaspora|pos=n|meaning=cộng đồng người di cư
+word=integration|pos=n|meaning=hội nhập (xã hội)
+word=assimilation|pos=n|meaning=đồng hóa văn hóa
+word=belonging|pos=n|meaning=cảm giác thuộc về
+word=multiculturalism|pos=n|meaning=chủ nghĩa đa văn hóa
+word=minority|pos=n|meaning=thiểu số
+word=acceptance|pos=n|meaning=sự chấp nhận
+word=transnational|pos=adj|meaning=xuyên quốc gia
+word=identity|pos=n|meaning=bản sắc
+word=xenophobia|pos=n|meaning=bài ngoại / kỳ thị người nước ngoài
+word=naturalization|pos=n|meaning=nhập quốc tịch
+word=heuristic|pos=n|meaning=phép tắc ngón tay cái / lối tắt nhận thức
+word=prejudice|pos=n|meaning=định kiến
+word=conformity|pos=n|meaning=tuân thủ theo đám đông
+word=motivation|pos=n|meaning=động lực
+word=perception|pos=n|meaning=nhận thức
+word=manipulation|pos=n|meaning=thao túng
+word=groupthink|pos=n|meaning=tư duy nhóm
+word=stereotype|pos=n|meaning=khuôn mẫu
+word=attitude|pos=n|meaning=thái độ
+word=cognitive|pos=adj|meaning=nhận thức, thuộc về nhận thức
+word=scapegoating|pos=n|meaning=đổ lỗi / chọn người thế tội
+word=cognitive dissonance|pos=n|meaning=bất hòa nhận thức
+word=consumption|pos=n|meaning=tiêu thụ
+word=materialism|pos=n|meaning=chủ nghĩa vật chất
+word=status|pos=n|meaning=địa vị xã hội
+word=waste|pos=n|meaning=lãng phí
+word=aspiration|pos=n|meaning=khát vọng
+word=impulse|pos=n|meaning=bốc đồng
+word=disposability|pos=n|meaning=tính dùng xong bỏ / tâm lý vứt bỏ
+word=debt|pos=n|meaning=nợ tiêu dùng
+word=brand|pos=n|meaning=thương hiệu
+word=wellbeing|pos=n|meaning=sức khỏe toàn diện
+word=conspicuous consumption|pos=n|meaning=tiêu dùng phô trương
+word=planned obsolescence|pos=n|meaning=lỗi thời có kế hoạch
+word=overconsumption|pos=n|meaning=tiêu thụ quá mức
+word=hegemony|pos=n|meaning=quyền bá chủ / thống trị văn hóa
+word=subtext|pos=n|meaning=ẩn ý / nghĩa ngầm
+word=legitimize|pos=v|meaning=hợp thức hóa
+word=suppression|pos=n|meaning=đàn áp / triệt tiêu
+word=indoctrination|pos=n|meaning=nhồi nhét tư tưởng
+word=appropriation|pos=n|meaning=chiếm dụng văn hóa
+word=multilingual|pos=adj|meaning=đa ngôn ngữ
+word=dominant|pos=adj|meaning=thống trị
+word=heritage|pos=n|meaning=di sản ngôn ngữ
+word=power|pos=n|meaning=quyền lực
+word=linguistic relativity|pos=n|meaning=thuyết tương đối ngôn ngữ
+word=doublespeak|pos=n|meaning=lối nói mơ hồ / ngôn ngữ che giấu sự thật
