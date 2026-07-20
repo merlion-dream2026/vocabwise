@@ -3,7 +3,7 @@ import { getSession } from '@/lib/auth'
 import { checkAndIncrementSentenceGradingUsage } from '@/lib/rateLimit'
 import { aiChat } from '@/lib/aiChat'
 import { getFamilyProfile } from '@/lib/security'
-import { getEffectivePlan } from '@/lib/planUtils'
+import { getEffectivePlan, getSentenceGradingLimit } from '@/lib/planUtils'
 
 type Item = { targetWord: string; exampleVi: string; cefr?: string; sentence: string }
 type GradedItem = { score: number; passed: boolean; used_correctly: boolean; grammar_ok: boolean; feedback_vi: string; improved: string }
@@ -18,15 +18,17 @@ export async function POST(req: NextRequest) {
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
+  let limit: number | null = null // superadmin: unlimited
   if (session.familyId !== 'superadmin') {
     const profile = await getFamilyProfile(session.familyId)
     if (!profile) return NextResponse.json({ error: 'Account not found' }, { status: 404 })
     if (!getEffectivePlan(profile).isProActive) {
       return NextResponse.json({ error: 'Pro plan required.' }, { status: 403 })
     }
+    limit = getSentenceGradingLimit(profile)
   }
 
-  if (!(await checkAndIncrementSentenceGradingUsage(session.familyId))) {
+  if (!(await checkAndIncrementSentenceGradingUsage(session.familyId, limit))) {
     return NextResponse.json({ error: 'Đã đạt giới hạn chấm câu hôm nay. Vui lòng thử lại vào ngày mai.' }, { status: 429 })
   }
 

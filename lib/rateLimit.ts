@@ -164,7 +164,8 @@ export async function checkAndIncrementWritingCheckUsage(familyId: string, limit
 // Production round and every "Bonus — Viết câu" round across Daily/Academic. ────
 const sentenceGradingStore = new Map<string, { count: number; resetAt: number }>()
 
-export async function checkAndIncrementSentenceGradingUsage(familyId: string, limit = 5): Promise<boolean> {
+export async function checkAndIncrementSentenceGradingUsage(familyId: string, limit: number | null): Promise<boolean> {
+  if (limit === null) return true // unlimited tier — skip counting entirely
   const date = new Date().toISOString().split('T')[0]
   const key = `vw:grade-sentence:${familyId}:${date}`
   if (redis) {

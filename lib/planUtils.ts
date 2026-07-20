@@ -180,6 +180,17 @@ export function getAISpeakLimit(family: FamilyPlanData): number | null {
   return isTrialActive ? 10 : 0
 }
 
+/**
+ * /api/grade-sentence limit (Module Test Production round + mọi round "Bonus —
+ * Viết câu"): null = unlimited (Pro 3+), 15 (Pro 1), 0 (Free/Trial — endpoint đã
+ * chặn 403 ở bước Pro-check trước khi chạm limit này, giữ giá trị 0 chỉ để rõ ràng).
+ */
+export function getSentenceGradingLimit(family: FamilyPlanData): number | null {
+  const { isProActive } = getEffectivePlan(family)
+  if (!isProActive) return 0
+  return getPlanTier(family) === 'pro1' ? 15 : null
+}
+
 // ─── Bonus days ──────────────────────────────────────────────────────────────
 
 /**
