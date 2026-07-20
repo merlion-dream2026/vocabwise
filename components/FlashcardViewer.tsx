@@ -310,7 +310,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
         {/* Flashcard */}
         <div className={`
           ${styles.cardBg} ${styles.cardBorder} border-2 rounded-3xl
-          p-6 shadow-xl flex flex-col items-center text-center
+          p-5 shadow-xl flex flex-col items-center text-center
           flex-1 justify-center relative
         `}>
           {/* Star button */}
@@ -324,35 +324,32 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
             </span>
           </button>
           {/* Illustration: Phosphor icon (abstract words) or emoji */}
-          <div className={`mb-4 flex items-center justify-center`}>
+          <div className={`mb-3 flex items-center justify-center`}>
             <WordIcon
               word={word.word}
               emoji={word.emoji}
               emojiClass={styles.emojiSize}
-              iconSize={96}
+              iconSize={72}
               className="text-gray-600"
             />
           </div>
 
           {/* English word */}
-          <h2 className={`text-5xl font-black ${styles.wordColor} mb-1 tracking-tight`}>
+          <h2 className={`text-4xl font-black ${styles.wordColor} mb-1 tracking-tight`}>
             {word.word}
           </h2>
 
-          {/* IPA */}
-          {word.ipa && (
-            <p className="text-gray-400 text-sm font-mono mb-1">{word.ipa}</p>
-          )}
-
-          {/* Word class */}
-          {word.class && (
-            <p className="text-[1.75rem] text-gray-400 font-normal mb-2">
-              ({CLASS_LABEL[word.class] ?? word.class})
+          {/* IPA + word class — one line, both metadata at the same weight */}
+          {(word.ipa || word.class) && (
+            <p className="text-gray-400 text-sm mb-2">
+              {word.ipa && <span className="font-mono">{word.ipa}</span>}
+              {word.ipa && word.class && <span className="mx-1.5">·</span>}
+              {word.class && <span>{CLASS_LABEL[word.class] ?? word.class}</span>}
             </p>
           )}
 
           {/* Vietnamese meaning */}
-          <p className="text-3xl font-bold text-gray-700 mb-6">
+          <p className="text-2xl font-bold text-gray-700 mb-4">
             {word.meaning}
           </p>
 
@@ -362,11 +359,11 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
             disabled={speakingId === 'word'}
             className={`
               ${styles.speakBg} text-white
-              w-16 h-16 rounded-2xl text-3xl
+              w-14 h-14 rounded-2xl text-2xl
               flex items-center justify-center
               shadow-lg transition-all duration-150
               active:scale-90 disabled:opacity-70
-              mb-5
+              mb-4
             `}
             aria-label="Phát âm từ"
           >
@@ -374,16 +371,16 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
           </button>
 
           {/* Example sentences */}
-          <div className="w-full space-y-2.5">
+          <div className="w-full space-y-2">
             {word.examples.map((ex, idx) => (
-              <div key={idx} className={`${styles.exampleBg} rounded-2xl px-4 py-3 text-left`}>
+              <div key={idx} className={`${styles.exampleBg} rounded-2xl px-3.5 py-2.5 text-left`}>
                 <div className="flex items-start gap-2">
                   <button
                     onClick={() => speak(ex.en, `ex-${idx}`)}
                     disabled={speakingId === `ex-${idx}`}
                     className={`
-                      flex-shrink-0 w-8 h-8 rounded-xl
-                      ${styles.speakBg} text-white text-base
+                      flex-shrink-0 w-7 h-7 rounded-xl
+                      ${styles.speakBg} text-white text-sm
                       flex items-center justify-center mt-0.5
                       transition-all active:scale-90 disabled:opacity-60
                     `}
@@ -392,10 +389,10 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
                     {speakingId === `ex-${idx}` ? '⏸' : '🔊'}
                   </button>
                   <div>
-                    <p className={`${styles.exampleText} font-bold text-base leading-snug italic`}>
+                    <p className={`${styles.exampleText} font-bold text-sm leading-snug italic`}>
                       &quot;{ex.en}&quot;
                     </p>
-                    <p className="text-gray-500 text-sm mt-0.5 leading-snug">
+                    <p className="text-gray-500 text-xs mt-0.5 leading-snug">
                       {ex.vi}
                     </p>
                   </div>
@@ -406,25 +403,25 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
 
           {/* Word Family — Ranger+ only, hidden when the word has no meaningful family */}
           {WORD_FAMILY_LEVELS.includes(level) && word.wordFamily && word.wordFamily.length >= 2 && (
-            <div className="w-full mt-3 bg-white border-2 border-teal-100 rounded-2xl px-4 py-3">
-              <p className="text-sm font-black text-teal-600 mb-2">🌳 Word Family</p>
-              <div className="space-y-1.5">
+            <div className="w-full mt-2 bg-white border-2 border-teal-100 rounded-2xl px-3.5 py-2.5">
+              <p className="text-sm font-black text-teal-600 mb-1.5">🌳 Word Family</p>
+              <div className="space-y-1">
                 {word.wordFamily.map((form, idx) => {
                   const isCurrent = form.pos === word.class && form.word.toLowerCase() === word.word.toLowerCase()
                   return (
                     <div
                       key={idx}
-                      className={`flex items-center gap-2 rounded-xl px-2.5 py-1.5 ${isCurrent ? 'bg-teal-50 border border-teal-200' : ''}`}
+                      className={`flex items-center gap-2 rounded-xl px-2 py-1 ${isCurrent ? 'bg-teal-50 border border-teal-200' : ''}`}
                     >
                       <button
                         onClick={() => speak(form.word, `wf-${idx}`)}
                         disabled={speakingId === `wf-${idx}`}
-                        className="flex-shrink-0 w-7 h-7 rounded-lg bg-teal-500 text-white text-sm flex items-center justify-center active:scale-90 disabled:opacity-60 transition-all"
+                        className="flex-shrink-0 w-6 h-6 rounded-lg bg-teal-500 text-white text-xs flex items-center justify-center active:scale-90 disabled:opacity-60 transition-all"
                         aria-label={`Nghe ${form.word}`}
                       >
                         {speakingId === `wf-${idx}` ? '⏸' : '🔊'}
                       </button>
-                      <span className="text-[0.65rem] font-bold text-gray-400 w-9 flex-shrink-0">
+                      <span className="text-xs font-bold text-gray-400 w-7 flex-shrink-0">
                         {CLASS_LABEL[form.pos]?.split(' - ')[0] ?? form.pos}
                       </span>
                       <span className={`font-bold text-sm flex-shrink-0 ${isCurrent ? 'text-teal-700' : 'text-gray-700'}`}>
@@ -439,15 +436,15 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
           )}
 
           {/* AI Explainer — fetched on tap, not prefetched */}
-          <details className="w-full mt-3 bg-amber-50 border border-amber-200 rounded-2xl overflow-hidden group">
+          <details className="w-full mt-2 bg-amber-50 border border-amber-200 rounded-2xl overflow-hidden group">
             <summary
               onClick={() => { if (!explanations[word.word] && !explaining.has(word.word)) explainWord(word) }}
-              className="px-4 py-3 list-none cursor-pointer flex items-center justify-between"
+              className="px-3.5 py-2.5 list-none cursor-pointer flex items-center justify-between"
             >
               <p className="text-sm font-black text-amber-600">✨ Giải nghĩa</p>
               <span className="text-amber-400 text-sm group-open:rotate-180 transition-transform">▾</span>
             </summary>
-            <div className="px-4 pb-3 pt-1 border-t border-amber-200">
+            <div className="px-3.5 pb-2.5 pt-1 border-t border-amber-200">
               {explaining.has(word.word) ? (
                 <>
                   <div className="h-3 bg-amber-200 rounded animate-pulse w-3/4 mb-2" />
@@ -455,7 +452,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
                   <div className="h-3 bg-amber-200 rounded animate-pulse w-2/3" />
                 </>
               ) : explanations[word.word] ? (
-                <p className="text-base text-gray-700 leading-relaxed">{explanations[word.word]}</p>
+                <p className="text-sm text-gray-700 leading-relaxed">{explanations[word.word]}</p>
               ) : null}
             </div>
           </details>
