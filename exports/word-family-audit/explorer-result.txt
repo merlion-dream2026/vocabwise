@@ -1,0 +1,173 @@
+word=photosynthesis|family=n:photosynthesis:quang hợp;adj:photosynthetic:thuộc quang hợp
+word=predator|family=n:predator:thú săn mồi;adj:predatory:thuộc loài săn mồi
+word=prey|family=n:prey:con mồi;v:prey:săn bắt con mồi
+word=element|family=n:element:nguyên tố hóa học;adj:elemental:thuộc nguyên tố
+word=carnivore|family=n:carnivore:động vật ăn thịt;adj:carnivorous:ăn thịt
+word=herbivore|family=n:herbivore:động vật ăn cỏ;adj:herbivorous:ăn cỏ
+word=robot|family=n:robot:rô-bốt;adj:robotic:thuộc rô-bốt
+word=villain|family=n:villain:kẻ phản diện;adj:villainous:xấu xa, phản diện
+word=hypothesis|family=n:hypothesis:giả thuyết;adj:hypothetical:mang tính giả thuyết;adv:hypothetically:theo giả thuyết
+word=theory|family=n:theory:lý thuyết;adj:theoretical:thuộc lý thuyết;adv:theoretically:về mặt lý thuyết
+word=evidence|family=n:evidence:bằng chứng;adj:evident:rõ ràng;adv:evidently:rõ ràng là
+word=prototype|family=n:prototype:bản thử nghiệm;adj:prototypical:điển hình, nguyên mẫu
+word=mechanism|family=n:mechanism:cơ chế;adj:mechanistic:thuộc cơ chế
+word=structure|family=n:structure:cấu trúc;v:structure:sắp xếp cấu trúc;adj:structural:thuộc cấu trúc;adv:structurally:về mặt cấu trúc
+word=confront|family=v:confront:đối mặt;n:confrontation:sự đối đầu;adj:confrontational:mang tính đối đầu
+word=alliance|family=n:alliance:liên minh;v:ally:liên minh;adj:allied:đồng minh
+word=cunning|family=adj:cunning:khôn khéo;n:cunning:sự xảo quyệt;adv:cunningly:một cách xảo quyệt
+word=biodiversity|family=n:biodiversity:đa dạng sinh học;adj:biodiverse:đa dạng sinh học
+word=deforestation|family=n:deforestation:phá rừng;v:deforest:phá rừng
+word=emission|family=n:emission:khí thải;v:emit:phát thải
+word=atmosphere|family=n:atmosphere:khí quyển;adj:atmospheric:thuộc khí quyển
+word=gravity|family=n:gravity:trọng lực;adj:gravitational:thuộc trọng lực
+word=galaxy|family=n:galaxy:thiên hà;adj:galactic:thuộc thiên hà
+word=telescope|family=n:telescope:kính thiên văn;adj:telescopic:thuộc kính thiên văn
+word=meteor|family=n:meteor:thiên thạch;adj:meteoric:thuộc thiên thạch
+word=tone|family=n:tone:giọng điệu;v:tone:điều chỉnh giọng;adj:tonal:thuộc âm điệu
+word=journalist|family=n:journalist:nhà báo;adj:journalistic:thuộc báo chí
+word=propaganda|family=n:propaganda:tuyên truyền;adj:propagandistic:mang tính tuyên truyền
+word=feedback|family=n:feedback:phản hồi;v:feed back:phản hồi
+word=misinformation|family=n:misinformation:thông tin sai lệch;v:misinform:cung cấp tin sai;adj:misinformed:bị thông tin sai
+word=leadership|family=n:leadership:khả năng lãnh đạo;v:lead:lãnh đạo
+word=perseverance|family=n:perseverance:sự kiên trì;v:persevere:kiên trì;adj:persevering:kiên trì
+word=opponent|family=n:opponent:đối thủ;v:oppose:phản đối;adj:opposing:đối lập
+word=cell|family=n:cell:tế bào;adj:cellular:thuộc tế bào
+word=muscle|family=n:muscle:cơ bắp;adj:muscular:thuộc cơ bắp
+word=nerve|family=n:nerve:dây thần kinh;adj:nervous:lo lắng;adv:nervously:một cách lo lắng
+word=hormone|family=n:hormone:hormone;adj:hormonal:thuộc hoóc-môn
+word=skeleton|family=n:skeleton:bộ xương;adj:skeletal:thuộc bộ xương
+word=vein|family=n:vein:tĩnh mạch;adj:venous:thuộc tĩnh mạch
+word=enzyme|family=n:enzyme:enzyme;adj:enzymatic:thuộc enzim
+word=bacteria|family=n:bacteria:vi khuẩn;adj:bacterial:thuộc vi khuẩn
+word=oxygen|family=n:oxygen:oxy;v:oxygenate:cung cấp ôxy;adj:oxygenated:được cung cấp ôxy
+word=empire|family=n:empire:đế chế;adj:imperial:thuộc đế chế
+word=siege|family=n:siege:cuộc vây hãm;v:besiege:bao vây
+word=exile|family=n:exile:lưu đày;v:exile:đày đi;adj:exiled:bị lưu đày
+word=monarch|family=n:monarch:quốc vương;adj:monarchical:thuộc quân chủ
+word=republic|family=n:republic:nước cộng hòa;adj:republican:thuộc cộng hòa
+word=invasion|family=n:invasion:cuộc xâm lược;v:invade:xâm lược;adj:invasive:có tính xâm lấn
+word=colony|family=n:colony:thuộc địa;v:colonize:lập thuộc địa;adj:colonial:thuộc thuộc địa
+word=dynasty|family=n:dynasty:triều đại;adj:dynastic:thuộc triều đại
+word=debt|family=n:debt:nợ;adj:indebted:mắc nợ
+word=capital|family=n:capital:vốn;v:capitalize:cấp vốn
+word=theme|family=n:theme:chủ đề;adj:thematic:thuộc chủ đề;adv:thematically:theo chủ đề
+word=character|family=n:character:nhân vật;v:characterize:mô tả đặc trưng;adj:characteristic:đặc trưng
+word=poetry|family=n:poetry:thơ ca;adj:poetic:thuộc thơ ca;adv:poetically:theo lối thơ
+word=fiction|family=n:fiction:văn học hư cấu;adj:fictional:hư cấu
+word=setting|family=n:setting:bối cảnh;v:set:đặt bối cảnh
+word=dialogue|family=n:dialogue:đối thoại;v:dialogue:đối thoại
+word=climax|family=n:climax:cao trào;v:climax:đạt cao trào;adj:climactic:thuộc cao trào
+word=algorithm|family=n:algorithm:thuật toán;adj:algorithmic:thuộc thuật toán
+word=machine|family=n:machine:máy móc;adj:mechanical:thuộc máy móc;adv:mechanically:một cách máy móc
+word=interface|family=n:interface:giao diện;v:interface:kết nối, tương tác
+word=input|family=n:input:dữ liệu đầu vào;v:input:nhập dữ liệu
+word=law|family=n:law:luật pháp;adj:lawful:hợp pháp;adv:lawfully:một cách hợp pháp
+word=rights|family=n:rights:quyền lợi;adj:rightful:chính đáng;adv:rightfully:một cách chính đáng
+word=trial|family=n:trial:phiên xét xử;v:try:xét xử
+word=defendant|family=n:defendant:bị cáo;v:defend:bào chữa;adj:defensive:mang tính phòng thủ
+word=constitution|family=n:constitution:hiến pháp;adj:constitutional:thuộc hiến pháp;adv:constitutionally:theo hiến pháp
+word=memory|family=n:memory:trí nhớ;v:memorize:ghi nhớ;adj:memorable:đáng nhớ;adv:memorably:một cách đáng nhớ
+word=resilience|family=n:resilience:khả năng phục hồi;adj:resilient:có khả năng phục hồi
+word=habit|family=n:habit:thói quen;adj:habitual:thành thói quen;adv:habitually:theo thói quen
+word=trauma|family=n:trauma:sang chấn tâm lý;v:traumatize:gây sang chấn;adj:traumatic:gây sang chấn
+word=instinct|family=n:instinct:bản năng;adj:instinctive:theo bản năng;adv:instinctively:một cách bản năng
+word=symptom|family=n:symptom:triệu chứng;adj:symptomatic:có triệu chứng
+word=vaccine|family=n:vaccine:vắc-xin;v:vaccinate:tiêm vắc-xin;adj:vaccinated:đã tiêm vắc-xin
+word=chronic|family=adj:chronic:mãn tính;adv:chronically:một cách mãn tính
+word=epidemic|family=n:epidemic:dịch bệnh;adj:epidemic:thuộc dịch bệnh
+word=disease|family=n:disease:căn bệnh;adj:diseased:mắc bệnh
+word=antibiotic|family=n:antibiotic:kháng sinh;adj:antibiotic:thuộc kháng sinh
+word=continent|family=n:continent:châu lục;adj:continental:thuộc lục địa
+word=peninsula|family=n:peninsula:bán đảo;adj:peninsular:thuộc bán đảo
+word=plateau|family=n:plateau:cao nguyên;v:plateau:chững lại
+word=equator|family=n:equator:đường xích đạo;adj:equatorial:thuộc xích đạo
+word=hemisphere|family=n:hemisphere:bán cầu;adj:hemispheric:thuộc bán cầu
+word=longitude|family=n:longitude:kinh độ;adj:longitudinal:thuộc kinh độ;adv:longitudinally:theo chiều dọc
+word=latitude|family=n:latitude:vĩ độ;adj:latitudinal:thuộc vĩ độ
+word=estuary|family=n:estuary:cửa sông;adj:estuarine:thuộc cửa sông
+word=tropic|family=n:tropic:vùng nhiệt đới;adj:tropical:thuộc nhiệt đới
+word=calorie|family=n:calorie:calo;adj:caloric:thuộc calo
+word=mineral|family=n:mineral:khoáng chất;adj:mineral:thuộc khoáng chất
+word=fiber|family=n:fiber:chất xơ;adj:fibrous:nhiều chất xơ
+word=appetite|family=n:appetite:sự thèm ăn;adj:appetizing:ngon miệng
+word=supplement|family=n:supplement:thực phẩm bổ sung;v:supplement:bổ sung;adj:supplementary:bổ sung
+word=fat|family=n:fat:chất béo;v:fatten:làm béo;adj:fatty:nhiều chất béo
+word=sugar|family=n:sugar:đường;v:sugar:thêm đường;adj:sugary:nhiều đường
+word=diet|family=n:diet:chế độ ăn;v:diet:ăn kiêng;adj:dietary:thuộc chế độ ăn
+word=portion|family=n:portion:khẩu phần;v:portion:chia thành phần
+word=climate|family=n:climate:khí hậu;adj:climatic:thuộc khí hậu;adv:climatically:về mặt khí hậu
+word=glacier|family=n:glacier:sông băng;adj:glacial:thuộc sông băng
+word=flood|family=n:flood:lũ lụt;v:flood:làm ngập;adj:flooded:bị ngập
+word=habitat|family=n:habitat:môi trường sống;v:inhabit:sinh sống;adj:habitable:có thể sinh sống
+word=cyberbullying|family=n:cyberbullying:bắt nạt trực tuyến;v:cyberbully:bắt nạt trực tuyến
+word=hacker|family=n:hacker:tin tặc;v:hack:xâm nhập máy tính;adj:hackable:có thể bị xâm nhập
+word=streaming|family=n:streaming:phát trực tuyến;v:stream:phát trực tuyến
+word=virus|family=n:virus:vi-rút máy tính;adj:viral:thuộc vi-rút
+word=entrance|family=n:entrance:lối vào;v:enter:đi vào
+word=blueprint|family=n:blueprint:bản thiết kế;v:blueprint:lập kế hoạch
+word=foundation|family=n:foundation:nền móng;adj:foundational:nền tảng
+word=column|family=n:column:cột trụ;adj:columnar:có dạng cột
+word=arch|family=n:arch:vòm cung;v:arch:uốn cong;adj:arched:có hình vòm
+word=dome|family=n:dome:mái vòm;adj:domed:có mái vòm
+word=symmetry|family=n:symmetry:tính đối xứng;adj:symmetrical:đối xứng;adv:symmetrically:một cách đối xứng
+word=proportion|family=n:proportion:tỷ lệ;v:proportion:phân chia theo tỷ lệ;adj:proportional:theo tỷ lệ;adv:proportionally:một cách tương ứng
+word=landscape|family=n:landscape:cảnh quan;v:landscape:tạo cảnh quan;adj:landscaped:được tạo cảnh quan
+word=material|family=n:material:vật liệu xây dựng;adj:material:thuộc vật chất
+word=investment|family=n:investment:đầu tư;v:invest:đầu tư
+word=partnership|family=n:partnership:hợp tác;v:partner:hợp tác
+word=strategy|family=n:strategy:chiến lược;adj:strategic:mang tính chiến lược;adv:strategically:một cách chiến lược
+word=market|family=n:market:thị trường;v:market:tiếp thị;adj:marketable:có thể bán được
+word=brand|family=n:brand:thương hiệu;v:brand:gắn thương hiệu;adj:branded:có thương hiệu
+word=compete|family=v:compete:cạnh tranh;n:competition:sự cạnh tranh;adj:competitive:có tính cạnh tranh;adv:competitively:một cách cạnh tranh
+word=pitch|family=n:pitch:thuyết trình;v:pitch:trình bày ý tưởng
+word=scale|family=v:scale:mở rộng quy mô;n:scale:quy mô;adj:scalable:có thể mở rộng
+word=failure|family=n:failure:thất bại;v:fail:thất bại;adj:failed:không thành công
+word=melody|family=n:melody:giai điệu;adj:melodic:có giai điệu;adv:melodically:theo giai điệu
+word=harmony|family=n:harmony:hòa âm;v:harmonize:hòa âm;adj:harmonious:hài hòa;adv:harmoniously:một cách hài hòa
+word=rhythm|family=n:rhythm:nhịp điệu;adj:rhythmic:có nhịp điệu;adv:rhythmically:theo nhịp điệu
+word=lyrics|family=n:lyrics:lời bài hát;adj:lyrical:giàu chất trữ tình;adv:lyrically:theo lối trữ tình
+word=compose|family=v:compose:sáng tác;n:composition:sự sáng tác;adj:compositional:thuộc sáng tác
+word=rehearse|family=v:rehearse:tập dượt;n:rehearsal:buổi tập dượt
+word=conductor|family=n:conductor:nhạc trưởng;v:conduct:chỉ huy dàn nhạc
+word=solo|family=n:solo:độc tấu;v:solo:biểu diễn solo;adj:solo:đơn ca, độc tấu;adv:solo:một mình
+word=orchestra|family=n:orchestra:dàn nhạc giao hưởng;v:orchestrate:phối khí;adj:orchestral:thuộc dàn nhạc
+word=acoustic|family=adj:acoustic:âm thanh tự nhiên;n:acoustics:âm học;adv:acoustically:về mặt âm thanh
+word=champion|family=n:champion:nhà vô địch;adj:champion:vô địch
+word=rival|family=n:rival:đối thủ;v:rival:cạnh tranh với
+word=tactic|family=n:tactic:chiến thuật;adj:tactical:thuộc chiến thuật;adv:tactically:về mặt chiến thuật
+word=technique|family=n:technique:kỹ thuật;adj:technical:thuộc kỹ thuật;adv:technically:về mặt kỹ thuật
+word=referee|family=n:referee:trọng tài;v:referee:làm trọng tài
+word=penalty|family=n:penalty:hình phạt;v:penalize:phạt;adj:penal:thuộc hình phạt
+word=match|family=n:match:trận đấu;v:match:ghép đấu;adj:matched:được ghép đấu
+word=argument|family=n:argument:lập luận;v:argue:tranh luận;adj:argumentative:hay tranh cãi
+word=claim|family=n:claim:tuyên bố;v:claim:khẳng định
+word=bias|family=n:bias:định kiến;v:bias:làm thiên lệch;adj:biased:thiên lệch
+word=assumption|family=n:assumption:giả định;v:assume:giả định;adj:assumed:được giả định
+word=logic|family=n:logic:logic;adj:logical:hợp lý;adv:logically:một cách hợp lý
+word=infer|family=v:infer:suy luận;n:inference:sự suy luận;adj:inferential:thuộc suy luận
+word=fallacy|family=n:fallacy:lỗi lập luận;adj:fallacious:sai về lập luận
+word=debate|family=n:debate:tranh luận;v:debate:tranh luận;adj:debatable:còn gây tranh cãi
+word=source|family=n:source:nguồn;v:source:tìm nguồn;adj:sourced:có nguồn
+word=hunger|family=n:hunger:nạn đói;v:hunger:khao khát;adj:hungry:đói;adv:hungrily:một cách đói khát
+word=conflict|family=n:conflict:xung đột;v:conflict:xung đột;adj:conflicting:mâu thuẫn
+word=literacy|family=n:literacy:biết đọc biết viết;adj:literate:biết đọc viết
+word=aid|family=n:aid:viện trợ;v:aid:hỗ trợ
+word=cooperation|family=n:cooperation:hợp tác;v:cooperate:hợp tác;adj:cooperative:có tính hợp tác;adv:cooperatively:một cách hợp tác
+word=gene|family=n:gene:gen di truyền;adj:genetic:thuộc di truyền;adv:genetically:về mặt di truyền
+word=chromosome|family=n:chromosome:nhiễm sắc thể;adj:chromosomal:thuộc nhiễm sắc thể
+word=mutation|family=n:mutation:đột biến gen;v:mutate:đột biến;adj:mutant:bị đột biến
+word=inherit|family=v:inherit:di truyền;n:inheritance:sự di truyền;adj:inherited:được di truyền
+word=variation|family=n:variation:sự biến dị;v:vary:thay đổi;adj:variable:có thể thay đổi;adv:variably:một cách khác nhau
+word=evolution|family=n:evolution:tiến hóa;v:evolve:tiến hóa;adj:evolutionary:thuộc tiến hóa
+word=ancestor|family=n:ancestor:tổ tiên;adj:ancestral:thuộc tổ tiên
+word=fossil|family=n:fossil:hóa thạch;v:fossilize:hóa thạch;adj:fossilized:đã hóa thạch
+word=extinct|family=adj:extinct:tuyệt chủng;n:extinction:sự tuyệt chủng
+word=reproduce|family=v:reproduce:sinh sản;n:reproduction:sự sinh sản;adj:reproductive:thuộc sinh sản
+word=sculpture|family=n:sculpture:điêu khắc;v:sculpt:điêu khắc;adj:sculptural:thuộc điêu khắc
+word=abstract|family=adj:abstract:trừu tượng;adv:abstractly:một cách trừu tượng
+word=contrast|family=n:contrast:sự tương phản;v:contrast:tương phản;adj:contrasting:tương phản
+word=exhibition|family=n:exhibition:triển lãm;v:exhibit:trưng bày
+word=portrait|family=n:portrait:chân dung;v:portray:khắc họa
+word=texture|family=n:texture:kết cấu bề mặt;adj:textural:thuộc kết cấu
+word=inspire|family=v:inspire:truyền cảm hứng;n:inspiration:cảm hứng;adj:inspiring:truyền cảm hứng
+word=sketch|family=n:sketch:phác thảo;v:sketch:phác thảo

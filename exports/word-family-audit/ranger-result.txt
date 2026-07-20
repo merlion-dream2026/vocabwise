@@ -1,0 +1,157 @@
+word=art|family=n:art:mỹ thuật;adj:artistic:thuộc nghệ thuật;adv:artistically:về mặt nghệ thuật
+word=request|family=v:request:yêu cầu;n:request:lời yêu cầu
+word=architect|family=n:architect:kiến trúc sư;v:architect:thiết kế kiến trúc;adj:architectural:thuộc kiến trúc
+word=receipt|family=n:receipt:hóa đơn;v:receive:nhận
+word=bargain|family=n:bargain:món hời;v:bargain:mặc cả
+word=brand|family=n:brand:thương hiệu;v:brand:gắn thương hiệu;adj:branded:có thương hiệu
+word=sale|family=n:sale:đợt giảm giá;v:sell:bán;adj:saleable:có thể bán được
+word=curly|family=adj:curly:xoăn;n:curl:lọn tóc;v:curl:làm xoăn
+word=slim|family=adj:slim:mảnh mai;v:slim:làm thon gọn
+word=athletic|family=adj:athletic:vạm vỡ;n:athlete:vận động viên;adv:athletically:theo kiểu thể thao
+word=reservation|family=n:reservation:đặt bàn;v:reserve:đặt trước;adj:reserved:được đặt trước
+word=portion|family=n:portion:khẩu phần;v:portion:chia thành khẩu phần
+word=vegetarian|family=adj:vegetarian:ăn chay;n:vegetarian:người ăn chay
+word=spicy|family=adj:spicy:cay;n:spice:gia vị;v:spice:thêm gia vị
+word=tip|family=n:tip:tiền boa;v:tip:cho tiền boa
+word=fever|family=n:fever:sốt;adj:feverish:sốt, bồn chồn
+word=symptom|family=n:symptom:triệu chứng;adj:symptomatic:có triệu chứng
+word=medicine|family=n:medicine:thuốc;adj:medicinal:thuộc dược liệu
+word=appointment|family=n:appointment:lịch hẹn;v:appoint:ấn định
+word=vaccine|family=n:vaccine:vắc-xin;v:vaccinate:tiêm vắc-xin;adj:vaccinated:đã tiêm vắc-xin
+word=tradition|family=n:tradition:truyền thống;adj:traditional:truyền thống;adv:traditionally:theo truyền thống
+word=ceremony|family=n:ceremony:lễ;adj:ceremonial:thuộc nghi lễ
+word=monument|family=n:monument:công trình lịch sử;adj:monumental:vĩ đại, đồ sộ;adv:monumentally:ở mức rất lớn
+word=border|family=n:border:biên giới;v:border:giáp ranh;adj:bordering:giáp ranh
+word=multilingual|family=adj:multilingual:đa ngôn ngữ;n:multilingualism:tính đa ngôn ngữ
+word=custom|family=n:custom:phong tục;adj:customary:theo phong tục;adv:customarily:theo thông lệ
+word=continent|family=n:continent:châu lục;adj:continental:thuộc lục địa
+word=lively|family=adj:lively:sôi động;n:liveliness:sự sôi động
+word=suburb|family=n:suburb:vùng ngoại ô;adj:suburban:thuộc ngoại ô
+word=landscape|family=n:landscape:phong cảnh;v:landscape:tạo cảnh quan;adj:landscaped:được tạo cảnh quan
+word=neighborhood|family=n:neighborhood:khu phố;adj:neighboring:lân cận
+word=spice|family=n:spice:gia vị;v:spice:thêm gia vị;adj:spicy:cay
+word=herb|family=n:herb:rau thơm;adj:herbal:thuộc thảo mộc
+word=fusion|family=n:fusion:ẩm thực kết hợp;v:fuse:kết hợp;adj:fused:được kết hợp
+word=loyalty|family=n:loyalty:lòng trung thành;adj:loyal:trung thành;adv:loyally:một cách trung thành
+word=argument|family=n:argument:cuộc tranh cãi;v:argue:tranh cãi;adj:argumentative:hay tranh cãi
+word=conflict|family=n:conflict:xung đột;v:conflict:xung đột;adj:conflicting:mâu thuẫn
+word=bond|family=n:bond:sự gắn kết;v:bond:gắn kết;adj:bonded:được gắn kết
+word=gossip|family=n:gossip:tán gẫu;v:gossip:tán gẫu;adj:gossipy:hay buôn chuyện
+word=hypothesis|family=n:hypothesis:giả thuyết;adj:hypothetical:mang tính giả thuyết;adv:hypothetically:theo giả thuyết
+word=gravity|family=n:gravity:trọng lực;adj:gravitational:thuộc trọng lực
+word=molecule|family=n:molecule:phân tử;adj:molecular:thuộc phân tử
+word=evidence|family=n:evidence:bằng chứng;adj:evident:rõ ràng;adv:evidently:rõ ràng là
+word=habitat|family=n:habitat:môi trường sống;v:inhabit:sinh sống;adj:habitable:có thể sinh sống
+word=deforestation|family=n:deforestation:nạn phá rừng;v:deforest:phá rừng
+word=compost|family=n:compost:phân hữu cơ;v:compost:ủ phân;adj:compostable:có thể ủ phân
+word=emission|family=n:emission:khí thải;v:emit:phát thải
+word=browser|family=n:browser:trình duyệt web;v:browse:duyệt web
+word=virus|family=n:virus:vi-rút máy tính;adj:viral:thuộc vi-rút
+word=screenshot|family=n:screenshot:ảnh chụp màn hình;v:screenshot:chụp màn hình
+word=backup|family=n:backup:sao lưu;v:back up:sao lưu;adj:backup:dự phòng
+word=timetable|family=n:timetable:lịch trình;v:timetable:lên lịch
+word=harbor|family=n:harbor:bến cảng;v:harbor:chứa chấp
+word=roundtrip|family=adj:roundtrip:vé khứ hồi;n:round trip:chuyến khứ hồi
+word=thunder|family=n:thunder:tiếng sấm;v:thunder:gầm vang;adj:thunderous:vang như sấm
+word=flood|family=n:flood:lũ lụt;v:flood:làm ngập;adj:flooded:bị ngập
+word=foggy|family=adj:foggy:có sương mù;n:fog:sương mù;v:fog:làm mờ
+word=sleet|family=n:sleet:mưa tuyết;v:sleet:có mưa tuyết
+word=drizzle|family=n:drizzle:mưa phùn;v:drizzle:mưa phùn;adj:drizzly:có mưa phùn
+word=barometer|family=n:barometer:khí áp kế;adj:barometric:thuộc khí áp
+word=champion|family=n:champion:nhà vô địch;adj:champion:vô địch
+word=penalty|family=n:penalty:quả phạt;v:penalize:phạt;adj:penal:thuộc hình phạt
+word=referee|family=n:referee:trọng tài;v:referee:làm trọng tài
+word=substitute|family=n:substitute:cầu thủ dự bị;v:substitute:thay thế;adj:substitute:thay thế
+word=athletics|family=n:athletics:điền kinh;adj:athletic:thuộc thể thao;adv:athletically:theo kiểu thể thao
+word=gymnastics|family=n:gymnastics:thể dục dụng cụ;adj:gymnastic:thuộc thể dục
+word=parade|family=n:parade:cuộc diễu hành;v:parade:diễu hành
+word=costume|family=n:costume:trang phục;v:costume:mặc trang phục;adj:costumed:mặc trang phục
+word=feast|family=n:feast:bữa tiệc lớn;v:feast:ăn tiệc
+word=ritual|family=n:ritual:nghi lễ;adj:ritualistic:mang tính nghi thức
+word=ancestor|family=n:ancestor:tổ tiên;adj:ancestral:thuộc tổ tiên
+word=carol|family=n:carol:bài hát Giáng Sinh;v:carol:hát thánh ca
+word=pilgrimage|family=n:pilgrimage:cuộc hành hương;v:pilgrimage:hành hương
+word=procession|family=n:procession:đoàn rước;adj:processional:thuộc đoàn rước
+word=furniture|family=n:furniture:đồ nội thất;v:furnish:trang bị nội thất;adj:furnished:có nội thất
+word=curtain|family=n:curtain:rèm cửa;v:curtain:che bằng rèm
+word=switch|family=n:switch:công tắc điện;v:switch:chuyển đổi;adj:switchable:có thể chuyển đổi
+word=neighbor|family=n:neighbor:hàng xóm;v:neighbor:nằm cạnh;adj:neighboring:lân cận
+word=pipe|family=n:pipe:ống nước;v:pipe:dẫn qua ống;adj:piped:được dẫn bằng ống
+word=summarize|family=v:summarize:tóm tắt;n:summary:bản tóm tắt;adj:summarized:được tóm tắt
+word=focus|family=v:focus:tập trung;n:focus:sự tập trung;adj:focused:tập trung
+word=revise|family=v:revise:ôn tập;n:revision:sự ôn tập;adj:revised:đã chỉnh sửa
+word=memorize|family=v:memorize:ghi nhớ;n:memory:trí nhớ;adj:memorable:đáng nhớ;adv:memorably:một cách đáng nhớ
+word=distraction|family=n:distraction:sự phân tâm;v:distract:làm phân tâm;adj:distracted:mất tập trung
+word=assignment|family=n:assignment:bài tập;v:assign:giao nhiệm vụ;adj:assigned:được giao
+word=quiz|family=n:quiz:bài kiểm tra nhanh;v:quiz:kiểm tra nhanh
+word=practice|family=v:practice:luyện tập;n:practice:sự luyện tập;adj:practiced:thành thạo
+word=mammal|family=n:mammal:động vật có vú;adj:mammalian:thuộc động vật có vú
+word=reptile|family=n:reptile:bò sát;adj:reptilian:thuộc bò sát
+word=feather|family=n:feather:lông vũ;v:feather:phủ lông;adj:feathered:có lông vũ
+word=claw|family=n:claw:móng vuốt;v:claw:cào;adj:clawed:có móng vuốt
+word=predator|family=n:predator:động vật săn mồi;adj:predatory:thuộc loài săn mồi
+word=prey|family=n:prey:con mồi;v:prey:săn bắt con mồi
+word=herd|family=n:herd:đàn;v:herd:chăn, lùa đàn
+word=nest|family=n:nest:tổ (chim;v:nest:làm tổ;adj:nested:lồng vào nhau
+word=camouflage|family=n:camouflage:ngụy trang;v:camouflage:ngụy trang;adj:camouflaged:được ngụy trang
+word=venom|family=n:venom:nọc độc;adj:venomous:có nọc độc
+word=tame|family=adj:tame:được thuần dưỡng;v:tame:thuần hóa;adv:tamely:một cách ngoan ngoãn
+word=volunteer|family=v:volunteer:tình nguyện;n:volunteer:tình nguyện viên;adj:voluntary:tự nguyện;adv:voluntarily:một cách tự nguyện
+word=pedestrian|family=n:pedestrian:người đi bộ;adj:pedestrian:thuộc người đi bộ
+word=mayor|family=n:mayor:thị trưởng;adj:mayoral:thuộc thị trưởng
+word=emergency|family=n:emergency:tình huống khẩn cấp;adj:emergency:khẩn cấp
+word=safety|family=n:safety:sự an toàn;adj:safe:an toàn;adv:safely:một cách an toàn
+word=infrastructure|family=n:infrastructure:cơ sở hạ tầng;adj:infrastructural:thuộc cơ sở hạ tầng
+word=resident|family=n:resident:cư dân;v:reside:cư trú;adj:residential:thuộc khu dân cư
+word=charity|family=n:charity:tổ chức từ thiện;adj:charitable:từ thiện
+word=expire|family=v:expire:hết hạn;n:expiration:sự hết hạn;adj:expired:đã hết hạn
+word=postpone|family=v:postpone:hoãn lại;n:postponement:sự trì hoãn
+word=punctual|family=adj:punctual:đúng giờ;n:punctuality:sự đúng giờ;adv:punctually:đúng giờ
+word=routine|family=n:routine:thói quen hàng ngày;adj:routine:thường lệ;adv:routinely:thường xuyên
+word=dawn|family=n:dawn:bình minh;v:dawn:bắt đầu ló rạng
+word=weekly|family=adj:weekly:hàng tuần;n:week:tuần;adv:weekly:hàng tuần
+word=monthly|family=adj:monthly:hàng tháng;n:month:tháng;adv:monthly:hàng tháng
+word=thread|family=n:thread:sợi chỉ;v:thread:xỏ chỉ;adj:threaded:đã xỏ ren
+word=needle|family=n:needle:cây kim;v:needle:chọc bằng kim
+word=glue|family=n:glue:keo dán;v:glue:dán;adj:glued:được dán
+word=carve|family=v:carve:khắc;n:carving:sự chạm khắc;adj:carved:được chạm khắc
+word=weave|family=v:weave:đan;n:weaving:sự dệt;adj:woven:được dệt
+word=mold|family=v:mold:nặn;n:mold:khuôn;adj:molded:được đúc khuôn
+word=pattern|family=n:pattern:họa tiết;v:pattern:tạo hoa văn;adj:patterned:có hoa văn
+word=texture|family=n:texture:kết cấu;adj:textural:thuộc kết cấu
+word=stitch|family=v:stitch:khâu;n:stitch:mũi khâu;adj:stitched:được khâu
+word=dye|family=v:dye:nhuộm;n:dye:thuốc nhuộm;adj:dyed:đã nhuộm
+word=author|family=n:author:tác giả;v:author:viết, biên soạn;adj:authorial:thuộc tác giả
+word=fiction|family=n:fiction:hư cấu;adj:fictional:hư cấu
+word=character|family=n:character:nhân vật;v:characterize:mô tả đặc trưng;adj:characteristic:đặc trưng
+word=hero|family=n:hero:anh hùng;adj:heroic:anh hùng;adv:heroically:một cách anh hùng
+word=villain|family=n:villain:kẻ phản diện;adj:villainous:xấu xa, phản diện
+word=setting|family=n:setting:bối cảnh;v:set:đặt bối cảnh
+word=adventure|family=n:adventure:cuộc phiêu lưu;v:adventure:phiêu lưu;adj:adventurous:thích phiêu lưu
+word=mystery|family=n:mystery:bí ẩn;adj:mysterious:bí ẩn;adv:mysteriously:một cách bí ẩn
+word=review|family=n:review:nhận xét;v:review:đánh giá;adj:reviewable:có thể xem xét
+word=recommend|family=v:recommend:giới thiệu;n:recommendation:lời đề xuất;adj:recommended:được khuyên dùng
+word=series|family=n:series:bộ truyện;v:serialize:đăng theo kỳ;adj:serial:theo chuỗi
+word=tense|family=adj:tense:căng thẳng;n:tension:sự căng thẳng;v:tense:làm căng;adv:tensely:một cách căng thẳng
+word=embarrassed|family=adj:embarrassed:xấu hổ;n:embarrassment:sự xấu hổ;v:embarrass:làm xấu hổ;adv:embarrassingly:một cách đáng ngượng
+word=lonely|family=adj:lonely:cô đơn;n:loneliness:sự cô đơn
+word=relieved|family=adj:relieved:nhẹ nhõm;n:relief:sự nhẹ nhõm;v:relieve:làm nhẹ nhõm
+word=overwhelmed|family=adj:overwhelmed:choáng ngợp;v:overwhelm:làm choáng ngợp
+word=miserable|family=adj:miserable:khổ sở;n:misery:sự khổ sở;adv:miserably:một cách khổ sở
+word=mood|family=n:mood:tâm trạng;adj:moody:thất thường
+word=sympathy|family=n:sympathy:sự đồng cảm;v:sympathize:đồng cảm;adj:sympathetic:biết cảm thông;adv:sympathetically:một cách cảm thông
+word=cope|family=v:cope:đối phó;n:coping:sự đối phó
+word=peninsula|family=n:peninsula:bán đảo;adj:peninsular:thuộc bán đảo
+word=ocean|family=n:ocean:đại dương;adj:oceanic:thuộc đại dương
+word=glacier|family=n:glacier:sông băng;adj:glacial:thuộc sông băng
+word=volcano|family=n:volcano:núi lửa;adj:volcanic:thuộc núi lửa
+word=tide|family=n:tide:thủy triều;adj:tidal:thuộc thủy triều
+word=horizon|family=n:horizon:đường chân trời;adj:horizontal:nằm ngang;adv:horizontally:theo chiều ngang
+word=altitude|family=n:altitude:độ cao;adj:altitudinal:thuộc độ cao
+word=share|family=v:share:chia sẻ;n:share:phần chia sẻ;adj:shared:được chia sẻ
+word=profile|family=n:profile:hồ sơ cá nhân;v:profile:lập hồ sơ;adj:profiled:được lập hồ sơ
+word=caption|family=n:caption:chú thích;v:caption:viết chú thích;adj:captioned:có chú thích
+word=hashtag|family=n:hashtag:thẻ;v:hashtag:gắn thẻ hashtag
+word=trend|family=n:trend:xu hướng;v:trend:có xu hướng;adj:trendy:hợp xu hướng
+word=influencer|family=n:influencer:người có ảnh hưởng;v:influence:ảnh hưởng;adj:influential:có ảnh hưởng
+word=subscriber|family=n:subscriber:người đăng ký;v:subscribe:đăng ký

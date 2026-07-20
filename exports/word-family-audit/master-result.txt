@@ -1,0 +1,192 @@
+word=methodology|family=n:methodology:phương pháp luận;adj:methodological:thuộc phương pháp luận;adv:methodologically:về mặt phương pháp
+word=citation|family=n:citation:trích dẫn;v:cite:trích dẫn
+word=abstract|family=n:abstract:tóm tắt;v:abstract:tóm tắt
+word=paraphrase|family=v:paraphrase:diễn giải lại;n:paraphrase:bản diễn giải
+word=reasoning|family=n:reasoning:lập luận;v:reason:lập luận;adj:reasoned:có suy xét
+word=critique|family=n:critique:phê bình;v:critique:phê bình
+word=bibliography|family=n:bibliography:danh mục tài liệu tham khảo;adj:bibliographic:thuộc thư mục
+word=peer review|family=n:peer review:phản biện đồng nghiệp;v:peer-review:phản biện đồng nghiệp;adj:peer-reviewed:được phản biện
+word=defendant|family=n:defendant:bị cáo;v:defend:bào chữa;adj:defensive:mang tính phòng thủ
+word=testimony|family=n:testimony:lời khai;v:testify:làm chứng;adj:testimonial:thuộc lời chứng
+word=prosecution|family=n:prosecution:bên công tố;v:prosecute:truy tố;adj:prosecutorial:thuộc công tố
+word=legislation|family=n:legislation:luật pháp;v:legislate:ban hành luật;adj:legislative:thuộc lập pháp;adv:legislatively:bằng luật pháp
+word=indictment|family=n:indictment:cáo trạng;v:indict:truy tố;adj:indictable:có thể bị truy tố
+word=extradition|family=n:extradition:dẫn độ;v:extradite:dẫn độ
+word=penalty|family=n:penalty:hình phạt;v:penalize:phạt;adj:penal:thuộc hình phạt
+word=statute|family=n:statute:quy chế;adj:statutory:theo luật định;adv:statutorily:theo luật định
+word=constitute|family=v:constitute:cấu thành;n:constitution:sự cấu thành;adj:constituent:cấu thành
+word=evidence|family=n:evidence:bằng chứng pháp lý;adj:evident:rõ ràng;adv:evidently:rõ ràng là
+word=variable|family=n:variable:biến số;v:vary:thay đổi;adj:variable:có thể thay đổi;adv:variably:một cách khác nhau
+word=finding|family=n:finding:phát hiện nghiên cứu;v:find:phát hiện
+word=molecule|family=n:molecule:phân tử;adj:molecular:thuộc phân tử;adv:molecularly:ở cấp phân tử
+word=genome|family=n:genome:bộ gen;adj:genomic:thuộc bộ gen
+word=theory|family=n:theory:lý thuyết;adj:theoretical:thuộc lý thuyết;adv:theoretically:về mặt lý thuyết
+word=ethics|family=n:ethics:đạo đức nghiên cứu;adj:ethical:có đạo đức;adv:ethically:về mặt đạo đức
+word=peer-reviewed|family=adj:peer-reviewed:được phản biện học thuật;n:peer review:phản biện đồng nghiệp;v:peer-review:phản biện đồng nghiệp
+word=curriculum|family=n:curriculum:chương trình giảng dạy;adj:curricular:thuộc chương trình học
+word=pedagogy|family=n:pedagogy:phương pháp sư phạm;adj:pedagogical:thuộc sư phạm;adv:pedagogically:về mặt sư phạm
+word=literacy|family=n:literacy:năng lực đọc viết;adj:literate:biết đọc viết
+word=enrollment|family=n:enrollment:sự ghi danh nhập học;v:enroll:ghi danh;adj:enrolled:đã ghi danh
+word=dropout|family=n:dropout:bỏ học giữa chừng;v:drop out:bỏ học
+word=vocational|family=adj:vocational:hướng nghề;n:vocation:nghề nghiệp
+word=discipline|family=n:discipline:kỷ luật;v:discipline:rèn kỷ luật;adj:disciplinary:thuộc kỷ luật
+word=harvest|family=n:harvest:thu hoạch mùa màng;v:harvest:thu hoạch;adj:harvested:đã thu hoạch
+word=fertilizer|family=n:fertilizer:phân bón;v:fertilize:bón phân;adj:fertile:màu mỡ
+word=yield|family=n:yield:năng suất;v:yield:tạo ra sản lượng;adj:yielding:cho năng suất
+word=crop|family=n:crop:vụ mùa;v:crop:thu hoạch, cắt
+word=subsistence|family=adj:subsistence:tự cung tự cấp;n:subsistence:sự tự cung;v:subsist:tự sinh sống
+word=pitch|family=n:pitch:thuyết trình kêu gọi đầu tư;v:pitch:thuyết trình ý tưởng
+word=pivot|family=v:pivot:thay đổi hướng kinh doanh;n:pivot:điểm xoay;adj:pivotal:then chốt
+word=incubator|family=n:incubator:vườn ươm doanh nghiệp;v:incubate:ươm tạo
+word=funding|family=n:funding:vốn tài trợ;v:fund:tài trợ;adj:funded:được tài trợ
+word=accelerator|family=n:accelerator:chương trình tăng tốc khởi nghiệp;v:accelerate:tăng tốc;adj:accelerated:được tăng tốc
+word=disruption|family=n:disruption:sự gián đoạn;v:disrupt:phá vỡ;adj:disruptive:gây đột phá
+word=linguistics|family=n:linguistics:ngôn ngữ học;adj:linguistic:thuộc ngôn ngữ;adv:linguistically:về mặt ngôn ngữ
+word=dialect|family=n:dialect:phương ngữ;adj:dialectal:thuộc phương ngữ
+word=fluency|family=n:fluency:sự thông thạo ngôn ngữ;adj:fluent:thông thạo;adv:fluently:một cách lưu loát
+word=rhetoric|family=n:rhetoric:tu từ học;adj:rhetorical:thuộc tu từ;adv:rhetorically:về mặt tu từ
+word=nuance|family=n:nuance:sắc thái tinh tế;adj:nuanced:có sắc thái tinh tế
+word=bilingual|family=adj:bilingual:song ngữ;n:bilingualism:khả năng song ngữ
+word=discourse|family=n:discourse:diễn ngôn;v:discourse:diễn thuyết
+word=syntax|family=n:syntax:cú pháp;adj:syntactic:thuộc cú pháp;adv:syntactically:về mặt cú pháp
+word=etymology|family=n:etymology:từ nguyên học;adj:etymological:thuộc từ nguyên;adv:etymologically:về mặt từ nguyên
+word=morality|family=n:morality:đạo đức;adj:moral:thuộc đạo đức;adv:morally:về mặt đạo đức
+word=virtue|family=n:virtue:đức hạnh;adj:virtuous:có đức hạnh
+word=consciousness|family=n:consciousness:ý thức;adj:conscious:có ý thức;adv:consciously:một cách có ý thức
+word=doctrine|family=n:doctrine:học thuyết;adj:doctrinal:thuộc học thuyết
+word=paradox|family=n:paradox:nghịch lý;adj:paradoxical:nghịch lý;adv:paradoxically:một cách nghịch lý
+word=axiom|family=n:axiom:tiên đề;adj:axiomatic:hiển nhiên;adv:axiomatically:như một tiên đề
+word=deontology|family=n:deontology:đạo đức học nghĩa vụ;adj:deontological:thuộc đạo đức nghĩa vụ
+word=skepticism|family=n:skepticism:chủ nghĩa hoài nghi;adj:skeptical:hoài nghi;adv:skeptically:một cách hoài nghi
+word=implication|family=n:implication:hàm ý;v:imply:hàm ý;adj:implicit:ngầm hiểu;adv:implicitly:một cách ngầm
+word=utilitarianism|family=n:utilitarianism:chủ nghĩa vị lợi;adj:utilitarian:thuộc chủ nghĩa vị lợi
+word=epistemology|family=n:epistemology:nhận thức luận;adj:epistemological:thuộc nhận thức luận
+word=constitution|family=n:constitution:hiến pháp;v:constitute:cấu thành;adj:constitutional:thuộc hiến pháp;adv:constitutionally:theo hiến pháp
+word=amendment|family=n:amendment:tu chính án;v:amend:sửa đổi;adj:amended:đã sửa đổi
+word=jurisdiction|family=n:jurisdiction:thẩm quyền xét xử;adj:jurisdictional:thuộc thẩm quyền
+word=precedent|family=n:precedent:án lệ;adj:precedential:có giá trị tiền lệ
+word=impeachment|family=n:impeachment:luận tội;v:impeach:luận tội;adj:impeachable:có thể bị luận tội
+word=legislature|family=n:legislature:cơ quan lập pháp;v:legislate:lập pháp;adj:legislative:thuộc lập pháp
+word=stewardship|family=n:stewardship:quản lý;v:steward:quản lý
+word=biodiversity|family=n:biodiversity:đa dạng sinh học;adj:biodiverse:đa dạng sinh học
+word=directive|family=n:directive:chỉ thị;v:direct:chỉ đạo;adj:directive:mang tính chỉ đạo
+word=sustainability|family=n:sustainability:tính bền vững;v:sustain:duy trì;adj:sustainable:bền vững;adv:sustainably:một cách bền vững
+word=authoritarianism|family=n:authoritarianism:chủ nghĩa độc đoán;adj:authoritarian:độc đoán
+word=ideology|family=n:ideology:hệ tư tưởng;adj:ideological:thuộc hệ tư tưởng;adv:ideologically:về mặt tư tưởng
+word=populism|family=n:populism:chủ nghĩa dân túy;adj:populist:dân túy
+word=governance|family=n:governance:quản trị;v:govern:quản trị;adj:governing:cầm quyền
+word=pluralism|family=n:pluralism:chủ nghĩa đa nguyên;adj:pluralistic:mang tính đa nguyên
+word=constitutionalism|family=n:constitutionalism:chủ nghĩa hợp hiến;adj:constitutional:thuộc hiến pháp
+word=federalism|family=n:federalism:chủ nghĩa liên bang;adj:federal:thuộc liên bang;adv:federally:ở cấp liên bang
+word=oversight|family=n:oversight:giám sát;v:oversee:giám sát
+word=constituency|family=n:constituency:khu vực bầu cử;adj:constituent:thuộc cử tri
+word=lobbying|family=n:lobbying:vận động hành lang;v:lobby:vận động hành lang
+word=mandate|family=n:mandate:ủy quyền;v:mandate:ủy quyền, bắt buộc;adj:mandatory:bắt buộc;adv:mandatorily:theo quy định bắt buộc
+word=proposition|family=n:proposition:mệnh đề;v:propose:đề xuất;adj:propositional:thuộc mệnh đề
+word=plagiarism|family=n:plagiarism:đạo văn;v:plagiarize:đạo văn
+word=sovereignty|family=n:sovereignty:chủ quyền;adj:sovereign:có chủ quyền
+word=sanction|family=n:sanction:lệnh trừng phạt;v:sanction:trừng phạt, cho phép
+word=alliance|family=n:alliance:liên minh;v:ally:liên minh;adj:allied:đồng minh
+word=nationalism|family=n:nationalism:chủ nghĩa dân tộc;adj:nationalist:mang tính dân tộc
+word=tension|family=n:tension:căng thẳng;adj:tense:căng thẳng
+word=deterrence|family=n:deterrence:sự răn đe;v:deter:răn đe;adj:deterrent:có tác dụng răn đe
+word=recession|family=n:recession:suy thoái kinh tế;adj:recessionary:thuộc suy thoái
+word=austerity|family=n:austerity:chính sách thắt lưng buộc bụng;adj:austere:khắc khổ, thắt chặt
+word=euthanasia|family=n:euthanasia:an tử;v:euthanize:cho an tử;adj:euthanized:được cho an tử
+word=autonomy|family=n:autonomy:quyền tự quyết;adj:autonomous:tự chủ;adv:autonomously:một cách tự chủ
+word=privilege|family=n:privilege:đặc quyền;v:privilege:trao đặc quyền;adj:privileged:có đặc quyền
+word=stigma|family=n:stigma:sự kỳ thị;v:stigmatize:kỳ thị;adj:stigmatized:bị kỳ thị
+word=institution|family=n:institution:thể chế;v:institutionalize:thể chế hóa;adj:institutional:thuộc thể chế;adv:institutionally:về mặt thể chế
+word=stratification|family=n:stratification:phân tầng xã hội;v:stratify:phân tầng;adj:stratified:bị phân tầng
+word=intersectionality|family=n:intersectionality:giao thoa bản sắc;adj:intersectional:mang tính giao thoa
+word=fiduciary|family=adj:fiduciary:ủy thác;n:fiduciary:người được ủy thác
+word=algorithm|family=n:algorithm:thuật toán;adj:algorithmic:thuộc thuật toán;adv:algorithmically:theo thuật toán
+word=obsolescence|family=n:obsolescence:sự lỗi thời;adj:obsolete:lỗi thời
+word=rights|family=n:rights:quyền;adj:rightful:chính đáng;adv:rightfully:một cách chính đáng
+word=liability|family=n:liability:trách nhiệm pháp lý;adj:liable:chịu trách nhiệm
+word=explainability|family=n:explainability:khả năng giải thích;v:explain:giải thích;adj:explainable:có thể giải thích
+word=bias|family=n:bias:thành kiến;v:bias:làm thiên lệch;adj:biased:thiên lệch
+word=credibility|family=n:credibility:độ tin cậy;adj:credible:đáng tin cậy;adv:credibly:một cách đáng tin
+word=objectivity|family=n:objectivity:tính khách quan;adj:objective:khách quan;adv:objectively:một cách khách quan
+word=misinformation|family=n:misinformation:thông tin sai lệch;v:misinform:cung cấp tin sai;adj:misinformed:bị thông tin sai
+word=sensationalism|family=n:sensationalism:chủ nghĩa giật gân;adj:sensationalist:mang tính giật gân
+word=framing|family=n:framing:đóng khung thông tin;v:frame:đóng khung thông tin;adj:framed:được đóng khung
+word=propaganda|family=n:propaganda:tuyên truyền;adj:propagandistic:mang tính tuyên truyền
+word=fact-check|family=v:fact-check:kiểm tra thực tế;n:fact-check:việc kiểm chứng
+word=representation|family=n:representation:sự đại diện;v:represent:đại diện;adj:representative:mang tính đại diện
+word=argument|family=n:argument:lập luận;v:argue:lập luận;adj:argumentative:mang tính tranh luận
+word=persuasion|family=n:persuasion:sự thuyết phục;v:persuade:thuyết phục;adj:persuasive:có sức thuyết phục;adv:persuasively:một cách thuyết phục
+word=rebuttal|family=n:rebuttal:phản bác;v:rebut:phản bác
+word=concession|family=n:concession:nhượng bộ;v:concede:nhượng bộ
+word=syllogism|family=n:syllogism:tam đoạn luận;adj:syllogistic:thuộc tam đoạn luận
+word=eloquence|family=n:eloquence:sự hùng hồn;adj:eloquent:hùng hồn;adv:eloquently:một cách hùng hồn
+word=antithesis|family=n:antithesis:phản đề;adj:antithetical:hoàn toàn đối lập
+word=claim|family=n:claim:tuyên bố;v:claim:khẳng định
+word=deliberation|family=n:deliberation:sự cân nhắc;v:deliberate:cân nhắc kỹ;adj:deliberate:có chủ ý;adv:deliberately:một cách có chủ ý
+word=harmonization|family=n:harmonization:hài hòa hóa;v:harmonize:hài hòa hóa;adj:harmonized:được đồng bộ hóa
+word=cooperation|family=n:cooperation:hợp tác;v:cooperate:hợp tác;adj:cooperative:có tính hợp tác;adv:cooperatively:một cách hợp tác
+word=embargo|family=n:embargo:lệnh cấm vận;v:embargo:cấm vận
+word=mediation|family=n:mediation:hòa giải;v:mediate:hòa giải;adj:mediated:qua trung gian
+word=extraterritorial|family=adj:extraterritorial:ngoài lãnh thổ;n:extraterritoriality:tính ngoài lãnh thổ
+word=consent|family=n:consent:sự đồng ý;v:consent:đồng ý;adj:consensual:có sự đồng thuận;adv:consensually:theo sự đồng thuận
+word=enhancement|family=n:enhancement:tăng cường năng lực con người;v:enhance:tăng cường;adj:enhanced:được tăng cường
+word=beneficence|family=n:beneficence:nguyên tắc từ thiện;adj:beneficent:nhân từ
+word=permissibility|family=n:permissibility:tính cho phép;adj:permissible:được phép
+word=cloning|family=n:cloning:nhân bản;v:clone:nhân bản;adj:cloned:được nhân bản
+word=transhumanism|family=n:transhumanism:chủ nghĩa siêu nhân;adj:transhumanist:thuộc chủ nghĩa siêu nhân
+word=warrant|family=n:warrant:cơ sở biện hộ;v:warrant:biện minh;adj:warranted:có căn cứ
+word=fallacy|family=n:fallacy:ngụy biện;adj:fallacious:sai về lập luận
+word=premise|family=n:premise:tiền đề;v:premise:đặt làm tiền đề;adj:premised:dựa trên tiền đề
+word=assumption|family=n:assumption:giả định;v:assume:giả định;adj:assumed:được giả định
+word=inference|family=n:inference:suy luận;v:infer:suy luận;adj:inferential:thuộc suy luận
+word=assertion|family=n:assertion:khẳng định;v:assert:khẳng định;adj:assertive:quả quyết
+word=deconstruct|family=v:deconstruct:phân tích tháo gỡ;n:deconstruction:sự giải cấu trúc;adj:deconstructive:mang tính giải cấu trúc
+word=coherence|family=n:coherence:tính mạch lạc;adj:coherent:mạch lạc;adv:coherently:một cách mạch lạc
+word=substantiate|family=v:substantiate:chứng minh;n:substantiation:sự chứng minh;adj:substantiated:được chứng minh
+word=refutation|family=n:refutation:sự bác bỏ;v:refute:bác bỏ;adj:refutable:có thể bác bỏ
+word=qualifier|family=n:qualifier:từ giới hạn;v:qualify:hạn định;adj:qualified:có điều kiện
+word=interdependence|family=n:interdependence:sự phụ thuộc lẫn nhau;adj:interdependent:phụ thuộc lẫn nhau
+word=corporation|family=n:corporation:tập đoàn đa quốc gia;adj:corporate:thuộc doanh nghiệp
+word=convergence|family=n:convergence:sự hội tụ;v:converge:hội tụ;adj:convergent:có xu hướng hội tụ
+word=dominance|family=n:dominance:sự thống trị;v:dominate:thống trị;adj:dominant:thống trị;adv:dominantly:một cách chi phối
+word=localization|family=n:localization:địa phương hóa;v:localize:địa phương hóa;adj:localized:được địa phương hóa
+word=polarization|family=n:polarization:phân cực;v:polarize:phân cực;adj:polarized:bị phân cực
+word=competition|family=n:competition:cạnh tranh;v:compete:cạnh tranh;adj:competitive:có tính cạnh tranh;adv:competitively:một cách cạnh tranh
+word=opportunity|family=n:opportunity:cơ hội;adj:opportune:đúng thời điểm
+word=outsourcing|family=n:outsourcing:thuê ngoài;v:outsource:thuê ngoài;adj:outsourced:được thuê ngoài
+word=movement|family=n:movement:phong trào;v:move:vận động
+word=protest|family=n:protest:biểu tình;v:protest:phản đối
+word=activism|family=n:activism:chủ nghĩa hoạt động;adj:activist:mang tính hoạt động
+word=transformation|family=n:transformation:sự biến đổi;v:transform:biến đổi;adj:transformative:có sức biến đổi
+word=resistance|family=n:resistance:kháng cự;v:resist:kháng cự;adj:resistant:có sức chống chịu
+word=demonstration|family=n:demonstration:cuộc biểu tình;v:demonstrate:biểu tình, chứng minh;adj:demonstrative:mang tính biểu thị
+word=grassroots|family=adj:grassroots:cơ sở;n:grassroots:tầng lớp cơ sở
+word=diaspora|family=n:diaspora:cộng đồng người di cư;adj:diasporic:thuộc cộng đồng hải ngoại
+word=integration|family=n:integration:hội nhập;v:integrate:hội nhập;adj:integrated:được hội nhập
+word=assimilation|family=n:assimilation:đồng hóa văn hóa;v:assimilate:đồng hóa;adj:assimilated:đã đồng hóa
+word=belonging|family=n:belonging:cảm giác thuộc về;v:belong:thuộc về
+word=multiculturalism|family=n:multiculturalism:chủ nghĩa đa văn hóa;adj:multicultural:đa văn hóa
+word=acceptance|family=n:acceptance:sự chấp nhận;v:accept:chấp nhận;adj:acceptable:có thể chấp nhận;adv:acceptably:ở mức chấp nhận
+word=xenophobia|family=n:xenophobia:bài ngoại;adj:xenophobic:bài ngoại
+word=naturalization|family=n:naturalization:nhập quốc tịch;v:naturalize:nhập quốc tịch;adj:naturalized:đã nhập quốc tịch
+word=heuristic|family=n:heuristic:phép tắc ngón tay cái;adj:heuristic:mang tính khám phá
+word=manipulation|family=n:manipulation:thao túng;v:manipulate:thao túng;adj:manipulative:có tính thao túng
+word=attitude|family=n:attitude:thái độ;adj:attitudinal:thuộc thái độ
+word=scapegoating|family=n:scapegoating:đổ lỗi;v:scapegoat:đổ lỗi oan
+word=consumption|family=n:consumption:tiêu thụ;v:consume:tiêu thụ
+word=materialism|family=n:materialism:chủ nghĩa vật chất;adj:materialistic:nặng vật chất
+word=waste|family=n:waste:lãng phí;v:waste:lãng phí;adj:wasteful:lãng phí;adv:wastefully:một cách lãng phí
+word=aspiration|family=n:aspiration:khát vọng;v:aspire:khao khát;adj:aspirational:đầy khát vọng
+word=impulse|family=n:impulse:bốc đồng;adj:impulsive:bốc đồng;adv:impulsively:một cách bốc đồng
+word=disposability|family=n:disposability:tính dùng xong bỏ;adj:disposable:dùng một lần
+word=debt|family=n:debt:nợ tiêu dùng;adj:indebted:mắc nợ
+word=brand|family=n:brand:thương hiệu;v:brand:gắn thương hiệu;adj:branded:có thương hiệu
+word=hegemony|family=n:hegemony:quyền bá chủ;adj:hegemonic:mang tính bá quyền
+word=subtext|family=n:subtext:ẩn ý;adj:subtextual:thuộc hàm ý
+word=legitimize|family=v:legitimize:hợp thức hóa;n:legitimacy:tính hợp pháp;adj:legitimate:hợp pháp;adv:legitimately:một cách hợp pháp
+word=suppression|family=n:suppression:đàn áp;v:suppress:đàn áp;adj:suppressive:có tính đàn áp
+word=indoctrination|family=n:indoctrination:nhồi nhét tư tưởng;v:indoctrinate:nhồi sọ;adj:indoctrinated:bị nhồi sọ
+word=appropriation|family=n:appropriation:chiếm dụng văn hóa;v:appropriate:chiếm dụng
+word=multilingual|family=adj:multilingual:đa ngôn ngữ;n:multilingualism:tính đa ngôn ngữ
+word=dominant|family=adj:dominant:thống trị;n:dominance:sự thống trị;v:dominate:thống trị
+word=power|family=n:power:quyền lực;adj:powerful:mạnh mẽ, quyền lực;adv:powerfully:một cách mạnh mẽ

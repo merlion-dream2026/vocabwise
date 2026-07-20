@@ -1,0 +1,262 @@
+word=headline|pos=n|meaning=tiêu đề (báo)
+word=journalist|pos=n|meaning=nhà báo
+word=editorial|pos=n|meaning=bài xã luận
+word=bias|pos=n|meaning=thiên kiến, thành kiến
+word=correspondent|pos=n|meaning=phóng viên thường trú
+word=propaganda|pos=n|meaning=tuyên truyền
+word=circulation|pos=n|meaning=lượng phát hành
+word=source|pos=n|meaning=nguồn tin
+word=recession|pos=n|meaning=suy thoái kinh tế
+word=tariff|pos=n|meaning=thuế quan
+word=deficit|pos=n|meaning=thâm hụt ngân sách
+word=commodity|pos=n|meaning=hàng hóa cơ bản
+word=currency|pos=n|meaning=tiền tệ
+word=GDP|pos=n|meaning=tổng sản phẩm quốc nội
+word=interest rate|pos=n|meaning=lãi suất
+word=trauma|pos=n|meaning=chấn thương tâm lý
+word=resilience|pos=n|meaning=khả năng phục hồi tâm lý
+word=subconscious|pos=n|meaning=tiềm thức
+word=disorder|pos=n|meaning=rối loạn tâm lý
+word=constitution|pos=n|meaning=hiến pháp
+word=parliament|pos=n|meaning=nghị viện
+word=ideology|pos=n|meaning=hệ tư tưởng
+word=referendum|pos=n|meaning=trưng cầu dân ý
+word=coalition|pos=n|meaning=liên minh chính trị
+word=sovereignty|pos=n|meaning=chủ quyền
+word=sanction|pos=n|meaning=lệnh trừng phạt
+word=treaty|pos=n|meaning=hiệp ước
+word=policy|pos=n|meaning=chính sách
+word=emission|pos=n|meaning=khí thải
+word=biodiversity|pos=n|meaning=đa dạng sinh học
+word=carbon footprint|pos=n|meaning=dấu chân carbon
+word=landfill|pos=n|meaning=bãi chôn lấp rác
+word=protocol|pos=n|meaning=nghị định thư
+word=offshore|pos=adj|meaning=ngoài khơi
+word=carbon neutral|pos=adj|meaning=trung hòa carbon
+word=symptom|pos=n|meaning=triệu chứng
+word=chronic|pos=adj|meaning=mãn tính
+word=pandemic|pos=n|meaning=đại dịch
+word=pharmaceutical|pos=adj|meaning=dược phẩm
+word=artificial intelligence|pos=n|meaning=trí tuệ nhân tạo
+word=algorithm|pos=n|meaning=thuật toán
+word=cybersecurity|pos=n|meaning=an ninh mạng
+word=virtual reality|pos=n|meaning=thực tế ảo
+word=blockchain|pos=n|meaning=chuỗi khối
+word=interface|pos=n|meaning=giao diện
+word=prototype|pos=n|meaning=nguyên mẫu
+word=bandwidth|pos=n|meaning=băng thông mạng
+word=machine learning|pos=n|meaning=học máy
+word=heritage|pos=n|meaning=di sản văn hóa
+word=sculpture|pos=n|meaning=điêu khắc
+word=curator|pos=n|meaning=người quản lý triển lãm
+word=exhibition|pos=n|meaning=cuộc triển lãm
+word=portrait|pos=n|meaning=chân dung
+word=abstract|pos=adj|meaning=trừu tượng
+word=genre|pos=n|meaning=thể loại (nghệ thuật)
+word=masterpiece|pos=n|meaning=kiệt tác
+word=Renaissance|pos=n|meaning=thời kỳ Phục Hưng
+word=installation|pos=n|meaning=tác phẩm sắp đặt
+word=strategy|pos=n|meaning=chiến lược
+word=revenue|pos=n|meaning=doanh thu
+word=stakeholder|pos=n|meaning=các bên liên quan
+word=merger|pos=n|meaning=sáp nhập
+word=liability|pos=n|meaning=trách nhiệm pháp lý tài chính
+word=dividend|pos=n|meaning=cổ tức
+word=benchmark|pos=n|meaning=tiêu chuẩn đối sánh
+word=partnership|pos=n|meaning=hợp tác kinh doanh
+word=zoning|pos=n|meaning=phân vùng quy hoạch
+word=gentrification|pos=n|meaning=sự biến đổi khu dân cư cũ thành khu cao cấp
+word=municipality|pos=n|meaning=chính quyền đô thị
+word=transit|pos=n|meaning=giao thông vận tải công cộng
+word=skyscraper|pos=n|meaning=tòa nhà chọc trời
+word=congestion|pos=n|meaning=tắc nghẽn giao thông
+word=landmark|pos=n|meaning=địa danh, công trình nổi tiếng
+word=pedestrian|pos=n|meaning=người đi bộ
+word=urban sprawl|pos=n|meaning=mở rộng đô thị ra ngoại ô
+word=refugee|pos=n|meaning=người tị nạn
+word=famine|pos=n|meaning=nạn đói
+word=terrorism|pos=n|meaning=khủng bố
+word=epidemic|pos=n|meaning=dịch bệnh (khu vực)
+word=geopolitics|pos=n|meaning=địa chính trị
+word=aid|pos=n|meaning=viện trợ
+word=protagonist|pos=n|meaning=nhân vật chính
+word=antagonist|pos=n|meaning=nhân vật phản diện
+word=theme|pos=n|meaning=chủ đề (văn học)
+word=motif|pos=n|meaning=mô-típ văn học
+word=foreshadowing|pos=n|meaning=điềm báo, dự báo trước
+word=allegory|pos=n|meaning=ngụ ngôn
+word=prose|pos=n|meaning=văn xuôi
+word=verse|pos=n|meaning=thơ, câu thơ
+word=galaxy|pos=n|meaning=thiên hà
+word=orbit|pos=n|meaning=quỹ đạo
+word=asteroid|pos=n|meaning=tiểu hành tinh
+word=telescope|pos=n|meaning=kính thiên văn
+word=gravity|pos=n|meaning=trọng lực
+word=atmosphere|pos=n|meaning=bầu khí quyển
+word=comet|pos=n|meaning=sao chổi
+word=black hole|pos=n|meaning=hố đen
+word=constellation|pos=n|meaning=chòm sao
+word=nebula|pos=n|meaning=tinh vân
+word=satellite|pos=n|meaning=vệ tinh nhân tạo
+word=astronaut|pos=n|meaning=phi hành gia
+word=solar system|pos=n|meaning=hệ mặt trời
+word=convention|pos=n|meaning=công ước quốc tế
+word=asylum|pos=n|meaning=nơi tị nạn chính trị
+word=dignity|pos=n|meaning=phẩm giá con người
+word=charter|pos=n|meaning=hiến chương
+word=tactics|pos=n|meaning=chiến thuật
+word=stamina|pos=n|meaning=thể lực, sức chịu đựng
+word=tournament|pos=n|meaning=giải đấu
+word=championship|pos=n|meaning=chức vô địch
+word=sportsmanship|pos=n|meaning=tinh thần thể thao
+word=empire|pos=n|meaning=đế chế
+word=dynasty|pos=n|meaning=triều đại
+word=colonialism|pos=n|meaning=chủ nghĩa thực dân
+word=artifact|pos=n|meaning=hiện vật lịch sử
+word=feudal|pos=adj|meaning=phong kiến
+word=legacy|pos=n|meaning=di sản (lịch sử)
+word=monument|pos=n|meaning=di tích lịch sử, đài tưởng niệm
+word=uprising|pos=n|meaning=cuộc nổi dậy
+word=misinformation|pos=n|meaning=thông tin sai lệch
+word=deepfake|pos=n|meaning=video giả mạo bằng AI
+word=cyberbullying|pos=n|meaning=bắt nạt trực tuyến
+word=influencer|pos=n|meaning=người có tầm ảnh hưởng trên mạng
+word=streaming|pos=n|meaning=phát trực tuyến
+word=digital divide|pos=n|meaning=khoảng cách số
+word=netizen|pos=n|meaning=công dân mạng
+word=norm|pos=n|meaning=chuẩn mực xã hội
+word=peer pressure|pos=n|meaning=áp lực đồng trang lứa
+word=hierarchy|pos=n|meaning=hệ thống cấp bậc
+word=taboo|pos=n|meaning=điều cấm kỵ
+word=ritual|pos=n|meaning=nghi lễ, nghi thức
+word=status|pos=n|meaning=địa vị xã hội
+word=etiquette|pos=n|meaning=phép lịch sự, quy tắc ứng xử
+word=interaction|pos=n|meaning=sự tương tác
+word=community|pos=n|meaning=cộng đồng
+word=promotion|pos=n|meaning=sự thăng chức
+word=mentor|pos=n|meaning=người hướng dẫn, cố vấn
+word=burnout|pos=n|meaning=kiệt sức (công việc)
+word=productivity|pos=n|meaning=năng suất làm việc
+word=appraisal|pos=n|meaning=đánh giá năng lực nhân viên
+word=resign|pos=v|meaning=từ chức, xin nghỉ việc
+word=probation|pos=n|meaning=thời gian thử việc
+word=incentive|pos=n|meaning=phần thưởng khuyến khích
+word=feedback|pos=n|meaning=phản hồi, nhận xét
+word=colleague|pos=n|meaning=đồng nghiệp
+word=deadline|pos=n|meaning=hạn chót
+word=resume|pos=n|meaning=hồ sơ xin việc
+word=mediation|pos=n|meaning=hòa giải (bởi bên thứ ba)
+word=arbitration|pos=n|meaning=trọng tài phán xử
+word=compromise|pos=n|meaning=thỏa hiệp
+word=dispute|pos=n|meaning=tranh chấp
+word=tension|pos=n|meaning=căng thẳng (giữa các bên)
+word=ceasefire|pos=n|meaning=ngừng bắn
+word=diplomatic|pos=adj|meaning=ngoại giao, khéo léo
+word=consensus|pos=n|meaning=đồng thuận
+word=alliance|pos=n|meaning=liên minh
+word=resolution|pos=n|meaning=nghị quyết, giải pháp
+word=average|pos=n|meaning=giá trị trung bình
+word=median|pos=n|meaning=trung vị
+word=proportion|pos=n|meaning=tỷ lệ
+word=trend|pos=n|meaning=xu hướng
+word=outlier|pos=n|meaning=giá trị ngoại lệ
+word=distribution|pos=n|meaning=phân phối (thống kê)
+word=inference|pos=n|meaning=suy luận (từ dữ liệu)
+word=dataset|pos=n|meaning=tập dữ liệu
+word=regression|pos=n|meaning=hồi quy (thống kê)
+word=margin|pos=n|meaning=biên độ, sai số biên
+word=brainstorm|pos=v|meaning=động não, tạo ý tưởng
+word=inspiration|pos=n|meaning=cảm hứng
+word=breakthrough|pos=n|meaning=đột phá
+word=concept|pos=n|meaning=ý tưởng, khái niệm
+word=implement|pos=v|meaning=thực thi, triển khai
+word=refine|pos=v|meaning=tinh chỉnh, hoàn thiện
+word=unconventional|pos=adj|meaning=phi truyền thống, khác thường
+word=design thinking|pos=n|meaning=tư duy thiết kế
+word=ideation|pos=n|meaning=quá trình nảy sinh ý tưởng
+word=salary|pos=n|meaning=tiền lương
+word=income|pos=n|meaning=thu nhập
+word=savings|pos=n|meaning=tiền tiết kiệm
+word=loan|pos=n|meaning=khoản vay
+word=mortgage|pos=n|meaning=vay thế chấp mua nhà
+word=insurance|pos=n|meaning=bảo hiểm
+word=pension|pos=n|meaning=lương hưu
+word=expenditure|pos=n|meaning=chi tiêu
+word=investment|pos=n|meaning=đầu tư
+word=debt|pos=n|meaning=nợ
+word=advertisement|pos=n|meaning=quảng cáo
+word=brand|pos=n|meaning=thương hiệu
+word=consumer|pos=n|meaning=người tiêu dùng
+word=endorsement|pos=n|meaning=sự chứng thực / ủng hộ
+word=promote|pos=v|meaning=quảng bá
+word=sponsor|pos=v|meaning=tài trợ
+word=slogan|pos=n|meaning=khẩu hiệu
+word=purchase|pos=v|meaning=mua, việc mua hàng
+word=loyalty|pos=n|meaning=lòng trung thành (với thương hiệu)
+word=criminal|pos=n|meaning=tội phạm
+word=victim|pos=n|meaning=nạn nhân
+word=violence|pos=n|meaning=bạo lực
+word=punishment|pos=n|meaning=hình phạt
+word=sentence|pos=n|meaning=bản án
+word=arrest|pos=v|meaning=bắt giữ
+word=evidence|pos=n|meaning=bằng chứng
+word=deterrence|pos=n|meaning=sự răn đe
+word=conviction|pos=n|meaning=bản án kết tội
+word=rehabilitation|pos=n|meaning=cải tạo, phục hồi
+word=fine|pos=n|meaning=phạt tiền
+word=patrol|pos=v|meaning=tuần tra
+word=marriage|pos=n|meaning=hôn nhân
+word=divorce|pos=n|meaning=ly hôn
+word=generation|pos=n|meaning=thế hệ
+word=gender|pos=n|meaning=giới tính
+word=empowerment|pos=n|meaning=sự trao quyền
+word=commitment|pos=n|meaning=cam kết
+word=boundary|pos=n|meaning=ranh giới (cá nhân)
+word=tradition|pos=n|meaning=truyền thống
+word=responsibility|pos=n|meaning=trách nhiệm
+word=parental|pos=adj|meaning=thuộc về cha mẹ
+word=bond|pos=n|meaning=mối gắn kết
+word=kinship|pos=n|meaning=mối quan hệ thân tộc
+word=tourism|pos=n|meaning=du lịch
+word=destination|pos=n|meaning=điểm đến
+word=authentic|pos=adj|meaning=chân thực, địa phương
+word=accommodation|pos=n|meaning=chỗ ở
+word=impression|pos=n|meaning=ấn tượng
+word=pilgrimage|pos=n|meaning=hành hương
+word=custom|pos=n|meaning=phong tục
+word=resort|pos=n|meaning=khu nghỉ dưỡng
+word=hospitality|pos=n|meaning=lòng hiếu khách
+word=eco-tourism|pos=n|meaning=du lịch sinh thái
+word=itinerary|pos=n|meaning=lịch trình du lịch
+word=diverse|pos=adj|meaning=đa dạng
+word=wellbeing|pos=n|meaning=sức khỏe toàn diện
+word=routine|pos=n|meaning=thói quen hàng ngày
+word=mindfulness|pos=n|meaning=chánh niệm
+word=fitness|pos=n|meaning=thể lực, sức khoẻ thể chất
+word=lifestyle|pos=n|meaning=lối sống
+word=posture|pos=n|meaning=tư thế
+word=hydration|pos=n|meaning=bổ sung nước
+word=self-care|pos=n|meaning=tự chăm sóc bản thân
+word=habit|pos=n|meaning=thói quen
+word=holistic|pos=adj|meaning=toàn diện / tổng thể
+word=novel|pos=n|meaning=tiểu thuyết
+word=film|pos=n|meaning=bộ phim
+word=theatre|pos=n|meaning=nhà hát
+word=concert|pos=n|meaning=buổi hòa nhạc
+word=premiere|pos=n|meaning=buổi ra mắt đầu tiên
+word=audience|pos=n|meaning=khán giả
+word=spectacle|pos=n|meaning=cảnh tượng hoành tráng
+word=documentary|pos=n|meaning=phim tài liệu
+word=award|pos=n|meaning=giải thưởng
+word=screenplay|pos=n|meaning=kịch bản phim
+word=cast|pos=n|meaning=dàn diễn viên
+word=remake|pos=n|meaning=làm lại (phim/bài hát)
+word=inspire|pos=v|meaning=truyền cảm hứng
+word=complicity|pos=n|meaning=sự đồng lõa
+word=fairness|pos=n|meaning=sự công bằng
+word=culpability|pos=n|meaning=trách nhiệm / lỗi lầm
+word=consequence|pos=n|meaning=hậu quả
+word=obligation|pos=n|meaning=nghĩa vụ
+word=emancipation|pos=n|meaning=sự giải phóng
+word=dilemma|pos=n|meaning=tình huống khó xử
+word=deliberation|pos=n|meaning=sự cân nhắc kỹ lưỡng
