@@ -68,12 +68,13 @@ Nếu câu học sinh viết bị bỏ trống, chấm score=0, passed=false, us
     const rawResults: unknown[] = Array.isArray(parsed.results) ? parsed.results : []
     const results: GradedItem[] = items.map((_, i) => {
       const r = (rawResults[i] ?? {}) as Record<string, unknown>
+      const feedback = String(r.feedback_vi ?? '').trim()
       return {
         score:          Number(r.score ?? 0),
         passed:         !!r.passed,
         used_correctly: !!r.used_correctly,
         grammar_ok:     !!r.grammar_ok,
-        feedback_vi:    String(r.feedback_vi ?? ''),
+        feedback_vi:    feedback || 'Không có nhận xét chi tiết — so sánh câu của em với gợi ý bên dưới nhé.',
         improved:       String(r.improved ?? ''),
       }
     })
