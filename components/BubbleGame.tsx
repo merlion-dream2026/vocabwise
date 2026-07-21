@@ -104,9 +104,14 @@ export default function BubbleGame({ topic, level, backUrl }: Props) {
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
-        <div className="bg-gradient-to-br from-pink-400 to-rose-400 px-4 pt-12 pb-8 text-white">
-          <button onClick={() => router.push(backUrl)} className="text-pink-100 font-bold text-sm flex items-center gap-1 mb-4 opacity-90">← {topic.name}</button>
-          <h1 className="text-2xl font-black">🫧 Bắt Bong Bóng</h1>
+        <div className="bg-gradient-to-br from-pink-400 to-rose-400 px-4 pt-6 pb-4 text-white">
+          <div className="flex items-center gap-3">
+            <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-pink-100 text-xl flex-shrink-0 opacity-90 hover:opacity-100">←</button>
+            <div className="flex-1 min-w-0">
+              <p className="text-pink-100 text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5 opacity-90 truncate">{topic.name}</p>
+              <h1 className="text-lg font-black leading-tight truncate">🫧 Bắt Bong Bóng</h1>
+            </div>
+          </div>
         </div>
         <div className="flex-1 bg-gradient-to-b from-purple-50 to-pink-50 flex flex-col items-center justify-center px-4 py-8">
           <div className="text-7xl mb-4">{starEmoji}</div>
@@ -146,13 +151,16 @@ export default function BubbleGame({ topic, level, backUrl }: Props) {
         }
       `}</style>
       <div className="flex flex-col min-h-screen">
-        <div className="bg-gradient-to-br from-pink-400 to-rose-400 px-4 pt-12 pb-5 text-white">
-          <button onClick={() => router.push(backUrl)} className="text-pink-100 font-bold text-sm flex items-center gap-1 mb-3 opacity-90">← {topic.name}</button>
-          <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-black">🫧 Bắt Bong Bóng</h1>
-            <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm">{currentIdx + 1}/{total}</span>
+        <div className="bg-gradient-to-br from-pink-400 to-rose-400 px-4 pt-6 pb-4 text-white">
+          <div className="flex items-center gap-3">
+            <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-pink-100 text-xl flex-shrink-0 opacity-90 hover:opacity-100">←</button>
+            <div className="flex-1 min-w-0">
+              <p className="text-pink-100 text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5 opacity-90 truncate">{topic.name}</p>
+              <h1 className="text-lg font-black leading-tight truncate">🫧 Bắt Bong Bóng</h1>
+            </div>
+            <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm flex-shrink-0">{currentIdx + 1}/{total}</span>
           </div>
-          <div className="mt-3 h-2 bg-pink-200 rounded-full overflow-hidden">
+          <div className="mt-2 h-2 bg-pink-200 rounded-full overflow-hidden">
             <div
               className="h-full bg-pink-600 rounded-full transition-all duration-500"
               style={{ width: `${((currentIdx + 1) / total) * 100}%` }}

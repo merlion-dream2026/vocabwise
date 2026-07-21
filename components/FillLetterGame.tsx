@@ -118,9 +118,14 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti />}
-        <div className="bg-gradient-to-br from-orange-400 to-amber-500 px-4 pt-12 pb-8 text-white">
-          <button onClick={() => router.push(backUrl)} className="text-orange-100 font-bold text-sm flex items-center gap-1 mb-4">← {topic.name}</button>
-          <h1 className="text-2xl font-black">🔡 Điền chữ thiếu</h1>
+        <div className="bg-gradient-to-br from-orange-400 to-amber-500 px-4 pt-6 pb-4 text-white">
+          <div className="flex items-center gap-3">
+            <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-orange-100 text-xl flex-shrink-0">←</button>
+            <div className="flex-1 min-w-0">
+              <p className="text-orange-100 text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5">{topic.name}</p>
+              <h1 className="text-lg font-black leading-tight truncate">🔡 Điền chữ thiếu</h1>
+            </div>
+          </div>
         </div>
         <div className="flex-1 bg-gradient-to-b from-orange-50 to-amber-50 flex flex-col items-center justify-center px-4 py-8">
           <div className="text-7xl mb-4">{score === total ? '🏆' : score >= total * 0.7 ? '⭐' : '💪'}</div>
@@ -149,11 +154,14 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <div className="bg-gradient-to-br from-orange-400 to-amber-500 px-4 pt-12 pb-4 text-white">
-        <button onClick={() => router.push(backUrl)} className="text-orange-100 font-bold text-sm flex items-center gap-1 mb-3">← {topic.name}</button>
-        <div className="flex items-center justify-between mb-3">
-          <h1 className="text-2xl font-black">🔡 Điền chữ thiếu</h1>
-          <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm">{idx + 1}/{total}</span>
+      <div className="bg-gradient-to-br from-orange-400 to-amber-500 px-4 pt-6 pb-4 text-white">
+        <div className="flex items-center gap-3 mb-3">
+          <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-orange-100 text-xl flex-shrink-0">←</button>
+          <div className="flex-1 min-w-0">
+            <p className="text-orange-100 text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5">{topic.name}</p>
+            <h1 className="text-lg font-black leading-tight truncate">🔡 Điền chữ thiếu</h1>
+          </div>
+          <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm flex-shrink-0">{idx + 1}/{total}</span>
         </div>
         <div className="h-1.5 bg-white/20 rounded-full overflow-hidden">
           <div className="h-full bg-white/70 rounded-full transition-all duration-500" style={{ width: `${((idx + 1) / total) * 100}%` }} />
