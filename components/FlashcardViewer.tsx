@@ -285,19 +285,19 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
     <div className="flex flex-col min-h-screen">
       {showLimitModal && <UpgradeModal onClose={() => setShowLimitModal(false)} />}
       {/* Header */}
-      <div className={`${styles.headerBg} px-4 pt-12 pb-6 text-white`}>
-        <button onClick={() => router.push(backUrl)} className={`${styles.backColor} font-bold text-sm flex items-center gap-1 mb-3 opacity-90`}>
+      <div className={`${styles.headerBg} px-4 pt-12 pb-4 text-white`}>
+        <button onClick={() => router.push(backUrl)} className={`${styles.backColor} font-bold text-sm flex items-center gap-1 mb-2 opacity-90`}>
           ← {topic.name}
         </button>
         <div className="flex items-center justify-between">
-          <h1 className="text-2xl font-black">{topic.emoji} {topic.name}</h1>
+          <h1 className="text-lg font-black">{topic.emoji} Flashcard</h1>
           <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm">
             {currentIndex + 1}/{total}
           </span>
         </div>
 
         {/* Progress bar */}
-        <div className={`mt-3 h-2.5 ${styles.progressBg} rounded-full overflow-hidden`}>
+        <div className={`mt-2 h-2.5 ${styles.progressBg} rounded-full overflow-hidden`}>
           <div
             className={`h-full ${styles.progressFill} rounded-full transition-all duration-500`}
             style={{ width: `${((currentIndex + 1) / total) * 100}%` }}
