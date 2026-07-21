@@ -284,15 +284,16 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
   return (
     <div className="flex flex-col min-h-screen">
       {showLimitModal && <UpgradeModal onClose={() => setShowLimitModal(false)} />}
-      {/* Header — one row: back icon + topic name (game name as small eyebrow) + counter */}
+      {/* Header — one row: back icon + topic name (small eyebrow) + game name (title) + counter,
+          matching every other Daily game's header (ListenGame, MatchGame, ...) */}
       <div className={`${styles.headerBg} px-4 pt-6 pb-4 text-white`}>
         <div className="flex items-center gap-3">
           <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className={`${styles.backColor} text-xl flex-shrink-0 opacity-90 hover:opacity-100`}>
             ←
           </button>
           <div className="flex-1 min-w-0">
-            <p className={`${styles.backColor} text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5 opacity-90`}>Flashcard</p>
-            <h1 className="text-lg font-black leading-tight truncate">{topic.emoji} {topic.name}</h1>
+            <p className={`${styles.backColor} text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5 opacity-90 truncate`}>{topic.name}</p>
+            <h1 className="text-lg font-black leading-tight truncate">📖 Flashcard</h1>
           </div>
           <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm flex-shrink-0">
             {currentIndex + 1}/{total}
