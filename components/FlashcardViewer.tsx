@@ -284,20 +284,23 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
   return (
     <div className="flex flex-col min-h-screen">
       {showLimitModal && <UpgradeModal onClose={() => setShowLimitModal(false)} />}
-      {/* Header */}
-      <div className={`${styles.headerBg} px-4 pt-12 pb-4 text-white`}>
-        <button onClick={() => router.push(backUrl)} className={`${styles.backColor} font-bold text-sm flex items-center gap-1 mb-2 opacity-90`}>
-          ← {topic.name}
-        </button>
-        <div className="flex items-center justify-between">
-          <h1 className="text-lg font-black">{topic.emoji} Flashcard</h1>
-          <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm">
+      {/* Header — one row: back icon + topic name (game name as small eyebrow) + counter */}
+      <div className={`${styles.headerBg} px-4 pt-6 pb-4 text-white`}>
+        <div className="flex items-center gap-3">
+          <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className={`${styles.backColor} text-xl flex-shrink-0 opacity-90 hover:opacity-100`}>
+            ←
+          </button>
+          <div className="flex-1 min-w-0">
+            <p className={`${styles.backColor} text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5 opacity-90`}>Flashcard</p>
+            <h1 className="text-lg font-black leading-tight truncate">{topic.emoji} {topic.name}</h1>
+          </div>
+          <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm flex-shrink-0">
             {currentIndex + 1}/{total}
           </span>
         </div>
 
         {/* Progress bar */}
-        <div className={`mt-2 h-2.5 ${styles.progressBg} rounded-full overflow-hidden`}>
+        <div className={`mt-2 h-2 ${styles.progressBg} rounded-full overflow-hidden`}>
           <div
             className={`h-full ${styles.progressFill} rounded-full transition-all duration-500`}
             style={{ width: `${((currentIndex + 1) / total) * 100}%` }}
