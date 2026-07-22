@@ -258,6 +258,35 @@ const WORD_ICONS: Record<string, string> = {
   'stem cell':    'Brain',
   'clinical trial': 'Certificate',
   'evidence-based': 'MagnifyingGlass',
+
+  // ── PHASE C: Emoji quality audit fixes (2026-07) ──────────────────────────
+  tablet:        'DeviceTablet',
+  'digital divide': 'WifiSlash',
+  syllogism:     'Brain',
+  sophistry:     'WarningCircle',
+  appropriation: 'Copy',
+  manipulation:  'Sliders',
+  'habeas corpus': 'Gavel',
+  mandate:       'Scroll',
+  disclosure:    'Eye',
+  naturalization: 'IdentificationCard',
+  lean:          'Gauge',
+  antithesis:    'ArrowsHorizontal',
+  polarization:  'MagnetStraight',
+  complicity:    'WarningCircle',
+  bilingual:     'Translate',
+  outsourcing:   'ArrowRight',
+  'cognitive dissonance': 'PuzzlePiece',
+  cyberbullying: 'WarningCircle',
+  ethos:         'Certificate',
+  'academic rigor': 'Ruler',
+  explainability: 'Info',
+  persecution:   'ShieldSlash',
+  feature:       'Newspaper',
+  register:      'SlidersHorizontal',
+  eloquence:     'Microphone',
+  doublespeak:   'EyeSlash',
+  stagflation:   'Thermometer', // fix: was 📊 (dup w/ trade surplus in macroeconomics topic)
 }
 
 import { WORD_ICONS_EXTENDED } from './wordIconExtension'
@@ -266,4 +295,17 @@ const MERGED = { ...WORD_ICONS_EXTENDED, ...WORD_ICONS }
 
 export function getWordIcon(word: string): string | null {
   return MERGED[word.toLowerCase()] ?? null
+}
+
+/**
+ * Custom SVG illustrations for concrete words with no matching Unicode emoji
+ * (checked both standard emoji and Phosphor's icon set — neither has a dedicated glyph).
+ * Source: Openclipart.org (100% public domain / CC0), downloaded into public/icons/.
+ */
+const CUSTOM_SVG_ICONS: Record<string, string> = {
+  seahorse: '/icons/seahorse.svg',
+}
+
+export function getCustomSvgIcon(word: string): string | null {
+  return CUSTOM_SVG_ICONS[word.toLowerCase()] ?? null
 }

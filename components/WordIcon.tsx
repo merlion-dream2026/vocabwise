@@ -3,37 +3,39 @@
 import {
   Airplane, AirplaneTakeoff, Alarm, Ambulance, Anchor, AnchorSimple, ArrowClockwise,
   ArrowCounterClockwise, ArrowFatDown, ArrowFatRight, ArrowFatUp, ArrowLineDown, ArrowLineRight,
-  ArrowRight, ArrowUpRight, ArrowsClockwise, ArrowsCounterClockwise, ArrowsHorizontal, ArrowsMerge,
-  ArrowsOut, ArrowsSplit, Article, Atom, BagSimple, Bank, Barbell, Barricade, Bed, BellRinging,
-  BellSimple, BellSlash, Binoculars, Bird, Bone, Book, BookBookmark, BookOpen, BookOpenText,
-  Bookmark, Books, BowlFood, BowlSteam, Brain, Bridge, Briefcase, Broadcast, BugBeetle, Building,
-  BuildingApartment, BuildingOffice, Buildings, Calendar, CalendarBlank, CalendarCheck, CalendarDots,
-  CalendarHeart, CalendarPlus, CalendarX, Camera, Campfire, Certificate, ChartBar,
-  ChartBarHorizontal, ChartLine, ChartPie, ChatCentered, ChatCircle, ChatDots, ChatTeardrop,
-  ChatText, CheckCircle, CheckSquare, CircleHalf, CirclesFour, CirclesThreePlus, Circuitry,
-  ClipboardText, Clock, ClockCountdown, ClockCounterClockwise, CloudFog, CloudRain, CloudSnow,
-  CloudSun, CloudWarning, Code, Coin, Coins, Copy, Cpu, Crane, CraneTower, CreditCard, Crosshair,
-  Crown, CrownSimple, Cube, CurrencyCircleDollar, CurrencyDollar, Detective, DeviceMobile, Diamond,
-  Dna, Dog, Drop, Eye, Factory, FileText, FilmSlate, Fingerprint, FirstAid, Flag, FlagBanner, Flame,
-  Flask, FolderOpen, Footprints, ForkKnife, FunnelSimple, Gauge, Gavel, Gear, GearFine, GearSix,
-  Globe, GlobeHemisphereEast, GlobeHemisphereWest, GlobeSimple, GraduationCap, GridFour, Hammer,
+  ArrowRight, ArrowUpRight, ArrowsClockwise, ArrowsCounterClockwise, ArrowsHorizontal,
+  ArrowsMerge, ArrowsOut, ArrowsSplit, Article, Atom, BagSimple, Bank, Barbell, Barricade, Bed,
+  BellRinging, BellSimple, BellSlash, Binoculars, Bird, Bone, Book, BookBookmark, BookOpen,
+  BookOpenText, Bookmark, Books, BowlFood, BowlSteam, Brain, Bridge, Briefcase, Broadcast,
+  BugBeetle, Building, BuildingApartment, BuildingOffice, Buildings, Calendar, CalendarBlank,
+  CalendarCheck, CalendarDots, CalendarHeart, CalendarPlus, CalendarX, Camera, Campfire,
+  Certificate, ChartBar, ChartBarHorizontal, ChartLine, ChartPie, ChatCentered, ChatCircle,
+  ChatDots, ChatTeardrop, ChatText, CheckCircle, CheckSquare, CircleHalf, CirclesFour,
+  CirclesThreePlus, Circuitry, ClipboardText, Clock, ClockCountdown, ClockCounterClockwise,
+  CloudFog, CloudRain, CloudSnow, CloudSun, CloudWarning, Code, Coin, Coins, Copy, Cpu, Crane,
+  CraneTower, CreditCard, Crosshair, Crown, CrownSimple, Cube, CurrencyCircleDollar,
+  CurrencyDollar, Detective, DeviceMobile, DeviceTablet, Diamond, Dna, Dog, Drop, Eye, EyeSlash,
+  Factory, FileText, FilmSlate, Fingerprint, FirstAid, Flag, FlagBanner, Flame, Flask,
+  FolderOpen, Footprints, ForkKnife, FunnelSimple, Gauge, Gavel, Gear, GearFine, GearSix, Globe,
+  GlobeHemisphereEast, GlobeHemisphereWest, GlobeSimple, GraduationCap, GridFour, Hammer,
   HandCoins, HandHeart, Handshake, Heart, HeartBreak, HeartStraight, Heartbeat, HourglassHigh,
   HourglassMedium, House, HouseLine, IdentificationBadge, IdentificationCard, Image, ImageSquare,
-  Island, Key, Knife, Laptop, Leaf, Lightbulb, LightbulbFilament, Lightning, Link, Lock, LockKey,
-  LockSimple, MagnifyingGlass, MapPin, MapTrifold, MaskHappy, Medal, Megaphone, MegaphoneSimple,
-  Microphone, MicrophoneStage, Microscope, Monitor, Moon, Mountains, MusicNote, MusicNotes,
-  NavigationArrow, Needle, Newspaper, NotePencil, Notepad, Nut, PaintBrush, PaintBrushBroad, Palette,
-  PaperPlaneTilt, PencilSimple, Percent, Person, PersonSimpleRun, Pill, Planet, Plant, Presentation,
-  PresentationChart, PuzzlePiece, Question, Quotes, Recycle, RoadHorizon, Robot, Rocket,
-  RocketLaunch, Ruler, Scales, Scroll, ShareNetwork, Shield, ShieldCheck, ShieldStar, ShoppingCart,
-  Snowflake, Sparkle, Star, StarFour, Stethoscope, SuitcaseRolling, Sun, SunHorizon, Swatches, Sword,
-  Syringe, Table, Tag, Target, Television, TestTube, Thermometer, ThermometerHot, ThumbsUp, Ticket,
-  Timer, ToggleLeft, Tornado, Train, Translate, Tree, TreeEvergreen, TreePalm, TreeStructure, Trophy,
-  Users, UsersFour, UsersThree, Virus, Wallet, Warning, WarningCircle, WarningOctagon, WaveSine,
-  Waves, WifiHigh, Wrench, XCircle,
+  Info, Island, Key, Knife, Laptop, Leaf, Lightbulb, LightbulbFilament, Lightning, Link, Lock,
+  LockKey, LockSimple, MagnetStraight, MagnifyingGlass, MapPin, MapTrifold, MaskHappy, Medal,
+  Megaphone, MegaphoneSimple, Microphone, MicrophoneStage, Microscope, Monitor, Moon, Mountains,
+  MusicNote, MusicNotes, NavigationArrow, Needle, Newspaper, NotePencil, Notepad, Nut,
+  PaintBrush, PaintBrushBroad, Palette, PaperPlaneTilt, PencilSimple, Percent, Person,
+  PersonSimpleRun, Pill, Planet, Plant, Presentation, PresentationChart, PuzzlePiece, Question,
+  Quotes, Recycle, RoadHorizon, Robot, Rocket, RocketLaunch, Ruler, Scales, Scroll, ShareNetwork,
+  Shield, ShieldCheck, ShieldSlash, ShieldStar, ShoppingCart, Sliders, SlidersHorizontal,
+  Snowflake, Sparkle, Star, StarFour, Stethoscope, SuitcaseRolling, Sun, SunHorizon, Swatches,
+  Sword, Syringe, Table, Tag, Target, Television, TestTube, Thermometer, ThermometerHot,
+  ThumbsUp, Ticket, Timer, ToggleLeft, Tornado, Train, Translate, Tree, TreeEvergreen, TreePalm,
+  TreeStructure, Trophy, Users, UsersFour, UsersThree, Virus, Wallet, Warning, WarningCircle,
+  WarningOctagon, WaveSine, Waves, WifiHigh, WifiSlash, Wrench, XCircle
 } from '@phosphor-icons/react'
 import type { Icon } from '@phosphor-icons/react'
-import { getWordIcon } from '@/lib/wordIcon'
+import { getWordIcon, getCustomSvgIcon } from '@/lib/wordIcon'
 
 type Props = {
   word: string
@@ -52,39 +54,42 @@ type Props = {
 const ICON_MAP: Record<string, Icon> = {
   Airplane, AirplaneTakeoff, Alarm, Ambulance, Anchor, AnchorSimple, ArrowClockwise,
   ArrowCounterClockwise, ArrowFatDown, ArrowFatRight, ArrowFatUp, ArrowLineDown, ArrowLineRight,
-  ArrowRight, ArrowUpRight, ArrowsClockwise, ArrowsCounterClockwise, ArrowsHorizontal, ArrowsMerge,
-  ArrowsOut, ArrowsSplit, Article, Atom, BagSimple, Bank, Barbell, Barricade, Bed, BellRinging,
-  BellSimple, BellSlash, Binoculars, Bird, Bone, Book, BookBookmark, BookOpen, BookOpenText,
-  Bookmark, Books, BowlFood, BowlSteam, Brain, Bridge, Briefcase, Broadcast, BugBeetle, Building,
-  BuildingApartment, BuildingOffice, Buildings, Calendar, CalendarBlank, CalendarCheck, CalendarDots,
-  CalendarHeart, CalendarPlus, CalendarX, Camera, Campfire, Certificate, ChartBar,
-  ChartBarHorizontal, ChartLine, ChartPie, ChatCentered, ChatCircle, ChatDots, ChatTeardrop,
-  ChatText, CheckCircle, CheckSquare, CircleHalf, CirclesFour, CirclesThreePlus, Circuitry,
-  ClipboardText, Clock, ClockCountdown, ClockCounterClockwise, CloudFog, CloudRain, CloudSnow,
-  CloudSun, CloudWarning, Code, Coin, Coins, Copy, Cpu, Crane, CraneTower, CreditCard, Crosshair,
-  Crown, CrownSimple, Cube, CurrencyCircleDollar, CurrencyDollar, Detective, DeviceMobile, Diamond,
-  Dna, Dog, Drop, Eye, Factory, FileText, FilmSlate, Fingerprint, FirstAid, Flag, FlagBanner, Flame,
-  Flask, FolderOpen, Footprints, ForkKnife, FunnelSimple, Gauge, Gavel, Gear, GearFine, GearSix,
-  Globe, GlobeHemisphereEast, GlobeHemisphereWest, GlobeSimple, GraduationCap, GridFour, Hammer,
+  ArrowRight, ArrowUpRight, ArrowsClockwise, ArrowsCounterClockwise, ArrowsHorizontal,
+  ArrowsMerge, ArrowsOut, ArrowsSplit, Article, Atom, BagSimple, Bank, Barbell, Barricade, Bed,
+  BellRinging, BellSimple, BellSlash, Binoculars, Bird, Bone, Book, BookBookmark, BookOpen,
+  BookOpenText, Bookmark, Books, BowlFood, BowlSteam, Brain, Bridge, Briefcase, Broadcast,
+  BugBeetle, Building, BuildingApartment, BuildingOffice, Buildings, Calendar, CalendarBlank,
+  CalendarCheck, CalendarDots, CalendarHeart, CalendarPlus, CalendarX, Camera, Campfire,
+  Certificate, ChartBar, ChartBarHorizontal, ChartLine, ChartPie, ChatCentered, ChatCircle,
+  ChatDots, ChatTeardrop, ChatText, CheckCircle, CheckSquare, CircleHalf, CirclesFour,
+  CirclesThreePlus, Circuitry, ClipboardText, Clock, ClockCountdown, ClockCounterClockwise,
+  CloudFog, CloudRain, CloudSnow, CloudSun, CloudWarning, Code, Coin, Coins, Copy, Cpu, Crane,
+  CraneTower, CreditCard, Crosshair, Crown, CrownSimple, Cube, CurrencyCircleDollar,
+  CurrencyDollar, Detective, DeviceMobile, DeviceTablet, Diamond, Dna, Dog, Drop, Eye, EyeSlash,
+  Factory, FileText, FilmSlate, Fingerprint, FirstAid, Flag, FlagBanner, Flame, Flask,
+  FolderOpen, Footprints, ForkKnife, FunnelSimple, Gauge, Gavel, Gear, GearFine, GearSix, Globe,
+  GlobeHemisphereEast, GlobeHemisphereWest, GlobeSimple, GraduationCap, GridFour, Hammer,
   HandCoins, HandHeart, Handshake, Heart, HeartBreak, HeartStraight, Heartbeat, HourglassHigh,
   HourglassMedium, House, HouseLine, IdentificationBadge, IdentificationCard, Image, ImageSquare,
-  Island, Key, Knife, Laptop, Leaf, Lightbulb, LightbulbFilament, Lightning, Link, Lock, LockKey,
-  LockSimple, MagnifyingGlass, MapPin, MapTrifold, MaskHappy, Medal, Megaphone, MegaphoneSimple,
-  Microphone, MicrophoneStage, Microscope, Monitor, Moon, Mountains, MusicNote, MusicNotes,
-  NavigationArrow, Needle, Newspaper, NotePencil, Notepad, Nut, PaintBrush, PaintBrushBroad, Palette,
-  PaperPlaneTilt, PencilSimple, Percent, Person, PersonSimpleRun, Pill, Planet, Plant, Presentation,
-  PresentationChart, PuzzlePiece, Question, Quotes, Recycle, RoadHorizon, Robot, Rocket,
-  RocketLaunch, Ruler, Scales, Scroll, ShareNetwork, Shield, ShieldCheck, ShieldStar, ShoppingCart,
-  Snowflake, Sparkle, Star, StarFour, Stethoscope, SuitcaseRolling, Sun, SunHorizon, Swatches, Sword,
-  Syringe, Table, Tag, Target, Television, TestTube, Thermometer, ThermometerHot, ThumbsUp, Ticket,
-  Timer, ToggleLeft, Tornado, Train, Translate, Tree, TreeEvergreen, TreePalm, TreeStructure, Trophy,
-  Users, UsersFour, UsersThree, Virus, Wallet, Warning, WarningCircle, WarningOctagon, WaveSine,
-  Waves, WifiHigh, Wrench, XCircle,
+  Info, Island, Key, Knife, Laptop, Leaf, Lightbulb, LightbulbFilament, Lightning, Link, Lock,
+  LockKey, LockSimple, MagnetStraight, MagnifyingGlass, MapPin, MapTrifold, MaskHappy, Medal,
+  Megaphone, MegaphoneSimple, Microphone, MicrophoneStage, Microscope, Monitor, Moon, Mountains,
+  MusicNote, MusicNotes, NavigationArrow, Needle, Newspaper, NotePencil, Notepad, Nut,
+  PaintBrush, PaintBrushBroad, Palette, PaperPlaneTilt, PencilSimple, Percent, Person,
+  PersonSimpleRun, Pill, Planet, Plant, Presentation, PresentationChart, PuzzlePiece, Question,
+  Quotes, Recycle, RoadHorizon, Robot, Rocket, RocketLaunch, Ruler, Scales, Scroll, ShareNetwork,
+  Shield, ShieldCheck, ShieldSlash, ShieldStar, ShoppingCart, Sliders, SlidersHorizontal,
+  Snowflake, Sparkle, Star, StarFour, Stethoscope, SuitcaseRolling, Sun, SunHorizon, Swatches,
+  Sword, Syringe, Table, Tag, Target, Television, TestTube, Thermometer, ThermometerHot,
+  ThumbsUp, Ticket, Timer, ToggleLeft, Tornado, Train, Translate, Tree, TreeEvergreen, TreePalm,
+  TreeStructure, Trophy, Users, UsersFour, UsersThree, Virus, Wallet, Warning, WarningCircle,
+  WarningOctagon, WaveSine, Waves, WifiHigh, WifiSlash, Wrench, XCircle
 }
 
 /**
- * Renders a Phosphor icon if a mapping exists for the word,
- * otherwise falls back to the emoji character.
+ * Renders a Phosphor icon if a mapping exists for the word (abstract concepts),
+ * else a custom SVG illustration if one exists (concrete words with no matching
+ * emoji glyph), else falls back to the emoji character.
  */
 export default function WordIcon({ word, emoji, emojiClass = 'text-8xl', iconSize = 100, className = '' }: Props) {
   const iconName = getWordIcon(word)
@@ -95,6 +100,18 @@ export default function WordIcon({ word, emoji, emojiClass = 'text-8xl', iconSiz
       <IconComponent
         size={iconSize}
         weight="duotone"
+        className={className}
+      />
+    )
+  }
+
+  const customSvg = getCustomSvgIcon(word)
+  if (customSvg) {
+    return (
+      <img
+        src={customSvg}
+        alt={word}
+        style={{ height: iconSize, width: 'auto' }}
         className={className}
       />
     )
