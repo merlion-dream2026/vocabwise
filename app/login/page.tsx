@@ -58,20 +58,25 @@ function LoginForm() {
       const data = await res.json()
       if (data.requires2fa) {
         setNeeds2fa(true)
+        setLoading(false)
         return
       }
       if (!res.ok) {
         if (data.expired) {
           setExpiredUser(true)
-          return
+        } else {
+          setError(data.error || 'Đăng nhập thất bại')
         }
-        setError(data.error || 'Đăng nhập thất bại')
+        setLoading(false)
         return
       }
+      // Success — keep loading=true so the button stays disabled/spinning
+      // until the route change actually happens (router.push resolves
+      // before the navigation completes, so resetting here caused the
+      // button to flash back to "Đăng nhập" while /kids was still loading).
       router.push(redirect)
     } catch {
       setError('Lỗi kết nối, thử lại nhé')
-    } finally {
       setLoading(false)
     }
   }
