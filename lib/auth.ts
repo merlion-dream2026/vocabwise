@@ -4,8 +4,14 @@ import bcrypt from 'bcryptjs'
 export type { SessionPayload } from './session'
 export { createSession, getSession, sessionCookieOptions, clearSessionCookie, getAdminSession, adminSessionCookieOptions, clearAdminSessionCookie } from './session'
 
+// Cost 10 on the pure-JS bcryptjs used here: ~75ms/login instead of ~250-300ms
+// at cost 12. Online brute-force is already blocked by the 5-attempt/15min
+// lockout at the login route; cost 10 still keeps offline (DB-leak) cracking
+// slow enough to not be the weak link.
+const PASSWORD_BCRYPT_COST = 10
+
 export async function hashPassword(password: string): Promise<string> {
-  return bcrypt.hash(password, 12)
+  return bcrypt.hash(password, PASSWORD_BCRYPT_COST)
 }
 
 export async function verifyPassword(password: string, hash: string): Promise<boolean> {

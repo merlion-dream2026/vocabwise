@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
-import { verifyPassword, createSession, sessionCookieOptions } from '@/lib/auth'
+import { verifyPassword, hashPassword, bcryptCost, createSession, sessionCookieOptions } from '@/lib/auth'
 import { verifyTurnstile } from '@/lib/security'
 import { verifyTotp } from '@/lib/totp'
 
@@ -12,6 +12,11 @@ const supabase = createClient(
 const MAX_ATTEMPTS = 5
 const LOCKOUT_MINUTES = 15
 
+// Password hashes created before the cost-10 switch are still cost 12
+// (~250-300ms to compare in bcryptjs). Once one verifies successfully,
+// quietly rehash it at the cheaper cost so the family's next login is fast too.
+const LEGACY_PASSWORD_COST = 10
+
 function isExpired(plan: string, freeTrialExpiresAt: string | null, planEndDate: string | null, bonusProExpiresAt: string | null): boolean {
   const now = new Date()
   if (bonusProExpiresAt && new Date(bonusProExpiresAt) > now) return false
@@ -22,19 +27,24 @@ function isExpired(plan: string, freeTrialExpiresAt: string | null, planEndDate:
 export async function POST(req: NextRequest) {
   const { username, password, turnstileToken, totpCode, emailOtp } = await req.json().catch(() => ({}))
 
-  if (!(await verifyTurnstile(turnstileToken))) {
-    return NextResponse.json({ error: 'Xác minh bảo mật thất bại. Vui lòng thử lại.' }, { status: 400 })
-  }
-
   if (!username || !password) {
     return NextResponse.json({ error: 'Thiếu thông tin đăng nhập' }, { status: 400 })
   }
 
-  const { data: family, error } = await supabase
-    .from('families')
-    .select('id, username, password_hash, plan, disabled, free_trial_expires_at, plan_end_date, bonus_pro_expires_at, failed_login_count, lockout_until')
-    .eq('username', username.trim().toLowerCase())
-    .single()
+  // Run Turnstile verification and the family lookup concurrently — they're
+  // independent, and each is a network round-trip that previously ran in series.
+  const [turnstileOk, { data: family, error }] = await Promise.all([
+    verifyTurnstile(turnstileToken),
+    supabase
+      .from('families')
+      .select('id, username, password_hash, plan, disabled, free_trial_expires_at, plan_end_date, bonus_pro_expires_at, failed_login_count, lockout_until')
+      .eq('username', username.trim().toLowerCase())
+      .single(),
+  ])
+
+  if (!turnstileOk) {
+    return NextResponse.json({ error: 'Xác minh bảo mật thất bại. Vui lòng thử lại.' }, { status: 400 })
+  }
 
   if (error || !family) {
     return NextResponse.json({ error: 'Sai tên đăng nhập hoặc mật khẩu' }, { status: 401 })
@@ -54,6 +64,12 @@ export async function POST(req: NextRequest) {
   }
 
   const valid = await verifyPassword(password, family.password_hash)
+
+  if (valid && (bcryptCost(family.password_hash) ?? 0) > LEGACY_PASSWORD_COST) {
+    hashPassword(password)
+      .then(rehashed => supabase.from('families').update({ password_hash: rehashed }).eq('id', family.id))
+      .catch(() => {})
+  }
 
   if (!valid) {
     const newCount = (family.failed_login_count ?? 0) + 1
@@ -76,8 +92,11 @@ export async function POST(req: NextRequest) {
     )
   }
 
-  // Successful login — reset lockout counters
-  await supabase.from('families').update({ failed_login_count: 0, lockout_until: null }).eq('id', family.id)
+  // Successful login — reset lockout counters (skip the round-trip when already clean,
+  // which is the common case: correct password on the first try)
+  if ((family.failed_login_count ?? 0) !== 0 || family.lockout_until) {
+    await supabase.from('families').update({ failed_login_count: 0, lockout_until: null }).eq('id', family.id)
+  }
 
   // TOTP 2FA check for superadmin
   if (family.id === 'superadmin') {
