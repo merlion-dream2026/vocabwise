@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { headers } from 'next/headers'
 import { Nunito } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/react'
+import { Analytics } from '@vercel/analytics/next'
 import PwaRegister from '@/components/PwaRegister'
 import NoVoiceBanner from '@/components/NoVoiceBanner'
 import OfflineBanner from '@/components/OfflineBanner'
