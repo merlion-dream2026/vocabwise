@@ -67,18 +67,69 @@ export async function POST(req: NextRequest, { params }: { params: { childId: st
   const { level, seen, weak_words, streak, battle, mastery, history, srs } = body
 
   const activeLevel = level ?? child.level
+
+  // Merge into the existing row instead of overwriting it — the client's in-memory
+  // state can be stale (a failed GET on init, or a replayed offline snapshot), and a
+  // blind overwrite would wipe out real progress the server already has. seen/mastery/
+  // battle are monotonic (never un-see a word, un-master a topic, or lose XP), so they
+  // union/max; weak_words/srs are last-write-wins per key, which is fine even under a
+  // stale init since they're low-stakes practice state, not completion data.
+  const { data: current } = await supabase
+    .from('vocab_sync')
+    .select('seen, weak_words, streak, battle, mastery, history, srs')
+    .eq('child_id', params.childId)
+    .eq('level', activeLevel)
+    .single()
+
+  const mergedSeen = Array.from(new Set([...(current?.seen ?? []), ...(seen ?? [])]))
+
+  const mergedMastery: Record<string, { flashcard: boolean; games: string[] }> = { ...(current?.mastery ?? {}) }
+  for (const [topicId, incoming] of Object.entries(mastery ?? {}) as [string, { flashcard: boolean; games: string[] }][]) {
+    const existing = mergedMastery[topicId]
+    mergedMastery[topicId] = {
+      flashcard: (existing?.flashcard ?? false) || incoming.flashcard,
+      games: Array.from(new Set([...(existing?.games ?? []), ...incoming.games])),
+    }
+  }
+
+  const mergedHistory: Record<string, { words: number; games: number; xp: number; topicIds?: string[]; testsDone?: string[] }> = { ...(current?.history ?? {}) }
+  for (const [date, incoming] of Object.entries(history ?? {}) as [string, { words: number; games: number; xp: number; topicIds?: string[]; testsDone?: string[] }][]) {
+    const existing = mergedHistory[date]
+    mergedHistory[date] = {
+      words: Math.max(existing?.words ?? 0, incoming.words),
+      games: Math.max(existing?.games ?? 0, incoming.games),
+      xp: Math.max(existing?.xp ?? 0, incoming.xp),
+      topicIds: Array.from(new Set([...(existing?.topicIds ?? []), ...(incoming.topicIds ?? [])])),
+      testsDone: Array.from(new Set([...(existing?.testsDone ?? []), ...(incoming.testsDone ?? [])])),
+    }
+  }
+
+  const currentStreak = current?.streak ?? { current: 0, best: 0, lastActive: '' }
+  const incomingStreak = streak ?? currentStreak
+  const mergedStreak = (incomingStreak.lastActive ?? '') >= (currentStreak.lastActive ?? '')
+    ? {
+        current: incomingStreak.current ?? 0,
+        best: Math.max(currentStreak.best ?? 0, incomingStreak.best ?? 0),
+        lastActive: incomingStreak.lastActive ?? currentStreak.lastActive,
+      }
+    : currentStreak
+
+  const mergedBattle = { totalAllTime: Math.max(current?.battle?.totalAllTime ?? 0, battle?.totalAllTime ?? 0) }
+  const mergedWeakWords = { ...(current?.weak_words ?? {}), ...(weak_words ?? {}) }
+  const mergedSrs = { ...(current?.srs ?? {}), ...(srs ?? {}) }
+
   const { data, error } = await supabase
     .from('vocab_sync')
     .upsert({
       child_id: params.childId,
       level: activeLevel,
-      seen: seen ?? [],
-      weak_words: weak_words ?? {},
-      streak: streak ?? {},
-      battle: battle ?? {},
-      mastery: mastery ?? {},
-      history: history ?? {},
-      srs: srs ?? {},
+      seen: mergedSeen,
+      weak_words: mergedWeakWords,
+      streak: mergedStreak,
+      battle: mergedBattle,
+      mastery: mergedMastery,
+      history: mergedHistory,
+      srs: mergedSrs,
       updated_at: new Date().toISOString(),
     }, { onConflict: 'child_id,level' })
     .select('seen, weak_words, streak, battle, mastery, history, srs, reset_at')
@@ -94,7 +145,7 @@ export async function POST(req: NextRequest, { params }: { params: { childId: st
 
   // 2A: Trigger signup referral reward nếu bé đã học được gì đó (seen không rỗng)
   // Fire-and-forget — không block response
-  if (Array.isArray(seen) && seen.length > 0) {
+  if (mergedSeen.length > 0) {
     triggerSignupReward(session.familyId).catch(err =>
       console.error('[sync] referral trigger error:', err)
     )
