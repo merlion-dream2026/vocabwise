@@ -182,7 +182,7 @@ export default function ListenGame({ topic, level, isStarter, backUrl }: Props) 
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header */}
-      <div className={`${styles.headerBg} px-4 pt-6 pb-4 text-white`}>
+      <div className={`${styles.headerBg} px-4 pt-4 pb-3 text-white`}>
         <div className="flex items-center gap-3">
           <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className={`${styles.backColor} text-xl flex-shrink-0 opacity-90 hover:opacity-100`}>←</button>
           <div className="flex-1 min-w-0">
@@ -202,25 +202,25 @@ export default function ListenGame({ topic, level, isStarter, backUrl }: Props) 
       </div>
 
       {/* Body */}
-      <div className="flex-1 bg-gradient-to-b from-purple-50 to-pink-50 px-4 py-5 flex flex-col">
+      <div className="flex-1 bg-gradient-to-b from-purple-50 to-pink-50 px-4 py-3 flex flex-col">
         {/* Screen-reader feedback */}
         <div role="alert" aria-live="assertive" className="sr-only">
           {selected !== null && (selected === current.word.word ? 'Chính xác!' : `Sai rồi. Đáp án đúng là ${current.word.word}.`)}
         </div>
         {/* Speaker */}
-        <div className="flex flex-col items-center mb-6">
+        <div className="flex flex-col items-center mb-3">
           <button
             onClick={() => speak(current.word.word)}
-            className={`${styles.speakBg} text-white w-24 h-24 rounded-3xl text-5xl flex items-center justify-center shadow-xl active:scale-90 transition-all`}
+            className={`${styles.speakBg} text-white w-16 h-16 rounded-2xl text-3xl flex items-center justify-center shadow-xl active:scale-90 transition-all`}
             aria-label="Nghe lại"
           >
             🔊
           </button>
-          <p className="text-gray-500 text-sm font-semibold mt-2">Bấm để nghe lại</p>
+          <p className="text-gray-500 text-xs font-semibold mt-1">Bấm để nghe lại</p>
         </div>
 
         {/* 2×2 choice grid */}
-        <div className="grid grid-cols-2 gap-3 flex-1">
+        <div className="grid grid-cols-2 gap-2 flex-1">
           {current.choices.map((choice) => {
             const isCorrect = choice.word === current.word.word
             const isSelected = selected === choice.word
@@ -239,29 +239,29 @@ export default function ListenGame({ topic, level, isStarter, backUrl }: Props) 
                 disabled={selected !== null}
                 className={`
                   ${cellClass} border-2 rounded-2xl
-                  flex flex-col items-center justify-center gap-2
+                  flex flex-col items-center justify-center gap-1
                   shadow-md transition-all duration-200 active:scale-95
-                  min-h-[130px] p-3
+                  aspect-square overflow-hidden p-2
                 `}
               >
-                <WordIcon word={choice.word} emoji={choice.emoji} emojiClass="text-6xl leading-none select-none" iconSize={72} />
+                <WordIcon word={choice.word} emoji={choice.emoji} emojiClass="text-4xl leading-none select-none" iconSize={48} />
                 {showResult && (
-                  <span className={`text-sm font-black ${textWhite ? 'text-white' : 'text-gray-600'}`}>
+                  <span className={`text-xs font-black ${textWhite ? 'text-white' : 'text-gray-600'}`}>
                     {choice.word}
                   </span>
                 )}
                 {showResult && isCorrect && (
-                  <span className="text-xl">✅</span>
+                  <span className="text-lg leading-none">✅</span>
                 )}
                 {showResult && isSelected && !isCorrect && (
-                  <span className="text-xl">❌</span>
+                  <span className="text-lg leading-none">❌</span>
                 )}
               </button>
             )
           })}
         </div>
 
-        <p className="text-center text-gray-500 text-sm font-medium mt-4">
+        <p className="text-center text-gray-500 text-xs font-medium mt-2">
           Chọn hình đúng với từ bạn vừa nghe
         </p>
       </div>
