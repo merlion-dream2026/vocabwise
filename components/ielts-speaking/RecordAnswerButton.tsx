@@ -9,6 +9,8 @@ type Props = {
   disabled?: boolean
   maxSeconds?: number
   onTranscript: (transcript: string) => void
+  /** Called with a playable object URL for the just-recorded clip. Caller owns and must revoke it. */
+  onRecordingReady?: (url: string) => void
 }
 
 function getBestMime(): string {
@@ -38,6 +40,7 @@ export default function RecordAnswerButton({
   disabled = false,
   maxSeconds = 75,
   onTranscript,
+  onRecordingReady,
 }: Props) {
   const [phase, setPhase] = useState<Phase>('idle')
   const [elapsed, setElapsed] = useState(0)
@@ -137,6 +140,7 @@ export default function RecordAnswerButton({
         stopStream()
         const actualMime = recorder.mimeType || mimeType || 'audio/webm'
         const blob = new Blob(chunksRef.current, { type: actualMime })
+        onRecordingReady?.(URL.createObjectURL(blob))
         void uploadAudio(blob, actualMime)
       }
 

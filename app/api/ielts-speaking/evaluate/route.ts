@@ -1,7 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getSession } from '@/lib/auth'
 import { aiChat } from '@/lib/aiChat'
-import { rateLimit } from '@/lib/rateLimit'
+import { checkAndIncrementIeltsSpeakingUsage } from '@/lib/rateLimit'
+import { getFamilyProfile } from '@/lib/security'
+import { getIeltsSpeakingLimit } from '@/lib/planUtils'
 import { buildIeltsSpeakingEvaluationPrompt, buildJsonRepairPrompt } from '@/lib/ieltsSpeakingPrompts'
 import { parseIeltsSpeakingEvaluation } from '@/lib/ieltsSpeakingParsing'
 import {
@@ -17,7 +19,6 @@ export const maxDuration = 60
 const MAX_QUESTION_LENGTH = 700
 const MAX_QUESTION_ID_LENGTH = 80
 const MAX_ANSWER_LENGTH = 12_000
-const DAILY_EVALUATION_LIMIT = 30
 
 function isPart(value: unknown): value is IeltsSpeakingPart {
   return value === 1 || value === 2 || value === 3
@@ -92,16 +93,24 @@ export async function POST(req: NextRequest) {
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
-  const { allowed } = await rateLimit(
-    `ielts-speaking:evaluate:${session.familyId}`,
-    DAILY_EVALUATION_LIMIT,
-    86_400,
-  )
-  if (!allowed) {
-    return NextResponse.json(
-      { error: 'Bạn đã đạt giới hạn 30 lượt chấm IELTS Speaking trong 24 giờ.' },
-      { status: 429 },
-    )
+  if (session.familyId !== 'superadmin') {
+    const profile = await getFamilyProfile(session.familyId)
+    const limit = profile ? getIeltsSpeakingLimit(profile) : 0
+    if (limit === 0) {
+      return NextResponse.json(
+        { error: 'AI Speak (IELTS Speaking Coach) dành cho gói Pro. Dùng thử miễn phí trong 7 ngày đầu hoặc nâng cấp để tiếp tục luyện.' },
+        { status: 403 },
+      )
+    }
+    if (limit !== null) {
+      const allowed = await checkAndIncrementIeltsSpeakingUsage(session.familyId, 'evaluate', limit)
+      if (!allowed) {
+        return NextResponse.json(
+          { error: `Bạn đã dùng hết ${limit} lượt chấm AI Speak hôm nay trong giai đoạn dùng thử. Nâng cấp Pro để luyện không giới hạn.` },
+          { status: 429 },
+        )
+      }
+    }
   }
 
   let body: unknown

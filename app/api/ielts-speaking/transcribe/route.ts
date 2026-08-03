@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getSession } from '@/lib/auth'
-import { rateLimit } from '@/lib/rateLimit'
+import { checkAndIncrementIeltsSpeakingUsage } from '@/lib/rateLimit'
+import { getFamilyProfile } from '@/lib/security'
+import { getIeltsSpeakingLimit } from '@/lib/planUtils'
 
 export const maxDuration = 60
 
@@ -14,7 +16,6 @@ const ALLOWED_AUDIO = [
   'audio/x-m4a',
 ]
 const MAX_AUDIO_BYTES = 5 * 1024 * 1024
-const DAILY_TRANSCRIPTION_LIMIT = 30
 
 function extensionForMime(mime: string): string {
   if (mime.includes('mp4') || mime.includes('m4a')) return 'm4a'
@@ -28,16 +29,24 @@ export async function POST(req: NextRequest) {
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
-  const { allowed } = await rateLimit(
-    `ielts-speaking:transcribe:${session.familyId}`,
-    DAILY_TRANSCRIPTION_LIMIT,
-    86_400,
-  )
-  if (!allowed) {
-    return NextResponse.json(
-      { error: 'Bạn đã đạt giới hạn 30 lượt ghi âm IELTS Speaking trong 24 giờ.' },
-      { status: 429 },
-    )
+  if (session.familyId !== 'superadmin') {
+    const profile = await getFamilyProfile(session.familyId)
+    const limit = profile ? getIeltsSpeakingLimit(profile) : 0
+    if (limit === 0) {
+      return NextResponse.json(
+        { error: 'AI Speak (IELTS Speaking Coach) dành cho gói Pro. Dùng thử miễn phí trong 7 ngày đầu hoặc nâng cấp để tiếp tục luyện.' },
+        { status: 403 },
+      )
+    }
+    if (limit !== null) {
+      const allowed = await checkAndIncrementIeltsSpeakingUsage(session.familyId, 'transcribe', limit)
+      if (!allowed) {
+        return NextResponse.json(
+          { error: `Bạn đã dùng hết ${limit} lượt ghi âm AI Speak hôm nay trong giai đoạn dùng thử. Nâng cấp Pro để luyện không giới hạn.` },
+          { status: 429 },
+        )
+      }
+    }
   }
 
   let formData: FormData

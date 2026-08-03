@@ -10,6 +10,7 @@ import {
   getMyWordsLimit,
   getSRSLimit,
   getAISpeakLimit,
+  getIeltsSpeakingLimit,
   type FamilyPlanData,
 } from '@/lib/planUtils'
 
@@ -219,6 +220,41 @@ describe('getAISpeakLimit', () => {
       bonus_features: ['ai_speak_unlimited'],
     }
     expect(getAISpeakLimit(fam)).toBeNull()
+  })
+})
+
+describe('getIeltsSpeakingLimit (AI Speak tab / IELTS Speaking Coach)', () => {
+  it('expired trial, never upgraded → 0 (locked)', () => {
+    expect(getIeltsSpeakingLimit(freeExpired)).toBe(0)
+  })
+
+  it('active trial → 5/day', () => {
+    expect(getIeltsSpeakingLimit(freeTrial)).toBe(5)
+  })
+
+  it('pro1 → null (unlimited)', () => {
+    expect(getIeltsSpeakingLimit(pro1)).toBeNull()
+  })
+
+  it('pro3 → null (unlimited)', () => {
+    expect(getIeltsSpeakingLimit(pro3)).toBeNull()
+  })
+
+  it('pro6 → null (unlimited)', () => {
+    expect(getIeltsSpeakingLimit(pro6)).toBeNull()
+  })
+
+  it('expired Pro (past plan_end_date) → 0, same as free', () => {
+    expect(getIeltsSpeakingLimit(proExpired)).toBe(0)
+  })
+
+  it('bonus grant ielts_speaking_unlimited → unlimited for free user', () => {
+    const fam: FamilyPlanData = {
+      plan: 'free',
+      free_trial_expires_at: daysFromNow(-1),
+      bonus_features: ['ielts_speaking_unlimited'],
+    }
+    expect(getIeltsSpeakingLimit(fam)).toBeNull()
   })
 })
 

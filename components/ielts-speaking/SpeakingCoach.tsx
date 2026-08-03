@@ -1,8 +1,9 @@
 'use client'
 
-import { useMemo, useState, type ChangeEvent } from 'react'
+import { useEffect, useMemo, useState, type ChangeEvent } from 'react'
 import AnswerActions from '@/components/ielts-speaking/AnswerActions'
 import BandFeedbackPanel from '@/components/ielts-speaking/BandFeedbackPanel'
+import IeltsShareCardModal from '@/components/ielts-speaking/IeltsShareCardModal'
 import Part2PreparationTimer from '@/components/ielts-speaking/Part2PreparationTimer'
 import RecordAnswerButton from '@/components/ielts-speaking/RecordAnswerButton'
 import {
@@ -71,6 +72,15 @@ export default function SpeakingCoach() {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [attempts, setAttempts] = useState<IeltsSpeakingEvaluation[]>([])
+  const [recordingUrl, setRecordingUrl] = useState<string | null>(null)
+  const [showShare, setShowShare] = useState(false)
+
+  // Revoke the previous object URL whenever a new recording replaces it, and on unmount.
+  useEffect(() => {
+    return () => {
+      if (recordingUrl) URL.revokeObjectURL(recordingUrl)
+    }
+  }, [recordingUrl])
 
   const selectedSet = getLinkedSetById(linkedSetId) ?? initialSet
   const selectedGroup = selectedSet.part3Groups.find(group => group.id === part3GroupId)
@@ -116,6 +126,8 @@ export default function SpeakingCoach() {
     setSource('typed')
     setAttempts([])
     setError(null)
+    setRecordingUrl(null)
+    setShowShare(false)
   }
 
   const selectPart = (nextPart: IeltsSpeakingPart) => {
@@ -168,6 +180,8 @@ export default function SpeakingCoach() {
   const prepareRetry = () => {
     setAnswer('')
     setError(null)
+    setRecordingUrl(null)
+    setShowShare(false)
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
@@ -412,7 +426,17 @@ export default function SpeakingCoach() {
                   disabled={loading}
                   maxSeconds={activePractice.maxRecordingSeconds}
                   onTranscript={handleTranscript}
+                  onRecordingReady={setRecordingUrl}
                 />
+                {recordingUrl && (
+                  <button
+                    type="button"
+                    onClick={() => new Audio(recordingUrl).play()}
+                    className="mt-2 w-full rounded-2xl border-2 border-rose-100 bg-white py-2.5 text-sm font-bold text-rose-500 transition-all active:scale-[0.98]"
+                  >
+                    ▶️ Nghe lại giọng của bạn
+                  </button>
+                )}
                 <p className="mt-2 text-center text-xs leading-relaxed text-gray-400">
                   Ghi tối đa {activePractice.maxRecordingSeconds} giây. Audio chỉ được gửi để tạo transcript và không được lưu trong MVP này.
                 </p>
@@ -460,6 +484,14 @@ export default function SpeakingCoach() {
 
         {evaluation && (
           <div id="ielts-feedback" className="mt-6 scroll-mt-4 space-y-4">
+            {showShare && (
+              <IeltsShareCardModal
+                part={part}
+                topic={activePractice.topic}
+                band={evaluation.estimatedBand.overall}
+                onClose={() => setShowShare(false)}
+              />
+            )}
             <BandFeedbackPanel evaluation={evaluation} previousEvaluation={previousEvaluation} />
             <div className="grid gap-2 sm:grid-cols-2">
               <button
@@ -477,6 +509,13 @@ export default function SpeakingCoach() {
                 {part === 2 ? 'Cue card tiếp theo →' : 'Câu hỏi tiếp theo →'}
               </button>
             </div>
+            <button
+              type="button"
+              onClick={() => setShowShare(true)}
+              className="w-full flex items-center justify-center gap-2 rounded-2xl border-2 border-indigo-200 bg-white py-3 text-sm font-black text-indigo-600 active:scale-[0.98]"
+            >
+              📤 Chia sẻ kết quả
+            </button>
           </div>
         )}
 

@@ -180,6 +180,18 @@ export function getAISpeakLimit(family: FamilyPlanData): number | null {
   return isTrialActive ? 10 : 0
 }
 
+/**
+ * IELTS Speaking Coach (bottom-nav tab "AI Speak" — distinct feature from the pronunciation-check
+ * "AI Speak" quota above, unfortunate naming overlap) daily limit for both evaluate and transcribe.
+ * null = unlimited (any Pro tier or bonus grant), 5 = trial nếm thử, 0 = Free hết trial / chưa có gói.
+ */
+export function getIeltsSpeakingLimit(family: FamilyPlanData): number | null {
+  if (family.bonus_features?.includes('ielts_speaking_unlimited')) return null
+  const { isProActive, isTrialActive } = getEffectivePlan(family)
+  if (isProActive) return null
+  return isTrialActive ? 5 : 0
+}
+
 // ─── Bonus days ──────────────────────────────────────────────────────────────
 
 /**

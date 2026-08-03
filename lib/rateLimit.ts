@@ -181,6 +181,32 @@ export async function checkAndIncrementModuleTestUsage(familyId: string, limit =
   return e.count <= limit
 }
 
+// ── IELTS Speaking Coach usage (evaluate + transcribe share the same limit value, ──
+// but track separate counters so a heavy transcribe day doesn't starve evaluate) ──
+const ieltsSpeakingStore = new Map<string, { count: number; resetAt: number }>()
+
+export async function checkAndIncrementIeltsSpeakingUsage(
+  familyId: string,
+  action: 'evaluate' | 'transcribe',
+  limit: number,
+): Promise<boolean> {
+  const date = new Date().toISOString().split('T')[0]
+  const key = `vw:ielts-speaking:${action}:${familyId}:${date}`
+  if (redis) {
+    try {
+      const count = await redis.incr(key)
+      if (count === 1) await redis.expire(key, 90000) // 25h
+      return count <= limit
+    } catch (e) { warnRedisFallback('checkAndIncrementIeltsSpeakingUsage', e) }
+  }
+  const now = Date.now()
+  const ttl = 25 * 60 * 60 * 1000
+  let e = ieltsSpeakingStore.get(key)
+  if (!e || now > e.resetAt) { e = { count: 0, resetAt: now + ttl }; ieltsSpeakingStore.set(key, e) }
+  e.count++
+  return e.count <= limit
+}
+
 // ── OTP attempt tracking ──────────────────────────────────────────────────────
 const otpAttemptStore = new Map<string, { count: number; resetAt: number }>()
 
