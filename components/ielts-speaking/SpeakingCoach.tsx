@@ -33,6 +33,28 @@ type ActivePractice = {
   placeholder: string
 }
 
+const LOADING_TIPS = [
+  'Band 7+ thường trả lời trực tiếp trong 2 giây đầu, không vòng vo.',
+  'IELTS thích một ví dụ cụ thể hơn là liệt kê nhiều ý chung chung.',
+  'Một ý phát triển sâu ăn điểm hơn ba ý hời hợt.',
+  'Ngập ngừng tự nhiên không bị trừ điểm — lặp từ vô nghĩa mới bị.',
+  'Từ vựng chính xác, đúng ngữ cảnh quan trọng hơn từ vựng nghe "to tát".',
+]
+
+const FEEDBACK_SECTIONS = [
+  { id: 'ielts-criteria', label: 'Tiêu chí' },
+  { id: 'ielts-corrections', label: 'Sửa câu' },
+  { id: 'ielts-models', label: 'Model answers' },
+  { id: 'ielts-alternative', label: 'Hướng khác' },
+  { id: 'ielts-expressions', label: 'Từ hay' },
+]
+
+function scrollToSection(id: string) {
+  document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+}
+
+const WELCOME_KEY = 'vw_ielts_speaking_welcome_v1'
+
 const PARTS: Array<{ part: IeltsSpeakingPart; label: string; subtitle: string }> = [
   { part: 1, label: 'Part 1', subtitle: 'Personal interview' },
   { part: 2, label: 'Part 2', subtitle: 'Long turn' },
@@ -55,6 +77,19 @@ function firstPart3Question(setId: string, groupId: string): Part3Question {
   return group.questions[0]
 }
 
+function groupSetsByFamily(): Array<[string, typeof IELTS_LINKED_SETS]> {
+  const groups = new Map<string, typeof IELTS_LINKED_SETS>()
+  for (const set of IELTS_LINKED_SETS) {
+    const list = groups.get(set.family)
+    if (list) list.push(set)
+    else groups.set(set.family, [set])
+  }
+  return Array.from(groups.entries())
+}
+
+// Static data — computed once, not per render.
+const LINKED_SETS_BY_FAMILY = groupSetsByFamily()
+
 export default function SpeakingCoach() {
   const initialTopic = IELTS_PART1_TOPICS[0]?.topic ?? 'Home'
   const initialSet = IELTS_LINKED_SETS[0]
@@ -74,6 +109,17 @@ export default function SpeakingCoach() {
   const [attempts, setAttempts] = useState<IeltsSpeakingEvaluation[]>([])
   const [recordingUrl, setRecordingUrl] = useState<string | null>(null)
   const [showShare, setShowShare] = useState(false)
+  const [tipIndex, setTipIndex] = useState(0)
+  const [welcomeDismissed, setWelcomeDismissed] = useState(true)
+
+  useEffect(() => {
+    setWelcomeDismissed(!!localStorage.getItem(WELCOME_KEY))
+  }, [])
+
+  const dismissWelcome = () => {
+    localStorage.setItem(WELCOME_KEY, '1')
+    setWelcomeDismissed(true)
+  }
 
   // Revoke the previous object URL whenever a new recording replaces it, and on unmount.
   useEffect(() => {
@@ -81,6 +127,14 @@ export default function SpeakingCoach() {
       if (recordingUrl) URL.revokeObjectURL(recordingUrl)
     }
   }, [recordingUrl])
+
+  // Rotate a short coaching tip while the evaluate call is in flight (it can take 5-15s).
+  useEffect(() => {
+    if (!loading) return
+    setTipIndex(Math.floor(Math.random() * LOADING_TIPS.length))
+    const timer = setInterval(() => setTipIndex(i => (i + 1) % LOADING_TIPS.length), 3000)
+    return () => clearInterval(timer)
+  }, [loading])
 
   const selectedSet = getLinkedSetById(linkedSetId) ?? initialSet
   const selectedGroup = selectedSet.part3Groups.find(group => group.id === part3GroupId)
@@ -236,6 +290,49 @@ export default function SpeakingCoach() {
           </p>
         </header>
 
+        {!welcomeDismissed && (
+          <div className="mb-5 rounded-3xl border-2 border-indigo-100 bg-gradient-to-br from-indigo-50 to-purple-50 p-5">
+            <div className="mb-4 flex items-start justify-between gap-2">
+              <div>
+                <h3 className="text-base font-black text-gray-800">👋 Chào mừng đến AI Speak!</h3>
+                <p className="mt-0.5 text-xs font-semibold text-gray-400">IELTS Speaking Coach · Part 1, 2 & 3</p>
+              </div>
+              <button
+                type="button"
+                onClick={dismissWelcome}
+                aria-label="Đóng thông báo chào mừng"
+                className="flex-shrink-0 text-lg leading-none text-gray-300 hover:text-gray-500"
+              >
+                ✕
+              </button>
+            </div>
+            <div className="mb-4 space-y-2.5">
+              {[
+                { n: '1', icon: '🎯', title: 'Chọn câu hỏi', desc: 'Part 1 theo chủ đề, Part 2/3 theo linked set' },
+                { n: '2', icon: '🎤', title: 'Ghi âm hoặc gõ câu trả lời', desc: 'Có thể sửa transcript trước khi chấm' },
+                { n: '3', icon: '✨', title: 'Nhận band + model answers', desc: 'Feedback theo tiêu chí, Band 6/7.5/9 giữ ý của bạn' },
+              ].map(step => (
+                <div key={step.n} className="flex items-center gap-3">
+                  <div className="flex h-7 w-7 flex-shrink-0 items-center justify-center rounded-full bg-indigo-500 text-xs font-black text-white">
+                    {step.n}
+                  </div>
+                  <div>
+                    <p className="text-sm font-bold text-gray-700">{step.icon} {step.title}</p>
+                    <p className="text-xs text-gray-400">{step.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <button
+              type="button"
+              onClick={dismissWelcome}
+              className="w-full rounded-2xl bg-indigo-500 py-3 text-sm font-black text-white transition-all active:scale-95 hover:bg-indigo-600"
+            >
+              Bắt đầu luyện tập →
+            </button>
+          </div>
+        )}
+
         <section className="rounded-3xl border-2 border-indigo-100 bg-white p-4 shadow-sm sm:p-5">
           <div>
             <p className="text-xs font-black uppercase tracking-wide text-gray-500">1 · Chọn phần thi</p>
@@ -288,10 +385,14 @@ export default function SpeakingCoach() {
                 onChange={(event: ChangeEvent<HTMLSelectElement>) => selectLinkedSet(event.target.value)}
                 className="mt-2 w-full rounded-xl border-2 border-indigo-100 bg-white px-3 py-3 text-sm font-black text-indigo-800 outline-none transition-colors focus:border-indigo-400"
               >
-                {IELTS_LINKED_SETS.map(set => (
-                  <option key={set.id} value={set.id}>
-                    Set {String(set.number).padStart(2, '0')} · {set.linkedTopic}
-                  </option>
+                {LINKED_SETS_BY_FAMILY.map(([family, sets]) => (
+                  <optgroup key={family} label={family}>
+                    {sets.map(set => (
+                      <option key={set.id} value={set.id}>
+                        Set {String(set.number).padStart(2, '0')} · {set.linkedTopic}
+                      </option>
+                    ))}
+                  </optgroup>
                 ))}
               </select>
               <p className="mt-1.5 text-xs text-gray-400">60 sets · Part 2 cue card liên kết tự nhiên với hai nhóm câu hỏi Part 3</p>
@@ -478,6 +579,9 @@ export default function SpeakingCoach() {
                 </span>
               ) : attempts.length > 0 ? 'Chấm lần trả lời mới' : '✨ Phân tích câu trả lời'}
             </button>
+            {loading && (
+              <p className="mt-2 text-center text-xs leading-relaxed text-indigo-400">💡 {LOADING_TIPS[tipIndex]}</p>
+            )}
             {error && <p className="mt-2 rounded-xl bg-red-50 px-3 py-2 text-center text-xs text-red-600">{error}</p>}
           </div>
         </section>
@@ -492,6 +596,28 @@ export default function SpeakingCoach() {
                 onClose={() => setShowShare(false)}
               />
             )}
+            <div className="flex items-center gap-2">
+              <div className="no-scrollbar flex flex-1 gap-1.5 overflow-x-auto">
+                {FEEDBACK_SECTIONS.map(sectionItem => (
+                  <button
+                    key={sectionItem.id}
+                    type="button"
+                    onClick={() => scrollToSection(sectionItem.id)}
+                    className="flex-shrink-0 rounded-full border border-indigo-200 bg-white px-3 py-1.5 text-xs font-bold text-indigo-600 active:scale-95 transition-all"
+                  >
+                    {sectionItem.label}
+                  </button>
+                ))}
+              </div>
+              <button
+                type="button"
+                onClick={() => setShowShare(true)}
+                aria-label="Chia sẻ kết quả"
+                className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border-2 border-indigo-200 bg-white text-base shadow-sm active:scale-95 transition-all"
+              >
+                📤
+              </button>
+            </div>
             <BandFeedbackPanel evaluation={evaluation} previousEvaluation={previousEvaluation} />
             <div className="grid gap-2 sm:grid-cols-2">
               <button
@@ -509,13 +635,6 @@ export default function SpeakingCoach() {
                 {part === 2 ? 'Cue card tiếp theo →' : 'Câu hỏi tiếp theo →'}
               </button>
             </div>
-            <button
-              type="button"
-              onClick={() => setShowShare(true)}
-              className="w-full flex items-center justify-center gap-2 rounded-2xl border-2 border-indigo-200 bg-white py-3 text-sm font-black text-indigo-600 active:scale-[0.98]"
-            >
-              📤 Chia sẻ kết quả
-            </button>
           </div>
         )}
 

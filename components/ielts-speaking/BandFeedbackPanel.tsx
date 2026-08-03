@@ -29,6 +29,18 @@ function scoreClass(score: number): string {
   return 'border-rose-200 bg-rose-50 text-rose-700'
 }
 
+const CONFIDENCE_STYLE: Record<'low' | 'medium' | 'high', string> = {
+  high: 'bg-emerald-400 text-emerald-950',
+  medium: 'bg-amber-400 text-amber-950',
+  low: 'bg-rose-400 text-rose-950',
+}
+
+const CONFIDENCE_LABEL: Record<'low' | 'medium' | 'high', string> = {
+  high: 'Cao',
+  medium: 'Trung bình',
+  low: 'Thấp',
+}
+
 function CriterionCard({ label, feedback }: { label: string; feedback: CriterionFeedback }) {
   return (
     <details className="group rounded-2xl border border-gray-200 bg-white open:border-indigo-200 open:shadow-sm">
@@ -144,7 +156,9 @@ export default function BandFeedbackPanel({ evaluation, previousEvaluation }: Pr
             </div>
             <div className="rounded-xl bg-white/15 px-3 py-2 text-right">
               <p className="text-[10px] font-bold uppercase tracking-wide text-indigo-100">Độ tin cậy</p>
-              <p className="mt-0.5 text-sm font-black capitalize">{evaluation.estimatedBand.confidence}</p>
+              <span className={`mt-1 inline-block rounded-full px-2.5 py-0.5 text-xs font-black ${CONFIDENCE_STYLE[evaluation.estimatedBand.confidence]}`}>
+                {CONFIDENCE_LABEL[evaluation.estimatedBand.confidence]}
+              </span>
             </div>
           </div>
           <p className="mt-3 text-xs leading-relaxed text-indigo-100">{evaluation.estimatedBand.disclaimerVi}</p>
@@ -178,7 +192,7 @@ export default function BandFeedbackPanel({ evaluation, previousEvaluation }: Pr
         </div>
       </section>
 
-      <section className="space-y-2">
+      <section id="ielts-criteria" className="scroll-mt-4 space-y-2">
         <div>
           <h2 className="text-lg font-black text-gray-900">Nhận xét theo tiêu chí IELTS</h2>
           <p className="text-xs text-gray-500">Mở từng tiêu chí để xem bằng chứng và cách cải thiện.</p>
@@ -192,7 +206,7 @@ export default function BandFeedbackPanel({ evaluation, previousEvaluation }: Pr
         ))}
       </section>
 
-      <section className="rounded-3xl border-2 border-rose-100 bg-white p-4">
+      <section id="ielts-corrections" className="scroll-mt-4 rounded-3xl border-2 border-rose-100 bg-white p-4">
         <h2 className="text-lg font-black text-gray-900">Sửa những điểm quan trọng</h2>
         <p className="mt-0.5 text-xs text-gray-500">Chỉ tập trung vào 1–3 thay đổi có lợi nhất.</p>
         {evaluation.corrections.length === 0 ? (
@@ -216,7 +230,7 @@ export default function BandFeedbackPanel({ evaluation, previousEvaluation }: Pr
         )}
       </section>
 
-      <section className="overflow-hidden rounded-3xl border-2 border-purple-100 bg-white">
+      <section id="ielts-models" className="scroll-mt-4 overflow-hidden rounded-3xl border-2 border-purple-100 bg-white">
         <div className="border-b border-purple-100 bg-purple-50 px-4 py-3">
           <h2 className="text-lg font-black text-purple-950">Grow My Answer</h2>
           <p className="text-xs text-purple-700">Ba phiên bản đều giữ ý tưởng cốt lõi của bạn.</p>
@@ -242,7 +256,7 @@ export default function BandFeedbackPanel({ evaluation, previousEvaluation }: Pr
         </div>
       </section>
 
-      <section className="rounded-3xl border-2 border-cyan-100 bg-cyan-50 p-4">
+      <section id="ielts-alternative" className="scroll-mt-4 rounded-3xl border-2 border-cyan-100 bg-cyan-50 p-4">
         <div className="flex items-start gap-3">
           <span className="text-2xl">💡</span>
           <div>
@@ -258,7 +272,7 @@ export default function BandFeedbackPanel({ evaluation, previousEvaluation }: Pr
         </div>
       </section>
 
-      <section className="rounded-3xl border-2 border-amber-100 bg-white p-4">
+      <section id="ielts-expressions" className="scroll-mt-4 rounded-3xl border-2 border-amber-100 bg-white p-4">
         <h2 className="text-lg font-black text-gray-900">Expressions đáng học</h2>
         <p className="mt-0.5 text-xs text-gray-500">Chỉ 3–5 cụm từ có thể tái sử dụng ngay.</p>
         <div className="mt-3 space-y-2.5">
