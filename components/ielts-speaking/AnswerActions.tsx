@@ -83,13 +83,13 @@ export default function AnswerActions({
 
   return (
     <div className={`flex flex-wrap items-center gap-2 ${compact ? 'mt-2' : 'mt-3'}`}>
-      <span className="rounded-full bg-gray-100 px-2.5 py-1 text-[11px] font-bold text-gray-500">
+      <span className="rounded-full bg-gray-100 px-2.5 py-1 text-xs font-bold text-gray-500">
         {wordCount} từ · {formatDuration(estimatedDuration)}
       </span>
       <button
         type="button"
         onClick={toggleSpeech}
-        className="rounded-full border border-indigo-200 bg-white px-3 py-1 text-[11px] font-black text-indigo-700 transition-colors hover:bg-indigo-50"
+        className="rounded-full border border-indigo-200 bg-white px-3 py-1 text-xs font-black text-indigo-700 transition-colors hover:bg-indigo-50"
         aria-label={isSpeaking ? 'Dừng đọc câu trả lời mẫu' : 'Nghe câu trả lời mẫu'}
       >
         {isSpeaking ? '■ Dừng' : '▶ Nghe'}
@@ -97,7 +97,7 @@ export default function AnswerActions({
       <button
         type="button"
         onClick={copyText}
-        className="rounded-full border border-gray-200 bg-white px-3 py-1 text-[11px] font-black text-gray-600 transition-colors hover:bg-gray-50"
+        className="rounded-full border border-gray-200 bg-white px-3 py-1 text-xs font-black text-gray-600 transition-colors hover:bg-gray-50"
       >
         {copied ? '✓ Đã sao chép' : '⧉ Sao chép'}
       </button>

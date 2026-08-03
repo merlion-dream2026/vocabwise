@@ -62,7 +62,7 @@ export default function Part2PreparationTimer() {
           style={{ width: `${progress}%` }}
         />
       </div>
-      <p className="mt-2 text-[11px] leading-relaxed text-amber-800">
+      <p className="mt-2 text-xs leading-relaxed text-amber-800">
         Chỉ ghi 4–6 keywords: bối cảnh, chi tiết mạnh nhất, cảm xúc và câu reflection. Không viết cả câu.
       </p>
     </div>

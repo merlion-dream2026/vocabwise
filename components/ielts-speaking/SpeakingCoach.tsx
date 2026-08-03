@@ -355,7 +355,7 @@ export default function SpeakingCoach() {
                     <li key={point}>• {point}</li>
                   ))}
                 </ul>
-                <p className="mt-3 border-t border-amber-100 pt-2 text-[11px] leading-relaxed text-amber-800">
+                <p className="mt-3 border-t border-amber-100 pt-2 text-xs leading-relaxed text-amber-800">
                   Khung phát triển: {selectedSet.part2.responseFramework}
                 </p>
               </div>
@@ -371,7 +371,7 @@ export default function SpeakingCoach() {
                 Gợi ý lập luận: {selectedPart3Question.quickAnalysis}
               </p>
             )}
-            <p className="mt-2 text-[11px] font-bold text-gray-500">{activePractice.targetLabel}</p>
+            <p className="mt-2 text-xs font-bold text-gray-500">{activePractice.targetLabel}</p>
           </div>
 
           {part === 2 && (
@@ -413,7 +413,7 @@ export default function SpeakingCoach() {
                   maxSeconds={activePractice.maxRecordingSeconds}
                   onTranscript={handleTranscript}
                 />
-                <p className="mt-2 text-center text-[11px] leading-relaxed text-gray-400">
+                <p className="mt-2 text-center text-xs leading-relaxed text-gray-400">
                   Ghi tối đa {activePractice.maxRecordingSeconds} giây. Audio chỉ được gửi để tạo transcript và không được lưu trong MVP này.
                 </p>
               </div>
@@ -424,7 +424,7 @@ export default function SpeakingCoach() {
                 <label htmlFor="ielts-answer" className="text-xs font-black text-gray-600">
                   {source === 'audio' ? 'Transcript — bạn có thể sửa trước khi chấm' : 'Câu trả lời của bạn'}
                 </label>
-                <span className="text-[11px] font-bold text-gray-400">{wordCount} từ</span>
+                <span className="text-xs font-bold text-gray-400">{wordCount} từ</span>
               </div>
               <textarea
                 id="ielts-answer"
@@ -480,7 +480,7 @@ export default function SpeakingCoach() {
           </div>
         )}
 
-        <p className="mt-6 text-center text-[11px] leading-relaxed text-gray-400">
+        <p className="mt-6 text-center text-xs leading-relaxed text-gray-400">
           Band score là ước lượng hỗ trợ luyện tập, không phải kết quả chính thức của IELTS.
           Pronunciation chưa được chấm vì evaluator không trực tiếp phân tích tín hiệu âm thanh.
         </p>

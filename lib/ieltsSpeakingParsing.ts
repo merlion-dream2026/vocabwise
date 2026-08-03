@@ -92,6 +92,27 @@ function averageBand(a: number, b: number, c: number): number {
   return roundHalf((a + b + c) / 3)
 }
 
+/**
+ * Some providers/models wrap otherwise-valid JSON in a markdown code fence or add a
+ * sentence before/after it despite the "JSON only" instruction. Strip a fence if present,
+ * then fall back to the outermost {...} slice before giving up on JSON.parse.
+ */
+function extractJsonObject(raw: string): unknown {
+  const fenceStripped = raw.trim().replace(/^```(?:json)?\s*/i, '').replace(/```\s*$/, '').trim()
+  try {
+    return JSON.parse(fenceStripped)
+  } catch { /* fall through to brace extraction */ }
+
+  const start = fenceStripped.indexOf('{')
+  const end = fenceStripped.lastIndexOf('}')
+  if (start === -1 || end === -1 || end <= start) throw new Error('No JSON object found')
+  return JSON.parse(fenceStripped.slice(start, end + 1))
+}
+
+function logParseFailure(reason: string, raw: string): void {
+  console.error(`[ieltsSpeakingParsing] ${reason}. Raw (first 400 chars):`, raw.slice(0, 400))
+}
+
 export function parseIeltsSpeakingEvaluation(
   raw: string,
   question: string,
@@ -99,8 +120,9 @@ export function parseIeltsSpeakingEvaluation(
 ): IeltsSpeakingEvaluation | null {
   let parsed: unknown
   try {
-    parsed = JSON.parse(raw)
+    parsed = extractJsonObject(raw)
   } catch {
+    logParseFailure('JSON.parse failed', raw)
     return null
   }
 
@@ -126,9 +148,18 @@ export function parseIeltsSpeakingEvaluation(
   const band9 = parseModelAnswer(modelAnswers.band_9)
   const expressions = parseExpressions(root.useful_expressions)
 
-  if (!band6.answer || !band7_5.answer || !band9.answer) return null
-  if (!asString(alternativeIdea.answer)) return null
-  if (expressions.length < 3) return null
+  if (!band6.answer || !band7_5.answer || !band9.answer) {
+    logParseFailure('Missing one or more model answers (band_6/band_7_5/band_9)', raw)
+    return null
+  }
+  if (!asString(alternativeIdea.answer)) {
+    logParseFailure('Missing alternative_idea.answer', raw)
+    return null
+  }
+  if (expressions.length < 3) {
+    logParseFailure(`Only ${expressions.length} useful_expressions (need >= 3)`, raw)
+    return null
+  }
 
   return {
     question,

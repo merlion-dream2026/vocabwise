@@ -124,7 +124,7 @@ export async function POST(req: NextRequest) {
   const reference = input.questionId
     ? getSpeakingReferenceByQuestionId(input.part, input.questionId)
     : undefined
-  const maxTokens = input.part === 2 ? 4200 : 3200
+  const maxTokens = input.part === 2 ? 4200 : 3800
   const prompt = buildIeltsSpeakingEvaluationPrompt(input, reference)
   const raw = await aiChat({
     order: ['cerebras', 'groq'],
