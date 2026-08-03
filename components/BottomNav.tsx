@@ -35,6 +35,7 @@ function getActiveTab(pathname: string, childId: string | null): string {
   if (pathname === '/dashboard')    return 'dashboard'
   if (pathname === '/my-words')     return 'mywords'
   if (pathname.startsWith('/vocabwise')) return 'academic'
+  if (pathname.startsWith('/ielts-speaking')) return 'ai-speak'
   if (!childId) return ''
   const base  = `/dashboard/${childId}`
   const first = pathname.slice(base.length + 1).split('/')[0]
@@ -49,6 +50,7 @@ const MODULE_TABS = [
   { key: 'phonics',   label: 'Phonics',      icon: '🔊', needsChild: true  },
   { key: 'daily',     label: 'Daily',        icon: '📖', needsChild: true  },
   { key: 'academic',  label: 'Academic',     icon: '🎓', needsChild: false },
+  { key: 'ai-speak',  label: 'AI Speak',    icon: '🎙️', needsChild: false },
   { key: 'mywords',   label: 'My Words',    icon: '⭐', needsChild: false },
   { key: 'dashboard', label: 'Dashboard',    icon: '📊', needsChild: false },
 ]
@@ -57,6 +59,7 @@ const DEST: Record<string, (id: string) => string> = {
   phonics:   id => `/dashboard/${id}/phonics`,
   daily:     id => `/dashboard/${id}/kids`,
   academic:  ()  => '/vocabwise',
+  'ai-speak': () => '/ielts-speaking',
   mywords:   ()  => '/my-words',
   dashboard: ()  => '/dashboard',
 }
@@ -92,6 +95,7 @@ export default function BottomNav() {
     router.prefetch('/kids')
     router.prefetch('/dashboard')
     router.prefetch('/vocabwise')
+    router.prefetch('/ielts-speaking')
     router.prefetch('/my-words')
     if (childId) {
       router.prefetch(`/dashboard/${childId}/phonics`)

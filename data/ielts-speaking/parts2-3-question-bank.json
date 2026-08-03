@@ -1,0 +1,4153 @@
+{
+  "schema_version": "1.0",
+  "content_type": "ielts_speaking_parts2_3_question_bank",
+  "source_note": "Derived from the normalized Parts 2–3 model-answer banks. Model answers are intentionally excluded from this client-safe file.",
+  "stats": {
+    "linked_sets": 60,
+    "part2_cue_cards": 60,
+    "part3_groups": 120,
+    "part3_questions": 360
+  },
+  "sets": [
+    {
+      "id": "set-01",
+      "number": 1,
+      "family": "People",
+      "linked_topic": "A person who taught you a useful skill",
+      "part2": {
+        "id": "p2-set-01",
+        "cue_card": {
+          "prompt": "Describe a person who taught you a useful skill.",
+          "bullet_points": [
+            "who the person was",
+            "what skill they taught you",
+            "how they taught it",
+            "and explain why the skill was useful"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Learning from other people",
+          "questions": [
+            {
+              "id": "s01-a-q01",
+              "number": 1,
+              "text": "Why are some people better teachers than others?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s01-a-q02",
+              "number": 2,
+              "text": "Do people learn practical skills more effectively from family or from professionals?",
+              "quick_analysis": "Set a criterion, compare both sides and state which one works better under which conditions."
+            },
+            {
+              "id": "s01-a-q03",
+              "number": 3,
+              "text": "What skills should all young people learn before they become adults?",
+              "quick_analysis": "Choose categories using a clear criterion; explain their value rather than merely listing examples."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Skills and education",
+          "questions": [
+            {
+              "id": "s01-b-q01",
+              "number": 1,
+              "text": "Has the Internet changed the way people learn skills?",
+              "quick_analysis": "Identify one major shift, explain its cause and balance gains against new drawbacks."
+            },
+            {
+              "id": "s01-b-q02",
+              "number": 2,
+              "text": "Should schools place more emphasis on practical skills?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s01-b-q03",
+              "number": 3,
+              "text": "Will people need to learn new skills more frequently in the future?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-02",
+      "number": 2,
+      "family": "People",
+      "linked_topic": "A friend you enjoy talking to",
+      "part2": {
+        "id": "p2-set-02",
+        "cue_card": {
+          "prompt": "Describe a friend you particularly enjoy talking to.",
+          "bullet_points": [
+            "who this person is",
+            "how you met",
+            "what you usually talk about",
+            "and explain why you enjoy these conversations"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Friendship and communication",
+          "questions": [
+            {
+              "id": "s02-a-q01",
+              "number": 1,
+              "text": "What makes a conversation enjoyable?",
+              "quick_analysis": "Prioritise one or two qualities and show them in practice instead of giving a bare list."
+            },
+            {
+              "id": "s02-a-q02",
+              "number": 2,
+              "text": "Do people communicate differently with friends and family?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s02-a-q03",
+              "number": 3,
+              "text": "Why do some friendships last for many years?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Modern friendships",
+          "questions": [
+            {
+              "id": "s02-b-q01",
+              "number": 1,
+              "text": "Has technology made friendships stronger or weaker?",
+              "quick_analysis": "Identify one major shift, explain its cause and balance gains against new drawbacks."
+            },
+            {
+              "id": "s02-b-q02",
+              "number": 2,
+              "text": "Is it easier to make friends today than in the past?",
+              "quick_analysis": "Make one clear past–present contrast, explain the driver and avoid romanticising either period."
+            },
+            {
+              "id": "s02-b-q03",
+              "number": 3,
+              "text": "Do adults have enough time to maintain close friendships?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-03",
+      "number": 3,
+      "family": "People",
+      "linked_topic": "A family member you admire",
+      "part2": {
+        "id": "p2-set-03",
+        "cue_card": {
+          "prompt": "Describe a family member you admire.",
+          "bullet_points": [
+            "who the person is",
+            "what they are like",
+            "what they have done",
+            "and explain why you admire them"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Family influence",
+          "questions": [
+            {
+              "id": "s03-a-q01",
+              "number": 1,
+              "text": "How do family members influence children’s personalities?",
+              "quick_analysis": "Explain the mechanism through a logical sequence and one concrete example."
+            },
+            {
+              "id": "s03-a-q02",
+              "number": 2,
+              "text": "Should parents be role models for their children?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s03-a-q03",
+              "number": 3,
+              "text": "Why do some young people admire people outside their family more?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Changing family relationships",
+          "questions": [
+            {
+              "id": "s03-b-q01",
+              "number": 1,
+              "text": "Are families as close as they were in the past?",
+              "quick_analysis": "Make one clear past–present contrast, explain the driver and avoid romanticising either period."
+            },
+            {
+              "id": "s03-b-q02",
+              "number": 2,
+              "text": "What are the benefits of several generations living together?",
+              "quick_analysis": "Prioritise one clear benefit, explain the mechanism, add one illustration and acknowledge who may benefit less."
+            },
+            {
+              "id": "s03-b-q03",
+              "number": 3,
+              "text": "How might family life change in the future?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-04",
+      "number": 4,
+      "family": "People",
+      "linked_topic": "An older person with interesting stories",
+      "part2": {
+        "id": "p2-set-04",
+        "cue_card": {
+          "prompt": "Describe an older person you enjoy talking to.",
+          "bullet_points": [
+            "who the person is",
+            "how you know them",
+            "what they talk about",
+            "and explain what you learn from them"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Age and experience",
+          "questions": [
+            {
+              "id": "s04-a-q01",
+              "number": 1,
+              "text": "What can young people learn from older generations?",
+              "quick_analysis": "Choose categories using a clear criterion; explain their value rather than merely listing examples."
+            },
+            {
+              "id": "s04-a-q02",
+              "number": 2,
+              "text": "Why do some elderly people enjoy telling stories about the past?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s04-a-q03",
+              "number": 3,
+              "text": "Are older people always wiser than younger people?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "An ageing society",
+          "questions": [
+            {
+              "id": "s04-b-q01",
+              "number": 1,
+              "text": "How can communities support elderly people?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            },
+            {
+              "id": "s04-b-q02",
+              "number": 2,
+              "text": "Should older people continue working if they want to?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s04-b-q03",
+              "number": 3,
+              "text": "How may longer life expectancy affect society?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-05",
+      "number": 5,
+      "family": "People",
+      "linked_topic": "A young person you know",
+      "part2": {
+        "id": "p2-set-05",
+        "cue_card": {
+          "prompt": "Describe a child or teenager you know well.",
+          "bullet_points": [
+            "who the person is",
+            "how often you see them",
+            "what they are like",
+            "and explain what you enjoy about spending time with them"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Children today",
+          "questions": [
+            {
+              "id": "s05-a-q01",
+              "number": 1,
+              "text": "How is childhood different from the past?",
+              "quick_analysis": "Make one clear past–present contrast, explain the driver and avoid romanticising either period."
+            },
+            {
+              "id": "s05-a-q02",
+              "number": 2,
+              "text": "What qualities should adults encourage in children?",
+              "quick_analysis": "Prioritise one or two qualities and show them in practice instead of giving a bare list."
+            },
+            {
+              "id": "s05-a-q03",
+              "number": 3,
+              "text": "Do children have too much scheduled activity nowadays?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Raising children",
+          "questions": [
+            {
+              "id": "s05-b-q01",
+              "number": 1,
+              "text": "Who has more influence on children: parents, teachers or friends?",
+              "quick_analysis": "Set a criterion, compare both sides and state which one works better under which conditions."
+            },
+            {
+              "id": "s05-b-q02",
+              "number": 2,
+              "text": "Should children be given more freedom to make decisions?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s05-b-q03",
+              "number": 3,
+              "text": "How can adults help children use technology responsibly?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-06",
+      "number": 6,
+      "family": "People",
+      "linked_topic": "A person from a different culture",
+      "part2": {
+        "id": "p2-set-06",
+        "cue_card": {
+          "prompt": "Describe a person from a different culture whom you enjoy talking to.",
+          "bullet_points": [
+            "who the person is",
+            "where they are from",
+            "how you met",
+            "and explain what you find interesting about them"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Cross-cultural contact",
+          "questions": [
+            {
+              "id": "s06-a-q01",
+              "number": 1,
+              "text": "What are the benefits of meeting people from other cultures?",
+              "quick_analysis": "Prioritise one clear benefit, explain the mechanism, add one illustration and acknowledge who may benefit less."
+            },
+            {
+              "id": "s06-a-q02",
+              "number": 2,
+              "text": "What misunderstandings can occur between cultures?",
+              "quick_analysis": "Name the central problem, explain why it arises, illustrate it and add a realistic response or limit."
+            },
+            {
+              "id": "s06-a-q03",
+              "number": 3,
+              "text": "Do people need to live abroad to understand another culture?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Globalisation and identity",
+          "questions": [
+            {
+              "id": "s06-b-q01",
+              "number": 1,
+              "text": "Is globalisation making cultures more similar?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s06-b-q02",
+              "number": 2,
+              "text": "How can countries protect local traditions?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            },
+            {
+              "id": "s06-b-q03",
+              "number": 3,
+              "text": "Will cultural differences become less important in the future?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-07",
+      "number": 7,
+      "family": "People",
+      "linked_topic": "A well-known person you admire",
+      "part2": {
+        "id": "p2-set-07",
+        "cue_card": {
+          "prompt": "Describe a well-known person you admire.",
+          "bullet_points": [
+            "who the person is",
+            "how you know about them",
+            "what they have achieved",
+            "and explain why you admire them"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Fame and influence",
+          "questions": [
+            {
+              "id": "s07-a-q01",
+              "number": 1,
+              "text": "Why do people admire celebrities?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s07-a-q02",
+              "number": 2,
+              "text": "Should famous people be expected to behave as role models?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s07-a-q03",
+              "number": 3,
+              "text": "What kinds of people become famous today?",
+              "quick_analysis": "Choose categories using a clear criterion; explain their value rather than merely listing examples."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Media and public figures",
+          "questions": [
+            {
+              "id": "s07-b-q01",
+              "number": 1,
+              "text": "Has social media changed the meaning of fame?",
+              "quick_analysis": "Identify one major shift, explain its cause and balance gains against new drawbacks."
+            },
+            {
+              "id": "s07-b-q02",
+              "number": 2,
+              "text": "Do celebrities have too much influence on young people?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s07-b-q03",
+              "number": 3,
+              "text": "Will traditional celebrities remain important in the future?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-08",
+      "number": 8,
+      "family": "People",
+      "linked_topic": "A person who dresses well",
+      "part2": {
+        "id": "p2-set-08",
+        "cue_card": {
+          "prompt": "Describe a person you know who dresses well.",
+          "bullet_points": [
+            "who the person is",
+            "what kind of clothes they wear",
+            "when you notice their style",
+            "and explain why you think they dress well"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Clothing and identity",
+          "questions": [
+            {
+              "id": "s08-a-q01",
+              "number": 1,
+              "text": "Why do people use clothes to express themselves?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s08-a-q02",
+              "number": 2,
+              "text": "Are first impressions based too much on appearance?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s08-a-q03",
+              "number": 3,
+              "text": "Do men and women face the same pressure to dress well?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Fashion industry",
+          "questions": [
+            {
+              "id": "s08-b-q01",
+              "number": 1,
+              "text": "Why does fashion change so quickly?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s08-b-q02",
+              "number": 2,
+              "text": "Is fast fashion a serious environmental problem?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s08-b-q03",
+              "number": 3,
+              "text": "Will people care more about sustainable clothing in the future?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-09",
+      "number": 9,
+      "family": "People",
+      "linked_topic": "A person who helped you",
+      "part2": {
+        "id": "p2-set-09",
+        "cue_card": {
+          "prompt": "Describe someone who helped you at an important time.",
+          "bullet_points": [
+            "who the person was",
+            "what situation you were in",
+            "how they helped you",
+            "and explain how you felt about their help"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Helping behavior",
+          "questions": [
+            {
+              "id": "s09-a-q01",
+              "number": 1,
+              "text": "Why are some people more willing to help strangers?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s09-a-q02",
+              "number": 2,
+              "text": "Should people expect something in return when they help?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s09-a-q03",
+              "number": 3,
+              "text": "How can schools encourage children to help others?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Community support",
+          "questions": [
+            {
+              "id": "s09-b-q01",
+              "number": 1,
+              "text": "Are communities less supportive than in the past?",
+              "quick_analysis": "Make one clear past–present contrast, explain the driver and avoid romanticising either period."
+            },
+            {
+              "id": "s09-b-q02",
+              "number": 2,
+              "text": "What role should charities play in society?",
+              "quick_analysis": "Define the role, explain why it is needed, and set a realistic boundary."
+            },
+            {
+              "id": "s09-b-q03",
+              "number": 3,
+              "text": "Can technology make it easier for people to support one another?",
+              "quick_analysis": "Answer yes/no conditionally, explain the mechanism and separate possibility from certainty."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-10",
+      "number": 10,
+      "family": "People",
+      "linked_topic": "A person who is excellent at their job",
+      "part2": {
+        "id": "p2-set-10",
+        "cue_card": {
+          "prompt": "Describe a person you know who is very good at their job.",
+          "bullet_points": [
+            "who the person is",
+            "what their job involves",
+            "what makes them good at it",
+            "and explain what you have learned from them"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Professional excellence",
+          "questions": [
+            {
+              "id": "s10-a-q01",
+              "number": 1,
+              "text": "What qualities make someone good at their job?",
+              "quick_analysis": "Prioritise one or two qualities and show them in practice instead of giving a bare list."
+            },
+            {
+              "id": "s10-a-q02",
+              "number": 2,
+              "text": "Is natural talent more important than hard work?",
+              "quick_analysis": "Set a criterion, compare both sides and state which one works better under which conditions."
+            },
+            {
+              "id": "s10-a-q03",
+              "number": 3,
+              "text": "How should companies recognize excellent employees?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Workplace change",
+          "questions": [
+            {
+              "id": "s10-b-q01",
+              "number": 1,
+              "text": "How has technology changed professional skills?",
+              "quick_analysis": "Identify one major shift, explain its cause and balance gains against new drawbacks."
+            },
+            {
+              "id": "s10-b-q02",
+              "number": 2,
+              "text": "Do people change careers more often now?",
+              "quick_analysis": "Make one clear past–present contrast, explain the driver and avoid romanticising either period."
+            },
+            {
+              "id": "s10-b-q03",
+              "number": 3,
+              "text": "What skills will be most valuable in future workplaces?",
+              "quick_analysis": "Choose categories using a clear criterion; explain their value rather than merely listing examples."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-11",
+      "number": 11,
+      "family": "People",
+      "linked_topic": "A person who protects the environment",
+      "part2": {
+        "id": "p2-set-11",
+        "cue_card": {
+          "prompt": "Describe a person you know who does something to protect the environment.",
+          "bullet_points": [
+            "who the person is",
+            "what they do",
+            "how you know about their actions",
+            "and explain what effect they have had on you"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Environmental responsibility",
+          "questions": [
+            {
+              "id": "s11-a-q01",
+              "number": 1,
+              "text": "Why do some people care more about the environment than others?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s11-a-q02",
+              "number": 2,
+              "text": "Can individual actions make a meaningful difference?",
+              "quick_analysis": "Answer yes/no conditionally, explain the mechanism and separate possibility from certainty."
+            },
+            {
+              "id": "s11-a-q03",
+              "number": 3,
+              "text": "Should environmental behavior be taught at school?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Government and business",
+          "questions": [
+            {
+              "id": "s11-b-q01",
+              "number": 1,
+              "text": "What should governments do to reduce waste?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            },
+            {
+              "id": "s11-b-q02",
+              "number": 2,
+              "text": "Should companies be punished for environmental damage?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s11-b-q03",
+              "number": 3,
+              "text": "Will consumers force businesses to become greener?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-12",
+      "number": 12,
+      "family": "People",
+      "linked_topic": "A person you would like to work or study with",
+      "part2": {
+        "id": "p2-set-12",
+        "cue_card": {
+          "prompt": "Describe someone you would like to work or study with.",
+          "bullet_points": [
+            "who the person is",
+            "what you know about them",
+            "what you would do together",
+            "and explain why they would be a good partner"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Teamwork",
+          "questions": [
+            {
+              "id": "s12-a-q01",
+              "number": 1,
+              "text": "What makes people work well in a team?",
+              "quick_analysis": "Prioritise one or two qualities and show them in practice instead of giving a bare list."
+            },
+            {
+              "id": "s12-a-q02",
+              "number": 2,
+              "text": "Why do some people prefer working alone?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s12-a-q03",
+              "number": 3,
+              "text": "Should team members always share responsibility equally?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Collaboration in the future",
+          "questions": [
+            {
+              "id": "s12-b-q01",
+              "number": 1,
+              "text": "How has remote work affected teamwork?",
+              "quick_analysis": "Identify one major shift, explain its cause and balance gains against new drawbacks."
+            },
+            {
+              "id": "s12-b-q02",
+              "number": 2,
+              "text": "Can online teams be as effective as face-to-face teams?",
+              "quick_analysis": "Answer yes/no conditionally, explain the mechanism and separate possibility from certainty."
+            },
+            {
+              "id": "s12-b-q03",
+              "number": 3,
+              "text": "Will collaboration become more important in future careers?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-13",
+      "number": 13,
+      "family": "Places",
+      "linked_topic": "A restaurant you enjoy",
+      "part2": {
+        "id": "p2-set-13",
+        "cue_card": {
+          "prompt": "Describe a restaurant you enjoy going to.",
+          "bullet_points": [
+            "where it is",
+            "when you first went there",
+            "what the restaurant and food are like",
+            "and explain why you enjoy going there"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Restaurants and eating out",
+          "questions": [
+            {
+              "id": "s13-a-q01",
+              "number": 1,
+              "text": "Why do people choose restaurants for celebrations?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s13-a-q02",
+              "number": 2,
+              "text": "Why are fast-food restaurants popular with some groups?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s13-a-q03",
+              "number": 3,
+              "text": "Is food in expensive restaurants always better?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Food culture and the restaurant industry",
+          "questions": [
+            {
+              "id": "s13-b-q01",
+              "number": 1,
+              "text": "What qualities make a restaurant successful?",
+              "quick_analysis": "Prioritise one or two qualities and show them in practice instead of giving a bare list."
+            },
+            {
+              "id": "s13-b-q02",
+              "number": 2,
+              "text": "Should restaurants serve only local food?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s13-b-q03",
+              "number": 3,
+              "text": "How has food culture changed in your country?",
+              "quick_analysis": "Identify one major shift, explain its cause and balance gains against new drawbacks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-14",
+      "number": 14,
+      "family": "Places",
+      "linked_topic": "A public park",
+      "part2": {
+        "id": "p2-set-14",
+        "cue_card": {
+          "prompt": "Describe a public park you enjoy visiting.",
+          "bullet_points": [
+            "where it is",
+            "what it looks like",
+            "what people do there",
+            "and explain why you like it"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Public green spaces",
+          "questions": [
+            {
+              "id": "s14-a-q01",
+              "number": 1,
+              "text": "Why are parks important in cities?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s14-a-q02",
+              "number": 2,
+              "text": "Who uses public parks the most?",
+              "quick_analysis": "Identify the main group, explain why it uses the place or service, then acknowledge variation."
+            },
+            {
+              "id": "s14-a-q03",
+              "number": 3,
+              "text": "What facilities should a good park provide?",
+              "quick_analysis": "Choose categories using a clear criterion; explain their value rather than merely listing examples."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Urban planning",
+          "questions": [
+            {
+              "id": "s14-b-q01",
+              "number": 1,
+              "text": "Why do some cities have too little green space?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s14-b-q02",
+              "number": 2,
+              "text": "Should governments protect parks from development?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s14-b-q03",
+              "number": 3,
+              "text": "How might public spaces change in the future?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-15",
+      "number": 15,
+      "family": "Places",
+      "linked_topic": "A quiet place",
+      "part2": {
+        "id": "p2-set-15",
+        "cue_card": {
+          "prompt": "Describe a quiet place where you like to spend time.",
+          "bullet_points": [
+            "where it is",
+            "when you go there",
+            "what you do there",
+            "and explain why it helps you relax"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Quiet and well-being",
+          "questions": [
+            {
+              "id": "s15-a-q01",
+              "number": 1,
+              "text": "Why do people need quiet places?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s15-a-q02",
+              "number": 2,
+              "text": "Is it harder to find silence in modern cities?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s15-a-q03",
+              "number": 3,
+              "text": "Do different age groups relax in different ways?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Noise in society",
+          "questions": [
+            {
+              "id": "s15-b-q01",
+              "number": 1,
+              "text": "What are the main sources of urban noise?",
+              "quick_analysis": "Choose one dominant source, trace how it produces the outcome and avoid listing several shallow causes."
+            },
+            {
+              "id": "s15-b-q02",
+              "number": 2,
+              "text": "Should governments regulate noise more strictly?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s15-b-q03",
+              "number": 3,
+              "text": "Will technology make life quieter or noisier?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-16",
+      "number": 16,
+      "family": "Places",
+      "linked_topic": "A crowded place",
+      "part2": {
+        "id": "p2-set-16",
+        "cue_card": {
+          "prompt": "Describe a crowded place you have been to.",
+          "bullet_points": [
+            "where it was",
+            "when you went there",
+            "why it was crowded",
+            "and explain how you felt there"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Crowds and public places",
+          "questions": [
+            {
+              "id": "s16-a-q01",
+              "number": 1,
+              "text": "Why do some people enjoy crowded places?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s16-a-q02",
+              "number": 2,
+              "text": "What problems can large crowds cause?",
+              "quick_analysis": "Name the central problem, explain why it arises, illustrate it and add a realistic response or limit."
+            },
+            {
+              "id": "s16-a-q03",
+              "number": 3,
+              "text": "How should public events manage crowd safety?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Population and cities",
+          "questions": [
+            {
+              "id": "s16-b-q01",
+              "number": 1,
+              "text": "Why do people continue moving to crowded cities?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s16-b-q02",
+              "number": 2,
+              "text": "Can better urban planning reduce overcrowding?",
+              "quick_analysis": "Answer yes/no conditionally, explain the mechanism and separate possibility from certainty."
+            },
+            {
+              "id": "s16-b-q03",
+              "number": 3,
+              "text": "Will remote work make large cities less crowded?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-17",
+      "number": 17,
+      "family": "Places",
+      "linked_topic": "A city or town you enjoyed",
+      "part2": {
+        "id": "p2-set-17",
+        "cue_card": {
+          "prompt": "Describe a city or town you enjoyed visiting.",
+          "bullet_points": [
+            "where it is",
+            "when you went there",
+            "what you did",
+            "and explain what made the place memorable"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "City life",
+          "questions": [
+            {
+              "id": "s17-a-q01",
+              "number": 1,
+              "text": "What makes a city attractive to visitors?",
+              "quick_analysis": "Prioritise one or two qualities and show them in practice instead of giving a bare list."
+            },
+            {
+              "id": "s17-a-q02",
+              "number": 2,
+              "text": "Why do people prefer living in cities?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s17-a-q03",
+              "number": 3,
+              "text": "What problems do rapidly growing cities face?",
+              "quick_analysis": "Name the central problem, explain why it arises, illustrate it and add a realistic response or limit."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Cities of the future",
+          "questions": [
+            {
+              "id": "s17-b-q01",
+              "number": 1,
+              "text": "How can cities become more liveable?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            },
+            {
+              "id": "s17-b-q02",
+              "number": 2,
+              "text": "Will smaller cities become more popular?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            },
+            {
+              "id": "s17-b-q03",
+              "number": 3,
+              "text": "What role will technology play in future cities?",
+              "quick_analysis": "Define the role, explain why it is needed, and set a realistic boundary."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-18",
+      "number": 18,
+      "family": "Places",
+      "linked_topic": "A home you visited",
+      "part2": {
+        "id": "p2-set-18",
+        "cue_card": {
+          "prompt": "Describe a home you visited that made an impression on you.",
+          "bullet_points": [
+            "whose home it was",
+            "where it was",
+            "what it was like",
+            "and explain why you remember it"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Homes and lifestyles",
+          "questions": [
+            {
+              "id": "s18-a-q01",
+              "number": 1,
+              "text": "What makes a house feel like a home?",
+              "quick_analysis": "Prioritise one or two qualities and show them in practice instead of giving a bare list."
+            },
+            {
+              "id": "s18-a-q02",
+              "number": 2,
+              "text": "Why do housing preferences differ between age groups?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s18-a-q03",
+              "number": 3,
+              "text": "Is it better to own or rent a home?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Housing and society",
+          "questions": [
+            {
+              "id": "s18-b-q01",
+              "number": 1,
+              "text": "Why is housing expensive in many cities?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s18-b-q02",
+              "number": 2,
+              "text": "Should governments provide more affordable housing?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s18-b-q03",
+              "number": 3,
+              "text": "How might homes change in the future?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-19",
+      "number": 19,
+      "family": "Places",
+      "linked_topic": "A building you admire",
+      "part2": {
+        "id": "p2-set-19",
+        "cue_card": {
+          "prompt": "Describe a building you particularly like.",
+          "bullet_points": [
+            "where it is",
+            "what it looks like",
+            "what it is used for",
+            "and explain why you admire it"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Architecture",
+          "questions": [
+            {
+              "id": "s19-a-q01",
+              "number": 1,
+              "text": "Why do some buildings become landmarks?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s19-a-q02",
+              "number": 2,
+              "text": "Should modern buildings copy traditional styles?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s19-a-q03",
+              "number": 3,
+              "text": "How does architecture affect people’s feelings?",
+              "quick_analysis": "Explain the mechanism through a logical sequence and one concrete example."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Development and preservation",
+          "questions": [
+            {
+              "id": "s19-b-q01",
+              "number": 1,
+              "text": "Should old buildings always be preserved?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s19-b-q02",
+              "number": 2,
+              "text": "Why do cities demolish historic buildings?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s19-b-q03",
+              "number": 3,
+              "text": "How can new development respect local character?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-20",
+      "number": 20,
+      "family": "Places",
+      "linked_topic": "A historical place",
+      "part2": {
+        "id": "p2-set-20",
+        "cue_card": {
+          "prompt": "Describe a historical place you have visited.",
+          "bullet_points": [
+            "where it is",
+            "what happened there",
+            "what you saw",
+            "and explain why the visit was interesting"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "History and heritage",
+          "questions": [
+            {
+              "id": "s20-a-q01",
+              "number": 1,
+              "text": "Why do people visit historical places?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s20-a-q02",
+              "number": 2,
+              "text": "How can historical sites be made interesting to children?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            },
+            {
+              "id": "s20-a-q03",
+              "number": 3,
+              "text": "Should tourists pay to enter heritage sites?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Preserving the past",
+          "questions": [
+            {
+              "id": "s20-b-q01",
+              "number": 1,
+              "text": "Who should fund the protection of historic places?",
+              "quick_analysis": "Assign primary responsibility clearly, then explain supporting roles and accountability."
+            },
+            {
+              "id": "s20-b-q02",
+              "number": 2,
+              "text": "Can tourism damage cultural heritage?",
+              "quick_analysis": "Answer yes/no conditionally, explain the mechanism and separate possibility from certainty."
+            },
+            {
+              "id": "s20-b-q03",
+              "number": 3,
+              "text": "Will virtual reality reduce the need to visit historical sites?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-21",
+      "number": 21,
+      "family": "Places",
+      "linked_topic": "A place near water",
+      "part2": {
+        "id": "p2-set-21",
+        "cue_card": {
+          "prompt": "Describe a place near a river, lake or sea that you enjoyed visiting.",
+          "bullet_points": [
+            "where it is",
+            "when you went there",
+            "what you did",
+            "and explain why you liked the place"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Waterfront places",
+          "questions": [
+            {
+              "id": "s21-a-q01",
+              "number": 1,
+              "text": "Why do people like living near water?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s21-a-q02",
+              "number": 2,
+              "text": "What activities are popular near rivers and beaches?",
+              "quick_analysis": "Choose categories using a clear criterion; explain their value rather than merely listing examples."
+            },
+            {
+              "id": "s21-a-q03",
+              "number": 3,
+              "text": "What risks do waterfront cities face?",
+              "quick_analysis": "Name the central problem, explain why it arises, illustrate it and add a realistic response or limit."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Environmental protection",
+          "questions": [
+            {
+              "id": "s21-b-q01",
+              "number": 1,
+              "text": "How can beaches and rivers be kept clean?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            },
+            {
+              "id": "s21-b-q02",
+              "number": 2,
+              "text": "Should development near coastlines be restricted?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s21-b-q03",
+              "number": 3,
+              "text": "How may climate change affect coastal communities?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-22",
+      "number": 22,
+      "family": "Places",
+      "linked_topic": "A shop or market",
+      "part2": {
+        "id": "p2-set-22",
+        "cue_card": {
+          "prompt": "Describe a shop or market you enjoy visiting.",
+          "bullet_points": [
+            "where it is",
+            "what it sells",
+            "when you go there",
+            "and explain why you like it"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Shopping places",
+          "questions": [
+            {
+              "id": "s22-a-q01",
+              "number": 1,
+              "text": "Why do people still visit markets when they can shop online?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s22-a-q02",
+              "number": 2,
+              "text": "What makes a shopping area successful?",
+              "quick_analysis": "Prioritise one or two qualities and show them in practice instead of giving a bare list."
+            },
+            {
+              "id": "s22-a-q03",
+              "number": 3,
+              "text": "Do young and older people shop differently?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Retail change",
+          "questions": [
+            {
+              "id": "s22-b-q01",
+              "number": 1,
+              "text": "How has online shopping affected small shops?",
+              "quick_analysis": "Identify one major shift, explain its cause and balance gains against new drawbacks."
+            },
+            {
+              "id": "s22-b-q02",
+              "number": 2,
+              "text": "Should cities protect traditional markets?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s22-b-q03",
+              "number": 3,
+              "text": "What will physical shops be like in the future?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-23",
+      "number": 23,
+      "family": "Places",
+      "linked_topic": "A place for sports",
+      "part2": {
+        "id": "p2-set-23",
+        "cue_card": {
+          "prompt": "Describe a place where people go to play or watch sport.",
+          "bullet_points": [
+            "where it is",
+            "what facilities it has",
+            "who goes there",
+            "and explain why the place is popular"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Sports facilities",
+          "questions": [
+            {
+              "id": "s23-a-q01",
+              "number": 1,
+              "text": "Why should communities provide sports facilities?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s23-a-q02",
+              "number": 2,
+              "text": "Should professional stadiums receive public money?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s23-a-q03",
+              "number": 3,
+              "text": "How can sports centers attract more young people?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Sport in society",
+          "questions": [
+            {
+              "id": "s23-b-q01",
+              "number": 1,
+              "text": "Why are some sports more popular than others?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s23-b-q02",
+              "number": 2,
+              "text": "Does watching sport encourage people to exercise?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s23-b-q03",
+              "number": 3,
+              "text": "How might technology change the sports experience?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-24",
+      "number": 24,
+      "family": "Places",
+      "linked_topic": "A place you would like to visit",
+      "part2": {
+        "id": "p2-set-24",
+        "cue_card": {
+          "prompt": "Describe a country or city you would like to visit.",
+          "bullet_points": [
+            "where it is",
+            "what you know about it",
+            "what you would do there",
+            "and explain why you want to go"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Travel choices",
+          "questions": [
+            {
+              "id": "s24-a-q01",
+              "number": 1,
+              "text": "Why do people want to visit foreign countries?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s24-a-q02",
+              "number": 2,
+              "text": "Do people learn more from travel than from books?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s24-a-q03",
+              "number": 3,
+              "text": "What makes a destination fashionable?",
+              "quick_analysis": "Prioritise one or two qualities and show them in practice instead of giving a bare list."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Future tourism",
+          "questions": [
+            {
+              "id": "s24-b-q01",
+              "number": 1,
+              "text": "How can tourism become more sustainable?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            },
+            {
+              "id": "s24-b-q02",
+              "number": 2,
+              "text": "Will virtual tourism ever replace real travel?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            },
+            {
+              "id": "s24-b-q03",
+              "number": 3,
+              "text": "Should some popular destinations limit visitor numbers?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-25",
+      "number": 25,
+      "family": "Objects & Media",
+      "linked_topic": "A useful household item",
+      "part2": {
+        "id": "p2-set-25",
+        "cue_card": {
+          "prompt": "Describe an item in your home that you find particularly useful.",
+          "bullet_points": [
+            "what it is",
+            "how long you have had it",
+            "how you use it",
+            "and explain why it is useful"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Objects and convenience",
+          "questions": [
+            {
+              "id": "s25-a-q01",
+              "number": 1,
+              "text": "Why do people buy so many household devices?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s25-a-q02",
+              "number": 2,
+              "text": "Do modern appliances save as much time as people expect?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s25-a-q03",
+              "number": 3,
+              "text": "Why do some people keep old objects?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Consumption and design",
+          "questions": [
+            {
+              "id": "s25-b-q01",
+              "number": 1,
+              "text": "Should products be designed to last longer?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s25-b-q02",
+              "number": 2,
+              "text": "How does advertising influence what people buy for their homes?",
+              "quick_analysis": "Explain the mechanism through a logical sequence and one concrete example."
+            },
+            {
+              "id": "s25-b-q03",
+              "number": 3,
+              "text": "Will homes contain more smart devices in the future?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-26",
+      "number": 26,
+      "family": "Objects & Media",
+      "linked_topic": "A piece of technology that was difficult to use",
+      "part2": {
+        "id": "p2-set-26",
+        "cue_card": {
+          "prompt": "Describe a piece of technology you found difficult to use.",
+          "bullet_points": [
+            "what it was",
+            "why you needed to use it",
+            "what problems you had",
+            "and explain how you eventually dealt with it"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Technology and users",
+          "questions": [
+            {
+              "id": "s26-a-q01",
+              "number": 1,
+              "text": "Why do some people struggle with new technology?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s26-a-q02",
+              "number": 2,
+              "text": "Should companies make devices simpler?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s26-a-q03",
+              "number": 3,
+              "text": "Who should help elderly people use digital services?",
+              "quick_analysis": "Assign primary responsibility clearly, then explain supporting roles and accountability."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Technological change",
+          "questions": [
+            {
+              "id": "s26-b-q01",
+              "number": 1,
+              "text": "Does technology always improve people’s lives?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s26-b-q02",
+              "number": 2,
+              "text": "Why are devices replaced so quickly?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s26-b-q03",
+              "number": 3,
+              "text": "Will humans become too dependent on technology?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-27",
+      "number": 27,
+      "family": "Objects & Media",
+      "linked_topic": "A gift you valued",
+      "part2": {
+        "id": "p2-set-27",
+        "cue_card": {
+          "prompt": "Describe a gift you received that was important to you.",
+          "bullet_points": [
+            "what it was",
+            "who gave it to you",
+            "when you received it",
+            "and explain why it mattered"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Giving gifts",
+          "questions": [
+            {
+              "id": "s27-a-q01",
+              "number": 1,
+              "text": "Why do people give gifts?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s27-a-q02",
+              "number": 2,
+              "text": "Is an expensive gift always a better one?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s27-a-q03",
+              "number": 3,
+              "text": "Why is choosing presents difficult for some people?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Gift culture",
+          "questions": [
+            {
+              "id": "s27-b-q01",
+              "number": 1,
+              "text": "Have gift-giving habits changed?",
+              "quick_analysis": "Identify one major shift, explain its cause and balance gains against new drawbacks."
+            },
+            {
+              "id": "s27-b-q02",
+              "number": 2,
+              "text": "Should workplaces exchange gifts?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s27-b-q03",
+              "number": 3,
+              "text": "Will digital gifts become more common?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-28",
+      "number": 28,
+      "family": "Objects & Media",
+      "linked_topic": "A photo you are proud of",
+      "part2": {
+        "id": "p2-set-28",
+        "cue_card": {
+          "prompt": "Describe a photograph you took that you are proud of.",
+          "bullet_points": [
+            "when and where you took it",
+            "what the photo shows",
+            "why you took it",
+            "and explain why you are proud of it"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Photography",
+          "questions": [
+            {
+              "id": "s28-a-q01",
+              "number": 1,
+              "text": "Why do people take so many photographs now?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s28-a-q02",
+              "number": 2,
+              "text": "Can photographs change how people remember events?",
+              "quick_analysis": "Answer yes/no conditionally, explain the mechanism and separate possibility from certainty."
+            },
+            {
+              "id": "s28-a-q03",
+              "number": 3,
+              "text": "What makes a photograph powerful?",
+              "quick_analysis": "Prioritise one or two qualities and show them in practice instead of giving a bare list."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Images and society",
+          "questions": [
+            {
+              "id": "s28-b-q01",
+              "number": 1,
+              "text": "Are edited images harmful?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s28-b-q02",
+              "number": 2,
+              "text": "Should people ask permission before posting photos of others?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s28-b-q03",
+              "number": 3,
+              "text": "Will professional photographers remain important?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-29",
+      "number": 29,
+      "family": "Objects & Media",
+      "linked_topic": "A book you enjoyed",
+      "part2": {
+        "id": "p2-set-29",
+        "cue_card": {
+          "prompt": "Describe a book you enjoyed reading.",
+          "bullet_points": [
+            "what the book was",
+            "when you read it",
+            "what it was about",
+            "and explain why you enjoyed it"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Reading habits",
+          "questions": [
+            {
+              "id": "s29-a-q01",
+              "number": 1,
+              "text": "Why do some people read more than others?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s29-a-q02",
+              "number": 2,
+              "text": "What kinds of books are popular with young people?",
+              "quick_analysis": "Choose categories using a clear criterion; explain their value rather than merely listing examples."
+            },
+            {
+              "id": "s29-a-q03",
+              "number": 3,
+              "text": "Is reading fiction useful?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Books and technology",
+          "questions": [
+            {
+              "id": "s29-b-q01",
+              "number": 1,
+              "text": "Are e-books replacing printed books?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s29-b-q02",
+              "number": 2,
+              "text": "How can schools encourage children to read?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            },
+            {
+              "id": "s29-b-q03",
+              "number": 3,
+              "text": "Will people read less in the future?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-30",
+      "number": 30,
+      "family": "Objects & Media",
+      "linked_topic": "A film that made an impression",
+      "part2": {
+        "id": "p2-set-30",
+        "cue_card": {
+          "prompt": "Describe a film that made a strong impression on you.",
+          "bullet_points": [
+            "what it was",
+            "when you watched it",
+            "what it was about",
+            "and explain why it affected you"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Films and audiences",
+          "questions": [
+            {
+              "id": "s30-a-q01",
+              "number": 1,
+              "text": "Why do films influence people emotionally?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s30-a-q02",
+              "number": 2,
+              "text": "What makes a film successful internationally?",
+              "quick_analysis": "Prioritise one or two qualities and show them in practice instead of giving a bare list."
+            },
+            {
+              "id": "s30-a-q03",
+              "number": 3,
+              "text": "Do people prefer films that entertain or educate?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Film industry",
+          "questions": [
+            {
+              "id": "s30-b-q01",
+              "number": 1,
+              "text": "How have streaming services changed cinema?",
+              "quick_analysis": "Identify one major shift, explain its cause and balance gains against new drawbacks."
+            },
+            {
+              "id": "s30-b-q02",
+              "number": 2,
+              "text": "Should governments support local film industries?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s30-b-q03",
+              "number": 3,
+              "text": "Will cinemas still be popular in the future?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-31",
+      "number": 31,
+      "family": "Objects & Media",
+      "linked_topic": "A song or piece of music",
+      "part2": {
+        "id": "p2-set-31",
+        "cue_card": {
+          "prompt": "Describe a song or piece of music you enjoy.",
+          "bullet_points": [
+            "what it is",
+            "when you first heard it",
+            "when you listen to it",
+            "and explain why you like it"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Music in daily life",
+          "questions": [
+            {
+              "id": "s31-a-q01",
+              "number": 1,
+              "text": "Why is music important to people?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s31-a-q02",
+              "number": 2,
+              "text": "Do musical tastes change with age?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s31-a-q03",
+              "number": 3,
+              "text": "Why do some songs become popular worldwide?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Music industry",
+          "questions": [
+            {
+              "id": "s31-b-q01",
+              "number": 1,
+              "text": "Has technology improved or harmed music?",
+              "quick_analysis": "Identify one major shift, explain its cause and balance gains against new drawbacks."
+            },
+            {
+              "id": "s31-b-q02",
+              "number": 2,
+              "text": "Should musicians be able to earn more from streaming?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s31-b-q03",
+              "number": 3,
+              "text": "Will artificial intelligence change music creation?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-32",
+      "number": 32,
+      "family": "Objects & Media",
+      "linked_topic": "A work of art",
+      "part2": {
+        "id": "p2-set-32",
+        "cue_card": {
+          "prompt": "Describe a work of art you admire.",
+          "bullet_points": [
+            "what it is",
+            "where you saw it",
+            "what it looks like",
+            "and explain why you admire it"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Art and the public",
+          "questions": [
+            {
+              "id": "s32-a-q01",
+              "number": 1,
+              "text": "Why do people create art?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s32-a-q02",
+              "number": 2,
+              "text": "Should art be taught to every child?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s32-a-q03",
+              "number": 3,
+              "text": "Why do some people find modern art difficult?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Supporting culture",
+          "questions": [
+            {
+              "id": "s32-b-q01",
+              "number": 1,
+              "text": "Should governments spend public money on art?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s32-b-q02",
+              "number": 2,
+              "text": "How can museums attract wider audiences?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            },
+            {
+              "id": "s32-b-q03",
+              "number": 3,
+              "text": "Will digital art become more valuable?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-33",
+      "number": 33,
+      "family": "Objects & Media",
+      "linked_topic": "An item of clothing you like",
+      "part2": {
+        "id": "p2-set-33",
+        "cue_card": {
+          "prompt": "Describe an item of clothing you enjoy wearing.",
+          "bullet_points": [
+            "what it is",
+            "where you got it",
+            "when you wear it",
+            "and explain why you like it"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Clothing choices",
+          "questions": [
+            {
+              "id": "s33-a-q01",
+              "number": 1,
+              "text": "Why are people emotionally attached to clothes?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s33-a-q02",
+              "number": 2,
+              "text": "Does clothing affect confidence?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s33-a-q03",
+              "number": 3,
+              "text": "Why do fashion preferences differ between generations?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Fashion and sustainability",
+          "questions": [
+            {
+              "id": "s33-b-q01",
+              "number": 1,
+              "text": "How has fast fashion changed shopping?",
+              "quick_analysis": "Identify one major shift, explain its cause and balance gains against new drawbacks."
+            },
+            {
+              "id": "s33-b-q02",
+              "number": 2,
+              "text": "Should clothing companies be responsible for waste?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s33-b-q03",
+              "number": 3,
+              "text": "Will second-hand clothing become more popular?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-34",
+      "number": 34,
+      "family": "Objects & Media",
+      "linked_topic": "A useful website or app",
+      "part2": {
+        "id": "p2-set-34",
+        "cue_card": {
+          "prompt": "Describe a website or app you use regularly.",
+          "bullet_points": [
+            "what it is",
+            "how you discovered it",
+            "what you use it for",
+            "and explain why it is useful"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Digital services",
+          "questions": [
+            {
+              "id": "s34-a-q01",
+              "number": 1,
+              "text": "Why do some apps become part of people’s daily routines?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s34-a-q02",
+              "number": 2,
+              "text": "What makes an app trustworthy?",
+              "quick_analysis": "Prioritise one or two qualities and show them in practice instead of giving a bare list."
+            },
+            {
+              "id": "s34-a-q03",
+              "number": 3,
+              "text": "Should essential digital services be free?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Data and the future",
+          "questions": [
+            {
+              "id": "s34-b-q01",
+              "number": 1,
+              "text": "How concerned should people be about personal data?",
+              "quick_analysis": "State the appropriate level of concern or reliance, justify it and finish with a proportionate response."
+            },
+            {
+              "id": "s34-b-q02",
+              "number": 2,
+              "text": "Should governments regulate large technology platforms?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s34-b-q03",
+              "number": 3,
+              "text": "What types of apps may become important in the future?",
+              "quick_analysis": "Choose categories using a clear criterion; explain their value rather than merely listing examples."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-35",
+      "number": 35,
+      "family": "Objects & Media",
+      "linked_topic": "An advertisement you disliked",
+      "part2": {
+        "id": "p2-set-35",
+        "cue_card": {
+          "prompt": "Describe an advertisement you did not like.",
+          "bullet_points": [
+            "where you saw it",
+            "what it was advertising",
+            "what happened in it",
+            "and explain why you disliked it"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Advertising methods",
+          "questions": [
+            {
+              "id": "s35-a-q01",
+              "number": 1,
+              "text": "Why are some advertisements annoying?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s35-a-q02",
+              "number": 2,
+              "text": "Do humorous advertisements sell products effectively?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s35-a-q03",
+              "number": 3,
+              "text": "Should advertising aimed at children be restricted?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Advertising and society",
+          "questions": [
+            {
+              "id": "s35-b-q01",
+              "number": 1,
+              "text": "How has online advertising changed consumer behavior?",
+              "quick_analysis": "Identify one major shift, explain its cause and balance gains against new drawbacks."
+            },
+            {
+              "id": "s35-b-q02",
+              "number": 2,
+              "text": "Are influencers a form of advertising?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s35-b-q03",
+              "number": 3,
+              "text": "Will people become better at ignoring advertisements?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-36",
+      "number": 36,
+      "family": "Objects & Media",
+      "linked_topic": "A product made in your hometown",
+      "part2": {
+        "id": "p2-set-36",
+        "cue_card": {
+          "prompt": "Describe a product that is made in your hometown or region.",
+          "bullet_points": [
+            "what it is",
+            "how it is made or produced",
+            "how people use it",
+            "and explain why it is important locally"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Local products",
+          "questions": [
+            {
+              "id": "s36-a-q01",
+              "number": 1,
+              "text": "Why do some regions become known for particular products?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s36-a-q02",
+              "number": 2,
+              "text": "Do consumers value locally made goods?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s36-a-q03",
+              "number": 3,
+              "text": "How can traditional products appeal to young buyers?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Trade and identity",
+          "questions": [
+            {
+              "id": "s36-b-q01",
+              "number": 1,
+              "text": "Can mass production damage local crafts?",
+              "quick_analysis": "Answer yes/no conditionally, explain the mechanism and separate possibility from certainty."
+            },
+            {
+              "id": "s36-b-q02",
+              "number": 2,
+              "text": "Should governments protect regional products?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s36-b-q03",
+              "number": 3,
+              "text": "Will global brands make local products less distinctive?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-37",
+      "number": 37,
+      "family": "Activities & Skills",
+      "linked_topic": "A useful skill you learned",
+      "part2": {
+        "id": "p2-set-37",
+        "cue_card": {
+          "prompt": "Describe a useful skill you learned.",
+          "bullet_points": [
+            "what the skill was",
+            "where or how you learned it",
+            "what difficulties you had",
+            "and explain how it has helped you"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Learning skills",
+          "questions": [
+            {
+              "id": "s37-a-q01",
+              "number": 1,
+              "text": "Why do adults continue learning new skills?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s37-a-q02",
+              "number": 2,
+              "text": "Which skills are best learned through practice?",
+              "quick_analysis": "Choose categories using a clear criterion; explain their value rather than merely listing examples."
+            },
+            {
+              "id": "s37-a-q03",
+              "number": 3,
+              "text": "Is it important to be good at many things?",
+              "quick_analysis": "Distinguish a useful advantage from an absolute requirement and offer an alternative route."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Lifelong learning",
+          "questions": [
+            {
+              "id": "s37-b-q01",
+              "number": 1,
+              "text": "Should employers pay for staff training?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s37-b-q02",
+              "number": 2,
+              "text": "How can people find time to learn?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            },
+            {
+              "id": "s37-b-q03",
+              "number": 3,
+              "text": "Will formal qualifications become less important?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-38",
+      "number": 38,
+      "family": "Activities & Skills",
+      "linked_topic": "A sport or exercise you enjoy",
+      "part2": {
+        "id": "p2-set-38",
+        "cue_card": {
+          "prompt": "Describe a sport or form of exercise you enjoy.",
+          "bullet_points": [
+            "what it is",
+            "how you became interested in it",
+            "how often you do it",
+            "and explain why you enjoy it"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Exercise habits",
+          "questions": [
+            {
+              "id": "s38-a-q01",
+              "number": 1,
+              "text": "Why do some people find it difficult to exercise regularly?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s38-a-q02",
+              "number": 2,
+              "text": "Are team sports better than individual exercise?",
+              "quick_analysis": "Set a criterion, compare both sides and state which one works better under which conditions."
+            },
+            {
+              "id": "s38-a-q03",
+              "number": 3,
+              "text": "How can cities encourage active lifestyles?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Sport and health",
+          "questions": [
+            {
+              "id": "s38-b-q01",
+              "number": 1,
+              "text": "Should schools require daily physical activity?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s38-b-q02",
+              "number": 2,
+              "text": "Can professional athletes be good role models?",
+              "quick_analysis": "Answer yes/no conditionally, explain the mechanism and separate possibility from certainty."
+            },
+            {
+              "id": "s38-b-q03",
+              "number": 3,
+              "text": "Will technology make people more or less active?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-39",
+      "number": 39,
+      "family": "Activities & Skills",
+      "linked_topic": "Learning to cook something",
+      "part2": {
+        "id": "p2-set-39",
+        "cue_card": {
+          "prompt": "Describe something you learned to cook.",
+          "bullet_points": [
+            "what the dish was",
+            "who or what taught you",
+            "what the process involved",
+            "and explain how you felt when you made it successfully"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Cooking skills",
+          "questions": [
+            {
+              "id": "s39-a-q01",
+              "number": 1,
+              "text": "Why are some people not interested in cooking?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s39-a-q02",
+              "number": 2,
+              "text": "Should children learn to prepare meals?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s39-a-q03",
+              "number": 3,
+              "text": "Is cooking at home always healthier?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Food and modern life",
+          "questions": [
+            {
+              "id": "s39-b-q01",
+              "number": 1,
+              "text": "How have convenience foods changed family life?",
+              "quick_analysis": "Identify one major shift, explain its cause and balance gains against new drawbacks."
+            },
+            {
+              "id": "s39-b-q02",
+              "number": 2,
+              "text": "Why are cooking videos so popular?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s39-b-q03",
+              "number": 3,
+              "text": "Will people cook less in the future?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-40",
+      "number": 40,
+      "family": "Activities & Skills",
+      "linked_topic": "A hobby you enjoy",
+      "part2": {
+        "id": "p2-set-40",
+        "cue_card": {
+          "prompt": "Describe a hobby you enjoy.",
+          "bullet_points": [
+            "what it is",
+            "when you started it",
+            "what you need for it",
+            "and explain what you get from it"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Leisure activities",
+          "questions": [
+            {
+              "id": "s40-a-q01",
+              "number": 1,
+              "text": "Why do people need hobbies?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s40-a-q02",
+              "number": 2,
+              "text": "Do hobbies need to be productive?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s40-a-q03",
+              "number": 3,
+              "text": "Why do some hobbies become expensive?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Leisure in society",
+          "questions": [
+            {
+              "id": "s40-b-q01",
+              "number": 1,
+              "text": "Do people have less free time than in the past?",
+              "quick_analysis": "Make one clear past–present contrast, explain the driver and avoid romanticising either period."
+            },
+            {
+              "id": "s40-b-q02",
+              "number": 2,
+              "text": "How has technology changed hobbies?",
+              "quick_analysis": "Identify one major shift, explain its cause and balance gains against new drawbacks."
+            },
+            {
+              "id": "s40-b-q03",
+              "number": 3,
+              "text": "What new leisure activities may appear in the future?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-41",
+      "number": 41,
+      "family": "Activities & Skills",
+      "linked_topic": "Learning a language",
+      "part2": {
+        "id": "p2-set-41",
+        "cue_card": {
+          "prompt": "Describe your experience of learning a language.",
+          "bullet_points": [
+            "which language it was",
+            "why you decided to learn it",
+            "how you studied",
+            "and explain what was most challenging"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Language learning",
+          "questions": [
+            {
+              "id": "s41-a-q01",
+              "number": 1,
+              "text": "Why do people learn foreign languages?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s41-a-q02",
+              "number": 2,
+              "text": "What makes someone a successful language learner?",
+              "quick_analysis": "Prioritise one or two qualities and show them in practice instead of giving a bare list."
+            },
+            {
+              "id": "s41-a-q03",
+              "number": 3,
+              "text": "Is living abroad necessary for fluency?",
+              "quick_analysis": "Distinguish a useful advantage from an absolute requirement and offer an alternative route."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Languages and society",
+          "questions": [
+            {
+              "id": "s41-b-q01",
+              "number": 1,
+              "text": "Should children start foreign languages very young?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s41-b-q02",
+              "number": 2,
+              "text": "Will translation technology reduce the need to learn languages?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            },
+            {
+              "id": "s41-b-q03",
+              "number": 3,
+              "text": "Why do some languages become globally important?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-42",
+      "number": 42,
+      "family": "Activities & Skills",
+      "linked_topic": "A research task",
+      "part2": {
+        "id": "p2-set-42",
+        "cue_card": {
+          "prompt": "Describe a time when you had to do some research.",
+          "bullet_points": [
+            "what the research was about",
+            "why you needed to do it",
+            "how you found information",
+            "and explain what you learned from the process"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Research and information",
+          "questions": [
+            {
+              "id": "s42-a-q01",
+              "number": 1,
+              "text": "What research skills should students develop?",
+              "quick_analysis": "Choose categories using a clear criterion; explain their value rather than merely listing examples."
+            },
+            {
+              "id": "s42-a-q02",
+              "number": 2,
+              "text": "How can people judge whether information is reliable?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            },
+            {
+              "id": "s42-a-q03",
+              "number": 3,
+              "text": "Why do some people believe false information online?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Knowledge and technology",
+          "questions": [
+            {
+              "id": "s42-b-q01",
+              "number": 1,
+              "text": "Has easy access to information made people better informed?",
+              "quick_analysis": "Identify one major shift, explain its cause and balance gains against new drawbacks."
+            },
+            {
+              "id": "s42-b-q02",
+              "number": 2,
+              "text": "Should artificial intelligence be used in academic research?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s42-b-q03",
+              "number": 3,
+              "text": "How will research methods change in the future?",
+              "quick_analysis": "Explain the mechanism through a logical sequence and one concrete example."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-43",
+      "number": 43,
+      "family": "Activities & Skills",
+      "linked_topic": "A teamwork project",
+      "part2": {
+        "id": "p2-set-43",
+        "cue_card": {
+          "prompt": "Describe a project you completed with other people.",
+          "bullet_points": [
+            "what the project was",
+            "who you worked with",
+            "what your role was",
+            "and explain what made the teamwork successful or difficult"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Working in teams",
+          "questions": [
+            {
+              "id": "s43-a-q01",
+              "number": 1,
+              "text": "Why do some teams perform better than others?",
+              "quick_analysis": "Set a criterion, compare both sides and state which one works better under which conditions."
+            },
+            {
+              "id": "s43-a-q02",
+              "number": 2,
+              "text": "Is a strong leader always necessary?",
+              "quick_analysis": "Distinguish a useful advantage from an absolute requirement and offer an alternative route."
+            },
+            {
+              "id": "s43-a-q03",
+              "number": 3,
+              "text": "How should disagreements in teams be handled?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Collaboration at work and school",
+          "questions": [
+            {
+              "id": "s43-b-q01",
+              "number": 1,
+              "text": "Should students receive individual or group grades?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s43-b-q02",
+              "number": 2,
+              "text": "How has remote work changed collaboration?",
+              "quick_analysis": "Identify one major shift, explain its cause and balance gains against new drawbacks."
+            },
+            {
+              "id": "s43-b-q03",
+              "number": 3,
+              "text": "Will teams become more international in the future?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-44",
+      "number": 44,
+      "family": "Activities & Skills",
+      "linked_topic": "A routine you enjoy",
+      "part2": {
+        "id": "p2-set-44",
+        "cue_card": {
+          "prompt": "Describe a routine in your life that you enjoy.",
+          "bullet_points": [
+            "what the routine is",
+            "when you do it",
+            "how it developed",
+            "and explain why it is satisfying"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Routines and habits",
+          "questions": [
+            {
+              "id": "s44-a-q01",
+              "number": 1,
+              "text": "Why do routines help some people?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s44-a-q02",
+              "number": 2,
+              "text": "Can routines make life boring?",
+              "quick_analysis": "Answer yes/no conditionally, explain the mechanism and separate possibility from certainty."
+            },
+            {
+              "id": "s44-a-q03",
+              "number": 3,
+              "text": "How long does it take to develop a good habit?",
+              "quick_analysis": "Reject a false universal number; explain what changes the timescale and how progress can be judged."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Modern lifestyles",
+          "questions": [
+            {
+              "id": "s44-b-q01",
+              "number": 1,
+              "text": "Why are people interested in productivity routines?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s44-b-q02",
+              "number": 2,
+              "text": "Should employers care about workers’ personal routines?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s44-b-q03",
+              "number": 3,
+              "text": "Will future technology organize more of our daily lives?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-45",
+      "number": 45,
+      "family": "Activities & Skills",
+      "linked_topic": "An outdoor activity",
+      "part2": {
+        "id": "p2-set-45",
+        "cue_card": {
+          "prompt": "Describe an outdoor activity you enjoyed.",
+          "bullet_points": [
+            "what the activity was",
+            "where and when you did it",
+            "who you were with",
+            "and explain why it was enjoyable"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Outdoor recreation",
+          "questions": [
+            {
+              "id": "s45-a-q01",
+              "number": 1,
+              "text": "Why do people benefit from spending time outdoors?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s45-a-q02",
+              "number": 2,
+              "text": "What outdoor activities are suitable for families?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s45-a-q03",
+              "number": 3,
+              "text": "Why do some people avoid outdoor activities?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Access to nature",
+          "questions": [
+            {
+              "id": "s45-b-q01",
+              "number": 1,
+              "text": "Do cities provide enough outdoor space?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s45-b-q02",
+              "number": 2,
+              "text": "Should natural areas limit visitor numbers?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s45-b-q03",
+              "number": 3,
+              "text": "How may climate change affect outdoor leisure?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-46",
+      "number": 46,
+      "family": "Activities & Skills",
+      "linked_topic": "A creative activity",
+      "part2": {
+        "id": "p2-set-46",
+        "cue_card": {
+          "prompt": "Describe a creative activity you have tried.",
+          "bullet_points": [
+            "what it was",
+            "why you tried it",
+            "what you produced or did",
+            "and explain how you felt about the experience"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Creativity",
+          "questions": [
+            {
+              "id": "s46-a-q01",
+              "number": 1,
+              "text": "Why is creativity important?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s46-a-q02",
+              "number": 2,
+              "text": "Can creativity be taught?",
+              "quick_analysis": "Answer yes/no conditionally, explain the mechanism and separate possibility from certainty."
+            },
+            {
+              "id": "s46-a-q03",
+              "number": 3,
+              "text": "Why do adults often stop doing creative activities?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Creativity and work",
+          "questions": [
+            {
+              "id": "s46-b-q01",
+              "number": 1,
+              "text": "Do all jobs require creativity?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s46-b-q02",
+              "number": 2,
+              "text": "How can schools protect time for creative subjects?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            },
+            {
+              "id": "s46-b-q03",
+              "number": 3,
+              "text": "Will artificial intelligence encourage or reduce human creativity?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-47",
+      "number": 47,
+      "family": "Activities & Skills",
+      "linked_topic": "An activity with your family",
+      "part2": {
+        "id": "p2-set-47",
+        "cue_card": {
+          "prompt": "Describe an activity you enjoy doing with your family.",
+          "bullet_points": [
+            "what the activity is",
+            "how often you do it",
+            "what usually happens",
+            "and explain why it is important to you"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Family time",
+          "questions": [
+            {
+              "id": "s47-a-q01",
+              "number": 1,
+              "text": "Why is shared family time important?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s47-a-q02",
+              "number": 2,
+              "text": "What activities bring different generations together?",
+              "quick_analysis": "Choose categories using a clear criterion; explain their value rather than merely listing examples."
+            },
+            {
+              "id": "s47-a-q03",
+              "number": 3,
+              "text": "Do families spend enough time together today?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Changing family life",
+          "questions": [
+            {
+              "id": "s47-b-q01",
+              "number": 1,
+              "text": "How has technology affected family interaction?",
+              "quick_analysis": "Identify one major shift, explain its cause and balance gains against new drawbacks."
+            },
+            {
+              "id": "s47-b-q02",
+              "number": 2,
+              "text": "Should parents plan children’s free time?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s47-b-q03",
+              "number": 3,
+              "text": "What might family leisure look like in the future?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-48",
+      "number": 48,
+      "family": "Activities & Skills",
+      "linked_topic": "Something you do to stay healthy",
+      "part2": {
+        "id": "p2-set-48",
+        "cue_card": {
+          "prompt": "Describe something you do to keep healthy.",
+          "bullet_points": [
+            "what you do",
+            "how often you do it",
+            "how you started",
+            "and explain how it affects you"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Healthy behavior",
+          "questions": [
+            {
+              "id": "s48-a-q01",
+              "number": 1,
+              "text": "Why do people know what is healthy but fail to do it?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s48-a-q02",
+              "number": 2,
+              "text": "Are public health campaigns effective?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s48-a-q03",
+              "number": 3,
+              "text": "Should employers help workers stay healthy?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Health policy",
+          "questions": [
+            {
+              "id": "s48-b-q01",
+              "number": 1,
+              "text": "How can governments reduce lifestyle diseases?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            },
+            {
+              "id": "s48-b-q02",
+              "number": 2,
+              "text": "Should unhealthy products be taxed?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s48-b-q03",
+              "number": 3,
+              "text": "Will people become healthier in the future?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-49",
+      "number": 49,
+      "family": "Events & Experiences",
+      "linked_topic": "A celebration you enjoyed",
+      "part2": {
+        "id": "p2-set-49",
+        "cue_card": {
+          "prompt": "Describe a celebration you enjoyed.",
+          "bullet_points": [
+            "what the occasion was",
+            "where it took place",
+            "who attended",
+            "and explain why it was memorable"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Celebrations",
+          "questions": [
+            {
+              "id": "s49-a-q01",
+              "number": 1,
+              "text": "Why do people celebrate important events?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s49-a-q02",
+              "number": 2,
+              "text": "Are large celebrations better than small ones?",
+              "quick_analysis": "Set a criterion, compare both sides and state which one works better under which conditions."
+            },
+            {
+              "id": "s49-a-q03",
+              "number": 3,
+              "text": "How do celebrations strengthen relationships?",
+              "quick_analysis": "Explain the mechanism through a logical sequence and one concrete example."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Changing traditions",
+          "questions": [
+            {
+              "id": "s49-b-q01",
+              "number": 1,
+              "text": "Have celebrations become too commercial?",
+              "quick_analysis": "Identify one major shift, explain its cause and balance gains against new drawbacks."
+            },
+            {
+              "id": "s49-b-q02",
+              "number": 2,
+              "text": "Should traditional celebrations change with society?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s49-b-q03",
+              "number": 3,
+              "text": "How may celebrations be different in the future?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-50",
+      "number": 50,
+      "family": "Events & Experiences",
+      "linked_topic": "A difficult task you completed",
+      "part2": {
+        "id": "p2-set-50",
+        "cue_card": {
+          "prompt": "Describe a difficult task that you succeeded in completing.",
+          "bullet_points": [
+            "what the task was",
+            "why it was difficult",
+            "what you did",
+            "and explain how you felt after completing it"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Challenges and success",
+          "questions": [
+            {
+              "id": "s50-a-q01",
+              "number": 1,
+              "text": "Why do difficult tasks sometimes motivate people?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s50-a-q02",
+              "number": 2,
+              "text": "How should people respond to failure?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            },
+            {
+              "id": "s50-a-q03",
+              "number": 3,
+              "text": "Is competition necessary for achievement?",
+              "quick_analysis": "Distinguish a useful advantage from an absolute requirement and offer an alternative route."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Learning resilience",
+          "questions": [
+            {
+              "id": "s50-b-q01",
+              "number": 1,
+              "text": "How can schools help children become resilient?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            },
+            {
+              "id": "s50-b-q02",
+              "number": 2,
+              "text": "Do modern workplaces create too much pressure?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s50-b-q03",
+              "number": 3,
+              "text": "Will future generations face different kinds of challenges?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-51",
+      "number": 51,
+      "family": "Events & Experiences",
+      "linked_topic": "A complaint you made",
+      "part2": {
+        "id": "p2-set-51",
+        "cue_card": {
+          "prompt": "Describe a time when you made a complaint.",
+          "bullet_points": [
+            "what the problem was",
+            "who you complained to",
+            "what response you received",
+            "and explain whether you were satisfied"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Complaints and service",
+          "questions": [
+            {
+              "id": "s51-a-q01",
+              "number": 1,
+              "text": "Why are some people reluctant to complain?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s51-a-q02",
+              "number": 2,
+              "text": "What is the best way for businesses to handle complaints?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s51-a-q03",
+              "number": 3,
+              "text": "Are customers always right?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Consumer protection",
+          "questions": [
+            {
+              "id": "s51-b-q01",
+              "number": 1,
+              "text": "Should online reviews be trusted?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s51-b-q02",
+              "number": 2,
+              "text": "What role should governments play in protecting consumers?",
+              "quick_analysis": "Define the role, explain why it is needed, and set a realistic boundary."
+            },
+            {
+              "id": "s51-b-q03",
+              "number": 3,
+              "text": "Will automated customer service improve complaint handling?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-52",
+      "number": 52,
+      "family": "Events & Experiences",
+      "linked_topic": "A time you received good service",
+      "part2": {
+        "id": "p2-set-52",
+        "cue_card": {
+          "prompt": "Describe a time when you received very good service.",
+          "bullet_points": [
+            "where it happened",
+            "what service you needed",
+            "what the staff did",
+            "and explain why the experience impressed you"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Good service",
+          "questions": [
+            {
+              "id": "s52-a-q01",
+              "number": 1,
+              "text": "What qualities should customer-service staff have?",
+              "quick_analysis": "Prioritise one or two qualities and show them in practice instead of giving a bare list."
+            },
+            {
+              "id": "s52-a-q02",
+              "number": 2,
+              "text": "Why does service quality vary between businesses?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s52-a-q03",
+              "number": 3,
+              "text": "Do customers value service more than price?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Service industry change",
+          "questions": [
+            {
+              "id": "s52-b-q01",
+              "number": 1,
+              "text": "How has technology changed customer service?",
+              "quick_analysis": "Identify one major shift, explain its cause and balance gains against new drawbacks."
+            },
+            {
+              "id": "s52-b-q02",
+              "number": 2,
+              "text": "Should service workers receive tips?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s52-b-q03",
+              "number": 3,
+              "text": "Will robots replace many service jobs?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-53",
+      "number": 53,
+      "family": "Events & Experiences",
+      "linked_topic": "A time you lost something",
+      "part2": {
+        "id": "p2-set-53",
+        "cue_card": {
+          "prompt": "Describe a time when you lost something important.",
+          "bullet_points": [
+            "what you lost",
+            "where and when it happened",
+            "what you did to find it",
+            "and explain what happened in the end"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Losing possessions",
+          "questions": [
+            {
+              "id": "s53-a-q01",
+              "number": 1,
+              "text": "Why do people become attached to objects?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s53-a-q02",
+              "number": 2,
+              "text": "Are people more careless with inexpensive things?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s53-a-q03",
+              "number": 3,
+              "text": "What should someone do when they find a valuable item?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Property and technology",
+          "questions": [
+            {
+              "id": "s53-b-q01",
+              "number": 1,
+              "text": "Has technology made it easier to recover lost items?",
+              "quick_analysis": "Identify one major shift, explain its cause and balance gains against new drawbacks."
+            },
+            {
+              "id": "s53-b-q02",
+              "number": 2,
+              "text": "Should public places keep lost property for a long time?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s53-b-q03",
+              "number": 3,
+              "text": "Will physical possessions become less important?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-54",
+      "number": 54,
+      "family": "Events & Experiences",
+      "linked_topic": "A decision with a good result",
+      "part2": {
+        "id": "p2-set-54",
+        "cue_card": {
+          "prompt": "Describe a difficult decision you made that had a good result.",
+          "bullet_points": [
+            "what the decision was",
+            "why it was difficult",
+            "how you made it",
+            "and explain what happened afterwards"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Decision-making",
+          "questions": [
+            {
+              "id": "s54-a-q01",
+              "number": 1,
+              "text": "Why do some people find decisions difficult?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s54-a-q02",
+              "number": 2,
+              "text": "Should important decisions be made quickly or slowly?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s54-a-q03",
+              "number": 3,
+              "text": "How much should people rely on advice?",
+              "quick_analysis": "State the appropriate level of concern or reliance, justify it and finish with a proportionate response."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Choices in modern life",
+          "questions": [
+            {
+              "id": "s54-b-q01",
+              "number": 1,
+              "text": "Do people have too many choices today?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s54-b-q02",
+              "number": 2,
+              "text": "How does advertising influence decisions?",
+              "quick_analysis": "Explain the mechanism through a logical sequence and one concrete example."
+            },
+            {
+              "id": "s54-b-q03",
+              "number": 3,
+              "text": "Will artificial intelligence make more decisions for people?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-55",
+      "number": 55,
+      "family": "Events & Experiences",
+      "linked_topic": "Some good news",
+      "part2": {
+        "id": "p2-set-55",
+        "cue_card": {
+          "prompt": "Describe a piece of good news you heard about someone you know.",
+          "bullet_points": [
+            "who the news was about",
+            "what the news was",
+            "how you heard it",
+            "and explain why it made you happy"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Sharing news",
+          "questions": [
+            {
+              "id": "s55-a-q01",
+              "number": 1,
+              "text": "Why do people enjoy sharing good news?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s55-a-q02",
+              "number": 2,
+              "text": "What kinds of news spread fastest?",
+              "quick_analysis": "Choose categories using a clear criterion; explain their value rather than merely listing examples."
+            },
+            {
+              "id": "s55-a-q03",
+              "number": 3,
+              "text": "Do people react differently to personal and public news?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "News and media",
+          "questions": [
+            {
+              "id": "s55-b-q01",
+              "number": 1,
+              "text": "Why does negative news receive so much attention?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s55-b-q02",
+              "number": 2,
+              "text": "Has social media changed how news spreads?",
+              "quick_analysis": "Identify one major shift, explain its cause and balance gains against new drawbacks."
+            },
+            {
+              "id": "s55-b-q03",
+              "number": 3,
+              "text": "How can people avoid sharing false information?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-56",
+      "number": 56,
+      "family": "Events & Experiences",
+      "linked_topic": "A time you helped someone",
+      "part2": {
+        "id": "p2-set-56",
+        "cue_card": {
+          "prompt": "Describe a time when you helped someone.",
+          "bullet_points": [
+            "who you helped",
+            "why they needed help",
+            "what you did",
+            "and explain how you felt afterwards"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Helping individuals",
+          "questions": [
+            {
+              "id": "s56-a-q01",
+              "number": 1,
+              "text": "Why do people sometimes hesitate to ask for help?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s56-a-q02",
+              "number": 2,
+              "text": "Is helping family different from helping strangers?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            },
+            {
+              "id": "s56-a-q03",
+              "number": 3,
+              "text": "Should children be rewarded for helping others?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Social responsibility",
+          "questions": [
+            {
+              "id": "s56-b-q01",
+              "number": 1,
+              "text": "What forms of volunteering are most useful?",
+              "quick_analysis": "Choose categories using a clear criterion; explain their value rather than merely listing examples."
+            },
+            {
+              "id": "s56-b-q02",
+              "number": 2,
+              "text": "Should companies give employees time to volunteer?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s56-b-q03",
+              "number": 3,
+              "text": "Can online volunteering have a real impact?",
+              "quick_analysis": "Answer yes/no conditionally, explain the mechanism and separate possibility from certainty."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-57",
+      "number": 57,
+      "family": "Events & Experiences",
+      "linked_topic": "A disagreement",
+      "part2": {
+        "id": "p2-set-57",
+        "cue_card": {
+          "prompt": "Describe a disagreement you had with someone.",
+          "bullet_points": [
+            "who you disagreed with",
+            "what it was about",
+            "how the discussion developed",
+            "and explain how it was resolved"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Disagreement",
+          "questions": [
+            {
+              "id": "s57-a-q01",
+              "number": 1,
+              "text": "Why do people find it hard to admit they are wrong?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s57-a-q02",
+              "number": 2,
+              "text": "Can disagreements improve relationships?",
+              "quick_analysis": "Answer yes/no conditionally, explain the mechanism and separate possibility from certainty."
+            },
+            {
+              "id": "s57-a-q03",
+              "number": 3,
+              "text": "What communication skills prevent conflict?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Conflict in society",
+          "questions": [
+            {
+              "id": "s57-b-q01",
+              "number": 1,
+              "text": "Has social media made public disagreement worse?",
+              "quick_analysis": "Identify one major shift, explain its cause and balance gains against new drawbacks."
+            },
+            {
+              "id": "s57-b-q02",
+              "number": 2,
+              "text": "Should schools teach conflict resolution?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s57-b-q03",
+              "number": 3,
+              "text": "How should leaders handle opposing views?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-58",
+      "number": 58,
+      "family": "Events & Experiences",
+      "linked_topic": "A missed appointment or late arrival",
+      "part2": {
+        "id": "p2-set-58",
+        "cue_card": {
+          "prompt": "Describe a time when you were late or missed an appointment.",
+          "bullet_points": [
+            "what the appointment was",
+            "why you were late or missed it",
+            "what you did next",
+            "and explain how you felt"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Time and punctuality",
+          "questions": [
+            {
+              "id": "s58-a-q01",
+              "number": 1,
+              "text": "Why are some people frequently late?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s58-a-q02",
+              "number": 2,
+              "text": "Is punctuality equally important in every culture?",
+              "quick_analysis": "Distinguish a useful advantage from an absolute requirement and offer an alternative route."
+            },
+            {
+              "id": "s58-a-q03",
+              "number": 3,
+              "text": "How should people respond when others waste their time?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Modern scheduling",
+          "questions": [
+            {
+              "id": "s58-b-q01",
+              "number": 1,
+              "text": "Has technology made people more punctual?",
+              "quick_analysis": "Identify one major shift, explain its cause and balance gains against new drawbacks."
+            },
+            {
+              "id": "s58-b-q02",
+              "number": 2,
+              "text": "Why do people feel busier despite time-saving devices?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s58-b-q03",
+              "number": 3,
+              "text": "Will flexible schedules become more common?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-59",
+      "number": 59,
+      "family": "Events & Experiences",
+      "linked_topic": "A memorable trip",
+      "part2": {
+        "id": "p2-set-59",
+        "cue_card": {
+          "prompt": "Describe a trip that you remember well.",
+          "bullet_points": [
+            "where you went",
+            "who you travelled with",
+            "what happened on the trip",
+            "and explain why it was memorable"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Travel experiences",
+          "questions": [
+            {
+              "id": "s59-a-q01",
+              "number": 1,
+              "text": "Why do people remember some trips more than others?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s59-a-q02",
+              "number": 2,
+              "text": "Is travelling with friends better than travelling with family?",
+              "quick_analysis": "Set a criterion, compare both sides and state which one works better under which conditions."
+            },
+            {
+              "id": "s59-a-q03",
+              "number": 3,
+              "text": "What can go wrong when people travel?",
+              "quick_analysis": "Name the central problem, explain why it arises, illustrate it and add a realistic response or limit."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Tourism and society",
+          "questions": [
+            {
+              "id": "s59-b-q01",
+              "number": 1,
+              "text": "How does tourism affect local communities?",
+              "quick_analysis": "Explain the mechanism through a logical sequence and one concrete example."
+            },
+            {
+              "id": "s59-b-q02",
+              "number": 2,
+              "text": "Should people fly less for environmental reasons?",
+              "quick_analysis": "Take a clear but qualified position and add a practical condition or safeguard."
+            },
+            {
+              "id": "s59-b-q03",
+              "number": 3,
+              "text": "How may travel change in the future?",
+              "quick_analysis": "Make a cautious prediction, explain the driver and avoid claiming complete replacement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-60",
+      "number": 60,
+      "family": "Events & Experiences",
+      "linked_topic": "An environmental problem you witnessed",
+      "part2": {
+        "id": "p2-set-60",
+        "cue_card": {
+          "prompt": "Describe an environmental problem or event you witnessed.",
+          "bullet_points": [
+            "what happened",
+            "where and when it happened",
+            "how people were affected",
+            "and explain what you thought should be done"
+          ]
+        },
+        "response_framework": "ANCHOR (what/who) → SCENE (when/where/why) → 2–3 SELECTED DETAILS with reactions → REFLECTION / wish."
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Environmental awareness",
+          "questions": [
+            {
+              "id": "s60-a-q01",
+              "number": 1,
+              "text": "Why do environmental problems often receive attention only after a crisis?",
+              "quick_analysis": "One dominant cause → mechanism → concrete illustration → qualification. Avoid listing three shallow causes."
+            },
+            {
+              "id": "s60-a-q02",
+              "number": 2,
+              "text": "How can communities prepare for environmental events?",
+              "quick_analysis": "Name a workable measure, explain how it changes conditions, illustrate it and acknowledge an implementation limit."
+            },
+            {
+              "id": "s60-a-q03",
+              "number": 3,
+              "text": "Do people change behavior after witnessing pollution or disasters?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Long-term environmental action",
+          "questions": [
+            {
+              "id": "s60-b-q01",
+              "number": 1,
+              "text": "Which environmental problems should governments prioritize?",
+              "quick_analysis": "Choose categories using a clear criterion; explain their value rather than merely listing examples."
+            },
+            {
+              "id": "s60-b-q02",
+              "number": 2,
+              "text": "Can economic growth and environmental protection be balanced?",
+              "quick_analysis": "Answer yes/no conditionally, explain the mechanism and separate possibility from certainty."
+            },
+            {
+              "id": "s60-b-q03",
+              "number": 3,
+              "text": "Are you optimistic about the environmental future?",
+              "quick_analysis": "Give a direct evaluation, support one route and close with nuance rather than an absolute claim."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

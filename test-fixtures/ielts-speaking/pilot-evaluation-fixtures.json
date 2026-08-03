@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Manual and automated pilot cases for checking IELTS Speaking Coach behavior. Expected results are invariants, not exact band labels.",
+  "cases": [
+    {
+      "id": "p1-too-short",
+      "part": 1,
+      "question_id": "p1-11-q01",
+      "answer": "Yes, I do.",
+      "expected_invariants": [
+        "confidence should be low",
+        "top priority should mention underdevelopment",
+        "pronunciation must remain null",
+        "Band 6, 7.5 and 9 answers must preserve the idea that the learner enjoys reading"
+      ]
+    },
+    {
+      "id": "p1-basic-grammar-errors",
+      "part": 1,
+      "question_id": "p1-01-q03",
+      "answer": "I very like my balcony because it have many tree and I can relax there after work.",
+      "expected_invariants": [
+        "corrections should include a natural alternative to 'very like'",
+        "corrections should address subject-verb agreement if selected as a priority",
+        "model answers must retain the balcony and relaxing-after-work ideas",
+        "alternative answer must use a different feature of the home"
+      ]
+    },
+    {
+      "id": "p1-natural-developed",
+      "part": 1,
+      "question_id": "p1-03-q03",
+      "answer": "The most rewarding part is seeing a student finally understand something they have struggled with for weeks. That moment is usually quite small, but it reminds me why I chose teaching in the first place.",
+      "expected_invariants": [
+        "feedback should recognize directness and personal development",
+        "no invented personal names or achievements",
+        "Band 9 answer should remain conversational rather than essay-like",
+        "pronunciation must remain null"
+      ]
+    },
+    {
+      "id": "p1-change-over-time",
+      "part": 1,
+      "question_id": "p1-02-q04",
+      "answer": "Yes, it has changed a lot. There are more cafés and wider roads now, but traffic is heavier, so I think it is more convenient but less peaceful.",
+      "expected_invariants": [
+        "feedback should recognize a clear before-and-after contrast",
+        "models should preserve convenience versus peacefulness",
+        "alternative answer should use another change angle",
+        "evidence quotations must occur verbatim in the submitted answer"
+      ]
+    },
+    {
+      "id": "p2-insufficient-long-turn",
+      "part": 2,
+      "question_id": "p2-set-13",
+      "answer": "I like a restaurant near my home. It serves noodles and the food is good. I go there with my family.",
+      "expected_invariants": [
+        "confidence should be low",
+        "feedback should mention insufficient long-turn development or cue-card coverage",
+        "models must preserve the nearby restaurant, noodles and family ideas",
+        "alternative story must be genuinely different"
+      ]
+    },
+    {
+      "id": "p2-personal-story",
+      "part": 2,
+      "question_id": "p2-set-01",
+      "answer": "I would like to talk about my older brother, who taught me to drive a motorbike when I started university. We practised early on Sunday mornings because the roads were quiet. At first I kept stopping too suddenly, but he stayed calm and explained one thing at a time. After a few weeks, I could travel to class independently. The skill saved me a lot of commuting time, but it also made me more confident because I no longer had to depend on other people.",
+      "expected_invariants": [
+        "feedback should recognize anchor, scene, difficulty, progress and reflection",
+        "models must retain the brother, Sunday practice and independence story",
+        "no replacement with a coursebook person's story",
+        "pronunciation must remain null"
+      ]
+    },
+    {
+      "id": "p2-cooking-story",
+      "part": 2,
+      "question_id": "p2-set-39",
+      "answer": "The dish I learned to make was a simple cheese omelette. I first tried it because I needed a quick breakfast before work. My first attempt was dry and slightly burnt because I used too much heat. After watching my wife make one, I learned to lower the temperature and fold it while the centre was still soft. Now it takes less than ten minutes, and my children sometimes ask me to make it at weekends. It is not an impressive dish, but learning it made mornings much easier.",
+      "expected_invariants": [
+        "feedback should recognize a coherent learning journey",
+        "model answers must preserve the omelette, first failure, wife's demonstration and family use",
+        "the Band 9 model should not add dramatic incidents",
+        "alternative answer should use another dish or learning route"
+      ]
+    },
+    {
+      "id": "p2-good-news",
+      "part": 2,
+      "question_id": "p2-set-55",
+      "answer": "I heard that one of my former students had received a scholarship to study overseas. She sent me a message late in the evening with a screenshot of the email. I knew she had applied twice before and had been disappointed, so the news felt especially meaningful. I was proud not only because she succeeded, but because she had continued after being rejected. We had a short video call, and she looked both excited and shocked. It reminded me that progress is not always visible until one result brings everything together.",
+      "expected_invariants": [
+        "feedback should recognize emotional movement and reflection",
+        "models must preserve the scholarship and perseverance ideas",
+        "alternative answer must use different good news",
+        "sentence corrections should be limited to the most useful issues"
+      ]
+    },
+    {
+      "id": "p3-shallow-list",
+      "part": 3,
+      "question_id": "s01-a-q01",
+      "answer": "Some teachers are better because they are kind, intelligent, patient, experienced and friendly.",
+      "expected_invariants": [
+        "feedback should flag shallow listing",
+        "retry focus should target explaining one cause",
+        "models should develop one central cause rather than simply add more adjectives",
+        "pronunciation must remain null"
+      ]
+    },
+    {
+      "id": "p3-qualified-comparison",
+      "part": 3,
+      "question_id": "s13-a-q01",
+      "answer": "People often choose restaurants for celebrations because nobody has to cook or clean, so everyone can focus on the occasion. A restaurant can also make an ordinary birthday feel more special through the setting and service. However, for a small family event, eating at home may feel more personal and less expensive.",
+      "expected_invariants": [
+        "feedback should recognize position, mechanism, illustration and qualification",
+        "models must preserve convenience, atmosphere and home-event nuance",
+        "alternative answer should use a different dominant reason",
+        "evidence quotations must be verbatim"
+      ]
+    },
+    {
+      "id": "p3-cooking-reasoning",
+      "part": 3,
+      "question_id": "s39-a-q01",
+      "answer": "I think the main reason is that cooking feels time-consuming when people already have long working hours. Ordering food gives an immediate result, whereas learning to cook involves shopping, preparation and cleaning. That said, some people avoid cooking simply because they never had a chance to learn, so convenience is not the only explanation.",
+      "expected_invariants": [
+        "feedback should recognize a clear cause and qualification",
+        "models must retain time pressure and lack-of-learning ideas",
+        "Band 9 must remain a spoken response",
+        "alternative answer should use another main explanation"
+      ]
+    },
+    {
+      "id": "p3-sharing-news",
+      "part": 3,
+      "question_id": "s55-a-q01",
+      "answer": "Good news creates a shared emotional moment. When someone announces a promotion or a new baby, other people can participate in the happiness even though the event did not happen to them. Sharing it can also strengthen relationships, although posting every achievement publicly may turn a personal moment into a performance.",
+      "expected_invariants": [
+        "feedback should recognize abstract explanation and nuance",
+        "models should preserve shared emotion and relationship-building",
+        "alternative answer should use a different mechanism",
+        "no official-score language"
+      ]
+    }
+  ]
+}

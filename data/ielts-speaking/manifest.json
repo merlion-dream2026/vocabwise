@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "content_package": "IELTS Champion Speaking 2026",
+  "normalization_policy": "Only whitespace, soft-hyphen, and invalid Word control artifacts were normalized. Source wording was not editorially rewritten.",
+  "stats": {
+    "part1_topics": 80,
+    "part1_questions": 401,
+    "part1_reference_answers": 1203,
+    "part2_3_sets": 60,
+    "part2_model_talks": 180,
+    "part3_questions": 360,
+    "part3_model_responses": 1080,
+    "cross_source_mismatches": 0,
+    "part2_cue_cards": 60,
+    "part3_groups": 120
+  },
+  "files": [
+    {
+      "name": "part1-question-bank.json",
+      "bytes": 136732,
+      "sha256": "4542f575527661752e37dbdd064aaeef09dd791c063d62ed5764441999c96f1c"
+    },
+    {
+      "name": "part1-reference-answers.json",
+      "bytes": 370813,
+      "sha256": "1d2ce1c04ab3dec2f623cffe7ea2fa3c623f4d4fa722f950cdedadbc9cbb6197"
+    },
+    {
+      "name": "parts2-3-sets-01-20.json",
+      "bytes": 322024,
+      "sha256": "f6f16579f5e9e84b0b4869d38ae4c84b7e9032979d431c5113260300d5b72128"
+    },
+    {
+      "name": "parts2-3-sets-21-40.json",
+      "bytes": 315478,
+      "sha256": "1abf71d21551bbbbc92faea56c0605fac63454c3a15c62114b563b94c1d32599"
+    },
+    {
+      "name": "parts2-3-sets-41-60.json",
+      "bytes": 317621,
+      "sha256": "08192a010a3c30d19e6cee9014b7327e53d11b6961530c3aa41e9a7520816606"
+    },
+    {
+      "name": "complete-question-bank.json",
+      "bytes": 162696,
+      "sha256": "d0442a8a840eaed4d1d9a3230e962bb3e671bdd6a842d80faa89bbd36b30985c"
+    },
+    {
+      "name": "parts2-3-method-guide.json",
+      "bytes": 42382,
+      "sha256": "b785405012b78a0c0ad566a17322997451aec86e91d15f5b25e1485a33a9c2f5"
+    },
+    {
+      "name": "cross-source-validation.json",
+      "bytes": 63,
+      "sha256": "881e16bbb08c2aea99bf20777789fe9b64341e26dfbe96e12bfa6de5bfc4ff12"
+    },
+    {
+      "name": "parts2-3-question-bank.json",
+      "bytes": 159891,
+      "sha256": "e1e1d896d9fefc384fe1cb52d28955ac2f83b9fc3303766c7e0f908c7b107007",
+      "derived": true,
+      "client_safe": true
+    }
+  ]
+}

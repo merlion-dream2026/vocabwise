@@ -1,0 +1,6182 @@
+{
+  "schema_version": "1.0",
+  "content_type": "ielts_speaking_complete_question_bank",
+  "source_file": "IELTS_Speaking_Question_Bank_2026(1).docx",
+  "source_note": "Questions-only source; whitespace and Word control artifacts normalized.",
+  "stats": {
+    "part1_topics": 80,
+    "part1_questions": 401,
+    "linked_part2_3_sets": 60,
+    "part2_cue_cards": 60,
+    "part3_questions": 360
+  },
+  "part1_topics": [
+    {
+      "id": "p1-topic-01",
+      "number": 1,
+      "title": "Home",
+      "questions": [
+        {
+          "id": "p1-01-q01",
+          "number": 1,
+          "text": "Where do you live?"
+        },
+        {
+          "id": "p1-01-q02",
+          "number": 2,
+          "text": "How long have you lived there?"
+        },
+        {
+          "id": "p1-01-q03",
+          "number": 3,
+          "text": "What do you like most about your home?"
+        },
+        {
+          "id": "p1-01-q04",
+          "number": 4,
+          "text": "Is there anything you do not like about your home?"
+        },
+        {
+          "id": "p1-01-q05",
+          "number": 5,
+          "text": "If you could change one thing about your home, what would it be?"
+        },
+        {
+          "id": "p1-01-q06",
+          "number": 6,
+          "text": "What would your dream home be like?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-02",
+      "number": 2,
+      "title": "Hometown",
+      "questions": [
+        {
+          "id": "p1-02-q01",
+          "number": 1,
+          "text": "Where is your hometown?"
+        },
+        {
+          "id": "p1-02-q02",
+          "number": 2,
+          "text": "What do you like most about your hometown?"
+        },
+        {
+          "id": "p1-02-q03",
+          "number": 3,
+          "text": "What was it like growing up there?"
+        },
+        {
+          "id": "p1-02-q04",
+          "number": 4,
+          "text": "Has your hometown changed much since you were a child?"
+        },
+        {
+          "id": "p1-02-q05",
+          "number": 5,
+          "text": "Is it a good place for young people to live?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-03",
+      "number": 3,
+      "title": "Work",
+      "questions": [
+        {
+          "id": "p1-03-q01",
+          "number": 1,
+          "text": "What kind of work do you do?"
+        },
+        {
+          "id": "p1-03-q02",
+          "number": 2,
+          "text": "Why did you choose this line of work?"
+        },
+        {
+          "id": "p1-03-q03",
+          "number": 3,
+          "text": "What do you enjoy most about your job?"
+        },
+        {
+          "id": "p1-03-q04",
+          "number": 4,
+          "text": "Is there anything you would like to change about your work?"
+        },
+        {
+          "id": "p1-03-q05",
+          "number": 5,
+          "text": "What kind of job would you like to have in the future?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-04",
+      "number": 4,
+      "title": "Education",
+      "questions": [
+        {
+          "id": "p1-04-q01",
+          "number": 1,
+          "text": "Do you work or are you a student?"
+        },
+        {
+          "id": "p1-04-q02",
+          "number": 2,
+          "text": "What subject or course are you studying?"
+        },
+        {
+          "id": "p1-04-q03",
+          "number": 3,
+          "text": "Why did you choose it?"
+        },
+        {
+          "id": "p1-04-q04",
+          "number": 4,
+          "text": "What do you find most interesting about your studies?"
+        },
+        {
+          "id": "p1-04-q05",
+          "number": 5,
+          "text": "Is there anything about your course you would like to change?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-05",
+      "number": 5,
+      "title": "Neighborhood",
+      "questions": [
+        {
+          "id": "p1-05-q01",
+          "number": 1,
+          "text": "What is your neighborhood like?"
+        },
+        {
+          "id": "p1-05-q02",
+          "number": 2,
+          "text": "What do you like most about the area where you live?"
+        },
+        {
+          "id": "p1-05-q03",
+          "number": 3,
+          "text": "How well do you know your neighbors?"
+        },
+        {
+          "id": "p1-05-q04",
+          "number": 4,
+          "text": "What do you usually do in your neighborhood?"
+        },
+        {
+          "id": "p1-05-q05",
+          "number": 5,
+          "text": "How could your neighborhood be improved?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-06",
+      "number": 6,
+      "title": "Family",
+      "questions": [
+        {
+          "id": "p1-06-q01",
+          "number": 1,
+          "text": "Do you have a large family?"
+        },
+        {
+          "id": "p1-06-q02",
+          "number": 2,
+          "text": "Who are you closest to in your family?"
+        },
+        {
+          "id": "p1-06-q03",
+          "number": 3,
+          "text": "What do you usually do together?"
+        },
+        {
+          "id": "p1-06-q04",
+          "number": 4,
+          "text": "How often do you visit your relatives?"
+        },
+        {
+          "id": "p1-06-q05",
+          "number": 5,
+          "text": "Do you think family relationships have changed in recent years?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-07",
+      "number": 7,
+      "title": "Friends",
+      "questions": [
+        {
+          "id": "p1-07-q01",
+          "number": 1,
+          "text": "Do you have many close friends?"
+        },
+        {
+          "id": "p1-07-q02",
+          "number": 2,
+          "text": "How often do you see your friends?"
+        },
+        {
+          "id": "p1-07-q03",
+          "number": 3,
+          "text": "What do you enjoy doing together?"
+        },
+        {
+          "id": "p1-07-q04",
+          "number": 4,
+          "text": "What qualities do you value in a friend?"
+        },
+        {
+          "id": "p1-07-q05",
+          "number": 5,
+          "text": "Is it easy for you to make new friends?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-08",
+      "number": 8,
+      "title": "Teachers",
+      "questions": [
+        {
+          "id": "p1-08-q01",
+          "number": 1,
+          "text": "Do you remember your first teacher?"
+        },
+        {
+          "id": "p1-08-q02",
+          "number": 2,
+          "text": "What kind of teachers do you learn best from?"
+        },
+        {
+          "id": "p1-08-q03",
+          "number": 3,
+          "text": "Have you ever had a teacher who inspired you?"
+        },
+        {
+          "id": "p1-08-q04",
+          "number": 4,
+          "text": "Do you prefer strict or easy-going teachers?"
+        },
+        {
+          "id": "p1-08-q05",
+          "number": 5,
+          "text": "Would you like to be a teacher?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-09",
+      "number": 9,
+      "title": "Daily Routine",
+      "questions": [
+        {
+          "id": "p1-09-q01",
+          "number": 1,
+          "text": "What is your typical weekday like?"
+        },
+        {
+          "id": "p1-09-q02",
+          "number": 2,
+          "text": "What is your favorite part of the day?"
+        },
+        {
+          "id": "p1-09-q03",
+          "number": 3,
+          "text": "Is your routine different at weekends?"
+        },
+        {
+          "id": "p1-09-q04",
+          "number": 4,
+          "text": "Would you like to change anything about your daily routine?"
+        },
+        {
+          "id": "p1-09-q05",
+          "number": 5,
+          "text": "Were your days more relaxed when you were younger?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-10",
+      "number": 10,
+      "title": "Free Time",
+      "questions": [
+        {
+          "id": "p1-10-q01",
+          "number": 1,
+          "text": "What do you usually do in your free time?"
+        },
+        {
+          "id": "p1-10-q02",
+          "number": 2,
+          "text": "Do you prefer spending free time alone or with other people?"
+        },
+        {
+          "id": "p1-10-q03",
+          "number": 3,
+          "text": "Do you have enough leisure time?"
+        },
+        {
+          "id": "p1-10-q04",
+          "number": 4,
+          "text": "What did you do for fun as a child?"
+        },
+        {
+          "id": "p1-10-q05",
+          "number": 5,
+          "text": "What new activity would you like to try?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-11",
+      "number": 11,
+      "title": "Books And Reading",
+      "questions": [
+        {
+          "id": "p1-11-q01",
+          "number": 1,
+          "text": "Do you enjoy reading?"
+        },
+        {
+          "id": "p1-11-q02",
+          "number": 2,
+          "text": "What kinds of books do you usually read?"
+        },
+        {
+          "id": "p1-11-q03",
+          "number": 3,
+          "text": "Do you prefer printed books or e-books?"
+        },
+        {
+          "id": "p1-11-q04",
+          "number": 4,
+          "text": "Did you read more when you were younger?"
+        },
+        {
+          "id": "p1-11-q05",
+          "number": 5,
+          "text": "Is there a book you would recommend to others?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-12",
+      "number": 12,
+      "title": "Music",
+      "questions": [
+        {
+          "id": "p1-12-q01",
+          "number": 1,
+          "text": "Do you listen to music often?"
+        },
+        {
+          "id": "p1-12-q02",
+          "number": 2,
+          "text": "What kind of music do you like most?"
+        },
+        {
+          "id": "p1-12-q03",
+          "number": 3,
+          "text": "When do you usually listen to music?"
+        },
+        {
+          "id": "p1-12-q04",
+          "number": 4,
+          "text": "Has your taste in music changed over time?"
+        },
+        {
+          "id": "p1-12-q05",
+          "number": 5,
+          "text": "Would you like to learn a musical instrument?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-13",
+      "number": 13,
+      "title": "Films",
+      "questions": [
+        {
+          "id": "p1-13-q01",
+          "number": 1,
+          "text": "Do you enjoy watching films?"
+        },
+        {
+          "id": "p1-13-q02",
+          "number": 2,
+          "text": "What types of films do you prefer?"
+        },
+        {
+          "id": "p1-13-q03",
+          "number": 3,
+          "text": "Do you usually watch films at home or at the cinema?"
+        },
+        {
+          "id": "p1-13-q04",
+          "number": 4,
+          "text": "Did you have a favorite film as a child?"
+        },
+        {
+          "id": "p1-13-q05",
+          "number": 5,
+          "text": "What makes a film memorable for you?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-14",
+      "number": 14,
+      "title": "Television And Streaming",
+      "questions": [
+        {
+          "id": "p1-14-q01",
+          "number": 1,
+          "text": "How often do you watch television or streaming services?"
+        },
+        {
+          "id": "p1-14-q02",
+          "number": 2,
+          "text": "What kinds of programs do you enjoy?"
+        },
+        {
+          "id": "p1-14-q03",
+          "number": 3,
+          "text": "Do you prefer watching alone or with other people?"
+        },
+        {
+          "id": "p1-14-q04",
+          "number": 4,
+          "text": "Do you think people watch too much television?"
+        },
+        {
+          "id": "p1-14-q05",
+          "number": 5,
+          "text": "How has television viewing changed in your family?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-15",
+      "number": 15,
+      "title": "Social Media",
+      "questions": [
+        {
+          "id": "p1-15-q01",
+          "number": 1,
+          "text": "Which social media platforms do you use?"
+        },
+        {
+          "id": "p1-15-q02",
+          "number": 2,
+          "text": "What do you mainly use social media for?"
+        },
+        {
+          "id": "p1-15-q03",
+          "number": 3,
+          "text": "How much time do you spend on it?"
+        },
+        {
+          "id": "p1-15-q04",
+          "number": 4,
+          "text": "Have your social media habits changed recently?"
+        },
+        {
+          "id": "p1-15-q05",
+          "number": 5,
+          "text": "Would you ever stop using social media?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-16",
+      "number": 16,
+      "title": "The Internet",
+      "questions": [
+        {
+          "id": "p1-16-q01",
+          "number": 1,
+          "text": "How often do you use the Internet?"
+        },
+        {
+          "id": "p1-16-q02",
+          "number": 2,
+          "text": "What do you use it for most?"
+        },
+        {
+          "id": "p1-16-q03",
+          "number": 3,
+          "text": "When did you first start using the Internet?"
+        },
+        {
+          "id": "p1-16-q04",
+          "number": 4,
+          "text": "Could you manage without it for a week?"
+        },
+        {
+          "id": "p1-16-q05",
+          "number": 5,
+          "text": "What is one thing you dislike about being online?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-17",
+      "number": 17,
+      "title": "Smartphones",
+      "questions": [
+        {
+          "id": "p1-17-q01",
+          "number": 1,
+          "text": "How often do you use your smartphone?"
+        },
+        {
+          "id": "p1-17-q02",
+          "number": 2,
+          "text": "Which feature do you use most?"
+        },
+        {
+          "id": "p1-17-q03",
+          "number": 3,
+          "text": "When did you get your first mobile phone?"
+        },
+        {
+          "id": "p1-17-q04",
+          "number": 4,
+          "text": "Do you think you rely on your phone too much?"
+        },
+        {
+          "id": "p1-17-q05",
+          "number": 5,
+          "text": "Would you like to buy a new phone soon?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-18",
+      "number": 18,
+      "title": "Computers",
+      "questions": [
+        {
+          "id": "p1-18-q01",
+          "number": 1,
+          "text": "Do you use a computer every day?"
+        },
+        {
+          "id": "p1-18-q02",
+          "number": 2,
+          "text": "What do you mainly use computers for?"
+        },
+        {
+          "id": "p1-18-q03",
+          "number": 3,
+          "text": "Did you learn to use computers at school?"
+        },
+        {
+          "id": "p1-18-q04",
+          "number": 4,
+          "text": "Do you prefer a laptop or a desktop computer?"
+        },
+        {
+          "id": "p1-18-q05",
+          "number": 5,
+          "text": "What computer skill would you like to improve?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-19",
+      "number": 19,
+      "title": "Apps",
+      "questions": [
+        {
+          "id": "p1-19-q01",
+          "number": 1,
+          "text": "What apps do you use most often?"
+        },
+        {
+          "id": "p1-19-q02",
+          "number": 2,
+          "text": "Have you downloaded any useful apps recently?"
+        },
+        {
+          "id": "p1-19-q03",
+          "number": 3,
+          "text": "Do you pay for apps?"
+        },
+        {
+          "id": "p1-19-q04",
+          "number": 4,
+          "text": "What kind of app would you like someone to invent?"
+        },
+        {
+          "id": "p1-19-q05",
+          "number": 5,
+          "text": "Have apps changed the way you organize your life?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-20",
+      "number": 20,
+      "title": "Photography",
+      "questions": [
+        {
+          "id": "p1-20-q01",
+          "number": 1,
+          "text": "Do you like taking photos?"
+        },
+        {
+          "id": "p1-20-q02",
+          "number": 2,
+          "text": "What do you usually photograph?"
+        },
+        {
+          "id": "p1-20-q03",
+          "number": 3,
+          "text": "Do you prefer taking photos or being in them?"
+        },
+        {
+          "id": "p1-20-q04",
+          "number": 4,
+          "text": "How do you store your photographs?"
+        },
+        {
+          "id": "p1-20-q05",
+          "number": 5,
+          "text": "Is there a photo that is especially important to you?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-21",
+      "number": 21,
+      "title": "Art",
+      "questions": [
+        {
+          "id": "p1-21-q01",
+          "number": 1,
+          "text": "Are you interested in art?"
+        },
+        {
+          "id": "p1-21-q02",
+          "number": 2,
+          "text": "Did you enjoy art lessons at school?"
+        },
+        {
+          "id": "p1-21-q03",
+          "number": 3,
+          "text": "What kind of art do you like?"
+        },
+        {
+          "id": "p1-21-q04",
+          "number": 4,
+          "text": "Do you have any artwork in your home?"
+        },
+        {
+          "id": "p1-21-q05",
+          "number": 5,
+          "text": "Would you like to learn to draw or paint?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-22",
+      "number": 22,
+      "title": "Museums And Galleries",
+      "questions": [
+        {
+          "id": "p1-22-q01",
+          "number": 1,
+          "text": "Do you often visit museums or galleries?"
+        },
+        {
+          "id": "p1-22-q02",
+          "number": 2,
+          "text": "What kind of museum interests you most?"
+        },
+        {
+          "id": "p1-22-q03",
+          "number": 3,
+          "text": "Did you visit museums as a child?"
+        },
+        {
+          "id": "p1-22-q04",
+          "number": 4,
+          "text": "What makes a museum enjoyable?"
+        },
+        {
+          "id": "p1-22-q05",
+          "number": 5,
+          "text": "Should museums be free to enter?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-23",
+      "number": 23,
+      "title": "Advertising",
+      "questions": [
+        {
+          "id": "p1-23-q01",
+          "number": 1,
+          "text": "Do you pay attention to advertisements?"
+        },
+        {
+          "id": "p1-23-q02",
+          "number": 2,
+          "text": "Where do you usually see advertising?"
+        },
+        {
+          "id": "p1-23-q03",
+          "number": 3,
+          "text": "Have you ever bought something because of an advertisement?"
+        },
+        {
+          "id": "p1-23-q04",
+          "number": 4,
+          "text": "What kind of advertising annoys you?"
+        },
+        {
+          "id": "p1-23-q05",
+          "number": 5,
+          "text": "Do you think advertisements influence children?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-24",
+      "number": 24,
+      "title": "News",
+      "questions": [
+        {
+          "id": "p1-24-q01",
+          "number": 1,
+          "text": "How do you usually get the news?"
+        },
+        {
+          "id": "p1-24-q02",
+          "number": 2,
+          "text": "What kinds of news interest you?"
+        },
+        {
+          "id": "p1-24-q03",
+          "number": 3,
+          "text": "Do you prefer reading or watching the news?"
+        },
+        {
+          "id": "p1-24-q04",
+          "number": 4,
+          "text": "How often do you discuss news with other people?"
+        },
+        {
+          "id": "p1-24-q05",
+          "number": 5,
+          "text": "Do you think social media is a reliable news source?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-25",
+      "number": 25,
+      "title": "Writing And Handwriting",
+      "questions": [
+        {
+          "id": "p1-25-q01",
+          "number": 1,
+          "text": "Do you write much by hand?"
+        },
+        {
+          "id": "p1-25-q02",
+          "number": 2,
+          "text": "What do you usually write?"
+        },
+        {
+          "id": "p1-25-q03",
+          "number": 3,
+          "text": "Do you prefer typing or handwriting?"
+        },
+        {
+          "id": "p1-25-q04",
+          "number": 4,
+          "text": "Has your handwriting changed over time?"
+        },
+        {
+          "id": "p1-25-q05",
+          "number": 5,
+          "text": "Do you think handwriting will remain important?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-26",
+      "number": 26,
+      "title": "Emails And Messages",
+      "questions": [
+        {
+          "id": "p1-26-q01",
+          "number": 1,
+          "text": "Do you send many emails?"
+        },
+        {
+          "id": "p1-26-q02",
+          "number": 2,
+          "text": "Who do you usually message during the day?"
+        },
+        {
+          "id": "p1-26-q03",
+          "number": 3,
+          "text": "Do you prefer calling or texting?"
+        },
+        {
+          "id": "p1-26-q04",
+          "number": 4,
+          "text": "Have messaging apps changed the way you communicate?"
+        },
+        {
+          "id": "p1-26-q05",
+          "number": 5,
+          "text": "Is it important to reply to messages quickly?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-27",
+      "number": 27,
+      "title": "Languages",
+      "questions": [
+        {
+          "id": "p1-27-q01",
+          "number": 1,
+          "text": "What languages can you speak?"
+        },
+        {
+          "id": "p1-27-q02",
+          "number": 2,
+          "text": "Why are you learning English?"
+        },
+        {
+          "id": "p1-27-q03",
+          "number": 3,
+          "text": "Which part of English do you find most difficult?"
+        },
+        {
+          "id": "p1-27-q04",
+          "number": 4,
+          "text": "How do you practice speaking?"
+        },
+        {
+          "id": "p1-27-q05",
+          "number": 5,
+          "text": "What other language would you like to learn?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-28",
+      "number": 28,
+      "title": "Dictionaries",
+      "questions": [
+        {
+          "id": "p1-28-q01",
+          "number": 1,
+          "text": "Do you use a dictionary?"
+        },
+        {
+          "id": "p1-28-q02",
+          "number": 2,
+          "text": "Do you prefer online or printed dictionaries?"
+        },
+        {
+          "id": "p1-28-q03",
+          "number": 3,
+          "text": "What information do you look for in a dictionary?"
+        },
+        {
+          "id": "p1-28-q04",
+          "number": 4,
+          "text": "Did your teachers encourage you to use dictionaries?"
+        },
+        {
+          "id": "p1-28-q05",
+          "number": 5,
+          "text": "Do you think translation apps can replace dictionaries?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-29",
+      "number": 29,
+      "title": "Mathematics",
+      "questions": [
+        {
+          "id": "p1-29-q01",
+          "number": 1,
+          "text": "Did you enjoy mathematics at school?"
+        },
+        {
+          "id": "p1-29-q02",
+          "number": 2,
+          "text": "Are you good at doing calculations in your head?"
+        },
+        {
+          "id": "p1-29-q03",
+          "number": 3,
+          "text": "When do you use mathematics in daily life?"
+        },
+        {
+          "id": "p1-29-q04",
+          "number": 4,
+          "text": "Do you ever use a calculator?"
+        },
+        {
+          "id": "p1-29-q05",
+          "number": 5,
+          "text": "Why do some people find mathematics difficult?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-30",
+      "number": 30,
+      "title": "History",
+      "questions": [
+        {
+          "id": "p1-30-q01",
+          "number": 1,
+          "text": "Did you enjoy learning history at school?"
+        },
+        {
+          "id": "p1-30-q02",
+          "number": 2,
+          "text": "Which period of history interests you most?"
+        },
+        {
+          "id": "p1-30-q03",
+          "number": 3,
+          "text": "How do you usually learn about the past?"
+        },
+        {
+          "id": "p1-30-q04",
+          "number": 4,
+          "text": "Is there a historical figure you admire?"
+        },
+        {
+          "id": "p1-30-q05",
+          "number": 5,
+          "text": "Should children visit historical places?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-31",
+      "number": 31,
+      "title": "Colors",
+      "questions": [
+        {
+          "id": "p1-31-q01",
+          "number": 1,
+          "text": "What is your favorite color?"
+        },
+        {
+          "id": "p1-31-q02",
+          "number": 2,
+          "text": "Are there any colors you dislike?"
+        },
+        {
+          "id": "p1-31-q03",
+          "number": 3,
+          "text": "Do colors affect your mood?"
+        },
+        {
+          "id": "p1-31-q04",
+          "number": 4,
+          "text": "What colors do you usually wear?"
+        },
+        {
+          "id": "p1-31-q05",
+          "number": 5,
+          "text": "Has your favorite color changed since childhood?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-32",
+      "number": 32,
+      "title": "Sports",
+      "questions": [
+        {
+          "id": "p1-32-q01",
+          "number": 1,
+          "text": "What sports do you enjoy?"
+        },
+        {
+          "id": "p1-32-q02",
+          "number": 2,
+          "text": "How often do you play or watch sports?"
+        },
+        {
+          "id": "p1-32-q03",
+          "number": 3,
+          "text": "Did you play sports at school?"
+        },
+        {
+          "id": "p1-32-q04",
+          "number": 4,
+          "text": "Do you prefer team or individual sports?"
+        },
+        {
+          "id": "p1-32-q05",
+          "number": 5,
+          "text": "Is there a sport you would like to learn?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-33",
+      "number": 33,
+      "title": "Exercise",
+      "questions": [
+        {
+          "id": "p1-33-q01",
+          "number": 1,
+          "text": "How do you keep physically active?"
+        },
+        {
+          "id": "p1-33-q02",
+          "number": 2,
+          "text": "How often do you exercise?"
+        },
+        {
+          "id": "p1-33-q03",
+          "number": 3,
+          "text": "Do you prefer exercising indoors or outdoors?"
+        },
+        {
+          "id": "p1-33-q04",
+          "number": 4,
+          "text": "What stops people from exercising regularly?"
+        },
+        {
+          "id": "p1-33-q05",
+          "number": 5,
+          "text": "Have your exercise habits changed?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-34",
+      "number": 34,
+      "title": "Walking",
+      "questions": [
+        {
+          "id": "p1-34-q01",
+          "number": 1,
+          "text": "Do you walk much during a normal day?"
+        },
+        {
+          "id": "p1-34-q02",
+          "number": 2,
+          "text": "Where do you enjoy going for a walk?"
+        },
+        {
+          "id": "p1-34-q03",
+          "number": 3,
+          "text": "Did you walk more when you were younger?"
+        },
+        {
+          "id": "p1-34-q04",
+          "number": 4,
+          "text": "Do you prefer walking alone or with someone?"
+        },
+        {
+          "id": "p1-34-q05",
+          "number": 5,
+          "text": "How could your city be made better for pedestrians?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-35",
+      "number": 35,
+      "title": "Cycling",
+      "questions": [
+        {
+          "id": "p1-35-q01",
+          "number": 1,
+          "text": "Do you know how to ride a bicycle?"
+        },
+        {
+          "id": "p1-35-q02",
+          "number": 2,
+          "text": "How often do you cycle?"
+        },
+        {
+          "id": "p1-35-q03",
+          "number": 3,
+          "text": "Did you ride a bike as a child?"
+        },
+        {
+          "id": "p1-35-q04",
+          "number": 4,
+          "text": "Is cycling safe where you live?"
+        },
+        {
+          "id": "p1-35-q05",
+          "number": 5,
+          "text": "Would you use a bicycle more if there were better cycle lanes?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-36",
+      "number": 36,
+      "title": "Swimming",
+      "questions": [
+        {
+          "id": "p1-36-q01",
+          "number": 1,
+          "text": "Can you swim?"
+        },
+        {
+          "id": "p1-36-q02",
+          "number": 2,
+          "text": "How did you learn to swim?"
+        },
+        {
+          "id": "p1-36-q03",
+          "number": 3,
+          "text": "How often do you go swimming?"
+        },
+        {
+          "id": "p1-36-q04",
+          "number": 4,
+          "text": "Do you prefer swimming in a pool or in the sea?"
+        },
+        {
+          "id": "p1-36-q05",
+          "number": 5,
+          "text": "Why is swimming a useful skill?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-37",
+      "number": 37,
+      "title": "Outdoor Activities",
+      "questions": [
+        {
+          "id": "p1-37-q01",
+          "number": 1,
+          "text": "Do you enjoy outdoor activities?"
+        },
+        {
+          "id": "p1-37-q02",
+          "number": 2,
+          "text": "What outdoor activity is popular where you live?"
+        },
+        {
+          "id": "p1-37-q03",
+          "number": 3,
+          "text": "What did you like doing outdoors as a child?"
+        },
+        {
+          "id": "p1-37-q04",
+          "number": 4,
+          "text": "Do you prefer active or relaxing outdoor activities?"
+        },
+        {
+          "id": "p1-37-q05",
+          "number": 5,
+          "text": "Is there an outdoor activity you would like to try?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-38",
+      "number": 38,
+      "title": "Parks And Gardens",
+      "questions": [
+        {
+          "id": "p1-38-q01",
+          "number": 1,
+          "text": "Do you often visit parks?"
+        },
+        {
+          "id": "p1-38-q02",
+          "number": 2,
+          "text": "What do you usually do there?"
+        },
+        {
+          "id": "p1-38-q03",
+          "number": 3,
+          "text": "Are there enough green spaces in your area?"
+        },
+        {
+          "id": "p1-38-q04",
+          "number": 4,
+          "text": "Did you play in parks as a child?"
+        },
+        {
+          "id": "p1-38-q05",
+          "number": 5,
+          "text": "What makes a public park attractive?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-39",
+      "number": 39,
+      "title": "Flowers",
+      "questions": [
+        {
+          "id": "p1-39-q01",
+          "number": 1,
+          "text": "Do you like flowers?"
+        },
+        {
+          "id": "p1-39-q02",
+          "number": 2,
+          "text": "Do you ever buy flowers for other people?"
+        },
+        {
+          "id": "p1-39-q03",
+          "number": 3,
+          "text": "What flowers are common in your country?"
+        },
+        {
+          "id": "p1-39-q04",
+          "number": 4,
+          "text": "Have you ever grown flowers?"
+        },
+        {
+          "id": "p1-39-q05",
+          "number": 5,
+          "text": "On what occasions do people give flowers?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-40",
+      "number": 40,
+      "title": "Plants",
+      "questions": [
+        {
+          "id": "p1-40-q01",
+          "number": 1,
+          "text": "Do you keep plants at home?"
+        },
+        {
+          "id": "p1-40-q02",
+          "number": 2,
+          "text": "Who taught you how to care for plants?"
+        },
+        {
+          "id": "p1-40-q03",
+          "number": 3,
+          "text": "What kinds of plants are easy to grow?"
+        },
+        {
+          "id": "p1-40-q04",
+          "number": 4,
+          "text": "Did you help with gardening as a child?"
+        },
+        {
+          "id": "p1-40-q05",
+          "number": 5,
+          "text": "Would you like a larger garden in the future?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-41",
+      "number": 41,
+      "title": "Animals And Pets",
+      "questions": [
+        {
+          "id": "p1-41-q01",
+          "number": 1,
+          "text": "Do you like animals?"
+        },
+        {
+          "id": "p1-41-q02",
+          "number": 2,
+          "text": "Have you ever had a pet?"
+        },
+        {
+          "id": "p1-41-q03",
+          "number": 3,
+          "text": "What pet is popular in your country?"
+        },
+        {
+          "id": "p1-41-q04",
+          "number": 4,
+          "text": "Do you think children should grow up with animals?"
+        },
+        {
+          "id": "p1-41-q05",
+          "number": 5,
+          "text": "What animal would you like to own if it were practical?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-42",
+      "number": 42,
+      "title": "Wild Animals",
+      "questions": [
+        {
+          "id": "p1-42-q01",
+          "number": 1,
+          "text": "Are there many wild animals in your country?"
+        },
+        {
+          "id": "p1-42-q02",
+          "number": 2,
+          "text": "Have you ever seen a wild animal up close?"
+        },
+        {
+          "id": "p1-42-q03",
+          "number": 3,
+          "text": "Do you enjoy wildlife documentaries?"
+        },
+        {
+          "id": "p1-42-q04",
+          "number": 4,
+          "text": "Which wild animal would you most like to see?"
+        },
+        {
+          "id": "p1-42-q05",
+          "number": 5,
+          "text": "Should wild animals be kept in zoos?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-43",
+      "number": 43,
+      "title": "Weather",
+      "questions": [
+        {
+          "id": "p1-43-q01",
+          "number": 1,
+          "text": "What is the weather usually like where you live?"
+        },
+        {
+          "id": "p1-43-q02",
+          "number": 2,
+          "text": "What kind of weather do you enjoy most?"
+        },
+        {
+          "id": "p1-43-q03",
+          "number": 3,
+          "text": "Does weather affect your mood?"
+        },
+        {
+          "id": "p1-43-q04",
+          "number": 4,
+          "text": "What do you do on very hot days?"
+        },
+        {
+          "id": "p1-43-q05",
+          "number": 5,
+          "text": "Has the weather in your hometown changed?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-44",
+      "number": 44,
+      "title": "Seasons",
+      "questions": [
+        {
+          "id": "p1-44-q01",
+          "number": 1,
+          "text": "What is your favorite season?"
+        },
+        {
+          "id": "p1-44-q02",
+          "number": 2,
+          "text": "What do people usually do during that season?"
+        },
+        {
+          "id": "p1-44-q03",
+          "number": 3,
+          "text": "Are the seasons clearly different where you live?"
+        },
+        {
+          "id": "p1-44-q04",
+          "number": 4,
+          "text": "Did you prefer a different season as a child?"
+        },
+        {
+          "id": "p1-44-q05",
+          "number": 5,
+          "text": "Would you like to experience a snowy winter?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-45",
+      "number": 45,
+      "title": "Rain",
+      "questions": [
+        {
+          "id": "p1-45-q01",
+          "number": 1,
+          "text": "Do you like rainy weather?"
+        },
+        {
+          "id": "p1-45-q02",
+          "number": 2,
+          "text": "What do you usually do when it rains?"
+        },
+        {
+          "id": "p1-45-q03",
+          "number": 3,
+          "text": "Does heavy rain cause problems where you live?"
+        },
+        {
+          "id": "p1-45-q04",
+          "number": 4,
+          "text": "Did you enjoy playing in the rain as a child?"
+        },
+        {
+          "id": "p1-45-q05",
+          "number": 5,
+          "text": "Do you check the weather forecast before going out?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-46",
+      "number": 46,
+      "title": "The Sky And Stars",
+      "questions": [
+        {
+          "id": "p1-46-q01",
+          "number": 1,
+          "text": "Do you often look at the sky?"
+        },
+        {
+          "id": "p1-46-q02",
+          "number": 2,
+          "text": "What time of day is the sky most beautiful?"
+        },
+        {
+          "id": "p1-46-q03",
+          "number": 3,
+          "text": "Can you see many stars where you live?"
+        },
+        {
+          "id": "p1-46-q04",
+          "number": 4,
+          "text": "Did you learn about the stars at school?"
+        },
+        {
+          "id": "p1-46-q05",
+          "number": 5,
+          "text": "Would you like to learn more about astronomy?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-47",
+      "number": 47,
+      "title": "Food",
+      "questions": [
+        {
+          "id": "p1-47-q01",
+          "number": 1,
+          "text": "What kind of food do you enjoy most?"
+        },
+        {
+          "id": "p1-47-q02",
+          "number": 2,
+          "text": "Do you prefer home-cooked food or restaurant food?"
+        },
+        {
+          "id": "p1-47-q03",
+          "number": 3,
+          "text": "Is there any food you dislike?"
+        },
+        {
+          "id": "p1-47-q04",
+          "number": 4,
+          "text": "Have your eating habits changed?"
+        },
+        {
+          "id": "p1-47-q05",
+          "number": 5,
+          "text": "What dish would you recommend to a visitor?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-48",
+      "number": 48,
+      "title": "Cooking",
+      "questions": [
+        {
+          "id": "p1-48-q01",
+          "number": 1,
+          "text": "Do you enjoy cooking?"
+        },
+        {
+          "id": "p1-48-q02",
+          "number": 2,
+          "text": "How often do you cook?"
+        },
+        {
+          "id": "p1-48-q03",
+          "number": 3,
+          "text": "Who taught you to cook?"
+        },
+        {
+          "id": "p1-48-q04",
+          "number": 4,
+          "text": "What dish can you make well?"
+        },
+        {
+          "id": "p1-48-q05",
+          "number": 5,
+          "text": "Would you like to improve your cooking skills?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-49",
+      "number": 49,
+      "title": "Restaurants",
+      "questions": [
+        {
+          "id": "p1-49-q01",
+          "number": 1,
+          "text": "How often do you eat at restaurants?"
+        },
+        {
+          "id": "p1-49-q02",
+          "number": 2,
+          "text": "What kind of restaurant do you prefer?"
+        },
+        {
+          "id": "p1-49-q03",
+          "number": 3,
+          "text": "What makes a restaurant worth returning to?"
+        },
+        {
+          "id": "p1-49-q04",
+          "number": 4,
+          "text": "Do you usually try new dishes when eating out?"
+        },
+        {
+          "id": "p1-49-q05",
+          "number": 5,
+          "text": "Have restaurant habits changed in your city?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-50",
+      "number": 50,
+      "title": "Breakfast",
+      "questions": [
+        {
+          "id": "p1-50-q01",
+          "number": 1,
+          "text": "Do you usually eat breakfast?"
+        },
+        {
+          "id": "p1-50-q02",
+          "number": 2,
+          "text": "What do you normally have in the morning?"
+        },
+        {
+          "id": "p1-50-q03",
+          "number": 3,
+          "text": "Is breakfast important to you?"
+        },
+        {
+          "id": "p1-50-q04",
+          "number": 4,
+          "text": "Was your breakfast different when you were a child?"
+        },
+        {
+          "id": "p1-50-q05",
+          "number": 5,
+          "text": "Would you rather eat at home or buy breakfast outside?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-51",
+      "number": 51,
+      "title": "Snacks",
+      "questions": [
+        {
+          "id": "p1-51-q01",
+          "number": 1,
+          "text": "Do you often eat snacks?"
+        },
+        {
+          "id": "p1-51-q02",
+          "number": 2,
+          "text": "What is your favorite snack?"
+        },
+        {
+          "id": "p1-51-q03",
+          "number": 3,
+          "text": "Did you eat different snacks as a child?"
+        },
+        {
+          "id": "p1-51-q04",
+          "number": 4,
+          "text": "Do you prefer sweet or savory snacks?"
+        },
+        {
+          "id": "p1-51-q05",
+          "number": 5,
+          "text": "Are healthy snacks easy to find where you live?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-52",
+      "number": 52,
+      "title": "Drinks",
+      "questions": [
+        {
+          "id": "p1-52-q01",
+          "number": 1,
+          "text": "What do you usually drink during the day?"
+        },
+        {
+          "id": "p1-52-q02",
+          "number": 2,
+          "text": "Do you prefer tea or coffee?"
+        },
+        {
+          "id": "p1-52-q03",
+          "number": 3,
+          "text": "How much water do you drink?"
+        },
+        {
+          "id": "p1-52-q04",
+          "number": 4,
+          "text": "Is there a drink you avoid?"
+        },
+        {
+          "id": "p1-52-q05",
+          "number": 5,
+          "text": "Have your drinking habits changed over time?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-53",
+      "number": 53,
+      "title": "Shopping",
+      "questions": [
+        {
+          "id": "p1-53-q01",
+          "number": 1,
+          "text": "Do you enjoy shopping?"
+        },
+        {
+          "id": "p1-53-q02",
+          "number": 2,
+          "text": "What do you usually shop for?"
+        },
+        {
+          "id": "p1-53-q03",
+          "number": 3,
+          "text": "Do you prefer shopping online or in stores?"
+        },
+        {
+          "id": "p1-53-q04",
+          "number": 4,
+          "text": "Who do you usually go shopping with?"
+        },
+        {
+          "id": "p1-53-q05",
+          "number": 5,
+          "text": "Have your shopping habits changed recently?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-54",
+      "number": 54,
+      "title": "Clothes And Fashion",
+      "questions": [
+        {
+          "id": "p1-54-q01",
+          "number": 1,
+          "text": "Are you interested in fashion?"
+        },
+        {
+          "id": "p1-54-q02",
+          "number": 2,
+          "text": "What kinds of clothes do you usually wear?"
+        },
+        {
+          "id": "p1-54-q03",
+          "number": 3,
+          "text": "Do you choose comfort or style?"
+        },
+        {
+          "id": "p1-54-q04",
+          "number": 4,
+          "text": "Did you care more about fashion when you were younger?"
+        },
+        {
+          "id": "p1-54-q05",
+          "number": 5,
+          "text": "Is there an item of clothing you wear frequently?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-55",
+      "number": 55,
+      "title": "Shoes",
+      "questions": [
+        {
+          "id": "p1-55-q01",
+          "number": 1,
+          "text": "How many pairs of shoes do you own?"
+        },
+        {
+          "id": "p1-55-q02",
+          "number": 2,
+          "text": "What kind of shoes do you wear most?"
+        },
+        {
+          "id": "p1-55-q03",
+          "number": 3,
+          "text": "Do you buy shoes online?"
+        },
+        {
+          "id": "p1-55-q04",
+          "number": 4,
+          "text": "Did you have a favorite pair as a child?"
+        },
+        {
+          "id": "p1-55-q05",
+          "number": 5,
+          "text": "What matters most when choosing shoes?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-56",
+      "number": 56,
+      "title": "Bags And Accessories",
+      "questions": [
+        {
+          "id": "p1-56-q01",
+          "number": 1,
+          "text": "Do you carry a bag every day?"
+        },
+        {
+          "id": "p1-56-q02",
+          "number": 2,
+          "text": "What do you usually keep in it?"
+        },
+        {
+          "id": "p1-56-q03",
+          "number": 3,
+          "text": "Do you prefer practical or fashionable accessories?"
+        },
+        {
+          "id": "p1-56-q04",
+          "number": 4,
+          "text": "Have you ever lost a bag?"
+        },
+        {
+          "id": "p1-56-q05",
+          "number": 5,
+          "text": "Would you spend a lot of money on an accessory?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-57",
+      "number": 57,
+      "title": "Gifts",
+      "questions": [
+        {
+          "id": "p1-57-q01",
+          "number": 1,
+          "text": "Do you enjoy giving gifts?"
+        },
+        {
+          "id": "p1-57-q02",
+          "number": 2,
+          "text": "What kinds of gifts do you like receiving?"
+        },
+        {
+          "id": "p1-57-q03",
+          "number": 3,
+          "text": "When did you last give someone a present?"
+        },
+        {
+          "id": "p1-57-q04",
+          "number": 4,
+          "text": "Do you prefer useful or surprising gifts?"
+        },
+        {
+          "id": "p1-57-q05",
+          "number": 5,
+          "text": "Is choosing a gift difficult for you?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-58",
+      "number": 58,
+      "title": "Money",
+      "questions": [
+        {
+          "id": "p1-58-q01",
+          "number": 1,
+          "text": "Do you usually carry cash?"
+        },
+        {
+          "id": "p1-58-q02",
+          "number": 2,
+          "text": "What do you spend most of your money on?"
+        },
+        {
+          "id": "p1-58-q03",
+          "number": 3,
+          "text": "Did you receive pocket money as a child?"
+        },
+        {
+          "id": "p1-58-q04",
+          "number": 4,
+          "text": "Is it easy for you to manage money?"
+        },
+        {
+          "id": "p1-58-q05",
+          "number": 5,
+          "text": "Do you think money can buy happiness?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-59",
+      "number": 59,
+      "title": "Saving",
+      "questions": [
+        {
+          "id": "p1-59-q01",
+          "number": 1,
+          "text": "Do you try to save money?"
+        },
+        {
+          "id": "p1-59-q02",
+          "number": 2,
+          "text": "What are you currently saving for?"
+        },
+        {
+          "id": "p1-59-q03",
+          "number": 3,
+          "text": "How did you learn to manage your finances?"
+        },
+        {
+          "id": "p1-59-q04",
+          "number": 4,
+          "text": "Is it harder for young people to save today?"
+        },
+        {
+          "id": "p1-59-q05",
+          "number": 5,
+          "text": "Would you rather save or spend extra money?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-60",
+      "number": 60,
+      "title": "Transport",
+      "questions": [
+        {
+          "id": "p1-60-q01",
+          "number": 1,
+          "text": "What is your usual means of transport?"
+        },
+        {
+          "id": "p1-60-q02",
+          "number": 2,
+          "text": "Why do you use it?"
+        },
+        {
+          "id": "p1-60-q03",
+          "number": 3,
+          "text": "How long is your daily journey?"
+        },
+        {
+          "id": "p1-60-q04",
+          "number": 4,
+          "text": "Has transport in your city improved?"
+        },
+        {
+          "id": "p1-60-q05",
+          "number": 5,
+          "text": "What form of transport would you like to use more?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-61",
+      "number": 61,
+      "title": "Public Transport",
+      "questions": [
+        {
+          "id": "p1-61-q01",
+          "number": 1,
+          "text": "Do you often use public transport?"
+        },
+        {
+          "id": "p1-61-q02",
+          "number": 2,
+          "text": "What is the best thing about it?"
+        },
+        {
+          "id": "p1-61-q03",
+          "number": 3,
+          "text": "What problems does public transport have in your city?"
+        },
+        {
+          "id": "p1-61-q04",
+          "number": 4,
+          "text": "Did you use buses or trains as a child?"
+        },
+        {
+          "id": "p1-61-q05",
+          "number": 5,
+          "text": "How could public transport be improved?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-62",
+      "number": 62,
+      "title": "Cars And Driving",
+      "questions": [
+        {
+          "id": "p1-62-q01",
+          "number": 1,
+          "text": "Can you drive?"
+        },
+        {
+          "id": "p1-62-q02",
+          "number": 2,
+          "text": "How often do you travel by car?"
+        },
+        {
+          "id": "p1-62-q03",
+          "number": 3,
+          "text": "What do you like or dislike about driving?"
+        },
+        {
+          "id": "p1-62-q04",
+          "number": 4,
+          "text": "Are traffic jams common where you live?"
+        },
+        {
+          "id": "p1-62-q05",
+          "number": 5,
+          "text": "Would you like to own an electric car?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-63",
+      "number": 63,
+      "title": "Travel",
+      "questions": [
+        {
+          "id": "p1-63-q01",
+          "number": 1,
+          "text": "Do you enjoy travelling?"
+        },
+        {
+          "id": "p1-63-q02",
+          "number": 2,
+          "text": "How often do you take trips?"
+        },
+        {
+          "id": "p1-63-q03",
+          "number": 3,
+          "text": "Do you prefer travelling alone or with others?"
+        },
+        {
+          "id": "p1-63-q04",
+          "number": 4,
+          "text": "What was the last place you visited?"
+        },
+        {
+          "id": "p1-63-q05",
+          "number": 5,
+          "text": "Where would you like to travel next?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-64",
+      "number": 64,
+      "title": "Holidays",
+      "questions": [
+        {
+          "id": "p1-64-q01",
+          "number": 1,
+          "text": "What do you usually do during holidays?"
+        },
+        {
+          "id": "p1-64-q02",
+          "number": 2,
+          "text": "Do you prefer active or relaxing holidays?"
+        },
+        {
+          "id": "p1-64-q03",
+          "number": 3,
+          "text": "Who do you normally travel with?"
+        },
+        {
+          "id": "p1-64-q04",
+          "number": 4,
+          "text": "What holiday did you enjoy as a child?"
+        },
+        {
+          "id": "p1-64-q05",
+          "number": 5,
+          "text": "How do you plan a trip?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-65",
+      "number": 65,
+      "title": "Tourism",
+      "questions": [
+        {
+          "id": "p1-65-q01",
+          "number": 1,
+          "text": "Are there many tourists in your hometown?"
+        },
+        {
+          "id": "p1-65-q02",
+          "number": 2,
+          "text": "What attractions do visitors usually see?"
+        },
+        {
+          "id": "p1-65-q03",
+          "number": 3,
+          "text": "Does tourism benefit your area?"
+        },
+        {
+          "id": "p1-65-q04",
+          "number": 4,
+          "text": "Is there a place in your country you recommend?"
+        },
+        {
+          "id": "p1-65-q05",
+          "number": 5,
+          "text": "Would you like to work in tourism?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-66",
+      "number": 66,
+      "title": "Maps And Directions",
+      "questions": [
+        {
+          "id": "p1-66-q01",
+          "number": 1,
+          "text": "Are you good at reading maps?"
+        },
+        {
+          "id": "p1-66-q02",
+          "number": 2,
+          "text": "Do you use paper maps or digital maps?"
+        },
+        {
+          "id": "p1-66-q03",
+          "number": 3,
+          "text": "Have you ever got lost?"
+        },
+        {
+          "id": "p1-66-q04",
+          "number": 4,
+          "text": "Is it easy to give directions in English?"
+        },
+        {
+          "id": "p1-66-q05",
+          "number": 5,
+          "text": "Do you think people rely too much on navigation apps?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-67",
+      "number": 67,
+      "title": "Hotels And Accommodation",
+      "questions": [
+        {
+          "id": "p1-67-q01",
+          "number": 1,
+          "text": "Do you often stay in hotels?"
+        },
+        {
+          "id": "p1-67-q02",
+          "number": 2,
+          "text": "What makes accommodation comfortable?"
+        },
+        {
+          "id": "p1-67-q03",
+          "number": 3,
+          "text": "Do you prefer hotels or rented apartments?"
+        },
+        {
+          "id": "p1-67-q04",
+          "number": 4,
+          "text": "Have you ever had a bad hotel experience?"
+        },
+        {
+          "id": "p1-67-q05",
+          "number": 5,
+          "text": "Would you like to work in a hotel?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-68",
+      "number": 68,
+      "title": "Birthdays",
+      "questions": [
+        {
+          "id": "p1-68-q01",
+          "number": 1,
+          "text": "Do you enjoy celebrating birthdays?"
+        },
+        {
+          "id": "p1-68-q02",
+          "number": 2,
+          "text": "How did you celebrate your last birthday?"
+        },
+        {
+          "id": "p1-68-q03",
+          "number": 3,
+          "text": "Were birthdays more exciting when you were a child?"
+        },
+        {
+          "id": "p1-68-q04",
+          "number": 4,
+          "text": "What makes a good birthday gift?"
+        },
+        {
+          "id": "p1-68-q05",
+          "number": 5,
+          "text": "Are milestone birthdays important in your country?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-69",
+      "number": 69,
+      "title": "Festivals",
+      "questions": [
+        {
+          "id": "p1-69-q01",
+          "number": 1,
+          "text": "What is your favorite festival?"
+        },
+        {
+          "id": "p1-69-q02",
+          "number": 2,
+          "text": "How do people celebrate it?"
+        },
+        {
+          "id": "p1-69-q03",
+          "number": 3,
+          "text": "Did you enjoy festivals as a child?"
+        },
+        {
+          "id": "p1-69-q04",
+          "number": 4,
+          "text": "Do traditional festivals matter to young people?"
+        },
+        {
+          "id": "p1-69-q05",
+          "number": 5,
+          "text": "Would you like to attend a festival abroad?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-70",
+      "number": 70,
+      "title": "Weddings And Celebrations",
+      "questions": [
+        {
+          "id": "p1-70-q01",
+          "number": 1,
+          "text": "Do you enjoy attending weddings?"
+        },
+        {
+          "id": "p1-70-q02",
+          "number": 2,
+          "text": "What usually happens at a wedding in your country?"
+        },
+        {
+          "id": "p1-70-q03",
+          "number": 3,
+          "text": "Have celebrations become more expensive?"
+        },
+        {
+          "id": "p1-70-q04",
+          "number": 4,
+          "text": "Do you prefer large or small celebrations?"
+        },
+        {
+          "id": "p1-70-q05",
+          "number": 5,
+          "text": "What celebration would you like to organize?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-71",
+      "number": 71,
+      "title": "Punctuality",
+      "questions": [
+        {
+          "id": "p1-71-q01",
+          "number": 1,
+          "text": "Is it important to be on time?"
+        },
+        {
+          "id": "p1-71-q02",
+          "number": 2,
+          "text": "Are you usually punctual?"
+        },
+        {
+          "id": "p1-71-q03",
+          "number": 3,
+          "text": "What kinds of appointments must never be missed?"
+        },
+        {
+          "id": "p1-71-q04",
+          "number": 4,
+          "text": "Have you ever been late for something important?"
+        },
+        {
+          "id": "p1-71-q05",
+          "number": 5,
+          "text": "Do people in your country tend to be punctual?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-72",
+      "number": 72,
+      "title": "Patience",
+      "questions": [
+        {
+          "id": "p1-72-q01",
+          "number": 1,
+          "text": "Would you describe yourself as patient?"
+        },
+        {
+          "id": "p1-72-q02",
+          "number": 2,
+          "text": "What situations test your patience?"
+        },
+        {
+          "id": "p1-72-q03",
+          "number": 3,
+          "text": "Were you more impatient as a child?"
+        },
+        {
+          "id": "p1-72-q04",
+          "number": 4,
+          "text": "How do you stay calm while waiting?"
+        },
+        {
+          "id": "p1-72-q05",
+          "number": 5,
+          "text": "Is patience an important quality at work or school?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-73",
+      "number": 73,
+      "title": "Boredom",
+      "questions": [
+        {
+          "id": "p1-73-q01",
+          "number": 1,
+          "text": "Do you often feel bored?"
+        },
+        {
+          "id": "p1-73-q02",
+          "number": 2,
+          "text": "What kinds of situations bore you?"
+        },
+        {
+          "id": "p1-73-q03",
+          "number": 3,
+          "text": "What do you do to make time pass more quickly?"
+        },
+        {
+          "id": "p1-73-q04",
+          "number": 4,
+          "text": "Were you easily bored as a child?"
+        },
+        {
+          "id": "p1-73-q05",
+          "number": 5,
+          "text": "Can boredom ever be useful?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-74",
+      "number": 74,
+      "title": "Dreams",
+      "questions": [
+        {
+          "id": "p1-74-q01",
+          "number": 1,
+          "text": "Do you often remember your dreams?"
+        },
+        {
+          "id": "p1-74-q02",
+          "number": 2,
+          "text": "What kinds of dreams do you have?"
+        },
+        {
+          "id": "p1-74-q03",
+          "number": 3,
+          "text": "Do you ever talk about dreams with other people?"
+        },
+        {
+          "id": "p1-74-q04",
+          "number": 4,
+          "text": "Did you have a recurring dream as a child?"
+        },
+        {
+          "id": "p1-74-q05",
+          "number": 5,
+          "text": "Do you think dreams have meanings?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-75",
+      "number": 75,
+      "title": "Sleep",
+      "questions": [
+        {
+          "id": "p1-75-q01",
+          "number": 1,
+          "text": "How many hours do you usually sleep?"
+        },
+        {
+          "id": "p1-75-q02",
+          "number": 2,
+          "text": "Do you sleep well?"
+        },
+        {
+          "id": "p1-75-q03",
+          "number": 3,
+          "text": "Do you ever take naps?"
+        },
+        {
+          "id": "p1-75-q04",
+          "number": 4,
+          "text": "Did you sleep more when you were younger?"
+        },
+        {
+          "id": "p1-75-q05",
+          "number": 5,
+          "text": "What helps you fall asleep?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-76",
+      "number": 76,
+      "title": "Health",
+      "questions": [
+        {
+          "id": "p1-76-q01",
+          "number": 1,
+          "text": "What do you do to stay healthy?"
+        },
+        {
+          "id": "p1-76-q02",
+          "number": 2,
+          "text": "Do you think you have a healthy lifestyle?"
+        },
+        {
+          "id": "p1-76-q03",
+          "number": 3,
+          "text": "How often do you have a medical check-up?"
+        },
+        {
+          "id": "p1-76-q04",
+          "number": 4,
+          "text": "What unhealthy habit would you like to change?"
+        },
+        {
+          "id": "p1-76-q05",
+          "number": 5,
+          "text": "Has health become more important to you with age?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-77",
+      "number": 77,
+      "title": "Noise",
+      "questions": [
+        {
+          "id": "p1-77-q01",
+          "number": 1,
+          "text": "Is your home area noisy?"
+        },
+        {
+          "id": "p1-77-q02",
+          "number": 2,
+          "text": "What kinds of sounds do you enjoy?"
+        },
+        {
+          "id": "p1-77-q03",
+          "number": 3,
+          "text": "What noise do you find annoying?"
+        },
+        {
+          "id": "p1-77-q04",
+          "number": 4,
+          "text": "Do you need silence when studying or working?"
+        },
+        {
+          "id": "p1-77-q05",
+          "number": 5,
+          "text": "Have cities become noisier?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-78",
+      "number": 78,
+      "title": "Crowded Places",
+      "questions": [
+        {
+          "id": "p1-78-q01",
+          "number": 1,
+          "text": "Do you like crowded places?"
+        },
+        {
+          "id": "p1-78-q02",
+          "number": 2,
+          "text": "When was the last time you were somewhere crowded?"
+        },
+        {
+          "id": "p1-78-q03",
+          "number": 3,
+          "text": "What crowded place is common in your city?"
+        },
+        {
+          "id": "p1-78-q04",
+          "number": 4,
+          "text": "How do you feel in a large crowd?"
+        },
+        {
+          "id": "p1-78-q05",
+          "number": 5,
+          "text": "Do you think public places are becoming more crowded?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-79",
+      "number": 79,
+      "title": "Helping Others",
+      "questions": [
+        {
+          "id": "p1-79-q01",
+          "number": 1,
+          "text": "Do you often help other people?"
+        },
+        {
+          "id": "p1-79-q02",
+          "number": 2,
+          "text": "What kind of help do you usually give?"
+        },
+        {
+          "id": "p1-79-q03",
+          "number": 3,
+          "text": "Did your parents encourage you to help others?"
+        },
+        {
+          "id": "p1-79-q04",
+          "number": 4,
+          "text": "When did someone last help you?"
+        },
+        {
+          "id": "p1-79-q05",
+          "number": 5,
+          "text": "Should schools teach children to do community work?"
+        }
+      ]
+    },
+    {
+      "id": "p1-topic-80",
+      "number": 80,
+      "title": "Losing Things",
+      "questions": [
+        {
+          "id": "p1-80-q01",
+          "number": 1,
+          "text": "Do you often lose things?"
+        },
+        {
+          "id": "p1-80-q02",
+          "number": 2,
+          "text": "What item do you lose most frequently?"
+        },
+        {
+          "id": "p1-80-q03",
+          "number": 3,
+          "text": "How do you usually find something you have misplaced?"
+        },
+        {
+          "id": "p1-80-q04",
+          "number": 4,
+          "text": "Did you lose things more often as a child?"
+        },
+        {
+          "id": "p1-80-q05",
+          "number": 5,
+          "text": "What would you do if you found someone else’s valuable item?"
+        }
+      ]
+    }
+  ],
+  "part2_3_sets": [
+    {
+      "id": "set-01",
+      "number": 1,
+      "linked_topic": "A person who taught you a useful skill",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a person who taught you a useful skill.",
+          "bullet_points": [
+            "who the person was",
+            "what skill they taught you",
+            "how they taught it",
+            "and explain why the skill was useful"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Learning from other people",
+          "questions": [
+            {
+              "id": "s01-a-q01",
+              "number": 1,
+              "text": "Why are some people better teachers than others?"
+            },
+            {
+              "id": "s01-a-q02",
+              "number": 2,
+              "text": "Do people learn practical skills more effectively from family or from professionals?"
+            },
+            {
+              "id": "s01-a-q03",
+              "number": 3,
+              "text": "What skills should all young people learn before they become adults?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Skills and education",
+          "questions": [
+            {
+              "id": "s01-b-q01",
+              "number": 1,
+              "text": "Has the Internet changed the way people learn skills?"
+            },
+            {
+              "id": "s01-b-q02",
+              "number": 2,
+              "text": "Should schools place more emphasis on practical skills?"
+            },
+            {
+              "id": "s01-b-q03",
+              "number": 3,
+              "text": "Will people need to learn new skills more frequently in the future?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-02",
+      "number": 2,
+      "linked_topic": "A friend you enjoy talking to",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a friend you particularly enjoy talking to.",
+          "bullet_points": [
+            "who this person is",
+            "how you met",
+            "what you usually talk about",
+            "and explain why you enjoy these conversations"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Friendship and communication",
+          "questions": [
+            {
+              "id": "s02-a-q01",
+              "number": 1,
+              "text": "What makes a conversation enjoyable?"
+            },
+            {
+              "id": "s02-a-q02",
+              "number": 2,
+              "text": "Do people communicate differently with friends and family?"
+            },
+            {
+              "id": "s02-a-q03",
+              "number": 3,
+              "text": "Why do some friendships last for many years?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Modern friendships",
+          "questions": [
+            {
+              "id": "s02-b-q01",
+              "number": 1,
+              "text": "Has technology made friendships stronger or weaker?"
+            },
+            {
+              "id": "s02-b-q02",
+              "number": 2,
+              "text": "Is it easier to make friends today than in the past?"
+            },
+            {
+              "id": "s02-b-q03",
+              "number": 3,
+              "text": "Do adults have enough time to maintain close friendships?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-03",
+      "number": 3,
+      "linked_topic": "A family member you admire",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a family member you admire.",
+          "bullet_points": [
+            "who the person is",
+            "what they are like",
+            "what they have done",
+            "and explain why you admire them"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Family influence",
+          "questions": [
+            {
+              "id": "s03-a-q01",
+              "number": 1,
+              "text": "How do family members influence children’s personalities?"
+            },
+            {
+              "id": "s03-a-q02",
+              "number": 2,
+              "text": "Should parents be role models for their children?"
+            },
+            {
+              "id": "s03-a-q03",
+              "number": 3,
+              "text": "Why do some young people admire people outside their family more?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Changing family relationships",
+          "questions": [
+            {
+              "id": "s03-b-q01",
+              "number": 1,
+              "text": "Are families as close as they were in the past?"
+            },
+            {
+              "id": "s03-b-q02",
+              "number": 2,
+              "text": "What are the benefits of several generations living together?"
+            },
+            {
+              "id": "s03-b-q03",
+              "number": 3,
+              "text": "How might family life change in the future?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-04",
+      "number": 4,
+      "linked_topic": "An older person with interesting stories",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe an older person you enjoy talking to.",
+          "bullet_points": [
+            "who the person is",
+            "how you know them",
+            "what they talk about",
+            "and explain what you learn from them"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Age and experience",
+          "questions": [
+            {
+              "id": "s04-a-q01",
+              "number": 1,
+              "text": "What can young people learn from older generations?"
+            },
+            {
+              "id": "s04-a-q02",
+              "number": 2,
+              "text": "Why do some elderly people enjoy telling stories about the past?"
+            },
+            {
+              "id": "s04-a-q03",
+              "number": 3,
+              "text": "Are older people always wiser than younger people?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "An ageing society",
+          "questions": [
+            {
+              "id": "s04-b-q01",
+              "number": 1,
+              "text": "How can communities support elderly people?"
+            },
+            {
+              "id": "s04-b-q02",
+              "number": 2,
+              "text": "Should older people continue working if they want to?"
+            },
+            {
+              "id": "s04-b-q03",
+              "number": 3,
+              "text": "How may longer life expectancy affect society?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-05",
+      "number": 5,
+      "linked_topic": "A young person you know",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a child or teenager you know well.",
+          "bullet_points": [
+            "who the person is",
+            "how often you see them",
+            "what they are like",
+            "and explain what you enjoy about spending time with them"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Children today",
+          "questions": [
+            {
+              "id": "s05-a-q01",
+              "number": 1,
+              "text": "How is childhood different from the past?"
+            },
+            {
+              "id": "s05-a-q02",
+              "number": 2,
+              "text": "What qualities should adults encourage in children?"
+            },
+            {
+              "id": "s05-a-q03",
+              "number": 3,
+              "text": "Do children have too much scheduled activity nowadays?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Raising children",
+          "questions": [
+            {
+              "id": "s05-b-q01",
+              "number": 1,
+              "text": "Who has more influence on children: parents, teachers or friends?"
+            },
+            {
+              "id": "s05-b-q02",
+              "number": 2,
+              "text": "Should children be given more freedom to make decisions?"
+            },
+            {
+              "id": "s05-b-q03",
+              "number": 3,
+              "text": "How can adults help children use technology responsibly?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-06",
+      "number": 6,
+      "linked_topic": "A person from a different culture",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a person from a different culture whom you enjoy talking to.",
+          "bullet_points": [
+            "who the person is",
+            "where they are from",
+            "how you met",
+            "and explain what you find interesting about them"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Cross-cultural contact",
+          "questions": [
+            {
+              "id": "s06-a-q01",
+              "number": 1,
+              "text": "What are the benefits of meeting people from other cultures?"
+            },
+            {
+              "id": "s06-a-q02",
+              "number": 2,
+              "text": "What misunderstandings can occur between cultures?"
+            },
+            {
+              "id": "s06-a-q03",
+              "number": 3,
+              "text": "Do people need to live abroad to understand another culture?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Globalisation and identity",
+          "questions": [
+            {
+              "id": "s06-b-q01",
+              "number": 1,
+              "text": "Is globalisation making cultures more similar?"
+            },
+            {
+              "id": "s06-b-q02",
+              "number": 2,
+              "text": "How can countries protect local traditions?"
+            },
+            {
+              "id": "s06-b-q03",
+              "number": 3,
+              "text": "Will cultural differences become less important in the future?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-07",
+      "number": 7,
+      "linked_topic": "A well-known person you admire",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a well-known person you admire.",
+          "bullet_points": [
+            "who the person is",
+            "how you know about them",
+            "what they have achieved",
+            "and explain why you admire them"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Fame and influence",
+          "questions": [
+            {
+              "id": "s07-a-q01",
+              "number": 1,
+              "text": "Why do people admire celebrities?"
+            },
+            {
+              "id": "s07-a-q02",
+              "number": 2,
+              "text": "Should famous people be expected to behave as role models?"
+            },
+            {
+              "id": "s07-a-q03",
+              "number": 3,
+              "text": "What kinds of people become famous today?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Media and public figures",
+          "questions": [
+            {
+              "id": "s07-b-q01",
+              "number": 1,
+              "text": "Has social media changed the meaning of fame?"
+            },
+            {
+              "id": "s07-b-q02",
+              "number": 2,
+              "text": "Do celebrities have too much influence on young people?"
+            },
+            {
+              "id": "s07-b-q03",
+              "number": 3,
+              "text": "Will traditional celebrities remain important in the future?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-08",
+      "number": 8,
+      "linked_topic": "A person who dresses well",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a person you know who dresses well.",
+          "bullet_points": [
+            "who the person is",
+            "what kind of clothes they wear",
+            "when you notice their style",
+            "and explain why you think they dress well"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Clothing and identity",
+          "questions": [
+            {
+              "id": "s08-a-q01",
+              "number": 1,
+              "text": "Why do people use clothes to express themselves?"
+            },
+            {
+              "id": "s08-a-q02",
+              "number": 2,
+              "text": "Are first impressions based too much on appearance?"
+            },
+            {
+              "id": "s08-a-q03",
+              "number": 3,
+              "text": "Do men and women face the same pressure to dress well?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Fashion industry",
+          "questions": [
+            {
+              "id": "s08-b-q01",
+              "number": 1,
+              "text": "Why does fashion change so quickly?"
+            },
+            {
+              "id": "s08-b-q02",
+              "number": 2,
+              "text": "Is fast fashion a serious environmental problem?"
+            },
+            {
+              "id": "s08-b-q03",
+              "number": 3,
+              "text": "Will people care more about sustainable clothing in the future?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-09",
+      "number": 9,
+      "linked_topic": "A person who helped you",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe someone who helped you at an important time.",
+          "bullet_points": [
+            "who the person was",
+            "what situation you were in",
+            "how they helped you",
+            "and explain how you felt about their help"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Helping behavior",
+          "questions": [
+            {
+              "id": "s09-a-q01",
+              "number": 1,
+              "text": "Why are some people more willing to help strangers?"
+            },
+            {
+              "id": "s09-a-q02",
+              "number": 2,
+              "text": "Should people expect something in return when they help?"
+            },
+            {
+              "id": "s09-a-q03",
+              "number": 3,
+              "text": "How can schools encourage children to help others?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Community support",
+          "questions": [
+            {
+              "id": "s09-b-q01",
+              "number": 1,
+              "text": "Are communities less supportive than in the past?"
+            },
+            {
+              "id": "s09-b-q02",
+              "number": 2,
+              "text": "What role should charities play in society?"
+            },
+            {
+              "id": "s09-b-q03",
+              "number": 3,
+              "text": "Can technology make it easier for people to support one another?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-10",
+      "number": 10,
+      "linked_topic": "A person who is excellent at their job",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a person you know who is very good at their job.",
+          "bullet_points": [
+            "who the person is",
+            "what their job involves",
+            "what makes them good at it",
+            "and explain what you have learned from them"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Professional excellence",
+          "questions": [
+            {
+              "id": "s10-a-q01",
+              "number": 1,
+              "text": "What qualities make someone good at their job?"
+            },
+            {
+              "id": "s10-a-q02",
+              "number": 2,
+              "text": "Is natural talent more important than hard work?"
+            },
+            {
+              "id": "s10-a-q03",
+              "number": 3,
+              "text": "How should companies recognize excellent employees?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Workplace change",
+          "questions": [
+            {
+              "id": "s10-b-q01",
+              "number": 1,
+              "text": "How has technology changed professional skills?"
+            },
+            {
+              "id": "s10-b-q02",
+              "number": 2,
+              "text": "Do people change careers more often now?"
+            },
+            {
+              "id": "s10-b-q03",
+              "number": 3,
+              "text": "What skills will be most valuable in future workplaces?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-11",
+      "number": 11,
+      "linked_topic": "A person who protects the environment",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a person you know who does something to protect the environment.",
+          "bullet_points": [
+            "who the person is",
+            "what they do",
+            "how you know about their actions",
+            "and explain what effect they have had on you"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Environmental responsibility",
+          "questions": [
+            {
+              "id": "s11-a-q01",
+              "number": 1,
+              "text": "Why do some people care more about the environment than others?"
+            },
+            {
+              "id": "s11-a-q02",
+              "number": 2,
+              "text": "Can individual actions make a meaningful difference?"
+            },
+            {
+              "id": "s11-a-q03",
+              "number": 3,
+              "text": "Should environmental behavior be taught at school?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Government and business",
+          "questions": [
+            {
+              "id": "s11-b-q01",
+              "number": 1,
+              "text": "What should governments do to reduce waste?"
+            },
+            {
+              "id": "s11-b-q02",
+              "number": 2,
+              "text": "Should companies be punished for environmental damage?"
+            },
+            {
+              "id": "s11-b-q03",
+              "number": 3,
+              "text": "Will consumers force businesses to become greener?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-12",
+      "number": 12,
+      "linked_topic": "A person you would like to work or study with",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe someone you would like to work or study with.",
+          "bullet_points": [
+            "who the person is",
+            "what you know about them",
+            "what you would do together",
+            "and explain why they would be a good partner"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Teamwork",
+          "questions": [
+            {
+              "id": "s12-a-q01",
+              "number": 1,
+              "text": "What makes people work well in a team?"
+            },
+            {
+              "id": "s12-a-q02",
+              "number": 2,
+              "text": "Why do some people prefer working alone?"
+            },
+            {
+              "id": "s12-a-q03",
+              "number": 3,
+              "text": "Should team members always share responsibility equally?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Collaboration in the future",
+          "questions": [
+            {
+              "id": "s12-b-q01",
+              "number": 1,
+              "text": "How has remote work affected teamwork?"
+            },
+            {
+              "id": "s12-b-q02",
+              "number": 2,
+              "text": "Can online teams be as effective as face-to-face teams?"
+            },
+            {
+              "id": "s12-b-q03",
+              "number": 3,
+              "text": "Will collaboration become more important in future careers?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-13",
+      "number": 13,
+      "linked_topic": "A restaurant you enjoy",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a restaurant you enjoy going to.",
+          "bullet_points": [
+            "where it is",
+            "when you first went there",
+            "what the restaurant and food are like",
+            "and explain why you enjoy going there"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Restaurants and eating out",
+          "questions": [
+            {
+              "id": "s13-a-q01",
+              "number": 1,
+              "text": "Why do people choose restaurants for celebrations?"
+            },
+            {
+              "id": "s13-a-q02",
+              "number": 2,
+              "text": "Why are fast-food restaurants popular with some groups?"
+            },
+            {
+              "id": "s13-a-q03",
+              "number": 3,
+              "text": "Is food in expensive restaurants always better?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Food culture and the restaurant industry",
+          "questions": [
+            {
+              "id": "s13-b-q01",
+              "number": 1,
+              "text": "What qualities make a restaurant successful?"
+            },
+            {
+              "id": "s13-b-q02",
+              "number": 2,
+              "text": "Should restaurants serve only local food?"
+            },
+            {
+              "id": "s13-b-q03",
+              "number": 3,
+              "text": "How has food culture changed in your country?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-14",
+      "number": 14,
+      "linked_topic": "A public park",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a public park you enjoy visiting.",
+          "bullet_points": [
+            "where it is",
+            "what it looks like",
+            "what people do there",
+            "and explain why you like it"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Public green spaces",
+          "questions": [
+            {
+              "id": "s14-a-q01",
+              "number": 1,
+              "text": "Why are parks important in cities?"
+            },
+            {
+              "id": "s14-a-q02",
+              "number": 2,
+              "text": "Who uses public parks the most?"
+            },
+            {
+              "id": "s14-a-q03",
+              "number": 3,
+              "text": "What facilities should a good park provide?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Urban planning",
+          "questions": [
+            {
+              "id": "s14-b-q01",
+              "number": 1,
+              "text": "Why do some cities have too little green space?"
+            },
+            {
+              "id": "s14-b-q02",
+              "number": 2,
+              "text": "Should governments protect parks from development?"
+            },
+            {
+              "id": "s14-b-q03",
+              "number": 3,
+              "text": "How might public spaces change in the future?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-15",
+      "number": 15,
+      "linked_topic": "A quiet place",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a quiet place where you like to spend time.",
+          "bullet_points": [
+            "where it is",
+            "when you go there",
+            "what you do there",
+            "and explain why it helps you relax"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Quiet and well-being",
+          "questions": [
+            {
+              "id": "s15-a-q01",
+              "number": 1,
+              "text": "Why do people need quiet places?"
+            },
+            {
+              "id": "s15-a-q02",
+              "number": 2,
+              "text": "Is it harder to find silence in modern cities?"
+            },
+            {
+              "id": "s15-a-q03",
+              "number": 3,
+              "text": "Do different age groups relax in different ways?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Noise in society",
+          "questions": [
+            {
+              "id": "s15-b-q01",
+              "number": 1,
+              "text": "What are the main sources of urban noise?"
+            },
+            {
+              "id": "s15-b-q02",
+              "number": 2,
+              "text": "Should governments regulate noise more strictly?"
+            },
+            {
+              "id": "s15-b-q03",
+              "number": 3,
+              "text": "Will technology make life quieter or noisier?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-16",
+      "number": 16,
+      "linked_topic": "A crowded place",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a crowded place you have been to.",
+          "bullet_points": [
+            "where it was",
+            "when you went there",
+            "why it was crowded",
+            "and explain how you felt there"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Crowds and public places",
+          "questions": [
+            {
+              "id": "s16-a-q01",
+              "number": 1,
+              "text": "Why do some people enjoy crowded places?"
+            },
+            {
+              "id": "s16-a-q02",
+              "number": 2,
+              "text": "What problems can large crowds cause?"
+            },
+            {
+              "id": "s16-a-q03",
+              "number": 3,
+              "text": "How should public events manage crowd safety?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Population and cities",
+          "questions": [
+            {
+              "id": "s16-b-q01",
+              "number": 1,
+              "text": "Why do people continue moving to crowded cities?"
+            },
+            {
+              "id": "s16-b-q02",
+              "number": 2,
+              "text": "Can better urban planning reduce overcrowding?"
+            },
+            {
+              "id": "s16-b-q03",
+              "number": 3,
+              "text": "Will remote work make large cities less crowded?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-17",
+      "number": 17,
+      "linked_topic": "A city or town you enjoyed",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a city or town you enjoyed visiting.",
+          "bullet_points": [
+            "where it is",
+            "when you went there",
+            "what you did",
+            "and explain what made the place memorable"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "City life",
+          "questions": [
+            {
+              "id": "s17-a-q01",
+              "number": 1,
+              "text": "What makes a city attractive to visitors?"
+            },
+            {
+              "id": "s17-a-q02",
+              "number": 2,
+              "text": "Why do people prefer living in cities?"
+            },
+            {
+              "id": "s17-a-q03",
+              "number": 3,
+              "text": "What problems do rapidly growing cities face?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Cities of the future",
+          "questions": [
+            {
+              "id": "s17-b-q01",
+              "number": 1,
+              "text": "How can cities become more liveable?"
+            },
+            {
+              "id": "s17-b-q02",
+              "number": 2,
+              "text": "Will smaller cities become more popular?"
+            },
+            {
+              "id": "s17-b-q03",
+              "number": 3,
+              "text": "What role will technology play in future cities?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-18",
+      "number": 18,
+      "linked_topic": "A home you visited",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a home you visited that made an impression on you.",
+          "bullet_points": [
+            "whose home it was",
+            "where it was",
+            "what it was like",
+            "and explain why you remember it"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Homes and lifestyles",
+          "questions": [
+            {
+              "id": "s18-a-q01",
+              "number": 1,
+              "text": "What makes a house feel like a home?"
+            },
+            {
+              "id": "s18-a-q02",
+              "number": 2,
+              "text": "Why do housing preferences differ between age groups?"
+            },
+            {
+              "id": "s18-a-q03",
+              "number": 3,
+              "text": "Is it better to own or rent a home?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Housing and society",
+          "questions": [
+            {
+              "id": "s18-b-q01",
+              "number": 1,
+              "text": "Why is housing expensive in many cities?"
+            },
+            {
+              "id": "s18-b-q02",
+              "number": 2,
+              "text": "Should governments provide more affordable housing?"
+            },
+            {
+              "id": "s18-b-q03",
+              "number": 3,
+              "text": "How might homes change in the future?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-19",
+      "number": 19,
+      "linked_topic": "A building you admire",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a building you particularly like.",
+          "bullet_points": [
+            "where it is",
+            "what it looks like",
+            "what it is used for",
+            "and explain why you admire it"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Architecture",
+          "questions": [
+            {
+              "id": "s19-a-q01",
+              "number": 1,
+              "text": "Why do some buildings become landmarks?"
+            },
+            {
+              "id": "s19-a-q02",
+              "number": 2,
+              "text": "Should modern buildings copy traditional styles?"
+            },
+            {
+              "id": "s19-a-q03",
+              "number": 3,
+              "text": "How does architecture affect people’s feelings?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Development and preservation",
+          "questions": [
+            {
+              "id": "s19-b-q01",
+              "number": 1,
+              "text": "Should old buildings always be preserved?"
+            },
+            {
+              "id": "s19-b-q02",
+              "number": 2,
+              "text": "Why do cities demolish historic buildings?"
+            },
+            {
+              "id": "s19-b-q03",
+              "number": 3,
+              "text": "How can new development respect local character?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-20",
+      "number": 20,
+      "linked_topic": "A historical place",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a historical place you have visited.",
+          "bullet_points": [
+            "where it is",
+            "what happened there",
+            "what you saw",
+            "and explain why the visit was interesting"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "History and heritage",
+          "questions": [
+            {
+              "id": "s20-a-q01",
+              "number": 1,
+              "text": "Why do people visit historical places?"
+            },
+            {
+              "id": "s20-a-q02",
+              "number": 2,
+              "text": "How can historical sites be made interesting to children?"
+            },
+            {
+              "id": "s20-a-q03",
+              "number": 3,
+              "text": "Should tourists pay to enter heritage sites?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Preserving the past",
+          "questions": [
+            {
+              "id": "s20-b-q01",
+              "number": 1,
+              "text": "Who should fund the protection of historic places?"
+            },
+            {
+              "id": "s20-b-q02",
+              "number": 2,
+              "text": "Can tourism damage cultural heritage?"
+            },
+            {
+              "id": "s20-b-q03",
+              "number": 3,
+              "text": "Will virtual reality reduce the need to visit historical sites?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-21",
+      "number": 21,
+      "linked_topic": "A place near water",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a place near a river, lake or sea that you enjoyed visiting.",
+          "bullet_points": [
+            "where it is",
+            "when you went there",
+            "what you did",
+            "and explain why you liked the place"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Waterfront places",
+          "questions": [
+            {
+              "id": "s21-a-q01",
+              "number": 1,
+              "text": "Why do people like living near water?"
+            },
+            {
+              "id": "s21-a-q02",
+              "number": 2,
+              "text": "What activities are popular near rivers and beaches?"
+            },
+            {
+              "id": "s21-a-q03",
+              "number": 3,
+              "text": "What risks do waterfront cities face?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Environmental protection",
+          "questions": [
+            {
+              "id": "s21-b-q01",
+              "number": 1,
+              "text": "How can beaches and rivers be kept clean?"
+            },
+            {
+              "id": "s21-b-q02",
+              "number": 2,
+              "text": "Should development near coastlines be restricted?"
+            },
+            {
+              "id": "s21-b-q03",
+              "number": 3,
+              "text": "How may climate change affect coastal communities?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-22",
+      "number": 22,
+      "linked_topic": "A shop or market",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a shop or market you enjoy visiting.",
+          "bullet_points": [
+            "where it is",
+            "what it sells",
+            "when you go there",
+            "and explain why you like it"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Shopping places",
+          "questions": [
+            {
+              "id": "s22-a-q01",
+              "number": 1,
+              "text": "Why do people still visit markets when they can shop online?"
+            },
+            {
+              "id": "s22-a-q02",
+              "number": 2,
+              "text": "What makes a shopping area successful?"
+            },
+            {
+              "id": "s22-a-q03",
+              "number": 3,
+              "text": "Do young and older people shop differently?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Retail change",
+          "questions": [
+            {
+              "id": "s22-b-q01",
+              "number": 1,
+              "text": "How has online shopping affected small shops?"
+            },
+            {
+              "id": "s22-b-q02",
+              "number": 2,
+              "text": "Should cities protect traditional markets?"
+            },
+            {
+              "id": "s22-b-q03",
+              "number": 3,
+              "text": "What will physical shops be like in the future?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-23",
+      "number": 23,
+      "linked_topic": "A place for sports",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a place where people go to play or watch sport.",
+          "bullet_points": [
+            "where it is",
+            "what facilities it has",
+            "who goes there",
+            "and explain why the place is popular"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Sports facilities",
+          "questions": [
+            {
+              "id": "s23-a-q01",
+              "number": 1,
+              "text": "Why should communities provide sports facilities?"
+            },
+            {
+              "id": "s23-a-q02",
+              "number": 2,
+              "text": "Should professional stadiums receive public money?"
+            },
+            {
+              "id": "s23-a-q03",
+              "number": 3,
+              "text": "How can sports centers attract more young people?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Sport in society",
+          "questions": [
+            {
+              "id": "s23-b-q01",
+              "number": 1,
+              "text": "Why are some sports more popular than others?"
+            },
+            {
+              "id": "s23-b-q02",
+              "number": 2,
+              "text": "Does watching sport encourage people to exercise?"
+            },
+            {
+              "id": "s23-b-q03",
+              "number": 3,
+              "text": "How might technology change the sports experience?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-24",
+      "number": 24,
+      "linked_topic": "A place you would like to visit",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a country or city you would like to visit.",
+          "bullet_points": [
+            "where it is",
+            "what you know about it",
+            "what you would do there",
+            "and explain why you want to go"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Travel choices",
+          "questions": [
+            {
+              "id": "s24-a-q01",
+              "number": 1,
+              "text": "Why do people want to visit foreign countries?"
+            },
+            {
+              "id": "s24-a-q02",
+              "number": 2,
+              "text": "Do people learn more from travel than from books?"
+            },
+            {
+              "id": "s24-a-q03",
+              "number": 3,
+              "text": "What makes a destination fashionable?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Future tourism",
+          "questions": [
+            {
+              "id": "s24-b-q01",
+              "number": 1,
+              "text": "How can tourism become more sustainable?"
+            },
+            {
+              "id": "s24-b-q02",
+              "number": 2,
+              "text": "Will virtual tourism ever replace real travel?"
+            },
+            {
+              "id": "s24-b-q03",
+              "number": 3,
+              "text": "Should some popular destinations limit visitor numbers?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-25",
+      "number": 25,
+      "linked_topic": "A useful household item",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe an item in your home that you find particularly useful.",
+          "bullet_points": [
+            "what it is",
+            "how long you have had it",
+            "how you use it",
+            "and explain why it is useful"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Objects and convenience",
+          "questions": [
+            {
+              "id": "s25-a-q01",
+              "number": 1,
+              "text": "Why do people buy so many household devices?"
+            },
+            {
+              "id": "s25-a-q02",
+              "number": 2,
+              "text": "Do modern appliances save as much time as people expect?"
+            },
+            {
+              "id": "s25-a-q03",
+              "number": 3,
+              "text": "Why do some people keep old objects?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Consumption and design",
+          "questions": [
+            {
+              "id": "s25-b-q01",
+              "number": 1,
+              "text": "Should products be designed to last longer?"
+            },
+            {
+              "id": "s25-b-q02",
+              "number": 2,
+              "text": "How does advertising influence what people buy for their homes?"
+            },
+            {
+              "id": "s25-b-q03",
+              "number": 3,
+              "text": "Will homes contain more smart devices in the future?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-26",
+      "number": 26,
+      "linked_topic": "A piece of technology that was difficult to use",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a piece of technology you found difficult to use.",
+          "bullet_points": [
+            "what it was",
+            "why you needed to use it",
+            "what problems you had",
+            "and explain how you eventually dealt with it"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Technology and users",
+          "questions": [
+            {
+              "id": "s26-a-q01",
+              "number": 1,
+              "text": "Why do some people struggle with new technology?"
+            },
+            {
+              "id": "s26-a-q02",
+              "number": 2,
+              "text": "Should companies make devices simpler?"
+            },
+            {
+              "id": "s26-a-q03",
+              "number": 3,
+              "text": "Who should help elderly people use digital services?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Technological change",
+          "questions": [
+            {
+              "id": "s26-b-q01",
+              "number": 1,
+              "text": "Does technology always improve people’s lives?"
+            },
+            {
+              "id": "s26-b-q02",
+              "number": 2,
+              "text": "Why are devices replaced so quickly?"
+            },
+            {
+              "id": "s26-b-q03",
+              "number": 3,
+              "text": "Will humans become too dependent on technology?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-27",
+      "number": 27,
+      "linked_topic": "A gift you valued",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a gift you received that was important to you.",
+          "bullet_points": [
+            "what it was",
+            "who gave it to you",
+            "when you received it",
+            "and explain why it mattered"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Giving gifts",
+          "questions": [
+            {
+              "id": "s27-a-q01",
+              "number": 1,
+              "text": "Why do people give gifts?"
+            },
+            {
+              "id": "s27-a-q02",
+              "number": 2,
+              "text": "Is an expensive gift always a better one?"
+            },
+            {
+              "id": "s27-a-q03",
+              "number": 3,
+              "text": "Why is choosing presents difficult for some people?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Gift culture",
+          "questions": [
+            {
+              "id": "s27-b-q01",
+              "number": 1,
+              "text": "Have gift-giving habits changed?"
+            },
+            {
+              "id": "s27-b-q02",
+              "number": 2,
+              "text": "Should workplaces exchange gifts?"
+            },
+            {
+              "id": "s27-b-q03",
+              "number": 3,
+              "text": "Will digital gifts become more common?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-28",
+      "number": 28,
+      "linked_topic": "A photo you are proud of",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a photograph you took that you are proud of.",
+          "bullet_points": [
+            "when and where you took it",
+            "what the photo shows",
+            "why you took it",
+            "and explain why you are proud of it"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Photography",
+          "questions": [
+            {
+              "id": "s28-a-q01",
+              "number": 1,
+              "text": "Why do people take so many photographs now?"
+            },
+            {
+              "id": "s28-a-q02",
+              "number": 2,
+              "text": "Can photographs change how people remember events?"
+            },
+            {
+              "id": "s28-a-q03",
+              "number": 3,
+              "text": "What makes a photograph powerful?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Images and society",
+          "questions": [
+            {
+              "id": "s28-b-q01",
+              "number": 1,
+              "text": "Are edited images harmful?"
+            },
+            {
+              "id": "s28-b-q02",
+              "number": 2,
+              "text": "Should people ask permission before posting photos of others?"
+            },
+            {
+              "id": "s28-b-q03",
+              "number": 3,
+              "text": "Will professional photographers remain important?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-29",
+      "number": 29,
+      "linked_topic": "A book you enjoyed",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a book you enjoyed reading.",
+          "bullet_points": [
+            "what the book was",
+            "when you read it",
+            "what it was about",
+            "and explain why you enjoyed it"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Reading habits",
+          "questions": [
+            {
+              "id": "s29-a-q01",
+              "number": 1,
+              "text": "Why do some people read more than others?"
+            },
+            {
+              "id": "s29-a-q02",
+              "number": 2,
+              "text": "What kinds of books are popular with young people?"
+            },
+            {
+              "id": "s29-a-q03",
+              "number": 3,
+              "text": "Is reading fiction useful?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Books and technology",
+          "questions": [
+            {
+              "id": "s29-b-q01",
+              "number": 1,
+              "text": "Are e-books replacing printed books?"
+            },
+            {
+              "id": "s29-b-q02",
+              "number": 2,
+              "text": "How can schools encourage children to read?"
+            },
+            {
+              "id": "s29-b-q03",
+              "number": 3,
+              "text": "Will people read less in the future?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-30",
+      "number": 30,
+      "linked_topic": "A film that made an impression",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a film that made a strong impression on you.",
+          "bullet_points": [
+            "what it was",
+            "when you watched it",
+            "what it was about",
+            "and explain why it affected you"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Films and audiences",
+          "questions": [
+            {
+              "id": "s30-a-q01",
+              "number": 1,
+              "text": "Why do films influence people emotionally?"
+            },
+            {
+              "id": "s30-a-q02",
+              "number": 2,
+              "text": "What makes a film successful internationally?"
+            },
+            {
+              "id": "s30-a-q03",
+              "number": 3,
+              "text": "Do people prefer films that entertain or educate?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Film industry",
+          "questions": [
+            {
+              "id": "s30-b-q01",
+              "number": 1,
+              "text": "How have streaming services changed cinema?"
+            },
+            {
+              "id": "s30-b-q02",
+              "number": 2,
+              "text": "Should governments support local film industries?"
+            },
+            {
+              "id": "s30-b-q03",
+              "number": 3,
+              "text": "Will cinemas still be popular in the future?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-31",
+      "number": 31,
+      "linked_topic": "A song or piece of music",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a song or piece of music you enjoy.",
+          "bullet_points": [
+            "what it is",
+            "when you first heard it",
+            "when you listen to it",
+            "and explain why you like it"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Music in daily life",
+          "questions": [
+            {
+              "id": "s31-a-q01",
+              "number": 1,
+              "text": "Why is music important to people?"
+            },
+            {
+              "id": "s31-a-q02",
+              "number": 2,
+              "text": "Do musical tastes change with age?"
+            },
+            {
+              "id": "s31-a-q03",
+              "number": 3,
+              "text": "Why do some songs become popular worldwide?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Music industry",
+          "questions": [
+            {
+              "id": "s31-b-q01",
+              "number": 1,
+              "text": "Has technology improved or harmed music?"
+            },
+            {
+              "id": "s31-b-q02",
+              "number": 2,
+              "text": "Should musicians be able to earn more from streaming?"
+            },
+            {
+              "id": "s31-b-q03",
+              "number": 3,
+              "text": "Will artificial intelligence change music creation?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-32",
+      "number": 32,
+      "linked_topic": "A work of art",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a work of art you admire.",
+          "bullet_points": [
+            "what it is",
+            "where you saw it",
+            "what it looks like",
+            "and explain why you admire it"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Art and the public",
+          "questions": [
+            {
+              "id": "s32-a-q01",
+              "number": 1,
+              "text": "Why do people create art?"
+            },
+            {
+              "id": "s32-a-q02",
+              "number": 2,
+              "text": "Should art be taught to every child?"
+            },
+            {
+              "id": "s32-a-q03",
+              "number": 3,
+              "text": "Why do some people find modern art difficult?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Supporting culture",
+          "questions": [
+            {
+              "id": "s32-b-q01",
+              "number": 1,
+              "text": "Should governments spend public money on art?"
+            },
+            {
+              "id": "s32-b-q02",
+              "number": 2,
+              "text": "How can museums attract wider audiences?"
+            },
+            {
+              "id": "s32-b-q03",
+              "number": 3,
+              "text": "Will digital art become more valuable?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-33",
+      "number": 33,
+      "linked_topic": "An item of clothing you like",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe an item of clothing you enjoy wearing.",
+          "bullet_points": [
+            "what it is",
+            "where you got it",
+            "when you wear it",
+            "and explain why you like it"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Clothing choices",
+          "questions": [
+            {
+              "id": "s33-a-q01",
+              "number": 1,
+              "text": "Why are people emotionally attached to clothes?"
+            },
+            {
+              "id": "s33-a-q02",
+              "number": 2,
+              "text": "Does clothing affect confidence?"
+            },
+            {
+              "id": "s33-a-q03",
+              "number": 3,
+              "text": "Why do fashion preferences differ between generations?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Fashion and sustainability",
+          "questions": [
+            {
+              "id": "s33-b-q01",
+              "number": 1,
+              "text": "How has fast fashion changed shopping?"
+            },
+            {
+              "id": "s33-b-q02",
+              "number": 2,
+              "text": "Should clothing companies be responsible for waste?"
+            },
+            {
+              "id": "s33-b-q03",
+              "number": 3,
+              "text": "Will second-hand clothing become more popular?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-34",
+      "number": 34,
+      "linked_topic": "A useful website or app",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a website or app you use regularly.",
+          "bullet_points": [
+            "what it is",
+            "how you discovered it",
+            "what you use it for",
+            "and explain why it is useful"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Digital services",
+          "questions": [
+            {
+              "id": "s34-a-q01",
+              "number": 1,
+              "text": "Why do some apps become part of people’s daily routines?"
+            },
+            {
+              "id": "s34-a-q02",
+              "number": 2,
+              "text": "What makes an app trustworthy?"
+            },
+            {
+              "id": "s34-a-q03",
+              "number": 3,
+              "text": "Should essential digital services be free?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Data and the future",
+          "questions": [
+            {
+              "id": "s34-b-q01",
+              "number": 1,
+              "text": "How concerned should people be about personal data?"
+            },
+            {
+              "id": "s34-b-q02",
+              "number": 2,
+              "text": "Should governments regulate large technology platforms?"
+            },
+            {
+              "id": "s34-b-q03",
+              "number": 3,
+              "text": "What types of apps may become important in the future?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-35",
+      "number": 35,
+      "linked_topic": "An advertisement you disliked",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe an advertisement you did not like.",
+          "bullet_points": [
+            "where you saw it",
+            "what it was advertising",
+            "what happened in it",
+            "and explain why you disliked it"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Advertising methods",
+          "questions": [
+            {
+              "id": "s35-a-q01",
+              "number": 1,
+              "text": "Why are some advertisements annoying?"
+            },
+            {
+              "id": "s35-a-q02",
+              "number": 2,
+              "text": "Do humorous advertisements sell products effectively?"
+            },
+            {
+              "id": "s35-a-q03",
+              "number": 3,
+              "text": "Should advertising aimed at children be restricted?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Advertising and society",
+          "questions": [
+            {
+              "id": "s35-b-q01",
+              "number": 1,
+              "text": "How has online advertising changed consumer behavior?"
+            },
+            {
+              "id": "s35-b-q02",
+              "number": 2,
+              "text": "Are influencers a form of advertising?"
+            },
+            {
+              "id": "s35-b-q03",
+              "number": 3,
+              "text": "Will people become better at ignoring advertisements?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-36",
+      "number": 36,
+      "linked_topic": "A product made in your hometown",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a product that is made in your hometown or region.",
+          "bullet_points": [
+            "what it is",
+            "how it is made or produced",
+            "how people use it",
+            "and explain why it is important locally"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Local products",
+          "questions": [
+            {
+              "id": "s36-a-q01",
+              "number": 1,
+              "text": "Why do some regions become known for particular products?"
+            },
+            {
+              "id": "s36-a-q02",
+              "number": 2,
+              "text": "Do consumers value locally made goods?"
+            },
+            {
+              "id": "s36-a-q03",
+              "number": 3,
+              "text": "How can traditional products appeal to young buyers?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Trade and identity",
+          "questions": [
+            {
+              "id": "s36-b-q01",
+              "number": 1,
+              "text": "Can mass production damage local crafts?"
+            },
+            {
+              "id": "s36-b-q02",
+              "number": 2,
+              "text": "Should governments protect regional products?"
+            },
+            {
+              "id": "s36-b-q03",
+              "number": 3,
+              "text": "Will global brands make local products less distinctive?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-37",
+      "number": 37,
+      "linked_topic": "A useful skill you learned",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a useful skill you learned.",
+          "bullet_points": [
+            "what the skill was",
+            "where or how you learned it",
+            "what difficulties you had",
+            "and explain how it has helped you"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Learning skills",
+          "questions": [
+            {
+              "id": "s37-a-q01",
+              "number": 1,
+              "text": "Why do adults continue learning new skills?"
+            },
+            {
+              "id": "s37-a-q02",
+              "number": 2,
+              "text": "Which skills are best learned through practice?"
+            },
+            {
+              "id": "s37-a-q03",
+              "number": 3,
+              "text": "Is it important to be good at many things?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Lifelong learning",
+          "questions": [
+            {
+              "id": "s37-b-q01",
+              "number": 1,
+              "text": "Should employers pay for staff training?"
+            },
+            {
+              "id": "s37-b-q02",
+              "number": 2,
+              "text": "How can people find time to learn?"
+            },
+            {
+              "id": "s37-b-q03",
+              "number": 3,
+              "text": "Will formal qualifications become less important?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-38",
+      "number": 38,
+      "linked_topic": "A sport or exercise you enjoy",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a sport or form of exercise you enjoy.",
+          "bullet_points": [
+            "what it is",
+            "how you became interested in it",
+            "how often you do it",
+            "and explain why you enjoy it"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Exercise habits",
+          "questions": [
+            {
+              "id": "s38-a-q01",
+              "number": 1,
+              "text": "Why do some people find it difficult to exercise regularly?"
+            },
+            {
+              "id": "s38-a-q02",
+              "number": 2,
+              "text": "Are team sports better than individual exercise?"
+            },
+            {
+              "id": "s38-a-q03",
+              "number": 3,
+              "text": "How can cities encourage active lifestyles?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Sport and health",
+          "questions": [
+            {
+              "id": "s38-b-q01",
+              "number": 1,
+              "text": "Should schools require daily physical activity?"
+            },
+            {
+              "id": "s38-b-q02",
+              "number": 2,
+              "text": "Can professional athletes be good role models?"
+            },
+            {
+              "id": "s38-b-q03",
+              "number": 3,
+              "text": "Will technology make people more or less active?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-39",
+      "number": 39,
+      "linked_topic": "Learning to cook something",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe something you learned to cook.",
+          "bullet_points": [
+            "what the dish was",
+            "who or what taught you",
+            "what the process involved",
+            "and explain how you felt when you made it successfully"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Cooking skills",
+          "questions": [
+            {
+              "id": "s39-a-q01",
+              "number": 1,
+              "text": "Why are some people not interested in cooking?"
+            },
+            {
+              "id": "s39-a-q02",
+              "number": 2,
+              "text": "Should children learn to prepare meals?"
+            },
+            {
+              "id": "s39-a-q03",
+              "number": 3,
+              "text": "Is cooking at home always healthier?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Food and modern life",
+          "questions": [
+            {
+              "id": "s39-b-q01",
+              "number": 1,
+              "text": "How have convenience foods changed family life?"
+            },
+            {
+              "id": "s39-b-q02",
+              "number": 2,
+              "text": "Why are cooking videos so popular?"
+            },
+            {
+              "id": "s39-b-q03",
+              "number": 3,
+              "text": "Will people cook less in the future?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-40",
+      "number": 40,
+      "linked_topic": "A hobby you enjoy",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a hobby you enjoy.",
+          "bullet_points": [
+            "what it is",
+            "when you started it",
+            "what you need for it",
+            "and explain what you get from it"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Leisure activities",
+          "questions": [
+            {
+              "id": "s40-a-q01",
+              "number": 1,
+              "text": "Why do people need hobbies?"
+            },
+            {
+              "id": "s40-a-q02",
+              "number": 2,
+              "text": "Do hobbies need to be productive?"
+            },
+            {
+              "id": "s40-a-q03",
+              "number": 3,
+              "text": "Why do some hobbies become expensive?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Leisure in society",
+          "questions": [
+            {
+              "id": "s40-b-q01",
+              "number": 1,
+              "text": "Do people have less free time than in the past?"
+            },
+            {
+              "id": "s40-b-q02",
+              "number": 2,
+              "text": "How has technology changed hobbies?"
+            },
+            {
+              "id": "s40-b-q03",
+              "number": 3,
+              "text": "What new leisure activities may appear in the future?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-41",
+      "number": 41,
+      "linked_topic": "Learning a language",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe your experience of learning a language.",
+          "bullet_points": [
+            "which language it was",
+            "why you decided to learn it",
+            "how you studied",
+            "and explain what was most challenging"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Language learning",
+          "questions": [
+            {
+              "id": "s41-a-q01",
+              "number": 1,
+              "text": "Why do people learn foreign languages?"
+            },
+            {
+              "id": "s41-a-q02",
+              "number": 2,
+              "text": "What makes someone a successful language learner?"
+            },
+            {
+              "id": "s41-a-q03",
+              "number": 3,
+              "text": "Is living abroad necessary for fluency?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Languages and society",
+          "questions": [
+            {
+              "id": "s41-b-q01",
+              "number": 1,
+              "text": "Should children start foreign languages very young?"
+            },
+            {
+              "id": "s41-b-q02",
+              "number": 2,
+              "text": "Will translation technology reduce the need to learn languages?"
+            },
+            {
+              "id": "s41-b-q03",
+              "number": 3,
+              "text": "Why do some languages become globally important?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-42",
+      "number": 42,
+      "linked_topic": "A research task",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a time when you had to do some research.",
+          "bullet_points": [
+            "what the research was about",
+            "why you needed to do it",
+            "how you found information",
+            "and explain what you learned from the process"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Research and information",
+          "questions": [
+            {
+              "id": "s42-a-q01",
+              "number": 1,
+              "text": "What research skills should students develop?"
+            },
+            {
+              "id": "s42-a-q02",
+              "number": 2,
+              "text": "How can people judge whether information is reliable?"
+            },
+            {
+              "id": "s42-a-q03",
+              "number": 3,
+              "text": "Why do some people believe false information online?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Knowledge and technology",
+          "questions": [
+            {
+              "id": "s42-b-q01",
+              "number": 1,
+              "text": "Has easy access to information made people better informed?"
+            },
+            {
+              "id": "s42-b-q02",
+              "number": 2,
+              "text": "Should artificial intelligence be used in academic research?"
+            },
+            {
+              "id": "s42-b-q03",
+              "number": 3,
+              "text": "How will research methods change in the future?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-43",
+      "number": 43,
+      "linked_topic": "A teamwork project",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a project you completed with other people.",
+          "bullet_points": [
+            "what the project was",
+            "who you worked with",
+            "what your role was",
+            "and explain what made the teamwork successful or difficult"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Working in teams",
+          "questions": [
+            {
+              "id": "s43-a-q01",
+              "number": 1,
+              "text": "Why do some teams perform better than others?"
+            },
+            {
+              "id": "s43-a-q02",
+              "number": 2,
+              "text": "Is a strong leader always necessary?"
+            },
+            {
+              "id": "s43-a-q03",
+              "number": 3,
+              "text": "How should disagreements in teams be handled?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Collaboration at work and school",
+          "questions": [
+            {
+              "id": "s43-b-q01",
+              "number": 1,
+              "text": "Should students receive individual or group grades?"
+            },
+            {
+              "id": "s43-b-q02",
+              "number": 2,
+              "text": "How has remote work changed collaboration?"
+            },
+            {
+              "id": "s43-b-q03",
+              "number": 3,
+              "text": "Will teams become more international in the future?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-44",
+      "number": 44,
+      "linked_topic": "A routine you enjoy",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a routine in your life that you enjoy.",
+          "bullet_points": [
+            "what the routine is",
+            "when you do it",
+            "how it developed",
+            "and explain why it is satisfying"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Routines and habits",
+          "questions": [
+            {
+              "id": "s44-a-q01",
+              "number": 1,
+              "text": "Why do routines help some people?"
+            },
+            {
+              "id": "s44-a-q02",
+              "number": 2,
+              "text": "Can routines make life boring?"
+            },
+            {
+              "id": "s44-a-q03",
+              "number": 3,
+              "text": "How long does it take to develop a good habit?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Modern lifestyles",
+          "questions": [
+            {
+              "id": "s44-b-q01",
+              "number": 1,
+              "text": "Why are people interested in productivity routines?"
+            },
+            {
+              "id": "s44-b-q02",
+              "number": 2,
+              "text": "Should employers care about workers’ personal routines?"
+            },
+            {
+              "id": "s44-b-q03",
+              "number": 3,
+              "text": "Will future technology organize more of our daily lives?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-45",
+      "number": 45,
+      "linked_topic": "An outdoor activity",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe an outdoor activity you enjoyed.",
+          "bullet_points": [
+            "what the activity was",
+            "where and when you did it",
+            "who you were with",
+            "and explain why it was enjoyable"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Outdoor recreation",
+          "questions": [
+            {
+              "id": "s45-a-q01",
+              "number": 1,
+              "text": "Why do people benefit from spending time outdoors?"
+            },
+            {
+              "id": "s45-a-q02",
+              "number": 2,
+              "text": "What outdoor activities are suitable for families?"
+            },
+            {
+              "id": "s45-a-q03",
+              "number": 3,
+              "text": "Why do some people avoid outdoor activities?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Access to nature",
+          "questions": [
+            {
+              "id": "s45-b-q01",
+              "number": 1,
+              "text": "Do cities provide enough outdoor space?"
+            },
+            {
+              "id": "s45-b-q02",
+              "number": 2,
+              "text": "Should natural areas limit visitor numbers?"
+            },
+            {
+              "id": "s45-b-q03",
+              "number": 3,
+              "text": "How may climate change affect outdoor leisure?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-46",
+      "number": 46,
+      "linked_topic": "A creative activity",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a creative activity you have tried.",
+          "bullet_points": [
+            "what it was",
+            "why you tried it",
+            "what you produced or did",
+            "and explain how you felt about the experience"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Creativity",
+          "questions": [
+            {
+              "id": "s46-a-q01",
+              "number": 1,
+              "text": "Why is creativity important?"
+            },
+            {
+              "id": "s46-a-q02",
+              "number": 2,
+              "text": "Can creativity be taught?"
+            },
+            {
+              "id": "s46-a-q03",
+              "number": 3,
+              "text": "Why do adults often stop doing creative activities?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Creativity and work",
+          "questions": [
+            {
+              "id": "s46-b-q01",
+              "number": 1,
+              "text": "Do all jobs require creativity?"
+            },
+            {
+              "id": "s46-b-q02",
+              "number": 2,
+              "text": "How can schools protect time for creative subjects?"
+            },
+            {
+              "id": "s46-b-q03",
+              "number": 3,
+              "text": "Will artificial intelligence encourage or reduce human creativity?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-47",
+      "number": 47,
+      "linked_topic": "An activity with your family",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe an activity you enjoy doing with your family.",
+          "bullet_points": [
+            "what the activity is",
+            "how often you do it",
+            "what usually happens",
+            "and explain why it is important to you"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Family time",
+          "questions": [
+            {
+              "id": "s47-a-q01",
+              "number": 1,
+              "text": "Why is shared family time important?"
+            },
+            {
+              "id": "s47-a-q02",
+              "number": 2,
+              "text": "What activities bring different generations together?"
+            },
+            {
+              "id": "s47-a-q03",
+              "number": 3,
+              "text": "Do families spend enough time together today?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Changing family life",
+          "questions": [
+            {
+              "id": "s47-b-q01",
+              "number": 1,
+              "text": "How has technology affected family interaction?"
+            },
+            {
+              "id": "s47-b-q02",
+              "number": 2,
+              "text": "Should parents plan children’s free time?"
+            },
+            {
+              "id": "s47-b-q03",
+              "number": 3,
+              "text": "What might family leisure look like in the future?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-48",
+      "number": 48,
+      "linked_topic": "Something you do to stay healthy",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe something you do to keep healthy.",
+          "bullet_points": [
+            "what you do",
+            "how often you do it",
+            "how you started",
+            "and explain how it affects you"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Healthy behavior",
+          "questions": [
+            {
+              "id": "s48-a-q01",
+              "number": 1,
+              "text": "Why do people know what is healthy but fail to do it?"
+            },
+            {
+              "id": "s48-a-q02",
+              "number": 2,
+              "text": "Are public health campaigns effective?"
+            },
+            {
+              "id": "s48-a-q03",
+              "number": 3,
+              "text": "Should employers help workers stay healthy?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Health policy",
+          "questions": [
+            {
+              "id": "s48-b-q01",
+              "number": 1,
+              "text": "How can governments reduce lifestyle diseases?"
+            },
+            {
+              "id": "s48-b-q02",
+              "number": 2,
+              "text": "Should unhealthy products be taxed?"
+            },
+            {
+              "id": "s48-b-q03",
+              "number": 3,
+              "text": "Will people become healthier in the future?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-49",
+      "number": 49,
+      "linked_topic": "A celebration you enjoyed",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a celebration you enjoyed.",
+          "bullet_points": [
+            "what the occasion was",
+            "where it took place",
+            "who attended",
+            "and explain why it was memorable"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Celebrations",
+          "questions": [
+            {
+              "id": "s49-a-q01",
+              "number": 1,
+              "text": "Why do people celebrate important events?"
+            },
+            {
+              "id": "s49-a-q02",
+              "number": 2,
+              "text": "Are large celebrations better than small ones?"
+            },
+            {
+              "id": "s49-a-q03",
+              "number": 3,
+              "text": "How do celebrations strengthen relationships?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Changing traditions",
+          "questions": [
+            {
+              "id": "s49-b-q01",
+              "number": 1,
+              "text": "Have celebrations become too commercial?"
+            },
+            {
+              "id": "s49-b-q02",
+              "number": 2,
+              "text": "Should traditional celebrations change with society?"
+            },
+            {
+              "id": "s49-b-q03",
+              "number": 3,
+              "text": "How may celebrations be different in the future?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-50",
+      "number": 50,
+      "linked_topic": "A difficult task you completed",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a difficult task that you succeeded in completing.",
+          "bullet_points": [
+            "what the task was",
+            "why it was difficult",
+            "what you did",
+            "and explain how you felt after completing it"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Challenges and success",
+          "questions": [
+            {
+              "id": "s50-a-q01",
+              "number": 1,
+              "text": "Why do difficult tasks sometimes motivate people?"
+            },
+            {
+              "id": "s50-a-q02",
+              "number": 2,
+              "text": "How should people respond to failure?"
+            },
+            {
+              "id": "s50-a-q03",
+              "number": 3,
+              "text": "Is competition necessary for achievement?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Learning resilience",
+          "questions": [
+            {
+              "id": "s50-b-q01",
+              "number": 1,
+              "text": "How can schools help children become resilient?"
+            },
+            {
+              "id": "s50-b-q02",
+              "number": 2,
+              "text": "Do modern workplaces create too much pressure?"
+            },
+            {
+              "id": "s50-b-q03",
+              "number": 3,
+              "text": "Will future generations face different kinds of challenges?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-51",
+      "number": 51,
+      "linked_topic": "A complaint you made",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a time when you made a complaint.",
+          "bullet_points": [
+            "what the problem was",
+            "who you complained to",
+            "what response you received",
+            "and explain whether you were satisfied"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Complaints and service",
+          "questions": [
+            {
+              "id": "s51-a-q01",
+              "number": 1,
+              "text": "Why are some people reluctant to complain?"
+            },
+            {
+              "id": "s51-a-q02",
+              "number": 2,
+              "text": "What is the best way for businesses to handle complaints?"
+            },
+            {
+              "id": "s51-a-q03",
+              "number": 3,
+              "text": "Are customers always right?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Consumer protection",
+          "questions": [
+            {
+              "id": "s51-b-q01",
+              "number": 1,
+              "text": "Should online reviews be trusted?"
+            },
+            {
+              "id": "s51-b-q02",
+              "number": 2,
+              "text": "What role should governments play in protecting consumers?"
+            },
+            {
+              "id": "s51-b-q03",
+              "number": 3,
+              "text": "Will automated customer service improve complaint handling?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-52",
+      "number": 52,
+      "linked_topic": "A time you received good service",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a time when you received very good service.",
+          "bullet_points": [
+            "where it happened",
+            "what service you needed",
+            "what the staff did",
+            "and explain why the experience impressed you"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Good service",
+          "questions": [
+            {
+              "id": "s52-a-q01",
+              "number": 1,
+              "text": "What qualities should customer-service staff have?"
+            },
+            {
+              "id": "s52-a-q02",
+              "number": 2,
+              "text": "Why does service quality vary between businesses?"
+            },
+            {
+              "id": "s52-a-q03",
+              "number": 3,
+              "text": "Do customers value service more than price?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Service industry change",
+          "questions": [
+            {
+              "id": "s52-b-q01",
+              "number": 1,
+              "text": "How has technology changed customer service?"
+            },
+            {
+              "id": "s52-b-q02",
+              "number": 2,
+              "text": "Should service workers receive tips?"
+            },
+            {
+              "id": "s52-b-q03",
+              "number": 3,
+              "text": "Will robots replace many service jobs?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-53",
+      "number": 53,
+      "linked_topic": "A time you lost something",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a time when you lost something important.",
+          "bullet_points": [
+            "what you lost",
+            "where and when it happened",
+            "what you did to find it",
+            "and explain what happened in the end"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Losing possessions",
+          "questions": [
+            {
+              "id": "s53-a-q01",
+              "number": 1,
+              "text": "Why do people become attached to objects?"
+            },
+            {
+              "id": "s53-a-q02",
+              "number": 2,
+              "text": "Are people more careless with inexpensive things?"
+            },
+            {
+              "id": "s53-a-q03",
+              "number": 3,
+              "text": "What should someone do when they find a valuable item?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Property and technology",
+          "questions": [
+            {
+              "id": "s53-b-q01",
+              "number": 1,
+              "text": "Has technology made it easier to recover lost items?"
+            },
+            {
+              "id": "s53-b-q02",
+              "number": 2,
+              "text": "Should public places keep lost property for a long time?"
+            },
+            {
+              "id": "s53-b-q03",
+              "number": 3,
+              "text": "Will physical possessions become less important?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-54",
+      "number": 54,
+      "linked_topic": "A decision with a good result",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a difficult decision you made that had a good result.",
+          "bullet_points": [
+            "what the decision was",
+            "why it was difficult",
+            "how you made it",
+            "and explain what happened afterwards"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Decision-making",
+          "questions": [
+            {
+              "id": "s54-a-q01",
+              "number": 1,
+              "text": "Why do some people find decisions difficult?"
+            },
+            {
+              "id": "s54-a-q02",
+              "number": 2,
+              "text": "Should important decisions be made quickly or slowly?"
+            },
+            {
+              "id": "s54-a-q03",
+              "number": 3,
+              "text": "How much should people rely on advice?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Choices in modern life",
+          "questions": [
+            {
+              "id": "s54-b-q01",
+              "number": 1,
+              "text": "Do people have too many choices today?"
+            },
+            {
+              "id": "s54-b-q02",
+              "number": 2,
+              "text": "How does advertising influence decisions?"
+            },
+            {
+              "id": "s54-b-q03",
+              "number": 3,
+              "text": "Will artificial intelligence make more decisions for people?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-55",
+      "number": 55,
+      "linked_topic": "Some good news",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a piece of good news you heard about someone you know.",
+          "bullet_points": [
+            "who the news was about",
+            "what the news was",
+            "how you heard it",
+            "and explain why it made you happy"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Sharing news",
+          "questions": [
+            {
+              "id": "s55-a-q01",
+              "number": 1,
+              "text": "Why do people enjoy sharing good news?"
+            },
+            {
+              "id": "s55-a-q02",
+              "number": 2,
+              "text": "What kinds of news spread fastest?"
+            },
+            {
+              "id": "s55-a-q03",
+              "number": 3,
+              "text": "Do people react differently to personal and public news?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "News and media",
+          "questions": [
+            {
+              "id": "s55-b-q01",
+              "number": 1,
+              "text": "Why does negative news receive so much attention?"
+            },
+            {
+              "id": "s55-b-q02",
+              "number": 2,
+              "text": "Has social media changed how news spreads?"
+            },
+            {
+              "id": "s55-b-q03",
+              "number": 3,
+              "text": "How can people avoid sharing false information?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-56",
+      "number": 56,
+      "linked_topic": "A time you helped someone",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a time when you helped someone.",
+          "bullet_points": [
+            "who you helped",
+            "why they needed help",
+            "what you did",
+            "and explain how you felt afterwards"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Helping individuals",
+          "questions": [
+            {
+              "id": "s56-a-q01",
+              "number": 1,
+              "text": "Why do people sometimes hesitate to ask for help?"
+            },
+            {
+              "id": "s56-a-q02",
+              "number": 2,
+              "text": "Is helping family different from helping strangers?"
+            },
+            {
+              "id": "s56-a-q03",
+              "number": 3,
+              "text": "Should children be rewarded for helping others?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Social responsibility",
+          "questions": [
+            {
+              "id": "s56-b-q01",
+              "number": 1,
+              "text": "What forms of volunteering are most useful?"
+            },
+            {
+              "id": "s56-b-q02",
+              "number": 2,
+              "text": "Should companies give employees time to volunteer?"
+            },
+            {
+              "id": "s56-b-q03",
+              "number": 3,
+              "text": "Can online volunteering have a real impact?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-57",
+      "number": 57,
+      "linked_topic": "A disagreement",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a disagreement you had with someone.",
+          "bullet_points": [
+            "who you disagreed with",
+            "what it was about",
+            "how the discussion developed",
+            "and explain how it was resolved"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Disagreement",
+          "questions": [
+            {
+              "id": "s57-a-q01",
+              "number": 1,
+              "text": "Why do people find it hard to admit they are wrong?"
+            },
+            {
+              "id": "s57-a-q02",
+              "number": 2,
+              "text": "Can disagreements improve relationships?"
+            },
+            {
+              "id": "s57-a-q03",
+              "number": 3,
+              "text": "What communication skills prevent conflict?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Conflict in society",
+          "questions": [
+            {
+              "id": "s57-b-q01",
+              "number": 1,
+              "text": "Has social media made public disagreement worse?"
+            },
+            {
+              "id": "s57-b-q02",
+              "number": 2,
+              "text": "Should schools teach conflict resolution?"
+            },
+            {
+              "id": "s57-b-q03",
+              "number": 3,
+              "text": "How should leaders handle opposing views?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-58",
+      "number": 58,
+      "linked_topic": "A missed appointment or late arrival",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a time when you were late or missed an appointment.",
+          "bullet_points": [
+            "what the appointment was",
+            "why you were late or missed it",
+            "what you did next",
+            "and explain how you felt"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Time and punctuality",
+          "questions": [
+            {
+              "id": "s58-a-q01",
+              "number": 1,
+              "text": "Why are some people frequently late?"
+            },
+            {
+              "id": "s58-a-q02",
+              "number": 2,
+              "text": "Is punctuality equally important in every culture?"
+            },
+            {
+              "id": "s58-a-q03",
+              "number": 3,
+              "text": "How should people respond when others waste their time?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Modern scheduling",
+          "questions": [
+            {
+              "id": "s58-b-q01",
+              "number": 1,
+              "text": "Has technology made people more punctual?"
+            },
+            {
+              "id": "s58-b-q02",
+              "number": 2,
+              "text": "Why do people feel busier despite time-saving devices?"
+            },
+            {
+              "id": "s58-b-q03",
+              "number": 3,
+              "text": "Will flexible schedules become more common?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-59",
+      "number": 59,
+      "linked_topic": "A memorable trip",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe a trip that you remember well.",
+          "bullet_points": [
+            "where you went",
+            "who you travelled with",
+            "what happened on the trip",
+            "and explain why it was memorable"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Travel experiences",
+          "questions": [
+            {
+              "id": "s59-a-q01",
+              "number": 1,
+              "text": "Why do people remember some trips more than others?"
+            },
+            {
+              "id": "s59-a-q02",
+              "number": 2,
+              "text": "Is travelling with friends better than travelling with family?"
+            },
+            {
+              "id": "s59-a-q03",
+              "number": 3,
+              "text": "What can go wrong when people travel?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Tourism and society",
+          "questions": [
+            {
+              "id": "s59-b-q01",
+              "number": 1,
+              "text": "How does tourism affect local communities?"
+            },
+            {
+              "id": "s59-b-q02",
+              "number": 2,
+              "text": "Should people fly less for environmental reasons?"
+            },
+            {
+              "id": "s59-b-q03",
+              "number": 3,
+              "text": "How may travel change in the future?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "set-60",
+      "number": 60,
+      "linked_topic": "An environmental problem you witnessed",
+      "part2": {
+        "cue_card": {
+          "prompt": "Describe an environmental problem or event you witnessed.",
+          "bullet_points": [
+            "what happened",
+            "where and when it happened",
+            "how people were affected",
+            "and explain what you thought should be done"
+          ]
+        }
+      },
+      "part3_groups": [
+        {
+          "id": "A",
+          "theme": "Environmental awareness",
+          "questions": [
+            {
+              "id": "s60-a-q01",
+              "number": 1,
+              "text": "Why do environmental problems often receive attention only after a crisis?"
+            },
+            {
+              "id": "s60-a-q02",
+              "number": 2,
+              "text": "How can communities prepare for environmental events?"
+            },
+            {
+              "id": "s60-a-q03",
+              "number": 3,
+              "text": "Do people change behavior after witnessing pollution or disasters?"
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "theme": "Long-term environmental action",
+          "questions": [
+            {
+              "id": "s60-b-q01",
+              "number": 1,
+              "text": "Which environmental problems should governments prioritize?"
+            },
+            {
+              "id": "s60-b-q02",
+              "number": 2,
+              "text": "Can economic growth and environmental protection be balanced?"
+            },
+            {
+              "id": "s60-b-q03",
+              "number": 3,
+              "text": "Are you optimistic about the environmental future?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
