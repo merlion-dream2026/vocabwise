@@ -9,6 +9,14 @@ import { saveOfflineProgress } from './offlineStorage'
 export type WeakEntry = { wrong: number; correctStreak: number; lastWrong: string }
 export type HistoryEntry = { words: number; games: number; xp: number; topicIds?: string[]; testsDone?: string[] }
 export type SrsEntry = { interval: number; due: string; ef: number }
+export type SrsLogEntry = {
+  word: string
+  isCorrect: boolean
+  intervalBefore: number
+  intervalAfter: number
+  efBefore: number
+  efAfter: number
+}
 
 export type SyncData = {
   seen?: string[]
@@ -33,7 +41,7 @@ type GameSyncApi = {
   recordFlashcardDone: (level: string, topicId: string) => void
   recordPerfectGame: (level: string, topicId: string, gameKey: string) => void
   recordTestCompleted: (level: string, label: string) => void
-  flush: () => Promise<void>
+  flush: () => Promise<boolean>
 }
 
 function todayKey() { return new Date().toISOString().split('T')[0] }
@@ -70,8 +78,13 @@ function createGameSyncApi(): GameSyncApi {
   let _mastery: Record<string, { flashcard: boolean; games: string[] }> = {}
   let _history: Record<string, HistoryEntry> = {}
   let _srs: Record<string, SrsEntry> = {}
-  // Tracks whether flush() has been called for the current session.
-  // Prevents autoFlushPrevious from sending a duplicate POST after a normal game completion.
+  // Buffer of SRS review events not yet confirmed persisted server-side.
+  // Cleared only after a flush() that the server actually acknowledged (see flush()).
+  let _srsLog: SrsLogEntry[] = []
+  // Tracks whether flush() has been called (and succeeded) for the current session.
+  // Prevents autoFlushPrevious from sending a duplicate POST after a normal game completion,
+  // and — since it's only set true on a confirmed write — lets a failed flush be retried by
+  // the next flush() call, which always resends the full buffered state.
   let _flushed = false
 
   function bumpHistory(field: 'words' | 'games' | 'xp', amount = 1) {
@@ -102,7 +115,7 @@ function createGameSyncApi(): GameSyncApi {
   function autoFlushPrevious(nextChildId: string) {
     if (!_childId || _childId === nextChildId || _flushed) return
     const childId = _childId
-    const payload = { level: _level, seen: _seen, weak_words: _weakWords, streak: _streak, battle: _battle, mastery: _mastery, history: _history, srs: _srs }
+    const payload = { level: _level, seen: _seen, weak_words: _weakWords, streak: _streak, battle: _battle, mastery: _mastery, history: _history, srs: _srs, srs_log: _srsLog }
     if (typeof navigator !== 'undefined' && !navigator.onLine && _topicId) {
       saveOfflineProgress(childId, _level, _topicId, { topicName: _topicName, ...payload })
       return
@@ -190,7 +203,14 @@ function createGameSyncApi(): GameSyncApi {
 
   function recordSrsAnswer(word: string, isCorrect: boolean) {
     const today = new Date().toISOString().split('T')[0]
-    _srs = { ..._srs, [word]: applySrsAnswer(_srs[word], isCorrect, today) }
+    const before = _srs[word] ?? { interval: 1, due: today, ef: 2.5 }
+    const after = applySrsAnswer(before, isCorrect, today)
+    _srs = { ..._srs, [word]: after }
+    _srsLog = [..._srsLog, {
+      word, isCorrect,
+      intervalBefore: before.interval, intervalAfter: after.interval,
+      efBefore: before.ef, efAfter: after.ef,
+    }]
   }
 
   function getSrsDueCount(): number {
@@ -241,23 +261,31 @@ function createGameSyncApi(): GameSyncApi {
     bumpTestLabel(label)
   }
 
-  async function flush() {
-    if (!_childId || !_level) return
-    _flushed = true
+  // Returns whether the state was actually persisted (server-confirmed, or queued
+  // offline). On failure, _flushed stays false and _srsLog is kept, so the next
+  // flush() call — the SRS page calls this after every single answer — resends
+  // the full buffered state and naturally retries.
+  async function flush(): Promise<boolean> {
+    if (!_childId || !_level) return false
 
-    const payload = { level: _level, seen: _seen, weak_words: _weakWords, streak: _streak, battle: _battle, mastery: _mastery, history: _history, srs: _srs }
+    const payload = { level: _level, seen: _seen, weak_words: _weakWords, streak: _streak, battle: _battle, mastery: _mastery, history: _history, srs: _srs, srs_log: _srsLog }
 
     // Offline: queue progress in localStorage for deferred sync
     if (typeof navigator !== 'undefined' && !navigator.onLine && _topicId) {
       saveOfflineProgress(_childId, _level, _topicId, { topicName: _topicName, ...payload })
-      return
+      _flushed = true
+      _srsLog = []
+      return true
     }
 
-    await fetch(`/api/sync/${_childId}`, {
+    const ok = await fetch(`/api/sync/${_childId}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload),
-    }).catch(() => {})
+    }).then(res => res.ok).catch(() => false)
+
+    if (ok) { _flushed = true; _srsLog = [] }
+    return ok
   }
 
   return {

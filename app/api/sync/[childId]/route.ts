@@ -64,7 +64,7 @@ export async function POST(req: NextRequest, { params }: { params: { childId: st
   if (!child) return NextResponse.json({ error: 'Not found' }, { status: 404 })
 
   const body = await req.json().catch(() => ({}))
-  const { level, seen, weak_words, streak, battle, mastery, history, srs } = body
+  const { level, seen, weak_words, streak, battle, mastery, history, srs, srs_log } = body
 
   const activeLevel = level ?? child.level
 
@@ -136,6 +136,25 @@ export async function POST(req: NextRequest, { params }: { params: { childId: st
     .single()
 
   if (error) return NextResponse.json({ error: 'Lỗi hệ thống' }, { status: 500 })
+
+  // Append-only SRS review log — diagnostic only, never blocks the main sync response.
+  type SrsLogEntry = { word: string; isCorrect: boolean; intervalBefore: number; intervalAfter: number; efBefore: number; efAfter: number }
+  if (Array.isArray(srs_log) && srs_log.length > 0) {
+    const rows = (srs_log as SrsLogEntry[]).map(e => ({
+      child_id: params.childId,
+      level: activeLevel,
+      word: e.word,
+      is_correct: e.isCorrect,
+      interval_before: e.intervalBefore,
+      interval_after: e.intervalAfter,
+      ef_before: e.efBefore,
+      ef_after: e.efAfter,
+    }))
+    // Awaited (not fire-and-forget) — Vercel can freeze the function once the response
+    // is sent, which would silently drop an unawaited insert.
+    const { error: logError } = await supabase.from('vocab_srs_log').insert(rows)
+    if (logError) console.error('[sync] vocab_srs_log insert error:', logError)
+  }
 
   // Auto-track last active vocab level on child profile (excludes 'phonics')
   const VOCAB_LEVELS = ['seeker', 'starter', 'ranger', 'explorer', 'scholar', 'master']

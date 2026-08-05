@@ -82,6 +82,8 @@ export type OfflinePendingProgress = {
   history: Record<string, any>
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   srs: Record<string, any>
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  srs_log?: any[]
 }
 
 export function saveOfflineProgress(
