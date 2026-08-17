@@ -84,6 +84,7 @@ export type OfflinePendingProgress = {
   srs: Record<string, any>
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   srs_log?: any[]
+  mastered_words?: string[]
 }
 
 export function saveOfflineProgress(

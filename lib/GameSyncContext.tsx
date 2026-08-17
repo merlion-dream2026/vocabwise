@@ -81,6 +81,9 @@ function createGameSyncApi(): GameSyncApi {
   // Buffer of SRS review events not yet confirmed persisted server-side.
   // Cleared only after a flush() that the server actually acknowledged (see flush()).
   let _srsLog: SrsLogEntry[] = []
+  // Words removed from _weakWords this session because they hit a 3-correct-in-a-row
+  // streak — sent to the server as an explicit deletion instruction (see recordAnswer).
+  const _masteredWords: Set<string> = new Set()
   // Tracks whether flush() has been called (and succeeded) for the current session.
   // Prevents autoFlushPrevious from sending a duplicate POST after a normal game completion,
   // and — since it's only set true on a confirmed write — lets a failed flush be retried by
@@ -115,7 +118,7 @@ function createGameSyncApi(): GameSyncApi {
   function autoFlushPrevious(nextChildId: string) {
     if (!_childId || _childId === nextChildId || _flushed) return
     const childId = _childId
-    const payload = { level: _level, seen: _seen, weak_words: _weakWords, streak: _streak, battle: _battle, mastery: _mastery, history: _history, srs: _srs, srs_log: _srsLog }
+    const payload = { level: _level, seen: _seen, weak_words: _weakWords, streak: _streak, battle: _battle, mastery: _mastery, history: _history, srs: _srs, srs_log: _srsLog, mastered_words: [..._masteredWords] }
     if (typeof navigator !== 'undefined' && !navigator.onLine && _topicId) {
       saveOfflineProgress(childId, _level, _topicId, { topicName: _topicName, ...payload })
       return
@@ -179,6 +182,11 @@ function createGameSyncApi(): GameSyncApi {
           const next = { ..._weakWords }
           delete next[w.word]
           _weakWords = next
+          // Deleting the key client-side isn't enough — the server merges weak_words as
+          // {...current, ...incoming}, which can't tell "never touched" from "removed",
+          // so an omitted key silently survives from `current`. Ship the deletion as an
+          // explicit instruction the server applies before overlaying `incoming`.
+          _masteredWords.add(w.word)
           return true // mastered — removed from weak list
         }
         _weakWords = { ..._weakWords, [w.word]: { ...entry, correctStreak: newStreak } }
@@ -188,6 +196,9 @@ function createGameSyncApi(): GameSyncApi {
         ..._weakWords,
         [w.word]: { wrong: (entry?.wrong ?? 0) + 1, correctStreak: 0, lastWrong: today },
       }
+      // Wrong again after being (about to be) mastered earlier this session — cancel the
+      // pending deletion so a stale "delete" instruction can't clobber this fresh entry.
+      _masteredWords.delete(w.word)
     }
     return false
   }
@@ -268,13 +279,14 @@ function createGameSyncApi(): GameSyncApi {
   async function flush(): Promise<boolean> {
     if (!_childId || !_level) return false
 
-    const payload = { level: _level, seen: _seen, weak_words: _weakWords, streak: _streak, battle: _battle, mastery: _mastery, history: _history, srs: _srs, srs_log: _srsLog }
+    const payload = { level: _level, seen: _seen, weak_words: _weakWords, streak: _streak, battle: _battle, mastery: _mastery, history: _history, srs: _srs, srs_log: _srsLog, mastered_words: [..._masteredWords] }
 
     // Offline: queue progress in localStorage for deferred sync
     if (typeof navigator !== 'undefined' && !navigator.onLine && _topicId) {
       saveOfflineProgress(_childId, _level, _topicId, { topicName: _topicName, ...payload })
       _flushed = true
       _srsLog = []
+      _masteredWords.clear()
       return true
     }
 
@@ -284,7 +296,7 @@ function createGameSyncApi(): GameSyncApi {
       body: JSON.stringify(payload),
     }).then(res => res.ok).catch(() => false)
 
-    if (ok) { _flushed = true; _srsLog = [] }
+    if (ok) { _flushed = true; _srsLog = []; _masteredWords.clear() }
     return ok
   }
 

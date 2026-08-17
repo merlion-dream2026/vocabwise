@@ -64,7 +64,7 @@ export async function POST(req: NextRequest, { params }: { params: { childId: st
   if (!child) return NextResponse.json({ error: 'Not found' }, { status: 404 })
 
   const body = await req.json().catch(() => ({}))
-  const { level, seen, weak_words, streak, battle, mastery, history, srs, srs_log } = body
+  const { level, seen, weak_words, streak, battle, mastery, history, srs, srs_log, mastered_words } = body
 
   const activeLevel = level ?? child.level
 
@@ -72,8 +72,11 @@ export async function POST(req: NextRequest, { params }: { params: { childId: st
   // state can be stale (a failed GET on init, or a replayed offline snapshot), and a
   // blind overwrite would wipe out real progress the server already has. seen/mastery/
   // battle are monotonic (never un-see a word, un-master a topic, or lose XP), so they
-  // union/max; weak_words/srs are last-write-wins per key, which is fine even under a
-  // stale init since they're low-stakes practice state, not completion data.
+  // union/max; srs is last-write-wins per key (never deleted, only rescheduled), which
+  // is fine even under a stale init. weak_words is last-write-wins per key too, EXCEPT
+  // deletions (a word mastered client-side) — those need the explicit mastered_words
+  // list below, since a plain spread merge can't distinguish "omitted because deleted"
+  // from "omitted because never touched".
   const { data: current } = await supabase
     .from('vocab_sync')
     .select('seen, weak_words, streak, battle, mastery, history, srs')
@@ -115,7 +118,17 @@ export async function POST(req: NextRequest, { params }: { params: { childId: st
     : currentStreak
 
   const mergedBattle = { totalAllTime: Math.max(current?.battle?.totalAllTime ?? 0, battle?.totalAllTime ?? 0) }
-  const mergedWeakWords = { ...(current?.weak_words ?? {}), ...(weak_words ?? {}) }
+
+  // weak_words deletions (a word mastered — 3 correct in a row) can't be expressed by a
+  // plain {...current, ...incoming} spread, since an omitted key is indistinguishable
+  // from "never touched" and would silently survive from `current`. Apply explicit
+  // deletions first, then overlay `incoming` — so if the client also sends a fresh entry
+  // for a word it just re-marked wrong (cancelling its own pending deletion), that fresh
+  // entry still wins over the stale delete instruction.
+  const mergedWeakWords: Record<string, unknown> = { ...(current?.weak_words ?? {}) }
+  for (const word of (mastered_words ?? []) as string[]) delete mergedWeakWords[word]
+  Object.assign(mergedWeakWords, weak_words ?? {})
+
   const mergedSrs = { ...(current?.srs ?? {}), ...(srs ?? {}) }
 
   const { data, error } = await supabase
