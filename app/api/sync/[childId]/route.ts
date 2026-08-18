@@ -34,11 +34,14 @@ export async function GET(req: NextRequest, { params }: { params: { childId: str
   if (level) {
     const { data } = await supabase
       .from('vocab_sync')
-      .select('seen, weak_words, streak, battle, mastery, history, srs, reset_at, revision_scores')
+      .select('seen, weak_words, streak, battle, mastery, history, srs, reset_at, revision_scores, sound_acc, last_reviewed, badges')
       .eq('child_id', params.childId)
       .eq('level', level)
       .single()
-    return NextResponse.json(data ?? null, { headers: cacheHeaders })
+    if (!data) return NextResponse.json(null, { headers: cacheHeaders })
+    // sound_acc/last_reviewed are DB snake_case; lib/phonicsSync.ts reads soundAcc/lastReviewed.
+    const { sound_acc, last_reviewed, ...rest } = data
+    return NextResponse.json({ ...rest, soundAcc: sound_acc, lastReviewed: last_reviewed }, { headers: cacheHeaders })
   }
 
   // No level param → return all levels as { [level]: syncData }
@@ -64,7 +67,10 @@ export async function POST(req: NextRequest, { params }: { params: { childId: st
   if (!child) return NextResponse.json({ error: 'Not found' }, { status: 404 })
 
   const body = await req.json().catch(() => ({}))
-  const { level, seen, weak_words, streak, battle, mastery, history, srs, srs_log, mastered_words } = body
+  const {
+    level, seen, weak_words, streak, battle, mastery, history, srs, srs_log, mastered_words,
+    soundAcc, lastReviewed, badges,
+  } = body
 
   const activeLevel = level ?? child.level
 
@@ -76,10 +82,11 @@ export async function POST(req: NextRequest, { params }: { params: { childId: st
   // is fine even under a stale init. weak_words is last-write-wins per key too, EXCEPT
   // deletions (a word mastered client-side) — those need the explicit mastered_words
   // list below, since a plain spread merge can't distinguish "omitted because deleted"
-  // from "omitted because never touched".
+  // from "omitted because never touched". soundAcc/lastReviewed (Phonics) are last-write-
+  // wins per key like srs; badges union like seen — none of the three are ever deleted.
   const { data: current } = await supabase
     .from('vocab_sync')
-    .select('seen, weak_words, streak, battle, mastery, history, srs')
+    .select('seen, weak_words, streak, battle, mastery, history, srs, sound_acc, last_reviewed, badges')
     .eq('child_id', params.childId)
     .eq('level', activeLevel)
     .single()
@@ -131,6 +138,11 @@ export async function POST(req: NextRequest, { params }: { params: { childId: st
 
   const mergedSrs = { ...(current?.srs ?? {}), ...(srs ?? {}) }
 
+  // Phonics-only fields — pass through untouched for every other level (no-op merge).
+  const mergedSoundAcc = { ...(current?.sound_acc ?? {}), ...(soundAcc ?? {}) }
+  const mergedLastReviewed = { ...(current?.last_reviewed ?? {}), ...(lastReviewed ?? {}) }
+  const mergedBadges = Array.from(new Set([...(current?.badges ?? []), ...(badges ?? [])]))
+
   const { data, error } = await supabase
     .from('vocab_sync')
     .upsert({
@@ -143,6 +155,9 @@ export async function POST(req: NextRequest, { params }: { params: { childId: st
       mastery: mergedMastery,
       history: mergedHistory,
       srs: mergedSrs,
+      sound_acc: mergedSoundAcc,
+      last_reviewed: mergedLastReviewed,
+      badges: mergedBadges,
       updated_at: new Date().toISOString(),
     }, { onConflict: 'child_id,level' })
     .select('seen, weak_words, streak, battle, mastery, history, srs, reset_at')

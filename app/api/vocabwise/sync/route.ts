@@ -59,6 +59,10 @@ export async function GET(req: NextRequest) {
   return NextResponse.json({ mastery: {}, srs: {}, history: {}, revision_scores: {} }, CACHE)
 }
 
+type TopicSync = { read?: boolean; completed?: boolean; mastered?: boolean; ex_scores?: Record<string, number> }
+type SrsEntry = { due: string; interval: number }
+type HistoryEntry = { topics?: number; xp?: number; games?: number; words?: number; topicIds?: string[]; testsDone?: string[] }
+
 // POST /api/vocabwise/sync — save academic mastery/srs/history
 export async function POST(req: NextRequest) {
   const session = await getSession(req)
@@ -67,10 +71,54 @@ export async function POST(req: NextRequest) {
   const body = await req.json().catch(() => ({}))
   const { mastery, srs, history } = body
 
+  // Every page (TopicViewer, review queue, module-test, revision test) fetches this
+  // family's full mastery/srs/history ONCE on mount, then POSTs that whole snapshot
+  // back on every topic/test completion. A blind overwrite here means whichever POST
+  // lands last wins outright — if two tabs/devices are progressing different topics,
+  // the second POST's stale snapshot erases the first tab's completion. Merge instead,
+  // matching the read-current pattern used by /api/sync/[childId].
+  const { data: current } = await supabase
+    .from('vw_academic_sync')
+    .select('mastery, srs, history')
+    .eq('family_id', session.familyId)
+    .single()
+
+  const mergedMastery: Record<string, TopicSync> = { ...(current?.mastery ?? {}) }
+  for (const [topicId, incoming] of Object.entries(mastery ?? {}) as [string, TopicSync][]) {
+    const existing = mergedMastery[topicId]
+    const mergedExScores: Record<string, number> = { ...(existing?.ex_scores ?? {}) }
+    for (const [exType, score] of Object.entries(incoming.ex_scores ?? {})) {
+      mergedExScores[exType] = Math.max(mergedExScores[exType] ?? 0, score)
+    }
+    mergedMastery[topicId] = {
+      read: (existing?.read ?? false) || !!incoming.read,
+      completed: (existing?.completed ?? false) || !!incoming.completed,
+      mastered: (existing?.mastered ?? false) || !!incoming.mastered,
+      ex_scores: mergedExScores,
+    }
+  }
+
+  // srs is last-write-wins per topicId — never deleted, only rescheduled, so a stale
+  // snapshot can't resurrect anything here the way weak_words deletions could.
+  const mergedSrs: Record<string, SrsEntry> = { ...(current?.srs ?? {}), ...(srs ?? {}) }
+
+  const mergedHistory: Record<string, HistoryEntry> = { ...(current?.history ?? {}) }
+  for (const [date, incoming] of Object.entries(history ?? {}) as [string, HistoryEntry][]) {
+    const existing = mergedHistory[date]
+    mergedHistory[date] = {
+      topics: Math.max(existing?.topics ?? 0, incoming.topics ?? 0),
+      xp: Math.max(existing?.xp ?? 0, incoming.xp ?? 0),
+      games: Math.max(existing?.games ?? 0, incoming.games ?? 0),
+      words: Math.max(existing?.words ?? 0, incoming.words ?? 0),
+      topicIds: Array.from(new Set([...(existing?.topicIds ?? []), ...(incoming.topicIds ?? [])])),
+      testsDone: Array.from(new Set([...(existing?.testsDone ?? []), ...(incoming.testsDone ?? [])])),
+    }
+  }
+
   const { data, error } = await supabase
     .from('vw_academic_sync')
     .upsert(
-      { family_id: session.familyId, mastery: mastery ?? {}, srs: srs ?? {}, history: history ?? {}, updated_at: new Date().toISOString() },
+      { family_id: session.familyId, mastery: mergedMastery, srs: mergedSrs, history: mergedHistory, updated_at: new Date().toISOString() },
       { onConflict: 'family_id' }
     )
     .select('mastery, srs, history, revision_scores')

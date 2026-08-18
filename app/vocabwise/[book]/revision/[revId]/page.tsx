@@ -388,8 +388,9 @@ export default function RevisionPage() {
   const [match2Score, setMatch2Score] = useState(0)
 
   // Academic progress lives in family-level vw_academic_sync (mastery/srs/history), separate
-  // from the revision_scores PATCH below — must round-trip mastery/srs unchanged so the POST
-  // in saveScore doesn't clobber them.
+  // from the revision_scores PATCH below. POST /api/vocabwise/sync merges with the server's
+  // current state (topicId/date keyed, monotonic), so this snapshot doesn't need to be fresh
+  // to avoid clobbering — it's just the delta this test contributes.
   const [savedMastery, setSavedMastery] = useState<Record<string, unknown>>({})
   const [savedSrs, setSavedSrs] = useState<Record<string, unknown>>({})
   const [savedHistory, setSavedHistory] = useState<Record<string, HistoryEntry>>({})

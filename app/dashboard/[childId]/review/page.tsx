@@ -7,10 +7,14 @@ import { useGameSync, type WeakEntry } from '@/lib/GameSyncContext'
 import type { ReviewWord } from '@/components/ReviewSession'
 import { cachedFetch } from '@/lib/cachedFetch'
 import GameSoundToggle from '@/components/GameSoundToggle'
+import { loadOfflineProgress, clearOfflineProgress } from '@/lib/offlineStorage'
 
 const ReviewSession = dynamic(() => import('@/components/ReviewSession'), { ssr: false })
 
 const MAX_REVIEW = 15
+// Pseudo topic id — namespaces this page's offline-queue keys so they don't collide
+// with real topic pages (which key by actual topicId).
+const REVIEW_TOPIC_ID = 'review'
 
 type Child = { id: string; name: string; emoji: string; level: string }
 
@@ -67,7 +71,24 @@ export default function ReviewPage() {
       fetch(`/api/sync/${childId}?level=${level}`).then(r => r.json()).catch(() => null),
       fetch(`/api/words/${level}/topics`).then(r => r.json()).then(topics => ({ topics })).catch(() => null),
     ])
-    initGameSync(childId, level, syncData)
+
+    // Recover any answers queued offline (network dropped mid-round) before this
+    // same page got a chance to flush — merge them in before building the round.
+    let effectiveSync = syncData
+    const pending = loadOfflineProgress(childId, level, REVIEW_TOPIC_ID)
+    if (pending) {
+      const res = await fetch(`/api/sync/${childId}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(pending),
+      }).catch(() => null)
+      if (res?.ok) {
+        clearOfflineProgress(childId, level, REVIEW_TOPIC_ID)
+        effectiveSync = await res.json().catch(() => syncData)
+      }
+    }
+
+    initGameSync(childId, level, effectiveSync, REVIEW_TOPIC_ID, 'Ôn Từ Yếu')
     setReviewWords(buildReviewWords(levelData, getWeakWords()))
     setLoading(false)
   }, [childId, router, searchParams, initGameSync, getWeakWords])

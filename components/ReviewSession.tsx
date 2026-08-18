@@ -126,6 +126,7 @@ export default function ReviewSession({ words, level, backUrl, onSessionDone }: 
     const isCorrect = word.trim().toLowerCase() === current.entry.word.trim().toLowerCase()
     if (isCorrect) playCorrectSound(); else playWrongSound()
     const mastered_ = recordReviewAnswer(current.entry.word, isCorrect)
+    flush() // write-through: don't wait for the whole round to persist this answer
 
     let newStreak = streaks[current.entry.word] ?? 0
     if (isCorrect) {
