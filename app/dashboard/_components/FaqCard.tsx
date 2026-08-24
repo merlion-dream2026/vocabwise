@@ -136,7 +136,7 @@ const FAQ_ITEMS = [
     items: [
       {
         q: 'Pro 1 tháng, 3 tháng và 6 tháng khác nhau thế nào?',
-        a: 'Tất cả gói Pro đều có đầy đủ:\n✅ 📚 Daily: 180 chủ đề · 2.400+ từ vựng (6 levels)\n✅ 🎓 Academic: 3 books · 180 chủ đề học thuật (A1–C2)\n✅ 10 trò chơi/chủ đề · Mini Story audio\n✅ Module phát âm IPA đầy đủ\n✅ ⭐ Từ của tôi không giới hạn (Free chỉ lưu 20 từ)\n✅ SRS ôn tập từ yếu không giới hạn · Push notification nhắc học\n✅ Dashboard phụ huynh · Không giới hạn thiết bị\n\nĐiểm khác biệt:\n• Pro 1 tháng (59k): 2 hồ sơ bé · AI phát âm 30 lần/ngày · Báo cáo email thủ công\n• Pro 3 tháng (53k/th): 3 hồ sơ bé · AI không giới hạn · Module Word Stress · Báo cáo tự động hàng tuần\n• Pro 6 tháng (50k/th): Tất cả như 3 tháng + 🎁 Tặng bạn bè 14 ngày Pro + 📅 Email tổng kết học hàng tháng',
+        a: 'Tất cả gói Pro đều có đầy đủ:\n✅ 📚 Daily: 180 chủ đề · 2.400+ từ vựng (6 levels)\n✅ 🎓 Academic: 3 books · 180 chủ đề học thuật (A1–C2)\n✅ 10 trò chơi/chủ đề · Mini Story audio\n✅ Module phát âm IPA đầy đủ\n✅ ⭐ Từ của tôi không giới hạn (Free chỉ lưu 20 từ)\n✅ SRS ôn tập từ yếu không giới hạn · Push notification nhắc học\n✅ Dashboard phụ huynh · Không giới hạn thiết bị\n\nĐiểm khác biệt:\n• Pro 1 tháng (59k): 2 hồ sơ bé · AI phát âm 40 lần/ngày · Giải nghĩa & gợi ý AI 40 lần/ngày · Báo cáo email thủ công\n• Pro 3 tháng (53k/th): 3 hồ sơ bé · AI phát âm không giới hạn · Giải nghĩa & gợi ý AI không giới hạn · Module Word Stress · Báo cáo tự động hàng tuần\n• Pro 6 tháng (50k/th): Tất cả như 3 tháng + 🎁 Tặng bạn bè 14 ngày Pro + 📅 Email tổng kết học hàng tháng',
       },
       {
         q: 'Module Word Stress là gì? (Pro 3 tháng trở lên)',

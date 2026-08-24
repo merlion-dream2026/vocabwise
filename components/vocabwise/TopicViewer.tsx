@@ -278,7 +278,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
       const res = await fetch('/api/vocabwise/explain', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ word, pos: item.pos ?? '', meaning_vi: item.meaning_vi, example_en: item.example_en }),
+        body: JSON.stringify({ word, pos: item.pos ?? '', meaning_vi: item.meaning_vi, example_en: item.example_en, topic_id: topicId }),
       })
       const d = await res.json()
       if (d.explanation) setExplanations(prev => ({ ...prev, [word]: d.explanation }))

@@ -22,7 +22,7 @@ export default function HintButton({ exerciseType, question, options, baseWord }
         body: JSON.stringify({ exerciseType, question, options, baseWord }),
       })
       const d = await res.json()
-      setHint(d.hint ?? 'Không có gợi ý.')
+      setHint(d.hint ?? d.error ?? 'Không có gợi ý.')
     } catch {
       setHint('Không thể tải gợi ý. Thử lại sau.')
     } finally {

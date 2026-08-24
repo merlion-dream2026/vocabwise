@@ -117,8 +117,8 @@ export async function checkAndIncrementAISpeakUsage(familyId: string, limit: num
 // ── AI text-helper daily usage (explain/hint/grammar-note/writing-check/generate-exercises) ──
 const aiTextStore = new Map<string, { count: number; resetAt: number }>()
 
-/** Shared daily cap across all AI text-helper endpoints per family. Prevents cost-abuse spam. */
-export async function checkAndIncrementAITextUsage(familyId: string, limit = 100): Promise<boolean> {
+/** Shared daily cap across all AI text-helper endpoints per family. `limit` comes from getAITextLimit() per plan tier. */
+export async function checkAndIncrementAITextUsage(familyId: string, limit: number): Promise<boolean> {
   const date = new Date().toISOString().split('T')[0]
   const key = `vw:ai-text:${familyId}:${date}`
   if (redis) {

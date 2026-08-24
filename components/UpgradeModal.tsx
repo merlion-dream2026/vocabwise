@@ -8,9 +8,9 @@ const PLANS = [
 ]
 
 const PLAN_EXTRAS: Record<string, string[]> = {
-  '1month':  ['✅ 2 hồ sơ bé', '✅ AI phát âm 30 lần/ngày', '✅ Push notification nhắc học', '✅ Báo cáo email thủ công'],
-  '3months': ['✅ 3 hồ sơ bé', '✅ AI phát âm không giới hạn', '✅ Module Word Stress', '✅ Báo cáo email tự động hàng tuần'],
-  '6months': ['✅ 3 hồ sơ bé', '✅ AI phát âm không giới hạn', '✅ Module Word Stress', '✅ Báo cáo tự động hàng tuần', '🎁 Tặng bạn bè 14 ngày Pro (1 lần)', '📅 Email tổng kết học tập hàng tháng'],
+  '1month':  ['✅ 2 hồ sơ bé', '✅ AI phát âm 40 lần/ngày', '✅ Giải nghĩa & gợi ý AI 40 lần/ngày', '✅ Push notification nhắc học', '✅ Báo cáo email thủ công'],
+  '3months': ['✅ 3 hồ sơ bé', '✅ AI phát âm không giới hạn', '✅ Giải nghĩa & gợi ý AI không giới hạn', '✅ Module Word Stress', '✅ Báo cáo email tự động hàng tuần'],
+  '6months': ['✅ 3 hồ sơ bé', '✅ AI phát âm không giới hạn', '✅ Giải nghĩa & gợi ý AI không giới hạn', '✅ Module Word Stress', '✅ Báo cáo tự động hàng tuần', '🎁 Tặng bạn bè 14 ngày Pro (1 lần)', '📅 Email tổng kết học tập hàng tháng'],
 }
 
 const BANK_INFO = {
@@ -91,7 +91,8 @@ export default function UpgradeModal({ onClose, username }: Props) {
                   ['Trọng âm từ',        '❌',      '❌',       '✅',    '✅' ],
                   ['Từ của tôi ⭐',      '20 từ',   '✅',       '✅',    '✅' ],
                   ['Ôn SRS từ yếu',      '20 từ',   '✅',       '✅',    '✅' ],
-                  ['Luyện phát âm AI',   '5/ngày',  '30/ngày',  '∞',    '∞'  ],
+                  ['Luyện phát âm AI',   '10/ngày', '40/ngày',  '∞',    '∞'  ],
+                  ['Giải nghĩa & gợi ý AI', '10/ngày', '40/ngày', '∞',   '∞'  ],
                   ['Nhắc học (Push)',     '❌',      '✅',       '✅',    '✅' ],
                   ['Báo cáo email',       '❌',      'Thủ công', 'Auto', 'Auto'],
                   ['Tổng kết tháng',     '❌',      '❌',       '❌',    '✅' ],

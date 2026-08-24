@@ -181,6 +181,22 @@ export function getAISpeakLimit(family: FamilyPlanData): number | null {
 }
 
 /**
+ * AI text-helper daily limit — shared pool across Giải nghĩa (explain) / Hint / Grammar Note /
+ * Generate Exercises. null = unlimited (Pro 3+ hoặc bonus grant), 40 (Pro 1), 10 (Trial), 0 (Free hết trial).
+ * Mirrors getAISpeakLimit's tiering — these text calls are cheaper per-call than AI Speak's audio
+ * transcription, but kept on the same tier shape for consistency until usage data says otherwise.
+ */
+export function getAITextLimit(family: FamilyPlanData): number | null {
+  if (family.bonus_features?.includes('ai_text_unlimited')) return null
+  const { isProActive, isTrialActive } = getEffectivePlan(family)
+  if (isProActive) {
+    const tier = getPlanTier(family)
+    return tier === 'pro1' ? 40 : null
+  }
+  return isTrialActive ? 10 : 0
+}
+
+/**
  * IELTS Speaking Coach (bottom-nav tab "AI Speak" — distinct feature from the pronunciation-check
  * "AI Speak" quota above, unfortunate naming overlap) daily limit for both evaluate and transcribe.
  * null = unlimited (any Pro tier or bonus grant), 5 = trial nếm thử, 0 = Free hết trial / chưa có gói.

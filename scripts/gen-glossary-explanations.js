@@ -5,11 +5,11 @@
 // Usage:
 //   node scripts/gen-glossary-explanations.js           → all books (8b)
 //   node scripts/gen-glossary-explanations.js --book 1  → Book 1 only
-//   node scripts/gen-glossary-explanations.js --book 3 --model 70b → Book 3 with 70b
+//   node scripts/gen-glossary-explanations.js --book 3 --model 70b → Book 3 with bigger model
 //   node scripts/gen-glossary-explanations.js --dry-run → preview count only
 //
-// --model 8b  → llama-3.1-8b-instant  (500k TPD) [default]
-// --model 70b → llama-3.3-70b-versatile (100k TPD) — Book 3 needs 2 days
+// --model 8b  → llama-3.1-8b-instant (500k TPD) [default]
+// --model 70b → openai/gpt-oss-120b  (200k TPD) — Book 3 needs ~1 day
 //
 // Requires env: NEXT_PUBLIC_SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, GROQ_API_KEY
 // ═══════════════════════════════════════════════════════════════════════════
@@ -36,10 +36,10 @@ const modelArg  = args.includes('--model') ? args[args.indexOf('--model') + 1] :
 const dryRun    = args.includes('--dry-run')
 const force     = args.includes('--force')  // overwrite existing entries
 
-const MODEL_ID  = modelArg === '70b' ? 'llama-3.3-70b-versatile'
+const MODEL_ID  = modelArg === '70b' ? 'openai/gpt-oss-120b'
                 : modelArg === 'cerebras' ? 'gpt-oss-120b'
                 : 'llama-3.1-8b-instant'
-const MODEL_TPD = modelArg === '70b' ? 100_000 : modelArg === 'cerebras' ? 1_000_000 : 500_000
+const MODEL_TPD = modelArg === '70b' ? 200_000 : modelArg === 'cerebras' ? 1_000_000 : 500_000
 const API_BASE  = modelArg === 'cerebras' ? 'https://api.cerebras.ai/v1' : 'https://api.groq.com/openai/v1'
 const API_KEY   = modelArg === 'cerebras' ? process.env.CEREBRAS_API_KEY : GROQ_API_KEY
 const DELAY_MS  = 2200  // ~27 RPM, safely under 30 RPM limit

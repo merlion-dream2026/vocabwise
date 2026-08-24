@@ -89,8 +89,16 @@ async function main() {
     }
   }
 
-  // Filter out already-generated
-  const { data: existing } = await supabase.from('kids_explanations').select('word')
+  // Filter out already-generated. This project's PostgREST db.max_rows is capped at 1000
+  // per request — kids_explanations already exceeds that, so a single select() silently
+  // truncates. Paginate with .range() until a page comes back short.
+  const existing = []
+  for (let page = 0; ; page++) {
+    const { data: batch } = await supabase.from('kids_explanations').select('word').range(page * 1000, page * 1000 + 999)
+    if (!batch || batch.length === 0) break
+    existing.push(...batch)
+    if (batch.length < 1000) break
+  }
   const done = new Set((existing ?? []).map(r => r.word))
   const pending = [...wordMap.values()].filter(w => !done.has(w.word.toLowerCase()))
 

@@ -30,14 +30,15 @@ export default function PracticeMore({ glossary, topicTitle, cefr }: Props) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ glossary, topicTitle, cefr }),
       })
-      if (!res.ok) throw new Error('error')
       const d = await res.json()
+      if (!res.ok) throw new Error(d.error || 'error')
       if (!d.items?.length) throw new Error('empty')
       setItems(d.items)
       setRound(r => r + 1)
       setStatus('running')
-    } catch {
-      setError('Không thể tạo bài tập. Thử lại sau.')
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : ''
+      setError(msg === 'error' || msg === 'empty' || !msg ? 'Không thể tạo bài tập. Thử lại sau.' : msg)
       setStatus('idle')
     }
   }

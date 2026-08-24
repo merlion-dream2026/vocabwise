@@ -41,12 +41,13 @@ Trial 7 ngày **không** phải reverse-trial toàn phần — chỉ mở đúng
 | SRS ôn từ yếu | 20 từ | 20 từ | ✅ ∞ | ✅ ∞ | ✅ ∞ |
 | Offline download | 0 | 0 | 20 topic | ∞ | ∞ |
 | AI Speak | 10/ngày | 0 | 40/ngày | ∞ | ∞ |
+| AI text-helper (explain/hint/grammar-note/generate-exercises, 1 pool chung) | 10/ngày | 0 | 40/ngày | ∞ | ∞ |
 | Push notification | ❌ | ❌ | ✅ | ✅ | ✅ |
 | Email report | ❌ | ❌ | Thủ công | Auto tuần | Auto tuần |
 | Monthly recap | ❌ | ❌ | ❌ | ❌ | ✅ |
 | Gift Pro 14 ngày | ❌ | ❌ | ❌ | ❌ | ✅ |
 
-Gate helpers (`lib/planUtils.ts`): `getPlanTier()`, `getEffectivePlan()`, `canAccessPhonicsLesson()`, `canAccessWordStress()`, `getMyWordsLimit()`, `getSRSLimit()`, `getKidsTopicLimit()`, `getAcademicTopicLimit()`, `getRevisionLimit()`, `getOfflineDownloadLimit()`, `getAISpeakLimit()`. ⚠️ `canAccessMyWords()`/`canAccessSRS()` luôn `true` — limit thật nằm ở `getMyWordsLimit()`/`getSRSLimit()`, tên hàm dễ gây hiểu lầm.
+Gate helpers (`lib/planUtils.ts`): `getPlanTier()`, `getEffectivePlan()`, `canAccessPhonicsLesson()`, `canAccessWordStress()`, `getMyWordsLimit()`, `getSRSLimit()`, `getKidsTopicLimit()`, `getAcademicTopicLimit()`, `getRevisionLimit()`, `getOfflineDownloadLimit()`, `getAISpeakLimit()`, `getAITextLimit()`. ⚠️ `canAccessMyWords()`/`canAccessSRS()` luôn `true` — limit thật nằm ở `getMyWordsLimit()`/`getSRSLimit()`, tên hàm dễ gây hiểu lầm.
 
 Mọi route content-serving đều gate ở server bằng data DB tươi (`getFamilyProfile()`/Supabase query trực tiếp) — **không** dựa vào `session.plan` từ JWT (cookie sống 30 ngày, có thể stale qua ngày hết hạn paid plan) và không dựa riêng vào UI ẩn. `report/settings`/`cron/monthly-recap` đã dùng `getPlanTier()` đúng chuẩn (không còn hardcode `plan==='6months'`).
 
@@ -105,11 +106,12 @@ NEXT_PUBLIC_SUPABASE_URL  NEXT_PUBLIC_SUPABASE_ANON_KEY  SUPABASE_SERVICE_ROLE_K
 JWT_SECRET  GMAIL_USER  GMAIL_APP_PASSWORD
 OPENAI_API_KEY  GROQ_API_KEY  CEREBRAS_API_KEY  NEXT_PUBLIC_APP_URL
 ```
-AI text-helper fallback chain (`lib/aiChat.ts`, dùng bởi explain/hint/grammar-note/writing-check/generate-exercises): Groq → Cerebras, tự động rớt sang provider kế nếu fail/rate-limit.
+AI text-helper fallback chain (`lib/aiChat.ts`, dùng bởi explain/hint/grammar-note/writing-check/generate-exercises): Groq → Cerebras, tự động rớt sang provider kế nếu fail/rate-limit. explain/hint/grammar-note/generate-exercises dùng chung 1 quota/ngày theo `getAITextLimit()` (xem bảng Feature Gating); writing-check có quota riêng 40/ngày (`checkAndIncrementWritingCheckUsage`, chưa theo plan tier).
 
 ## Scripts & Assets
 - **Audio:** `public/audio/stories/[level].[topic-id].mp3` — Kids mini story
 - **Print:** `node scripts/gen-docx.js [book1|book2|book3|all] [topic-id]` → DOCX · colors: emerald/blue/purple
 
 ---
+*Cập nhật: 24/08/2026 — thêm gating theo plan tier cho AI text-helper (`getAITextLimit()`: 0 free/10 trial/40 pro1/∞ pro3+, thay default cứng 100/ngày trước đây); fix Academic "Giải nghĩa" không cache AI result vào `vw_glossary.explanation_vi`; đồng bộ số liệu AI Speak (30→40 lần/ngày Pro 1T, 5→10/ngày trial) trên landing/FAQ/UpgradeModal — trước đó lệch với `getAISpeakLimit()` thực tế trong code.*
 *Cập nhật: 18/07/2026 — siết gating server-side toàn diện (trial 3-mục-preview, revision test, Level/Module Test Pro-only, Phonics/Word Stress chuyển sang API có gate). Audit bảo mật/tính năng/nội dung/kiến trúc trước đó ngày 09/07, chi tiết trong memory `project_security_critical_2026_07`.*

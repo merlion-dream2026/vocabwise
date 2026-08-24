@@ -35,7 +35,7 @@ const detectOnly = args.includes('--detect-only')
 const dryRun     = args.includes('--dry-run')
 const DELAY_MS   = 2200
 
-const MODEL_ID = modelArg === '70b' ? 'llama-3.3-70b-versatile' : 'llama-3.1-8b-instant'
+const MODEL_ID = modelArg === '70b' ? 'openai/gpt-oss-120b' : 'llama-3.1-8b-instant'
 
 if (!bookArg) { console.error('Usage: --book 1|2|3 [--model 8b|70b]'); process.exit(1) }
 

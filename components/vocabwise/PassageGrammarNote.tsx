@@ -47,7 +47,7 @@ export default function PassageGrammarNote({ textEn, textVi, showVI, cefr }: Pro
         body: JSON.stringify({ sentence: clean, cefr }),
       })
       const d = await res.json()
-      if (d.note) setNotes(prev => ({ ...prev, [clean]: d.note }))
+      if (d.note || d.error) setNotes(prev => ({ ...prev, [clean]: d.note ?? d.error }))
     } catch {
       setNotes(prev => ({ ...prev, [clean]: 'Không thể phân tích. Thử lại sau.' }))
     } finally {

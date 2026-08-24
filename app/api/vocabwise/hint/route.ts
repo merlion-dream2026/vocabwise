@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getSession } from '@/lib/auth'
+import { getFamilyProfile } from '@/lib/security'
+import { getAITextLimit } from '@/lib/planUtils'
 import { checkAndIncrementAITextUsage } from '@/lib/rateLimit'
 import { aiChat } from '@/lib/aiChat'
 
@@ -7,8 +9,12 @@ export async function POST(req: NextRequest) {
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
-  if (!(await checkAndIncrementAITextUsage(session.familyId))) {
-    return NextResponse.json({ error: 'Đã đạt giới hạn dùng AI hôm nay. Vui lòng thử lại vào ngày mai.' }, { status: 429 })
+  if (session.familyId !== 'superadmin') {
+    const profile = await getFamilyProfile(session.familyId)
+    const aiLimit = profile ? getAITextLimit(profile) : 0
+    if (aiLimit !== null && !(await checkAndIncrementAITextUsage(session.familyId, aiLimit))) {
+      return NextResponse.json({ error: 'Đã đạt giới hạn dùng AI hôm nay. Vui lòng thử lại vào ngày mai.' }, { status: 429 })
+    }
   }
 
   const { exerciseType, question, options, baseWord } = await req.json()

@@ -114,7 +114,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Các gói Pro 1 tháng, 3 tháng và 6 tháng khác nhau thế nào?',
-    a: 'Tất cả gói Pro đều có:\n📚 Daily: 180 chủ đề · 2.400+ từ · 10 trò chơi/chủ đề\n🎓 Academic: 3 books · 180 chủ đề học thuật (A1–C2)\n🔤 Phonics IPA đầy đủ · ⭐ Từ của tôi không giới hạn · SRS ôn từ yếu không giới hạn · Push notification nhắc học.\n\nSự khác biệt:\n• Pro 1 tháng (59k): 2 hồ sơ bé · AI Speak 30 lần/ngày\n• Pro 3 tháng (53k/th): 3 hồ sơ bé · AI Speak không giới hạn · Module Word Stress · Báo cáo email tự động hàng tuần\n• Pro 6 tháng (50k/th): Tất cả như 3 tháng + 🎁 Tặng bạn bè 14 ngày Pro + 📅 Email tổng kết học tập hàng tháng',
+    a: 'Tất cả gói Pro đều có:\n📚 Daily: 180 chủ đề · 2.400+ từ · 10 trò chơi/chủ đề\n🎓 Academic: 3 books · 180 chủ đề học thuật (A1–C2)\n🔤 Phonics IPA đầy đủ · ⭐ Từ của tôi không giới hạn · SRS ôn từ yếu không giới hạn · Push notification nhắc học.\n\nSự khác biệt:\n• Pro 1 tháng (59k): 2 hồ sơ bé · AI Speak 40 lần/ngày · Giải nghĩa & gợi ý AI 40 lần/ngày\n• Pro 3 tháng (53k/th): 3 hồ sơ bé · AI Speak không giới hạn · Giải nghĩa & gợi ý AI không giới hạn · Module Word Stress · Báo cáo email tự động hàng tuần\n• Pro 6 tháng (50k/th): Tất cả như 3 tháng + 🎁 Tặng bạn bè 14 ngày Pro + 📅 Email tổng kết học tập hàng tháng',
   },
 ]
 
@@ -281,7 +281,8 @@ export default function LandingPage() {
             <ul className="text-xs md:text-sm lg:text-base text-gray-500 space-y-1.5 flex-1 leading-snug">
               <li>✅ <strong>2 bé</strong></li>
               <li>✅ 5.100+ từ vựng</li>
-              <li>✅ AI phát âm <span className="text-gray-500">30 lần/ngày</span></li>
+              <li>✅ AI phát âm <span className="text-gray-500">40 lần/ngày</span></li>
+              <li>✅ Giải nghĩa & gợi ý AI <span className="text-gray-500">40 lần/ngày</span></li>
               <li>✅ Push notification</li>
               <li>✅ Báo cáo email thủ công</li>
             </ul>
@@ -301,6 +302,7 @@ export default function LandingPage() {
             <ul className="text-xs md:text-sm lg:text-base text-white/90 space-y-1.5 flex-1 leading-snug">
               <li>✅ <strong>3 bé</strong></li>
               <li>✅ AI phát âm <span className="text-white/70">không giới hạn</span></li>
+              <li>✅ Giải nghĩa & gợi ý AI <span className="text-white/70">không giới hạn</span></li>
               <li>✅ Module Word Stress</li>
               <li>✅ Báo cáo email <span className="text-white/70">tự động hàng tuần</span></li>
             </ul>
@@ -320,6 +322,7 @@ export default function LandingPage() {
             <ul className="text-xs md:text-sm lg:text-base text-white/90 space-y-1.5 flex-1 leading-snug">
               <li>✅ <strong>3 bé</strong></li>
               <li>✅ AI phát âm <span className="text-white/70">không giới hạn</span></li>
+              <li>✅ Giải nghĩa & gợi ý AI <span className="text-white/70">không giới hạn</span></li>
               <li>🎁 Tặng bạn bè <span className="text-white/70">14 ngày Pro</span></li>
               <li>📅 Tổng kết học <span className="text-white/70">hàng tháng</span></li>
             </ul>

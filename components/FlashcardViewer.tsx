@@ -105,6 +105,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
   const [showConfetti, setShowConfetti] = useState(false)
   const [explanations, setExplanations] = useState<Record<string, string>>({})
   const [explaining, setExplaining] = useState<Set<string>>(new Set())
+  const [explainErrors, setExplainErrors] = useState<Record<string, string>>({})
   const [savedWords,     setSavedWords]     = useState<Set<string>>(new Set())
   const [pickerWord,     setPickerWord]     = useState<{ word: string; meaning: string; cls: string } | null>(null)
   const [showLimitModal, setShowLimitModal] = useState(false)
@@ -202,17 +203,19 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
   async function explainWord(w: Word) {
     if (explanations[w.word] || explaining.has(w.word)) return
     setExplaining(prev => new Set(prev).add(w.word))
+    setExplainErrors(prev => { const { [w.word]: _, ...rest } = prev; return rest })
     try {
       const res = await fetch('/api/vocabwise/explain', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ word: w.word, pos: w.class, meaning_vi: w.meaning, example_en: w.examples[0]?.en, mode: 'kids' }),
       })
-      if (res.ok) {
-        const data = await res.json()
-        setExplanations(prev => ({ ...prev, [w.word]: data.explanation }))
-      }
-    } catch {}
+      const data = await res.json()
+      if (res.ok && data.explanation) setExplanations(prev => ({ ...prev, [w.word]: data.explanation }))
+      else setExplainErrors(prev => ({ ...prev, [w.word]: data.error || 'Không thể giải nghĩa. Thử lại sau.' }))
+    } catch {
+      setExplainErrors(prev => ({ ...prev, [w.word]: 'Không thể giải nghĩa. Thử lại sau.' }))
+    }
     setExplaining(prev => { const s = new Set(prev); s.delete(w.word); return s })
   }
 
@@ -456,6 +459,8 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
                 </>
               ) : explanations[word.word] ? (
                 <p className="text-sm text-gray-700 leading-relaxed">{explanations[word.word]}</p>
+              ) : explainErrors[word.word] ? (
+                <p className="text-sm text-red-500">{explainErrors[word.word]}</p>
               ) : null}
             </div>
           </details>
