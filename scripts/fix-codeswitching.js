@@ -35,7 +35,7 @@ const detectOnly = args.includes('--detect-only')
 const dryRun     = args.includes('--dry-run')
 const DELAY_MS   = 2200
 
-const MODEL_ID = modelArg === '70b' ? 'openai/gpt-oss-120b' : 'llama-3.1-8b-instant'
+const MODEL_ID = 'openai/gpt-oss-120b' // llama-3.1-8b-instant decommissioned by Groq (2026-08); --model 70b|8b now both resolve here
 
 if (!bookArg) { console.error('Usage: --book 1|2|3 [--model 8b|70b]'); process.exit(1) }
 

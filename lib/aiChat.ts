@@ -16,7 +16,7 @@ const PROVIDERS: Record<Provider, ProviderConfig> = {
   groq: {
     url: 'https://api.groq.com/openai/v1/chat/completions',
     key: () => process.env.GROQ_API_KEY,
-    model: 'llama-3.1-8b-instant',
+    model: 'openai/gpt-oss-120b', // llama-3.1-8b-instant decommissioned by Groq (2026-08)
   },
   cerebras: {
     url: 'https://api.cerebras.ai/v1/chat/completions',

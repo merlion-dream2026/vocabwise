@@ -3,13 +3,14 @@
 // Saves to DB → UI shows instantly with zero API calls at runtime.
 //
 // Usage:
-//   node scripts/gen-glossary-explanations.js           → all books (8b)
+//   node scripts/gen-glossary-explanations.js           → all books (Groq)
 //   node scripts/gen-glossary-explanations.js --book 1  → Book 1 only
-//   node scripts/gen-glossary-explanations.js --book 3 --model 70b → Book 3 with bigger model
+//   node scripts/gen-glossary-explanations.js --book 3 --model cerebras → Book 3 via Cerebras instead
 //   node scripts/gen-glossary-explanations.js --dry-run → preview count only
 //
-// --model 8b  → llama-3.1-8b-instant (500k TPD) [default]
-// --model 70b → openai/gpt-oss-120b  (200k TPD) — Book 3 needs ~1 day
+// --model 8b|70b → openai/gpt-oss-120b via Groq (200k TPD) [default — llama-3.1-8b-instant
+//                   and llama-3.3-70b-versatile were both decommissioned by Groq, 2026-08]
+// --model cerebras → gpt-oss-120b via Cerebras (1M TPD)
 //
 // Requires env: NEXT_PUBLIC_SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, GROQ_API_KEY
 // ═══════════════════════════════════════════════════════════════════════════
@@ -36,10 +37,8 @@ const modelArg  = args.includes('--model') ? args[args.indexOf('--model') + 1] :
 const dryRun    = args.includes('--dry-run')
 const force     = args.includes('--force')  // overwrite existing entries
 
-const MODEL_ID  = modelArg === '70b' ? 'openai/gpt-oss-120b'
-                : modelArg === 'cerebras' ? 'gpt-oss-120b'
-                : 'llama-3.1-8b-instant'
-const MODEL_TPD = modelArg === '70b' ? 200_000 : modelArg === 'cerebras' ? 1_000_000 : 500_000
+const MODEL_ID  = modelArg === 'cerebras' ? 'gpt-oss-120b' : 'openai/gpt-oss-120b'
+const MODEL_TPD = modelArg === 'cerebras' ? 1_000_000 : 200_000
 const API_BASE  = modelArg === 'cerebras' ? 'https://api.cerebras.ai/v1' : 'https://api.groq.com/openai/v1'
 const API_KEY   = modelArg === 'cerebras' ? process.env.CEREBRAS_API_KEY : GROQ_API_KEY
 const DELAY_MS  = 2200  // ~27 RPM, safely under 30 RPM limit
@@ -66,7 +65,7 @@ QUY TẮC BẮT BUỘC: Toàn bộ nội dung phải viết hoàn toàn bằng t
     body: JSON.stringify({
       model: MODEL_ID,
       messages: [{ role: 'user', content: prompt }],
-      max_tokens: modelArg === 'cerebras' ? 450 : 300,
+      max_tokens: 450, // both branches now run gpt-oss-120b (reasoning model — spends hidden tokens before the answer)
       temperature: 0.7,
     }),
   })

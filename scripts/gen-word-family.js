@@ -9,6 +9,9 @@
 // forms for concrete nouns like "airport", invented unrelated words like
 // "banana" -> "banal"). 120b was accurate in manual spot-checks: correctly
 // returns a single-item family for concrete nouns instead of inventing one.
+// (llama-3.1-8b-instant has since been decommissioned by Groq entirely, 2026-08 —
+// --model 8b now falls back to gpt-oss-120b via Groq instead, which was already
+// the more accurate choice for this task.)
 //
 // Usage:
 //   node scripts/gen-word-family.js --level ranger
@@ -36,10 +39,10 @@ if (!levelArg) {
   process.exit(1)
 }
 
-const MODEL_ID = modelArg === '8b' ? 'llama-3.1-8b-instant' : 'gpt-oss-120b'
+const MODEL_ID = modelArg === '8b' ? 'openai/gpt-oss-120b' : 'gpt-oss-120b'
 const API_BASE = modelArg === '8b' ? 'https://api.groq.com/openai/v1' : 'https://api.cerebras.ai/v1'
 const API_KEY  = modelArg === '8b' ? process.env.GROQ_API_KEY : process.env.CEREBRAS_API_KEY
-const MAX_TOKENS = modelArg === '8b' ? 300 : 900 // gpt-oss-120b spends hidden reasoning tokens before the JSON answer
+const MAX_TOKENS = 900 // gpt-oss-120b spends hidden reasoning tokens before the JSON answer — same on both providers now
 
 if (!API_KEY) {
   console.error(`Missing env var: ${modelArg === '8b' ? 'GROQ_API_KEY' : 'CEREBRAS_API_KEY'}`)

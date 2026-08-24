@@ -1,5 +1,5 @@
 // ═══════════════════════════════════════════════════════════════════════════
-// Pre-generate explanation_vi for all Kids words via Groq 8b-instant.
+// Pre-generate explanation_vi for all Kids words via Groq gpt-oss-120b.
 // Saves to kids_explanations table → served instantly, zero runtime API calls.
 //
 // Usage:
@@ -7,8 +7,9 @@
 //   node scripts/gen-kids-explanations.js --level seeker → one level only
 //   node scripts/gen-kids-explanations.js --dry-run → preview count only
 //
-// Token budget (8b-instant free tier: 500k TPD):
-//   ~200 tokens/word → ~2,500 words/day → all 2,400 words in 1 day
+// Token budget (gpt-oss-120b via Groq free tier: 200k TPD — llama-3.1-8b-instant
+// was decommissioned by Groq, 2026-08):
+//   ~300 tokens/word → ~650 words/day
 //
 // Requires env: NEXT_PUBLIC_SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, GROQ_API_KEY
 // ═══════════════════════════════════════════════════════════════════════════
@@ -35,8 +36,8 @@ const modelArg   = args.includes('--model') ? args[args.indexOf('--model') + 1] 
 const dryRun     = args.includes('--dry-run')
 const DELAY_MS   = 2200
 
-const MODEL_ID  = modelArg === 'cerebras' ? 'gpt-oss-120b' : 'llama-3.1-8b-instant'
-const MODEL_TPD = modelArg === 'cerebras' ? 1_000_000 : 500_000
+const MODEL_ID  = modelArg === 'cerebras' ? 'gpt-oss-120b' : 'openai/gpt-oss-120b'
+const MODEL_TPD = modelArg === 'cerebras' ? 1_000_000 : 200_000
 const API_BASE  = modelArg === 'cerebras' ? 'https://api.cerebras.ai/v1' : 'https://api.groq.com/openai/v1'
 const API_KEY   = modelArg === 'cerebras' ? process.env.CEREBRAS_API_KEY : GROQ_API_KEY
 
@@ -60,7 +61,7 @@ Viết 2-3 câu ngắn bằng tiếng Việt: khi nào dùng từ này trong cu�
     body: JSON.stringify({
       model: MODEL_ID,
       messages: [{ role: 'user', content: prompt }],
-      max_tokens: modelArg === 'cerebras' ? 300 : 250,
+      max_tokens: 300, // both branches now run gpt-oss-120b (reasoning model — spends hidden tokens before the answer)
       temperature: 0.7,
     }),
   })
