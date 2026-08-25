@@ -10,18 +10,10 @@ export async function POST(req: NextRequest) {
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
-  if (session.familyId !== 'superadmin') {
-    const profile = await getFamilyProfile(session.familyId)
-    const aiLimit = profile ? getAITextLimit(profile) : 0
-    if (aiLimit !== null && !(await checkAndIncrementAITextUsage(session.familyId, aiLimit))) {
-      return NextResponse.json({ error: 'Đã đạt giới hạn dùng AI hôm nay. Vui lòng thử lại vào ngày mai.' }, { status: 429 })
-    }
-  }
-
   const { word, pos, meaning_vi, example_en, mode, topic_id } = await req.json()
   if (!word) return NextResponse.json({ error: 'Missing word' }, { status: 400 })
 
-  // Check DB cache first
+  // Check DB cache first — cache hits are free and must not count against the AI quota
   if (mode === 'kids') {
     const { data } = await supabase
       .from('kids_explanations')
@@ -29,6 +21,14 @@ export async function POST(req: NextRequest) {
       .eq('word', word.toLowerCase())
       .single()
     if (data?.explanation_vi) return NextResponse.json({ explanation: data.explanation_vi })
+  }
+
+  if (session.familyId !== 'superadmin') {
+    const profile = await getFamilyProfile(session.familyId)
+    const aiLimit = profile ? getAITextLimit(profile) : 0
+    if (aiLimit !== null && !(await checkAndIncrementAITextUsage(session.familyId, aiLimit))) {
+      return NextResponse.json({ error: 'Đã đạt giới hạn dùng AI hôm nay. Vui lòng thử lại vào ngày mai.' }, { status: 429 })
+    }
   }
 
   const prompt = mode === 'kids'

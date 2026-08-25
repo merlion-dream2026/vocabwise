@@ -441,8 +441,8 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
             </div>
           )}
 
-          {/* AI Explainer — fetched on tap, not prefetched */}
-          <details className="w-full mt-2 bg-amber-50 border border-amber-200 rounded-2xl overflow-hidden group">
+          {/* AI Explainer — fetched on tap, not prefetched. key=word.word forces remount per card so it doesn't stay open with stale/empty state after Next */}
+          <details key={word.word} className="w-full mt-2 bg-amber-50 border border-amber-200 rounded-2xl overflow-hidden group">
             <summary
               onClick={() => { if (!explanations[word.word] && !explaining.has(word.word)) explainWord(word) }}
               className="px-3.5 py-2.5 list-none cursor-pointer flex items-center justify-between"
