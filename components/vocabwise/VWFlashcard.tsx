@@ -95,10 +95,10 @@ export default function VWFlashcard({ glossary, onExit }: Props) {
     <div className="flex flex-col gap-4">
       {/* Header */}
       <div className="flex items-center justify-between">
-        <button onClick={onExit} className="text-gray-400 text-sm font-bold hover:text-gray-600">
+        <button onClick={onExit} className="inline-flex items-center gap-1.5 bg-purple-50 hover:bg-purple-100 text-purple-600 font-bold text-sm px-3 py-1.5 rounded-full transition-all active:scale-95">
           ← Thoát
         </button>
-        <span className="text-xs font-black text-purple-400">{idx + 1}/{total}</span>
+        <span className="bg-purple-100 text-purple-700 text-xs font-black px-3 py-1 rounded-full">{idx + 1}/{total}</span>
       </div>
 
       {/* Progress bar */}

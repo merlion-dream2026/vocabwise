@@ -398,7 +398,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
                     <p className={`${styles.exampleText} font-bold text-sm leading-snug italic`}>
                       &quot;{ex.en}&quot;
                     </p>
-                    <p className="text-gray-500 text-xs mt-0.5 leading-snug">
+                    <p className="text-gray-500 text-sm mt-0.5 leading-snug">
                       {ex.vi}
                     </p>
                   </div>
