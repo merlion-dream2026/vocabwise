@@ -221,7 +221,7 @@ export default function ReviewSession({ words, level, backUrl, onSessionDone }: 
         </div>
       )}
 
-      <div className={`${headerBg} px-4 pt-12 pb-5 text-white`}>
+      <div className={`${headerBg} px-4 pt-6 pb-4 text-white`}>
         <button onClick={() => router.push(backUrl)}
           className="text-white/80 font-bold text-sm flex items-center gap-1 mb-3">
           ← Quay lại

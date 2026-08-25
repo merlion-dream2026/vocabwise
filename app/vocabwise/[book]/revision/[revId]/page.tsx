@@ -469,7 +469,7 @@ export default function RevisionPage() {
     <div className="min-h-screen bg-gradient-to-br from-amber-50 to-yellow-50">
       {/* Header */}
       <div className={`${bookInfo.header} text-white`}>
-        <div className="max-w-lg mx-auto px-4 py-4 flex items-center gap-3">
+        <div className="max-w-lg mx-auto px-4 pt-6 pb-4 flex items-center gap-3">
           <button onClick={() => router.back()} aria-label="Quay lại" className="text-white/70 hover:text-white text-xl flex-shrink-0">←</button>
           <span className="text-xl flex-shrink-0">✨</span>
           <div className="min-w-0 flex-1">

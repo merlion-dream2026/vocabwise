@@ -230,7 +230,7 @@ export default function SrsReviewPage() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header */}
-      <div className="bg-gradient-to-br from-teal-500 to-cyan-500 px-4 pt-12 pb-4 text-white">
+      <div className="bg-gradient-to-br from-teal-500 to-cyan-500 px-4 pt-6 pb-4 text-white">
         <button onClick={() => router.back()} className="text-teal-100 font-bold text-sm flex items-center gap-1 mb-3">← {LEVEL_LABELS[level]}</button>
         <div className="flex items-center justify-between mb-3">
           <h1 className="text-2xl font-black">📅 Ôn SRS</h1>

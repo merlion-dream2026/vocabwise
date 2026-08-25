@@ -286,7 +286,7 @@ export default function LessonPage() {
 
       {/* ── Compact 1-line header ── */}
       <div className={`bg-gradient-to-r ${level.gradient} text-white sticky top-0 z-10 shadow-sm`}>
-        <div className="max-w-lg mx-auto px-3 py-3 flex items-center gap-2">
+        <div className="max-w-lg mx-auto px-4 py-3 flex items-center gap-2">
           <button onClick={() => router.back()}
             className="text-white/70 hover:text-white font-bold text-lg w-8 shrink-0">←</button>
           <div className="flex-1 min-w-0 text-center">
