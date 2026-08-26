@@ -129,6 +129,10 @@ const FAQ_ITEMS = [
         q: 'Gift code "Tặng bạn bè" dùng như thế nào? (Pro 6 tháng)',
         a: 'Tính năng độc quyền dành cho gói Pro 6 tháng.\n\nKhi kích hoạt gói 6 tháng, hệ thống tự động tạo cho bạn 1 mã quà tặng 8 ký tự (ví dụ: ABCD1234). Bạn tìm thấy mã này trong Cài đặt → card "🎁 Tặng bạn bè".\n\nCách dùng:\n① Copy link hoặc mã chia sẻ cho bạn bè\n② Bạn bè đăng ký VocabWise và nhập mã vào ô "Nhận mã từ bạn bè"\n③ Bạn bè nhận ngay 14 ngày Pro miễn phí\n\nLưu ý: mã chỉ dùng được 1 lần và sau khi dùng sẽ không thể khôi phục.',
       },
+      {
+        q: 'Nguồn hình minh họa trong app?',
+        a: 'Phần lớn icon minh họa dùng emoji chuẩn Unicode. Với vài từ không có emoji phù hợp (ví dụ: đu đủ, vải thiều...), app dùng minh họa từ Openclipart.org (public domain) hoặc tự vẽ.\n\nRiêng icon "giày thể thao" (trainers) lấy từ OpenMoji.org, giấy phép CC BY-SA 4.0 — ghi nguồn tại đây theo yêu cầu giấy phép.',
+      },
     ],
   },
   {

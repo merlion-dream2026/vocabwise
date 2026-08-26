@@ -298,12 +298,33 @@ export function getWordIcon(word: string): string | null {
 }
 
 /**
- * Custom SVG illustrations for concrete words with no matching Unicode emoji
+ * Custom illustrations for concrete words with no matching Unicode emoji
  * (checked both standard emoji and Phosphor's icon set — neither has a dedicated glyph).
- * Source: Openclipart.org (100% public domain / CC0), downloaded into public/icons/.
+ * Source noted per entry — Openclipart.org (CC0, no attribution needed) unless marked otherwise.
+ * forehead/chin/cheek are hand-drawn (no external source had an isolated-face-region icon,
+ * confirmed across Openclipart/OpenMoji/Noun Project/Pixabay/Flaticon/Wikimedia Commons).
  */
 const CUSTOM_SVG_ICONS: Record<string, string> = {
   seahorse: '/icons/seahorse.svg',
+  papaya: '/icons/papaya.svg',
+  lychee: '/icons/lychee.svg',
+  eyelash: '/icons/eyelash.svg',
+  table: '/icons/table.svg',
+  whistle: '/icons/whistle.svg',
+  driver: '/icons/driver.svg',
+  barn: '/icons/barn.svg',
+  skirt: '/icons/skirt.svg',
+  lamb: '/icons/lamb.svg',
+  hen: '/icons/hen.svg',
+  glue: '/icons/glue.svg',
+  mule: '/icons/mule.svg',
+  head: '/icons/head.svg',
+  chase: '/icons/chase.svg',
+  kick: '/icons/kick.png',
+  trainers: '/icons/trainers.svg', // Source: OpenMoji (CC BY-SA 4.0) — credited in FAQ, see FaqCard.tsx
+  forehead: '/icons/forehead.svg', // hand-drawn
+  chin: '/icons/chin.svg',         // hand-drawn
+  cheek: '/icons/cheek.svg',       // hand-drawn
 }
 
 export function getCustomSvgIcon(word: string): string | null {
