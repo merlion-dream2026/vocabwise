@@ -1,0 +1,91 @@
+{
+  "scanned": {
+    "2": true,
+    "12": true,
+    "31": true,
+    "56": true,
+    "74": true,
+    "186": true,
+    "196": true,
+    "260": true,
+    "263": true,
+    "1741": true,
+    "1746": true,
+    "1747": true,
+    "1756": true,
+    "2083": true,
+    "2089": true,
+    "5780": true,
+    "6604": true,
+    "7998": true,
+    "9678": true,
+    "9680": true
+  },
+  "flagged": {
+    "12": {
+      "topic_id": "b1-t01",
+      "word": "child",
+      "issue": "Có từ tiếng Anh \"Tone\" và cụm \"Tone nhỏ\" trong phần dịch, không phải tiếng Việt chuẩn"
+    },
+    "74": {
+      "topic_id": "b2-t04",
+      "word": "convict",
+      "issue": "English words (sentence, punish, find guilty) appear in Vietnamese text without translation"
+    },
+    "196": {
+      "topic_id": "b3-t02",
+      "word": "vocation",
+      "issue": "English word 'vocation' appears inside a Vietnamese sentence (point 4) and should be translated."
+    },
+    "260": {
+      "topic_id": "b2-t01",
+      "word": "lecture",
+      "issue": "English word \"lecture\" appears inside Vietnamese sentences instead of being translated"
+    },
+    "263": {
+      "topic_id": "b2-t01",
+      "word": "assessment",
+      "issue": "Từ \"assessment\" xuất hiện trong câu tiếng Việt mô tả, vi phạm quy tắc giữ nguyên chỉ khi độc lập hoặc trong câu ví dụ toàn tiếng Anh"
+    },
+    "1741": {
+      "topic_id": "b1-t25",
+      "word": "introduce",
+      "issue": "Typo 'introduc e' instead of 'introduce' inside Vietnamese sentence"
+    },
+    "1746": {
+      "topic_id": "b1-t25",
+      "word": "ask",
+      "issue": "English word 'ask' appears inside a Vietnamese sentence in the example (\"Tôi ask cô giáo ...\")."
+    },
+    "1747": {
+      "topic_id": "b1-t25",
+      "word": "reply",
+      "issue": "English word 'reply' appears inside Vietnamese sentences (e.g., \"Tôi sẽ reply lại...\"), which should be translated into Vietnamese."
+    },
+    "2083": {
+      "topic_id": "b2-t37",
+      "word": "career athlete",
+      "issue": "English phrase \"career athlete\" appears untranslated within Vietnamese sentences"
+    },
+    "2089": {
+      "topic_id": "b2-t38",
+      "word": "brand",
+      "issue": "Synonym list contains invalid term \"sãn phẩm\" (misspelled, not a Vietnamese word and not a synonym of \"brand\")."
+    },
+    "5780": {
+      "topic_id": "b1-t54",
+      "word": "hero",
+      "issue": "English terms 'hero' and 'villain' appear inside Vietnamese sentences without translation"
+    },
+    "9678": {
+      "topic_id": "b3-t54",
+      "word": "accountability",
+      "issue": "English terms (accountability, responsibility) appear inside Vietnamese sentences instead of being translated"
+    },
+    "9680": {
+      "topic_id": "b3-t54",
+      "word": "displacement",
+      "issue": "English word \"Displacement\" appears inside a Vietnamese sentence instead of being translated"
+    }
+  }
+}

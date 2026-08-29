@@ -17,6 +17,7 @@
 const { createClient } = require('@supabase/supabase-js')
 const fs = require('fs')
 const path = require('path')
+const { generateWithRetry, critiqueVietnameseText } = require('./lib/contentValidate')
 
 try { require('dotenv').config({ path: '.env.local' }) } catch {}
 
@@ -48,27 +49,34 @@ if (!API_KEY) {
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)) }
 
-async function generateExplanation(word, pos, meaning_vi, example_en) {
-  const prompt = `Giải thích từ tiếng Anh "${word}"${pos ? ` (${pos})` : ''} cho học sinh Việt Nam học tiếng Anh.
+function buildPrompt(word, pos, meaning_vi, example_en) {
+  return `Giải thích từ tiếng Anh "${word}"${pos ? ` (${pos})` : ''} cho học sinh Việt Nam học tiếng Anh.
 Nghĩa: ${meaning_vi}
 Ví dụ: ${example_en}
 
-Viết 2-3 câu ngắn bằng tiếng Việt: khi nào dùng từ này trong cuộc sống, và 1 ví dụ mới gần gũi dễ nhớ. Không lặp lại ví dụ gốc. Dùng ngôn ngữ đơn giản, dễ hiểu.`
+Viết 2-3 câu ngắn bằng tiếng Việt: khi nào dùng từ này trong cuộc sống, và 1 ví dụ mới gần gũi dễ nhớ. Không lặp lại ví dụ gốc. Dùng ngôn ngữ đơn giản, dễ hiểu.
+
+QUY TẮC BẮT BUỘC: Toàn bộ nội dung phải viết hoàn toàn bằng tiếng Việt. Tuyệt đối không dùng từ tiếng Anh trong câu tiếng Việt (ví dụ sai: "bạn nên consider"; đúng: "bạn nên cân nhắc"). Chỉ chấp nhận từ tiếng Anh ở tiêu đề hoặc ký hiệu phiên âm IPA.`
+}
+
+// Guardrail pipeline (contentValidate.js) only targets the Groq path — see the
+// same note in gen-glossary-explanations.js.
+async function generateExplanation(word, pos, meaning_vi, example_en) {
+  const prompt = buildPrompt(word, pos, meaning_vi, example_en)
+
+  if (modelArg !== 'cerebras') {
+    const draft = await generateWithRetry({ prompt, maxTokens: 300, temperature: 0.7 })
+    if (!draft) return draft
+    return critiqueVietnameseText(draft, word)
+  }
 
   const res = await fetch(`${API_BASE}/chat/completions`, {
     method: 'POST',
     headers: { Authorization: `Bearer ${API_KEY}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      model: MODEL_ID,
-      messages: [{ role: 'user', content: prompt }],
-      max_tokens: 300, // both branches now run gpt-oss-120b (reasoning model — spends hidden tokens before the answer)
-      temperature: 0.7,
-    }),
+    body: JSON.stringify({ model: MODEL_ID, messages: [{ role: 'user', content: prompt }], max_tokens: 300, temperature: 0.7 }),
   })
-
   if (res.status === 429) throw new Error('RATE_LIMIT')
   if (!res.ok) throw new Error(`HTTP_${res.status}`)
-
   const d = await res.json()
   return d.choices?.[0]?.message?.content?.trim() ?? ''
 }
