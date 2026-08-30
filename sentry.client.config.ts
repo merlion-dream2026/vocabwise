@@ -16,6 +16,11 @@ Sentry.init({
     'Non-Error promise rejection captured',
     /^Network request failed/,
     /^Load failed/,
+    // Chromium/Firefox equivalent of Safari's "Load failed" — user offline,
+    // tab closed / navigated away mid-request, adblock, in-app browsers
+    /Failed to fetch/,
+    /NetworkError when attempting to fetch resource/,
+    'AbortError',
     // Zalo in-app browser injects zaloJSV2 SDK — not our code
     /zaloJSV2 is not defined/,
   ],
