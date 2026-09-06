@@ -3,6 +3,7 @@
 import { useState, useCallback, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import { speak as speakWord } from '@/lib/speak'
+import { stripMarkdown } from '@/lib/textFormat'
 import { useGameSync } from '@/lib/GameSyncContext'
 import Confetti from '@/components/Confetti'
 import WordIcon from '@/components/WordIcon'
@@ -458,7 +459,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
                   <div className="h-3 bg-amber-200 rounded animate-pulse w-2/3" />
                 </>
               ) : explanations[word.word] ? (
-                <p className="text-sm text-gray-700 leading-relaxed">{explanations[word.word]}</p>
+                <p className="text-sm text-gray-700 leading-relaxed whitespace-pre-line">{stripMarkdown(explanations[word.word])}</p>
               ) : explainErrors[word.word] ? (
                 <p className="text-sm text-red-500">{explainErrors[word.word]}</p>
               ) : null}

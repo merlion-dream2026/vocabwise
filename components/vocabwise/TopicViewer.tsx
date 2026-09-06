@@ -12,6 +12,7 @@ import WordListPicker from '@/components/WordListPicker'
 import PassageGrammarNote from './PassageGrammarNote'
 import GrammarSpotlight, { type GrammarSpotlightData } from './GrammarSpotlight'
 import { cachedFetch } from '@/lib/cachedFetch'
+import { stripMarkdown } from '@/lib/textFormat'
 
 type GlossaryItem = {
   id: number
@@ -586,7 +587,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                           <div className="mt-2">
                             {(item.explanation_vi || explanations[item.word]) ? (
                               <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border border-indigo-200 rounded-xl px-3 py-3">
-                                <p className="text-indigo-800 text-sm leading-relaxed">{item.explanation_vi ?? explanations[item.word]}</p>
+                                <p className="text-indigo-800 text-sm leading-relaxed whitespace-pre-line">{stripMarkdown(item.explanation_vi ?? explanations[item.word] ?? '')}</p>
                               </div>
                             ) : (
                               <>
