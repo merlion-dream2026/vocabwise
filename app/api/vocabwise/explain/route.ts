@@ -37,14 +37,16 @@ export async function POST(req: NextRequest) {
 Nghĩa: ${meaning_vi}
 Ví dụ: ${example_en}
 
-Viết 2-3 câu ngắn bằng tiếng Việt: khi nào dùng từ này trong cuộc sống, và 1 ví dụ mới gần gũi dễ nhớ. Không lặp lại ví dụ gốc. Dùng ngôn ngữ đơn giản, dễ hiểu.
-Chỉ viết văn xuôi thuần, tối đa 3 câu. KHÔNG dùng markdown, KHÔNG dùng ký hiệu ** ## hay ###, KHÔNG tiêu đề, KHÔNG danh sách đánh số hay gạch đầu dòng.`
+Viết 2-3 câu ngắn bằng tiếng Việt: khi nào dùng từ này trong cuộc sống. Dùng ngôn ngữ đơn giản, dễ hiểu.
+Sau đó thêm đúng 1 ví dụ MỚI (không lặp lại ví dụ gốc), gồm 1 câu tiếng Anh đơn giản gần gũi kèm NGAY bản dịch tiếng Việt, theo đúng format: Ví dụ: "<câu tiếng Anh>" – <bản dịch tiếng Việt>
+Chỉ viết văn xuôi thuần. KHÔNG dùng markdown, KHÔNG dùng ký hiệu ** ## hay ###, KHÔNG tiêu đề, KHÔNG danh sách đánh số hay gạch đầu dòng.`
     : `Giải thích từ tiếng Anh "${word}"${pos ? ` (${pos})` : ''} cho học sinh Việt Nam học IELTS.
 Nghĩa: ${meaning_vi}
 Ví dụ: ${example_en}
 
-Viết 3-4 câu ngắn bằng tiếng Việt: ngữ cảnh thường dùng, phân biệt với từ đồng nghĩa nếu có, và 1 ví dụ mới dễ nhớ. Không lặp lại ví dụ gốc.
-Chỉ viết văn xuôi thuần, tối đa 4 câu. KHÔNG dùng markdown, KHÔNG dùng ký hiệu ** ## hay ###, KHÔNG tiêu đề, KHÔNG danh sách đánh số hay gạch đầu dòng.`
+Viết 3-4 câu ngắn bằng tiếng Việt: ngữ cảnh thường dùng, phân biệt với từ đồng nghĩa nếu có.
+Sau đó thêm đúng 1 ví dụ MỚI (không lặp lại ví dụ gốc), gồm 1 câu tiếng Anh dễ nhớ kèm NGAY bản dịch tiếng Việt, theo đúng format: Ví dụ: "<câu tiếng Anh>" – <bản dịch tiếng Việt>
+Chỉ viết văn xuôi thuần. KHÔNG dùng markdown, KHÔNG dùng ký hiệu ** ## hay ###, KHÔNG tiêu đề, KHÔNG danh sách đánh số hay gạch đầu dòng.`
 
   const raw = await aiChat({ order: ['groq', 'cerebras'], prompt, maxTokens: 600, temperature: 0.7 })
   if (raw === null) return NextResponse.json({ error: 'AI unavailable' }, { status: 502 })
