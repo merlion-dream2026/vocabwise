@@ -337,51 +337,54 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
               {savedWords.has(word.word) ? '⭐' : '☆'}
             </span>
           </button>
-          {/* Illustration: Phosphor icon (abstract words) or emoji */}
-          <div className={`mb-3 flex items-center justify-center`}>
-            <WordIcon
-              word={word.word}
-              emoji={word.emoji}
-              emojiClass={styles.emojiSize}
-              iconSize={72}
-              className="text-gray-600"
-            />
+          {/* Header: icon on the left, word/IPA/POS/meaning stacked on the right — compact instead
+              of a tall fully-centered stack */}
+          <div className="w-full flex items-center gap-3 mb-4">
+            <div className="flex-shrink-0 flex items-center justify-center">
+              <WordIcon
+                word={word.word}
+                emoji={word.emoji}
+                emojiClass="text-4xl"
+                iconSize={44}
+                className="text-gray-600"
+              />
+            </div>
+            <div className="flex-1 min-w-0 text-left">
+              <div className="flex items-center gap-2 mb-0.5">
+                <h2 className={`text-2xl font-black ${styles.wordColor} tracking-tight break-words`}>
+                  {word.word}
+                </h2>
+                <button
+                  onClick={() => speak(word.word, 'word')}
+                  disabled={speakingId === 'word'}
+                  className={`
+                    ${styles.speakBg} text-white flex-shrink-0
+                    w-8 h-8 rounded-lg text-sm
+                    flex items-center justify-center
+                    shadow-md transition-all duration-150
+                    active:scale-90 disabled:opacity-70
+                  `}
+                  aria-label="Phát âm từ"
+                >
+                  {speakingId === 'word' ? '⏸' : '🔊'}
+                </button>
+              </div>
+
+              {/* IPA + word class — one line, both metadata at the same weight */}
+              {(word.ipa || word.class) && (
+                <p className="text-gray-400 text-xs mb-0.5">
+                  {word.ipa && <span className="font-mono">{word.ipa}</span>}
+                  {word.ipa && word.class && <span className="mx-1.5">·</span>}
+                  {word.class && <span>{CLASS_LABEL[word.class] ?? word.class}</span>}
+                </p>
+              )}
+
+              {/* Vietnamese meaning */}
+              <p className="text-lg font-bold text-gray-700">
+                {word.meaning}
+              </p>
+            </div>
           </div>
-
-          {/* English word + speak button, inline */}
-          <div className="flex items-center justify-center gap-2.5 mb-1">
-            <h2 className={`text-4xl font-black ${styles.wordColor} tracking-tight`}>
-              {word.word}
-            </h2>
-            <button
-              onClick={() => speak(word.word, 'word')}
-              disabled={speakingId === 'word'}
-              className={`
-                ${styles.speakBg} text-white flex-shrink-0
-                w-10 h-10 rounded-xl text-lg
-                flex items-center justify-center
-                shadow-md transition-all duration-150
-                active:scale-90 disabled:opacity-70
-              `}
-              aria-label="Phát âm từ"
-            >
-              {speakingId === 'word' ? '⏸' : '🔊'}
-            </button>
-          </div>
-
-          {/* IPA + word class — one line, both metadata at the same weight */}
-          {(word.ipa || word.class) && (
-            <p className="text-gray-400 text-sm mb-2">
-              {word.ipa && <span className="font-mono">{word.ipa}</span>}
-              {word.ipa && word.class && <span className="mx-1.5">·</span>}
-              {word.class && <span>{CLASS_LABEL[word.class] ?? word.class}</span>}
-            </p>
-          )}
-
-          {/* Vietnamese meaning */}
-          <p className="text-2xl font-bold text-gray-700 mb-4">
-            {word.meaning}
-          </p>
 
           {/* Example sentences */}
           <div className="w-full space-y-2">
@@ -452,7 +455,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
           {word.collocations && word.collocations.length > 0 && (
             <div className="w-full mt-2 bg-white border-2 border-sky-100 rounded-2xl px-3.5 py-2.5">
               <p className="text-sm font-black text-sky-600 mb-1.5 text-left">🔗 Collocations</p>
-              <div className="grid grid-cols-2 gap-1.5">
+              <div className="flex flex-col gap-1.5">
                 {word.collocations.map((col, idx) => (
                   <div key={idx} className="bg-sky-50 rounded-xl px-2.5 py-2 text-left">
                     <div className="flex items-start gap-1.5">
