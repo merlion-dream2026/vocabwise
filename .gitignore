@@ -47,3 +47,6 @@ scripts/reset-*.js
 
 # temp working data for GPT batch content generation (merged into data/words then discarded)
 /collocation-batches/
+
+# local-only DB backups before destructive ops
+/_archive/
