@@ -29,6 +29,11 @@ type WordFamilyForm = {
   meaning: string
 }
 
+type Collocation = {
+  phrase: string
+  meaning: string
+}
+
 type Word = {
   word: string
   ipa?: string
@@ -37,6 +42,7 @@ type Word = {
   class?: string
   examples: Example[]
   wordFamily?: WordFamilyForm[]
+  collocations?: Collocation[]
 }
 
 // Word family table only makes sense from Ranger up (level 3+) — Seeker/Starter
@@ -442,6 +448,31 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
             </div>
           )}
 
+          {/* Collocations */}
+          {word.collocations && word.collocations.length > 0 && (
+            <div className="w-full mt-2 bg-white border-2 border-sky-100 rounded-2xl px-3.5 py-2.5">
+              <p className="text-sm font-black text-sky-600 mb-1.5 text-left">🔗 Collocations</p>
+              <div className="grid grid-cols-2 gap-1.5">
+                {word.collocations.map((col, idx) => (
+                  <div key={idx} className="bg-sky-50 rounded-xl px-2.5 py-2 text-left">
+                    <div className="flex items-center gap-1.5">
+                      <button
+                        onClick={() => speak(col.phrase, `col-${idx}`)}
+                        disabled={speakingId === `col-${idx}`}
+                        className="flex-shrink-0 w-6 h-6 rounded-lg bg-sky-500 text-white text-xs flex items-center justify-center active:scale-90 disabled:opacity-60 transition-all"
+                        aria-label={`Nghe ${col.phrase}`}
+                      >
+                        {speakingId === `col-${idx}` ? '⏸' : '🔊'}
+                      </button>
+                      <span className="font-bold text-sm text-gray-700 truncate">{col.phrase}</span>
+                    </div>
+                    <p className="text-gray-400 text-xs mt-0.5 truncate">{col.meaning}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
           {/* AI Explainer — fetched on tap, not prefetched. key=word.word forces remount per card so it doesn't stay open with stale/empty state after Next */}
           <details key={word.word} className="w-full mt-2 bg-amber-50 border border-amber-200 rounded-2xl overflow-hidden group">
             <summary
@@ -459,9 +490,9 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
                   <div className="h-3 bg-amber-200 rounded animate-pulse w-2/3" />
                 </>
               ) : explanations[word.word] ? (
-                <p className="text-sm text-gray-700 leading-relaxed whitespace-pre-line">{stripMarkdown(explanations[word.word])}</p>
+                <p className="text-sm text-gray-700 leading-relaxed whitespace-pre-line text-left">{stripMarkdown(explanations[word.word])}</p>
               ) : explainErrors[word.word] ? (
-                <p className="text-sm text-red-500">{explainErrors[word.word]}</p>
+                <p className="text-sm text-red-500 text-left">{explainErrors[word.word]}</p>
               ) : null}
             </div>
           </details>

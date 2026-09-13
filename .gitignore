@@ -44,3 +44,6 @@ print-book/
 # one-time admin scripts
 scripts/reset-*.js
 .env*
+
+# temp working data for GPT batch content generation (merged into data/words then discarded)
+/collocation-batches/
