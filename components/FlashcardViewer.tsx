@@ -455,18 +455,18 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
               <div className="grid grid-cols-2 gap-1.5">
                 {word.collocations.map((col, idx) => (
                   <div key={idx} className="bg-sky-50 rounded-xl px-2.5 py-2 text-left">
-                    <div className="flex items-center gap-1.5">
+                    <div className="flex items-start gap-1.5">
                       <button
                         onClick={() => speak(col.phrase, `col-${idx}`)}
                         disabled={speakingId === `col-${idx}`}
-                        className="flex-shrink-0 w-6 h-6 rounded-lg bg-sky-500 text-white text-xs flex items-center justify-center active:scale-90 disabled:opacity-60 transition-all"
+                        className="flex-shrink-0 w-6 h-6 rounded-lg bg-sky-500 text-white text-xs flex items-center justify-center active:scale-90 disabled:opacity-60 transition-all mt-0.5"
                         aria-label={`Nghe ${col.phrase}`}
                       >
                         {speakingId === `col-${idx}` ? '⏸' : '🔊'}
                       </button>
-                      <span className="font-bold text-sm text-gray-700 truncate">{col.phrase}</span>
+                      <span className="font-bold text-sm text-gray-700 min-w-0 break-words">{col.phrase}</span>
                     </div>
-                    <p className="text-gray-400 text-xs mt-0.5 truncate">{col.meaning}</p>
+                    <p className="text-gray-400 text-xs mt-0.5 break-words">{col.meaning}</p>
                   </div>
                 ))}
               </div>
