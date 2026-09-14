@@ -344,8 +344,8 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
               <WordIcon
                 word={word.word}
                 emoji={word.emoji}
-                emojiClass="text-4xl"
-                iconSize={44}
+                emojiClass="text-7xl"
+                iconSize={88}
                 className="text-gray-600"
               />
             </div>
