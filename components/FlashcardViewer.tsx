@@ -117,6 +117,8 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
   const [pickerWord,     setPickerWord]     = useState<{ word: string; meaning: string; cls: string } | null>(null)
   const [showLimitModal, setShowLimitModal] = useState(false)
   const [hasStory,       setHasStory]       = useState(false)
+  const [collocationsOpen, setCollocationsOpen] = useState(false)
+  const [giaiNghiaOpen,    setGiaiNghiaOpen]    = useState(false)
 
   // Load saved words for this topic on mount
   useEffect(() => {
@@ -186,6 +188,12 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
     }, 150)
     return () => clearTimeout(timer)
     // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentIndex])
+
+  // Collapse the accordions when moving to a different card
+  useEffect(() => {
+    setCollocationsOpen(false)
+    setGiaiNghiaOpen(false)
   }, [currentIndex])
 
   const goNext = () => {
@@ -452,55 +460,70 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
           )}
 
           {/* Collocations — collapsed by default, same accordion pattern as Giải nghĩa below,
-              so the card doesn't force a long scroll before the AI Explainer / Next button */}
+              so the card doesn't force a long scroll before the AI Explainer / Next button.
+              React-controlled (not native <details>) — <details>+key remounting was leaving
+              duplicate disclosure widgets behind on iOS Safari after repeated Next taps. */}
           {word.collocations && word.collocations.length > 0 && (
-            <details key={word.word} className="w-full mt-2 bg-white border-2 border-sky-100 rounded-2xl overflow-hidden group">
-              <summary className="px-3.5 py-2.5 list-none cursor-pointer flex items-center justify-between">
+            <div className="w-full mt-2 bg-white border-2 border-sky-100 rounded-2xl overflow-hidden">
+              <button
+                type="button"
+                onClick={() => setCollocationsOpen(o => !o)}
+                className="w-full px-3.5 py-2.5 flex items-center justify-between"
+              >
                 <p className="text-sm font-black text-sky-600 text-left">🔗 Collocations <span className="font-normal text-sky-400">(Cụm từ phổ biến)</span></p>
-                <span className="text-sky-400 text-sm flex-shrink-0 ml-2 group-open:rotate-180 transition-transform">▾</span>
-              </summary>
-              <div className="px-3.5 pb-2.5 pt-1 flex flex-col gap-1.5">
-                {word.collocations.map((col, idx) => (
-                  <div key={idx} className="flex items-start gap-1.5 bg-sky-50 rounded-xl px-2.5 py-2 text-left">
-                    <button
-                      onClick={() => speak(col.phrase, `col-${idx}`)}
-                      disabled={speakingId === `col-${idx}`}
-                      className="flex-shrink-0 w-6 h-6 rounded-lg bg-sky-500 text-white text-xs flex items-center justify-center active:scale-90 disabled:opacity-60 transition-all"
-                      aria-label={`Nghe ${col.phrase}`}
-                    >
-                      {speakingId === `col-${idx}` ? '⏸' : '🔊'}
-                    </button>
-                    <span className="font-bold text-sm text-gray-700 flex-shrink-0 pt-0.5">{col.phrase}</span>
-                    <span className="text-gray-400 text-xs break-words min-w-0 flex-1 pt-0.5">{col.meaning}</span>
-                  </div>
-                ))}
-              </div>
-            </details>
+                <span className={`text-sky-400 text-sm flex-shrink-0 ml-2 transition-transform ${collocationsOpen ? 'rotate-180' : ''}`}>▾</span>
+              </button>
+              {collocationsOpen && (
+                <div className="px-3.5 pb-2.5 pt-1 flex flex-col gap-1.5">
+                  {word.collocations.map((col, idx) => (
+                    <div key={idx} className="flex items-start gap-1.5 bg-sky-50 rounded-xl px-2.5 py-2 text-left">
+                      <button
+                        onClick={() => speak(col.phrase, `col-${idx}`)}
+                        disabled={speakingId === `col-${idx}`}
+                        className="flex-shrink-0 w-6 h-6 rounded-lg bg-sky-500 text-white text-xs flex items-center justify-center active:scale-90 disabled:opacity-60 transition-all"
+                        aria-label={`Nghe ${col.phrase}`}
+                      >
+                        {speakingId === `col-${idx}` ? '⏸' : '🔊'}
+                      </button>
+                      <span className="font-bold text-sm text-gray-700 flex-shrink-0 pt-0.5">{col.phrase}</span>
+                      <span className="text-gray-400 text-xs break-words min-w-0 flex-1 pt-0.5">{col.meaning}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
           )}
 
-          {/* AI Explainer — fetched on tap, not prefetched. key=word.word forces remount per card so it doesn't stay open with stale/empty state after Next */}
-          <details key={word.word} className="w-full mt-2 bg-amber-50 border border-amber-200 rounded-2xl overflow-hidden group">
-            <summary
-              onClick={() => { if (!explanations[word.word] && !explaining.has(word.word)) explainWord(word) }}
-              className="px-3.5 py-2.5 list-none cursor-pointer flex items-center justify-between"
+          {/* AI Explainer — fetched on tap, not prefetched. React-controlled for the same reason
+              as Collocations above (avoid native <details> + key-remount duplication on Safari) */}
+          <div className="w-full mt-2 bg-amber-50 border border-amber-200 rounded-2xl overflow-hidden">
+            <button
+              type="button"
+              onClick={() => {
+                setGiaiNghiaOpen(o => !o)
+                if (!explanations[word.word] && !explaining.has(word.word)) explainWord(word)
+              }}
+              className="w-full px-3.5 py-2.5 flex items-center justify-between"
             >
               <p className="text-sm font-black text-amber-600">✨ Giải nghĩa</p>
-              <span className="text-amber-400 text-sm group-open:rotate-180 transition-transform">▾</span>
-            </summary>
-            <div className="px-3.5 pb-2.5 pt-1 border-t border-amber-200">
-              {explaining.has(word.word) ? (
-                <>
-                  <div className="h-3 bg-amber-200 rounded animate-pulse w-3/4 mb-2" />
-                  <div className="h-3 bg-amber-200 rounded animate-pulse w-full mb-2" />
-                  <div className="h-3 bg-amber-200 rounded animate-pulse w-2/3" />
-                </>
-              ) : explanations[word.word] ? (
-                <p className="text-sm text-gray-700 leading-relaxed whitespace-pre-line text-left">{stripMarkdown(explanations[word.word])}</p>
-              ) : explainErrors[word.word] ? (
-                <p className="text-sm text-red-500 text-left">{explainErrors[word.word]}</p>
-              ) : null}
-            </div>
-          </details>
+              <span className={`text-amber-400 text-sm transition-transform ${giaiNghiaOpen ? 'rotate-180' : ''}`}>▾</span>
+            </button>
+            {giaiNghiaOpen && (
+              <div className="px-3.5 pb-2.5 pt-1 border-t border-amber-200">
+                {explaining.has(word.word) ? (
+                  <>
+                    <div className="h-3 bg-amber-200 rounded animate-pulse w-3/4 mb-2" />
+                    <div className="h-3 bg-amber-200 rounded animate-pulse w-full mb-2" />
+                    <div className="h-3 bg-amber-200 rounded animate-pulse w-2/3" />
+                  </>
+                ) : explanations[word.word] ? (
+                  <p className="text-sm text-gray-700 leading-relaxed whitespace-pre-line text-left">{stripMarkdown(explanations[word.word])}</p>
+                ) : explainErrors[word.word] ? (
+                  <p className="text-sm text-red-500 text-left">{explainErrors[word.word]}</p>
+                ) : null}
+              </div>
+            )}
+          </div>
         </div>
 
         {/* Navigation */}
