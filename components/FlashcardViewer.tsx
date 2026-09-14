@@ -428,14 +428,14 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
           {/* Word Family — Ranger+ only, hidden when the word has no meaningful family */}
           {WORD_FAMILY_LEVELS.includes(level) && word.wordFamily && word.wordFamily.length >= 2 && (
             <div className="w-full mt-2 bg-white border-2 border-teal-100 rounded-2xl px-3.5 py-2.5">
-              <p className="text-sm font-black text-teal-600 mb-1.5 text-left">🌳 Word Family <span className="font-normal text-teal-400">(Họ từ)</span></p>
+              <p className="text-sm font-black text-teal-600 mb-1.5 text-left">🌳 Họ từ <span className="font-normal text-teal-400">(Word Family)</span></p>
               <div className="space-y-1">
                 {word.wordFamily.map((form, idx) => {
                   const isCurrent = form.pos === word.class && form.word.toLowerCase() === word.word.toLowerCase()
                   return (
                     <div
                       key={idx}
-                      className={`flex items-start gap-2 rounded-xl px-2 py-1 ${isCurrent ? 'bg-teal-50 border border-teal-200' : ''}`}
+                      className={`flex items-center gap-2 rounded-xl px-2 py-1 text-left ${isCurrent ? 'bg-teal-50 border border-teal-200' : ''}`}
                     >
                       <button
                         onClick={() => speak(form.word, `wf-${idx}`)}
@@ -445,13 +445,13 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
                       >
                         {speakingId === `wf-${idx}` ? '⏸' : '🔊'}
                       </button>
-                      <span className="text-xs font-bold text-gray-400 w-7 flex-shrink-0 pt-0.5">
+                      <span className="text-xs font-bold text-gray-400 w-7 flex-shrink-0">
                         {CLASS_LABEL[form.pos]?.split(' - ')[0] ?? form.pos}
                       </span>
-                      <span className={`font-bold text-sm flex-shrink-0 pt-0.5 ${isCurrent ? 'text-teal-700' : 'text-gray-700'}`}>
+                      <span className={`font-bold text-sm flex-shrink-0 ${isCurrent ? 'text-teal-700' : 'text-gray-700'}`}>
                         {form.word}
                       </span>
-                      <span className="text-gray-400 text-xs break-words min-w-0 flex-1 pt-0.5">{form.meaning}</span>
+                      <span className="text-gray-400 text-xs break-words min-w-0 flex-1">{form.meaning}</span>
                     </div>
                   )
                 })}
@@ -470,7 +470,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
                 onClick={() => setCollocationsOpen(o => !o)}
                 className="w-full px-3.5 py-2.5 flex items-center justify-between"
               >
-                <p className="text-sm font-black text-sky-600 text-left">🔗 Collocations <span className="font-normal text-sky-400">(Cụm từ phổ biến)</span></p>
+                <p className="text-sm font-black text-sky-600 text-left">🔗 Cụm từ phổ biến <span className="font-normal text-sky-400">(Collocations)</span></p>
                 <span className={`text-sky-400 text-sm flex-shrink-0 ml-2 transition-transform ${collocationsOpen ? 'rotate-180' : ''}`}>▾</span>
               </button>
               {collocationsOpen && (
