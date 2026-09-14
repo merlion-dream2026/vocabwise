@@ -420,7 +420,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
           {/* Word Family — Ranger+ only, hidden when the word has no meaningful family */}
           {WORD_FAMILY_LEVELS.includes(level) && word.wordFamily && word.wordFamily.length >= 2 && (
             <div className="w-full mt-2 bg-white border-2 border-teal-100 rounded-2xl px-3.5 py-2.5">
-              <p className="text-sm font-black text-teal-600 mb-1.5">🌳 Word Family</p>
+              <p className="text-sm font-black text-teal-600 mb-1.5 text-left">🌳 Word Family <span className="font-normal text-teal-400">(Họ từ)</span></p>
               <div className="space-y-1">
                 {word.wordFamily.map((form, idx) => {
                   const isCurrent = form.pos === word.class && form.word.toLowerCase() === word.word.toLowerCase()
@@ -456,24 +456,22 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
           {word.collocations && word.collocations.length > 0 && (
             <details key={word.word} className="w-full mt-2 bg-white border-2 border-sky-100 rounded-2xl overflow-hidden group">
               <summary className="px-3.5 py-2.5 list-none cursor-pointer flex items-center justify-between">
-                <p className="text-sm font-black text-sky-600">🔗 Collocations</p>
-                <span className="text-sky-400 text-sm group-open:rotate-180 transition-transform">▾</span>
+                <p className="text-sm font-black text-sky-600 text-left">🔗 Collocations <span className="font-normal text-sky-400">(Cụm từ phổ biến)</span></p>
+                <span className="text-sky-400 text-sm flex-shrink-0 ml-2 group-open:rotate-180 transition-transform">▾</span>
               </summary>
               <div className="px-3.5 pb-2.5 pt-1 flex flex-col gap-1.5">
                 {word.collocations.map((col, idx) => (
-                  <div key={idx} className="bg-sky-50 rounded-xl px-2.5 py-2 text-left">
-                    <div className="flex items-start gap-1.5">
-                      <button
-                        onClick={() => speak(col.phrase, `col-${idx}`)}
-                        disabled={speakingId === `col-${idx}`}
-                        className="flex-shrink-0 w-6 h-6 rounded-lg bg-sky-500 text-white text-xs flex items-center justify-center active:scale-90 disabled:opacity-60 transition-all mt-0.5"
-                        aria-label={`Nghe ${col.phrase}`}
-                      >
-                        {speakingId === `col-${idx}` ? '⏸' : '🔊'}
-                      </button>
-                      <span className="font-bold text-sm text-gray-700 min-w-0 break-words">{col.phrase}</span>
-                    </div>
-                    <p className="text-gray-400 text-xs mt-0.5 break-words">{col.meaning}</p>
+                  <div key={idx} className="flex items-center gap-1.5 bg-sky-50 rounded-xl px-2.5 py-2 text-left">
+                    <button
+                      onClick={() => speak(col.phrase, `col-${idx}`)}
+                      disabled={speakingId === `col-${idx}`}
+                      className="flex-shrink-0 w-6 h-6 rounded-lg bg-sky-500 text-white text-xs flex items-center justify-center active:scale-90 disabled:opacity-60 transition-all"
+                      aria-label={`Nghe ${col.phrase}`}
+                    >
+                      {speakingId === `col-${idx}` ? '⏸' : '🔊'}
+                    </button>
+                    <span className="font-bold text-sm text-gray-700 flex-shrink-0">{col.phrase}</span>
+                    <span className="text-gray-400 text-xs truncate min-w-0 flex-1">{col.meaning}</span>
                   </div>
                 ))}
               </div>
