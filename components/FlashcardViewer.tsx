@@ -339,7 +339,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
           </button>
           {/* Header: icon on the left, word/IPA/POS/meaning stacked on the right — compact instead
               of a tall fully-centered stack */}
-          <div className="w-full flex items-center gap-5 mb-4">
+          <div className="w-full flex items-center gap-5 mb-4 pr-10">
             <div className="flex-shrink-0 flex items-center justify-center">
               <WordIcon
                 word={word.word}
