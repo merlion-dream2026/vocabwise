@@ -339,7 +339,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
           </button>
           {/* Header: icon on the left, word/IPA/POS/meaning stacked on the right — compact instead
               of a tall fully-centered stack */}
-          <div className="w-full flex items-center gap-3 mb-4">
+          <div className="w-full flex items-center gap-5 mb-4">
             <div className="flex-shrink-0 flex items-center justify-center">
               <WordIcon
                 word={word.word}
@@ -451,11 +451,15 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
             </div>
           )}
 
-          {/* Collocations */}
+          {/* Collocations — collapsed by default, same accordion pattern as Giải nghĩa below,
+              so the card doesn't force a long scroll before the AI Explainer / Next button */}
           {word.collocations && word.collocations.length > 0 && (
-            <div className="w-full mt-2 bg-white border-2 border-sky-100 rounded-2xl px-3.5 py-2.5">
-              <p className="text-sm font-black text-sky-600 mb-1.5 text-left">🔗 Collocations</p>
-              <div className="flex flex-col gap-1.5">
+            <details key={word.word} className="w-full mt-2 bg-white border-2 border-sky-100 rounded-2xl overflow-hidden group">
+              <summary className="px-3.5 py-2.5 list-none cursor-pointer flex items-center justify-between">
+                <p className="text-sm font-black text-sky-600">🔗 Collocations</p>
+                <span className="text-sky-400 text-sm group-open:rotate-180 transition-transform">▾</span>
+              </summary>
+              <div className="px-3.5 pb-2.5 pt-1 flex flex-col gap-1.5">
                 {word.collocations.map((col, idx) => (
                   <div key={idx} className="bg-sky-50 rounded-xl px-2.5 py-2 text-left">
                     <div className="flex items-start gap-1.5">
@@ -473,7 +477,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
                   </div>
                 ))}
               </div>
-            </div>
+            </details>
           )}
 
           {/* AI Explainer — fetched on tap, not prefetched. key=word.word forces remount per card so it doesn't stay open with stale/empty state after Next */}
