@@ -325,7 +325,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
         <div className={`
           ${styles.cardBg} ${styles.cardBorder} border-2 rounded-3xl
           p-5 shadow-xl flex flex-col items-center text-center
-          flex-1 justify-center relative
+          flex-1 justify-start relative
         `}>
           {/* Star button */}
           <button
@@ -350,7 +350,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
               />
             </div>
             <div className="flex-1 min-w-0 text-left">
-              <div className="flex items-center gap-2 mb-0.5">
+              <div className="flex items-center flex-wrap gap-2 mb-0.5">
                 <h2 className={`text-2xl font-black ${styles.wordColor} tracking-tight break-words`}>
                   {word.word}
                 </h2>
@@ -368,16 +368,16 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
                 >
                   {speakingId === 'word' ? '⏸' : '🔊'}
                 </button>
-              </div>
 
-              {/* IPA + word class — one line, both metadata at the same weight */}
-              {(word.ipa || word.class) && (
-                <p className="text-gray-400 text-xs mb-0.5">
-                  {word.ipa && <span className="font-mono">{word.ipa}</span>}
-                  {word.ipa && word.class && <span className="mx-1.5">·</span>}
-                  {word.class && <span>{CLASS_LABEL[word.class] ?? word.class}</span>}
-                </p>
-              )}
+                {/* IPA + word class — same row, right after the speak button */}
+                {(word.ipa || word.class) && (
+                  <span className="text-gray-400 text-xs">
+                    {word.ipa && <span className="font-mono">{word.ipa}</span>}
+                    {word.ipa && word.class && <span className="mx-1.5">·</span>}
+                    {word.class && <span>{CLASS_LABEL[word.class] ?? word.class}</span>}
+                  </span>
+                )}
+              </div>
 
               {/* Vietnamese meaning */}
               <p className="text-lg font-bold text-gray-700">
