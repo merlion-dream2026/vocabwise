@@ -427,7 +427,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
                   return (
                     <div
                       key={idx}
-                      className={`flex items-center gap-2 rounded-xl px-2 py-1 ${isCurrent ? 'bg-teal-50 border border-teal-200' : ''}`}
+                      className={`flex items-start gap-2 rounded-xl px-2 py-1 ${isCurrent ? 'bg-teal-50 border border-teal-200' : ''}`}
                     >
                       <button
                         onClick={() => speak(form.word, `wf-${idx}`)}
@@ -437,13 +437,13 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
                       >
                         {speakingId === `wf-${idx}` ? '⏸' : '🔊'}
                       </button>
-                      <span className="text-xs font-bold text-gray-400 w-7 flex-shrink-0">
+                      <span className="text-xs font-bold text-gray-400 w-7 flex-shrink-0 pt-0.5">
                         {CLASS_LABEL[form.pos]?.split(' - ')[0] ?? form.pos}
                       </span>
-                      <span className={`font-bold text-sm flex-shrink-0 ${isCurrent ? 'text-teal-700' : 'text-gray-700'}`}>
+                      <span className={`font-bold text-sm flex-shrink-0 pt-0.5 ${isCurrent ? 'text-teal-700' : 'text-gray-700'}`}>
                         {form.word}
                       </span>
-                      <span className="text-gray-400 text-xs truncate">{form.meaning}</span>
+                      <span className="text-gray-400 text-xs break-words min-w-0 flex-1 pt-0.5">{form.meaning}</span>
                     </div>
                   )
                 })}
@@ -461,7 +461,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
               </summary>
               <div className="px-3.5 pb-2.5 pt-1 flex flex-col gap-1.5">
                 {word.collocations.map((col, idx) => (
-                  <div key={idx} className="flex items-center gap-1.5 bg-sky-50 rounded-xl px-2.5 py-2 text-left">
+                  <div key={idx} className="flex items-start gap-1.5 bg-sky-50 rounded-xl px-2.5 py-2 text-left">
                     <button
                       onClick={() => speak(col.phrase, `col-${idx}`)}
                       disabled={speakingId === `col-${idx}`}
@@ -470,8 +470,8 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
                     >
                       {speakingId === `col-${idx}` ? '⏸' : '🔊'}
                     </button>
-                    <span className="font-bold text-sm text-gray-700 flex-shrink-0">{col.phrase}</span>
-                    <span className="text-gray-400 text-xs truncate min-w-0 flex-1">{col.meaning}</span>
+                    <span className="font-bold text-sm text-gray-700 flex-shrink-0 pt-0.5">{col.phrase}</span>
+                    <span className="text-gray-400 text-xs break-words min-w-0 flex-1 pt-0.5">{col.meaning}</span>
                   </div>
                 ))}
               </div>
