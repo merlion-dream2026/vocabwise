@@ -54,6 +54,7 @@ export default function MyWordsPage() {
   const [activeSource, setActiveSource] = useState<'all' | 'academic' | 'kids'>('all')
   const [sort, setSort]             = useState<SortKey>('recent')
   const [search, setSearch]         = useState('')
+  const [filtersLoaded, setFiltersLoaded] = useState(false)
   const [removing, setRemoving]     = useState<Set<number>>(new Set())
   const [showGuide, setShowGuide]   = useState(false)
   const [showNewList, setShowNewList] = useState(false)
@@ -79,6 +80,35 @@ export default function MyWordsPage() {
       setLists(lData.lists ?? [])
     }).finally(() => setLoading(false))
   }, [])
+
+  // Restore filters/search/sort from the last visit — otherwise switching to another
+  // tab and back always reset this screen to its defaults.
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem('myWordsFilters')
+      if (raw) {
+        const saved = JSON.parse(raw)
+        if (saved.activeList !== undefined) setActiveList(saved.activeList)
+        if (saved.activeSource) setActiveSource(saved.activeSource)
+        if (saved.sort) setSort(saved.sort)
+        if (saved.search) setSearch(saved.search)
+      }
+    } catch { /* ignore */ }
+    setFiltersLoaded(true)
+  }, [])
+
+  // A restored `activeList` may point at a list deleted from another device/session —
+  // fall back to "Tất cả" rather than silently filtering everything out with no chip
+  // showing as active.
+  useEffect(() => {
+    if (!filtersLoaded || loading) return
+    if (activeList !== 'all' && !lists.some(l => l.id === activeList)) setActiveList('all')
+  }, [filtersLoaded, loading, lists, activeList])
+
+  useEffect(() => {
+    if (!filtersLoaded) return
+    localStorage.setItem('myWordsFilters', JSON.stringify({ activeList, activeSource, sort, search }))
+  }, [filtersLoaded, activeList, activeSource, sort, search])
 
   useEffect(() => {
     if (showNewList) setTimeout(() => inputRef.current?.focus(), 50)

@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import UpgradeBanner from '@/components/UpgradeBanner'
+import { clearNavState } from '@/components/BottomNav'
 import { useExpiryGuard, daysUntilExpiry } from '@/lib/useExpiryGuard'
 import { clearAllDownloads } from '@/lib/useOfflineDownload'
 import ReferralTab from './ReferralTab'
@@ -110,6 +111,7 @@ export default function DashboardPage() {
     await clearAllDownloads()
     await fetch('/api/auth/logout', { method: 'POST' })
     invalidateCachedFetch('/api/auth/me')
+    clearNavState()
     router.push('/login')
   }
 

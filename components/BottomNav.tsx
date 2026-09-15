@@ -55,6 +55,16 @@ const MODULE_TABS = [
   { key: 'dashboard', label: 'Dashboard',    icon: '📊', needsChild: false },
 ]
 
+// Call on logout — the per-tab "resume where I left off" paths and active-child
+// pointer are tied to whichever account was signed in, and must not leak into
+// the next account that logs in on this device.
+export function clearNavState() {
+  localStorage.removeItem('nav_child_id')
+  localStorage.removeItem('nav_child_info')
+  localStorage.removeItem('vw_active_child')
+  for (const { key } of MODULE_TABS) localStorage.removeItem(`nav_last_${key}`)
+}
+
 const DEST: Record<string, (id: string) => string> = {
   phonics:   id => `/dashboard/${id}/phonics`,
   daily:     id => `/dashboard/${id}/kids`,
@@ -88,6 +98,17 @@ export default function BottomNav() {
       const raw = localStorage.getItem('nav_child_info')
       if (raw) setChildInfo(JSON.parse(raw))
     } catch { /* ignore */ }
+
+    // Remember the last sub-path visited within each tab (e.g. which Academic book/
+    // topic or Daily level was open), so switching tabs and coming back resumes there
+    // instead of resetting to that tab's landing page. Only recorded on pages where the
+    // nav itself is shown, which naturally excludes mid-game/quiz sub-routes.
+    if (shouldShowNav(pathname)) {
+      const tab = getActiveTab(pathname, fromPath)
+      if (tab && tab !== 'profile') {
+        localStorage.setItem(`nav_last_${tab}`, pathname)
+      }
+    }
   }, [pathname])
 
   // Prefetch tab routes for instant navigation
@@ -139,16 +160,21 @@ export default function BottomNav() {
   function go(key: string) {
     if (active === key) return
     const tab = MODULE_TABS.find(t => t.key === key)!
+    const lastPath = localStorage.getItem(`nav_last_${key}`)
+
     if (tab.needsChild) {
       const id = childId
         ?? localStorage.getItem('nav_child_id')
         ?? localStorage.getItem('vw_active_child')
       if (!id) { router.replace('/kids'); return }
       if (!childId) setChildId(id)
-      router.replace(DEST[key](id))
+      // Only resume the remembered path if it belongs to this same child profile —
+      // otherwise fall back to the tab's landing page.
+      const dest = lastPath && getChildIdFromPath(lastPath) === id ? lastPath : DEST[key](id)
+      router.replace(dest)
       return
     }
-    router.replace(DEST[key](childId ?? ''))
+    router.replace(lastPath ?? DEST[key](childId ?? ''))
   }
 
   const profileActive = active === 'profile'
