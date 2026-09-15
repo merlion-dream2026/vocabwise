@@ -492,7 +492,6 @@ export default function ModuleTestPage() {
       setSavedHistory(syncData?.history ?? {})
       setPhase('intro')
     }).catch(() => router.back())
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [book, router, sessionLoaded, session])
 
   const saveScore = useCallback((total: number) => {

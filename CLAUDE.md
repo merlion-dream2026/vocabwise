@@ -2,7 +2,7 @@
 
 ## Project
 - **URL:** vocabwise.id.vn (vocabwise.vercel.app → 307 redirect)
-- **Stack:** Next.js 14 App Router · TypeScript · Tailwind CSS · Supabase · Vercel
+- **Stack:** Next.js 16 App Router (React 19) · TypeScript · Tailwind CSS · Supabase · Vercel
 - **Auth:** Custom JWT (jose, HS256) + bcrypt · cookie `vk_session` (httpOnly, secure)
 - **Email:** Gmail SMTP via nodemailer
 

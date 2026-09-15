@@ -20,7 +20,8 @@ async function verifyOwnership(childId: string, familyId: string) {
 
 // GET /api/sync/[childId]?level=xxx — single level's sync data
 // GET /api/sync/[childId]          — all levels as { level: syncData }
-export async function GET(req: NextRequest, { params }: { params: { childId: string } }) {
+export async function GET(req: NextRequest, props: { params: Promise<{ childId: string }> }) {
+  const params = await props.params;
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
@@ -59,7 +60,8 @@ export async function GET(req: NextRequest, { params }: { params: { childId: str
 }
 
 // POST /api/sync/[childId] — push sync data for a specific level
-export async function POST(req: NextRequest, { params }: { params: { childId: string } }) {
+export async function POST(req: NextRequest, props: { params: Promise<{ childId: string }> }) {
+  const params = await props.params;
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
@@ -202,7 +204,8 @@ export async function POST(req: NextRequest, { params }: { params: { childId: st
 }
 
 // PATCH /api/sync/[childId] — merge a single revision score without touching other fields
-export async function PATCH(req: NextRequest, { params }: { params: { childId: string } }) {
+export async function PATCH(req: NextRequest, props: { params: Promise<{ childId: string }> }) {
+  const params = await props.params;
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 

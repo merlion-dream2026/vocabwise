@@ -3,7 +3,7 @@
 // React Context wrapper for game/lesson sync state.
 // Call initGameSync() before each game/review, flush() at completion.
 
-import { createContext, useContext, useRef, type ReactNode } from 'react'
+import { createContext, useContext, useState, type ReactNode } from 'react'
 import { saveOfflineProgress } from './offlineStorage'
 
 export type WeakEntry = { wrong: number; correctStreak: number; lastWrong: string }
@@ -310,9 +310,8 @@ function createGameSyncApi(): GameSyncApi {
 const GameSyncContext = createContext<GameSyncApi | null>(null)
 
 export function GameSyncProvider({ children }: { children: ReactNode }) {
-  const apiRef = useRef<GameSyncApi | null>(null)
-  if (!apiRef.current) apiRef.current = createGameSyncApi()
-  return <GameSyncContext.Provider value={apiRef.current}>{children}</GameSyncContext.Provider>
+  const [api] = useState(() => createGameSyncApi())
+  return <GameSyncContext.Provider value={api}>{children}</GameSyncContext.Provider>
 }
 
 export function useGameSync(): GameSyncApi {

@@ -8,7 +8,7 @@ const TOPIC_PAGE_RE = /^\/vocabwise\/book[123]\/b[123]-t\d+$/
 // Regex: matches Daily (Kids) topic page URLs like /dashboard/<uuid>/seeker/<topicId>
 const DAILY_PAGE_RE = /^\/dashboard\/[0-9a-f-]{36}\/(seeker|starter|ranger|explorer|scholar|master)\/[^/]+$/
 
-self.addEventListener('install', e => {
+self.addEventListener('install', () => {
   self.skipWaiting()
 })
 

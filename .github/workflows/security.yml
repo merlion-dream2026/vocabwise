@@ -17,13 +17,13 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
           cache: 'npm'
       - run: npm ci
-      # Fail only on critical — remaining high-severity findings are in next@14 (Vercel-hosted,
-      # so self-hosted DoS/cache CVEs don't apply) and dev-only deps (eslint-config-next, minimatch).
-      # Nodemailer SSRF (GHSA-p6gq-j5cr-w38f) was fixed by upgrading to 9.x.
-      # Next.js major upgrade (14→16) is tracked separately.
+      # Fail only on critical — Next.js was upgraded 14->16.3.5 to close the prior critical
+      # bundle (DoS Image Optimizer, AVIF RCE, cache poisoning, request smuggling, CSP-nonce
+      # XSS, SSRF). Remaining high-severity findings are dev-only deps (vitest, eslint-config-next
+      # transitive deps) not shipped to production.
       - name: Run audit (fail on critical only)
         run: npm audit --audit-level=critical
 
@@ -34,7 +34,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
           cache: 'npm'
       - run: npm ci
       - run: npx tsc --noEmit

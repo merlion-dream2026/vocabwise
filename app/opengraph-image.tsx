@@ -1,6 +1,7 @@
 import { ImageResponse } from 'next/og'
 
-export const runtime = 'edge'
+// No `runtime = 'edge'` — Edge Runtime is deprecated as of Next 16 and ImageResponse
+// no longer requires it; this now renders on the default Node.js runtime.
 export const alt = 'VocabWise — Learn English Vocabulary'
 export const size = { width: 1200, height: 630 }
 export const contentType = 'image/png'

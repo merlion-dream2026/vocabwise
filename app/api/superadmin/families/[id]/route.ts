@@ -22,8 +22,9 @@ async function requireSuperAdmin(req: NextRequest) {
 }
 
 // PATCH /api/superadmin/families/[id] — update username, plan, disabled, email, password
-export async function PATCH(req: NextRequest, { params }: { params: { id: string } }) {
-  if (!await requireSuperAdmin(req)) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+export async function PATCH(req: NextRequest, props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
+  if (!(await requireSuperAdmin(req))) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   const body = await req.json().catch(() => ({}))
   const updates: Record<string, unknown> = {}
@@ -108,8 +109,9 @@ export async function PATCH(req: NextRequest, { params }: { params: { id: string
 }
 
 // DELETE /api/superadmin/families/[id] — delete family + all children + sync data
-export async function DELETE(req: NextRequest, { params }: { params: { id: string } }) {
-  if (!await requireSuperAdmin(req)) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+export async function DELETE(req: NextRequest, props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
+  if (!(await requireSuperAdmin(req))) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   const { data: toDelete } = await supabase.from('families').select('username').eq('id', params.id).single()
   logAudit('delete_family', params.id, toDelete?.username ?? params.id, {})

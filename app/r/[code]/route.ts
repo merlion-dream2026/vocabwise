@@ -10,10 +10,8 @@ const supabase = createClient(
  * GET /r/[code]
  * Validate referral code → set cookie → redirect to /register
  */
-export async function GET(
-  req: NextRequest,
-  { params }: { params: { code: string } }
-) {
+export async function GET(req: NextRequest, props: { params: Promise<{ code: string }> }) {
+  const params = await props.params;
   const code = params.code?.toUpperCase().trim()
   const registerUrl = new URL('/register', req.url)
 

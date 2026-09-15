@@ -11,7 +11,11 @@ const REV_ID_RE = /^r(\d{2,3})$/
 // Gated equivalent of GET /api/words/[level] for revision — returns only the 5 topics a
 // given revision number covers, never the full level file, so plan limits can't be
 // bypassed by reading the raw per-level source that revision used to fetch directly.
-export async function GET(req: NextRequest, { params }: { params: { level: string; revId: string } }) {
+export async function GET(
+  req: NextRequest,
+  props: { params: Promise<{ level: string; revId: string }> }
+) {
+  const params = await props.params;
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 

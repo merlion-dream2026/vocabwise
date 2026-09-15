@@ -9,7 +9,8 @@ const ALLOWED_LEVELS = new Set(['seeker', 'starter', 'ranger', 'explorer', 'scho
 
 // Full level file (all topics, full word content) — only used by Level Test, which is
 // Pro-only. Topic/revision pages use the slimmer, individually-gated routes instead.
-export async function GET(req: NextRequest, { params }: { params: { level: string } }) {
+export async function GET(req: NextRequest, props: { params: Promise<{ level: string }> }) {
+  const params = await props.params;
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 

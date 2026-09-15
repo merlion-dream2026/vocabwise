@@ -8,7 +8,8 @@ const supabase = createClient(
 )
 
 // POST — set or clear PIN. body: { pin: "1234" } to set, { pin: null } to clear
-export async function POST(req: NextRequest, { params }: { params: { id: string } }) {
+export async function POST(req: NextRequest, props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 

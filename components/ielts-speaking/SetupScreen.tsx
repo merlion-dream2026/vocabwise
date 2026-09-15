@@ -29,6 +29,8 @@ export default function SetupScreen({ part, onSelectPart, mode, onSelectMode, on
   const [welcomeDismissed, setWelcomeDismissed] = useState(true)
 
   useEffect(() => {
+    // localStorage is unavailable during SSR — default true (banner hidden) on first
+    // render, then correct after mount to avoid a hydration mismatch.
     setWelcomeDismissed(!!localStorage.getItem(WELCOME_KEY))
   }, [])
 
