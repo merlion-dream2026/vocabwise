@@ -212,7 +212,7 @@ export default function MyWordsPage() {
         <UpgradeModal onClose={() => setShowUpgrade(false)} username={session.username} />
       )}
       {/* Header */}
-      <div className="bg-gradient-to-r from-indigo-600 to-purple-600 px-4 pt-12 pb-5 text-white">
+      <div className="bg-gradient-to-r from-indigo-600 to-purple-600 px-4 pt-8 pb-3 text-white">
         <h1 className="text-xl font-black">⭐ Từ của tôi</h1>
         <p className="text-indigo-200 text-sm mt-0.5">
           {totalAll} từ đã lưu · {totalAcademic} Academic · {totalKids} Daily
@@ -305,7 +305,7 @@ export default function MyWordsPage() {
           <div className="flex gap-2 flex-wrap">
             <button
               onClick={() => setActiveList('all')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-black transition-all ${
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-black transition-all ${
                 activeList === 'all' ? 'bg-indigo-600 text-white' : 'bg-white border border-gray-200 text-gray-600 hover:border-indigo-300'
               }`}
             >
@@ -354,7 +354,7 @@ export default function MyWordsPage() {
                   ) : isConfirming ? (
                     <div className="flex items-center gap-1.5 bg-red-50 border border-red-200 rounded-full px-3 py-1.5">
                       <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: l.color }} />
-                      <span className="text-xs font-black text-red-700 whitespace-nowrap">Xóa &quot;{l.name}&quot;?</span>
+                      <span className="text-sm font-black text-red-700 whitespace-nowrap">Xóa &quot;{l.name}&quot;?</span>
                       <button
                         onClick={() => setConfirmDeleteList(null)}
                         className="text-[10px] font-black text-gray-500 bg-white border border-gray-200 rounded-full px-2 py-0.5 hover:bg-gray-100 transition-colors"
@@ -369,7 +369,7 @@ export default function MyWordsPage() {
                     <>
                       <button
                         onClick={() => setActiveList(isActive ? 'all' : l.id)}
-                        className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-black transition-all ${
+                        className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-black transition-all ${
                           isActive ? 'text-white' : 'bg-white border border-gray-200 text-gray-600 hover:border-indigo-300'
                         }`}
                         style={isActive ? { backgroundColor: l.color } : {}}
