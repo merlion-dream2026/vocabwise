@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import PinGate from '@/components/PinGate'
 import UpgradeBanner from '@/components/UpgradeBanner'
+import { clearNavState } from '@/components/BottomNav'
 import { useExpiryGuard, daysUntilExpiry } from '@/lib/useExpiryGuard'
 import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
@@ -68,6 +69,7 @@ export default function HomePage() {
   async function logout() {
     await fetch('/api/auth/logout', { method: 'POST' })
     invalidateCachedFetch('/api/auth/me')
+    clearNavState()
     router.push('/login')
   }
 
