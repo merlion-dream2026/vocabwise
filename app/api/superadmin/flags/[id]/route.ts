@@ -13,8 +13,9 @@ async function requireSuperAdmin(req: NextRequest) {
 }
 
 /** PATCH /api/superadmin/flags/[id] — mark flag as reviewed */
-export async function PATCH(req: NextRequest, { params }: { params: { id: string } }) {
-  if (!await requireSuperAdmin(req)) {
+export async function PATCH(req: NextRequest, props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
+  if (!(await requireSuperAdmin(req))) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
 

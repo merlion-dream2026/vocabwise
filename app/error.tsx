@@ -18,6 +18,10 @@ export default function Error({ error, reset }: { error: Error & { digest?: stri
           >
             Thử lại
           </button>
+          {/* Plain <a>, not next/link: this boundary can fire from corrupted client-side
+              state, so recovery needs a full page reload rather than a client transition
+              through the same broken runtime. */}
+          {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
           <a
             href="/"
             className="bg-gray-100 text-gray-700 font-black px-5 py-3 rounded-2xl active:scale-95 transition-transform"

@@ -171,7 +171,6 @@ export function AdminPanel() {
       events.forEach(e => window.removeEventListener(e, resetIdle))
       clearInterval(timer)
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const displayed = families

@@ -20,7 +20,8 @@ async function ownedByFamily(childId: string, familyId: string) {
 // GET /api/children/[id] — single child, scoped to session's family.
 // Used by Daily topic/game pages instead of fetching the full /api/children list
 // just to find one child by id.
-export async function GET(req: NextRequest, { params }: { params: { id: string } }) {
+export async function GET(req: NextRequest, props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
@@ -36,10 +37,11 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
 }
 
 // PATCH /api/children/[id] — edit name, emoji, level
-export async function PATCH(req: NextRequest, { params }: { params: { id: string } }) {
+export async function PATCH(req: NextRequest, props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
-  if (!await ownedByFamily(params.id, session.familyId)) return NextResponse.json({ error: 'Not found' }, { status: 404 })
+  if (!(await ownedByFamily(params.id, session.familyId))) return NextResponse.json({ error: 'Not found' }, { status: 404 })
 
   const { name, emoji, level, theme } = await req.json().catch(() => ({}))
   const updates: Record<string, unknown> = {}
@@ -60,10 +62,11 @@ export async function PATCH(req: NextRequest, { params }: { params: { id: string
 }
 
 // DELETE /api/children/[id]
-export async function DELETE(req: NextRequest, { params }: { params: { id: string } }) {
+export async function DELETE(req: NextRequest, props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
-  if (!await ownedByFamily(params.id, session.familyId)) return NextResponse.json({ error: 'Not found' }, { status: 404 })
+  if (!(await ownedByFamily(params.id, session.familyId))) return NextResponse.json({ error: 'Not found' }, { status: 404 })
 
   const { error } = await supabase.from('children').delete().eq('id', params.id)
   if (error) return NextResponse.json({ error: 'Lỗi hệ thống' }, { status: 500 })

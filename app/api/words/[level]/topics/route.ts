@@ -15,7 +15,8 @@ type LevelFile = { label: string; emoji: string; color: string; description: str
 // the heaviest fields). The level page needs `word` for seen/weak/total counts; SRS
 // review (ReviewSession.tsx) needs word+meaning+emoji to build MCQ distractor choices —
 // this single shared shape covers both without either fetching the full ~190KB level file.
-export async function GET(req: NextRequest, { params }: { params: { level: string } }) {
+export async function GET(req: NextRequest, props: { params: Promise<{ level: string }> }) {
+  const params = await props.params;
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 

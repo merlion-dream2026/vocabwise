@@ -145,7 +145,7 @@ export default function ShadowingGame({ lesson, childId: _childId, backUrl, grad
       }
     }
     rec.stop()
-  }, [current]) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [current])
 
   // Play TTS then auto-record
   const playSentence = useCallback(async () => {

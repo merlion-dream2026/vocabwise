@@ -13,7 +13,8 @@ const supabase = createClient(
 // at the cheaper cost so the family's next tap is fast too.
 const LEGACY_PIN_COST = 8
 
-export async function POST(req: NextRequest, { params }: { params: { id: string } }) {
+export async function POST(req: NextRequest, props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
   const session = await getSession(req)
   if (!session) return NextResponse.json({ ok: false }, { status: 401 })
 

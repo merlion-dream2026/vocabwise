@@ -2,7 +2,11 @@ import { NextRequest, NextResponse } from 'next/server'
 import { getSession } from '@/lib/auth'
 import storiesData from '@/data/stories.json'
 
-export async function GET(req: NextRequest, { params }: { params: { level: string; topicId: string } }) {
+export async function GET(
+  req: NextRequest,
+  props: { params: Promise<{ level: string; topicId: string }> }
+) {
+  const params = await props.params;
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 

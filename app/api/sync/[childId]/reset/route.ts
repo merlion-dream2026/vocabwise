@@ -8,7 +8,8 @@ const supabase = createClient(
 )
 
 // POST /api/sync/[childId]/reset — wipe progress for a child
-export async function POST(req: NextRequest, { params }: { params: { childId: string } }) {
+export async function POST(req: NextRequest, props: { params: Promise<{ childId: string }> }) {
+  const params = await props.params;
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 

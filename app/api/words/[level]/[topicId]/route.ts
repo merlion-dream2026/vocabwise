@@ -9,7 +9,11 @@ const ALLOWED_LEVELS = new Set(['seeker', 'starter', 'ranger', 'explorer', 'scho
 // Topic ids are slugs like "family-home" — reject anything else before touching the filesystem.
 const TOPIC_ID_RE = /^[a-z0-9-]+$/
 
-export async function GET(req: NextRequest, { params }: { params: { level: string; topicId: string } }) {
+export async function GET(
+  req: NextRequest,
+  props: { params: Promise<{ level: string; topicId: string }> }
+) {
+  const params = await props.params;
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 

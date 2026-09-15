@@ -121,6 +121,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
       audioRef.current?.pause()
       audioRef.current = null
       window.speechSynthesis?.cancel()
+      // Syncs `speaking` back to the external audio/speechSynthesis system we just stopped.
       setSpeaking(false)
     }
   }, [tab])

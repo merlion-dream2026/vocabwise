@@ -13,8 +13,9 @@ async function requireSuperAdmin(req: NextRequest) {
 }
 
 // GET /api/superadmin/families/[id]/email-log
-export async function GET(req: NextRequest, { params }: { params: { id: string } }) {
-  if (!await requireSuperAdmin(req)) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+export async function GET(req: NextRequest, props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
+  if (!(await requireSuperAdmin(req))) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   const { data, error } = await supabase
     .from('email_log')

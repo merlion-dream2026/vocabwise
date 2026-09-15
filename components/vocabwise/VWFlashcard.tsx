@@ -1,5 +1,5 @@
 'use client'
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useMemo } from 'react'
 import { speak } from '@/lib/speak'
 
 type GlossaryItem = {
@@ -20,7 +20,7 @@ type Props = {
 }
 
 export default function VWFlashcard({ glossary, onExit }: Props) {
-  const cards = glossary.filter(i => i.type !== 'collocation' && i.word)
+  const cards = useMemo(() => glossary.filter(i => i.type !== 'collocation' && i.word), [glossary])
   const total  = cards.length
 
   const [idx,     setIdx]     = useState(0)

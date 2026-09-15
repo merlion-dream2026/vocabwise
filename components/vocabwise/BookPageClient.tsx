@@ -94,6 +94,8 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
 
   useEffect(() => {
     const saved = localStorage.getItem('academicViewMode') as 'grid' | 'list' | null
+    // localStorage is unavailable during SSR — correct the view mode after mount
+    // rather than in the initializer, to avoid a hydration mismatch.
     if (saved) setViewMode(saved)
   }, [])
 
@@ -104,6 +106,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
       const raw = localStorage.getItem(`revision_${book}_${rid}`)
       if (raw) { try { scores[rid] = JSON.parse(raw) } catch {} }
     }
+    // Same as above: revision scores live in localStorage, unreadable during SSR.
     setRevScores(scores)
   }, [book])
 

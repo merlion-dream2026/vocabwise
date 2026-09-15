@@ -95,7 +95,6 @@ export default function LandingVideoGallery() {
               <p className="text-white font-black text-sm">{VIDEOS[activeIdx].title}</p>
               <button onClick={() => setActiveIdx(null)} className={`text-white/70 hover:text-white font-black text-sm ml-4 flex-shrink-0 rounded ${FOCUS_RING} focus-visible:ring-offset-black`}>✕ Đóng</button>
             </div>
-            {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
             <video key={activeIdx} src={VIDEOS[activeIdx].src} controls autoPlay playsInline
               className="w-full rounded-[24px] shadow-2xl border-[3px] border-gray-700"
               style={{ maxHeight: '90dvh' }} />

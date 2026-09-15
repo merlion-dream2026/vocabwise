@@ -143,7 +143,6 @@ export default function LevelPage() {
       setLevels(phonicsData.levels)
       setLoading(false)
     })
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [childId, levelId])
 
   useEffect(() => {

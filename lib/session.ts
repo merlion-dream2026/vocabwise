@@ -31,7 +31,7 @@ export async function getSession(req?: NextRequest): Promise<SessionPayload | nu
       token = req.cookies.get(COOKIE_NAME)?.value
     } else {
       const { cookies } = await import('next/headers')
-      token = cookies().get(COOKIE_NAME)?.value
+      token = (await cookies()).get(COOKIE_NAME)?.value
     }
     if (!token) return null
     const { payload } = await jwtVerify(token, JWT_SECRET, { algorithms: ['HS256'] })
@@ -74,7 +74,7 @@ export async function getAdminSession(req?: NextRequest): Promise<SessionPayload
       token = req.cookies.get(ADMIN_COOKIE_NAME)?.value
     } else {
       const { cookies } = await import('next/headers')
-      token = cookies().get(ADMIN_COOKIE_NAME)?.value
+      token = (await cookies()).get(ADMIN_COOKIE_NAME)?.value
     }
     if (!token) return null
     const { payload } = await jwtVerify(token, JWT_SECRET, { algorithms: ['HS256'] })

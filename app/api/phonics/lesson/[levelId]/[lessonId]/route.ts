@@ -8,7 +8,11 @@ import phonicsKnowledge from '@/data/phonicsKnowledge.json'
 type Level  = typeof phonicsLevels.levels[number]
 type Lesson = Level['lessons'][number]
 
-export async function GET(req: NextRequest, { params }: { params: { levelId: string; lessonId: string } }) {
+export async function GET(
+  req: NextRequest,
+  props: { params: Promise<{ levelId: string; lessonId: string }> }
+) {
+  const params = await props.params;
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
