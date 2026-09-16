@@ -306,7 +306,12 @@ const SPEAK_MAX_SECS = 8
 
 function SpeakRound({ questions, accentCls, onDone }: { questions: SpeakQuestion[]; accentCls: string; onDone: (s: number) => void }) {
   const [idx, setIdx]     = useState(0)
-  const [score, setScore] = useState(0)
+  // Per-question result (not a running counter) so tapping "Thử lại" and re-recording
+  // an already-correct question overwrites its result instead of adding another point —
+  // previously each retry that landed correct kept incrementing score with no cap, so a
+  // handful of retries could push the round (and the level-test total) past its max.
+  const [results, setResults] = useState<Record<number, boolean>>({})
+  const score = Object.values(results).filter(Boolean).length
   const [phase, setPhase] = useState<'idle' | 'recording' | 'processing' | 'done'>('idle')
   const [transcript, setTranscript] = useState('')
   const [isCorrect, setIsCorrect]   = useState<boolean | null>(null)
@@ -392,7 +397,8 @@ function SpeakRound({ questions, accentCls, onDone }: { questions: SpeakQuestion
       setUnclear(isUnclear)
       setPhase('done')
       if (!isUnclear) {
-        if (correct) { setScore(s => s + 1); playCorrectSound() } else { playWrongSound() }
+        setResults(prev => ({ ...prev, [idx]: correct }))
+        if (correct) playCorrectSound(); else playWrongSound()
       }
     } catch {
       setMicError('Lỗi kết nối. Bấm Thử lại.')
@@ -405,7 +411,7 @@ function SpeakRound({ questions, accentCls, onDone }: { questions: SpeakQuestion
     if (mediaRecorderRef.current?.state === 'recording') mediaRecorderRef.current.stop()
     stopStream()
     if (idx + 1 < total) setIdx(i => i + 1)
-    else onDone(score) // score already incremented in scoreAudio
+    else onDone(score) // score is derived from results, already up to date
   }
 
   return (
