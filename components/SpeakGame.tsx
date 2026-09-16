@@ -181,6 +181,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
       fd.append('audio', new File([blob], `rec.${ext}`, { type: mimeType }))
       fd.append('target', speakTarget)
       fd.append('word', q.word)
+      fd.append('level', level)
 
       const res = await fetch('/api/score-pronunciation', { method: 'POST', body: fd })
       if (!res.ok) throw new Error(await res.text())

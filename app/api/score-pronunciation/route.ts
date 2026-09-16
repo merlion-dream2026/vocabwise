@@ -34,7 +34,7 @@ function isEnglishLike(s: string): boolean {
   return /[a-zA-Z]/.test(s)
 }
 
-function isCorrect(transcript: string, target: string, word: string, contrastWords: string[]): boolean {
+function isCorrect(transcript: string, target: string, word: string, contrastWords: string[], threshold: number): boolean {
   const t   = normalize(transcript)
   const tgt = normalize(target)
   const w   = normalize(word)
@@ -59,7 +59,7 @@ function isCorrect(transcript: string, target: string, word: string, contrastWor
   // 3. Single-word target: keyword present = sufficient
   if (tgtWords.length === 1) return true
 
-  // 4. Sentence: keyword correct + ≥70% of ALL target words present (soundex-tolerant, any order)
+  // 4. Sentence: keyword correct + ≥threshold of ALL target words present (soundex-tolerant, any order)
   let matched = 0
   const used = new Set<number>()
   for (const tw of tgtWords) {
@@ -69,7 +69,14 @@ function isCorrect(transcript: string, target: string, word: string, contrastWor
       }
     }
   }
-  return matched / tgtWords.length >= 0.7
+  return matched / tgtWords.length >= threshold
+}
+
+// Scholar/Master learners are expected to pronounce more precisely (IELTS-track);
+// everyone else (Seeker..Explorer, and any caller that doesn't send a Daily level,
+// e.g. Phonics) keeps the original, more forgiving threshold.
+function matchThreshold(level: string): number {
+  return level === 'scholar' || level === 'master' ? 0.8 : 0.7
 }
 
 export async function POST(req: NextRequest) {
@@ -99,6 +106,7 @@ export async function POST(req: NextRequest) {
   const audio          = formData.get('audio')  as File   | null
   const target         = (formData.get('target')        as string | null) ?? ''
   const word           = (formData.get('word')          as string | null) ?? ''
+  const level          = (formData.get('level')         as string | null) ?? ''
   const contrastRaw    = (formData.get('contrastWords') as string | null) ?? ''
   const contrastWords  = contrastRaw ? contrastRaw.split(',').map(s => s.trim()).filter(Boolean) : []
   if (!audio || !target || !word) {
@@ -157,7 +165,7 @@ export async function POST(req: NextRequest) {
   // Nếu transcript chứa ký tự non-ASCII → Whisper hallucinate sang ngôn ngữ khác
   // → báo unclear thay vì sai (không phải lỗi của bé)
   const unclear = !isEnglishLike(transcript)
-  const correct = unclear ? false : isCorrect(transcript, target, word, contrastWords)
+  const correct = unclear ? false : isCorrect(transcript, target, word, contrastWords, matchThreshold(level))
 
   return NextResponse.json({ transcript, correct, unclear })
 }

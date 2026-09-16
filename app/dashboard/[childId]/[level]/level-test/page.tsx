@@ -304,7 +304,7 @@ function getBestMime() {
 }
 const SPEAK_MAX_SECS = 8
 
-function SpeakRound({ questions, accentCls, onDone }: { questions: SpeakQuestion[]; accentCls: string; onDone: (s: number) => void }) {
+function SpeakRound({ questions, accentCls, level, onDone }: { questions: SpeakQuestion[]; accentCls: string; level: string; onDone: (s: number) => void }) {
   const [idx, setIdx]     = useState(0)
   // Per-question result (not a running counter) so tapping "Thử lại" and re-recording
   // an already-correct question overwrites its result instead of adding another point —
@@ -317,6 +317,7 @@ function SpeakRound({ questions, accentCls, onDone }: { questions: SpeakQuestion
   const [isCorrect, setIsCorrect]   = useState<boolean | null>(null)
   const [unclear, setUnclear]       = useState(false)
   const [micError, setMicError]     = useState<string | null>(null)
+  const [playbackUrl, setPlaybackUrl] = useState<string | null>(null)
   const [timeLeft, setTimeLeft]     = useState(SPEAK_MAX_SECS)
 
   const mediaRecorderRef = useRef<MediaRecorder | null>(null)
@@ -340,11 +341,13 @@ function SpeakRound({ questions, accentCls, onDone }: { questions: SpeakQuestion
   useEffect(() => {
     setPhase('idle'); setTranscript(''); setIsCorrect(null); setUnclear(false)
     setMicError(null); setTimeLeft(SPEAK_MAX_SECS)
+    setPlaybackUrl(prev => { if (prev) URL.revokeObjectURL(prev); return null })
     return () => { clearTimers(); window.speechSynthesis?.cancel() }
   }, [idx, clearTimers])
 
   const startRecording = async () => {
     setMicError(null)
+    setPlaybackUrl(prev => { if (prev) URL.revokeObjectURL(prev); return null })
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true })
       streamRef.current = stream
@@ -355,6 +358,7 @@ function SpeakRound({ questions, accentCls, onDone }: { questions: SpeakQuestion
       mr.onstop = async () => {
         stopStream()
         const blob = new Blob(chunksRef.current, { type: mimeType })
+        setPlaybackUrl(URL.createObjectURL(blob))
         await scoreAudio(blob, mimeType)
       }
       mr.start()
@@ -387,6 +391,7 @@ function SpeakRound({ questions, accentCls, onDone }: { questions: SpeakQuestion
       fd.append('audio', new File([blob], `rec.${ext}`, { type: mimeType }))
       fd.append('target', q.target)
       fd.append('word', q.word)
+      fd.append('level', level)
       const res = await fetch('/api/score-pronunciation', { method: 'POST', body: fd })
       if (!res.ok) throw new Error(await res.text())
       const data = await res.json()
@@ -478,6 +483,12 @@ function SpeakRound({ questions, accentCls, onDone }: { questions: SpeakQuestion
                   </>
               }
             </div>
+            {playbackUrl && (
+              <button onClick={() => new Audio(playbackUrl).play()}
+                className="w-full bg-white border-2 border-gray-100 text-gray-500 font-bold text-sm py-2.5 rounded-2xl flex items-center justify-center gap-2 active:scale-95 transition-all">
+                ▶️ Nghe lại giọng của bạn
+              </button>
+            )}
             <div className="flex gap-3">
               <button onClick={() => setPhase('idle')} className="flex-1 bg-white border-2 border-gray-100 text-gray-500 font-bold py-3 rounded-2xl active:scale-95 transition-all">🔄 Thử lại</button>
               <button onClick={advance} className={`flex-1 font-black py-3 rounded-2xl shadow-md text-white active:scale-95 transition-all ${accentCls}`}>
@@ -725,7 +736,7 @@ export default function LevelTestPage() {
               <span className="text-lg">🎤</span>
               <div><p className="font-black text-gray-700 text-sm">Round 4 — Nói</p><p className="text-xs text-gray-400">Nghe và nói lại, AI chấm điểm</p></div>
             </div>
-            <SpeakRound questions={questions.speak} accentCls={colors.accent} onDone={s => {
+            <SpeakRound questions={questions.speak} accentCls={colors.accent} level={level} onDone={s => {
               setSpeakScore(s)
               const final = mcqScore + fibScore + match1Score + match2Score + s
               saveScore(final)
