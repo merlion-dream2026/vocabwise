@@ -6,6 +6,7 @@ import { useGameSync } from '@/lib/GameSyncContext'
 import { saveStepScore } from '@/lib/stepScores'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
+import GameResultScreen from '@/components/GameResultScreen'
 
 
 type Word = { word: string; meaning: string; emoji: string; examples: { en: string; vi: string }[] }
@@ -112,7 +113,6 @@ export default function GapFillGame({ topic, level, backUrl }: Props) {
   }
 
   if (done) {
-    const pct = Math.round((score / total) * 100)
     const xpEarned = Math.round(score * 1.5)
     return (
       <div className="flex flex-col min-h-screen">
@@ -127,29 +127,10 @@ export default function GapFillGame({ topic, level, backUrl }: Props) {
           </div>
         </div>
         <div className="flex-1 bg-gradient-to-b from-purple-50 to-pink-50 flex flex-col items-center justify-center px-4 py-8">
-          <div className="text-7xl mb-4">{score === total ? '🏆' : score >= total * 0.7 ? '⭐' : '💪'}</div>
-          <h2 className="text-3xl font-black text-gray-800 mb-2">Hoàn thành!</h2>
-          <p className="text-gray-500 font-bold text-lg mb-1">{score}/{total} câu đúng ({pct}%)</p>
-          <div className="inline-flex items-center gap-1.5 bg-yellow-50 border border-yellow-200 rounded-full px-4 py-1.5 mb-4">
-            <span className="text-base">⭐</span>
-            <span className="text-yellow-700 font-black text-sm">+{xpEarned} XP</span>
-          </div>
-          {wrongWords.length > 0 && (
-            <div className="mt-0 w-full bg-white rounded-2xl border-2 border-orange-200 p-4 mb-4">
-              <p className="text-orange-600 font-black text-sm mb-2">⚠️ Cần ôn lại:</p>
-              <div className="flex flex-wrap gap-2">
-                {wrongWords.map((w) => (
-                  <span key={w} className="bg-orange-100 text-orange-700 font-bold px-3 py-1 rounded-full text-sm">{w}</span>
-                ))}
-              </div>
-            </div>
-          )}
-          <div className="w-full space-y-3 mt-2">
-            <button onClick={restart} className={`w-full ${styles.finishBg} text-white font-black text-xl py-4 rounded-2xl shadow-lg transition-colors`}>
-              🔄 Chơi lại
-            </button>
-            <button onClick={() => router.push(backUrl)} className="w-full bg-white border-2 border-gray-200 text-gray-600 font-bold text-xl py-4 rounded-2xl text-center">← Chọn chế độ khác</button>
-          </div>
+          <GameResultScreen
+            score={score} total={total} xpEarned={xpEarned} wrongWords={wrongWords}
+            accentCls={styles.finishBg} onRestart={restart} onExit={() => router.push(backUrl)}
+          />
         </div>
       </div>
     )

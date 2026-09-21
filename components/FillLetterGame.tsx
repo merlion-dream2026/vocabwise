@@ -7,6 +7,7 @@ import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
 import WordIcon from '@/components/WordIcon'
+import GameResultScreen from '@/components/GameResultScreen'
 
 type Word = { word: string; meaning: string; emoji: string }
 type Topic = { id: string; name: string; emoji: string; color: string; words: Word[] }
@@ -61,7 +62,7 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
 
   useEffect(() => {
     if (done) {
-      addScore(level, score * 2)
+      addScore(level, Math.round(score * 1.5))
       if (score === total) { recordPerfectGame(level, topic.id, 'fillletter'); setShowConfetti(true) }
       flush()
     }
@@ -113,11 +114,10 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
   }
 
   if (done) {
-    const pct = Math.round((score / total) * 100)
-    const xpEarned = score * 2
+    const xpEarned = Math.round(score * 1.5)
     return (
       <div className="flex flex-col min-h-screen">
-        {showConfetti && <Confetti />}
+        {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
         <div className="bg-gradient-to-br from-orange-400 to-amber-500 px-4 pt-6 pb-4 text-white">
           <div className="flex items-center gap-3">
             <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-orange-100 text-xl flex-shrink-0">←</button>
@@ -128,25 +128,10 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
           </div>
         </div>
         <div className="flex-1 bg-gradient-to-b from-orange-50 to-amber-50 flex flex-col items-center justify-center px-4 py-8">
-          <div className="text-7xl mb-4">{score === total ? '🏆' : score >= total * 0.7 ? '⭐' : '💪'}</div>
-          <h2 className="text-3xl font-black text-gray-800 mb-1">{score}/{total} chính xác</h2>
-          <p className="text-gray-500 font-bold text-xl mb-2">{pct}%</p>
-          <div className="inline-flex items-center gap-1.5 bg-yellow-50 border border-yellow-200 rounded-full px-4 py-1.5 mb-4">
-            <span className="text-base">⭐</span>
-            <span className="text-yellow-700 font-black text-sm">+{xpEarned} XP</span>
-          </div>
-          {wrongWords.length > 0 && (
-            <div className="bg-orange-50 border-2 border-orange-200 rounded-2xl px-4 py-3 mb-6 w-full">
-              <p className="text-orange-700 font-bold text-sm mb-2">📝 Cần ôn thêm:</p>
-              <div className="flex flex-wrap gap-2">
-                {wrongWords.map(w => <span key={w} className="bg-orange-100 text-orange-700 font-bold text-sm px-3 py-1 rounded-full">{w}</span>)}
-              </div>
-            </div>
-          )}
-          <div className="w-full space-y-3">
-            <button onClick={restart} className="w-full bg-orange-500 text-white font-black text-xl py-4 rounded-2xl shadow-lg">🔄 Chơi lại</button>
-            <button onClick={() => router.push(backUrl)} className="w-full bg-white border-2 border-gray-200 text-gray-600 font-bold text-xl py-4 rounded-2xl">← Chọn chế độ khác</button>
-          </div>
+          <GameResultScreen
+            score={score} total={total} xpEarned={xpEarned} wrongWords={wrongWords}
+            accentCls="bg-orange-500" onRestart={restart} onExit={() => router.push(backUrl)}
+          />
         </div>
       </div>
     )

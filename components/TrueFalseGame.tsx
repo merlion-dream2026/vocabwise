@@ -6,6 +6,7 @@ import { useGameSync } from '@/lib/GameSyncContext'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
+import GameResultScreen from '@/components/GameResultScreen'
 
 
 type Word = { word: string; meaning: string; emoji: string }
@@ -41,6 +42,7 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
   const [idx, setIdx] = useState(0)
   const [result, setResult] = useState<'idle' | 'correct' | 'wrong'>('idle')
   const [score, setScore] = useState(0)
+  const [wrongWords, setWrongWords] = useState<string[]>([])
   const [done, setDone] = useState(false)
   const [showConfetti, setShowConfetti] = useState(false)
   const [timeLeft, setTimeLeft] = useState(TIME_PER_Q)
@@ -59,7 +61,7 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
   }, [clearTimer])
 
   useEffect(() => {
-    if (done) { addScore(level, score); if (score === total) { recordPerfectGame(level, topic.id, 'truefalse'); setShowConfetti(true) }; flush() }
+    if (done) { addScore(level, Math.round(score * 1.5)); if (score === total) { recordPerfectGame(level, topic.id, 'truefalse'); setShowConfetti(true) }; flush() }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [done])
 
@@ -76,6 +78,7 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
       clearTimer()
       setResult('wrong')
       recordAnswer(level, topic.id, round.word, false)
+      setWrongWords(ww => ww.includes(round.word.word) ? ww : [...ww, round.word.word])
       playWrongSound()
       setTimeout(() => advance(idx), 1200)
     }
@@ -96,18 +99,21 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
     const correct = userSaysTrue === round.isCorrect
     setResult(correct ? 'correct' : 'wrong')
     if (correct) { setScore(s => s + 1); recordAnswer(level, topic.id, round.word, true); speak(round.word.word); playCorrectSound() }
-    else { recordAnswer(level, topic.id, round.word, false); playWrongSound() }
+    else {
+      recordAnswer(level, topic.id, round.word, false)
+      setWrongWords(ww => ww.includes(round.word.word) ? ww : [...ww, round.word.word])
+      playWrongSound()
+    }
     setTimeout(() => advance(idx), 1100)
   }
 
-  const restart = () => { clearTimer(); setIdx(0); setResult('idle'); setScore(0); setDone(false); setShowConfetti(false) }
+  const restart = () => { clearTimer(); setIdx(0); setResult('idle'); setScore(0); setWrongWords([]); setDone(false); setShowConfetti(false) }
 
   if (done) {
-    const pct = Math.round((score / total) * 100)
-    const xpEarned = score
+    const xpEarned = Math.round(score * 1.5)
     return (
       <div className="flex flex-col min-h-screen">
-        {showConfetti && <Confetti />}
+        {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
         <div className="bg-gradient-to-br from-green-400 to-emerald-500 px-4 pt-6 pb-4 text-white">
           <div className="flex items-center gap-3">
             <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-green-100 text-xl flex-shrink-0">←</button>
@@ -118,17 +124,10 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
           </div>
         </div>
         <div className="flex-1 bg-gradient-to-b from-green-50 to-emerald-50 flex flex-col items-center justify-center px-4 py-8">
-          <div className="text-7xl mb-4">{score === total ? '🏆' : score >= total * 0.7 ? '⭐' : '💪'}</div>
-          <h2 className="text-3xl font-black text-gray-800 mb-1">{score}/{total} chính xác</h2>
-          <p className="text-gray-500 font-bold text-xl mb-2">{pct}%</p>
-          <div className="inline-flex items-center gap-1.5 bg-yellow-50 border border-yellow-200 rounded-full px-4 py-1.5 mb-6">
-            <span className="text-base">⭐</span>
-            <span className="text-yellow-700 font-black text-sm">+{xpEarned} XP</span>
-          </div>
-          <div className="w-full space-y-3">
-            <button onClick={restart} className="w-full bg-green-500 text-white font-black text-xl py-4 rounded-2xl shadow-lg">🔄 Chơi lại</button>
-            <button onClick={() => router.push(backUrl)} className="w-full bg-white border-2 border-gray-200 text-gray-600 font-bold text-xl py-4 rounded-2xl">← Chọn chế độ khác</button>
-          </div>
+          <GameResultScreen
+            score={score} total={total} xpEarned={xpEarned} wrongWords={wrongWords}
+            accentCls="bg-green-500" onRestart={restart} onExit={() => router.push(backUrl)}
+          />
         </div>
       </div>
     )
