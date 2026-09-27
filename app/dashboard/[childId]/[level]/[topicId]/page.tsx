@@ -446,7 +446,7 @@ export default function TopicPage() {
                     {mastery.flashcard ? '✅' : '📖'} Flashcard
                   </span>
                   <span className={mastery.games.length >= 3 ? 'text-green-600' : 'text-gray-400'}>
-                    {'⭐'.repeat(mastery.games.length)}{'☆'.repeat(Math.max(0, 3 - mastery.games.length))} {mastery.games.length}/3 game
+                    {'⭐'.repeat(Math.min(3, mastery.games.length))}{'☆'.repeat(Math.max(0, 3 - mastery.games.length))} {Math.min(3, mastery.games.length)}/3 game
                   </span>
                 </div>
               </div>
