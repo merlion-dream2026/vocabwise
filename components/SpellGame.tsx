@@ -77,14 +77,23 @@ export default function SpellGame({ topic, level, backUrl }: Props) {
   }
 
   const tapTile = (tile: Tile) => {
-    if (tile.used || result !== 'idle') return
-    const newAnswer = [...answer, { id: tile.id, letter: tile.letter }]
-    setAnswer(newAnswer)
+    if (tile.used || result !== 'idle' || answer.length >= target.length) return
+    setAnswer((prev) => [...prev, { id: tile.id, letter: tile.letter }])
     setTiles((prev) => prev.map((t) => (t.id === tile.id ? { ...t, used: true } : t)))
+  }
 
-    if (newAnswer.length < target.length) return
+  // Tap any filled slot to send that specific letter back to the tile bank — replaces the old
+  // "Xóa" (delete-last-only) button, which only let you undo in strict reverse order.
+  const tapSlot = (slotIdx: number) => {
+    if (result !== 'idle' || slotIdx >= answer.length) return
+    const removed = answer[slotIdx]
+    setAnswer((prev) => prev.filter((_, i) => i !== slotIdx))
+    setTiles((prev) => prev.map((t) => (t.id === removed.id ? { ...t, used: false } : t)))
+  }
 
-    const typed = newAnswer.map((a) => a.letter).join('')
+  const checkAnswer = () => {
+    if (result !== 'idle' || answer.length < target.length) return
+    const typed = answer.map((a) => a.letter).join('')
     if (typed === target) {
       setResult('correct')
       setScore((s) => s + 1)
@@ -97,19 +106,8 @@ export default function SpellGame({ topic, level, backUrl }: Props) {
       recordAnswer(level, topic.id, word, false)
       setWrongWords((ww) => (ww.includes(word.word) ? ww : [...ww, word.word]))
       playWrongSound()
-      setTimeout(() => {
-        setTiles(buildTiles(word.word))
-        setAnswer([])
-        setResult('idle')
-      }, 900)
+      // No auto-retry/auto-advance — reveal the correct spelling, learner taps "Tiếp theo →" themselves.
     }
-  }
-
-  const deleteLast = () => {
-    if (answer.length === 0 || result !== 'idle') return
-    const last = answer[answer.length - 1]
-    setAnswer((prev) => prev.slice(0, -1))
-    setTiles((prev) => prev.map((t) => (t.id === last.id ? { ...t, used: false } : t)))
   }
 
   const restart = () => {
@@ -201,15 +199,17 @@ export default function SpellGame({ topic, level, backUrl }: Props) {
             🔊
           </button>
 
-          {/* Answer slots */}
+          {/* Answer slots — tap a filled slot to send that letter back to the tile bank */}
           <div className={`flex gap-2 mb-7 flex-wrap justify-center ${result === 'wrong' ? 'shake' : ''}`}>
             {target.split('').map((_, i) => (
-              <div
+              <button
                 key={i}
+                onClick={() => tapSlot(i)}
+                disabled={!answer[i] || result !== 'idle'}
                 className={`w-11 h-11 rounded-xl border-2 flex items-center justify-center font-black text-lg transition-all duration-200 ${slotStyle}`}
               >
                 {answer[i]?.letter ?? ''}
-              </div>
+              </button>
             ))}
           </div>
 
@@ -231,19 +231,32 @@ export default function SpellGame({ topic, level, backUrl }: Props) {
             ))}
           </div>
 
-          {/* Delete */}
-          <button
-            onClick={deleteLast}
-            disabled={answer.length === 0 || result !== 'idle'}
-            className="bg-gray-100 hover:bg-gray-200 text-gray-500 font-black px-6 py-2.5 rounded-2xl text-base disabled:opacity-40 active:scale-95 transition-all"
-          >
-            ⌫ Xóa
-          </button>
+          {result === 'idle' && (
+            <button
+              onClick={checkAnswer}
+              disabled={answer.length < target.length}
+              className="bg-pink-600 disabled:bg-pink-200 text-white font-black px-8 py-3 rounded-2xl text-base shadow-md active:scale-95 transition-all"
+            >
+              Kiểm tra ✓
+            </button>
+          )}
 
           <div role="status" aria-live="polite">
             {result === 'correct' && <p className="mt-5 text-green-500 font-black text-2xl">✅ Đúng rồi!</p>}
-            {result === 'wrong'   && <p className="mt-5 text-red-500 font-black text-xl">❌ Thử lại nào!</p>}
+            {result === 'wrong'   && (
+              <p className="mt-5 text-red-500 font-black text-xl">❌ Đáp án đúng: <span className="underline">{word.word}</span></p>
+            )}
           </div>
+
+          {/* Wrong answer: no auto-retry — learner reviews the correct spelling above, then taps Tiếp theo */}
+          {result === 'wrong' && (
+            <button
+              onClick={() => advance(idx, words)}
+              className="mt-3 bg-pink-600 text-white font-black px-8 py-3 rounded-2xl text-base shadow-md active:scale-95 transition-all"
+            >
+              {idx + 1 >= total ? 'Xem kết quả →' : 'Tiếp theo →'}
+            </button>
+          )}
 
           {/* Dots */}
           <div className="flex justify-center gap-1.5 mt-6 flex-wrap">
