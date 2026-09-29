@@ -45,6 +45,7 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
   const [questions] = useState(() => buildQuestions(topic.words))
   const [idx, setIdx] = useState(0)
   const [selected, setSelected] = useState<string | null>(null)
+  const [checked, setChecked] = useState(false)
   const [score, setScore] = useState(0)
   const [wrongWords, setWrongWords] = useState<string[]>([])
   const [done, setDone] = useState(false)
@@ -71,41 +72,46 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
   const advance = () => {
     const next = idx + 1
     if (next >= total) { recordActivity(level); setDone(true) }
-    else { setIdx(next); setSelected(null) }
+    else { setIdx(next); setSelected(null); setChecked(false) }
   }
 
   const handleSelect = (letter: string) => {
-    if (selected !== null) return
+    if (checked) return
     setSelected(letter)
-    const correct = letter === q.word.word[q.hiddenIdx].toLowerCase()
+  }
+
+  const checkAnswer = () => {
+    if (selected === null || checked) return
+    setChecked(true)
+    const correct = selected === q.word.word[q.hiddenIdx].toLowerCase()
     if (correct) {
       setScore(s => s + 1)
       recordAnswer(level, topic.id, q.word, true)
       speak(q.word.word)
       playCorrectSound()
+      setTimeout(() => advance(), 1200)
     } else {
       recordAnswer(level, topic.id, q.word, false)
       setWrongWords(ww => ww.includes(q.word.word) ? ww : [...ww, q.word.word])
       playWrongSound()
+      // No auto-advance here — let the learner review, then tap "Tiếp theo →" themselves.
     }
-    setTimeout(() => advance(), 1200)
   }
 
-  const restart = () => { setIdx(0); setSelected(null); setScore(0); setWrongWords([]); setDone(false); setShowConfetti(false) }
+  const restart = () => { setIdx(0); setSelected(null); setChecked(false); setScore(0); setWrongWords([]); setDone(false); setShowConfetti(false) }
 
   const renderWord = () => {
     const correctLetter = q.word.word[q.hiddenIdx].toLowerCase()
     return q.word.word.split('').map((char, i) => {
       if (i === q.hiddenIdx) {
-        const answered = selected !== null
         const isRight = selected === correctLetter
         return (
           <span key={i}
             className={`inline-flex items-center justify-center w-10 h-12 border-b-4 text-2xl font-black mx-0.5 transition-colors
-              ${answered
+              ${checked
                 ? isRight ? 'border-green-400 text-green-600' : 'border-red-400 text-red-500'
                 : 'border-orange-400 text-orange-500'}`}>
-            {answered ? selected : '?'}
+            {selected ?? '?'}
           </span>
         )
       }
@@ -156,7 +162,7 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
       <div className="flex-1 bg-gradient-to-b from-orange-50 to-amber-50 flex flex-col items-center justify-center px-4 gap-5">
         {/* Screen-reader feedback */}
         <div role="alert" aria-live="assertive" className="sr-only">
-          {selected !== null && (selected === q.word.word[q.hiddenIdx].toLowerCase() ? 'Chính xác!' : `Sai rồi. Chữ đúng là ${q.word.word[q.hiddenIdx]}.`)}
+          {checked && (selected === q.word.word[q.hiddenIdx].toLowerCase() ? 'Chính xác!' : `Sai rồi. Chữ đúng là ${q.word.word[q.hiddenIdx]}.`)}
         </div>
         <div className="flex justify-center select-none"><WordIcon word={q.word.word} emoji={q.word.emoji} emojiClass="text-8xl" iconSize={100} /></div>
         <p className="text-xl font-bold text-gray-600 text-center">{q.word.meaning}</p>
@@ -170,10 +176,12 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
 
         <div className="grid grid-cols-4 gap-3 w-full max-w-xs">
           {q.options.map(letter => {
-            const answered = selected !== null
+            const answered = checked
             const isSelected = selected === letter
             const isCorrect = letter === q.word.word[q.hiddenIdx].toLowerCase()
-            let style = 'bg-white border-2 border-gray-200 text-gray-700 hover:border-orange-300'
+            let style = isSelected
+              ? 'bg-orange-100 border-2 border-orange-400 text-orange-600 ring-2 ring-orange-200'
+              : 'bg-white border-2 border-gray-200 text-gray-700 hover:border-orange-300'
             if (answered && isCorrect) style = 'bg-green-100 border-2 border-green-400 text-green-700'
             else if (answered && isSelected) style = 'bg-red-100 border-2 border-red-400 text-red-600'
             else if (answered) style = 'bg-white border-2 border-gray-100 text-gray-300'
@@ -185,6 +193,26 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
             )
           })}
         </div>
+
+        {!checked && (
+          <button
+            onClick={checkAnswer}
+            disabled={selected === null}
+            className="w-full max-w-xs bg-orange-500 disabled:bg-orange-200 text-white font-black text-lg py-4 rounded-2xl shadow-md active:scale-95 transition-all"
+          >
+            Kiểm tra ✓
+          </button>
+        )}
+
+        {/* Wrong answer: no auto-advance — learner reviews, then taps Tiếp theo themselves */}
+        {checked && selected !== q.word.word[q.hiddenIdx].toLowerCase() && (
+          <button
+            onClick={advance}
+            className="w-full max-w-xs bg-orange-500 text-white font-black text-lg py-4 rounded-2xl shadow-md active:scale-95 transition-all"
+          >
+            {idx + 1 >= total ? 'Xem kết quả →' : 'Tiếp theo →'}
+          </button>
+        )}
       </div>
     </div>
   )

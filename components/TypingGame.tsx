@@ -78,7 +78,7 @@ export default function TypingGame({ topic, level, backUrl }: Props) {
       recordAnswer(level, topic.id, word, false)
       setWrongWords((ww) => (ww.includes(word.word) ? ww : [...ww, word.word]))
       playWrongSound()
-      setTimeout(() => advance(idx, words), 3200) // longer than the old 1800ms — gives time to read the example sentence now shown
+      // No auto-advance — learner taps "Tiếp theo →" after reading the answer + example.
     }
   }, [timeLeft])
 
@@ -113,7 +113,7 @@ export default function TypingGame({ topic, level, backUrl }: Props) {
       recordAnswer(level, topic.id, word, false)
       setWrongWords((ww) => (ww.includes(word.word) ? ww : [...ww, word.word]))
       playWrongSound()
-      setTimeout(() => advance(idx, words), 3200) // longer than the old 1800ms — gives time to read the example sentence now shown
+      // No auto-advance — learner taps "Tiếp theo →" after reading the answer + example.
     }
   }
 
@@ -251,6 +251,16 @@ export default function TypingGame({ topic, level, backUrl }: Props) {
             className="w-full bg-blue-500 hover:bg-blue-600 disabled:bg-blue-200 text-white font-black text-xl py-4 rounded-2xl shadow-md transition-colors active:scale-95"
           >
             Kiểm tra ✓
+          </button>
+        )}
+
+        {/* Wrong / timeout: no auto-advance — learner reviews, then taps Tiếp theo themselves */}
+        {(result === 'wrong' || result === 'timeout') && (
+          <button
+            onClick={() => advance(idx, words)}
+            className="w-full bg-blue-500 hover:bg-blue-600 text-white font-black text-xl py-4 rounded-2xl shadow-md transition-colors active:scale-95"
+          >
+            {idx + 1 >= total ? 'Xem kết quả →' : 'Tiếp theo →'}
           </button>
         )}
 
