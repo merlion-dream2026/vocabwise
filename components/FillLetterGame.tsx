@@ -83,12 +83,14 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
       recordAnswer(level, topic.id, q.word, true)
       speak(q.word.word)
       playCorrectSound()
+      setTimeout(() => advance(), 1200)
     } else {
       recordAnswer(level, topic.id, q.word, false)
       setWrongWords(ww => ww.includes(q.word.word) ? ww : [...ww, q.word.word])
       playWrongSound()
+      // No auto-advance — the correct letter is already revealed (highlighted green below),
+      // learner taps "Tiếp theo →" themselves when ready.
     }
-    setTimeout(() => advance(), 1200)
   }
 
   const restart = () => { setIdx(0); setSelected(null); setScore(0); setWrongWords([]); setDone(false); setShowConfetti(false) }
@@ -185,6 +187,15 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
             )
           })}
         </div>
+
+        {/* Wrong answer: no auto-advance — correct letter is already highlighted above,
+            learner taps Tiếp theo when ready to move on */}
+        {selected !== null && selected !== q.word.word[q.hiddenIdx].toLowerCase() && (
+          <button onClick={advance}
+            className="w-full max-w-xs bg-orange-500 text-white font-black text-lg py-4 rounded-2xl shadow-md active:scale-95 transition-all">
+            {idx + 1 >= total ? 'Xem kết quả →' : 'Tiếp theo →'}
+          </button>
+        )}
       </div>
     </div>
   )
