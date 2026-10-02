@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useRef, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
 import { useGameSync } from '@/lib/GameSyncContext'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
@@ -14,6 +14,7 @@ type Topic = { id: string; name: string; emoji: string; color: string; words: Wo
 type Props = { topic: Topic; level: string; backUrl: string }
 
 const ROUNDS = 16
+const TIME_PER_Q = 10
 
 function shuffle<T>(arr: T[]): T[] {
   return [...arr].sort(() => Math.random() - 0.5)
@@ -39,17 +40,25 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
   const { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
   const [rounds] = useState(() => buildRounds(topic.words))
   const [idx, setIdx] = useState(0)
-  const [selected, setSelected] = useState<boolean | null>(null)
   const [result, setResult] = useState<'idle' | 'correct' | 'wrong'>('idle')
   const [score, setScore] = useState(0)
   const [wrongWords, setWrongWords] = useState<string[]>([])
   const [done, setDone] = useState(false)
   const [showConfetti, setShowConfetti] = useState(false)
+  const [timeLeft, setTimeLeft] = useState(TIME_PER_Q)
+  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null)
 
   const round = rounds[idx]
   const total = rounds.length
 
   const speak = useCallback((text: string) => speakWord(text, { rate: 0.9 }), [])
+  const clearTimer = useCallback(() => { if (timerRef.current) clearInterval(timerRef.current) }, [])
+
+  const startTimer = useCallback(() => {
+    clearTimer()
+    setTimeLeft(TIME_PER_Q)
+    timerRef.current = setInterval(() => setTimeLeft(t => t - 1), 1000)
+  }, [clearTimer])
 
   useEffect(() => {
     if (done) { addScore(level, Math.round(score * 1.5)); if (score === total) { recordPerfectGame(level, topic.id, 'truefalse'); setShowConfetti(true) }; flush() }
@@ -59,24 +68,36 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
   useEffect(() => {
     if (done) return
     const t = setTimeout(() => speak(round.word.word), 300)
+    startTimer()
     return () => clearTimeout(t)
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [idx, done])
 
+  // Time runs out before an answer is picked — auto-count as wrong, same reveal + manual
+  // advance as a regular wrong answer (no separate "timeout" state needed).
+  useEffect(() => {
+    if (timeLeft <= 0 && result === 'idle' && !done) {
+      clearTimer()
+      setResult('wrong')
+      recordAnswer(level, topic.id, round.word, false)
+      setWrongWords(ww => ww.includes(round.word.word) ? ww : [...ww, round.word.word])
+      playWrongSound()
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [timeLeft])
+
+  useEffect(() => () => clearTimer(), [clearTimer])
+
   const advance = (curIdx: number) => {
     const next = curIdx + 1
     if (next >= total) { recordActivity(level); setDone(true) }
-    else { setIdx(next); setSelected(null); setResult('idle') }
+    else { setIdx(next); setResult('idle') }
   }
 
-  const pick = (userSaysTrue: boolean) => {
+  const answer = (userSaysTrue: boolean) => {
     if (result !== 'idle') return
-    setSelected(userSaysTrue)
-  }
-
-  const checkAnswer = () => {
-    if (selected === null || result !== 'idle') return
-    const correct = selected === round.isCorrect
+    clearTimer()
+    const correct = userSaysTrue === round.isCorrect
     setResult(correct ? 'correct' : 'wrong')
     if (correct) { setScore(s => s + 1); recordAnswer(level, topic.id, round.word, true); speak(round.word.word); playCorrectSound(); setTimeout(() => advance(idx), 1100) }
     else {
@@ -87,7 +108,7 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
     }
   }
 
-  const restart = () => { setIdx(0); setSelected(null); setResult('idle'); setScore(0); setWrongWords([]); setDone(false); setShowConfetti(false) }
+  const restart = () => { setIdx(0); setResult('idle'); setScore(0); setWrongWords([]); setDone(false); setShowConfetti(false) }
 
   if (done) {
     const xpEarned = Math.round(score * 1.5)
@@ -114,6 +135,7 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
   }
 
   const isCorrectResult = result === 'correct'
+  const timerPct = (timeLeft / TIME_PER_Q) * 100
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -127,6 +149,15 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
           </div>
           <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm flex-shrink-0">{idx + 1}/{total}</span>
         </div>
+
+        {/* Timer bar */}
+        <div className="h-3 bg-white/20 rounded-full overflow-hidden">
+          <div
+            className={`h-full rounded-full transition-all duration-1000 ease-linear ${timeLeft <= 3 ? 'bg-red-300' : 'bg-white/70'}`}
+            style={{ width: `${Math.max(0, timerPct)}%` }}
+          />
+        </div>
+        <p className={`text-right text-xs font-black mt-1 ${timeLeft <= 3 ? 'text-red-200' : 'text-white/60'}`}>{Math.max(0, timeLeft)}s</p>
       </div>
 
       {/* Main content */}
@@ -188,40 +219,27 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
           </p>
         )}
 
-        {/* Answer buttons — select first (highlighted), then tap Kiểm tra to submit */}
+        {/* Answer buttons — tapping answers immediately (no separate confirm step) */}
         {result === 'idle' && (
           <div className="flex gap-3">
             <button
-              onClick={() => pick(false)}
-              className={`flex-1 active:scale-95 text-white font-black text-2xl py-5 rounded-2xl shadow-md transition-all flex flex-col items-center gap-1 ${
-                selected === false ? 'bg-red-600 ring-4 ring-red-200' : 'bg-red-500 hover:bg-red-600'
-              }`}
+              onClick={() => answer(false)}
+              className="flex-1 bg-red-500 hover:bg-red-600 active:scale-95 text-white font-black text-2xl py-5 rounded-2xl shadow-md transition-all flex flex-col items-center gap-1"
             >
               <span>❌</span>
               <span className="text-lg">SAI</span>
             </button>
             <button
-              onClick={() => pick(true)}
-              className={`flex-1 active:scale-95 text-white font-black text-2xl py-5 rounded-2xl shadow-md transition-all flex flex-col items-center gap-1 ${
-                selected === true ? 'bg-green-600 ring-4 ring-green-200' : 'bg-green-500 hover:bg-green-600'
-              }`}
+              onClick={() => answer(true)}
+              className="flex-1 bg-green-500 hover:bg-green-600 active:scale-95 text-white font-black text-2xl py-5 rounded-2xl shadow-md transition-all flex flex-col items-center gap-1"
             >
               <span>✅</span>
               <span className="text-lg">ĐÚNG</span>
             </button>
           </div>
         )}
-        {result === 'idle' && (
-          <button
-            onClick={checkAnswer}
-            disabled={selected === null}
-            className="w-full bg-emerald-600 disabled:bg-emerald-200 text-white font-black text-lg py-4 rounded-2xl shadow-md active:scale-95 transition-all"
-          >
-            Kiểm tra ✓
-          </button>
-        )}
 
-        {/* Wrong answer: no auto-advance — learner reviews, then taps Tiếp theo themselves */}
+        {/* Wrong answer (or time ran out): no auto-advance — learner reviews, then taps Tiếp theo themselves */}
         {result === 'wrong' && (
           <button
             onClick={() => advance(idx)}
