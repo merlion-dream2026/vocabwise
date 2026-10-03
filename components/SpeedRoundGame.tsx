@@ -38,7 +38,7 @@ export default function SpeedRoundGame({ topic, level, backUrl }: Props) {
 
   useEffect(() => {
     if (done) {
-      addScore(level, Math.round(score * 1.5))
+      addScore(level, score * 2) // 🔴 production tier — 2x XP (see FAQ "XP theo độ khó")
       if (score === total) recordPerfectGame(level, topic.id, 'speedround')
       if (score === total) setShowConfetti(true)
       flush()
@@ -123,7 +123,7 @@ export default function SpeedRoundGame({ topic, level, backUrl }: Props) {
   }
 
   if (done) {
-    const xpEarned = Math.round(score * 1.5)
+    const xpEarned = score * 2
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}

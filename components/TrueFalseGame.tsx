@@ -61,7 +61,8 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
   }, [clearTimer])
 
   useEffect(() => {
-    if (done) { addScore(level, Math.round(score * 1.5)); if (score === total) { recordPerfectGame(level, topic.id, 'truefalse'); setShowConfetti(true) }; flush() }
+    // 🟢 recognition tier — 1x XP (see FAQ "XP theo độ khó")
+    if (done) { addScore(level, score); if (score === total) { recordPerfectGame(level, topic.id, 'truefalse'); setShowConfetti(true) }; flush() }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [done])
 
@@ -111,7 +112,7 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
   const restart = () => { setIdx(0); setResult('idle'); setScore(0); setWrongWords([]); setDone(false); setShowConfetti(false) }
 
   if (done) {
-    const xpEarned = Math.round(score * 1.5)
+    const xpEarned = score
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
