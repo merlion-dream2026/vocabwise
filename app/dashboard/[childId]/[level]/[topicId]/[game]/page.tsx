@@ -22,6 +22,7 @@ const DefinitionMatchGame = dynamic(() => import('@/components/DefinitionMatchGa
 const SentenceOrderGame  = dynamic(() => import('@/components/SentenceOrderGame'),   { ssr: false })
 const SpeakGame          = dynamic(() => import('@/components/SpeakGame'),           { ssr: false })
 const SpeedRoundGame     = dynamic(() => import('@/components/SpeedRoundGame'),      { ssr: false })
+const SentenceGame       = dynamic(() => import('@/components/SentenceGame'),        { ssr: false })
 
 type Child = { id: string; name: string; emoji: string; level: string }
 
@@ -75,13 +76,15 @@ export default function GamePage() {
     </div>
   )
 
-  // AI Speak requires internet — show friendly message when offline
-  if (game === 'speak' && isOffline) {
+  // AI Speak / Sentence games require internet — show friendly message when offline
+  if ((game === 'speak' || game === 'sentence') && isOffline) {
+    const label = game === 'speak' ? 'Phát âm cùng AI' : 'Đặt câu cùng AI'
+    const detail = game === 'speak' ? 'AI nhận diện giọng nói' : 'AI chấm câu'
     return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-purple-50 to-pink-50 p-8">
         <div className="text-6xl mb-4">📴</div>
-        <h2 className="text-xl font-black text-gray-800 mb-2 text-center">Phát âm cùng AI cần internet</h2>
-        <p className="text-gray-500 text-sm mb-6 text-center max-w-xs">Game này dùng AI nhận diện giọng nói — không khả dụng khi offline.</p>
+        <h2 className="text-xl font-black text-gray-800 mb-2 text-center">{label} cần internet</h2>
+        <p className="text-gray-500 text-sm mb-6 text-center max-w-xs">Game này dùng {detail} — không khả dụng khi offline.</p>
         <button
           onClick={() => router.push(backUrl)}
           className="bg-purple-500 text-white font-bold px-6 py-3 rounded-2xl active:scale-95 transition-all"
@@ -128,6 +131,8 @@ export default function GamePage() {
         return <SpeakGame {...props} isStarter={isSimpleLevel} />
       case 'speedround':
         return <SpeedRoundGame {...props} />
+      case 'sentence':
+        return <SentenceGame {...props} />
       default:
         router.push(backUrl)
         return null

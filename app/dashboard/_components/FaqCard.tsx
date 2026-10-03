@@ -30,7 +30,7 @@ const FAQ_ITEMS = [
       },
       {
         q: 'App có những trò chơi gì?',
-        a: 'Level cơ bản (Seeker / Starter / Ranger) — 10 trò:\n📖 Flashcard từ mới · 👂 Nghe & Chọn · ✅ Đúng / Sai · 🖼️ Nối từ với hình · 🧠 Lật thẻ · 🫧 Bắn bong bóng · 🔡 Điền chữ thiếu · 🔤 Đánh vần · 🔁 Sắp xếp câu · 🎤 Phát âm cùng AI ✨\n\nLevel nâng cao (Explorer / Scholar / Master) — 10 trò:\n📖 Flashcard từ mới · 👂 Nghe & Chọn · ✅ Đúng / Sai · ❓ Trắc nghiệm · ✏️ Điền từ · 🔀 Ghép định nghĩa · 🎤 Phát âm cùng AI ✨ · ⌨️ Gõ từ nhanh 15s · 🔁 Sắp xếp câu · ⚡ Speed Round\n\nNgoài ra, mỗi chủ đề đều có 📖 Mini Story tích hợp ngay trong trang chủ đề — bé đọc chuyện, nghe audio, rồi làm bài điền từ ngay tại chỗ.',
+        a: 'Level cơ bản (Seeker / Starter / Ranger) — 10 trò:\n📖 Flashcard từ mới · 👂 Nghe & Chọn · ✅ Đúng / Sai · 🖼️ Nối từ với hình · 🧠 Lật thẻ · 🫧 Bắn bong bóng · 🔡 Điền chữ thiếu · 🔤 Đánh vần · 🔁 Sắp xếp câu · 🎤 Phát âm cùng AI ✨\n\nLevel nâng cao (Explorer / Scholar / Master) — 11 trò:\n📖 Flashcard từ mới · 👂 Nghe & Chọn · ✅ Đúng / Sai · ❓ Trắc nghiệm · ✏️ Điền từ · 🔀 Ghép định nghĩa · 🎤 Phát âm cùng AI ✨ · ⌨️ Gõ từ nhanh 15s · 🔁 Sắp xếp câu · ⚡ Speed Round · ✍️ Đặt câu cùng AI\n\nNgoài ra, mỗi chủ đề đều có 📖 Mini Story tích hợp ngay trong trang chủ đề — bé đọc chuyện, nghe audio, rồi làm bài điền từ ngay tại chỗ.',
       },
       {
         q: 'Thứ tự học trong một chủ đề?',
