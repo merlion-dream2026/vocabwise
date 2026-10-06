@@ -4,6 +4,7 @@ import { useRouter, useParams } from 'next/navigation'
 import VWExerciseRunner from '@/components/vocabwise/VWExerciseRunner'
 import type { ExercisesData } from '@/components/vocabwise/types'
 import { academicFetch } from '@/lib/academicSync'
+import { cta } from '@/components/ChunkyUI'
 
 type QueueItem   = { topicId: string; topicTitle: string; cefrLevel?: string }
 type TopicEx     = {
@@ -177,9 +178,9 @@ export default function ReviewPage() {
   if (phase === 'ready') {
     return (
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
-        <div className={`${headerCls} text-white`}>
+        <div className={`${headerCls} text-white rounded-b-3xl border-b-[4px] border-black/20`}>
           <div className="max-w-2xl mx-auto px-4 py-4 flex items-center gap-3">
-            <button onClick={() => router.back()} aria-label="Quay lại" className="text-white/70 hover:text-white text-xl">←</button>
+            <button onClick={() => router.back()} aria-label="Quay lại" className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 text-lg font-bold text-white transition-transform active:translate-y-0.5 active:border-b-2 flex-shrink-0">←</button>
             <div>
               <p className="font-bold text-lg">📅 Ôn lại hôm nay</p>
               <p className="text-white/70 text-xs">{queue.length} chủ đề trong hàng đợi</p>
@@ -187,10 +188,10 @@ export default function ReviewPage() {
           </div>
         </div>
         <div className="max-w-2xl mx-auto px-4 py-4 space-y-3">
-          <div className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm divide-y divide-gray-50 overflow-hidden">
+          <div className="bg-white rounded-3xl divide-y divide-gray-50 overflow-hidden border-2 border-slate-200 border-b-[4px] border-b-slate-300">
             {queue.map((item, i) => (
               <div key={item.topicId} className="px-4 py-3 flex items-center gap-3">
-                <span className="w-7 h-7 rounded-full bg-teal-100 text-teal-700 text-xs font-black flex items-center justify-center flex-shrink-0">
+                <span className="w-7 h-7 rounded-full bg-teal-100 text-teal-700 text-xs font-bold flex items-center justify-center flex-shrink-0">
                   {i + 1}
                 </span>
                 <div className="flex-1 min-w-0">
@@ -202,7 +203,7 @@ export default function ReviewPage() {
           </div>
           <button
             onClick={() => fetchTopic(0)}
-            className="w-full bg-gradient-to-r from-teal-500 to-emerald-500 text-white font-black py-4 rounded-2xl shadow-lg active:scale-95 transition-all text-base"
+            className={cta('teal')}
           >
             🚀 Bắt đầu ôn ({queue.length} chủ đề)
           </button>
@@ -230,14 +231,14 @@ export default function ReviewPage() {
     const progressPct = (currentIdx / queue.length) * 100
     return (
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
-        <div className={`${headerCls} text-white`}>
+        <div className={`${headerCls} text-white rounded-b-3xl border-b-[4px] border-black/20`}>
           <div className="max-w-2xl mx-auto px-4 py-3 flex items-center gap-3">
-            <button onClick={() => router.replace(`/vocabwise/${book}`)} aria-label="Quay lại" className="text-white/70 hover:text-white flex-shrink-0">←</button>
+            <button onClick={() => router.replace(`/vocabwise/${book}`)} aria-label="Quay lại" className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 text-lg font-bold text-white transition-transform active:translate-y-0.5 active:border-b-2">←</button>
             <div className="flex-1 min-w-0">
               <p className="text-xs text-white/70 font-medium">📅 Ôn lại · {currentIdx + 1}/{queue.length}</p>
               <p className="font-bold text-sm truncate">{currentEx.topicTitle}</p>
             </div>
-            <span className="text-xs font-black text-white/80 bg-white/20 px-2 py-1 rounded-full flex-shrink-0">
+            <span className="text-xs font-bold text-white/80 bg-white/20 px-2 py-1 rounded-full flex-shrink-0">
               {currentEx.cefrLevel}
             </span>
           </div>
@@ -271,7 +272,7 @@ export default function ReviewPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
-      <div className={`${headerCls} text-white`}>
+      <div className={`${headerCls} text-white rounded-b-3xl border-b-[4px] border-black/20`}>
         <div className="max-w-2xl mx-auto px-4 py-4">
           <p className="font-bold text-lg">✅ Phiên ôn tập xong!</p>
           <p className="text-white/70 text-xs">{results.length} chủ đề · {passedCount} thành thạo</p>
@@ -279,15 +280,15 @@ export default function ReviewPage() {
       </div>
       <div className="max-w-2xl mx-auto px-4 py-4 space-y-4 pb-12">
 
-        <div className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm p-5 text-center">
+        <div className="bg-white rounded-3xl p-5 text-center border-2 border-slate-200 border-b-[4px] border-b-slate-300">
           <div className="text-5xl mb-2">{medal}</div>
-          <p className="text-3xl font-black text-gray-800">{pct}%</p>
+          <p className="text-3xl font-bold text-gray-800">{pct}%</p>
           <p className="text-gray-400 text-sm mt-1">
             {totalScore}/{totalMax} điểm · {passedCount}/{results.length} chủ đề thành thạo
           </p>
         </div>
 
-        <div className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm divide-y divide-gray-50 overflow-hidden">
+        <div className="bg-white rounded-3xl divide-y divide-gray-50 overflow-hidden border-2 border-slate-200 border-b-[4px] border-b-slate-300">
           {results.map((r, i) => (
             <div key={i} className="px-4 py-3 flex items-center gap-3">
               <span className="text-xl flex-shrink-0">{r.passed ? '🏆' : '⚠️'}</span>
@@ -300,7 +301,7 @@ export default function ReviewPage() {
                       style={{ width: `${r.max > 0 ? (r.score / r.max) * 100 : 0}%` }}
                     />
                   </div>
-                  <span className="text-xs font-black text-gray-500 flex-shrink-0">{r.score}/{r.max}</span>
+                  <span className="text-xs font-bold text-gray-500 flex-shrink-0">{r.score}/{r.max}</span>
                 </div>
               </div>
             </div>
@@ -312,7 +313,7 @@ export default function ReviewPage() {
             localStorage.removeItem('vw_review_queue')
             router.replace(`/vocabwise/${book}`)
           }}
-          className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black py-4 rounded-2xl shadow-lg active:scale-95 transition-all"
+          className={cta('blue')}
         >
           ← Quay lại danh sách chủ đề
         </button>

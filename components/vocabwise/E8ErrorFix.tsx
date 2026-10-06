@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import type { ErrorFixItem } from './types'
 import HintButton from './HintButton'
+import { cta } from '@/components/ChunkyUI'
 
 type Props = {
   instruction: string
@@ -27,15 +28,15 @@ export default function E8ErrorFix({ instruction, items, onDone }: Props) {
       <p className="text-base font-bold text-gray-800 leading-relaxed text-center">
         {before}
         {selected === null ? (
-          <span className="inline mx-1 px-2 py-0.5 rounded font-black underline decoration-wavy decoration-red-400 bg-orange-50 text-orange-600">
+          <span className="inline mx-1 px-2 py-0.5 rounded font-bold underline decoration-wavy decoration-red-400 bg-orange-50 text-orange-600">
             {current.highlighted}
           </span>
         ) : (
           <>
-            <span className="inline mx-1 px-1.5 py-0.5 rounded font-black line-through text-red-500 bg-red-50">
+            <span className="inline mx-1 px-1.5 py-0.5 rounded font-bold line-through text-red-500 bg-red-50">
               {current.highlighted}
             </span>
-            <span className="inline mx-1 px-2 py-0.5 rounded font-black text-green-700 bg-green-100 border border-green-300">
+            <span className="inline mx-1 px-2 py-0.5 rounded font-bold text-green-700 bg-green-100 border border-green-300">
               {correctWord}
             </span>
           </>
@@ -71,7 +72,7 @@ export default function E8ErrorFix({ instruction, items, onDone }: Props) {
     <div className="flex flex-col gap-4">
       <div className="flex items-center justify-between mb-1">
         <p className="text-base text-gray-600 leading-relaxed flex-1">{instruction}</p>
-        <span className="text-xs font-black text-orange-400 ml-3 flex-shrink-0">{idx + 1}/{total}</span>
+        <span className="text-xs font-bold text-orange-400 ml-3 flex-shrink-0">{idx + 1}/{total}</span>
       </div>
 
       {/* Progress dots */}
@@ -107,12 +108,12 @@ export default function E8ErrorFix({ instruction, items, onDone }: Props) {
           <button key={key} onClick={() => handleSelect(key)}
             disabled={selected !== null}
             className={`flex items-center gap-3 px-4 py-3 rounded-xl border-2 font-bold text-sm transition-all duration-150 ${optCls(key)}`}>
-            <span className="w-7 h-7 rounded-full bg-gray-100 text-gray-600 font-black text-xs flex items-center justify-center flex-shrink-0">
+            <span className="w-7 h-7 rounded-full bg-gray-100 text-gray-600 font-bold text-xs flex items-center justify-center flex-shrink-0">
               {key}
             </span>
             <span className="text-left">{current.options[key]}</span>
-            {selected !== null && key === current.answer && <span className="ml-auto text-green-500 font-black">✓</span>}
-            {selected !== null && key === selected && key !== current.answer && <span className="ml-auto text-red-500 font-black">✗</span>}
+            {selected !== null && key === current.answer && <span className="ml-auto text-green-500 font-bold">✓</span>}
+            {selected !== null && key === selected && key !== current.answer && <span className="ml-auto text-red-500 font-bold">✗</span>}
           </button>
         ))}
       </div>
@@ -126,14 +127,14 @@ export default function E8ErrorFix({ instruction, items, onDone }: Props) {
       {selected !== null && current.explanation && (
         <div className="bg-blue-50 border-2 border-blue-100 rounded-xl p-3">
           <p className="text-sm text-blue-700 leading-relaxed">
-            <span className="font-black">💡 Giải thích: </span>{current.explanation_vi ?? current.explanation}
+            <span className="font-bold">💡 Giải thích: </span>{current.explanation_vi ?? current.explanation}
           </p>
         </div>
       )}
 
       {selected !== null && (
         <button onClick={goNext}
-          className="w-full bg-gradient-to-r from-orange-400 to-amber-400 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all">
+          className={cta('orange')}>
           {idx + 1 >= total ? '✅ Xác nhận — Tiếp theo →' : 'Tiếp →'}
         </button>
       )}

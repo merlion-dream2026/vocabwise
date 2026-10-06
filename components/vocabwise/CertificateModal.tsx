@@ -15,7 +15,7 @@ type Props = {
 const BOOK_ACCENT: Record<string, { ring: string; text: string; bar: string }> = {
   book1: { ring: 'ring-emerald-300', text: 'text-emerald-700', bar: 'bg-emerald-500' },
   book2: { ring: 'ring-blue-300',    text: 'text-blue-700',    bar: 'bg-blue-500'    },
-  book3: { ring: 'ring-purple-300',  text: 'text-purple-700',  bar: 'bg-purple-600'  },
+  book3: { ring: 'ring-blue-300',  text: 'text-blue-700',  bar: 'bg-blue-600'  },
 }
 
 function pad2(n: number) { return String(n).padStart(2, '0') }
@@ -72,18 +72,18 @@ export default function CertificateModal({ book, bookTitle, cefr, emoji, color, 
 
           {/* Action bar */}
           <div className="no-print flex items-center justify-between px-4 py-3 bg-gray-50 border-b border-gray-100">
-            <button onClick={onClose} aria-label="Đóng" className="text-gray-400 hover:text-gray-600 font-black text-lg">✕</button>
+            <button onClick={onClose} aria-label="Đóng" className="text-gray-400 hover:text-gray-600 font-bold text-lg">✕</button>
             <p className="text-xs text-gray-400 font-semibold">Chụp màn hình để lưu &amp; chia sẻ</p>
             <div className="flex gap-2">
               <button
                 onClick={handleShare}
-                className="text-xs font-black bg-indigo-500 text-white px-3 py-1.5 rounded-full active:scale-95 transition-transform"
+                className="text-xs font-bold bg-indigo-500 text-white px-3 py-1.5 rounded-full active:scale-95 transition-transform"
               >
                 📤 Chia sẻ
               </button>
               <button
                 onClick={handlePrint}
-                className="text-xs font-black bg-gray-200 text-gray-700 px-3 py-1.5 rounded-full active:scale-95 transition-transform"
+                className="text-xs font-bold bg-gray-200 text-gray-700 px-3 py-1.5 rounded-full active:scale-95 transition-transform"
               >
                 🖨
               </button>
@@ -96,7 +96,7 @@ export default function CertificateModal({ book, bookTitle, cefr, emoji, color, 
             {/* Header gradient */}
             <div className={`bg-gradient-to-r ${color} px-6 py-5 text-white text-center`}>
               <div className="text-5xl mb-2">{emoji}</div>
-              <p id="vw-certificate-title" className="font-black text-lg leading-tight">{bookTitle}</p>
+              <p id="vw-certificate-title" className="font-bold text-lg leading-tight">{bookTitle}</p>
               <p className="text-white/80 text-xs font-semibold mt-0.5">{cefr} · VocabWise Academic</p>
             </div>
 
@@ -105,7 +105,7 @@ export default function CertificateModal({ book, bookTitle, cefr, emoji, color, 
 
               {/* Title */}
               <div>
-                <p className="text-gray-400 text-[10px] font-black tracking-widest uppercase">Giấy chứng nhận học tập</p>
+                <p className="text-gray-400 text-[10px] font-bold tracking-widest uppercase">Giấy chứng nhận học tập</p>
                 <div className="mt-1.5 h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent" />
               </div>
 
@@ -119,14 +119,14 @@ export default function CertificateModal({ book, bookTitle, cefr, emoji, color, 
                   onChange={e => setName(e.target.value)}
                   placeholder="Nhập tên của bạn"
                   aria-label="Tên học viên trên chứng nhận"
-                  className={`text-center text-xl font-black ${accent.text} bg-transparent outline-none w-full placeholder:text-gray-300 placeholder:font-normal placeholder:text-base`}
+                  className={`text-center text-xl font-bold ${accent.text} bg-transparent outline-none w-full placeholder:text-gray-300 placeholder:font-normal placeholder:text-base`}
                 />
               </div>
 
               {/* Achievement */}
               <div className="space-y-0.5">
                 <p className="text-gray-500 text-xs">đã hoàn thành</p>
-                <p className={`text-3xl font-black ${accent.text}`}>{mastered}<span className="text-gray-300 font-normal text-xl"> / {total}</span></p>
+                <p className={`text-3xl font-bold ${accent.text}`}>{mastered}<span className="text-gray-300 font-normal text-xl"> / {total}</span></p>
                 <p className="text-gray-600 text-xs font-semibold">chủ đề thành thạo trong {bookTitle}</p>
               </div>
 
@@ -147,7 +147,7 @@ export default function CertificateModal({ book, bookTitle, cefr, emoji, color, 
               {/* Date & branding */}
               <div className="flex items-center justify-between text-[10px] text-gray-400">
                 <span>Ngày cấp: <strong className="text-gray-500">{dateStr}</strong></span>
-                <span className="font-black text-gray-500">VocabWise 🏆</span>
+                <span className="font-bold text-gray-500">VocabWise 🏆</span>
               </div>
 
               <p className="text-[9px] text-gray-300 font-semibold tracking-wide">vocabwise.id.vn</p>

@@ -27,17 +27,17 @@ type Props = { book: string; info: BookInfo; topics: TopicMeta[]; byTheme: Recor
 const FLAT_COLOR: Record<string, string> = {
   book1: 'bg-emerald-500',
   book2: 'bg-blue-500',
-  book3: 'bg-violet-600',
+  book3: 'bg-indigo-600',
 }
 const NUM_GRAD: Record<string, string> = {
   book1: 'from-green-400 to-emerald-500',
   book2: 'from-blue-500 to-cyan-500',
-  book3: 'from-purple-600 to-violet-600',
+  book3: 'from-blue-600 to-indigo-600',
 }
 const BOOK_CARD_DONE: Record<string, string> = {
   book1: 'bg-emerald-50 border-emerald-300',
   book2: 'bg-blue-50 border-blue-300',
-  book3: 'bg-purple-50 border-purple-300',
+  book3: 'bg-blue-50 border-blue-300',
 }
 
 function RevisionCard({ book, revNum, score, locked, onLocked }: {
@@ -53,15 +53,15 @@ function RevisionCard({ book, revNum, score, locked, onLocked }: {
       <div className="flex items-center gap-2.5 min-w-0">
         <span className="text-xl flex-shrink-0">{locked ? '🔒' : '✨'}</span>
         <div className="min-w-0">
-          <p className="font-black text-white text-sm leading-snug">Revision: Topics {startT}–{endT}</p>
+          <p className="font-bold text-white text-sm leading-snug">Revision: Topics {startT}–{endT}</p>
           <p className="text-white/80 text-xs mt-0.5">{locked ? 'Nâng cấp Pro để mở' : '30 câu · 3 dạng bài'}</p>
         </div>
       </div>
       <div className="flex items-center gap-2 flex-shrink-0 ml-2">
         {locked ? null : score ? (
-          <span className="text-xs font-black bg-white/30 text-white px-2 py-0.5 rounded-full">{score.score}/{score.max}</span>
+          <span className="text-xs font-bold bg-white/30 text-white px-2 py-0.5 rounded-full">{score.score}/{score.max}</span>
         ) : (
-          <span className="text-xs font-black bg-white/20 text-white px-2 py-0.5 rounded-full">REVISION</span>
+          <span className="text-xs font-bold bg-white/20 text-white px-2 py-0.5 rounded-full">REVISION</span>
         )}
         <span className="text-white/70 text-sm">›</span>
       </div>
@@ -239,9 +239,9 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
       )}
 
       {/* Compact flat header — mirrors Daily */}
-      <div className={`${flatCls} text-white`}>
+      <div className={`${flatCls} text-white rounded-b-3xl border-b-[4px] border-black/20`}>
         <div className="max-w-2xl mx-auto px-4 py-4 flex items-center gap-3">
-          <button onClick={() => router.back()} className="text-white/70 hover:text-white text-xl flex-shrink-0">←</button>
+          <button onClick={() => router.back()} className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 text-lg font-bold text-white transition-transform active:translate-y-0.5 active:border-b-2">←</button>
           <span className="text-2xl flex-shrink-0">{info.emoji}</span>
           <div className="min-w-0">
             <h1 className="font-bold text-lg leading-tight">{info.title}</h1>
@@ -257,11 +257,11 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
           {/* Progress / CEFR */}
           <button
             onClick={() => setShowProgressDetail(true)}
-            className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm p-3 flex flex-col gap-1 text-left active:scale-95 transition-transform"
+            className="bg-white rounded-3xl p-3 flex flex-col gap-1 text-left active:scale-95 transition-transform border-2 border-slate-200 border-b-[4px] border-b-slate-300"
           >
             <div className="flex items-center gap-1">
               <span className="text-base leading-none">{info.emoji}</span>
-              <span className="text-[11px] font-black text-gray-700 truncate leading-tight">{info.cefr}</span>
+              <span className="text-[11px] font-bold text-gray-700 truncate leading-tight">{info.cefr}</span>
             </div>
             <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
               <div className={`h-full bg-gradient-to-r ${numGrad} rounded-full transition-all duration-700`} style={{ width: `${pct}%` }} />
@@ -279,10 +279,10 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
           >
             <div className="flex items-center gap-1">
               <span className="text-sm leading-none flex-shrink-0">⚠️</span>
-              <p className="text-[10px] font-black text-gray-700 leading-tight">Cần cải thiện</p>
+              <p className="text-[10px] font-bold text-gray-700 leading-tight">Cần cải thiện</p>
             </div>
             <div className="flex items-baseline gap-1">
-              <span className={`text-xl font-black leading-none ${needsReviewCount > 0 ? 'text-orange-500' : 'text-gray-400'}`}>{needsReviewCount}</span>
+              <span className={`text-xl font-bold leading-none ${needsReviewCount > 0 ? 'text-orange-500' : 'text-gray-400'}`}>{needsReviewCount}</span>
               <span className={`text-[10px] font-medium ${needsReviewCount > 0 ? 'text-orange-400' : 'text-gray-400'}`}>{needsReviewCount > 0 ? 'Ôn ngay' : 'Tốt lắm!'}</span>
             </div>
           </button>
@@ -294,10 +294,10 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
           >
             <div className="flex items-center gap-1">
               <span className="text-sm leading-none flex-shrink-0">📅</span>
-              <p className="text-[10px] font-black text-gray-700 leading-tight">Ôn từ định kỳ</p>
+              <p className="text-[10px] font-bold text-gray-700 leading-tight">Ôn từ định kỳ</p>
             </div>
             <div className="flex items-baseline gap-1">
-              <span className={`text-xl font-black leading-none ${srsDueCount > 0 ? 'text-teal-500' : 'text-gray-400'}`}>{srsDueCount}</span>
+              <span className={`text-xl font-bold leading-none ${srsDueCount > 0 ? 'text-teal-500' : 'text-gray-400'}`}>{srsDueCount}</span>
               <span className={`text-[10px] font-medium ${srsDueCount > 0 ? 'text-teal-400' : 'text-gray-400'}`}>{srsDueCount > 0 ? 'Ôn ngay' : 'Đã xong!'}</span>
             </div>
           </button>
@@ -308,7 +308,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
           <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/40" onClick={() => setShowProgressDetail(false)}>
             <div className="bg-white w-full max-w-md rounded-t-3xl p-5 pb-8 max-h-[80vh] overflow-y-auto" onClick={e => e.stopPropagation()}>
               <div className="flex items-center justify-between mb-4">
-                <h2 className="font-black text-gray-800 text-base">{info.emoji} Tiến độ module</h2>
+                <h2 className="font-bold text-gray-800 text-base">{info.emoji} Tiến độ module</h2>
                 <button onClick={() => setShowProgressDetail(false)} aria-label="Đóng" className="text-gray-400 hover:text-gray-600 text-xl leading-none">✕</button>
               </div>
 
@@ -341,7 +341,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
               {masteredCount > 0 && (
                 <button
                   onClick={() => { setShowProgressDetail(false); setShowCert(true) }}
-                  className="w-full flex items-center justify-center gap-1.5 text-xs font-black text-indigo-600 bg-indigo-50 hover:bg-indigo-100 border border-indigo-100 rounded-xl py-2 active:scale-[0.98] transition-all mb-4"
+                  className="w-full flex items-center justify-center gap-1.5 text-xs font-bold text-indigo-600 bg-indigo-50 hover:bg-indigo-100 border border-indigo-100 rounded-xl py-2 active:scale-[0.98] transition-all mb-4"
                 >
                   🎓 Xem chứng chỉ học tập
                 </button>
@@ -356,7 +356,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                   return (
                     <div key={themeKey} className="flex items-center justify-between px-1 py-2">
                       <div className="flex items-center gap-2 min-w-0">
-                        <span className={`w-5 h-5 rounded-full bg-gradient-to-br ${numGrad} flex items-center justify-center text-[10px] font-black text-white flex-shrink-0`}>{themeNum}</span>
+                        <span className={`w-5 h-5 rounded-full bg-gradient-to-br ${numGrad} flex items-center justify-center text-[10px] font-bold text-white flex-shrink-0`}>{themeNum}</span>
                         <span className="text-gray-700 text-sm font-medium truncate">{themeViTitle ?? themeTitle}</span>
                       </div>
                       <div className="flex items-center gap-1 text-xs text-gray-400 flex-shrink-0 ml-2">
@@ -439,7 +439,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
               const themeViTitle = themeTopics[0]?.theme_title_vi
               return (
                 <div key={themeKey}>
-                  <h2 className="font-black text-gray-500 text-xs uppercase tracking-widest mb-3">
+                  <h2 className="font-bold text-gray-500 text-xs uppercase tracking-widest mb-3">
                     📂 {themeViTitle ?? themeTitle}
                   </h2>
                   <div className="grid grid-cols-2 gap-3">
@@ -530,7 +530,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
 
         {/* List view */}
         {topics.length > 0 && viewMode === 'list' && (
-          <div className="bg-white rounded-2xl shadow-sm overflow-hidden divide-y divide-gray-100 mb-5">
+          <div className="bg-white rounded-3xl overflow-hidden divide-y divide-gray-100 mb-5 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
             {topics.map((t, globalIdx) => {
               const locked     = academicLimit !== null && globalIdx >= academicLimit
               const sync       = syncMap[t.topic_id]
@@ -598,17 +598,17 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                 <div className="flex items-center gap-2.5 min-w-0">
                   <span className="text-2xl flex-shrink-0">🏆</span>
                   <div className="min-w-0">
-                    <p className="font-black text-white text-sm leading-snug">Module Test — {info.title}</p>
+                    <p className="font-bold text-white text-sm leading-snug">Module Test — {info.title}</p>
                     <p className="text-white/80 text-xs mt-0.5">44 câu · Tổng kết toàn bộ book</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-2 flex-shrink-0 ml-2">
                   {revScores[`${book}_test`] ? (
-                    <span className="text-xs font-black bg-white/30 text-white px-2 py-0.5 rounded-full">
+                    <span className="text-xs font-bold bg-white/30 text-white px-2 py-0.5 rounded-full">
                       {revScores[`${book}_test`].score}/{revScores[`${book}_test`].max}
                     </span>
                   ) : (
-                    <span className="text-xs font-black bg-white/20 text-white px-2 py-0.5 rounded-full">MODULE TEST</span>
+                    <span className="text-xs font-bold bg-white/20 text-white px-2 py-0.5 rounded-full">MODULE TEST</span>
                   )}
                   <span className="text-white/70 text-sm">›</span>
                 </div>
@@ -621,7 +621,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                 <div className="flex items-center gap-2.5 min-w-0">
                   <span className="text-2xl flex-shrink-0">🔒</span>
                   <div className="min-w-0">
-                    <p className="font-black text-white text-sm leading-snug">Module Test — {info.title}</p>
+                    <p className="font-bold text-white text-sm leading-snug">Module Test — {info.title}</p>
                     <p className="text-white/80 text-xs mt-0.5">Nâng cấp Pro để mở</p>
                   </div>
                 </div>

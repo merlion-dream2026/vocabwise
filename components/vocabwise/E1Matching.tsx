@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react'
 import type { MatchingItem, MatchingOption } from './types'
+import { cta } from '@/components/ChunkyUI'
 
 type Props = {
   instruction: string
@@ -69,14 +70,14 @@ export default function E1Matching({ instruction, items, options, answerKey, onD
   const wordCls = (s: string) =>
     s === 'matched'  ? 'bg-green-100 border-green-400 text-green-800' :
     s === 'wrong'    ? 'bg-red-100 border-red-400 text-red-700 animate-pulse' :
-    s === 'selected' ? 'bg-purple-100 border-purple-500 text-purple-800 ring-2 ring-purple-300' :
-                       'bg-white border-gray-200 text-gray-800 hover:border-purple-300 active:scale-95'
+    s === 'selected' ? 'bg-blue-100 border-blue-500 text-blue-800 ring-2 ring-blue-300' :
+                       'bg-white border-gray-200 text-gray-800 hover:border-blue-300 active:scale-95'
 
   const optCls = (s: string) =>
     s === 'matched'  ? 'bg-green-100 border-green-400 text-green-800' :
     s === 'wrong'    ? 'bg-red-100 border-red-400 text-red-700 animate-pulse' :
     selectedWord !== null
-      ? 'bg-white border-purple-200 text-gray-700 hover:border-purple-400 hover:bg-purple-50 cursor-pointer active:scale-95'
+      ? 'bg-white border-blue-200 text-gray-700 hover:border-blue-400 hover:bg-blue-50 cursor-pointer active:scale-95'
       : 'bg-white border-gray-200 text-gray-500'
 
   return (
@@ -91,11 +92,11 @@ export default function E1Matching({ instruction, items, options, answerKey, onD
             return (
               <button key={item.id} onClick={() => handleWordTap(item.id)}
                 className={`flex items-center gap-2 px-3 py-2.5 rounded-xl border-2 font-bold text-sm transition-all duration-150 ${wordCls(s)}`}>
-                <span className="w-5 h-5 rounded-full bg-purple-100 text-purple-600 font-black text-xs flex items-center justify-center flex-shrink-0">
+                <span className="w-5 h-5 rounded-full bg-blue-100 text-blue-600 font-bold text-xs flex items-center justify-center flex-shrink-0">
                   {item.id}
                 </span>
                 <span>{item.word}</span>
-                {s === 'matched' && <span className="ml-auto text-green-500 text-xs font-black">{matched[item.id]}</span>}
+                {s === 'matched' && <span className="ml-auto text-green-500 text-xs font-bold">{matched[item.id]}</span>}
               </button>
             )
           })}
@@ -108,7 +109,7 @@ export default function E1Matching({ instruction, items, options, answerKey, onD
             return (
               <button key={opt.id} onClick={() => handleOptTap(opt.id)}
                 className={`flex items-start gap-2 px-3 py-2.5 rounded-xl border-2 text-sm leading-snug transition-all duration-150 ${optCls(s)}`}>
-                <span className="w-5 h-5 rounded-full bg-blue-100 text-blue-600 font-black text-xs flex items-center justify-center flex-shrink-0 mt-0.5">
+                <span className="w-5 h-5 rounded-full bg-blue-100 text-blue-600 font-bold text-xs flex items-center justify-center flex-shrink-0 mt-0.5">
                   {opt.id}
                 </span>
                 <span>{opt.text}</span>
@@ -119,14 +120,14 @@ export default function E1Matching({ instruction, items, options, answerKey, onD
       </div>
 
       {selectedWord !== null && (
-        <p className="text-center text-xs text-purple-500 font-bold">
+        <p className="text-center text-xs text-blue-500 font-bold">
           Đã chọn: <em>{items.find(i => i.id === selectedWord)?.word}</em> — bây giờ chọn định nghĩa →
         </p>
       )}
 
       {allDone && !submitted && (
         <button onClick={handleSubmit}
-          className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all">
+          className={cta('blue')}>
           ✅ Xác nhận — Tiếp theo →
         </button>
       )}

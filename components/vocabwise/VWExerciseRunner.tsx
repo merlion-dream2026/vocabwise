@@ -16,6 +16,7 @@ import ESynSub          from './ESynSub'
 import ECollocBuilder   from './ECollocBuilder'
 import WritingCheck     from './WritingCheck'
 import PracticeMore    from './PracticeMore'
+import { cta } from '@/components/ChunkyUI'
 
 type ExPhase = 'ex1' | 'ex2' | 'ex3' | 'ex4' | 'ex5' | 'ex6'
 type Phase   = 'menu' | ExPhase | 'results'
@@ -147,19 +148,19 @@ export default function VWExerciseRunner({
         )}
         <div role="status" aria-live="polite" className="text-center py-6">
           <div className="text-6xl mb-3">{medal}</div>
-          <h2 className="text-2xl font-black text-gray-800">Hoàn thành!</h2>
+          <h2 className="text-2xl font-bold text-gray-800">Hoàn thành!</h2>
           <p className="text-gray-500 text-sm mt-1">{topicTitle}</p>
           <div className="mt-4 inline-flex items-baseline gap-1">
-            <span className="text-4xl font-black text-purple-600">{totalScore}</span>
+            <span className="text-4xl font-bold text-blue-600">{totalScore}</span>
             <span className="text-gray-400 font-bold text-lg">/ {maxScore}</span>
           </div>
           <p className="text-gray-400 text-sm">{pct}%</p>
           {pct >= 80 && (
-            <p className="text-xs font-black text-yellow-600 mt-1">🏆 Thành thạo chủ đề này!</p>
+            <p className="text-xs font-bold text-yellow-600 mt-1">🏆 Thành thạo chủ đề này!</p>
           )}
         </div>
 
-        <div className="bg-white rounded-2xl border-2 border-gray-100 p-4 space-y-3">
+        <div className="bg-white rounded-3xl p-4 space-y-3 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
           {availablePhases.map((p, i) => {
             const d = getExData(exercises, p)
             if (!d) return null
@@ -172,7 +173,7 @@ export default function VWExerciseRunner({
                   <span className="text-xs font-bold text-gray-500">
                     {EX_ICONS[d.type] ?? ''} {p === 'ex6' ? 'Bài thêm' : `Bài ${i + 1}`} — {EX_NAMES[d.type] ?? d.type}
                   </span>
-                  <span className="text-xs font-black text-gray-600">{s}/5</span>
+                  <span className="text-xs font-bold text-gray-600">{s}/5</span>
                 </div>
                 <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
                   <div className={`h-full ${bar} rounded-full transition-all`} style={{ width: `${spct}%` }} />
@@ -186,7 +187,7 @@ export default function VWExerciseRunner({
           <WritingCheck words={glossaryWords} cefr={cefr ?? 'B1-C1'} />
         ) : (
           <div className="bg-indigo-50 border border-indigo-200 rounded-2xl p-4">
-            <p className="text-indigo-800 text-sm font-black">✍️ Thực hành viết câu</p>
+            <p className="text-indigo-800 text-sm font-bold">✍️ Thực hành viết câu</p>
             <p className="text-indigo-600 text-xs mt-1 leading-relaxed">
               Nâng cấp Pro để dùng AI chấm câu viết — chọn từ vừa học, viết câu, nhận nhận xét và gợi ý cải thiện ngay lập tức.
             </p>
@@ -197,7 +198,7 @@ export default function VWExerciseRunner({
           <PracticeMore glossary={glossary} topicTitle={topicTitle} cefr={cefr ?? 'B1-C1'} />
         ) : !isPro && (
           <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-4">
-            <p className="text-emerald-800 text-sm font-black">🔄 Luyện tập thêm</p>
+            <p className="text-emerald-800 text-sm font-bold">🔄 Luyện tập thêm</p>
             <p className="text-emerald-600 text-xs mt-1 leading-relaxed">
               Nâng cấp Pro để AI tạo bài tập mới vô hạn từ từ vựng của chủ đề này — không bao giờ làm bài cũ hai lần.
             </p>
@@ -206,13 +207,13 @@ export default function VWExerciseRunner({
 
         <button
           onClick={() => setShowShare(true)}
-          className="w-full flex items-center justify-center gap-2 bg-white border-2 border-purple-200 text-purple-600 font-black py-3 rounded-2xl active:scale-95 transition-all"
+          className="w-full flex items-center justify-center gap-2 bg-white border-2 border-blue-200 text-blue-600 font-bold py-3 rounded-2xl active:scale-95 transition-all"
         >
           📤 Chia sẻ kết quả
         </button>
 
         <button onClick={onBack}
-          className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black py-3.5 rounded-2xl shadow-lg active:scale-95 transition-all">
+          className={cta('blue')}>
           ← Quay lại chủ đề
         </button>
       </div>
@@ -234,24 +235,24 @@ export default function VWExerciseRunner({
       <div className="flex flex-col gap-4">
         <div className="flex items-center gap-3 pb-2 border-b border-gray-100">
           <button onClick={() => setPhase('menu')}
-            className="inline-flex items-center gap-1.5 bg-purple-50 hover:bg-purple-100 text-purple-600 font-bold text-sm px-3 py-1.5 rounded-full transition-all active:scale-95">
+            className="inline-flex items-center gap-1.5 bg-blue-50 hover:bg-blue-100 text-blue-600 font-bold text-sm px-3 py-1.5 rounded-full transition-all active:scale-95">
             ← Danh sách bài
           </button>
-          <span className="ml-auto bg-purple-100 text-purple-700 text-xs font-black px-3 py-1 rounded-full">
+          <span className="ml-auto bg-blue-100 text-blue-700 text-xs font-bold px-3 py-1 rounded-full">
             Bài {phaseIdx}/{availablePhases.length}
           </span>
         </div>
 
         <div className="flex items-center gap-2">
           {exPhase === 'ex6'
-            ? <span className="bg-amber-100 text-amber-700 text-xs font-black px-2.5 py-1 rounded-full">
+            ? <span className="bg-amber-100 text-amber-700 text-xs font-bold px-2.5 py-1 rounded-full">
                 {EX_ICONS[exData.type] ?? ''} Bài thêm
               </span>
-            : <span className="bg-purple-100 text-purple-700 text-xs font-black px-2.5 py-1 rounded-full">
+            : <span className="bg-blue-100 text-blue-700 text-xs font-bold px-2.5 py-1 rounded-full">
                 {EX_ICONS[exData.type] ?? ''} Bài {phaseIdx}
               </span>
           }
-          <span className="font-black text-gray-700 text-sm">
+          <span className="font-bold text-gray-700 text-sm">
             {EX_NAMES[exData.type] ?? exData.type}
           </span>
         </div>
@@ -285,19 +286,19 @@ export default function VWExerciseRunner({
     <div className="flex flex-col gap-4 pb-4">
       {/* Header */}
       <div className="flex items-center gap-3 pb-2 border-b border-gray-100">
-        <button onClick={onBack} className="inline-flex items-center gap-1.5 bg-purple-50 hover:bg-purple-100 text-purple-600 font-bold text-sm px-3 py-1.5 rounded-full transition-all active:scale-95">
+        <button onClick={onBack} className="inline-flex items-center gap-1.5 bg-blue-50 hover:bg-blue-100 text-blue-600 font-bold text-sm px-3 py-1.5 rounded-full transition-all active:scale-95">
           ← {topicTitle}
         </button>
-        <span className="ml-auto bg-purple-100 text-purple-700 text-xs font-black px-3 py-1 rounded-full">
+        <span className="ml-auto bg-blue-100 text-blue-700 text-xs font-bold px-3 py-1 rounded-full">
           {doneCount}/{availablePhases.length} bài đã làm
         </span>
       </div>
 
       {/* Previous session banner */}
       {hasPrev && (
-        <div className="bg-purple-50 border border-purple-100 rounded-2xl px-4 py-2.5 text-center">
-          <p className="text-xs text-purple-600 font-bold">
-            Lần trước: <span className="text-purple-700">{prevTotal}/{maxScore} điểm</span>
+        <div className="bg-blue-50 border border-blue-100 rounded-2xl px-4 py-2.5 text-center">
+          <p className="text-xs text-blue-600 font-bold">
+            Lần trước: <span className="text-blue-700">{prevTotal}/{maxScore} điểm</span>
             {prevTotal >= maxScore * 0.8 ? ' 🏆' : ' · làm lại để cải thiện!'}
           </p>
         </div>
@@ -311,7 +312,7 @@ export default function VWExerciseRunner({
             <span>{availablePhases.reduce((s, p) => s + (scores[p] ?? 0), 0)}/{maxScore}</span>
           </div>
           <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
-            <div className="h-full bg-gradient-to-r from-purple-500 to-pink-500 rounded-full transition-all duration-500"
+            <div className="h-full bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full transition-all duration-500"
               style={{ width: `${maxScore > 0 ? Math.round((availablePhases.reduce((s, p) => s + (scores[p] ?? 0), 0) / maxScore) * 100) : 0}%` }} />
           </div>
         </div>
@@ -332,20 +333,20 @@ export default function VWExerciseRunner({
           return (
             <button key={exPhase} onClick={() => setPhase(exPhase)}
               className={`w-full flex items-center gap-3 bg-white border-2 rounded-2xl px-4 py-3.5 active:scale-[0.99] transition-all text-left hover:shadow-sm ${
-                isBonus ? 'border-amber-100 hover:border-amber-300' : 'border-gray-100 hover:border-purple-200'
+                isBonus ? 'border-amber-100 hover:border-amber-300' : 'border-gray-100 hover:border-blue-200'
               }`}>
               {/* Icon */}
-              <span className={`w-10 h-10 rounded-xl font-black text-lg flex items-center justify-center flex-shrink-0 ${
+              <span className={`w-10 h-10 rounded-xl font-bold text-lg flex items-center justify-center flex-shrink-0 ${
                 isDone ? 'bg-green-50 text-green-500'
                 : isBonus ? 'bg-amber-50 text-amber-500'
-                : 'bg-purple-50 text-purple-400'
+                : 'bg-blue-50 text-blue-400'
               }`}>
                 {isDone ? '✓' : EX_ICONS[d.type] ?? `${i+1}`}
               </span>
 
               {/* Info */}
               <div className="flex-1 min-w-0">
-                <p className="font-black text-gray-800 text-sm">
+                <p className="font-bold text-gray-800 text-sm">
                   {isBonus ? 'Bài thêm' : `Bài ${i + 1}`} — {EX_NAMES[d.type] ?? d.type}
                 </p>
                 <p className="text-xs text-gray-400 mt-0.5">{isBonus ? '10 câu' : '5 câu'} · tối đa 5 điểm</p>
@@ -354,7 +355,7 @@ export default function VWExerciseRunner({
               {/* Status */}
               {isDone ? (
                 <div className="text-right flex-shrink-0 flex flex-col items-end gap-1">
-                  <span className={`text-sm font-black ${hasCurrentScore ? 'text-green-600' : 'text-gray-400'}`}>
+                  <span className={`text-sm font-bold ${hasCurrentScore ? 'text-green-600' : 'text-gray-400'}`}>
                     {displayScore}/5
                   </span>
                   {scoreBar(displayScore ?? 0)}
@@ -363,8 +364,8 @@ export default function VWExerciseRunner({
                   )}
                 </div>
               ) : (
-                <span className={`text-xs font-black px-3 py-1.5 rounded-full flex-shrink-0 ${
-                  isBonus ? 'text-amber-600 bg-amber-50' : 'text-purple-500 bg-purple-50'
+                <span className={`text-xs font-bold px-3 py-1.5 rounded-full flex-shrink-0 ${
+                  isBonus ? 'text-amber-600 bg-amber-50' : 'text-blue-500 bg-blue-50'
                 }`}>
                   Làm →
                 </span>
@@ -376,9 +377,9 @@ export default function VWExerciseRunner({
 
       {/* Submit */}
       <button onClick={handleFinish}
-        className={`w-full font-black py-3.5 rounded-2xl transition-all active:scale-95 mt-1 ${
+        className={`w-full font-bold py-3.5 rounded-2xl transition-all active:scale-95 mt-1 ${
           allDone
-            ? 'bg-gradient-to-r from-purple-500 to-pink-500 text-white shadow-lg'
+            ? 'bg-gradient-to-r from-blue-500 to-indigo-500 text-white shadow-lg'
             : 'bg-gray-100 text-gray-500 border-2 border-gray-200'
         }`}>
         {allDone

@@ -158,7 +158,7 @@ export default function PlacementPage() {
         {/* Header */}
         <div className={`bg-gradient-to-r ${info.color} text-white px-4 py-5`}>
           <div className="max-w-lg mx-auto flex items-center gap-3">
-            <button onClick={() => router.push('/vocabwise')} aria-label="Quay lại" className="text-white/70 hover:text-white text-xl">←</button>
+            <button onClick={() => router.push('/vocabwise')} aria-label="Quay lại" className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 text-lg font-bold text-white transition-transform active:translate-y-0.5 active:border-b-2 flex-shrink-0">←</button>
             <div>
               <h1 className="font-black text-lg">Kết quả cấp độ</h1>
               <p className="text-white/70 text-xs">Đúng {totalCorrect}/10 câu</p>
@@ -241,7 +241,7 @@ export default function PlacementPage() {
       {/* Header */}
       <div className="bg-gradient-to-r from-indigo-600 to-blue-600 text-white px-4 py-4">
         <div className="max-w-lg mx-auto flex items-center gap-3">
-          <button onClick={() => router.push('/vocabwise')} className="text-white/70 hover:text-white text-xl flex-shrink-0">←</button>
+          <button onClick={() => router.push('/vocabwise')} className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 text-lg font-bold text-white transition-transform active:translate-y-0.5 active:border-b-2">←</button>
           <div className="flex-1">
             <div className="flex justify-between text-xs text-white/80 font-semibold mb-1.5">
               <span>Bài kiểm tra cấp độ</span>

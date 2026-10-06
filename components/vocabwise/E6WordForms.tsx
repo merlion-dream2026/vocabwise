@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import type { WordFormItem } from './types'
 import HintButton from './HintButton'
+import { cta } from '@/components/ChunkyUI'
 
 type Props = {
   instruction: string
@@ -42,7 +43,7 @@ export default function E6WordForms({ instruction, items, onDone }: Props) {
     <div className="flex flex-col gap-4">
       <div className="flex items-center justify-between mb-1">
         <p className="text-base text-gray-600 leading-relaxed flex-1">{instruction}</p>
-        <span className="text-xs font-black text-teal-500 ml-3 flex-shrink-0">{idx + 1}/{total}</span>
+        <span className="text-xs font-bold text-teal-500 ml-3 flex-shrink-0">{idx + 1}/{total}</span>
       </div>
 
       {/* Progress dots */}
@@ -56,17 +57,17 @@ export default function E6WordForms({ instruction, items, onDone }: Props) {
 
       {/* Base word badge */}
       <div className="text-center">
-        <span className="bg-teal-100 text-teal-700 font-black text-sm px-4 py-1.5 rounded-full tracking-widest">
+        <span className="bg-teal-100 text-teal-700 font-bold text-sm px-4 py-1.5 rounded-full tracking-widest">
           {current.base_word}
         </span>
         <p className="text-xs text-gray-500 mt-1">Dùng dạng đúng của từ trên</p>
       </div>
 
       {/* Sentence */}
-      <div className="bg-white border-2 border-teal-100 rounded-2xl p-4 shadow-sm">
+      <div className="bg-white border-teal-100 rounded-3xl p-4 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
         <p className="text-base font-bold text-gray-800 leading-relaxed text-center">
           {parts[0]}
-          <span className={`inline-block mx-1 px-2 py-0.5 rounded-lg font-black min-w-[60px] text-center transition-all ${
+          <span className={`inline-block mx-1 px-2 py-0.5 rounded-lg font-bold min-w-[60px] text-center transition-all ${
             !checked
               ? 'bg-teal-50 text-teal-400 border-2 border-dashed border-teal-200'
               : correct
@@ -111,14 +112,14 @@ export default function E6WordForms({ instruction, items, onDone }: Props) {
 
       {!checked ? (
         <button onClick={handleCheck} disabled={!typed.trim()}
-          className={`w-full font-black py-3 rounded-2xl shadow transition-all active:scale-95 ${
+          className={`w-full font-bold py-3 rounded-2xl shadow transition-all active:scale-95 ${
             typed.trim() ? 'bg-teal-500 text-white' : 'bg-teal-100 text-teal-300 cursor-not-allowed'
           }`}>
           Kiểm tra
         </button>
       ) : (
         <button onClick={goNext}
-          className="w-full bg-gradient-to-r from-teal-500 to-cyan-400 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all">
+          className={cta('teal')}>
           {idx + 1 >= total ? '✅ Xác nhận — Tiếp theo →' : 'Tiếp →'}
         </button>
       )}

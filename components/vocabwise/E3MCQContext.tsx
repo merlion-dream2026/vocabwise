@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import type { MCQItem } from './types'
 import HintButton from './HintButton'
+import { cta } from '@/components/ChunkyUI'
 
 type Props = {
   instruction: string
@@ -34,7 +35,7 @@ export default function E3MCQContext({ instruction, items, onDone }: Props) {
   }
 
   const optCls = (opt: string) => {
-    if (selected === null) return 'bg-white border-gray-200 text-gray-800 hover:border-purple-300 hover:bg-purple-50 active:scale-95'
+    if (selected === null) return 'bg-white border-gray-200 text-gray-800 hover:border-blue-300 hover:bg-blue-50 active:scale-95'
     if (opt === current.answer) return 'bg-green-100 border-green-500 text-green-800'
     if (opt === selected) return 'bg-red-100 border-red-400 text-red-700'
     return 'bg-white border-gray-100 text-gray-400'
@@ -46,25 +47,25 @@ export default function E3MCQContext({ instruction, items, onDone }: Props) {
     <div className="flex flex-col gap-4">
       <div className="flex items-center justify-between mb-1">
         <p className="text-base text-gray-600 leading-relaxed flex-1">{instruction}</p>
-        <span className="text-xs font-black text-purple-400 ml-3 flex-shrink-0">{idx + 1}/{total}</span>
+        <span className="text-xs font-bold text-blue-400 ml-3 flex-shrink-0">{idx + 1}/{total}</span>
       </div>
 
       {/* Progress dots */}
       <div className="flex gap-1.5 justify-center">
         {items.map((_, i) => (
           <div key={i} className={`w-2 h-2 rounded-full transition-all ${
-            i < idx ? 'bg-green-400' : i === idx ? 'bg-purple-500 scale-125' : 'bg-gray-200'
+            i < idx ? 'bg-green-400' : i === idx ? 'bg-blue-500 scale-125' : 'bg-gray-200'
           }`} />
         ))}
       </div>
 
       {/* Sentence */}
-      <div className="bg-white border-2 border-purple-100 rounded-2xl p-4 shadow-sm">
+      <div className="bg-white border-blue-100 rounded-3xl p-4 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
         <p className="text-base font-bold text-gray-800 leading-relaxed text-center">
           {parts[0]}
-          <span className={`inline-block mx-1 px-3 py-0.5 rounded-lg font-black transition-all ${
+          <span className={`inline-block mx-1 px-3 py-0.5 rounded-lg font-bold transition-all ${
             selected === null
-              ? 'bg-purple-50 text-purple-300 border-2 border-dashed border-purple-200'
+              ? 'bg-blue-50 text-blue-300 border-2 border-dashed border-blue-200'
               : selected === current.answer
               ? 'bg-green-100 text-green-700 border-2 border-green-400'
               : 'bg-red-100 text-red-600 border-2 border-red-400'
@@ -86,7 +87,7 @@ export default function E3MCQContext({ instruction, items, onDone }: Props) {
           <button key={opt} onClick={() => handleSelect(opt)}
             disabled={selected !== null}
             className={`flex items-center gap-2 px-3 py-3 rounded-xl border-2 font-bold text-sm transition-all duration-150 ${optCls(opt)}`}>
-            <span className="w-6 h-6 rounded-full bg-gray-100 text-gray-500 font-black text-xs flex items-center justify-center flex-shrink-0">
+            <span className="w-6 h-6 rounded-full bg-gray-100 text-gray-500 font-bold text-xs flex items-center justify-center flex-shrink-0">
               {optLabels[i]}
             </span>
             <span className="text-left">{opt}</span>
@@ -102,7 +103,7 @@ export default function E3MCQContext({ instruction, items, onDone }: Props) {
 
       {selected !== null && (
         <button onClick={goNext}
-          className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all">
+          className={cta('blue')}>
           {idx + 1 >= total ? '✅ Xác nhận — Tiếp theo →' : 'Tiếp →'}
         </button>
       )}

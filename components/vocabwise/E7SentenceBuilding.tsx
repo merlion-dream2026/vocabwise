@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react'
 import type { SentenceItem } from './types'
+import { cta } from '@/components/ChunkyUI'
 
 type Props = {
   instruction: string
@@ -64,7 +65,7 @@ export default function E7SentenceBuilding({ instruction, items, onDone }: Props
     <div className="flex flex-col gap-4">
       <div className="flex items-center justify-between mb-1">
         <p className="text-base text-gray-600 leading-relaxed flex-1">{instruction}</p>
-        <span className="text-xs font-black text-indigo-400 ml-3 flex-shrink-0">{idx + 1}/{total}</span>
+        <span className="text-xs font-bold text-indigo-400 ml-3 flex-shrink-0">{idx + 1}/{total}</span>
       </div>
 
       {/* Progress dots */}
@@ -118,11 +119,11 @@ export default function E7SentenceBuilding({ instruction, items, onDone }: Props
       {!checked ? (
         <div className="flex gap-2">
           <button onClick={reset}
-            className="flex-none bg-gray-100 text-gray-500 font-black px-4 py-3 rounded-2xl active:scale-95 transition-all text-sm">
+            className="flex-none bg-gray-100 text-gray-500 font-bold px-4 py-3 rounded-2xl active:scale-95 transition-all text-sm">
             🔄 Đặt lại
           </button>
           <button onClick={handleCheck} disabled={built.length === 0}
-            className={`flex-1 font-black py-3 rounded-2xl shadow transition-all active:scale-95 ${
+            className={`flex-1 font-bold py-3 rounded-2xl shadow transition-all active:scale-95 ${
               built.length > 0 ? 'bg-indigo-500 text-white' : 'bg-indigo-100 text-indigo-300 cursor-not-allowed'
             }`}>
             Kiểm tra
@@ -130,7 +131,7 @@ export default function E7SentenceBuilding({ instruction, items, onDone }: Props
         </div>
       ) : (
         <button onClick={goNext}
-          className="w-full bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all">
+          className={cta('indigo')}>
           {idx + 1 >= total ? '✅ Xác nhận — Tiếp theo →' : 'Tiếp →'}
         </button>
       )}

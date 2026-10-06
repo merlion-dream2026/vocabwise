@@ -59,15 +59,15 @@ export default function WritingCheck({ words, cefr }: Props) {
 
   return (
     <div className="bg-white border-2 border-indigo-100 rounded-2xl overflow-hidden">
-      <div className="bg-gradient-to-r from-indigo-500 to-purple-500 px-4 py-3">
-        <p className="text-white font-black text-sm">✍️ Thực hành viết câu</p>
+      <div className="bg-gradient-to-r from-indigo-500 to-blue-500 px-4 py-3">
+        <p className="text-white font-bold text-sm">✍️ Thực hành viết câu</p>
         <p className="text-indigo-200 text-xs mt-0.5">Chọn từ → viết câu → AI chấm và góp ý</p>
       </div>
 
       <div className="p-4 space-y-4">
         {/* Word chips */}
         <div>
-          <p className="text-xs font-black text-gray-500 uppercase tracking-wide mb-2">Chọn từ</p>
+          <p className="text-xs font-bold text-gray-500 uppercase tracking-wide mb-2">Chọn từ</p>
           <div className="flex flex-wrap gap-2">
             {words.map(w => (
               <button key={w} onClick={() => handleWordSelect(w)}
@@ -85,8 +85,8 @@ export default function WritingCheck({ words, cefr }: Props) {
         {selected && !feedback && (
           <>
             <div>
-              <p className="text-xs font-black text-gray-500 uppercase tracking-wide mb-2">
-                Viết câu dùng từ <em className="text-indigo-600 not-italic font-black">{selected}</em>
+              <p className="text-xs font-bold text-gray-500 uppercase tracking-wide mb-2">
+                Viết câu dùng từ <em className="text-indigo-600 not-italic font-bold">{selected}</em>
               </p>
               <textarea
                 value={sentence}
@@ -101,9 +101,9 @@ export default function WritingCheck({ words, cefr }: Props) {
             <button
               onClick={handleSubmit}
               disabled={!sentence.trim() || loading}
-              className={`w-full font-black py-3 rounded-2xl transition-all active:scale-95 text-sm ${
+              className={`w-full font-bold py-3 rounded-2xl transition-all active:scale-95 text-sm ${
                 sentence.trim() && !loading
-                  ? 'bg-gradient-to-r from-indigo-500 to-purple-500 text-white shadow'
+                  ? 'bg-gradient-to-r from-indigo-500 to-blue-500 text-white shadow'
                   : 'bg-gray-100 text-gray-400 cursor-not-allowed'
               }`}>
               {loading
@@ -122,7 +122,7 @@ export default function WritingCheck({ words, cefr }: Props) {
             {/* Score */}
             <div className={`flex items-center justify-between border-2 rounded-xl px-4 py-3 ${scoreColor(feedback.score)}`}>
               <div>
-                <p className="font-black text-lg">{feedback.score}/10</p>
+                <p className="font-bold text-lg">{feedback.score}/10</p>
                 <p className="text-xs font-bold mt-0.5">
                   {feedback.used_correctly ? '✅ Dùng từ đúng' : '⚠️ Dùng từ chưa đúng'}
                   {' · '}
@@ -136,21 +136,21 @@ export default function WritingCheck({ words, cefr }: Props) {
 
             {/* Feedback */}
             <div className="bg-blue-50 border border-blue-200 rounded-xl px-3 py-2.5">
-              <p className="text-xs font-black text-blue-600 mb-1">Nhận xét</p>
+              <p className="text-xs font-bold text-blue-600 mb-1">Nhận xét</p>
               <p className="text-xs text-blue-800 leading-relaxed">{feedback.feedback_vi}</p>
             </div>
 
             {/* Improved version */}
             {feedback.improved && (
               <div className="bg-green-50 border border-green-200 rounded-xl px-3 py-2.5">
-                <p className="text-xs font-black text-green-600 mb-1">✨ Câu cải thiện</p>
+                <p className="text-xs font-bold text-green-600 mb-1">✨ Câu cải thiện</p>
                 <p className="text-xs text-green-800 font-bold italic leading-relaxed">&quot;{feedback.improved}&quot;</p>
               </div>
             )}
 
             {/* Try another */}
             <button onClick={reset}
-              className="w-full border-2 border-indigo-200 text-indigo-600 font-black py-2.5 rounded-2xl text-sm active:scale-95 transition-all hover:bg-indigo-50">
+              className="w-full border-2 border-indigo-200 text-indigo-600 font-bold py-2.5 rounded-2xl text-sm active:scale-95 transition-all hover:bg-indigo-50">
               Viết câu khác →
             </button>
           </div>

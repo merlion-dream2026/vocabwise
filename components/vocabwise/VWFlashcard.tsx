@@ -1,6 +1,7 @@
 'use client'
 import { useState, useCallback, useMemo } from 'react'
 import { speak } from '@/lib/speak'
+import { cta } from '@/components/ChunkyUI'
 
 type GlossaryItem = {
   id: number
@@ -54,9 +55,9 @@ export default function VWFlashcard({ glossary, onExit }: Props) {
       <div className="flex flex-col items-center gap-5 py-6">
         <div className="text-5xl">{pct === 100 ? '🏆' : pct >= 70 ? '⭐' : '💪'}</div>
         <div className="text-center">
-          <p className="text-xl font-black text-gray-800">Hoàn thành tự kiểm tra!</p>
+          <p className="text-xl font-bold text-gray-800">Hoàn thành tự kiểm tra!</p>
           <p className="text-gray-500 text-sm mt-1">
-            Bạn nhớ <span className="font-black text-green-600">{knewCount}/{total}</span> từ ({pct}%)
+            Bạn nhớ <span className="font-bold text-green-600">{knewCount}/{total}</span> từ ({pct}%)
           </p>
         </div>
 
@@ -73,7 +74,7 @@ export default function VWFlashcard({ glossary, onExit }: Props) {
               results[i] ? 'bg-green-50 border-green-200' : 'bg-red-50 border-red-200'
             }`}>
               <span className="text-sm">{results[i] ? '✅' : '❌'}</span>
-              <span className="font-black text-sm text-gray-800 flex-1">{c.word}</span>
+              <span className="font-bold text-sm text-gray-800 flex-1">{c.word}</span>
               <span className="text-xs text-gray-500 truncate max-w-[140px]">{c.meaning_vi.split(';')[0]}</span>
             </div>
           ))}
@@ -81,7 +82,7 @@ export default function VWFlashcard({ glossary, onExit }: Props) {
 
         <button
           onClick={onExit}
-          className="w-full bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all"
+          className={cta('indigo')}
         >
           ← Quay lại từ vựng
         </button>
@@ -95,16 +96,16 @@ export default function VWFlashcard({ glossary, onExit }: Props) {
     <div className="flex flex-col gap-4">
       {/* Header */}
       <div className="flex items-center justify-between">
-        <button onClick={onExit} className="inline-flex items-center gap-1.5 bg-purple-50 hover:bg-purple-100 text-purple-600 font-bold text-sm px-3 py-1.5 rounded-full transition-all active:scale-95">
+        <button onClick={onExit} className="inline-flex items-center gap-1.5 bg-blue-50 hover:bg-blue-100 text-blue-600 font-bold text-sm px-3 py-1.5 rounded-full transition-all active:scale-95">
           ← Thoát
         </button>
-        <span className="bg-purple-100 text-purple-700 text-xs font-black px-3 py-1 rounded-full">{idx + 1}/{total}</span>
+        <span className="bg-blue-100 text-blue-700 text-xs font-bold px-3 py-1 rounded-full">{idx + 1}/{total}</span>
       </div>
 
       {/* Progress bar */}
       <div className="w-full bg-gray-100 rounded-full h-2 overflow-hidden">
         <div
-          className="h-full bg-purple-400 rounded-full transition-all duration-300"
+          className="h-full bg-blue-400 rounded-full transition-all duration-300"
           style={{ width: `${progress * 100}%` }}
         />
       </div>
@@ -129,10 +130,10 @@ export default function VWFlashcard({ glossary, onExit }: Props) {
         >
           {/* Front */}
           <div
-            className="absolute inset-0 bg-white border-2 border-indigo-100 rounded-3xl flex flex-col items-center justify-center gap-3 p-6 shadow-sm"
+            className="absolute inset-0 bg-white border-indigo-100 rounded-3xl flex flex-col items-center justify-center gap-3 p-6 border-2 border-slate-200 border-b-[4px] border-b-slate-300"
             style={{ backfaceVisibility: 'hidden' }}
           >
-            <span className="text-3xl font-black text-gray-800">{displayWord}</span>
+            <span className="text-3xl font-bold text-gray-800">{displayWord}</span>
             {current.ipa && <span className="text-gray-400 text-sm font-mono">{current.ipa}</span>}
             {current.pos && (
               <span className="text-xs bg-blue-50 text-blue-500 font-bold px-2 py-0.5 rounded-full">
@@ -154,7 +155,7 @@ export default function VWFlashcard({ glossary, onExit }: Props) {
             className="absolute inset-0 bg-indigo-50 border-2 border-indigo-200 rounded-3xl flex flex-col items-center justify-center gap-3 p-6 shadow-sm"
             style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
           >
-            <span className="text-xl font-black text-indigo-700 text-center">{current.meaning_vi}</span>
+            <span className="text-xl font-bold text-indigo-700 text-center">{current.meaning_vi}</span>
             <p className="text-base text-gray-600 italic text-center leading-relaxed">&quot;{current.example_en}&quot;</p>
             <p className="text-sm text-gray-400 italic text-center">{current.example_vi}</p>
           </div>
@@ -166,13 +167,13 @@ export default function VWFlashcard({ glossary, onExit }: Props) {
         <div className="grid grid-cols-2 gap-3">
           <button
             onClick={() => handleAnswer(false)}
-            className="py-3.5 rounded-2xl border-2 border-red-200 bg-red-50 text-red-600 font-black text-sm active:scale-95 transition-all"
+            className="py-3.5 rounded-2xl border-2 border-red-200 bg-red-50 text-red-600 font-bold text-sm active:scale-95 transition-all"
           >
             ❌ Chưa nhớ
           </button>
           <button
             onClick={() => handleAnswer(true)}
-            className="py-3.5 rounded-2xl border-2 border-green-200 bg-green-50 text-green-700 font-black text-sm active:scale-95 transition-all"
+            className="py-3.5 rounded-2xl border-2 border-green-200 bg-green-50 text-green-700 font-bold text-sm active:scale-95 transition-all"
           >
             ✅ Nhớ rồi
           </button>
@@ -189,7 +190,7 @@ export default function VWFlashcard({ glossary, onExit }: Props) {
           <div key={i} className={`w-2 h-2 rounded-full transition-all ${
             i < results.length
               ? results[i] ? 'bg-green-400' : 'bg-red-400'
-              : i === idx ? 'bg-purple-500 scale-125' : 'bg-gray-200'
+              : i === idx ? 'bg-blue-500 scale-125' : 'bg-gray-200'
           }`} />
         ))}
       </div>

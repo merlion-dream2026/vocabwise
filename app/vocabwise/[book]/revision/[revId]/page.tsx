@@ -4,6 +4,7 @@ import { useRouter, useParams } from 'next/navigation'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import GameSoundToggle from '@/components/GameSoundToggle'
 import { academicFetch } from '@/lib/academicSync'
+import { cta } from '@/components/ChunkyUI'
 
 type GlossaryItem = { word: string; pos: string | null; meaning_vi: string; example_en: string; topic_id: string }
 type HistoryEntry = { topics?: number; xp?: number; games?: number; words?: number; topicIds?: string[]; testsDone?: string[] }
@@ -21,7 +22,7 @@ type Phase =
 const BOOK_LABELS: Record<string, { title: string; color: string; header: string }> = {
   book1: { title: 'Foundation',  color: 'from-emerald-400 to-green-500',  header: 'bg-emerald-500' },
   book2: { title: 'Progress',    color: 'from-blue-400 to-cyan-500',      header: 'bg-blue-500'    },
-  book3: { title: 'Mastery',     color: 'from-violet-500 to-purple-600',  header: 'bg-violet-600'  },
+  book3: { title: 'Mastery',     color: 'from-violet-500 to-blue-600',  header: 'bg-violet-600'  },
 }
 
 function shuffle<T>(arr: T[]): T[] {
@@ -87,7 +88,7 @@ function buildQuestions(pool: GlossaryItem[]) {
 function ScoreBadge({ score, max }: { score: number; max: number }) {
   const pct = max > 0 ? score / max : 0
   const cls = pct >= 0.8 ? 'bg-green-100 text-green-700' : pct >= 0.6 ? 'bg-amber-100 text-amber-700' : 'bg-red-100 text-red-600'
-  return <span className={`text-xs font-black px-2 py-0.5 rounded-full ${cls}`}>{score}/{max}</span>
+  return <span className={`text-xs font-bold px-2 py-0.5 rounded-full ${cls}`}>{score}/{max}</span>
 }
 
 // ── MCQ Round ─────────────────────────────────────────────────────────────────
@@ -127,8 +128,8 @@ function MCQRound({
       </div>
 
       {/* Word */}
-      <div className="bg-white rounded-2xl border-2 border-amber-100 shadow-sm p-6 text-center">
-        <p className="text-3xl font-black text-gray-800 mb-1">{q.word}</p>
+      <div className="bg-white rounded-3xl border-amber-100 p-6 text-center border-2 border-slate-200 border-b-[4px] border-b-slate-300">
+        <p className="text-3xl font-bold text-gray-800 mb-1">{q.word}</p>
         {q.pos && <p className="text-xs text-gray-400 italic">{q.pos}</p>}
         <p className="text-xs font-bold text-amber-600 mt-3 uppercase tracking-wider">Nghĩa tiếng Việt là gì?</p>
       </div>
@@ -193,7 +194,7 @@ function FIBRound({
       </div>
 
       {/* Sentence */}
-      <div className="bg-white rounded-2xl border-2 border-amber-100 shadow-sm p-5">
+      <div className="bg-white rounded-3xl border-amber-100 p-5 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
         <p className="text-xs font-bold text-amber-600 uppercase tracking-wider mb-3">Điền từ vào chỗ trống</p>
         <p className="text-base font-semibold text-gray-800 leading-relaxed">{q.blanked}</p>
         <p className="text-xs text-blue-500 font-semibold mt-2">💡 {q.meaning_vi}</p>
@@ -220,7 +221,7 @@ function FIBRound({
           )}
           {!selected && (
             <button onClick={() => typedInput.trim() && resolve(typedInput)} disabled={!typedInput.trim()}
-              className="w-full bg-amber-400 hover:bg-amber-500 disabled:opacity-40 text-white font-black py-3.5 rounded-2xl text-sm active:scale-95 transition-all shadow-sm">
+              className={cta('amber')}>
               Kiểm tra ✓
             </button>
           )}
@@ -356,15 +357,15 @@ function BreakScreen({
     <div className="flex flex-col items-center gap-6 py-8 text-center">
       <span className="text-6xl">{emoji}</span>
       <div>
-        <h2 className="text-xl font-black text-gray-800 mb-1">{title}</h2>
+        <h2 className="text-xl font-bold text-gray-800 mb-1">{title}</h2>
         <p className="text-sm text-gray-500">{subtitle}</p>
       </div>
       <div className="bg-amber-50 border-2 border-amber-200 rounded-2xl p-5 w-full max-w-xs">
-        <p className={`text-3xl font-black mb-1 ${grade.cls}`}>{score}/{max}</p>
+        <p className={`text-3xl font-bold mb-1 ${grade.cls}`}>{score}/{max}</p>
         <p className={`text-sm font-bold ${grade.cls}`}>{grade.label}</p>
       </div>
       <button onClick={onContinue}
-        className="w-full max-w-xs bg-amber-400 hover:bg-amber-500 text-white font-black py-4 rounded-2xl text-base active:scale-95 transition-all shadow-md">
+        className={cta('amber', 'max-w-xs')}>
         Tiếp tục →
       </button>
     </div>
@@ -474,7 +475,7 @@ export default function RevisionPage() {
           <button onClick={() => router.back()} aria-label="Quay lại" className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 text-lg font-bold text-white transition-transform active:translate-y-0.5 active:border-b-2">←</button>
           <span className="text-xl flex-shrink-0">✨</span>
           <div className="min-w-0 flex-1">
-            <h1 className="font-black text-base leading-tight">Revision: Topics {topicRange}</h1>
+            <h1 className="font-bold text-base leading-tight">Revision: Topics {topicRange}</h1>
             <p className="text-white/70 text-xs">VocabWise {bookInfo.title}</p>
           </div>
           {phase !== 'intro' && (
@@ -497,10 +498,10 @@ export default function RevisionPage() {
               <span className="text-4xl">✨</span>
             </div>
             <div>
-              <h2 className="text-2xl font-black text-gray-800 mb-2">Revision: Topics {topicRange}</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-2">Revision: Topics {topicRange}</h2>
               <p className="text-gray-500 text-sm">Ôn tập từ vựng 5 chủ đề vừa học</p>
             </div>
-            <div className="bg-white rounded-2xl border-2 border-amber-100 shadow-sm p-5 w-full max-w-xs space-y-3">
+            <div className="bg-white rounded-3xl border-amber-100 p-5 w-full max-w-xs space-y-3 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
               {[
                 { icon: '🧩', label: 'Round 1', desc: '10 câu MCQ — chọn nghĩa tiếng Việt' },
                 { icon: '✏️', label: 'Round 2', desc: '10 câu Fill-in-blank — điền từ vào câu' },
@@ -509,7 +510,7 @@ export default function RevisionPage() {
                 <div key={r.label} className="flex items-center gap-3 text-left">
                   <span className="text-2xl flex-shrink-0">{r.icon}</span>
                   <div>
-                    <p className="font-black text-gray-700 text-sm">{r.label}</p>
+                    <p className="font-bold text-gray-700 text-sm">{r.label}</p>
                     <p className="text-xs text-gray-400">{r.desc}</p>
                   </div>
                 </div>
@@ -517,7 +518,7 @@ export default function RevisionPage() {
             </div>
             <p className="text-xs text-gray-400">30 câu · Không giới hạn thời gian · Có thể làm lại</p>
             <button onClick={() => setPhase('mcq')}
-              className="w-full max-w-xs bg-gradient-to-r from-amber-400 to-yellow-500 text-white font-black py-4 rounded-2xl text-base active:scale-95 transition-all shadow-md">
+              className={cta('amber', 'max-w-xs')}>
               Bắt đầu →
             </button>
           </div>
@@ -529,7 +530,7 @@ export default function RevisionPage() {
             <div className="flex items-center gap-2 mb-5">
               <span className="text-lg">🧩</span>
               <div>
-                <p className="font-black text-gray-700 text-sm">Round 1 — MCQ</p>
+                <p className="font-bold text-gray-700 text-sm">Round 1 — MCQ</p>
                 <p className="text-xs text-gray-400">Chọn nghĩa tiếng Việt đúng</p>
               </div>
             </div>
@@ -548,7 +549,7 @@ export default function RevisionPage() {
             <div className="flex items-center gap-2 mb-5">
               <span className="text-lg">✏️</span>
               <div>
-                <p className="font-black text-gray-700 text-sm">Round 2 — Fill-in-blank</p>
+                <p className="font-bold text-gray-700 text-sm">Round 2 — Fill-in-blank</p>
                 <p className="text-xs text-gray-400">Điền từ vào chỗ trống trong câu</p>
               </div>
             </div>
@@ -567,7 +568,7 @@ export default function RevisionPage() {
             <div className="flex items-center gap-2 mb-5">
               <span className="text-lg">🔗</span>
               <div>
-                <p className="font-black text-gray-700 text-sm">Round 3 — Matching (Bộ 1/2)</p>
+                <p className="font-bold text-gray-700 text-sm">Round 3 — Matching (Bộ 1/2)</p>
                 <p className="text-xs text-gray-400">Nối từ tiếng Anh với nghĩa tiếng Việt</p>
               </div>
             </div>
@@ -587,7 +588,7 @@ export default function RevisionPage() {
             <div className="flex items-center gap-2 mb-5">
               <span className="text-lg">🔗</span>
               <div>
-                <p className="font-black text-gray-700 text-sm">Round 3 — Matching (Bộ 2/2)</p>
+                <p className="font-bold text-gray-700 text-sm">Round 3 — Matching (Bộ 2/2)</p>
                 <p className="text-xs text-gray-400">Nối từ tiếng Anh với nghĩa tiếng Việt</p>
               </div>
             </div>
@@ -612,18 +613,18 @@ export default function RevisionPage() {
             <div className="flex flex-col items-center gap-5 py-6 text-center">
               <span className="text-6xl">{grade.emoji}</span>
               <div>
-                <h2 className="text-2xl font-black text-gray-800 mb-1">Hoàn thành!</h2>
+                <h2 className="text-2xl font-bold text-gray-800 mb-1">Hoàn thành!</h2>
                 <p className="text-sm text-gray-500">Revision: Topics {topicRange}</p>
               </div>
 
               <div className={`w-full max-w-xs rounded-2xl border-2 p-5 ${grade.bg}`}>
-                <p className={`text-4xl font-black mb-1 ${grade.cls}`}>{final}/30</p>
+                <p className={`text-4xl font-bold mb-1 ${grade.cls}`}>{final}/30</p>
                 <p className={`text-base font-bold ${grade.cls}`}>{grade.label}</p>
                 <p className="text-xs text-gray-400 mt-1">{Math.round(pct * 100)}% chính xác</p>
               </div>
 
               {/* Breakdown */}
-              <div className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm p-4 w-full max-w-xs space-y-2.5">
+              <div className="bg-white rounded-3xl p-4 w-full max-w-xs space-y-2.5 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
                 {[
                   { icon: '🧩', label: 'MCQ',         score: mcqScore,    max: 10 },
                   { icon: '✏️', label: 'Fill-in-blank', score: fibScore,   max: 10 },
@@ -634,7 +635,7 @@ export default function RevisionPage() {
                     <div className="flex-1 min-w-0">
                       <div className="flex items-center justify-between text-xs mb-1">
                         <span className="font-bold text-gray-600">{r.label}</span>
-                        <span className="font-black text-gray-700">{r.score}/{r.max}</span>
+                        <span className="font-bold text-gray-700">{r.score}/{r.max}</span>
                       </div>
                       <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
                         <div className="h-full bg-amber-400 rounded-full transition-all"
@@ -651,11 +652,11 @@ export default function RevisionPage() {
                   setMcqScore(0); setFibScore(0); setMatch1Score(0); setMatch2Score(0)
                   setQuestions(buildQuestions(pool))
                 }}
-                  className="flex-1 bg-white border-2 border-gray-200 text-gray-600 font-black py-3.5 rounded-2xl text-sm active:scale-95 transition-all shadow-sm">
+                  className="flex-1 bg-white border-gray-200 text-gray-600 font-bold py-3.5 rounded-3xl text-sm active:scale-95 transition-all border-2 border-slate-200 border-b-[4px] border-b-slate-300">
                   Làm lại
                 </button>
                 <button onClick={() => router.back()}
-                  className="flex-1 bg-amber-400 hover:bg-amber-500 text-white font-black py-3.5 rounded-2xl text-sm active:scale-95 transition-all shadow-md">
+                  className="flex-1 bg-amber-400 hover:bg-amber-500 text-white font-bold py-3.5 rounded-2xl text-sm active:scale-95 transition-all shadow-md">
                   Về danh sách
                 </button>
               </div>

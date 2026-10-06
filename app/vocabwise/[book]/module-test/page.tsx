@@ -8,6 +8,7 @@ import UpgradeModal from '@/components/UpgradeModal'
 import { getEffectivePlan } from '@/lib/planUtils'
 import { cachedFetch } from '@/lib/cachedFetch'
 import { academicFetch } from '@/lib/academicSync'
+import { cta } from '@/components/ChunkyUI'
 
 type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; bonus_features?: string[] | null }
 
@@ -102,7 +103,7 @@ function buildQuestions(chunk: GlossaryItem[]) {
 function ScoreBadge({ score, max }: { score: number; max: number }) {
   const pct = max > 0 ? score / max : 0
   const cls = pct >= 0.8 ? 'bg-green-100 text-green-700' : pct >= 0.6 ? 'bg-amber-100 text-amber-700' : 'bg-red-100 text-red-600'
-  return <span className={`text-xs font-black px-2 py-0.5 rounded-full ${cls}`}>{score}/{max}</span>
+  return <span className={`text-xs font-bold px-2 py-0.5 rounded-full ${cls}`}>{score}/{max}</span>
 }
 
 // ── MCQ Round ─────────────────────────────────────────────────────────────────
@@ -131,8 +132,8 @@ function MCQRound({ questions, onDone }: { questions: MCQQuestion[]; onDone: (sc
       <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
         <div className="h-full bg-amber-400 rounded-full transition-all duration-300" style={{ width: `${(idx / questions.length) * 100}%` }} />
       </div>
-      <div className="bg-white rounded-2xl border-2 border-amber-100 shadow-sm p-6 text-center">
-        <p className="text-3xl font-black text-gray-800 mb-1">{q.word}</p>
+      <div className="bg-white rounded-3xl border-amber-100 p-6 text-center border-2 border-slate-200 border-b-[4px] border-b-slate-300">
+        <p className="text-3xl font-bold text-gray-800 mb-1">{q.word}</p>
         {q.pos && <p className="text-xs text-gray-400 italic">{q.pos}</p>}
         <p className="text-xs font-bold text-amber-600 mt-3 uppercase tracking-wider">Nghĩa tiếng Việt là gì?</p>
       </div>
@@ -185,7 +186,7 @@ function FIBRound({ questions, onDone }: { questions: FIBQuestion[]; onDone: (sc
       <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
         <div className="h-full bg-amber-400 rounded-full transition-all duration-300" style={{ width: `${(idx / questions.length) * 100}%` }} />
       </div>
-      <div className="bg-white rounded-2xl border-2 border-amber-100 shadow-sm p-5">
+      <div className="bg-white rounded-3xl border-amber-100 p-5 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
         <p className="text-xs font-bold text-amber-600 uppercase tracking-wider mb-3">Điền từ vào chỗ trống</p>
         <p className="text-base font-semibold text-gray-800 leading-relaxed">{q.blanked}</p>
         <p className="text-xs text-blue-500 font-semibold mt-2">💡 {q.meaning_vi}</p>
@@ -211,7 +212,7 @@ function FIBRound({ questions, onDone }: { questions: FIBQuestion[]; onDone: (sc
           )}
           {!selected && (
             <button onClick={() => typedInput.trim() && resolve(typedInput)} disabled={!typedInput.trim()}
-              className="w-full bg-amber-400 hover:bg-amber-500 disabled:opacity-40 text-white font-black py-3.5 rounded-2xl text-sm active:scale-95 transition-all shadow-sm">
+              className={cta('amber')}>
               Kiểm tra ✓
             </button>
           )}
@@ -361,8 +362,8 @@ function ProductionRound({ questions, onDone }: { questions: ProductionQuestion[
           return (
             <div key={i} className={`rounded-2xl border-2 p-4 ${cls}`}>
               <div className="flex justify-between items-start gap-2 mb-1">
-                <p className="font-black text-gray-700 text-sm">Câu {i + 1} · &quot;{q.targetWord}&quot;</p>
-                <span className="text-xs font-black text-gray-600 flex-shrink-0">{r.score}/10</span>
+                <p className="font-bold text-gray-700 text-sm">Câu {i + 1} · &quot;{q.targetWord}&quot;</p>
+                <span className="text-xs font-bold text-gray-600 flex-shrink-0">{r.score}/10</span>
               </div>
               <p className="text-xs text-gray-500 mb-1.5">🇻🇳 {q.exampleVi}</p>
               <p className="text-sm text-gray-800 font-semibold mb-1.5">
@@ -374,7 +375,7 @@ function ProductionRound({ questions, onDone }: { questions: ProductionQuestion[
           )
         })}
         <button onClick={() => onDone(avg)}
-          className="w-full bg-amber-400 hover:bg-amber-500 text-white font-black py-4 rounded-2xl text-base active:scale-95 transition-all shadow-md">
+          className={cta('amber')}>
           Xem tổng kết →
         </button>
       </div>
@@ -388,7 +389,7 @@ function ProductionRound({ questions, onDone }: { questions: ProductionQuestion[
         <span>Đã điền {filledCount}/{questions.length}</span>
       </div>
       {questions.map((q, i) => (
-        <div key={i} className="bg-white rounded-2xl border-2 border-amber-100 shadow-sm p-4">
+        <div key={i} className="bg-white rounded-3xl border-amber-100 p-4 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
           <p className="text-xs font-bold text-amber-600 mb-1.5">
             Câu {i + 1} · từ mục tiêu: &quot;{q.targetWord}&quot;{q.cefr ? ` (${q.cefr})` : ''}
           </p>
@@ -404,7 +405,7 @@ function ProductionRound({ questions, onDone }: { questions: ProductionQuestion[
       ))}
       {error && <p className="text-red-500 text-xs font-bold text-center">{error}</p>}
       <button onClick={submit} disabled={submitting}
-        className="w-full bg-amber-400 hover:bg-amber-500 disabled:opacity-50 text-white font-black py-4 rounded-2xl text-base active:scale-95 transition-all shadow-md">
+        className={cta('amber')}>
         {submitting ? 'Đang chấm...' : `Nộp bài — chấm ${questions.length} câu`}
       </button>
     </div>
@@ -424,15 +425,15 @@ function BreakScreen({ emoji, title, subtitle, score, max, onContinue }: {
     <div className="flex flex-col items-center gap-6 py-8 text-center">
       <span className="text-6xl">{emoji}</span>
       <div>
-        <h2 className="text-xl font-black text-gray-800 mb-1">{title}</h2>
+        <h2 className="text-xl font-bold text-gray-800 mb-1">{title}</h2>
         <p className="text-sm text-gray-500">{subtitle}</p>
       </div>
       <div className="bg-amber-50 border-2 border-amber-200 rounded-2xl p-5 w-full max-w-xs">
-        <p className={`text-3xl font-black mb-1 ${grade.cls}`}>{score}/{max}</p>
+        <p className={`text-3xl font-bold mb-1 ${grade.cls}`}>{score}/{max}</p>
         <p className={`text-sm font-bold ${grade.cls}`}>{grade.label}</p>
       </div>
       <button onClick={onContinue}
-        className="w-full max-w-xs bg-amber-400 hover:bg-amber-500 text-white font-black py-4 rounded-2xl text-base active:scale-95 transition-all shadow-md">
+        className={cta('amber', 'max-w-xs')}>
         Tiếp tục →
       </button>
     </div>
@@ -563,7 +564,7 @@ export default function ModuleTestPage() {
           <button onClick={() => router.back()} aria-label="Quay lại" className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 text-lg font-bold text-white transition-transform active:translate-y-0.5 active:border-b-2">←</button>
           <span className="text-xl flex-shrink-0">🏆</span>
           <div className="min-w-0 flex-1">
-            <h1 className="font-black text-base leading-tight">Module Test — {bookInfo.title}</h1>
+            <h1 className="font-bold text-base leading-tight">Module Test — {bookInfo.title}</h1>
             <p className="text-white/70 text-xs">Tổng kết toàn bộ VocabWise {bookInfo.title}</p>
           </div>
           {phase !== 'intro' && phase !== 'production' && (
@@ -585,10 +586,10 @@ export default function ModuleTestPage() {
               <span className="text-4xl">🏆</span>
             </div>
             <div>
-              <h2 className="text-2xl font-black text-gray-800 mb-2">Module Test — {bookInfo.title}</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-2">Module Test — {bookInfo.title}</h2>
               <p className="text-gray-500 text-sm">Tổng kết toàn bộ 60 chủ đề trong book!</p>
             </div>
-            <div className="bg-white rounded-2xl border-2 border-amber-100 shadow-sm p-5 w-full max-w-xs space-y-3">
+            <div className="bg-white rounded-3xl border-amber-100 p-5 w-full max-w-xs space-y-3 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
               {[
                 { icon: '🧩', label: 'Round 1', desc: '15 câu MCQ — chọn nghĩa tiếng Việt' },
                 { icon: '✏️', label: 'Round 2', desc: '10 câu Fill-in-blank — điền từ vào câu' },
@@ -598,7 +599,7 @@ export default function ModuleTestPage() {
                 <div key={r.label} className="flex items-center gap-3 text-left">
                   <span className="text-2xl flex-shrink-0">{r.icon}</span>
                   <div>
-                    <p className="font-black text-gray-700 text-sm">{r.label}</p>
+                    <p className="font-bold text-gray-700 text-sm">{r.label}</p>
                     <p className="text-xs text-gray-400">{r.desc}</p>
                   </div>
                 </div>
@@ -611,7 +612,7 @@ export default function ModuleTestPage() {
               </div>
             )}
             <button onClick={() => setPhase('mcq')}
-              className="w-full max-w-xs bg-gradient-to-r from-amber-400 to-yellow-500 text-white font-black py-4 rounded-2xl text-base active:scale-95 transition-all shadow-md">
+              className={cta('amber', 'max-w-xs')}>
               {savedScore ? 'Làm lại →' : 'Bắt đầu →'}
             </button>
           </div>
@@ -621,7 +622,7 @@ export default function ModuleTestPage() {
           <>
             <div className="flex items-center gap-2 mb-5">
               <span className="text-lg">🧩</span>
-              <div><p className="font-black text-gray-700 text-sm">Round 1 — MCQ</p><p className="text-xs text-gray-400">Chọn nghĩa tiếng Việt đúng</p></div>
+              <div><p className="font-bold text-gray-700 text-sm">Round 1 — MCQ</p><p className="text-xs text-gray-400">Chọn nghĩa tiếng Việt đúng</p></div>
             </div>
             <MCQRound questions={questions.mcq} onDone={s => { setMcqScore(s); setPhase('mcq_done') }} />
           </>
@@ -634,7 +635,7 @@ export default function ModuleTestPage() {
           <>
             <div className="flex items-center gap-2 mb-5">
               <span className="text-lg">✏️</span>
-              <div><p className="font-black text-gray-700 text-sm">Round 2 — Fill-in-blank</p><p className="text-xs text-gray-400">Điền từ vào chỗ trống trong câu</p></div>
+              <div><p className="font-bold text-gray-700 text-sm">Round 2 — Fill-in-blank</p><p className="text-xs text-gray-400">Điền từ vào chỗ trống trong câu</p></div>
             </div>
             <FIBRound questions={questions.fib} onDone={s => { setFibScore(s); setPhase('fib_done') }} />
           </>
@@ -647,7 +648,7 @@ export default function ModuleTestPage() {
           <>
             <div className="flex items-center gap-2 mb-5">
               <span className="text-lg">🔗</span>
-              <div><p className="font-black text-gray-700 text-sm">Round 3 — Matching (Bộ 1/2)</p><p className="text-xs text-gray-400">Nối từ tiếng Anh với nghĩa tiếng Việt</p></div>
+              <div><p className="font-bold text-gray-700 text-sm">Round 3 — Matching (Bộ 1/2)</p><p className="text-xs text-gray-400">Nối từ tiếng Anh với nghĩa tiếng Việt</p></div>
             </div>
             <MatchRound key="m1" pairs={questions.match1} setLabel="Bộ 1/2" onDone={s => { setMatch1Score(s); setPhase('match1_done') }} />
           </>
@@ -660,7 +661,7 @@ export default function ModuleTestPage() {
           <>
             <div className="flex items-center gap-2 mb-5">
               <span className="text-lg">🔗</span>
-              <div><p className="font-black text-gray-700 text-sm">Round 3 — Matching (Bộ 2/2)</p><p className="text-xs text-gray-400">Nối từ tiếng Anh với nghĩa tiếng Việt</p></div>
+              <div><p className="font-bold text-gray-700 text-sm">Round 3 — Matching (Bộ 2/2)</p><p className="text-xs text-gray-400">Nối từ tiếng Anh với nghĩa tiếng Việt</p></div>
             </div>
             <MatchRound key="m2" pairs={questions.match2} setLabel="Bộ 2/2" onDone={s => { setMatch2Score(s); setPhase('match2_done') }} />
           </>
@@ -673,7 +674,7 @@ export default function ModuleTestPage() {
           <>
             <div className="flex items-center gap-2 mb-5">
               <span className="text-lg">✍️</span>
-              <div><p className="font-black text-gray-700 text-sm">Round 4 — Viết câu</p><p className="text-xs text-gray-400">Dịch câu tiếng Việt sang tiếng Anh, AI chấm cả bài 1 lần</p></div>
+              <div><p className="font-bold text-gray-700 text-sm">Round 4 — Viết câu</p><p className="text-xs text-gray-400">Dịch câu tiếng Việt sang tiếng Anh, AI chấm cả bài 1 lần</p></div>
             </div>
             <ProductionRound questions={questions.production} onDone={s => {
               setProductionScore(s)
@@ -694,15 +695,15 @@ export default function ModuleTestPage() {
             <div className="flex flex-col items-center gap-5 py-6 text-center">
               <span className="text-6xl">{grade.emoji}</span>
               <div>
-                <h2 className="text-2xl font-black text-gray-800 mb-1">Hoàn thành Module Test!</h2>
+                <h2 className="text-2xl font-bold text-gray-800 mb-1">Hoàn thành Module Test!</h2>
                 <p className="text-sm text-gray-500">VocabWise {bookInfo.title}</p>
               </div>
               <div className={`w-full max-w-xs rounded-2xl border-2 p-5 ${grade.bg}`}>
-                <p className={`text-4xl font-black mb-1 ${grade.cls}`}>{final}/{TOTAL_MAX}</p>
+                <p className={`text-4xl font-bold mb-1 ${grade.cls}`}>{final}/{TOTAL_MAX}</p>
                 <p className={`text-base font-bold ${grade.cls}`}>{grade.label}</p>
                 <p className="text-xs text-gray-400 mt-1">{Math.round(pct * 100)}% chính xác</p>
               </div>
-              <div className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm p-4 w-full max-w-xs space-y-2.5">
+              <div className="bg-white rounded-3xl p-4 w-full max-w-xs space-y-2.5 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
                 {[
                   { icon: '🧩', label: 'MCQ',         score: mcqScore,    max: 15 },
                   { icon: '✏️', label: 'Fill-in-blank', score: fibScore,   max: 10 },
@@ -714,7 +715,7 @@ export default function ModuleTestPage() {
                     <div className="flex-1 min-w-0">
                       <div className="flex items-center justify-between text-xs mb-1">
                         <span className="font-bold text-gray-600">{r.label}</span>
-                        <span className="font-black text-gray-700">{r.score}/{r.max}</span>
+                        <span className="font-bold text-gray-700">{r.score}/{r.max}</span>
                       </div>
                       <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
                         <div className="h-full bg-amber-400 rounded-full transition-all" style={{ width: `${(r.score / r.max) * 100}%` }} />
@@ -731,11 +732,11 @@ export default function ModuleTestPage() {
                   setAttempt(nextAttempt)
                   setQuestions(buildQuestions(pickTestSet(fullPool, nextAttempt)))
                 }}
-                  className="flex-1 bg-white border-2 border-gray-200 text-gray-600 font-black py-3.5 rounded-2xl text-sm active:scale-95 transition-all shadow-sm">
+                  className="flex-1 bg-white border-gray-200 text-gray-600 font-bold py-3.5 rounded-3xl text-sm active:scale-95 transition-all border-2 border-slate-200 border-b-[4px] border-b-slate-300">
                   Làm lại
                 </button>
                 <button onClick={() => router.back()}
-                  className="flex-1 bg-amber-400 hover:bg-amber-500 text-white font-black py-3.5 rounded-2xl text-sm active:scale-95 transition-all shadow-md">
+                  className="flex-1 bg-amber-400 hover:bg-amber-500 text-white font-bold py-3.5 rounded-2xl text-sm active:scale-95 transition-all shadow-md">
                   Về danh sách
                 </button>
               </div>

@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react'
 import type { CatItem } from './types'
+import { cta } from '@/components/ChunkyUI'
 
 type Props = {
   instruction: string
@@ -52,21 +53,21 @@ export default function ECategorize({ instruction, categories, items, onDone }: 
     <div className="flex flex-col gap-4">
       <div className="flex items-center justify-between mb-1">
         <p className="text-base text-gray-600 leading-relaxed flex-1">{instruction}</p>
-        <span className="text-xs font-black text-purple-400 ml-3 flex-shrink-0">{idx + 1}/{total}</span>
+        <span className="text-xs font-bold text-blue-400 ml-3 flex-shrink-0">{idx + 1}/{total}</span>
       </div>
 
       {/* Progress dots */}
       <div className="flex gap-1.5 justify-center">
         {items.map((_, i) => (
           <div key={i} className={`w-2 h-2 rounded-full transition-all ${
-            i < idx ? 'bg-green-400' : i === idx ? 'bg-purple-500 scale-125' : 'bg-gray-200'
+            i < idx ? 'bg-green-400' : i === idx ? 'bg-blue-500 scale-125' : 'bg-gray-200'
           }`} />
         ))}
       </div>
 
       {/* Word card */}
-      <div className="bg-white border-2 border-purple-100 rounded-2xl p-8 flex items-center justify-center shadow-sm">
-        <span className="text-3xl font-black text-gray-800">{current?.word}</span>
+      <div className="bg-white border-blue-100 rounded-3xl p-8 flex items-center justify-center border-2 border-slate-200 border-b-[4px] border-b-slate-300">
+        <span className="text-3xl font-bold text-gray-800">{current?.word}</span>
       </div>
 
       <p className="text-xs text-gray-500 text-center">Từ này thuộc nhóm nào?</p>
@@ -90,7 +91,7 @@ export default function ECategorize({ instruction, categories, items, onDone }: 
       {/* Feedback */}
       {selected !== null && (
         <div role="status" aria-live="polite" className={`rounded-2xl p-3 border-2 ${isCorrect ? 'bg-green-50 border-green-200' : 'bg-red-50 border-red-200'}`}>
-          <p className="text-sm font-black">
+          <p className="text-sm font-bold">
             {isCorrect ? '✅ Chính xác!' : `❌ Nhóm đúng: ${current.answer}`}
           </p>
         </div>
@@ -98,7 +99,7 @@ export default function ECategorize({ instruction, categories, items, onDone }: 
 
       {selected !== null && (
         <button onClick={goNext}
-          className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all">
+          className={cta('blue')}>
           {idx + 1 >= total ? '✅ Xác nhận — Tiếp theo →' : 'Tiếp →'}
         </button>
       )}

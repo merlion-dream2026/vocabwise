@@ -6,6 +6,7 @@ import UpgradeBanner from '@/components/UpgradeBanner'
 import { cachedFetch } from '@/lib/cachedFetch'
 import { academicFetch } from '@/lib/academicSync'
 import StickerEntryCard from '@/components/StickerEntryCard'
+import { cta } from '@/components/ChunkyUI'
 
 type AcademicTopicSync = { completed: boolean; mastered: boolean }
 type Session = { plan: string; username?: string; free_trial_expires_at?: string | null; plan_end_date?: string | null }
@@ -25,8 +26,8 @@ const BOOKS = [
   },
   {
     id: 3, slug: 'book3', title: 'VocabWise Mastery',
-    cefr: 'C1–C2', maxTopics: 60, color: 'from-purple-600 to-violet-600',
-    badge: 'bg-purple-100 text-purple-700', bar: 'bg-purple-500', emoji: '🎓',
+    cefr: 'C1–C2', maxTopics: 60, color: 'from-blue-600 to-indigo-600',
+    badge: 'bg-blue-100 text-blue-700', bar: 'bg-blue-500', emoji: '🎓',
     themes: ['Self & Society', 'Health & the Human Body', 'The Modern World', 'Knowledge & Ideas', 'Language & Communication', 'Ethics & the Future'],
   },
 ]
@@ -80,9 +81,9 @@ export default function VocabWisePage() {
         />
       )}
       {/* Header */}
-      <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
+      <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-b-3xl border-b-[4px] border-black/20">
         <div className="max-w-2xl mx-auto px-4 py-4 flex items-center gap-3">
-          <button onClick={() => router.back()} aria-label="Quay lại" className="text-white/70 hover:text-white text-xl flex-shrink-0">←</button>
+          <button onClick={() => router.back()} aria-label="Quay lại" className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 text-lg font-bold text-white transition-transform active:translate-y-0.5 active:border-b-2">←</button>
           <span className="text-2xl flex-shrink-0">🎓</span>
           <div>
             <h1 className="font-bold text-lg leading-tight">VocabWise Academic</h1>
@@ -99,7 +100,7 @@ export default function VocabWisePage() {
           <div className="bg-gradient-to-br from-indigo-50 to-blue-50 border-2 border-indigo-100 rounded-3xl p-5">
             <div className="flex items-start justify-between gap-2 mb-4">
               <div>
-                <h3 className="font-black text-gray-800 text-base">👋 Chào mừng đến VocabWise Academic!</h3>
+                <h3 className="font-bold text-gray-800 text-base">👋 Chào mừng đến VocabWise Academic!</h3>
                 <p className="text-xs text-gray-400 font-semibold mt-0.5">Từ vựng học thuật · A1 → C2 · IELTS / SAT</p>
               </div>
               <button onClick={dismissWelcome} aria-label="Đóng thông báo chào mừng" className="text-gray-300 hover:text-gray-500 text-lg leading-none flex-shrink-0">✕</button>
@@ -111,7 +112,7 @@ export default function VocabWisePage() {
                 { n: '3', icon: '✏️', title: 'Làm 5 bài tập luyện từ', desc: 'Matching · MCQ · Gap Fill · TFNG · Word Forms' },
               ].map(step => (
                 <div key={step.n} className="flex items-center gap-3">
-                  <div className="w-7 h-7 rounded-full bg-indigo-500 text-white text-xs font-black flex items-center justify-center flex-shrink-0">{step.n}</div>
+                  <div className="w-7 h-7 rounded-full bg-indigo-500 text-white text-xs font-bold flex items-center justify-center flex-shrink-0">{step.n}</div>
                   <div>
                     <p className="text-sm font-bold text-gray-700">{step.icon} {step.title}</p>
                     <p className="text-xs text-gray-400">{step.desc}</p>
@@ -120,7 +121,7 @@ export default function VocabWisePage() {
               ))}
             </div>
             <Link href="/vocabwise/placement" onClick={dismissWelcome}
-              className="w-full flex items-center justify-center gap-2 bg-indigo-500 hover:bg-indigo-600 text-white font-black text-sm py-3 rounded-2xl active:scale-95 transition-all">
+              className={cta('indigo', 'flex items-center justify-center gap-2')}>
               🎯 Bắt đầu với bài kiểm tra cấp độ →
             </Link>
           </div>
@@ -144,10 +145,10 @@ export default function VocabWisePage() {
               <div className="flex items-center gap-3">
                 <span className="text-3xl flex-shrink-0">🎯</span>
                 <div className="flex-1">
-                  <p className="font-black text-base leading-tight">Chưa biết nên bắt đầu từ đâu?</p>
+                  <p className="font-bold text-base leading-tight">Chưa biết nên bắt đầu từ đâu?</p>
                   <p className="text-white/80 text-xs mt-0.5">Làm bài kiểm tra 10 câu · 2 phút · Nhận gợi ý cấp độ phù hợp</p>
                 </div>
-                <span className="text-white/70 font-black text-xl flex-shrink-0">›</span>
+                <span className="text-white/70 font-bold text-xl flex-shrink-0">›</span>
               </div>
             </Link>
             <button
@@ -169,10 +170,10 @@ export default function VocabWisePage() {
           <div className="flex items-center gap-3">
             <span className="text-3xl flex-shrink-0">⭐</span>
             <div className="flex-1">
-              <p className="font-black text-gray-800 text-sm leading-tight">Từ của tôi — Lưu từ quan trọng</p>
+              <p className="font-bold text-gray-800 text-sm leading-tight">Từ của tôi — Lưu từ quan trọng</p>
               <p className="text-yellow-700 text-xs mt-0.5">Nhấn ⭐ cạnh từ trong bài học để lưu vào danh sách ôn tập riêng · Free: 20 từ · Pro: không giới hạn</p>
             </div>
-            <span className="text-yellow-500 font-black text-xl flex-shrink-0">›</span>
+            <span className="text-yellow-500 font-bold text-xl flex-shrink-0">›</span>
           </div>
         </Link>
 
@@ -186,15 +187,15 @@ export default function VocabWisePage() {
 
           return (
             <Link key={book.id} href={`/vocabwise/${book.slug}`}
-              className="block bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden active:scale-[0.99] transition-all">
+              className="block bg-white rounded-3xl overflow-hidden active:scale-[0.99] transition-all border-2 border-slate-200 border-b-[4px] border-b-slate-300">
 
               {/* Gradient header — same style as Daily level card */}
               <div className={`bg-gradient-to-r ${book.color} px-5 py-4 flex items-center gap-4`}>
-                <div className="w-14 h-14 rounded-2xl bg-white/20 flex items-center justify-center text-4xl flex-shrink-0 shadow-sm">
+                <div className="w-14 h-14 rounded-3xl bg-white/20 flex items-center justify-center text-4xl flex-shrink-0 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
                   {book.emoji}
                 </div>
                 <div className="flex-1 text-white min-w-0">
-                  <h2 className="font-black text-lg leading-tight">{book.title}</h2>
+                  <h2 className="font-bold text-lg leading-tight">{book.title}</h2>
                   <p className="text-white/80 text-sm">{book.cefr} · {book.maxTopics} chủ đề</p>
                   {hasProgress && (
                     <p className="text-white/90 text-xs font-bold mt-0.5">
@@ -202,7 +203,7 @@ export default function VocabWisePage() {
                     </p>
                   )}
                 </div>
-                <span className="text-white/70 font-black text-xl flex-shrink-0">›</span>
+                <span className="text-white/70 font-bold text-xl flex-shrink-0">›</span>
               </div>
 
               {/* Body: progress bar OR theme chips */}

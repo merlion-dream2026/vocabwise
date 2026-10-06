@@ -15,6 +15,7 @@ import { cachedFetch } from '@/lib/cachedFetch'
 import { stripMarkdown } from '@/lib/textFormat'
 import { academicFetch, activeChildId } from '@/lib/academicSync'
 import Sticker from '@/components/Sticker'
+import { cta } from '@/components/ChunkyUI'
 
 type GlossaryItem = {
   id: number
@@ -56,7 +57,7 @@ type Session = { plan: string; username?: string; free_trial_expires_at?: string
 type Tab = 'passage' | 'glossary' | 'grammar' | 'exercises'
 
 function renderPassage(text: string) {
-  return (text ?? '').replace(/\*\*(.+?)\*\*/g, '<strong class="text-blue-700 font-black">$1</strong>')
+  return (text ?? '').replace(/\*\*(.+?)\*\*/g, '<strong class="text-blue-700 font-bold">$1</strong>')
 }
 
 const POS_SHORT: Record<string, string> = {
@@ -354,16 +355,16 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
         />
       )}
       {/* Header */}
-      <div className="bg-gradient-to-r from-blue-600 to-indigo-600 px-4 pt-12 pb-4 text-white">
+      <div className="bg-gradient-to-r from-blue-600 to-indigo-600 px-4 pt-12 pb-4 text-white rounded-b-3xl border-b-[4px] border-black/20">
         <button onClick={() => router.back()} className="inline-flex items-center gap-1.5 mb-3 bg-white/20 hover:bg-white/30 text-white font-bold text-sm px-3 py-1.5 rounded-full transition-all active:scale-95">
           ← {meta.theme_title}
         </button>
-        <h1 className="text-xl font-black leading-tight">{meta.topic_title}</h1>
+        <h1 className="text-xl font-bold leading-tight">{meta.topic_title}</h1>
         <div className="flex items-center gap-2 mt-1">
-          <span className="text-xs font-black bg-white/20 px-2 py-0.5 rounded-full">{meta.cefr_level}</span>
+          <span className="text-xs font-bold bg-white/20 px-2 py-0.5 rounded-full">{meta.cefr_level}</span>
           <span className="text-xs text-blue-200">Topic {meta.topic_number}</span>
-          {topicSync?.mastered && <span className="text-xs bg-yellow-400/90 text-yellow-900 font-black px-2 py-0.5 rounded-full">🏆 Thành thạo</span>}
-          {topicSync?.completed && !topicSync.mastered && <span className="text-xs bg-white/20 text-white font-black px-2 py-0.5 rounded-full">✅ {prevTotal}/25</span>}
+          {topicSync?.mastered && <span className="text-xs bg-yellow-400/90 text-yellow-900 font-bold px-2 py-0.5 rounded-full">🏆 Thành thạo</span>}
+          {topicSync?.completed && !topicSync.mastered && <span className="text-xs bg-white/20 text-white font-bold px-2 py-0.5 rounded-full">✅ {prevTotal}/25</span>}
         </div>
       </div>
 
@@ -379,7 +380,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
       <div className="flex border-b border-gray-200 bg-white sticky top-0 z-10 shadow-sm">
         {(['passage', 'glossary', 'exercises', ...(data.grammar_spotlight ? ['grammar' as Tab] : [])] as Tab[]).map(t => (
           <button key={t} onClick={() => setTab(t)}
-            className={`flex-1 py-3 font-black text-xs transition-all ${
+            className={`flex-1 py-3 font-bold text-xs transition-all ${
               tab === t ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-400 hover:text-gray-600'
             }`}>
             {t === 'passage' ? '📄 Đọc' : t === 'glossary' ? '📚 Từ vựng' : t === 'grammar' ? '📖 Ngữ pháp' : '📝 BT Từ vựng'}
@@ -394,12 +395,12 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
           <div>
             <div className="flex items-center justify-between mb-4">
               <div>
-                <h2 className="font-black text-gray-700 text-sm">{meta.topic_title}</h2>
+                <h2 className="font-bold text-gray-700 text-sm">{meta.topic_title}</h2>
                 <p className="text-xs text-gray-400 mt-0.5">📄 Bài đọc · {passage.word_count} từ</p>
               </div>
               <div className="flex items-center gap-2">
                 <button onClick={handleSpeak}
-                  className={`text-xs font-black px-3 py-1.5 rounded-full transition-colors ${
+                  className={`text-xs font-bold px-3 py-1.5 rounded-full transition-colors ${
                     speaking
                       ? 'bg-red-100 text-red-600 hover:bg-red-200'
                       : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
@@ -407,11 +408,11 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                   {speaking ? '⏹ Dừng' : '🔊 Nghe'}
                 </button>
                 <button onClick={() => setShowVI(v => !v)}
-                  className="text-xs font-black px-3 py-1.5 rounded-full bg-blue-100 text-blue-600 hover:bg-blue-200 transition-colors">
+                  className="text-xs font-bold px-3 py-1.5 rounded-full bg-blue-100 text-blue-600 hover:bg-blue-200 transition-colors">
                   {showVI ? '🇬🇧 Ẩn dịch' : '🇻🇳 Xem dịch'}
                 </button>
                 <button onClick={() => setGrammarMode(v => !v)}
-                  className={`text-xs font-black px-3 py-1.5 rounded-full transition-colors ${
+                  className={`text-xs font-bold px-3 py-1.5 rounded-full transition-colors ${
                     grammarMode
                       ? 'bg-amber-200 text-amber-700 hover:bg-amber-300'
                       : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
@@ -448,7 +449,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
               )}
             </div>
             <button onClick={() => setTab('glossary')}
-              className="w-full mt-6 bg-gradient-to-r from-blue-500 to-indigo-500 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all">
+              className={cta('blue', 'mt-6')}>
               📚 Xem từ vựng →
             </button>
           </div>
@@ -482,14 +483,14 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                     {hasPosWords && (
                       <button
                         onClick={() => setWordClassMode(true)}
-                        className="text-xs font-black px-3 py-1.5 rounded-full bg-purple-100 text-purple-600 hover:bg-purple-200 transition-colors flex-shrink-0"
+                        className="text-xs font-bold px-3 py-1.5 rounded-full bg-blue-100 text-blue-600 hover:bg-blue-200 transition-colors flex-shrink-0"
                       >
                         🏷️ Từ loại
                       </button>
                     )}
                     <button
                       onClick={() => setFlashcardMode(true)}
-                      className="text-xs font-black px-3 py-1.5 rounded-full bg-indigo-100 text-indigo-600 hover:bg-indigo-200 transition-colors flex-shrink-0"
+                      className="text-xs font-bold px-3 py-1.5 rounded-full bg-indigo-100 text-indigo-600 hover:bg-indigo-200 transition-colors flex-shrink-0"
                     >
                       🃏 Tự kiểm tra
                     </button>
@@ -502,20 +503,20 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                 const isCollocation = item.type === 'collocation'
                 const displayText = isCollocation ? (item.collocation ?? '') : (item.word ?? '')
                 return (
-                  <details key={item.id} className="bg-white border-2 border-gray-100 rounded-2xl overflow-hidden group"
+                  <details key={item.id} className="bg-white rounded-3xl overflow-hidden group border-2 border-slate-200 border-b-[4px] border-b-slate-300"
                     onToggle={e => { if ((e.currentTarget as HTMLDetailsElement).open) speak(displayText) }}>
                     <summary className="px-4 py-2.5 cursor-pointer list-none flex items-center gap-2">
                       {/* Badge */}
                       {isCollocation ? (
-                        <span className="w-7 h-7 rounded-xl bg-purple-50 text-purple-500 font-black text-xs flex items-center justify-center flex-shrink-0">💬</span>
+                        <span className="w-7 h-7 rounded-xl bg-blue-50 text-blue-500 font-bold text-xs flex items-center justify-center flex-shrink-0">💬</span>
                       ) : (
-                        <span className="w-7 h-7 rounded-xl bg-blue-50 text-blue-600 font-black text-xs flex items-center justify-center flex-shrink-0">{item.id}</span>
+                        <span className="w-7 h-7 rounded-xl bg-blue-50 text-blue-600 font-bold text-xs flex items-center justify-center flex-shrink-0">{item.id}</span>
                       )}
                       {/* Word + POS inline */}
                       <div className="flex-1 min-w-0 flex items-baseline gap-1.5">
-                        <p className="font-black text-gray-800 text-sm leading-snug truncate">{displayText}</p>
+                        <p className="font-bold text-gray-800 text-sm leading-snug truncate">{displayText}</p>
                         {isCollocation
-                          ? <span className="text-purple-400 text-xs flex-shrink-0">col</span>
+                          ? <span className="text-blue-400 text-xs flex-shrink-0">col</span>
                           : item.pos && <span className="text-gray-400 text-xs italic flex-shrink-0">{posShort(item.pos)}</span>
                         }
                       </div>
@@ -544,7 +545,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                       {!isCollocation && item.ipa && (
                         <p className="text-gray-400 text-xs font-mono">{item.ipa}</p>
                       )}
-                      <p className="text-gray-600 text-sm"><span className="font-black text-gray-700">Nghĩa: </span>{item.meaning_vi}</p>
+                      <p className="text-gray-600 text-sm"><span className="font-bold text-gray-700">Nghĩa: </span>{item.meaning_vi}</p>
                       <div className="flex items-start gap-1">
                         <p className="text-blue-700 text-sm font-bold italic flex-1">{item.example_en}</p>
                         <button
@@ -558,7 +559,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                         <div className="flex flex-wrap gap-1.5 pt-1">
                           {Object.entries(item.word_family).map(([pos, form]) =>
                             form ? (
-                              <span key={pos} className="text-xs bg-purple-50 text-purple-600 font-bold px-2 py-0.5 rounded-lg">
+                              <span key={pos} className="text-xs bg-blue-50 text-blue-600 font-bold px-2 py-0.5 rounded-lg">
                                 {pos}: {form}
                               </span>
                             ) : null
@@ -568,7 +569,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                       {!isCollocation && item.false_friend && (
                         <details className="group/ff">
                           <summary className="list-none cursor-pointer flex items-center justify-between py-1.5 px-2 bg-amber-50 border border-amber-200 rounded-xl">
-                            <span className="text-xs font-black text-amber-700">
+                            <span className="text-xs font-bold text-amber-700">
                               ⚠️ Cần phân biệt{item.false_friend.word ? `: ${item.word} ≠ ${item.false_friend.word}` : ''}
                             </span>
                             <span className="text-amber-300 text-sm group-open/ff:rotate-180 transition-transform flex-shrink-0 ml-2">▾</span>
@@ -577,14 +578,14 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                             <p className="text-amber-800 text-sm leading-relaxed">{item.false_friend.explanation_vi}</p>
                             {item.false_friend.example_en && (
                               <div>
-                                <p className="text-amber-700 text-sm font-black mb-0.5">{item.word}</p>
+                                <p className="text-amber-700 text-sm font-bold mb-0.5">{item.word}</p>
                                 <p className="text-amber-800 text-sm italic">{item.false_friend.example_en}</p>
                                 <p className="text-amber-600 text-sm italic">{item.false_friend.example_vi}</p>
                               </div>
                             )}
                             {item.false_friend.ff_example_en && (
                               <div>
-                                <p className="text-amber-700 text-sm font-black mb-0.5">{item.false_friend.word}</p>
+                                <p className="text-amber-700 text-sm font-bold mb-0.5">{item.false_friend.word}</p>
                                 <p className="text-amber-800 text-sm italic">{item.false_friend.ff_example_en}</p>
                                 <p className="text-amber-600 text-sm italic">{item.false_friend.ff_example_vi}</p>
                               </div>
@@ -595,12 +596,12 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                       {!isCollocation && item.word && (
                         <details className="pt-1 group/explain">
                           <summary className="list-none cursor-pointer flex items-center justify-between py-1.5 px-2 bg-indigo-50 border border-indigo-200 rounded-xl">
-                            <span className="text-sm font-black text-indigo-600">✨ Giải nghĩa</span>
+                            <span className="text-sm font-bold text-indigo-600">✨ Giải nghĩa</span>
                             <span className="text-indigo-300 text-sm group-open/explain:rotate-180 transition-transform">▾</span>
                           </summary>
                           <div className="mt-2">
                             {(item.explanation_vi || explanations[item.word]) ? (
-                              <div className="bg-gradient-to-br from-indigo-50 to-purple-50 border border-indigo-200 rounded-xl px-3 py-3">
+                              <div className="bg-gradient-to-br from-indigo-50 to-blue-50 border border-indigo-200 rounded-xl px-3 py-3">
                                 <p className="text-indigo-800 text-sm leading-relaxed whitespace-pre-line">{stripMarkdown(item.explanation_vi ?? explanations[item.word] ?? '')}</p>
                               </div>
                             ) : (
@@ -608,7 +609,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
                                 <button
                                   onClick={() => explainWord(item)}
                                   disabled={explaining.has(item.word)}
-                                  className="w-full bg-gradient-to-r from-indigo-500 to-purple-500 disabled:from-gray-300 disabled:to-gray-400 text-white font-black text-xs py-2.5 rounded-xl active:scale-95 transition-all shadow-sm"
+                                  className={cta('indigo')}
                                 >
                                   {explaining.has(item.word) ? '⏳ Đang giải thích...' : '✨ Giải nghĩa'}
                                 </button>
@@ -626,7 +627,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
               })}
             </div>
             <button onClick={() => setTab('exercises')}
-              className="w-full mt-6 bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all">
+              className={cta('indigo', 'mt-6')}>
               📝 Làm bài tập từ vựng →
             </button>
             </>

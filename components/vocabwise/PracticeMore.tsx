@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import type { MCQItem } from './types'
 import E3MCQContext from './E3MCQContext'
+import { cta } from '@/components/ChunkyUI'
 
 type GlossaryEntry = { word: string; meaning_vi: string }
 
@@ -52,7 +53,7 @@ export default function PracticeMore({ glossary, topicTitle, cefr }: Props) {
     return (
       <button
         onClick={generate}
-        className="w-full flex items-center justify-center gap-2 bg-white border-2 border-emerald-200 text-emerald-600 font-black py-3 rounded-2xl text-sm active:scale-95 transition-all hover:bg-emerald-50"
+        className="w-full flex items-center justify-center gap-2 bg-white border-2 border-emerald-200 text-emerald-600 font-bold py-3 rounded-2xl text-sm active:scale-95 transition-all hover:bg-emerald-50"
       >
         🔄 Luyện tập thêm
         {error && <span className="text-red-400 font-normal text-xs ml-1">{error}</span>}
@@ -74,14 +75,14 @@ export default function PracticeMore({ glossary, topicTitle, cefr }: Props) {
     return (
       <div className="bg-emerald-50 border-2 border-emerald-200 rounded-2xl p-4 space-y-3">
         <div className="text-center">
-          <p className="text-emerald-700 font-black text-sm">Vòng luyện {round} hoàn thành!</p>
-          <p className="text-emerald-600 text-2xl font-black mt-1">
+          <p className="text-emerald-700 font-bold text-sm">Vòng luyện {round} hoàn thành!</p>
+          <p className="text-emerald-600 text-2xl font-bold mt-1">
             {score}/{items.length} · {pct}%
           </p>
         </div>
         <button
           onClick={generate}
-          className="w-full bg-gradient-to-r from-emerald-500 to-teal-500 text-white font-black py-2.5 rounded-2xl text-sm active:scale-95 transition-all shadow"
+          className={cta('green')}
         >
           🔄 Vòng tiếp theo →
         </button>
@@ -93,7 +94,7 @@ export default function PracticeMore({ glossary, topicTitle, cefr }: Props) {
   return (
     <div className="border-2 border-emerald-200 rounded-2xl overflow-hidden">
       <div className="bg-gradient-to-r from-emerald-500 to-teal-500 px-4 py-2.5">
-        <p className="text-white font-black text-sm">🔄 Luyện tập thêm · Vòng {round}</p>
+        <p className="text-white font-bold text-sm">🔄 Luyện tập thêm · Vòng {round}</p>
       </div>
       <div className="p-4">
         <E3MCQContext

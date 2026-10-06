@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import type { TFNGItem } from './types'
 import HintButton from './HintButton'
+import { cta } from '@/components/ChunkyUI'
 
 type Choice = 'True' | 'False' | 'Not Given'
 type Props = {
@@ -54,7 +55,7 @@ export default function E5TFNG({ instruction, items, onDone }: Props) {
     <div className="flex flex-col gap-4">
       <div className="flex items-center justify-between mb-1">
         <p className="text-base text-gray-600 leading-relaxed flex-1">{instruction}</p>
-        <span className="text-xs font-black text-green-500 ml-3 flex-shrink-0">{idx + 1}/{total}</span>
+        <span className="text-xs font-bold text-green-500 ml-3 flex-shrink-0">{idx + 1}/{total}</span>
       </div>
 
       {/* Progress dots */}
@@ -77,7 +78,7 @@ export default function E5TFNG({ instruction, items, onDone }: Props) {
           {current.statement}
         </p>
         {selected !== null && (
-          <p role="status" aria-live="polite" className={`text-center text-sm font-black mt-3 ${correct ? 'text-green-600' : 'text-red-500'}`}>
+          <p role="status" aria-live="polite" className={`text-center text-sm font-bold mt-3 ${correct ? 'text-green-600' : 'text-red-500'}`}>
             {correct ? '✅ Chính xác!' : `❌ Đáp án đúng: ${current.answer}`}
           </p>
         )}
@@ -92,7 +93,7 @@ export default function E5TFNG({ instruction, items, onDone }: Props) {
       <div className="flex gap-2">
         {choices.map(c => (
           <button key={c} onClick={() => handleSelect(c)} disabled={selected !== null}
-            className={`flex-1 flex flex-col items-center gap-1 py-4 rounded-2xl border-2 font-black text-xs transition-all duration-150 bg-white ${btnCls(c)}`}>
+            className={`flex-1 flex flex-col items-center gap-1 py-4 rounded-2xl border-2 font-bold text-xs transition-all duration-150 bg-white ${btnCls(c)}`}>
             <span className="text-xl">{btnEmoji[c]}</span>
             <span>{btnLabel[c]}</span>
           </button>
@@ -101,7 +102,7 @@ export default function E5TFNG({ instruction, items, onDone }: Props) {
 
       {selected !== null && (
         <button onClick={goNext}
-          className="w-full bg-gradient-to-r from-green-500 to-emerald-400 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all">
+          className={cta('green')}>
           {idx + 1 >= total ? '✅ Xác nhận — Tiếp theo →' : 'Tiếp →'}
         </button>
       )}

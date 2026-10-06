@@ -9,7 +9,7 @@ type Props = {
 }
 
 function renderInline(text: string) {
-  return (text ?? '').replace(/\*\*(.+?)\*\*/g, '<strong class="text-blue-700 font-black">$1</strong>')
+  return (text ?? '').replace(/\*\*(.+?)\*\*/g, '<strong class="text-blue-700 font-bold">$1</strong>')
 }
 
 function splitSentences(text: string): string[] {
@@ -87,7 +87,7 @@ export default function PassageGrammarNote({ textEn, textVi, showVI, cefr }: Pro
             </p>
           ) : activeNote ? (
             <>
-              <p className="text-xs font-black text-amber-700 mb-1.5">📖 Phân tích ngữ pháp</p>
+              <p className="text-xs font-bold text-amber-700 mb-1.5">📖 Phân tích ngữ pháp</p>
               <p className="text-xs text-amber-900 leading-relaxed whitespace-pre-line">{activeNote}</p>
             </>
           ) : null}

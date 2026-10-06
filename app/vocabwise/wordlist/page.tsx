@@ -55,7 +55,7 @@ export default function WordListPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <div className="bg-gradient-to-r from-indigo-600 to-purple-600 px-4 pt-12 pb-5 text-white">
+      <div className="bg-gradient-to-r from-indigo-600 to-purple-600 px-4 pt-12 pb-5 text-white rounded-b-3xl border-b-[4px] border-black/20">
         <Link href="/vocabwise" className="inline-flex items-center gap-1.5 mb-3 bg-white/20 hover:bg-white/30 text-white font-bold text-sm px-3 py-1.5 rounded-full transition-all active:scale-95">
           ← Academic
         </Link>

@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react'
 import type { ColItem } from './types'
+import { cta } from '@/components/ChunkyUI'
 
 type Props = {
   instruction: string
@@ -49,7 +50,7 @@ export default function ECollocBuilder({ instruction, items, onDone }: Props) {
     <div className="flex flex-col gap-4">
       <div className="flex items-center justify-between mb-1">
         <p className="text-base text-gray-600 leading-relaxed flex-1">{instruction}</p>
-        <span className="text-xs font-black text-teal-400 ml-3 flex-shrink-0">{idx + 1}/{total}</span>
+        <span className="text-xs font-bold text-teal-400 ml-3 flex-shrink-0">{idx + 1}/{total}</span>
       </div>
 
       {/* Progress dots */}
@@ -62,12 +63,12 @@ export default function ECollocBuilder({ instruction, items, onDone }: Props) {
       </div>
 
       {/* Sentence */}
-      <div className="bg-white border-2 border-teal-100 rounded-2xl p-4 shadow-sm">
+      <div className="bg-white border-teal-100 rounded-3xl p-4 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
         <p className="text-base font-bold text-gray-800 leading-relaxed text-center">
           {hasSplit ? (
             <>
               {parts[0]}
-              <span className={`inline-block mx-1 px-3 py-0.5 rounded-lg font-black transition-all ${
+              <span className={`inline-block mx-1 px-3 py-0.5 rounded-lg font-bold transition-all ${
                 selected === null
                   ? 'bg-teal-50 text-teal-300 border-2 border-dashed border-teal-200'
                   : isCorrect
@@ -88,7 +89,7 @@ export default function ECollocBuilder({ instruction, items, onDone }: Props) {
       {selected !== null && (
         <div className="bg-teal-50 border border-teal-200 rounded-xl px-3 py-2">
           <p className="text-xs text-teal-700 font-bold">
-            💡 Collocation: <span className="font-black">{current.collocation}</span>
+            💡 Collocation: <span className="font-bold">{current.collocation}</span>
           </p>
         </div>
       )}
@@ -99,7 +100,7 @@ export default function ECollocBuilder({ instruction, items, onDone }: Props) {
           <button key={opt} onClick={() => handleSelect(opt)}
             disabled={selected !== null}
             className={`flex items-center gap-2 px-3 py-3 rounded-xl border-2 font-bold text-sm transition-all duration-150 ${optCls(opt)}`}>
-            <span className="w-6 h-6 rounded-full bg-gray-100 text-gray-500 font-black text-xs flex items-center justify-center flex-shrink-0">
+            <span className="w-6 h-6 rounded-full bg-gray-100 text-gray-500 font-bold text-xs flex items-center justify-center flex-shrink-0">
               {optLabels[i]}
             </span>
             <span className="text-left">{opt}</span>
@@ -115,7 +116,7 @@ export default function ECollocBuilder({ instruction, items, onDone }: Props) {
 
       {selected !== null && (
         <button onClick={goNext}
-          className="w-full bg-gradient-to-r from-teal-500 to-emerald-500 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all">
+          className={cta('teal')}>
           {idx + 1 >= total ? '✅ Xác nhận — Tiếp theo →' : 'Tiếp →'}
         </button>
       )}
