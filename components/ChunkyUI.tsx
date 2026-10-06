@@ -113,8 +113,18 @@ const CTA_COLORS: Record<string, string> = {
   green:   'border-emerald-700 bg-emerald-500 text-white',
   orange:  'border-orange-700 bg-orange-500 text-white',
   amber:   'border-amber-600 bg-amber-400 text-amber-950',
+  red:     'border-red-700 bg-red-500 text-white',
+  purple:  'border-purple-800 bg-purple-600 text-white',
+  gray:    'border-gray-900 bg-gray-700 text-white',
+  slate:   'border-2 border-slate-200 border-b-slate-300 bg-white text-slate-600',
 }
 const CTA_BASE = `rounded-2xl border-b-[4px] px-4 py-3.5 text-lg font-bold ${PRESS} disabled:cursor-not-allowed disabled:border-slate-200 disabled:bg-slate-100 disabled:text-slate-300 disabled:active:translate-y-0 disabled:active:border-b-[4px]`
 export function cta(family: keyof typeof CTA_COLORS | string, extra = '') {
   return `${CTA_BASE} ${extra.includes('flex-1') ? '' : 'w-full'} ${CTA_COLORS[family] ?? CTA_COLORS.blue} ${extra}`.replace(/\s+/g, ' ').trim()
+}
+
+// Phonics games receive their accent as a class string (e.g. "bg-pink-500 hover:bg-pink-600"); map it to a cta() family.
+export function colorFamily(cls: string) {
+  const m = cls.match(/bg-(\w+)-\d+/)
+  return !m ? 'blue' : m[1] === 'emerald' ? 'green' : m[1]
 }

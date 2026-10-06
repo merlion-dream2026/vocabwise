@@ -8,6 +8,7 @@ import { useRouter } from 'next/navigation'
 import { speak } from '@/lib/speak'
 import { recordPairGame, flushPhonics } from '@/lib/phonicsSync'
 import Confetti from '@/components/Confetti'
+import { GameHeader, cta, colorFamily } from '@/components/ChunkyUI'
 
 type PracticeSentence = { en: string; highlight: string[] }
 type RhythmSentence   = { en: string; stressed: string[]; vi: string }
@@ -199,7 +200,7 @@ export default function ShadowingGame({ lesson, childId: _childId, backUrl, grad
         {showConf && <Confetti />}
         <div className="text-6xl">{totalScore >= 70 ? '🏆' : totalScore >= 50 ? '⭐' : '💪'}</div>
         <div className="bg-white rounded-3xl p-6 w-full max-w-sm text-center shadow-xl">
-          <p className="text-3xl font-black text-gray-800 mb-1">{totalScore}%</p>
+          <p className="text-3xl font-bold text-gray-800 mb-1">{totalScore}%</p>
           <p className="text-gray-500 text-sm mb-4">
             {totalScore >= 70 ? 'Xuất sắc! Shadowing rất chuẩn.' : totalScore >= 50 ? 'Tốt! Luyện thêm nhé.' : 'Cần luyện thêm — thử lại nhé!'}
           </p>
@@ -224,18 +225,8 @@ export default function ShadowingGame({ lesson, childId: _childId, backUrl, grad
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
       {/* Header */}
-      <div className={`bg-gradient-to-r ${gradient} text-white px-4 py-3`}>
-        <div className="max-w-lg mx-auto flex items-center gap-3">
-          <button onClick={() => router.push(backUrl)} className="text-white/70 hover:text-white text-xl">←</button>
-          <div className="flex-1">
-            <p className="font-black text-sm">🎙 Shadowing — {lesson.title}</p>
-            <div className="h-1.5 bg-white/20 rounded-full mt-1 overflow-hidden">
-              <div className="h-full bg-white/70 rounded-full transition-all" style={{ width: `${progressPct}%` }}/>
-            </div>
-          </div>
-          <span className="font-bold text-sm text-white/80">{step + 1}/{items.length}</span>
-        </div>
-      </div>
+      <GameHeader colorCls={`bg-gradient-to-r ${gradient}`} title="🎙 Shadowing" subtitle={lesson.title} onBack={() => router.push(backUrl)}
+        right={<>{step + 1}/{items.length}</>} progress={{ value: progressPct, max: 100 }} />
 
       <div className="flex-1 max-w-lg mx-auto w-full px-4 py-6 flex flex-col gap-4">
 
@@ -264,7 +255,7 @@ export default function ShadowingGame({ lesson, childId: _childId, backUrl, grad
         {/* Recording phase UI */}
         {phase === 'idle' && (
           <button onClick={playSentence}
-            className={`w-full ${btnColor} text-white py-4 rounded-2xl font-black text-base active:scale-95 transition-transform shadow-sm`}>
+            className={`w-full ${btnColor} text-white py-4 rounded-2xl font-bold text-base active:scale-95 transition-transform shadow-sm`}>
             ▶ Nghe & Đọc theo
           </button>
         )}
@@ -282,7 +273,7 @@ export default function ShadowingGame({ lesson, childId: _childId, backUrl, grad
               <div className="w-16 h-16 rounded-full bg-red-500 flex items-center justify-center animate-pulse">
                 <span className="text-white text-3xl">🎙</span>
               </div>
-              <span className="absolute -top-1 -right-1 w-6 h-6 bg-red-600 text-white text-xs font-black rounded-full flex items-center justify-center">{countdown}</span>
+              <span className="absolute -top-1 -right-1 w-6 h-6 bg-red-600 text-white text-xs font-bold rounded-full flex items-center justify-center">{countdown}</span>
             </div>
             <p className="text-red-700 font-bold text-sm">Đang ghi âm… đọc to và rõ!</p>
             <button onClick={stopRecording} className="text-xs text-red-500 underline">Xong sớm</button>
@@ -331,11 +322,11 @@ export default function ShadowingGame({ lesson, childId: _childId, backUrl, grad
 
             <div className="flex gap-2">
               <button onClick={() => { setPhase('idle'); setTr(''); setFound([]); setMissed([]) }}
-                className="flex-1 border border-gray-200 text-gray-600 py-3 rounded-2xl font-bold text-sm active:scale-95 transition-transform">
+                className={cta('slate', 'flex-1')}>
                 🔁 Thử lại
               </button>
               <button onClick={next}
-                className={`flex-1 ${btnColor} text-white py-3 rounded-2xl font-bold text-sm active:scale-95 transition-transform`}>
+                className={cta(colorFamily(btnColor), 'flex-1')}>
                 {step + 1 >= items.length ? 'Xem kết quả →' : 'Tiếp theo →'}
               </button>
             </div>

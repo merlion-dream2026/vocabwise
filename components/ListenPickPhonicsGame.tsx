@@ -6,6 +6,7 @@ import { speak } from '@/lib/speak'
 import { recordPairGame, flushPhonics } from '@/lib/phonicsSync'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
+import { GameHeader, cta, colorFamily } from '@/components/ChunkyUI'
 
 type Sound = { symbol: string; keyword: string; emoji: string; vi: string }
 type Pair  = { id: string; sounds: Sound[]; practice_words: string[] }
@@ -130,7 +131,7 @@ export default function ListenPickPhonicsGame({ group, childId: _childId, backUr
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-amber-50 to-orange-50 px-4">
       <p className="text-6xl mb-4">🔊</p>
       <p className="text-gray-600 font-bold text-center">Nhóm này chưa có đủ âm.<br/>Thử game khác nhé!</p>
-      <button onClick={() => router.push(backUrl)} className="mt-6 bg-amber-500 text-white font-black px-6 py-3 rounded-2xl">← Quay lại</button>
+      <button onClick={() => router.push(backUrl)} className="mt-6 bg-amber-500 text-white font-bold px-6 py-3 rounded-2xl">← Quay lại</button>
     </div>
   )
 
@@ -143,25 +144,22 @@ export default function ListenPickPhonicsGame({ group, childId: _childId, backUr
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti />}
-        <div className={`bg-gradient-to-br ${group.gradient} px-4 pt-12 pb-8 text-white`}>
-          <button onClick={() => router.push(backUrl)} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-4">← {group.title}</button>
-          <h1 className="text-2xl font-black">🔊 Nghe & Chọn</h1>
-        </div>
+        <GameHeader colorCls={`bg-gradient-to-br ${group.gradient}`} title={<>🔊 Nghe & Chọn</>} subtitle={<>{group.title}</>} onBack={() => router.push(backUrl)} />
         <div className="flex-1 bg-gradient-to-b from-amber-50 to-orange-50 flex flex-col items-center justify-center px-4 py-8">
           <div className="text-7xl mb-4">{finalScore === total ? '🏆' : finalScore >= total * 0.7 ? '⭐' : '💪'}</div>
-          <h2 className="text-3xl font-black text-gray-800 mb-1">{finalScore}/{total} chính xác</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mb-1">{finalScore}/{total} chính xác</h2>
           <p className="text-gray-500 font-bold text-xl mb-3">{pct}%</p>
           {isPracticeMode && <p className="text-amber-600 text-sm font-bold mb-4">🔄 Chế độ ôn lại (không tính vào thành thạo)</p>}
           {passed && <p className="text-green-600 font-bold text-sm mb-4">✅ Đạt ≥70% — tính vào thành thạo!</p>}
           {hasFailed && <p className="text-orange-500 font-bold text-sm mb-4">Chưa đạt — cần ≥70%</p>}
           <div className="w-full space-y-3">
             {hasFailed && (
-              <button onClick={restartWeak} className="w-full bg-orange-400 text-white font-black text-lg py-4 rounded-2xl shadow-lg">
+              <button onClick={restartWeak} className={cta('orange')}>
                 🔄 Ôn lại {wrongPairIds.length} nhóm sai
               </button>
             )}
-            <button onClick={restart} className={`w-full ${group.btn} text-white font-black text-xl py-4 rounded-2xl shadow-lg`}>🔄 Chơi lại từ đầu</button>
-            <button onClick={() => router.push(backUrl)} className="w-full bg-white border-2 border-gray-200 text-gray-600 font-bold text-xl py-4 rounded-2xl">← Chọn game khác</button>
+            <button onClick={restart} className={cta(colorFamily(group.btn))}>🔄 Chơi lại từ đầu</button>
+            <button onClick={() => router.push(backUrl)} className={cta('slate')}>← Chọn game khác</button>
           </div>
         </div>
       </div>
@@ -171,16 +169,7 @@ export default function ListenPickPhonicsGame({ group, childId: _childId, backUr
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header */}
-      <div className={`bg-gradient-to-br ${group.gradient} px-4 pt-12 pb-4 text-white`}>
-        <button onClick={() => router.push(backUrl)} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-3">← {group.title}</button>
-        <div className="flex items-center justify-between mb-3">
-          <h1 className="text-xl font-black">🔊 Nghe & Chọn</h1>
-          <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm">{idx + 1}/{questions.length}</span>
-        </div>
-        <div className="h-1.5 bg-white/20 rounded-full overflow-hidden">
-          <div className="h-full bg-white/70 rounded-full transition-all" style={{ width: `${((idx + 1) / questions.length) * 100}%` }} />
-        </div>
-      </div>
+      <GameHeader colorCls={`bg-gradient-to-br ${group.gradient}`} title={<>🔊 Nghe & Chọn</>} subtitle={<>{group.title}</>} onBack={() => router.push(backUrl)} right={<>{idx + 1}/{questions.length}</>} progress={{ value: ((idx + 1) / questions.length) * 100, max: 100 }} />
 
       <div className="flex-1 bg-gradient-to-b from-amber-50 to-orange-50 flex flex-col items-center justify-center px-4 gap-4">
         {/* Score dots */}
@@ -201,7 +190,7 @@ export default function ListenPickPhonicsGame({ group, childId: _childId, backUr
           {(phase === 'choosing' || phase === 'result') && (
             <>
               <div className="text-6xl mb-3">👂</div>
-              <p className="text-gray-700 font-black text-lg">Âm này là ký hiệu nào?</p>
+              <p className="text-gray-700 font-bold text-lg">Âm này là ký hiệu nào?</p>
               <button
                 onClick={() => { speakingRef.current = false; playQuestion(q) }}
                 className="mt-2 bg-amber-100 text-amber-600 font-bold text-sm px-4 py-2 rounded-xl active:scale-90 transition-all"
@@ -212,7 +201,7 @@ export default function ListenPickPhonicsGame({ group, childId: _childId, backUr
           )}
           {phase === 'result' && selected && (
             <div className={`mt-3 rounded-xl p-3 ${selected.symbol === q.targetSound.symbol ? 'bg-green-50 border border-green-300' : 'bg-red-50 border border-red-300'}`}>
-              <p className="font-black text-sm text-gray-700">
+              <p className="font-bold text-sm text-gray-700">
                 {selected.symbol === q.targetSound.symbol
                   ? `✅ Đúng! /${q.targetSound.symbol}/ — "${q.targetSound.keyword}"`
                   : `❌ Sai! Đáp án là /${q.targetSound.symbol}/ — "${q.targetSound.keyword}"`
@@ -239,12 +228,12 @@ export default function ListenPickPhonicsGame({ group, childId: _childId, backUr
                   disabled={phase === 'result'}
                   className={`${bg} rounded-2xl p-4 text-center transition-all`}>
                   {showResult && <div className="text-3xl mb-1">{sound.emoji}</div>}
-                  <div className={`font-black font-mono ${showResult ? 'text-xl' : 'text-3xl py-2'} ${showResult && isAnswer ? 'text-green-700' : showResult && isSelected ? 'text-red-600' : 'text-amber-700'}`}>
+                  <div className={`font-bold font-mono ${showResult ? 'text-xl' : 'text-3xl py-2'} ${showResult && isAnswer ? 'text-green-700' : showResult && isSelected ? 'text-red-600' : 'text-amber-700'}`}>
                     /{sound.symbol}/
                   </div>
                   {showResult && <div className="text-xs font-semibold text-gray-500 mt-0.5">{sound.keyword}</div>}
-                  {showResult && isAnswer    && <div className="text-green-600 text-xs font-black mt-1">✓</div>}
-                  {showResult && isSelected && !isAnswer && <div className="text-red-500 text-xs font-black mt-1">✗</div>}
+                  {showResult && isAnswer    && <div className="text-green-600 text-xs font-bold mt-1">✓</div>}
+                  {showResult && isSelected && !isAnswer && <div className="text-red-500 text-xs font-bold mt-1">✗</div>}
                 </button>
               )
             })}
@@ -255,7 +244,7 @@ export default function ListenPickPhonicsGame({ group, childId: _childId, backUr
         {phase === 'result' && (
           <button
             onClick={advance}
-            className={`w-full font-black text-xl py-4 rounded-2xl shadow-md text-white ${selected?.symbol === q.targetSound.symbol ? 'bg-green-500' : group.btn}`}
+            className={cta(selected?.symbol === q.targetSound.symbol ? 'green' : colorFamily(group.btn))}
           >
             {idx + 1 >= questions.length ? 'Kết quả →' : 'Tiếp theo →'}
           </button>

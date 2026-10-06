@@ -6,6 +6,7 @@ import { speak } from '@/lib/speak'
 import { recordPairGame, flushPhonics } from '@/lib/phonicsSync'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
+import { GameHeader, cta, colorFamily } from '@/components/ChunkyUI'
 
 type Bucket = { label: string; condition: string; tip: string; words: string[] }
 type Lesson = { id: string; title: string; emoji: string; buckets: Bucket[] }
@@ -81,20 +82,17 @@ export default function SortRuleGame({
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti />}
-        <div className={`bg-gradient-to-br ${gradient} px-4 pt-12 pb-8 text-white`}>
-          <button onClick={() => router.push(backUrl)} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-4">← {lesson.title}</button>
-          <h1 className="text-2xl font-black">{lesson.emoji} {lesson.title}</h1>
-        </div>
+        <GameHeader colorCls={`bg-gradient-to-br ${gradient}`} title={<>{lesson.emoji} {lesson.title}</>} subtitle={<>{lesson.title}</>} onBack={() => router.push(backUrl)} />
         <div className="flex-1 bg-gray-50 flex flex-col items-center justify-center px-4 py-8">
           <div className="text-7xl mb-4">{final === total ? '🏆' : final >= total * 0.7 ? '⭐' : '💪'}</div>
-          <h2 className="text-3xl font-black text-gray-800 mb-1">{final}/{total}</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mb-1">{final}/{total}</h2>
           <p className="text-gray-500 font-bold text-xl mb-8">{pct}%</p>
           {final < total * 0.7 && (
             <p className="text-sm text-gray-500 font-semibold mb-6 text-center">Cần ≥70% để đánh dấu hoàn thành. Thử lại nhé!</p>
           )}
           <div className="w-full space-y-3">
-            <button onClick={restart} className={`w-full ${btnColor} text-white font-black text-xl py-4 rounded-2xl shadow-lg`}>🔄 Chơi lại</button>
-            <button onClick={() => router.push(backUrl)} className="w-full bg-white border-2 border-gray-200 text-gray-600 font-bold text-xl py-4 rounded-2xl">← Xem bài học</button>
+            <button onClick={restart} className={cta(colorFamily(btnColor))}>🔄 Chơi lại</button>
+            <button onClick={() => router.push(backUrl)} className={cta('slate')}>← Xem bài học</button>
           </div>
         </div>
       </div>
@@ -104,17 +102,7 @@ export default function SortRuleGame({
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header */}
-      <div className={`bg-gradient-to-br ${gradient} px-4 pt-12 pb-4 text-white`}>
-        <button onClick={() => router.push(backUrl)} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-3">← {lesson.title}</button>
-        <div className="flex items-center justify-between mb-3">
-          <h1 className="text-xl font-black">{lesson.emoji} {lesson.title}</h1>
-          <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm">{idx + 1}/{questions.length}</span>
-        </div>
-        <div className="h-1.5 bg-white/20 rounded-full overflow-hidden">
-          <div className="h-full bg-white/70 rounded-full transition-all duration-300"
-            style={{ width: `${((idx + 1) / questions.length) * 100}%` }} />
-        </div>
-      </div>
+      <GameHeader colorCls={`bg-gradient-to-br ${gradient}`} title={<>{lesson.emoji} {lesson.title}</>} subtitle={<>{lesson.title}</>} onBack={() => router.push(backUrl)} right={<>{idx + 1}/{questions.length}</>} progress={{ value: ((idx + 1) / questions.length) * 100, max: 100 }} />
 
       <div className="flex-1 bg-gray-50 flex flex-col items-center justify-center px-4 gap-5">
         {/* Score dots */}
@@ -127,7 +115,7 @@ export default function SortRuleGame({
         {/* Word card */}
         <div className="bg-white rounded-3xl px-6 py-5 shadow-md w-full text-center">
           <p className="text-xs text-gray-500 font-bold uppercase tracking-wide mb-2">Phân loại đúng:</p>
-          <p className="text-4xl font-black text-gray-800 mb-3">{q.word}</p>
+          <p className="text-4xl font-bold text-gray-800 mb-3">{q.word}</p>
           <button onClick={() => speak(q.word, { rate: 0.75 })}
             className="bg-gray-100 text-gray-600 font-bold text-sm px-4 py-2 rounded-xl active:scale-90 transition-transform">
             🔊 Nghe từ
@@ -156,10 +144,10 @@ export default function SortRuleGame({
             return (
               <button key={bucket.label} onClick={() => handleChoose(i)} disabled={isResult}
                 className={`${cls} rounded-2xl px-4 py-3.5 w-full flex items-center gap-3 transition-all`}>
-                <span className={`text-xl font-black ${s.text} font-mono text-center flex-shrink-0 whitespace-nowrap`}>{bucket.label}</span>
+                <span className={`text-xl font-bold ${s.text} font-mono text-center flex-shrink-0 whitespace-nowrap`}>{bucket.label}</span>
                 <p className="text-xs text-gray-500 font-semibold text-left flex-1 leading-snug">{bucket.tip}</p>
-                {isResult && isCorrect  && <span className="text-green-500 font-black flex-shrink-0">✓</span>}
-                {isResult && isSelected && !isCorrect && <span className="text-red-400 font-black flex-shrink-0">✗</span>}
+                {isResult && isCorrect  && <span className="text-green-500 font-bold flex-shrink-0">✓</span>}
+                {isResult && isSelected && !isCorrect && <span className="text-red-400 font-bold flex-shrink-0">✗</span>}
               </button>
             )
           })}
@@ -167,7 +155,7 @@ export default function SortRuleGame({
 
         {isResult && (
           <button onClick={advance}
-            className={`w-full font-black text-xl py-4 rounded-2xl shadow-md text-white ${selected === q.correctIdx ? 'bg-green-500' : btnColor}`}>
+            className={cta(selected === q.correctIdx ? 'green' : colorFamily(btnColor))}>
             {idx + 1 >= questions.length ? 'Kết quả →' : 'Tiếp theo →'}
           </button>
         )}

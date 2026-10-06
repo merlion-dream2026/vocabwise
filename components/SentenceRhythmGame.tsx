@@ -9,6 +9,7 @@ import { speak } from '@/lib/speak'
 import { recordPairGame, flushPhonics } from '@/lib/phonicsSync'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
+import { GameHeader, cta, colorFamily } from '@/components/ChunkyUI'
 
 type RhythmSentence = { en: string; stressed: string[]; vi: string }
 type RhythmLesson   = { id: string; title: string; emoji: string; sentences: RhythmSentence[] }
@@ -31,7 +32,7 @@ function HighlightedSentence({ sentence, stressed }: { sentence: string; stresse
         const clean = w.replace(/[.,!?'"]/g, '').toLowerCase()
         return (
           <span key={i}>
-            <span className={hlSet.has(clean) ? 'text-amber-700 font-black underline decoration-2 underline-offset-2' : 'text-gray-600'}>
+            <span className={hlSet.has(clean) ? 'text-amber-700 font-bold underline decoration-2 underline-offset-2' : 'text-gray-600'}>
               {w}
             </span>
             {i < arr.length - 1 ? ' ' : ''}
@@ -147,20 +148,17 @@ export default function SentenceRhythmGame({
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti />}
-        <div className={`bg-gradient-to-br ${gradient} px-4 pt-12 pb-8 text-white`}>
-          <button onClick={() => router.push(backUrl)} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-4">← {lesson.title}</button>
-          <h1 className="text-2xl font-black">{lesson.emoji} {lesson.title}</h1>
-        </div>
+        <GameHeader colorCls={`bg-gradient-to-br ${gradient}`} title={<>{lesson.emoji} {lesson.title}</>} subtitle={<>{lesson.title}</>} onBack={() => router.push(backUrl)} />
         <div className="flex-1 bg-gray-50 flex flex-col items-center justify-center px-4 py-8">
           <div className="text-7xl mb-4">{final === total ? '🏆' : final >= total * 0.7 ? '⭐' : '💪'}</div>
-          <h2 className="text-3xl font-black text-gray-800 mb-1">{final}/{total}</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mb-1">{final}/{total}</h2>
           <p className="text-gray-500 font-bold text-xl mb-8">{pct}%</p>
           {final < total * 0.7 && (
             <p className="text-sm text-gray-500 font-semibold mb-6 text-center">Cần ≥70% để đánh dấu hoàn thành. Thử lại nhé!</p>
           )}
           <div className="w-full space-y-3">
-            <button onClick={restart} className={`w-full ${btnColor} text-white font-black text-xl py-4 rounded-2xl shadow-lg`}>🔄 Chơi lại</button>
-            <button onClick={() => router.push(backUrl)} className="w-full bg-white border-2 border-gray-200 text-gray-600 font-bold text-xl py-4 rounded-2xl">← Xem bài học</button>
+            <button onClick={restart} className={cta(colorFamily(btnColor))}>🔄 Chơi lại</button>
+            <button onClick={() => router.push(backUrl)} className={cta('slate')}>← Xem bài học</button>
           </div>
         </div>
       </div>
@@ -170,17 +168,7 @@ export default function SentenceRhythmGame({
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header */}
-      <div className={`bg-gradient-to-br ${gradient} px-4 pt-12 pb-4 text-white`}>
-        <button onClick={() => router.push(backUrl)} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-3">← {lesson.title}</button>
-        <div className="flex items-center justify-between mb-3">
-          <h1 className="text-xl font-black">{lesson.emoji} {lesson.title}</h1>
-          <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm">{idx + 1}/{questions.length}</span>
-        </div>
-        <div className="h-1.5 bg-white/20 rounded-full overflow-hidden">
-          <div className="h-full bg-white/70 rounded-full transition-all duration-300"
-            style={{ width: `${((idx + 1) / questions.length) * 100}%` }} />
-        </div>
-      </div>
+      <GameHeader colorCls={`bg-gradient-to-br ${gradient}`} title={<>{lesson.emoji} {lesson.title}</>} subtitle={<>{lesson.title}</>} onBack={() => router.push(backUrl)} right={<>{idx + 1}/{questions.length}</>} progress={{ value: ((idx + 1) / questions.length) * 100, max: 100 }} />
 
       <div className="flex-1 bg-gray-50 flex flex-col items-center justify-center px-4 gap-4">
         {/* Score dots */}
@@ -203,7 +191,7 @@ export default function SentenceRhythmGame({
           className="w-full flex items-center gap-3 bg-white border-2 border-gray-200 rounded-2xl px-4 py-3 active:scale-95 transition-all">
           <span className="text-xl">🔊</span>
           <div className="text-left">
-            <p className="font-black text-sm text-gray-800">Nghe mẫu</p>
+            <p className="font-bold text-sm text-gray-800">Nghe mẫu</p>
             <p className="text-gray-500 text-xs">Nghe kỹ nhịp điệu trước khi đọc</p>
           </div>
         </button>
@@ -211,18 +199,18 @@ export default function SentenceRhythmGame({
         {/* Record controls */}
         {phase === 'idle' && (
           <button onClick={startRecording}
-            className={`w-full ${btnColor} text-white font-black text-xl py-4 rounded-2xl shadow-lg active:scale-95 transition-all flex items-center justify-center gap-3`}>
+            className={cta(colorFamily(btnColor), 'flex items-center justify-center gap-3')}>
             🎤 Đọc theo
           </button>
         )}
         {phase === 'recording' && (
           <button onClick={stopRecording}
-            className="w-full bg-red-500 text-white font-black text-xl py-4 rounded-2xl shadow-lg flex items-center justify-center gap-2 animate-pulse">
+            className={cta('red', 'flex items-center justify-center gap-2 animate-pulse')}>
             ⏹️ Dừng ({MAX_SECS}s)
           </button>
         )}
         {phase === 'processing' && (
-          <div className="w-full bg-gray-200 text-gray-500 font-black text-xl py-4 rounded-2xl flex items-center justify-center gap-2">
+          <div className="w-full rounded-2xl border-b-[4px] border-slate-200 bg-slate-100 py-3.5 text-lg font-bold text-slate-400 flex items-center justify-center gap-2">
             ⏳ Đang chấm...
           </div>
         )}
@@ -230,17 +218,17 @@ export default function SentenceRhythmGame({
           <div className="w-full space-y-3">
             {transcript !== null && (
               <div className={`rounded-2xl p-4 border-2 ${isCorrect ? 'bg-green-50 border-green-300' : 'bg-orange-50 border-orange-300'}`}>
-                <p className="text-sm font-black text-gray-800 mb-1">{isCorrect ? '✅ Tốt lắm! Nhịp điệu chuẩn.' : '💪 Thử lại — nhớ nhấn từ nội dung!'}</p>
+                <p className="text-sm font-bold text-gray-800 mb-1">{isCorrect ? '✅ Tốt lắm! Nhịp điệu chuẩn.' : '💪 Thử lại — nhớ nhấn từ nội dung!'}</p>
                 <p className="text-xs text-gray-500 font-semibold">AI nghe: &ldquo;{transcript}&rdquo;</p>
               </div>
             )}
             <div className="flex gap-2">
               <button onClick={() => { setPhase('idle'); setTranscript(null); setIsCorrect(null) }}
-                className="flex-1 bg-gray-100 text-gray-700 font-bold text-base py-3.5 rounded-2xl">
+                className={cta('slate', 'flex-1')}>
                 🔄 Thử lại
               </button>
               <button onClick={advance}
-                className={`flex-1 ${isCorrect ? 'bg-green-500' : btnColor} text-white font-black text-base py-3.5 rounded-2xl`}>
+                className={cta(isCorrect ? 'green' : colorFamily(btnColor), 'flex-1')}>
                 {idx + 1 >= questions.length ? 'Kết quả →' : 'Tiếp theo →'}
               </button>
             </div>
