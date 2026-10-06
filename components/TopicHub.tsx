@@ -4,6 +4,7 @@ import {
   masteryByRound, isTopicMastered, topicSteps, nextStep, gameStars, gamePct, roundSpec, bonusGames,
   type MasteryEntry, type GameDef, type RoundMastery,
 } from '@/lib/topicMastery'
+import { speak } from '@/lib/speak'
 
 // Topic hub — "chunky 3D" look: thick bottom borders that press down on tap, saturated state colors
 // (green = done, amber = next / in progress), emoji "stickers" tilted a few degrees, a trail-style
@@ -55,9 +56,9 @@ type JourneyNode = { icon: string; label: string; done: boolean; last?: boolean 
 function Journey({ nodes, onTrophy }: { nodes: JourneyNode[]; onTrophy: () => void }) {
   const current = nodes.findIndex((n) => !n.done)
   return (
-    <div className="mt-4 flex items-start px-1">
+    <div className="mt-3 flex items-start px-1">
       {nodes.map((n, i) => {
-        const lift = i % 2 === 0 ? '' : 'translate-y-2'
+        const lift = ''
         return (
           <Fragment key={n.label}>
             <div className={`flex w-14 flex-shrink-0 flex-col items-center gap-1 ${lift}`}>
@@ -130,14 +131,14 @@ export function TopicHero({
         <div className="flex items-center gap-4">
           <button type="button" disabled={!mastered} onClick={() => { tap(); onReplayTrophy() }}
             aria-label={mastered ? 'Xem lại hiệu ứng chúc mừng' : undefined}
-            className={`flex h-20 w-20 flex-shrink-0 -rotate-6 items-center justify-center rounded-3xl text-5xl shadow-md ring-4 ring-white ${mastered ? `cursor-pointer bg-amber-100 ${PRESS}` : colors.soft}`}>
+            className={`flex h-16 w-16 flex-shrink-0 -rotate-6 items-center justify-center rounded-2xl text-4xl shadow-md ring-4 ring-white ${mastered ? `cursor-pointer bg-amber-100 ${PRESS}` : colors.soft}`}>
             <span className={mastered ? 'hub-shine' : ''}>{mastered ? '🏆' : topicEmoji}</span>
           </button>
           <div className="min-w-0 flex-1">
             <p className={`text-lg font-bold leading-tight ${colors.deep}`}>
               {mastered ? 'Bạn đã chinh phục chủ đề này! 🎉'
                 : steps.done === 0 ? `Cùng học ${wordCount} từ mới nào! 🚀`
-                : `Còn ${steps.total - steps.done} bước nữa là có quà!`}
+                : `Còn ${steps.total - steps.done}/${steps.total} bước nữa là có quà!`}
             </p>
             {mastered && (
               <button type="button" onClick={() => { tap(); onShare() }}
@@ -148,20 +149,10 @@ export function TopicHero({
           </div>
         </div>
 
-        {/* Chunky progress bar */}
-        <div className="mt-4 flex items-center gap-2">
-          <div className="relative h-4 flex-1 overflow-hidden rounded-full bg-slate-200">
-            <div className="relative h-full rounded-full bg-amber-400 transition-all duration-700" style={{ width: `${(steps.done / steps.total) * 100}%` }}>
-              <span className="absolute left-2 right-2 top-1 h-1 rounded-full bg-white/50" />
-            </div>
-          </div>
-          <span className="text-xs font-bold text-slate-500">{steps.done}/{steps.total}</span>
-        </div>
-
         <Journey nodes={nodes} onTrophy={onReplayTrophy} />
 
         {/* Mascot (placeholder emoji until VocabWise has its own character) */}
-        <div className="mt-3 flex items-center gap-3 rounded-2xl bg-slate-50 px-3 py-2">
+        <div className="mt-2 flex items-center gap-3 rounded-2xl bg-slate-50 px-3 py-1.5">
           <span className="hub-bob text-3xl" aria-hidden>🦉</span>
           <p className="min-w-0 flex-1 text-sm font-bold text-slate-600">{mascotSays}</p>
           <button type="button" onClick={() => { tap(); onToggleFaq() }} aria-expanded={faqOpen}
@@ -235,9 +226,12 @@ function RoundCard({
 }) {
   const pct = mastery.ringTotal ? (mastery.ringDone / mastery.ringTotal) * 100 : 0
   const passed = mastery.ringDone >= mastery.ringTotal
+  // A finished round folds down to its header (tap to reopen) — keeps the screen short for returning learners.
+  const [open, setOpen] = useState(!passed)
   return (
     <section id={`round${no}`} className={`scroll-mt-4 rounded-3xl border-2 border-b-[4px] p-4 ${tint}`}>
-      <div className="flex items-center gap-3">
+      <div className={`flex items-center gap-3 ${passed ? 'cursor-pointer' : ''}`}
+        onClick={passed ? () => { tap(); setOpen((v) => !v) } : undefined}>
         <div className="min-w-0 flex-1">
           <span className={`inline-flex items-center gap-1.5 rounded-full border-b-[3px] px-3 py-1.5 text-sm font-bold ${pillCls}`}>
             <span className="flex h-5 w-5 items-center justify-center rounded-full bg-black/10 text-xs">{no}</span>
@@ -247,20 +241,20 @@ function RoundCard({
             {passed ? 'Bạn đã qua vòng này rồi — quá tuyệt! 🎉' : mastery.note}
           </p>
         </div>
-        <CircularProgress pct={pct} size={68} stroke={9} color={color}>
+        <CircularProgress pct={pct} size={passed ? 48 : 60} stroke={passed ? 7 : 8} color={color}>
           {passed
-            ? <span className="text-2xl leading-none">🏆</span>
+            ? <span className="text-xl leading-none">🏆</span>
             : <span className="text-sm font-bold text-slate-800">{mastery.ringDone}/{mastery.ringTotal}</span>}
         </CircularProgress>
       </div>
-      <div className="mt-3 grid grid-cols-2 gap-3">
+      {open && <div className="mt-3 grid grid-cols-2 gap-2.5">
         <GameTile index={0} onOpen={onOpen}
           tile={{ key: 'flashcard', label: flashLabel, emoji: no === 1 ? '📖' : '📚', wide: true, flashDone: entry.flashcard, isNext: no === 1 && nextKey === 'flashcard' }} />
         {games.map((g, i) => (
           <GameTile key={g.key} onOpen={onOpen} index={i + 1}
             tile={{ key: g.key, label: g.label, emoji: g.emoji, stars: gameStars(entry, g.key), pct: gamePct(entry, g.key), wide: i === games.length - 1 && games.length % 2 === 1, isNext: g.key === nextKey }} />
         ))}
-      </div>
+      </div>}
     </section>
   )
 }
@@ -288,12 +282,12 @@ function GameTile({ tile, onOpen, index }: { tile: Tile; onOpen: (gameKey: strin
     : 'border-slate-200 border-b-slate-300 bg-white'
   const tilt = index % 2 === 0 ? '-rotate-6' : 'rotate-6'
   const sticker = (
-    <span className={`flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-2xl bg-white text-3xl leading-none shadow ${tilt}`}>{tile.emoji}</span>
+    <span className={`flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl bg-white text-2xl leading-none shadow ${tilt}`}>{tile.emoji}</span>
   )
   return (
     <button type="button" onClick={() => { tap(); onOpen(tile.key) }}
-      className={`relative min-h-[64px] rounded-2xl border-2 border-b-[4px] px-3 py-3 text-left ${PRESS} ${surface} ${
-        tile.wide ? 'col-span-2 flex items-center gap-3' : 'flex flex-col gap-1.5'
+      className={`relative min-h-[56px] rounded-2xl border-2 border-b-[4px] px-2.5 py-2 text-left ${PRESS} ${surface} ${
+        tile.wide ? 'col-span-2 flex items-center gap-3' : 'flex items-center gap-2.5'
       }`}>
       {done && (
         <span className="absolute right-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-emerald-500 text-xs font-bold text-white shadow">✓</span>
@@ -316,14 +310,13 @@ function GameTile({ tile, onOpen, index }: { tile: Tile; onOpen: (gameKey: strin
           )}
         </>
       ) : (
-        <>
+        <div className="min-w-0 flex-1">
           <p className={`text-sm font-bold leading-tight ${isAI ? 'text-white' : 'text-slate-800'}`}>{tile.label}</p>
-          <div className="flex items-center justify-between gap-1">
+          <div className="mt-1 flex items-center justify-between gap-1">
             <Stars filled={stars} animate />
             {score}
           </div>
-          <p className={`text-xs font-bold ${hintColor}`}>{hint}</p>
-        </>
+        </div>
       )}
     </button>
   )
@@ -378,5 +371,39 @@ function CircularProgress({
       </svg>
       <div className="absolute inset-0 flex items-center justify-center">{children}</div>
     </div>
+  )
+}
+
+// "Từ vựng chủ đề": header band (sticker, hint, "Chi tiết" button) over a strip of colorful word chips.
+// Tapping a chip speaks the word; "Chi tiết" opens the Flashcard for the full word-by-word view.
+// Reference only — nothing here is graded. Sits above the hero so the topic's words are the first thing seen.
+const CHIP_TONES = [
+  'bg-slate-100 text-slate-700',
+  'bg-amber-100 text-amber-800',
+  'bg-emerald-50 text-emerald-700',
+]
+export function WordPreview({ words, onDetail }: { words: { word: string; meaning: string; emoji: string }[]; onDetail: () => void }) {
+  return (
+    <section className="overflow-hidden rounded-3xl border-2 border-b-[4px] border-slate-200 border-b-slate-300 bg-white">
+      <div className="flex items-center gap-3 bg-gradient-to-r from-slate-100 to-amber-50 px-4 py-2.5">
+        <span className="flex h-10 w-10 flex-shrink-0 -rotate-6 items-center justify-center rounded-xl bg-amber-400 text-xl shadow">📋</span>
+        <div className="min-w-0 flex-1">
+          <p className="text-base font-bold leading-tight text-slate-800">Từ vựng chủ đề</p>
+          <p className="mt-0.5 text-xs font-semibold text-slate-500">{words.length} từ · chạm vào từ để nghe 🔊</p>
+        </div>
+        <button type="button" onClick={() => { tap(); onDetail() }}
+          className={`flex-shrink-0 rounded-full border-b-[3px] border-black/20 bg-slate-800 px-3.5 py-1.5 text-xs font-bold text-white ${PRESS}`}>
+          Chi tiết →
+        </button>
+      </div>
+      <div className="flex flex-wrap gap-1.5 px-4 py-3">
+        {words.map((w, i) => (
+          <button key={w.word} type="button" onClick={() => speak(w.word)}
+            className={`rounded-full px-3 py-1.5 text-sm font-bold transition-transform active:scale-95 ${CHIP_TONES[i % CHIP_TONES.length]}`}>
+            {w.word}
+          </button>
+        ))}
+      </div>
+    </section>
   )
 }

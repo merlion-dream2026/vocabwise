@@ -5,7 +5,7 @@ import { useRouter, useParams } from 'next/navigation'
 import dynamic from 'next/dynamic'
 import { loadDailyTopicOffline, saveLastSync, loadOfflineProgress, clearOfflineProgress } from '@/lib/offlineStorage'
 import { isTopicMastered, type MasteryEntry } from '@/lib/topicMastery'
-import { HubStyles, Rise, TopicHero, RoundCards, PRESS } from '@/components/TopicHub'
+import { HubStyles, Rise, TopicHero, RoundCards, WordPreview, PRESS } from '@/components/TopicHub'
 import PageSkeleton from '@/components/PageSkeleton'
 
 const TrophyModal = dynamic(() => import('@/components/TrophyModal'), { ssr: false })
@@ -111,6 +111,7 @@ export default function TopicPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
   const [showVoiceNotice, setShowVoiceNotice] = useState(false)
   const [showExercise, setShowExercise] = useState(false)
+  const [storyOpen, setStoryOpen] = useState(false)
   const [exerciseAnswers, setExerciseAnswers] = useState<Record<number, string>>({})
   const [exerciseSubmitted, setExerciseSubmitted] = useState(false)
   const audioRef = useRef<HTMLAudioElement | null>(null)
@@ -124,6 +125,7 @@ export default function TopicPage() {
   // Auto-scroll to Mini Story when arriving via nudge (e.g. from Flashcard completion screen)
   useEffect(() => {
     if (story && window.location.hash === '#mini-story') {
+      setStoryOpen(true)
       setTimeout(scrollToStory, 200)
     }
   }, [story])
@@ -396,8 +398,16 @@ export default function TopicPage() {
       </div>
 
       <div className="max-w-xl mx-auto px-4 py-5 space-y-4">
-        {/* Hero (status + journey + next-step button) */}
+        {/* Topic words: chips to tap-and-hear, "Chi tiết" opens the Flashcard */}
         <Rise i={0}>
+          <WordPreview
+            words={(topic as { words: { word: string; meaning: string; emoji: string }[] }).words}
+            onDetail={() => router.push(`/dashboard/${childId}/${level}/${topicId}/flashcard`)}
+          />
+        </Rise>
+
+        {/* Hero (status + journey + next-step button) */}
+        <Rise i={1}>
           <TopicHero
             colors={colors}
             level={level}
@@ -443,7 +453,7 @@ export default function TopicPage() {
         )}
 
         {/* Vòng 1 / Vòng 2 */}
-        <Rise i={1}>
+        <Rise i={2}>
           <RoundCards
             level={level}
             entry={mastery}
@@ -469,14 +479,6 @@ export default function TopicPage() {
           </div>
         )}
 
-        {/* Mini Story teaser line */}
-        {story && (
-          <p className={`flex items-center justify-center gap-2 text-center font-black text-base ${colors.text}`}>
-            <span className="text-xl animate-bounce">🚀</span>
-            Nâng trình nghe, đọc hiểu cùng Mini Story!
-          </p>
-        )}
-
         {/* Mini Story */}
         {story && (
           <div ref={storyRef} className="rounded-3xl border-2 border-b-[4px] border-purple-200 border-b-purple-300 bg-purple-50 p-4 scroll-mt-4">
@@ -485,17 +487,27 @@ export default function TopicPage() {
               <span className="inline-flex items-center gap-1.5 rounded-full border-b-[3px] border-purple-800 bg-purple-600 px-3 py-1.5 text-sm font-bold text-white">
                 📖 Mini Story <span className="text-base">{story.emojis.join(' ')}</span>
               </span>
-              <button
-                onClick={handleSpeak}
-                className={`flex items-center gap-1 rounded-full border-b-[3px] px-3 py-1.5 text-xs font-bold ${PRESS} ${
-                  speaking ? 'border-red-700 bg-red-500 text-white' : 'border-amber-600 bg-amber-400 text-amber-950'
-                }`}
-              >
-                {speaking ? '⏹ Dừng' : '🔊 Nghe'}
-              </button>
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={handleSpeak}
+                  className={`flex items-center gap-1 rounded-full border-b-[3px] px-3 py-1.5 text-xs font-bold ${PRESS} ${
+                    speaking ? 'border-red-700 bg-red-500 text-white' : 'border-amber-600 bg-amber-400 text-amber-950'
+                  }`}
+                >
+                  {speaking ? '⏹ Dừng' : '🔊 Nghe'}
+                </button>
+                <button
+                  onClick={() => setStoryOpen(v => !v)}
+                  aria-expanded={storyOpen}
+                  className={`rounded-full border-b-[3px] border-purple-300 bg-white px-3 py-1.5 text-xs font-bold text-purple-700 ${PRESS}`}
+                >
+                  {storyOpen ? 'Thu gọn ▴' : 'Đọc ▾'}
+                </button>
+              </div>
             </div>
+            {!storyOpen && <p className="mt-2 text-xs font-semibold text-purple-700/80">🚀 Nâng trình nghe, đọc hiểu và làm bài tập cùng Mini Story</p>}
 
-            {!showExercise || !parsedExercise ? (
+            {storyOpen && (!showExercise || !parsedExercise ? (
               /* ── Read mode ── */
               <div className="mt-3 rounded-2xl bg-white p-3">
                 <div className="text-gray-700 text-sm leading-relaxed mb-2">
@@ -601,7 +613,7 @@ export default function TopicPage() {
                   </div>
                 )}
               </div>
-            )}
+            ))}
           </div>
         )}
       </div>

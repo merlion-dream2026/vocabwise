@@ -81,6 +81,7 @@ export default function BottomNav() {
   const [childId,   setChildId]   = useState<string | null>(null)
   const [childInfo, setChildInfo] = useState<ChildInfo | null>(null)
   const [navVisible, setNavVisible] = useState(true)
+  const [keyboardOpen, setKeyboardOpen] = useState(false)
   const lastScrollY  = useRef(0)
   const ticking      = useRef(false)
 
@@ -153,6 +154,29 @@ export default function BottomNav() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [pathname])
 
+  // iOS Safari: when the on-screen keyboard opens it shrinks the visual viewport but not the layout
+  // viewport, so a fixed bottom bar gets left floating mid-screen. Hide it while an input is focused
+  // or the visual viewport is much shorter than the window.
+  useEffect(() => {
+    const vv = window.visualViewport
+    const isEditable = (el: Element | null) =>
+      !!el && (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA' || el.tagName === 'SELECT' || (el as HTMLElement).isContentEditable)
+    const update = () => {
+      const shrunk = !!vv && vv.height < window.innerHeight - 120
+      setKeyboardOpen(shrunk || isEditable(document.activeElement))
+    }
+    update()
+    window.addEventListener('focusin', update)
+    const onOut = () => setTimeout(update, 50)
+    window.addEventListener('focusout', onOut)
+    vv?.addEventListener('resize', update)
+    return () => {
+      window.removeEventListener('focusin', update)
+      window.removeEventListener('focusout', onOut)
+      vv?.removeEventListener('resize', update)
+    }
+  }, [pathname])
+
   if (!shouldShowNav(pathname)) return null
 
   const active = getActiveTab(pathname, childId)
@@ -186,9 +210,9 @@ export default function BottomNav() {
       {/* Bottom nav — floating capsule, labels kept */}
       <nav
         className={`pointer-events-none fixed bottom-0 inset-x-0 mx-auto w-full max-w-md z-40 px-3 transition-transform duration-300 ease-in-out ${
-          navVisible ? 'translate-y-0' : 'translate-y-full'
+          navVisible && !keyboardOpen ? 'translate-y-0' : 'translate-y-full'
         }`}
-        style={{ paddingBottom: 'calc(env(safe-area-inset-bottom) + 8px)', touchAction: 'manipulation' }}
+        style={{ paddingBottom: 'calc(env(safe-area-inset-bottom) + 8px)', touchAction: 'manipulation', willChange: 'transform' }}
       >
         <div
           className="pointer-events-auto flex items-stretch gap-0.5 rounded-[28px] border-2 border-b-[4px] border-slate-200 bg-white p-1.5 shadow-[0_6px_20px_rgba(0,0,0,0.12)]"
