@@ -492,13 +492,13 @@ export default function TopicPage() {
           <div ref={storyRef} className="rounded-3xl border-2 border-b-[4px] border-purple-200 border-b-purple-300 bg-purple-50 p-4 scroll-mt-4">
             {/* Story header */}
             <div className="flex items-center justify-between gap-2">
-              <span className="inline-flex items-center gap-1.5 rounded-full border-b-[3px] border-purple-800 bg-purple-600 px-3 py-1.5 text-sm font-bold text-white">
-                📖 Mini Story <span className="text-base">{story.emojis.join(' ')}</span>
+              <span className="inline-flex min-w-0 items-center gap-1.5 whitespace-nowrap rounded-full border-b-[3px] border-purple-800 bg-purple-600 px-3 py-1.5 text-sm font-bold text-white">
+                📖 Mini Story
               </span>
-              <div className="flex items-center gap-2">
+              <div className="flex flex-shrink-0 items-center gap-2">
                 <button
                   onClick={handleSpeak}
-                  className={`flex items-center gap-1 rounded-full border-b-[3px] px-3 py-1.5 text-xs font-bold ${PRESS} ${
+                  className={`flex items-center gap-1 whitespace-nowrap rounded-full border-b-[3px] px-3 py-1.5 text-xs font-bold ${PRESS} ${
                     speaking ? 'border-red-700 bg-red-500 text-white' : 'border-amber-600 bg-amber-400 text-amber-950'
                   }`}
                 >
@@ -507,9 +507,10 @@ export default function TopicPage() {
                 <button
                   onClick={() => setStoryOpen(v => !v)}
                   aria-expanded={storyOpen}
-                  className={`rounded-full border-b-[3px] border-purple-300 bg-white px-3 py-1.5 text-xs font-bold text-purple-700 ${PRESS}`}
+                  aria-label={storyOpen ? 'Thu gọn' : 'Mở truyện'}
+                  className={`flex h-8 w-8 items-center justify-center rounded-full border-b-[3px] border-purple-300 bg-white text-sm font-bold text-purple-700 ${PRESS}`}
                 >
-                  {storyOpen ? 'Thu gọn ▴' : 'Đọc ▾'}
+                  {storyOpen ? '▴' : '▾'}
                 </button>
               </div>
             </div>

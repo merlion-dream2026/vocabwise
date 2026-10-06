@@ -283,17 +283,20 @@ function GameTile({ tile, onOpen, index }: { tile: Tile; onOpen: (gameKey: strin
     : started ? 'border-amber-200 border-b-amber-400 bg-white'
     : 'border-slate-200 border-b-slate-300 bg-white'
   const tilt = index % 2 === 0 ? '-rotate-6' : 'rotate-6'
+  // The ✓ sits on the sticker's corner (not the tile's corner) so it never covers the game name.
   const sticker = (
-    <span className={`flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl bg-white text-2xl leading-none shadow ${tilt}`}>{tile.emoji}</span>
+    <span className="relative flex-shrink-0">
+      <span className={`flex h-10 w-10 items-center justify-center rounded-xl bg-white text-2xl leading-none shadow ${tilt}`}>{tile.emoji}</span>
+      {done && (
+        <span className="absolute -bottom-1.5 -right-1.5 flex h-5 w-5 items-center justify-center rounded-full border-2 border-white bg-emerald-500 text-[10px] font-bold text-white">✓</span>
+      )}
+    </span>
   )
   return (
     <button type="button" onClick={() => { tap(); onOpen(tile.key) }}
       className={`relative min-h-[56px] rounded-2xl border-2 border-b-[4px] px-2.5 py-2 text-left ${PRESS} ${surface} ${
         tile.wide ? 'col-span-2 flex items-center gap-3' : 'flex items-center gap-2.5'
       }`}>
-      {done && (
-        <span className="absolute right-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-emerald-500 text-xs font-bold text-white shadow">✓</span>
-      )}
       {tile.isNext && !done && (
         <span className="hub-wobble absolute -top-3 right-3 rounded-full border-b-2 border-amber-600 bg-amber-400 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-amber-950">Chơi tiếp!</span>
       )}
@@ -305,7 +308,7 @@ function GameTile({ tile, onOpen, index }: { tile: Tile; onOpen: (gameKey: strin
             <p className={`mt-0.5 text-xs font-bold ${hintColor}`}>{hint}</p>
           </div>
           {!isFlash && (
-            <span className={`flex flex-col items-end gap-0.5 ${done ? 'mr-7' : ''}`}>
+            <span className={`flex flex-col items-end gap-0.5 `}>
               <Stars filled={stars} animate />
               {score}
             </span>
