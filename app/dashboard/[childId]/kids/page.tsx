@@ -67,33 +67,19 @@ export default function KidsLevelPage() {
       </div>
 
       <div className="px-4 py-4">
-      {/* Sticker album */}
-      <div className="max-w-lg mx-auto mb-3">
+      {/* Shortcuts: sticker album + My Words — solid, square-ish tiles so they read as "tools", not as levels */}
+      <div className="max-w-lg mx-auto mb-4 grid grid-cols-2 gap-3">
         <Link href={`/dashboard/${childId}/profile?tab=daily`}
-          className={`block rounded-3xl border-2 border-b-[4px] border-purple-200 border-b-purple-300 bg-purple-50 px-4 py-3 ${PRESS}`}>
-          <div className="flex items-center gap-3">
-            <span className="flex h-12 w-12 flex-shrink-0 -rotate-6 items-center justify-center rounded-2xl bg-white text-3xl shadow">🎁</span>
-            <div className="flex-1">
-              <p className="font-bold text-gray-800 text-sm leading-tight">Bộ sưu tập sticker</p>
-              <p className="text-purple-700 text-xs mt-0.5">{stickerCount ? `${stickerCount} sticker · hoàn thành chủ đề để nhận thêm` : 'Hoàn thành một chủ đề để nhận sticker đầu tiên'}</p>
-            </div>
-            <span className="text-purple-400 font-bold text-xl flex-shrink-0">›</span>
-          </div>
+          className={`flex flex-col items-center gap-1.5 rounded-3xl border-b-[4px] border-purple-800 bg-purple-500 px-3 py-4 text-center text-white ${PRESS}`}>
+          <span className="flex h-14 w-14 -rotate-6 items-center justify-center rounded-2xl bg-white text-3xl shadow">🎁</span>
+          <p className="text-sm font-bold leading-tight">Bộ sưu tập sticker</p>
+          <p className="rounded-full bg-white/25 px-2.5 py-0.5 text-xs font-bold">{stickerCount ? `${stickerCount} sticker` : 'Chưa có sticker'}</p>
         </Link>
-      </div>
-
-      {/* My Words card */}
-      <div className="max-w-lg mx-auto mb-3">
         <Link href="/my-words"
-          className={`block rounded-3xl border-2 border-b-[4px] border-yellow-200 border-b-yellow-400 bg-yellow-50 px-4 py-3 ${PRESS}`}>
-          <div className="flex items-center gap-3">
-            <span className="flex h-12 w-12 flex-shrink-0 -rotate-6 items-center justify-center rounded-2xl bg-white text-3xl shadow">⭐</span>
-            <div className="flex-1">
-              <p className="font-bold text-gray-800 text-sm leading-tight">Từ của tôi — Lưu từ quan trọng</p>
-              <p className="text-yellow-700 text-xs mt-0.5">Nhấn ⭐ cạnh từ trong bài học để lưu vào danh sách ôn tập riêng · Free: 20 từ · Pro: không giới hạn</p>
-            </div>
-            <span className="text-yellow-500 font-bold text-xl flex-shrink-0">›</span>
-          </div>
+          className={`flex flex-col items-center gap-1.5 rounded-3xl border-b-[4px] border-amber-600 bg-amber-400 px-3 py-4 text-center text-amber-950 ${PRESS}`}>
+          <span className="flex h-14 w-14 rotate-6 items-center justify-center rounded-2xl bg-white text-3xl shadow">⭐</span>
+          <p className="text-sm font-bold leading-tight">Từ của tôi</p>
+          <p className="rounded-full bg-white/40 px-2.5 py-0.5 text-xs font-bold">Lưu từ quan trọng</p>
         </Link>
       </div>
 
