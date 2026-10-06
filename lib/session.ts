@@ -107,3 +107,40 @@ export function clearAdminSessionCookie() {
     path: '/',
   }
 }
+
+// ── Parent unlock (Quà tặng area) ─────────────────────────────────────────────
+// Short-lived cookie proving the parent PIN was entered recently. Separate from the family session so a
+// child using the same logged-in device can't mark stickers redeemed.
+const PARENT_COOKIE = 'vk_parent_ok'
+export const PARENT_UNLOCK_SECONDS = 60 * 10
+
+export async function createParentUnlock(familyId: string): Promise<string> {
+  return new SignJWT({ familyId, kind: 'parent-unlock' })
+    .setProtectedHeader({ alg: 'HS256' })
+    .setIssuedAt()
+    .setExpirationTime(`${PARENT_UNLOCK_SECONDS}s`)
+    .sign(JWT_SECRET)
+}
+
+export async function hasParentUnlock(req: NextRequest, familyId: string): Promise<boolean> {
+  try {
+    const token = req.cookies.get(PARENT_COOKIE)?.value
+    if (!token) return false
+    const { payload } = await jwtVerify(token, JWT_SECRET, { algorithms: ['HS256'] })
+    return payload.kind === 'parent-unlock' && payload.familyId === familyId
+  } catch {
+    return false
+  }
+}
+
+export function parentUnlockCookie(token: string, maxAge = PARENT_UNLOCK_SECONDS) {
+  return {
+    name: PARENT_COOKIE,
+    value: token,
+    httpOnly: true,
+    secure: process.env.NODE_ENV === 'production',
+    sameSite: 'lax' as const,
+    maxAge,
+    path: '/api/rewards',
+  }
+}

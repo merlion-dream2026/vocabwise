@@ -12,11 +12,12 @@ import { getPlanBadge } from './_utils'
 import { AddChildModal, EditChildModal } from './_components/ChildModals'
 import { DashboardTab } from './_components/DashboardTab'
 import { SettingsTab } from './_components/SettingsTab'
+import { RewardsTab } from './_components/RewardsTab'
 import { FaqCard } from './_components/FaqCard'
 import { cachedFetch, invalidateCachedFetch } from '@/lib/cachedFetch'
 
-const TAB_LABELS: Record<'dashboard' | 'referral' | 'faq' | 'settings', string> = {
-  dashboard: '📊 Dashboard', referral: '🎁 Giới thiệu', faq: '❓ FAQ', settings: '⚙️ Cài đặt',
+const TAB_LABELS: Record<'dashboard' | 'rewards' | 'referral' | 'faq' | 'settings', string> = {
+  dashboard: '📊 Dashboard', rewards: '🎁 Quà tặng', referral: '🤝 Giới thiệu', faq: '❓ FAQ', settings: '⚙️ Cài đặt',
 }
 
 // ── Main page ─────────────────────────────────────────────────────────────────
@@ -26,7 +27,7 @@ export default function DashboardPage() {
   const [children, setChildren] = useState<Child[]>([])
   const [stats, setStats] = useState<ChildStats[]>([])
   const [loading, setLoading] = useState(true)
-  const [tab, setTab] = useState<'dashboard' | 'referral' | 'faq' | 'settings'>('dashboard')
+  const [tab, setTab] = useState<'dashboard' | 'rewards' | 'referral' | 'faq' | 'settings'>('dashboard')
   const [showAdd, setShowAdd] = useState(false)
   const [editing, setEditing] = useState<Child | null>(null)
 
@@ -186,7 +187,7 @@ export default function DashboardPage() {
 
           {/* Tabs */}
           <div className="flex gap-1 overflow-x-auto" style={{ scrollbarWidth: 'none' }}>
-            {(['dashboard', 'faq', 'settings', 'referral'] as const).map(t => (
+            {(['dashboard', 'rewards', 'faq', 'settings', 'referral'] as const).map(t => (
               <button key={t} onClick={() => setTab(t)}
                 className={`px-3 py-2.5 rounded-t-2xl font-black text-sm whitespace-nowrap flex-shrink-0 transition-colors ${
                   tab === t ? 'bg-white text-gray-800' : 'text-white/70 hover:text-white'}`}>
@@ -208,6 +209,8 @@ export default function DashboardPage() {
             session={session!}
             onAddChild={() => setShowAdd(true)}
           />
+        ) : tab === 'rewards' ? (
+          <RewardsTab kids={children} />
         ) : tab === 'referral' ? (
           <ReferralTab />
         ) : tab === 'faq' ? (

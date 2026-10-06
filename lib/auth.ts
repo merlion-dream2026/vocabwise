@@ -2,7 +2,7 @@ import bcrypt from 'bcryptjs'
 
 // Re-export Edge-compatible helpers from session.ts
 export type { SessionPayload } from './session'
-export { createSession, getSession, sessionCookieOptions, clearSessionCookie, getAdminSession, adminSessionCookieOptions, clearAdminSessionCookie } from './session'
+export { createSession, getSession, sessionCookieOptions, clearSessionCookie, getAdminSession, adminSessionCookieOptions, clearAdminSessionCookie, createParentUnlock, hasParentUnlock, parentUnlockCookie } from './session'
 
 // Cost 10 on the pure-JS bcryptjs used here: ~75ms/login instead of ~250-300ms
 // at cost 12. Online brute-force is already blocked by the 5-attempt/15min

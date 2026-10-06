@@ -6,7 +6,7 @@ import { GameHeader } from '@/components/ChunkyUI'
 import PageSkeleton from '@/components/PageSkeleton'
 import Sticker from '@/components/Sticker'
 
-type StickerRow = { level: string; topic_id: string; earned_at: string; legacy: boolean; redemption_id: number | null }
+type StickerRow = { collection?: string; level: string; topic_id: string; earned_at: string; legacy: boolean; redemption_id: number | null }
 type TopicInfo = { id: string; name: string; emoji: string }
 type Child = { id: string; name: string }
 
@@ -37,7 +37,8 @@ export default function StickerAlbumPage() {
       const found = (kids as Child[]).find(k => k.id === childId)
       if (!found) { router.push('/kids'); return }
       setChild(found)
-      const list = rows as StickerRow[]
+      // This album is the Daily collection; other collections (Academic, Phonics) get their own tabs later.
+      const list = (rows as StickerRow[]).filter(r => (r.collection ?? 'daily') === 'daily')
       const levelsWith = Array.from(new Set(list.map(r => r.level)))
       const entries = await Promise.all(levelsWith.map(async lv => {
         const t = await cachedFetch(`/api/words/${lv}/topics`).then(r => r.json()).catch(() => [])
@@ -82,7 +83,12 @@ export default function StickerAlbumPage() {
                   const info = order.find(t => t.id === s.topic_id)
                   return (
                     <div key={s.topic_id} className="flex flex-col items-center gap-1 text-center">
-                      <Sticker emoji={info?.emoji ?? '⭐'} size="md" tilt={i % 2 === 0 ? -6 : 6} />
+                      <span className="relative">
+                        <Sticker emoji={info?.emoji ?? '⭐'} size="md" tilt={i % 2 === 0 ? -6 : 6} />
+                        {s.redemption_id && (
+                          <span title="Đã đổi quà" className="absolute -bottom-1.5 -right-1.5 flex h-6 w-6 items-center justify-center rounded-full border-2 border-white bg-purple-600 text-[11px]">🎁</span>
+                        )}
+                      </span>
                       <span className="line-clamp-2 text-[11px] font-semibold leading-tight text-slate-600">{info?.name ?? s.topic_id}</span>
                     </div>
                   )

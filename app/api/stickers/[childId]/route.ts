@@ -27,7 +27,7 @@ export async function GET(req: NextRequest, props: { params: Promise<{ childId: 
 
   const { data, error } = await supabase
     .from('child_stickers')
-    .select('level, topic_id, earned_at, legacy, redemption_id')
+    .select('collection, level, topic_id, earned_at, legacy, redemption_id')
     .eq('child_id', childId)
     .order('earned_at', { ascending: false })
   // Table missing (migration not applied yet) or any DB error: behave as "no stickers", never break the UI.

@@ -7,7 +7,7 @@ function fakeClient(existing: string[]) {
   const inserted: { topic_id: string; legacy: boolean }[] = []
   const client = {
     from: () => ({
-      select: () => ({ eq: () => ({ eq: async () => ({ data: existing.map((topic_id) => ({ topic_id })), error: null }) }) }),
+      select: () => ({ eq: () => ({ eq: () => ({ eq: async () => ({ data: existing.map((topic_id) => ({ topic_id })), error: null }) }) }) }),
       upsert: async (rows: { topic_id: string; legacy: boolean }[]) => { inserted.push(...rows); return { error: null } },
     }),
   }
