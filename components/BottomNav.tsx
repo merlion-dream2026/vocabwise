@@ -45,6 +45,13 @@ function getActiveTab(pathname: string, childId: string | null): string {
   return ''
 }
 
+// Each module has its own accent: the selected tab's pill follows it (full class strings so Tailwind keeps them).
+const ACCENT: Record<string, { pill: string; text: string; ring: string }> = {
+  daily:    { pill: 'bg-purple-100', text: 'text-purple-700', ring: 'border-purple-400 bg-purple-50' },
+  phonics:  { pill: 'bg-orange-100', text: 'text-orange-700', ring: 'border-orange-400 bg-orange-50' },
+  academic: { pill: 'bg-blue-100',   text: 'text-blue-700',   ring: 'border-blue-400 bg-blue-50' },
+}
+
 type ChildInfo = { id: string; name: string; emoji: string }
 
 const MODULE_TABS = [
@@ -203,6 +210,7 @@ export default function BottomNav() {
   }
 
   const profileActive = active === 'profile'
+  const accent = ACCENT[active] ?? ACCENT.daily
 
   const tabBase = 'relative flex min-w-0 flex-1 flex-col items-center justify-center gap-0.5 rounded-2xl py-1.5 transition-all duration-150 active:scale-95'
 
@@ -221,16 +229,16 @@ export default function BottomNav() {
           {/* Profile tab — circular avatar */}
           <button
             onClick={() => router.push(childId ? `/dashboard/${childId}/profile` : '/kids')}
-            className={`${tabBase} max-w-[3.75rem] ${profileActive ? 'bg-purple-100' : ''}`}
+            className={`${tabBase} max-w-[3.75rem] ${profileActive ? ACCENT.daily.pill : ''}`}
           >
             <span className={`relative flex h-7 w-7 items-center justify-center overflow-hidden rounded-full border-2 ${
-              profileActive ? 'border-purple-400 bg-purple-50' : childInfo ? 'border-gray-200 bg-gray-50' : 'border-dashed border-gray-300 bg-white'
+              profileActive ? ACCENT.daily.ring : childInfo ? 'border-gray-200 bg-gray-50' : 'border-dashed border-gray-300 bg-white'
             }`}>
               {childInfo
                 ? <Image src={getAvatarSrc(childInfo.emoji)} fill className="object-cover" alt="" unoptimized />
                 : <span className="text-base">👤</span>}
             </span>
-            <span className={`max-w-full truncate text-[10px] font-bold leading-none ${profileActive ? 'text-purple-700' : 'text-gray-400'}`}>
+            <span className={`max-w-full truncate text-[10px] font-bold leading-none ${profileActive ? ACCENT.daily.text : 'text-gray-400'}`}>
               {childInfo?.name ?? 'Hồ sơ'}
             </span>
           </button>
@@ -239,7 +247,7 @@ export default function BottomNav() {
             const isActive = active === key
             const isDim    = needsChild && !childId
             return (
-              <button key={key} onClick={() => go(key)} className={`${tabBase} ${isActive ? 'bg-purple-100' : ''}`}>
+              <button key={key} onClick={() => go(key)} className={`${tabBase} ${isActive ? accent.pill : ''}`}>
                 <span
                   className="text-[20px] leading-none"
                   style={isActive ? undefined : { filter: 'grayscale(1)', opacity: isDim ? 0.3 : 0.5 }}
@@ -247,7 +255,7 @@ export default function BottomNav() {
                   {icon}
                 </span>
                 <span className={`max-w-full truncate text-[10px] font-bold leading-none ${
-                  isActive ? 'text-purple-700' : isDim ? 'text-gray-300' : 'text-gray-400'
+                  isActive ? accent.text : isDim ? 'text-gray-300' : 'text-gray-400'
                 }`}>
                   {label}
                 </span>

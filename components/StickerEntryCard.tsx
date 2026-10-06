@@ -5,6 +5,13 @@ import { PRESS } from '@/components/TopicHub'
 import { activeChildId } from '@/lib/academicSync'
 
 const LABEL = { daily: 'Daily', academic: 'Academic', phonics: 'Phonics' } as const
+const TINT = {
+  daily:    'border-purple-200 border-b-purple-300 bg-purple-50',
+  phonics:  'border-orange-200 border-b-orange-300 bg-orange-50',
+  academic: 'border-blue-200 border-b-blue-300 bg-blue-50',
+} as const
+const SUB = { daily: 'text-purple-700', phonics: 'text-orange-700', academic: 'text-blue-700' } as const
+const ARROW = { daily: 'text-purple-400', phonics: 'text-orange-400', academic: 'text-blue-400' } as const
 
 // Small shortcut on a module's home screen → the child's profile, opened on that module's sticker tab.
 // Shows how many stickers the child has in this module. Renders nothing until a child is known.
@@ -21,13 +28,13 @@ export default function StickerEntryCard({ collection, childId }: { collection: 
   if (!id) return null
   return (
     <Link href={`/dashboard/${id}/profile?tab=${collection}`}
-      className={`flex items-center gap-3 rounded-3xl border-2 border-b-[4px] border-purple-200 border-b-purple-300 bg-purple-50 px-4 py-3 ${PRESS}`}>
+      className={`flex items-center gap-3 rounded-3xl border-2 border-b-[4px] ${TINT[collection]} px-4 py-3 ${PRESS}`}>
       <span className="flex h-11 w-11 flex-shrink-0 -rotate-6 items-center justify-center rounded-2xl bg-white text-2xl shadow">🎁</span>
       <div className="min-w-0 flex-1">
         <p className="text-sm font-bold leading-tight text-gray-800">Sticker {LABEL[collection]}</p>
-        <p className="text-xs font-semibold text-purple-700">{count === null ? ' ' : count > 0 ? `${count} sticker đã sưu tầm` : 'Chưa có sticker nào, hoàn thành topic để nhận!'}</p>
+        <p className={`text-xs font-semibold ${SUB[collection]}`}>{count === null ? ' ' : count > 0 ? `${count} sticker đã sưu tầm` : 'Chưa có sticker nào, hoàn thành topic để nhận!'}</p>
       </div>
-      <span className="flex-shrink-0 text-xl font-bold text-purple-400">›</span>
+      <span className={`flex-shrink-0 text-xl font-bold ${ARROW[collection]}`}>›</span>
     </Link>
   )
 }
