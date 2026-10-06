@@ -5,6 +5,7 @@ import Sticker from '@/components/Sticker'
 import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
 import { shareStickerCard } from '@/lib/stickerShare'
+import phonicsLevels from '@/data/phonicsLevels.json'
 
 type StickerRow = { collection?: string; level: string; topic_id: string; earned_at: string; legacy: boolean; redemption_id: number | null }
 type TopicInfo = { id: string; name: string; emoji: string }
@@ -22,7 +23,7 @@ const SECTIONS: Record<Tab, Section[]> = {
     { key: 'scholar', label: 'Scholar', tag: 'B2', total: 30 },
     { key: 'master', label: 'Master', tag: 'C1-C2', total: 30 },
   ],
-  phonics: [],   // Phonics stickers are not awarded yet
+  phonics: phonicsLevels.levels.map(l => ({ key: l.id, label: l.titleVi, tag: l.title, total: l.lessons.length })),
   academic: [
     { key: 'book1', label: 'Foundation', tag: 'A1–A2', total: 60 },
     { key: 'book2', label: 'Progress', tag: 'B1–B2', total: 60 },
@@ -33,6 +34,10 @@ const TAB_LABEL: Record<Tab, string> = { daily: '📚 Daily', academic: '🎓 Ac
 
 // Topic names/emoji for one section: Daily levels come from the words API, Academic books from topic-meta.
 async function loadTopics(tab: Tab, key: string): Promise<TopicInfo[]> {
+  if (tab === 'phonics') {
+    const lv = phonicsLevels.levels.find(l => l.id === key)
+    return (lv?.lessons ?? []).map(l => ({ id: l.id, name: l.title, emoji: l.emoji }))
+  }
   const url = tab === 'daily' ? `/api/words/${key}/topics` : `/api/vocabwise/topic-meta?book=${key}`
   const t = await cachedFetch(url).then(r => r.json()).catch(() => [])
   return Array.isArray(t) ? (t as TopicInfo[]).map(x => ({ id: x.id, name: x.name, emoji: x.emoji })) : []
@@ -83,7 +88,7 @@ export default function StickerAlbum({ child, initialTab = 'daily' }: { child: A
             <p className="text-5xl">🎁</p>
             <p className="mt-2 text-base font-bold text-slate-800">Chưa có sticker nào ở đây</p>
             <p className="mt-1 text-sm font-semibold text-slate-500">
-              {tab === 'daily' ? 'Hoàn thành một chủ đề Daily để nhận sticker đầu tiên nhé!' : tab === 'academic' ? 'Đạt từ 20/25 điểm bài tập ở một topic Academic để nhận sticker nhé!' : 'Sticker Phonics sắp ra mắt, chờ nhé!'}
+              {tab === 'daily' ? 'Hoàn thành một chủ đề Daily để nhận sticker đầu tiên nhé!' : tab === 'academic' ? 'Đạt từ 20/25 điểm bài tập ở một topic Academic để nhận sticker nhé!' : 'Thạo một bài Phonics (đủ game bắt buộc) để nhận sticker nhé!'}
             </p>
           </div>
         )}

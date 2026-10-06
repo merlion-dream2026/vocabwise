@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { awardStickers, awardAcademicStickers, STICKER_LAUNCH_AT } from '@/lib/stickers'
+import { awardStickers, awardAcademicStickers, awardPhonicsStickers, STICKER_LAUNCH_AT } from '@/lib/stickers'
 import type { MasteryEntry } from '@/lib/topicMastery'
 
 // Minimal fake of the supabase calls awardStickers makes: select(existing) + upsert(rows).
@@ -65,5 +65,29 @@ describe('awardStickers', () => {
     })
     expect(fresh).toEqual(['b2-t05'])
     expect(rows).toEqual([{ child_id: 'c1', collection: 'academic', level: 'book2', topic_id: 'b2-t05', legacy: false }])
+  })
+
+  it('Phonics: needs flashcard + every mastery game; legacy only if already mastered before this sync', async () => {
+    const rows: { topic_id: string; level: string; collection: string; legacy: boolean }[] = []
+    const client = {
+      from: () => ({
+        select: () => ({ eq: () => ({ eq: async () => ({ data: [], error: null }) }) }),
+        upsert: async (r: typeof rows) => { rows.push(...r); return { error: null } },
+      }),
+    } as never
+    const full = { flashcard: true, games: ['minimal-pairs', 'listen-pick', 'speak'] }
+    const mastery = {
+      'iː-ɪ': full,                                   // mastered before and now → legacy
+      'uː-ʊ': full,                                   // newly mastered → real sticker
+      'ɒ-ɔː': { flashcard: true, games: ['speak'] },  // not enough games
+    }
+    const previous = { 'iː-ɪ': full, 'uː-ʊ': { flashcard: true, games: ['speak'] } }
+    const fresh = await awardPhonicsStickers(client, 'c1', mastery, previous)
+    expect(fresh).toEqual(['uː-ʊ'])
+    expect(rows.map((r) => [r.topic_id, r.collection, r.legacy])).toEqual([['iː-ɪ', 'phonics', true], ['uː-ʊ', 'phonics', false]])
+    // no `previous` (backfill on read): everything missing is legacy
+    rows.length = 0
+    expect(await awardPhonicsStickers(client, 'c1', mastery)).toEqual([])
+    expect(rows.every((r) => r.legacy)).toBe(true)
   })
 })

@@ -1,5 +1,6 @@
 import type { SupabaseClient } from '@supabase/supabase-js'
 import { isTopicMastered, type MasteryEntry } from '@/lib/topicMastery'
+import phonicsLevels from '@/data/phonicsLevels.json'
 
 // Topics already complete before this moment get a "legacy" sticker (album only, not redeemable) so
 // launching rewards doesn't hand a child a pile of redeemable stickers for past work.
@@ -69,6 +70,43 @@ export async function awardAcademicStickers(
     const rows = fresh.map((m) => ({ child_id: childId, collection: 'academic', level: m.level, topic_id: m.id, legacy: false }))
     const { error: insErr } = await supabase.from('child_stickers').upsert(rows, { onConflict: 'child_id,collection,level,topic_id', ignoreDuplicates: true })
     return insErr ? [] : fresh.map((m) => m.id)
+  } catch {
+    return []
+  }
+}
+
+// ── Phonics ───────────────────────────────────────────────────────────────────
+// One sticker per mastered lesson: collection 'phonics', level = phonics level id, topic_id = lesson id.
+// Mastered = flashcard done + every masteryGame passed (same rule as the Phonics screens). Phonics progress
+// has no timestamps, so "legacy" is decided by transition: when we know the mastery BEFORE this sync
+// (`previous`), a lesson that was already mastered then is legacy; with no `previous` (backfill on read)
+// every missing sticker is legacy.
+type PhonicsEntry = { flashcard?: boolean; games?: string[] }
+const PHONICS_LESSONS: Record<string, { level: string; masteryGames: string[] }> = {}
+for (const lv of phonicsLevels.levels) for (const l of lv.lessons) PHONICS_LESSONS[l.id] = { level: lv.id, masteryGames: l.masteryGames }
+
+function phonicsMastered(entry: PhonicsEntry | undefined, lessonId: string): boolean {
+  const def = PHONICS_LESSONS[lessonId]
+  return !!def && !!entry?.flashcard && def.masteryGames.every((g) => entry.games?.includes(g))
+}
+
+export async function awardPhonicsStickers(
+  supabase: SupabaseClient, childId: string, mastery: Record<string, PhonicsEntry>, previous?: Record<string, PhonicsEntry>,
+): Promise<string[]> {
+  try {
+    const mastered = Object.keys(mastery).filter((id) => phonicsMastered(mastery[id], id))
+    if (mastered.length === 0) return []
+    const { data: have, error } = await supabase.from('child_stickers').select('topic_id').eq('child_id', childId).eq('collection', 'phonics')
+    if (error) return []
+    const owned = new Set((have ?? []).map((r: { topic_id: string }) => r.topic_id))
+    const fresh = mastered.filter((id) => !owned.has(id))
+    if (fresh.length === 0) return []
+    const rows = fresh.map((id) => ({
+      child_id: childId, collection: 'phonics', level: PHONICS_LESSONS[id].level, topic_id: id,
+      legacy: previous ? phonicsMastered(previous[id], id) : true,
+    }))
+    const { error: insErr } = await supabase.from('child_stickers').upsert(rows, { onConflict: 'child_id,collection,level,topic_id', ignoreDuplicates: true })
+    return insErr ? [] : rows.filter((r) => !r.legacy).map((r) => r.topic_id)
   } catch {
     return []
   }

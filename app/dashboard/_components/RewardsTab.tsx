@@ -4,6 +4,7 @@ import { cachedFetch } from '@/lib/cachedFetch'
 import Sticker from '@/components/Sticker'
 import { cta } from '@/components/ChunkyUI'
 import type { Child } from '../_types'
+import phonicsLevels from '@/data/phonicsLevels.json'
 
 type StickerRow = { id: number; collection: string; level: string; topic_id: string; earned_at: string; legacy: boolean; redemption_id: number | null }
 type Redemption = { id: number; sticker_count: number; note: string | null; created_at: string }
@@ -14,6 +15,7 @@ const COLLECTION_LABEL: Record<string, string> = { daily: 'Daily', academic: 'Ac
 const LEVEL_LABEL: Record<string, string> = {
   seeker: 'Seeker', starter: 'Starter', ranger: 'Ranger', explorer: 'Explorer', scholar: 'Scholar', master: 'Master',
   book1: 'Foundation', book2: 'Progress', book3: 'Mastery',
+  ...Object.fromEntries(phonicsLevels.levels.map(l => [l.id, l.titleVi])),
 }
 const card = 'rounded-3xl border-2 border-b-[4px] border-slate-200 border-b-slate-300 bg-white p-4'
 const input = 'w-full rounded-2xl border-2 border-slate-200 bg-white px-4 py-3 text-center text-lg font-bold tracking-widest text-slate-800 outline-none focus:border-purple-400'
@@ -49,9 +51,13 @@ export function RewardsTab({ kids }: { kids: Child[] }) {
     if (!r.ok) return
     const d = await r.json() as { stickers: StickerRow[]; redemptions: Redemption[] }
     setStickers(d.stickers); setHistory(d.redemptions); setPicked(new Set())
-    const wanted = Array.from(new Set(d.stickers.filter(s => s.collection === 'daily' || s.collection === 'academic').map(s => `${s.collection}/${s.level}`)))
+    const wanted = Array.from(new Set(d.stickers.filter(s => s.collection === 'daily' || s.collection === 'academic' || s.collection === 'phonics').map(s => `${s.collection}/${s.level}`)))
     const entries = await Promise.all(wanted.map(async w => {
       const [col, lv] = w.split('/')
+      if (col === 'phonics') {
+        const l = phonicsLevels.levels.find(x => x.id === lv)
+        return [w, (l?.lessons ?? []).map(x => ({ id: x.id, name: x.title, emoji: x.emoji }))] as const
+      }
       const url = col === 'daily' ? `/api/words/${lv}/topics` : `/api/vocabwise/topic-meta?book=${lv}`
       const t = await cachedFetch(url).then(x => x.json()).catch(() => [])
       return [w, Array.isArray(t) ? (t as TopicInfo[]).map(x => ({ id: x.id, name: x.name, emoji: x.emoji })) : []] as const

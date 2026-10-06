@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 import { getSession } from '@/lib/auth'
-import { awardStickers, awardAcademicStickers } from '@/lib/stickers'
+import { awardStickers, awardAcademicStickers, awardPhonicsStickers } from '@/lib/stickers'
 import type { MasteryEntry } from '@/lib/topicMastery'
 
 const supabase = createClient(
@@ -23,7 +23,7 @@ export async function GET(req: NextRequest, props: { params: Promise<{ childId: 
   // before stickers existed, and any sync that failed to award). Idempotent; never throws.
   const { data: syncRows } = await supabase.from('vocab_sync').select('level, mastery').eq('child_id', childId)
   await Promise.all((syncRows ?? []).map((r: { level: string; mastery: Record<string, MasteryEntry> | null }) =>
-    awardStickers(supabase, childId, r.level, r.mastery ?? {})))
+    r.level === 'phonics' ? awardPhonicsStickers(supabase, childId, r.mastery ?? {}) : awardStickers(supabase, childId, r.level, r.mastery ?? {})))
   const { data: acad } = await supabase.from('vw_academic_sync_child').select('mastery').eq('child_id', childId).single()
   if (acad?.mastery) await awardAcademicStickers(supabase, childId, acad.mastery)
 
