@@ -174,7 +174,7 @@ export default function TypingGame({ topic, level, backUrl }: Props) {
         {/* Speak button */}
         <button
           onClick={() => speak(word.word)}
-          className="bg-blue-500 text-white w-11 h-11 rounded-xl text-xl flex items-center justify-center shadow-md active:scale-90 transition-all mb-6"
+          className="bg-blue-500 text-white w-11 h-11 rounded-xl text-xl flex items-center justify-center border-b-[3px] border-black/20 active:translate-y-0.5 active:border-b-2 transition-[transform,border-width] mb-6"
           aria-label="Nghe lại"
         >
           🔊
@@ -210,7 +210,7 @@ export default function TypingGame({ topic, level, backUrl }: Props) {
             <p className="text-orange-500 font-bold text-xl mb-4">⏰ Hết giờ! Đáp án: <span className="underline">{word.word}</span></p>
           )}
           {(result === 'wrong' || result === 'timeout') && word.examples?.[0] && (
-            <div className="bg-blue-50 border-2 border-blue-100 rounded-2xl p-4 mb-4 text-left">
+            <div className="bg-blue-50 border-2 border-b-[4px] border-blue-200 border-b-blue-300 rounded-3xl p-4 mb-4 text-left">
               <p className="text-blue-500 font-bold text-xs uppercase tracking-wide mb-1">💡 Ví dụ</p>
               <p className="text-gray-700 font-semibold text-sm">&quot;{word.examples[0].en}&quot;</p>
               <p className="text-gray-400 text-xs mt-0.5">{word.examples[0].vi}</p>

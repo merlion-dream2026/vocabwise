@@ -147,7 +147,7 @@ export default function SortWordsGame({ group, childId: _childId, backUrl }: { g
         </div>
 
         {/* Word card */}
-        <div className="bg-white rounded-3xl p-6 shadow-md w-full text-center">
+        <div className="bg-white rounded-3xl p-6 w-full text-center border-2 border-b-[4px] border-slate-200 border-b-slate-300">
           {phase === 'listening' && (
             <>
               <div className="text-6xl animate-bounce mb-2">🔊</div>

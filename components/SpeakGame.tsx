@@ -262,7 +262,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
 
       <div className="flex-1 flex flex-col px-4 py-4 gap-4">
         {/* Target card — word + sentence unified */}
-        <div className="bg-white rounded-3xl p-5 shadow-md w-full">
+        <div className="bg-white rounded-3xl p-5 w-full border-2 border-b-[4px] border-slate-200 border-b-slate-300">
           <div className="flex flex-col items-center text-center">
             <div className="mb-2 flex justify-center">
               <WordIcon word={q.word} emoji={q.emoji} emojiClass="text-5xl" iconSize={60} />
@@ -349,7 +349,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
 
           {phase === 'done' && unclear && (
             <div className="w-full flex flex-col gap-3">
-              <div className="bg-amber-50 border-2 border-amber-200 rounded-2xl p-4 text-center">
+              <div className="bg-amber-50 border-2 border-b-[4px] border-amber-200 border-b-amber-300 rounded-3xl p-4 text-center">
                 <p className="text-2xl mb-1">🔄</p>
                 <p className="font-bold text-amber-700">Chưa nghe rõ tiếng Anh</p>
                 <p className="text-amber-500 text-sm mt-1">Đọc to hơn và gần micro hơn nhé!</p>
@@ -361,7 +361,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
                 </button>
               )}
               <div className="flex gap-3">
-                <button onClick={retry} className="flex-1 bg-rose-500 text-white font-bold py-3 rounded-2xl shadow-md active:scale-95 transition-all">🎤 Thử lại</button>
+                <button onClick={retry} className="flex-1 bg-rose-500 text-white font-bold py-3 rounded-2xl border-b-[4px] border-rose-700 active:translate-y-0.5 active:border-b-2 transition-[transform,border-width]">🎤 Thử lại</button>
                 <button onClick={() => advance(1)} className="flex-1 bg-white border-2 border-gray-100 text-gray-400 font-bold py-3 rounded-2xl active:scale-95 transition-all">Bỏ qua →</button>
               </div>
             </div>

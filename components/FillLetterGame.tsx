@@ -147,7 +147,7 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
         <div className="flex items-center gap-1 py-2">{renderWord()}</div>
 
         <button onClick={() => speak(q.word.word)}
-          className="bg-orange-400 text-white w-11 h-11 rounded-xl text-xl flex items-center justify-center shadow-md active:scale-90 transition-all">
+          className="bg-orange-400 text-white w-11 h-11 rounded-xl text-xl flex items-center justify-center border-b-[3px] border-black/20 active:translate-y-0.5 active:border-b-2 transition-[transform,border-width]">
           🔊
         </button>
 

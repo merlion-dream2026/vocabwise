@@ -199,7 +199,7 @@ export default function ShadowingGame({ lesson, childId: _childId, backUrl, grad
       <div className={`min-h-screen bg-gradient-to-b ${gradient} flex flex-col items-center justify-center gap-6 px-4`}>
         {showConf && <Confetti />}
         <div className="text-6xl">{totalScore >= 70 ? '🏆' : totalScore >= 50 ? '⭐' : '💪'}</div>
-        <div className="bg-white rounded-3xl p-6 w-full max-w-sm text-center shadow-xl">
+        <div className="bg-white rounded-3xl p-6 w-full max-w-sm text-center border-2 border-b-[4px] border-slate-200 border-b-slate-300">
           <p className="text-3xl font-bold text-gray-800 mb-1">{totalScore}%</p>
           <p className="text-gray-500 text-sm mb-4">
             {totalScore >= 70 ? 'Xuất sắc! Shadowing rất chuẩn.' : totalScore >= 50 ? 'Tốt! Luyện thêm nhé.' : 'Cần luyện thêm — thử lại nhé!'}
@@ -236,7 +236,7 @@ export default function ShadowingGame({ lesson, childId: _childId, backUrl, grad
         </div>
 
         {/* Sentence display */}
-        <div className="bg-white rounded-2xl border border-gray-100 shadow-sm px-5 py-5">
+        <div className="bg-white rounded-3xl border-2 border-b-[4px] border-slate-200 border-b-slate-300 px-5 py-5">
           <p className="text-lg font-semibold leading-relaxed text-center">
             {highlightSentence(current.en, current.targets)}
           </p>
@@ -298,7 +298,7 @@ export default function ShadowingGame({ lesson, childId: _childId, backUrl, grad
             )}
 
             {/* Word results */}
-            <div className="bg-white rounded-2xl border border-gray-100 shadow-sm px-4 py-4">
+            <div className="bg-white rounded-3xl border-2 border-b-[4px] border-slate-200 border-b-slate-300 px-4 py-4">
               {found.length > 0 && (
                 <div className="mb-2">
                   <p className="text-[10px] font-bold text-green-600 uppercase mb-1.5">✅ Đúng ({found.length})</p>

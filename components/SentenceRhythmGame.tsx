@@ -179,7 +179,7 @@ export default function SentenceRhythmGame({
         </div>
 
         {/* Sentence card */}
-        <div className="bg-white rounded-3xl px-5 py-5 shadow-md w-full">
+        <div className="bg-white rounded-3xl px-5 py-5 w-full border-2 border-b-[4px] border-slate-200 border-b-slate-300">
           <p className="text-xs text-gray-500 font-bold uppercase tracking-wide mb-3 text-center">Đọc với nhịp tự nhiên</p>
           <HighlightedSentence sentence={q.en} stressed={q.stressed} />
           <p className="text-xs text-gray-500 font-semibold text-center mt-2">{q.vi}</p>

@@ -166,7 +166,7 @@ export default function SentenceGame({ topic, level, backUrl }: Props) {
         <div className="mb-2 flex justify-center"><WordIcon word={word.word} emoji={word.emoji} emojiClass="text-7xl leading-none select-none" iconSize={88} /></div>
         <div className="flex items-center gap-2 mb-3">
           <p className="text-gray-800 font-bold text-2xl">{word.word}</p>
-          <button onClick={() => speak(word.word)} className="bg-teal-500 text-white w-8 h-8 rounded-lg text-sm flex items-center justify-center shadow-md active:scale-90 transition-all" aria-label="Nghe lại">🔊</button>
+          <button onClick={() => speak(word.word)} className="bg-teal-500 text-white w-8 h-8 rounded-lg text-sm flex items-center justify-center border-b-[3px] border-black/20 active:translate-y-0.5 active:border-b-2 transition-[transform,border-width]" aria-label="Nghe lại">🔊</button>
         </div>
         <p className="text-gray-500 font-bold text-base mb-4">{word.meaning}</p>
 
@@ -195,13 +195,13 @@ export default function SentenceGame({ topic, level, backUrl }: Props) {
         {/* Feedback */}
         <div role="status" aria-live="polite" className="w-full">
           {result === 'correct' && feedback && (
-            <div className="bg-green-50 border-2 border-green-200 rounded-2xl p-4 mb-4 text-left">
+            <div className="bg-green-50 border-2 border-b-[4px] border-green-200 border-b-green-300 rounded-3xl p-4 mb-4 text-left">
               <p className="text-green-600 font-bold text-base mb-1">✅ Giỏi quá!</p>
               <p className="text-gray-700 text-sm">{feedback.feedback_vi}</p>
             </div>
           )}
           {result === 'wrong' && feedback && (
-            <div className="bg-red-50 border-2 border-red-200 rounded-2xl p-4 mb-4 text-left">
+            <div className="bg-red-50 border-2 border-b-[4px] border-red-200 border-b-red-300 rounded-3xl p-4 mb-4 text-left">
               <p className="text-red-500 font-bold text-base mb-1">💡 Cần cải thiện thêm</p>
               <p className="text-gray-700 text-sm mb-2">{feedback.feedback_vi}</p>
               {feedback.improved && (

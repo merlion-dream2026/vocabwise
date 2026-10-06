@@ -131,7 +131,7 @@ export default function SentenceOrderGame({ topic, level, backUrl }: Props) {
 
       <div className="flex-1 bg-gradient-to-b from-indigo-50 to-blue-50 px-4 py-5 flex flex-col gap-4">
         {/* Word prompt */}
-        <div className="bg-white rounded-2xl p-4 shadow-sm">
+        <div className="bg-white rounded-3xl p-4 border-2 border-b-[4px] border-slate-200 border-b-slate-300">
           <p className="text-xs font-bold text-gray-500 uppercase tracking-wide mb-1">Sắp xếp câu với từ</p>
           <div className="flex items-center gap-2">
             <WordIcon word={q.word.word} emoji={q.word.emoji} emojiClass="text-3xl" iconSize={36} />
@@ -145,7 +145,7 @@ export default function SentenceOrderGame({ topic, level, backUrl }: Props) {
 
         {/* Token pool */}
         {!submitted && (
-          <div className="bg-white rounded-2xl p-4 shadow-sm">
+          <div className="bg-white rounded-3xl p-4 border-2 border-b-[4px] border-slate-200 border-b-slate-300">
             <p className="text-sm font-bold text-gray-500 mb-2">Danh sách từ:</p>
             <div className="flex flex-wrap gap-2">
               {remaining.map(token => (
@@ -159,8 +159,8 @@ export default function SentenceOrderGame({ topic, level, backUrl }: Props) {
         )}
 
         {/* Answer area */}
-        <div className={`bg-white rounded-2xl p-4 shadow-sm min-h-[72px] border-2 transition-colors
-          ${submitted ? (isCorrect ? 'border-green-400' : 'border-red-400') : 'border-dashed border-indigo-200'}`}>
+        <div className={`bg-white rounded-3xl p-4 min-h-[72px] border-2 border-b-[4px] transition-colors
+          ${submitted ? (isCorrect ? 'border-green-300 border-b-green-500' : 'border-red-300 border-b-red-500') : 'border-dashed border-indigo-200 border-b-indigo-300'}`}>
           <p className="text-sm font-bold text-gray-500 mb-2">Câu của bạn:</p>
           {placed.length === 0
             ? <p className="text-gray-300 text-sm italic">Nhấn vào các từ bên dưới...</p>
@@ -184,7 +184,7 @@ export default function SentenceOrderGame({ topic, level, backUrl }: Props) {
             <p className="text-green-600 font-bold text-base">✅ Chính xác!</p>
           )}
           {submitted && !isCorrect && (
-            <div className="bg-orange-50 border-2 border-orange-200 rounded-2xl px-4 py-3">
+            <div className="bg-orange-50 border-2 border-b-[4px] border-orange-200 border-b-orange-300 rounded-3xl px-4 py-3">
               <p className="text-orange-700 font-bold text-sm">❌ Chưa đúng. Đáp án đúng:</p>
               <p className="text-gray-700 font-semibold mt-1">{q.answer}</p>
             </div>
@@ -192,7 +192,7 @@ export default function SentenceOrderGame({ topic, level, backUrl }: Props) {
         </div>
 
         {/* Hint */}
-        <div className="bg-white rounded-2xl p-4 shadow-sm">
+        <div className="bg-white rounded-3xl p-4 border-2 border-b-[4px] border-slate-200 border-b-slate-300">
           <button onClick={() => setShowHint(h => !h)} className="text-sm text-indigo-500 font-semibold">
             {showHint ? '🙈 Ẩn gợi ý' : '💡 Xem gợi ý'}
           </button>

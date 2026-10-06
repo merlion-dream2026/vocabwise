@@ -136,7 +136,7 @@ export default function BubbleGame({ topic, level, backUrl }: Props) {
             <p className="text-gray-500 font-bold text-sm uppercase tracking-wider mb-3">Nghe và chạm đúng bong bóng!</p>
             <button
               onClick={() => speak(current.target.word)}
-              className="bg-white border-2 border-pink-200 rounded-2xl px-6 py-3 shadow-md active:scale-95 transition-transform inline-flex items-center gap-2"
+              className="bg-white border-2 border-pink-200 rounded-2xl border-b-[4px] border-b-pink-300 px-6 py-3 active:translate-y-0.5 active:border-b-2 transition-[transform,border-width] inline-flex items-center gap-2"
             >
               <span className="text-2xl">🔊</span>
               <span className="text-gray-700 font-bold text-lg">

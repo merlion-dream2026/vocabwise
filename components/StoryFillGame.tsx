@@ -97,7 +97,7 @@ export default function StoryFillGame({ topic, level, backUrl }: Props) {
 
       <div className="flex-1 bg-gradient-to-b from-teal-50 to-cyan-50 px-4 py-5 overflow-y-auto">
         {/* Story with blanks */}
-        <div className="bg-white rounded-2xl p-4 shadow-sm mb-5 text-base text-gray-700 leading-loose">
+        <div className="bg-white rounded-3xl p-4 mb-5 text-base text-gray-700 leading-loose border-2 border-b-[4px] border-slate-200 border-b-slate-300">
           {parts.map((part, i) => (
             <span key={i}>
               {part}
@@ -145,8 +145,8 @@ export default function StoryFillGame({ topic, level, backUrl }: Props) {
           </button>
         ) : (
           <div className="space-y-3 mt-2 mb-6">
-            <button onClick={restart} className="w-full bg-teal-500 text-white font-bold text-xl py-4 rounded-2xl shadow-lg">🔄 Thử lại</button>
-            <button onClick={() => router.push(backUrl)} className="w-full bg-white border-2 border-gray-200 text-gray-600 font-bold text-xl py-4 rounded-2xl">← Chọn chế độ khác</button>
+            <button onClick={restart} className={cta('teal')}>🔄 Thử lại</button>
+            <button onClick={() => router.push(backUrl)} className={cta('slate')}>← Chọn chế độ khác</button>
           </div>
         )}
       </div>

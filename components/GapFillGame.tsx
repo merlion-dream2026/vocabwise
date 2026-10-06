@@ -142,7 +142,7 @@ export default function GapFillGame({ topic, level, backUrl }: Props) {
           {selected !== null && (selected === current.word.word ? 'Chính xác!' : `Sai rồi. Đáp án đúng là ${current.word.word}.`)}
         </div>
         {/* Sentence card */}
-        <div className="bg-white rounded-3xl border-2 border-teal-100 shadow-xl p-6 mb-6">
+        <div className="bg-white rounded-3xl border-2 border-b-[4px] border-teal-100 border-b-teal-300 p-6 mb-6">
           <p className="text-gray-500 font-bold text-xs uppercase tracking-wider mb-4 text-center">Điền từ đúng vào chỗ trống:</p>
           <p className="text-xl font-bold text-gray-800 leading-relaxed text-center">
             {parts[0]}

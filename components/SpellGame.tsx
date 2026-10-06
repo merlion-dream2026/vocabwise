@@ -171,7 +171,7 @@ export default function SpellGame({ topic, level, backUrl }: Props) {
           {/* Speak button */}
           <button
             onClick={() => speak(word.word)}
-            className="bg-pink-500 text-white w-12 h-12 rounded-2xl text-2xl flex items-center justify-center shadow-md active:scale-90 transition-all mb-7"
+            className="bg-pink-500 text-white w-12 h-12 rounded-2xl text-2xl flex items-center justify-center border-b-[3px] border-black/20 active:translate-y-0.5 active:border-b-2 transition-[transform,border-width] mb-7"
             aria-label="Nghe lại"
           >
             🔊
@@ -198,7 +198,7 @@ export default function SpellGame({ topic, level, backUrl }: Props) {
                 key={tile.id}
                 onClick={() => tapTile(tile)}
                 disabled={tile.used || result !== 'idle'}
-                className={`w-12 h-12 rounded-2xl font-bold text-xl shadow-md transition-all duration-150 active:scale-90
+                className={`w-12 h-12 rounded-2xl font-bold text-xl border-b-[3px] border-black/20 active:translate-y-0.5 active:border-b-2 transition-[transform,border-width] duration-100
                   ${tile.used
                     ? 'bg-gray-100 border-2 border-gray-100 text-transparent shadow-none'
                     : 'bg-white border-2 border-pink-200 text-pink-600 hover:border-pink-400'

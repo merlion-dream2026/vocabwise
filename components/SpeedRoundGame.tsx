@@ -158,7 +158,7 @@ export default function SpeedRoundGame({ topic, level, backUrl }: Props) {
         <p className="text-gray-700 font-bold text-2xl mb-1 text-center">{word.meaning}</p>
         <button
           onClick={() => speak(word.word)}
-          className="bg-violet-500 text-white w-11 h-11 rounded-xl text-xl flex items-center justify-center shadow-md active:scale-90 transition-all mb-4"
+          className="bg-violet-500 text-white w-11 h-11 rounded-xl text-xl flex items-center justify-center border-b-[3px] border-black/20 active:translate-y-0.5 active:border-b-2 transition-[transform,border-width] mb-4"
         >
           🔊
         </button>
