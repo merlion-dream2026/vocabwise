@@ -6,6 +6,9 @@ import type { WordList } from '@/components/WordListPicker'
 import UpgradeModal from '@/components/UpgradeModal'
 import { getMyWordsLimit } from '@/lib/planUtils'
 import { cachedFetch } from '@/lib/cachedFetch'
+import VWFlashcard from '@/components/vocabwise/VWFlashcard'
+import { GameHeader, cta } from '@/components/ChunkyUI'
+import { PRESS } from '@/components/TopicHub'
 
 type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; bonus_features?: string[] | null }
 
@@ -64,8 +67,11 @@ export default function MyWordsPage() {
   const [editingList, setEditingList] = useState<WordList | null>(null)
   const [deletingList, setDeletingList] = useState<number | null>(null)
   const [confirmDeleteList, setConfirmDeleteList] = useState<number | null>(null)
-  const [assigningWord, setAssigningWord] = useState<number | null>(null)
   const [showUpgrade, setShowUpgrade]   = useState(false)
+  const [view, setView]                 = useState<'list' | 'grid'>('list')
+  const [detailId, setDetailId]         = useState<number | null>(null)   // word shown in the bottom sheet
+  const [folded, setFolded]             = useState<Record<string, boolean>>({})
+  const [studyWords, setStudyWords]     = useState<SavedWord[] | null>(null) // non-null = flashcard session
   const inputRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
@@ -92,6 +98,7 @@ export default function MyWordsPage() {
         if (saved.activeSource) setActiveSource(saved.activeSource)
         if (saved.sort) setSort(saved.sort)
         if (saved.search) setSearch(saved.search)
+        if (saved.view === 'grid' || saved.view === 'list') setView(saved.view)
       }
     } catch { /* ignore */ }
     setFiltersLoaded(true)
@@ -107,8 +114,8 @@ export default function MyWordsPage() {
 
   useEffect(() => {
     if (!filtersLoaded) return
-    localStorage.setItem('myWordsFilters', JSON.stringify({ activeList, activeSource, sort, search }))
-  }, [filtersLoaded, activeList, activeSource, sort, search])
+    localStorage.setItem('myWordsFilters', JSON.stringify({ activeList, activeSource, sort, search, view }))
+  }, [filtersLoaded, activeList, activeSource, sort, search, view])
 
   useEffect(() => {
     if (showNewList) setTimeout(() => inputRef.current?.focus(), 50)
@@ -156,7 +163,6 @@ export default function MyWordsPage() {
   }
 
   async function assignToList(wordId: number, listId: number | null) {
-    setAssigningWord(null)
     await fetch('/api/vocabwise/wordlist', {
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json' },
@@ -197,6 +203,35 @@ export default function MyWordsPage() {
     if (w.source === 'academic') return `/vocabwise/${w.book_id}/${w.topic_id}`
     return null
   }
+
+  function startStudy() {
+    const a = [...sorted]
+    for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]] }
+    setStudyWords(a)
+  }
+
+  // "Tất cả" is shown grouped by list (each group can be folded); picking a list shows just that list.
+  const groups: { key: string; name: string; color: string | null; words: SavedWord[] }[] = activeList === 'all'
+    ? [
+        ...lists.map(l => ({ key: String(l.id), name: l.name, color: l.color, words: sorted.filter(w => w.list_id === l.id) })),
+        { key: 'none', name: 'Chưa phân loại', color: null, words: sorted.filter(w => !w.list_id || !lists.some(l => l.id === w.list_id)) },
+      ].filter(g => g.words.length > 0)
+    : [{ key: 'one', name: '', color: null, words: sorted }]
+  const detail = detailId !== null ? words.find(w => w.id === detailId) ?? null : null
+
+  if (studyWords) return (
+    <div className="fixed inset-0 z-50 overflow-y-auto bg-white">
+      <GameHeader colorCls="bg-gradient-to-r from-indigo-600 to-purple-600" title="🎴 Học ngay"
+        subtitle={activeList === 'all' ? 'Tất cả từ đã lưu' : lists.find(l => l.id === activeList)?.name}
+        onBack={() => setStudyWords(null)} />
+      <div className="mx-auto max-w-lg px-4 py-5">
+        <VWFlashcard
+          glossary={studyWords.map(w => ({ id: w.id, word: w.word, ipa: w.ipa, pos: w.pos, meaning_vi: w.meaning_vi, example_en: w.example_en ?? '', example_vi: '' }))}
+          onExit={() => setStudyWords(null)}
+        />
+      </div>
+    </div>
+  )
 
   if (!sessionLoaded) return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center">
@@ -251,7 +286,7 @@ export default function MyWordsPage() {
               <p>• Nhấn <strong>⭐</strong> cạnh bất kỳ từ nào trong tab <strong>Từ vựng</strong> (Academic) hoặc màn hình <strong>Flashcard</strong> (Daily) để lưu.</p>
               <p>• Khi lưu, bạn có thể <strong>chọn danh sách</strong> để gắn từ vào — hoặc bỏ qua để vào mục Tất cả.</p>
               <p>• Tạo nhiều <strong>danh sách riêng</strong> cho từng mục tiêu: IELTS Writing, SAT Vocab, Ôn thi tuần này…</p>
-              <p>• Nhấn <strong>Học ngay</strong> trên một danh sách để ôn lại dạng flashcard.</p>
+              <p>• Chọn một danh sách (hoặc Tất cả) rồi nhấn <strong>Học ngay</strong> để ôn lại dạng flashcard. Chạm vào một từ để xem chi tiết.</p>
             </div>
           )}
         </div>
@@ -395,8 +430,16 @@ export default function MyWordsPage() {
           </div>
         </div>
 
-        {/* Filters + Search */}
-        <div className="px-4 mt-4 space-y-2">
+        {/* Study this list */}
+        <div className="px-4 mt-4">
+          <button type="button" disabled={loading || sorted.length === 0} onClick={startStudy}
+            className={cta('indigo', 'flex items-center justify-center gap-2')}>
+            🎴 Học ngay {sorted.length > 0 ? `${sorted.length} từ` : ''}{activeList !== 'all' ? ` · ${lists.find(l => l.id === activeList)?.name ?? ''}` : ''}
+          </button>
+        </div>
+
+        {/* Filters + Search (sticky) */}
+        <div className="sticky top-0 z-20 -mx-0 mt-2 space-y-2 bg-gray-50/95 px-4 pb-2 pt-2 backdrop-blur">
           <input
             value={search}
             onChange={e => setSearch(e.target.value)}
@@ -425,6 +468,13 @@ export default function MyWordsPage() {
               <option value="alpha">A–Z</option>
               <option value="topic">Chủ đề</option>
             </select>
+            {/* View toggle */}
+            <div className="flex overflow-hidden rounded-full border border-gray-200 bg-white">
+              {([['list', '☰', 'Danh sách'], ['grid', '▦', 'Lưới 2 cột']] as const).map(([v, icon, label]) => (
+                <button key={v} type="button" onClick={() => setView(v)} aria-label={label} aria-pressed={view === v}
+                  className={`px-3 py-1 text-sm font-bold ${view === v ? 'bg-indigo-600 text-white' : 'text-gray-500'}`}>{icon}</button>
+              ))}
+            </div>
           </div>
         </div>
 
@@ -448,79 +498,110 @@ export default function MyWordsPage() {
             </div>
           )}
 
-          <div className="space-y-2">
-            {sorted.map(w => {
-              const link = wordLink(w)
-              const src  = SOURCE_LABEL[w.source] ?? SOURCE_LABEL.academic
-              const listInfo = w.list_id ? lists.find(l => l.id === w.list_id) : null
+          <div className="space-y-4">
+            {groups.map(g => {
+              const isFolded = !!folded[g.key]
               return (
-                <div key={w.id} className="bg-white rounded-3xl px-4 py-3 flex items-start gap-3 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
-                  <div className="flex-1 min-w-0">
-                    <div className="flex items-center gap-2 flex-wrap mb-0.5">
-                      <span className="font-bold text-gray-800 text-sm">{w.word}</span>
-                      {w.ipa && <span className="text-gray-400 text-xs">{w.ipa}</span>}
-                      {w.pos && <span className="text-gray-400 text-xs italic">{w.pos}</span>}
-                      <button onClick={() => speak(w.word)} aria-label={`Nghe phát âm ${w.word}`} className="text-gray-300 hover:text-blue-500 transition-colors">🔊</button>
-                      {/* Source badge */}
-                      <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded-full ${src.color}`}>{src.label}</span>
-                      {/* List badge — click to reassign */}
-                      <button
-                        onClick={() => setAssigningWord(assigningWord === w.id ? null : w.id)}
-                        className={`text-[10px] font-bold px-1.5 py-0.5 rounded-full transition-colors ${
-                          listInfo
-                            ? 'text-white hover:opacity-80'
-                            : 'bg-gray-100 text-gray-400 hover:bg-indigo-100 hover:text-indigo-600'
-                        }`}
-                        style={listInfo ? { backgroundColor: listInfo.color } : {}}
-                        title="Đổi danh sách"
-                      >
-                        {listInfo ? listInfo.name : '+ list'}
-                      </button>
+                <section key={g.key}>
+                  {g.key !== 'one' && (
+                    <button type="button" aria-expanded={!isFolded} onClick={() => setFolded(f => ({ ...f, [g.key]: !f[g.key] }))}
+                      className="mb-2 flex w-full items-center justify-between text-left">
+                      <span className="flex items-center gap-2 text-sm font-bold text-gray-600">
+                        <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: g.color ?? '#cbd5e1' }} />
+                        {g.name} <span className="rounded-full bg-gray-100 px-2 py-0.5 text-xs text-gray-500">{g.words.length}</span>
+                      </span>
+                      <span className={`flex h-6 w-6 items-center justify-center rounded-full bg-gray-100 text-[10px] font-bold text-gray-500 transition-transform ${isFolded ? '' : 'rotate-180'}`}>▾</span>
+                    </button>
+                  )}
+                  {!isFolded && (
+                    <div className={view === 'grid' ? 'grid grid-cols-2 gap-2.5' : 'space-y-2'}>
+                      {g.words.map(w => {
+                        const listInfo = w.list_id ? lists.find(l => l.id === w.list_id) : null
+                        return view === 'grid' ? (
+                          <div key={w.id} onClick={() => setDetailId(w.id)} role="button" tabIndex={0}
+                            onKeyDown={e => { if (e.key === 'Enter') setDetailId(w.id) }}
+                            className={`relative flex min-h-[112px] cursor-pointer flex-col rounded-2xl border-2 border-b-[4px] border-slate-200 border-b-slate-300 bg-white p-3 ${PRESS}`}>
+                            {listInfo && <span className="absolute left-3 top-3 h-2.5 w-2.5 rounded-full" style={{ backgroundColor: listInfo.color }} />}
+                            <button type="button" onClick={e => { e.stopPropagation(); speak(w.word) }} aria-label={`Nghe phát âm ${w.word}`}
+                              className="absolute right-2 top-2 flex h-9 w-9 items-center justify-center rounded-full bg-indigo-50 text-base active:scale-90">🔊</button>
+                            <p className="mt-4 break-words pr-8 text-lg font-bold leading-tight text-slate-800">{w.word}</p>
+                            {w.ipa && <p className="text-xs font-semibold text-slate-400">{w.ipa}</p>}
+                            <p className="mt-1 line-clamp-2 text-sm font-bold leading-snug text-blue-700">{w.meaning_vi}</p>
+                          </div>
+                        ) : (
+                          <div key={w.id} onClick={() => setDetailId(w.id)} role="button" tabIndex={0}
+                            onKeyDown={e => { if (e.key === 'Enter') setDetailId(w.id) }}
+                            className={`flex cursor-pointer items-center gap-3 rounded-2xl border-2 border-b-[3px] border-slate-200 border-b-slate-300 bg-white px-3 py-2.5 ${PRESS}`}>
+                            <span className="h-2.5 w-2.5 flex-shrink-0 rounded-full" style={{ backgroundColor: listInfo?.color ?? '#e2e8f0' }} />
+                            <div className="min-w-0 flex-1">
+                              <p className="flex items-baseline gap-2">
+                                <span className="truncate text-lg font-bold leading-tight text-slate-800">{w.word}</span>
+                                {w.ipa && <span className="flex-shrink-0 text-xs font-semibold text-slate-400">{w.ipa}</span>}
+                              </p>
+                              <p className="truncate text-sm font-bold text-blue-700">{w.meaning_vi}</p>
+                            </div>
+                            <button type="button" onClick={e => { e.stopPropagation(); speak(w.word) }} aria-label={`Nghe phát âm ${w.word}`}
+                              className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-indigo-50 text-lg active:scale-90">🔊</button>
+                          </div>
+                        )
+                      })}
                     </div>
-                    {/* Inline list picker */}
-                    {assigningWord === w.id && (
-                      <div className="mt-1.5 flex flex-wrap gap-1.5">
-                        <button
-                          onClick={() => assignToList(w.id, null)}
-                          className={`text-[10px] font-bold px-2 py-0.5 rounded-full border transition-colors ${
-                            !w.list_id ? 'bg-gray-200 text-gray-700 border-gray-300' : 'bg-white border-gray-200 text-gray-400 hover:border-gray-400'
-                          }`}
-                        >Không có</button>
-                        {lists.map(l => (
-                          <button
-                            key={l.id}
-                            onClick={() => assignToList(w.id, l.id)}
-                            className={`text-[10px] font-bold px-2 py-0.5 rounded-full border transition-colors ${
-                              w.list_id === l.id ? 'text-white border-transparent' : 'bg-white border-gray-200 text-gray-600 hover:border-gray-400'
-                            }`}
-                            style={w.list_id === l.id ? { backgroundColor: l.color, borderColor: l.color } : {}}
-                          >
-                            <span className="inline-block w-1.5 h-1.5 rounded-full mr-1 align-middle" style={{ backgroundColor: l.color }} />
-                            {l.name}
-                          </button>
-                        ))}
-                      </div>
-                    )}
-                    <p className="text-blue-700 font-bold text-xs mt-0.5">{w.meaning_vi}</p>
-                    {w.example_en && <p className="text-gray-400 text-xs italic mt-0.5 line-clamp-1">{w.example_en}</p>}
-                    {w.topic_title && (
-                      link
-                        ? <Link href={link} className="text-[10px] text-gray-400 hover:text-indigo-500 transition-colors mt-0.5 block">📄 {w.topic_title}</Link>
-                        : <p className="text-[10px] text-gray-400 mt-0.5">📄 {w.topic_title}</p>
-                    )}
-                  </div>
-                  <button
-                    onClick={() => removeWord(w)}
-                    disabled={removing.has(w.id)}
-                    className="text-gray-300 hover:text-red-400 transition-colors flex-shrink-0 disabled:opacity-40 p-1 -mr-1 mt-0.5"
-                    aria-label="Xóa"
-                  >✕</button>
-                </div>
+                  )}
+                </section>
               )
             })}
           </div>
         </div>
       </div>
+
+      {/* Word detail sheet */}
+      {detail && (() => {
+        const link = wordLink(detail)
+        const src = SOURCE_LABEL[detail.source] ?? SOURCE_LABEL.academic
+        return (
+          <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/40" onClick={() => { setDetailId(null) }}>
+            <div className="max-h-[85vh] w-full max-w-lg overflow-y-auto rounded-t-3xl bg-white px-5 pb-8 pt-4" onClick={e => e.stopPropagation()}>
+              <div className="mx-auto mb-3 h-1.5 w-10 rounded-full bg-slate-200" />
+              <div className="flex items-start gap-3">
+                <div className="min-w-0 flex-1">
+                  <p className="break-words text-3xl font-bold leading-tight text-slate-800">{detail.word}</p>
+                  <p className="mt-1 flex flex-wrap items-center gap-2 text-sm font-semibold text-slate-400">
+                    {detail.ipa && <span>{detail.ipa}</span>}
+                    {detail.pos && <span className="italic">{detail.pos}</span>}
+                    <span className={`rounded-full px-2 py-0.5 text-[11px] font-bold ${src.color}`}>{src.label}</span>
+                  </p>
+                </div>
+                <button type="button" onClick={() => speak(detail.word)} aria-label={`Nghe phát âm ${detail.word}`}
+                  className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-indigo-100 text-2xl active:scale-90">🔊</button>
+              </div>
+              <p className="mt-3 text-xl font-bold text-blue-700">{detail.meaning_vi}</p>
+              {detail.example_en && <p className="mt-2 text-base italic text-slate-500">&ldquo;{detail.example_en}&rdquo;</p>}
+              {detail.topic_title && (link
+                ? <Link href={link} className="mt-3 inline-block text-sm font-bold text-indigo-600">📄 {detail.topic_title} →</Link>
+                : <p className="mt-3 text-sm font-semibold text-slate-400">📄 {detail.topic_title}</p>)}
+
+              <p className="mb-2 mt-5 text-xs font-bold uppercase tracking-wider text-slate-400">Danh sách</p>
+              <div className="flex flex-wrap gap-2">
+                <button type="button" onClick={() => assignToList(detail.id, null)}
+                  className={`rounded-full border px-3 py-1.5 text-sm font-bold ${!detail.list_id ? 'border-slate-300 bg-slate-200 text-slate-700' : 'border-slate-200 bg-white text-slate-400'}`}>Không có</button>
+                {lists.map(l => (
+                  <button key={l.id} type="button" onClick={() => assignToList(detail.id, l.id)}
+                    className={`rounded-full border px-3 py-1.5 text-sm font-bold ${detail.list_id === l.id ? 'border-transparent text-white' : 'border-slate-200 bg-white text-slate-600'}`}
+                    style={detail.list_id === l.id ? { backgroundColor: l.color } : {}}>
+                    <span className="mr-1.5 inline-block h-2 w-2 rounded-full align-middle" style={{ backgroundColor: l.color }} />{l.name}
+                  </button>
+                ))}
+              </div>
+
+              <div className="mt-6 flex gap-3">
+                <button type="button" onClick={() => { setDetailId(null) }} className={cta('slate', 'flex-1')}>Đóng</button>
+                <button type="button" disabled={removing.has(detail.id)} onClick={async () => { await removeWord(detail); setDetailId(null) }}
+                  className={cta('red', 'flex-1')}>🗑 Xóa từ</button>
+              </div>
+            </div>
+          </div>
+        )
+      })()}
     </div>
   )
 }
