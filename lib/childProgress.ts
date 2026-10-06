@@ -3,6 +3,7 @@
  * All screens (kids card, dashboard module select, parent dashboard) import from here.
  */
 import phonicsLevels from '@/data/phonicsLevels.json'
+import { isTopicMastered, type MasteryEntry } from './topicMastery'
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
@@ -32,7 +33,7 @@ export const ACADEMIC_WORDS_PER_TOPIC = 15
 
 export type SyncLevel = {
   seen?: string[]
-  mastery?: Record<string, { flashcard: boolean; games: string[] }>
+  mastery?: Record<string, MasteryEntry>
   history?: Record<string, { words: number; games: number; xp: number; topics?: number; topicIds?: string[] }>
 }
 
@@ -75,7 +76,7 @@ export function getDailyHighestLevel(sync: SyncAllLevels): string | null {
 
 export function getDailyProgress(levelSync: SyncLevel | undefined, level: string): DailyProgress {
   const mastery = levelSync?.mastery ?? {}
-  const topicsCompleted = Object.values(mastery).filter(m => m.flashcard && m.games.length >= 3).length
+  const topicsCompleted = Object.values(mastery).filter(m => isTopicMastered(m, level)).length
   const totalWords = DAILY_WORD_COUNTS[level] ?? 400
   // All topics done → treat all words as seen (seen array can be 1 short due to edge cases)
   const seenWords = topicsCompleted >= DAILY_TOTAL_TOPICS ? totalWords : (levelSync?.seen?.length ?? 0)
@@ -117,7 +118,7 @@ export type AllDailyProgress = {
 export function getAllDailyProgress(sync: SyncAllLevels): AllDailyProgress {
   let seenWords = 0, topicsCompleted = 0
   for (const lv of DAILY_LEVEL_ORDER) {
-    const lvCompleted = Object.values(sync[lv]?.mastery ?? {}).filter(m => m.flashcard && m.games.length >= 3).length
+    const lvCompleted = Object.values(sync[lv]?.mastery ?? {}).filter(m => isTopicMastered(m, lv)).length
     const lvTotal = DAILY_WORD_COUNTS[lv] ?? 400
     seenWords += lvCompleted >= DAILY_TOTAL_TOPICS ? lvTotal : (sync[lv]?.seen?.length ?? 0)
     topicsCompleted += lvCompleted

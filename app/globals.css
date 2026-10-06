@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --bottom-nav-h: calc(3.5rem + env(safe-area-inset-bottom, 0px) + 1.5rem); /* 56px nav + safe-area + 24px breathing room */
+  --bottom-nav-h: calc(4.5rem + env(safe-area-inset-bottom, 0px) + 1rem); /* ~64px floating nav + 8px gap + safe-area + 16px breathing room */
 }
 
 html {

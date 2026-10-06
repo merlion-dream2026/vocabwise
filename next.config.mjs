@@ -17,6 +17,7 @@ const securityHeaders = [
 ]
 
 const nextConfig = {
+  devIndicators: false, // hide the dev-only "N" badge
   poweredByHeader: false,
   compress: true,
   experimental: {

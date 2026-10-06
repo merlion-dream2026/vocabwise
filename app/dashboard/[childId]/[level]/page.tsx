@@ -13,11 +13,12 @@ import { getEffectivePlan, getOfflineDownloadLimit, getKidsTopicLimit, getRevisi
 import OfflineDailyDownloadButton from '@/components/OfflineDailyDownloadButton'
 import { getDownloadedCount } from '@/lib/useOfflineDownload'
 import { cachedFetch } from '@/lib/cachedFetch'
+import { isTopicMastered, topicSteps, type MasteryEntry } from '@/lib/topicMastery'
 
 type Child = { id: string; name: string; emoji: string; level: string }
 type Session = { familyId: string; username: string; plan: string; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; plan_end_date?: string | null; bonus_features?: string[] | null }
 type Topic = { id: string; name: string; emoji: string; color: string; words: { word: string }[]; audioSize?: number }
-type MasteryData = { flashcard: boolean; games: string[] }
+type MasteryData = MasteryEntry
 
 const LEVEL_COLORS: Record<string, { bg: string; header: string }> = {
   seeker:   { bg: 'from-violet-50 to-purple-50',  header: 'bg-violet-500'  },
@@ -246,16 +247,21 @@ export default function LevelTopicsPage() {
   const totalWeak = weakKeys.size
   const today = new Date().toISOString().split('T')[0]
   const srsDueCount = Object.values((syncRaw?.srs ?? {}) as Record<string, { due: string }>).filter(e => e.due <= today).length
-  const summary = buildSyncSummary(syncRaw)
+  const summary = buildSyncSummary(syncRaw, level)
   const xpInfo = getXpLevel(summary.xp)
   const earnedBadges = computeEarnedBadges(summary)
   const earnedIds = new Set(earnedBadges.map(b => b.id))
   const todayXP = (syncRaw?.history?.[today]?.xp ?? 0) as number
   const todayXPDone = todayXP >= DAILY_XP_GOAL
 
+  // Games toward the trophy (Vòng 1: 3, Vòng 2: 2 → at most 5), from the topic-hub rule.
+  function gamesProgress(m: MasteryData | undefined): number {
+    return m ? topicSteps(m, level).done - (m.flashcard ? 1 : 0) : 0
+  }
+
   function topicStatus(topic: Topic): 'done' | 'in_progress' | 'not_started' {
     const m = mastery[topic.id]
-    if (m?.flashcard && m.games.length >= 3) return 'done'
+    if (m && isTopicMastered(m, level)) return 'done'
     const seenCount = topic.words.filter(w => seen.has(w.word)).length
     if (seenCount > 0 || m?.flashcard) return 'in_progress'
     return 'not_started'
@@ -279,9 +285,9 @@ export default function LevelTopicsPage() {
       {showUpgrade && <UpsellModal onClose={() => setShowUpgrade(false)} username={session?.username ?? ''} />}
 
       {/* Header */}
-      <div className={`${colors.header} text-white`}>
+      <div className={`${colors.header} text-white rounded-b-3xl border-b-[4px] border-black/20`}>
         <div className="max-w-2xl mx-auto px-4 py-4 flex items-center gap-3">
-          <button onClick={() => router.push(`/dashboard/${childId}/kids`)} aria-label="Quay lại" className="text-white/70 hover:text-white text-xl">←</button>
+          <button onClick={() => router.push(`/dashboard/${childId}/kids`)} aria-label="Quay lại" className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 text-lg font-bold text-white transition-transform active:translate-y-0.5 active:border-b-2">←</button>
           <Image src={getAvatarSrc(child!.emoji)} width={32} height={32} className="rounded-full object-cover flex-shrink-0" alt="" unoptimized />
           <div>
             <h1 className="font-bold text-lg leading-tight">{child!.name}</h1>
@@ -389,7 +395,7 @@ export default function LevelTopicsPage() {
               const status = topicStatus(topic)
               const seenCount = topicSeenCount(topic)
               const total = topic.words.length
-              const gamesCount = mastery[topic.id]?.games.length ?? 0
+              const gamesCount = gamesProgress(mastery[topic.id])
               const flashcardDone = mastery[topic.id]?.flashcard ?? false
               const pct = total > 0 ? Math.round((seenCount / total) * 100) : 0
               const weakCount = topicWeakCount(topic)
@@ -441,7 +447,7 @@ export default function LevelTopicsPage() {
                         <div className="space-y-1">
                           <div className="flex items-center gap-1.5 flex-wrap">
                             {flashcardDone
-                              ? <span className="text-xs bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full font-medium">📖 ✓ · 🎮 {gamesCount}/3</span>
+                              ? <span className="text-xs bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full font-medium">📖 ✓ · 🎮 {gamesCount}/5</span>
                               : <span className="text-xs bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full font-medium">📖 {seenCount}/{total}</span>
                             }
                           </div>
@@ -498,7 +504,7 @@ export default function LevelTopicsPage() {
               const status = topicStatus(topic)
               const seenCount = topicSeenCount(topic)
               const total = topic.words.length
-              const gamesCount = mastery[topic.id]?.games.length ?? 0
+              const gamesCount = gamesProgress(mastery[topic.id])
               const flashcardDone = mastery[topic.id]?.flashcard ?? false
               const pct = total > 0 ? Math.round((seenCount / total) * 100) : 0
               const weakCount = topicWeakCount(topic)
@@ -548,7 +554,7 @@ export default function LevelTopicsPage() {
 
                   <span className="text-xs text-gray-400 font-medium flex-shrink-0">
                     {!locked && status === 'in_progress'
-                      ? (flashcardDone ? `🎮 ${gamesCount}/3` : `${seenCount}/${total}`)
+                      ? (flashcardDone ? `🎮 ${gamesCount}/5` : `${seenCount}/${total}`)
                       : ''
                     }
                   </span>

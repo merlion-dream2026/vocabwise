@@ -27,7 +27,7 @@ type Phase = 'idle' | 'countdown' | 'recording' | 'processing' | 'done'
 
 export default function SpeakGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
-  const { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
+  const { recordAnswer, recordActivity, addScore, recordGameResult, flush } = useGameSync()
   const [questions] = useState(() => shuffle(topic.words))
   const [idx, setIdx] = useState(0)
   const [score, setScore] = useState(0)
@@ -77,7 +77,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
   useEffect(() => {
     if (gameDone) {
       addScore(level, Math.round(score * 1.5))
-      if (score === total) { recordPerfectGame(level, topic.id, 'speak'); setShowConfetti(true) }
+      recordGameResult(level, topic.id, 'speak', score, total); if (score === total) { setShowConfetti(true) }
       flush()
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps

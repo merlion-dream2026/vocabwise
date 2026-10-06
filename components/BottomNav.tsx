@@ -179,81 +179,56 @@ export default function BottomNav() {
 
   const profileActive = active === 'profile'
 
+  const tabBase = 'relative flex min-w-0 flex-1 flex-col items-center justify-center gap-0.5 rounded-2xl py-1.5 transition-all duration-150 active:scale-95'
+
   return (
     <>
-      {/* Bottom nav */}
+      {/* Bottom nav — floating capsule, labels kept */}
       <nav
-        className={`fixed bottom-0 inset-x-0 mx-auto w-full max-w-md z-40 bg-white/95 backdrop-blur-sm border-t border-gray-100 shadow-[0_-2px_10px_rgba(0,0,0,0.06)] transition-transform duration-300 ease-in-out ${
+        className={`pointer-events-none fixed bottom-0 inset-x-0 mx-auto w-full max-w-md z-40 px-3 transition-transform duration-300 ease-in-out ${
           navVisible ? 'translate-y-0' : 'translate-y-full'
         }`}
-        style={{ paddingBottom: 'env(safe-area-inset-bottom)', touchAction: 'manipulation' }}
+        style={{ paddingBottom: 'calc(env(safe-area-inset-bottom) + 8px)', touchAction: 'manipulation' }}
       >
         <div
-          className="flex h-14 items-stretch"
-          style={{
-            paddingLeft:  'max(16px, env(safe-area-inset-left))',
-            paddingRight: 'max(16px, env(safe-area-inset-right))',
-          }}
+          className="pointer-events-auto flex items-stretch gap-0.5 rounded-[28px] border-2 border-b-[4px] border-slate-200 bg-white p-1.5 shadow-[0_6px_20px_rgba(0,0,0,0.12)]"
         >
-
-          {/* Profile tab — circular avatar, visually distinct */}
+          {/* Profile tab — circular avatar */}
           <button
             onClick={() => router.push('/kids')}
-            className="relative flex flex-col items-center justify-center gap-1 w-16 flex-shrink-0 active:bg-gray-50/70 transition-colors duration-100"
+            className={`${tabBase} max-w-[3.75rem] ${profileActive ? 'bg-purple-100' : ''}`}
           >
-            {profileActive && (
-              <span className="absolute top-0 left-1/2 -translate-x-1/2 w-8 h-[3px] rounded-full bg-gradient-to-r from-purple-500 to-pink-500" />
-            )}
-            {/* Circular avatar — key visual differentiator */}
-            <span className={`relative w-9 h-9 rounded-full flex items-center justify-center border-2 transition-all duration-150 overflow-hidden ${
-              profileActive
-                ? 'border-purple-400 bg-purple-50'
-                : childInfo
-                  ? 'border-gray-200 bg-gray-50'
-                  : 'border-dashed border-gray-300 bg-white'
+            <span className={`relative flex h-7 w-7 items-center justify-center overflow-hidden rounded-full border-2 ${
+              profileActive ? 'border-purple-400 bg-purple-50' : childInfo ? 'border-gray-200 bg-gray-50' : 'border-dashed border-gray-300 bg-white'
             }`}>
               {childInfo
                 ? <Image src={getAvatarSrc(childInfo.emoji)} fill className="object-cover" alt="" unoptimized />
-                : <span className="text-xl">👤</span>}
+                : <span className="text-base">👤</span>}
             </span>
-            <span className={`text-[10px] font-bold leading-none tracking-tight transition-colors duration-100 truncate max-w-[56px] ${
-              profileActive ? 'text-purple-600' : 'text-gray-400'
-            }`}>
+            <span className={`max-w-full truncate text-[10px] font-bold leading-none ${profileActive ? 'text-purple-700' : 'text-gray-400'}`}>
               {childInfo?.name ?? 'Hồ sơ'}
             </span>
           </button>
 
-          {/* Thin separator after Profile tab */}
-          <div className="w-px bg-gray-100 my-3" />
-
-          {/* 4 module tabs */}
           {MODULE_TABS.map(({ key, label, icon, needsChild }) => {
             const isActive = active === key
             const isDim    = needsChild && !childId
             return (
-              <button
-                key={key}
-                onClick={() => go(key)}
-                className="relative flex flex-col items-center justify-center gap-1 flex-1 active:bg-gray-50/70 transition-colors duration-100"
-              >
-                {isActive && (
-                  <span className="absolute top-0 left-1/2 -translate-x-1/2 w-8 h-[3px] rounded-full bg-gradient-to-r from-purple-500 to-pink-500" />
-                )}
+              <button key={key} onClick={() => go(key)} className={`${tabBase} ${isActive ? 'bg-purple-100' : ''}`}>
                 <span
-                  className="text-[22px] leading-none transition-all duration-150"
+                  className="text-[20px] leading-none"
                   style={isActive ? undefined : { filter: 'grayscale(1)', opacity: isDim ? 0.3 : 0.5 }}
                 >
                   {icon}
                 </span>
-                <span className={`text-[9px] font-bold leading-none tracking-tight transition-colors duration-100 ${
-                  isActive ? 'text-purple-600' : isDim ? 'text-gray-300' : 'text-gray-400'
+                <span className={`max-w-full truncate text-[10px] font-bold leading-none ${
+                  isActive ? 'text-purple-700' : isDim ? 'text-gray-300' : 'text-gray-400'
                 }`}>
                   {label}
                 </span>
               </button>
             )
           })}
-
         </div>
       </nav>
     </>

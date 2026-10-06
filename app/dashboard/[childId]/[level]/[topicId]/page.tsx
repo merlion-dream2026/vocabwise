@@ -4,11 +4,13 @@ import { useState, useEffect, useRef } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import dynamic from 'next/dynamic'
 import { loadDailyTopicOffline, saveLastSync, loadOfflineProgress, clearOfflineProgress } from '@/lib/offlineStorage'
+import { isTopicMastered, type MasteryEntry } from '@/lib/topicMastery'
+import { HubStyles, Rise, TopicHero, RoundCards, PRESS } from '@/components/TopicHub'
 
 const TrophyModal = dynamic(() => import('@/components/TrophyModal'), { ssr: false })
 
 type Child = { id: string; name: string; emoji: string; level: string }
-type MasteryData = { flashcard: boolean; games: string[] }
+type MasteryData = MasteryEntry
 type StoryBlank = { word: string; options: string[] }
 type ParsedExercise = { parts: string[]; blanks: StoryBlank[] }
 
@@ -41,13 +43,13 @@ const EXPLORER_GAMES = [
   { key: 'sentence',        label: 'Đặt câu cùng AI ✍️',  emoji: '✍️' }, // row 6 — production: tự viết câu, AI chấm
 ]
 
-const LEVEL_COLORS: Record<string, { bg: string; header: string; text: string }> = {
-  seeker:   { bg: 'from-violet-50 to-purple-50',  header: 'bg-violet-500',  text: 'text-violet-600'  },
-  starter:  { bg: 'from-pink-50 to-rose-50',       header: 'bg-pink-500',    text: 'text-pink-600'    },
-  ranger:   { bg: 'from-emerald-50 to-teal-50',    header: 'bg-emerald-500', text: 'text-emerald-600' },
-  explorer: { bg: 'from-blue-50 to-indigo-50',     header: 'bg-blue-500',    text: 'text-blue-600'    },
-  scholar:  { bg: 'from-indigo-50 to-violet-50',   header: 'bg-indigo-500',  text: 'text-indigo-600'  },
-  master:   { bg: 'from-gray-50 to-slate-100',     header: 'bg-gray-700',    text: 'text-gray-700'    },
+const LEVEL_COLORS: Record<string, { bg: string; header: string; text: string; soft: string; deep: string; edge: string }> = {
+  seeker:   { bg: 'from-violet-50 to-purple-50',  header: 'bg-violet-500',  text: 'text-violet-600',  soft: 'bg-violet-100',  deep: 'text-violet-800' , edge: 'border-violet-700' },
+  starter:  { bg: 'from-pink-50 to-rose-50',       header: 'bg-pink-500',    text: 'text-pink-600',    soft: 'bg-pink-100',    deep: 'text-pink-800'   , edge: 'border-pink-700' },
+  ranger:   { bg: 'from-emerald-50 to-teal-50',    header: 'bg-emerald-500', text: 'text-emerald-600', soft: 'bg-emerald-100', deep: 'text-emerald-800', edge: 'border-emerald-700' },
+  explorer: { bg: 'from-blue-50 to-indigo-50',     header: 'bg-blue-500',    text: 'text-blue-600',    soft: 'bg-blue-100',    deep: 'text-blue-800'   , edge: 'border-blue-700' },
+  scholar:  { bg: 'from-indigo-50 to-violet-50',   header: 'bg-indigo-500',  text: 'text-indigo-600',  soft: 'bg-indigo-100',  deep: 'text-indigo-800' , edge: 'border-indigo-700' },
+  master:   { bg: 'from-gray-50 to-slate-100',     header: 'bg-gray-700',    text: 'text-gray-700',    soft: 'bg-gray-200',    deep: 'text-gray-800'   , edge: 'border-gray-900' },
 }
 
 function shuffleArr<T>(arr: T[]): T[] {
@@ -83,9 +85,9 @@ function getGamesForLevel(level: string) {
 }
 
 const KID_FAQ = [
-  { q: '📖 Học một chủ đề như thế nào?', a: 'Bắt đầu bằng Flashcard để xem và nghe từ mới.\nSau đó chọn các trò chơi để luyện tập.\nHoàn thành Flashcard + 3 trò chơi → nhận 🏆!' },
+  { q: '📖 Học một chủ đề như thế nào?', a: 'Bắt đầu bằng Flashcard để xem và nghe từ mới.\nSau đó chọn các trò chơi để luyện tập.\nQua Vòng 1 và Vòng 2 → nhận 🏆!' },
   { q: '🎮 Có những trò chơi gì?', a: 'Level Seeker / Starter / Ranger (10 trò):\n📖 Flashcard · 👂 Nghe & Chọn · ✅ Đúng/Sai · 🖼️ Nối từ với hình\n🧠 Lật thẻ · 🫧 Bắn bong bóng · 🔡 Điền chữ thiếu\n🔤 Đánh vần · 🔁 Sắp xếp câu · 🎤 Phát âm cùng AI ✨\n\nLevel Explorer / Scholar / Master (11 trò khác):\n📖 Flashcard · 👂 Nghe & Chọn · ✅ Đúng/Sai\n❓ Trắc nghiệm · ✏️ Điền từ · 🔀 Ghép định nghĩa · 🎤 Phát âm cùng AI ✨\n⌨️ Gõ từ nhanh 15s · 🔁 Sắp xếp câu · ⚡ Speed Round · ✍️ Đặt câu cùng AI' },
-  { q: '🏆 Tiêu chí hoàn thành bài học', a: 'Cần đủ 2 điều kiện:\n① Xem hết Flashcard tất cả các từ trong chủ đề\n② Đạt kết quả tốt trong ít nhất 3 trò chơi khác nhau\n\nHoàn thành rồi thì chủ đề sẽ hiện 🏆!' },
+  { q: '🏆 Tiêu chí hoàn thành bài học', a: 'Cần đủ 3 điều kiện:\n① Xem hết Flashcard tất cả các từ trong chủ đề\n② Vòng 1 · Làm quen: đạt ⭐⭐⭐ (trên 80% câu đúng) ở ít nhất 3 trong 4 trò chơi\n③ Vòng 2 · Ôn tập: đạt ⭐⭐⭐ ở ít nhất 2 trong 3 trò chơi\n(Các trò ở mục "Thử thách thêm" để chơi cho vui, không bắt buộc.)\n\nSao tính theo lần chơi gần nhất: ≤50% = ⭐ · ≤80% = ⭐⭐ · trên 80% = ⭐⭐⭐.\nChơi lại bao nhiêu lần cũng được để lên sao!' },
   { q: '📚 Mini Story là gì?', a: 'Mỗi chủ đề có 1 câu chuyện ngắn dùng các từ vừa học.\nCuộn xuống → đọc chuyện tiếng Anh + tiếng Việt, nghe audio.\nBấm "Làm bài" → điền từ vào chỗ trống trong chuyện!' },
   { q: '🎤 Game Phát âm cùng AI ✨ dùng như thế nào?', a: 'Bấm nút micro 🎤 → đọc to từ (hoặc câu) trên màn hình.\nApp nhận diện giọng và cho biết đúng hay sai.\nBấm 🔊 để nghe phát âm mẫu · ▶️ để nghe lại giọng mình.\n\n⚠️ Cần cho phép quyền Microphone khi trình duyệt hỏi.' },
 ]
@@ -174,7 +176,7 @@ export default function TopicPage() {
           clearOfflineProgress(childId, level, topicId)
           const m: MasteryData = offMastery[topicId] ?? { flashcard: false, games: [] }
           setMastery(m)
-          if (m.flashcard && m.games.length >= 3) {
+          if (isTopicMastered(m, level)) {
             const flagKey = `trophy_${childId}_${level}_${topicId}`
             if (!sessionStorage.getItem(flagKey)) { sessionStorage.setItem(flagKey, '1'); setShowTrophy(true) }
           }
@@ -185,7 +187,7 @@ export default function TopicPage() {
 
       const m: MasteryData = syncData?.mastery?.[topicId] ?? { flashcard: false, games: [] }
       setMastery(m)
-      const done = m.flashcard && m.games.length >= 3
+      const done = isTopicMastered(m, level)
       const flagKey = `trophy_${childId}_${level}_${topicId}`
       if (done && !sessionStorage.getItem(flagKey)) {
         sessionStorage.setItem(flagKey, '1')
@@ -276,7 +278,6 @@ export default function TopicPage() {
 
   const games = getGamesForLevel(level)
   const colors = LEVEL_COLORS[level] ?? LEVEL_COLORS.explorer
-  const isDone = mastery.flashcard && mastery.games.length >= 3
   const backUrl = `/dashboard/${childId}/${level}`
 
   const topicIdx = allTopics.findIndex((t: { id: string }) => t.id === topicId)
@@ -373,6 +374,7 @@ export default function TopicPage() {
 
   return (
     <div className={`min-h-screen bg-gradient-to-br ${colors.bg}`}>
+      <HubStyles />
       {showTrophy && (
         <TrophyModal
           topicName={(topic as { name: string }).name}
@@ -393,77 +395,52 @@ export default function TopicPage() {
       )}
 
       {/* Header */}
-      <div className={`${colors.header} text-white`}>
+      <div className={`${colors.header} ${colors.edge} rounded-b-3xl border-b-[4px] text-white`}>
         <div className="max-w-xl mx-auto px-4 py-4 flex items-center gap-3">
-          <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-white/70 hover:text-white text-xl">←</button>
-          <span className="text-2xl">{(topic as { emoji: string }).emoji}</span>
+          <button onClick={() => router.push(backUrl)} aria-label="Quay lại"
+            className={`flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 text-lg font-bold ${PRESS}`}>←</button>
+          <span className="flex h-11 w-11 flex-shrink-0 -rotate-6 items-center justify-center rounded-2xl bg-white text-2xl shadow">{(topic as { emoji: string }).emoji}</span>
           <div className="flex-1 min-w-0">
             <h1 className="font-bold text-lg leading-tight">{(topic as { name: string }).name}</h1>
-            <p className="text-white/70 text-xs">{(topic as { words: unknown[] }).words.length} từ • {child!.name} • {topicIdx + 1}/{allTopics.length}</p>
+            <p className="text-white/80 text-xs font-semibold">{(topic as { words: unknown[] }).words.length} từ • {child!.name} • {topicIdx + 1}/{allTopics.length}</p>
           </div>
           <div className="flex items-center gap-2 shrink-0">
-            <div className="flex flex-col items-center gap-0.5">
-              <button
-                onClick={() => prevTopic && router.push(`/dashboard/${childId}/${level}/${(prevTopic as { id: string }).id}`)}
-                disabled={!prevTopic}
-                className="w-8 h-8 flex items-center justify-center rounded-full bg-white/20 hover:bg-white/30 disabled:opacity-30 disabled:cursor-not-allowed text-white text-sm transition-all"
-              >‹</button>
-              <span className="text-[10px] text-white/60 leading-none w-12 text-center truncate">
-                {prevTopic ? (prevTopic as { name: string }).name : ''}
-              </span>
-            </div>
-            <div className="flex flex-col items-center gap-0.5">
-              <button
-                onClick={() => nextTopic && router.push(`/dashboard/${childId}/${level}/${(nextTopic as { id: string }).id}`)}
-                disabled={!nextTopic}
-                className="w-8 h-8 flex items-center justify-center rounded-full bg-white/20 hover:bg-white/30 disabled:opacity-30 disabled:cursor-not-allowed text-white text-sm transition-all"
-              >›</button>
-              <span className="text-[10px] text-white/60 leading-none w-12 text-center truncate">
-                {nextTopic ? (nextTopic as { name: string }).name : ''}
-              </span>
-            </div>
+            {([['‹', prevTopic], ['›', nextTopic]] as const).map(([arrow, t]) => (
+              <div key={arrow} className="flex flex-col items-center gap-0.5">
+                <button
+                  onClick={() => t && router.push(`/dashboard/${childId}/${level}/${(t as { id: string }).id}`)}
+                  disabled={!t}
+                  aria-label={arrow === '‹' ? 'Chủ đề trước' : 'Chủ đề sau'}
+                  className={`flex h-9 w-9 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 text-base font-bold disabled:opacity-30 ${PRESS}`}
+                >{arrow}</button>
+                <span className="text-[10px] text-white/70 leading-none w-12 text-center truncate">
+                  {t ? (t as { name: string }).name : ''}
+                </span>
+              </div>
+            ))}
           </div>
         </div>
       </div>
 
       <div className="max-w-xl mx-auto px-4 py-5 space-y-4">
-        {/* FAQ + Mastery row */}
-        <div className="flex gap-3">
-          {/* FAQ toggle button */}
-          <button
-            onClick={() => { setShowFaq(v => !v); setOpenFaq(null) }}
-            className={`w-20 flex-shrink-0 rounded-2xl shadow-sm flex flex-col items-center justify-center gap-1 transition-colors ${showFaq ? 'bg-purple-100 border-2 border-purple-300' : 'bg-white'}`}>
-            <span className="text-xl leading-none">❓</span>
-            <p className="font-semibold text-gray-700 text-sm leading-tight text-center">Cách học</p>
-          </button>
-
-          {/* Mastery progress card */}
-          <div className={`flex-1 rounded-2xl p-4 ${isDone ? 'bg-green-100 border border-green-200' : 'bg-white'} shadow-sm`}>
-            <div className="flex items-center justify-between">
-              <div>
-                <p className="font-semibold text-gray-700 text-sm mb-1">Tiến độ chinh phục</p>
-                <div className="flex items-center gap-3 text-sm">
-                  <span className={mastery.flashcard ? 'text-green-600' : 'text-gray-400'}>
-                    {mastery.flashcard ? '✅' : '📖'} Flashcard
-                  </span>
-                  <span className={mastery.games.length >= 3 ? 'text-green-600' : 'text-gray-400'}>
-                    {'⭐'.repeat(Math.min(3, mastery.games.length))}{'☆'.repeat(Math.max(0, 3 - mastery.games.length))} {Math.min(3, mastery.games.length)}/3 game
-                  </span>
-                </div>
-              </div>
-              {isDone && (
-                <div className="flex flex-col items-center gap-1 flex-shrink-0">
-                  <span className="text-2xl">🏆</span>
-                  <button
-                    onClick={handleShare}
-                    className="text-[11px] font-bold text-green-600 hover:text-green-700 leading-none">
-                    📤 Chia sẻ
-                  </button>
-                </div>
-              )}
-            </div>
-          </div>
-        </div>
+        {/* Hero (status + journey + next-step button) */}
+        <Rise i={0}>
+          <TopicHero
+            colors={colors}
+            level={level}
+            topicEmoji={(topic as { emoji: string }).emoji}
+            wordCount={(topic as { words: unknown[] }).words.length}
+            entry={mastery}
+            games={games}
+            nextTopicName={nextTopic ? (nextTopic as { name: string }).name : null}
+            onOpen={(key) => router.push(`/dashboard/${childId}/${level}/${topicId}/${key}`)}
+            onNextTopic={() => nextTopic && router.push(`/dashboard/${childId}/${level}/${(nextTopic as { id: string }).id}`)}
+            onShare={handleShare}
+            onReplayTrophy={() => setShowTrophy(true)}
+            faqOpen={showFaq}
+            onToggleFaq={() => { setShowFaq(v => !v); setOpenFaq(null) }}
+          />
+        </Rise>
 
         {/* Inline FAQ — shown when toggled */}
         {showFaq && (
@@ -492,31 +469,15 @@ export default function TopicPage() {
           </div>
         )}
 
-        {/* Game picker */}
-        <div className="grid grid-cols-2 gap-3">
-          {games.map(game => {
-            const gameDone = game.key === 'flashcard' ? mastery.flashcard : mastery.games.includes(game.key)
-            const isAI = game.key === 'speak' || game.key === 'sentence'
-            return (
-              <button key={game.key}
-                onClick={() => router.push(`/dashboard/${childId}/${level}/${topicId}/${game.key}`)}
-                className={`relative rounded-2xl px-3 py-3 flex items-center gap-3 shadow-sm active:scale-95 transition-all text-left ${
-                  isAI
-                    ? 'bg-gradient-to-r from-purple-500 to-pink-500 hover:shadow-lg hover:brightness-105'
-                    : 'bg-white hover:shadow-md'
-                }`}>
-                {gameDone && (
-                  <span className="absolute top-1.5 right-2 text-sm leading-none">⭐</span>
-                )}
-                {isAI && !gameDone && (
-                  <span className="absolute top-1.5 right-2 text-[10px] font-black bg-yellow-300 text-yellow-900 px-1.5 py-0.5 rounded-full leading-none">AI</span>
-                )}
-                <span className="text-3xl flex-shrink-0">{game.emoji}</span>
-                <p className={`font-bold text-sm leading-tight pr-6 ${isAI ? 'text-white' : 'text-gray-800'}`}>{game.label}</p>
-              </button>
-            )
-          })}
-        </div>
+        {/* Vòng 1 / Vòng 2 */}
+        <Rise i={1}>
+          <RoundCards
+            level={level}
+            entry={mastery}
+            games={games}
+            onOpen={(key) => router.push(`/dashboard/${childId}/${level}/${topicId}/${key}`)}
+          />
+        </Rise>
 
         {/* One-time voice-change notice (Scholar onward) */}
         {story && showVoiceNotice && (
@@ -545,18 +506,16 @@ export default function TopicPage() {
 
         {/* Mini Story */}
         {story && (
-          <div ref={storyRef} className="bg-white rounded-2xl shadow-sm overflow-hidden scroll-mt-4">
+          <div ref={storyRef} className="rounded-3xl border-2 border-b-[4px] border-purple-200 border-b-purple-300 bg-purple-50 p-4 scroll-mt-4">
             {/* Story header */}
-            <div className={`${colors.header} px-4 py-3 flex items-center justify-between`}>
-              <div className="flex items-center gap-2">
-                <span className="text-xl">📖</span>
-                <span className="font-bold text-white text-sm">Mini Story</span>
-                <span className="text-base">{story.emojis.join(' ')}</span>
-              </div>
+            <div className="flex items-center justify-between gap-2">
+              <span className="inline-flex items-center gap-1.5 rounded-full border-b-[3px] border-purple-800 bg-purple-600 px-3 py-1.5 text-sm font-bold text-white">
+                📖 Mini Story <span className="text-base">{story.emojis.join(' ')}</span>
+              </span>
               <button
                 onClick={handleSpeak}
-                className={`flex items-center gap-1 px-3 py-1 rounded-full text-xs font-bold transition-all ${
-                  speaking ? 'bg-white text-red-500' : 'bg-white/20 text-white hover:bg-white/30'
+                className={`flex items-center gap-1 rounded-full border-b-[3px] px-3 py-1.5 text-xs font-bold ${PRESS} ${
+                  speaking ? 'border-red-700 bg-red-500 text-white' : 'border-amber-600 bg-amber-400 text-amber-950'
                 }`}
               >
                 {speaking ? '⏹ Dừng' : '🔊 Nghe'}
@@ -565,7 +524,7 @@ export default function TopicPage() {
 
             {!showExercise || !parsedExercise ? (
               /* ── Read mode ── */
-              <div className="px-4 pt-3 pb-4">
+              <div className="mt-3 rounded-2xl bg-white p-3">
                 <div className="text-gray-700 text-sm leading-relaxed mb-2">
                   {renderHighlighted(story.en)}
                 </div>
@@ -583,7 +542,7 @@ export default function TopicPage() {
                 {parsedExercise && (
                   <button
                     onClick={() => { setShowExercise(true); resetExercise() }}
-                    className={`mt-3 w-full text-sm font-bold px-4 py-3 rounded-xl transition-all ${colors.header} text-white opacity-80 hover:opacity-100`}
+                    className={`mt-3 w-full rounded-2xl border-b-[4px] border-amber-600 bg-amber-400 px-4 py-3 text-sm font-bold text-amber-950 ${PRESS}`}
                   >
                     📝 Làm bài tập
                   </button>
@@ -591,7 +550,7 @@ export default function TopicPage() {
               </div>
             ) : (
               /* ── Exercise mode ── */
-              <div className="px-4 pt-3 pb-4">
+              <div className="mt-3 rounded-2xl bg-white p-3">
                 <div className="flex items-center justify-between mb-3">
                   <p className="text-xs font-bold text-gray-500 uppercase tracking-wide">📝 Điền từ vào chỗ trống</p>
                   <button
@@ -652,8 +611,8 @@ export default function TopicPage() {
                   <button
                     onClick={() => setExerciseSubmitted(true)}
                     disabled={!allAnswered}
-                    className={`w-full font-black text-sm py-3 rounded-xl transition-all ${
-                      allAnswered ? `${colors.header} text-white` : 'bg-gray-100 text-gray-300'
+                    className={`w-full rounded-2xl border-b-[4px] py-3 text-sm font-bold ${PRESS} ${
+                      allAnswered ? 'border-amber-600 bg-amber-400 text-amber-950' : 'border-slate-200 bg-slate-100 text-slate-300'
                     }`}
                   >
                     Kiểm tra ✓
@@ -663,7 +622,7 @@ export default function TopicPage() {
                     <p className="text-center font-black text-base">
                       {exerciseScore === parsedExercise.blanks.length ? '🏆 Hoàn hảo!' : `${exerciseScore}/${parsedExercise.blanks.length} đúng`}
                     </p>
-                    <button onClick={resetExercise} className="w-full bg-gray-100 text-gray-600 font-bold text-sm py-3 rounded-xl">
+                    <button onClick={resetExercise} className={`w-full rounded-2xl border-b-[4px] border-slate-300 bg-slate-100 py-3 text-sm font-bold text-slate-600 ${PRESS}`}>
                       🔄 Thử lại
                     </button>
                   </div>

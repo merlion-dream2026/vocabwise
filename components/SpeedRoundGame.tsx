@@ -21,7 +21,7 @@ function shuffle<T>(arr: T[]): T[] {
 
 export default function SpeedRoundGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
-  const { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
+  const { recordAnswer, recordActivity, addScore, recordGameResult, flush } = useGameSync()
   const [words] = useState(() => shuffle(topic.words))
   const [idx, setIdx] = useState(0)
   const [input, setInput] = useState('')
@@ -39,7 +39,7 @@ export default function SpeedRoundGame({ topic, level, backUrl }: Props) {
   useEffect(() => {
     if (done) {
       addScore(level, score * 2) // 🔴 production tier — 2x XP (see FAQ "XP theo độ khó")
-      if (score === total) recordPerfectGame(level, topic.id, 'speedround')
+      recordGameResult(level, topic.id, 'speedround', score, total)
       if (score === total) setShowConfetti(true)
       flush()
     }

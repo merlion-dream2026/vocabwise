@@ -49,7 +49,7 @@ const levelCfg = {
 
 export default function QuizGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
-  const { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
+  const { recordAnswer, recordActivity, addScore, recordGameResult, flush } = useGameSync()
   const { childId } = useParams<{ childId: string }>()
   const styles = levelCfg[level as keyof typeof levelCfg] ?? levelCfg.explorer
 
@@ -67,7 +67,7 @@ export default function QuizGame({ topic, level, backUrl }: Props) {
   useEffect(() => {
     if (done) {
       addScore(level, Math.round(score * 1.5))
-      if (score === total) recordPerfectGame(level, topic.id, 'quiz')
+      recordGameResult(level, topic.id, 'quiz', score, total)
       if (score === total) setShowConfetti(true)
       saveStepScore(childId, topic.id, 'quiz', score, total)
       flush()

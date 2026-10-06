@@ -32,7 +32,7 @@ function buildQuestions(words: Word[]): Question[] {
 
 export default function SentenceOrderGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
-  const { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
+  const { recordAnswer, recordActivity, addScore, recordGameResult, flush } = useGameSync()
   const [questions] = useState(() => buildQuestions(topic.words))
   const [idx, setIdx] = useState(0)
   const [score, setScore] = useState(0)
@@ -53,7 +53,7 @@ export default function SentenceOrderGame({ topic, level, backUrl }: Props) {
   const total = questions.length
 
   useEffect(() => {
-    if (done) { addScore(level, Math.round(score * 1.5)); if (score === total) { recordPerfectGame(level, topic.id, 'sentenceorder'); setShowConfetti(true) }; flush() }
+    if (done) { addScore(level, Math.round(score * 1.5)); recordGameResult(level, topic.id, 'sentenceorder', score, total); if (score === total) { setShowConfetti(true) }; flush() }
   }, [done])
 
   useEffect(() => {

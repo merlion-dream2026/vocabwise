@@ -159,7 +159,7 @@ export function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditCh
             const weakTop = weakEntries.slice(0, 8)
 
             // Badges from active level
-            const summary   = buildSyncSummary(syncAll[activeLevel] as Parameters<typeof buildSyncSummary>[0])
+            const summary   = buildSyncSummary(syncAll[activeLevel] as Parameters<typeof buildSyncSummary>[0], activeLevel)
             const xpInfo    = getXpLevel(summary.xp)
             const topBadges = computeEarnedBadges(summary).slice(0, 3)
 

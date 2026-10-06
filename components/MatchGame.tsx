@@ -50,7 +50,7 @@ const levelCfg = {
 export default function MatchGame({ topic, level, backUrl }: Props) {
   const { childId } = useParams<{ childId: string }>()
   const router = useRouter()
-  const { markSeen, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
+  const { markSeen, recordActivity, addScore, recordGameResult, flush } = useGameSync()
   const styles = levelCfg[level as keyof typeof levelCfg] ?? levelCfg.explorer
 
   // Shuffle both columns independently (use all words in topic)
@@ -69,7 +69,7 @@ export default function MatchGame({ topic, level, backUrl }: Props) {
     if (done) {
       recordActivity(level)
       addScore(level, Math.max(0, total - mistakes))
-      if (mistakes === 0) recordPerfectGame(level, topic.id, 'match')
+      recordGameResult(level, topic.id, 'match', Math.max(0, total - mistakes), total)
       saveStepScore(childId, topic.id, 'match', Math.max(0, total - mistakes), total)
       if (mistakes === 0) setShowConfetti(true)
       flush()

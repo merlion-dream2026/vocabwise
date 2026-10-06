@@ -30,7 +30,7 @@ function buildTiles(word: string): Tile[] {
 export default function SpellGame({ topic, level, backUrl }: Props) {
   const { childId } = useParams<{ childId: string }>()
   const router = useRouter()
-  const { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
+  const { recordAnswer, recordActivity, addScore, recordGameResult, flush } = useGameSync()
   const [words, setWords] = useState(() => shuffle(topic.words))
   const [idx, setIdx] = useState(0)
   const [tiles, setTiles] = useState<Tile[]>(() => buildTiles(words[0]?.word ?? ''))
@@ -48,7 +48,7 @@ export default function SpellGame({ topic, level, backUrl }: Props) {
   useEffect(() => {
     if (done) {
       addScore(level, score * 2) // 🔴 production tier — 2x XP (see FAQ "XP theo độ khó")
-      if (score === total) recordPerfectGame(level, topic.id, 'spell')
+      recordGameResult(level, topic.id, 'spell', score, total)
       saveStepScore(childId, topic.id, 'spell', score, total)
       if (score === total) setShowConfetti(true)
       flush()

@@ -37,7 +37,7 @@ const FLOAT_DELAYS = [0, 0.5, 0.3, 0.7]
 
 export default function BubbleGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
-  const { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
+  const { recordAnswer, recordActivity, addScore, recordGameResult, flush } = useGameSync()
   const [questions, setQuestions] = useState<Question[]>(() => buildQuestions(topic.words))
   const [currentIdx, setCurrentIdx] = useState(0)
   const [selected, setSelected] = useState<string | null>(null)
@@ -52,7 +52,7 @@ export default function BubbleGame({ topic, level, backUrl }: Props) {
   useEffect(() => {
     if (done) {
       addScore(level, score) // 🟢 recognition tier — 1x XP (see FAQ "XP theo độ khó")
-      if (score === total) recordPerfectGame(level, topic.id, 'bubble')
+      recordGameResult(level, topic.id, 'bubble', score, total)
       if (score === total) setShowConfetti(true)
       flush()
     }

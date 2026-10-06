@@ -1,3 +1,4 @@
+import { isTopicMastered, type MasteryEntry } from './topicMastery'
 export type BadgeDef = {
   id: string
   emoji: string
@@ -60,11 +61,11 @@ export function buildSyncSummary(syncData: {
   seen?: string[]
   streak?: { best?: number }
   battle?: { totalAllTime?: number }
-  mastery?: Record<string, { flashcard: boolean; games: string[] }>
-} | null): SyncSummary {
+  mastery?: Record<string, MasteryEntry>
+} | null, level?: string): SyncSummary {
   const mastery = syncData?.mastery ?? {}
   const masteredTopics = Object.values(mastery)
-    .filter(m => m.flashcard && m.games.length >= 3).length
+    .filter(m => isTopicMastered(m, level)).length
   const hasPerfect = Object.values(mastery).some(m => m.games.length > 0)
   return {
     seenCount: syncData?.seen?.length ?? 0,

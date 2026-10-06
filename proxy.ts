@@ -44,7 +44,8 @@ function buildCsp(nonce: string): string {
   return [
     "default-src 'self'",
     // 'strict-dynamic' lets scripts loaded by nonced scripts (e.g. Turnstile injected by React) run
-    `script-src 'self' 'nonce-${nonce}' 'strict-dynamic' https://va.vercel-scripts.com https://challenges.cloudflare.com`,
+    // React dev mode needs eval() to rebuild callstacks; production never uses it
+    `script-src 'self' 'nonce-${nonce}' 'strict-dynamic'${process.env.NODE_ENV === 'production' ? '' : " 'unsafe-eval'"} https://va.vercel-scripts.com https://challenges.cloudflare.com`,
     "style-src 'self' 'unsafe-inline'",
     "img-src 'self' data: blob: https://img.vietqr.io",
     "font-src 'self'",

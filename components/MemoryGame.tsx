@@ -1,11 +1,12 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import { useGameSync } from '@/lib/GameSyncContext'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 import WordIcon from '@/components/WordIcon'
+import { memoryScorePct, starsFor } from '@/lib/topicMastery'
 
 type Word = { word: string; meaning: string; emoji: string; examples: { en: string; vi: string }[] }
 type Topic = { id: string; name: string; emoji: string; color: string; words: Word[] }
@@ -51,12 +52,14 @@ const levelCfg = {
 
 export default function MemoryGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
-  const { markSeen, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
+  const { markSeen, recordActivity, addScore, recordGameResult, flush } = useGameSync()
   const styles = levelCfg[level as keyof typeof levelCfg] ?? levelCfg.starter
   const [cards, setCards] = useState<Card[]>(() => buildCards(topic.words))
   const [firstId, setFirstId] = useState<string | null>(null)
   const [isLocked, setIsLocked] = useState(false)
   const [moves, setMoves] = useState(0)
+  const startedAt = useRef<number | null>(null) // set on the first flip
+  const [seconds, setSeconds] = useState(0)       // completion time, set when the last pair matches
   const [done, setDone] = useState(false)
   const [showConfetti, setShowConfetti] = useState(false)
 
@@ -65,6 +68,7 @@ export default function MemoryGame({ topic, level, backUrl }: Props) {
 
   useEffect(() => {
     if (cards.length > 0 && cards.every((c) => c.isMatched)) {
+      setSeconds(Math.max(1, Math.round((Date.now() - (startedAt.current ?? Date.now())) / 1000)))
       setTimeout(() => setDone(true), 500)
     }
   }, [cards])
@@ -73,7 +77,8 @@ export default function MemoryGame({ topic, level, backUrl }: Props) {
     if (done) {
       recordActivity(level)
       addScore(level, total)
-      recordPerfectGame(level, topic.id, 'memory')
+      // No right/wrong count here: the score comes from flips (moves) and completion time.
+      recordGameResult(level, topic.id, 'memory', scorePct, 100)
       setShowConfetti(true)
       flush()
     }
@@ -83,6 +88,7 @@ export default function MemoryGame({ topic, level, backUrl }: Props) {
     if (isLocked) return
     const card = cards.find((c) => c.id === id)!
     if (card.isFlipped || card.isMatched || id === firstId) return
+    if (startedAt.current === null) startedAt.current = Date.now()
 
     if (firstId === null) {
       setCards((prev) => prev.map((c) => (c.id === id ? { ...c, isFlipped: true } : c)))
@@ -120,11 +126,15 @@ export default function MemoryGame({ topic, level, backUrl }: Props) {
     setFirstId(null)
     setIsLocked(false)
     setMoves(0)
+    startedAt.current = null
+    setSeconds(0)
     setDone(false)
     setShowConfetti(false)
   }
 
-  const starEmoji = moves <= total + 3 ? '🏆' : moves <= total * 2 ? '⭐' : '💪'
+  const scorePct = memoryScorePct(total, moves, seconds)
+  const stars = starsFor(scorePct)
+  const starEmoji = stars === 3 ? '🏆' : stars === 2 ? '⭐' : '💪'
   const xpEarned = total
 
   if (done) {
@@ -144,7 +154,8 @@ export default function MemoryGame({ topic, level, backUrl }: Props) {
           <div className="text-7xl mb-4">{starEmoji}</div>
           <h2 className="text-3xl font-black text-gray-800 mb-2">Hoàn thành!</h2>
           <p className="text-gray-500 font-bold text-lg mb-1">Ghép đúng {total} cặp</p>
-          <p className="text-gray-500 font-semibold mb-3">{moves} lượt lật thẻ</p>
+          <p className="text-gray-500 font-semibold mb-1">{moves} lượt lật thẻ · ⏱ {seconds} giây</p>
+          <p className="text-gray-400 text-sm font-semibold mb-3">{'⭐'.repeat(stars)}{'☆'.repeat(3 - stars)} {scorePct}% · lật ít lượt và nhanh hơn để được 3 sao!</p>
           <div className="inline-flex items-center gap-1.5 bg-yellow-50 border border-yellow-200 rounded-full px-4 py-1.5 mb-4">
             <span className="text-base">⭐</span>
             <span className="text-yellow-700 font-black text-sm">+{xpEarned} XP</span>

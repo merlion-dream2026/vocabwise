@@ -54,7 +54,7 @@ const levelCfg = {
 export default function GapFillGame({ topic, level, backUrl }: Props) {
   const { childId } = useParams<{ childId: string }>()
   const router = useRouter()
-  const { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
+  const { recordAnswer, recordActivity, addScore, recordGameResult, flush } = useGameSync()
   const styles = levelCfg[level as keyof typeof levelCfg] ?? levelCfg.explorer
 
   const [questions, setQuestions] = useState<Question[]>(() => buildQuestions(topic.words))
@@ -71,7 +71,7 @@ export default function GapFillGame({ topic, level, backUrl }: Props) {
   useEffect(() => {
     if (done) {
       addScore(level, Math.round(score * 1.5))
-      if (score === total) recordPerfectGame(level, topic.id, 'gapfill')
+      recordGameResult(level, topic.id, 'gapfill', score, total)
       saveStepScore(childId, topic.id, 'gapfill', score, total)
       if (score === total) setShowConfetti(true)
       flush()

@@ -5,6 +5,7 @@
 
 import { createContext, useContext, useState, type ReactNode } from 'react'
 import { saveOfflineProgress } from './offlineStorage'
+import type { MasteryEntry } from './topicMastery'
 
 export type WeakEntry = { wrong: number; correctStreak: number; lastWrong: string }
 export type HistoryEntry = { words: number; games: number; xp: number; topicIds?: string[]; testsDone?: string[] }
@@ -23,7 +24,7 @@ export type SyncData = {
   weak_words?: Record<string, WeakEntry | number>
   streak?: { current?: number; best?: number; lastActive?: string }
   battle?: { totalAllTime?: number }
-  mastery?: Record<string, { flashcard: boolean; games: string[] }>
+  mastery?: Record<string, MasteryEntry>
   history?: Record<string, HistoryEntry>
   srs?: Record<string, SrsEntry>
 } | null
@@ -40,6 +41,7 @@ type GameSyncApi = {
   addScore: (level: string, points: number) => void
   recordFlashcardDone: (level: string, topicId: string) => void
   recordPerfectGame: (level: string, topicId: string, gameKey: string) => void
+  recordGameResult: (level: string, topicId: string, gameKey: string, score: number, total: number) => void
   recordTestCompleted: (level: string, label: string) => void
   flush: () => Promise<boolean>
 }
@@ -75,7 +77,7 @@ function createGameSyncApi(): GameSyncApi {
   let _weakWords: Record<string, WeakEntry> = {}
   let _streak = { current: 0, best: 0, lastActive: '' }
   let _battle = { totalAllTime: 0 }
-  let _mastery: Record<string, { flashcard: boolean; games: string[] }> = {}
+  let _mastery: Record<string, MasteryEntry> = {}
   let _history: Record<string, HistoryEntry> = {}
   let _srs: Record<string, SrsEntry> = {}
   // Buffer of SRS review events not yet confirmed persisted server-side.
@@ -264,6 +266,32 @@ function createGameSyncApi(): GameSyncApi {
     bumpTopic(topicId)
   }
 
+  // Record a finished game attempt for the topic hub: the score as a percentage, latest + best.
+  // The hub's completion rule (lib/topicMastery.ts) reads the LATEST attempt, so every attempt is
+  // recorded — not only perfect ones. A perfect score still adds the game to `games` exactly as
+  // recordPerfectGame did, so everything built on that older field keeps working.
+  function recordGameResult(_level: string, topicId: string, gameKey: string, score: number, total: number) {
+    if (!(total > 0)) return
+    const pct = Math.round((Math.max(0, Math.min(score, total)) / total) * 100)
+    const entry = _mastery[topicId] ?? { flashcard: false, games: [] }
+    const prev = entry.modes?.[gameKey]
+    // A topic already complete under the old rule (flashcard + 3 perfect games) keeps its trophy
+    // for good once the child starts replaying it under the new rule.
+    const legacyDone = entry.legacyDone || (!entry.modes && entry.flashcard && entry.games.length >= 3)
+    const isNewPerfect = pct === 100 && !entry.games.includes(gameKey)
+    _mastery = {
+      ..._mastery,
+      [topicId]: {
+        ...entry,
+        games: isNewPerfect ? [...entry.games, gameKey] : entry.games,
+        modes: { ...entry.modes, [gameKey]: { best: Math.max(prev?.best ?? 0, pct), last: pct, at: new Date().toISOString() } },
+        ...(legacyDone ? { legacyDone: true } : {}),
+      },
+    }
+    if (isNewPerfect) bumpHistory('games')
+    bumpTopic(topicId)
+  }
+
   // Level Test / Module Test / Revision test span a whole level or book, not a single topic —
   // bump the completion count (words+games gate) and remember the test's display label so
   // the 30-day history panel can show which test was done, not just an anonymous game count.
@@ -303,7 +331,7 @@ function createGameSyncApi(): GameSyncApi {
   return {
     initGameSync, markSeen, recordAnswer, recordReviewAnswer, getWeakWords,
     recordSrsAnswer, getSrsDueCount, recordActivity, addScore,
-    recordFlashcardDone, recordPerfectGame, recordTestCompleted, flush,
+    recordFlashcardDone, recordPerfectGame, recordGameResult, recordTestCompleted, flush,
   }
 }
 

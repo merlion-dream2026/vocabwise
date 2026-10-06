@@ -557,9 +557,9 @@ export default function ModuleTestPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-amber-50 to-yellow-50">
-      <div className={`${bookInfo.header} text-white`}>
+      <div className={`${bookInfo.header} text-white rounded-b-3xl border-b-[4px] border-black/20`}>
         <div className="max-w-lg mx-auto px-4 py-4 flex items-center gap-3">
-          <button onClick={() => router.back()} aria-label="Quay lại" className="text-white/70 hover:text-white text-xl flex-shrink-0">←</button>
+          <button onClick={() => router.back()} aria-label="Quay lại" className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 text-lg font-bold text-white transition-transform active:translate-y-0.5 active:border-b-2">←</button>
           <span className="text-xl flex-shrink-0">🏆</span>
           <div className="min-w-0 flex-1">
             <h1 className="font-black text-base leading-tight">Module Test — {bookInfo.title}</h1>

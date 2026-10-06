@@ -23,7 +23,7 @@ const MIN_WORDS = 3
 
 export default function SentenceGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
-  const { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
+  const { recordAnswer, recordActivity, addScore, recordGameResult, flush } = useGameSync()
   const [words, setWords] = useState(() => shuffle(topic.words))
   const [idx, setIdx] = useState(0)
   const [input, setInput] = useState('')
@@ -44,7 +44,7 @@ export default function SentenceGame({ topic, level, backUrl }: Props) {
   useEffect(() => {
     if (done) {
       addScore(level, score * 2) // 🔴 production tier — 2x XP (see FAQ "XP theo độ khó")
-      if (score === total) recordPerfectGame(level, topic.id, 'sentence')
+      recordGameResult(level, topic.id, 'sentence', score, total)
       if (score === total) setShowConfetti(true)
       flush()
     }

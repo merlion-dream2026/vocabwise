@@ -41,7 +41,7 @@ function buildQuestions(words: Word[]): Question[] {
 
 export default function FillLetterGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
-  const { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
+  const { recordAnswer, recordActivity, addScore, recordGameResult, flush } = useGameSync()
   const [questions] = useState(() => buildQuestions(topic.words))
   const [idx, setIdx] = useState(0)
   const [selected, setSelected] = useState<string | null>(null)
@@ -63,7 +63,7 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
   useEffect(() => {
     if (done) {
       addScore(level, score * 2) // 🔴 production tier — 2x XP (see FAQ "XP theo độ khó")
-      if (score === total) { recordPerfectGame(level, topic.id, 'fillletter'); setShowConfetti(true) }
+      recordGameResult(level, topic.id, 'fillletter', score, total); if (score === total) { setShowConfetti(true) }
       flush()
     }
   }, [done])

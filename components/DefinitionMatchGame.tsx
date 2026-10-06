@@ -21,7 +21,7 @@ type PairState = 'idle' | 'matched' | 'wrong'
 
 export default function DefinitionMatchGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
-  const { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
+  const { recordAnswer, recordActivity, addScore, recordGameResult, flush } = useGameSync()
   const speak = useCallback((t: string) => speakWord(t, { rate: 0.9 }), [])
 
   // Shuffle all words once; chunk into rounds of ROUND_SIZE
@@ -52,7 +52,7 @@ export default function DefinitionMatchGame({ topic, level, backUrl }: Props) {
   }, [roundIdx])
 
   useEffect(() => {
-    if (done) { addScore(level, Math.round(score * 1.5)); if (score === total) { recordPerfectGame(level, topic.id, 'definitionmatch'); setShowConfetti(true) }; flush() }
+    if (done) { addScore(level, Math.round(score * 1.5)); recordGameResult(level, topic.id, 'definitionmatch', score, total); if (score === total) { setShowConfetti(true) }; flush() }
   }, [done])
 
   if (topic.words.length === 0) { router.push(backUrl); return null }

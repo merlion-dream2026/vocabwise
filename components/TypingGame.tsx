@@ -23,7 +23,7 @@ function shuffle<T>(arr: T[]): T[] {
 export default function TypingGame({ topic, level, backUrl }: Props) {
   const { childId } = useParams<{ childId: string }>()
   const router = useRouter()
-  const { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
+  const { recordAnswer, recordActivity, addScore, recordGameResult, flush } = useGameSync()
   const [words, setWords] = useState(() => shuffle(topic.words))
   const [idx, setIdx] = useState(0)
   const [input, setInput] = useState('')
@@ -41,7 +41,7 @@ export default function TypingGame({ topic, level, backUrl }: Props) {
   useEffect(() => {
     if (done) {
       addScore(level, score * 2) // 🔴 production tier — 2x XP (see FAQ "XP theo độ khó")
-      if (score === total) recordPerfectGame(level, topic.id, 'typing')
+      recordGameResult(level, topic.id, 'typing', score, total)
       saveStepScore(childId, topic.id, 'typing', score, total)
       if (score === total) setShowConfetti(true)
       flush()

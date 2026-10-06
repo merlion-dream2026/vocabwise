@@ -37,7 +37,7 @@ function buildRounds(words: Word[]): Round[] {
 
 export default function TrueFalseGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
-  const { recordAnswer, recordActivity, addScore, recordPerfectGame, flush } = useGameSync()
+  const { recordAnswer, recordActivity, addScore, recordGameResult, flush } = useGameSync()
   const [rounds] = useState(() => buildRounds(topic.words))
   const [idx, setIdx] = useState(0)
   const [result, setResult] = useState<'idle' | 'correct' | 'wrong'>('idle')
@@ -62,7 +62,7 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
 
   useEffect(() => {
     // 🟢 recognition tier — 1x XP (see FAQ "XP theo độ khó")
-    if (done) { addScore(level, score); if (score === total) { recordPerfectGame(level, topic.id, 'truefalse'); setShowConfetti(true) }; flush() }
+    if (done) { addScore(level, score); recordGameResult(level, topic.id, 'truefalse', score, total); if (score === total) { setShowConfetti(true) }; flush() }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [done])
 
