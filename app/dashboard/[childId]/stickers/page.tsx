@@ -5,10 +5,13 @@ import { cachedFetch } from '@/lib/cachedFetch'
 import { GameHeader } from '@/components/ChunkyUI'
 import PageSkeleton from '@/components/PageSkeleton'
 import Sticker from '@/components/Sticker'
+import Image from 'next/image'
+import { getAvatarSrc } from '@/lib/avatars'
+import { shareStickerCard } from '@/lib/stickerShare'
 
 type StickerRow = { collection?: string; level: string; topic_id: string; earned_at: string; legacy: boolean; redemption_id: number | null }
 type TopicInfo = { id: string; name: string; emoji: string }
-type Child = { id: string; name: string }
+type Child = { id: string; name: string; emoji: string }
 type Tab = 'daily' | 'academic'
 type Section = { key: string; label: string; tag: string; total: number }
 
@@ -47,6 +50,8 @@ export default function StickerAlbumPage() {
   const [tab, setTab] = useState<Tab>('daily')
   // Sections the child folded/unfolded by hand. Default: open iff it has stickers (empty ones are just a row of "?").
   const [toggled, setToggled] = useState<Record<string, boolean>>({})
+  const [sharing, setSharing] = useState<string | null>(null)
+  const [shareMsg, setShareMsg] = useState('')
 
   useEffect(() => {
     Promise.all([
@@ -94,6 +99,7 @@ export default function StickerAlbumPage() {
             </p>
           </div>
         )}
+        {shareMsg && <p className="rounded-2xl bg-white/80 px-4 py-2 text-center text-sm font-bold text-purple-700">{shareMsg}</p>}
         {SECTIONS[tab].map(sec => {
           const mine = inTab(tab).filter(s => s.level === sec.key)
           const order = topics[`${tab}/${sec.key}`] ?? []
@@ -105,14 +111,36 @@ export default function StickerAlbumPage() {
           const open = (earned.length > 0) !== !!toggled[tk]
           return (
             <section key={tk} className="rounded-3xl border-2 border-b-[4px] border-slate-200 border-b-slate-300 bg-white p-4">
-              <button type="button" aria-expanded={open} onClick={() => setToggled(t => ({ ...t, [tk]: !t[tk] }))}
-                className="flex w-full items-center justify-between gap-2 text-left">
-                <p className="text-base font-bold text-slate-800">{sec.label} <span className="rounded-full bg-slate-100 px-2 py-0.5 text-xs font-semibold text-slate-500">{sec.tag}</span></p>
-                <span className="flex items-center gap-2">
-                  <span className="rounded-full bg-purple-100 px-3 py-1 text-xs font-bold text-purple-700">{earned.length}/{sec.total}</span>
-                  <span className={`flex h-7 w-7 items-center justify-center rounded-full bg-slate-100 text-xs font-bold text-slate-500 transition-transform ${open ? 'rotate-180' : ''}`}>▾</span>
-                </span>
-              </button>
+              <div className="flex items-center gap-2">
+                <button type="button" aria-expanded={open} onClick={() => setToggled(t => ({ ...t, [tk]: !t[tk] }))}
+                  className="grid min-w-0 flex-1 grid-cols-[1fr_auto_1fr] items-center gap-2 text-left">
+                  <p className="min-w-0 truncate text-base font-bold text-slate-800">{sec.label} <span className="rounded-full bg-slate-100 px-2 py-0.5 text-xs font-semibold text-slate-500">{sec.tag}</span></p>
+                  <span className="flex items-center gap-1.5">
+                    <Image src={getAvatarSrc(child.emoji)} width={28} height={28} className="h-7 w-7 rounded-full object-cover" alt="" unoptimized />
+                    <span className="max-w-[72px] truncate text-sm font-bold text-slate-700">{child.name}</span>
+                  </span>
+                  <span className="flex items-center justify-end gap-2">
+                    <span className="rounded-full bg-purple-100 px-2.5 py-1 text-xs font-bold text-purple-700">{earned.length}/{sec.total}</span>
+                    <span className={`flex h-7 w-7 items-center justify-center rounded-full bg-slate-100 text-xs font-bold text-slate-500 transition-transform ${open ? 'rotate-180' : ''}`}>▾</span>
+                  </span>
+                </button>
+                <button type="button" aria-label={`Chia sẻ sticker ${sec.label}`} title="Chia sẻ" disabled={earned.length === 0 || sharing === tk}
+                  onClick={async () => {
+                    setSharing(tk); setShareMsg('')
+                    try {
+                      const slots = [
+                        ...earned.map(e => { const i = order.find(t => t.id === e.topic_id); return { emoji: i?.emoji ?? '⭐', name: i?.name ?? e.topic_id } }),
+                        ...Array.from({ length: lockedCount }, () => null),
+                      ]
+                      const r = await shareStickerCard({ childName: child.name, avatarSrc: getAvatarSrc(child.emoji), title: sec.label, tag: sec.tag, stickers: slots, earned: earned.length })
+                      if (r === 'downloaded') setShareMsg('Đã tải hình về máy. Gửi cho người thân nhé!')
+                    } catch { setShareMsg('Chưa tạo được hình, thử lại nhé.') }
+                    setSharing(null)
+                  }}
+                  className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full bg-purple-100 text-base text-purple-700 active:scale-95 disabled:opacity-40">
+                  {sharing === tk ? '…' : '📤'}
+                </button>
+              </div>
               {open && hasLegacy && <p className="mt-1 text-xs font-semibold text-slate-400">Một số sticker được tặng cho các chủ đề đã hoàn thành từ trước.</p>}
               {open && <div className="mt-3 grid grid-cols-4 gap-3">
                 {earned.map((s, i) => {
