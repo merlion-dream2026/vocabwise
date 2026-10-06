@@ -87,7 +87,8 @@ export async function renderStickerCard(inp: ShareCardInput): Promise<Blob> {
   })
 
   c.fillStyle = '#94a3b8'; c.font = `700 30px ${FONT}`; c.textAlign = 'center'
-  c.fillText('VocabWise · vocabwise.id.vn', W / 2, H - PAD - 44)
+  const stamp = new Date().toLocaleString('vi-VN', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false })
+  c.fillText(`VocabWise · vocabwise.id.vn · ${stamp}`, W / 2, H - PAD - 44)
   return new Promise((res, rej) => canvas.toBlob((b) => (b ? res(b) : rej(new Error('toBlob failed'))), 'image/png'))
 }
 
