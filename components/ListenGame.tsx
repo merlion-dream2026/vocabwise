@@ -162,7 +162,7 @@ export default function ListenGame({ topic, level, isStarter, backUrl }: Props) 
         </div>
 
         {/* 2×2 choice grid */}
-        <div className="grid grid-cols-2 gap-2 flex-1">
+        <div className="grid grid-cols-2 content-center gap-3 flex-1">
           {current.choices.map((choice) => {
             const isCorrect = choice.word === current.word.word
             const isSelected = selected === choice.word
