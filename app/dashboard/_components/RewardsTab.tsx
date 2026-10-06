@@ -33,6 +33,7 @@ export function RewardsTab({ kids }: { kids: Child[] }) {
   const [topics, setTopics] = useState<Record<string, TopicInfo[]>>({})
   const [picked, setPicked] = useState<Set<number>>(new Set())
   const [note, setNote] = useState('')
+  const [folded, setFolded] = useState<Record<string, boolean>>({})
 
   useEffect(() => {
     fetch('/api/rewards/pin', { cache: 'no-store' }).then(r => r.json()).then(d => {
@@ -170,8 +171,12 @@ export function RewardsTab({ kids }: { kids: Child[] }) {
           const [col, lv] = key.split('/')
           return (
             <div key={key}>
-              <p className="mb-2 text-xs font-bold uppercase tracking-wide text-slate-400">{COLLECTION_LABEL[col] ?? col} · {LEVEL_LABEL[lv] ?? lv}</p>
-              <div className="flex flex-wrap gap-3">
+              <button type="button" aria-expanded={!folded[key]} onClick={() => setFolded(f => ({ ...f, [key]: !f[key] }))}
+                className="mb-2 flex w-full items-center justify-between text-left">
+                <span className="text-xs font-bold uppercase tracking-wide text-slate-400">{COLLECTION_LABEL[col] ?? col} · {LEVEL_LABEL[lv] ?? lv} <span className="normal-case">({list.length})</span></span>
+                <span className={`flex h-6 w-6 items-center justify-center rounded-full bg-slate-100 text-[10px] font-bold text-slate-500 transition-transform ${folded[key] ? '' : 'rotate-180'}`}>▾</span>
+              </button>
+              {!folded[key] && <div className="flex flex-wrap gap-3">
                 {list.map(s => {
                   const on = picked.has(s.id); const info = nameOf(s)
                   return (
@@ -182,7 +187,7 @@ export function RewardsTab({ kids }: { kids: Child[] }) {
                     </button>
                   )
                 })}
-              </div>
+              </div>}
             </div>
           )
         })}

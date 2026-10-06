@@ -28,6 +28,8 @@ export default function StickerAlbumPage() {
   const [child, setChild] = useState<Child | null>(null)
   const [stickers, setStickers] = useState<StickerRow[] | null>(null)
   const [topics, setTopics] = useState<Record<string, TopicInfo[]>>({})
+  // Level sections the child folded away. Levels with no stickers yet start folded (just a row of "?").
+  const [toggled, setToggled] = useState<Record<string, boolean>>({})
 
   useEffect(() => {
     Promise.all([
@@ -72,14 +74,19 @@ export default function StickerAlbumPage() {
           const earned = [...mine].sort((a, b) => rank(a.topic_id) - rank(b.topic_id))
           const lockedCount = Math.max(0, TOPICS_PER_LEVEL - earned.length)
           const hasLegacy = earned.some(e => e.legacy)
+          const open = (earned.length > 0) !== !!toggled[lv.key]   // default open iff it has stickers; a tap flips it
           return (
             <section key={lv.key} className="rounded-3xl border-2 border-b-[4px] border-slate-200 border-b-slate-300 bg-white p-4">
-              <div className="flex items-center justify-between gap-2">
+              <button type="button" aria-expanded={open} onClick={() => setToggled(t => ({ ...t, [lv.key]: !t[lv.key] }))}
+                className="flex w-full items-center justify-between gap-2 text-left">
                 <p className="text-base font-bold text-slate-800">{lv.label} <span className="rounded-full bg-slate-100 px-2 py-0.5 text-xs font-semibold text-slate-500">{lv.cefr}</span></p>
-                <span className="rounded-full bg-purple-100 px-3 py-1 text-xs font-bold text-purple-700">{earned.length}/{TOPICS_PER_LEVEL}</span>
-              </div>
-              {hasLegacy && <p className="mt-1 text-xs font-semibold text-slate-400">Một số sticker được tặng cho các chủ đề đã hoàn thành từ trước.</p>}
-              <div className="mt-3 grid grid-cols-4 gap-3">
+                <span className="flex items-center gap-2">
+                  <span className="rounded-full bg-purple-100 px-3 py-1 text-xs font-bold text-purple-700">{earned.length}/{TOPICS_PER_LEVEL}</span>
+                  <span className={`flex h-7 w-7 items-center justify-center rounded-full bg-slate-100 text-xs font-bold text-slate-500 transition-transform ${open ? 'rotate-180' : ''}`}>▾</span>
+                </span>
+              </button>
+              {open && hasLegacy && <p className="mt-1 text-xs font-semibold text-slate-400">Một số sticker được tặng cho các chủ đề đã hoàn thành từ trước.</p>}
+              {open && <div className="mt-3 grid grid-cols-4 gap-3">
                 {earned.map((s, i) => {
                   const info = order.find(t => t.id === s.topic_id)
                   return (
@@ -99,7 +106,7 @@ export default function StickerAlbumPage() {
                     <Sticker emoji="" locked size="md" tilt={(i + earned.length) % 2 === 0 ? -6 : 6} />
                   </div>
                 ))}
-              </div>
+              </div>}
             </section>
           )
         })}
