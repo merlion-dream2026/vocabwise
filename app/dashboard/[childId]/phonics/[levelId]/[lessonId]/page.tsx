@@ -65,20 +65,20 @@ function KnowledgePanel({ lessonId, knowledge, levelText, levelBorder, levelBg }
     <div className={`bg-white rounded-2xl border-2 ${levelBorder} overflow-hidden`}>
       <div className={`flex items-center gap-2 px-4 py-3 ${levelBg} border-b ${levelBorder}`}>
         <span className="text-base">📖</span>
-        <span className={`font-black text-sm ${levelText}`}>Bài học chi tiết</span>
+        <span className={`font-bold text-sm ${levelText}`}>Bài học chi tiết</span>
       </div>
 
       <div className="px-4 py-4 space-y-4">
         {knowledge.why && (
           <div>
-            <p className="text-xs font-black text-gray-500 uppercase tracking-wide mb-1.5">💡 Tại sao có quy tắc này?</p>
+            <p className="text-xs font-bold text-gray-500 uppercase tracking-wide mb-1.5">💡 Tại sao có quy tắc này?</p>
             <p className="text-sm text-gray-700 font-semibold leading-relaxed">{knowledge.why}</p>
           </div>
         )}
 
         {knowledge.how_to && knowledge.how_to.length > 0 && (
           <div>
-            <p className="text-xs font-black text-gray-500 uppercase tracking-wide mb-1.5">
+            <p className="text-xs font-bold text-gray-500 uppercase tracking-wide mb-1.5">
               {knowledge.why ? '📋 Cách áp dụng' : '👄 Cách tạo âm'}
             </p>
             <div className="mb-2.5 flex justify-center">
@@ -89,7 +89,7 @@ function KnowledgePanel({ lessonId, knowledge, levelText, levelBorder, levelBg }
             <ol className="space-y-1.5">
               {knowledge.how_to.map((step, i) => (
                 <li key={i} className="flex gap-2 text-sm text-gray-700 font-semibold leading-relaxed">
-                  <span className={`shrink-0 w-5 h-5 rounded-full flex items-center justify-center text-xs font-black ${levelBg} ${levelText} border ${levelBorder}`}>{i + 1}</span>
+                  <span className={`shrink-0 w-5 h-5 rounded-full flex items-center justify-center text-xs font-bold ${levelBg} ${levelText} border ${levelBorder}`}>{i + 1}</span>
                   <span>{step}</span>
                 </li>
               ))}
@@ -99,18 +99,18 @@ function KnowledgePanel({ lessonId, knowledge, levelText, levelBorder, levelBg }
 
         {knowledge.vs_vietnamese && (
           <div className="bg-yellow-50 rounded-xl px-3 py-2.5 border border-yellow-200">
-            <p className="text-xs font-black text-yellow-700 mb-1">🇻🇳 So sánh với tiếng Việt</p>
+            <p className="text-xs font-bold text-yellow-700 mb-1">🇻🇳 So sánh với tiếng Việt</p>
             <p className="text-sm text-yellow-800 font-semibold leading-relaxed">{knowledge.vs_vietnamese}</p>
           </div>
         )}
 
         {knowledge.spelling && knowledge.spelling.length > 0 && (
           <div>
-            <p className="text-xs font-black text-gray-500 uppercase tracking-wide mb-1.5">✍️ Chính tả → Phát âm</p>
+            <p className="text-xs font-bold text-gray-500 uppercase tracking-wide mb-1.5">✍️ Chính tả → Phát âm</p>
             <div className="space-y-1.5">
               {knowledge.spelling.map((s, i) => (
                 <div key={i} className="flex flex-wrap items-baseline gap-x-1.5 gap-y-1 text-sm">
-                  <span className={`shrink-0 font-black ${levelText} font-mono`}>{s.pattern}</span>
+                  <span className={`shrink-0 font-bold ${levelText} font-mono`}>{s.pattern}</span>
                   <span className="shrink-0 text-gray-400">→</span>
                   {s.examples.map((ex, j) => (
                     <span key={j} className="whitespace-nowrap text-gray-600 font-semibold">
@@ -129,7 +129,7 @@ function KnowledgePanel({ lessonId, knowledge, levelText, levelBorder, levelBg }
 
         {knowledge.mistakes && knowledge.mistakes.length > 0 && (
           <div>
-            <p className="text-xs font-black text-gray-500 uppercase tracking-wide mb-1.5">⚠️ Lỗi thường gặp</p>
+            <p className="text-xs font-bold text-gray-500 uppercase tracking-wide mb-1.5">⚠️ Lỗi thường gặp</p>
             <ul className="space-y-1">
               {knowledge.mistakes.map((m, i) => (
                 <li key={i} className="flex gap-2 text-sm text-gray-700 font-semibold leading-relaxed">
@@ -142,7 +142,7 @@ function KnowledgePanel({ lessonId, knowledge, levelText, levelBorder, levelBg }
 
         {knowledge.exceptions && knowledge.exceptions.length > 0 && (
           <div>
-            <p className="text-xs font-black text-gray-500 uppercase tracking-wide mb-1.5">🔀 Ngoại lệ</p>
+            <p className="text-xs font-bold text-gray-500 uppercase tracking-wide mb-1.5">🔀 Ngoại lệ</p>
             <ul className="space-y-1">
               {knowledge.exceptions.map((e, i) => (
                 <li key={i} className="flex gap-2 text-sm text-gray-700 font-semibold leading-relaxed">
@@ -155,7 +155,7 @@ function KnowledgePanel({ lessonId, knowledge, levelText, levelBorder, levelBg }
 
         {knowledge.mnemonic && (
           <div className="bg-purple-50 rounded-xl px-3 py-2.5 border border-purple-200">
-            <p className="text-xs font-black text-purple-700 mb-1">🧠 Mẹo nhớ</p>
+            <p className="text-xs font-bold text-purple-700 mb-1">🧠 Mẹo nhớ</p>
             <p className="text-sm text-purple-800 font-semibold leading-relaxed">{knowledge.mnemonic}</p>
           </div>
         )}
@@ -207,7 +207,7 @@ function PracticeWords({ lesson, level }: { lesson: PairLesson; level: Level }) 
         <div key={sound.symbol} className={`${level.bg} rounded-xl border ${level.border} px-3 py-2.5`}>
           <div className="flex items-center gap-1.5 mb-2">
             <span className="text-base">{sound.emoji}</span>
-            <span className={`font-black text-sm font-mono ${level.text}`}>/{sound.symbol}/</span>
+            <span className={`font-bold text-sm font-mono ${level.text}`}>/{sound.symbol}/</span>
             <span className="text-xs text-gray-400 font-semibold">{sound.keyword}</span>
           </div>
           <div className="flex flex-wrap gap-2">
@@ -285,32 +285,30 @@ export default function LessonPage() {
     <div className={`min-h-screen ${level.bg} pb-24`}>
 
       {/* ── Compact 1-line header ── */}
-      <div className={`bg-gradient-to-r ${level.gradient} text-white sticky top-0 z-10 shadow-sm`}>
+      <div className={`bg-gradient-to-r ${level.gradient} text-white sticky top-0 z-10 rounded-b-3xl border-b-[4px] border-black/20`}>
         <div className="max-w-lg mx-auto px-4 py-3 flex items-center gap-2">
-          <button onClick={() => router.back()}
-            className="text-white/70 hover:text-white font-bold text-lg w-8 shrink-0">←</button>
+          <button onClick={() => router.back()} aria-label="Quay lại"
+            className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 text-lg font-bold transition-transform active:translate-y-0.5 active:border-b-2">←</button>
           <div className="flex-1 min-w-0 text-center">
-            <p className="text-[11px] text-white/60 font-semibold leading-none mb-0.5">{level.titleVi}</p>
-            <p className="font-black text-sm font-mono leading-none truncate">
+            <p className="text-[11px] text-white/70 font-semibold leading-none mb-0.5">{level.titleVi}</p>
+            <p className="font-bold text-base font-mono leading-none truncate">
               {lesson.title}
               {mastered && <span className="ml-1.5 text-xs">🏆</span>}
             </p>
           </div>
-          <button
-            onClick={() => prevLesson && navigate(prevLesson.id)}
-            disabled={!prevLesson}
-            className="text-white/70 hover:text-white disabled:opacity-20 font-black text-xl w-8 text-center shrink-0">‹</button>
-          <button
-            onClick={() => nextLesson && navigate(nextLesson.id)}
-            disabled={!nextLesson}
-            className="text-white/70 hover:text-white disabled:opacity-20 font-black text-xl w-8 text-center shrink-0">›</button>
+          {([['‹', prevLesson, 'Bài trước'], ['›', nextLesson, 'Bài sau']] as const).map(([arrow, target, label]) => (
+            <button key={arrow} aria-label={label}
+              onClick={() => target && navigate(target.id)}
+              disabled={!target}
+              className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 text-lg font-bold transition-transform active:translate-y-0.5 active:border-b-2 disabled:opacity-30">{arrow}</button>
+          ))}
         </div>
       </div>
 
       <div className="max-w-lg mx-auto px-4 pt-4 space-y-4">
 
         {/* ── Mastery checklist — collapsible ── */}
-        <div className="bg-white rounded-2xl border border-gray-100 overflow-hidden">
+        <div className="bg-white rounded-3xl overflow-hidden border-2 border-slate-200 border-b-[4px] border-b-slate-300">
           {/* Header: always visible — tap to expand */}
           <button
             onClick={() => setProgressOpen(o => !o)}
@@ -357,7 +355,7 @@ export default function LessonPage() {
                 )
               })}
               {mastered && (
-                <p className={`text-sm ${level.text} font-black pt-1.5 border-t border-gray-100`}>🏆 Thành thạo!</p>
+                <p className={`text-sm ${level.text} font-bold pt-1.5 border-t border-gray-100`}>🏆 Thành thạo!</p>
               )}
             </div>
           )}
@@ -385,7 +383,7 @@ export default function LessonPage() {
                   </div>
                   {/* Line 2: target sound + speaker */}
                   <div className="flex items-center gap-1.5">
-                    <span className={`font-black text-base ${level.text} font-mono`}>/{s.symbol}/</span>
+                    <span className={`font-bold text-base ${level.text} font-mono`}>/{s.symbol}/</span>
                     <span className={`text-xs ${level.text} ml-auto`}>🔊</span>
                   </div>
                 </button>
@@ -396,7 +394,7 @@ export default function LessonPage() {
             {pairLesson.tip && (
               <div className="bg-white/80 rounded-xl px-3 py-2.5 border border-gray-100">
                 <p className="text-sm text-gray-600 font-semibold leading-relaxed">
-                  <span className={`${level.text} font-black`}>💡 </span>{pairLesson.tip}
+                  <span className={`${level.text} font-bold`}>💡 </span>{pairLesson.tip}
                 </p>
               </div>
             )}
@@ -410,7 +408,7 @@ export default function LessonPage() {
         {ruleLesson && (
           <div className={`bg-white rounded-3xl shadow-sm overflow-hidden border-2 ${level.border}`}>
             <div className={`${level.bg} px-4 py-3 border-b ${level.border}`}>
-              <p className={`font-black ${level.text} text-sm`}>📊 {ruleLesson.title} — quy tắc</p>
+              <p className={`font-bold ${level.text} text-sm`}>📊 {ruleLesson.title} — quy tắc</p>
               <p className={`text-xs ${level.text} opacity-60 font-semibold mt-0.5`}>{ruleLesson.subtitle}</p>
             </div>
             <div className="divide-y divide-gray-50">
@@ -418,7 +416,7 @@ export default function LessonPage() {
                 const col = BUCKET_COLORS[i] ?? BUCKET_COLORS[0]
                 return (
                   <div key={bucket.label} className={`${col.bg} px-4 py-3.5`}>
-                    <p className={`font-black text-sm ${col.text} mb-1.5`}>{bucket.label}</p>
+                    <p className={`font-bold text-sm ${col.text} mb-1.5`}>{bucket.label}</p>
                     <p className="text-sm text-gray-600 font-semibold leading-relaxed mb-1">{bucket.condition}</p>
                     {bucket.tip && <p className={`text-sm font-bold ${col.text} mb-2`}>💡 {bucket.tip}</p>}
                     <div className="flex flex-wrap gap-1.5">
@@ -440,7 +438,7 @@ export default function LessonPage() {
         {lesson.type === 'rhythm' && (
           <div className={`bg-white rounded-3xl shadow-sm overflow-hidden border-2 ${level.border}`}>
             <div className={`${level.bg} px-4 py-3 border-b ${level.border}`}>
-              <p className={`font-black ${level.text} text-sm`}>🎶 Câu luyện tập</p>
+              <p className={`font-bold ${level.text} text-sm`}>🎶 Câu luyện tập</p>
               <p className={`text-xs ${level.text} opacity-60 font-semibold mt-0.5`}>Từ in đậm = nhấn mạnh khi đọc</p>
             </div>
             <div className="px-4 py-3 space-y-2.5">
@@ -474,14 +472,14 @@ export default function LessonPage() {
                 <span className="text-2xl">{meta?.emoji}</span>
                 <div className="text-left flex-1">
                   <div className="flex items-center gap-2">
-                    <p className={`font-black ${level.text} text-sm`}>{meta?.label}</p>
+                    <p className={`font-bold ${level.text} text-sm`}>{meta?.label}</p>
                     {isBonus && <span className="text-xs text-gray-400 font-semibold bg-gray-100 px-1.5 py-0.5 rounded-full">bonus</span>}
                   </div>
                   <p className="text-xs text-gray-400 font-semibold">{meta?.desc}</p>
                 </div>
                 {done
-                  ? <span className="text-green-500 font-black text-sm">✅</span>
-                  : <span className={`${level.text} font-black`}>→</span>}
+                  ? <span className="text-green-500 font-bold text-sm">✅</span>
+                  : <span className={`${level.text} font-bold`}>→</span>}
               </button>
             )
           })}

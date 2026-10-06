@@ -11,6 +11,7 @@ import UpgradeModal from '@/components/UpgradeModal'
 import { getEffectivePlan, canAccessWordStress } from '@/lib/planUtils'
 import { cachedFetch } from '@/lib/cachedFetch'
 import StickerEntryCard from '@/components/StickerEntryCard'
+import { GameHeader } from '@/components/ChunkyUI'
 
 // Navigation metadata fetched from /api/phonics/levels — NOT statically imported, so the
 // full teaching content (tip/practice_words/sentences/buckets) never ships in this bundle.
@@ -140,40 +141,31 @@ export default function PhonicsHub() {
   const earnedBadges = getBadges().filter(b => b.startsWith('mastered:'))
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gradient-to-br from-orange-50 via-amber-50 to-yellow-50">
       {/* Header */}
-      <div className="bg-blue-600 text-white">
-        <div className="max-w-2xl mx-auto px-4 py-4 flex items-center gap-3">
-          <button onClick={() => router.back()} className="text-white/70 hover:text-white text-xl">←</button>
-          <span className="text-2xl">🔤</span>
-          <div>
-            <h1 className="font-bold text-lg leading-tight">Phonics</h1>
-            <p className="text-white/70 text-xs">IPA · Minimal Pairs · Quy tắc phát âm · Ngữ điệu</p>
-          </div>
-        </div>
-      </div>
+      <GameHeader colorCls="bg-orange-500" title="🔤 Phonics" subtitle="IPA · Minimal Pairs · Quy tắc phát âm · Ngữ điệu" onBack={() => router.back()} />
 
-      <div className="max-w-2xl mx-auto px-4 pt-4 pb-8 space-y-3">
+      <div className="max-w-2xl mx-auto px-4 pt-4 pb-nav space-y-3">
         <StickerEntryCard collection="phonics" childId={childId} />
 
         {/* Progress + streak row */}
         <div className="flex gap-3">
-          <div className="flex-1 bg-white rounded-2xl border border-gray-100 shadow-sm px-4 py-3">
+          <div className="flex-1 bg-white rounded-3xl px-4 py-3 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
             <div className="flex justify-between items-center mb-2">
               <span className="font-bold text-gray-800 text-sm">🏆 Thành thạo</span>
               <span className="text-xs font-bold text-gray-400">{totalMastered}/{totalLessons} · {pct}%</span>
             </div>
             <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
-              <div className="h-full bg-gradient-to-r from-blue-400 to-blue-600 rounded-full transition-all duration-500"
+              <div className="h-full bg-gradient-to-r from-orange-400 to-amber-500 rounded-full transition-all duration-500"
                 style={{ width: `${Math.max(pct, totalSeen > 0 ? 2 : 0)}%` }} />
             </div>
             <p className="text-xs text-gray-400 mt-1.5 font-medium">{totalSeen} đã học · {totalMastered} thành thạo</p>
           </div>
 
           {/* Streak card */}
-          <div className="bg-white rounded-2xl border border-gray-100 shadow-sm px-3 py-2 flex flex-col items-center justify-center min-w-[72px] gap-0.5">
+          <div className="bg-white rounded-3xl px-3 py-2 flex flex-col items-center justify-center min-w-[72px] gap-0.5 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
             <span className="text-2xl">{streak.current > 0 ? '🔥' : '💤'}</span>
-            <span className="text-blue-600 font-black text-sm leading-none">{streak.current}d</span>
+            <span className="text-orange-600 font-bold text-sm leading-none">{streak.current}d</span>
             <span className="text-gray-400 text-[10px] font-semibold">streak</span>
             {canFreeze && (
               <button onClick={handleStreakFreeze}
@@ -190,7 +182,7 @@ export default function PhonicsHub() {
         {/* Daily Challenge */}
         {dailyChallenge && (
           <div className="bg-gradient-to-br from-indigo-500 to-purple-600 rounded-2xl px-4 py-3.5 text-white shadow-sm">
-            <p className="text-[10px] font-black uppercase tracking-wider text-white/60 mb-1.5">⚡ THỬ THÁCH HÔM NAY</p>
+            <p className="text-[10px] font-bold uppercase tracking-wider text-white/60 mb-1.5">⚡ THỬ THÁCH HÔM NAY</p>
             <div className="flex items-center gap-3">
               <span className="text-3xl">{dailyChallenge.emoji}</span>
               <div className="flex-1">
@@ -228,10 +220,10 @@ export default function PhonicsHub() {
                     className="w-full flex items-center gap-3 bg-white rounded-xl border border-amber-100 px-3 py-2.5 active:scale-95 transition-transform">
                     <span className="text-xl w-7 text-center">{info.emoji}</span>
                     <div className="flex-1 text-left">
-                      <span className="font-black text-gray-800 font-mono">/{symbol}/</span>
+                      <span className="font-bold text-gray-800 font-mono">/{symbol}/</span>
                       <span className="text-gray-500 text-xs font-semibold ml-1.5">{info.keyword}</span>
                     </div>
-                    <span className="text-amber-600 font-black text-xs">Ôn ngay →</span>
+                    <span className="text-amber-600 font-bold text-xs">Ôn ngay →</span>
                   </button>
                 )
               })}
@@ -256,7 +248,7 @@ export default function PhonicsHub() {
                     <div className="flex-1 text-left">
                       <span className="font-bold text-gray-800 text-sm">{meta.title}</span>
                     </div>
-                    <span className={`font-black text-xs ${decayColor(score)}`}>{score}%</span>
+                    <span className={`font-bold text-xs ${decayColor(score)}`}>{score}%</span>
                   </button>
                 )
               })}
@@ -266,7 +258,7 @@ export default function PhonicsHub() {
 
         {/* Badges */}
         {earnedBadges.length > 0 && (
-          <div className="bg-white rounded-2xl border border-gray-100 shadow-sm px-4 py-3.5">
+          <div className="bg-white rounded-3xl px-4 py-3.5 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
             <div className="flex items-center justify-between mb-2.5">
               <p className="text-xs font-bold text-gray-500 uppercase tracking-wide">🏅 Huy hiệu thành thạo</p>
               <span className="text-xs font-bold text-blue-500">{earnedBadges.length}/{totalLessons}</span>
@@ -295,7 +287,7 @@ export default function PhonicsHub() {
         {/* Level cards */}
         <div className="space-y-2">
           <p className="text-xs font-bold text-gray-400 uppercase tracking-wider px-1">📚 CÁC LEVEL ({levels.length})</p>
-          <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden divide-y divide-gray-100">
+          <div className="bg-white rounded-3xl overflow-hidden divide-y divide-gray-100 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
             {levels.map((level: Level) => {
               const unlocked      = isPro || level.id === FREE_PHONICS_LEVEL
               const lessons       = level.lessons as LessonBase[]
@@ -316,7 +308,7 @@ export default function PhonicsHub() {
                   <div className={`w-11 h-11 rounded-xl bg-gradient-to-br ${level.gradient} flex items-center justify-center text-2xl flex-shrink-0 shadow-sm relative`}>
                     {allDone ? '🏆' : level.emoji}
                     {fadedCount > 0 && (
-                      <span className="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-orange-400 text-white text-[9px] font-black flex items-center justify-center">{fadedCount}</span>
+                      <span className="absolute -top-1 -right-1 w-4 h-4 rounded-full bg-orange-400 text-white text-[9px] font-bold flex items-center justify-center">{fadedCount}</span>
                     )}
                   </div>
 
@@ -355,7 +347,7 @@ export default function PhonicsHub() {
         {/* Extra tools */}
         <div className="space-y-2">
           <p className="text-xs font-bold text-gray-400 uppercase tracking-wider px-1">🛠️ CÔNG CỤ</p>
-          <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden divide-y divide-gray-100">
+          <div className="bg-white rounded-3xl overflow-hidden divide-y divide-gray-100 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
             <button onClick={() => router.push(`/dashboard/${childId}/phonics/chart`)}
               className="w-full flex items-center gap-3 px-4 py-3.5 hover:bg-gray-50 active:bg-gray-100 transition-colors">
               <span className="text-2xl">🗺️</span>
@@ -371,7 +363,7 @@ export default function PhonicsHub() {
               <span className="text-2xl">📢</span>
               <div className="text-left flex-1">
                 <p className="font-semibold text-gray-800 text-sm">Trọng âm từ
-                  {!hasWordStress && <span className="ml-2 text-[10px] font-black bg-amber-100 text-amber-700 px-1.5 py-0.5 rounded-full">Pro 3 tháng+</span>}
+                  {!hasWordStress && <span className="ml-2 text-[10px] font-bold bg-amber-100 text-amber-700 px-1.5 py-0.5 rounded-full">Pro 3 tháng+</span>}
                 </p>
                 <p className="text-xs text-gray-400">Nghe → tap âm tiết được nhấn</p>
               </div>
@@ -391,7 +383,7 @@ export default function PhonicsHub() {
 function HowToLearnCard() {
   const [open, setOpen] = useState(false)
   return (
-    <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+    <div className="bg-white rounded-3xl overflow-hidden border-2 border-slate-200 border-b-[4px] border-b-slate-300">
       <button onClick={() => setOpen(v => !v)}
         className="w-full flex items-center justify-between px-4 py-3 hover:bg-gray-50 transition-colors">
         <span className="font-semibold text-gray-700 text-sm">❓ Cách học phát âm</span>

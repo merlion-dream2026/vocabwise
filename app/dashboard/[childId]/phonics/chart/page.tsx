@@ -85,7 +85,7 @@ function PhonemeCell({
       onClick={onTap}
       className={`border-2 rounded-lg flex flex-col items-center justify-center py-1 w-full transition-all duration-100 active:scale-90 ${containerCls} ${isPlaying ? 'ring-2 ring-blue-400 ring-offset-1 scale-110 shadow-md z-10 relative' : ''}`}
     >
-      <span className={`font-black font-mono leading-none ${symCls} ${symFontCls}`}>
+      <span className={`font-bold font-mono leading-none ${symCls} ${symFontCls}`}>
         {sym}
       </span>
       <span className={`text-[9px] font-semibold leading-tight mt-0.5 truncate w-full text-center px-0.5 ${kwCls}`}>
@@ -133,16 +133,16 @@ export default function IPAChartPage() {
   const playingSound  = playing ? SOUND_DATA[playing] : null
 
   return (
-    <div className="min-h-screen bg-indigo-50 pb-10">
+    <div className="min-h-screen bg-indigo-50 pb-nav">
 
       {/* Header */}
-      <div className="bg-gradient-to-br from-indigo-600 to-purple-600 text-white px-4 pt-12 pb-5">
-        <button onClick={() => router.back()} className="text-white/70 font-bold text-sm mb-3 flex items-center gap-1">
+      <div className="bg-gradient-to-br from-indigo-600 to-purple-600 text-white px-4 pt-6 pb-5 rounded-b-3xl border-b-[4px] border-black/20">
+        <button onClick={() => router.back()} className="inline-flex items-center gap-1 rounded-full border-b-[3px] border-black/20 bg-white/25 px-3 py-1.5 text-sm font-bold text-white transition-transform active:translate-y-0.5 active:border-b-2 mb-3">
           ← Phonics
         </button>
         <div className="flex items-end justify-between">
           <div>
-            <h1 className="text-xl font-black">🔤 Bảng IPA</h1>
+            <h1 className="text-xl font-bold">🔤 Bảng IPA</h1>
             <p className="text-white/70 text-xs mt-0.5">Bấm vào ô để nghe phát âm mẫu</p>
           </div>
           <div className="text-right text-xs text-white/60 space-y-0.5">
@@ -168,9 +168,9 @@ export default function IPAChartPage() {
         </div>
 
         {/* VOWELS */}
-        <div className="bg-white rounded-2xl overflow-hidden border border-indigo-100 shadow-sm">
+        <div className="bg-white rounded-3xl overflow-hidden border-indigo-100 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
           <div className="bg-indigo-600 px-3 py-2 text-center">
-            <p className="text-white text-xs font-black uppercase tracking-wider">VOWELS · Nguyên âm</p>
+            <p className="text-white text-xs font-bold uppercase tracking-wider">VOWELS · Nguyên âm</p>
           </div>
           <div className="flex px-2 pt-2 pb-1 gap-2">
             <p className="flex-[4] text-center text-[9px] font-bold text-gray-400 uppercase tracking-wide">Monophthongs</p>
@@ -199,9 +199,9 @@ export default function IPAChartPage() {
         </div>
 
         {/* CONSONANTS */}
-        <div className="bg-white rounded-2xl overflow-hidden border border-amber-100 shadow-sm">
+        <div className="bg-white rounded-3xl overflow-hidden border-amber-100 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
           <div className="bg-amber-500 px-3 py-2 text-center">
-            <p className="text-white text-xs font-black uppercase tracking-wider">CONSONANTS · Phụ âm</p>
+            <p className="text-white text-xs font-bold uppercase tracking-wider">CONSONANTS · Phụ âm</p>
           </div>
           <div className="px-2 py-2 space-y-1">
             {CONSONANTS.map((row, ri) => (
@@ -218,7 +218,7 @@ export default function IPAChartPage() {
         <div className={`bg-blue-50 rounded-2xl border-2 border-blue-200 px-4 py-3 flex items-center gap-3 transition-all duration-200 ${playingSound ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
           <span className="text-2xl">{playingSound?.emoji ?? '🔊'}</span>
           <div className="flex-1 min-w-0">
-            <p className="font-black text-blue-700 font-mono text-lg leading-none">/{playing}/</p>
+            <p className="font-bold text-blue-700 font-mono text-lg leading-none">/{playing}/</p>
             <p className="text-xs text-blue-500 font-semibold mt-0.5">
               {playingSound?.keyword} · {playingSound?.vi}
             </p>

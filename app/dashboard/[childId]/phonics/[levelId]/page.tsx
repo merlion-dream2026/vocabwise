@@ -78,14 +78,14 @@ function LevelArticle({ levelId, gradient: _gradient, text, bg, border: _border 
   const article = LEVEL_ARTICLES[levelId]
   if (!article) return null
   return (
-    <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+    <div className="bg-white rounded-3xl overflow-hidden border-2 border-slate-200 border-b-[4px] border-b-slate-300">
       <button
         onClick={() => setOpen(v => !v)}
         className="w-full flex items-center justify-between px-4 py-3.5 hover:bg-gray-50 transition-colors"
       >
         <div className="flex items-center gap-2">
           <span className="text-lg">📖</span>
-          <span className={`font-black text-sm ${text}`}>Kiến thức cần biết trước khi luyện</span>
+          <span className={`font-bold text-sm ${text}`}>Kiến thức cần biết trước khi luyện</span>
         </div>
         <span className={`text-gray-400 text-sm transition-transform duration-200 ${open ? 'rotate-180' : ''}`}>▾</span>
       </button>
@@ -96,7 +96,7 @@ function LevelArticle({ levelId, gradient: _gradient, text, bg, border: _border 
           </div>
           {article.sections.map((s, i) => (
             <div key={i} className={`px-4 py-3 ${i % 2 === 0 ? 'bg-white' : 'bg-gray-50/60'} border-t border-gray-100`}>
-              <p className={`text-sm font-black ${text} mb-1.5`}>{s.heading}</p>
+              <p className={`text-sm font-bold ${text} mb-1.5`}>{s.heading}</p>
               <p className="text-sm text-gray-600 leading-relaxed whitespace-pre-line">{s.body}</p>
             </div>
           ))}
@@ -163,17 +163,17 @@ export default function LevelPage() {
   const pct = level.lessons.length > 0 ? Math.round((masteredCount / level.lessons.length) * 100) : 0
 
   return (
-    <div className="min-h-screen bg-gray-50 pb-10">
+    <div className="min-h-screen bg-gray-50 pb-nav">
       {showUpgrade && <UpgradeModal onClose={() => setShowUpgrade(false)} username={session?.username ?? ''} />}
       {/* Header */}
-      <div className={`bg-gradient-to-br ${level.gradient} px-4 pt-12 pb-6 text-white`}>
-        <button onClick={() => router.back()} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-4">
+      <div className={`bg-gradient-to-br ${level.gradient} px-4 pt-6 pb-6 text-white rounded-b-3xl border-b-[4px] border-black/20`}>
+        <button onClick={() => router.back()} className="inline-flex items-center gap-1 rounded-full border-b-[3px] border-black/20 bg-white/25 px-3 py-1.5 text-sm font-bold text-white transition-transform active:translate-y-0.5 active:border-b-2 mb-3">
           ← Phonics
         </button>
         <div className="flex items-center gap-3 mb-4">
           <span className="text-4xl">{level.emoji}</span>
           <div>
-            <h1 className="text-2xl font-black leading-tight">{level.titleVi}</h1>
+            <h1 className="text-2xl font-bold leading-tight">{level.titleVi}</h1>
             <p className="text-white/70 text-sm font-semibold">{level.subtitle}</p>
           </div>
         </div>
@@ -213,7 +213,7 @@ export default function LevelPage() {
                 </div>
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-2 flex-wrap">
-                    <span className={`font-black ${level.text} text-base`}>{lesson.title}</span>
+                    <span className={`font-bold ${level.text} text-base`}>{lesson.title}</span>
                     <span className="text-xs text-gray-400 font-semibold">{lesson.subtitle}</span>
                   </div>
                   <div className="flex gap-1.5 mt-1 flex-wrap">
@@ -227,10 +227,10 @@ export default function LevelPage() {
                         {gamesPlayed}/{lesson.masteryGames.length} 🎮
                       </span>
                     )}
-                    {!lessonFree && mastered && <span className="text-xs bg-amber-100 text-amber-700 font-black px-2 py-0.5 rounded-full">🏆 Thành thạo</span>}
+                    {!lessonFree && mastered && <span className="text-xs bg-amber-100 text-amber-700 font-bold px-2 py-0.5 rounded-full">🏆 Thành thạo</span>}
                   </div>
                 </div>
-                <span className={`${lessonFree ? 'text-gray-300' : level.text} font-black text-lg flex-shrink-0`}>{lessonFree ? '🔒' : '→'}</span>
+                <span className={`${lessonFree ? 'text-gray-300' : level.text} font-bold text-lg flex-shrink-0`}>{lessonFree ? '🔒' : '→'}</span>
               </div>
             </button>
           )

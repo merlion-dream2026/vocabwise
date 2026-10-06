@@ -11,6 +11,7 @@ import UpgradeModal from '@/components/UpgradeModal'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import GameSoundToggle from '@/components/GameSoundToggle'
 import { cachedFetch } from '@/lib/cachedFetch'
+import { cta } from '@/components/ChunkyUI'
 
 type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; bonus_features?: string[] | null }
 
@@ -133,17 +134,17 @@ export default function WordStressPage() {
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti />}
-        <div className="bg-gradient-to-br from-teal-400 to-cyan-500 px-4 pt-12 pb-8 text-white">
-          <button onClick={() => router.back()} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-4">← Phát âm</button>
-          <h1 className="text-2xl font-black">📢 Trọng âm từ</h1>
+        <div className="bg-gradient-to-br from-teal-400 to-cyan-500 px-4 pt-6 pb-8 text-white rounded-b-3xl border-b-[4px] border-black/20">
+          <button onClick={() => router.back()} className="inline-flex items-center gap-1 rounded-full border-b-[3px] border-black/20 bg-white/25 px-3 py-1.5 text-sm font-bold text-white transition-transform active:translate-y-0.5 active:border-b-2 mb-3">← Phát âm</button>
+          <h1 className="text-2xl font-bold">📢 Trọng âm từ</h1>
         </div>
         <div className="flex-1 flex flex-col items-center justify-center px-4 py-8 bg-teal-50">
           <div className="text-7xl mb-4">{finalScore === total ? '🏆' : finalScore >= total * 0.7 ? '⭐' : '💪'}</div>
-          <h2 className="text-3xl font-black text-gray-800 mb-1">{finalScore}/{total}</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mb-1">{finalScore}/{total}</h2>
           <p className="text-gray-500 font-bold text-xl mb-8">{pct}%</p>
           <div className="w-full max-w-sm space-y-3">
-            <button onClick={restart} className="w-full bg-teal-500 text-white font-black text-xl py-4 rounded-2xl shadow-lg">🔄 Chơi lại</button>
-            <button onClick={() => router.back()} className="w-full bg-white border-2 border-gray-200 text-gray-600 font-bold text-xl py-4 rounded-2xl">← Quay lại</button>
+            <button onClick={restart} className={cta('teal')}>🔄 Chơi lại</button>
+            <button onClick={() => router.back()} className="w-full bg-white text-gray-600 font-bold text-xl py-4 rounded-3xl border-2 border-slate-200 border-b-[4px] border-b-slate-300">← Quay lại</button>
           </div>
         </div>
       </div>
@@ -152,9 +153,9 @@ export default function WordStressPage() {
 
   if (!gameStarted) return (
     <div className="flex flex-col min-h-screen">
-      <div className="bg-gradient-to-br from-teal-400 to-cyan-500 px-4 pt-12 pb-8 text-white">
-        <button onClick={() => router.back()} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-4">← Phát âm</button>
-        <h1 className="text-2xl font-black">📢 Trọng âm từ</h1>
+      <div className="bg-gradient-to-br from-teal-400 to-cyan-500 px-4 pt-6 pb-8 text-white rounded-b-3xl border-b-[4px] border-black/20">
+        <button onClick={() => router.back()} className="inline-flex items-center gap-1 rounded-full border-b-[3px] border-black/20 bg-white/25 px-3 py-1.5 text-sm font-bold text-white transition-transform active:translate-y-0.5 active:border-b-2 mb-3">← Phát âm</button>
+        <h1 className="text-2xl font-bold">📢 Trọng âm từ</h1>
         <p className="text-white/80 text-sm mt-1">Nghe → tap âm tiết được nhấn mạnh</p>
       </div>
       <div className="flex-1 flex flex-col items-center justify-center px-4 gap-5 bg-teal-50">
@@ -162,7 +163,7 @@ export default function WordStressPage() {
         <div className="w-full max-w-sm space-y-3">
           {groups.map(g => (
             <div key={g.id} className="bg-white rounded-2xl border-2 border-teal-100 p-4">
-              <p className="font-black text-teal-700 text-sm mb-2">{g.emoji} {g.title}</p>
+              <p className="font-bold text-teal-700 text-sm mb-2">{g.emoji} {g.title}</p>
               <p className="text-gray-400 text-xs font-semibold mb-3">{g.subtitle}</p>
               <div className="flex flex-wrap gap-2">
                 {g.words.slice(0, 4).map(w => (
@@ -182,7 +183,7 @@ export default function WordStressPage() {
           <p className="text-teal-700 font-bold text-sm">🎯 Cách chơi:</p>
           <p className="text-teal-600 text-xs mt-1">Nghe từ → bấm vào âm tiết màu đậm nhất (được nhấn)</p>
         </div>
-        <button onClick={startGame} className="w-full max-w-sm bg-teal-500 text-white font-black text-xl py-4 rounded-2xl shadow-lg active:scale-95 transition-all">
+        <button onClick={startGame} className={cta('teal', 'max-w-sm')}>
           ▶️ Bắt đầu ({TOTAL_PER_ROUND} câu)
         </button>
       </div>
@@ -191,11 +192,11 @@ export default function WordStressPage() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <div className="bg-gradient-to-br from-teal-400 to-cyan-500 px-4 pt-12 pb-4 text-white">
+      <div className="bg-gradient-to-br from-teal-400 to-cyan-500 px-4 pt-6 pb-4 text-white rounded-b-3xl border-b-[4px] border-black/20">
         <button onClick={() => router.back()} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-3">← Phát âm</button>
         <div className="flex items-center justify-between mb-3">
-          <h1 className="text-xl font-black">📢 Trọng âm từ</h1>
-          <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm">{idx + 1}/{questions.length}</span>
+          <h1 className="text-xl font-bold">📢 Trọng âm từ</h1>
+          <span className="bg-white/20 px-3 py-1 rounded-full font-bold text-sm">{idx + 1}/{questions.length}</span>
         </div>
         <div className="h-1.5 bg-white/20 rounded-full overflow-hidden">
           <div className="h-full bg-white/70 rounded-full transition-all" style={{ width: `${((idx + 1) / questions.length) * 100}%` }} />
@@ -211,18 +212,18 @@ export default function WordStressPage() {
         </div>
 
         {/* Word + emoji */}
-        <div className="bg-white rounded-3xl p-6 shadow-md w-full max-w-sm text-center">
+        <div className="bg-white rounded-3xl p-6 w-full max-w-sm text-center border-2 border-slate-200 border-b-[4px] border-b-slate-300">
           {phase === 'listening' && (
             <>
               <div className="text-5xl mb-2 animate-bounce">{q.emoji}</div>
-              <div className="text-4xl font-black text-gray-800 animate-pulse">{q.word}</div>
+              <div className="text-4xl font-bold text-gray-800 animate-pulse">{q.word}</div>
               <p className="text-gray-400 text-sm mt-2">Đang phát âm...</p>
             </>
           )}
           {(phase === 'choosing' || phase === 'result') && (
             <>
               <div className="text-5xl mb-2">{q.emoji}</div>
-              <div className="text-3xl font-black text-gray-800 mb-1">{q.word}</div>
+              <div className="text-3xl font-bold text-gray-800 mb-1">{q.word}</div>
               <p className="text-xs text-gray-400 font-semibold">{q.vi}</p>
               {phase === 'choosing' && (
                 <button onClick={() => { speakingRef.current = false; playWord(q.word, () => setPhase('choosing')) }}
@@ -255,7 +256,7 @@ export default function WordStressPage() {
                     : 'px-6 py-4 text-2xl min-w-[72px]'
                 return (
                   <button key={i} onClick={() => handleChoose(i)} disabled={phase === 'result'}
-                    className={`${cls} rounded-2xl ${sizeClass} font-black transition-all`}>
+                    className={`${cls} rounded-2xl ${sizeClass} font-bold transition-all`}>
                     {syl}
                     {showResult && isCorrect && <div className="text-xs font-bold mt-1">nhấn đây</div>}
                   </button>
@@ -267,7 +268,7 @@ export default function WordStressPage() {
 
         {phase === 'result' && (
           <button onClick={advance}
-            className={`w-full max-w-sm font-black text-xl py-4 rounded-2xl shadow-md text-white ${selected === q.stress ? 'bg-green-500' : 'bg-teal-500'}`}>
+            className={`w-full max-w-sm font-bold text-xl py-4 rounded-2xl shadow-md text-white ${selected === q.stress ? 'bg-green-500' : 'bg-teal-500'}`}>
             {idx + 1 >= questions.length ? 'Kết quả →' : 'Tiếp theo →'}
           </button>
         )}
