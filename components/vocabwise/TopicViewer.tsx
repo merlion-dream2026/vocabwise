@@ -13,6 +13,7 @@ import PassageGrammarNote from './PassageGrammarNote'
 import GrammarSpotlight, { type GrammarSpotlightData } from './GrammarSpotlight'
 import { cachedFetch } from '@/lib/cachedFetch'
 import { stripMarkdown } from '@/lib/textFormat'
+import { academicFetch } from '@/lib/academicSync'
 
 type GlossaryItem = {
   id: number
@@ -184,7 +185,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
 
   useEffect(() => {
     Promise.all([
-      fetch('/api/vocabwise/sync').then(r => r.ok ? r.json() : null),
+      academicFetch().then(r => r.ok ? r.json() : null),
       cachedFetch('/api/auth/me').then(r => r.ok ? r.json() : null) as Promise<(Session & { familyId?: string }) | null>,
       fetch(`/api/vocabwise/wordlist?topic_id=${topicId}`).then(r => r.ok ? r.json() : { saved: [] }),
     ]).then(([d, sess, wl]) => {
@@ -200,7 +201,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
   }, [topicId])
 
   const saveAcademicSync = (newFull: Record<string, AcademicTopicSync>, history: typeof savedHistory, srs: typeof savedSrs) => {
-    fetch('/api/vocabwise/sync', {
+    academicFetch({
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ mastery: newFull, history, srs }),

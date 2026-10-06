@@ -4,6 +4,7 @@ import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import UpgradeBanner from '@/components/UpgradeBanner'
 import { cachedFetch } from '@/lib/cachedFetch'
+import { academicFetch } from '@/lib/academicSync'
 
 type AcademicTopicSync = { completed: boolean; mastered: boolean }
 type Session = { plan: string; username?: string; free_trial_expires_at?: string | null; plan_end_date?: string | null }
@@ -48,7 +49,7 @@ export default function VocabWisePage() {
     setPlacementDismissed(!!localStorage.getItem(PLACEMENT_DISMISS_KEY))
     Promise.all([
       cachedFetch('/api/auth/me').then(r => r.ok ? r.json() : null) as Promise<Session | null>,
-      fetch('/api/vocabwise/sync').then(r => r.ok ? r.json() : null),
+      academicFetch().then(r => r.ok ? r.json() : null),
     ]).then(([sess, d]) => {
       setSession(sess)
       setSyncMap(d?.mastery ?? {})

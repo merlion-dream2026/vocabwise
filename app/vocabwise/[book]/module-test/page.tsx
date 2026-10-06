@@ -7,6 +7,7 @@ import { pickTestSet, TEST_SET_COUNT } from '@/lib/testSetRotation'
 import UpgradeModal from '@/components/UpgradeModal'
 import { getEffectivePlan } from '@/lib/planUtils'
 import { cachedFetch } from '@/lib/cachedFetch'
+import { academicFetch } from '@/lib/academicSync'
 
 type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; bonus_features?: string[] | null }
 
@@ -458,7 +459,7 @@ export default function ModuleTestPage() {
   const [session, setSession] = useState<Session | null>(null)
   const [sessionLoaded, setSessionLoaded] = useState(false)
 
-  // Academic progress lives in family-level vw_academic_sync (mastery/srs/history), separate
+  // Academic progress lives in per-child vw_academic_sync_child (mastery/srs/history), separate
   // from the revision_scores PATCH below. POST /api/vocabwise/sync merges with the server's
   // current state (topicId/date keyed, monotonic), so this snapshot doesn't need to be fresh
   // to avoid clobbering — it's just the delta this test contributes.
@@ -477,7 +478,7 @@ export default function ModuleTestPage() {
     if (!sessionLoaded || !(session && getEffectivePlan(session).isProActive)) return
     Promise.all([
       fetch(`/api/vocabwise/module-test?book=${book}`).then(r => r.ok ? r.json() : null),
-      fetch('/api/vocabwise/sync').then(r => r.ok ? r.json() : null).catch(() => null),
+      academicFetch().then(r => r.ok ? r.json() : null).catch(() => null),
     ]).then(([data, syncData]) => {
       if (!data?.glossary?.length) { router.back(); return }
       const key = `${book}_test`
@@ -496,7 +497,7 @@ export default function ModuleTestPage() {
 
   const saveScore = useCallback((total: number) => {
     const value = { score: total, max: TOTAL_MAX, date: new Date().toISOString().split('T')[0], attempt: attempt + 1 }
-    fetch('/api/vocabwise/sync', {
+    academicFetch({
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ revision_score_key: `${book}_test`, revision_score_value: value }),
@@ -522,7 +523,7 @@ export default function ModuleTestPage() {
       },
     }
     setSavedHistory(newHistory)
-    fetch('/api/vocabwise/sync', {
+    academicFetch({
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ mastery: savedMastery, srs: savedSrs, history: newHistory }),

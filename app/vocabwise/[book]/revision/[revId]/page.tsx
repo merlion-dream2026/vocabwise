@@ -3,6 +3,7 @@ import { useState, useEffect, useCallback } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import GameSoundToggle from '@/components/GameSoundToggle'
+import { academicFetch } from '@/lib/academicSync'
 
 type GlossaryItem = { word: string; pos: string | null; meaning_vi: string; example_en: string; topic_id: string }
 type HistoryEntry = { topics?: number; xp?: number; games?: number; words?: number; topicIds?: string[]; testsDone?: string[] }
@@ -387,7 +388,7 @@ export default function RevisionPage() {
   const [match1Score, setMatch1Score] = useState(0)
   const [match2Score, setMatch2Score] = useState(0)
 
-  // Academic progress lives in family-level vw_academic_sync (mastery/srs/history), separate
+  // Academic progress lives in per-child vw_academic_sync_child (mastery/srs/history), separate
   // from the revision_scores PATCH below. POST /api/vocabwise/sync merges with the server's
   // current state (topicId/date keyed, monotonic), so this snapshot doesn't need to be fresh
   // to avoid clobbering — it's just the delta this test contributes.
@@ -398,7 +399,7 @@ export default function RevisionPage() {
   useEffect(() => {
     Promise.all([
       fetch(`/api/vocabwise/revision?book=${book}&rev=${revNum}`).then(r => r.ok ? r.json() : null),
-      fetch('/api/vocabwise/sync').then(r => r.ok ? r.json() : null).catch(() => null),
+      academicFetch().then(r => r.ok ? r.json() : null).catch(() => null),
     ]).then(([data, sync]) => {
         if (!data?.glossary?.length) { router.back(); return }
         setTopicRange(data.topicRange)
@@ -416,7 +417,7 @@ export default function RevisionPage() {
     const value = { score: total, max: 30, date: new Date().toISOString().split('T')[0] }
     localStorage.setItem(`revision_${book}_${revId}`, JSON.stringify(value))
     // Sync to server so score shows on all devices
-    fetch('/api/vocabwise/sync', {
+    academicFetch({
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ revision_score_key: `${book}_${revId}`, revision_score_value: value }),
@@ -443,7 +444,7 @@ export default function RevisionPage() {
       },
     }
     setSavedHistory(newHistory)
-    fetch('/api/vocabwise/sync', {
+    academicFetch({
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ mastery: savedMastery, srs: savedSrs, history: newHistory }),

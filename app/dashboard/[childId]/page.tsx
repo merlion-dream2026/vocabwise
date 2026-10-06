@@ -9,6 +9,7 @@ import UpgradeBanner from '@/components/UpgradeBanner'
 import LearningHistoryPanel from '@/components/LearningHistoryPanel'
 import ModuleCard from '@/components/ModuleCard'
 import { cachedFetch } from '@/lib/cachedFetch'
+import { academicFetch } from '@/lib/academicSync'
 
 
 const KID_FAQ = [
@@ -147,9 +148,9 @@ export default function ChildRoadmap() {
       cachedFetch('/api/children').then(r => r.json()),
       fetch(`/api/sync/${childId}`).then(r => r.json()).catch(() => ({})),
       cachedFetch('/api/auth/me').then(r => r.ok ? r.json() : null) as Promise<Session | null>,
-      // Academic progress lives in vw_academic_sync, keyed by family — not per-child
+      // Academic progress lives in vw_academic_sync_child (per child) — not in the per-level
       // vocab_sync — so it's fetched separately and merged into the 'academic' key.
-      fetch('/api/vocabwise/sync').then(r => r.ok ? r.json() : null).catch(() => null),
+      academicFetch(undefined, childId).then(r => r.ok ? r.json() : null).catch(() => null),
     ]).then(([kids, allSync, sess, academicSync]) => {
       const found = (kids as Child[]).find(k => k.id === childId)
       if (!found) { router.push('/kids'); return }

@@ -15,6 +15,7 @@ import { SettingsTab } from './_components/SettingsTab'
 import { RewardsTab } from './_components/RewardsTab'
 import { FaqCard } from './_components/FaqCard'
 import { cachedFetch, invalidateCachedFetch } from '@/lib/cachedFetch'
+import { academicFetch } from '@/lib/academicSync'
 
 const TAB_LABELS: Record<'dashboard' | 'rewards' | 'referral' | 'faq' | 'settings', string> = {
   dashboard: '📊 Dashboard', rewards: '🎁 Quà tặng', referral: '🤝 Giới thiệu', faq: '❓ FAQ', settings: '⚙️ Cài đặt',
@@ -62,16 +63,15 @@ export default function DashboardPage() {
         localStorage.setItem('nav_child_info', JSON.stringify({ id: activeChild.id, name: activeChild.name, emoji: activeChild.emoji }))
       }
 
-      // Fetch all-levels sync for each child, plus the family's shared Academic sync
-      // (Academic progress lives in vw_academic_sync, keyed by family — not per-child
-      // vocab_sync — so it's fetched once and merged into every child's 'academic' key).
-      const [syncResults, academicSync] = await Promise.all([
+      // Fetch all-levels sync for each child, plus each child's own Academic sync
+      // (vw_academic_sync_child), merged into that child's 'academic' key.
+      const [syncResults, academicSyncs] = await Promise.all([
         Promise.all(childList.map(c => fetch(`/api/sync/${c.id}`).then(r => r.json()).catch(() => ({})))),
-        fetch('/api/vocabwise/sync').then(r => r.ok ? r.json() : null).catch(() => null),
+        Promise.all(childList.map(c => academicFetch(undefined, c.id).then(r => r.ok ? r.json() : null).catch(() => null))),
       ])
       setStats(childList.map((child, i) => ({
         child,
-        syncAll: { ...(syncResults[i] ?? {}), ...(academicSync ? { academic: academicSync } : {}) },
+        syncAll: { ...(syncResults[i] ?? {}), ...(academicSyncs[i] ? { academic: academicSyncs[i] } : {}) },
       })))
     } catch {
       // Network error — keep existing state, user can retry

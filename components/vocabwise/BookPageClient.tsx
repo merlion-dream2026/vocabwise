@@ -9,6 +9,7 @@ import OfflineDownloadButton from '@/components/OfflineDownloadButton'
 import { getEffectivePlan, getOfflineDownloadLimit, getAcademicTopicLimit, getRevisionLimit } from '@/lib/planUtils'
 import { getDownloadedCount } from '@/lib/useOfflineDownload'
 import { cachedFetch } from '@/lib/cachedFetch'
+import { academicFetch } from '@/lib/academicSync'
 
 type Session = { plan: string; username: string; bonus_pro_expires_at?: string | null; plan_end_date?: string | null; free_trial_expires_at?: string | null; bonus_features?: string[] | null }
 type AcademicTopicSync = { completed: boolean; mastered: boolean; ex_scores: Record<string, number>; read?: boolean }
@@ -121,7 +122,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
   useEffect(() => {
     Promise.all([
       cachedFetch('/api/auth/me').then(r => r.ok ? r.json() : null) as Promise<Session | null>,
-      fetch('/api/vocabwise/sync').then(r => r.ok ? r.json() : null),
+      academicFetch().then(r => r.ok ? r.json() : null),
     ]).then(([sess, syncData]) => {
       setSession(sess)
       setSyncMap(syncData?.mastery ?? {})
@@ -140,7 +141,7 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
         const raw = localStorage.getItem(`revision_${book}_${rid}`)
         if (raw && !serverRevScores[rid]) {
           try {
-            fetch('/api/vocabwise/sync', {
+            academicFetch({
               method: 'PATCH',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({ revision_score_key: `${book}_${rid}`, revision_score_value: JSON.parse(raw) }),

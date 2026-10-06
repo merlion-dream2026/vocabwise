@@ -8,55 +8,36 @@ const supabase = createClient(
 )
 
 const CACHE = { headers: { 'Cache-Control': 'private, max-age=10, stale-while-revalidate=30' } }
+const TABLE = 'vw_academic_sync_child'
 
-// GET /api/vocabwise/sync — academic progress for current family (no childId needed)
+// Academic progress is per child. The child comes from ?childId= (GET) or body.childId (POST/PATCH) and
+// must belong to the caller's family. With no childId, a family with exactly one child resolves to it;
+// a family with several gets 409 'child_required' (the client sends the learner to /kids to pick).
+async function resolveChild(familyId: string, explicit: unknown): Promise<{ childId: string } | { error: NextResponse }> {
+  const { data: kids } = await supabase.from('children').select('id').eq('family_id', familyId)
+  const ids = (kids ?? []).map((k: { id: string }) => k.id)
+  if (typeof explicit === 'string' && explicit) {
+    return ids.includes(explicit) ? { childId: explicit } : { error: NextResponse.json({ error: 'Not found' }, { status: 404 }) }
+  }
+  if (ids.length === 1) return { childId: ids[0] }
+  return { error: NextResponse.json({ error: 'child_required' }, { status: 409 }) }
+}
+
+// GET /api/vocabwise/sync?childId= — this child's academic progress
 export async function GET(req: NextRequest) {
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
-  const familyId = session.familyId
+  const resolved = await resolveChild(session.familyId, new URL(req.url).searchParams.get('childId'))
+  if ('error' in resolved) return resolved.error
 
   const { data } = await supabase
-    .from('vw_academic_sync')
+    .from(TABLE)
     .select('mastery, srs, history, revision_scores')
-    .eq('family_id', familyId)
+    .eq('child_id', resolved.childId)
     .single()
 
-  if (data) return NextResponse.json(data, CACHE)
-
-  // Lazy migration: check old vocab_sync rows (level='academic') for any of this family's children
-  const { data: children } = await supabase
-    .from('children')
-    .select('id')
-    .eq('family_id', familyId)
-
-  if (children?.length) {
-    const childIds = children.map((c: { id: string }) => c.id)
-    const { data: oldRows } = await supabase
-      .from('vocab_sync')
-      .select('mastery, srs, history')
-      .in('child_id', childIds)
-      .eq('level', 'academic')
-
-    if (oldRows?.length) {
-      const mastery: Record<string, unknown> = {}
-      const srs: Record<string, unknown> = {}
-      const history: Record<string, unknown> = {}
-      for (const row of oldRows) {
-        Object.assign(mastery, row.mastery ?? {})
-        Object.assign(srs, row.srs ?? {})
-        Object.assign(history, row.history ?? {})
-      }
-      // Save migrated data to new table
-      await supabase.from('vw_academic_sync').upsert(
-        { family_id: familyId, mastery, srs, history, revision_scores: {}, updated_at: new Date().toISOString() },
-        { onConflict: 'family_id' }
-      )
-      return NextResponse.json({ mastery, srs, history, revision_scores: {} }, CACHE)
-    }
-  }
-
-  return NextResponse.json({ mastery: {}, srs: {}, history: {}, revision_scores: {} }, CACHE)
+  return NextResponse.json(data ?? { mastery: {}, srs: {}, history: {}, revision_scores: {} }, CACHE)
 }
 
 type TopicSync = { read?: boolean; completed?: boolean; mastered?: boolean; ex_scores?: Record<string, number> }
@@ -70,6 +51,9 @@ export async function POST(req: NextRequest) {
 
   const body = await req.json().catch(() => ({}))
   const { mastery, srs, history } = body
+  const resolved = await resolveChild(session.familyId, body.childId)
+  if ('error' in resolved) return resolved.error
+  const childId = resolved.childId
 
   // Every page (TopicViewer, review queue, module-test, revision test) fetches this
   // family's full mastery/srs/history ONCE on mount, then POSTs that whole snapshot
@@ -78,9 +62,9 @@ export async function POST(req: NextRequest) {
   // the second POST's stale snapshot erases the first tab's completion. Merge instead,
   // matching the read-current pattern used by /api/sync/[childId].
   const { data: current } = await supabase
-    .from('vw_academic_sync')
+    .from(TABLE)
     .select('mastery, srs, history')
-    .eq('family_id', session.familyId)
+    .eq('child_id', childId)
     .single()
 
   const mergedMastery: Record<string, TopicSync> = { ...(current?.mastery ?? {}) }
@@ -116,10 +100,10 @@ export async function POST(req: NextRequest) {
   }
 
   const { data, error } = await supabase
-    .from('vw_academic_sync')
+    .from(TABLE)
     .upsert(
-      { family_id: session.familyId, mastery: mergedMastery, srs: mergedSrs, history: mergedHistory, updated_at: new Date().toISOString() },
-      { onConflict: 'family_id' }
+      { child_id: childId, mastery: mergedMastery, srs: mergedSrs, history: mergedHistory, updated_at: new Date().toISOString() },
+      { onConflict: 'child_id' }
     )
     .select('mastery, srs, history, revision_scores')
     .single()
@@ -135,27 +119,30 @@ export async function PATCH(req: NextRequest) {
 
   const body = await req.json().catch(() => ({}))
   const { revision_score_key, revision_score_value } = body
+  const resolved = await resolveChild(session.familyId, body.childId)
+  if ('error' in resolved) return resolved.error
+  const childId = resolved.childId
   if (!revision_score_key || !revision_score_value) {
     return NextResponse.json({ error: 'Missing fields' }, { status: 400 })
   }
 
   const { data: current } = await supabase
-    .from('vw_academic_sync')
+    .from(TABLE)
     .select('revision_scores')
-    .eq('family_id', session.familyId)
+    .eq('child_id', childId)
     .single()
 
   const merged = { ...(current?.revision_scores ?? {}), [revision_score_key]: revision_score_value }
 
   if (current) {
     await supabase
-      .from('vw_academic_sync')
+      .from(TABLE)
       .update({ revision_scores: merged, updated_at: new Date().toISOString() })
-      .eq('family_id', session.familyId)
+      .eq('child_id', childId)
   } else {
     await supabase
-      .from('vw_academic_sync')
-      .insert({ family_id: session.familyId, mastery: {}, srs: {}, history: {}, revision_scores: merged, updated_at: new Date().toISOString() })
+      .from(TABLE)
+      .insert({ child_id: childId, mastery: {}, srs: {}, history: {}, revision_scores: merged, updated_at: new Date().toISOString() })
   }
 
   return NextResponse.json({ ok: true })

@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import VWExerciseRunner from '@/components/vocabwise/VWExerciseRunner'
 import type { ExercisesData } from '@/components/vocabwise/types'
+import { academicFetch } from '@/lib/academicSync'
 
 type QueueItem   = { topicId: string; topicTitle: string; cefrLevel?: string }
 type TopicEx     = {
@@ -53,7 +54,7 @@ export default function ReviewPage() {
     setQueue(q)
     queueRef.current = q
 
-    fetch('/api/vocabwise/sync')
+    academicFetch()
       .then(r => r.ok ? r.json() : null)
       .then(d => {
         syncRef.current = {
@@ -141,7 +142,7 @@ export default function ReviewPage() {
     }])
 
     // Save to server (fire and forget)
-    fetch('/api/vocabwise/sync', {
+    academicFetch({
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ mastery: newMastery, srs: newSrs, history: newHistory }),
