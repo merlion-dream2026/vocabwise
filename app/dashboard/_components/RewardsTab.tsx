@@ -13,6 +13,7 @@ type View = 'loading' | 'setup' | 'locked' | 'reset' | 'ready'
 const COLLECTION_LABEL: Record<string, string> = { daily: 'Daily', academic: 'Academic', phonics: 'Phonics' }
 const LEVEL_LABEL: Record<string, string> = {
   seeker: 'Seeker', starter: 'Starter', ranger: 'Ranger', explorer: 'Explorer', scholar: 'Scholar', master: 'Master',
+  book1: 'Foundation', book2: 'Progress', book3: 'Mastery',
 }
 const card = 'rounded-3xl border-2 border-b-[4px] border-slate-200 border-b-slate-300 bg-white p-4'
 const input = 'w-full rounded-2xl border-2 border-slate-200 bg-white px-4 py-3 text-center text-lg font-bold tracking-widest text-slate-800 outline-none focus:border-purple-400'
@@ -48,10 +49,12 @@ export function RewardsTab({ kids }: { kids: Child[] }) {
     if (!r.ok) return
     const d = await r.json() as { stickers: StickerRow[]; redemptions: Redemption[] }
     setStickers(d.stickers); setHistory(d.redemptions); setPicked(new Set())
-    const levels = Array.from(new Set(d.stickers.filter(s => s.collection === 'daily').map(s => s.level)))
-    const entries = await Promise.all(levels.map(async lv => {
-      const t = await cachedFetch(`/api/words/${lv}/topics`).then(x => x.json()).catch(() => [])
-      return [lv, Array.isArray(t) ? (t as TopicInfo[]).map(x => ({ id: x.id, name: x.name, emoji: x.emoji })) : []] as const
+    const wanted = Array.from(new Set(d.stickers.filter(s => s.collection === 'daily' || s.collection === 'academic').map(s => `${s.collection}/${s.level}`)))
+    const entries = await Promise.all(wanted.map(async w => {
+      const [col, lv] = w.split('/')
+      const url = col === 'daily' ? `/api/words/${lv}/topics` : `/api/vocabwise/topic-meta?book=${lv}`
+      const t = await cachedFetch(url).then(x => x.json()).catch(() => [])
+      return [w, Array.isArray(t) ? (t as TopicInfo[]).map(x => ({ id: x.id, name: x.name, emoji: x.emoji })) : []] as const
     }))
     setTopics(Object.fromEntries(entries))
   }, [childId])
@@ -139,7 +142,7 @@ export function RewardsTab({ kids }: { kids: Child[] }) {
     )
   }
 
-  const nameOf = (s: StickerRow) => topics[s.level]?.find(t => t.id === s.topic_id)
+  const nameOf = (s: StickerRow) => topics[`${s.collection}/${s.level}`]?.find(t => t.id === s.topic_id)
   return (
     <div className="space-y-3">
       <div className="flex items-center gap-2">

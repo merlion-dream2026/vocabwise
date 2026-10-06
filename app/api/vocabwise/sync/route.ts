@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 import { getSession } from '@/lib/auth'
+import { awardAcademicStickers } from '@/lib/stickers'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -109,7 +110,10 @@ export async function POST(req: NextRequest) {
     .single()
 
   if (error) return NextResponse.json({ error: 'Lỗi hệ thống' }, { status: 500 })
-  return NextResponse.json(data)
+
+  // Topic stickers: one per topic newly mastered (≥20/25). Never blocks the sync response.
+  const newStickers = await awardAcademicStickers(supabase, childId, mergedMastery)
+  return NextResponse.json({ ...data, newStickers })
 }
 
 // PATCH /api/vocabwise/sync — merge a single revision score without touching mastery/srs/history

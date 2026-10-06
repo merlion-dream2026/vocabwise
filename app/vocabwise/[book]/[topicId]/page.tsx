@@ -14,7 +14,7 @@ async function loadTopic(topicId: string): Promise<TopicData | null> {
   const [topicRes, passagesRes, glossaryRes, exercisesRes] = await Promise.all([
     supabase
       .from('vw_topics')
-      .select('topic_title, topic_number, combo, cefr_level, vw_themes!inner(theme_title)')
+      .select('topic_title, topic_number, combo, cefr_level, emoji, vw_themes!inner(theme_title)')
       .eq('topic_id', topicId)
       .single(),
     supabase
@@ -66,6 +66,7 @@ async function loadTopic(topicId: string): Promise<TopicData | null> {
       theme_title:  (topic.vw_themes as any)?.theme_title ?? '',
       cefr_level:   topic.cefr_level ?? '',
       topic_number: topic.topic_number,
+      emoji:        topic.emoji ?? undefined,
     },
     passage: {
       word_count: passages[0]?.word_count ?? 0,

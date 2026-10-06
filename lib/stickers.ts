@@ -47,3 +47,29 @@ export async function awardStickers(
     return []
   }
 }
+
+// ── Academic (vocabwise books) ────────────────────────────────────────────────
+// Per-child Academic progress (vw_academic_sync_child) is fresh, so a topic mastered (≥20/25) is always
+// new → never legacy. Sticker key: collection 'academic', level = 'book1' | 'book2' | 'book3', topic_id = 'b1-t01'.
+type AcademicTopic = { mastered?: boolean }
+
+export async function awardAcademicStickers(
+  supabase: SupabaseClient, childId: string, mastery: Record<string, AcademicTopic>,
+): Promise<string[]> {
+  try {
+    const mastered = Object.entries(mastery)
+      .filter(([id, e]) => e?.mastered && /^b[123]-t\d{2,3}$/.test(id))
+      .map(([id]) => ({ id, level: `book${id[1]}` }))
+    if (mastered.length === 0) return []
+    const { data: have, error } = await supabase.from('child_stickers').select('topic_id').eq('child_id', childId).eq('collection', 'academic')
+    if (error) return []
+    const owned = new Set((have ?? []).map((r: { topic_id: string }) => r.topic_id))
+    const fresh = mastered.filter((m) => !owned.has(m.id))
+    if (fresh.length === 0) return []
+    const rows = fresh.map((m) => ({ child_id: childId, collection: 'academic', level: m.level, topic_id: m.id, legacy: false }))
+    const { error: insErr } = await supabase.from('child_stickers').upsert(rows, { onConflict: 'child_id,collection,level,topic_id', ignoreDuplicates: true })
+    return insErr ? [] : fresh.map((m) => m.id)
+  } catch {
+    return []
+  }
+}

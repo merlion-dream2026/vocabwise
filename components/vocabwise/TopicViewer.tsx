@@ -14,6 +14,7 @@ import GrammarSpotlight, { type GrammarSpotlightData } from './GrammarSpotlight'
 import { cachedFetch } from '@/lib/cachedFetch'
 import { stripMarkdown } from '@/lib/textFormat'
 import { academicFetch } from '@/lib/academicSync'
+import Sticker from '@/components/Sticker'
 
 type GlossaryItem = {
   id: number
@@ -36,7 +37,7 @@ type GlossaryItem = {
 type Paragraph = { index: number; text_en: string; text_vi: string }
 
 export type TopicData = {
-  meta: { topic_title: string; theme_title: string; cefr_level: string; topic_number: number }
+  meta: { topic_title: string; theme_title: string; cefr_level: string; topic_number: number; emoji?: string }
   passage: { word_count: number; paragraphs: Paragraph[] }
   glossary: GlossaryItem[]
   exercises: ExercisesData
@@ -99,6 +100,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
   const [session, setSession]   = useState<Session | null>(null)
   const [fullSync, setFullSync] = useState<Record<string, AcademicTopicSync>>({})
   const [topicSync, setTopicSync] = useState<AcademicTopicSync | null>(null)
+  const [newSticker, setNewSticker] = useState(false)   // topic just reached mastery → sticker banner
   const [savedSrs,     setSavedSrs]     = useState<Record<string, { due: string; interval: number }>>({})
   const [savedHistory, setSavedHistory] = useState<Record<string, { topics?: number; xp?: number; games?: number; words?: number; topicIds?: string[] }>>({})
   const [savedWords,     setSavedWords]     = useState<Set<string>>(new Set())
@@ -221,6 +223,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
       mastered: total >= 20,
     }
     const newFull = { ...fullSync, [topicId]: newSync }
+    if (newSync.mastered && !prevSync?.mastered) setNewSticker(true)
     setFullSync(newFull)
     setTopicSync(newSync)
     saveAcademicSync(newFull, savedHistory, savedSrs)
@@ -238,6 +241,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
       read: true, ex_scores, completed: true, mastered: total >= 20,
     }
     setTopicSync(newSync)
+    if (newSync.mastered && !prevSync?.mastered) setNewSticker(true)
 
     {
       const newFull = { ...fullSync, [topicId]: newSync }
@@ -362,6 +366,14 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
           {topicSync?.completed && !topicSync.mastered && <span className="text-xs bg-white/20 text-white font-black px-2 py-0.5 rounded-full">✅ {prevTotal}/25</span>}
         </div>
       </div>
+
+      {newSticker && (
+        <button type="button" onClick={() => setNewSticker(false)}
+          className="flex w-full items-center gap-3 border-b-4 border-purple-200 bg-purple-50 px-4 py-3 text-left">
+          <Sticker emoji={meta.emoji ?? '⭐'} size="sm" tilt={-8} />
+          <span className="text-sm font-bold text-purple-800">Bạn nhận được sticker mới!<br /><span className="text-xs font-semibold text-purple-600">Xem trong bộ sưu tập sticker của bé</span></span>
+        </button>
+      )}
 
       {/* Tabs */}
       <div className="flex border-b border-gray-200 bg-white sticky top-0 z-10 shadow-sm">
