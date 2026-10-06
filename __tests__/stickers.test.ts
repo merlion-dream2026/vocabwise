@@ -41,4 +41,11 @@ describe('awardStickers', () => {
     expect(fresh).toEqual([])
     expect(inserted).toEqual([])
   })
+
+  it('never awards Daily stickers for non-vocab levels like phonics', async () => {
+    const { client, inserted } = fakeClient([])
+    const fresh = await awardStickers(client, 'c1', 'phonics', { p1: perfect('2026-10-07T10:00:00.000Z') })
+    expect(fresh).toEqual([])
+    expect(inserted).toEqual([])
+  })
 })

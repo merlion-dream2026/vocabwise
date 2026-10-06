@@ -37,16 +37,17 @@ export default function StickerAlbumPage() {
       const found = (kids as Child[]).find(k => k.id === childId)
       if (!found) { router.push('/kids'); return }
       setChild(found)
+      if (!Array.isArray(rows)) { setStickers([]); return }
       // This album is the Daily collection; other collections (Academic, Phonics) get their own tabs later.
-      const list = (rows as StickerRow[]).filter(r => (r.collection ?? 'daily') === 'daily')
+      const list = (rows as StickerRow[]).filter(r => (r.collection ?? 'daily') === 'daily' && LEVELS.some(l => l.key === r.level))
       const levelsWith = Array.from(new Set(list.map(r => r.level)))
       const entries = await Promise.all(levelsWith.map(async lv => {
         const t = await cachedFetch(`/api/words/${lv}/topics`).then(r => r.json()).catch(() => [])
-        return [lv, (t as TopicInfo[]).map(x => ({ id: x.id, name: x.name, emoji: x.emoji }))] as const
+        return [lv, Array.isArray(t) ? (t as TopicInfo[]).map(x => ({ id: x.id, name: x.name, emoji: x.emoji })) : []] as const
       }))
       setTopics(Object.fromEntries(entries))
       setStickers(list)
-    })
+    }).catch(() => setStickers([]))  // never leave the page on the loading skeleton
   }, [childId, router])
 
   if (!child || !stickers) return <PageSkeleton header="bg-purple-500" bg="from-purple-50 via-pink-50 to-rose-50" cards={[110, 220]} />

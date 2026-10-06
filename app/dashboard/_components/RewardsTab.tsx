@@ -50,7 +50,7 @@ export function RewardsTab({ kids }: { kids: Child[] }) {
     const levels = Array.from(new Set(d.stickers.filter(s => s.collection === 'daily').map(s => s.level)))
     const entries = await Promise.all(levels.map(async lv => {
       const t = await cachedFetch(`/api/words/${lv}/topics`).then(x => x.json()).catch(() => [])
-      return [lv, (t as TopicInfo[]).map(x => ({ id: x.id, name: x.name, emoji: x.emoji }))] as const
+      return [lv, Array.isArray(t) ? (t as TopicInfo[]).map(x => ({ id: x.id, name: x.name, emoji: x.emoji })) : []] as const
     }))
     setTopics(Object.fromEntries(entries))
   }, [childId])

@@ -5,6 +5,10 @@ import { isTopicMastered, type MasteryEntry } from '@/lib/topicMastery'
 // launching rewards doesn't hand a child a pile of redeemable stickers for past work.
 export const STICKER_LAUNCH_AT = '2026-10-06T00:00:00.000Z'
 
+// Daily vocab levels. vocab_sync also holds rows for other modules ('phonics', 'academic') whose mastery
+// has a different meaning — those must never produce Daily stickers.
+export const DAILY_LEVELS = ['seeker', 'starter', 'ranger', 'explorer', 'scholar', 'master'] as const
+
 export type StickerRow = { collection?: string; level: string; topic_id: string; earned_at: string; legacy: boolean; redemption_id: number | null }
 
 // When the child finished the topic: the latest game attempt. Topics with no attempt timestamps
@@ -23,6 +27,7 @@ export async function awardStickers(
   supabase: SupabaseClient, childId: string, level: string, mastery: Record<string, MasteryEntry>,
   collection: 'daily' | 'academic' | 'phonics' = 'daily',
 ): Promise<string[]> {
+  if (collection === 'daily' && !(DAILY_LEVELS as readonly string[]).includes(level)) return []
   try {
     const mastered = Object.entries(mastery).filter(([, e]) => isTopicMastered(e, level))
     if (mastered.length === 0) return []
