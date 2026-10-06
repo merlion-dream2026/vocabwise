@@ -63,14 +63,14 @@ export default function ProfilePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50">
       <div className="rounded-b-3xl border-b-[4px] border-black/20 bg-purple-500 text-white">
-        <div className="mx-auto flex max-w-lg items-center gap-3 px-4 py-5">
-          <Image src={getAvatarSrc(child.emoji)} width={64} height={64} className="h-16 w-16 flex-shrink-0 rounded-full border-4 border-white/80 object-cover shadow" alt="" unoptimized />
+        <div className="mx-auto flex max-w-lg items-center gap-3 px-4 py-3">
+          <Image src={getAvatarSrc(child.emoji)} width={48} height={48} className="h-12 w-12 flex-shrink-0 rounded-full border-2 border-white/80 object-cover shadow" alt="" unoptimized />
           <div className="min-w-0 flex-1">
-            <h1 className="truncate text-xl font-bold leading-tight">{child.name}</h1>
+            <h1 className="truncate text-lg font-bold leading-tight">{child.name}</h1>
             <p className="text-xs font-semibold text-white/80">{stats.level.emoji} {stats.level.name} · {stats.total.xp} XP</p>
           </div>
           <button type="button" onClick={() => router.push('/kids')}
-            className={`flex-shrink-0 rounded-full border-b-[3px] border-black/20 bg-white/25 px-3.5 py-2 text-xs font-bold ${PRESS}`}>🔄 Đổi bé</button>
+            className={`flex-shrink-0 rounded-full border-b-[3px] border-black/20 bg-white/25 px-3 py-1.5 text-xs font-bold ${PRESS}`}>🔄 Đổi bé</button>
         </div>
       </div>
 

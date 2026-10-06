@@ -94,7 +94,6 @@ export default function StickerAlbum({ child, initialTab = 'daily' }: { child: A
           const rank = (id: string) => { const i = order.findIndex(t => t.id === id); return i < 0 ? 999 : i }
           const earned = [...mine].sort((a, b) => rank(a.topic_id) - rank(b.topic_id))
           const lockedCount = Math.max(0, sec.total - earned.length)
-          const hasLegacy = earned.some(e => e.legacy)
           const tk = `${tab}/${sec.key}`
           const open = (earned.length > 0) !== !!toggled[tk]
           return (
@@ -129,7 +128,7 @@ export default function StickerAlbum({ child, initialTab = 'daily' }: { child: A
                   {sharing === tk ? '…' : '📤'}
                 </button>
               </div>
-              {open && hasLegacy && <p className="mt-1 text-xs font-semibold text-slate-400">Một số sticker được tặng cho các chủ đề đã hoàn thành từ trước.</p>}
+              {open && earned.length > 0 && <p className="mt-1 text-xs font-semibold text-slate-400">Bộ sưu tập sticker các chủ đề đã chinh phục! 🎉</p>}
               {open && <div className="mt-3 grid grid-cols-4 gap-3">
                 {earned.map((s, i) => {
                   const info = order.find(t => t.id === s.topic_id)
