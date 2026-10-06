@@ -14,6 +14,7 @@ import OfflineDailyDownloadButton from '@/components/OfflineDailyDownloadButton'
 import { getDownloadedCount } from '@/lib/useOfflineDownload'
 import { cachedFetch } from '@/lib/cachedFetch'
 import { isTopicMastered, topicSteps, type MasteryEntry } from '@/lib/topicMastery'
+import PageSkeleton from '@/components/PageSkeleton'
 
 type Child = { id: string; name: string; emoji: string; level: string }
 type Session = { familyId: string; username: string; plan: string; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; plan_end_date?: string | null; bonus_features?: string[] | null }
@@ -181,26 +182,7 @@ export default function LevelTopicsPage() {
   if (loading) {
     const skeletonHeader = LEVEL_COLORS[level]?.header ?? 'bg-purple-500'
     const skeletonBg = LEVEL_COLORS[level]?.bg ?? 'from-purple-50 to-pink-50'
-    return (
-      <div className={`min-h-screen bg-gradient-to-br ${skeletonBg} animate-pulse`}>
-        <div className={`${skeletonHeader} px-4 py-4 flex items-center gap-3`}>
-          <div className="w-6 h-6 rounded bg-white/30" />
-          <div className="w-10 h-10 rounded-xl bg-white/30" />
-          <div className="space-y-1.5">
-            <div className="h-4 w-28 bg-white/30 rounded-full" />
-            <div className="h-3 w-20 bg-white/20 rounded-full" />
-          </div>
-        </div>
-        <div className="max-w-2xl mx-auto px-4 pt-6 pb-4 space-y-3">
-          <div className="h-20 bg-white/60 rounded-2xl" />
-          <div className="grid grid-cols-2 gap-3">
-            {Array.from({ length: 6 }).map((_, i) => (
-              <div key={i} className="h-24 bg-white/60 rounded-2xl" />
-            ))}
-          </div>
-        </div>
-      </div>
-    )
+    return <PageSkeleton header={skeletonHeader} bg={skeletonBg} cards={[96, 320, 320]} />
   }
 
   const kidsLimit = getKidsTopicLimit(session!)

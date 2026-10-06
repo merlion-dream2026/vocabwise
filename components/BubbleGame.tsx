@@ -8,6 +8,7 @@ import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
 import WordIcon from '@/components/WordIcon'
 import GameResultScreen from '@/components/GameResultScreen'
+import { GameHeader, cta } from '@/components/ChunkyUI'
 
 type Word = { word: string; meaning: string; emoji: string; examples: { en: string; vi: string }[] }
 type Topic = { id: string; name: string; emoji: string; color: string; words: Word[] }
@@ -103,15 +104,7 @@ export default function BubbleGame({ topic, level, backUrl }: Props) {
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
-        <div className="bg-gradient-to-br from-pink-400 to-rose-400 px-4 pt-6 pb-4 text-white">
-          <div className="flex items-center gap-3">
-            <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-pink-100 text-xl flex-shrink-0 opacity-90 hover:opacity-100">←</button>
-            <div className="flex-1 min-w-0">
-              <p className="text-pink-100 text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5 opacity-90 truncate">{topic.name}</p>
-              <h1 className="text-lg font-black leading-tight truncate">🫧 Bắt Bong Bóng</h1>
-            </div>
-          </div>
-        </div>
+        <GameHeader colorCls="bg-gradient-to-br from-pink-400 to-rose-400" title="🫧 Bắt Bong Bóng" subtitle={topic.name} onBack={() => router.push(backUrl)} />
         <div className="flex-1 bg-gradient-to-b from-purple-50 to-pink-50 flex flex-col items-center justify-center px-4 py-8">
           <GameResultScreen
             score={score} total={total} xpEarned={xpEarned} wrongWords={wrongWords}
@@ -131,22 +124,7 @@ export default function BubbleGame({ topic, level, backUrl }: Props) {
         }
       `}</style>
       <div className="flex flex-col min-h-screen">
-        <div className="bg-gradient-to-br from-pink-400 to-rose-400 px-4 pt-6 pb-4 text-white">
-          <div className="flex items-center gap-3">
-            <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-pink-100 text-xl flex-shrink-0 opacity-90 hover:opacity-100">←</button>
-            <div className="flex-1 min-w-0">
-              <p className="text-pink-100 text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5 opacity-90 truncate">{topic.name}</p>
-              <h1 className="text-lg font-black leading-tight truncate">🫧 Bắt Bong Bóng</h1>
-            </div>
-            <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm flex-shrink-0">{currentIdx + 1}/{total}</span>
-          </div>
-          <div className="mt-2 h-2 bg-pink-200 rounded-full overflow-hidden">
-            <div
-              className="h-full bg-pink-600 rounded-full transition-all duration-500"
-              style={{ width: `${((currentIdx + 1) / total) * 100}%` }}
-            />
-          </div>
-        </div>
+        <GameHeader colorCls="bg-gradient-to-br from-pink-400 to-rose-400" title="🫧 Bắt Bong Bóng" subtitle={topic.name} onBack={() => router.push(backUrl)} right={<>{currentIdx + 1}/{total}</>} progress={{ value: ((currentIdx + 1) / total) * 100, max: 100 }} />
 
         <div className="flex-1 bg-gradient-to-b from-sky-50 to-purple-50 flex flex-col px-4 py-6">
           {/* Screen-reader feedback */}
@@ -161,7 +139,7 @@ export default function BubbleGame({ topic, level, backUrl }: Props) {
               className="bg-white border-2 border-pink-200 rounded-2xl px-6 py-3 shadow-md active:scale-95 transition-transform inline-flex items-center gap-2"
             >
               <span className="text-2xl">🔊</span>
-              <span className="text-gray-700 font-black text-lg">
+              <span className="text-gray-700 font-bold text-lg">
                 {selected !== null ? current.target.word : '???'}
               </span>
             </button>
@@ -197,7 +175,7 @@ export default function BubbleGame({ topic, level, backUrl }: Props) {
                   <WordIcon word={choice.word} emoji={choice.emoji} emojiClass="text-5xl" iconSize={60} className="mb-1" />
                   {selected !== null && (
                     <>
-                      <span className="text-white font-black text-sm text-center px-2 leading-tight drop-shadow">
+                      <span className="text-white font-bold text-sm text-center px-2 leading-tight drop-shadow">
                         {isCorrect ? '✓ ' : isSelected ? '✗ ' : ''}{choice.word}
                       </span>
                       <span className="text-white/90 font-semibold text-xs text-center px-2 leading-tight">
@@ -214,22 +192,11 @@ export default function BubbleGame({ topic, level, backUrl }: Props) {
           <button
             onClick={goNext}
             disabled={selected === null}
-            className={`w-full py-4 rounded-2xl font-black text-xl text-white transition-colors shadow-md
-              ${selected !== null ? 'bg-blue-500 hover:bg-blue-600 active:scale-95' : 'bg-blue-200 cursor-not-allowed'}`}
+            className={cta('blue')}
           >
             {currentIdx === total - 1 ? '🎉 Xong!' : 'Tiếp →'}
           </button>
 
-          {/* Dots */}
-          <div className="flex justify-center gap-1.5 mt-4 flex-wrap">
-            {questions.map((_, idx) => (
-              <div
-                key={idx}
-                className={`w-2.5 h-2.5 rounded-full transition-all duration-200
-                  ${idx === currentIdx ? 'bg-pink-500 scale-125' : idx < currentIdx ? 'bg-pink-300' : 'bg-pink-100'}`}
-              />
-            ))}
-          </div>
         </div>
       </div>
     </>

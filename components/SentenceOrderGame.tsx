@@ -8,6 +8,7 @@ import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
 import WordIcon from '@/components/WordIcon'
 import GameResultScreen from '@/components/GameResultScreen'
+import { GameHeader, cta } from '@/components/ChunkyUI'
 
 type Word = { word: string; meaning: string; emoji: string; examples?: { en: string; vi: string }[] }
 type Topic = { id: string; name: string; emoji: string; words: Word[] }
@@ -113,15 +114,7 @@ export default function SentenceOrderGame({ topic, level, backUrl }: Props) {
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
-        <div className="bg-gradient-to-br from-indigo-500 to-blue-600 px-4 pt-6 pb-4 text-white">
-          <div className="flex items-center gap-3">
-            <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-indigo-100 text-xl flex-shrink-0">←</button>
-            <div className="flex-1 min-w-0">
-              <p className="text-indigo-100 text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5">{topic.name}</p>
-              <h1 className="text-lg font-black leading-tight truncate">🔁 Sắp xếp câu</h1>
-            </div>
-          </div>
-        </div>
+        <GameHeader colorCls="bg-gradient-to-br from-indigo-500 to-blue-600" title="🔁 Sắp xếp câu" subtitle={topic.name} onBack={() => router.push(backUrl)} />
         <div className="flex-1 bg-gradient-to-b from-indigo-50 to-blue-50 flex flex-col items-center justify-center px-4 py-8">
           <GameResultScreen
             score={score} total={total} xpEarned={xpEarned} wrongWords={wrongWords}
@@ -134,19 +127,7 @@ export default function SentenceOrderGame({ topic, level, backUrl }: Props) {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <div className="bg-gradient-to-br from-indigo-500 to-blue-600 px-4 pt-6 pb-4 text-white">
-        <div className="flex items-center gap-3 mb-3">
-          <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-indigo-100 text-xl flex-shrink-0">←</button>
-          <div className="flex-1 min-w-0">
-            <p className="text-indigo-100 text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5">{topic.name}</p>
-            <h1 className="text-lg font-black leading-tight truncate">🔁 Sắp xếp câu</h1>
-          </div>
-          <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm flex-shrink-0">{idx + 1}/{total}</span>
-        </div>
-        <div className="h-1.5 bg-white/20 rounded-full overflow-hidden">
-          <div className="h-full bg-white/70 rounded-full transition-all" style={{ width: `${((idx + 1) / total) * 100}%` }} />
-        </div>
-      </div>
+      <GameHeader colorCls="bg-gradient-to-br from-indigo-500 to-blue-600" title="🔁 Sắp xếp câu" subtitle={topic.name} onBack={() => router.push(backUrl)} right={<>{idx + 1}/{total}</>} progress={{ value: ((idx + 1) / total) * 100, max: 100 }} />
 
       <div className="flex-1 bg-gradient-to-b from-indigo-50 to-blue-50 px-4 py-5 flex flex-col gap-4">
         {/* Word prompt */}
@@ -155,7 +136,7 @@ export default function SentenceOrderGame({ topic, level, backUrl }: Props) {
           <div className="flex items-center gap-2">
             <WordIcon word={q.word.word} emoji={q.word.emoji} emojiClass="text-3xl" iconSize={36} />
             <div>
-              <p className="font-black text-gray-800 text-lg leading-tight">{q.word.word}</p>
+              <p className="font-bold text-gray-800 text-lg leading-tight">{q.word.word}</p>
               <p className="text-sm text-gray-500">{q.word.meaning}</p>
             </div>
             <button onClick={() => speak(q.word.word)} className="ml-auto bg-indigo-100 text-indigo-600 w-9 h-9 rounded-xl text-lg flex items-center justify-center active:scale-90 transition-all">🔊</button>
@@ -200,7 +181,7 @@ export default function SentenceOrderGame({ topic, level, backUrl }: Props) {
         {/* Feedback */}
         <div role="status" aria-live="polite">
           {submitted && isCorrect && (
-            <p className="text-green-600 font-black text-base">✅ Chính xác!</p>
+            <p className="text-green-600 font-bold text-base">✅ Chính xác!</p>
           )}
           {submitted && !isCorrect && (
             <div className="bg-orange-50 border-2 border-orange-200 rounded-2xl px-4 py-3">
@@ -221,13 +202,12 @@ export default function SentenceOrderGame({ topic, level, backUrl }: Props) {
         {/* Action button */}
         {!submitted ? (
           <button onClick={handleCheck} disabled={placed.length === 0}
-            className="w-full bg-indigo-500 disabled:bg-indigo-200 text-white font-black text-xl py-4 rounded-2xl shadow-md mt-auto mb-4">
+            className={cta('indigo', 'mt-auto mb-4')}>
             Kiểm tra ✓
           </button>
         ) : (
           <button onClick={advance}
-            className={`w-full font-black text-xl py-4 rounded-2xl shadow-md mt-auto mb-4 text-white
-              ${isCorrect ? 'bg-green-500' : 'bg-indigo-500'}`}>
+            className={cta('indigo', 'mt-auto mb-4')}>
             {idx + 1 >= total ? 'Xem kết quả →' : 'Tiếp theo →'}
           </button>
         )}

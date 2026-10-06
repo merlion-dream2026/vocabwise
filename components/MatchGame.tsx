@@ -5,8 +5,11 @@ import { useRouter, useParams } from 'next/navigation'
 import { useGameSync } from '@/lib/GameSyncContext'
 import { saveStepScore } from '@/lib/stepScores'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
+import GameResultScreen from '@/components/GameResultScreen'
 import Confetti from '@/components/Confetti'
 import WordIcon from '@/components/WordIcon'
+import { PRESS } from '@/components/TopicHub'
+import { GameHeader } from '@/components/ChunkyUI'
 
 type Word = { word: string; meaning: string; emoji: string; examples: { en: string; vi: string }[] }
 type Topic = { id: string; name: string; emoji: string; color: string; words: Word[] }
@@ -125,39 +128,14 @@ export default function MatchGame({ topic, level, backUrl }: Props) {
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
-        <div className={`${styles.headerBg} px-4 pt-6 pb-4 text-white`}>
-          <div className="flex items-center gap-3">
-            <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className={`${styles.backColor} text-xl flex-shrink-0 opacity-90 hover:opacity-100`}>←</button>
-            <div className="flex-1 min-w-0">
-              <p className={`${styles.backColor} text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5 opacity-90 truncate`}>{topic.name}</p>
-              <h1 className="text-lg font-black leading-tight truncate">🎯 Nối Từ Với Hình</h1>
-            </div>
-          </div>
-        </div>
+        <GameHeader colorCls={styles.headerBg} title="🎯 Nối Từ Với Hình" subtitle={topic.name} onBack={() => router.push(backUrl)} />
         <div className="flex-1 bg-gradient-to-b from-purple-50 to-pink-50 flex flex-col items-center justify-center px-4 py-8">
-          <div className="text-7xl mb-4">
-            {mistakes === 0 ? '🏆' : mistakes <= 3 ? '⭐' : '💪'}
-          </div>
-          <h2 className="text-3xl font-black text-gray-800 mb-2">Hoàn thành!</h2>
-          <p className="text-gray-500 font-bold text-lg mb-1">
-            {total}/{total} cặp đúng
-          </p>
-          <p className="text-gray-500 font-semibold mb-3">
-            {mistakes === 0 ? 'Không sai lần nào! 🎉' : `Sai ${mistakes} lần`}
-          </p>
-          <div className="inline-flex items-center gap-1.5 bg-yellow-50 border border-yellow-200 rounded-full px-4 py-1.5 mb-6">
-            <span className="text-base">⭐</span>
-            <span className="text-yellow-700 font-black text-sm">+{xpEarned} XP</span>
-          </div>
-          <div className="w-full space-y-3">
-            <button
-              onClick={restart}
-              className={`w-full ${styles.finishBg} text-white font-black text-xl py-4 rounded-2xl shadow-lg transition-colors`}
-            >
-              🔄 Chơi lại
-            </button>
-            <button onClick={() => router.push(backUrl)} className="w-full bg-white border-2 border-gray-200 text-gray-600 font-bold text-xl py-4 rounded-2xl text-center">← Chọn chế độ khác</button>
-          </div>
+          <GameResultScreen
+            score={Math.max(0, total - mistakes)} total={total} xpEarned={xpEarned}
+            scoreLine={`${total}/${total} cặp đúng`}
+            extra={mistakes === 0 ? 'Không sai lần nào! 🎉' : `Sai ${mistakes} lần`}
+            onRestart={restart} onExit={() => router.push(backUrl)}
+          />
         </div>
       </div>
     )
@@ -166,35 +144,13 @@ export default function MatchGame({ topic, level, backUrl }: Props) {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header */}
-      <div className={`${styles.headerBg} px-4 pt-6 pb-4 text-white`}>
-        <div className="flex items-center gap-3">
-          <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className={`${styles.backColor} text-xl flex-shrink-0 opacity-90 hover:opacity-100`}>←</button>
-          <div className="flex-1 min-w-0">
-            <p className={`${styles.backColor} text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5 opacity-90 truncate`}>{topic.name}</p>
-            <h1 className="text-lg font-black leading-tight truncate">🎯 Nối Từ Với Hình</h1>
-          </div>
-          <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm flex-shrink-0">
-            {matchedCount}/{total}
-          </span>
-        </div>
-        <div className={`mt-2 h-2 ${styles.progressBg} rounded-full overflow-hidden`}>
-          <div
-            className={`h-full ${styles.progressFill} rounded-full transition-all duration-500`}
-            style={{ width: `${(matchedCount / total) * 100}%` }}
-          />
-        </div>
-        <p className="text-white/75 text-xs font-semibold mt-1.5">
-          {selectedWord
-            ? `Đang chọn: "${selectedWord}" — bấm hình tương ứng →`
-            : 'Bấm một TỪ bên trái trước'}
-        </p>
-      </div>
+      <GameHeader colorCls={styles.headerBg} title="🎯 Nối Từ Với Hình" subtitle={topic.name} onBack={() => router.push(backUrl)} right={<>{matchedCount}/{total}</>} progress={{ value: (matchedCount / total) * 100, max: 100 }} />
 
       {/* Two-column game area */}
       <div className="flex-1 bg-gradient-to-b from-purple-50 to-pink-50 px-3 py-4 flex gap-3 overflow-y-auto">
         {/* LEFT: Words */}
         <div className="flex-1 flex flex-col gap-2">
-          <p className="text-xs font-black text-gray-500 uppercase tracking-wider text-center mb-1">
+          <p className="text-xs font-bold text-gray-500 uppercase tracking-wider text-center mb-1">
             TỪ
           </p>
           {leftWords.map((w) => {
@@ -209,13 +165,13 @@ export default function MatchGame({ topic, level, backUrl }: Props) {
                 onClick={() => handleWordTap(w.word)}
                 disabled={isMatched}
                 className={`
-                  w-full py-3 px-3 rounded-xl border-2 font-bold text-base
-                  transition-all duration-150 active:scale-95
+                  w-full py-3 px-3 rounded-2xl border-2 border-b-[4px] font-bold text-base
+                  ${PRESS}
                   ${isMatched
                     ? `${color!.matched} opacity-90`
                     : isSelected
-                    ? 'bg-yellow-300 border-yellow-400 text-gray-900 scale-105 shadow-lg'
-                    : 'bg-white border-gray-200 text-gray-700 hover:border-gray-300 hover:shadow-sm'
+                    ? 'bg-yellow-300 border-yellow-400 border-b-yellow-600 text-gray-900 scale-105'
+                    : 'bg-white border-slate-200 border-b-slate-300 text-gray-700'
                   }
                 `}
               >
@@ -228,7 +184,7 @@ export default function MatchGame({ topic, level, backUrl }: Props) {
 
         {/* RIGHT: Emojis */}
         <div className="flex-1 flex flex-col gap-2">
-          <p className="text-xs font-black text-gray-500 uppercase tracking-wider text-center mb-1">
+          <p className="text-xs font-bold text-gray-500 uppercase tracking-wider text-center mb-1">
             HÌNH
           </p>
           {rightEmojis.map((w) => {
@@ -244,16 +200,16 @@ export default function MatchGame({ topic, level, backUrl }: Props) {
                 onClick={() => handleEmojiTap(w)}
                 disabled={isMatched}
                 className={`
-                  w-full py-2.5 rounded-xl border-2
+                  w-full py-2.5 rounded-2xl border-2 border-b-[4px]
                   flex items-center justify-center text-4xl
-                  min-h-[54px] transition-all duration-150 active:scale-95
+                  min-h-[54px] ${PRESS}
                   ${isMatched
                     ? `${color!.matched} opacity-90`
                     : isWrong
-                    ? 'bg-red-100 border-red-400 scale-95'
+                    ? 'bg-red-100 border-red-300 border-b-red-500 ax-shake'
                     : canTap
-                    ? 'bg-white border-gray-300 hover:border-yellow-400 hover:bg-yellow-50 shadow-sm'
-                    : 'bg-white border-gray-200'
+                    ? 'bg-white border-yellow-300 border-b-yellow-500'
+                    : 'bg-white border-slate-200 border-b-slate-300'
                   }
                 `}
               >

@@ -7,6 +7,7 @@ import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
 import GameResultScreen from '@/components/GameResultScreen'
+import { GameHeader, cta } from '@/components/ChunkyUI'
 
 
 type Word = { word: string; meaning: string; emoji: string; examples?: { en: string; vi: string }[] }
@@ -119,15 +120,7 @@ export default function DefinitionMatchGame({ topic, level, backUrl }: Props) {
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
-        <div className="bg-gradient-to-br from-violet-500 to-purple-600 px-4 pt-6 pb-4 text-white">
-          <div className="flex items-center gap-3">
-            <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-violet-100 text-xl flex-shrink-0">←</button>
-            <div className="flex-1 min-w-0">
-              <p className="text-violet-100 text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5">{topic.name}</p>
-              <h1 className="text-lg font-black leading-tight truncate">🔀 Ghép định nghĩa</h1>
-            </div>
-          </div>
-        </div>
+        <GameHeader colorCls="bg-gradient-to-br from-violet-500 to-purple-600" title="🔀 Ghép định nghĩa" subtitle={topic.name} onBack={() => router.push(backUrl)} />
         <div className="flex-1 bg-gradient-to-b from-violet-50 to-purple-50 flex flex-col items-center justify-center px-4 py-8">
           <GameResultScreen
             score={score} total={total} xpEarned={xpEarned} wrongWords={wrongWords}
@@ -140,19 +133,7 @@ export default function DefinitionMatchGame({ topic, level, backUrl }: Props) {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <div className="bg-gradient-to-br from-violet-500 to-purple-600 px-4 pt-6 pb-4 text-white">
-        <div className="flex items-center gap-3 mb-3">
-          <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-violet-100 text-xl flex-shrink-0">←</button>
-          <div className="flex-1 min-w-0">
-            <p className="text-violet-100 text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5">{topic.name}</p>
-            <h1 className="text-lg font-black leading-tight truncate">🔀 Ghép định nghĩa</h1>
-          </div>
-          <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm flex-shrink-0">{roundIdx + 1}/{totalRounds}</span>
-        </div>
-        <div className="h-1.5 bg-white/20 rounded-full overflow-hidden">
-          <div className="h-full bg-white/70 rounded-full transition-all" style={{ width: `${((roundIdx + 1) / totalRounds) * 100}%` }} />
-        </div>
-      </div>
+      <GameHeader colorCls="bg-gradient-to-br from-violet-500 to-purple-600" title="🔀 Ghép định nghĩa" subtitle={topic.name} onBack={() => router.push(backUrl)} right={<>{roundIdx + 1}/{totalRounds}</>} progress={{ value: ((roundIdx + 1) / totalRounds) * 100, max: 100 }} />
 
       <div className="flex-1 bg-gradient-to-b from-violet-50 to-purple-50 px-4 py-5 flex flex-col gap-3">
         <p className="text-xs font-bold text-gray-500 text-center uppercase tracking-wide">Ghép từ tiếng Anh với nghĩa tiếng Việt</p>
@@ -203,7 +184,7 @@ export default function DefinitionMatchGame({ topic, level, backUrl }: Props) {
         {/* Next round button (shown when all matched) */}
         {allMatchedInRound && (
           <button onClick={advanceRound}
-            className="w-full bg-violet-500 text-white font-black text-xl py-4 rounded-2xl shadow-md mb-2">
+            className={cta('violet', 'mb-2')}>
             {roundIdx + 1 >= totalRounds ? 'Xem kết quả →' : 'Vòng tiếp theo →'}
           </button>
         )}

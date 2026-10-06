@@ -9,6 +9,8 @@ import Confetti from '@/components/Confetti'
 import WordIcon from '@/components/WordIcon'
 import WordListPicker from '@/components/WordListPicker'
 import UpgradeModal from '@/components/UpgradeModal'
+import { GameHeader, PrimaryButton, buzz, cta } from '@/components/ChunkyUI'
+import { PRESS, HubStyles } from '@/components/TopicHub'
 
 type Example = {
   en: string
@@ -68,7 +70,7 @@ const levelConfig = {
   starter: {
     headerBg: 'bg-gradient-to-br from-pink-400 to-rose-400',
     cardBg: 'bg-gradient-to-br from-pink-50 to-rose-50',
-    cardBorder: 'border-pink-200',
+    cardBorder: 'border-pink-200 border-b-pink-400',
     wordColor: 'text-pink-600',
     speakBg: 'bg-pink-500 hover:bg-pink-600 active:bg-pink-700',
     navBg: 'bg-pink-100 hover:bg-pink-200 active:bg-pink-300 text-pink-700',
@@ -86,7 +88,7 @@ const levelConfig = {
   explorer: {
     headerBg: 'bg-gradient-to-br from-blue-500 to-cyan-400',
     cardBg: 'bg-gradient-to-br from-blue-50 to-cyan-50',
-    cardBorder: 'border-blue-200',
+    cardBorder: 'border-blue-200 border-b-blue-400',
     wordColor: 'text-blue-600',
     speakBg: 'bg-blue-500 hover:bg-blue-600 active:bg-blue-700',
     navBg: 'bg-blue-100 hover:bg-blue-200 active:bg-blue-300 text-blue-700',
@@ -252,16 +254,12 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
   if (completed) {
     return (
       <div className="flex flex-col min-h-screen">
+        <HubStyles />
         {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
-        <div className={`${styles.headerBg} px-4 pt-12 pb-8 text-white`}>
-          <button onClick={() => router.push(backUrl)} className={`${styles.backColor} font-bold text-sm flex items-center gap-1 mb-4 opacity-90`}>
-            ← {topic.name}
-          </button>
-          <h1 className="text-3xl font-black">{topic.emoji} {topic.name}</h1>
-        </div>
+        <GameHeader colorCls={styles.headerBg} title={`${topic.emoji} ${topic.name}`} subtitle="Đã học hết Flashcard" onBack={() => router.push(backUrl)} />
         <div className="flex-1 bg-gradient-to-b from-purple-50 to-pink-50 flex flex-col items-center justify-center px-4 py-8">
-          <div className="text-7xl mb-6">🎉</div>
-          <h2 className="text-3xl font-black text-gray-800 mb-2 text-center">Giỏi lắm!</h2>
+          <div className="hub-shine mb-5 flex h-24 w-24 -rotate-6 items-center justify-center rounded-3xl bg-white text-6xl shadow-md ring-4 ring-amber-100">🎉</div>
+          <h2 className="text-3xl font-bold text-gray-800 mb-2 text-center">Giỏi lắm!</h2>
           <p className="text-gray-500 font-semibold text-lg text-center mb-8">
             Bé đã học hết <strong>{total} từ</strong> trong chủ đề này!
           </p>
@@ -269,11 +267,11 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
           {hasStory && (
             <button
               onClick={() => router.push(`${backUrl}#mini-story`)}
-              className={`w-full ${styles.cardBg} ${styles.cardBorder} border-2 rounded-2xl px-4 py-3.5 mb-4 flex items-center gap-3 text-left transition-all active:scale-95 hover:shadow-md`}
+              className={`w-full ${styles.cardBg} ${styles.cardBorder} border-2 border-b-[4px] rounded-3xl px-4 py-3.5 mb-4 flex items-center gap-3 text-left ${PRESS}`}
             >
-              <span className="text-3xl flex-shrink-0">📖</span>
+              <span className="flex h-12 w-12 flex-shrink-0 -rotate-6 items-center justify-center rounded-2xl bg-white text-3xl shadow">📖</span>
               <div className="flex-1 min-w-0">
-                <p className="font-black text-gray-800 text-sm leading-tight">Nâng trình cùng Mini Story</p>
+                <p className="font-bold text-gray-800 text-sm leading-tight">Nâng trình cùng Mini Story</p>
                 <p className="text-gray-500 text-xs mt-0.5">Đọc chuyện dùng {total} từ vừa học — chỉ 3 phút!</p>
               </div>
               <span className={`${styles.wordColor} font-black text-lg flex-shrink-0`}>→</span>
@@ -281,18 +279,8 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
           )}
 
           <div className="w-full space-y-3">
-            <button
-              onClick={restart}
-              className={`w-full ${styles.finishBg} text-white font-black text-xl py-4 rounded-2xl transition-colors shadow-lg`}
-            >
-              🔄 Học lại từ đầu
-            </button>
-            <button
-              onClick={() => router.push(backUrl)}
-              className="w-full bg-white border-2 border-gray-200 text-gray-600 font-bold text-xl py-4 rounded-2xl text-center transition-colors hover:bg-gray-50"
-            >
-              📚 Chọn chế độ khác
-            </button>
+            <PrimaryButton tone="amber" onClick={restart}>🔄 Học lại từ đầu</PrimaryButton>
+            <PrimaryButton tone="slate" onClick={() => router.push(backUrl)}>📚 Chọn chế độ khác</PrimaryButton>
           </div>
         </div>
       </div>
@@ -304,35 +292,21 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
       {showLimitModal && <UpgradeModal onClose={() => setShowLimitModal(false)} />}
       {/* Header — one row: back icon + topic name (small eyebrow) + game name (title) + counter,
           matching every other Daily game's header (ListenGame, MatchGame, ...) */}
-      <div className={`${styles.headerBg} px-4 pt-6 pb-4 text-white`}>
-        <div className="flex items-center gap-3">
-          <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className={`${styles.backColor} text-xl flex-shrink-0 opacity-90 hover:opacity-100`}>
-            ←
-          </button>
-          <div className="flex-1 min-w-0">
-            <p className={`${styles.backColor} text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5 opacity-90 truncate`}>{topic.name}</p>
-            <h1 className="text-lg font-black leading-tight truncate">📖 Flashcard</h1>
-          </div>
-          <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm flex-shrink-0">
-            {currentIndex + 1}/{total}
-          </span>
-        </div>
-
-        {/* Progress bar */}
-        <div className={`mt-2 h-2 ${styles.progressBg} rounded-full overflow-hidden`}>
-          <div
-            className={`h-full ${styles.progressFill} rounded-full transition-all duration-500`}
-            style={{ width: `${((currentIndex + 1) / total) * 100}%` }}
-          />
-        </div>
-      </div>
+      <GameHeader
+        colorCls={styles.headerBg}
+        title="📖 Flashcard"
+        subtitle={topic.name}
+        onBack={() => router.push(backUrl)}
+        right={`${currentIndex + 1}/${total}`}
+        progress={{ value: currentIndex + 1, max: total }}
+      />
 
       {/* Card area */}
       <div className="flex-1 bg-gradient-to-b from-purple-50 to-pink-50 px-4 py-6 flex flex-col">
         {/* Flashcard */}
         <div className={`
-          ${styles.cardBg} ${styles.cardBorder} border-2 rounded-3xl
-          p-5 shadow-xl flex flex-col items-center text-center
+          ${styles.cardBg} ${styles.cardBorder} border-2 border-b-[6px] rounded-3xl
+          p-5 flex flex-col items-center text-center
           flex-1 justify-start relative
         `}>
           {/* Star button */}
@@ -526,44 +500,22 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
           </div>
         </div>
 
-        {/* Navigation */}
+        {/* Navigation — small back button + wide next; progress lives in the header bar */}
         <div className="flex gap-3 mt-5">
           <button
-            onClick={goPrev}
+            onClick={() => { buzz(); goPrev() }}
             disabled={currentIndex === 0}
-            className={`
-              flex-1 py-4 rounded-2xl font-black text-xl
-              transition-colors duration-150 active:scale-95
-              ${currentIndex === 0 ? styles.navBgDisabled : styles.navBg}
-            `}
+            aria-label="Từ trước"
+            className={`flex h-14 w-16 flex-shrink-0 items-center justify-center rounded-2xl border-2 border-b-[4px] text-xl font-bold ${PRESS} border-slate-200 border-b-slate-300 bg-white text-slate-600 disabled:border-slate-100 disabled:bg-slate-50 disabled:text-slate-300 disabled:active:translate-y-0 disabled:active:border-b-[4px]`}
           >
-            ← Trước
+            ←
           </button>
           <button
-            onClick={goNext}
-            className={`
-              flex-1 py-4 rounded-2xl font-black text-xl
-              ${styles.speakBg} text-white
-              transition-colors duration-150 active:scale-95 shadow-md
-            `}
+            onClick={() => { buzz(); goNext() }}
+            className={cta(level === 'starter' ? 'pink' : 'blue', 'flex-1')}
           >
             {currentIndex === total - 1 ? '🎉 Xong!' : 'Tiếp →'}
           </button>
-        </div>
-
-        {/* Dot indicators */}
-        <div className="flex justify-center gap-1.5 mt-4 flex-wrap">
-          {topic.words.map((_, idx) => (
-            <button
-              key={idx}
-              onClick={() => setCurrentIndex(idx)}
-              className={`
-                w-2.5 h-2.5 rounded-full transition-all duration-200
-                ${idx === currentIndex ? `${styles.dotActive} scale-125` : styles.dotInactive}
-              `}
-              aria-label={`Từ ${idx + 1}`}
-            />
-          ))}
         </div>
       </div>
 

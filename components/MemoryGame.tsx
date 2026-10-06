@@ -4,9 +4,12 @@ import { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import { useGameSync } from '@/lib/GameSyncContext'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
+import GameResultScreen from '@/components/GameResultScreen'
 import Confetti from '@/components/Confetti'
 import WordIcon from '@/components/WordIcon'
 import { memoryScorePct, starsFor } from '@/lib/topicMastery'
+import { PRESS } from '@/components/TopicHub'
+import { GameHeader } from '@/components/ChunkyUI'
 
 type Word = { word: string; meaning: string; emoji: string; examples: { en: string; vi: string }[] }
 type Topic = { id: string; name: string; emoji: string; color: string; words: Word[] }
@@ -134,38 +137,20 @@ export default function MemoryGame({ topic, level, backUrl }: Props) {
 
   const scorePct = memoryScorePct(total, moves, seconds)
   const stars = starsFor(scorePct)
-  const starEmoji = stars === 3 ? '🏆' : stars === 2 ? '⭐' : '💪'
   const xpEarned = total
 
   if (done) {
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
-        <div className={`${styles.headerBg} px-4 pt-6 pb-4 text-white`}>
-          <div className="flex items-center gap-3">
-            <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className={`${styles.backColor} text-xl flex-shrink-0 opacity-90 hover:opacity-100`}>←</button>
-            <div className="flex-1 min-w-0">
-              <p className={`${styles.backColor} text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5 opacity-90 truncate`}>{topic.name}</p>
-              <h1 className="text-lg font-black leading-tight truncate">🃏 Lật Thẻ</h1>
-            </div>
-          </div>
-        </div>
+        <GameHeader colorCls={styles.headerBg} title="🃏 Lật Thẻ" subtitle={topic.name} onBack={() => router.push(backUrl)} />
         <div className="flex-1 bg-gradient-to-b from-purple-50 to-pink-50 flex flex-col items-center justify-center px-4 py-8">
-          <div className="text-7xl mb-4">{starEmoji}</div>
-          <h2 className="text-3xl font-black text-gray-800 mb-2">Hoàn thành!</h2>
-          <p className="text-gray-500 font-bold text-lg mb-1">Ghép đúng {total} cặp</p>
-          <p className="text-gray-500 font-semibold mb-1">{moves} lượt lật thẻ · ⏱ {seconds} giây</p>
-          <p className="text-gray-400 text-sm font-semibold mb-3">{'⭐'.repeat(stars)}{'☆'.repeat(3 - stars)} {scorePct}% · lật ít lượt và nhanh hơn để được 3 sao!</p>
-          <div className="inline-flex items-center gap-1.5 bg-yellow-50 border border-yellow-200 rounded-full px-4 py-1.5 mb-4">
-            <span className="text-base">⭐</span>
-            <span className="text-yellow-700 font-black text-sm">+{xpEarned} XP</span>
-          </div>
-          <div className="w-full space-y-3 mt-2">
-            <button onClick={restart} className={`w-full ${styles.finishBg} text-white font-black text-xl py-4 rounded-2xl shadow-lg transition-colors`}>
-              🔄 Chơi lại
-            </button>
-            <button onClick={() => router.push(backUrl)} className="w-full bg-white border-2 border-gray-200 text-gray-600 font-bold text-xl py-4 rounded-2xl text-center">← Chọn chế độ khác</button>
-          </div>
+          <GameResultScreen
+            score={scorePct} total={100} xpEarned={xpEarned} stars={stars}
+            scoreLine={`Ghép đúng ${total} cặp`}
+            extra={<>{moves} lượt lật thẻ · ⏱ {seconds} giây<br />Lật ít lượt và nhanh hơn để được 3 sao!</>}
+            onRestart={restart} onExit={() => router.push(backUrl)}
+          />
         </div>
       </div>
     )
@@ -173,17 +158,7 @@ export default function MemoryGame({ topic, level, backUrl }: Props) {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <div className={`${styles.headerBg} px-4 pt-6 pb-4 text-white`}>
-        <div className="flex items-center gap-3">
-          <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className={`${styles.backColor} text-xl flex-shrink-0 opacity-90 hover:opacity-100`}>←</button>
-          <div className="flex-1 min-w-0">
-            <p className={`${styles.backColor} text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5 opacity-90 truncate`}>{topic.name}</p>
-            <h1 className="text-lg font-black leading-tight truncate">🃏 Lật Thẻ</h1>
-          </div>
-          <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm flex-shrink-0">{matchedCount}/{total} cặp</span>
-        </div>
-        <p className="text-white/80 text-xs font-semibold mt-1">{moves} lượt · Tìm cặp từ + hình khớp nhau!</p>
-      </div>
+      <GameHeader colorCls={styles.headerBg} title="🃏 Lật Thẻ" subtitle={topic.name} onBack={() => router.push(backUrl)} right={<>{matchedCount}/{total} cặp</>} />
 
       <div className="flex-1 bg-gradient-to-b from-purple-50 to-pink-50 px-4 py-6">
         <div className="grid grid-cols-3 gap-3">
@@ -191,12 +166,12 @@ export default function MemoryGame({ topic, level, backUrl }: Props) {
             <button
               key={card.id}
               onClick={() => handleFlip(card.id)}
-              className={`aspect-square rounded-2xl border-2 shadow-md transition-all duration-200 active:scale-95
+              className={`aspect-square rounded-2xl border-2 border-b-[4px] ${PRESS}
                 ${card.isMatched
-                  ? 'bg-green-100 border-green-400'
+                  ? 'bg-green-100 border-green-300 border-b-green-500'
                   : card.isFlipped
-                  ? 'bg-white border-indigo-300'
-                  : `${styles.cardBack} border-transparent`
+                  ? 'bg-white border-indigo-200 border-b-indigo-400'
+                  : `${styles.cardBack} border-black/10 border-b-black/25`
                 }`}
             >
               {card.isFlipped || card.isMatched ? (
@@ -204,7 +179,7 @@ export default function MemoryGame({ topic, level, backUrl }: Props) {
                   {card.type === 'emoji' ? (
                     <WordIcon word={card.word.word} emoji={card.word.emoji} emojiClass="text-4xl" iconSize={48} />
                   ) : (
-                    <span className="text-sm font-black text-gray-800 text-center leading-tight">{card.word.word}</span>
+                    <span className="text-sm font-bold text-gray-800 text-center leading-tight">{card.word.word}</span>
                   )}
                   {card.isMatched && <span className="text-green-500 text-xs mt-0.5">✓</span>}
                 </div>

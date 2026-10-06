@@ -6,6 +6,7 @@ import dynamic from 'next/dynamic'
 import { loadDailyTopicOffline, saveLastSync, loadOfflineProgress, clearOfflineProgress } from '@/lib/offlineStorage'
 import { isTopicMastered, type MasteryEntry } from '@/lib/topicMastery'
 import { HubStyles, Rise, TopicHero, RoundCards, PRESS } from '@/components/TopicHub'
+import PageSkeleton from '@/components/PageSkeleton'
 
 const TrophyModal = dynamic(() => import('@/components/TrophyModal'), { ssr: false })
 
@@ -220,35 +221,7 @@ export default function TopicPage() {
 
   if (loading) {
     const skeletonColors = LEVEL_COLORS[level] ?? LEVEL_COLORS.explorer
-    return (
-      <div className={`min-h-screen bg-gradient-to-br ${skeletonColors.bg} animate-pulse`}>
-        <div className={`${skeletonColors.header} px-4 py-4 flex items-center gap-3`}>
-          <div className="h-6 w-6 bg-white/30 rounded-full" />
-          <div className="h-6 w-6 bg-white/30 rounded-full" />
-          <div className="flex-1 space-y-1.5">
-            <div className="h-4 w-32 bg-white/30 rounded-full" />
-            <div className="h-3 w-20 bg-white/20 rounded-full" />
-          </div>
-        </div>
-        <div className="max-w-xl mx-auto px-4 py-5 space-y-4">
-          <div className="flex gap-3">
-            <div className="flex-1 h-16 bg-white rounded-2xl shadow-sm" />
-            <div className="w-28 h-16 bg-white rounded-2xl shadow-sm" />
-          </div>
-          <div className="bg-white rounded-2xl shadow-sm overflow-hidden">
-            <div className={`${skeletonColors.header} h-14`} />
-            <div className="divide-y divide-gray-50">
-              {[1, 2, 3, 4].map(i => (
-                <div key={i} className="flex items-center gap-3 px-4 py-3.5">
-                  <div className="h-8 w-8 bg-gray-100 rounded-full flex-shrink-0" />
-                  <div className="flex-1 h-4 bg-gray-100 rounded-full" />
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
-    )
+    return <PageSkeleton header={skeletonColors.header} bg={skeletonColors.bg} cards={[300, 72, 280]} />
   }
 
   if (offlineUnavailable || !topic) {

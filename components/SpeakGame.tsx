@@ -8,6 +8,7 @@ import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
 import WordIcon from '@/components/WordIcon'
 import GameResultScreen from '@/components/GameResultScreen'
+import { GameHeader, cta } from '@/components/ChunkyUI'
 
 type Word = { word: string; meaning: string; emoji: string; examples?: { en: string; vi: string }[] }
 type Topic = { id: string; name: string; emoji: string; words: Word[] }
@@ -243,15 +244,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
-        <div className="bg-gradient-to-br from-rose-400 to-pink-500 px-4 pt-6 pb-4 text-white">
-          <div className="flex items-center gap-3">
-            <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-rose-100 text-xl flex-shrink-0">←</button>
-            <div className="flex-1 min-w-0">
-              <p className="text-rose-100 text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5">{topic.name}</p>
-              <h1 className="text-lg font-black leading-tight truncate">🎤 Phát âm cùng AI ✨</h1>
-            </div>
-          </div>
-        </div>
+        <GameHeader colorCls="bg-gradient-to-br from-rose-400 to-pink-500" title="🎤 Phát âm cùng AI ✨" subtitle={topic.name} onBack={() => router.push(backUrl)} />
         <div className="flex-1 bg-gradient-to-b from-rose-50 to-pink-50 flex flex-col items-center justify-center px-4 py-8">
           <GameResultScreen
             score={score} total={total} xpEarned={xpEarned} wrongWords={wrongWords}
@@ -265,19 +258,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
   return (
     <div className="flex flex-col min-h-screen bg-rose-50">
       {/* Header */}
-      <div className="bg-gradient-to-br from-rose-400 to-pink-500 px-4 pt-6 pb-4 text-white">
-        <div className="flex items-center gap-3 mb-3">
-          <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-rose-100 text-xl flex-shrink-0">←</button>
-          <div className="flex-1 min-w-0">
-            <p className="text-rose-100 text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5">{topic.name}</p>
-            <h1 className="text-lg font-black leading-tight truncate">🎤 Phát âm cùng AI</h1>
-          </div>
-          <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm flex-shrink-0">{idx + 1}/{total}</span>
-        </div>
-        <div className="h-1.5 bg-white/20 rounded-full overflow-hidden">
-          <div className="h-full bg-white/70 rounded-full transition-all" style={{ width: `${((idx + 1) / total) * 100}%` }} />
-        </div>
-      </div>
+      <GameHeader colorCls="bg-gradient-to-br from-rose-400 to-pink-500" title="🎤 Phát âm cùng AI" subtitle={topic.name} onBack={() => router.push(backUrl)} right={<>{idx + 1}/{total}</>} progress={{ value: ((idx + 1) / total) * 100, max: 100 }} />
 
       <div className="flex-1 flex flex-col px-4 py-4 gap-4">
         {/* Target card — word + sentence unified */}
@@ -286,7 +267,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
             <div className="mb-2 flex justify-center">
               <WordIcon word={q.word} emoji={q.emoji} emojiClass="text-5xl" iconSize={60} />
             </div>
-            <p className="text-3xl font-black text-gray-800">{q.word}</p>
+            <p className="text-3xl font-bold text-gray-800">{q.word}</p>
             <p className="text-base text-gray-400 font-semibold mt-0.5">{q.meaning}</p>
           </div>
 
@@ -335,7 +316,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
           {phase === 'countdown' && (
             <>
               <div className="w-20 h-20 rounded-full bg-rose-100 border-4 border-rose-300 flex items-center justify-center animate-pulse">
-                <span className="text-5xl font-black text-rose-500">{countdown}</span>
+                <span className="text-5xl font-bold text-rose-500">{countdown}</span>
               </div>
               <p className="text-rose-400 font-bold text-sm">Chuẩn bị đọc...</p>
               <button onClick={retry} className="text-gray-300 text-xs font-semibold underline active:scale-95 transition-all">Huỷ</button>
@@ -370,7 +351,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
             <div className="w-full flex flex-col gap-3">
               <div className="bg-amber-50 border-2 border-amber-200 rounded-2xl p-4 text-center">
                 <p className="text-2xl mb-1">🔄</p>
-                <p className="font-black text-amber-700">Chưa nghe rõ tiếng Anh</p>
+                <p className="font-bold text-amber-700">Chưa nghe rõ tiếng Anh</p>
                 <p className="text-amber-500 text-sm mt-1">Đọc to hơn và gần micro hơn nhé!</p>
               </div>
               {playbackUrl && (
@@ -380,7 +361,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
                 </button>
               )}
               <div className="flex gap-3">
-                <button onClick={retry} className="flex-1 bg-rose-500 text-white font-black py-3 rounded-2xl shadow-md active:scale-95 transition-all">🎤 Thử lại</button>
+                <button onClick={retry} className="flex-1 bg-rose-500 text-white font-bold py-3 rounded-2xl shadow-md active:scale-95 transition-all">🎤 Thử lại</button>
                 <button onClick={() => advance(1)} className="flex-1 bg-white border-2 border-gray-100 text-gray-400 font-bold py-3 rounded-2xl active:scale-95 transition-all">Bỏ qua →</button>
               </div>
             </div>
@@ -405,7 +386,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
               )}
               <div className="flex gap-3">
                 <button onClick={retry} className="flex-1 bg-white border-2 border-gray-100 text-gray-500 font-bold py-3 rounded-2xl active:scale-95 transition-all">🔄 Thử lại</button>
-                <button onClick={() => advance(1)} className={`flex-1 font-black py-3 rounded-2xl shadow-md text-white active:scale-95 transition-all ${isCorrect ? 'bg-green-500' : 'bg-rose-500'}`}>
+                <button onClick={() => advance(1)} className={cta('green')}>
                   {idx + 1 >= total ? 'Kết quả →' : 'Tiếp theo →'}
                 </button>
               </div>

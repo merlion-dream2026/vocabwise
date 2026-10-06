@@ -8,6 +8,7 @@ import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
 import WordIcon from '@/components/WordIcon'
 import GameResultScreen from '@/components/GameResultScreen'
+import { GameHeader, cta } from '@/components/ChunkyUI'
 
 type Word = { word: string; meaning: string; emoji: string; examples?: { en: string; vi: string }[] }
 type Topic = { id: string; name: string; emoji: string; color: string; words: Word[] }
@@ -127,15 +128,7 @@ export default function SpeedRoundGame({ topic, level, backUrl }: Props) {
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
-        <div className="bg-gradient-to-br from-violet-500 to-purple-600 px-4 pt-6 pb-4 text-white">
-          <div className="flex items-center gap-3">
-            <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-violet-100 text-xl flex-shrink-0 opacity-90 hover:opacity-100">←</button>
-            <div className="flex-1 min-w-0">
-              <p className="text-violet-100 text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5 opacity-90 truncate">{topic.name}</p>
-              <h1 className="text-lg font-black leading-tight truncate">⚡ Speed Round</h1>
-            </div>
-          </div>
-        </div>
+        <GameHeader colorCls="bg-gradient-to-br from-violet-500 to-purple-600" title="⚡ Speed Round" subtitle={topic.name} onBack={() => router.push(backUrl)} />
         <div className="flex-1 bg-gradient-to-b from-violet-50 to-purple-50 flex flex-col items-center justify-center px-4 py-8">
           <GameResultScreen
             score={score} total={total} xpEarned={xpEarned} wrongWords={wrongWords}
@@ -158,37 +151,7 @@ export default function SpeedRoundGame({ topic, level, backUrl }: Props) {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <div className="bg-gradient-to-br from-violet-500 to-purple-600 px-4 pt-6 pb-4 text-white">
-        <div className="flex items-center gap-3 mb-3">
-          <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-violet-100 text-xl flex-shrink-0 opacity-90 hover:opacity-100">←</button>
-          <div className="flex-1 min-w-0">
-            <p className="text-violet-100 text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5 opacity-90 truncate">{topic.name}</p>
-            <h1 className="text-lg font-black leading-tight truncate">⚡ Speed Round</h1>
-          </div>
-          <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm flex-shrink-0">
-            {idx + 1}/{total}
-          </span>
-        </div>
-        <div className="h-1.5 bg-violet-400/40 rounded-full overflow-hidden mb-2">
-          <div
-            className="h-full bg-white/70 rounded-full transition-all duration-500"
-            style={{ width: `${((idx + 1) / total) * 100}%` }}
-          />
-        </div>
-        <div className="h-2.5 bg-white/20 rounded-full overflow-hidden">
-          <div
-            className={`h-full ${timerColor} rounded-full transition-all duration-1000 ease-linear`}
-            style={{ width: `${timerPct}%` }}
-          />
-        </div>
-        <p
-          className={`text-right text-xs font-black mt-1 transition-colors ${
-            timeLeft <= 2 ? 'text-red-200' : 'text-white/50'
-          }`}
-        >
-          {timeLeft}s
-        </p>
-      </div>
+      <GameHeader colorCls="bg-gradient-to-br from-violet-500 to-purple-600" title="⚡ Speed Round" subtitle={topic.name} onBack={() => router.push(backUrl)} right={<>{idx + 1}/{total}</>} progress={{ value: ((idx + 1) / total) * 100, max: 100 }} timer={{ pct: timerPct, secondsLeft: timeLeft, urgent: timeLeft <= 2, fillCls: timerColor }} />
 
       <div className="flex-1 bg-gradient-to-b from-violet-50 to-purple-50 px-4 py-6 flex flex-col items-center">
         <div className="mb-2 flex justify-center"><WordIcon word={word.word} emoji={word.emoji} emojiClass="text-7xl leading-none select-none" iconSize={88} /></div>
@@ -223,15 +186,15 @@ export default function SpeedRoundGame({ topic, level, backUrl }: Props) {
 
         <div role="status" aria-live="polite">
           {result === 'correct' && (
-            <p className="text-green-500 font-black text-xl mb-4">✅ Chính xác!</p>
+            <p className="text-green-500 font-bold text-xl mb-4">✅ Chính xác!</p>
           )}
           {result === 'wrong' && (
-            <p className="text-red-500 font-black text-xl mb-4">
+            <p className="text-red-500 font-bold text-xl mb-4">
               ❌ Đáp án: <span className="underline">{word.word}</span>
             </p>
           )}
           {result === 'timeout' && (
-            <p className="text-orange-500 font-black text-xl mb-4">
+            <p className="text-orange-500 font-bold text-xl mb-4">
               ⏰ Hết giờ! Đáp án: <span className="underline">{word.word}</span>
             </p>
           )}
@@ -241,7 +204,7 @@ export default function SpeedRoundGame({ topic, level, backUrl }: Props) {
           <button
             onClick={handleSubmit}
             disabled={!input.trim()}
-            className="w-full bg-violet-500 hover:bg-violet-600 disabled:bg-violet-200 text-white font-black text-xl py-4 rounded-2xl shadow-md transition-colors active:scale-95"
+            className={cta('violet')}
           >
             Kiểm tra ✓
           </button>

@@ -7,6 +7,7 @@ import { saveStepScore } from '@/lib/stepScores'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 import GameResultScreen from '@/components/GameResultScreen'
+import { GameHeader, AnswerButton, cta } from '@/components/ChunkyUI'
 
 
 type Word = { word: string; meaning: string; emoji: string; examples: { en: string; vi: string }[] }
@@ -113,15 +114,7 @@ export default function QuizGame({ topic, level, backUrl }: Props) {
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
-        <div className={`${styles.headerBg} px-4 pt-6 pb-4 text-white`}>
-          <div className="flex items-center gap-3">
-            <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className={`${styles.backColor} text-xl flex-shrink-0 opacity-90 hover:opacity-100`}>←</button>
-            <div className="flex-1 min-w-0">
-              <p className={`${styles.backColor} text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5 opacity-90 truncate`}>{topic.name}</p>
-              <h1 className="text-lg font-black leading-tight truncate">🔤 Chọn Nghĩa Đúng</h1>
-            </div>
-          </div>
-        </div>
+        <GameHeader colorCls={styles.headerBg} title="🔤 Chọn Nghĩa Đúng" subtitle={topic.name} onBack={() => router.push(backUrl)} />
         <div className="flex-1 bg-gradient-to-b from-purple-50 to-pink-50 flex flex-col items-center justify-center px-4 py-8">
           <GameResultScreen
             score={score} total={total} xpEarned={xpEarned} wrongWords={wrongWords}
@@ -134,22 +127,7 @@ export default function QuizGame({ topic, level, backUrl }: Props) {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <div className={`${styles.headerBg} px-4 pt-6 pb-4 text-white`}>
-        <div className="flex items-center gap-3">
-          <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className={`${styles.backColor} text-xl flex-shrink-0 opacity-90 hover:opacity-100`}>←</button>
-          <div className="flex-1 min-w-0">
-            <p className={`${styles.backColor} text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5 opacity-90 truncate`}>{topic.name}</p>
-            <h1 className="text-lg font-black leading-tight truncate">🔤 Chọn Nghĩa Đúng</h1>
-          </div>
-          <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm flex-shrink-0">{currentIdx + 1}/{total}</span>
-        </div>
-        <div className={`mt-2 h-2 ${styles.progressBg} rounded-full overflow-hidden`}>
-          <div
-            className={`h-full ${styles.progressFill} rounded-full transition-all duration-500`}
-            style={{ width: `${((currentIdx + 1) / total) * 100}%` }}
-          />
-        </div>
-      </div>
+      <GameHeader colorCls={styles.headerBg} title="🔤 Chọn Nghĩa Đúng" subtitle={topic.name} onBack={() => router.push(backUrl)} right={<>{currentIdx + 1}/{total}</>} progress={{ value: ((currentIdx + 1) / total) * 100, max: 100 }} />
 
       <div className="flex-1 bg-gradient-to-b from-purple-50 to-pink-50 flex flex-col px-4 py-6">
         {/* Screen-reader feedback */}
@@ -157,9 +135,9 @@ export default function QuizGame({ topic, level, backUrl }: Props) {
           {selected !== null && (selected === current.word.word ? 'Chính xác!' : `Sai rồi. Đáp án đúng là ${current.word.word}.`)}
         </div>
         {/* Question card */}
-        <div className="bg-white rounded-3xl border-2 border-indigo-100 shadow-xl p-6 flex flex-col items-center text-center mb-6">
+        <div className="bg-white rounded-3xl border-2 border-b-[4px] border-indigo-100 border-b-indigo-300 p-6 flex flex-col items-center text-center mb-6">
           <p className="text-gray-500 font-bold text-sm uppercase tracking-wider mb-2">Nghĩa tiếng Việt là:</p>
-          <h2 className="text-3xl font-black text-gray-800">{current.word.meaning}</h2>
+          <h2 className="text-3xl font-bold text-gray-800">{current.word.meaning}</h2>
           <p className="text-gray-500 font-semibold text-sm mt-3">Từ tiếng Anh tương ứng là gì?</p>
         </div>
 
@@ -168,24 +146,12 @@ export default function QuizGame({ topic, level, backUrl }: Props) {
           {current.choices.map((choice, idx) => {
             const isSelected = selected === choice.word
             const isCorrect = choice.word === current.word.word
-            let style = 'bg-white border-gray-200 text-gray-800'
-            if (selected !== null) {
-              if (isCorrect) style = 'bg-green-100 border-green-400 text-green-800'
-              else if (isSelected) style = 'bg-red-100 border-red-400 text-red-700'
-              else style = 'bg-white border-gray-100 text-gray-400'
-            }
+            const state = selected === null ? 'idle' : isCorrect ? 'correct' : isSelected ? 'wrong' : 'dim'
             return (
-              <button
-                key={choice.word}
-                onClick={() => handleChoice(choice.word)}
-                disabled={selected !== null}
-                className={`w-full flex items-center gap-4 border-2 rounded-2xl px-5 py-4 font-bold text-lg transition-all duration-150 active:scale-95 ${style}`}
-              >
-                <span className="w-9 h-9 rounded-xl bg-indigo-100 text-indigo-700 font-black text-base flex items-center justify-center flex-shrink-0">
-                  {selected !== null && isCorrect ? '✓' : selected !== null && isSelected ? '✗' : LABELS[idx]}
-                </span>
-                <span>{choice.word}</span>
-              </button>
+              <AnswerButton key={choice.word} state={state} badge={LABELS[idx]}
+                onClick={() => handleChoice(choice.word)} disabled={selected !== null}>
+                {choice.word}
+              </AnswerButton>
             )
           })}
         </div>
@@ -198,31 +164,16 @@ export default function QuizGame({ topic, level, backUrl }: Props) {
           </div>
         )}
 
-        {/* Nav */}
-        <div className="flex gap-3 mt-5">
-          <div className="flex-1 py-4 rounded-2xl bg-gray-100 text-gray-300 font-black text-xl text-center select-none">
-            ← Trước
-          </div>
+        <div className="mt-5">
           <button
             onClick={goNext}
             disabled={selected === null}
-            className={`flex-1 py-4 rounded-2xl font-black text-xl text-white transition-colors shadow-md
-              ${selected !== null ? 'bg-blue-500 hover:bg-blue-600 active:scale-95' : 'bg-blue-200 cursor-not-allowed'}`}
+            className={cta('blue')}
           >
             {currentIdx === total - 1 ? '🎉 Xong!' : 'Tiếp →'}
           </button>
         </div>
 
-        {/* Dots */}
-        <div className="flex justify-center gap-1.5 mt-4 flex-wrap">
-          {questions.map((_, idx) => (
-            <div
-              key={idx}
-              className={`w-2.5 h-2.5 rounded-full transition-all duration-200
-                ${idx === currentIdx ? 'bg-blue-500 scale-125' : idx < currentIdx ? 'bg-blue-300' : 'bg-blue-100'}`}
-            />
-          ))}
-        </div>
       </div>
     </div>
   )

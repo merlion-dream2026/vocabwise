@@ -9,6 +9,7 @@ import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
 import WordIcon from '@/components/WordIcon'
 import GameResultScreen from '@/components/GameResultScreen'
+import { GameHeader, cta } from '@/components/ChunkyUI'
 
 type Word = { word: string; meaning: string; emoji: string; class?: string; examples: { en: string; vi: string }[] }
 type Topic = { id: string; name: string; emoji: string; color: string; words: Word[] }
@@ -138,15 +139,7 @@ export default function TypingGame({ topic, level, backUrl }: Props) {
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
-        <div className="bg-gradient-to-br from-blue-500 to-cyan-400 px-4 pt-6 pb-4 text-white">
-          <div className="flex items-center gap-3">
-            <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-blue-100 text-xl flex-shrink-0 opacity-90 hover:opacity-100">←</button>
-            <div className="flex-1 min-w-0">
-              <p className="text-blue-100 text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5 opacity-90 truncate">{topic.name}</p>
-              <h1 className="text-lg font-black leading-tight truncate">⌨️ Typing Sprint</h1>
-            </div>
-          </div>
-        </div>
+        <GameHeader colorCls="bg-gradient-to-br from-blue-500 to-cyan-400" title="⌨️ Typing Sprint" subtitle={topic.name} onBack={() => router.push(backUrl)} />
         <div className="flex-1 bg-gradient-to-b from-blue-50 to-cyan-50 flex flex-col items-center justify-center px-4 py-8">
           <GameResultScreen
             score={score} total={total} xpEarned={xpEarned} wrongWords={wrongWords}
@@ -167,27 +160,7 @@ export default function TypingGame({ topic, level, backUrl }: Props) {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header */}
-      <div className="bg-gradient-to-br from-blue-500 to-cyan-400 px-4 pt-6 pb-4 text-white">
-        <div className="flex items-center gap-3 mb-3">
-          <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-blue-100 text-xl flex-shrink-0 opacity-90 hover:opacity-100">←</button>
-          <div className="flex-1 min-w-0">
-            <p className="text-blue-100 text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5 opacity-90 truncate">{topic.name}</p>
-            <h1 className="text-lg font-black leading-tight truncate">⌨️ Typing Sprint</h1>
-          </div>
-          <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm flex-shrink-0">{idx + 1}/{total}</span>
-        </div>
-        {/* Word progress */}
-        <div className="h-1.5 bg-blue-300/40 rounded-full overflow-hidden mb-2">
-          <div className="h-full bg-white/70 rounded-full transition-all duration-500" style={{ width: `${((idx + 1) / total) * 100}%` }} />
-        </div>
-        {/* Timer bar */}
-        <div className="h-2.5 bg-white/20 rounded-full overflow-hidden">
-          <div className={`h-full ${timerBarColor} rounded-full transition-all duration-1000 ease-linear`} style={{ width: `${timerPct}%` }} />
-        </div>
-        <p className={`text-right text-xs font-black mt-1 transition-colors ${timeLeft <= 4 ? 'text-red-200' : 'text-white/50'}`}>
-          {timeLeft}s
-        </p>
-      </div>
+      <GameHeader colorCls="bg-gradient-to-br from-blue-500 to-cyan-400" title="⌨️ Typing Sprint" subtitle={topic.name} onBack={() => router.push(backUrl)} right={<>{idx + 1}/{total}</>} progress={{ value: ((idx + 1) / total) * 100, max: 100 }} timer={{ pct: timerPct, secondsLeft: timeLeft, urgent: timeLeft <= 4, fillCls: timerBarColor }} />
 
       {/* Body */}
       <div className="flex-1 bg-gradient-to-b from-blue-50 to-cyan-50 px-4 py-6 flex flex-col items-center">
@@ -228,13 +201,13 @@ export default function TypingGame({ topic, level, backUrl }: Props) {
         {/* Feedback */}
         <div role="status" aria-live="polite">
           {result === 'correct' && (
-            <p className="text-green-500 font-black text-xl mb-4">✅ Chính xác!</p>
+            <p className="text-green-500 font-bold text-xl mb-4">✅ Chính xác!</p>
           )}
           {result === 'wrong' && (
-            <p className="text-red-500 font-black text-xl mb-4">❌ Đáp án đúng: <span className="underline">{word.word}</span></p>
+            <p className="text-red-500 font-bold text-xl mb-4">❌ Đáp án đúng: <span className="underline">{word.word}</span></p>
           )}
           {result === 'timeout' && (
-            <p className="text-orange-500 font-black text-xl mb-4">⏰ Hết giờ! Đáp án: <span className="underline">{word.word}</span></p>
+            <p className="text-orange-500 font-bold text-xl mb-4">⏰ Hết giờ! Đáp án: <span className="underline">{word.word}</span></p>
           )}
           {(result === 'wrong' || result === 'timeout') && word.examples?.[0] && (
             <div className="bg-blue-50 border-2 border-blue-100 rounded-2xl p-4 mb-4 text-left">
@@ -250,7 +223,7 @@ export default function TypingGame({ topic, level, backUrl }: Props) {
           <button
             onClick={handleSubmit}
             disabled={!input.trim()}
-            className="w-full bg-blue-500 hover:bg-blue-600 disabled:bg-blue-200 text-white font-black text-xl py-4 rounded-2xl shadow-md transition-colors active:scale-95"
+            className={cta('blue')}
           >
             Kiểm tra ✓
           </button>
@@ -261,22 +234,12 @@ export default function TypingGame({ topic, level, backUrl }: Props) {
         {(result === 'wrong' || result === 'timeout') && (
           <button
             onClick={() => advance(idx, words)}
-            className="w-full bg-blue-500 hover:bg-blue-600 text-white font-black text-xl py-4 rounded-2xl shadow-md transition-colors active:scale-95"
+            className={cta('blue')}
           >
             {idx + 1 >= total ? 'Xem kết quả →' : 'Tiếp theo →'}
           </button>
         )}
 
-        {/* Dots */}
-        <div className="flex justify-center gap-1.5 mt-6 flex-wrap">
-          {words.map((_, i) => (
-            <div
-              key={i}
-              className={`w-2.5 h-2.5 rounded-full transition-all duration-200
-                ${i === idx ? 'bg-blue-500 scale-125' : i < idx ? 'bg-blue-300' : 'bg-blue-100'}`}
-            />
-          ))}
-        </div>
       </div>
     </div>
   )

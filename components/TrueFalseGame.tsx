@@ -7,6 +7,8 @@ import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
 import GameResultScreen from '@/components/GameResultScreen'
+import { GameHeader, cta } from '@/components/ChunkyUI'
+import { PRESS } from '@/components/TopicHub'
 
 
 type Word = { word: string; meaning: string; emoji: string }
@@ -116,15 +118,7 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
-        <div className="bg-gradient-to-br from-green-400 to-emerald-500 px-4 pt-6 pb-4 text-white">
-          <div className="flex items-center gap-3">
-            <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-green-100 text-xl flex-shrink-0">←</button>
-            <div className="flex-1 min-w-0">
-              <p className="text-green-100 text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5">{topic.name}</p>
-              <h1 className="text-lg font-black leading-tight truncate">✅ Đúng / Sai</h1>
-            </div>
-          </div>
-        </div>
+        <GameHeader colorCls="bg-gradient-to-br from-green-400 to-emerald-500" title="✅ Đúng / Sai" subtitle={topic.name} onBack={() => router.push(backUrl)} />
         <div className="flex-1 bg-gradient-to-b from-green-50 to-emerald-50 flex flex-col items-center justify-center px-4 py-8">
           <GameResultScreen
             score={score} total={total} xpEarned={xpEarned} wrongWords={wrongWords}
@@ -141,37 +135,19 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header */}
-      <div className="bg-gradient-to-br from-green-400 to-emerald-500 px-4 pt-6 pb-4 text-white">
-        <div className="flex items-center gap-3 mb-3">
-          <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-green-100 text-xl flex-shrink-0">←</button>
-          <div className="flex-1 min-w-0">
-            <p className="text-green-100 text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5">{topic.name}</p>
-            <h1 className="text-lg font-black leading-tight truncate">✅ Đúng / Sai</h1>
-          </div>
-          <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm flex-shrink-0">{idx + 1}/{total}</span>
-        </div>
-
-        {/* Timer bar */}
-        <div className="h-3 bg-white/20 rounded-full overflow-hidden">
-          <div
-            className={`h-full rounded-full transition-all duration-1000 ease-linear ${timeLeft <= 3 ? 'bg-red-300' : 'bg-white/70'}`}
-            style={{ width: `${Math.max(0, timerPct)}%` }}
-          />
-        </div>
-        <p className={`text-right text-xs font-black mt-1 ${timeLeft <= 3 ? 'text-red-200' : 'text-white/60'}`}>{Math.max(0, timeLeft)}s</p>
-      </div>
+      <GameHeader colorCls="bg-gradient-to-br from-green-400 to-emerald-500" title="✅ Đúng / Sai" subtitle={topic.name} onBack={() => router.push(backUrl)} right={<>{idx + 1}/{total}</>} timer={{ pct: timerPct, secondsLeft: Math.max(0, timeLeft), urgent: timeLeft <= 3 }} />
 
       {/* Main content */}
       <div className="flex-1 bg-gradient-to-b from-green-50 to-emerald-50 flex flex-col px-4 py-5 gap-4">
 
         {/* Question card */}
         <div className={`
-          bg-white rounded-3xl shadow-lg border-2 px-6 py-6 flex flex-col items-center text-center
+          bg-white rounded-3xl border-2 border-b-[4px] px-6 py-6 flex flex-col items-center text-center
           transition-all duration-200
-          ${result === 'idle' ? 'border-gray-100' : isCorrectResult ? 'border-green-400 bg-green-50' : 'border-red-400 bg-red-50'}
+          ${result === 'idle' ? 'border-slate-200 border-b-slate-300' : isCorrectResult ? 'border-green-300 border-b-green-500 bg-green-50' : 'border-red-300 border-b-red-500 bg-red-50 ax-shake'}
         `}>
           {/* English word */}
-          <p className="text-4xl font-black text-gray-800 mb-1">{round.word.word}</p>
+          <p className="text-4xl font-bold text-gray-800 mb-1">{round.word.word}</p>
           <button
             onClick={() => speak(round.word.word)}
             className="text-gray-500 text-sm font-semibold mb-4 flex items-center gap-1 hover:text-gray-600"
@@ -196,7 +172,7 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
                 : 'bg-red-100 border-2 border-red-300'
             }
           `}>
-            <p className={`text-3xl font-black leading-snug
+            <p className={`text-3xl font-bold leading-snug
               ${result === 'idle' ? 'text-amber-700' : isCorrectResult ? 'text-green-700' : 'text-red-600'}
             `}>
               {round.shownMeaning}
@@ -205,7 +181,7 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
 
           {/* Result feedback */}
           {result !== 'idle' && (
-            <p role="status" aria-live="polite" className={`text-xl font-black mt-2 ${isCorrectResult ? 'text-green-600' : 'text-red-500'}`}>
+            <p role="status" aria-live="polite" className={`text-xl font-bold mt-2 ${isCorrectResult ? 'text-green-600' : 'text-red-500'}`}>
               {isCorrectResult
                 ? '✅ Chính xác!'
                 : `❌ Nghĩa này là ${round.isCorrect ? 'ĐÚNG' : 'SAI'}`}
@@ -225,14 +201,14 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
           <div className="flex gap-3">
             <button
               onClick={() => answer(false)}
-              className="flex-1 bg-red-500 hover:bg-red-600 active:scale-95 text-white font-black text-2xl py-5 rounded-2xl shadow-md transition-all flex flex-col items-center gap-1"
+              className={`flex-1 flex flex-col items-center gap-1 rounded-2xl border-b-[4px] border-red-700 bg-red-500 py-5 text-2xl font-bold text-white ${PRESS}`}
             >
               <span>❌</span>
               <span className="text-lg">SAI</span>
             </button>
             <button
               onClick={() => answer(true)}
-              className="flex-1 bg-green-500 hover:bg-green-600 active:scale-95 text-white font-black text-2xl py-5 rounded-2xl shadow-md transition-all flex flex-col items-center gap-1"
+              className={`flex-1 flex flex-col items-center gap-1 rounded-2xl border-b-[4px] border-emerald-700 bg-emerald-500 py-5 text-2xl font-bold text-white ${PRESS}`}
             >
               <span>✅</span>
               <span className="text-lg">ĐÚNG</span>
@@ -244,7 +220,7 @@ export default function TrueFalseGame({ topic, level, backUrl }: Props) {
         {result === 'wrong' && (
           <button
             onClick={() => advance(idx)}
-            className="w-full bg-emerald-600 text-white font-black text-lg py-4 rounded-2xl shadow-md active:scale-95 transition-all"
+            className={cta('green')}
           >
             {idx + 1 >= total ? 'Xem kết quả →' : 'Tiếp theo →'}
           </button>

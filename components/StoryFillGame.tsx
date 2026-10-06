@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation'
 import { useGameSync } from '@/lib/GameSyncContext'
 import Confetti from '@/components/Confetti'
 import storiesData from '@/data/stories.json'
+import { GameHeader, cta } from '@/components/ChunkyUI'
 
 type Word = { word: string; meaning: string; emoji: string }
 type Topic = { id: string; name: string; emoji: string; color: string; words: Word[] }
@@ -83,16 +84,12 @@ export default function StoryFillGame({ topic, level, backUrl }: Props) {
   return (
     <div className="flex flex-col min-h-screen">
       {showConfetti && <Confetti />}
-      <div className="bg-gradient-to-br from-teal-500 to-cyan-500 px-4 pt-12 pb-4 text-white">
-        <button onClick={() => router.push(backUrl)} className="text-teal-100 font-bold text-sm flex items-center gap-1 mb-3">← {topic.name}</button>
-        <h1 className="text-2xl font-black">📖 Điền vào chuyện</h1>
-        <p className="text-teal-100 text-sm mt-0.5">{story.emojis.join(' ')} · Chọn từ đúng cho mỗi ô trống</p>
-      </div>
+      <GameHeader colorCls="bg-gradient-to-br from-teal-500 to-cyan-500" title="📖 Điền vào chuyện" onBack={() => router.push(backUrl)} />
 
       {submitted && (
-        <div className={`px-4 py-3 text-center font-black text-lg ${score === total ? 'bg-green-100 text-green-700' : 'bg-orange-100 text-orange-700'}`}>
+        <div className={`px-4 py-3 text-center font-bold text-lg ${score === total ? 'bg-green-100 text-green-700' : 'bg-orange-100 text-orange-700'}`}>
           {score === total ? '🏆 Hoàn hảo!' : `${score}/${total} đúng`}
-          <span className="ml-3 inline-flex items-center gap-1 bg-yellow-50 border border-yellow-200 text-yellow-700 text-xs font-black px-2.5 py-0.5 rounded-full">
+          <span className="ml-3 inline-flex items-center gap-1 bg-yellow-50 border border-yellow-200 text-yellow-700 text-xs font-bold px-2.5 py-0.5 rounded-full">
             ⭐ +{Math.round(score * 1.5)} XP
           </span>
         </div>
@@ -143,12 +140,12 @@ export default function StoryFillGame({ topic, level, backUrl }: Props) {
 
         {!submitted ? (
           <button onClick={handleSubmit} disabled={!allAnswered}
-            className="w-full bg-teal-500 disabled:bg-teal-200 text-white font-black text-xl py-4 rounded-2xl shadow-md mt-2 mb-6">
+            className={cta('teal', 'mt-2 mb-6')}>
             Kiểm tra ✓
           </button>
         ) : (
           <div className="space-y-3 mt-2 mb-6">
-            <button onClick={restart} className="w-full bg-teal-500 text-white font-black text-xl py-4 rounded-2xl shadow-lg">🔄 Thử lại</button>
+            <button onClick={restart} className="w-full bg-teal-500 text-white font-bold text-xl py-4 rounded-2xl shadow-lg">🔄 Thử lại</button>
             <button onClick={() => router.push(backUrl)} className="w-full bg-white border-2 border-gray-200 text-gray-600 font-bold text-xl py-4 rounded-2xl">← Chọn chế độ khác</button>
           </div>
         )}

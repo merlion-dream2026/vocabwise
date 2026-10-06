@@ -9,6 +9,7 @@ import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
 import WordIcon from '@/components/WordIcon'
 import GameResultScreen from '@/components/GameResultScreen'
+import { GameHeader, cta } from '@/components/ChunkyUI'
 
 type Word = { word: string; meaning: string; emoji: string; examples: { en: string; vi: string }[] }
 type Topic = { id: string; name: string; emoji: string; color: string; words: Word[] }
@@ -128,15 +129,7 @@ export default function SpellGame({ topic, level, backUrl }: Props) {
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
-        <div className="bg-gradient-to-br from-pink-400 to-rose-400 px-4 pt-6 pb-4 text-white">
-          <div className="flex items-center gap-3">
-            <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-pink-100 text-xl flex-shrink-0 opacity-90 hover:opacity-100">←</button>
-            <div className="flex-1 min-w-0">
-              <p className="text-pink-100 text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5 opacity-90 truncate">{topic.name}</p>
-              <h1 className="text-lg font-black leading-tight truncate">✍️ Ghép Chữ</h1>
-            </div>
-          </div>
-        </div>
+        <GameHeader colorCls="bg-gradient-to-br from-pink-400 to-rose-400" title="✍️ Ghép Chữ" subtitle={topic.name} onBack={() => router.push(backUrl)} />
         <div className="flex-1 bg-gradient-to-b from-purple-50 to-pink-50 flex flex-col items-center justify-center px-4 py-8">
           <GameResultScreen
             score={score} total={total} xpEarned={xpEarned} wrongWords={wrongWords}
@@ -167,22 +160,7 @@ export default function SpellGame({ topic, level, backUrl }: Props) {
 
       <div className="flex flex-col min-h-screen">
         {/* Header */}
-        <div className="bg-gradient-to-br from-pink-400 to-rose-400 px-4 pt-6 pb-4 text-white">
-          <div className="flex items-center gap-3">
-            <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-pink-100 text-xl flex-shrink-0 opacity-90 hover:opacity-100">←</button>
-            <div className="flex-1 min-w-0">
-              <p className="text-pink-100 text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5 opacity-90 truncate">{topic.name}</p>
-              <h1 className="text-lg font-black leading-tight truncate">✍️ Ghép Chữ</h1>
-            </div>
-            <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm flex-shrink-0">{idx + 1}/{total}</span>
-          </div>
-          <div className="mt-2 h-2 bg-pink-200 rounded-full overflow-hidden">
-            <div
-              className="h-full bg-white/70 rounded-full transition-all duration-500"
-              style={{ width: `${((idx + 1) / total) * 100}%` }}
-            />
-          </div>
-        </div>
+        <GameHeader colorCls="bg-gradient-to-br from-pink-400 to-rose-400" title="✍️ Ghép Chữ" subtitle={topic.name} onBack={() => router.push(backUrl)} right={<>{idx + 1}/{total}</>} progress={{ value: ((idx + 1) / total) * 100, max: 100 }} />
 
         {/* Body */}
         <div className="flex-1 bg-gradient-to-b from-purple-50 to-pink-50 px-4 py-6 flex flex-col items-center">
@@ -206,7 +184,7 @@ export default function SpellGame({ topic, level, backUrl }: Props) {
                 key={i}
                 onClick={() => tapSlot(i)}
                 disabled={!answer[i] || result !== 'idle'}
-                className={`w-11 h-11 rounded-xl border-2 flex items-center justify-center font-black text-lg transition-all duration-200 ${slotStyle}`}
+                className={`w-11 h-11 rounded-xl border-2 flex items-center justify-center font-bold text-lg transition-all duration-200 ${slotStyle}`}
               >
                 {answer[i]?.letter ?? ''}
               </button>
@@ -220,7 +198,7 @@ export default function SpellGame({ topic, level, backUrl }: Props) {
                 key={tile.id}
                 onClick={() => tapTile(tile)}
                 disabled={tile.used || result !== 'idle'}
-                className={`w-12 h-12 rounded-2xl font-black text-xl shadow-md transition-all duration-150 active:scale-90
+                className={`w-12 h-12 rounded-2xl font-bold text-xl shadow-md transition-all duration-150 active:scale-90
                   ${tile.used
                     ? 'bg-gray-100 border-2 border-gray-100 text-transparent shadow-none'
                     : 'bg-white border-2 border-pink-200 text-pink-600 hover:border-pink-400'
@@ -235,16 +213,16 @@ export default function SpellGame({ topic, level, backUrl }: Props) {
             <button
               onClick={checkAnswer}
               disabled={answer.length < target.length}
-              className="bg-pink-600 disabled:bg-pink-200 text-white font-black px-8 py-3 rounded-2xl text-base shadow-md active:scale-95 transition-all"
+              className={cta('pink')}
             >
               Kiểm tra ✓
             </button>
           )}
 
           <div role="status" aria-live="polite">
-            {result === 'correct' && <p className="mt-5 text-green-500 font-black text-2xl">✅ Đúng rồi!</p>}
+            {result === 'correct' && <p className="mt-5 text-green-500 font-bold text-2xl">✅ Đúng rồi!</p>}
             {result === 'wrong'   && (
-              <p className="mt-5 text-red-500 font-black text-xl">❌ Đáp án đúng: <span className="underline">{word.word}</span></p>
+              <p className="mt-5 text-red-500 font-bold text-xl">❌ Đáp án đúng: <span className="underline">{word.word}</span></p>
             )}
           </div>
 
@@ -252,22 +230,12 @@ export default function SpellGame({ topic, level, backUrl }: Props) {
           {result === 'wrong' && (
             <button
               onClick={() => advance(idx, words)}
-              className="mt-3 bg-pink-600 text-white font-black px-8 py-3 rounded-2xl text-base shadow-md active:scale-95 transition-all"
+              className={cta('pink', 'mt-3')}
             >
               {idx + 1 >= total ? 'Xem kết quả →' : 'Tiếp theo →'}
             </button>
           )}
 
-          {/* Dots */}
-          <div className="flex justify-center gap-1.5 mt-6 flex-wrap">
-            {words.map((_, i) => (
-              <div
-                key={i}
-                className={`w-2.5 h-2.5 rounded-full transition-all duration-200
-                  ${i === idx ? 'bg-pink-500 scale-125' : i < idx ? 'bg-pink-300' : 'bg-pink-100'}`}
-              />
-            ))}
-          </div>
         </div>
       </div>
     </>

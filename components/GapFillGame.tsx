@@ -7,6 +7,7 @@ import { saveStepScore } from '@/lib/stepScores'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 import GameResultScreen from '@/components/GameResultScreen'
+import { GameHeader, AnswerButton, cta } from '@/components/ChunkyUI'
 
 
 type Word = { word: string; meaning: string; emoji: string; examples: { en: string; vi: string }[] }
@@ -117,15 +118,7 @@ export default function GapFillGame({ topic, level, backUrl }: Props) {
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
-        <div className={`${styles.headerBg} px-4 pt-6 pb-4 text-white`}>
-          <div className="flex items-center gap-3">
-            <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className={`${styles.backColor} text-xl flex-shrink-0 opacity-90 hover:opacity-100`}>←</button>
-            <div className="flex-1 min-w-0">
-              <p className={`${styles.backColor} text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5 opacity-90 truncate`}>{topic.name}</p>
-              <h1 className="text-lg font-black leading-tight truncate">📝 Điền Vào Chỗ Trống</h1>
-            </div>
-          </div>
-        </div>
+        <GameHeader colorCls={styles.headerBg} title="📝 Điền Vào Chỗ Trống" subtitle={topic.name} onBack={() => router.push(backUrl)} />
         <div className="flex-1 bg-gradient-to-b from-purple-50 to-pink-50 flex flex-col items-center justify-center px-4 py-8">
           <GameResultScreen
             score={score} total={total} xpEarned={xpEarned} wrongWords={wrongWords}
@@ -141,22 +134,7 @@ export default function GapFillGame({ topic, level, backUrl }: Props) {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <div className={`${styles.headerBg} px-4 pt-6 pb-4 text-white`}>
-        <div className="flex items-center gap-3">
-          <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className={`${styles.backColor} text-xl flex-shrink-0 opacity-90 hover:opacity-100`}>←</button>
-          <div className="flex-1 min-w-0">
-            <p className={`${styles.backColor} text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5 opacity-90 truncate`}>{topic.name}</p>
-            <h1 className="text-lg font-black leading-tight truncate">📝 Điền Vào Chỗ Trống</h1>
-          </div>
-          <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm flex-shrink-0">{currentIdx + 1}/{total}</span>
-        </div>
-        <div className={`mt-2 h-2 ${styles.progressBg} rounded-full overflow-hidden`}>
-          <div
-            className={`h-full ${styles.progressFill} rounded-full transition-all duration-500`}
-            style={{ width: `${((currentIdx + 1) / total) * 100}%` }}
-          />
-        </div>
-      </div>
+      <GameHeader colorCls={styles.headerBg} title="📝 Điền Vào Chỗ Trống" subtitle={topic.name} onBack={() => router.push(backUrl)} right={<>{currentIdx + 1}/{total}</>} progress={{ value: ((currentIdx + 1) / total) * 100, max: 100 }} />
 
       <div className="flex-1 bg-gradient-to-b from-purple-50 to-pink-50 flex flex-col px-4 py-6">
         {/* Screen-reader feedback */}
@@ -168,7 +146,7 @@ export default function GapFillGame({ topic, level, backUrl }: Props) {
           <p className="text-gray-500 font-bold text-xs uppercase tracking-wider mb-4 text-center">Điền từ đúng vào chỗ trống:</p>
           <p className="text-xl font-bold text-gray-800 leading-relaxed text-center">
             {parts[0]}
-            <span className={`inline-block mx-1 px-3 py-0.5 rounded-lg font-black text-xl transition-all ${
+            <span className={`inline-block mx-1 px-3 py-0.5 rounded-lg font-bold text-xl transition-all ${
               selected === null
                 ? 'bg-teal-100 text-teal-400 border-2 border-dashed border-teal-300'
                 : selected === current.word.word
@@ -187,56 +165,28 @@ export default function GapFillGame({ topic, level, backUrl }: Props) {
           {current.choices.map((choice) => {
             const isSelected = selected === choice.word
             const isCorrect = choice.word === current.word.word
-            let style = 'bg-white border-gray-200 text-gray-800 hover:border-teal-300 hover:bg-teal-50'
-            if (selected !== null) {
-              if (isCorrect) style = 'bg-green-100 border-green-400 text-green-800'
-              else if (isSelected) style = 'bg-red-100 border-red-400 text-red-700'
-              else style = 'bg-white border-gray-100 text-gray-400'
-            }
+            const state = selected === null ? 'idle' : isCorrect ? 'correct' : isSelected ? 'wrong' : 'dim'
             return (
-              <button
-                key={choice.word}
-                onClick={() => handleChoice(choice.word)}
-                disabled={selected !== null}
-                className={`w-full flex items-center gap-3 border-2 rounded-2xl px-5 py-4 font-bold text-lg transition-all duration-150 active:scale-95 ${style}`}
-              >
-                <div className="flex-1 text-left">
-                  <span>{choice.word}</span>
-                  {selected !== null && (
-                    <span className="block text-sm font-semibold mt-0.5 opacity-80">{choice.meaning}</span>
-                  )}
-                </div>
-                {selected !== null && isCorrect && <span className="text-green-600 font-black flex-shrink-0">✓</span>}
-                {selected !== null && isSelected && !isCorrect && <span className="text-red-500 font-black flex-shrink-0">✗</span>}
-              </button>
+              <AnswerButton key={choice.word} state={state}
+                onClick={() => handleChoice(choice.word)} disabled={selected !== null}>
+                {choice.word}
+                {selected !== null && (
+                  <span className="block text-sm font-semibold mt-0.5 opacity-80">{choice.meaning}</span>
+                )}
+              </AnswerButton>
             )
           })}
         </div>
-        {/* Nav */}
-        <div className="flex gap-3 mt-5">
-          <div className="flex-1 py-4 rounded-2xl bg-gray-100 text-gray-300 font-black text-xl text-center select-none">
-            ← Trước
-          </div>
+        <div className="mt-5">
           <button
             onClick={goNext}
             disabled={selected === null}
-            className={`flex-1 py-4 rounded-2xl font-black text-xl text-white transition-colors shadow-md
-              ${selected !== null ? 'bg-blue-500 hover:bg-blue-600 active:scale-95' : 'bg-blue-200 cursor-not-allowed'}`}
+            className={cta('blue')}
           >
             {currentIdx === total - 1 ? '🎉 Xong!' : 'Tiếp →'}
           </button>
         </div>
 
-        {/* Dots */}
-        <div className="flex justify-center gap-1.5 mt-4 flex-wrap">
-          {questions.map((_, idx) => (
-            <div
-              key={idx}
-              className={`w-2.5 h-2.5 rounded-full transition-all duration-200
-                ${idx === currentIdx ? 'bg-blue-500 scale-125' : idx < currentIdx ? 'bg-blue-300' : 'bg-blue-100'}`}
-            />
-          ))}
-        </div>
       </div>
     </div>
   )

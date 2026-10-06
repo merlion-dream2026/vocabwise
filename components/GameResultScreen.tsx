@@ -1,6 +1,11 @@
 'use client'
 
+import type { ReactNode } from 'react'
+
 import { getGrade } from '@/lib/gameGrade'
+import { starsFor } from '@/lib/topicMastery'
+import { HubStyles } from '@/components/TopicHub'
+import { PrimaryButton } from '@/components/ChunkyUI'
 
 export type ResultBreakdownRow = { icon: string; label: string; score: number; max: number }
 
@@ -13,8 +18,14 @@ type Props = {
   wrongWords?: string[]
   /** Per-round score breakdown for a multi-round test/quiz instead of a flat wrong-words list. */
   breakdown?: ResultBreakdownRow[]
-  /** Restart button background classes, e.g. "bg-pink-500 hover:bg-pink-600" — each game keeps its own accent color. */
-  accentCls: string
+  /** Legacy per-game accent classes — ignored now that the restart button uses the shared amber CTA. Still accepted so callers needn't change. */
+  accentCls?: string
+  /** Override the star count (default: derived from score/total). */
+  stars?: number
+  /** Override the "X/Y câu đúng (Z%)" line for games that don't count questions. */
+  scoreLine?: string
+  /** Extra content under the score line (e.g. flips / time). */
+  extra?: ReactNode
   onRestart: () => void
   onExit: () => void
 }
@@ -25,34 +36,43 @@ type Props = {
  * The caller keeps its own colored header + gradient background wrapper around this.
  */
 export default function GameResultScreen({
-  score, total, xpEarned, wrongWords, breakdown, accentCls, onRestart, onExit,
+  score, total, xpEarned, wrongWords, breakdown, stars: starsProp, scoreLine, extra, onRestart, onExit,
 }: Props) {
   const pct = total > 0 ? Math.round((score / total) * 100) : 0
   const grade = getGrade(score, total)
+  const stars = starsProp ?? starsFor(pct)
+  const owl = pct >= 90 ? 'Quá đỉnh! Mình tự hào về bạn lắm!' : pct >= 60 ? 'Khá lắm! Thêm một lần nữa là lên 3 sao!' : 'Không sao, luyện thêm một chút là giỏi ngay!'
 
   return (
     <>
-      <div className="text-7xl mb-4">{grade.emoji}</div>
-      <h2 className="text-3xl font-black text-gray-800 mb-1">{grade.label}</h2>
-      <p className="text-gray-500 font-bold text-lg mb-1">{score}/{total} câu đúng ({pct}%)</p>
+      <HubStyles />
+      <div className="hub-shine mb-3 flex h-24 w-24 -rotate-6 items-center justify-center rounded-3xl bg-white text-6xl shadow-md ring-4 ring-amber-100">{grade.emoji}</div>
+      <h2 className="mb-1 text-3xl font-bold text-gray-800">{grade.label}</h2>
+      <div className="mb-1 flex gap-1 text-4xl">
+        {[1, 2, 3].map(i => (
+          <span key={i} className={i > stars ? 'opacity-25 grayscale' : 'hub-star'} style={i <= stars ? { animationDelay: `${300 + i * 150}ms` } : undefined}>⭐</span>
+        ))}
+      </div>
+      <p className="mb-1 text-lg font-bold text-gray-500">{scoreLine ?? `${score}/${total} câu đúng (${pct}%)`}</p>
+      <div className="mb-3 text-sm font-semibold text-gray-400">{extra}</div>
 
       {xpEarned !== undefined && (
-        <div className="inline-flex items-center gap-1.5 bg-yellow-50 border border-yellow-200 rounded-full px-4 py-1.5 mb-4">
+        <div className="mb-4 inline-flex items-center gap-1.5 rounded-full border-b-[3px] border-amber-600 bg-amber-400 px-4 py-1.5">
           <span className="text-base">⭐</span>
-          <span className="text-yellow-700 font-black text-sm">+{xpEarned} XP</span>
+          <span className="text-sm font-bold text-amber-950">+{xpEarned} XP</span>
         </div>
       )}
 
       {breakdown && breakdown.length > 0 && (
-        <div className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm p-4 w-full mb-4 space-y-2.5">
+        <div className="mb-4 w-full space-y-3 rounded-3xl border-2 border-b-[4px] border-slate-200 border-b-slate-300 bg-white p-4">
           {breakdown.map(r => (
             <div key={r.label} className="space-y-1">
               <div className="flex items-center justify-between text-xs font-bold">
                 <span className="text-gray-500">{r.icon} {r.label}</span>
                 <span className="text-gray-700">{r.score}/{r.max}</span>
               </div>
-              <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
-                <div className="h-full bg-gray-400 rounded-full" style={{ width: `${r.max > 0 ? (r.score / r.max) * 100 : 0}%` }} />
+              <div className="h-2.5 overflow-hidden rounded-full bg-slate-100">
+                <div className="h-full rounded-full bg-amber-400" style={{ width: `${r.max > 0 ? (r.score / r.max) * 100 : 0}%` }} />
               </div>
             </div>
           ))}
@@ -60,21 +80,24 @@ export default function GameResultScreen({
       )}
 
       {wrongWords && wrongWords.length > 0 && (
-        <div className="bg-orange-50 border-2 border-orange-200 rounded-2xl px-4 py-3 mb-6 w-full">
-          <p className="text-orange-700 font-bold text-sm mb-2">📝 Cần ôn thêm:</p>
+        <div className="mb-4 w-full rounded-3xl border-2 border-b-[4px] border-orange-200 border-b-orange-300 bg-orange-50 px-4 py-3">
+          <p className="mb-2 text-sm font-bold text-orange-700">📝 Cần ôn thêm:</p>
           <div className="flex flex-wrap gap-2">
             {wrongWords.map(w => (
-              <span key={w} className="bg-orange-100 text-orange-700 font-bold text-sm px-3 py-1 rounded-full">{w}</span>
+              <span key={w} className="rounded-full bg-orange-100 px-3 py-1 text-sm font-bold text-orange-700">{w}</span>
             ))}
           </div>
         </div>
       )}
 
-      <div className="w-full space-y-3 mt-2">
-        <button onClick={onRestart} className={`w-full ${accentCls} text-white font-black text-xl py-4 rounded-2xl shadow-lg transition-colors`}>
-          🔄 Chơi lại
-        </button>
-        <button onClick={onExit} className="w-full bg-white border-2 border-gray-200 text-gray-600 font-bold text-xl py-4 rounded-2xl text-center">← Chọn chế độ khác</button>
+      <div className="mb-4 flex w-full items-center gap-3 rounded-2xl bg-white/80 px-3 py-2">
+        <span className="hub-bob text-3xl" aria-hidden>🦉</span>
+        <p className="text-left text-sm font-bold text-slate-600">{owl}</p>
+      </div>
+
+      <div className="w-full space-y-3">
+        <PrimaryButton tone="amber" onClick={onRestart}>🔄 Chơi lại</PrimaryButton>
+        <PrimaryButton tone="slate" onClick={onExit}>← Chọn chế độ khác</PrimaryButton>
       </div>
     </>
   )

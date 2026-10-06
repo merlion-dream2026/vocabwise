@@ -6,6 +6,7 @@ import { DAILY_WORD_COUNTS } from '@/lib/childProgress'
 import { cachedFetch } from '@/lib/cachedFetch'
 import { isTopicMastered, type MasteryEntry } from '@/lib/topicMastery'
 import { PRESS } from '@/components/TopicHub'
+import PageSkeleton from '@/components/PageSkeleton'
 
 const LEVEL_ORDER = ['seeker', 'starter', 'ranger', 'explorer', 'scholar', 'master'] as const
 type LevelKey = typeof LEVEL_ORDER[number]
@@ -46,11 +47,7 @@ export default function KidsLevelPage() {
     })
   }, [childId, router])
 
-  if (loading) return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-50 flex items-center justify-center">
-      <div className="text-4xl animate-pulse">📚</div>
-    </div>
-  )
+  if (loading) return <PageSkeleton header="bg-purple-500" bg="from-purple-50 via-pink-50 to-rose-50" cards={[72, 80, 80, 80]} />
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50">

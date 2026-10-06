@@ -8,6 +8,7 @@ import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
 import WordIcon from '@/components/WordIcon'
 import GameResultScreen from '@/components/GameResultScreen'
+import { GameHeader, cta } from '@/components/ChunkyUI'
 
 type Word = { word: string; meaning: string; emoji: string }
 type Topic = { id: string; name: string; emoji: string; color: string; words: Word[] }
@@ -138,15 +139,7 @@ export default function SentenceGame({ topic, level, backUrl }: Props) {
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
-        <div className="bg-gradient-to-br from-teal-500 to-cyan-500 px-4 pt-6 pb-4 text-white">
-          <div className="flex items-center gap-3">
-            <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-teal-100 text-xl flex-shrink-0 opacity-90 hover:opacity-100">←</button>
-            <div className="flex-1 min-w-0">
-              <p className="text-teal-100 text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5 opacity-90 truncate">{topic.name}</p>
-              <h1 className="text-lg font-black leading-tight truncate">✍️ Đặt câu cùng AI</h1>
-            </div>
-          </div>
-        </div>
+        <GameHeader colorCls="bg-gradient-to-br from-teal-500 to-cyan-500" title="✍️ Đặt câu cùng AI" subtitle={topic.name} onBack={() => router.push(backUrl)} />
         <div className="flex-1 bg-gradient-to-b from-teal-50 to-cyan-50 flex flex-col items-center justify-center px-4 py-8">
           <GameResultScreen
             score={score} total={total} xpEarned={xpEarned} wrongWords={wrongWords}
@@ -165,26 +158,14 @@ export default function SentenceGame({ topic, level, backUrl }: Props) {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header */}
-      <div className="bg-gradient-to-br from-teal-500 to-cyan-500 px-4 pt-6 pb-4 text-white">
-        <div className="flex items-center gap-3 mb-3">
-          <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-teal-100 text-xl flex-shrink-0 opacity-90 hover:opacity-100">←</button>
-          <div className="flex-1 min-w-0">
-            <p className="text-teal-100 text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5 opacity-90 truncate">{topic.name}</p>
-            <h1 className="text-lg font-black leading-tight truncate">✍️ Đặt câu cùng AI</h1>
-          </div>
-          <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm flex-shrink-0">{idx + 1}/{total}</span>
-        </div>
-        <div className="h-1.5 bg-teal-300/40 rounded-full overflow-hidden">
-          <div className="h-full bg-white/70 rounded-full transition-all duration-500" style={{ width: `${((idx + 1) / total) * 100}%` }} />
-        </div>
-      </div>
+      <GameHeader colorCls="bg-gradient-to-br from-teal-500 to-cyan-500" title="✍️ Đặt câu cùng AI" subtitle={topic.name} onBack={() => router.push(backUrl)} right={<>{idx + 1}/{total}</>} progress={{ value: ((idx + 1) / total) * 100, max: 100 }} />
 
       {/* Body */}
       <div className="flex-1 bg-gradient-to-b from-teal-50 to-cyan-50 px-4 py-6 flex flex-col items-center">
         {/* Emoji + meaning */}
         <div className="mb-2 flex justify-center"><WordIcon word={word.word} emoji={word.emoji} emojiClass="text-7xl leading-none select-none" iconSize={88} /></div>
         <div className="flex items-center gap-2 mb-3">
-          <p className="text-gray-800 font-black text-2xl">{word.word}</p>
+          <p className="text-gray-800 font-bold text-2xl">{word.word}</p>
           <button onClick={() => speak(word.word)} className="bg-teal-500 text-white w-8 h-8 rounded-lg text-sm flex items-center justify-center shadow-md active:scale-90 transition-all" aria-label="Nghe lại">🔊</button>
         </div>
         <p className="text-gray-500 font-bold text-base mb-4">{word.meaning}</p>
@@ -215,13 +196,13 @@ export default function SentenceGame({ topic, level, backUrl }: Props) {
         <div role="status" aria-live="polite" className="w-full">
           {result === 'correct' && feedback && (
             <div className="bg-green-50 border-2 border-green-200 rounded-2xl p-4 mb-4 text-left">
-              <p className="text-green-600 font-black text-base mb-1">✅ Giỏi quá!</p>
+              <p className="text-green-600 font-bold text-base mb-1">✅ Giỏi quá!</p>
               <p className="text-gray-700 text-sm">{feedback.feedback_vi}</p>
             </div>
           )}
           {result === 'wrong' && feedback && (
             <div className="bg-red-50 border-2 border-red-200 rounded-2xl p-4 mb-4 text-left">
-              <p className="text-red-500 font-black text-base mb-1">💡 Cần cải thiện thêm</p>
+              <p className="text-red-500 font-bold text-base mb-1">💡 Cần cải thiện thêm</p>
               <p className="text-gray-700 text-sm mb-2">{feedback.feedback_vi}</p>
               {feedback.improved && (
                 <div className="bg-white rounded-xl px-3 py-2.5 flex items-start gap-2">
@@ -241,13 +222,13 @@ export default function SentenceGame({ topic, level, backUrl }: Props) {
           <button
             onClick={handleSubmit}
             disabled={!input.trim()}
-            className="w-full bg-teal-500 hover:bg-teal-600 disabled:bg-teal-200 text-white font-black text-xl py-4 rounded-2xl shadow-md transition-colors active:scale-95"
+            className={cta('teal')}
           >
             Kiểm tra ✓
           </button>
         )}
         {result === 'checking' && (
-          <div className="w-full bg-teal-100 text-teal-600 font-black text-xl py-4 rounded-2xl flex items-center justify-center gap-2">
+          <div className="w-full bg-teal-100 text-teal-600 font-bold text-xl py-4 rounded-2xl flex items-center justify-center gap-2">
             <span className="animate-spin">⏳</span> Đang chấm bài...
           </div>
         )}
@@ -256,22 +237,12 @@ export default function SentenceGame({ topic, level, backUrl }: Props) {
         {result === 'wrong' && (
           <button
             onClick={() => advance(idx, words)}
-            className="w-full bg-teal-500 hover:bg-teal-600 text-white font-black text-xl py-4 rounded-2xl shadow-md transition-colors active:scale-95"
+            className={cta('teal')}
           >
             {idx + 1 >= total ? 'Xem kết quả →' : 'Tiếp theo →'}
           </button>
         )}
 
-        {/* Dots */}
-        <div className="flex justify-center gap-1.5 mt-6 flex-wrap">
-          {words.map((_, i) => (
-            <div
-              key={i}
-              className={`w-2.5 h-2.5 rounded-full transition-all duration-200
-                ${i === idx ? 'bg-teal-500 scale-125' : i < idx ? 'bg-teal-300' : 'bg-teal-100'}`}
-            />
-          ))}
-        </div>
       </div>
     </div>
   )

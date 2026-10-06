@@ -8,6 +8,7 @@ import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
 import WordIcon from '@/components/WordIcon'
 import GameResultScreen from '@/components/GameResultScreen'
+import { GameHeader, cta } from '@/components/ChunkyUI'
 
 type Word = { word: string; meaning: string; emoji: string }
 type Topic = { id: string; name: string; emoji: string; color: string; words: Word[] }
@@ -103,7 +104,7 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
         const isRight = selected === correctLetter
         return (
           <span key={i}
-            className={`inline-flex items-center justify-center w-10 h-12 border-b-4 text-2xl font-black mx-0.5 transition-colors
+            className={`inline-flex items-center justify-center w-10 h-12 border-b-4 text-2xl font-bold mx-0.5 transition-colors
               ${answered
                 ? isRight ? 'border-green-400 text-green-600' : 'border-red-400 text-red-500'
                 : 'border-orange-400 text-orange-500'}`}>
@@ -111,7 +112,7 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
           </span>
         )
       }
-      return <span key={i} className="text-2xl font-black text-gray-800 leading-none">{char}</span>
+      return <span key={i} className="text-2xl font-bold text-gray-800 leading-none">{char}</span>
     })
   }
 
@@ -120,15 +121,7 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
-        <div className="bg-gradient-to-br from-orange-400 to-amber-500 px-4 pt-6 pb-4 text-white">
-          <div className="flex items-center gap-3">
-            <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-orange-100 text-xl flex-shrink-0">←</button>
-            <div className="flex-1 min-w-0">
-              <p className="text-orange-100 text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5">{topic.name}</p>
-              <h1 className="text-lg font-black leading-tight truncate">🔡 Điền chữ thiếu</h1>
-            </div>
-          </div>
-        </div>
+        <GameHeader colorCls="bg-gradient-to-br from-orange-400 to-amber-500" title="🔡 Điền chữ thiếu" subtitle={topic.name} onBack={() => router.push(backUrl)} />
         <div className="flex-1 bg-gradient-to-b from-orange-50 to-amber-50 flex flex-col items-center justify-center px-4 py-8">
           <GameResultScreen
             score={score} total={total} xpEarned={xpEarned} wrongWords={wrongWords}
@@ -141,19 +134,7 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <div className="bg-gradient-to-br from-orange-400 to-amber-500 px-4 pt-6 pb-4 text-white">
-        <div className="flex items-center gap-3 mb-3">
-          <button onClick={() => router.push(backUrl)} aria-label="Quay lại" className="text-orange-100 text-xl flex-shrink-0">←</button>
-          <div className="flex-1 min-w-0">
-            <p className="text-orange-100 text-[11px] font-bold uppercase tracking-wide leading-none mb-0.5">{topic.name}</p>
-            <h1 className="text-lg font-black leading-tight truncate">🔡 Điền chữ thiếu</h1>
-          </div>
-          <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm flex-shrink-0">{idx + 1}/{total}</span>
-        </div>
-        <div className="h-1.5 bg-white/20 rounded-full overflow-hidden">
-          <div className="h-full bg-white/70 rounded-full transition-all duration-500" style={{ width: `${((idx + 1) / total) * 100}%` }} />
-        </div>
-      </div>
+      <GameHeader colorCls="bg-gradient-to-br from-orange-400 to-amber-500" title="🔡 Điền chữ thiếu" subtitle={topic.name} onBack={() => router.push(backUrl)} right={<>{idx + 1}/{total}</>} progress={{ value: ((idx + 1) / total) * 100, max: 100 }} />
 
       <div className="flex-1 bg-gradient-to-b from-orange-50 to-amber-50 flex flex-col items-center justify-center px-4 gap-5">
         {/* Screen-reader feedback */}
@@ -181,7 +162,7 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
             else if (answered) style = 'bg-white border-2 border-gray-100 text-gray-300'
             return (
               <button key={letter} onClick={() => handleSelect(letter)}
-                className={`${style} font-black text-2xl py-4 rounded-2xl transition-all active:scale-95`}>
+                className={`${style} font-bold text-2xl py-4 rounded-2xl transition-all active:scale-95`}>
                 {letter}
               </button>
             )
@@ -192,7 +173,7 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
             learner taps Tiếp theo when ready to move on */}
         {selected !== null && selected !== q.word.word[q.hiddenIdx].toLowerCase() && (
           <button onClick={advance}
-            className="w-full max-w-xs bg-orange-500 text-white font-black text-lg py-4 rounded-2xl shadow-md active:scale-95 transition-all">
+            className={cta('orange')}>
             {idx + 1 >= total ? 'Xem kết quả →' : 'Tiếp theo →'}
           </button>
         )}
