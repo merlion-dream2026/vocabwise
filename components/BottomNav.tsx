@@ -40,7 +40,8 @@ function getActiveTab(pathname: string, childId: string | null): string {
   const base  = `/dashboard/${childId}`
   const first = pathname.slice(base.length + 1).split('/')[0]
   if (first === 'phonics') return 'phonics'
-  if (first === 'kids' || first === 'stickers' || LEVEL_SLUGS.has(first)) return 'daily'
+  if (first === 'profile' || first === 'stickers') return 'profile'
+  if (first === 'kids' || LEVEL_SLUGS.has(first)) return 'daily'
   return ''
 }
 
@@ -219,7 +220,7 @@ export default function BottomNav() {
         >
           {/* Profile tab — circular avatar */}
           <button
-            onClick={() => router.push('/kids')}
+            onClick={() => router.push(childId ? `/dashboard/${childId}/profile` : '/kids')}
             className={`${tabBase} max-w-[3.75rem] ${profileActive ? 'bg-purple-100' : ''}`}
           >
             <span className={`relative flex h-7 w-7 items-center justify-center overflow-hidden rounded-full border-2 ${

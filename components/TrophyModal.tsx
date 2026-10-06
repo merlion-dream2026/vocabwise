@@ -10,6 +10,7 @@ type Props = {
   childName?: string
   levelName?: string
   newSticker?: boolean   // show "Bạn nhận được sticker mới!" with this topic's sticker
+  onOpenAlbum?: () => void   // tapping the sticker row opens the album
   onDone: () => void
 }
 
@@ -22,7 +23,7 @@ const LEVEL_LABELS: Record<string, string> = {
 // tap on the backdrop closes, share cancels the auto-close) — restyled: a white card with a golden
 // glow, a bigger trophy that pops in and shakes, three stars popping one by one, confetti behind,
 // and a gradient headline. All animation is self-contained and off for reduced-motion users.
-export default function TrophyModal({ topicName, topicEmoji, childName, levelName, newSticker, onDone }: Props) {
+export default function TrophyModal({ topicName, topicEmoji, childName, levelName, newSticker, onOpenAlbum, onDone }: Props) {
   const [visible, setVisible] = useState(false)
   const autoCloseRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
@@ -105,10 +106,11 @@ export default function TrophyModal({ topicName, topicEmoji, childName, levelNam
           {topicEmoji} {topicName}
         </p>
         {newSticker && (
-          <div className="tm-up mt-4 flex items-center gap-3 rounded-2xl bg-purple-50 px-4 py-2.5" style={{ animationDelay: '0.85s' }}>
+          <button type="button" onClick={onOpenAlbum} disabled={!onOpenAlbum}
+            className="tm-up mt-4 flex items-center gap-3 rounded-2xl bg-purple-50 px-4 py-2.5 text-left" style={{ animationDelay: '0.85s' }}>
             <Sticker emoji={topicEmoji} size="sm" tilt={-8} />
-            <p className="text-left text-sm font-bold text-purple-800">Bạn nhận được sticker mới!<br /><span className="text-xs font-semibold text-purple-600">Xem trong bộ sưu tập</span></p>
-          </div>
+            <p className="text-left text-sm font-bold text-purple-800">Bạn nhận được sticker mới!<br /><span className="text-xs font-semibold text-purple-600">Chạm để xem bộ sưu tập</span></p>
+          </button>
         )}
         {childName && (
           <p className="tm-up mt-1 text-sm font-semibold text-gray-500" style={{ animationDelay: '0.9s' }}>

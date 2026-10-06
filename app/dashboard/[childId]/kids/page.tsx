@@ -69,7 +69,7 @@ export default function KidsLevelPage() {
       <div className="px-4 py-4">
       {/* Sticker album */}
       <div className="max-w-lg mx-auto mb-3">
-        <Link href={`/dashboard/${childId}/stickers`}
+        <Link href={`/dashboard/${childId}/profile?tab=daily`}
           className={`block rounded-3xl border-2 border-b-[4px] border-purple-200 border-b-purple-300 bg-purple-50 px-4 py-3 ${PRESS}`}>
           <div className="flex items-center gap-3">
             <span className="flex h-12 w-12 flex-shrink-0 -rotate-6 items-center justify-center rounded-2xl bg-white text-3xl shadow">🎁</span>

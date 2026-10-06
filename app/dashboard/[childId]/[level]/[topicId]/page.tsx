@@ -363,6 +363,7 @@ export default function TopicPage() {
           childName={child?.name}
           levelName={level}
           newSticker={!!sticker && !sticker.legacy}
+          onOpenAlbum={() => router.push(`/dashboard/${childId}/profile?tab=daily`)}
           onDone={() => setShowTrophy(false)}
         />
       )}

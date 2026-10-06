@@ -10,6 +10,7 @@ import {
 import UpgradeModal from '@/components/UpgradeModal'
 import { getEffectivePlan, canAccessWordStress } from '@/lib/planUtils'
 import { cachedFetch } from '@/lib/cachedFetch'
+import StickerEntryCard from '@/components/StickerEntryCard'
 
 // Navigation metadata fetched from /api/phonics/levels — NOT statically imported, so the
 // full teaching content (tip/practice_words/sentences/buckets) never ships in this bundle.
@@ -153,6 +154,7 @@ export default function PhonicsHub() {
       </div>
 
       <div className="max-w-2xl mx-auto px-4 pt-4 pb-8 space-y-3">
+        <StickerEntryCard collection="phonics" childId={childId} />
 
         {/* Progress + streak row */}
         <div className="flex gap-3">

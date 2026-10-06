@@ -5,6 +5,7 @@ import Link from 'next/link'
 import UpgradeBanner from '@/components/UpgradeBanner'
 import { cachedFetch } from '@/lib/cachedFetch'
 import { academicFetch } from '@/lib/academicSync'
+import StickerEntryCard from '@/components/StickerEntryCard'
 
 type AcademicTopicSync = { completed: boolean; mastered: boolean }
 type Session = { plan: string; username?: string; free_trial_expires_at?: string | null; plan_end_date?: string | null }
@@ -91,6 +92,7 @@ export default function VocabWisePage() {
       </div>
 
       <div className="max-w-2xl mx-auto px-4 py-6 space-y-4">
+        <StickerEntryCard collection="academic" />
 
         {/* First-time welcome */}
         {!hasAnyProgress && !welcomeDismissed && (

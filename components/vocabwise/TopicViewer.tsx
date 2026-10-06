@@ -13,7 +13,7 @@ import PassageGrammarNote from './PassageGrammarNote'
 import GrammarSpotlight, { type GrammarSpotlightData } from './GrammarSpotlight'
 import { cachedFetch } from '@/lib/cachedFetch'
 import { stripMarkdown } from '@/lib/textFormat'
-import { academicFetch } from '@/lib/academicSync'
+import { academicFetch, activeChildId } from '@/lib/academicSync'
 import Sticker from '@/components/Sticker'
 
 type GlossaryItem = {
@@ -368,10 +368,10 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
       </div>
 
       {newSticker && (
-        <button type="button" onClick={() => setNewSticker(false)}
+        <button type="button" onClick={() => { setNewSticker(false); const id = activeChildId(); if (id) router.push(`/dashboard/${id}/profile?tab=academic`) }}
           className="flex w-full items-center gap-3 border-b-4 border-purple-200 bg-purple-50 px-4 py-3 text-left">
           <Sticker emoji={meta.emoji ?? '⭐'} size="sm" tilt={-8} />
-          <span className="text-sm font-bold text-purple-800">Bạn nhận được sticker mới!<br /><span className="text-xs font-semibold text-purple-600">Xem trong bộ sưu tập sticker của bé</span></span>
+          <span className="text-sm font-bold text-purple-800">Bạn nhận được sticker mới!<br /><span className="text-xs font-semibold text-purple-600">Chạm để xem bộ sưu tập sticker</span></span>
         </button>
       )}
 
