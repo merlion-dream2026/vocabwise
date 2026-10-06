@@ -17,7 +17,7 @@ const LEVEL_LABEL: Record<string, string> = {
   book1: 'Foundation', book2: 'Progress', book3: 'Mastery',
   ...Object.fromEntries(phonicsLevels.levels.map(l => [l.id, l.titleVi])),
 }
-const card = 'rounded-3xl border-2 border-b-[4px] border-slate-200 border-b-slate-300 bg-white p-4'
+const card = 'rounded-3xl border-2 border-slate-100 bg-white p-4'
 const input = 'w-full rounded-2xl border-2 border-slate-200 bg-white px-4 py-3 text-center text-lg font-bold tracking-widest text-slate-800 outline-none focus:border-purple-400'
 
 // Parent area: PIN (set / enter / reset with the account password), then per-child sticker counts,

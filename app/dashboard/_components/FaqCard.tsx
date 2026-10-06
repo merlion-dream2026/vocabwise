@@ -158,9 +158,9 @@ export function FaqCard() {
   }
 
   return (
-    <div className="bg-white rounded-3xl border-2 border-gray-100 shadow-sm overflow-hidden">
+    <div className="bg-white rounded-3xl overflow-hidden border-2 border-slate-100">
       <div className="px-5 py-4 border-b border-gray-100">
-        <h2 className="font-black text-gray-800 text-base">❓ Câu hỏi thường gặp</h2>
+        <h2 className="font-bold text-gray-800 text-base">❓ Câu hỏi thường gặp</h2>
         <p className="text-xs text-gray-400 font-semibold mt-0.5">Hướng dẫn sử dụng app hiệu quả</p>
       </div>
 
@@ -169,7 +169,7 @@ export function FaqCard() {
           <div key={group.group}>
             {/* Group header */}
             <div className="px-5 py-2 bg-gray-50">
-              <p className="text-xs font-black text-gray-500 uppercase tracking-wider">{group.group}</p>
+              <p className="text-xs font-bold text-gray-500 uppercase tracking-wider">{group.group}</p>
             </div>
 
             {group.items.map((item, i) => {
@@ -181,7 +181,7 @@ export function FaqCard() {
                     onClick={() => toggle(key)}
                     className="w-full text-left pl-7 pr-5 py-3.5 flex items-start justify-between gap-3 hover:bg-gray-50 transition-colors">
                     <p className="text-sm font-bold text-gray-700 leading-snug">{item.q}</p>
-                    <span className={`text-gray-400 font-black text-sm flex-shrink-0 mt-0.5 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}>
+                    <span className={`text-gray-400 font-bold text-sm flex-shrink-0 mt-0.5 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}>
                       ▾
                     </span>
                   </button>

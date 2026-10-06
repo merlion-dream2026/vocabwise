@@ -28,10 +28,10 @@ export function CollapsibleCard({ title, subtitle, defaultOpen = true, warn = fa
         onClick={() => setOpen(o => !o)}
         className="w-full px-5 py-4 flex items-center justify-between hover:bg-gray-50 transition-colors">
         <div className="text-left">
-          <h2 className="font-black text-gray-800 text-base">{title}</h2>
+          <h2 className="font-bold text-gray-800 text-base">{title}</h2>
           {subtitle && !open && <p className="text-xs text-gray-400 font-semibold mt-0.5">{subtitle}</p>}
         </div>
-        <span className={`text-gray-400 font-black text-sm flex-shrink-0 transition-transform duration-200 ${open ? 'rotate-180' : ''}`}>▾</span>
+        <span className={`text-gray-400 font-bold text-sm flex-shrink-0 transition-transform duration-200 ${open ? 'rotate-180' : ''}`}>▾</span>
       </button>
       {open && <div className="border-t border-gray-100 px-5 pb-5 pt-4">{children}</div>}
     </div>

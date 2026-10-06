@@ -30,12 +30,12 @@ export default function LeaderboardCard() {
   }, [open])
 
   return (
-    <div className="bg-white rounded-3xl shadow-sm border border-gray-100 mb-4 overflow-hidden">
+    <div className="bg-white rounded-3xl mb-4 overflow-hidden border-2 border-slate-100">
       <button
         onClick={() => setOpen(v => !v)}
         className="w-full flex items-center justify-between px-5 py-4 text-left"
       >
-        <span className="font-black text-gray-800 text-sm">🏆 Bảng xếp hạng XP toàn cầu</span>
+        <span className="font-bold text-gray-800 text-sm">🏆 Bảng xếp hạng XP toàn cầu</span>
         <span className={`text-gray-400 text-lg transition-transform duration-200 ${open ? 'rotate-180' : ''}`}>▾</span>
       </button>
 
@@ -56,18 +56,18 @@ export default function LeaderboardCard() {
                       e.isCurrentFamily ? 'bg-purple-50 border border-purple-200' : 'bg-gray-50'
                     }`}
                   >
-                    <span className="text-sm w-6 text-center flex-shrink-0 font-black text-gray-500">
+                    <span className="text-sm w-6 text-center flex-shrink-0 font-bold text-gray-500">
                       {MEDALS[e.rank - 1] ?? e.rank}
                     </span>
                     {AVATARS.some(a => a.id === e.emoji)
                       ? <Image src={getAvatarSrc(e.emoji)} width={24} height={24} className="rounded-full object-cover flex-shrink-0" alt="" unoptimized />
                       : <span className="text-base flex-shrink-0">{e.emoji}</span>
                     }
-                    <span className={`text-sm font-black flex-1 truncate ${e.isCurrentFamily ? 'text-purple-700' : 'text-gray-700'}`}>
+                    <span className={`text-sm font-bold flex-1 truncate ${e.isCurrentFamily ? 'text-purple-700' : 'text-gray-700'}`}>
                       {e.name}
                       {e.isCurrentFamily && <span className="text-purple-400 font-normal text-xs ml-1">← bé nhà bạn</span>}
                     </span>
-                    <span className="text-xs text-yellow-600 font-black whitespace-nowrap">⭐ {e.totalXP.toLocaleString()}</span>
+                    <span className="text-xs text-yellow-600 font-bold whitespace-nowrap">⭐ {e.totalXP.toLocaleString()}</span>
                     {e.streak > 0 && (
                       <span className="text-xs text-orange-500 font-bold whitespace-nowrap">🔥{e.streak}</span>
                     )}

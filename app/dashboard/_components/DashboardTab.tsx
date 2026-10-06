@@ -103,7 +103,7 @@ export function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditCh
           return (
             <button key={child.id}
               onClick={() => setSelectedChildId(child.id)}
-              className={`flex items-center gap-1.5 px-4 py-2 rounded-2xl font-black text-sm whitespace-nowrap flex-shrink-0 transition-all ${
+              className={`flex items-center gap-1.5 px-4 py-2 rounded-2xl font-bold text-sm whitespace-nowrap flex-shrink-0 transition-all ${
                 isActive ? `${c.bar} text-white shadow-md` : 'bg-white text-gray-500 border border-gray-200 hover:border-gray-300'
               }`}>
               <Image src={getAvatarSrc(child.emoji)} width={24} height={24} className="rounded-full object-cover flex-shrink-0" alt="" unoptimized />
@@ -112,7 +112,7 @@ export function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditCh
           )
         })}
         <button onClick={onAddChild}
-          className="flex items-center justify-center w-10 h-10 rounded-2xl font-black text-lg flex-shrink-0 bg-white text-purple-400 border-2 border-dashed border-purple-200 hover:bg-purple-50 transition-all">
+          className="flex items-center justify-center w-10 h-10 rounded-2xl font-bold text-lg flex-shrink-0 bg-white text-purple-400 border-2 border-dashed border-purple-200 hover:bg-purple-50 transition-all">
           +
         </button>
       </div>
@@ -178,7 +178,7 @@ export function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditCh
             const isHistExpanded = expandedHistory[child.id] ?? false
 
             return (
-              <div key={child.id} className="bg-white rounded-3xl border-2 border-gray-100 shadow-sm overflow-hidden">
+              <div key={child.id} className="bg-white rounded-3xl overflow-hidden border-2 border-slate-100">
 
                 {/* Header: avatar + name + XP/streak + edit */}
                 <div className="flex items-start gap-3 px-4 pt-4 pb-3">
@@ -186,13 +186,13 @@ export function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditCh
                     <Image src={getAvatarSrc(child.emoji)} fill className="object-cover rounded-2xl" alt="" unoptimized />
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="font-black text-gray-800 text-base leading-tight truncate">{child.name}</p>
+                    <p className="font-bold text-gray-800 text-base leading-tight truncate">{child.name}</p>
                     <div className="flex items-center gap-1.5 flex-wrap mt-1">
-                      {totalXP > 0 && <span className="text-xs font-black text-yellow-600">⭐ {totalXP.toLocaleString()} XP</span>}
-                      {xpBadge && <span className={`text-[11px] font-black px-1.5 py-0.5 rounded-full ${xpBadge.cls}`}>{xpBadge.icon} {xpBadge.label}</span>}
+                      {totalXP > 0 && <span className="text-xs font-bold text-yellow-600">⭐ {totalXP.toLocaleString()} XP</span>}
+                      {xpBadge && <span className={`text-[11px] font-bold px-1.5 py-0.5 rounded-full ${xpBadge.cls}`}>{xpBadge.icon} {xpBadge.label}</span>}
                       {!xpBadge && totalXP === 0 && <span className="text-[11px] text-gray-400 font-semibold">{xpInfo.emoji} {xpInfo.name}</span>}
-                      {streakCur > 0 && <span className="text-[11px] font-black text-orange-500">🔥 {streakCur} ngày</span>}
-                      <span className={`text-[11px] font-black px-1.5 py-0.5 rounded-full ${xpGoalDone ? 'bg-green-100 text-green-700' : 'bg-gray-100 text-gray-500'}`}>
+                      {streakCur > 0 && <span className="text-[11px] font-bold text-orange-500">🔥 {streakCur} ngày</span>}
+                      <span className={`text-[11px] font-bold px-1.5 py-0.5 rounded-full ${xpGoalDone ? 'bg-green-100 text-green-700' : 'bg-gray-100 text-gray-500'}`}>
                         {xpGoalDone ? `✅ ${DAILY_XP_GOAL} XP hôm nay` : `⚡ ${todayXP}/${DAILY_XP_GOAL} XP hôm nay`}
                       </span>
                       {lastActive && <span className="text-[11px] text-gray-400 font-semibold">📅 {lastActive}</span>}
@@ -276,7 +276,7 @@ export function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditCh
                         ))}
                       </div>
                     </div>
-                    <span className={`text-gray-400 text-xs font-black transition-transform duration-200 ${isHistExpanded ? 'rotate-180' : ''}`}>▾</span>
+                    <span className={`text-gray-400 text-xs font-bold transition-transform duration-200 ${isHistExpanded ? 'rotate-180' : ''}`}>▾</span>
                   </button>
 
                   {isHistExpanded && (
@@ -310,7 +310,7 @@ export function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditCh
           <div className="text-5xl mb-3">👨‍👩‍👧</div>
           <p className="font-bold mb-4">Chưa có hồ sơ nào</p>
           <button onClick={onAddChild}
-            className="bg-purple-500 text-white font-black px-6 py-3 rounded-2xl hover:bg-purple-600 active:scale-95 transition-all text-sm">
+            className="bg-purple-500 text-white font-bold px-6 py-3 rounded-2xl hover:bg-purple-600 active:scale-95 transition-all text-sm">
             + Thêm hồ sơ bé
           </button>
         </div>
@@ -321,19 +321,19 @@ export function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditCh
       />
 
       {/* Offline downloads card */}
-      <div className="bg-white rounded-3xl border-2 border-gray-100 shadow-sm overflow-hidden">
+      <div className="bg-white rounded-3xl overflow-hidden border-2 border-slate-100">
         <button
           onClick={() => setShowOffline(v => !v)}
           className="w-full px-4 py-3.5 flex items-center justify-between hover:bg-gray-50 transition-colors"
         >
           <div className="flex items-center gap-2">
             <span className="text-base">💾</span>
-            <span className="font-black text-gray-700 text-sm">Bài tải offline</span>
+            <span className="font-bold text-gray-700 text-sm">Bài tải offline</span>
             {dlCount > 0 && (
               <span className="text-xs font-bold bg-purple-100 text-purple-600 px-2 py-0.5 rounded-full">{dlCount} chủ đề</span>
             )}
           </div>
-          <span className={`text-gray-400 text-xs font-black transition-transform duration-200 ${showOffline ? 'rotate-180' : ''}`}>▾</span>
+          <span className={`text-gray-400 text-xs font-bold transition-transform duration-200 ${showOffline ? 'rotate-180' : ''}`}>▾</span>
         </button>
         {showOffline && (
           <div className="px-4 pb-4 border-t border-gray-100 pt-3">
@@ -343,7 +343,7 @@ export function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditCh
       </div>
 
       <button onClick={onRefresh} disabled={loading}
-        className="w-full bg-white border-2 border-gray-200 rounded-2xl py-3 font-black text-gray-500 active:scale-95 transition-transform disabled:opacity-50">
+        className="w-full bg-white border-2 border-gray-200 rounded-2xl py-3 font-bold text-gray-500 active:scale-95 transition-transform disabled:opacity-50">
         {loading ? '⏳ Đang tải...' : '🔄 Tải lại'}
         {lastRefresh && !loading && (
           <span className="block text-xs font-semibold text-gray-400 mt-0.5">Cập nhật lúc {lastRefresh}</span>

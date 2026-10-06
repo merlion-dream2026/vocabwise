@@ -14,6 +14,7 @@ import {
 } from '@/lib/childProgress'
 import BangThanhTich from '@/components/BangThanhTich'
 import { cachedFetch, invalidateCachedFetch } from '@/lib/cachedFetch'
+import { PRESS } from '@/components/TopicHub'
 
 type Child = {
   id: string; name: string; emoji: string; level: string
@@ -23,12 +24,12 @@ type Child = {
 type Session = { familyId: string; username: string; plan: string; free_trial_expires_at?: string | null; plan_end_date?: string | null }
 
 const THEME_CONFIG: Record<string, {
-  gradient: string; bg: string; border: string; text: string; btn: string; badge: string;
+  gradient: string; bg: string; border: string; edge: string; text: string; btn: string; badge: string;
 }> = {
-  pink:   { gradient: 'from-pink-400 to-rose-400',    bg: 'bg-gradient-to-br from-pink-50 to-rose-50',    border: 'border-pink-200',   text: 'text-pink-600',   btn: 'bg-pink-500 hover:bg-pink-600',   badge: 'bg-pink-100 text-pink-700'   },
-  blue:   { gradient: 'from-blue-400 to-cyan-400',    bg: 'bg-gradient-to-br from-blue-50 to-cyan-50',    border: 'border-blue-200',   text: 'text-blue-600',   btn: 'bg-blue-500 hover:bg-blue-600',   badge: 'bg-blue-100 text-blue-700'   },
-  green:  { gradient: 'from-green-400 to-emerald-400', bg: 'bg-gradient-to-br from-green-50 to-emerald-50', border: 'border-green-200', text: 'text-green-600', btn: 'bg-green-500 hover:bg-green-600', badge: 'bg-green-100 text-green-700' },
-  orange: { gradient: 'from-orange-400 to-amber-400', bg: 'bg-gradient-to-br from-orange-50 to-amber-50', border: 'border-orange-200', text: 'text-orange-600', btn: 'bg-orange-500 hover:bg-orange-600', badge: 'bg-orange-100 text-orange-700' },
+  pink:   { gradient: 'from-pink-400 to-rose-400',    bg: 'bg-gradient-to-br from-pink-50 to-rose-50',    border: 'border-pink-200', edge: 'border-b-pink-400',   text: 'text-pink-600',   btn: 'bg-pink-500 hover:bg-pink-600',   badge: 'bg-pink-100 text-pink-700'   },
+  blue:   { gradient: 'from-blue-400 to-cyan-400',    bg: 'bg-gradient-to-br from-blue-50 to-cyan-50',    border: 'border-blue-200', edge: 'border-b-blue-400',   text: 'text-blue-600',   btn: 'bg-blue-500 hover:bg-blue-600',   badge: 'bg-blue-100 text-blue-700'   },
+  green:  { gradient: 'from-green-400 to-emerald-400', bg: 'bg-gradient-to-br from-green-50 to-emerald-50', border: 'border-green-200', edge: 'border-b-green-400', text: 'text-green-600', btn: 'bg-green-500 hover:bg-green-600', badge: 'bg-green-100 text-green-700' },
+  orange: { gradient: 'from-orange-400 to-amber-400', bg: 'bg-gradient-to-br from-orange-50 to-amber-50', border: 'border-orange-200', edge: 'border-b-orange-400', text: 'text-orange-600', btn: 'bg-orange-500 hover:bg-orange-600', badge: 'bg-orange-100 text-orange-700' },
 }
 
 const PLAN_BADGE: Record<string, { label: string; cls: string }> = {
@@ -45,7 +46,7 @@ function PlanBadge({ plan, planEndDate }: { plan: string; planEndDate?: string |
     ? { label: 'HẾT HẠN', cls: 'bg-red-100 text-red-500' }
     : (PLAN_BADGE[plan] ?? PLAN_BADGE.free)
   return (
-    <span className={`text-[10px] font-black px-2 py-0.5 rounded-full ${cfg.cls}`}>
+    <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${cfg.cls}`}>
       {cfg.label}
     </span>
   )
@@ -184,7 +185,7 @@ export default function HomePage() {
         <div>
           <div className="flex items-center gap-2">
             <span className="text-3xl leading-none">🌟</span>
-            <h1 className="text-3xl font-black text-gray-800 tracking-tight">VocabWise</h1>
+            <h1 className="text-3xl font-bold text-gray-800 tracking-tight">VocabWise</h1>
           </div>
           <p className="text-gray-500 text-sm font-semibold mt-1 leading-snug">
             Từ vựng tiếng Anh — vui học mỗi ngày
@@ -193,7 +194,7 @@ export default function HomePage() {
         <div className="flex flex-col items-end gap-1.5 flex-shrink-0 ml-3 pt-0.5">
           <button
             onClick={() => router.push('/dashboard')}
-            className="w-10 h-10 rounded-full bg-white/80 backdrop-blur-sm shadow-md flex items-center justify-center text-xl hover:bg-white transition-colors"
+            className="flex h-10 w-10 items-center justify-center rounded-full border-2 border-b-[3px] border-slate-200 border-b-slate-300 bg-white text-xl transition-transform active:translate-y-0.5"
             title="Phụ huynh"
           >
             👨‍👩
@@ -259,7 +260,7 @@ export default function HomePage() {
               <button
                 key={child.id}
                 onClick={() => handleChildTap(child)}
-                className={`w-full text-left ${cfg.bg} ${cfg.border} border-2 rounded-3xl p-4 shadow-lg active:scale-95 transition-transform duration-150 cursor-pointer select-none`}
+                className={`w-full text-left ${cfg.bg} ${cfg.border} ${cfg.edge} border-2 border-b-[4px] rounded-3xl p-4 ${PRESS} cursor-pointer select-none`}
               >
                 {/* Avatar + Name + XP/Badge/Streak */}
                 <div className="flex items-center gap-3 mb-3">
@@ -267,21 +268,21 @@ export default function HomePage() {
                     <Image src={getAvatarSrc(child.emoji)} fill className="object-cover rounded-2xl" alt="" unoptimized />
                   </div>
                   <div className="flex-1 min-w-0">
-                    <h2 className={`text-xl font-black ${cfg.text} flex items-center gap-1.5`}>
+                    <h2 className={`text-xl font-bold ${cfg.text} flex items-center gap-1.5`}>
                       {child.name}
                       {child.pin && <span className="text-sm">🔒</span>}
                     </h2>
                     <div className="flex items-center gap-1.5 flex-wrap mt-0.5">
                       {totalXP > 0 && (
-                        <span className="text-xs font-black text-yellow-600">⭐ {totalXP.toLocaleString()} XP</span>
+                        <span className="text-xs font-bold text-yellow-600">⭐ {totalXP.toLocaleString()} XP</span>
                       )}
                       {badge && (
-                        <span className={`text-[11px] font-black px-1.5 py-0.5 rounded-full ${badge.cls}`}>
+                        <span className={`text-[11px] font-bold px-1.5 py-0.5 rounded-full ${badge.cls}`}>
                           {badge.icon} {badge.label}
                         </span>
                       )}
                       {streakBadge && (
-                        <span className={`inline-flex items-center gap-0.5 text-[11px] font-black px-1.5 py-0.5 rounded-full ${streakBadge.cls}`}>
+                        <span className={`inline-flex items-center gap-0.5 text-[11px] font-bold px-1.5 py-0.5 rounded-full ${streakBadge.cls}`}>
                           {streakBadge.icon} {streakBadge.label}
                         </span>
                       )}
@@ -311,7 +312,7 @@ export default function HomePage() {
                   </div>
                 ) : totalXP === 0 && phonics.seen === 0 ? (
                   <div className="bg-white/50 rounded-2xl px-4 py-3 mb-4 space-y-1.5">
-                    <p className={`font-black text-sm ${cfg.text}`}>👋 Bắt đầu hành trình học tiếng Anh!</p>
+                    <p className={`font-bold text-sm ${cfg.text}`}>👋 Bắt đầu hành trình học tiếng Anh!</p>
                     <p className="text-xs text-gray-500 leading-relaxed">Chọn module để học: Phonics · Từ vựng theo chủ đề · Bài tập học thuật</p>
                     <div className="flex flex-wrap gap-1.5 pt-0.5">
                       <span className="text-[11px] font-bold text-gray-400">🔤 Phonics</span>
@@ -352,11 +353,11 @@ export default function HomePage() {
                 {/* CTA — streak-risk aware; PIN case relies on card tap + 🔒 next to name, no separate button */}
                 {child.pin ? null
                 : lastActive === yesterStr && streakCur > 0 ? (
-                  <div className="bg-gradient-to-r from-orange-400 to-amber-400 text-white font-black text-base py-3 rounded-2xl text-center transition-colors duration-150">
+                  <div className="bg-gradient-to-r from-orange-400 to-amber-400 text-white font-bold text-base py-3 rounded-2xl border-b-[4px] border-black/20 text-center">
                     ⚡ Học ngay để giữ streak 🔥 {streakCur} ngày!
                   </div>
                 ) : (
-                  <div className={`${cfg.btn} text-white font-black text-lg py-3 rounded-2xl text-center transition-colors duration-150`}>
+                  <div className={`${cfg.btn} text-white font-bold text-lg py-3 rounded-2xl border-b-[4px] border-black/20 text-center`}>
                     {syncMap[child.id] !== undefined && totalXP === 0 && phonics.seen === 0 ? '🌟 Bắt đầu học ngay! →' : 'Tiếp tục học! →'}
                   </div>
                 )}
@@ -426,7 +427,7 @@ export default function HomePage() {
         <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center px-4" onClick={() => setForgotOpen(false)}>
           <div className="bg-white rounded-3xl shadow-2xl p-7 w-full max-w-xs text-center" onClick={e => e.stopPropagation()}>
             <div className="text-4xl mb-3">🔑</div>
-            <h2 className="text-xl font-black text-gray-800 mb-1">Quên mật khẩu</h2>
+            <h2 className="text-xl font-bold text-gray-800 mb-1">Quên mật khẩu</h2>
             {forgotState === 'sent' ? (
               <>
                 <p className="text-green-600 font-semibold text-sm mt-3 mb-5">
@@ -451,7 +452,7 @@ export default function HomePage() {
                 <button
                   onClick={handleForgot}
                   disabled={forgotState === 'loading' || !forgotUsername.trim()}
-                  className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black py-3 rounded-2xl mb-3 disabled:opacity-50"
+                  className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold py-3 rounded-2xl mb-3 disabled:opacity-50"
                 >
                   {forgotState === 'loading' ? 'Đang gửi...' : 'Gửi link đặt lại mật khẩu'}
                 </button>

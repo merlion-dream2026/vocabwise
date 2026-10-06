@@ -49,7 +49,7 @@ export function AddChildModal({ maxKids, childCount, onClose, onAdded }: {
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4 overflow-y-auto" onClick={onClose}>
       <div className="bg-white rounded-3xl p-6 w-full max-w-sm shadow-2xl my-4" onClick={e => e.stopPropagation()}>
         <div className="flex items-center justify-between mb-5">
-          <h2 className="font-black text-lg text-gray-800">➕ Thêm hồ sơ bé</h2>
+          <h2 className="font-bold text-lg text-gray-800">➕ Thêm hồ sơ bé</h2>
           <button onClick={onClose} aria-label="Đóng" className="text-gray-400 hover:text-gray-600 text-2xl leading-none">×</button>
         </div>
         {blocked ? (
@@ -71,7 +71,7 @@ export function AddChildModal({ maxKids, childCount, onClose, onAdded }: {
                   <button key={t.id} type="button" onClick={() => setTheme(t.id)}
                     className={`border-2 rounded-2xl px-4 py-2.5 flex items-center justify-center gap-2 transition-all ${theme === t.id ? THEME_PICKER_CLS[t.id] : 'border-gray-200 hover:border-gray-300'}`}>
                     <span className="text-3xl leading-none">{t.emoji}</span>
-                    <span className="font-black text-sm text-gray-700">{t.label}</span>
+                    <span className="font-bold text-sm text-gray-700">{t.label}</span>
                   </button>
                 ))}
               </div>
@@ -92,7 +92,7 @@ export function AddChildModal({ maxKids, childCount, onClose, onAdded }: {
 
             {msg && <p className="text-sm text-red-500 font-semibold">{msg}</p>}
             <button type="submit" disabled={saving || !name.trim()}
-              className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black py-3 rounded-2xl disabled:opacity-50 active:scale-95 transition-transform">
+              className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold py-3 rounded-2xl disabled:opacity-50 active:scale-95 transition-transform">
               {saving ? 'Đang tạo...' : 'Tạo hồ sơ'}
             </button>
           </form>
@@ -138,7 +138,7 @@ export function EditChildModal({ child, onClose, onSaved, onDeleted }: {
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4 overflow-y-auto" onClick={onClose}>
       <div className="bg-white rounded-3xl p-6 w-full max-w-sm shadow-2xl my-4" onClick={e => e.stopPropagation()}>
         <div className="flex items-center justify-between mb-5">
-          <h2 className="font-black text-lg text-gray-800">✏️ Sửa hồ sơ</h2>
+          <h2 className="font-bold text-lg text-gray-800">✏️ Sửa hồ sơ</h2>
           <button onClick={onClose} aria-label="Đóng" className="text-gray-400 hover:text-gray-600 text-2xl leading-none">×</button>
         </div>
         <form onSubmit={save} className="space-y-4">
@@ -153,7 +153,7 @@ export function EditChildModal({ child, onClose, onSaved, onDeleted }: {
                 <button key={t.id} type="button" onClick={() => setTheme(t.id)}
                   className={`border-2 rounded-2xl px-4 py-2.5 flex items-center justify-center gap-2 transition-all ${theme === t.id ? THEME_PICKER_CLS[t.id] : 'border-gray-200 hover:border-gray-300'}`}>
                   <span className="text-3xl leading-none">{t.emoji}</span>
-                  <span className="font-black text-sm text-gray-700">{t.label}</span>
+                  <span className="font-bold text-sm text-gray-700">{t.label}</span>
                 </button>
               ))}
             </div>
@@ -171,7 +171,7 @@ export function EditChildModal({ child, onClose, onSaved, onDeleted }: {
 
           {msg && <p className="text-sm">{msg}</p>}
           <button type="submit" disabled={saving}
-            className="w-full bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-black py-3 rounded-2xl disabled:opacity-50">
+            className="w-full bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-bold py-3 rounded-2xl disabled:opacity-50">
             {saving ? 'Đang lưu...' : 'Lưu thay đổi'}
           </button>
         </form>

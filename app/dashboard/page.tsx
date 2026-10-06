@@ -161,7 +161,7 @@ export default function DashboardPage() {
         <div className="max-w-xl mx-auto px-4 pt-6 pb-0">
           <div className="flex items-center justify-between mb-5">
             <div>
-              <h1 className="text-white font-black text-2xl">📚 VocabWise</h1>
+              <h1 className="text-white font-bold text-2xl">📚 VocabWise</h1>
               <div className="flex items-center gap-2 mt-0.5">
                 <p className="text-white/70 text-sm font-semibold">{session!.username}</p>
                 {(() => {
@@ -169,7 +169,7 @@ export default function DashboardPage() {
                   const b = isBonusActive && session!.plan === 'free'
                     ? { label: '🎁 PRO', cls: 'bg-gradient-to-r from-purple-400 to-pink-400 text-white' }
                     : getPlanBadge(session!.plan, session!.plan_end_date)
-                  return <span className={`text-[10px] font-black px-2 py-0.5 rounded-full ${b.cls}`}>{b.label}</span>
+                  return <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${b.cls}`}>{b.label}</span>
                 })()}
               </div>
             </div>
@@ -189,7 +189,7 @@ export default function DashboardPage() {
           <div className="flex gap-1 overflow-x-auto" style={{ scrollbarWidth: 'none' }}>
             {(['dashboard', 'rewards', 'faq', 'settings', 'referral'] as const).map(t => (
               <button key={t} onClick={() => setTab(t)}
-                className={`px-3 py-2.5 rounded-t-2xl font-black text-sm whitespace-nowrap flex-shrink-0 transition-colors ${
+                className={`px-3 py-2.5 rounded-t-2xl font-bold text-sm whitespace-nowrap flex-shrink-0 transition-colors ${
                   tab === t ? 'bg-white text-gray-800' : 'text-white/70 hover:text-white'}`}>
                 {TAB_LABELS[t]}
               </button>

@@ -102,15 +102,15 @@ export default function ReferralTab() {
       {/* Bonus Pro days active banner */}
       {bonusActive && (
         <div className="bg-gradient-to-r from-purple-500 to-pink-500 rounded-3xl p-4 text-white">
-          <p className="font-black text-sm">🎁 Đang có Pro từ giới thiệu!</p>
+          <p className="font-bold text-sm">🎁 Đang có Pro từ giới thiệu!</p>
           <p className="text-white/80 text-xs mt-0.5">Hiệu lực đến {bonusExpiry} · Mời thêm để kéo dài</p>
         </div>
       )}
 
       {/* Share section */}
-      <div className="bg-white rounded-3xl border-2 border-gray-100 shadow-sm p-5 space-y-4">
+      <div className="bg-white rounded-3xl p-5 space-y-4 border-2 border-slate-100">
         <div>
-          <h2 className="font-black text-gray-800 text-base">🎁 Giới thiệu bạn bè</h2>
+          <h2 className="font-bold text-gray-800 text-base">🎁 Giới thiệu bạn bè</h2>
           <p className="text-xs text-gray-400 font-semibold mt-0.5">Cả hai cùng có lợi khi học cùng nhau!</p>
         </div>
 
@@ -118,18 +118,18 @@ export default function ReferralTab() {
         <div className="bg-purple-50 rounded-2xl p-3.5 space-y-1.5">
           <div className="flex items-center justify-between text-sm">
             <span className="text-gray-600 font-semibold">Bạn bè đăng ký dùng thử</span>
-            <span className="font-black text-purple-600">+7 ngày Pro 🎁</span>
+            <span className="font-bold text-purple-600">+7 ngày Pro 🎁</span>
           </div>
           <div className="flex items-center justify-between text-sm">
             <span className="text-gray-600 font-semibold">Bạn bè mua gói Pro</span>
-            <span className="font-black text-purple-600">+14 ngày Pro thêm 🏆</span>
+            <span className="font-bold text-purple-600">+14 ngày Pro thêm 🏆</span>
           </div>
           <p className="text-[11px] text-gray-400 pt-0.5">Phần thưởng được cộng vào tài khoản của bạn sau 24 giờ.</p>
         </div>
 
         {/* How it works — inline, trước link */}
         <div className="space-y-2">
-          <p className="text-xs font-black text-gray-500">❓ Cách hoạt động</p>
+          <p className="text-xs font-bold text-gray-500">❓ Cách hoạt động</p>
           {[
             { step: '1', text: 'Bạn chia sẻ link của mình cho phụ huynh khác' },
             { step: '2', text: 'Họ đăng ký và bé bắt đầu học từ vựng' },
@@ -137,7 +137,7 @@ export default function ReferralTab() {
             { step: '4', text: 'Khi họ mua gói Pro, bạn nhận thêm +14 ngày nữa!' },
           ].map(s => (
             <div key={s.step} className="flex items-start gap-2.5">
-              <span className="w-5 h-5 rounded-full bg-purple-100 text-purple-600 font-black text-xs flex items-center justify-center flex-shrink-0 mt-0.5">
+              <span className="w-5 h-5 rounded-full bg-purple-100 text-purple-600 font-bold text-xs flex items-center justify-center flex-shrink-0 mt-0.5">
                 {s.step}
               </span>
               <p className="text-sm text-gray-600 font-semibold">{s.text}</p>
@@ -153,7 +153,7 @@ export default function ReferralTab() {
               {APP_URL}/r/{data.referral_code}
             </span>
             <button onClick={copyLink}
-              className="text-xs font-black text-purple-600 hover:text-purple-800 flex-shrink-0 transition-colors">
+              className="text-xs font-bold text-purple-600 hover:text-purple-800 flex-shrink-0 transition-colors">
               {copied ? '✅ Đã copy' : '📋 Copy'}
             </button>
           </div>
@@ -162,11 +162,11 @@ export default function ReferralTab() {
         {/* Share buttons */}
         <div className="grid grid-cols-2 gap-2">
           <button onClick={shareZalo}
-            className="bg-blue-500 hover:bg-blue-600 text-white font-black py-3 rounded-2xl text-sm active:scale-95 transition-transform">
+            className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 rounded-2xl text-sm active:scale-95 transition-transform">
             💬 Zalo
           </button>
           <button onClick={shareNative}
-            className="bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black py-3 rounded-2xl text-sm active:scale-95 transition-transform">
+            className="bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold py-3 rounded-2xl text-sm active:scale-95 transition-transform">
             ••• Khác
           </button>
         </div>
@@ -179,9 +179,9 @@ export default function ReferralTab() {
           { label: 'Đã nhận thưởng',value: data.stats.total_rewarded,    emoji: '✅' },
           { label: 'Ngày Pro tích lũy',value: `+${data.stats.total_days_earned}`, emoji: '🗓️' },
         ].map(s => (
-          <div key={s.label} className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm p-3 text-center">
+          <div key={s.label} className="bg-white rounded-3xl p-3 text-center border-2 border-slate-100">
             <div className="text-xl mb-0.5">{s.emoji}</div>
-            <div className="font-black text-gray-800 text-lg leading-tight">{s.value}</div>
+            <div className="font-bold text-gray-800 text-lg leading-tight">{s.value}</div>
             <div className="text-[11px] text-gray-400 font-semibold leading-tight mt-0.5">{s.label}</div>
           </div>
         ))}
@@ -195,9 +195,9 @@ export default function ReferralTab() {
           <p className="text-gray-400 text-xs mt-1">Chia sẻ link bên trên để bắt đầu nhận thưởng!</p>
         </div>
       ) : (
-        <div className="bg-white rounded-3xl border-2 border-gray-100 shadow-sm overflow-hidden">
+        <div className="bg-white rounded-3xl overflow-hidden border-2 border-slate-100">
           <div className="px-5 py-3.5 border-b border-gray-100">
-            <h3 className="font-black text-gray-800 text-sm">📋 Danh sách giới thiệu</h3>
+            <h3 className="font-bold text-gray-800 text-sm">📋 Danh sách giới thiệu</h3>
           </div>
           <div className="divide-y divide-gray-50">
             {data.referrals.map(r => {
@@ -206,7 +206,7 @@ export default function ReferralTab() {
               return (
                 <div key={r.id} className="px-5 py-3.5 flex items-center justify-between gap-3">
                   <div className="min-w-0">
-                    <p className="font-black text-gray-800 text-sm">{r.phone_masked}</p>
+                    <p className="font-bold text-gray-800 text-sm">{r.phone_masked}</p>
                     <p className="text-[11px] text-gray-400 mt-0.5">
                       {fmtDate(r.created_at)}
                       {r.status === 'signup_triggered' && r.signup_reward_available_at && (
@@ -216,9 +216,9 @@ export default function ReferralTab() {
                   </div>
                   <div className="flex items-center gap-2 flex-shrink-0">
                     {daysEarned > 0 && (
-                      <span className="text-xs font-black text-purple-600">+{daysEarned}d</span>
+                      <span className="text-xs font-bold text-purple-600">+{daysEarned}d</span>
                     )}
-                    <span className={`text-[11px] font-black px-2.5 py-1 rounded-full whitespace-nowrap ${info.color}`}>
+                    <span className={`text-[11px] font-bold px-2.5 py-1 rounded-full whitespace-nowrap ${info.color}`}>
                       {info.label}
                     </span>
                   </div>

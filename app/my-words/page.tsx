@@ -212,8 +212,8 @@ export default function MyWordsPage() {
         <UpgradeModal onClose={() => setShowUpgrade(false)} username={session.username} />
       )}
       {/* Header */}
-      <div className="bg-gradient-to-r from-indigo-600 to-purple-600 px-4 pt-8 pb-3 text-white">
-        <h1 className="text-xl font-black">⭐ Từ của tôi</h1>
+      <div className="bg-gradient-to-r from-indigo-600 to-purple-600 px-4 pt-8 pb-3 text-white rounded-b-3xl border-b-[4px] border-black/20">
+        <h1 className="text-xl font-bold">⭐ Từ của tôi</h1>
         <p className="text-indigo-200 text-sm mt-0.5">
           {totalAll} từ đã lưu · {totalAcademic} Academic · {totalKids} Daily
         </p>
@@ -230,7 +230,7 @@ export default function MyWordsPage() {
             </p>
             <button
               onClick={() => setShowUpgrade(true)}
-              className="text-xs font-black text-purple-600 bg-purple-100 hover:bg-purple-200 px-3 py-1.5 rounded-full whitespace-nowrap transition-colors"
+              className="text-xs font-bold text-purple-600 bg-purple-100 hover:bg-purple-200 px-3 py-1.5 rounded-full whitespace-nowrap transition-colors"
             >
               Nâng cấp
             </button>
@@ -243,7 +243,7 @@ export default function MyWordsPage() {
             onClick={() => setShowGuide(v => !v)}
             className="w-full flex items-center justify-between px-4 py-3 bg-indigo-50 border border-indigo-100 rounded-2xl text-left"
           >
-            <span className="text-sm font-black text-indigo-700">💡 Cách hoạt động</span>
+            <span className="text-sm font-bold text-indigo-700">💡 Cách hoạt động</span>
             <span className={`text-indigo-400 transition-transform text-xs ${showGuide ? 'rotate-180' : ''}`}>▾</span>
           </button>
           {showGuide && (
@@ -259,10 +259,10 @@ export default function MyWordsPage() {
         {/* Lists section */}
         <div className="px-4 mt-5">
           <div className="flex items-center justify-between mb-3">
-            <h2 className="text-xs font-black text-gray-500 uppercase tracking-wider">Danh sách của tôi</h2>
+            <h2 className="text-xs font-bold text-gray-500 uppercase tracking-wider">Danh sách của tôi</h2>
             <button
               onClick={() => setShowNewList(v => !v)}
-              className="text-xs font-black text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full hover:bg-indigo-100 transition-colors"
+              className="text-xs font-bold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full hover:bg-indigo-100 transition-colors"
             >
               + Tạo mới
             </button>
@@ -270,7 +270,7 @@ export default function MyWordsPage() {
 
           {/* Create new list inline */}
           {showNewList && (
-            <div className="bg-white border border-gray-200 rounded-2xl p-4 mb-3 space-y-3">
+            <div className="bg-white rounded-3xl p-4 mb-3 space-y-3 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
               <input
                 ref={inputRef}
                 value={newListName}
@@ -294,7 +294,7 @@ export default function MyWordsPage() {
                 <button onClick={() => { setShowNewList(false); setNewListName('') }}
                   className="flex-1 py-2 rounded-xl border border-gray-200 text-gray-500 font-bold text-sm">Hủy</button>
                 <button onClick={createList} disabled={!newListName.trim() || creatingList}
-                  className="flex-1 py-2 rounded-xl bg-indigo-600 text-white font-black text-sm disabled:opacity-50 active:scale-95 transition-all">
+                  className="flex-1 py-2 rounded-xl bg-indigo-600 text-white font-bold text-sm disabled:opacity-50 active:scale-95 transition-all">
                   {creatingList ? '...' : 'Tạo'}
                 </button>
               </div>
@@ -305,7 +305,7 @@ export default function MyWordsPage() {
           <div className="flex gap-2 flex-wrap">
             <button
               onClick={() => setActiveList('all')}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-black transition-all ${
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-bold transition-all ${
                 activeList === 'all' ? 'bg-indigo-600 text-white' : 'bg-white border border-gray-200 text-gray-600 hover:border-indigo-300'
               }`}
             >
@@ -329,7 +329,7 @@ export default function MyWordsPage() {
                           if (e.key === 'Enter') renameList(editingList!.id, editingList!.name, editingList!.color)
                           if (e.key === 'Escape') setEditingList(null)
                         }}
-                        className="text-xs font-black focus:outline-none w-24"
+                        className="text-xs font-bold focus:outline-none w-24"
                         maxLength={40}
                       />
                       <div className="flex gap-1">
@@ -344,32 +344,32 @@ export default function MyWordsPage() {
                       </div>
                       <button
                         onClick={() => renameList(editingList!.id, editingList!.name, editingList!.color)}
-                        className="text-[10px] font-black text-white bg-indigo-500 rounded-full px-2 py-0.5 hover:bg-indigo-600 transition-colors"
+                        className="text-[10px] font-bold text-white bg-indigo-500 rounded-full px-2 py-0.5 hover:bg-indigo-600 transition-colors"
                       >✓</button>
                       <button
                         onClick={() => setEditingList(null)}
-                        className="text-[10px] font-black text-gray-400 hover:text-gray-600 transition-colors"
+                        className="text-[10px] font-bold text-gray-400 hover:text-gray-600 transition-colors"
                       >✕</button>
                     </div>
                   ) : isConfirming ? (
                     <div className="flex items-center gap-1.5 bg-red-50 border border-red-200 rounded-full px-3 py-1.5">
                       <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: l.color }} />
-                      <span className="text-sm font-black text-red-700 whitespace-nowrap">Xóa &quot;{l.name}&quot;?</span>
+                      <span className="text-sm font-bold text-red-700 whitespace-nowrap">Xóa &quot;{l.name}&quot;?</span>
                       <button
                         onClick={() => setConfirmDeleteList(null)}
-                        className="text-[10px] font-black text-gray-500 bg-white border border-gray-200 rounded-full px-2 py-0.5 hover:bg-gray-100 transition-colors"
+                        className="text-[10px] font-bold text-gray-500 bg-white border border-gray-200 rounded-full px-2 py-0.5 hover:bg-gray-100 transition-colors"
                       >Hủy</button>
                       <button
                         onClick={() => { setConfirmDeleteList(null); deleteList(l.id) }}
                         disabled={deletingList === l.id}
-                        className="text-[10px] font-black text-white bg-red-500 rounded-full px-2 py-0.5 hover:bg-red-600 transition-colors disabled:opacity-50"
+                        className="text-[10px] font-bold text-white bg-red-500 rounded-full px-2 py-0.5 hover:bg-red-600 transition-colors disabled:opacity-50"
                       >{deletingList === l.id ? '...' : 'Xóa'}</button>
                     </div>
                   ) : (
                     <>
                       <button
                         onClick={() => setActiveList(isActive ? 'all' : l.id)}
-                        className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-black transition-all ${
+                        className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-bold transition-all ${
                           isActive ? 'text-white' : 'bg-white border border-gray-200 text-gray-600 hover:border-indigo-300'
                         }`}
                         style={isActive ? { backgroundColor: l.color } : {}}
@@ -379,12 +379,12 @@ export default function MyWordsPage() {
                       </button>
                       <button
                         onClick={() => setEditingList(l)}
-                        className="absolute -top-1 -left-1 w-4 h-4 bg-indigo-500 text-white rounded-full text-[9px] font-black hidden group-hover:flex items-center justify-center transition-all"
+                        className="absolute -top-1 -left-1 w-4 h-4 bg-indigo-500 text-white rounded-full text-[9px] font-bold hidden group-hover:flex items-center justify-center transition-all"
                         title="Đổi tên danh sách"
                       >✎</button>
                       <button
                         onClick={() => setConfirmDeleteList(l.id)}
-                        className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 text-white rounded-full text-[9px] font-black hidden group-hover:flex items-center justify-center transition-all"
+                        className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 text-white rounded-full text-[9px] font-bold hidden group-hover:flex items-center justify-center transition-all"
                         title="Xóa danh sách"
                       >✕</button>
                     </>
@@ -401,7 +401,7 @@ export default function MyWordsPage() {
             value={search}
             onChange={e => setSearch(e.target.value)}
             placeholder="Tìm từ..."
-            className="w-full border border-gray-200 rounded-2xl px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-300 bg-white"
+            className="w-full rounded-3xl px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-300 bg-white border-2 border-slate-200 border-b-[4px] border-b-slate-300"
           />
           <div className="flex gap-2">
             {/* Source filter */}
@@ -454,19 +454,19 @@ export default function MyWordsPage() {
               const src  = SOURCE_LABEL[w.source] ?? SOURCE_LABEL.academic
               const listInfo = w.list_id ? lists.find(l => l.id === w.list_id) : null
               return (
-                <div key={w.id} className="bg-white border-2 border-gray-100 rounded-2xl px-4 py-3 flex items-start gap-3">
+                <div key={w.id} className="bg-white rounded-3xl px-4 py-3 flex items-start gap-3 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-2 flex-wrap mb-0.5">
-                      <span className="font-black text-gray-800 text-sm">{w.word}</span>
+                      <span className="font-bold text-gray-800 text-sm">{w.word}</span>
                       {w.ipa && <span className="text-gray-400 text-xs">{w.ipa}</span>}
                       {w.pos && <span className="text-gray-400 text-xs italic">{w.pos}</span>}
                       <button onClick={() => speak(w.word)} aria-label={`Nghe phát âm ${w.word}`} className="text-gray-300 hover:text-blue-500 transition-colors">🔊</button>
                       {/* Source badge */}
-                      <span className={`text-[10px] font-black px-1.5 py-0.5 rounded-full ${src.color}`}>{src.label}</span>
+                      <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded-full ${src.color}`}>{src.label}</span>
                       {/* List badge — click to reassign */}
                       <button
                         onClick={() => setAssigningWord(assigningWord === w.id ? null : w.id)}
-                        className={`text-[10px] font-black px-1.5 py-0.5 rounded-full transition-colors ${
+                        className={`text-[10px] font-bold px-1.5 py-0.5 rounded-full transition-colors ${
                           listInfo
                             ? 'text-white hover:opacity-80'
                             : 'bg-gray-100 text-gray-400 hover:bg-indigo-100 hover:text-indigo-600'
@@ -482,7 +482,7 @@ export default function MyWordsPage() {
                       <div className="mt-1.5 flex flex-wrap gap-1.5">
                         <button
                           onClick={() => assignToList(w.id, null)}
-                          className={`text-[10px] font-black px-2 py-0.5 rounded-full border transition-colors ${
+                          className={`text-[10px] font-bold px-2 py-0.5 rounded-full border transition-colors ${
                             !w.list_id ? 'bg-gray-200 text-gray-700 border-gray-300' : 'bg-white border-gray-200 text-gray-400 hover:border-gray-400'
                           }`}
                         >Không có</button>
@@ -490,7 +490,7 @@ export default function MyWordsPage() {
                           <button
                             key={l.id}
                             onClick={() => assignToList(w.id, l.id)}
-                            className={`text-[10px] font-black px-2 py-0.5 rounded-full border transition-colors ${
+                            className={`text-[10px] font-bold px-2 py-0.5 rounded-full border transition-colors ${
                               w.list_id === l.id ? 'text-white border-transparent' : 'bg-white border-gray-200 text-gray-600 hover:border-gray-400'
                             }`}
                             style={w.list_id === l.id ? { backgroundColor: l.color, borderColor: l.color } : {}}

@@ -66,7 +66,7 @@ function ReportSettingsContent({ plan }: { plan: string }) {
           <div className="flex gap-1.5 flex-wrap">
             {VN_DAYS.map((d, i) => (
               <button key={i} onClick={() => setSettings(s => ({ ...s, day: i }))}
-                className={`px-3 py-1.5 rounded-xl text-xs font-black transition-colors ${settings.day === i ? 'bg-purple-500 text-white' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'}`}>
+                className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-colors ${settings.day === i ? 'bg-purple-500 text-white' : 'bg-gray-100 text-gray-500 hover:bg-gray-200'}`}>
                 {d}
               </button>
             ))}
@@ -95,11 +95,11 @@ function ReportSettingsContent({ plan }: { plan: string }) {
 
       <div className="flex gap-2">
         <button onClick={save} disabled={saving}
-          className="flex-1 bg-purple-500 text-white font-black py-2.5 rounded-2xl text-sm disabled:opacity-50 active:scale-95 transition-transform">
+          className="flex-1 bg-purple-500 text-white font-bold py-2.5 rounded-2xl text-sm disabled:opacity-50 active:scale-95 transition-transform">
           {saving ? 'Đang lưu...' : 'Lưu cài đặt'}
         </button>
         <button onClick={sendNow} disabled={sending}
-          className="bg-white border-2 border-purple-200 text-purple-500 font-black py-2.5 px-4 rounded-2xl text-sm disabled:opacity-50 active:scale-95 transition-transform">
+          className="bg-white border-2 border-purple-200 text-purple-500 font-bold py-2.5 px-4 rounded-2xl text-sm disabled:opacity-50 active:scale-95 transition-transform">
           {sending ? '...' : 'Gửi ngay'}
         </button>
       </div>
@@ -113,7 +113,7 @@ function UpgradeModalButton({ username, expired }: { username: string; expired: 
     <>
       <button
         onClick={() => setOpen(true)}
-        className={`mt-4 w-full font-black py-3 rounded-2xl text-sm active:scale-95 transition-all ${expired ? 'bg-gradient-to-r from-red-500 to-orange-400 text-white' : 'bg-gradient-to-r from-purple-500 to-pink-500 text-white'}`}
+        className={`mt-4 w-full font-bold py-3 rounded-2xl text-sm active:scale-95 transition-all ${expired ? 'bg-gradient-to-r from-red-500 to-orange-400 text-white' : 'bg-gradient-to-r from-purple-500 to-pink-500 text-white'}`}
       >
         {expired ? '⚠️ Gia hạn ngay' : '⭐ Nâng cấp Pro'}
       </button>
@@ -209,7 +209,7 @@ function PushNotificationContent() {
       {status === 'subscribed' ? (
         <div className="space-y-2">
           <div className="bg-green-50 border border-green-200 rounded-2xl px-4 py-2.5 flex items-center gap-2">
-            <span className="text-green-600 font-black text-sm">✅ Đã bật thông báo nhắc học</span>
+            <span className="text-green-600 font-bold text-sm">✅ Đã bật thông báo nhắc học</span>
           </div>
           <button onClick={unsubscribe}
             className="w-full text-xs text-gray-400 hover:text-red-400 py-1.5 transition-colors">
@@ -221,7 +221,7 @@ function PushNotificationContent() {
           <button
             onClick={subscribe}
             disabled={status === 'loading' || status === 'denied' || status === 'unsupported'}
-            className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black py-3 rounded-2xl disabled:opacity-50 active:scale-95 transition-transform text-sm">
+            className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold py-3 rounded-2xl disabled:opacity-50 active:scale-95 transition-transform text-sm">
             {status === 'loading'
               ? 'Đang bật...'
               : status === 'denied'
@@ -232,15 +232,15 @@ function PushNotificationContent() {
           </button>
           {status === 'unsupported' && (
             <div className="mt-3 bg-blue-50 border border-blue-100 rounded-2xl p-3.5 space-y-2.5">
-              <p className="text-xs font-black text-blue-700">📲 Cách cài app lên màn hình chính:</p>
+              <p className="text-xs font-bold text-blue-700">📲 Cách cài app lên màn hình chính:</p>
               <div className="space-y-1.5">
-                <p className="text-xs font-black text-gray-600">🍎 iPhone / iPad (Safari)</p>
+                <p className="text-xs font-bold text-gray-600">🍎 iPhone / iPad (Safari)</p>
                 <p className="text-xs text-gray-500 leading-relaxed">① Bấm nút <span className="font-bold">Chia sẻ</span> <span className="font-mono bg-gray-100 px-1 rounded">⬆️</span> ở thanh dưới Safari</p>
                 <p className="text-xs text-gray-500">② Chọn <span className="font-bold">&quot;Thêm vào Màn hình chính&quot;</span></p>
                 <p className="text-xs text-gray-500">③ Bấm <span className="font-bold">Thêm</span> → mở app từ icon vừa tạo</p>
               </div>
               <div className="border-t border-blue-100 pt-2 space-y-1.5">
-                <p className="text-xs font-black text-gray-600">🤖 Android (Chrome)</p>
+                <p className="text-xs font-bold text-gray-600">🤖 Android (Chrome)</p>
                 <p className="text-xs text-gray-500 leading-relaxed">① Bấm menu <span className="font-bold">⋮</span> góc trên phải Chrome</p>
                 <p className="text-xs text-gray-500">② Chọn <span className="font-bold">&quot;Thêm vào Màn hình chính&quot;</span> hoặc <span className="font-bold">&quot;Cài đặt ứng dụng&quot;</span></p>
                 <p className="text-xs text-gray-500">③ Bấm <span className="font-bold">Thêm</span> → mở app từ icon vừa tạo</p>
@@ -287,7 +287,7 @@ function FontSizeSettings() {
               ? 'border-purple-500 bg-purple-50 text-purple-700'
               : 'border-gray-200 text-gray-500 hover:border-gray-300'
           }`}>
-          <span className="font-black" style={{ fontSize: opt.value === '' ? 16 : opt.value === 'large' ? 20 : 24 }}>{opt.size}</span>
+          <span className="font-bold" style={{ fontSize: opt.value === '' ? 16 : opt.value === 'large' ? 20 : 24 }}>{opt.size}</span>
           <span className="text-xs font-semibold">{opt.label}</span>
         </button>
       ))}
@@ -325,9 +325,9 @@ function GiftTokenCard({ token }: { token: string }) {
     <CollapsibleCard title="🎁 Tặng bạn bè" subtitle="Độc quyền gói Pro 6 tháng · Tặng 1 người bạn 14 ngày Pro miễn phí." defaultOpen={true}>
       <p className="text-xs text-gray-500 font-semibold mb-3">Mã quà tặng của bạn — chỉ dùng được 1 lần:</p>
       <div className="flex items-center gap-2 bg-indigo-50 border-2 border-indigo-200 rounded-2xl px-4 py-3 mb-3">
-        <span className="flex-1 font-black text-indigo-700 text-xl tracking-[0.2em]">{token}</span>
+        <span className="flex-1 font-bold text-indigo-700 text-xl tracking-[0.2em]">{token}</span>
         <button onClick={copyLink}
-          className="bg-indigo-500 text-white text-xs font-black px-3 py-1.5 rounded-xl active:scale-95 transition-transform">
+          className="bg-indigo-500 text-white text-xs font-bold px-3 py-1.5 rounded-xl active:scale-95 transition-transform">
           {copied ? '✅ Copied!' : 'Copy link'}
         </button>
       </div>
@@ -342,10 +342,10 @@ function GiftTokenCard({ token }: { token: string }) {
             value={redeemInput}
             onChange={e => setRedeemInput(e.target.value.toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 8))}
             placeholder="XXXXXXXX"
-            className="flex-1 border-2 border-gray-200 rounded-xl px-3 py-2 text-sm font-black tracking-widest text-center focus:outline-none focus:border-indigo-400"
+            className="flex-1 border-2 border-gray-200 rounded-xl px-3 py-2 text-sm font-bold tracking-widest text-center focus:outline-none focus:border-indigo-400"
           />
           <button onClick={redeem} disabled={redeeming || redeemInput.length !== 8}
-            className="bg-indigo-500 text-white text-sm font-black px-4 py-2 rounded-xl disabled:opacity-40 active:scale-95 transition-transform">
+            className="bg-indigo-500 text-white text-sm font-bold px-4 py-2 rounded-xl disabled:opacity-40 active:scale-95 transition-transform">
             {redeeming ? '...' : 'Nhận'}
           </button>
         </div>
@@ -438,7 +438,7 @@ export function SettingsTab({ kids, session, onChildrenRefresh }: { kids: Child[
         <div className="space-y-3">
           <div className="flex items-center justify-between">
             <span className="text-sm font-semibold text-gray-500">Loại tài khoản</span>
-            <span className={`text-xs font-black px-3 py-1 rounded-full ${badge.cls.includes('white') ? 'bg-purple-100 text-purple-700' : badge.cls}`}>
+            <span className={`text-xs font-bold px-3 py-1 rounded-full ${badge.cls.includes('white') ? 'bg-purple-100 text-purple-700' : badge.cls}`}>
               {badge.label}
             </span>
           </div>
@@ -494,7 +494,7 @@ export function SettingsTab({ kids, session, onChildrenRefresh }: { kids: Child[
             <p className={`text-sm font-bold ${pwMsg.startsWith('✅') ? 'text-green-600' : 'text-red-500'}`}>{pwMsg}</p>
           )}
           <button type="submit" disabled={pwSaving}
-            className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black py-3 rounded-2xl disabled:opacity-50 active:scale-95 transition-transform">
+            className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold py-3 rounded-2xl disabled:opacity-50 active:scale-95 transition-transform">
             {pwSaving ? 'Đang lưu...' : 'Đổi mật khẩu'}
           </button>
         </form>
@@ -509,7 +509,7 @@ export function SettingsTab({ kids, session, onChildrenRefresh }: { kids: Child[
               const c = child.theme && THEME_COLORS[child.theme] ? THEME_COLORS[child.theme] : DEFAULT_COLOR
               return (
                 <button key={child.id} onClick={() => setSelectedPinChildId(child.id)}
-                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl font-black text-sm whitespace-nowrap flex-shrink-0 transition-all ${
+                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl font-bold text-sm whitespace-nowrap flex-shrink-0 transition-all ${
                     isActive ? `${c.bar} text-white shadow-sm` : 'bg-gray-100 text-gray-500 hover:bg-gray-200'
                   }`}>
                   <Image src={getAvatarSrc(child.emoji)} width={24} height={24} className="rounded-full object-cover flex-shrink-0" alt="" unoptimized />
@@ -521,7 +521,7 @@ export function SettingsTab({ kids, session, onChildrenRefresh }: { kids: Child[
           {kids.filter(c => c.id === selectedPinChildId).map(child => (
             <div key={child.id}>
               <div className="flex items-center justify-between mb-3">
-                <span className={`text-xs font-black px-2.5 py-1 rounded-full ${child.pin ? 'bg-green-100 text-green-600' : 'bg-gray-100 text-gray-400'}`}>
+                <span className={`text-xs font-bold px-2.5 py-1 rounded-full ${child.pin ? 'bg-green-100 text-green-600' : 'bg-gray-100 text-gray-400'}`}>
                   {child.pin ? (showPin[child.id] ? `PIN: ${child.pin}` : '🔒 Có PIN') : 'Chưa có PIN'}
                 </span>
                 {child.pin && (
@@ -538,12 +538,12 @@ export function SettingsTab({ kids, session, onChildrenRefresh }: { kids: Child[
                   className="flex-1 border border-gray-200 rounded-xl px-3 py-2.5 text-center font-bold text-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-purple-300 [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none" />
                 <button onClick={() => { const p = pinInputs[child.id] ?? ''; if (p.length === 4) setPin(child.id, p) }}
                   disabled={pinSaving[child.id] || (pinInputs[child.id] ?? '').length !== 4}
-                  className="bg-purple-500 text-white text-sm font-black px-4 py-2.5 rounded-xl disabled:opacity-40 active:scale-95 transition-transform">
+                  className="bg-purple-500 text-white text-sm font-bold px-4 py-2.5 rounded-xl disabled:opacity-40 active:scale-95 transition-transform">
                   Đặt
                 </button>
                 {child.pin && (
                   <button onClick={() => setPin(child.id, null)} disabled={pinSaving[child.id]}
-                    className="bg-gray-100 text-gray-500 text-sm font-black px-3 py-2.5 rounded-xl disabled:opacity-40 active:scale-95 transition-transform">
+                    className="bg-gray-100 text-gray-500 text-sm font-bold px-3 py-2.5 rounded-xl disabled:opacity-40 active:scale-95 transition-transform">
                     Xóa
                   </button>
                 )}
@@ -583,14 +583,14 @@ export function SettingsTab({ kids, session, onChildrenRefresh }: { kids: Child[
                 <div className="flex items-center gap-2">
                   <Image src={getAvatarSrc(child.emoji)} width={32} height={32} className="rounded-full object-cover flex-shrink-0" alt="" unoptimized />
                   <div>
-                    <p className="font-black text-gray-800 text-sm">{child.name}</p>
+                    <p className="font-bold text-gray-800 text-sm">{child.name}</p>
                     <p className="text-xs text-gray-400">{LEVEL_INFO_MAP[child.level]?.label ?? child.level} · {LEVEL_INFO_MAP[child.level]?.cefr ?? ''}</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-2">
                   {resetMsg[child.id] && <span className="text-xs text-green-500 font-bold">{resetMsg[child.id]}</span>}
                   <button onClick={() => resetChild(child.id)}
-                    className={`text-xs px-3 py-1.5 rounded-xl font-black transition-colors ${
+                    className={`text-xs px-3 py-1.5 rounded-xl font-bold transition-colors ${
                       resetConfirm === child.id ? 'bg-red-500 text-white' : 'bg-red-50 text-red-400 hover:bg-red-100'}`}>
                     {resetConfirm === child.id ? '⚠️ Xác nhận?' : 'Reset'}
                   </button>
