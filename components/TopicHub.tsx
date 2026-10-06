@@ -49,12 +49,12 @@ function tap() {
 // down 4px, so it looks like it sinks into the page without shifting the layout.
 export const PRESS = 'transition-[transform,border-width] duration-100 active:translate-y-0.5 active:border-b-2'
 
-type JourneyNode = { icon: string; label: string; done: boolean; last?: boolean; sticker?: string | null }
+export type JourneyNode = { icon: string; label: string; done: boolean; last?: boolean; sticker?: string | null }
 
 // Flashcard → Vòng 1 → Vòng 2 → quà. A trail with stops that sit slightly up/down: finished stops
 // are green, the next one is amber and pulses, the rest are grey. The last stop is a locked gift
 // that turns into the trophy — tapping the finished trophy replays the celebration.
-function Journey({ nodes, onTrophy }: { nodes: JourneyNode[]; onTrophy: () => void }) {
+export function Journey({ nodes, onTrophy }: { nodes: JourneyNode[]; onTrophy: () => void }) {
   const current = nodes.findIndex((n) => !n.done)
   return (
     <div className="mt-3 flex items-start px-1">
@@ -329,7 +329,7 @@ function GameTile({ tile, onOpen, index }: { tile: Tile; onOpen: (gameKey: strin
 
 // Emoji ignore CSS color, so "unfilled" dims via grayscale+opacity. With `animate`, earned stars
 // pop in one after another.
-function Stars({ filled, animate }: { filled: number; animate?: boolean }) {
+export function Stars({ filled, animate }: { filled: number; animate?: boolean }) {
   return (
     <span className="inline-flex gap-0.5 text-base">
       {[1, 2, 3].map((i) => (

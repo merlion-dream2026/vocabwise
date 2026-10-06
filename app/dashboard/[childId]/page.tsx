@@ -10,6 +10,7 @@ import LearningHistoryPanel from '@/components/LearningHistoryPanel'
 import ModuleCard from '@/components/ModuleCard'
 import { cachedFetch } from '@/lib/cachedFetch'
 import { academicFetch } from '@/lib/academicSync'
+import PageSkeleton from '@/components/PageSkeleton'
 
 
 const KID_FAQ = [
@@ -77,7 +78,7 @@ function FaqToggleButton({ open, onToggle }: { open: boolean; onToggle: () => vo
       aria-label="Hướng dẫn học"
       aria-haspopup="true"
       aria-expanded={open}
-      className="relative w-10 h-10 flex-shrink-0 flex items-center justify-center rounded-full bg-white/80 backdrop-blur-sm shadow-sm active:scale-95 transition-transform"
+      className="relative flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 transition-transform active:translate-y-0.5 active:border-b-2"
     >
       <span className="text-xl">❓</span>
     </button>
@@ -88,14 +89,14 @@ function KidFaqPanel() {
   const [open, setOpen] = useState<string | null>(null)
   return (
     <div className="max-w-lg mx-auto mt-2 mb-6">
-      <div className="bg-white/80 backdrop-blur-sm border-2 border-purple-100 rounded-2xl overflow-hidden shadow-sm">
+      <div className="overflow-hidden rounded-3xl border-2 border-b-[4px] border-purple-200 border-b-purple-300 bg-white">
         <div className="px-4 py-3 bg-purple-50/60">
-          <span className="font-black text-purple-700 text-sm">❓ Hướng dẫn học</span>
+          <span className="font-bold text-purple-700 text-sm">❓ Hướng dẫn học</span>
         </div>
         {KID_FAQ.map(group => (
           <div key={group.group} className="border-t border-purple-50 divide-y divide-purple-50">
             <div className="px-4 py-1.5 bg-purple-50/40">
-              <p className="text-xs font-black text-purple-400 uppercase tracking-wider">{group.group}</p>
+              <p className="text-xs font-bold text-purple-400 uppercase tracking-wider">{group.group}</p>
             </div>
             {group.items.map((item, i) => {
               const key = `${group.group}-${i}`
@@ -106,7 +107,7 @@ function KidFaqPanel() {
                     onClick={() => setOpen(o => o === key ? null : key)}
                     className="w-full text-left pl-7 pr-4 py-3 flex items-center justify-between gap-2 hover:bg-purple-50/50 transition-colors">
                     <span className="font-bold text-gray-700 text-sm leading-snug">{item.q}</span>
-                    <span className={`text-gray-400 font-black text-sm flex-shrink-0 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}>▾</span>
+                    <span className={`text-gray-400 font-bold text-sm flex-shrink-0 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}>▾</span>
                   </button>
                   {isOpen && (
                     <div className="pl-7 pr-4 pb-3">
@@ -161,11 +162,7 @@ export default function ChildRoadmap() {
     })
   }, [childId, router])
 
-  if (loading) return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-50 flex items-center justify-center">
-      <div className="text-4xl animate-pulse">🌟</div>
-    </div>
-  )
+  if (loading) return <PageSkeleton header="bg-purple-500" bg="from-purple-50 via-pink-50 to-rose-50" cards={[90, 90, 90]} />
 
   // Progress aggregates
   const phonics  = getPhonicsProgress(syncByLevel['phonics'])
@@ -173,7 +170,7 @@ export default function ChildRoadmap() {
   const allAcad  = getAllAcademicProgress(syncByLevel['academic'] as SyncLevel | undefined)
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 px-4 py-6">
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 pb-6">
       <UpgradeBanner
         plan={session?.plan ?? 'free'}
         freeTrialExpiresAt={session?.free_trial_expires_at}
@@ -181,15 +178,19 @@ export default function ChildRoadmap() {
         username={session?.username}
       />
       {/* Header */}
-      <div className="flex items-center gap-3 mb-6 max-w-lg mx-auto">
-        <button onClick={() => router.push('/kids')} aria-label="Quay lại" className="text-gray-400 hover:text-gray-600 text-2xl font-bold leading-none">←</button>
-        <Image src={getAvatarSrc(child!.emoji)} width={40} height={40} className="rounded-full object-cover flex-shrink-0" alt="" unoptimized />
-        <div className="flex-1 min-w-0">
-          <h1 className="text-xl font-black text-gray-800 leading-tight truncate">{child!.name}</h1>
-          <p className="text-gray-400 text-xs font-semibold">Chọn module để học</p>
+      <div className="mb-4 rounded-b-3xl border-b-[4px] border-black/20 bg-purple-500 text-white">
+        <div className="mx-auto flex max-w-lg items-center gap-3 px-4 py-4">
+          <button onClick={() => router.push('/kids')} aria-label="Quay lại"
+            className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 text-lg font-bold text-white transition-transform active:translate-y-0.5 active:border-b-2">←</button>
+          <Image src={getAvatarSrc(child!.emoji)} width={44} height={44} className="h-11 w-11 flex-shrink-0 rounded-full border-2 border-white/80 object-cover" alt="" unoptimized />
+          <div className="min-w-0 flex-1">
+            <h1 className="truncate text-xl font-bold leading-tight">{child!.name}</h1>
+            <p className="text-xs font-semibold text-white/80">Chọn module để học</p>
+          </div>
+          <FaqToggleButton open={faqOpen} onToggle={() => setFaqOpen(v => !v)} />
         </div>
-        <FaqToggleButton open={faqOpen} onToggle={() => setFaqOpen(v => !v)} />
       </div>
+      <div className="px-4">
 
       {faqOpen && <KidFaqPanel />}
 
@@ -218,7 +219,7 @@ export default function ChildRoadmap() {
           scheme="purple"
         />
         <ModuleCard
-          onClick={() => { localStorage.setItem('vw_active_child', childId); router.push('/vocabwise') }}
+          onClick={() => { localStorage.setItem('vw_active_child', childId); localStorage.setItem('nav_child_id', childId); router.push('/vocabwise') }}
           icon="🎓"
           title="Academic"
           badge="IELTS · SAT"
@@ -233,9 +234,10 @@ export default function ChildRoadmap() {
 
       {/* Learning history */}
       <div className="max-w-lg mx-auto mt-3">
-        <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
+        <div className="overflow-hidden rounded-3xl border-2 border-b-[4px] border-slate-200 border-b-slate-300 bg-white">
           <LearningHistoryPanel syncByLevel={syncByLevel as Record<string, { history?: Record<string, { words: number; games: number; xp: number; topics?: number; topicIds?: string[] }> } | undefined>} />
         </div>
+      </div>
       </div>
     </div>
   )

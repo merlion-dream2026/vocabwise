@@ -1,5 +1,5 @@
 'use client'
-import { useState, useRef } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import type { ExercisesData } from './types'
 import ShareCardModal from './ShareCardModal'
 import E1Matching        from './E1Matching'
@@ -18,7 +18,7 @@ import WritingCheck     from './WritingCheck'
 import PracticeMore    from './PracticeMore'
 import { cta } from '@/components/ChunkyUI'
 
-type ExPhase = 'ex1' | 'ex2' | 'ex3' | 'ex4' | 'ex5' | 'ex6'
+export type ExPhase = 'ex1' | 'ex2' | 'ex3' | 'ex4' | 'ex5' | 'ex6'
 type Phase   = 'menu' | ExPhase | 'results'
 
 type GlossaryEntry = { word: string; meaning_vi: string }
@@ -33,11 +33,13 @@ type Props = {
   glossary?:      GlossaryEntry[]
   isPro?:         boolean
   onBack:         () => void
+  /** Jump straight into one exercise (e.g. from the topic overview). A new nonce re-triggers it. */
+  startRequest?:  { phase: ExPhase; nonce: number }
   onComplete?:    (scores: number[]) => void
   onExDone?:      (exPhase: ExPhase, score: number, exType: string) => void
 }
 
-const EX_NAMES: Record<string, string> = {
+export const EX_NAMES: Record<string, string> = {
   E1: 'Matching',       E2: 'MCQ — Meaning',
   E3: 'MCQ — Context',  E4: 'Gap Fill',
   E5: 'True/False/NG',  E6: 'Word Forms',
@@ -47,7 +49,7 @@ const EX_NAMES: Record<string, string> = {
   E_COL: 'Collocation Builder',
 }
 
-const EX_ICONS: Record<string, string> = {
+export const EX_ICONS: Record<string, string> = {
   E1: '🔗', E2: '🅰️', E3: '🧠', E4: '✏️',
   E5: '✅', E6: '📝', E7: '🔄', E8: '🔍',
   E_ODD: '🔎', E_SD: '⚖️', E_CAT: '🗂️', E_SUB: '🔁', E_COL: '🧩',
@@ -74,12 +76,14 @@ function scoreBar(score: number) {
 }
 
 export default function VWExerciseRunner({
-  exercises, answerKey, topicTitle, cefr, prevScores, glossaryWords, glossary, isPro, onBack, onComplete, onExDone,
+  exercises, answerKey, topicTitle, cefr, prevScores, glossaryWords, glossary, isPro, onBack, startRequest, onComplete, onExDone,
 }: Props) {
   const [phase,     setPhase]     = useState<Phase>('menu')
   const [scores,    setScores]    = useState<Record<string, number>>({})
   const [showShare, setShowShare] = useState(false)
   const savedRef = useRef(false)
+
+  useEffect(() => { if (startRequest) setPhase(startRequest.phase) }, [startRequest?.nonce]) // eslint-disable-line react-hooks/exhaustive-deps
 
   const availablePhases = PHASE_ORDER.filter(p => getExData(exercises, p))
 

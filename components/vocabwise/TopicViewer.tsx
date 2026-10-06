@@ -15,6 +15,8 @@ import { cachedFetch } from '@/lib/cachedFetch'
 import { stripMarkdown } from '@/lib/textFormat'
 import { academicFetch, activeChildId } from '@/lib/academicSync'
 import Sticker from '@/components/Sticker'
+import AcademicHub from './AcademicHub'
+import type { ExPhase } from './VWExerciseRunner'
 import { cta } from '@/components/ChunkyUI'
 
 type GlossaryItem = {
@@ -54,7 +56,7 @@ type AcademicTopicSync = {
 }
 type Session = { plan: string; username?: string; free_trial_expires_at?: string | null; plan_end_date?: string | null }
 
-type Tab = 'passage' | 'glossary' | 'grammar' | 'exercises'
+type Tab = 'overview' | 'passage' | 'glossary' | 'grammar' | 'exercises'
 
 function renderPassage(text: string) {
   return (text ?? '').replace(/\*\*(.+?)\*\*/g, '<strong class="text-blue-700 font-bold">$1</strong>')
@@ -90,7 +92,8 @@ function embedWatermark(text: string, seed: string): string {
 
 export default function TopicViewer({ data, book, topicId }: { data: TopicData; book: string; topicId: string }) {
   const router = useRouter()
-  const [tab, setTab]       = useState<Tab>('passage')
+  const [tab, setTab]       = useState<Tab>('overview')
+  const [startReq, setStartReq] = useState<{ phase: ExPhase; nonce: number } | undefined>()
   const [wmId, setWmId]     = useState('')
   const [showVI, setShowVI] = useState(false)
   const [speaking, setSpeaking] = useState(false)
@@ -378,17 +381,34 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
 
       {/* Tabs */}
       <div className="flex border-b border-gray-200 bg-white sticky top-0 z-10 shadow-sm">
-        {(['passage', 'glossary', 'exercises', ...(data.grammar_spotlight ? ['grammar' as Tab] : [])] as Tab[]).map(t => (
+        {(['overview', 'passage', 'glossary', 'exercises', ...(data.grammar_spotlight ? ['grammar' as Tab] : [])] as Tab[]).map(t => (
           <button key={t} onClick={() => setTab(t)}
             className={`flex-1 py-3 font-bold text-xs transition-all ${
               tab === t ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-400 hover:text-gray-600'
             }`}>
-            {t === 'passage' ? '📄 Đọc' : t === 'glossary' ? '📚 Từ vựng' : t === 'grammar' ? '📖 Ngữ pháp' : '📝 BT Từ vựng'}
+            {t === 'overview' ? '🏠 Tổng quan' : t === 'passage' ? '📄 Đọc' : t === 'glossary' ? '📚 Từ vựng' : t === 'grammar' ? '📖 Ngữ pháp' : '📝 BT Từ vựng'}
           </button>
         ))}
       </div>
 
       <div className="max-w-2xl mx-auto px-4 py-5 pb-12">
+
+        {/* OVERVIEW TAB — the topic hub */}
+        {tab === 'overview' && (
+          <AcademicHub
+            emoji={meta.emoji}
+            words={glossary.filter(i => i.type !== 'collocation' && i.word).map(i => ({ word: i.word!, meaning_vi: i.meaning_vi }))}
+            exercises={exercises}
+            exScores={topicSync?.ex_scores}
+            read={!!topicSync?.read}
+            completed={!!topicSync?.completed}
+            mastered={!!topicSync?.mastered}
+            hasGrammar={!!data.grammar_spotlight}
+            onOpenTab={setTab}
+            onStartExercise={phase => { setStartReq({ phase, nonce: Date.now() }); setTab('exercises') }}
+            onOpenAlbum={() => { const id = activeChildId(); if (id) router.push(`/dashboard/${id}/profile?tab=academic`) }}
+          />
+        )}
 
         {/* PASSAGE TAB */}
         {tab === 'passage' && (
@@ -653,7 +673,8 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
             glossaryWords={glossary.filter(i => i.type !== 'collocation' && i.word).map(i => i.word!)}
             glossary={glossary.filter(i => i.type !== 'collocation' && i.word).map(i => ({ word: i.word!, meaning_vi: i.meaning_vi }))}
             isPro={!!session && session.plan !== 'free'}
-            onBack={() => setTab('passage')}
+            onBack={() => setTab('overview')}
+            startRequest={startReq}
             onComplete={handleExercisesComplete}
             onExDone={handleSingleExDone}
           />
