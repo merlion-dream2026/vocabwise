@@ -40,7 +40,7 @@ function getActiveTab(pathname: string, childId: string | null): string {
   const base  = `/dashboard/${childId}`
   const first = pathname.slice(base.length + 1).split('/')[0]
   if (first === 'phonics') return 'phonics'
-  if (first === 'kids' || LEVEL_SLUGS.has(first)) return 'daily'
+  if (first === 'kids' || first === 'stickers' || LEVEL_SLUGS.has(first)) return 'daily'
   return ''
 }
 

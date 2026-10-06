@@ -32,17 +32,20 @@ export default function KidsLevelPage() {
   const { childId } = useParams<{ childId: string }>()
   const [child, setChild] = useState<Child | null>(null)
   const [syncByLevel, setSyncByLevel] = useState<Record<string, SyncRow>>({})
+  const [stickerCount, setStickerCount] = useState<number | null>(null)
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
     Promise.all([
       cachedFetch('/api/children').then(r => r.json()),
       fetch(`/api/sync/${childId}`).then(r => r.json()).catch(() => ({})),
-    ]).then(([kids, allSync]) => {
+      fetch(`/api/stickers/${childId}`).then(r => r.ok ? r.json() : []).catch(() => []),
+    ]).then(([kids, allSync, stickerRows]) => {
       const found = (kids as Child[]).find(k => k.id === childId)
       if (!found) { router.push('/kids'); return }
       setChild(found)
       setSyncByLevel(allSync ?? {})
+      setStickerCount(Array.isArray(stickerRows) ? stickerRows.length : 0)
       setLoading(false)
     })
   }, [childId, router])
@@ -64,6 +67,21 @@ export default function KidsLevelPage() {
       </div>
 
       <div className="px-4 py-4">
+      {/* Sticker album */}
+      <div className="max-w-lg mx-auto mb-3">
+        <Link href={`/dashboard/${childId}/stickers`}
+          className={`block rounded-3xl border-2 border-b-[4px] border-purple-200 border-b-purple-300 bg-purple-50 px-4 py-3 ${PRESS}`}>
+          <div className="flex items-center gap-3">
+            <span className="flex h-12 w-12 flex-shrink-0 -rotate-6 items-center justify-center rounded-2xl bg-white text-3xl shadow">🎁</span>
+            <div className="flex-1">
+              <p className="font-bold text-gray-800 text-sm leading-tight">Bộ sưu tập sticker</p>
+              <p className="text-purple-700 text-xs mt-0.5">{stickerCount ? `${stickerCount} sticker · hoàn thành chủ đề để nhận thêm` : 'Hoàn thành một chủ đề để nhận sticker đầu tiên'}</p>
+            </div>
+            <span className="text-purple-400 font-bold text-xl flex-shrink-0">›</span>
+          </div>
+        </Link>
+      </div>
+
       {/* My Words card */}
       <div className="max-w-lg mx-auto mb-3">
         <Link href="/my-words"

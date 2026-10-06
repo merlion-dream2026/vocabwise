@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 import { getSession } from '@/lib/auth'
 import { triggerSignupReward } from '@/lib/referralUtils'
+import { awardStickers } from '@/lib/stickers'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -184,6 +185,9 @@ export async function POST(req: NextRequest, props: { params: Promise<{ childId:
 
   if (error) return NextResponse.json({ error: 'Lỗi hệ thống' }, { status: 500 })
 
+  // Topic stickers: award one for each newly mastered topic (never blocks the sync response).
+  const newStickers = await awardStickers(supabase, params.childId, activeLevel, mergedMastery)
+
   // Append-only SRS review log — diagnostic only, never blocks the main sync response.
   type SrsLogEntry = { word: string; isCorrect: boolean; intervalBefore: number; intervalAfter: number; efBefore: number; efAfter: number }
   if (Array.isArray(srs_log) && srs_log.length > 0) {
@@ -217,7 +221,7 @@ export async function POST(req: NextRequest, props: { params: Promise<{ childId:
     )
   }
 
-  return NextResponse.json(data)
+  return NextResponse.json({ ...data, newStickers })
 }
 
 // PATCH /api/sync/[childId] — merge a single revision score without touching other fields

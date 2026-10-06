@@ -112,6 +112,7 @@ export default function TopicPage() {
   const [showVoiceNotice, setShowVoiceNotice] = useState(false)
   const [showExercise, setShowExercise] = useState(false)
   const [storyOpen, setStoryOpen] = useState(false)
+  const [sticker, setSticker] = useState<{ legacy: boolean } | null>(null)
   const [exerciseAnswers, setExerciseAnswers] = useState<Record<number, string>>({})
   const [exerciseSubmitted, setExerciseSubmitted] = useState(false)
   const audioRef = useRef<HTMLAudioElement | null>(null)
@@ -155,13 +156,16 @@ export default function TopicPage() {
       fetch(`/api/words/${level}/${topicId}`).then(r => r.ok ? r.json() : null).catch(() => null),
       fetch(`/api/words/${level}/topics`).then(r => r.json()).catch(() => []),
       fetch(`/api/stories/${level}/${topicId}`).then(r => r.json()).catch(() => null),
-    ]).then(([found, syncData, foundTopic, topicsList, storyData]) => {
+      fetch(`/api/stickers/${childId}`).then(r => r.ok ? r.json() : []).catch(() => []),
+    ]).then(([found, syncData, foundTopic, topicsList, storyData, stickerList]) => {
       if (!found) { router.push('/kids'); return }
       if (!foundTopic) { router.push(`/dashboard/${childId}/${level}`); return }
       setChild(found)
       setTopic(foundTopic)
       setAllTopics(topicsList ?? [])
       setStory(storyData ?? null)
+      const mine = (stickerList as { level: string; topic_id: string; legacy: boolean }[]).find(s => s.level === level && s.topic_id === topicId)
+      setSticker(mine ? { legacy: mine.legacy } : null)
 
       // Cache sync data for offline game initialization
       saveLastSync(childId, level, syncData)
@@ -174,9 +178,11 @@ export default function TopicPage() {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ level: lvl, seen, weak_words, streak, battle, mastery: offMastery, history, srs }),
-        }).then(res => {
+        }).then(async res => {
           if (!res.ok) return
           clearOfflineProgress(childId, level, topicId)
+          const synced = await res.json().catch(() => null) as { newStickers?: string[] } | null
+          if (synced?.newStickers?.includes(topicId)) setSticker({ legacy: false })
           const m: MasteryData = offMastery[topicId] ?? { flashcard: false, games: [] }
           setMastery(m)
           if (isTopicMastered(m, level)) {
@@ -356,6 +362,7 @@ export default function TopicPage() {
           topicEmoji={(topic as { emoji: string }).emoji}
           childName={child?.name}
           levelName={level}
+          newSticker={!!sticker && !sticker.legacy}
           onDone={() => setShowTrophy(false)}
         />
       )}
@@ -420,6 +427,7 @@ export default function TopicPage() {
             onNextTopic={() => nextTopic && router.push(`/dashboard/${childId}/${level}/${(nextTopic as { id: string }).id}`)}
             onShare={handleShare}
             onReplayTrophy={() => setShowTrophy(true)}
+            hasSticker={!!sticker}
             faqOpen={showFaq}
             onToggleFaq={() => { setShowFaq(v => !v); setOpenFaq(null) }}
           />

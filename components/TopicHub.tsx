@@ -5,6 +5,7 @@ import {
   type MasteryEntry, type GameDef, type RoundMastery,
 } from '@/lib/topicMastery'
 import { speak } from '@/lib/speak'
+import Sticker from '@/components/Sticker'
 
 // Topic hub — "chunky 3D" look: thick bottom borders that press down on tap, saturated state colors
 // (green = done, amber = next / in progress), emoji "stickers" tilted a few degrees, a trail-style
@@ -48,7 +49,7 @@ function tap() {
 // down 4px, so it looks like it sinks into the page without shifting the layout.
 export const PRESS = 'transition-[transform,border-width] duration-100 active:translate-y-0.5 active:border-b-2'
 
-type JourneyNode = { icon: string; label: string; done: boolean; last?: boolean }
+type JourneyNode = { icon: string; label: string; done: boolean; last?: boolean; sticker?: string | null }
 
 // Flashcard → Vòng 1 → Vòng 2 → quà. A trail with stops that sit slightly up/down: finished stops
 // are green, the next one is amber and pulses, the rest are grey. The last stop is a locked gift
@@ -65,7 +66,7 @@ function Journey({ nodes, onTrophy }: { nodes: JourneyNode[]; onTrophy: () => vo
               {n.last && n.done ? (
                 <button type="button" onClick={() => { tap(); onTrophy() }} aria-label="Xem lại hiệu ứng chúc mừng"
                   className={`hub-shine flex h-12 w-12 cursor-pointer items-center justify-center rounded-full border-b-[3px] border-amber-600 bg-amber-400 text-2xl ${PRESS}`}>
-                  🏆
+                  {n.sticker ? <Sticker emoji={n.sticker} size="sm" tilt={-8} className="!h-11 !w-11 !text-2xl" /> : '🏆'}
                 </button>
               ) : (
                 <span className={`flex h-12 w-12 items-center justify-center rounded-full border-b-[3px] text-lg font-bold ${
@@ -90,7 +91,7 @@ function Journey({ nodes, onTrophy }: { nodes: JourneyNode[]; onTrophy: () => vo
 
 // Hero card (status as a reward, trail, mascot) and the amber "next best action" button.
 export function TopicHero({
-  colors, level, topicEmoji, wordCount, entry, games, nextTopicName, onOpen, onNextTopic, onShare, onReplayTrophy, faqOpen, onToggleFaq,
+  colors, level, topicEmoji, wordCount, entry, games, nextTopicName, onOpen, onNextTopic, onShare, onReplayTrophy, faqOpen, onToggleFaq, hasSticker = false,
 }: {
   colors: LevelTheme; level: string; topicEmoji: string; wordCount: number; entry: MasteryEntry; games: GameDef[]
   nextTopicName: string | null
@@ -100,6 +101,7 @@ export function TopicHero({
   onReplayTrophy: () => void
   faqOpen: boolean
   onToggleFaq: () => void
+  hasSticker?: boolean   // the child owns this topic's sticker → the Quà stop shows it
 }) {
   const mastered = isTopicMastered(entry, level)
   const steps = topicSteps(entry, level)
@@ -109,7 +111,7 @@ export function TopicHero({
     { icon: '📖', label: 'Flashcard', done: entry.flashcard },
     { icon: '1', label: 'Vòng 1', done: r1.ringDone >= r1.ringTotal },
     { icon: '2', label: 'Vòng 2', done: r2.ringDone >= r2.ringTotal },
-    { icon: '🎁', label: 'Quà', done: mastered, last: true },
+    { icon: '🎁', label: mastered && hasSticker ? 'Sticker' : 'Quà', done: mastered, last: true, sticker: hasSticker ? topicEmoji : null },
   ]
   const cta =
     step.kind === 'flashcard' ? { emoji: '📖', title: `Học Flashcard ${wordCount} từ`, sub: 'Bước đầu tiên — nhẹ nhàng thôi! 🚀', run: () => onOpen('flashcard') }
