@@ -4,6 +4,7 @@ import { useRouter, useParams } from 'next/navigation'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import GameSoundToggle from '@/components/GameSoundToggle'
 import { useGameSync } from '@/lib/GameSyncContext'
+import { cta, colorFamily } from '@/components/ChunkyUI'
 
 type WordItem = { word: string; meaning: string; emoji: string; examples: { en: string; vi: string }[] }
 type FlatWord = { word: string; meaning_vi: string; example_en: string; emoji: string }
@@ -117,23 +118,23 @@ function MCQRound({ questions, accentCls, onDone }: { questions: MCQQuestion[]; 
         <div className={`h-full ${accentCls} rounded-full transition-all duration-300`}
           style={{ width: `${(idx / questions.length) * 100}%` }} />
       </div>
-      <div className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm p-6 text-center">
-        <p className="text-2xl font-black text-gray-800 mb-1">{q.word}</p>
+      <div className="bg-white rounded-3xl p-6 text-center border-2 border-slate-200 border-b-[4px] border-b-slate-300">
+        <p className="text-2xl font-bold text-gray-800 mb-1">{q.word}</p>
         <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mt-3">Nghĩa tiếng Việt là gì?</p>
       </div>
       <div className="grid grid-cols-1 gap-2.5">
         {q.options.map(opt => {
           const isSelected = selected === opt
           const isCorrect = opt === q.correct
-          let cls = 'bg-white border-2 border-gray-100 text-gray-700'
+          let cls = 'bg-white border-2 border-b-[4px] border-slate-200 border-b-slate-300 text-gray-700'
           if (selected) {
-            if (isCorrect) cls = 'bg-green-50 border-2 border-green-400 text-green-800'
-            else if (isSelected) cls = 'bg-red-50 border-2 border-red-400 text-red-700'
-            else cls = 'bg-white border-2 border-gray-100 text-gray-400 opacity-60'
+            if (isCorrect) cls = 'bg-green-50 border-2 border-b-[4px] border-green-300 border-b-green-500 text-green-800'
+            else if (isSelected) cls = 'bg-red-50 border-2 border-b-[4px] border-red-300 border-b-red-500 ax-shake text-red-700'
+            else cls = 'bg-white border-2 border-b-[4px] border-slate-200 border-b-slate-300 text-gray-400 opacity-60'
           }
           return (
             <button key={opt} onClick={() => pick(opt)}
-              className={`w-full rounded-2xl px-4 py-3.5 text-left font-semibold text-sm transition-all active:scale-[0.98] shadow-sm ${cls}`}>
+              className={`w-full rounded-2xl px-4 py-3.5 text-left font-semibold text-sm transition-[transform,border-width] active:translate-y-0.5 active:border-b-2 ${cls}`}>
               {isSelected && selected && (isCorrect ? '✓ ' : '✗ ')}{opt}
             </button>
           )
@@ -170,7 +171,7 @@ function FIBRound({ questions, accentCls, onDone }: { questions: FIBQuestion[]; 
         <div className={`h-full ${accentCls} rounded-full transition-all duration-300`}
           style={{ width: `${(idx / questions.length) * 100}%` }} />
       </div>
-      <div className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm p-5">
+      <div className="bg-white rounded-3xl p-5 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
         <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-3">Điền từ vào chỗ trống</p>
         <p className="text-base font-semibold text-gray-800 leading-relaxed">{q.blanked}</p>
         <p className="text-xs text-blue-500 font-semibold mt-2">💡 {q.meaning_vi}</p>
@@ -179,15 +180,15 @@ function FIBRound({ questions, accentCls, onDone }: { questions: FIBQuestion[]; 
         {q.options.map(opt => {
           const isSelected = selected === opt
           const isCorrect = opt === q.correct
-          let cls = 'bg-white border-2 border-gray-100 text-gray-700'
+          let cls = 'bg-white border-2 border-b-[4px] border-slate-200 border-b-slate-300 text-gray-700'
           if (selected) {
-            if (isCorrect) cls = 'bg-green-50 border-2 border-green-400 text-green-800'
-            else if (isSelected) cls = 'bg-red-50 border-2 border-red-400 text-red-700'
-            else cls = 'bg-white border-2 border-gray-100 text-gray-400 opacity-60'
+            if (isCorrect) cls = 'bg-green-50 border-2 border-b-[4px] border-green-300 border-b-green-500 text-green-800'
+            else if (isSelected) cls = 'bg-red-50 border-2 border-b-[4px] border-red-300 border-b-red-500 ax-shake text-red-700'
+            else cls = 'bg-white border-2 border-b-[4px] border-slate-200 border-b-slate-300 text-gray-400 opacity-60'
           }
           return (
             <button key={opt} onClick={() => pick(opt)}
-              className={`rounded-2xl px-4 py-3.5 font-bold text-sm transition-all active:scale-[0.98] shadow-sm ${cls}`}>
+              className={`rounded-2xl px-4 py-3.5 font-bold text-sm transition-[transform,border-width] active:translate-y-0.5 active:border-b-2 ${cls}`}>
               {isSelected && selected && (isCorrect ? '✓ ' : '✗ ')}{opt}
             </button>
           )
@@ -242,13 +243,13 @@ function MatchRound({ pairs, setLabel, accentCls: _accentCls, onDone }: { pairs:
             const isMatched  = matched.has(w)
             const isSelected = selWord === w
             const isWrong    = wrongWord === w
-            let cls = 'bg-white border-2 border-gray-100 text-gray-700'
-            if (isMatched)   cls = 'bg-gray-50 border-2 border-gray-100 text-gray-300 line-through'
-            else if (isWrong)   cls = 'bg-red-50 border-2 border-red-300 text-red-600'
-            else if (isSelected) cls = `bg-white border-2 border-purple-400 text-purple-800 shadow-md`
+            let cls = 'bg-white border-2 border-b-[4px] border-slate-200 border-b-slate-300 text-gray-700'
+            if (isMatched)   cls = 'bg-gray-50 border-2 border-b-[4px] border-slate-100 border-b-slate-200 text-gray-300 line-through'
+            else if (isWrong)   cls = 'bg-red-50 border-2 border-b-[4px] border-red-300 border-b-red-500 text-red-600'
+            else if (isSelected) cls = `bg-indigo-50 border-2 border-b-[4px] border-indigo-400 border-b-indigo-500 text-indigo-800`
             return (
               <button key={w} onClick={() => tapWord(w)} disabled={isMatched}
-                className={`w-full rounded-xl px-3 py-2.5 text-sm font-bold text-left transition-all ${cls}`}>
+                className={`w-full rounded-2xl px-3 py-2.5 text-sm font-bold text-left transition-[transform,border-width] active:translate-y-0.5 active:border-b-2 ${cls}`}>
                 {w}
               </button>
             )
@@ -257,12 +258,12 @@ function MatchRound({ pairs, setLabel, accentCls: _accentCls, onDone }: { pairs:
         <div className="space-y-2.5">
           {meanings.map(m => {
             const isMatched = matchedMeanings.has(m)
-            let cls = 'bg-white border-2 border-gray-100 text-gray-700'
-            if (isMatched) cls = 'bg-green-50 border-2 border-green-200 text-green-400 line-through'
-            else if (selWord) cls = 'bg-white border-2 border-gray-200 text-gray-700 hover:bg-purple-50 hover:border-purple-300'
+            let cls = 'bg-white border-2 border-b-[4px] border-slate-200 border-b-slate-300 text-gray-700'
+            if (isMatched) cls = 'bg-green-50 border-2 border-b-[4px] border-green-200 border-b-green-300 text-green-400 line-through'
+            else if (selWord) cls = 'bg-white border-2 border-b-[4px] border-slate-200 border-b-slate-300 text-gray-700 hover:bg-purple-50 hover:border-purple-300'
             return (
               <button key={m} onClick={() => tapMeaning(m)} disabled={isMatched}
-                className={`w-full rounded-xl px-3 py-2.5 text-sm font-semibold text-left transition-all ${cls}`}>
+                className={`w-full rounded-2xl px-3 py-2.5 text-sm font-semibold text-left transition-[transform,border-width] active:translate-y-0.5 active:border-b-2 ${cls}`}>
                 {m}
               </button>
             )
@@ -282,13 +283,13 @@ function BreakScreen({ emoji, title, score, max, accentCls, onContinue }: {
   return (
     <div className="flex flex-col items-center gap-6 py-8 text-center">
       <span className="text-6xl">{emoji}</span>
-      <h2 className="text-xl font-black text-gray-800">{title}</h2>
-      <div className="bg-white border-2 border-gray-100 rounded-2xl p-5 w-full max-w-xs shadow-sm">
-        <p className="text-3xl font-black text-gray-800 mb-1">{score}/{max}</p>
+      <h2 className="text-xl font-bold text-gray-800">{title}</h2>
+      <div className="bg-white rounded-3xl p-5 w-full max-w-xs border-2 border-slate-200 border-b-[4px] border-b-slate-300">
+        <p className="text-3xl font-bold text-gray-800 mb-1">{score}/{max}</p>
         <p className="text-sm font-bold text-gray-500">{grade}</p>
       </div>
       <button onClick={onContinue}
-        className={`w-full max-w-xs ${accentCls} text-white font-black py-4 rounded-2xl text-base active:scale-95 transition-all shadow-md`}>
+        className={cta(colorFamily(accentCls), 'max-w-xs')}>
         Tiếp tục →
       </button>
     </div>
@@ -391,11 +392,11 @@ export default function KidsRevisionPage() {
           <button onClick={() => router.back()} className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 text-lg font-bold text-white transition-transform active:translate-y-0.5 active:border-b-2">←</button>
           <span className="text-xl flex-shrink-0">✨</span>
           <div className="min-w-0 flex-1">
-            <h1 className="font-black text-base leading-tight">Revision: Topics {topicRange}</h1>
+            <h1 className="font-bold text-base leading-tight">Revision: Topics {topicRange}</h1>
             <p className="text-white/70 text-xs capitalize">{level} Level</p>
           </div>
           {phase !== 'intro' && (
-            <span className="text-xs font-black bg-white/20 px-2 py-0.5 rounded-full">{totalScore}/30</span>
+            <span className="text-xs font-bold bg-white/20 px-2 py-0.5 rounded-full">{totalScore}/30</span>
           )}
         </div>
       </div>
@@ -409,10 +410,10 @@ export default function KidsRevisionPage() {
               <span className="text-4xl">✨</span>
             </div>
             <div>
-              <h2 className="text-2xl font-black text-gray-800 mb-2">Revision: Topics {topicRange}</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-2">Revision: Topics {topicRange}</h2>
               <p className="text-gray-500 text-sm">Ôn tập từ vựng 5 chủ đề vừa học!</p>
             </div>
-            <div className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm p-5 w-full max-w-xs space-y-3">
+            <div className="bg-white rounded-3xl p-5 w-full max-w-xs space-y-3 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
               {[
                 { icon: '🧩', label: 'Round 1 — MCQ', desc: '10 câu chọn nghĩa tiếng Việt' },
                 { icon: '✏️', label: 'Round 2 — Điền từ', desc: '10 câu điền từ vào câu' },
@@ -421,19 +422,19 @@ export default function KidsRevisionPage() {
                 <div key={r.label} className="flex items-center gap-3 text-left">
                   <span className="text-2xl flex-shrink-0">{r.icon}</span>
                   <div>
-                    <p className="font-black text-gray-700 text-sm">{r.label}</p>
+                    <p className="font-bold text-gray-700 text-sm">{r.label}</p>
                     <p className="text-xs text-gray-400">{r.desc}</p>
                   </div>
                 </div>
               ))}
             </div>
             {savedScore && (
-              <div className="bg-green-50 border-2 border-green-200 rounded-2xl px-4 py-2.5 w-full max-w-xs text-center">
+              <div className="bg-green-50 border-2 border-b-[4px] border-green-200 border-b-green-300 rounded-3xl px-4 py-2.5 w-full max-w-xs text-center">
                 <p className="text-xs font-bold text-green-700">✓ Lần trước: {savedScore.score}/{savedScore.max} điểm · Làm lại để cải thiện!</p>
               </div>
             )}
             <button onClick={() => setPhase('mcq')}
-              className={`w-full max-w-xs ${colors.accent} text-white font-black py-4 rounded-2xl text-base active:scale-95 transition-all shadow-md`}>
+              className={cta(colorFamily(colors.accent), 'max-w-xs')}>
               {savedScore ? 'Làm lại →' : 'Bắt đầu →'}
             </button>
           </div>
@@ -444,7 +445,7 @@ export default function KidsRevisionPage() {
             <div className="flex items-center gap-2 mb-5">
               <span className="text-lg">🧩</span>
               <div>
-                <p className="font-black text-gray-700 text-sm">Round 1 — MCQ</p>
+                <p className="font-bold text-gray-700 text-sm">Round 1 — MCQ</p>
                 <p className="text-xs text-gray-400">Chọn nghĩa tiếng Việt đúng</p>
               </div>
             </div>
@@ -463,7 +464,7 @@ export default function KidsRevisionPage() {
             <div className="flex items-center gap-2 mb-5">
               <span className="text-lg">✏️</span>
               <div>
-                <p className="font-black text-gray-700 text-sm">Round 2 — Điền từ</p>
+                <p className="font-bold text-gray-700 text-sm">Round 2 — Điền từ</p>
                 <p className="text-xs text-gray-400">Điền từ vào chỗ trống trong câu</p>
               </div>
             </div>
@@ -482,7 +483,7 @@ export default function KidsRevisionPage() {
             <div className="flex items-center gap-2 mb-5">
               <span className="text-lg">🔗</span>
               <div>
-                <p className="font-black text-gray-700 text-sm">Round 3 — Matching (Bộ 1/2)</p>
+                <p className="font-bold text-gray-700 text-sm">Round 3 — Matching (Bộ 1/2)</p>
                 <p className="text-xs text-gray-400">Nối từ tiếng Anh với nghĩa tiếng Việt</p>
               </div>
             </div>
@@ -501,7 +502,7 @@ export default function KidsRevisionPage() {
             <div className="flex items-center gap-2 mb-5">
               <span className="text-lg">🔗</span>
               <div>
-                <p className="font-black text-gray-700 text-sm">Round 3 — Matching (Bộ 2/2)</p>
+                <p className="font-bold text-gray-700 text-sm">Round 3 — Matching (Bộ 2/2)</p>
                 <p className="text-xs text-gray-400">Nối từ tiếng Anh với nghĩa tiếng Việt</p>
               </div>
             </div>
@@ -526,15 +527,15 @@ export default function KidsRevisionPage() {
             <div className="flex flex-col items-center gap-5 py-6 text-center">
               <span className="text-6xl">{grade.emoji}</span>
               <div>
-                <h2 className="text-2xl font-black text-gray-800 mb-1">Hoàn thành!</h2>
+                <h2 className="text-2xl font-bold text-gray-800 mb-1">Hoàn thành!</h2>
                 <p className="text-sm text-gray-500">Revision: Topics {topicRange}</p>
               </div>
-              <div className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm p-5 w-full max-w-xs">
-                <p className="text-4xl font-black text-gray-800 mb-1">{final}/30</p>
+              <div className="bg-white rounded-3xl p-5 w-full max-w-xs border-2 border-slate-200 border-b-[4px] border-b-slate-300">
+                <p className="text-4xl font-bold text-gray-800 mb-1">{final}/30</p>
                 <p className="text-base font-bold text-gray-500">{grade.label}</p>
                 <p className="text-xs text-gray-400 mt-1">{Math.round(pct * 100)}% chính xác</p>
               </div>
-              <div className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm p-4 w-full max-w-xs space-y-2.5">
+              <div className="bg-white rounded-3xl p-4 w-full max-w-xs space-y-2.5 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
                 {[
                   { icon: '🧩', label: 'MCQ',     score: mcqScore,    max: 10 },
                   { icon: '✏️', label: 'Điền từ',  score: fibScore,    max: 10 },
@@ -545,7 +546,7 @@ export default function KidsRevisionPage() {
                     <div className="flex-1">
                       <div className="flex items-center justify-between text-xs mb-1">
                         <span className="font-bold text-gray-600">{r.label}</span>
-                        <span className="font-black text-gray-700">{r.score}/{r.max}</span>
+                        <span className="font-bold text-gray-700">{r.score}/{r.max}</span>
                       </div>
                       <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
                         <div className={`h-full ${colors.accent} rounded-full`}
@@ -561,11 +562,11 @@ export default function KidsRevisionPage() {
                   setQuestions(buildQuestions(pool))
                   setPhase('intro')
                 }}
-                  className="flex-1 bg-white border-2 border-gray-200 text-gray-600 font-black py-3.5 rounded-2xl text-sm active:scale-95 transition-all shadow-sm">
+                  className="flex-1 bg-white text-gray-600 font-bold py-3.5 rounded-3xl text-sm active:scale-95 transition-all border-2 border-slate-200 border-b-[4px] border-b-slate-300">
                   Làm lại
                 </button>
                 <button onClick={() => router.back()}
-                  className={`flex-1 ${colors.accent} text-white font-black py-3.5 rounded-2xl text-sm active:scale-95 transition-all shadow-md`}>
+                  className={cta(colorFamily(colors.accent), 'flex-1')}>
                   Về danh sách
                 </button>
               </div>

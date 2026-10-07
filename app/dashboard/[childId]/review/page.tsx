@@ -8,6 +8,7 @@ import type { ReviewWord } from '@/components/ReviewSession'
 import { cachedFetch } from '@/lib/cachedFetch'
 import GameSoundToggle from '@/components/GameSoundToggle'
 import { loadOfflineProgress, clearOfflineProgress } from '@/lib/offlineStorage'
+import { GameHeader } from '@/components/ChunkyUI'
 
 const ReviewSession = dynamic(() => import('@/components/ReviewSession'), { ssr: false })
 
@@ -114,19 +115,13 @@ export default function ReviewPage() {
       : 'bg-gradient-to-br from-blue-500 to-cyan-400'
     return (
       <div className="flex flex-col min-h-screen">
-        <div className={`${headerBg} px-4 pt-12 pb-8 text-white`}>
-          <button onClick={() => router.back()}
-            className="text-white/80 font-bold text-sm flex items-center gap-1 mb-4">
-            ← Quay lại
-          </button>
-          <h1 className="text-2xl font-black">📚 Ôn Từ Yếu</h1>
-        </div>
+        <GameHeader colorCls={headerBg} title="📚 Ôn Từ Yếu" onBack={() => router.back()} />
         <div className="flex-1 bg-gradient-to-b from-purple-50 to-pink-50 flex flex-col items-center justify-center px-4 py-8">
           <div className="text-7xl mb-4">🎉</div>
-          <h2 className="text-2xl font-black text-gray-800 mb-2">Không có từ nào cần ôn!</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-2">Không có từ nào cần ôn!</h2>
           <p className="text-gray-500 font-semibold mb-8">Bé đang học rất tốt 💪</p>
           <button onClick={() => router.back()}
-            className="w-full max-w-sm bg-white border-2 border-gray-200 text-gray-600 font-bold text-xl py-4 rounded-2xl">
+            className="w-full max-w-sm bg-white text-gray-600 font-bold text-xl py-4 rounded-3xl border-2 border-slate-200 border-b-[4px] border-b-slate-300">
             ← Quay lại
           </button>
         </div>

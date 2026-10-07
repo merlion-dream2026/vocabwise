@@ -7,6 +7,7 @@ import { useGameSync } from '@/lib/GameSyncContext'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 import WordIcon from '@/components/WordIcon'
+import { GameHeader, cta, colorFamily } from '@/components/ChunkyUI'
 
 export type ReviewWord = {
   word: string
@@ -165,38 +166,32 @@ export default function ReviewSession({ words, level, backUrl, onSessionDone }: 
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
-        <div className={`${headerBg} px-4 pt-12 pb-8 text-white`}>
-          <button onClick={() => router.push(backUrl)}
-            className="text-white/80 font-bold text-sm flex items-center gap-1 mb-4">
-            ← Quay lại
-          </button>
-          <h1 className="text-2xl font-black">📚 Ôn Từ Yếu</h1>
-        </div>
+        <GameHeader colorCls={headerBg} title="📚 Ôn Từ Yếu" onBack={() => router.push(backUrl)} />
         <div className="flex-1 bg-gradient-to-b from-purple-50 to-pink-50 flex flex-col items-center justify-center px-4 py-8">
           <div className="text-7xl mb-4">
             {masteredCount === total ? '🏆' : masteredCount >= Math.ceil(total * 0.6) ? '⭐' : '💪'}
           </div>
-          <h2 className="text-3xl font-black text-gray-800 mb-6">Xong phiên ôn!</h2>
-          <div className="bg-white rounded-2xl border-2 border-gray-100 shadow-sm p-5 w-full mb-6 space-y-3">
+          <h2 className="text-3xl font-bold text-gray-800 mb-6">Xong phiên ôn!</h2>
+          <div className="bg-white rounded-3xl p-5 w-full mb-6 space-y-3 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
             <div className="flex justify-between items-center">
               <span className="text-gray-600 font-bold">Đã thuộc</span>
-              <span className="text-green-600 font-black text-xl">{masteredCount} từ ✓</span>
+              <span className="text-green-600 font-bold text-xl">{masteredCount} từ ✓</span>
             </div>
             <div className="h-px bg-gray-100" />
             <div className="flex justify-between items-center">
               <span className="text-gray-600 font-bold">Còn cần ôn</span>
-              <span className="text-orange-500 font-black text-xl">{remaining} từ</span>
+              <span className="text-orange-500 font-bold text-xl">{remaining} từ</span>
             </div>
           </div>
           <div className="w-full space-y-3">
             {remaining > 0 && (
               <button onClick={() => onSessionDone(masteredCount)}
-                className={`w-full ${accentBtn} text-white font-black text-xl py-4 rounded-2xl shadow-lg transition-colors`}>
+                className={cta(colorFamily(accentBtn))}>
                 📚 Ôn Tiếp ({remaining} từ)
               </button>
             )}
             <button onClick={() => router.push(backUrl)}
-              className="w-full bg-white border-2 border-gray-200 text-gray-600 font-bold text-xl py-4 rounded-2xl">
+              className="w-full bg-white text-gray-600 font-bold text-xl py-4 rounded-3xl border-2 border-slate-200 border-b-[4px] border-b-slate-300">
               ← Quay lại
             </button>
           </div>
@@ -215,39 +210,22 @@ export default function ReviewSession({ words, level, backUrl, onSessionDone }: 
       {/* Mastered flash */}
       {showMasteredFlash && (
         <div className="fixed inset-0 z-40 flex items-center justify-center pointer-events-none">
-          <div className="bg-green-500 text-white font-black text-2xl px-8 py-4 rounded-3xl shadow-2xl animate-bounce">
+          <div className="bg-green-500 text-white font-bold text-2xl px-8 py-4 rounded-3xl shadow-2xl animate-bounce">
             🎉 Nhớ rồi!
           </div>
         </div>
       )}
 
-      <div className={`${headerBg} px-4 pt-6 pb-4 text-white`}>
-        <button onClick={() => router.push(backUrl)}
-          className="text-white/80 font-bold text-sm flex items-center gap-1 mb-3">
-          ← Quay lại
-        </button>
-        <div className="flex items-center justify-between">
-          <h1 className="text-2xl font-black">📚 Ôn Từ Yếu</h1>
-          <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm">
-            {idx + 1}/{total}
-          </span>
-        </div>
-        <div className="mt-3 h-2.5 bg-white/20 rounded-full overflow-hidden">
-          <div
-            className="h-full bg-white/70 rounded-full transition-all duration-500"
-            style={{ width: `${((idx + 1) / total) * 100}%` }}
-          />
-        </div>
-      </div>
+      <GameHeader colorCls={headerBg} title="📚 Ôn Từ Yếu" onBack={() => router.push(backUrl)} right={<>{idx + 1}/{total}</>} progress={{ value: ((idx + 1) / total) * 100, max: 100 }} />
 
       <div className="flex-1 bg-gradient-to-b from-purple-50 to-pink-50 px-4 py-5 flex flex-col">
         {/* Word card */}
-        <div className="bg-white rounded-3xl border-2 border-gray-100 shadow-xl p-5 flex flex-col items-center text-center mb-4">
+        <div className="bg-white rounded-3xl p-5 flex flex-col items-center text-center mb-4 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
           <div className="mb-3 flex justify-center leading-none"><WordIcon word={current.entry.word} emoji={current.entry.emoji} emojiClass="text-7xl" iconSize={88} /></div>
           <p className="text-gray-500 font-bold text-xs uppercase tracking-wider mb-1">Nghĩa tiếng Việt</p>
-          <h2 className="text-2xl font-black text-gray-800 mb-3">{current.entry.meaning}</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-3">{current.entry.meaning}</h2>
           <button onClick={() => speak(current.entry.word)}
-            className={`${accentBtn} text-white w-12 h-12 rounded-2xl text-xl flex items-center justify-center shadow-md active:scale-90 transition-all mb-3`}>
+            className={`${accentBtn} text-white w-12 h-12 rounded-2xl text-xl flex items-center justify-center border-b-[3px] border-black/20 active:translate-y-0.5 active:border-b-2 transition-[transform,border-width] mb-3`}>
             🔊
           </button>
 
@@ -297,13 +275,13 @@ export default function ReviewSession({ words, level, backUrl, onSessionDone }: 
             <div role="status" aria-live="polite" className="min-h-[1.75rem] mb-3">
               {selected !== null && (
                 selected.trim().toLowerCase() === current.entry.word.trim().toLowerCase()
-                  ? <p className="text-green-500 font-black text-lg">✅ Chính xác!</p>
-                  : <p className="text-red-500 font-black text-lg">❌ Đáp án đúng: <span className="underline">{current.entry.word}</span></p>
+                  ? <p className="text-green-500 font-bold text-lg">✅ Chính xác!</p>
+                  : <p className="text-red-500 font-bold text-lg">❌ Đáp án đúng: <span className="underline">{current.entry.word}</span></p>
               )}
             </div>
             {selected === null && (
               <button onClick={handleTypeSubmit} disabled={!typedInput.trim()}
-                className={`w-full ${accentBtn} disabled:opacity-40 text-white font-black text-xl py-4 rounded-2xl shadow-md transition-colors active:scale-95`}>
+                className={cta(colorFamily(accentBtn))}>
                 Kiểm tra ✓
               </button>
             )}
@@ -314,15 +292,15 @@ export default function ReviewSession({ words, level, backUrl, onSessionDone }: 
               const isSelected = selected === choice.word
               const isCorrect = choice.word === current.entry.word
               const showResult = selected !== null
-              let cellClass = 'bg-white border-gray-200 hover:border-gray-300 hover:shadow-md'
-              if (showResult && isCorrect) cellClass = 'bg-green-400 border-green-500'
-              else if (showResult && isSelected && !isCorrect) cellClass = 'bg-red-400 border-red-500'
+              let cellClass = 'bg-white border-slate-200 border-b-slate-300'
+              if (showResult && isCorrect) cellClass = 'bg-green-400 border-green-500 border-b-green-700'
+              else if (showResult && isSelected && !isCorrect) cellClass = 'bg-red-400 border-red-500 border-b-red-700 ax-shake'
               const textWhite = showResult && (isCorrect || isSelected)
               return (
                 <button key={choice.word} onClick={() => handleSelect(choice.word)}
                   disabled={selected !== null}
-                  className={`${cellClass} border-2 rounded-2xl flex flex-col items-center justify-center gap-2 shadow-md transition-all duration-200 active:scale-95 min-h-[120px] p-4`}>
-                  <span className={`font-black text-xl leading-tight text-center ${textWhite ? 'text-white' : 'text-gray-800'}`}>
+                  className={`${cellClass} border-2 border-b-[4px] rounded-3xl flex flex-col items-center justify-center gap-2 transition-[transform,border-width] active:translate-y-0.5 active:border-b-2 min-h-[120px] p-4`}>
+                  <span className={`font-bold text-xl leading-tight text-center ${textWhite ? 'text-white' : 'text-gray-800'}`}>
                     {choice.word}
                   </span>
                   {showResult && (
@@ -337,17 +315,17 @@ export default function ReviewSession({ words, level, backUrl, onSessionDone }: 
             {current.choices.map((choice, i) => {
               const isSelected = selected === choice.word
               const isCorrect = choice.word === current.entry.word
-              let style = 'bg-white border-gray-200 text-gray-800'
+              let style = 'bg-white border-slate-200 border-b-slate-300 text-gray-800'
               if (selected !== null) {
-                if (isCorrect) style = 'bg-green-100 border-green-400 text-green-800'
-                else if (isSelected) style = 'bg-red-100 border-red-400 text-red-700'
-                else style = 'bg-white border-gray-100 text-gray-400'
+                if (isCorrect) style = 'bg-green-50 border-green-300 border-b-green-600 text-green-800'
+                else if (isSelected) style = 'bg-red-50 border-red-300 border-b-red-500 text-red-700 ax-shake'
+                else style = 'bg-white border-slate-200 border-b-slate-200 text-gray-400 opacity-60'
               }
               return (
                 <button key={choice.word} onClick={() => handleSelect(choice.word)}
                   disabled={selected !== null}
-                  className={`w-full flex items-center gap-4 border-2 rounded-2xl px-5 py-4 font-bold text-lg transition-all duration-150 active:scale-95 ${style}`}>
-                  <span className="w-9 h-9 rounded-xl bg-indigo-100 text-indigo-700 font-black text-base flex items-center justify-center flex-shrink-0">
+                  className={`w-full flex items-center gap-4 border-2 border-b-[4px] rounded-2xl px-5 py-4 font-bold text-lg transition-[transform,border-width] active:translate-y-0.5 active:border-b-2 ${style}`}>
+                  <span className="w-9 h-9 rounded-xl bg-indigo-100 text-indigo-700 font-bold text-base flex items-center justify-center flex-shrink-0">
                     {selected !== null && isCorrect ? '✓' : selected !== null && isSelected ? '✗' : ['A', 'B', 'C', 'D'][i]}
                   </span>
                   <span>{choice.word}</span>

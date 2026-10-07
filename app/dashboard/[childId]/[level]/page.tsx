@@ -15,6 +15,7 @@ import { getDownloadedCount } from '@/lib/useOfflineDownload'
 import { cachedFetch } from '@/lib/cachedFetch'
 import { isTopicMastered, topicSteps, type MasteryEntry } from '@/lib/topicMastery'
 import PageSkeleton from '@/components/PageSkeleton'
+import { cta } from '@/components/ChunkyUI'
 
 type Child = { id: string; name: string; emoji: string; level: string }
 type Session = { familyId: string; username: string; plan: string; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; plan_end_date?: string | null; bonus_features?: string[] | null }
@@ -56,7 +57,7 @@ function UpsellModal({ onClose, username }: { onClose: () => void; username: str
           <p className="text-sm font-semibold text-gray-700">✅ Tất cả trò chơi & AI phát âm</p>
         </div>
         <button onClick={() => setShowPayment(true)}
-          className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black py-3 rounded-2xl text-sm mb-3 active:scale-95 transition-transform shadow-md">
+          className={cta('purple', 'mb-3')}>
           ⭐ Nâng cấp Pro ngay →
         </button>
         <button onClick={onClose} className="w-full text-gray-400 text-sm py-1 hover:text-gray-600 transition-colors">
@@ -204,22 +205,22 @@ export default function LevelTopicsPage() {
         <div className="flex items-center gap-2.5 min-w-0">
           <span className="text-xl flex-shrink-0">{locked ? '🔒' : score ? '✅' : '✨'}</span>
           <div className="min-w-0">
-            <p className="font-black text-white text-sm leading-snug">Revision: Topics {startT}–{endT}</p>
+            <p className="font-bold text-white text-sm leading-snug">Revision: Topics {startT}–{endT}</p>
             <p className="text-white/80 text-xs mt-0.5">{locked ? 'Nâng cấp Pro để mở' : '30 câu · 3 dạng bài'}</p>
           </div>
         </div>
         <div className="flex items-center gap-2 flex-shrink-0 ml-2">
           {locked ? null : score ? (
-            <span className="text-xs font-black bg-white/30 text-white px-2 py-0.5 rounded-full">Xong · {score.score}/{score.max}</span>
+            <span className="text-xs font-bold bg-white/30 text-white px-2 py-0.5 rounded-full">Xong · {score.score}/{score.max}</span>
           ) : (
-            <span className="text-xs font-black bg-white/20 text-white px-2 py-0.5 rounded-full">REVISION</span>
+            <span className="text-xs font-bold bg-white/20 text-white px-2 py-0.5 rounded-full">REVISION</span>
           )}
           <span className="text-white/70 text-sm">›</span>
         </div>
       </div>
     )
 
-    const cls = `block ${locked ? 'bg-gray-300 opacity-70' : score ? 'bg-green-500' : colors.header} rounded-2xl px-4 py-3 shadow-md active:scale-[0.98] transition-all`
+    const cls = `block ${locked ? 'bg-gray-300 opacity-70' : score ? 'bg-green-500' : colors.header} rounded-3xl border-b-[4px] border-black/20 px-4 py-3 transition-[transform,border-width] active:translate-y-0.5 active:border-b-2`
     if (locked) {
       return <button onClick={() => setShowUpgrade(true)} className={`w-full text-left ${cls}`}>{content}</button>
     }
@@ -289,11 +290,11 @@ export default function LevelTopicsPage() {
           {/* XP + daily goal */}
           <button
             onClick={() => setShowXpGuide(true)}
-            className="bg-white rounded-2xl border-2 border-purple-100 shadow-sm p-3 flex flex-col gap-1 text-left active:scale-95 transition-transform"
+            className="flex flex-col gap-1 rounded-3xl border-2 border-b-[4px] border-purple-200 border-b-purple-300 bg-white p-3 text-left transition-[transform,border-width] active:translate-y-0.5 active:border-b-2"
           >
             <div className="flex items-center gap-1">
               <span className="text-base leading-none">{xpInfo.emoji}</span>
-              <span className="text-[11px] font-black text-gray-700 truncate leading-tight">{xpInfo.name}</span>
+              <span className="text-[11px] font-bold text-gray-700 truncate leading-tight">{xpInfo.name}</span>
             </div>
             <div className="h-1.5 bg-gray-100 rounded-full overflow-hidden">
               <div className="h-full bg-gradient-to-r from-purple-400 to-pink-400 rounded-full transition-all duration-700" style={{ width: `${xpInfo.pct}%` }} />
@@ -309,14 +310,14 @@ export default function LevelTopicsPage() {
           {/* Từ yếu */}
           <button
             onClick={() => { if (totalWeak > 0) router.push(`/dashboard/${childId}/review?level=${level}`) }}
-            className={`rounded-2xl border-2 shadow-sm p-3 flex flex-col gap-2 text-left transition-transform ${totalWeak > 0 ? 'bg-orange-50 border-orange-200 active:scale-95' : 'bg-gray-50 border-gray-100 opacity-50 cursor-default'}`}
+            className={`rounded-3xl border-2 border-b-[4px] p-3 flex flex-col gap-2 text-left transition-[transform,border-width] ${totalWeak > 0 ? 'bg-orange-50 border-orange-200 border-b-orange-300 active:translate-y-0.5 active:border-b-2' : 'bg-gray-50 border-gray-100 border-b-gray-200 opacity-50 cursor-default'}`}
           >
             <div className="flex items-center gap-1">
               <span className="text-sm leading-none flex-shrink-0">⚠️</span>
-              <p className="text-[10px] font-black text-gray-700 leading-tight">Từ chưa thuộc</p>
+              <p className="text-[10px] font-bold text-gray-700 leading-tight">Từ chưa thuộc</p>
             </div>
             <div className="flex items-baseline gap-1">
-              <span className={`text-xl font-black leading-none ${totalWeak > 0 ? 'text-orange-500' : 'text-gray-400'}`}>{totalWeak}</span>
+              <span className={`text-xl font-bold leading-none ${totalWeak > 0 ? 'text-orange-500' : 'text-gray-400'}`}>{totalWeak}</span>
               <span className={`text-[10px] font-medium ${totalWeak > 0 ? 'text-orange-400' : 'text-gray-400'}`}>{totalWeak > 0 ? 'Ôn ngay' : 'Tốt lắm!'}</span>
             </div>
           </button>
@@ -324,14 +325,14 @@ export default function LevelTopicsPage() {
           {/* Ôn từ định kỳ (SRS) */}
           <button
             onClick={() => { if (srsDueCount > 0) router.push(`/dashboard/${childId}/${level}/srs`) }}
-            className={`rounded-2xl border-2 shadow-sm p-3 flex flex-col gap-2 text-left transition-transform ${srsDueCount > 0 ? 'bg-teal-50 border-teal-200 active:scale-95' : 'bg-gray-50 border-gray-100 opacity-50 cursor-default'}`}
+            className={`rounded-3xl border-2 border-b-[4px] p-3 flex flex-col gap-2 text-left transition-[transform,border-width] ${srsDueCount > 0 ? 'bg-teal-50 border-teal-200 border-b-teal-300 active:translate-y-0.5 active:border-b-2' : 'bg-gray-50 border-gray-100 border-b-gray-200 opacity-50 cursor-default'}`}
           >
             <div className="flex items-center gap-1">
               <span className="text-sm leading-none flex-shrink-0">📅</span>
-              <p className="text-[10px] font-black text-gray-700 leading-tight">Ôn từ định kỳ</p>
+              <p className="text-[10px] font-bold text-gray-700 leading-tight">Ôn từ định kỳ</p>
             </div>
             <div className="flex items-baseline gap-1">
-              <span className={`text-xl font-black leading-none ${srsDueCount > 0 ? 'text-teal-500' : 'text-gray-400'}`}>{srsDueCount}</span>
+              <span className={`text-xl font-bold leading-none ${srsDueCount > 0 ? 'text-teal-500' : 'text-gray-400'}`}>{srsDueCount}</span>
               <span className={`text-[10px] font-medium ${srsDueCount > 0 ? 'text-teal-400' : 'text-gray-400'}`}>{srsDueCount > 0 ? 'Ôn ngay' : 'Đã xong!'}</span>
             </div>
           </button>
@@ -341,7 +342,7 @@ export default function LevelTopicsPage() {
       {/* Free plan banner */}
       {!isPaid && (
         <div className="max-w-2xl mx-auto px-4 pt-3">
-          <div className="bg-amber-50 border border-amber-200 rounded-2xl px-4 py-3 flex items-center justify-between">
+          <div className="bg-amber-50 border-2 border-b-[4px] border-amber-200 border-b-amber-300 rounded-3xl px-4 py-3 flex items-center justify-between">
             <p className="text-sm text-amber-700">
               🔒 Gói Free: <strong>1/{topics.length}</strong> chủ đề miễn phí
             </p>
@@ -359,7 +360,7 @@ export default function LevelTopicsPage() {
           📚 TOPICS ({topics.length})
         </p>
         <button onClick={toggleView}
-          className="flex items-center gap-1.5 bg-white border border-gray-200 rounded-xl px-3 py-1.5 text-xs font-bold text-gray-500 shadow-sm active:scale-95 transition-transform">
+          className="flex items-center gap-1.5 rounded-full border-2 border-b-[3px] border-slate-200 border-b-slate-300 bg-white px-3 py-1.5 text-xs font-bold text-gray-500 transition-[transform,border-width] active:translate-y-0.5 active:border-b-2">
           {viewMode === 'grid' ? (
             <><span>☰</span> List</>
           ) : (
@@ -383,12 +384,12 @@ export default function LevelTopicsPage() {
               const weakCount = topicWeakCount(topic)
 
               const cardCls = locked
-                ? 'bg-white opacity-60'
+                ? 'bg-white opacity-60 border-2 border-slate-200 border-b-slate-300'
                 : status === 'done'
-                  ? 'bg-green-50 border-2 border-green-300'
+                  ? 'bg-green-50 border-2 border-green-300 border-b-green-500'
                   : status === 'in_progress'
-                    ? 'bg-amber-50 border-2 border-amber-300'
-                    : 'bg-white border-2 border-transparent'
+                    ? 'bg-amber-50 border-2 border-amber-300 border-b-amber-500'
+                    : 'bg-white border-2 border-slate-200 border-b-slate-300'
 
               const isRevPoint = (idx + 1) % 5 === 0
               const revNum = Math.floor(idx / 5) + 1
@@ -397,12 +398,12 @@ export default function LevelTopicsPage() {
                 <div className="relative">
                 <button
                   onClick={() => handleTopicClick(topic, idx)}
-                  className={`w-full relative ${cardCls} rounded-2xl p-4 text-left shadow-sm transition-all ${
-                    locked ? '' : 'hover:shadow-md active:scale-95'
+                  className={`w-full relative ${cardCls} border-b-[4px] rounded-3xl p-4 text-left transition-[transform,border-width] ${
+                    locked ? '' : 'active:translate-y-0.5 active:border-b-2'
                   }`}>
 
                   {locked && (
-                    <div className="absolute inset-0 flex items-center justify-center rounded-2xl bg-gray-100/50">
+                    <div className="absolute inset-0 flex items-center justify-center rounded-3xl bg-gray-100/50">
                       <span className="text-2xl">🔒</span>
                     </div>
                   )}
@@ -480,7 +481,7 @@ export default function LevelTopicsPage() {
       ) : (
         /* List view */
         <div className="max-w-2xl mx-auto px-4 pb-5">
-          <div className="bg-white rounded-2xl shadow-sm overflow-hidden divide-y divide-gray-100">
+          <div className="bg-white rounded-3xl overflow-hidden divide-y divide-gray-100 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
             {topics.map((topic, idx) => {
               const locked = kidsLimit !== null && idx >= kidsLimit
               const status = topicStatus(topic)
@@ -573,22 +574,22 @@ export default function LevelTopicsPage() {
         <div className="max-w-2xl mx-auto px-4 pb-5">
           {isPaid ? (
             <Link href={`/dashboard/${childId}/${level}/level-test`}
-              className="block bg-gradient-to-r from-amber-400 to-yellow-500 rounded-2xl px-4 py-3.5 shadow-md active:scale-[0.98] transition-all">
+              className="block bg-gradient-to-r from-amber-400 to-yellow-500 rounded-3xl border-b-[4px] border-black/20 px-4 py-3.5 transition-[transform,border-width] active:translate-y-0.5 active:border-b-2">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2.5 min-w-0">
                   <span className="text-2xl flex-shrink-0">🏆</span>
                   <div className="min-w-0">
-                    <p className="font-black text-white text-sm leading-snug">Level Test — {levelInfo.label}</p>
+                    <p className="font-bold text-white text-sm leading-snug">Level Test — {levelInfo.label}</p>
                     <p className="text-white/80 text-xs mt-0.5">40 câu · Tổng kết toàn bộ level</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-2 flex-shrink-0 ml-2">
                   {revScores['level_test'] ? (
-                    <span className="text-xs font-black bg-white/30 text-white px-2 py-0.5 rounded-full">
+                    <span className="text-xs font-bold bg-white/30 text-white px-2 py-0.5 rounded-full">
                       {revScores['level_test'].score}/{revScores['level_test'].max}
                     </span>
                   ) : (
-                    <span className="text-xs font-black bg-white/20 text-white px-2 py-0.5 rounded-full">LEVEL TEST</span>
+                    <span className="text-xs font-bold bg-white/20 text-white px-2 py-0.5 rounded-full">LEVEL TEST</span>
                   )}
                   <span className="text-white/70 text-sm">›</span>
                 </div>
@@ -596,12 +597,12 @@ export default function LevelTopicsPage() {
             </Link>
           ) : (
             <button onClick={() => setShowUpgrade(true)}
-              className="w-full text-left block bg-gray-300 opacity-70 rounded-2xl px-4 py-3.5 shadow-md active:scale-[0.98] transition-all">
+              className="w-full text-left block bg-gray-300 opacity-70 rounded-3xl border-b-[4px] border-black/20 px-4 py-3.5 transition-[transform,border-width] active:translate-y-0.5 active:border-b-2">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2.5 min-w-0">
                   <span className="text-2xl flex-shrink-0">🔒</span>
                   <div className="min-w-0">
-                    <p className="font-black text-white text-sm leading-snug">Level Test — {levelInfo.label}</p>
+                    <p className="font-bold text-white text-sm leading-snug">Level Test — {levelInfo.label}</p>
                     <p className="text-white/80 text-xs mt-0.5">Nâng cấp Pro để mở</p>
                   </div>
                 </div>
@@ -617,7 +618,7 @@ export default function LevelTopicsPage() {
         <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/40" onClick={() => setShowXpGuide(false)}>
           <div className="bg-white w-full max-w-md rounded-t-3xl p-5 pb-8" onClick={e => e.stopPropagation()}>
             <div className="flex items-center justify-between mb-4">
-              <h2 className="font-black text-gray-800 text-base">⭐ XP là gì?</h2>
+              <h2 className="font-bold text-gray-800 text-base">⭐ XP là gì?</h2>
               <button onClick={() => setShowXpGuide(false)} aria-label="Đóng" className="text-gray-400 hover:text-gray-600 text-xl leading-none">✕</button>
             </div>
             <p className="text-sm text-gray-500 mb-3">XP (điểm kinh nghiệm) tăng mỗi khi bạn trả lời đúng trong các trò chơi. Game khó → nhiều XP hơn!</p>
@@ -631,7 +632,7 @@ export default function LevelTopicsPage() {
                 <div key={row.label} className="flex items-start gap-2 bg-gray-50 rounded-xl px-3 py-2">
                   <span className={`mt-1 w-2.5 h-2.5 rounded-full flex-shrink-0 ${row.dot}`} />
                   <div>
-                    <span className="text-xs font-black text-gray-700">{row.label} — </span>
+                    <span className="text-xs font-bold text-gray-700">{row.label} — </span>
                     <span className="text-xs text-gray-500">{row.games}</span>
                   </div>
                 </div>
@@ -673,7 +674,7 @@ export default function LevelTopicsPage() {
         <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/40" onClick={() => setShowBadgeGuide(false)}>
           <div className="bg-white w-full max-w-md rounded-t-3xl p-5 pb-8 max-h-[80vh] overflow-y-auto" onClick={e => e.stopPropagation()}>
             <div className="flex items-center justify-between mb-4">
-              <h2 className="font-black text-gray-800 text-base">🏅 Các huy hiệu</h2>
+              <h2 className="font-bold text-gray-800 text-base">🏅 Các huy hiệu</h2>
               <button onClick={() => setShowBadgeGuide(false)} aria-label="Đóng" className="text-gray-400 hover:text-gray-600 text-xl leading-none">✕</button>
             </div>
             <div className="space-y-1">
