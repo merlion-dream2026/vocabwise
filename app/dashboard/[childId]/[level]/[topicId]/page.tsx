@@ -363,7 +363,7 @@ export default function TopicPage() {
           childName={child?.name}
           levelName={level}
           newSticker={!!sticker && !sticker.legacy}
-          onOpenAlbum={() => router.push(`/dashboard/${childId}/profile?tab=daily`)}
+          onOpenAlbum={() => router.push(`/dashboard/${childId}/profile?tab=daily&back=1`)}
           onDone={() => setShowTrophy(false)}
         />
       )}
@@ -380,7 +380,7 @@ export default function TopicPage() {
       {/* Header */}
       <div className={`${colors.header} ${colors.edge} rounded-b-3xl border-b-[4px] text-white`}>
         <div className="max-w-xl mx-auto px-4 py-4 flex items-center gap-3">
-          <button onClick={() => router.push(backUrl)} aria-label="Quay lại"
+          <button onClick={() => (new URLSearchParams(window.location.search).get('from') === 'album' ? router.back() : router.push(backUrl))} aria-label="Quay lại"
             className={`flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 text-lg font-bold ${PRESS}`}>←</button>
           <span className="flex h-11 w-11 flex-shrink-0 -rotate-6 items-center justify-center rounded-2xl bg-white text-2xl shadow">{(topic as { emoji: string }).emoji}</span>
           <div className="flex-1 min-w-0">

@@ -372,7 +372,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
       </div>
 
       {newSticker && (
-        <button type="button" onClick={() => { setNewSticker(false); const id = activeChildId(); if (id) router.push(`/dashboard/${id}/profile?tab=academic`) }}
+        <button type="button" onClick={() => { setNewSticker(false); const id = activeChildId(); if (id) router.push(`/dashboard/${id}/profile?tab=academic&back=1`) }}
           className="flex w-full items-center gap-3 border-b-4 border-purple-200 bg-purple-50 px-4 py-3 text-left">
           <Sticker emoji={meta.emoji ?? '⭐'} size="sm" tilt={-8} />
           <span className="text-sm font-bold text-purple-800">Bạn nhận được sticker mới!<br /><span className="text-xs font-semibold text-purple-600">Chạm để xem bộ sưu tập sticker</span></span>
@@ -406,7 +406,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
             hasGrammar={!!data.grammar_spotlight}
             onOpenTab={setTab}
             onStartExercise={phase => { setStartReq({ phase, nonce: Date.now() }); setTab('exercises') }}
-            onOpenAlbum={() => { const id = activeChildId(); if (id) router.push(`/dashboard/${id}/profile?tab=academic`) }}
+            onOpenAlbum={() => { const id = activeChildId(); if (id) router.push(`/dashboard/${id}/profile?tab=academic&back=1`) }}
           />
         )}
 

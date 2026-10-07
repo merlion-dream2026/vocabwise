@@ -69,7 +69,7 @@ export default function KidsLevelPage() {
       <div className="px-4 py-4">
       {/* Sticker album shortcut — a solid bar so it reads as a tool, not as a level */}
       <div className="max-w-lg mx-auto mb-4">
-        <Link href={`/dashboard/${childId}/profile?tab=daily`}
+        <Link href={`/dashboard/${childId}/profile?tab=daily&back=1`}
           className={`flex items-center gap-3 rounded-3xl border-b-[4px] border-purple-800 bg-purple-500 px-4 py-3 text-white ${PRESS}`}>
           <span className="flex h-12 w-12 flex-shrink-0 -rotate-6 items-center justify-center rounded-2xl bg-white text-3xl shadow">🎁</span>
           <p className="flex-1 text-sm font-bold leading-tight">Bộ sưu tập sticker</p>

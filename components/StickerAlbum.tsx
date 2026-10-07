@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import { cachedFetch } from '@/lib/cachedFetch'
 import Sticker from '@/components/Sticker'
 import Image from 'next/image'
+import Link from 'next/link'
 import { getAvatarSrc } from '@/lib/avatars'
 import { shareStickerCard } from '@/lib/stickerShare'
 import phonicsLevels from '@/data/phonicsLevels.json'
@@ -29,6 +30,13 @@ const SECTIONS: Record<Tab, Section[]> = {
     { key: 'book2', label: 'Progress', tag: 'B1–B2', total: 60 },
     { key: 'book3', label: 'Mastery', tag: 'C1–C2', total: 60 },
   ],
+}
+// Where tapping a sticker goes: its topic page. Back (router.back) returns to this album.
+function topicHref(childId: string, tab: Tab, level: string, topicId: string) {
+  const id = encodeURIComponent(topicId)
+  if (tab === 'academic') return `/vocabwise/${level}/${id}`
+  if (tab === 'phonics') return `/dashboard/${childId}/phonics/${level}/${id}`
+  return `/dashboard/${childId}/${level}/${id}?from=album`
 }
 const TAB_LABEL: Record<Tab, string> = { daily: '📚 Daily', academic: '🎓 Academic', phonics: '🔊 Phonics' }
 
@@ -77,7 +85,11 @@ export default function StickerAlbum({ child, initialTab = 'daily' }: { child: A
     <div className="space-y-3">
         <div className="grid grid-cols-3 gap-1.5 rounded-2xl bg-white/70 p-1">
           {(Object.keys(SECTIONS) as Tab[]).map(t => (
-            <button key={t} type="button" onClick={() => setTab(t)} aria-pressed={tab === t}
+            <button key={t} type="button" onClick={() => {
+              setTab(t)
+              // Keep the tab in the URL so Back from a topic lands on the same tab.
+              const u = new URL(window.location.href); u.searchParams.set('tab', t); window.history.replaceState(window.history.state, '', u)
+            }} aria-pressed={tab === t}
               className={`rounded-xl py-2 text-xs font-bold ${tab === t ? 'bg-purple-600 text-white' : 'text-slate-500'}`}>
               {TAB_LABEL[t]} <span className="text-xs opacity-80">({inTab(t).length})</span>
             </button>
@@ -138,7 +150,8 @@ export default function StickerAlbum({ child, initialTab = 'daily' }: { child: A
                 {earned.map((s, i) => {
                   const info = order.find(t => t.id === s.topic_id)
                   return (
-                    <div key={s.topic_id} className="flex flex-col items-center gap-1 text-center">
+                    <Link key={s.topic_id} href={topicHref(childId, tab, s.level, s.topic_id)} aria-label={`Mở chủ đề ${info?.name ?? s.topic_id}`}
+                      className="flex flex-col items-center gap-1 text-center active:scale-95 transition-transform">
                       <span className="relative">
                         <Sticker emoji={info?.emoji ?? '⭐'} size="md" tilt={i % 2 === 0 ? -6 : 6} />
                         {s.redemption_id && (
@@ -146,7 +159,7 @@ export default function StickerAlbum({ child, initialTab = 'daily' }: { child: A
                         )}
                       </span>
                       <span className="line-clamp-2 text-[11px] font-semibold leading-tight text-slate-600">{info?.name ?? s.topic_id}</span>
-                    </div>
+                    </Link>
                   )
                 })}
                 {Array.from({ length: lockedCount }).map((_, i) => (

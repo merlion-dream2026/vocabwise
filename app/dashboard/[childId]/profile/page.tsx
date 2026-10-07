@@ -59,11 +59,18 @@ export default function ProfilePage() {
 
   const earnedIds = new Set(stats.earned.map(b => b.id))
   const qTab = typeof window !== 'undefined' ? new URLSearchParams(window.location.search).get('tab') : null
+  const showBack = new URLSearchParams(window.location.search).get('back') === '1'
+  const goBack = () => {
+    if (window.history.length > 1) { router.back(); return }
+    router.push(initialTab === 'academic' ? '/vocabwise' : initialTab === 'phonics' ? `/dashboard/${childId}/phonics` : `/dashboard/${childId}/kids`)
+  }
   const initialTab: AlbumTab = qTab === 'academic' || qTab === 'phonics' ? qTab : 'daily'
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50">
       <div className="rounded-b-3xl border-b-[4px] border-black/20 bg-purple-500 text-white">
         <div className="mx-auto flex max-w-lg items-center gap-3 px-4 py-3">
+          {showBack && <button type="button" onClick={goBack} aria-label="Quay lại"
+            className={`flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 text-lg font-bold ${PRESS}`}>←</button>}
           <Image src={getAvatarSrc(child.emoji)} width={48} height={48} className="h-12 w-12 flex-shrink-0 rounded-full border-2 border-white/80 object-cover shadow" alt="" unoptimized />
           <div className="min-w-0 flex-1">
             <h1 className="truncate text-lg font-bold leading-tight">{child.name}</h1>

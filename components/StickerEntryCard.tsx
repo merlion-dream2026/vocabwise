@@ -27,7 +27,7 @@ export default function StickerEntryCard({ collection, childId }: { collection: 
   }, [id, collection])
   if (!id) return null
   return (
-    <Link href={`/dashboard/${id}/profile?tab=${collection}`}
+    <Link href={`/dashboard/${id}/profile?tab=${collection}&back=1`}
       className={`flex items-center gap-3 rounded-3xl border-2 border-b-[4px] ${TINT[collection]} px-4 py-3 ${PRESS}`}>
       <span className="flex h-11 w-11 flex-shrink-0 -rotate-6 items-center justify-center rounded-2xl bg-white text-2xl shadow">🎁</span>
       <div className="min-w-0 flex-1">
