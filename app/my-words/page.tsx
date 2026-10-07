@@ -272,17 +272,18 @@ export default function MyWordsPage() {
           </div>
         )}
 
-        {/* How-to guide (collapsible) */}
-        <div className="mx-4 mt-4">
+        {/* How-to guide (collapsible) — one rounded card; the body opens inside it */}
+        <div className="mx-4 mt-4 overflow-hidden rounded-3xl border-2 border-b-[4px] border-indigo-100 border-b-indigo-200 bg-indigo-50">
           <button
             onClick={() => setShowGuide(v => !v)}
-            className="w-full flex items-center justify-between px-4 py-3 bg-indigo-50 border border-indigo-100 rounded-2xl text-left"
+            aria-expanded={showGuide}
+            className="flex w-full items-center justify-between px-4 py-3 text-left"
           >
             <span className="text-sm font-bold text-indigo-700">💡 Cách hoạt động</span>
             <span className={`text-indigo-400 transition-transform text-xs ${showGuide ? 'rotate-180' : ''}`}>▾</span>
           </button>
           {showGuide && (
-            <div className="bg-indigo-50 border border-indigo-100 border-t-0 rounded-b-2xl px-4 pb-4 space-y-2 text-sm text-indigo-800">
+            <div className="space-y-2 px-4 pb-4 text-sm text-indigo-800">
               <p>• Nhấn <strong>⭐</strong> cạnh bất kỳ từ nào trong tab <strong>Từ vựng</strong> (Academic) hoặc màn hình <strong>Flashcard</strong> (Daily) để lưu.</p>
               <p>• Khi lưu, bạn có thể <strong>chọn danh sách</strong> để gắn từ vào — hoặc bỏ qua để vào mục Tất cả.</p>
               <p>• Tạo nhiều <strong>danh sách riêng</strong> cho từng mục tiêu: IELTS Writing, SAT Vocab, Ôn thi tuần này…</p>

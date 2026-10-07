@@ -67,19 +67,14 @@ export default function KidsLevelPage() {
       </div>
 
       <div className="px-4 py-4">
-      {/* Shortcuts: sticker album + My Words — solid, square-ish tiles so they read as "tools", not as levels */}
-      <div className="max-w-lg mx-auto mb-4 grid grid-cols-2 gap-3">
+      {/* Sticker album shortcut — a solid bar so it reads as a tool, not as a level */}
+      <div className="max-w-lg mx-auto mb-4">
         <Link href={`/dashboard/${childId}/profile?tab=daily`}
-          className={`flex flex-col items-center gap-1.5 rounded-3xl border-b-[4px] border-purple-800 bg-purple-500 px-3 py-4 text-center text-white ${PRESS}`}>
-          <span className="flex h-14 w-14 -rotate-6 items-center justify-center rounded-2xl bg-white text-3xl shadow">🎁</span>
-          <p className="text-sm font-bold leading-tight">Bộ sưu tập sticker</p>
+          className={`flex items-center gap-3 rounded-3xl border-b-[4px] border-purple-800 bg-purple-500 px-4 py-3 text-white ${PRESS}`}>
+          <span className="flex h-12 w-12 flex-shrink-0 -rotate-6 items-center justify-center rounded-2xl bg-white text-3xl shadow">🎁</span>
+          <p className="flex-1 text-sm font-bold leading-tight">Bộ sưu tập sticker</p>
           <p className="rounded-full bg-white/25 px-2.5 py-0.5 text-xs font-bold">{stickerCount ? `${stickerCount} sticker` : 'Chưa có sticker'}</p>
-        </Link>
-        <Link href="/my-words"
-          className={`flex flex-col items-center gap-1.5 rounded-3xl border-b-[4px] border-amber-600 bg-amber-400 px-3 py-4 text-center text-amber-950 ${PRESS}`}>
-          <span className="flex h-14 w-14 rotate-6 items-center justify-center rounded-2xl bg-white text-3xl shadow">⭐</span>
-          <p className="text-sm font-bold leading-tight">Từ của tôi</p>
-          <p className="rounded-full bg-white/40 px-2.5 py-0.5 text-xs font-bold">Lưu từ quan trọng</p>
+          <span className="text-xl font-bold text-white/70">›</span>
         </Link>
       </div>
 

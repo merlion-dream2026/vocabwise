@@ -11,7 +11,7 @@ import UpgradeModal from '@/components/UpgradeModal'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import GameSoundToggle from '@/components/GameSoundToggle'
 import { cachedFetch } from '@/lib/cachedFetch'
-import { cta } from '@/components/ChunkyUI'
+import { cta, GameHeader } from '@/components/ChunkyUI'
 
 type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; bonus_features?: string[] | null }
 
@@ -134,10 +134,7 @@ export default function WordStressPage() {
     return (
       <div className="flex flex-col min-h-screen">
         {showConfetti && <Confetti />}
-        <div className="bg-gradient-to-br from-teal-400 to-cyan-500 px-4 pt-6 pb-8 text-white rounded-b-3xl border-b-[4px] border-black/20">
-          <button onClick={() => router.back()} className="inline-flex items-center gap-1 rounded-full border-b-[3px] border-black/20 bg-white/25 px-3 py-1.5 text-sm font-bold text-white transition-transform active:translate-y-0.5 active:border-b-2 mb-3">← Phát âm</button>
-          <h1 className="text-2xl font-bold">📢 Trọng âm từ</h1>
-        </div>
+        <GameHeader colorCls="bg-gradient-to-br from-teal-400 to-cyan-500" title="📢 Trọng âm từ" onBack={() => router.back()} />
         <div className="flex-1 flex flex-col items-center justify-center px-4 py-8 bg-teal-50">
           <div className="text-7xl mb-4">{finalScore === total ? '🏆' : finalScore >= total * 0.7 ? '⭐' : '💪'}</div>
           <h2 className="text-3xl font-bold text-gray-800 mb-1">{finalScore}/{total}</h2>
@@ -153,11 +150,7 @@ export default function WordStressPage() {
 
   if (!gameStarted) return (
     <div className="flex flex-col min-h-screen">
-      <div className="bg-gradient-to-br from-teal-400 to-cyan-500 px-4 pt-6 pb-8 text-white rounded-b-3xl border-b-[4px] border-black/20">
-        <button onClick={() => router.back()} className="inline-flex items-center gap-1 rounded-full border-b-[3px] border-black/20 bg-white/25 px-3 py-1.5 text-sm font-bold text-white transition-transform active:translate-y-0.5 active:border-b-2 mb-3">← Phát âm</button>
-        <h1 className="text-2xl font-bold">📢 Trọng âm từ</h1>
-        <p className="text-white/80 text-sm mt-1">Nghe → tap âm tiết được nhấn mạnh</p>
-      </div>
+      <GameHeader colorCls="bg-gradient-to-br from-teal-400 to-cyan-500" title="📢 Trọng âm từ" subtitle="Nghe → tap âm tiết được nhấn mạnh" onBack={() => router.back()} />
       <div className="flex-1 flex flex-col items-center justify-center px-4 gap-5 bg-teal-50">
         {/* Word stress groups preview */}
         <div className="w-full max-w-sm space-y-3">
@@ -192,16 +185,8 @@ export default function WordStressPage() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <div className="bg-gradient-to-br from-teal-400 to-cyan-500 px-4 pt-6 pb-4 text-white rounded-b-3xl border-b-[4px] border-black/20">
-        <button onClick={() => router.back()} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-3">← Phát âm</button>
-        <div className="flex items-center justify-between mb-3">
-          <h1 className="text-xl font-bold">📢 Trọng âm từ</h1>
-          <span className="bg-white/20 px-3 py-1 rounded-full font-bold text-sm">{idx + 1}/{questions.length}</span>
-        </div>
-        <div className="h-1.5 bg-white/20 rounded-full overflow-hidden">
-          <div className="h-full bg-white/70 rounded-full transition-all" style={{ width: `${((idx + 1) / questions.length) * 100}%` }} />
-        </div>
-      </div>
+      <GameHeader colorCls="bg-gradient-to-br from-teal-400 to-cyan-500" title="📢 Trọng âm từ" subtitle="Phát âm" onBack={() => router.back()}
+        right={<>{idx + 1}/{questions.length}</>} progress={{ value: ((idx + 1) / questions.length) * 100, max: 100 }} />
 
       <div className="flex-1 bg-teal-50 flex flex-col items-center justify-center px-4 gap-5">
         {/* Score dots */}

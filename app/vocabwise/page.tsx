@@ -164,19 +164,6 @@ export default function VocabWisePage() {
           <p className="text-gray-500 text-sm text-center">Hoặc chọn cấp độ trực tiếp</p>
         )}
 
-        {/* My Words feature highlight */}
-        <Link href="/my-words"
-          className="block bg-gradient-to-r from-yellow-50 to-amber-50 border-2 border-yellow-200 rounded-2xl px-5 py-4 active:scale-[0.99] transition-all">
-          <div className="flex items-center gap-3">
-            <span className="text-3xl flex-shrink-0">⭐</span>
-            <div className="flex-1">
-              <p className="font-bold text-gray-800 text-sm leading-tight">Từ của tôi — Lưu từ quan trọng</p>
-              <p className="text-yellow-700 text-xs mt-0.5">Nhấn ⭐ cạnh từ trong bài học để lưu vào danh sách ôn tập riêng · Free: 20 từ · Pro: không giới hạn</p>
-            </div>
-            <span className="text-yellow-500 font-bold text-xl flex-shrink-0">›</span>
-          </div>
-        </Link>
-
         {BOOKS.map(book => {
           const prefix = topicPrefix(book.slug)
           const allSynced = Object.entries(syncMap).filter(([tid]) => tid.startsWith(prefix))

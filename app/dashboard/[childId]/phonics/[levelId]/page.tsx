@@ -6,6 +6,7 @@ import { initPhonicsSync } from '@/lib/phonicsSync'
 import UpgradeModal from '@/components/UpgradeModal'
 import { getEffectivePlan, canAccessPhonicsLesson } from '@/lib/planUtils'
 import { cachedFetch } from '@/lib/cachedFetch'
+import { GameHeader } from '@/components/ChunkyUI'
 
 type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; bonus_features?: string[] | null }
 
@@ -166,26 +167,13 @@ export default function LevelPage() {
     <div className="min-h-screen bg-gray-50 pb-nav">
       {showUpgrade && <UpgradeModal onClose={() => setShowUpgrade(false)} username={session?.username ?? ''} />}
       {/* Header */}
-      <div className={`bg-gradient-to-br ${level.gradient} px-4 pt-6 pb-6 text-white rounded-b-3xl border-b-[4px] border-black/20`}>
-        <button onClick={() => router.back()} className="inline-flex items-center gap-1 rounded-full border-b-[3px] border-black/20 bg-white/25 px-3 py-1.5 text-sm font-bold text-white transition-transform active:translate-y-0.5 active:border-b-2 mb-3">
-          ← Phonics
-        </button>
-        <div className="flex items-center gap-3 mb-4">
-          <span className="text-4xl">{level.emoji}</span>
-          <div>
-            <h1 className="text-2xl font-bold leading-tight">{level.titleVi}</h1>
-            <p className="text-white/70 text-sm font-semibold">{level.subtitle}</p>
-          </div>
-        </div>
-        {/* Progress bar */}
-        <div className="bg-white/20 rounded-full h-2 overflow-hidden">
-          <div className={`h-full bg-gradient-to-r ${level.bar} rounded-full transition-all duration-500`}
-            style={{ width: `${Math.max(pct, seenCount > 0 ? 3 : 0)}%` }} />
-        </div>
-        <p className="text-white/70 text-xs font-semibold mt-1.5">
-          {seenCount === 0 ? 'Chưa bắt đầu' : `${seenCount}/${level.lessons.length} đã học · 🏆 ${masteredCount}/${level.lessons.length} thành thạo`}
-        </p>
-      </div>
+      <GameHeader
+        colorCls={`bg-gradient-to-br ${level.gradient}`}
+        title={`${level.emoji} ${level.titleVi}`}
+        subtitle={seenCount === 0 ? level.subtitle : `${seenCount}/${level.lessons.length} đã học · 🏆 ${masteredCount}/${level.lessons.length} thành thạo`}
+        onBack={() => router.back()}
+        progress={{ value: Math.max(pct, seenCount > 0 ? 3 : 0), max: 100 }}
+      />
 
       {/* Lesson list */}
       <div className="max-w-lg mx-auto px-4 pt-5 space-y-3">

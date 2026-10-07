@@ -6,6 +6,7 @@ import phonicsLevels from '@/data/phonicsLevels.json'
 import phonemesData from '@/data/phonemes.json'
 import { initPhonicsSync, isPairSeen, isPairMastered } from '@/lib/phonicsSync'
 import { playPhoneme, type PhonemeSound } from '@/lib/phonemeAudio'
+import { GameHeader } from '@/components/ChunkyUI'
 
 // Module-level constant — built once, same source as lesson pages (guaranteed to work)
 const SOUND_DATA: Record<string, PhonemeSound> = (() => {
@@ -136,21 +137,12 @@ export default function IPAChartPage() {
     <div className="min-h-screen bg-indigo-50 pb-nav">
 
       {/* Header */}
-      <div className="bg-gradient-to-br from-indigo-600 to-purple-600 text-white px-4 pt-6 pb-5 rounded-b-3xl border-b-[4px] border-black/20">
-        <button onClick={() => router.back()} className="inline-flex items-center gap-1 rounded-full border-b-[3px] border-black/20 bg-white/25 px-3 py-1.5 text-sm font-bold text-white transition-transform active:translate-y-0.5 active:border-b-2 mb-3">
-          ← Phonics
-        </button>
-        <div className="flex items-end justify-between">
-          <div>
-            <h1 className="text-xl font-bold">🔤 Bảng IPA</h1>
-            <p className="text-white/70 text-xs mt-0.5">Bấm vào ô để nghe phát âm mẫu</p>
-          </div>
-          <div className="text-right text-xs text-white/60 space-y-0.5">
-            <p>🏆 {masteredCount} thành thạo</p>
-            <p>📖 {seenCount}/{totalCount} đã học</p>
-          </div>
-        </div>
-      </div>
+      <GameHeader
+        colorCls="bg-gradient-to-br from-indigo-600 to-purple-600"
+        title="🔤 Bảng IPA"
+        subtitle={`📖 ${seenCount}/${totalCount} đã học · 🏆 ${masteredCount} thành thạo`}
+        onBack={() => router.back()}
+      />
 
       <div className="px-3 pt-4 max-w-lg mx-auto space-y-3">
 
