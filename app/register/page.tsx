@@ -3,6 +3,7 @@ import { useState, useEffect, FormEvent } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import UpgradeModal from '@/components/UpgradeModal'
+import { cta } from '@/components/ChunkyUI'
 
 const REFERRAL_OPTIONS = [
   'Google / Tìm kiếm trên mạng',
@@ -74,7 +75,7 @@ export default function RegisterPage() {
 
         <div className="text-center mb-6">
           <Link href="/login" className="text-3xl inline-block mb-3">📚</Link>
-          <h1 className="text-2xl font-black text-gray-800">Tạo tài khoản miễn phí</h1>
+          <h1 className="text-2xl font-bold text-gray-800">Tạo tài khoản miễn phí</h1>
           <p className="text-gray-400 text-sm font-semibold mt-1">Thử miễn phí 7 ngày, không cần cài app</p>
           <div className="flex flex-wrap justify-center gap-1.5 mt-2">
             <span className="text-xs bg-purple-100 text-purple-700 font-bold px-2.5 py-1 rounded-full">📖 5.100+ từ vựng</span>
@@ -84,7 +85,7 @@ export default function RegisterPage() {
           </div>
         </div>
 
-        <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-lg border border-white p-6 space-y-4">
+        <div className="bg-white/80 backdrop-blur-sm rounded-3xl border-white p-6 space-y-4 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
           <form onSubmit={handleSubmit} className="space-y-4">
 
             <div>
@@ -94,7 +95,7 @@ export default function RegisterPage() {
                 onInvalid={e => (e.target as HTMLInputElement).setCustomValidity('Vui lòng nhập họ tên phụ huynh')}
                 onInput={e => (e.target as HTMLInputElement).setCustomValidity('')}
                 placeholder="Nguyễn Văn A"
-                className="w-full bg-purple-50 border border-purple-100 rounded-2xl px-4 py-3 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-purple-300 transition"
+                className="w-full bg-purple-50 border-2 border-b-[4px] border-purple-200 border-b-purple-300 rounded-3xl px-4 py-3 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-purple-300 transition"
               />
             </div>
 
@@ -105,7 +106,7 @@ export default function RegisterPage() {
                 onInvalid={e => (e.target as HTMLInputElement).setCustomValidity('Vui lòng nhập số điện thoại')}
                 onInput={e => (e.target as HTMLInputElement).setCustomValidity('')}
                 placeholder="0901234567"
-                className="w-full bg-purple-50 border border-purple-100 rounded-2xl px-4 py-3 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-purple-300 transition"
+                className="w-full bg-purple-50 border-2 border-b-[4px] border-purple-200 border-b-purple-300 rounded-3xl px-4 py-3 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-purple-300 transition"
               />
             </div>
 
@@ -116,7 +117,7 @@ export default function RegisterPage() {
                 onInvalid={e => (e.target as HTMLInputElement).setCustomValidity('Vui lòng nhập địa chỉ email hợp lệ')}
                 onInput={e => (e.target as HTMLInputElement).setCustomValidity('')}
                 placeholder="example@gmail.com"
-                className="w-full bg-purple-50 border border-purple-100 rounded-2xl px-4 py-3 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-purple-300 transition"
+                className="w-full bg-purple-50 border-2 border-b-[4px] border-purple-200 border-b-purple-300 rounded-3xl px-4 py-3 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-purple-300 transition"
               />
             </div>
 
@@ -126,7 +127,7 @@ export default function RegisterPage() {
                 value={referralSource} onChange={e => setReferralSource(e.target.value)} required
                 onInvalid={e => (e.target as HTMLSelectElement).setCustomValidity('Vui lòng chọn kênh bạn biết đến VocabWise')}
                 onInput={e => (e.target as HTMLSelectElement).setCustomValidity('')}
-                className="w-full bg-purple-50 border border-purple-100 rounded-2xl px-4 py-3 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-purple-300 transition"
+                className="w-full bg-purple-50 border-2 border-b-[4px] border-purple-200 border-b-purple-300 rounded-3xl px-4 py-3 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-purple-300 transition"
               >
                 <option value="">— Chọn kênh —</option>
                 {REFERRAL_OPTIONS.map(o => <option key={o} value={o}>{o}</option>)}
@@ -145,7 +146,7 @@ export default function RegisterPage() {
                   autoCorrect="off"
                   autoCapitalize="none"
                   spellCheck={false}
-                  className="w-full bg-purple-50 border border-purple-100 rounded-2xl px-4 py-3 pr-11 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-purple-300 transition"
+                  className="w-full bg-purple-50 border-2 border-b-[4px] border-purple-200 border-b-purple-300 rounded-3xl px-4 py-3 pr-11 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-purple-300 transition"
                 />
                 <button type="button" onClick={() => setShowPw(v => !v)}
                   className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 text-lg">
@@ -165,7 +166,7 @@ export default function RegisterPage() {
                 autoCorrect="off"
                 autoCapitalize="none"
                 spellCheck={false}
-                className="w-full bg-purple-50 border border-purple-100 rounded-2xl px-4 py-3 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-purple-300 transition"
+                className="w-full bg-purple-50 border-2 border-b-[4px] border-purple-200 border-b-purple-300 rounded-3xl px-4 py-3 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-purple-300 transition"
               />
             </div>
 
@@ -178,7 +179,7 @@ export default function RegisterPage() {
             )}
 
             <button type="submit" disabled={loading}
-              className="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 disabled:opacity-60 text-white font-black rounded-2xl py-3.5 shadow-md active:scale-95 transition-all text-lg">
+              className={cta('purple')}>
               {loading ? '⏳ Đang tạo tài khoản...' : '🚀 Tạo tài khoản'}
             </button>
           </form>
@@ -189,7 +190,7 @@ export default function RegisterPage() {
         <div className="mt-4 rounded-3xl border border-purple-200 bg-white/70 backdrop-blur-sm p-4">
           <div className="flex items-center gap-2 mb-2">
             <span className="text-base">⭐</span>
-            <p className="font-black text-gray-800 text-sm">Muốn học không giới hạn ngay?</p>
+            <p className="font-bold text-gray-800 text-sm">Muốn học không giới hạn ngay?</p>
           </div>
           <ul className="space-y-1 text-xs font-semibold text-gray-600 mb-3">
             <li>✅ Toàn bộ 5.100+ từ · Daily &amp; Academic</li>
@@ -197,10 +198,10 @@ export default function RegisterPage() {
             <li>✅ Lưu từ &amp; ôn SRS không giới hạn</li>
           </ul>
           <div className="flex items-center justify-between gap-3">
-            <p className="text-xs text-gray-400 font-bold">Từ <span className="text-purple-600 font-black">59.000đ</span>/tháng</p>
+            <p className="text-xs text-gray-400 font-bold">Từ <span className="text-purple-600 font-bold">59.000đ</span>/tháng</p>
             <button
               onClick={() => setShowUpgrade(true)}
-              className="text-xs font-black bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-2 rounded-xl active:scale-95 transition-all"
+              className="text-xs font-bold bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-2 rounded-xl active:scale-95 transition-all"
             >
               Xem gói Pro →
             </button>

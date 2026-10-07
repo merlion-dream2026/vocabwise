@@ -1,6 +1,7 @@
 'use client'
 import { useState, useEffect, useRef, Suspense } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
+import { cta } from '@/components/ChunkyUI'
 
 function VerifyEmailForm() {
   const router = useRouter()
@@ -104,14 +105,14 @@ function VerifyEmailForm() {
 
         <div className="text-center mb-6">
           <div className="text-5xl mb-3">📧</div>
-          <h1 className="text-2xl font-black text-gray-800">Xác thực email</h1>
+          <h1 className="text-2xl font-bold text-gray-800">Xác thực email</h1>
           <p className="text-gray-500 text-sm font-semibold mt-2 leading-snug">
             Mã 6 chữ số đã gửi đến<br/>
             <span className="text-purple-600 font-bold">{email}</span>
           </p>
         </div>
 
-        <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-lg border border-white p-6">
+        <div className="bg-white/80 backdrop-blur-sm rounded-3xl border-white p-6 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
           <form onSubmit={handleSubmit} className="space-y-5">
             <div onPaste={handlePaste} className="flex justify-center gap-2">
               {otp.map((digit, i) => (
@@ -124,7 +125,7 @@ function VerifyEmailForm() {
                   value={digit}
                   onChange={e => handleChange(i, e.target.value)}
                   onKeyDown={e => handleKeyDown(i, e)}
-                  className="w-12 h-14 text-center text-2xl font-black text-gray-800 bg-purple-50 border-2 border-purple-100 rounded-2xl focus:outline-none focus:border-purple-400 focus:ring-2 focus:ring-purple-200 transition"
+                  className="w-12 h-14 text-center text-2xl font-bold text-gray-800 bg-purple-50 border-2 border-b-[4px] border-purple-200 border-b-purple-300 rounded-3xl focus:outline-none focus:border-purple-400 focus:ring-2 focus:ring-purple-200 transition"
                 />
               ))}
             </div>
@@ -136,7 +137,7 @@ function VerifyEmailForm() {
             )}
 
             <button type="submit" disabled={loading}
-              className="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 disabled:opacity-60 text-white font-black rounded-2xl py-3.5 shadow-md active:scale-95 transition-all text-lg">
+              className={cta('purple')}>
               {loading ? '⏳ Đang xác thực...' : '✅ Xác thực'}
             </button>
           </form>

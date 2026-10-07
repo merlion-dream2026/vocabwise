@@ -120,7 +120,7 @@ const CTA_COLORS: Record<string, string> = {
 }
 const CTA_BASE = `rounded-2xl border-b-[4px] px-4 py-3.5 text-lg font-bold ${PRESS} disabled:cursor-not-allowed disabled:border-slate-200 disabled:bg-slate-100 disabled:text-slate-300 disabled:active:translate-y-0 disabled:active:border-b-[4px]`
 export function cta(family: keyof typeof CTA_COLORS | string, extra = '') {
-  return `${CTA_BASE} ${extra.includes('flex-1') ? '' : 'w-full'} ${CTA_COLORS[family] ?? CTA_COLORS.blue} ${extra}`.replace(/\s+/g, ' ').trim()
+  return `${CTA_BASE} ${/\bflex-(1|\[\d+\])/.test(extra) ? '' : 'w-full'} ${CTA_COLORS[family] ?? CTA_COLORS.blue} ${extra}`.replace(/\s+/g, ' ').trim()
 }
 
 // Phonics games receive their accent as a class string (e.g. "bg-pink-500 hover:bg-pink-600"); map it to a cta() family.

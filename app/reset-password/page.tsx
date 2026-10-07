@@ -2,6 +2,7 @@
 import { useState, FormEvent, Suspense } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
+import { cta } from '@/components/ChunkyUI'
 
 function ResetForm() {
   const router = useRouter()
@@ -17,7 +18,7 @@ function ResetForm() {
   if (!token) return (
     <div className="text-center space-y-4">
       <div className="text-5xl">❌</div>
-      <p className="font-black text-gray-800">Link không hợp lệ</p>
+      <p className="font-bold text-gray-800">Link không hợp lệ</p>
       <Link href="/forgot-password" className="block text-purple-500 underline text-sm">
         Yêu cầu link mới
       </Link>
@@ -27,7 +28,7 @@ function ResetForm() {
   if (done) return (
     <div className="text-center space-y-4">
       <div className="text-5xl">✅</div>
-      <p className="font-black text-gray-800 text-lg">Đặt lại mật khẩu thành công!</p>
+      <p className="font-bold text-gray-800 text-lg">Đặt lại mật khẩu thành công!</p>
       <p className="text-gray-400 text-sm">Đang chuyển về đăng nhập...</p>
     </div>
   )
@@ -63,7 +64,7 @@ function ResetForm() {
             type={showPw ? 'text' : 'password'} value={password}
             onChange={e => setPassword(e.target.value)} required
             placeholder="Tối thiểu 6 ký tự"
-            className="w-full bg-purple-50 border border-purple-100 rounded-2xl px-4 py-3 pr-11 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-purple-300 transition"
+            className="w-full bg-purple-50 border-2 border-b-[4px] border-purple-200 border-b-purple-300 rounded-3xl px-4 py-3 pr-11 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-purple-300 transition"
           />
           <button type="button" onClick={() => setShowPw(v => !v)}
             className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 text-lg">
@@ -77,7 +78,7 @@ function ResetForm() {
           type={showPw ? 'text' : 'password'} value={confirm}
           onChange={e => setConfirm(e.target.value)} required
           placeholder="Nhập lại mật khẩu mới"
-          className="w-full bg-purple-50 border border-purple-100 rounded-2xl px-4 py-3 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-purple-300 transition"
+          className="w-full bg-purple-50 border-2 border-b-[4px] border-purple-200 border-b-purple-300 rounded-3xl px-4 py-3 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-purple-300 transition"
         />
       </div>
       {error && (
@@ -86,7 +87,7 @@ function ResetForm() {
         </div>
       )}
       <button type="submit" disabled={loading}
-        className="w-full bg-gradient-to-r from-purple-500 to-pink-500 disabled:opacity-60 text-white font-black rounded-2xl py-3.5 shadow-md active:scale-95 transition-all text-lg">
+        className={cta('purple')}>
         {loading ? '⏳ Đang lưu...' : '🔑 Đặt lại mật khẩu'}
       </button>
     </form>
@@ -99,10 +100,10 @@ export default function ResetPasswordPage() {
       <div className="w-full max-w-sm">
         <div className="text-center mb-6">
           <Link href="/" className="text-3xl inline-block mb-3">📚</Link>
-          <h1 className="text-2xl font-black text-gray-800">Đặt lại mật khẩu</h1>
+          <h1 className="text-2xl font-bold text-gray-800">Đặt lại mật khẩu</h1>
           <p className="text-gray-400 text-sm mt-1">Nhập mật khẩu mới cho tài khoản của bạn</p>
         </div>
-        <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-lg border border-white p-6">
+        <div className="bg-white/80 backdrop-blur-sm rounded-3xl border-white p-6 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
           <Suspense fallback={<p className="text-center text-gray-400 text-sm">Đang tải...</p>}>
             <ResetForm />
           </Suspense>

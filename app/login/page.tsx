@@ -5,6 +5,7 @@ import { useRouter, useSearchParams } from 'next/navigation'
 import { Suspense } from 'react'
 import Link from 'next/link'
 import UpgradeModal from '@/components/UpgradeModal'
+import { cta } from '@/components/ChunkyUI'
 
 function LoginForm() {
   const router = useRouter()
@@ -110,7 +111,7 @@ function LoginForm() {
         {/* Hero */}
         <div className="text-center mb-4">
           <div className="text-6xl mb-3">📚</div>
-          <h1 className="text-3xl font-black text-gray-800 tracking-tight">VocabWise</h1>
+          <h1 className="text-3xl font-bold text-gray-800 tracking-tight">VocabWise</h1>
           <p className="text-gray-500 mt-1.5 font-semibold text-sm leading-snug">
             Từ vựng tiếng Anh — vui học mỗi ngày
           </p>
@@ -118,15 +119,15 @@ function LoginForm() {
 
         {/* Expired account banner */}
         {expiredUser && (
-          <div className="bg-orange-50 border-2 border-orange-200 rounded-2xl px-4 py-4 mb-4 text-center">
+          <div className="bg-orange-50 border-2 border-b-[4px] border-orange-200 border-b-orange-300 rounded-3xl px-4 py-4 mb-4 text-center">
             <p className="text-2xl mb-1">⏰</p>
-            <p className="font-black text-orange-700 text-sm mb-1">Tài khoản đã hết hạn</p>
+            <p className="font-bold text-orange-700 text-sm mb-1">Tài khoản đã hết hạn</p>
             <p className="text-orange-600 text-xs font-semibold mb-3 leading-snug">
               Vui lòng nâng cấp Pro để tiếp tục sử dụng đầy đủ tính năng.
             </p>
             <button
               onClick={() => setShowUpgrade(true)}
-              className="bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black text-sm px-5 py-2.5 rounded-xl active:scale-95 transition-all"
+              className="bg-gradient-to-r from-purple-500 to-pink-500 text-white font-bold text-sm px-5 py-2.5 rounded-2xl border-b-[3px] border-black/20 transition-[transform,border-width] active:translate-y-0.5 active:border-b-2"
             >
               ⭐ Nâng cấp Pro ngay
             </button>
@@ -134,7 +135,7 @@ function LoginForm() {
         )}
 
         {/* Form card */}
-        <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-lg border border-white p-6 space-y-4">
+        <div className="bg-white/80 backdrop-blur-sm rounded-3xl border-white p-6 space-y-4 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
           <p className="text-center text-sm font-bold text-gray-500">
             Đăng nhập để bắt đầu hành trình cùng bé →
           </p>
@@ -145,7 +146,7 @@ function LoginForm() {
               type="text"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
-              className="w-full bg-purple-50 border border-purple-100 rounded-2xl px-4 py-3 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-purple-300 transition"
+              className="w-full bg-purple-50 border-2 border-b-[4px] border-purple-200 border-b-purple-300 rounded-3xl px-4 py-3 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-purple-300 transition"
               placeholder="09xxxxxxxx"
               required
               autoComplete="username"
@@ -159,7 +160,7 @@ function LoginForm() {
                 type={showPw ? 'text' : 'password'}
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className="w-full bg-purple-50 border border-purple-100 rounded-2xl px-4 py-3 pr-11 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-purple-300 transition"
+                className="w-full bg-purple-50 border-2 border-b-[4px] border-purple-200 border-b-purple-300 rounded-3xl px-4 py-3 pr-11 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-purple-300 transition"
                 placeholder="••••••••"
                 required
                 autoComplete="current-password"
@@ -187,7 +188,7 @@ function LoginForm() {
                 maxLength={6}
                 value={totpCode}
                 onChange={(e) => setTotpCode(e.target.value.replace(/\D/g, ''))}
-                className="w-full bg-amber-50 border border-amber-200 rounded-2xl px-4 py-3 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-amber-300 transition tracking-widest text-center text-lg"
+                className="w-full bg-amber-50 border-2 border-b-[4px] border-amber-200 border-b-amber-300 rounded-3xl px-4 py-3 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-amber-300 transition tracking-widest text-center text-lg"
                 placeholder="000000"
                 autoFocus
                 autoComplete="one-time-code"
@@ -206,7 +207,7 @@ function LoginForm() {
           {needs2fa && emailOtpMode && (
             <div>
               {emailOtpSent && (
-                <div className="bg-green-50 border border-green-100 rounded-2xl px-4 py-3 mb-3 text-sm text-green-700 font-semibold">
+                <div className="bg-green-50 border-2 border-b-[4px] border-green-200 border-b-green-300 rounded-3xl px-4 py-3 mb-3 text-sm text-green-700 font-semibold">
                   ✅ Đã gửi mã OTP tới email admin. Hiệu lực 10 phút.
                 </div>
               )}
@@ -217,7 +218,7 @@ function LoginForm() {
                 maxLength={6}
                 value={emailOtp}
                 onChange={(e) => setEmailOtp(e.target.value.replace(/\D/g, ''))}
-                className="w-full bg-green-50 border border-green-200 rounded-2xl px-4 py-3 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-green-300 transition tracking-widest text-center text-lg"
+                className="w-full bg-green-50 border-2 border-b-[4px] border-green-200 border-b-green-300 rounded-3xl px-4 py-3 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-green-300 transition tracking-widest text-center text-lg"
                 placeholder="000000"
                 autoFocus
                 autoComplete="one-time-code"
@@ -246,7 +247,7 @@ function LoginForm() {
             type="submit"
             disabled={loading}
             onClick={handleSubmit}
-            className="w-full bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 disabled:opacity-60 text-white font-black rounded-2xl py-3.5 shadow-md active:scale-95 transition-all duration-150 text-lg"
+            className={cta('purple')}
           >
             {loading ? '⏳ Đang đăng nhập...' : '🚀 Đăng nhập'}
           </button>
@@ -264,16 +265,16 @@ function LoginForm() {
         </p>
 
         {/* PWA install tip */}
-        <div className="mt-4 bg-blue-50 border border-blue-100 rounded-2xl p-3.5 space-y-2.5">
-          <p className="text-xs font-black text-blue-700">📲 Cách cài app lên màn hình chính:</p>
+        <div className="mt-4 bg-blue-50 border-2 border-b-[4px] border-blue-200 border-b-blue-300 rounded-3xl p-3.5 space-y-2.5">
+          <p className="text-xs font-bold text-blue-700">📲 Cách cài app lên màn hình chính:</p>
           <div className="space-y-1.5">
-            <p className="text-xs font-black text-gray-600">🍎 iPhone / iPad (Safari)</p>
+            <p className="text-xs font-bold text-gray-600">🍎 iPhone / iPad (Safari)</p>
             <p className="text-xs text-gray-500 leading-relaxed">① Bấm nút <span className="font-bold">Chia sẻ</span> <span className="font-mono bg-gray-100 px-1 rounded">⬆️</span> ở thanh dưới Safari</p>
             <p className="text-xs text-gray-500">② Chọn <span className="font-bold">&quot;Thêm vào Màn hình chính&quot;</span></p>
             <p className="text-xs text-gray-500">③ Bấm <span className="font-bold">Thêm</span> → mở app từ icon vừa tạo</p>
           </div>
           <div className="border-t border-blue-100 pt-2 space-y-1.5">
-            <p className="text-xs font-black text-gray-600">🤖 Android (Chrome)</p>
+            <p className="text-xs font-bold text-gray-600">🤖 Android (Chrome)</p>
             <p className="text-xs text-gray-500 leading-relaxed">① Bấm menu <span className="font-bold">⋮</span> góc trên phải Chrome</p>
             <p className="text-xs text-gray-500">② Chọn <span className="font-bold">&quot;Thêm vào Màn hình chính&quot;</span> hoặc <span className="font-bold">&quot;Cài đặt ứng dụng&quot;</span></p>
             <p className="text-xs text-gray-500">③ Bấm <span className="font-bold">Thêm</span> → mở app từ icon vừa tạo</p>

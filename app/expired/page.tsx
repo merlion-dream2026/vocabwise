@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import UpgradeModal from '@/components/UpgradeModal'
 import { cachedFetch, invalidateCachedFetch } from '@/lib/cachedFetch'
+import { cta } from '@/components/ChunkyUI'
 
 export default function ExpiredPage() {
   const router = useRouter()
@@ -28,7 +29,7 @@ export default function ExpiredPage() {
     <div className="min-h-screen bg-gradient-to-br from-orange-50 via-pink-50 to-purple-50 flex flex-col items-center justify-center p-6">
       <div className="text-center mb-8">
         <div className="text-7xl mb-4">⏸️</div>
-        <h1 className="text-2xl font-black text-gray-800 mb-2">Tài khoản đã hết hạn</h1>
+        <h1 className="text-2xl font-bold text-gray-800 mb-2">Tài khoản đã hết hạn</h1>
         <p className="text-gray-500 text-sm font-semibold leading-relaxed">
           Hành trình học tiếng Anh đang tạm dừng.<br />
           Gia hạn Pro để tiếp tục ngay!
@@ -42,7 +43,7 @@ export default function ExpiredPage() {
           { icon: '🎮', text: '10 game/chủ đề' },
           { icon: '📊', text: 'Báo cáo tiến độ' },
         ].map(({ icon, text }) => (
-          <div key={text} className="bg-white/70 rounded-2xl p-3 text-center border border-white shadow-sm">
+          <div key={text} className="bg-white/70 rounded-3xl p-3 text-center border-white border-2 border-slate-200 border-b-[4px] border-b-slate-300">
             <div className="text-2xl">{icon}</div>
             <p className="text-xs font-bold text-gray-500 mt-1">{text}</p>
           </div>
@@ -52,14 +53,14 @@ export default function ExpiredPage() {
       <div className="flex flex-col gap-3 w-full max-w-xs">
         <button
           onClick={() => setShowModal(true)}
-          className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black text-lg py-4 rounded-2xl shadow-lg active:scale-95 transition-all"
+          className={cta('purple')}
         >
           ⭐ Gia hạn Pro ngay
         </button>
         <button
           onClick={handleLogout}
           disabled={loggingOut}
-          className="w-full bg-green-500 text-white font-black py-3 rounded-2xl shadow active:scale-95 transition-all disabled:opacity-60 text-sm"
+          className={cta('green')}
         >
           ✅ Đã gia hạn — Đăng nhập lại
         </button>

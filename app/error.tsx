@@ -9,12 +9,12 @@ export default function Error({ error, reset }: { error: Error & { digest?: stri
     <div className="min-h-screen bg-gray-50 flex items-center justify-center p-6">
       <div className="text-center max-w-sm">
         <div className="text-6xl mb-4">⚠️</div>
-        <h1 className="text-2xl font-black text-gray-800 mb-2">Có lỗi xảy ra</h1>
+        <h1 className="text-2xl font-bold text-gray-800 mb-2">Có lỗi xảy ra</h1>
         <p className="text-gray-500 text-sm mb-6">Lỗi đã được ghi lại. Thử tải lại trang.</p>
         <div className="flex gap-3 justify-center">
           <button
             onClick={reset}
-            className="bg-purple-600 text-white font-black px-5 py-3 rounded-2xl active:scale-95 transition-transform"
+            className="bg-purple-600 text-white font-bold px-5 py-3 rounded-2xl active:scale-95 transition-transform"
           >
             Thử lại
           </button>
@@ -24,7 +24,7 @@ export default function Error({ error, reset }: { error: Error & { digest?: stri
           {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
           <a
             href="/"
-            className="bg-gray-100 text-gray-700 font-black px-5 py-3 rounded-2xl active:scale-95 transition-transform"
+            className="bg-gray-100 text-gray-700 font-bold px-5 py-3 rounded-2xl active:scale-95 transition-transform"
           >
             Về trang chủ
           </a>
