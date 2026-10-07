@@ -59,7 +59,7 @@ export default function WordListPage() {
         <Link href="/vocabwise" className="inline-flex items-center gap-1.5 mb-3 bg-white/20 hover:bg-white/30 text-white font-bold text-sm px-3 py-1.5 rounded-full transition-all active:scale-95">
           ← Academic
         </Link>
-        <h1 className="text-xl font-black">📌 Danh sách từ của tôi</h1>
+        <h1 className="text-xl font-bold">📌 Danh sách từ của tôi</h1>
         {!loading && (
           <p className="text-indigo-200 text-sm mt-1">{words.length} từ đã lưu</p>
         )}
@@ -75,7 +75,7 @@ export default function WordListPage() {
             <div className="text-5xl mb-3">📭</div>
             <p className="text-gray-500 font-bold">Chưa có từ nào được lưu</p>
             <p className="text-gray-400 text-sm mt-1">Nhấn ⭐ cạnh từ trong tab Từ vựng để lưu lại</p>
-            <Link href="/vocabwise" className="inline-block mt-5 bg-indigo-600 text-white font-black px-5 py-2.5 rounded-2xl active:scale-95 transition-transform text-sm">
+            <Link href="/vocabwise" className="inline-block mt-5 bg-indigo-600 text-white font-bold px-5 py-2.5 rounded-2xl active:scale-95 transition-transform text-sm">
               Vào học ngay
             </Link>
           </div>
@@ -83,23 +83,23 @@ export default function WordListPage() {
 
         {Object.entries(grouped).map(([bookId, topics]) => (
           <div key={bookId} className="mb-6">
-            <h2 className="text-xs font-black text-indigo-500 uppercase tracking-wider mb-3">
+            <h2 className="text-xs font-bold text-indigo-500 uppercase tracking-wider mb-3">
               {BOOK_LABEL[bookId] ?? bookId}
             </h2>
             {Object.entries(topics).map(([topicId, topicWords]) => (
               <div key={topicId} className="mb-4">
                 <Link
                   href={`/vocabwise/${bookId}/${topicId}`}
-                  className="text-xs font-black text-gray-400 hover:text-indigo-500 transition-colors mb-2 block"
+                  className="text-xs font-bold text-gray-400 hover:text-indigo-500 transition-colors mb-2 block"
                 >
                   📄 {topicWords[0].topic_title} →
                 </Link>
                 <div className="space-y-2">
                   {topicWords.map(w => (
-                    <div key={w.id} className="bg-white border-2 border-gray-100 rounded-2xl px-4 py-3 flex items-start gap-3">
+                    <div key={w.id} className="bg-white rounded-3xl px-4 py-3 flex items-start gap-3 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
                       <div className="flex-1 min-w-0">
                         <div className="flex items-baseline gap-2 flex-wrap">
-                          <span className="font-black text-gray-800 text-sm">{w.word}</span>
+                          <span className="font-bold text-gray-800 text-sm">{w.word}</span>
                           {w.ipa && <span className="text-gray-400 text-xs">{w.ipa}</span>}
                           {w.pos && <span className="text-gray-400 text-xs italic">{w.pos}</span>}
                           <button onClick={() => speak(w.word)} aria-label={`Nghe phát âm ${w.word}`} className="text-gray-300 hover:text-blue-500 transition-colors">🔊</button>

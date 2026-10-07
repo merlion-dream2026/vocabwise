@@ -139,15 +139,15 @@ function MCQRound({
         {q.options.map(opt => {
           const isSelected = selected === opt
           const isCorrect = opt === q.correct
-          let cls = 'bg-white border-2 border-gray-100 text-gray-700'
+          let cls = 'bg-white border-2 border-b-[4px] border-slate-200 border-b-slate-300 text-gray-700'
           if (selected) {
-            if (isCorrect) cls = 'bg-green-50 border-2 border-green-400 text-green-800'
-            else if (isSelected) cls = 'bg-red-50 border-2 border-red-400 text-red-700'
-            else cls = 'bg-white border-2 border-gray-100 text-gray-400 opacity-60'
+            if (isCorrect) cls = 'bg-green-50 border-2 border-b-[4px] border-green-300 border-b-green-500 text-green-800'
+            else if (isSelected) cls = 'bg-red-50 border-2 border-b-[4px] border-red-300 border-b-red-500 ax-shake text-red-700'
+            else cls = 'bg-white border-2 border-b-[4px] border-slate-200 border-b-slate-300 text-gray-400 opacity-60'
           }
           return (
             <button key={opt} onClick={() => pick(opt)}
-              className={`w-full rounded-2xl px-4 py-3.5 text-left font-semibold text-sm transition-all active:scale-[0.98] shadow-sm ${cls}`}>
+              className={`w-full rounded-2xl px-4 py-3.5 text-left font-semibold text-sm transition-[transform,border-width] active:translate-y-0.5 active:border-b-2 ${cls}`}>
               {isSelected && selected && (isCorrect ? '✓ ' : '✗ ')}{opt}
             </button>
           )
@@ -231,15 +231,15 @@ function FIBRound({
           {q.options.map(opt => {
             const isSelected = selected === opt
             const isCorrect = opt === q.correct
-            let cls = 'bg-white border-2 border-gray-100 text-gray-700'
+            let cls = 'bg-white border-2 border-b-[4px] border-slate-200 border-b-slate-300 text-gray-700'
             if (selected) {
-              if (isCorrect) cls = 'bg-green-50 border-2 border-green-400 text-green-800'
-              else if (isSelected) cls = 'bg-red-50 border-2 border-red-400 text-red-700'
-              else cls = 'bg-white border-2 border-gray-100 text-gray-400 opacity-60'
+              if (isCorrect) cls = 'bg-green-50 border-2 border-b-[4px] border-green-300 border-b-green-500 text-green-800'
+              else if (isSelected) cls = 'bg-red-50 border-2 border-b-[4px] border-red-300 border-b-red-500 ax-shake text-red-700'
+              else cls = 'bg-white border-2 border-b-[4px] border-slate-200 border-b-slate-300 text-gray-400 opacity-60'
             }
             return (
               <button key={opt} onClick={() => resolve(opt)}
-                className={`rounded-2xl px-4 py-3.5 font-bold text-sm transition-all active:scale-[0.98] shadow-sm ${cls}`}>
+                className={`rounded-2xl px-4 py-3.5 font-bold text-sm transition-[transform,border-width] active:translate-y-0.5 active:border-b-2 ${cls}`}>
                 {isSelected && selected && (isCorrect ? '✓ ' : '✗ ')}{opt}
               </button>
             )
@@ -309,13 +309,13 @@ function MatchRound({
             const isMatched = matched.has(w)
             const isSelected = selWord === w
             const isWrong = wrongWord === w
-            let cls = 'bg-white border-2 border-gray-100 text-gray-700'
-            if (isMatched)  cls = 'bg-gray-50 border-2 border-gray-100 text-gray-300 line-through'
-            else if (isWrong) cls = 'bg-red-50 border-2 border-red-300 text-red-600'
+            let cls = 'bg-white border-2 border-b-[4px] border-slate-200 border-b-slate-300 text-gray-700'
+            if (isMatched)  cls = 'bg-gray-50 border-2 border-b-[4px] border-slate-100 border-b-slate-200 text-gray-300 line-through'
+            else if (isWrong) cls = 'bg-red-50 border-2 border-b-[4px] border-red-300 border-b-red-500 text-red-600'
             else if (isSelected) cls = 'bg-amber-50 border-2 border-amber-400 text-amber-800 shadow-md'
             return (
               <button key={w} onClick={() => tapWord(w)} disabled={isMatched}
-                className={`w-full rounded-xl px-3 py-2.5 text-sm font-bold text-left transition-all ${cls}`}>
+                className={`w-full rounded-2xl px-3 py-2.5 text-sm font-bold text-left transition-[transform,border-width] active:translate-y-0.5 active:border-b-2 ${cls}`}>
                 {w}
               </button>
             )
@@ -326,12 +326,12 @@ function MatchRound({
         <div className="space-y-2.5">
           {meanings.map(m => {
             const isMatched = matchedMeanings.has(m)
-            let cls = 'bg-white border-2 border-gray-100 text-gray-700'
-            if (isMatched) cls = 'bg-green-50 border-2 border-green-200 text-green-400 line-through'
+            let cls = 'bg-white border-2 border-b-[4px] border-slate-200 border-b-slate-300 text-gray-700'
+            if (isMatched) cls = 'bg-green-50 border-2 border-b-[4px] border-green-200 border-b-green-300 text-green-400 line-through'
             else if (selWord) cls = 'bg-white border-2 border-amber-200 text-gray-700 hover:bg-amber-50 hover:border-amber-400'
             return (
               <button key={m} onClick={() => tapMeaning(m)} disabled={isMatched}
-                className={`w-full rounded-xl px-3 py-2.5 text-sm font-semibold text-left transition-all ${cls}`}>
+                className={`w-full rounded-2xl px-3 py-2.5 text-sm font-semibold text-left transition-[transform,border-width] active:translate-y-0.5 active:border-b-2 ${cls}`}>
                 {m}
               </button>
             )
@@ -360,7 +360,7 @@ function BreakScreen({
         <h2 className="text-xl font-bold text-gray-800 mb-1">{title}</h2>
         <p className="text-sm text-gray-500">{subtitle}</p>
       </div>
-      <div className="bg-amber-50 border-2 border-amber-200 rounded-2xl p-5 w-full max-w-xs">
+      <div className="bg-amber-50 border-2 border-b-[4px] border-amber-200 border-b-amber-300 rounded-3xl p-5 w-full max-w-xs">
         <p className={`text-3xl font-bold mb-1 ${grade.cls}`}>{score}/{max}</p>
         <p className={`text-sm font-bold ${grade.cls}`}>{grade.label}</p>
       </div>
@@ -606,9 +606,9 @@ export default function RevisionPage() {
         {phase === 'result' && (() => {
           const final = mcqScore + fibScore + match1Score + match2Score
           const pct = final / 30
-          const grade = pct >= 0.9 ? { emoji: '🏆', label: 'Xuất sắc!', cls: 'text-green-600', bg: 'bg-green-50 border-green-200' }
-            : pct >= 0.7 ? { emoji: '⭐', label: 'Tốt!', cls: 'text-amber-600', bg: 'bg-amber-50 border-amber-200' }
-            : { emoji: '📖', label: 'Cần ôn thêm', cls: 'text-red-500', bg: 'bg-red-50 border-red-200' }
+          const grade = pct >= 0.9 ? { emoji: '🏆', label: 'Xuất sắc!', cls: 'text-green-600', bg: 'bg-green-50 border-green-200 border-b-[4px] border-b-green-300' }
+            : pct >= 0.7 ? { emoji: '⭐', label: 'Tốt!', cls: 'text-amber-600', bg: 'bg-amber-50 border-amber-200 border-b-[4px] border-b-amber-300' }
+            : { emoji: '📖', label: 'Cần ôn thêm', cls: 'text-red-500', bg: 'bg-red-50 border-red-200 border-b-[4px] border-b-red-300' }
           return (
             <div className="flex flex-col items-center gap-5 py-6 text-center">
               <span className="text-6xl">{grade.emoji}</span>

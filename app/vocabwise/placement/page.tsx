@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
+import { GameHeader, cta, colorFamily } from '@/components/ChunkyUI'
 
 type Question = {
   word: string
@@ -156,15 +157,7 @@ export default function PlacementPage() {
     return (
       <div className={`min-h-screen ${info.bg} flex flex-col`}>
         {/* Header */}
-        <div className={`bg-gradient-to-r ${info.color} text-white px-4 py-5`}>
-          <div className="max-w-lg mx-auto flex items-center gap-3">
-            <button onClick={() => router.push('/vocabwise')} aria-label="Quay lại" className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 text-lg font-bold text-white transition-transform active:translate-y-0.5 active:border-b-2 flex-shrink-0">←</button>
-            <div>
-              <h1 className="font-black text-lg">Kết quả cấp độ</h1>
-              <p className="text-white/70 text-xs">Đúng {totalCorrect}/10 câu</p>
-            </div>
-          </div>
-        </div>
+        <GameHeader colorCls={`bg-gradient-to-r ${info.color}`} title="Kết quả cấp độ" subtitle={`Đúng ${totalCorrect}/10 câu`} onBack={() => router.push('/vocabwise')} />
 
         <div className="flex-1 flex flex-col items-center justify-center px-4 py-8">
           <div className="max-w-sm w-full space-y-5">
@@ -175,8 +168,8 @@ export default function PlacementPage() {
                 <span className="text-4xl">{info.emoji}</span>
               </div>
               <p className="text-gray-500 text-sm font-semibold">Chúng tôi đề xuất</p>
-              <h2 className="text-2xl font-black text-gray-800 mt-0.5">{info.title}</h2>
-              <span className={`inline-block mt-1 text-xs font-black px-3 py-1 rounded-full bg-gradient-to-r ${info.color} text-white`}>{info.cefr}</span>
+              <h2 className="text-2xl font-bold text-gray-800 mt-0.5">{info.title}</h2>
+              <span className={`inline-block mt-1 text-xs font-bold px-3 py-1 rounded-full bg-gradient-to-r ${info.color} text-white`}>{info.cefr}</span>
             </div>
 
             {/* Description card */}
@@ -185,7 +178,7 @@ export default function PlacementPage() {
             </div>
 
             {/* Score breakdown */}
-            <div className="bg-white rounded-2xl border border-gray-100 shadow-sm px-4 py-3 space-y-2">
+            <div className="bg-white rounded-3xl px-4 py-3 space-y-2 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
               {([1, 2, 3] as const).map(b => {
                 const slice = b === 1 ? answers.slice(0, 3) : b === 2 ? answers.slice(3, 7) : answers.slice(7, 10)
                 const max   = slice.length
@@ -215,7 +208,7 @@ export default function PlacementPage() {
             <div className="space-y-2">
               <Link
                 href={`/vocabwise/${info.slug}`}
-                className={`w-full flex items-center justify-center gap-2 ${info.btn} text-white font-black text-base py-4 rounded-2xl shadow-md active:scale-95 transition-all`}
+                className={cta(colorFamily(info.btn), 'flex items-center justify-center gap-2')}
               >
                 Bắt đầu {info.title} →
               </Link>
@@ -239,54 +232,38 @@ export default function PlacementPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-indigo-50 flex flex-col">
       {/* Header */}
-      <div className="bg-gradient-to-r from-indigo-600 to-blue-600 text-white px-4 py-4">
-        <div className="max-w-lg mx-auto flex items-center gap-3">
-          <button onClick={() => router.push('/vocabwise')} className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 text-lg font-bold text-white transition-transform active:translate-y-0.5 active:border-b-2">←</button>
-          <div className="flex-1">
-            <div className="flex justify-between text-xs text-white/80 font-semibold mb-1.5">
-              <span>Bài kiểm tra cấp độ</span>
-              <span>{current + 1} / {QUESTIONS.length}</span>
-            </div>
-            <div className="h-1.5 bg-white/20 rounded-full overflow-hidden">
-              <div
-                className="h-full bg-white rounded-full transition-all duration-500"
-                style={{ width: `${progress}%` }}
-              />
-            </div>
-          </div>
-        </div>
-      </div>
+      <GameHeader colorCls="bg-gradient-to-r from-indigo-600 to-blue-600" title="Bài kiểm tra cấp độ" onBack={() => router.push('/vocabwise')} right={<>{current + 1} / {QUESTIONS.length}</>} progress={{ value: progress, max: 100 }} />
 
       {/* Question */}
       <div className="flex-1 flex flex-col items-center justify-center px-4 py-6">
         <div className="max-w-sm w-full space-y-5">
 
           {/* Word card */}
-          <div className="bg-white rounded-3xl shadow-sm border border-gray-100 px-6 py-6 text-center">
-            <div className="inline-block bg-indigo-50 text-indigo-600 text-xs font-black px-3 py-1 rounded-full mb-3">
+          <div className="bg-white rounded-3xl px-6 py-6 text-center border-2 border-slate-200 border-b-[4px] border-b-slate-300">
+            <div className="inline-block bg-indigo-50 text-indigo-600 text-xs font-bold px-3 py-1 rounded-full mb-3">
               {q.book === 1 ? 'A1–A2' : q.book === 2 ? 'B1–B2' : 'C1–C2'}
             </div>
-            <p className="text-4xl font-black text-gray-800 mb-3">{q.word}</p>
+            <p className="text-4xl font-bold text-gray-800 mb-3">{q.word}</p>
             <p className="text-gray-500 text-sm leading-relaxed italic">&quot;{q.sentence}&quot;</p>
           </div>
 
           {/* Options */}
           <div className="space-y-2.5">
             {q.options.map((opt, idx) => {
-              let cls = 'bg-white border-2 border-gray-100 text-gray-700'
+              let cls = 'bg-white border-2 border-b-[4px] border-slate-200 border-b-slate-300 text-gray-700'
               if (selected !== null) {
-                if (idx === q.correct) cls = 'bg-green-50 border-2 border-green-400 text-green-700'
-                else if (idx === selected) cls = 'bg-red-50 border-2 border-red-400 text-red-600'
-                else cls = 'bg-white border-2 border-gray-100 text-gray-300'
+                if (idx === q.correct) cls = 'bg-green-50 border-2 border-b-[4px] border-green-300 border-b-green-500 text-green-700'
+                else if (idx === selected) cls = 'bg-red-50 border-2 border-b-[4px] border-red-300 border-b-red-500 ax-shake text-red-600'
+                else cls = 'bg-white border-2 border-b-[4px] border-slate-200 border-b-slate-300 text-gray-300'
               }
               return (
                 <button
                   key={idx}
                   onClick={() => handleSelect(idx)}
                   disabled={selected !== null}
-                  className={`w-full flex items-center gap-3 px-4 py-3.5 rounded-2xl font-semibold text-sm text-left transition-all active:scale-[0.98] shadow-sm ${cls}`}
+                  className={`w-full flex items-center gap-3 px-4 py-3.5 rounded-2xl font-semibold text-sm text-left transition-[transform,border-width] active:translate-y-0.5 active:border-b-2 ${cls}`}
                 >
-                  <span className={`w-7 h-7 rounded-full flex items-center justify-center text-xs font-black flex-shrink-0
+                  <span className={`w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0
                     ${selected === null ? 'bg-indigo-100 text-indigo-600' :
                       idx === q.correct ? 'bg-green-400 text-white' :
                       idx === selected ? 'bg-red-400 text-white' : 'bg-gray-100 text-gray-300'}`}>

@@ -9,6 +9,7 @@ import { speak as speakSentence } from '@/lib/speak'
 import { recordPairGame, flushPhonics } from '@/lib/phonicsSync'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
+import { GameHeader, cta, colorFamily } from '@/components/ChunkyUI'
 
 type PracticeSentence = { en: string; highlight: string[] }
 type RhythmSentence   = { en: string; stressed: string[]; vi: string }
@@ -65,7 +66,7 @@ function HighlightedSentence({ en, targets }: { en: string; targets: string[] })
         const clean = w.replace(/[.,!?'"]/g, '').toLowerCase()
         return (
           <span key={i}>
-            <span className={hl.has(clean) ? 'text-indigo-700 font-black underline decoration-2 underline-offset-2' : ''}>
+            <span className={hl.has(clean) ? 'text-indigo-700 font-bold underline decoration-2 underline-offset-2' : ''}>
               {w}
             </span>
             {i < arr.length - 1 ? ' ' : ''}
@@ -263,7 +264,7 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
       <div className="flex flex-col min-h-screen items-center justify-center bg-gray-50 gap-4 px-4">
         <p className="text-5xl">🎤</p>
         <p className="text-gray-500 text-sm font-semibold text-center">Lesson này chưa có câu để luyện phát âm.</p>
-        <button onClick={() => router.push(backUrl)} className={`${btnColor} text-white px-6 py-2.5 rounded-xl font-bold`}>← Quay lại</button>
+        <button onClick={() => router.push(backUrl)} className={`${btnColor} text-white px-6 py-2.5 rounded-2xl font-bold border-b-[4px] border-black/20`}>← Quay lại</button>
       </div>
     )
   }
@@ -272,20 +273,17 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
     return (
       <div className="flex flex-col min-h-screen">
         {showConf && <Confetti />}
-        <div className={`bg-gradient-to-br ${gradient} px-4 pt-12 pb-8 text-white`}>
-          <button onClick={() => router.push(backUrl)} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-4">← {lesson.title}</button>
-          <h1 className="text-2xl font-black">🎤 Phát âm cùng AI ✨</h1>
-        </div>
+        <GameHeader colorCls={`bg-gradient-to-br ${gradient}`} title="🎤 Phát âm cùng AI ✨" subtitle={lesson.title} onBack={() => router.push(backUrl)} />
         <div className="flex-1 bg-gradient-to-b from-rose-50 to-pink-50 flex flex-col items-center justify-center px-4 py-8">
           <div className="text-7xl mb-4">{totalScore >= 70 ? '🏆' : totalScore >= 50 ? '⭐' : '💪'}</div>
-          <h2 className="text-3xl font-black text-gray-800 mb-1">{totalScore}%</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mb-1">{totalScore}%</h2>
           <p className="text-gray-500 font-bold text-sm mb-6">
             {totalScore >= 70 ? 'Xuất sắc! Phát âm rất chuẩn.' : totalScore >= 50 ? 'Tốt! Luyện thêm nhé.' : 'Cần luyện thêm — thử lại nhé!'}
           </p>
           <div className="w-full space-y-3">
             <button onClick={() => { setStep(0); setScores([]); setGameDone(false); setShowConf(false) }}
-              className={`w-full ${btnColor} text-white font-black text-xl py-4 rounded-2xl shadow-lg`}>🔄 Chơi lại</button>
-            <button onClick={() => router.push(backUrl)} className="w-full bg-white border-2 border-gray-200 text-gray-600 font-bold text-xl py-4 rounded-2xl">← Xem bài học</button>
+              className={cta(colorFamily(btnColor))}>🔄 Chơi lại</button>
+            <button onClick={() => router.push(backUrl)} className={cta('slate')}>← Xem bài học</button>
           </div>
         </div>
       </div>
@@ -295,20 +293,11 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
   return (
     <div className="flex flex-col min-h-screen bg-rose-50">
       {/* Header */}
-      <div className={`bg-gradient-to-br ${gradient} px-4 pt-12 pb-4 text-white`}>
-        <button onClick={() => router.push(backUrl)} className="text-white/80 font-bold text-sm flex items-center gap-1 mb-3">← {lesson.title}</button>
-        <div className="flex items-center justify-between mb-3">
-          <h1 className="text-xl font-black">🎤 Phát âm cùng AI</h1>
-          <span className="bg-white/20 px-3 py-1 rounded-full font-black text-sm">{step + 1}/{total}</span>
-        </div>
-        <div className="h-1.5 bg-white/20 rounded-full overflow-hidden">
-          <div className="h-full bg-white/70 rounded-full transition-all" style={{ width: `${((step + 1) / total) * 100}%` }} />
-        </div>
-      </div>
+      <GameHeader colorCls={`bg-gradient-to-br ${gradient}`} title="🎤 Phát âm cùng AI" subtitle={lesson.title} onBack={() => router.push(backUrl)} right={<>{step + 1}/{total}</>} progress={{ value: ((step + 1) / total) * 100, max: 100 }} />
 
       <div className="flex-1 flex flex-col px-4 py-4 gap-4">
         {/* Sentence card */}
-        <div className="bg-white rounded-3xl p-5 shadow-md w-full">
+        <div className="bg-white rounded-3xl p-5 w-full border-2 border-slate-200 border-b-[4px] border-b-slate-300">
           <div className="flex items-start justify-between gap-3">
             <div className="flex-1 flex flex-col gap-2">
               <HighlightedSentence en={current.en} targets={current.targets} />
@@ -347,7 +336,7 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
           {phase === 'countdown' && (
             <>
               <div className="w-20 h-20 rounded-full bg-rose-100 border-4 border-rose-300 flex items-center justify-center animate-pulse">
-                <span className="text-5xl font-black text-rose-500">{countdown}</span>
+                <span className="text-5xl font-bold text-rose-500">{countdown}</span>
               </div>
               <p className="text-rose-400 font-bold text-sm">Chuẩn bị đọc...</p>
               <button onClick={retry} className="text-gray-300 text-xs font-semibold underline active:scale-95">Huỷ</button>
@@ -380,27 +369,27 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
 
           {phase === 'done' && unclear && (
             <div className="w-full flex flex-col gap-3">
-              <div className="bg-amber-50 border-2 border-amber-200 rounded-2xl p-4 text-center">
+              <div className="bg-amber-50 border-2 border-b-[4px] border-amber-200 border-b-amber-300 rounded-3xl p-4 text-center">
                 <p className="text-2xl mb-1">🔄</p>
-                <p className="font-black text-amber-700">Chưa nghe rõ tiếng Anh</p>
+                <p className="font-bold text-amber-700">Chưa nghe rõ tiếng Anh</p>
                 <p className="text-amber-500 text-sm mt-1">Đọc to hơn và gần micro hơn nhé!</p>
               </div>
               {playbackUrl && (
                 <button onClick={() => new Audio(playbackUrl).play()}
-                  className="w-full bg-white border-2 border-rose-100 text-rose-500 font-bold text-sm py-2.5 rounded-2xl flex items-center justify-center gap-2 active:scale-95 transition-all">
+                  className={cta('slate', 'flex items-center justify-center gap-2')}>
                   ▶️ Nghe lại giọng của bạn
                 </button>
               )}
               <div className="flex gap-3">
-                <button onClick={retry} className="flex-1 bg-rose-500 text-white font-black py-3 rounded-2xl shadow-md active:scale-95">🎤 Thử lại</button>
-                <button onClick={advance} className="flex-1 bg-white border-2 border-gray-100 text-gray-400 font-bold py-3 rounded-2xl active:scale-95">Bỏ qua →</button>
+                <button onClick={retry} className={cta('rose', 'flex-1')}>🎤 Thử lại</button>
+                <button onClick={advance} className={cta('slate', 'flex-1')}>Bỏ qua →</button>
               </div>
             </div>
           )}
 
           {phase === 'done' && !unclear && (
             <div className="w-full flex flex-col gap-3">
-              <div className={`rounded-2xl p-4 text-center border-2 ${isCorrect ? 'bg-green-50 border-green-200' : 'bg-red-50 border-red-200'}`}>
+              <div className={`rounded-2xl p-4 text-center border-2 ${isCorrect ? 'bg-green-50 border-green-200 border-b-[4px] border-b-green-300' : 'bg-red-50 border-red-200 border-b-[4px] border-b-red-300'}`}>
                 <p className="text-2xl mb-1">{isCorrect ? '✅' : '❌'}</p>
                 {transcript && (
                   <p className="font-bold text-gray-600 text-sm">Bạn đọc: <span className="italic">&ldquo;{transcript}&rdquo;</span></p>
@@ -411,13 +400,13 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
               </div>
               {playbackUrl && (
                 <button onClick={() => new Audio(playbackUrl).play()}
-                  className="w-full bg-white border-2 border-rose-100 text-rose-500 font-bold text-sm py-2.5 rounded-2xl flex items-center justify-center gap-2 active:scale-95 transition-all">
+                  className={cta('slate', 'flex items-center justify-center gap-2')}>
                   ▶️ Nghe lại giọng của bạn
                 </button>
               )}
               <div className="flex gap-3">
-                <button onClick={retry} className="flex-1 bg-white border-2 border-gray-100 text-gray-500 font-bold py-3 rounded-2xl active:scale-95">🔄 Thử lại</button>
-                <button onClick={advance} className={`flex-1 font-black py-3 rounded-2xl shadow-md text-white active:scale-95 ${isCorrect ? 'bg-green-500' : btnColor}`}>
+                <button onClick={retry} className={cta('slate', 'flex-1')}>🔄 Thử lại</button>
+                <button onClick={advance} className={cta(isCorrect ? 'green' : colorFamily(btnColor), 'flex-1')}>
                   {step + 1 >= total ? 'Kết quả →' : 'Tiếp theo →'}
                 </button>
               </div>
