@@ -32,7 +32,7 @@ export default function UpgradeBanner({ plan, freeTrialExpiresAt, planEndDate, u
     <>
       <button
         onClick={() => setOpen(true)}
-        className="fixed top-4 left-4 z-30 flex items-center gap-2 bg-gradient-to-r from-amber-400 to-orange-400 hover:from-amber-500 hover:to-orange-500 text-white font-black text-sm px-3 py-2 rounded-full shadow-lg active:scale-95 transition-all"
+        className="fixed top-4 left-4 z-30 flex items-center gap-2 bg-gradient-to-r from-amber-400 to-orange-400 hover:from-amber-500 hover:to-orange-500 text-white font-bold text-sm px-3 py-2 rounded-full shadow-lg active:scale-95 transition-all"
       >
         <span className="text-base">⭐</span>
         <span>{trialExpired ? 'Hết hạn! Nâng cấp' : `FREE (còn ${daysLeft}d)`}</span>

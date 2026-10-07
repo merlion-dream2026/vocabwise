@@ -74,7 +74,7 @@ export default function LearningHistoryPanel({ syncByLevel, className }: { syncB
         onClick={() => setOpen(o => !o)}
         className="w-full px-3 py-2 flex items-center justify-between hover:bg-gray-50 transition-colors">
         <span className="text-sm font-bold text-gray-400">📅 Lịch sử 30 ngày</span>
-        <span className={`text-gray-400 text-sm font-black transition-transform duration-200 ${open ? 'rotate-180' : ''}`}>▾</span>
+        <span className={`text-gray-400 text-sm font-bold transition-transform duration-200 ${open ? 'rotate-180' : ''}`}>▾</span>
       </button>
 
       {open && (
@@ -85,7 +85,7 @@ export default function LearningHistoryPanel({ syncByLevel, className }: { syncB
             <p className="text-sm text-gray-400 text-center py-1">Chưa có hoạt động trong 30 ngày qua</p>
           ) : days.map(h => (
             <div key={h.date}>
-              <p className="text-xs font-black text-gray-400 mb-1">{h.label}</p>
+              <p className="text-xs font-bold text-gray-400 mb-1">{h.label}</p>
               <div className="space-y-0.5">
                 {h.phonics && (
                   <div className="flex items-start gap-2 text-sm">

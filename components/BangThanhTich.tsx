@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
+import { cta } from '@/components/ChunkyUI'
 
 // ─── Types ────────────────────────────────────────────────────
 type HistoryEntry = { words?: number; games?: number; xp?: number }
@@ -76,7 +77,7 @@ export default function BangThanhTich({ entries, variant = 'dashboard', onViewCh
   const topXp  = data[0]?.xp ?? 0
   const isTie  = data.filter(d => d.xp === topXp).length > 1 && topXp > 0
 
-  const btnRadius  = variant === 'kids' ? 'rounded-3xl shadow-lg' : 'rounded-2xl shadow-sm'
+  const btnRadius  = 'rounded-3xl border-b-[4px] border-black/20'
   const emojiSize  = variant === 'kids' ? 'text-4xl' : 'text-3xl'
   const titleSize  = variant === 'kids' ? 'text-lg' : 'text-base'
 
@@ -85,14 +86,14 @@ export default function BangThanhTich({ entries, variant = 'dashboard', onViewCh
       {/* Trigger button */}
       <button
         onClick={() => setOpen(true)}
-        className={`w-full bg-gradient-to-r from-purple-500 to-pink-500 ${btnRadius} p-4 flex items-center gap-4 active:scale-95 transition-transform`}
+        className={`w-full bg-gradient-to-r from-purple-500 to-pink-500 ${btnRadius} p-4 flex items-center gap-4 transition-[transform,border-width] active:translate-y-0.5 active:border-b-2`}
       >
         <span className={emojiSize}>🏆</span>
         <div className="flex-1 text-left">
-          <p className={`text-white font-black ${titleSize} leading-tight`}>Bảng Thành Tích</p>
+          <p className={`text-white font-bold ${titleSize} leading-tight`}>Bảng Thành Tích</p>
           <p className="text-white/80 text-sm font-semibold">Mỗi bé học được bao nhiêu?</p>
         </div>
-        <span className="text-white/80 font-black text-lg">→</span>
+        <span className="text-white/80 font-bold text-lg">→</span>
       </button>
 
       {/* Modal */}
@@ -108,7 +109,7 @@ export default function BangThanhTich({ entries, variant = 'dashboard', onViewCh
             {/* Header */}
             <div className="bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-5 text-center">
               <p className="text-4xl mb-1">🏆</p>
-              <h2 className="text-white font-black text-xl">Bảng Thành Tích</h2>
+              <h2 className="text-white font-bold text-xl">Bảng Thành Tích</h2>
               <p className="text-white/80 text-sm font-semibold mt-0.5">
                 {period === 'today' ? 'Học hôm nay' : `${days} ngày gần nhất`}
               </p>
@@ -164,7 +165,7 @@ export default function BangThanhTich({ entries, variant = 'dashboard', onViewCh
                           <span className="text-2xl">{medals[i] ?? '🎖️'}</span>
                           <Image src={getAvatarSrc(d.child.emoji)} width={40} height={40} className="rounded-full object-cover flex-shrink-0" alt="" unoptimized />
                           <div className="flex-1">
-                            <p className={`font-black text-base ${isWinner ? 'text-yellow-700' : 'text-gray-800'}`}>
+                            <p className={`font-bold text-base ${isWinner ? 'text-yellow-700' : 'text-gray-800'}`}>
                               {d.child.name} {isWinner && '👑'}
                             </p>
                             <p className="text-xs text-gray-400 font-semibold">
@@ -197,7 +198,7 @@ export default function BangThanhTich({ entries, variant = 'dashboard', onViewCh
 
               <button
                 onClick={() => setOpen(false)}
-                className="w-full mt-1 bg-gray-100 hover:bg-gray-200 text-gray-600 font-black rounded-2xl py-3 transition-colors"
+                className={cta('slate', 'mt-1')}
               >
                 Đóng
               </button>

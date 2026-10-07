@@ -64,8 +64,8 @@ export default function UpgradeModal({ onClose, username }: Props) {
 
         {/* Header */}
         <div className="bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-5 text-center relative">
-          <button ref={closeBtnRef} onClick={onClose} aria-label="Đóng" className="absolute right-4 top-4 text-white/70 hover:text-white text-xl leading-none">×</button>
-          <h2 id="upgrade-modal-title" className="text-white font-black text-xl flex items-center justify-center gap-2">⭐ Nâng cấp Pro</h2>
+          <button ref={closeBtnRef} onClick={onClose} aria-label="Đóng" className="absolute right-4 top-4 flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 text-lg font-bold text-white transition-transform active:translate-y-0.5 active:border-b-2 leading-none">×</button>
+          <h2 id="upgrade-modal-title" className="text-white font-bold text-xl flex items-center justify-center gap-2">⭐ Nâng cấp Pro</h2>
           <p className="text-white/80 text-sm font-semibold mt-0.5">5.100+ từ · Daily + Academic · Gói dài = nhiều ưu đãi hơn</p>
         </div>
 
@@ -75,11 +75,11 @@ export default function UpgradeModal({ onClose, username }: Props) {
             <table className="w-full text-xs min-w-[300px]">
               <thead>
                 <tr className="bg-gray-50 border-b border-gray-100">
-                  <th className="text-left px-3 py-2 font-black text-gray-500 w-[38%]">Tính năng</th>
-                  <th className="px-1 py-2 font-black text-gray-400 text-center">Free</th>
-                  <th className="px-1 py-2 font-black text-purple-600 text-center">1T</th>
-                  <th className="px-1 py-2 font-black text-purple-600 text-center">3T</th>
-                  <th className="px-1 py-2 font-black text-indigo-600 text-center">6T</th>
+                  <th className="text-left px-3 py-2 font-bold text-gray-500 w-[38%]">Tính năng</th>
+                  <th className="px-1 py-2 font-bold text-gray-400 text-center">Free</th>
+                  <th className="px-1 py-2 font-bold text-purple-600 text-center">1T</th>
+                  <th className="px-1 py-2 font-bold text-purple-600 text-center">3T</th>
+                  <th className="px-1 py-2 font-bold text-indigo-600 text-center">6T</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-50">
@@ -119,12 +119,12 @@ export default function UpgradeModal({ onClose, username }: Props) {
                 className={`relative rounded-2xl border-2 p-3 text-center transition-all ${selectedPlan === p.key ? 'border-purple-400 bg-purple-50' : 'border-gray-100 bg-gray-50 hover:border-purple-200'}`}
               >
                 {p.badge && (
-                  <span className={`absolute -top-2.5 left-1/2 -translate-x-1/2 text-[10px] font-black px-2 py-0.5 rounded-full whitespace-nowrap ${p.badgeCls}`}>
+                  <span className={`absolute -top-2.5 left-1/2 -translate-x-1/2 text-[10px] font-bold px-2 py-0.5 rounded-full whitespace-nowrap ${p.badgeCls}`}>
                     {p.badge}
                   </span>
                 )}
-                <p className="font-black text-gray-800 text-sm">{p.label}</p>
-                <p className="font-black text-purple-600 text-base mt-0.5">{p.price}</p>
+                <p className="font-bold text-gray-800 text-sm">{p.label}</p>
+                <p className="font-bold text-purple-600 text-base mt-0.5">{p.price}</p>
                 {p.note && <p className="text-green-600 font-bold text-[10px] mt-0.5 leading-tight">{p.note}</p>}
               </button>
             ))}
@@ -132,7 +132,7 @@ export default function UpgradeModal({ onClose, username }: Props) {
 
           {/* Plan-specific extras */}
           <div className="bg-indigo-50 rounded-2xl p-3 space-y-1.5">
-            <p className="text-[11px] font-black text-indigo-500 uppercase tracking-wide mb-1">
+            <p className="text-[11px] font-bold text-indigo-500 uppercase tracking-wide mb-1">
               {selectedPlan === '1month' ? 'Gói 1 tháng bao gồm:' : selectedPlan === '3months' ? 'Gói 3 tháng bao gồm:' : '👑 Gói 6 tháng bao gồm:'}
             </p>
             {(PLAN_EXTRAS[selectedPlan] ?? []).map(item => (
@@ -142,7 +142,7 @@ export default function UpgradeModal({ onClose, username }: Props) {
 
           {/* VietQR */}
           <div className="flex flex-col items-center bg-gray-50 rounded-2xl p-4">
-            <p className="text-xs font-black text-gray-600 mb-2">📱 Quét QR để chuyển khoản ngay</p>
+            <p className="text-xs font-bold text-gray-600 mb-2">📱 Quét QR để chuyển khoản ngay</p>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={qrUrl}
@@ -156,7 +156,7 @@ export default function UpgradeModal({ onClose, username }: Props) {
 
           {/* Manual transfer info */}
           <div className="bg-gray-50 rounded-2xl p-4 space-y-3">
-            <p className="font-black text-gray-800 text-sm">Hoặc chuyển khoản thủ công:</p>
+            <p className="font-bold text-gray-800 text-sm">Hoặc chuyển khoản thủ công:</p>
             <div className="bg-white rounded-xl p-2.5 border border-gray-200 text-xs space-y-1.5">
               <div><span className="text-gray-400">Ngân hàng:</span> <strong>{BANK_INFO.bank}</strong></div>
               <div><span className="text-gray-400">Số TK:</span> <strong>{BANK_INFO.account}</strong></div>
@@ -179,7 +179,7 @@ export default function UpgradeModal({ onClose, username }: Props) {
             </div>
             <button
               onClick={copyTransfer}
-              className={`w-full font-black rounded-xl py-2.5 text-sm transition-all active:scale-95 ${copied ? 'bg-green-500 text-white' : 'bg-purple-100 text-purple-700 hover:bg-purple-200'}`}
+              className={`w-full font-bold rounded-xl py-2.5 text-sm transition-all active:scale-95 ${copied ? 'bg-green-500 text-white' : 'bg-purple-100 text-purple-700 hover:bg-purple-200'}`}
             >
               {copied ? '✅ Đã copy!' : '📋 Copy nội dung chuyển khoản'}
             </button>
@@ -187,15 +187,15 @@ export default function UpgradeModal({ onClose, username }: Props) {
 
           {/* Step 3 — send proof */}
           <div className="bg-blue-50 rounded-2xl p-4">
-            <p className="font-black text-gray-800 text-sm mb-2">
-              <span className="text-purple-600 font-black mr-1">3.</span>
+            <p className="font-bold text-gray-800 text-sm mb-2">
+              <span className="text-purple-600 font-bold mr-1">3.</span>
               Gửi ảnh chụp giao dịch để được kích hoạt
             </p>
             <a
               href={zaloUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-600 text-white font-black py-3 rounded-xl text-sm transition-colors active:scale-95"
+              className="flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 rounded-xl text-sm transition-colors active:scale-95"
             >
               📸 Gửi ảnh xác nhận thanh toán
             </a>

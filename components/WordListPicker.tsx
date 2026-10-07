@@ -1,5 +1,6 @@
 'use client'
 import { useEffect, useRef, useState } from 'react'
+import { cta } from '@/components/ChunkyUI'
 
 export type WordList = { id: number; name: string; color: string }
 
@@ -66,7 +67,7 @@ export default function WordListPicker({ word, onConfirm, onCancel }: Props) {
 
         <div className="px-5 pt-2 pb-5">
           <p className="text-xs text-gray-400 font-bold mb-1">Lưu từ</p>
-          <h3 className="text-lg font-black text-gray-800 mb-4">
+          <h3 className="text-lg font-bold text-gray-800 mb-4">
             ⭐ <span className="italic">{word}</span>
           </h3>
 
@@ -77,11 +78,11 @@ export default function WordListPicker({ word, onConfirm, onCancel }: Props) {
               {/* Default — no list */}
               <button
                 onClick={() => onConfirm(null)}
-                className="w-full flex items-center gap-3 px-4 py-3 rounded-2xl border-2 border-gray-100 hover:border-indigo-200 hover:bg-indigo-50 transition-all active:scale-[0.98] text-left"
+                className="w-full flex items-center gap-3 px-4 py-3 rounded-2xl border-2 border-b-[4px] border-slate-200 border-b-slate-300 hover:bg-indigo-50 transition-[transform,border-width] active:translate-y-0.5 active:border-b-2 text-left"
               >
                 <span className="text-xl">📌</span>
                 <div>
-                  <p className="font-black text-gray-800 text-sm">Tất cả (Mặc định)</p>
+                  <p className="font-bold text-gray-800 text-sm">Tất cả (Mặc định)</p>
                   <p className="text-xs text-gray-400">Không gắn vào danh sách nào</p>
                 </div>
               </button>
@@ -91,13 +92,13 @@ export default function WordListPicker({ word, onConfirm, onCancel }: Props) {
                 <button
                   key={l.id}
                   onClick={() => onConfirm(l.id)}
-                  className="w-full flex items-center gap-3 px-4 py-3 rounded-2xl border-2 border-gray-100 hover:border-indigo-200 hover:bg-indigo-50 transition-all active:scale-[0.98] text-left"
+                  className="w-full flex items-center gap-3 px-4 py-3 rounded-2xl border-2 border-b-[4px] border-slate-200 border-b-slate-300 hover:bg-indigo-50 transition-[transform,border-width] active:translate-y-0.5 active:border-b-2 text-left"
                 >
                   <span
                     className="w-8 h-8 rounded-xl flex-shrink-0"
                     style={{ backgroundColor: l.color }}
                   />
-                  <p className="font-black text-gray-800 text-sm">{l.name}</p>
+                  <p className="font-bold text-gray-800 text-sm">{l.name}</p>
                 </button>
               ))}
             </div>
@@ -136,14 +137,14 @@ export default function WordListPicker({ word, onConfirm, onCancel }: Props) {
               <div className="flex gap-2">
                 <button
                   onClick={() => { setCreating(false); setNewName('') }}
-                  className="flex-1 py-2 rounded-xl border border-gray-200 text-gray-500 font-bold text-sm"
+                  className={cta('slate', 'flex-1')}
                 >
                   Hủy
                 </button>
                 <button
                   onClick={createList}
                   disabled={!newName.trim() || saving}
-                  className="flex-1 py-2 rounded-xl bg-indigo-600 text-white font-black text-sm disabled:opacity-50 active:scale-95 transition-all"
+                  className={cta('indigo', 'flex-1')}
                 >
                   {saving ? '...' : 'Tạo & Lưu'}
                 </button>

@@ -42,10 +42,10 @@ export default function OfflineDownloadButton({ book, topicId, topicName, downlo
     if (state === 'downloading') return (
       <span className="block w-3 h-3 border-2 border-current border-t-transparent rounded-full animate-spin" />
     )
-    if (state === 'downloaded') return <span className="text-[10px] font-black text-green-600">✓</span>
+    if (state === 'downloaded') return <span className="text-[10px] font-bold text-green-600">✓</span>
     if (state === 'error') return <span className="text-[10px]">!</span>
     if (atLimit) return <span className="text-[10px]">⊘</span>
-    return <span className="text-[10px] font-black">↓</span>
+    return <span className="text-[10px] font-bold">↓</span>
   })()
 
   const colorCls = state === 'downloaded'
@@ -53,7 +53,7 @@ export default function OfflineDownloadButton({ book, topicId, topicName, downlo
     : atLimit
     ? 'bg-gray-100 border-gray-200 text-gray-400 cursor-not-allowed'
     : state === 'error'
-    ? 'bg-red-50 border-red-200 text-red-500'
+    ? 'bg-red-50 border-red-200 border-b-[4px] border-b-red-300 text-red-500'
     : 'bg-white/90 border-gray-200 text-gray-500 hover:bg-purple-50 hover:border-purple-300 hover:text-purple-600'
 
   return (
@@ -77,7 +77,7 @@ export default function OfflineDownloadButton({ book, topicId, topicName, downlo
             className="bg-white rounded-3xl p-5 w-full max-w-sm shadow-2xl mb-2"
             onClick={e => e.stopPropagation()}
           >
-            <p className="font-black text-gray-800 text-base mb-1">Xóa bản offline?</p>
+            <p className="font-bold text-gray-800 text-base mb-1">Xóa bản offline?</p>
             <p className="text-gray-500 text-sm mb-4">
               {topicName ? <><span className="font-semibold text-gray-700">&ldquo;{topicName}&rdquo;</span> </> : 'Chủ đề này '}
               sẽ bị xóa khỏi bộ nhớ thiết bị. Bạn có thể tải lại bất cứ lúc nào.
@@ -85,7 +85,7 @@ export default function OfflineDownloadButton({ book, topicId, topicName, downlo
             <div className="flex gap-3">
               <button
                 onClick={handleConfirmRemove}
-                className="flex-1 bg-red-500 text-white font-black py-3 rounded-2xl active:scale-95 transition-all"
+                className="flex-1 bg-red-500 text-white font-bold py-3 rounded-2xl active:scale-95 transition-all"
               >
                 Xóa
               </button>

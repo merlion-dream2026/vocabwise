@@ -81,7 +81,7 @@ export default function OnboardingChecklist({
       {/* Header */}
       <div className="flex items-center justify-between mb-4">
         <div>
-          <h3 className="font-black text-gray-800 text-base">🚀 Bắt đầu cùng VocabWise</h3>
+          <h3 className="font-bold text-gray-800 text-base">🚀 Bắt đầu cùng VocabWise</h3>
           <p className="text-xs text-gray-400 font-semibold mt-0.5">{completedCount}/{steps.length} bước hoàn thành</p>
         </div>
         <button
@@ -105,7 +105,7 @@ export default function OnboardingChecklist({
       <div className="space-y-2.5">
         {steps.map((step) => (
           <div key={step.id} className={`flex items-start gap-3 ${step.done ? 'opacity-60' : ''}`}>
-            <div className={`flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-black mt-0.5 transition-all ${
+            <div className={`flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold mt-0.5 transition-all ${
               step.done
                 ? 'bg-green-500 text-white'
                 : 'bg-white border-2 border-purple-200 text-purple-400'

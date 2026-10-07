@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
+import { cta } from '@/components/ChunkyUI'
 
 type DownloadEntry = {
   cacheKey: string
@@ -134,7 +135,7 @@ export function OfflineStoragePanel() {
 
   return (
     <div className="space-y-3">
-      <div className="rounded-2xl border border-gray-100 overflow-hidden divide-y divide-gray-100">
+      <div className="rounded-3xl border-2 border-b-[4px] border-slate-200 border-b-slate-300 overflow-hidden divide-y divide-gray-100">
         {/* Select all row */}
         <div className="px-4 py-2.5 flex items-center gap-3 bg-gray-50">
           <input
@@ -184,7 +185,7 @@ export function OfflineStoragePanel() {
         <button
           onClick={deleteSelected}
           disabled={deleting}
-          className="w-full bg-red-50 text-red-500 font-black text-sm py-2.5 rounded-2xl border border-red-200 hover:bg-red-100 disabled:opacity-50 transition-colors active:scale-95"
+          className="w-full bg-red-50 text-red-500 font-bold text-sm py-2.5 rounded-2xl border-2 border-b-[3px] border-red-200 border-b-red-300 hover:bg-red-100 disabled:opacity-50 transition-colors active:scale-95"
         >
           {deleting ? 'Đang xóa...' : `🗑 Xóa ${selected.size} chủ đề đã chọn`}
         </button>
@@ -193,17 +194,17 @@ export function OfflineStoragePanel() {
       {confirmAll && (
         <div className="fixed inset-0 bg-black/50 flex items-end justify-center z-50 p-4" onClick={() => setConfirmAll(false)}>
           <div className="bg-white rounded-3xl p-5 w-full max-w-sm shadow-2xl mb-2" onClick={e => e.stopPropagation()}>
-            <p className="font-black text-gray-800 text-base mb-1">Xóa tất cả offline?</p>
+            <p className="font-bold text-gray-800 text-base mb-1">Xóa tất cả offline?</p>
             <p className="text-gray-500 text-sm mb-4">
               Tất cả <span className="font-semibold text-gray-700">{entries.length} chủ đề</span> đã tải sẽ bị xóa. Có thể tải lại bất cứ lúc nào.
             </p>
             <div className="flex gap-3">
               <button onClick={deleteAll} disabled={deleting}
-                className="flex-1 bg-red-500 text-white font-black py-3 rounded-2xl active:scale-95 disabled:opacity-50 transition-all">
+                className={cta('red', 'flex-1')}>
                 {deleting ? 'Đang xóa...' : 'Xóa tất cả'}
               </button>
               <button onClick={() => setConfirmAll(false)}
-                className="flex-1 bg-gray-100 text-gray-700 font-bold py-3 rounded-2xl active:scale-95 transition-all">
+                className={cta('slate', 'flex-1')}>
                 Huỷ
               </button>
             </div>

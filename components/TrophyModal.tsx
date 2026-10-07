@@ -97,7 +97,7 @@ export default function TrophyModal({ topicName, topicEmoji, childName, levelNam
 
         <h2
           id="trophy-modal-title"
-          className="tm-up mb-1 bg-gradient-to-r from-amber-500 via-orange-500 to-pink-500 bg-clip-text text-3xl font-black text-transparent"
+          className="tm-up mb-1 bg-gradient-to-r from-amber-500 via-orange-500 to-pink-500 bg-clip-text text-3xl font-bold text-transparent"
           style={{ animationDelay: '0.7s' }}
         >
           Chinh phục hoàn toàn!
@@ -121,13 +121,13 @@ export default function TrophyModal({ topicName, topicEmoji, childName, levelNam
         <div className="tm-up mt-5 flex w-full gap-3" style={{ animationDelay: '1s' }}>
           <button
             onClick={handleShare}
-            className="flex-1 rounded-2xl border-b-[5px] border-amber-600 bg-amber-400 py-3 text-sm font-black text-amber-950 transition-[transform,border-width] duration-100 active:translate-y-1 active:border-b-[1px]"
+            className="flex-1 rounded-2xl border-b-[5px] border-amber-600 bg-amber-400 py-3 text-sm font-bold text-amber-950 transition-[transform,border-width] duration-100 active:translate-y-1 active:border-b-[1px]"
           >
             📤 Chia sẻ
           </button>
           <button
             onClick={onDone}
-            className="flex-1 rounded-2xl border-b-[5px] border-gray-300 bg-gray-100 py-3 text-sm font-black text-gray-700 transition-[transform,border-width] duration-100 active:translate-y-1 active:border-b-[1px]"
+            className="flex-1 rounded-2xl border-b-[5px] border-gray-300 bg-gray-100 py-3 text-sm font-bold text-gray-700 transition-[transform,border-width] duration-100 active:translate-y-1 active:border-b-[1px]"
           >
             Tiếp tục →
           </button>
