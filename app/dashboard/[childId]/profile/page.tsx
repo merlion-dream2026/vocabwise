@@ -8,6 +8,7 @@ import { PRESS } from '@/components/TopicHub'
 import PageSkeleton from '@/components/PageSkeleton'
 import { BadgeArt } from '@/components/Mascot'
 import MascotBuddyCard from '@/components/MascotBuddyCard'
+import BadgeCollection, { BadgeDetailDialog } from '@/components/BadgeCollection'
 import StickerAlbum, { type AlbumTab } from '@/components/StickerAlbum'
 import { ALL_BADGES, buildSyncSummary, computeEarnedBadges, getXpLevel, type SyncSummary } from '@/lib/badges'
 import { DAILY_LEVEL_ORDER, getPhonicsProgress, type SyncLevel } from '@/lib/childProgress'
@@ -26,6 +27,7 @@ export default function ProfilePage() {
   const [child, setChild] = useState<Child | null>(null)
   const [sync, setSync] = useState<Record<string, LevelSync> | null>(null)
   const [showBadges, setShowBadges] = useState(false)
+  const [earnedOpen, setEarnedOpen] = useState<number | null>(null)   // zoomed badge in the collapsed row
 
   useEffect(() => {
     Promise.all([
@@ -53,8 +55,9 @@ export default function ProfilePage() {
     const today = new Date(); const yest = new Date(Date.now() - 86400000)
     const ok = new Set([localDay(today), localDay(yest)])
     const streak = Math.max(0, ...DAILY_LEVEL_ORDER.map(l => { const s = all[l]?.streak; return s?.lastActive && ok.has(s.lastActive) ? (s.current ?? 0) : 0 }))
-    const earned = computeEarnedBadges(total, getPhonicsProgress(all.phonics).mastered)
-    return { total, streak, earned, level: getXpLevel(total.xp) }
+    const phonics = getPhonicsProgress(all.phonics).mastered
+    const earned = computeEarnedBadges(total, phonics)
+    return { total, streak, earned, phonics, level: getXpLevel(total.xp) }
   }, [sync])
 
   if (!child || !sync) return <PageSkeleton header="bg-purple-500" bg="from-purple-50 via-pink-50 to-rose-50" cards={[90, 100, 260]} />
@@ -111,18 +114,19 @@ export default function ProfilePage() {
             <span className={`flex h-7 w-7 items-center justify-center rounded-full bg-slate-100 text-xs font-bold text-slate-500 transition-transform ${showBadges ? 'rotate-180' : ''}`}>▾</span>
           </button>
           {showBadges ? (
-            <ul className="mt-3 grid grid-cols-2 gap-2">
-              {ALL_BADGES.map(b => (
-                <li key={b.id} className={`flex items-center gap-2 rounded-2xl p-2 ${earnedIds.has(b.id) ? 'bg-amber-50' : 'bg-slate-50 opacity-50 grayscale'}`}>
-                  <BadgeArt id={b.id} emoji={b.emoji} size={40} className="rounded-xl" />
-                  <span className="min-w-0"><span className="block truncate text-xs font-bold text-slate-700">{b.name}</span><span className="block text-[10px] font-semibold leading-tight text-slate-500">{b.desc}</span></span>
-                </li>
-              ))}
-            </ul>
+            <div className="mt-3"><BadgeCollection earnedIds={earnedIds} summary={stats.total} phonics={stats.phonics} /></div>
           ) : (
             <div className="mt-2 flex flex-wrap gap-1.5">
               {stats.earned.length === 0 && <p className="text-sm font-semibold text-slate-500">Học một chút để nhận huy hiệu đầu tiên nhé!</p>}
-              {stats.earned.map(b => <span key={b.id} title={b.name} className="rounded-xl bg-amber-50 p-0.5"><BadgeArt id={b.id} emoji={b.emoji} size={36} alt={b.name} className="rounded-[10px]" /></span>)}
+              {stats.earned.map((b, i) => (
+                <button key={b.id} type="button" title={b.name} onClick={() => setEarnedOpen(i)} className={`rounded-xl bg-amber-50 p-0.5 ${PRESS}`}>
+                  <BadgeArt id={b.id} emoji={b.emoji} size={36} alt={b.name} className="rounded-[10px]" />
+                </button>
+              ))}
+              {earnedOpen !== null && (
+                <BadgeDetailDialog index={earnedOpen} onIndex={setEarnedOpen} onClose={() => setEarnedOpen(null)} ids={stats.earned.map(b => b.id)}
+                  earnedIds={earnedIds} summary={stats.total} phonics={stats.phonics} />
+              )}
             </div>
           )}
         </section>

@@ -14,7 +14,11 @@ type Word = { word: string; meaning: string; emoji: string; examples?: { en: str
 type Topic = { id: string; name: string; emoji: string; color: string; words: Word[] }
 type Props = { topic: Topic; level: string; backUrl: string }
 
-const TIME_PER_WORD = 8 // seconds — faster than Typing Sprint (15s)
+// Seconds for one word: a flat 8s was too short to type long words. Scales with length so short words
+// stay snappy (≥10s) and long ones stay fair (≤18s): 'cat' 10s · 'elephant' 12s · 'refrigerator' 14s.
+export function timeForWord(word: string): number {
+  return Math.min(18, Math.max(10, Math.round(6 + 0.7 * word.length)))
+}
 
 function shuffle<T>(arr: T[]): T[] {
   return [...arr].sort(() => Math.random() - 0.5)
@@ -27,7 +31,7 @@ export default function SpeedRoundGame({ topic, level, backUrl }: Props) {
   const [idx, setIdx] = useState(0)
   const [input, setInput] = useState('')
   const [result, setResult] = useState<'idle' | 'correct' | 'wrong' | 'timeout'>('idle')
-  const [timeLeft, setTimeLeft] = useState(TIME_PER_WORD)
+  const [timeLeft, setTimeLeft] = useState(() => timeForWord(words[0]?.word ?? ''))
   const [score, setScore] = useState(0)
   const [wrongWords, setWrongWords] = useState<string[]>([])
   const [done, setDone] = useState(false)
@@ -53,16 +57,18 @@ export default function SpeedRoundGame({ topic, level, backUrl }: Props) {
     if (timerRef.current) clearInterval(timerRef.current)
   }, [])
 
-  const startTimer = useCallback(() => {
+  const timeLimit = timeForWord(word?.word ?? '')
+
+  const startTimer = useCallback((seconds: number) => {
     clearTimer()
-    setTimeLeft(TIME_PER_WORD)
+    setTimeLeft(seconds)
     timerRef.current = setInterval(() => setTimeLeft((t) => t - 1), 1000)
   }, [clearTimer])
 
   useEffect(() => {
     if (done) return
     const t = setTimeout(() => speak(word.word), 300)
-    startTimer()
+    startTimer(timeForWord(word.word))
     setTimeout(() => inputRef.current?.focus(), 100)
     return () => clearTimeout(t)
   }, [idx, done])
@@ -139,9 +145,9 @@ export default function SpeedRoundGame({ topic, level, backUrl }: Props) {
     )
   }
 
-  const timerPct = (timeLeft / TIME_PER_WORD) * 100
+  const timerPct = (timeLeft / timeLimit) * 100
   const timerColor =
-    timeLeft > 5 ? 'bg-violet-400' : timeLeft > 2 ? 'bg-yellow-400' : 'bg-red-400'
+    timeLeft > timeLimit / 2 ? 'bg-violet-400' : timeLeft > 3 ? 'bg-yellow-400' : 'bg-red-400'
   const inputStyle =
     result === 'correct'
       ? 'border-green-400 bg-green-50'

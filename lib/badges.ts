@@ -111,3 +111,48 @@ export function getXpLevel(xp: number): XpLevel & { pct: number } {
     : 100
   return { ...lvl, pct }
 }
+
+// Longer "how do I get it" line for the badge detail view, plus live progress toward it.
+// Thresholds mirror computeEarnedBadges() — keep the two in sync.
+const BADGE_TARGET: Record<string, { key: keyof SyncSummary | 'phonics'; target: number; unit: string }> = {
+  first_word: { key: 'seenCount', target: 1, unit: 'từ' },
+  words_50: { key: 'seenCount', target: 50, unit: 'từ' },
+  words_100: { key: 'seenCount', target: 100, unit: 'từ' },
+  words_300: { key: 'seenCount', target: 300, unit: 'từ' },
+  streak_3: { key: 'bestStreak', target: 3, unit: 'ngày' },
+  streak_7: { key: 'bestStreak', target: 7, unit: 'ngày' },
+  streak_14: { key: 'bestStreak', target: 14, unit: 'ngày' },
+  streak_30: { key: 'bestStreak', target: 30, unit: 'ngày' },
+  master_1: { key: 'masteredTopics', target: 1, unit: 'chủ đề' },
+  master_5: { key: 'masteredTopics', target: 5, unit: 'chủ đề' },
+  master_10: { key: 'masteredTopics', target: 10, unit: 'chủ đề' },
+  xp_100: { key: 'xp', target: 100, unit: 'XP' },
+  xp_500: { key: 'xp', target: 500, unit: 'XP' },
+  xp_1000: { key: 'xp', target: 1000, unit: 'XP' },
+  phonics_start: { key: 'phonics', target: 1, unit: 'nhóm âm' },
+  phonics_5: { key: 'phonics', target: 5, unit: 'nhóm âm' },
+  phonics_15: { key: 'phonics', target: 15, unit: 'nhóm âm' },
+}
+
+export function badgeExplain(id: string): string {
+  const t = BADGE_TARGET[id]
+  if (id === 'first_word') return 'Mở flashcard hoặc chơi một trò bất kỳ để học từ đầu tiên.'
+  if (id === 'perfect') return 'Làm đúng tất cả các câu trong một trò chơi.'
+  if (!t) return ''
+  switch (t.key) {
+    case 'seenCount': return `Học được ${t.target} từ khác nhau — mỗi từ bé gặp trong flashcard hoặc trò chơi đều được tính.`
+    case 'bestStreak': return `Học mỗi ngày, liên tục ${t.target} ngày không nghỉ. Tính theo chuỗi ngày dài nhất bé từng đạt.`
+    case 'masteredTopics': return `Chinh phục ${t.target} chủ đề — đủ sao ở cả Vòng 1 và Vòng 2 để mở quà.`
+    case 'xp': return `Tích lũy ${t.target} XP. Trò càng khó, mỗi câu đúng càng được nhiều XP.`
+    case 'phonics': return `Thành thạo ${t.target} nhóm âm IPA trong mục Phonics.`
+    default: return ''
+  }
+}
+
+// null when the badge has no countable progress (perfect).
+export function badgeProgress(id: string, summary: SyncSummary, phoneticsMastered = 0): { current: number; target: number; unit: string } | null {
+  const t = BADGE_TARGET[id]
+  if (!t) return null
+  const raw = t.key === 'phonics' ? phoneticsMastered : Number(summary[t.key])
+  return { current: Math.min(raw, t.target), target: t.target, unit: t.unit }
+}
