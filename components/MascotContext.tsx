@@ -6,6 +6,7 @@ import { activeChildId } from '@/lib/academicSync'
 import { DEFAULT_MASCOT, isMascotCharacter, type MascotCharacter } from '@/lib/mascots'
 import { MascotCtx } from '@/components/Mascot'
 import { MascotPickDialog } from '@/components/MascotPicker'
+import MascotIntro from '@/components/MascotIntro'
 
 // Which mascot the current child learns with (children.mascot). Child-scoped routes resolve the
 // child from the URL (/dashboard/<id>/…) or the active-child pointer (Academic, My Words); every
@@ -34,6 +35,7 @@ export function ChildMascotProvider({ children }: { children: ReactNode }) {
   // undefined = not resolved yet; null = resolved, no child (or not found) → default mascot
   const [child, setChild] = useState<ChildLite | null | undefined>(undefined)
   const [snoozed, setSnoozed] = useState<string[]>([])
+  const [intro, setIntro] = useState<MascotCharacter | null>(null)   // just picked → hello slides
 
   useEffect(() => {
     if (!inScope) return
@@ -63,6 +65,7 @@ export function ChildMascotProvider({ children }: { children: ReactNode }) {
     if (!res?.ok) return false
     invalidateCachedFetch('/api/children')
     setChild({ ...child, mascot })
+    setIntro(mascot)
     return true
   }
 
@@ -79,6 +82,7 @@ export function ChildMascotProvider({ children }: { children: ReactNode }) {
     <MascotCtx.Provider value={character}>
       {children}
       {askPick && child && <MascotPickDialog childName={child.name} onChoose={choose} onLater={later} />}
+      {intro && child && <MascotIntro character={intro} childName={child.name} onDone={() => setIntro(null)} />}
     </MascotCtx.Provider>
   )
 }

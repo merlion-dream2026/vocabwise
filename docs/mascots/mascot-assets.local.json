@@ -2,7 +2,7 @@
  "schema_version": 1,
  "generated": "2026-10-08",
  "source_root": "VocabWise mascots/ (user local folder; paths relative to it)",
- "app_asset_root": "public/mascots/ (derived copies, long side 512px for pose/anim, 256px for portrait/badge/streak, 1024px for duo scene; RGB PNG, grey background kept, originals untouched)",
+ "app_asset_root": "public/mascots/ (derived copies, long side 512px for pose/anim, 256px for portrait/badge/streak, 1024px for duo scene, 640x960 for onboarding scenes; RGB PNG, grey background kept, originals untouched)",
  "qa_definition": "PASS means prior generation visual QA, not final user acceptance or seamless animation certification.",
  "summary": {
   "catalog_records": 126,
@@ -21,7 +21,7 @@
   "missing": [
    "bubi:pose-think"
   ],
-  "copied_to_app": 58,
+  "copied_to_app": 64,
   "copied_bytes": 8256759
  },
  "missing_assets": [
@@ -2021,7 +2021,10 @@
    "resolved_by": "catalog_filename",
    "local_width": 1024,
    "local_height": 1536,
-   "local_sha256": "f4918a92541a30b663246598400bea2c4ed39dd5bf87b01d03e96a718250c5fc"
+   "local_sha256": "f4918a92541a30b663246598400bea2c4ed39dd5bf87b01d03e96a718250c5fc",
+   "app_url": "/mascots/bubi/bubi-scene-onboarding-1.png",
+   "derived_size": "640x960",
+   "derived_bytes": 566532
   },
   {
    "id": "bubi:scene-onboarding-2",
@@ -2046,7 +2049,10 @@
    "resolved_by": "catalog_filename",
    "local_width": 1024,
    "local_height": 1536,
-   "local_sha256": "35e6cc2de766be930672f8b885e3cb40dde3e294b6fb9117e2843608d673b7ce"
+   "local_sha256": "35e6cc2de766be930672f8b885e3cb40dde3e294b6fb9117e2843608d673b7ce",
+   "app_url": "/mascots/bubi/bubi-scene-onboarding-2.png",
+   "derived_size": "640x960",
+   "derived_bytes": 545456
   },
   {
    "id": "bubi:scene-onboarding-3",
@@ -2071,7 +2077,10 @@
    "resolved_by": "catalog_filename",
    "local_width": 1024,
    "local_height": 1536,
-   "local_sha256": "dd82eaf89da34ef03bdff6a1da4a41137b2852584c5be11cb70381251cb4f791"
+   "local_sha256": "dd82eaf89da34ef03bdff6a1da4a41137b2852584c5be11cb70381251cb4f791",
+   "app_url": "/mascots/bubi/bubi-scene-onboarding-3.png",
+   "derived_size": "640x960",
+   "derived_bytes": 605503
   },
   {
    "id": "bubi:scene-share-card",
@@ -2171,7 +2180,10 @@
    "resolved_by": "catalog_filename",
    "local_width": 1024,
    "local_height": 1536,
-   "local_sha256": "9e23f52011cb3942155156a71aa0feebfa1275c240345e9edad642fc163b1ed3"
+   "local_sha256": "9e23f52011cb3942155156a71aa0feebfa1275c240345e9edad642fc163b1ed3",
+   "app_url": "/mascots/rocky/rocky-scene-onboarding-1.png",
+   "derived_size": "640x960",
+   "derived_bytes": 592259
   },
   {
    "id": "rocky:scene-onboarding-2",
@@ -2196,7 +2208,10 @@
    "resolved_by": "catalog_filename",
    "local_width": 1024,
    "local_height": 1536,
-   "local_sha256": "7c8620afa96765168a88b1cb193e71eb6f3a7b2427b8ff47e7fa303e0160c0e6"
+   "local_sha256": "7c8620afa96765168a88b1cb193e71eb6f3a7b2427b8ff47e7fa303e0160c0e6",
+   "app_url": "/mascots/rocky/rocky-scene-onboarding-2.png",
+   "derived_size": "640x960",
+   "derived_bytes": 575443
   },
   {
    "id": "rocky:scene-onboarding-3",
@@ -2221,7 +2236,10 @@
    "resolved_by": "catalog_filename",
    "local_width": 1024,
    "local_height": 1536,
-   "local_sha256": "455c776c5c391ad0893208206473f2144eac9ac110e6794435e196243057b17c"
+   "local_sha256": "455c776c5c391ad0893208206473f2144eac9ac110e6794435e196243057b17c",
+   "app_url": "/mascots/rocky/rocky-scene-onboarding-3.png",
+   "derived_size": "640x960",
+   "derived_bytes": 647866
   },
   {
    "id": "rocky:scene-share-card",

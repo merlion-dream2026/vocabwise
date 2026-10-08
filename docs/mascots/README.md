@@ -8,6 +8,7 @@
 ## Mỗi bé một mascot (`children.mascot`: `'rocky' | 'bubi' | NULL`)
 - `components/MascotContext.tsx` (`ChildMascotProvider` ở root layout) xác định bé theo URL `/dashboard/<id>/…`, hoặc `nav_child_id` cho `/vocabwise`, `/my-words`. Route khác (landing, 404, onboarding) → `DEFAULT_MASCOT` = Rocky.
 - `NULL` → lần đầu bé vào route của bé sẽ hiện dialog **"Chọn bạn đồng hành"** (`MascotPickDialog`). "Để sau" ẩn tới khi đóng tab (sessionStorage); trong lúc đó hiện Rocky.
+- Bé chọn xong → `MascotIntro`: 3 slide trên `scene-onboarding-1/2/3` (chào + nút nghe lời chào TTS → học qua trò chơi → sưu tầm quà, confetti). Chỉ hiện khi **bé tự chọn** trong dialog; phụ huynh chọn trong form thì không hiện.
 - Phụ huynh chọn/đổi trong form Thêm/Sửa hồ sơ bé (`MascotOptions`: Để bé chọn / Rocky / Bubi).
 - Trong lúc đang tải mascot của bé, `<Mascot>` chỉ hiện ô xám trống, không nháy Rocky → Bubi.
 

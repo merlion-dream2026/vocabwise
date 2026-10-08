@@ -17,6 +17,7 @@ export type MascotShot =
   | 'badge-xp' | 'badge-perfect' | 'badge-phonics'
   | 'streak-3' | 'streak-7' | 'streak-14' | 'streak-30'
   | 'anim-blink'
+  | 'scene-onboarding-1' | 'scene-onboarding-2' | 'scene-onboarding-3'   // 2:3 portrait scenes, own background
 
 // Fallback when no child is in scope or the child hasn't picked one (children.mascot is NULL).
 export const DEFAULT_MASCOT: MascotCharacter = 'rocky'

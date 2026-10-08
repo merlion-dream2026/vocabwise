@@ -51,3 +51,14 @@ body {
 @keyframes mascot-blink { 0%, 97.3% { opacity: 0 } 97.4%, 99.9% { opacity: 1 } 100% { opacity: 0 } }
 .mascot-blink { opacity: 0; animation: mascot-blink 4.5s linear 2s infinite }
 @media (prefers-reduced-motion: reduce) { .mascot-blink { animation: none; display: none } }
+
+/* Mascot intro (components/MascotIntro.tsx) */
+@keyframes mi-pop { 0% { opacity: 0; transform: scale(.85) rotate(-3deg) } 60% { opacity: 1; transform: scale(1.04) rotate(1deg) } 100% { transform: none } }
+@keyframes mi-rise { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }
+@keyframes mi-wave { 0%, 60%, 100% { transform: rotate(0) } 10%, 30% { transform: rotate(16deg) } 20%, 40% { transform: rotate(-8deg) } }
+@keyframes mi-twinkle { 0%, 100% { opacity: .25; transform: scale(.8) } 50% { opacity: 1; transform: scale(1.15) } }
+.mi-pop { animation: mi-pop .5s ease-out both }
+.mi-rise { animation: mi-rise .4s ease-out .15s both }
+.mi-wave { transform-origin: 70% 70%; animation: mi-wave 1.8s ease-in-out .4s 3 }
+.mi-twinkle { animation: mi-twinkle 1.8s ease-in-out infinite }
+@media (prefers-reduced-motion: reduce) { .mi-pop, .mi-rise, .mi-wave, .mi-twinkle { animation: none } }
