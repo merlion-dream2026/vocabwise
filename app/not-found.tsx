@@ -6,7 +6,7 @@ export default function NotFound() {
     <div className="min-h-screen bg-gray-50 flex items-center justify-center p-6">
       <div className="text-center max-w-sm">
         <div className="text-8xl font-bold text-purple-200 mb-2">404</div>
-        <Mascot shot="pose-lost" size={128} priority className="mb-4 rounded-3xl" />
+        <Mascot shot="pose-lost" size={176} priority className="mi-pop mb-4 rounded-3xl shadow-md ring-4 ring-white" />
         <h1 className="text-2xl font-bold text-gray-800 mb-2">Không tìm thấy trang</h1>
         <p className="text-gray-500 text-sm mb-6">Trang này không tồn tại hoặc đã bị xóa.</p>
         <Link

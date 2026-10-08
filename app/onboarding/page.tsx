@@ -72,7 +72,7 @@ export default function OnboardingPage() {
         {/* Step 1 — Choose section */}
         {step === 1 && (
           <div className="flex flex-col items-center text-center gap-6 w-full">
-            <Mascot shot="pose-think" size={112} className="rounded-3xl" />
+            <Mascot shot="pose-think" size={160} priority className="mi-pop rounded-3xl shadow-md ring-4 ring-white" />
             <div>
               <h2 className="text-2xl font-bold text-gray-800 mb-1">Bạn muốn học gì trước?</h2>
               <p className="text-gray-400 text-sm">Có thể đổi bất cứ lúc nào</p>
@@ -154,7 +154,7 @@ export default function OnboardingPage() {
         {/* Step 2 — Quick tips + go */}
         {step === 2 && (
           <div className="flex flex-col items-center text-center gap-6 w-full">
-            <Mascot shot="pose-cheer" size={112} className="rounded-3xl" />
+            <Mascot shot="pose-cheer" size={160} priority className="mi-pop rounded-3xl shadow-md ring-4 ring-white" />
             <div>
               <h2 className="text-2xl font-bold text-gray-800 mb-1">Sẵn sàng rồi!</h2>
               <p className="text-gray-400 text-sm">Một vài mẹo để học hiệu quả</p>

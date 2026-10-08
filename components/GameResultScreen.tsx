@@ -47,7 +47,16 @@ export default function GameResultScreen({
   return (
     <>
       <HubStyles />
-      <div className="hub-shine mb-3 flex h-24 w-24 -rotate-6 items-center justify-center rounded-3xl bg-white text-6xl shadow-md ring-4 ring-amber-100">{grade.emoji}</div>
+      {/* Mascot is the hero; the grade emoji rides on its corner and the mascot's line sits in a bubble below */}
+      <div className="relative mb-3">
+        <Mascot shot={pct >= 90 ? 'pose-cheer' : pct >= 60 ? 'pose-idle' : 'pose-oops'} size={144} blink priority
+          className="mi-pop rounded-3xl shadow-md ring-4 ring-white" />
+        <span aria-hidden className="hub-shine absolute -right-4 -top-3 flex h-12 w-12 rotate-12 items-center justify-center rounded-2xl bg-white text-3xl shadow-md ring-2 ring-amber-100">{grade.emoji}</span>
+      </div>
+      <div className="relative mb-3 max-w-xs rounded-2xl border-2 border-slate-200 bg-white px-4 py-2">
+        <span aria-hidden className="absolute -top-[8px] left-1/2 h-3.5 w-3.5 -translate-x-1/2 rotate-45 border-l-2 border-t-2 border-slate-200 bg-white" />
+        <p className="text-sm font-bold text-slate-600">{owl}</p>
+      </div>
       <h2 className="mb-1 text-3xl font-bold text-gray-800">{grade.label}</h2>
       <div className="mb-1 flex gap-1 text-4xl">
         {[1, 2, 3].map(i => (
@@ -91,10 +100,6 @@ export default function GameResultScreen({
         </div>
       )}
 
-      <div className="mb-4 flex w-full items-center gap-3 rounded-2xl bg-white/80 px-3 py-2">
-        <Mascot shot={pct >= 90 ? 'pose-cheer' : pct >= 60 ? 'pose-idle' : 'pose-oops'} size={48} blink />
-        <p className="text-left text-sm font-bold text-slate-600">{owl}</p>
-      </div>
 
       <div className="w-full space-y-3">
         <PrimaryButton tone="amber" onClick={onRestart}>🔄 Chơi lại</PrimaryButton>

@@ -6,7 +6,7 @@ import {
 } from '@/lib/topicMastery'
 import { speak } from '@/lib/speak'
 import Sticker from '@/components/Sticker'
-import Mascot from '@/components/Mascot'
+import { MascotSays } from '@/components/Mascot'
 
 // Topic hub — "chunky 3D" look: thick bottom borders that press down on tap, saturated state colors
 // (green = done, amber = next / in progress), emoji "stickers" tilted a few degrees, a trail-style
@@ -156,14 +156,13 @@ export function TopicHero({
         <Journey nodes={nodes} onTrophy={onReplayTrophy} />
 
         {/* Mascot + its line (the text carries the message, so the image is decorative) */}
-        <div className="mt-2 flex items-center gap-3 rounded-2xl bg-slate-50 px-3 py-1.5">
-          <Mascot shot={mascotShot} size={48} blink />
-          <p className="min-w-0 flex-1 text-sm font-bold text-slate-600">{mascotSays}</p>
+        <MascotSays shot={mascotShot} blink className="mt-3">
+          <p className="text-sm font-bold text-slate-700">{mascotSays}</p>
           <button type="button" onClick={() => { tap(); onToggleFaq() }} aria-expanded={faqOpen}
-            className={`flex-shrink-0 rounded-full border-b-[3px] px-3 py-1 text-xs font-bold ${PRESS} ${faqOpen ? 'border-purple-300 bg-purple-100 text-purple-700' : 'border-slate-300 bg-white text-slate-600'}`}>
+            className={`mt-1.5 rounded-full border-b-[3px] px-3 py-1 text-xs font-bold ${PRESS} ${faqOpen ? 'border-purple-300 bg-purple-100 text-purple-700' : 'border-slate-300 bg-slate-50 text-slate-600'}`}>
             ❓ Cách học
           </button>
-        </div>
+        </MascotSays>
       </div>
       {cta && (
         <button type="button" onClick={() => { tap(); cta.run() }}

@@ -5,6 +5,10 @@ import { PRESS } from '@/components/TopicHub'
 import { MASCOT_CHARACTERS, MASCOT_NAMES, type MascotCharacter } from '@/lib/mascots'
 
 const BLURB: Record<MascotCharacter, string> = { rocky: 'Voi xanh', bubi: 'Cá heo xanh' }
+const CARD: Record<MascotCharacter, string> = {
+  rocky: 'border-sky-200 border-b-sky-400 bg-gradient-to-b from-sky-100 to-white',
+  bubi: 'border-pink-200 border-b-pink-400 bg-gradient-to-b from-pink-100 to-white',
+}
 
 // One-time "pick your companion" dialog, shown by ChildMascotProvider while children.mascot is NULL.
 export function MascotPickDialog({ childName, onChoose, onLater }: {
@@ -29,17 +33,20 @@ export function MascotPickDialog({ childName, onChoose, onLater }: {
 
   return (
     <div role="dialog" aria-modal="true" aria-labelledby="mascot-pick-title"
-      className="fixed inset-0 z-[70] flex items-center justify-center bg-black/40 p-4">
-      <div className="w-full max-w-sm rounded-3xl border-2 border-b-[4px] border-slate-200 border-b-slate-300 bg-white p-5 text-center">
-        <h2 id="mascot-pick-title" className="text-xl font-bold text-slate-800">Chọn bạn đồng hành</h2>
+      className="fixed inset-0 z-[70] flex items-center justify-center overflow-y-auto bg-black/40 p-3">
+      <div className="my-auto w-full max-w-md rounded-[2rem] border-2 border-b-[4px] border-white border-b-slate-300 bg-gradient-to-b from-purple-100 via-white to-white px-4 pb-4 pt-5 text-center shadow-2xl">
+        <h2 id="mascot-pick-title" className="text-2xl font-bold text-slate-800">Chọn bạn đồng hành ✨</h2>
         <p className="mt-1 text-sm font-semibold text-slate-500">{childName} muốn học cùng ai nào?</p>
         <div className="mt-4 grid grid-cols-2 gap-3">
-          {MASCOT_CHARACTERS.map(m => (
+          {MASCOT_CHARACTERS.map((m, k) => (
             <button key={m} type="button" disabled={saving !== null} onClick={() => pick(m)}
-              className={`flex flex-col items-center gap-2 rounded-3xl border-2 border-b-[4px] border-purple-200 border-b-purple-300 bg-purple-50 p-3 disabled:opacity-60 ${PRESS}`}>
-              <Mascot character={m} shot="pose-wave" size={100} priority />
-              <span className="text-base font-bold text-slate-800">{MASCOT_NAMES[m]}</span>
+              className={`flex flex-col items-center gap-1.5 rounded-3xl border-2 border-b-[5px] p-2 pb-3 disabled:opacity-60 ${CARD[m]} ${PRESS}`}>
+              <span className="mi-pop w-full" style={{ animationDelay: `${k * 120}ms` }}>
+                <Mascot character={m} shot="pose-wave" size={180} fluid priority className="mx-auto block rounded-[1.4rem] shadow-md ring-4 ring-white" />
+              </span>
+              <span className="mt-1 text-lg font-bold text-slate-800">{MASCOT_NAMES[m]}</span>
               <span className="text-xs font-semibold text-slate-500">{saving === m ? 'Đang lưu...' : BLURB[m]}</span>
+              <span className="mt-1 rounded-full border-b-[3px] border-amber-600 bg-amber-400 px-3 py-1 text-xs font-bold text-amber-950">Chọn {MASCOT_NAMES[m]}</span>
             </button>
           ))}
         </div>
@@ -69,8 +76,8 @@ export function MascotOptions({ value, onChange }: {
         <button key={o.id ?? 'unset'} type="button" role="radio" aria-checked={value === o.id} onClick={() => onChange(o.id)}
           className={`flex flex-col items-center gap-1 rounded-2xl border-2 px-2 py-2 transition-all ${value === o.id ? 'border-purple-400 bg-purple-50' : 'border-gray-200 hover:border-gray-300'}`}>
           {o.id
-            ? <Mascot character={o.id} shot="pose-idle" size={44} />
-            : <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gray-100 text-2xl" aria-hidden>❔</span>}
+            ? <Mascot character={o.id} shot="pose-idle" size={64} />
+            : <span className="flex h-16 w-16 items-center justify-center rounded-2xl bg-gray-100 text-2xl" aria-hidden>❔</span>}
           <span className="text-xs font-bold text-gray-700">{o.label}</span>
         </button>
       ))}
