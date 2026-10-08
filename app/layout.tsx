@@ -10,6 +10,7 @@ import MainContainer from '@/components/MainContainer'
 import FontSizeApplier from '@/components/FontSizeApplier'
 import PullToRefresh from '@/components/PullToRefresh'
 import { GameSyncProvider } from '@/lib/GameSyncContext'
+import { ChildMascotProvider } from '@/components/MascotContext'
 import './globals.css'
 
 const nunito = Nunito({
@@ -201,7 +202,9 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <GameSyncProvider>
           <FontSizeApplier />
           <PullToRefresh />
-          <MainContainer>{children}</MainContainer>
+          <ChildMascotProvider>
+            <MainContainer>{children}</MainContainer>
+          </ChildMascotProvider>
           <OfflineBanner />
           <NoVoiceBanner />
           <BottomNav />

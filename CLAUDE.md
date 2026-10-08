@@ -110,6 +110,7 @@ AI text-helper fallback chain (`lib/aiChat.ts`, dùng bởi explain/hint/grammar
 
 ## Scripts & Assets
 - **Audio:** `public/audio/stories/[level].[topic-id].mp3` — Kids mini story
+- **Mascot (Rocky/Bubi):** `lib/mascots.ts` + `components/Mascot.tsx`, ảnh derived ở `public/mascots/` — chỉ thêm ảnh qua map, không hardcode path. Mỗi bé chọn 1 mascot (`children.mascot`, NULL → hỏi lần đầu, fallback Rocky) qua `components/MascotContext.tsx`. Chi tiết: `docs/mascots/README.md`
 - **Print:** `node scripts/gen-docx.js [book1|book2|book3|all] [topic-id]` → DOCX · colors: emerald/blue/purple
 
 ---

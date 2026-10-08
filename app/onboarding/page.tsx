@@ -2,6 +2,9 @@
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { cta } from '@/components/ChunkyUI'
+import Image from 'next/image'
+import Mascot from '@/components/Mascot'
+import { DUO_WAVE_SCENE } from '@/lib/mascots'
 
 type Section = 'kids' | 'academic' | 'phonics' | null
 
@@ -32,7 +35,8 @@ export default function OnboardingPage() {
         {/* Step 0 — Welcome */}
         {step === 0 && (
           <div className="flex flex-col items-center text-center gap-6 w-full">
-            <div className="text-7xl animate-bounce">🎉</div>
+            <Image src={DUO_WAVE_SCENE.src} alt="Rocky và Bubi vẫy tay chào bạn" width={DUO_WAVE_SCENE.width} height={DUO_WAVE_SCENE.height}
+              priority sizes="(max-width: 448px) 100vw, 400px" className="h-auto w-full rounded-3xl" />
             <div>
               <h1 className="text-3xl font-bold text-gray-800 mb-2">Chào mừng đến VocabWise!</h1>
               <p className="text-gray-500 text-base leading-relaxed">
@@ -68,7 +72,7 @@ export default function OnboardingPage() {
         {/* Step 1 — Choose section */}
         {step === 1 && (
           <div className="flex flex-col items-center text-center gap-6 w-full">
-            <div className="text-5xl">🤔</div>
+            <Mascot shot="pose-think" size={112} className="rounded-3xl" />
             <div>
               <h2 className="text-2xl font-bold text-gray-800 mb-1">Bạn muốn học gì trước?</h2>
               <p className="text-gray-400 text-sm">Có thể đổi bất cứ lúc nào</p>
@@ -150,7 +154,7 @@ export default function OnboardingPage() {
         {/* Step 2 — Quick tips + go */}
         {step === 2 && (
           <div className="flex flex-col items-center text-center gap-6 w-full">
-            <div className="text-6xl">🚀</div>
+            <Mascot shot="pose-cheer" size={112} className="rounded-3xl" />
             <div>
               <h2 className="text-2xl font-bold text-gray-800 mb-1">Sẵn sàng rồi!</h2>
               <p className="text-gray-400 text-sm">Một vài mẹo để học hiệu quả</p>

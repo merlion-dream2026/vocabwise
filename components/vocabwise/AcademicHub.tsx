@@ -1,6 +1,7 @@
 'use client'
 import { Journey, Stars, WordPreview, HubStyles, PRESS, type JourneyNode } from '@/components/TopicHub'
 import Sticker from '@/components/Sticker'
+import Mascot from '@/components/Mascot'
 import { EX_ICONS, EX_NAMES, type ExPhase } from './VWExerciseRunner'
 import type { ExercisesData } from './types'
 
@@ -84,7 +85,7 @@ export default function AcademicHub({
         </div>
         <Journey nodes={nodes} onTrophy={onOpenAlbum} />
         <div className="mt-2 flex items-center gap-3 rounded-2xl bg-slate-50 px-3 py-1.5">
-          <span className="hub-bob text-3xl" aria-hidden>🦉</span>
+          <Mascot shot={mastered ? 'pose-cheer' : 'pose-idle'} size={48} blink />
           <p className="min-w-0 flex-1 text-sm font-bold text-slate-600">{owl}</p>
         </div>
       </section>

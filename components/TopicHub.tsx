@@ -6,10 +6,11 @@ import {
 } from '@/lib/topicMastery'
 import { speak } from '@/lib/speak'
 import Sticker from '@/components/Sticker'
+import Mascot from '@/components/Mascot'
 
 // Topic hub — "chunky 3D" look: thick bottom borders that press down on tap, saturated state colors
 // (green = done, amber = next / in progress), emoji "stickers" tilted a few degrees, a trail-style
-// journey ending in a gift that opens into the trophy, and a small mascot cheering the child on.
+// journey ending in a gift that opens into the trophy, and Rocky (lib/mascots.ts) cheering the child on.
 
 // Per-level theme: the page's existing { bg, header, text } plus two tints used by the hero.
 export type LevelTheme = { bg: string; header: string; text: string; soft: string; deep: string }
@@ -123,6 +124,7 @@ export function TopicHero({
       }
     : nextTopicName ? { emoji: '🚀', title: 'Sang chủ đề tiếp theo', sub: nextTopicName, run: onNextTopic }
     : null
+  const mascotShot = mastered ? 'pose-cheer' : steps.done === 0 ? 'pose-wave' : 'pose-idle'
   const mascotSays = mastered ? 'Quá đỉnh! Mình tự hào về bạn lắm!'
     : steps.done === 0 ? 'Mình sẽ đồng hành cùng bạn nhé!'
     : step.kind === 'game' && step.stars > 0 ? 'Chỉ một chút nữa thôi, cố lên!'
@@ -153,9 +155,9 @@ export function TopicHero({
 
         <Journey nodes={nodes} onTrophy={onReplayTrophy} />
 
-        {/* Mascot (placeholder emoji until VocabWise has its own character) */}
+        {/* Mascot + its line (the text carries the message, so the image is decorative) */}
         <div className="mt-2 flex items-center gap-3 rounded-2xl bg-slate-50 px-3 py-1.5">
-          <span className="hub-bob text-3xl" aria-hidden>🦉</span>
+          <Mascot shot={mascotShot} size={48} blink />
           <p className="min-w-0 flex-1 text-sm font-bold text-slate-600">{mascotSays}</p>
           <button type="button" onClick={() => { tap(); onToggleFaq() }} aria-expanded={faqOpen}
             className={`flex-shrink-0 rounded-full border-b-[3px] px-3 py-1 text-xs font-bold ${PRESS} ${faqOpen ? 'border-purple-300 bg-purple-100 text-purple-700' : 'border-slate-300 bg-white text-slate-600'}`}>

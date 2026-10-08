@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 import { getSession } from '@/lib/auth'
+import { isMascotCharacter } from '@/lib/mascots'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -14,7 +15,7 @@ export async function GET(req: NextRequest) {
 
   const { data, error } = await supabase
     .from('children')
-    .select('id, name, emoji, level, theme, pin, created_at')
+    .select('id, name, emoji, level, theme, mascot, pin, created_at')
     .eq('family_id', session.familyId)
     .order('created_at', { ascending: true })
 
@@ -77,13 +78,13 @@ export async function POST(req: NextRequest) {
     }, { status: 403 })
   }
 
-  const { name, emoji, level, theme } = await req.json().catch(() => ({}))
+  const { name, emoji, level, theme, mascot } = await req.json().catch(() => ({}))
   if (!name || !level) return NextResponse.json({ error: 'Thiếu tên hoặc level' }, { status: 400 })
 
   const { data, error } = await supabase
     .from('children')
-    .insert({ family_id: session.familyId, name: name.trim(), emoji: emoji || '🧒', level, theme: theme || 'pink' })
-    .select('id, name, emoji, level, theme, pin, created_at')
+    .insert({ family_id: session.familyId, name: name.trim(), emoji: emoji || '🧒', level, theme: theme || 'pink', mascot: isMascotCharacter(mascot) ? mascot : null })
+    .select('id, name, emoji, level, theme, mascot, pin, created_at')
     .single()
 
   if (error) return NextResponse.json({ error: 'Lỗi hệ thống' }, { status: 500 })

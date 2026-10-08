@@ -7,6 +7,8 @@ import { cachedFetch } from '@/lib/cachedFetch'
 import { isTopicMastered, type MasteryEntry } from '@/lib/topicMastery'
 import { PRESS } from '@/components/TopicHub'
 import PageSkeleton from '@/components/PageSkeleton'
+import Mascot from '@/components/Mascot'
+import { LEVEL_PORTRAIT } from '@/lib/mascots'
 
 const LEVEL_ORDER = ['seeker', 'starter', 'ranger', 'explorer', 'scholar', 'master'] as const
 type LevelKey = typeof LEVEL_ORDER[number]
@@ -96,8 +98,8 @@ export default function KidsLevelPage() {
               className={`w-full text-left ${cfg.bg} ${cfg.border} ${cfg.edge} rounded-3xl border-2 border-b-[4px] p-3 ${PRESS}`}
             >
               <div className="flex items-center gap-3">
-                <div className={`flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br ${cfg.gradient} text-3xl shadow ring-2 ring-white ${idx % 2 === 0 ? '-rotate-6' : 'rotate-6'}`}>
-                  {cfg.emoji}
+                <div className={`flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br ${cfg.gradient} p-0.5 shadow ring-2 ring-white ${idx % 2 === 0 ? '-rotate-6' : 'rotate-6'}`}>
+                  <Mascot shot={LEVEL_PORTRAIT[level]} size={52} className="rounded-[14px]" />
                 </div>
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-2 flex-wrap mb-0.5">

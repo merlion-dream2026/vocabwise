@@ -15,6 +15,7 @@ import { getDownloadedCount } from '@/lib/useOfflineDownload'
 import { cachedFetch } from '@/lib/cachedFetch'
 import { isTopicMastered, topicSteps, type MasteryEntry } from '@/lib/topicMastery'
 import PageSkeleton from '@/components/PageSkeleton'
+import { BadgeArt } from '@/components/Mascot'
 import { cta } from '@/components/ChunkyUI'
 
 type Child = { id: string; name: string; emoji: string; level: string }
@@ -682,7 +683,7 @@ export default function LevelTopicsPage() {
                 const earned = earnedIds.has(badge.id)
                 return (
                   <div key={badge.id} className={`flex items-center gap-3 px-3 py-2.5 rounded-xl ${earned ? 'bg-purple-50' : 'bg-gray-50'}`}>
-                    <span className={`text-2xl ${earned ? '' : 'grayscale opacity-40'}`}>{badge.emoji}</span>
+                    <BadgeArt id={badge.id} emoji={badge.emoji} size={40} className={`rounded-xl ${earned ? '' : 'grayscale opacity-40'}`} />
                     <div className="flex-1 min-w-0">
                       <p className={`text-sm font-bold ${earned ? 'text-purple-700' : 'text-gray-400'}`}>{badge.name}</p>
                       <p className="text-xs text-gray-400">{badge.desc}</p>

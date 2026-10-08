@@ -9,6 +9,7 @@ import { cachedFetch } from '@/lib/cachedFetch'
 import VWFlashcard from '@/components/vocabwise/VWFlashcard'
 import { GameHeader, cta } from '@/components/ChunkyUI'
 import { PRESS } from '@/components/TopicHub'
+import Mascot from '@/components/Mascot'
 
 type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; bonus_features?: string[] | null }
 
@@ -487,7 +488,7 @@ export default function MyWordsPage() {
 
           {!loading && sorted.length === 0 && (
             <div className="text-center py-16">
-              <div className="text-5xl mb-3">{search ? '🔍' : '📭'}</div>
+              <Mascot shot={search ? 'pose-magnify' : 'pose-cards'} size={112} className="mb-3 rounded-3xl" />
               <p className="text-gray-500 font-bold">
                 {search ? 'Không tìm thấy từ nào' : 'Chưa có từ nào được lưu'}
               </p>

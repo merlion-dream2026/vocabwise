@@ -6,6 +6,8 @@ import { AVATARS } from '@/lib/avatars'
 import { CHILD_THEMES, DEFAULT_CHILD_THEME, type ChildThemeId } from '@/lib/childThemes'
 import type { Child } from '../_types'
 import { invalidateCachedFetch } from '@/lib/cachedFetch'
+import { MascotOptions } from '@/components/MascotPicker'
+import { isMascotCharacter, type MascotCharacter } from '@/lib/mascots'
 
 const THEME_RING_CLS: Record<ChildThemeId, string> = {
   pink:   'bg-pink-100 ring-2 ring-pink-400 scale-110',
@@ -27,6 +29,7 @@ export function AddChildModal({ maxKids, childCount, onClose, onAdded }: {
   const [name, setName] = useState('')
   const [emoji, setEmoji] = useState('panda')
   const [theme, setTheme] = useState<ChildThemeId>(DEFAULT_CHILD_THEME)
+  const [mascot, setMascot] = useState<MascotCharacter | null>(null)
   const [saving, setSaving] = useState(false)
   const [msg, setMsg] = useState('')
   const blocked = childCount >= maxKids
@@ -36,7 +39,7 @@ export function AddChildModal({ maxKids, childCount, onClose, onAdded }: {
     setSaving(true)
     const res = await fetch('/api/children', {
       method: 'POST', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name, emoji, level: 'seeker', theme }),
+      body: JSON.stringify({ name, emoji, level: 'seeker', theme, mascot }),
     })
     setSaving(false)
     if (res.ok) { invalidateCachedFetch('/api/children'); onAdded(await res.json()) }
@@ -77,6 +80,12 @@ export function AddChildModal({ maxKids, childCount, onClose, onAdded }: {
               </div>
             </div>
 
+            {/* Mascot companion */}
+            <div>
+              <p className="text-xs font-bold text-gray-500 mb-2">Bạn đồng hành</p>
+              <MascotOptions value={mascot} onChange={setMascot} />
+            </div>
+
             {/* Avatar */}
             <div>
               <p className="text-xs font-bold text-gray-500 mb-2">Avatar</p>
@@ -109,6 +118,7 @@ export function EditChildModal({ child, onClose, onSaved, onDeleted }: {
   const [name, setName] = useState(child.name)
   const [emoji, setEmoji] = useState(child.emoji)
   const [theme, setTheme] = useState<ChildThemeId>((child.theme as ChildThemeId) ?? DEFAULT_CHILD_THEME)
+  const [mascot, setMascot] = useState<MascotCharacter | null>(isMascotCharacter(child.mascot) ? child.mascot : null)
   const [saving, setSaving] = useState(false)
   const [confirmDelete, setConfirmDelete] = useState(false)
   const [msg, setMsg] = useState('')
@@ -118,7 +128,7 @@ export function EditChildModal({ child, onClose, onSaved, onDeleted }: {
     setSaving(true)
     const res = await fetch(`/api/children/${child.id}`, {
       method: 'PATCH', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name, emoji, theme }),
+      body: JSON.stringify({ name, emoji, theme, mascot }),
     })
     setSaving(false)
     if (res.ok) { invalidateCachedFetch('/api/children'); onSaved(await res.json()) }
@@ -157,6 +167,12 @@ export function EditChildModal({ child, onClose, onSaved, onDeleted }: {
                 </button>
               ))}
             </div>
+          </div>
+
+          {/* Mascot companion */}
+          <div>
+            <p className="text-xs font-bold text-gray-500 mb-2">Bạn đồng hành</p>
+            <MascotOptions value={mascot} onChange={setMascot} />
           </div>
 
           {/* Avatar */}

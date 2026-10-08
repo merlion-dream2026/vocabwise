@@ -6,6 +6,7 @@ import { cachedFetch } from '@/lib/cachedFetch'
 import { getAvatarSrc } from '@/lib/avatars'
 import { PRESS } from '@/components/TopicHub'
 import PageSkeleton from '@/components/PageSkeleton'
+import { BadgeArt } from '@/components/Mascot'
 import StickerAlbum, { type AlbumTab } from '@/components/StickerAlbum'
 import { ALL_BADGES, buildSyncSummary, computeEarnedBadges, getXpLevel, type SyncSummary } from '@/lib/badges'
 import { DAILY_LEVEL_ORDER, getPhonicsProgress, type SyncLevel } from '@/lib/childProgress'
@@ -110,7 +111,7 @@ export default function ProfilePage() {
             <ul className="mt-3 grid grid-cols-2 gap-2">
               {ALL_BADGES.map(b => (
                 <li key={b.id} className={`flex items-center gap-2 rounded-2xl p-2 ${earnedIds.has(b.id) ? 'bg-amber-50' : 'bg-slate-50 opacity-50 grayscale'}`}>
-                  <span className="text-2xl">{b.emoji}</span>
+                  <BadgeArt id={b.id} emoji={b.emoji} size={40} className="rounded-xl" />
                   <span className="min-w-0"><span className="block truncate text-xs font-bold text-slate-700">{b.name}</span><span className="block text-[10px] font-semibold leading-tight text-slate-500">{b.desc}</span></span>
                 </li>
               ))}
@@ -118,7 +119,7 @@ export default function ProfilePage() {
           ) : (
             <div className="mt-2 flex flex-wrap gap-1.5">
               {stats.earned.length === 0 && <p className="text-sm font-semibold text-slate-500">Học một chút để nhận huy hiệu đầu tiên nhé!</p>}
-              {stats.earned.map(b => <span key={b.id} title={b.name} className="rounded-full bg-amber-50 px-2.5 py-1 text-lg">{b.emoji}</span>)}
+              {stats.earned.map(b => <span key={b.id} title={b.name} className="rounded-xl bg-amber-50 p-0.5"><BadgeArt id={b.id} emoji={b.emoji} size={36} alt={b.name} className="rounded-[10px]" /></span>)}
             </div>
           )}
         </section>

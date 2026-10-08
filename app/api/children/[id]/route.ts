@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 import { getSession } from '@/lib/auth'
+import { isMascotCharacter } from '@/lib/mascots'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -27,7 +28,7 @@ export async function GET(req: NextRequest, props: { params: Promise<{ id: strin
 
   const { data, error } = await supabase
     .from('children')
-    .select('id, name, emoji, level, theme, pin, created_at')
+    .select('id, name, emoji, level, theme, mascot, pin, created_at')
     .eq('id', params.id)
     .eq('family_id', session.familyId)
     .single()
@@ -43,18 +44,24 @@ export async function PATCH(req: NextRequest, props: { params: Promise<{ id: str
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   if (!(await ownedByFamily(params.id, session.familyId))) return NextResponse.json({ error: 'Not found' }, { status: 404 })
 
-  const { name, emoji, level, theme } = await req.json().catch(() => ({}))
+  const body = (await req.json().catch(() => null)) ?? {}
+  const { name, emoji, level, theme } = body
   const updates: Record<string, unknown> = {}
   if (name) updates.name = name.trim()
   if (emoji) updates.emoji = emoji
   if (level) updates.level = level
   if (theme) updates.theme = theme
+  // null is a valid value ("let the child pick"), so check presence rather than truthiness
+  if ('mascot' in body) {
+    if (body.mascot !== null && !isMascotCharacter(body.mascot)) return NextResponse.json({ error: 'Mascot không hợp lệ' }, { status: 400 })
+    updates.mascot = body.mascot
+  }
 
   const { data, error } = await supabase
     .from('children')
     .update(updates)
     .eq('id', params.id)
-    .select('id, name, emoji, level, theme, pin, created_at')
+    .select('id, name, emoji, level, theme, mascot, pin, created_at')
     .single()
 
   if (error) return NextResponse.json({ error: 'Lỗi hệ thống' }, { status: 500 })

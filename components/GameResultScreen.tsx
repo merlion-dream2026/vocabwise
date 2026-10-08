@@ -6,6 +6,7 @@ import { getGrade } from '@/lib/gameGrade'
 import { starsFor } from '@/lib/topicMastery'
 import { HubStyles } from '@/components/TopicHub'
 import { PrimaryButton } from '@/components/ChunkyUI'
+import Mascot from '@/components/Mascot'
 
 export type ResultBreakdownRow = { icon: string; label: string; score: number; max: number }
 
@@ -91,7 +92,7 @@ export default function GameResultScreen({
       )}
 
       <div className="mb-4 flex w-full items-center gap-3 rounded-2xl bg-white/80 px-3 py-2">
-        <span className="hub-bob text-3xl" aria-hidden>🦉</span>
+        <Mascot shot={pct >= 90 ? 'pose-cheer' : pct >= 60 ? 'pose-idle' : 'pose-oops'} size={48} blink />
         <p className="text-left text-sm font-bold text-slate-600">{owl}</p>
       </div>
 

@@ -1,6 +1,7 @@
 'use client'
 import * as Sentry from '@sentry/nextjs'
 import { useEffect } from 'react'
+import Mascot from '@/components/Mascot'
 
 export default function Error({ error, reset }: { error: Error & { digest?: string }; reset: () => void }) {
   useEffect(() => { Sentry.captureException(error) }, [error])
@@ -8,7 +9,7 @@ export default function Error({ error, reset }: { error: Error & { digest?: stri
   return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center p-6">
       <div className="text-center max-w-sm">
-        <div className="text-6xl mb-4">⚠️</div>
+        <Mascot shot="pose-oops" size={128} priority className="mb-4 rounded-3xl" />
         <h1 className="text-2xl font-bold text-gray-800 mb-2">Có lỗi xảy ra</h1>
         <p className="text-gray-500 text-sm mb-6">Lỗi đã được ghi lại. Thử tải lại trang.</p>
         <div className="flex gap-3 justify-center">
