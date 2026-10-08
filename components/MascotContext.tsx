@@ -1,5 +1,5 @@
 'use client'
-import { useEffect, useState, type ReactNode } from 'react'
+import { createContext, useContext, useEffect, useState, type ReactNode } from 'react'
 import { usePathname } from 'next/navigation'
 import { cachedFetch, invalidateCachedFetch } from '@/lib/cachedFetch'
 import { activeChildId } from '@/lib/academicSync'
@@ -21,12 +21,19 @@ function childIdFor(pathname: string): string | null {
   return pathname.match(/^\/dashboard\/([^/]+)/)?.[1] ?? activeChildId()
 }
 
-type ChildLite = { id: string; name: string; mascot: MascotCharacter | null }
+type ChildLite = { id: string; name: string; mascot: MascotCharacter | null; introSeen: boolean }
 
 // "Để sau" hides the first-pick dialog for this child until the tab is closed.
 const SNOOZE_KEY = 'mascot_pick_later'
 function snoozedIds(): string[] {
   try { return JSON.parse(sessionStorage.getItem(SNOOZE_KEY) ?? '[]') } catch { return [] }
+}
+
+// For the child profile's "Bạn đồng hành" card. mascot: undefined = still loading.
+type Buddy = { mascot: MascotCharacter | null | undefined; replayIntro: () => void; openPicker: () => void }
+const BuddyCtx = createContext<Buddy | null>(null)
+export function useMascotBuddy(): Buddy | null {
+  return useContext(BuddyCtx)
 }
 
 export function ChildMascotProvider({ children }: { children: ReactNode }) {
@@ -35,7 +42,7 @@ export function ChildMascotProvider({ children }: { children: ReactNode }) {
   // undefined = not resolved yet; null = resolved, no child (or not found) → default mascot
   const [child, setChild] = useState<ChildLite | null | undefined>(undefined)
   const [snoozed, setSnoozed] = useState<string[]>([])
-  const [intro, setIntro] = useState<MascotCharacter | null>(null)   // just picked → hello slides
+  const [replay, setReplay] = useState(false)
 
   useEffect(() => {
     if (!inScope) return
@@ -47,8 +54,9 @@ export function ChildMascotProvider({ children }: { children: ReactNode }) {
       .then(r => (r.ok ? r.json() : []))
       .then(list => {
         if (!alive) return
-        const c = Array.isArray(list) ? (list as { id: string; name: string; mascot?: unknown }[]).find(k => k.id === id) : undefined
-        setChild(c ? { id: c.id, name: c.name, mascot: isMascotCharacter(c.mascot) ? c.mascot : null } : null)
+        type Row = { id: string; name: string; mascot?: unknown; mascot_intro_seen_at?: string | null }
+        const c = Array.isArray(list) ? (list as Row[]).find(k => k.id === id) : undefined
+        setChild(c ? { id: c.id, name: c.name, mascot: isMascotCharacter(c.mascot) ? c.mascot : null, introSeen: !!c.mascot_intro_seen_at } : null)
       })
       .catch(() => { if (alive) setChild(null) })
     return () => { alive = false }
@@ -57,16 +65,28 @@ export function ChildMascotProvider({ children }: { children: ReactNode }) {
   const character: MascotCharacter | null =
     !inScope ? DEFAULT_MASCOT : child === undefined ? null : child?.mascot ?? DEFAULT_MASCOT
 
+  function patchChild(body: object) {
+    if (!child) return Promise.resolve(null)
+    return fetch(`/api/children/${child.id}`, {
+      method: 'PATCH', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body),
+    }).catch(() => null)
+  }
+
   async function choose(mascot: MascotCharacter): Promise<boolean> {
     if (!child) return false
-    const res = await fetch(`/api/children/${child.id}`, {
-      method: 'PATCH', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ mascot }),
-    }).catch(() => null)
+    const res = await patchChild({ mascot })
     if (!res?.ok) return false
     invalidateCachedFetch('/api/children')
-    setChild({ ...child, mascot })
-    setIntro(mascot)
+    setChild({ ...child, mascot, introSeen: child.mascot === mascot && child.introSeen })
     return true
+  }
+
+  // Finished or skipped the hello slides. Optimistic: if the save fails they simply show again next visit.
+  function introDone() {
+    setReplay(false)
+    if (!child || child.introSeen) return
+    setChild({ ...child, introSeen: true })
+    patchChild({ mascotIntroSeen: true }).then(res => { if (res?.ok) invalidateCachedFetch('/api/children') })
   }
 
   function later() {
@@ -76,13 +96,30 @@ export function ChildMascotProvider({ children }: { children: ReactNode }) {
     setSnoozed(ids)
   }
 
+  function openPicker() {
+    if (!child) return
+    const ids = snoozedIds().filter(x => x !== child.id)
+    try { sessionStorage.setItem(SNOOZE_KEY, JSON.stringify(ids)) } catch { /* ignore */ }
+    setSnoozed(ids)
+  }
+
   const askPick = inScope && !!child && child.mascot === null && !snoozed.includes(child.id)
+  // Every child meets its companion once — whether the child or a parent picked it — plus on-demand replays.
+  const showIntro = inScope && !!child?.mascot && (!child.introSeen || replay)
+
+  const buddy: Buddy = {
+    mascot: inScope ? (child === undefined ? undefined : child?.mascot ?? null) : undefined,
+    replayIntro: () => setReplay(true),
+    openPicker,
+  }
 
   return (
     <MascotCtx.Provider value={character}>
-      {children}
+      <BuddyCtx.Provider value={buddy}>
+        {children}
+      </BuddyCtx.Provider>
       {askPick && child && <MascotPickDialog childName={child.name} onChoose={choose} onLater={later} />}
-      {intro && child && <MascotIntro character={intro} childName={child.name} onDone={() => setIntro(null)} />}
+      {showIntro && child?.mascot && <MascotIntro key={child.id} character={child.mascot} childName={child.name} onDone={introDone} />}
     </MascotCtx.Provider>
   )
 }

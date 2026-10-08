@@ -7,6 +7,7 @@ import { getAvatarSrc } from '@/lib/avatars'
 import { PRESS } from '@/components/TopicHub'
 import PageSkeleton from '@/components/PageSkeleton'
 import { BadgeArt } from '@/components/Mascot'
+import MascotBuddyCard from '@/components/MascotBuddyCard'
 import StickerAlbum, { type AlbumTab } from '@/components/StickerAlbum'
 import { ALL_BADGES, buildSyncSummary, computeEarnedBadges, getXpLevel, type SyncSummary } from '@/lib/badges'
 import { DAILY_LEVEL_ORDER, getPhonicsProgress, type SyncLevel } from '@/lib/childProgress'
@@ -101,6 +102,8 @@ export default function ProfilePage() {
             <p className="text-[11px] font-semibold text-slate-500">huy hiệu</p>
           </div>
         </div>
+
+        <MascotBuddyCard className={card} />
 
         <section className={card}>
           <button type="button" aria-expanded={showBadges} onClick={() => setShowBadges(v => !v)} className="flex w-full items-center justify-between text-left">

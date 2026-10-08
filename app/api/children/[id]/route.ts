@@ -28,7 +28,7 @@ export async function GET(req: NextRequest, props: { params: Promise<{ id: strin
 
   const { data, error } = await supabase
     .from('children')
-    .select('id, name, emoji, level, theme, mascot, pin, created_at')
+    .select('id, name, emoji, level, theme, mascot, mascot_intro_seen_at, pin, created_at')
     .eq('id', params.id)
     .eq('family_id', session.familyId)
     .single()
@@ -55,13 +55,19 @@ export async function PATCH(req: NextRequest, props: { params: Promise<{ id: str
   if ('mascot' in body) {
     if (body.mascot !== null && !isMascotCharacter(body.mascot)) return NextResponse.json({ error: 'Mascot không hợp lệ' }, { status: 400 })
     updates.mascot = body.mascot
+    // A different companion → the child should get its hello slides again
+    if (body.mascot !== null) {
+      await supabase.from('children').update({ mascot_intro_seen_at: null })
+        .eq('id', params.id).or(`mascot.is.null,mascot.neq.${body.mascot}`)
+    }
   }
+  if (body.mascotIntroSeen === true) updates.mascot_intro_seen_at = new Date().toISOString()
 
   const { data, error } = await supabase
     .from('children')
     .update(updates)
     .eq('id', params.id)
-    .select('id, name, emoji, level, theme, mascot, pin, created_at')
+    .select('id, name, emoji, level, theme, mascot, mascot_intro_seen_at, pin, created_at')
     .single()
 
   if (error) return NextResponse.json({ error: 'Lỗi hệ thống' }, { status: 500 })

@@ -15,7 +15,7 @@ export async function GET(req: NextRequest) {
 
   const { data, error } = await supabase
     .from('children')
-    .select('id, name, emoji, level, theme, mascot, pin, created_at')
+    .select('id, name, emoji, level, theme, mascot, mascot_intro_seen_at, pin, created_at')
     .eq('family_id', session.familyId)
     .order('created_at', { ascending: true })
 
@@ -84,7 +84,7 @@ export async function POST(req: NextRequest) {
   const { data, error } = await supabase
     .from('children')
     .insert({ family_id: session.familyId, name: name.trim(), emoji: emoji || '🧒', level, theme: theme || 'pink', mascot: isMascotCharacter(mascot) ? mascot : null })
-    .select('id, name, emoji, level, theme, mascot, pin, created_at')
+    .select('id, name, emoji, level, theme, mascot, mascot_intro_seen_at, pin, created_at')
     .single()
 
   if (error) return NextResponse.json({ error: 'Lỗi hệ thống' }, { status: 500 })
