@@ -188,8 +188,10 @@ export async function sendSmartDailyPush(): Promise<{ sent: number; skipped: num
   return { sent, skipped, failed, removed }
 }
 
-/** Gửi push notification đến 1 family cụ thể (dùng cho referral rewards) */
-export async function sendPushToFamily(familyId: string, payload: PushPayload): Promise<void> {
+export type FamilyPushResult = 'sent' | 'no_subscription' | 'expired' | 'failed'
+
+/** Gửi push notification đến 1 family cụ thể (referral rewards + nút "Gửi thử" trong Cài đặt) */
+export async function sendPushToFamily(familyId: string, payload: PushPayload): Promise<FamilyPushResult> {
   initVapid()
 
   const { data: row } = await supabase
@@ -198,19 +200,22 @@ export async function sendPushToFamily(familyId: string, payload: PushPayload): 
     .eq('family_id', familyId)
     .maybeSingle()
 
-  if (!row) return
+  if (!row) return 'no_subscription'
 
   try {
     await webpush.sendNotification(
       row.subscription as webpush.PushSubscription,
       JSON.stringify(payload)
     )
+    return 'sent'
   } catch (err: unknown) {
     const statusCode = (err as { statusCode?: number }).statusCode
     if (statusCode === 410 || statusCode === 404) {
       // Subscription hết hạn → xóa khỏi DB
       await supabase.from('push_subscriptions').delete().eq('id', row.id)
+      return 'expired'
     }
     // Các lỗi khác: silent fail (không throw)
+    return 'failed'
   }
 }

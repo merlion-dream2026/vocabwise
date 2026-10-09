@@ -189,6 +189,25 @@ function PushNotificationContent() {
     }
   }
 
+  async function sendTest() {
+    setMsg('⏳ Đang gửi…')
+    try {
+      const res = await fetch('/api/push/test', { method: 'POST' })
+      const d = await res.json()
+      if (!res.ok) { setMsg(`❌ ${d.error ?? 'Lỗi'}`); return }
+      if (d.result === 'sent') setMsg('✅ Đã gửi — thông báo sẽ hiện trong vài giây.')
+      else if (d.result === 'expired' || d.result === 'no_subscription') {
+        // Server no longer has a valid subscription for this device → let the user re-enable
+        const reg = await navigator.serviceWorker.ready
+        await (await reg.pushManager.getSubscription())?.unsubscribe()
+        setStatus('idle')
+        setMsg('⚠️ Đăng ký thông báo đã hết hạn — bấm Bật lại.')
+      } else setMsg('❌ Gửi thất bại, thử lại sau.')
+    } catch (e) {
+      setMsg(`❌ ${String(e)}`)
+    }
+  }
+
   async function unsubscribe() {
     setStatus('loading')
     try {
@@ -211,6 +230,10 @@ function PushNotificationContent() {
           <div className="bg-green-50 border border-green-200 rounded-2xl px-4 py-2.5 flex items-center gap-2">
             <span className="text-green-600 font-bold text-sm">✅ Đã bật thông báo nhắc học</span>
           </div>
+          <button onClick={sendTest}
+            className="w-full bg-purple-50 text-purple-600 font-bold text-sm py-2.5 rounded-2xl active:scale-95 transition-transform">
+            📨 Gửi thử thông báo
+          </button>
           <button onClick={unsubscribe}
             className="w-full text-xs text-gray-400 hover:text-red-400 py-1.5 transition-colors">
             Tắt thông báo
@@ -256,7 +279,7 @@ function PushNotificationContent() {
         </>
       )}
       {msg && (
-        <p className={`text-xs font-bold mt-2 ${msg.startsWith('✅') ? 'text-green-600' : 'text-red-500'}`}>{msg}</p>
+        <p className={`text-xs font-bold mt-2 ${msg.startsWith('✅') ? 'text-green-600' : msg.startsWith('⏳') || msg.startsWith('⚠️') ? 'text-amber-600' : 'text-red-500'}`}>{msg}</p>
       )}
     </>
   )
