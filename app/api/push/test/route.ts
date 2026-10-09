@@ -11,7 +11,7 @@ export async function POST(req: NextRequest) {
   try {
     const result = await sendPushToFamily(session.familyId, {
       title: '🔔 Thông báo thử',
-      body: 'Thông báo đã hoạt động! VocabWise sẽ nhắc bé học lúc 8:00 sáng.',
+      body: 'Thông báo đã hoạt động! VocabWise sẽ nhắc bé học theo lịch bạn đã chọn.',
       url: '/kids',
     })
     return NextResponse.json({ result })

@@ -229,7 +229,7 @@ export function SettingsTab({ kids, session, onChildrenRefresh }: { kids: Child[
       )}
 
       {/* Push notifications */}
-      <CollapsibleCard title="🔔 Thông báo nhắc học" subtitle="Nhận thông báo nhắc bé học từ vựng mỗi ngày (8:00 sáng)." defaultOpen={false}>
+      <CollapsibleCard title="🔔 Thông báo nhắc học" subtitle="Nhận thông báo nhắc bé học từ vựng theo lịch bạn chọn." defaultOpen={false}>
         <PushNotificationContent />
       </CollapsibleCard>
 

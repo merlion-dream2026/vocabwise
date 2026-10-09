@@ -1,6 +1,7 @@
 import webpush from 'web-push'
 import { createClient } from '@supabase/supabase-js'
 import { getEffectivePlan } from '@/lib/planUtils'
+import { currentVNSlot, parsePushSchedule, DEFAULT_PUSH_SCHEDULE } from '@/lib/pushSchedule'
 
 const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -59,18 +60,54 @@ function initVapid() {
   )
 }
 
-/** Smart daily push — only targets families where no child studied today (Vietnam time UTC+7) */
-export async function sendSmartDailyPush(): Promise<{ sent: number; skipped: number; failed: number; removed: number }> {
+/**
+ * Scheduled push (pg_cron every 15 min → /api/cron/push-scheduled): sends to families whose
+ * reminder schedule matches the current Vietnam-time slot. NULL schedule = every day 08:00.
+ */
+export async function sendScheduledPush(now = Date.now()) {
+  const slot = currentVNSlot(now)
+  const { data: subs, error } = await supabase.from('push_subscriptions').select('family_id')
+  if (error) throw error
+  const subFamilyIds = [...new Set((subs ?? []).map(s => s.family_id).filter(Boolean))]
+  if (!subFamilyIds.length) return { slot, due: 0, sent: 0, skipped: 0, failed: 0, removed: 0 }
+
+  const { data: fams, error: famErr } = await supabase
+    .from('families')
+    .select('id, push_schedule, push_last_sent_at')
+    .in('id', subFamilyIds)
+  if (famErr) throw famErr
+
+  // Dedup guard: a retried/overlapping trigger within the same slot must not double-send
+  const recentCutoff = now - 10 * 60_000
+  const due = (fams ?? []).filter(f => {
+    const schedule = parsePushSchedule(f.push_schedule) ?? DEFAULT_PUSH_SCHEDULE
+    const lastSent = f.push_last_sent_at ? new Date(f.push_last_sent_at).getTime() : 0
+    return schedule[slot.day] === slot.time && lastSent < recentCutoff
+  }).map(f => f.id as string)
+  if (!due.length) return { slot, due: 0, sent: 0, skipped: 0, failed: 0, removed: 0 }
+
+  // Claim before sending, so a concurrent run sees them as already handled
+  await supabase.from('families').update({ push_last_sent_at: new Date(now).toISOString() }).in('id', due)
+  const res = await sendSmartDailyPush(new Set(due))
+  return { slot, due: due.length, ...res }
+}
+
+/**
+ * Smart daily push — only targets families where no child studied today (Vietnam time UTC+7).
+ * `onlyFamilyIds` limits it to the families due in the current schedule slot.
+ */
+export async function sendSmartDailyPush(onlyFamilyIds?: Set<string>): Promise<{ sent: number; skipped: number; failed: number; removed: number }> {
   initVapid()
 
   // Today's date in Vietnam timezone (UTC+7) → "YYYY-MM-DD"
   const nowVN = new Date(Date.now() + 7 * 3600_000)
   const todayVN = nowVN.toISOString().slice(0, 10)
 
-  const { data: rawSubs, error: subErr } = await supabase
+  const { data: allSubs, error: subErr } = await supabase
     .from('push_subscriptions')
     .select('id, subscription, family_id')
   if (subErr) throw subErr
+  const rawSubs = onlyFamilyIds ? allSubs?.filter(s => onlyFamilyIds.has(s.family_id)) : allSubs
   if (!rawSubs?.length) return { sent: 0, skipped: 0, failed: 0, removed: 0 }
 
   // Push is a Pro-only perk — drop subscriptions for families whose plan has since lapsed

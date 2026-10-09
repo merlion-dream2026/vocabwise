@@ -26,10 +26,6 @@
       "schedule": "0 1 * * *"
     },
     {
-      "path": "/api/cron/daily-push",
-      "schedule": "0 1 * * *"
-    },
-    {
       "path": "/api/cron/monthly-recap",
       "schedule": "0 1 1 * *"
     }

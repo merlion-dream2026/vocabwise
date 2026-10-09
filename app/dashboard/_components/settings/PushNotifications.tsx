@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { urlBase64ToUint8Array } from '../../_utils'
+import { PushScheduleEditor } from './PushScheduleEditor'
 
 // ── Push notification opt-in ──────────────────────────────────────────────────
 export function PushNotificationContent() {
@@ -111,6 +112,7 @@ export function PushNotificationContent() {
           <div className="bg-green-50 border border-green-200 rounded-2xl px-4 py-2.5 flex items-center gap-2">
             <span className="text-green-600 font-bold text-sm">✅ Đã bật thông báo nhắc học</span>
           </div>
+          <PushScheduleEditor />
           <button onClick={sendTest}
             className="w-full bg-purple-50 text-purple-600 font-bold text-sm py-2.5 rounded-2xl active:scale-95 transition-transform">
             📨 Gửi thử thông báo
