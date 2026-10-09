@@ -19,6 +19,9 @@ const PUBLIC_PATHS = [
   '/api/superadmin',
   '/onboarding',
   '/expired',
+  // Called by Supabase pg_cron with no session — the route itself checks CRON_SECRET.
+  // NOTE: the other /api/cron/* routes are still behind the login redirect (Vercel cron gets a 307).
+  '/api/cron/push-scheduled',
 ]
 
 // Auth endpoint rate limits: [max, window seconds]
