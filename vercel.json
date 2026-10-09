@@ -18,10 +18,6 @@
       "schedule": "0 4 * * *"
     },
     {
-      "path": "/api/cron/ping",
-      "schedule": "0 0 */3 * *"
-    },
-    {
       "path": "/api/cron/renewal-reminder",
       "schedule": "0 1 * * *"
     },

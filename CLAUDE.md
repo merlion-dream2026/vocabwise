@@ -98,6 +98,7 @@ Gating phụ thuộc DB — fetch `/api/auth/me` với `cache: 'no-store'` để
 - Superadmin: session `familyId === 'superadmin'` (hardcoded check) — đây là flow family login (`vk_session`), **tách biệt** khỏi cổng `/superadmin` (`vk_admin_session`, `/api/superadmin/login`)
 - 🔴 **`/api/superadmin/login` không verify TOTP dù UI báo "2FA đang bật"** — chỉ cần đúng password bảng `super_admin`. Lỗ hổng Critical đang mở, xem memory `project_security_critical_2026_07`. Cần fix trước khi mở rộng user.
 - PWA: `public/manifest.webmanifest` + `public/sw.js` + `app/icon.tsx`
+- **Email/push không pushy:** nhắc học hằng ngày = push theo lịch phụ huynh chọn (`families.push_schedule`, pg_cron 15 phút → `/api/cron/push-scheduled`). Email chăm sóc (onboarding D+1 · vắng 7 ngày · lên level) dùng chung giới hạn 1 email/3 ngày (`hasEngagementEmailInDays`). Gia hạn chỉ 3 mốc (trial còn 1 ngày · Pro còn 3 ngày · Pro hết hạn D+1). Báo cáo tuần/tháng chỉ opt-in. Thêm email mới → hỏi Andie trước.
 - Prefix `vw_` cho tất cả Academic DB tables
 
 ## Env Vars

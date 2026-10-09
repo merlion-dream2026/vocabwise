@@ -34,14 +34,12 @@ export async function GET(req: NextRequest) {
 
   if (!families?.length) return NextResponse.json({ sent: 0, skipped: 'no families with email' })
 
-  // Chủ Nhật (day=0 giờ VN): tự động gửi cho TẤT CẢ families có email
-  // Ngày khác: chỉ gửi cho families đã opt-in report_settings
-  const scheduled = vnDay === 0
-    ? families
-    : families.filter(f => {
-        const s = (f.report_settings ?? {}) as ReportSettings
-        return s.enabled && s.schedule === 'weekly' && s.day === vnDay
-      })
+  // Opt-in only: families who turned on the weekly report and picked today's weekday.
+  // (Previously every family with an email also got one each Sunday — dropped as too pushy.)
+  const scheduled = families.filter(f => {
+    const s = (f.report_settings ?? {}) as ReportSettings
+    return s.enabled && s.schedule === 'weekly' && s.day === vnDay
+  })
 
   if (!scheduled.length) return NextResponse.json({ sent: 0, skipped: `no families scheduled for day=${vnDay} VN` })
 

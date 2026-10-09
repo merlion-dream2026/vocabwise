@@ -1,16 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 import { sendEmail } from '@/lib/email'
-import {
-  streak7EmailHtml,
-  streak30EmailHtml,
-  levelUpEmailHtml,
-  topicMasteredEmailHtml,
-} from '@/lib/emailTemplates'
+import { levelUpEmailHtml } from '@/lib/emailTemplates'
 import {
   hasEmailBeenSent,
+  hasEngagementEmailInDays,
   logEmail,
   getFamilyStats,
+  dateStrDaysAgo,
   NEXT_DAILY_LEVEL,
   DAILY_LEVEL_LABELS,
 } from '@/lib/emailLog'
@@ -19,7 +16,6 @@ import {
   getGlobalStreak,
   DAILY_LEVEL_ORDER,
   DAILY_TOTAL_TOPICS,
-  type SyncLevel,
 } from '@/lib/childProgress'
 import { runInBatches } from '@/lib/batchProcess'
 
@@ -31,7 +27,9 @@ const supabase = createClient(
 )
 
 /**
- * Daily cron: milestone emails — streak 7/30, Daily level-up, Academic topic mastered.
+ * Daily cron: one milestone email — a child finished a Daily level (rare, meaningful).
+ * Streak 7/30 and "first topic mastered" emails were dropped: the app already shows
+ * streaks/badges, and they made the inbox feel pushy.
  */
 export async function GET(req: NextRequest) {
   const auth = req.headers.get('authorization')
@@ -49,34 +47,9 @@ export async function GET(req: NextRequest) {
 
   if (error || !families?.length) return NextResponse.json({ sent: 0, note: 'no families' })
 
-  // Recently completed academic topics (last 25 hours)
-  const since25h = new Date(Date.now() - 25 * 3600_000).toISOString()
-  const { data: recentTopics } = await supabase
-    .from('vw_user_topic_progress')
-    .select('child_id, topic_id, total_score, completed_at')
-    .not('completed_at', 'is', null)
-    .gte('completed_at', since25h)
-
-  // Join topic titles
-  const topicIds = [...new Set((recentTopics ?? []).map(r => r.topic_id as string))]
-  const topicTitleMap: Record<string, string> = {}
-  if (topicIds.length > 0) {
-    const { data: topicRows } = await supabase
-      .from('vw_topics')
-      .select('topic_id, topic_title')
-      .in('topic_id', topicIds)
-    for (const t of topicRows ?? []) {
-      topicTitleMap[t.topic_id as string] = t.topic_title as string
-    }
-  }
-
-  // Map childId → completed topics today
-  const recentByChild: Record<string, typeof recentTopics> = {}
-  for (const row of recentTopics ?? []) {
-    const cid = row.child_id as string
-    if (!recentByChild[cid]) recentByChild[cid] = []
-    recentByChild[cid]!.push(row)
-  }
+  // Only congratulate levels finished recently (activity on that level in the last 2 days),
+  // so levels completed long ago — e.g. while this cron was down — never get a late email.
+  const recentSince = dateStrDaysAgo(2)
 
   let sent = 0
   const errors: string[] = []
@@ -88,49 +61,6 @@ export async function GET(req: NextRequest) {
     try {
       const stats = await getFamilyStats(famId)
 
-      // ── Streak milestones ──────────────────────────────────────────────────
-      if (stats.streak === 7 && !await hasEmailBeenSent(famId, 'streak_7')) {
-        await sendEmail({
-          to: family.email as string,
-          subject: '🔥 7 ngày liên tiếp — bạn thuộc top 10% người học!',
-          html: streak7EmailHtml(
-            displayName,
-            stats.totalWords,
-            stats.dailyTopics + stats.academicTopics,
-            stats.totalGames,
-          ),
-        })
-        await logEmail(famId, 'streak_7')
-        sent++
-      }
-
-      if (stats.streak === 30 && !await hasEmailBeenSent(famId, 'streak_30')) {
-        // totalActiveDays: families with >0 history entries across all children
-        let activeDays = 0
-        for (const childSync of Object.values(stats.syncByChild)) {
-          const dates = new Set<string>()
-          for (const lv of Object.values(childSync)) {
-            for (const [date] of Object.entries((lv as SyncLevel).history ?? {})) {
-              dates.add(date)
-            }
-          }
-          activeDays = Math.max(activeDays, dates.size)
-        }
-        await sendEmail({
-          to: family.email as string,
-          subject: '🏆 30 ngày không nghỉ — bạn chính thức là người học kỷ luật nhất!',
-          html: streak30EmailHtml(
-            displayName,
-            stats.totalWords,
-            stats.dailyTopics + stats.academicTopics,
-            activeDays,
-          ),
-        })
-        await logEmail(famId, 'streak_30')
-        sent++
-      }
-
-      // ── Daily level-up (per child, per level) ─────────────────────────────
       for (const child of stats.children) {
         const childSync = stats.syncByChild[child.id]
         if (!childSync) continue
@@ -143,10 +73,13 @@ export async function GET(req: NextRequest) {
           const progress = getDailyProgress(levelSync, level)
           if (progress.topicsCompleted < DAILY_TOTAL_TOPICS) continue
 
+          const lastActiveOnLevel = Object.keys(levelSync.history ?? {}).sort().at(-1) ?? ''
+          if (lastActiveOnLevel < recentSince) continue
+
           const emailType = `level_up_${child.id}_${level}`
           if (await hasEmailBeenSent(famId, emailType)) continue
+          if (await hasEngagementEmailInDays(famId)) return  // cap hit — try again tomorrow
 
-          // Count games for this level
           let levelGames = 0
           for (const entry of Object.values(levelSync.history ?? {})) {
             levelGames += (entry as { games?: number }).games ?? 0
@@ -172,40 +105,9 @@ export async function GET(req: NextRequest) {
           })
           await logEmail(famId, emailType)
           sent++
+          return  // one email per family per run
         }
       }
-
-      // ── Academic topic mastered (first mastered topic per family) ──────────
-      const emailTypeFirstTopicMastered = 'topic_mastered_first'
-      if (!await hasEmailBeenSent(famId, emailTypeFirstTopicMastered)) {
-        // Find a recently-completed topic by any child in this family
-        for (const child of stats.children) {
-          const childRecent = recentByChild[child.id]
-          if (!childRecent?.length) continue
-
-          const topicRow = childRecent[0]!
-          const topicTitle = topicTitleMap[topicRow.topic_id as string] ?? (topicRow.topic_id as string)
-          const totalScore = (topicRow.total_score as number) ?? 0
-          const pct = Math.round(totalScore / 25 * 100)
-
-          await sendEmail({
-            to: family.email as string,
-            subject: '✅ Topic MASTERED — bạn đang học đúng cách!',
-            html: topicMasteredEmailHtml(
-              displayName,
-              topicTitle,
-              totalScore,
-              25,
-              pct,
-              undefined,
-            ),
-          })
-          await logEmail(famId, emailTypeFirstTopicMastered)
-          sent++
-          break
-        }
-      }
-
     } catch (e) {
       errors.push(`${family.username}: ${String(e)}`)
     }

@@ -1,15 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 import { sendEmail } from '@/lib/email'
-import {
-  onboardingD1EmailHtml,
-  onboardingD3EmailHtml,
-  onboardingD7EmailHtml,
-} from '@/lib/emailTemplates'
+import { onboardingD1EmailHtml } from '@/lib/emailTemplates'
 import {
   hasEmailBeenSent,
+  hasEngagementEmailInDays,
   logEmail,
-  getFamilyStats,
   getFamilyLastActive,
   daysSince,
 } from '@/lib/emailLog'
@@ -23,8 +19,8 @@ const supabase = createClient(
 )
 
 /**
- * Daily cron: onboarding drip emails for new users.
- * D+1 (no activity) · D+3 (has activity, streak summary) · D+7 (week summary)
+ * Daily cron: one onboarding email — D+1, only if the family hasn't started learning yet.
+ * (Former D+3 / D+7 drips dropped: D+7 overlapped the weekly report.)
  */
 export async function GET(req: NextRequest) {
   const auth = req.headers.get('authorization')
@@ -33,8 +29,8 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
 
-  // Fetch families created in last 8 days with email
-  const since = new Date(Date.now() - 8 * 86_400_000).toISOString()
+  // Fetch families created in the last 2 days with email
+  const since = new Date(Date.now() - 2 * 86_400_000).toISOString()
   const { data: families, error } = await supabase
     .from('families')
     .select('id, username, name, email, created_at')
@@ -54,53 +50,18 @@ export async function GET(req: NextRequest) {
     const daysOld = daysSince(family.created_at as string)
 
     try {
-      if (daysOld === 1) {
-        if (await hasEmailBeenSent(famId, 'onboarding_d1')) return
-        const lastActive = await getFamilyLastActive(famId)
-        if (lastActive) return  // has activity — skip D+1, will catch at D+3
-        await sendEmail({
-          to: family.email as string,
-          subject: '⏱ Bắt đầu hành trình tiếng Anh chỉ mất 5 phút',
-          html: onboardingD1EmailHtml(displayName),
-        })
-        await logEmail(famId, 'onboarding_d1')
-        sent++
-      } else if (daysOld === 3) {
-        if (await hasEmailBeenSent(famId, 'onboarding_d3')) return
-        const lastActive = await getFamilyLastActive(famId)
-        if (!lastActive) return  // no activity yet — skip
-        const stats = await getFamilyStats(famId)
-        await sendEmail({
-          to: family.email as string,
-          subject: `🔥 ${stats.streak} ngày học liên tiếp — bạn đang đi đúng hướng!`,
-          html: onboardingD3EmailHtml(
-            displayName,
-            stats.streak,
-            stats.totalWords,
-            stats.totalTopics,
-          ),
-        })
-        await logEmail(famId, 'onboarding_d3')
-        sent++
-      } else if (daysOld === 7) {
-        if (await hasEmailBeenSent(famId, 'onboarding_d7')) return
-        const lastActive = await getFamilyLastActive(famId)
-        const hasActivity = lastActive !== null
-        let streak = 0, words = 0, topics = 0
-        if (hasActivity) {
-          const stats = await getFamilyStats(famId)
-          streak = stats.streak
-          words  = stats.totalWords
-          topics = stats.totalTopics
-        }
-        await sendEmail({
-          to: family.email as string,
-          subject: '📖 1 tuần với VocabWise — nhìn lại hành trình của bạn',
-          html: onboardingD7EmailHtml(displayName, streak, words, topics, hasActivity),
-        })
-        await logEmail(famId, 'onboarding_d7')
-        sent++
-      }
+      if (daysOld !== 1) return
+      if (await hasEmailBeenSent(famId, 'onboarding_d1')) return
+      const lastActive = await getFamilyLastActive(famId)
+      if (lastActive) return  // already learning — no nudge needed
+      if (await hasEngagementEmailInDays(famId)) return
+      await sendEmail({
+        to: family.email as string,
+        subject: '⏱ Bắt đầu hành trình tiếng Anh chỉ mất 5 phút',
+        html: onboardingD1EmailHtml(displayName),
+      })
+      await logEmail(famId, 'onboarding_d1')
+      sent++
     } catch (e) {
       errors.push(`${family.username}: ${String(e)}`)
     }

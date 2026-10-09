@@ -41,6 +41,24 @@ export async function hasEmailBeenSentInDays(
   return (data?.length ?? 0) > 0
 }
 
+/**
+ * Engagement emails (onboarding / inactivity / level-up) share one cap: at most 1 per family
+ * every `days` days, so a family never gets several "nudges" in a row. Renewal emails and
+ * opt-in reports (weekly / monthly) are exempt — they're requested or time-critical.
+ */
+const ENGAGEMENT_EMAIL_PREFIXES = ['onboarding_', 'inactive_', 'level_up_']
+export const ENGAGEMENT_EMAIL_GAP_DAYS = 3
+
+export async function hasEngagementEmailInDays(familyId: string, days = ENGAGEMENT_EMAIL_GAP_DAYS): Promise<boolean> {
+  const since = new Date(Date.now() - days * 86_400_000).toISOString()
+  const { data } = await supabase
+    .from('email_log')
+    .select('email_type')
+    .eq('family_id', familyId)
+    .gte('sent_at', since)
+  return (data ?? []).some(r => ENGAGEMENT_EMAIL_PREFIXES.some(p => (r.email_type as string).startsWith(p)))
+}
+
 /** Log that an email was sent. Fire-and-forget (errors are suppressed). */
 export async function logEmail(
   familyId: string,

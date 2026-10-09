@@ -1,14 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 import { sendEmail } from '@/lib/email'
-import {
-  inactive3dEmailHtml,
-  inactive7dEmailHtml,
-  inactive14dEmailHtml,
-  winback30dEmailHtml,
-} from '@/lib/emailTemplates'
+import { inactive7dEmailHtml } from '@/lib/emailTemplates'
 import {
   hasEmailBeenSentInDays,
+  hasEngagementEmailInDays,
   logEmail,
   dateStrDaysAgo,
 } from '@/lib/emailLog'
@@ -23,8 +19,8 @@ const supabase = createClient(
 )
 
 /**
- * Daily cron: re-engagement emails when a family goes inactive.
- * 3d · 7d · 14d (Pro only) · 30d (win-back)
+ * Daily cron: one gentle re-engagement email when a family has been inactive exactly 7 days
+ * (max once per 30 days). Day-to-day nudging is the parent-scheduled push, not email.
  */
 export async function GET(req: NextRequest) {
   const auth = req.headers.get('authorization')
@@ -33,10 +29,7 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
 
-  const day3  = dateStrDaysAgo(3)
-  const day7  = dateStrDaysAgo(7)
-  const day14 = dateStrDaysAgo(14)
-  const day30 = dateStrDaysAgo(30)
+  const day7 = dateStrDaysAgo(7)
 
   const { data: families, error: famErr } = await supabase
     .from('families')
@@ -94,7 +87,6 @@ export async function GET(req: NextRequest) {
     if (!kids.length) return
 
     const displayName = (family.name as string | null) ?? (family.username as string)
-    const isPro       = (family.plan as string) !== 'free'
 
     // Family-level lastActive = max across all children
     let familyLastActive = ''
@@ -118,49 +110,16 @@ export async function GET(req: NextRequest) {
     const focusChildStreak = getGlobalStreak(syncByChild[focusChild.id] ?? {}).current
 
     try {
-      if (familyLastActive === day3) {
-        if (await hasEmailBeenSentInDays(famId, 'inactive_3d', 7)) return
-        await sendEmail({
-          to: family.email as string,
-          subject: `📚 ${focusChild.name} chưa học 3 ngày — 5 phút thôi!`,
-          html: inactive3dEmailHtml(displayName, focusChild.name, focusChildStreak),
-        })
-        await logEmail(famId, 'inactive_3d')
-        sent++
-      } else if (familyLastActive === day7) {
-        if (await hasEmailBeenSentInDays(famId, 'inactive_7d', 14)) return
-        await sendEmail({
-          to: family.email as string,
-          subject: `📚 ${focusChild.name} chưa học 1 tuần — nhắc bé học hôm nay nhé!`,
-          html: inactive7dEmailHtml(displayName, focusChild.name, focusChildStreak, 0),
-        })
-        await logEmail(famId, 'inactive_7d')
-        sent++
-      } else if (familyLastActive === day14 && isPro) {
-        if (await hasEmailBeenSentInDays(famId, 'inactive_14d', 30)) return
-        const planEnd = family.plan_end_date
-          ? new Date(family.plan_end_date as string).toLocaleDateString('vi-VN', {
-              day: '2-digit', month: '2-digit', year: 'numeric',
-            })
-          : '—'
-        await sendEmail({
-          to: family.email as string,
-          subject: 'Chúng tôi nhớ bạn 🙏 — mọi thứ có ổn không?',
-          html: inactive14dEmailHtml(displayName, planEnd),
-        })
-        await logEmail(famId, 'inactive_14d')
-        sent++
-      } else if (familyLastActive === day30) {
-        if (await hasEmailBeenSentInDays(famId, 'winback_30d', 90)) return
-        const childName = kids.length === 1 ? kids[0].name : undefined
-        await sendEmail({
-          to: family.email as string,
-          subject: 'VocabWise có gì mới — bạn có muốn xem không? 👀',
-          html: winback30dEmailHtml(displayName, childName),
-        })
-        await logEmail(famId, 'winback_30d')
-        sent++
-      }
+      if (familyLastActive !== day7) return
+      if (await hasEmailBeenSentInDays(famId, 'inactive_7d', 30)) return
+      if (await hasEngagementEmailInDays(famId)) return
+      await sendEmail({
+        to: family.email as string,
+        subject: `📚 ${focusChild.name} chưa học 1 tuần — nhắc bé học hôm nay nhé!`,
+        html: inactive7dEmailHtml(displayName, focusChild.name, focusChildStreak, 0),
+      })
+      await logEmail(famId, 'inactive_7d')
+      sent++
     } catch (e) {
       errors.push(`${family.username}: ${String(e)}`)
     }
