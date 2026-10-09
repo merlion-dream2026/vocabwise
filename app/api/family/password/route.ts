@@ -1,11 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
-import { getSession, verifyPassword, hashPassword } from '@/lib/auth'
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
+import { supabase } from '@/lib/supabaseServer'
+import { getSession, verifyPassword, hashPassword, createSession, sessionCookieOptions } from '@/lib/auth'
+import { bumpSessionVersion } from '@/lib/sessionGuard'
 
 export async function POST(req: NextRequest) {
   const session = await getSession(req)
@@ -30,5 +26,10 @@ export async function POST(req: NextRequest) {
   const { error } = await supabase.from('families').update({ password_hash }).eq('id', session.familyId)
   if (error) return NextResponse.json({ error: 'Lỗi hệ thống' }, { status: 500 })
 
-  return NextResponse.json({ ok: true })
+  // Log out other devices; re-issue this device's cookie with the new version
+  const sv = await bumpSessionVersion(session.familyId)
+  const token = await createSession({ familyId: session.familyId, username: session.username, plan: session.plan, sv })
+  const res = NextResponse.json({ ok: true })
+  res.cookies.set(sessionCookieOptions(token))
+  return res
 }

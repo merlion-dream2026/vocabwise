@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
-import { getAdminSession, hashPassword } from '@/lib/auth'
+import { supabase } from '@/lib/supabaseServer'
+import { hashPassword } from '@/lib/auth'
 
 function generateGiftToken(): string {
   const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'
@@ -10,21 +10,13 @@ import { sendEmail } from '@/lib/email'
 import { proActivatedEmailHtml } from '@/lib/emailTemplates'
 import { triggerPaidReward } from '@/lib/referralUtils'
 import { logAudit } from '@/lib/auditLog'
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
-
-async function requireSuperAdmin(req: NextRequest) {
-  const session = await getAdminSession(req)
-  return session?.familyId === 'superadmin'
-}
+import { bumpSessionVersion } from '@/lib/sessionGuard'
+import { isAdminRequest } from '@/lib/api'
 
 // PATCH /api/superadmin/families/[id] — update username, plan, disabled, email, password
 export async function PATCH(req: NextRequest, props: { params: Promise<{ id: string }> }) {
   const params = await props.params;
-  if (!(await requireSuperAdmin(req))) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+  if (!(await isAdminRequest(req))) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   const body = await req.json().catch(() => ({}))
   const updates: Record<string, unknown> = {}
@@ -73,6 +65,9 @@ export async function PATCH(req: NextRequest, props: { params: Promise<{ id: str
 
   if (error) return NextResponse.json({ error: 'Lỗi hệ thống' }, { status: 500 })
 
+  // Admin-set password: log the family out of every device
+  if (body.password) await bumpSessionVersion(params.id)
+
   // Send Pro activation email when plan changes to a paid plan
   const PLAN_LABELS: Record<string, string> = { '1month': '1 tháng', '3months': '3 tháng', '6months': '6 tháng' }
   const newPlan = body.plan
@@ -111,7 +106,7 @@ export async function PATCH(req: NextRequest, props: { params: Promise<{ id: str
 // DELETE /api/superadmin/families/[id] — delete family + all children + sync data
 export async function DELETE(req: NextRequest, props: { params: Promise<{ id: string }> }) {
   const params = await props.params;
-  if (!(await requireSuperAdmin(req))) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+  if (!(await isAdminRequest(req))) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   const { data: toDelete } = await supabase.from('families').select('username').eq('id', params.id).single()
   logAudit('delete_family', params.id, toDelete?.username ?? params.id, {})

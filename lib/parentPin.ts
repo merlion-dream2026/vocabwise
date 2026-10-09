@@ -1,11 +1,8 @@
-import { createClient } from '@supabase/supabase-js'
+import { supabase as db } from '@/lib/supabaseServer'
 import { NextRequest, NextResponse } from 'next/server'
 import { getSession, hasParentUnlock, hashPin, verifyPin } from '@/lib/auth'
 
-export const db = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
+export { db }
 
 export const PIN_RE = /^\d{4}$/
 const MAX_FAILS = 5

@@ -1,13 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
+import { supabase } from '@/lib/supabaseServer'
 import { verifyPassword, hashPassword, bcryptCost, createSession, sessionCookieOptions } from '@/lib/auth'
 import { verifyTurnstile } from '@/lib/security'
 import { verifyTotp } from '@/lib/totp'
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
+import { incrementUnknownLoginMiss } from '@/lib/rateLimit'
 
 const MAX_ATTEMPTS = 5
 const LOCKOUT_MINUTES = 15
@@ -16,6 +12,10 @@ const LOCKOUT_MINUTES = 15
 // (~250-300ms to compare in bcryptjs). Once one verifies successfully,
 // quietly rehash it at the cheaper cost so the family's next login is fast too.
 const LEGACY_PASSWORD_COST = 10
+
+// bcrypt hash (cost 10) of a random string — compared against when the username doesn't exist,
+// so that path takes as long as a real password check.
+const DUMMY_HASH = '$2b$10$rtrJwpfYx1PO65Tfht7eyua0Ln1hP7ziUpEHCY0EB3rthIDAWoQHa'
 
 function isExpired(plan: string, freeTrialExpiresAt: string | null, planEndDate: string | null, bonusProExpiresAt: string | null): boolean {
   const now = new Date()
@@ -37,7 +37,7 @@ export async function POST(req: NextRequest) {
     verifyTurnstile(turnstileToken),
     supabase
       .from('families')
-      .select('id, username, password_hash, plan, disabled, free_trial_expires_at, plan_end_date, bonus_pro_expires_at, failed_login_count, lockout_until')
+      .select('id, username, password_hash, plan, disabled, free_trial_expires_at, plan_end_date, bonus_pro_expires_at, failed_login_count, lockout_until, session_version')
       .eq('username', username.trim().toLowerCase())
       .single(),
   ])
@@ -46,21 +46,27 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Xác minh bảo mật thất bại. Vui lòng thử lại.' }, { status: 400 })
   }
 
-  if (error || !family) {
-    return NextResponse.json({ error: 'Sai tên đăng nhập hoặc mật khẩu' }, { status: 401 })
-  }
+  const normalized = username.trim().toLowerCase()
 
-  if (family.disabled) {
-    return NextResponse.json({ error: 'Tài khoản đã bị khóa. Vui lòng liên hệ hỗ trợ.' }, { status: 403 })
+  // Every failure path below answers with the same wording whether or not the phone number has an
+  // account — different messages (or a faster "no such user" response) would let anyone check
+  // which phone numbers are VocabWise customers.
+  const wrongMsg = (remaining: number) =>
+    NextResponse.json({ error: `Sai SĐT hoặc mật khẩu. Còn ${remaining} lần thử trước khi bị khóa tạm thời.` }, { status: 401 })
+  const lockedMsg = (minutes: number) =>
+    NextResponse.json({ error: `Đăng nhập sai quá ${MAX_ATTEMPTS} lần. Tạm khóa, thử lại sau ${minutes} phút.` }, { status: 423 })
+
+  if (error || !family) {
+    await verifyPassword(password, DUMMY_HASH) // keep timing equal to the real-account path
+    const { count, secondsLeft } = await incrementUnknownLoginMiss(normalized, LOCKOUT_MINUTES * 60)
+    if (count >= MAX_ATTEMPTS) return lockedMsg(Math.ceil(secondsLeft / 60))
+    return wrongMsg(MAX_ATTEMPTS - count)
   }
 
   // Account lockout check
-  if (family.lockout_until && new Date(family.lockout_until) > new Date()) {
-    const minutesLeft = Math.ceil((new Date(family.lockout_until).getTime() - Date.now()) / 60000)
-    return NextResponse.json(
-      { error: `Tài khoản tạm khóa do đăng nhập sai nhiều lần. Thử lại sau ${minutesLeft} phút.` },
-      { status: 423 }
-    )
+  const lockedUntil = family.lockout_until ? new Date(family.lockout_until) : null
+  if (lockedUntil && lockedUntil > new Date()) {
+    return lockedMsg(Math.ceil((lockedUntil.getTime() - Date.now()) / 60000))
   }
 
   const valid = await verifyPassword(password, family.password_hash)
@@ -72,24 +78,21 @@ export async function POST(req: NextRequest) {
   }
 
   if (!valid) {
-    const newCount = (family.failed_login_count ?? 0) + 1
+    // A lockout that has already expired starts a fresh count (previously one more miss re-locked at once)
+    const newCount = (lockedUntil ? 0 : (family.failed_login_count ?? 0)) + 1
     const shouldLock = newCount >= MAX_ATTEMPTS
     await supabase.from('families').update({
-      failed_login_count: newCount,
-      ...(shouldLock ? { lockout_until: new Date(Date.now() + LOCKOUT_MINUTES * 60000).toISOString() } : {}),
+      failed_login_count: shouldLock ? 0 : newCount,
+      lockout_until: shouldLock ? new Date(Date.now() + LOCKOUT_MINUTES * 60000).toISOString() : null,
     }).eq('id', family.id)
 
-    if (shouldLock) {
-      return NextResponse.json(
-        { error: `Sai mật khẩu quá ${MAX_ATTEMPTS} lần. Tài khoản tạm khóa ${LOCKOUT_MINUTES} phút.` },
-        { status: 423 }
-      )
-    }
-    const remaining = MAX_ATTEMPTS - newCount
-    return NextResponse.json(
-      { error: `Sai mật khẩu. Còn ${remaining} lần thử trước khi bị khóa tạm thời.` },
-      { status: 401 }
-    )
+    if (shouldLock) return lockedMsg(LOCKOUT_MINUTES)
+    return wrongMsg(MAX_ATTEMPTS - newCount)
+  }
+
+  // Only now (correct password) is it safe to say the account exists but is disabled
+  if (family.disabled) {
+    return NextResponse.json({ error: 'Tài khoản đã bị khóa. Vui lòng liên hệ hỗ trợ.' }, { status: 403 })
   }
 
   // Successful login — reset lockout counters (skip the round-trip when already clean,
@@ -133,6 +136,7 @@ export async function POST(req: NextRequest) {
     familyId: family.id,
     username: family.username,
     plan: family.plan,
+    sv: family.session_version ?? 0,
   })
 
   const res = NextResponse.json({ ok: true, username: family.username, plan: family.plan })

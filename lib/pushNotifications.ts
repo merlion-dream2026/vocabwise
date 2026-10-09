@@ -1,12 +1,7 @@
 import webpush from 'web-push'
-import { createClient } from '@supabase/supabase-js'
+import { supabase } from '@/lib/supabaseServer'
 import { getEffectivePlan } from '@/lib/planUtils'
 import { currentVNSlot, parsePushSchedule, DEFAULT_PUSH_SCHEDULE } from '@/lib/pushSchedule'
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
 
 export interface PushPayload {
   title: string

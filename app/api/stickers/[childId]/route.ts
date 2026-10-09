@@ -1,13 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
+import { supabase } from '@/lib/supabaseServer'
 import { getSession } from '@/lib/auth'
 import { awardStickers, awardAcademicStickers, awardPhonicsStickers } from '@/lib/stickers'
 import type { MasteryEntry } from '@/lib/topicMastery'
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
 
 // GET /api/stickers/[childId] — every sticker the child owns (all levels), newest first.
 export async function GET(req: NextRequest, props: { params: Promise<{ childId: string }> }) {

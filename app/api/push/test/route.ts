@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getSession } from '@/lib/auth'
 import { sendPushToFamily } from '@/lib/pushNotifications'
+import { serverError } from '@/lib/api'
 
 // "Gửi thử" — sends only to the signed-in family's own subscription, so it's safe to
 // use for testing on production without reaching any other customer.
@@ -16,6 +17,6 @@ export async function POST(req: NextRequest) {
     })
     return NextResponse.json({ result })
   } catch (e) {
-    return NextResponse.json({ error: String(e) }, { status: 500 })
+    return serverError(e)
   }
 }

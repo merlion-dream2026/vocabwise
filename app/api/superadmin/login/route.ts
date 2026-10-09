@@ -1,14 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
+import { supabase } from '@/lib/supabaseServer'
 import { verifyPassword, createSession, adminSessionCookieOptions } from '@/lib/auth'
 import { rateLimit } from '@/lib/rateLimit'
 import { sendEmail } from '@/lib/email'
 import { verifyTotp } from '@/lib/totp'
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
 
 export async function POST(req: NextRequest) {
   const ip = req.headers.get('x-forwarded-for') ?? req.headers.get('x-real-ip') ?? 'unknown'
@@ -43,7 +38,7 @@ export async function POST(req: NextRequest) {
     }
   }
 
-  const token = await createSession({ familyId: 'superadmin', username: 'superadmin', plan: 'superadmin' }, '8h')
+  const token = await createSession({ familyId: 'superadmin', username: 'superadmin', plan: 'superadmin', kind: 'admin' }, '8h')
   const res = NextResponse.json({ ok: true })
   res.cookies.set(adminSessionCookieOptions(token))
 

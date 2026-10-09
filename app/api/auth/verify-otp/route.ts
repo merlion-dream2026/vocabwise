@@ -1,15 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
+import { supabase } from '@/lib/supabaseServer'
 import { createSession, sessionCookieOptions } from '@/lib/auth'
 import { sendEmail } from '@/lib/email'
 import { welcomeEmailHtml } from '@/lib/emailTemplates'
 import { incrementOtpAttempts, resetOtpAttempts } from '@/lib/rateLimit'
 import { esc, ADMIN_ALERT_EMAIL } from '@/lib/escHtml'
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
 
 export async function POST(req: NextRequest) {
   const { email, otp } = await req.json().catch(() => ({}))
@@ -17,14 +12,14 @@ export async function POST(req: NextRequest) {
 
   const { data: family } = await supabase
     .from('families')
-    .select('id, username, name, email, phone, plan, otp, otp_expires_at, email_verified, referral_source, free_trial_expires_at')
+    .select('id, username, name, email, phone, plan, otp, otp_expires_at, email_verified, referral_source, free_trial_expires_at, session_version')
     .eq('email', email.trim().toLowerCase())
     .single()
 
   if (!family) return NextResponse.json({ error: 'Không tìm thấy tài khoản' }, { status: 404 })
   if (family.email_verified) {
     // Already verified — just create session
-    const token = await createSession({ familyId: family.id, username: family.username, plan: family.plan })
+    const token = await createSession({ familyId: family.id, username: family.username, plan: family.plan, sv: family.session_version ?? 0 })
     const res = NextResponse.json({ ok: true })
     res.cookies.set(sessionCookieOptions(token))
     return res
@@ -97,7 +92,7 @@ export async function POST(req: NextRequest) {
     console.error('[verify-otp] admin notify error:', err)
   }
 
-  const token = await createSession({ familyId: family.id, username: family.username, plan: family.plan })
+  const token = await createSession({ familyId: family.id, username: family.username, plan: family.plan, sv: family.session_version ?? 0 })
   const res = NextResponse.json({ ok: true })
   res.cookies.set(sessionCookieOptions(token))
   return res

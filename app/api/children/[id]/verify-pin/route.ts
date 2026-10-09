@@ -1,12 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
+import { supabase } from '@/lib/supabaseServer'
 import { getSession, verifyPin, hashPin, bcryptCost } from '@/lib/auth'
 import { rateLimit } from '@/lib/rateLimit'
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
 
 // PIN hashes created before the cost-8 switch are still cost 12 (~250-300ms
 // to compare in bcryptjs). Once one verifies successfully, quietly rehash it

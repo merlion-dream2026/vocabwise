@@ -1,23 +1,14 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
-import { getAdminSession, hashPassword } from '@/lib/auth'
+import { supabase } from '@/lib/supabaseServer'
+import { hashPassword } from '@/lib/auth'
 import { sendEmail } from '@/lib/email'
 import { welcomeEmailHtml, proActivatedEmailHtml } from '@/lib/emailTemplates'
 import { logAudit } from '@/lib/auditLog'
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
-
-async function requireSuperAdmin(req: NextRequest) {
-  const session = await getAdminSession(req)
-  return session?.familyId === 'superadmin'
-}
+import { isAdminRequest } from '@/lib/api'
 
 // GET /api/superadmin/families — list all families
 export async function GET(req: NextRequest) {
-  if (!await requireSuperAdmin(req)) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+  if (!await isAdminRequest(req)) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   const { data, error } = await supabase
     .from('families')
@@ -55,7 +46,7 @@ export async function GET(req: NextRequest) {
 
 // POST /api/superadmin/families — create a new family account
 export async function POST(req: NextRequest) {
-  if (!await requireSuperAdmin(req)) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+  if (!await isAdminRequest(req)) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   const { username, password, email, name, plan, plan_start_date, plan_end_date } = await req.json().catch(() => ({}))
   if (!username || !password) return NextResponse.json({ error: 'Thiếu username hoặc password' }, { status: 400 })

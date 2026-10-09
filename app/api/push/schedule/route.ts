@@ -1,12 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
+import { supabase } from '@/lib/supabaseServer'
 import { getSession } from '@/lib/auth'
 import { parsePushSchedule, DEFAULT_PUSH_SCHEDULE } from '@/lib/pushSchedule'
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
+import { serverError } from '@/lib/api'
 
 export async function GET(req: NextRequest) {
   const session = await getSession(req)
@@ -25,6 +21,6 @@ export async function PUT(req: NextRequest) {
   if (!schedule) return NextResponse.json({ error: 'Lịch nhắc không hợp lệ' }, { status: 400 })
 
   const { error } = await supabase.from('families').update({ push_schedule: schedule }).eq('id', session.familyId)
-  if (error) return NextResponse.json({ error: error.message }, { status: 500 })
+  if (error) return serverError(error)
   return NextResponse.json({ ok: true, schedule })
 }

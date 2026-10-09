@@ -3,6 +3,7 @@ import { supabase } from '@/lib/supabaseServer'
 import { getSession } from '@/lib/auth'
 import { getFamilyProfile } from '@/lib/security'
 import { getRevisionLimit } from '@/lib/planUtils'
+import { serverError } from '@/lib/api'
 
 const BOOK_PREFIXES: Record<string, string> = { book1: 'b1', book2: 'b2', book3: 'b3' }
 
@@ -41,7 +42,7 @@ export async function GET(req: NextRequest) {
     .order('topic_id')
     .order('item_order')
 
-  if (error) return NextResponse.json({ error: error.message }, { status: 500 })
+  if (error) return serverError(error)
 
   return NextResponse.json({
     book,

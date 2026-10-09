@@ -1,14 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
+import { supabase } from '@/lib/supabaseServer'
 import { hashPassword } from '@/lib/auth'
 import { sendEmail } from '@/lib/email'
 import { verifyTurnstile } from '@/lib/security'
 import { esc, ADMIN_ALERT_EMAIL } from '@/lib/escHtml'
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
 
 // SĐT VN hợp lệ: đầu số 03x, 05x, 07x, 08x, 09x — đúng 10 số
 const VN_PHONE_REGEX = /^(03[2-9]|05[6-9]|07[06-9]|08[0-9]|09[0-9])\d{7}$/

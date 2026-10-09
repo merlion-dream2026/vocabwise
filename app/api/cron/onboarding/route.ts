@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
+import { supabase } from '@/lib/supabaseServer'
 import { sendEmail } from '@/lib/email'
 import { onboardingD1EmailHtml } from '@/lib/emailTemplates'
 import {
@@ -10,22 +10,16 @@ import {
   daysSince,
 } from '@/lib/emailLog'
 import { runInBatches } from '@/lib/batchProcess'
+import { hasBearer } from '@/lib/api'
 
 export const maxDuration = 60
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
 
 /**
  * Daily cron: one onboarding email — D+1, only if the family hasn't started learning yet.
  * (Former D+3 / D+7 drips dropped: D+7 overlapped the weekly report.)
  */
 export async function GET(req: NextRequest) {
-  const auth = req.headers.get('authorization')
-  const cronSecret = process.env.CRON_SECRET
-  if (!cronSecret || auth !== `Bearer ${cronSecret}`) {
+  if (!hasBearer(req, process.env.CRON_SECRET)) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
 

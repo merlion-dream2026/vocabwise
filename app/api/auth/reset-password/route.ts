@@ -1,11 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
+import { supabase } from '@/lib/supabaseServer'
 import { hashPassword } from '@/lib/auth'
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
+import { bumpSessionVersion } from '@/lib/sessionGuard'
 
 export async function POST(req: NextRequest) {
   const { token, newPassword } = await req.json().catch(() => ({}))
@@ -27,6 +23,8 @@ export async function POST(req: NextRequest) {
     .from('families')
     .update({ password_hash, reset_token: null, reset_token_expires_at: null })
     .eq('id', family.id)
+  // Log out every device — a reset usually means the password may be known to someone else
+  await bumpSessionVersion(family.id)
 
   return NextResponse.json({ ok: true })
 }

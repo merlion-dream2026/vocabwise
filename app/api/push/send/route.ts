@@ -1,9 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { sendPushToAll, PushPayload } from '@/lib/pushNotifications'
+import { hasBearer, serverError } from '@/lib/api'
 
 export async function POST(req: NextRequest) {
-  const auth = req.headers.get('authorization')
-  if (!process.env.CRON_SECRET || auth !== `Bearer ${process.env.CRON_SECRET}`) {
+  if (!hasBearer(req, process.env.CRON_SECRET)) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
 
@@ -22,6 +22,6 @@ export async function POST(req: NextRequest) {
     const result = await sendPushToAll(payload)
     return NextResponse.json(result)
   } catch (e) {
-    return NextResponse.json({ error: String(e) }, { status: 500 })
+    return serverError(e)
   }
 }

@@ -1,13 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
+import { supabase } from '@/lib/supabaseServer'
 import { sendEmail } from '@/lib/email'
 import { getSession } from '@/lib/auth'
 import { buildReportHtml, ChildRow, SyncRow } from '@/lib/reportHtml'
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
 
 export async function POST(req: NextRequest) {
   const session = await getSession(req)

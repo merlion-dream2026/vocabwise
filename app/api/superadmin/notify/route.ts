@@ -1,14 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { getAdminSession } from '@/lib/auth'
 import { sendEmail } from '@/lib/email'
-
-async function requireSuperAdmin(req: NextRequest) {
-  const session = await getAdminSession(req)
-  return session?.familyId === 'superadmin'
-}
+import { isAdminRequest } from '@/lib/api'
 
 export async function POST(req: NextRequest) {
-  if (!await requireSuperAdmin(req)) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+  if (!await isAdminRequest(req)) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   const { to, subject, html } = await req.json().catch(() => ({}))
   if (!to || !subject || !html) return NextResponse.json({ error: 'Thiếu thông tin email' }, { status: 400 })

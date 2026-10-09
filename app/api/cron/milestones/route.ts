@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
+import { supabase } from '@/lib/supabaseServer'
 import { sendEmail } from '@/lib/email'
 import { levelUpEmailHtml } from '@/lib/emailTemplates'
 import {
@@ -18,13 +18,9 @@ import {
   DAILY_TOTAL_TOPICS,
 } from '@/lib/childProgress'
 import { runInBatches } from '@/lib/batchProcess'
+import { hasBearer } from '@/lib/api'
 
 export const maxDuration = 60
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
 
 /**
  * Daily cron: one milestone email — a child finished a Daily level (rare, meaningful).
@@ -32,9 +28,7 @@ const supabase = createClient(
  * streaks/badges, and they made the inbox feel pushy.
  */
 export async function GET(req: NextRequest) {
-  const auth = req.headers.get('authorization')
-  const cronSecret = process.env.CRON_SECRET
-  if (!cronSecret || auth !== `Bearer ${cronSecret}`) {
+  if (!hasBearer(req, process.env.CRON_SECRET)) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
 

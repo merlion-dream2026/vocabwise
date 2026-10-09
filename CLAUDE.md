@@ -96,7 +96,11 @@ Gating phụ thuộc DB — fetch `/api/auth/me` với `cache: 'no-store'` để
 - Plan values: `'free'` · `'1month'` · `'3months'` · `'6months'`
 - Ghost account: unverified + OTP expired → auto-delete on re-register
 - Superadmin: session `familyId === 'superadmin'` (hardcoded check) — đây là flow family login (`vk_session`), **tách biệt** khỏi cổng `/superadmin` (`vk_admin_session`, `/api/superadmin/login`)
-- 🔴 **`/api/superadmin/login` không verify TOTP dù UI báo "2FA đang bật"** — chỉ cần đúng password bảng `super_admin`. Lỗ hổng Critical đang mở, xem memory `project_security_critical_2026_07`. Cần fix trước khi mở rộng user.
+- `/api/superadmin/login` có verify TOTP (đã fix). Reset 2FA khẩn cấp: `DELETE /api/superadmin/totp/reset` với `Bearer $ADMIN_RECOVERY_SECRET` (KHÔNG dùng `CRON_SECRET` — secret đó nằm trong pg_cron trên DB). Không set env → endpoint tắt.
+- **Session thu hồi được:** `proxy.ts` gọi `isSessionLive()` (`lib/sessionGuard.ts`) mỗi request đã đăng nhập — family `disabled` hoặc `session_version` lệch với claim `sv` trong JWT → 401/redirect login. Cache dương 30s/instance. Đổi/reset mật khẩu (user tự đổi, reset qua email, admin đặt) → `bumpSessionVersion()`. Token mới phải nhúng `sv: family.session_version`.
+- **Token có `kind`:** `'family'` (vk_session) / `'admin'` (vk_admin_session, bắt buộc) — `getSession`/`getAdminSession` từ chối token sai loại.
+- **Helper API dùng chung `lib/api.ts`:** `serverError(err)` (không trả `error.message` về client), `hasBearer(req, secret)` (so sánh constant-time cho cron), `isAdminRequest(req)` (gate superadmin). Supabase service-role: luôn import `supabase` từ `lib/supabaseServer.ts`, không `createClient` inline.
+- **Login không lộ SĐT tồn tại:** mọi nhánh lỗi cùng câu "Sai SĐT hoặc mật khẩu. Còn X lần thử" (SĐT không có tài khoản đếm trong Redis `incrementUnknownLoginMiss`); "tài khoản bị khóa" chỉ hiện khi đúng mật khẩu.
 - PWA: `public/manifest.webmanifest` + `public/sw.js` + `app/icon.tsx`
 - **Email/push không pushy:** nhắc học hằng ngày = push theo lịch phụ huynh chọn (`families.push_schedule`, pg_cron 15 phút → `/api/cron/push-scheduled`). Email chăm sóc (onboarding D+1 · vắng 7 ngày · lên level) dùng chung giới hạn 1 email/3 ngày (`hasEngagementEmailInDays`). Gia hạn chỉ 3 mốc (trial còn 1 ngày · Pro còn 3 ngày · Pro hết hạn D+1). Báo cáo tuần/tháng chỉ opt-in. Thêm email mới → hỏi Andie trước.
 - Prefix `vw_` cho tất cả Academic DB tables
@@ -106,6 +110,7 @@ Gating phụ thuộc DB — fetch `/api/auth/me` với `cache: 'no-store'` để
 NEXT_PUBLIC_SUPABASE_URL  NEXT_PUBLIC_SUPABASE_ANON_KEY  SUPABASE_SERVICE_ROLE_KEY
 JWT_SECRET  GMAIL_USER  GMAIL_APP_PASSWORD
 OPENAI_API_KEY  GROQ_API_KEY  CEREBRAS_API_KEY  NEXT_PUBLIC_APP_URL
+CRON_SECRET  ADMIN_RECOVERY_SECRET (reset 2FA khẩn cấp, tuỳ chọn)
 ```
 AI text-helper fallback chain (`lib/aiChat.ts`, dùng bởi explain/hint/grammar-note/writing-check/generate-exercises): Groq → Cerebras, tự động rớt sang provider kế nếu fail/rate-limit. explain/hint/grammar-note/generate-exercises dùng chung 1 quota/ngày theo `getAITextLimit()` (xem bảng Feature Gating); writing-check có quota riêng 40/ngày (`checkAndIncrementWritingCheckUsage`, chưa theo plan tier).
 

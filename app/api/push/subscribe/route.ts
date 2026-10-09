@@ -12,15 +12,11 @@
  */
 
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
+import { supabase } from '@/lib/supabaseServer'
 import { getSession } from '@/lib/auth'
 import { getFamilyProfile } from '@/lib/security'
 import { getEffectivePlan } from '@/lib/planUtils'
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
+import { serverError } from '@/lib/api'
 
 export async function POST(req: NextRequest) {
   const session = await getSession(req)
@@ -57,7 +53,7 @@ export async function POST(req: NextRequest) {
     if (error) throw error
     return NextResponse.json({ ok: true })
   } catch (e) {
-    return NextResponse.json({ error: String(e) }, { status: 500 })
+    return serverError(e)
   }
 }
 
@@ -74,6 +70,6 @@ export async function DELETE(req: NextRequest) {
     if (error) throw error
     return NextResponse.json({ ok: true })
   } catch (e) {
-    return NextResponse.json({ error: String(e) }, { status: 500 })
+    return serverError(e)
   }
 }

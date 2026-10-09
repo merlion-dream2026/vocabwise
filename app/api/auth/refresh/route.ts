@@ -1,11 +1,6 @@
 import { NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
+import { supabase } from '@/lib/supabaseServer'
 import { getSession, createSession, sessionCookieOptions, clearSessionCookie } from '@/lib/auth'
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
 
 // Re-reads plan + disabled from DB, re-issues JWT if changed.
 export async function POST() {
@@ -15,7 +10,7 @@ export async function POST() {
   const [{ data: family }, { data: configs }] = await Promise.all([
     supabase
       .from('families')
-      .select('username, plan, disabled, free_trial_expires_at, plan_end_date, plan_start_date, max_kids, bonus_pro_expires_at')
+      .select('username, plan, disabled, free_trial_expires_at, plan_end_date, plan_start_date, max_kids, bonus_pro_expires_at, session_version')
       .eq('id', session.familyId)
       .single(),
     supabase.from('admin_config').select('key, value'),
@@ -50,6 +45,7 @@ export async function POST() {
       familyId: session.familyId,
       username: family.username,
       plan: family.plan,
+      sv: family.session_version ?? 0,
     })
     const res = NextResponse.json(payload)
     res.cookies.set(sessionCookieOptions(token))

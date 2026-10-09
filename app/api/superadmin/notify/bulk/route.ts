@@ -1,22 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
-import { getAdminSession } from '@/lib/auth'
+import { supabase } from '@/lib/supabaseServer'
 import { sendEmail } from '@/lib/email'
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
-
-async function requireSuperAdmin(req: NextRequest) {
-  const session = await getAdminSession(req)
-  return session?.familyId === 'superadmin'
-}
+import { isAdminRequest } from '@/lib/api'
 
 // POST /api/superadmin/notify/bulk
 // { subject, html, ids }  — sends email to all selected families that have an email address
 export async function POST(req: NextRequest) {
-  if (!await requireSuperAdmin(req)) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+  if (!await isAdminRequest(req)) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   const { subject, html, ids } = await req.json().catch(() => ({}))
   if (!subject || !html || !Array.isArray(ids) || ids.length === 0) {

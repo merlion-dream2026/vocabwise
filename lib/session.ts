@@ -14,10 +14,15 @@ export type SessionPayload = {
   familyId: string
   username: string
   plan: string
+  // families.session_version at issue time — bumping it in the DB revokes every older token (see lib/sessionGuard.ts)
+  sv?: number
+  // Token type: family (vk_session) vs admin (vk_admin_session). Tokens from before 2026-10-09 have no kind
+  // and are treated as family tokens; admin tokens must carry kind 'admin'.
+  kind?: 'family' | 'admin'
 }
 
 export async function createSession(payload: SessionPayload, expiresIn = '30d'): Promise<string> {
-  return new SignJWT(payload as unknown as Record<string, unknown>)
+  return new SignJWT({ kind: 'family', ...payload } as unknown as Record<string, unknown>)
     .setProtectedHeader({ alg: 'HS256' })
     .setIssuedAt()
     .setExpirationTime(expiresIn)
@@ -35,6 +40,9 @@ export async function getSession(req?: NextRequest): Promise<SessionPayload | nu
     }
     if (!token) return null
     const { payload } = await jwtVerify(token, JWT_SECRET, { algorithms: ['HS256'] })
+    // Reject admin / parent-unlock tokens pasted into the family cookie
+    if (payload.kind !== undefined && payload.kind !== 'family') return null
+    if (typeof payload.familyId !== 'string') return null
     return payload as unknown as SessionPayload
   } catch {
     return null
@@ -78,6 +86,7 @@ export async function getAdminSession(req?: NextRequest): Promise<SessionPayload
     }
     if (!token) return null
     const { payload } = await jwtVerify(token, JWT_SECRET, { algorithms: ['HS256'] })
+    if (payload.kind !== 'admin' || payload.familyId !== 'superadmin') return null
     return payload as unknown as SessionPayload
   } catch {
     return null

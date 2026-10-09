@@ -46,15 +46,27 @@ describe('lib/session.ts', () => {
   describe('admin session (vk_admin_session) is isolated from vk_session', () => {
     it('getAdminSession ignores a vk_session cookie and vice versa', async () => {
       const { createSession, getSession, getAdminSession } = await import('@/lib/session')
-      const token = await createSession({ familyId: 'superadmin', username: 'superadmin', plan: 'superadmin' })
+      const token = await createSession({ familyId: 'superadmin', username: 'superadmin', plan: 'superadmin', kind: 'admin' }, '8h')
 
       const asUserCookie = reqWithCookie('vk_session', token)
-      expect(await getSession(asUserCookie)).not.toBeNull()
+      expect(await getSession(asUserCookie)).toBeNull()
       expect(await getAdminSession(asUserCookie)).toBeNull()
 
       const asAdminCookie = reqWithCookie('vk_admin_session', token)
       expect(await getAdminSession(asAdminCookie)).not.toBeNull()
       expect(await getSession(asAdminCookie)).toBeNull()
+    })
+
+    it('rejects a family token in the admin cookie, even with familyId superadmin', async () => {
+      const { createSession, getAdminSession } = await import('@/lib/session')
+      const familyToken = await createSession({ familyId: 'superadmin', username: 'superadmin', plan: 'superadmin' })
+      expect(await getAdminSession(reqWithCookie('vk_admin_session', familyToken))).toBeNull()
+    })
+
+    it('rejects a parent-unlock token used as a family session', async () => {
+      const { createParentUnlock, getSession } = await import('@/lib/session')
+      const unlock = await createParentUnlock('fam-1')
+      expect(await getSession(reqWithCookie('vk_session', unlock))).toBeNull()
     })
   })
 

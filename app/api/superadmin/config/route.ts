@@ -1,19 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
-import { getAdminSession } from '@/lib/auth'
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
-
-async function requireSuperAdmin(req: NextRequest) {
-  const session = await getAdminSession(req)
-  return session?.familyId === 'superadmin'
-}
+import { supabase } from '@/lib/supabaseServer'
+import { isAdminRequest } from '@/lib/api'
 
 export async function GET(req: NextRequest) {
-  if (!await requireSuperAdmin(req)) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+  if (!await isAdminRequest(req)) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   const { data } = await supabase.from('admin_config').select('key, value')
   const configMap: Record<string, string> = {}
@@ -26,7 +16,7 @@ export async function GET(req: NextRequest) {
 }
 
 export async function PATCH(req: NextRequest) {
-  if (!await requireSuperAdmin(req)) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+  if (!await isAdminRequest(req)) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   const body = await req.json().catch(() => ({}))
   const updates: { key: string; value: string }[] = []

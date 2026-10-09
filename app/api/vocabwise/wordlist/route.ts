@@ -3,6 +3,7 @@ import { supabase } from '@/lib/supabaseServer'
 import { getSession } from '@/lib/auth'
 import { getFamilyProfile } from '@/lib/security'
 import { getMyWordsLimit } from '@/lib/planUtils'
+import { serverError } from '@/lib/api'
 
 export async function GET(req: NextRequest) {
   const session = await getSession(req)
@@ -17,7 +18,7 @@ export async function GET(req: NextRequest) {
   if (topicId) query = (query as typeof query).eq('topic_id', topicId)
 
   const { data, error } = await query
-  if (error) return NextResponse.json({ error: error.message }, { status: 500 })
+  if (error) return serverError(error)
   return NextResponse.json({ saved: data ?? [] })
 }
 
@@ -63,7 +64,7 @@ export async function POST(req: NextRequest) {
     },
     { onConflict: 'family_id,word,topic_id' }
   )
-  if (error) return NextResponse.json({ error: error.message }, { status: 500 })
+  if (error) return serverError(error)
   return NextResponse.json({ ok: true })
 }
 
@@ -80,7 +81,7 @@ export async function PATCH(req: NextRequest) {
     .eq('id', id)
     .eq('family_id', session.familyId)
 
-  if (error) return NextResponse.json({ error: error.message }, { status: 500 })
+  if (error) return serverError(error)
   return NextResponse.json({ ok: true })
 }
 
@@ -97,6 +98,6 @@ export async function DELETE(req: NextRequest) {
     .eq('family_id', session.familyId)
     .eq('word', word)
     .eq('topic_id', topic_id)
-  if (error) return NextResponse.json({ error: error.message }, { status: 500 })
+  if (error) return serverError(error)
   return NextResponse.json({ ok: true })
 }

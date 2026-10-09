@@ -1,17 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
-import { getAdminSession } from '@/lib/auth'
+import { supabase } from '@/lib/supabaseServer'
 import { logAudit } from '@/lib/auditLog'
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
-
-async function requireSuperAdmin(req: NextRequest) {
-  const session = await getAdminSession(req)
-  return session?.familyId === 'superadmin'
-}
+import { isAdminRequest } from '@/lib/api'
 
 function addDays(dateStr: string, days: number): string {
   const d = new Date(dateStr)
@@ -22,7 +12,7 @@ function addDays(dateStr: string, days: number): string {
 // POST /api/superadmin/families/bulk
 // { action: 'disable' | 'enable' | 'extend', ids: string[], days?: number }
 export async function POST(req: NextRequest) {
-  if (!await requireSuperAdmin(req)) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+  if (!await isAdminRequest(req)) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   const { action, ids, days } = await req.json().catch(() => ({}))
   if (!action || !Array.isArray(ids) || ids.length === 0) {

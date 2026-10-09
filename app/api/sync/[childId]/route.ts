@@ -1,13 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
+import { supabase } from '@/lib/supabaseServer'
 import { getSession } from '@/lib/auth'
 import { triggerSignupReward } from '@/lib/referralUtils'
 import { awardStickers, awardPhonicsStickers } from '@/lib/stickers'
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
 
 async function verifyOwnership(childId: string, familyId: string) {
   const { data } = await supabase

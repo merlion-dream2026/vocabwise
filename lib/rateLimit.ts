@@ -233,3 +233,27 @@ export async function resetOtpAttempts(familyId: string): Promise<void> {
   if (redis) redis.del(`vw:otp-att:${familyId}`).catch(() => {})
   otpAttemptStore.delete(`vw:otp-att:${familyId}`)
 }
+
+// ── Login misses for usernames with no account ────────────────────────────────
+// Real accounts count failures in families.failed_login_count. Unknown usernames count here so the
+// login route can answer them with the same "còn X lần thử" / lockout messages — otherwise the
+// difference would reveal which phone numbers have an account.
+const loginMissStore = new Map<string, { count: number; resetAt: number }>()
+
+/** Increments the miss counter for an unknown username. Returns the new count and seconds until it resets. */
+export async function incrementUnknownLoginMiss(username: string, windowSec: number): Promise<{ count: number; secondsLeft: number }> {
+  const key = `vw:login-miss:${username}`
+  if (redis) {
+    try {
+      const count = await redis.incr(key)
+      if (count === 1) await redis.expire(key, windowSec)
+      const ttl = await redis.ttl(key)
+      return { count, secondsLeft: ttl > 0 ? ttl : windowSec }
+    } catch (e) { warnRedisFallback('incrementUnknownLoginMiss', e) }
+  }
+  const now = Date.now()
+  let e = loginMissStore.get(key)
+  if (!e || now > e.resetAt) { e = { count: 0, resetAt: now + windowSec * 1000 }; loginMissStore.set(key, e) }
+  e.count++
+  return { count: e.count, secondsLeft: Math.ceil((e.resetAt - now) / 1000) }
+}

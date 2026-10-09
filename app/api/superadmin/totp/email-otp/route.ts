@@ -1,15 +1,10 @@
 // POST { username, password } — verify superadmin password then send recovery OTP to admin email.
 // Rate-limited to 2 requests per 15 min per IP.
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
+import { supabase } from '@/lib/supabaseServer'
 import { verifyPassword } from '@/lib/auth'
 import { rateLimit } from '@/lib/rateLimit'
 import { sendEmail } from '@/lib/email'
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
 
 const ADMIN_EMAIL = process.env.ADMIN_ALERT_EMAIL ?? process.env.GMAIL_USER ?? ''
 const OTP_TTL_MS = 10 * 60_000 // 10 minutes

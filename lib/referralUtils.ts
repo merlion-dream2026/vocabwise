@@ -1,13 +1,8 @@
-import { createClient } from '@supabase/supabase-js'
+import { supabase } from '@/lib/supabaseServer'
 import { addBonusDays } from './planUtils'
 import { sendEmail } from './email'
 import { sendPushToFamily } from './pushNotifications'
 import { referralSignupRewardEmailHtml, referralPaidRewardEmailHtml } from './emailTemplates'
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
 
 function fmtDate(iso: string): string {
   return new Date(iso).toLocaleDateString('vi-VN', { day: '2-digit', month: '2-digit', year: 'numeric' })

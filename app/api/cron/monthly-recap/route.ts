@@ -1,25 +1,19 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
+import { supabase } from '@/lib/supabaseServer'
 import { sendEmail } from '@/lib/email'
 import { buildMonthlyRecapHtml, calcMonthStats, AllLevelSync, ChildRow, SyncRow } from '@/lib/reportHtml'
 import { getPlanTier } from '@/lib/planUtils'
 import { runInBatches } from '@/lib/batchProcess'
+import { hasBearer } from '@/lib/api'
 
 export const maxDuration = 60
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
 
 type ReportSettings = { monthly_recap?: boolean }
 
 // Runs on the 1st of each month (vercel.json: "0 1 1 * *" = 8:00 AM VN)
 // Sends monthly recap to Pro 6m families with monthly_recap enabled
 export async function GET(req: NextRequest) {
-  const auth = req.headers.get('authorization')
-  const cronSecret = process.env.CRON_SECRET
-  if (!cronSecret || auth !== `Bearer ${cronSecret}`) {
+  if (!hasBearer(req, process.env.CRON_SECRET)) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
 

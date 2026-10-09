@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
+import { supabase } from '@/lib/supabaseServer'
 import { sendEmail } from '@/lib/email'
 import { inactive7dEmailHtml } from '@/lib/emailTemplates'
 import {
@@ -10,22 +10,16 @@ import {
 } from '@/lib/emailLog'
 import { getGlobalStreak, type SyncAllLevels } from '@/lib/childProgress'
 import { runInBatches } from '@/lib/batchProcess'
+import { hasBearer } from '@/lib/api'
 
 export const maxDuration = 60
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
 
 /**
  * Daily cron: one gentle re-engagement email when a family has been inactive exactly 7 days
  * (max once per 30 days). Day-to-day nudging is the parent-scheduled push, not email.
  */
 export async function GET(req: NextRequest) {
-  const auth = req.headers.get('authorization')
-  const cronSecret = process.env.CRON_SECRET
-  if (!cronSecret || auth !== `Bearer ${cronSecret}`) {
+  if (!hasBearer(req, process.env.CRON_SECRET)) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
 

@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { supabase } from '@/lib/supabaseServer'
 import { getSession } from '@/lib/auth'
+import { serverError } from '@/lib/api'
 
 export async function GET(req: NextRequest) {
   const session = await getSession(req)
@@ -12,7 +13,7 @@ export async function GET(req: NextRequest) {
     .eq('family_id', session.familyId)
     .order('created_at', { ascending: true })
 
-  if (error) return NextResponse.json({ error: error.message }, { status: 500 })
+  if (error) return serverError(error)
   return NextResponse.json({ lists: data ?? [] })
 }
 
@@ -29,7 +30,7 @@ export async function POST(req: NextRequest) {
     .select()
     .single()
 
-  if (error) return NextResponse.json({ error: error.message }, { status: 500 })
+  if (error) return serverError(error)
   return NextResponse.json({ list: data })
 }
 
@@ -50,7 +51,7 @@ export async function PATCH(req: NextRequest) {
     .eq('id', id)
     .eq('family_id', session.familyId)
 
-  if (error) return NextResponse.json({ error: error.message }, { status: 500 })
+  if (error) return serverError(error)
   return NextResponse.json({ ok: true })
 }
 
@@ -67,6 +68,6 @@ export async function DELETE(req: NextRequest) {
     .eq('id', id)
     .eq('family_id', session.familyId)
 
-  if (error) return NextResponse.json({ error: error.message }, { status: 500 })
+  if (error) return serverError(error)
   return NextResponse.json({ ok: true })
 }

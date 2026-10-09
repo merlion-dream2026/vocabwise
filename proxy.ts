@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { getSession } from './lib/session'
+import { getSession, clearSessionCookie } from './lib/session'
+import { isSessionLive } from './lib/sessionGuard'
 import { rateLimit } from './lib/rateLimit'
 
 const PUBLIC_PATHS = [
@@ -124,6 +125,15 @@ export async function proxy(req: NextRequest) {
     const loginUrl = new URL('/login', req.url)
     loginUrl.searchParams.set('redirect', pathname)
     return NextResponse.redirect(loginUrl)
+  }
+
+  // Disabled family or session revoked by a password change/reset
+  if (!(await isSessionLive(session))) {
+    const res = pathname.startsWith('/api/')
+      ? NextResponse.json({ error: 'Phiên đăng nhập đã hết hiệu lực. Vui lòng đăng nhập lại.' }, { status: 401 })
+      : NextResponse.redirect(new URL('/login', req.url))
+    res.cookies.set(clearSessionCookie())
+    return res
   }
 
   return makeNext()

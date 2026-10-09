@@ -1,25 +1,15 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
-import { getAdminSession } from '@/lib/auth'
+import { supabase } from '@/lib/supabaseServer'
+import { isAdminRequest } from '@/lib/api'
 import {
   getXPAndBadge, getPhonicsProgress, getAllDailyProgress, getAllAcademicProgress,
   type SyncAllLevels,
 } from '@/lib/childProgress'
 
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
-
-async function requireSuperAdmin(req: NextRequest) {
-  const session = await getAdminSession(req)
-  return session?.familyId === 'superadmin'
-}
-
 // GET /api/superadmin/families/[id]/children
 export async function GET(req: NextRequest, props: { params: Promise<{ id: string }> }) {
   const params = await props.params;
-  if (!(await requireSuperAdmin(req))) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+  if (!(await isAdminRequest(req))) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
   const { data: children } = await supabase
     .from('children')

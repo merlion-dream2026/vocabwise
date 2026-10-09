@@ -3,6 +3,7 @@ import { supabase } from '@/lib/supabaseServer'
 import { getSession } from '@/lib/auth'
 import { getFamilyProfile } from '@/lib/security'
 import { getEffectivePlan } from '@/lib/planUtils'
+import { serverError } from '@/lib/api'
 
 const BOOK_PREFIXES: Record<string, string> = { book1: 'b1', book2: 'b2', book3: 'b3' }
 
@@ -39,8 +40,8 @@ export async function GET(req: NextRequest) {
       .like('topic_id', `${prefix}-%`),
   ])
 
-  if (glossaryErr) return NextResponse.json({ error: glossaryErr.message }, { status: 500 })
-  if (topicErr) return NextResponse.json({ error: topicErr.message }, { status: 500 })
+  if (glossaryErr) return serverError(glossaryErr)
+  if (topicErr) return serverError(topicErr)
 
   const cefrByTopic = new Map((topicRows ?? []).map(t => [t.topic_id, t.cefr_level as string | null]))
   const glossary = (glossaryRows ?? []).map(row => ({

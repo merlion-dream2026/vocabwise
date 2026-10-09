@@ -1,16 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
-import { getAdminSession } from '@/lib/auth'
-
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
-
-async function requireSuperAdmin(req: NextRequest) {
-  const session = await getAdminSession(req)
-  return session?.familyId === 'superadmin'
-}
+import { supabase } from '@/lib/supabaseServer'
+import { isAdminRequest } from '@/lib/api'
 
 const PLAN_PRICES: Record<string, number> = {
   '1month': 59000,
@@ -25,7 +15,7 @@ const PLAN_MONTHLY: Record<string, number> = {
 }
 
 export async function GET(req: NextRequest) {
-  if (!await requireSuperAdmin(req)) {
+  if (!await isAdminRequest(req)) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
 
