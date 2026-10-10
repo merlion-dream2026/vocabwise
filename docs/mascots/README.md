@@ -24,7 +24,7 @@
 | Daily topic hub (`TopicHub`) | wave (chưa bắt đầu) / idle + blink / cheer (đã chinh phục) |
 | Academic topic hub (`AcademicHub`) | idle + blink / cheer |
 | Kết quả game (`GameResultScreen`) | cheer ≥90% / idle 60–89% / oops <60% |
-| Chọn level Daily | portrait seeker → master |
+| ~~Chọn level Daily~~ | Bỏ 10/10/2026 — 6 level dùng lại emoji 🌱⭐🏕️🔭🎓🏆 theo yêu cầu Andie. Ảnh portrait-* vẫn giữ trong `public/mascots/`, chưa dùng chỗ nào |
 | Huy hiệu (profile + modal level) | badge-* / streak-* theo `lib/badges.ts` |
 | Onboarding | duo-wave → think → cheer |
 | 404 / error | lost / oops |

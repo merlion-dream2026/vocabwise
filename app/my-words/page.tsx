@@ -488,7 +488,7 @@ export default function MyWordsPage() {
 
           {!loading && sorted.length === 0 && (
             <div className="text-center py-16">
-              <Mascot shot={search ? 'pose-magnify' : 'pose-cards'} size={160} className="mi-pop mb-3 rounded-3xl shadow-md ring-4 ring-white" />
+              <Mascot shot={search ? 'pose-magnify' : 'pose-cards'} size={192} className="mi-pop mb-3 rounded-3xl shadow-md ring-4 ring-white" />
               <p className="text-gray-500 font-bold">
                 {search ? 'Không tìm thấy từ nào' : 'Chưa có từ nào được lưu'}
               </p>

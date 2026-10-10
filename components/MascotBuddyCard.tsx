@@ -13,8 +13,8 @@ export default function MascotBuddyCard({ className = '' }: { className?: string
   return (
     <section className={`flex items-center gap-3 ${className}`}>
       {mascot
-        ? <Mascot shot="pose-idle" size={88} blink className="mi-pop shadow-md ring-4 ring-white" />
-        : <span className="flex h-[88px] w-[88px] flex-shrink-0 items-center justify-center rounded-2xl bg-slate-100 text-3xl" aria-hidden>❔</span>}
+        ? <Mascot shot="pose-idle" size={96} blink className="mi-pop shadow-md ring-4 ring-white" />
+        : <span className="flex h-[96px] w-[96px] flex-shrink-0 items-center justify-center rounded-2xl bg-slate-100 text-3xl" aria-hidden>❔</span>}
       <div className="min-w-0 flex-1">
         <p className="text-xs font-semibold text-slate-500">Bạn đồng hành</p>
         <p className="text-base font-bold text-slate-800">{mascot ? MASCOT_NAMES[mascot] : 'Chưa chọn'}</p>

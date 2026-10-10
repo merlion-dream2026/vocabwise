@@ -9,7 +9,7 @@ export default function Error({ error, reset }: { error: Error & { digest?: stri
   return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center p-6">
       <div className="text-center max-w-sm">
-        <Mascot shot="pose-oops" size={176} priority className="mi-pop mb-4 rounded-3xl shadow-md ring-4 ring-white" />
+        <Mascot shot="pose-oops" size={208} priority className="mi-pop mb-4 rounded-3xl shadow-md ring-4 ring-white" />
         <h1 className="text-2xl font-bold text-gray-800 mb-2">Có lỗi xảy ra</h1>
         <p className="text-gray-500 text-sm mb-6">Lỗi đã được ghi lại. Thử tải lại trang.</p>
         <div className="flex gap-3 justify-center">

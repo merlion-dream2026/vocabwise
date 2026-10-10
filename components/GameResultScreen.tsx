@@ -49,7 +49,7 @@ export default function GameResultScreen({
       <HubStyles />
       {/* Mascot is the hero; the grade emoji rides on its corner and the mascot's line sits in a bubble below */}
       <div className="relative mb-3">
-        <Mascot shot={pct >= 90 ? 'pose-cheer' : pct >= 60 ? 'pose-idle' : 'pose-oops'} size={144} blink priority
+        <Mascot shot={pct >= 90 ? 'pose-cheer' : pct >= 60 ? 'pose-idle' : 'pose-oops'} size={184} blink priority
           className="mi-pop rounded-3xl shadow-md ring-4 ring-white" />
         <span aria-hidden className="hub-shine absolute -right-4 -top-3 flex h-12 w-12 rotate-12 items-center justify-center rounded-2xl bg-white text-3xl shadow-md ring-2 ring-amber-100">{grade.emoji}</span>
       </div>

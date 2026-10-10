@@ -76,8 +76,8 @@ export function MascotOptions({ value, onChange }: {
         <button key={o.id ?? 'unset'} type="button" role="radio" aria-checked={value === o.id} onClick={() => onChange(o.id)}
           className={`flex flex-col items-center gap-1 rounded-2xl border-2 px-2 py-2 transition-all ${value === o.id ? 'border-purple-400 bg-purple-50' : 'border-gray-200 hover:border-gray-300'}`}>
           {o.id
-            ? <Mascot character={o.id} shot="pose-idle" size={64} />
-            : <span className="flex h-16 w-16 items-center justify-center rounded-2xl bg-gray-100 text-2xl" aria-hidden>❔</span>}
+            ? <Mascot character={o.id} shot="pose-idle" size={72} />
+            : <span className="flex h-[72px] w-[72px] items-center justify-center rounded-2xl bg-gray-100 text-2xl" aria-hidden>❔</span>}
           <span className="text-xs font-bold text-gray-700">{o.label}</span>
         </button>
       ))}

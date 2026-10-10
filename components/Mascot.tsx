@@ -62,7 +62,7 @@ export function BadgeArt({ id, emoji, size, alt, character, className = '' }: {
 
 // Mascot beside a speech bubble (tail pointing at the mascot). The words carry the message, so the
 // image stays decorative. Used where the mascot "talks" to the child (topic hubs).
-export function MascotSays({ shot, size = 80, blink = false, children, className = '' }: {
+export function MascotSays({ shot, size = 104, blink = false, children, className = '' }: {
   shot: MascotShot; size?: number; blink?: boolean; children: ReactNode; className?: string
 }) {
   return (

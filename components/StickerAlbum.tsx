@@ -98,7 +98,7 @@ export default function StickerAlbum({ child, initialTab = 'daily' }: { child: A
         </div>
         {inTab(tab).length === 0 && (
           <div className="rounded-3xl border-2 border-b-[4px] border-purple-200 border-b-purple-300 bg-white p-5 text-center">
-            <Mascot shot="pose-gift" size={140} className="mi-pop rounded-3xl shadow-md ring-4 ring-white" />
+            <Mascot shot="pose-gift" size={176} className="mi-pop rounded-3xl shadow-md ring-4 ring-white" />
             <p className="mt-2 text-base font-bold text-slate-800">Chưa có sticker nào ở đây</p>
             <p className="mt-1 text-sm font-semibold text-slate-500">
               {tab === 'daily' ? 'Hoàn thành một chủ đề Daily để nhận sticker đầu tiên nhé!' : tab === 'academic' ? 'Đạt từ 20/25 điểm bài tập ở một topic Academic để nhận sticker nhé!' : 'Thạo một bài Phonics (đủ game bắt buộc) để nhận sticker nhé!'}

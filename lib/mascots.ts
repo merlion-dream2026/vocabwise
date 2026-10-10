@@ -38,12 +38,6 @@ export function mascotSrc(character: MascotCharacter, shot: MascotShot): string 
 // Shared welcome scene (Rocky + Bubi together), landscape.
 export const DUO_WAVE_SCENE = { src: '/mascots/rocky-bubi-scene-duo-wave.png', width: 1024, height: 683 } as const
 
-// Daily level → portrait (seeker → master; deliberately not tied to CEFR numbers).
-export const LEVEL_PORTRAIT: Record<string, MascotShot> = {
-  seeker: 'portrait-seeker', starter: 'portrait-starter', ranger: 'portrait-ranger',
-  explorer: 'portrait-explorer', scholar: 'portrait-scholar', master: 'portrait-master',
-}
-
 // lib/badges.ts id → badge art. words_* and xp_* tiers share one image (no per-tier art exists).
 const BADGE_SHOT: Record<string, MascotShot> = {
   first_word: 'badge-first-word',
