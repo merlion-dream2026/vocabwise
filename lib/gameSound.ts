@@ -1,20 +1,16 @@
-// Correct/wrong feedback chimes for games — global on/off toggle shared across
-// every game via localStorage, so muting once applies everywhere without each
-// game needing its own setting.
+// Feedback sounds (game answers, results, trophy, onboarding) — global on/off toggle
+// shared across the app via localStorage, so muting once applies everywhere without
+// each screen needing its own setting. Files: public/sounds/{kind}.mp3 (Pixabay, no attribution needed).
 const STORAGE_KEY = 'vw_game_sound_enabled'
 const TOGGLE_EVENT = 'vocabwise:game-sound-toggle'
 
-let correctAudio: HTMLAudioElement | null = null
-let wrongAudio: HTMLAudioElement | null = null
+export type Sfx = 'correct' | 'wrong' | 'complete' | 'trophy' | 'swoosh' | 'pop' | 'ready'
 
-function getAudio(kind: 'correct' | 'wrong'): HTMLAudioElement | null {
+const cache: Partial<Record<Sfx, HTMLAudioElement>> = {}
+
+function getAudio(kind: Sfx): HTMLAudioElement | null {
   if (typeof window === 'undefined') return null
-  if (kind === 'correct') {
-    if (!correctAudio) correctAudio = new Audio('/sounds/correct.mp3')
-    return correctAudio
-  }
-  if (!wrongAudio) wrongAudio = new Audio('/sounds/wrong.mp3')
-  return wrongAudio
+  return (cache[kind] ??= new Audio(`/sounds/${kind}.mp3`))
 }
 
 export function isGameSoundEnabled(): boolean {
@@ -36,7 +32,7 @@ export function onGameSoundToggle(cb: (enabled: boolean) => void): () => void {
   return () => window.removeEventListener(TOGGLE_EVENT, handler)
 }
 
-function play(kind: 'correct' | 'wrong') {
+export function playSfx(kind: Sfx) {
   if (!isGameSoundEnabled()) return
   const audio = getAudio(kind)
   if (!audio) return
@@ -47,5 +43,5 @@ function play(kind: 'correct' | 'wrong') {
   audio.play().catch(() => {})
 }
 
-export function playCorrectSound() { play('correct') }
-export function playWrongSound() { play('wrong') }
+export function playCorrectSound() { playSfx('correct') }
+export function playWrongSound() { playSfx('wrong') }

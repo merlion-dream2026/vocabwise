@@ -5,6 +5,7 @@ import { cta } from '@/components/ChunkyUI'
 import Image from 'next/image'
 import Mascot from '@/components/Mascot'
 import { DUO_WAVE_SCENE } from '@/lib/mascots'
+import { playSfx } from '@/lib/gameSound'
 
 type Section = 'kids' | 'academic' | 'phonics' | null
 
@@ -14,6 +15,17 @@ export default function OnboardingPage() {
   const router = useRouter()
   const [step, setStep]       = useState(0)
   const [section, setSection] = useState<Section>(null)
+
+  // Step 0 stays silent (autoplay is blocked before the first tap); every later sound rides on a tap.
+  function go(next: number) {
+    playSfx(next === 2 ? 'ready' : 'swoosh')
+    setStep(next)
+  }
+
+  function pick(s: Exclude<Section, null>) {
+    playSfx('pop')
+    setSection(s)
+  }
 
   function finish(dest: string) {
     localStorage.setItem('onboarding_done', '1')
@@ -61,7 +73,7 @@ export default function OnboardingPage() {
               ))}
             </div>
             <button
-              onClick={() => setStep(1)}
+              onClick={() => go(1)}
               className={cta('purple')}
             >
               Tiếp theo →
@@ -79,7 +91,7 @@ export default function OnboardingPage() {
             </div>
             <div className="w-full space-y-3">
               <button
-                onClick={() => setSection('kids')}
+                onClick={() => pick('kids')}
                 className={`w-full rounded-3xl border-2 p-4 text-left transition-[transform,border-width] active:translate-y-0.5 active:border-b-2 ${
                   section === 'kids'
                     ? 'border-purple-400 border-b-[4px] border-b-purple-500 bg-purple-50'
@@ -97,7 +109,7 @@ export default function OnboardingPage() {
               </button>
 
               <button
-                onClick={() => setSection('academic')}
+                onClick={() => pick('academic')}
                 className={`w-full rounded-3xl border-2 p-4 text-left transition-[transform,border-width] active:translate-y-0.5 active:border-b-2 ${
                   section === 'academic'
                     ? 'border-indigo-400 border-b-[4px] border-b-indigo-500 bg-indigo-50'
@@ -115,7 +127,7 @@ export default function OnboardingPage() {
               </button>
 
               <button
-                onClick={() => setSection('phonics')}
+                onClick={() => pick('phonics')}
                 className={`w-full rounded-3xl border-2 p-4 text-left transition-[transform,border-width] active:translate-y-0.5 active:border-b-2 ${
                   section === 'phonics'
                     ? 'border-green-400 border-b-[4px] border-b-green-500 bg-green-50'
@@ -135,13 +147,13 @@ export default function OnboardingPage() {
 
             <div className="flex gap-3 w-full">
               <button
-                onClick={() => setStep(0)}
+                onClick={() => go(0)}
                 className={cta('slate', 'flex-1')}
               >
                 ← Quay lại
               </button>
               <button
-                onClick={() => section && setStep(2)}
+                onClick={() => section && go(2)}
                 disabled={!section}
                 className={cta('indigo', 'flex-[2]')}
               >

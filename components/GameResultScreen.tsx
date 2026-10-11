@@ -1,12 +1,13 @@
 'use client'
 
-import type { ReactNode } from 'react'
+import { useEffect, type ReactNode } from 'react'
 
 import { getGrade } from '@/lib/gameGrade'
 import { starsFor } from '@/lib/topicMastery'
 import { HubStyles } from '@/components/TopicHub'
 import { PrimaryButton } from '@/components/ChunkyUI'
 import Mascot from '@/components/Mascot'
+import { playSfx } from '@/lib/gameSound'
 
 export type ResultBreakdownRow = { icon: string; label: string; score: number; max: number }
 
@@ -42,6 +43,8 @@ export default function GameResultScreen({
   const pct = total > 0 ? Math.round((score / total) * 100) : 0
   const grade = getGrade(score, total)
   const stars = starsProp ?? starsFor(pct)
+  // Cheer only a decent result — a low score stays silent rather than playing a "you lost" sting.
+  useEffect(() => { if (pct >= 60) playSfx('complete') }, []) // eslint-disable-line react-hooks/exhaustive-deps
   const owl = pct >= 90 ? 'Quá đỉnh! Mình tự hào về bạn lắm!' : pct >= 60 ? 'Khá lắm! Thêm một lần nữa là lên 3 sao!' : 'Không sao, luyện thêm một chút là giỏi ngay!'
 
   return (

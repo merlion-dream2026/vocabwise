@@ -3,6 +3,7 @@
 import { useEffect, useState, useRef } from 'react'
 import Confetti from '@/components/Confetti'
 import Sticker from '@/components/Sticker'
+import { playSfx } from '@/lib/gameSound'
 
 type Props = {
   topicName: string
@@ -29,6 +30,7 @@ export default function TrophyModal({ topicName, topicEmoji, childName, levelNam
 
   useEffect(() => {
     const t1 = setTimeout(() => setVisible(true), 50)
+    playSfx('trophy')
     autoCloseRef.current = setTimeout(() => onDone(), 4500)
     const handler = (e: KeyboardEvent) => { if (e.key === 'Escape') onDone() }
     document.addEventListener('keydown', handler)
