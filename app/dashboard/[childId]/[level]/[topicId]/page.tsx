@@ -5,7 +5,9 @@ import { useRouter, useParams } from 'next/navigation'
 import dynamic from 'next/dynamic'
 import { loadDailyTopicOffline, saveLastSync, loadOfflineProgress, clearOfflineProgress } from '@/lib/offlineStorage'
 import { isTopicMastered, type MasteryEntry } from '@/lib/topicMastery'
-import { HubStyles, Rise, TopicHero, RoundCards, WordPreview, PRESS } from '@/components/TopicHub'
+import { HubStyles, Rise, TopicHero, WordPreview, PRESS } from '@/components/TopicHub'
+import { RoundCards } from '@/components/TopicRounds'
+import { DAILY_HUB_THEMES, hubTheme } from '@/components/hubTheme'
 import PageSkeleton from '@/components/PageSkeleton'
 
 const TrophyModal = dynamic(() => import('@/components/TrophyModal'), { ssr: false })
@@ -259,6 +261,7 @@ export default function TopicPage() {
 
   const games = getGamesForLevel(level)
   const colors = LEVEL_COLORS[level] ?? LEVEL_COLORS.explorer
+  const theme = hubTheme(DAILY_HUB_THEMES, level, 'explorer')
   const backUrl = `/dashboard/${childId}/${level}`
 
   const topicIdx = allTopics.findIndex((t: { id: string }) => t.id === topicId)
@@ -409,7 +412,8 @@ export default function TopicPage() {
         {/* Topic words: chips to tap-and-hear, "Chi tiết" opens the Flashcard */}
         <Rise i={0}>
           <WordPreview
-            words={(topic as { words: { word: string; meaning: string; emoji: string }[] }).words}
+            words={(topic as { words: { word: string }[] }).words}
+            theme={theme}
             onDetail={() => router.push(`/dashboard/${childId}/${level}/${topicId}/flashcard`)}
           />
         </Rise>
@@ -417,7 +421,7 @@ export default function TopicPage() {
         {/* Hero (status + journey + next-step button) */}
         <Rise i={1}>
           <TopicHero
-            colors={colors}
+            theme={theme}
             level={level}
             topicEmoji={(topic as { emoji: string }).emoji}
             wordCount={(topic as { words: unknown[] }).words.length}
@@ -467,6 +471,7 @@ export default function TopicPage() {
             level={level}
             entry={mastery}
             games={games}
+            theme={theme}
             onOpen={(key) => router.push(`/dashboard/${childId}/${level}/${topicId}/${key}`)}
           />
         </Rise>

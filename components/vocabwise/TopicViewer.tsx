@@ -16,6 +16,7 @@ import { stripMarkdown } from '@/lib/textFormat'
 import { academicFetch, activeChildId } from '@/lib/academicSync'
 import Sticker from '@/components/Sticker'
 import AcademicHub from './AcademicHub'
+import { ACADEMIC_CHROME, ACADEMIC_HUB_THEMES, hubTheme } from '@/components/hubTheme'
 import type { ExPhase } from './VWExerciseRunner'
 import { cta } from '@/components/ChunkyUI'
 
@@ -345,9 +346,10 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
 
   const { meta, passage, glossary, exercises, answer_key } = data
   const prevTotal = topicSync ? Object.values(topicSync.ex_scores ?? {}).reduce((s, v) => s + v, 0) : 0
+  const chrome = ACADEMIC_CHROME[book] ?? ACADEMIC_CHROME.book2
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className={`min-h-screen bg-gradient-to-br ${chrome.page}`}>
       {showLimitModal && <UpgradeModal onClose={() => setShowLimitModal(false)} />}
       {session && (
         <UpgradeBanner
@@ -357,17 +359,19 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
           username={session.username}
         />
       )}
-      {/* Header */}
-      <div className="bg-gradient-to-r from-blue-600 to-indigo-600 px-4 pt-12 pb-4 text-white rounded-b-3xl border-b-[4px] border-black/20">
-        <button onClick={() => router.back()} className="inline-flex items-center gap-1.5 mb-3 bg-white/20 hover:bg-white/30 text-white font-bold text-sm px-3 py-1.5 rounded-full transition-all active:scale-95">
-          ← {meta.theme_title}
-        </button>
-        <h1 className="text-xl font-bold leading-tight">{meta.topic_title}</h1>
-        <div className="flex items-center gap-2 mt-1">
-          <span className="text-xs font-bold bg-white/20 px-2 py-0.5 rounded-full">{meta.cefr_level}</span>
-          <span className="text-xs text-blue-200">Topic {meta.topic_number}</span>
-          {topicSync?.mastered && <span className="text-xs bg-yellow-400/90 text-yellow-900 font-bold px-2 py-0.5 rounded-full">🏆 Thành thạo</span>}
-          {topicSync?.completed && !topicSync.mastered && <span className="text-xs bg-white/20 text-white font-bold px-2 py-0.5 rounded-full">✅ {prevTotal}/25</span>}
+      {/* Header — one row, in the book's colour (components/hubTheme.ts) */}
+      <div className={`bg-gradient-to-r ${chrome.header} rounded-b-3xl border-b-[4px] border-black/20 text-white`}>
+        <div className="mx-auto flex max-w-2xl items-center gap-3 px-4 py-3.5">
+          <button onClick={() => router.back()} aria-label={`Quay lại ${meta.theme_title}`}
+            className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 text-lg font-bold transition-transform active:translate-y-0.5">←</button>
+          <span className="flex h-10 w-10 flex-shrink-0 -rotate-6 items-center justify-center rounded-2xl bg-white text-2xl shadow">{meta.emoji ?? '📘'}</span>
+          <div className="min-w-0 flex-1">
+            <h1 className="truncate text-lg font-bold leading-tight">{meta.topic_title}</h1>
+            <p className="truncate text-xs font-semibold text-white/85">
+              {meta.cefr_level} · {meta.theme_title} · Topic {meta.topic_number}
+              {topicSync?.mastered ? ' · 🏆 Thành thạo' : topicSync?.completed ? ` · ✅ ${prevTotal}/25` : ''}
+            </p>
+          </div>
         </div>
       </div>
 
@@ -384,7 +388,7 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
         {(['overview', 'passage', 'glossary', 'exercises', ...(data.grammar_spotlight ? ['grammar' as Tab] : [])] as Tab[]).map(t => (
           <button key={t} onClick={() => setTab(t)}
             className={`flex-1 py-3 font-bold text-xs transition-all ${
-              tab === t ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-400 hover:text-gray-600'
+              tab === t ? `border-b-2 ${chrome.tab}` : 'text-gray-400 hover:text-gray-600'
             }`}>
             {t === 'overview' ? '🏠 Tổng quan' : t === 'passage' ? '📄 Đọc' : t === 'glossary' ? '📚 Từ vựng' : t === 'grammar' ? '📖 Ngữ pháp' : '📝 BT Từ vựng'}
           </button>
@@ -397,13 +401,13 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
         {tab === 'overview' && (
           <AcademicHub
             emoji={meta.emoji}
+            theme={hubTheme(ACADEMIC_HUB_THEMES, book, 'book1')}
             words={glossary.filter(i => i.type !== 'collocation' && i.word).map(i => ({ word: i.word!, meaning_vi: i.meaning_vi }))}
             exercises={exercises}
             exScores={topicSync?.ex_scores}
             read={!!topicSync?.read}
             completed={!!topicSync?.completed}
             mastered={!!topicSync?.mastered}
-            hasGrammar={!!data.grammar_spotlight}
             onOpenTab={setTab}
             onStartExercise={phase => { setStartReq({ phase, nonce: Date.now() }); setTab('exercises') }}
             onOpenAlbum={() => { const id = activeChildId(); if (id) router.push(`/dashboard/${id}/profile?tab=academic&back=1`) }}

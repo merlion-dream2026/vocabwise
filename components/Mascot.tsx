@@ -1,7 +1,7 @@
 'use client'
 import { createContext, useContext, type ReactNode } from 'react'
 import Image from 'next/image'
-import { DEFAULT_MASCOT, MASCOT_TILE_BG, badgeShot, mascotSrc, type MascotCharacter, type MascotShot } from '@/lib/mascots'
+import { DEFAULT_MASCOT, MASCOT_TILE_BG, badgeShot, mascotCutSrc, mascotSrc, type CutoutShot, type MascotCharacter, type MascotShot } from '@/lib/mascots'
 
 // Current child's mascot, provided by ChildMascotProvider (components/MascotContext.tsx).
 // null = still resolving. Outside any provider: DEFAULT_MASCOT.
@@ -60,18 +60,26 @@ export function BadgeArt({ id, emoji, size, alt, character, className = '' }: {
   return <Mascot shot={shot} size={size} character={character} alt={alt} className={className} />
 }
 
-// Mascot beside a speech bubble (tail pointing at the mascot). The words carry the message, so the
-// image stays decorative. Used where the mascot "talks" to the child (topic hubs).
-export function MascotSays({ shot, size = 104, blink = false, children, className = '' }: {
-  shot: MascotShot; size?: number; blink?: boolean; children: ReactNode; className?: string
-}) {
+// The current child's mascot with no tile: a background-free cutout that stands on the page,
+// with a soft drop shadow. Decorative (the copy beside it carries the message).
+export function MascotCutout({ shot, size, className = '' }: { shot: CutoutShot; size: number; className?: string }) {
+  const character = useMascotCharacter()
   return (
-    <div className={`flex items-end gap-2.5 ${className}`}>
-      <Mascot shot={shot} size={size} blink={blink} className="mi-pop shadow-md ring-4 ring-white" />
-      <div className="relative mb-3 min-w-0 flex-1 rounded-2xl border-2 border-slate-200 bg-white px-3 py-2 text-left">
-        <span aria-hidden className="absolute -left-[8px] bottom-4 h-3.5 w-3.5 rotate-45 border-b-2 border-l-2 border-slate-200 bg-white" />
-        {children}
-      </div>
+    <span className={`inline-block flex-shrink-0 ${className}`} style={{ width: size, height: size }}>
+      {character && (
+        <Image src={mascotCutSrc(character, shot)} alt="" width={size} height={size}
+          className="h-full w-full object-contain drop-shadow-[0_4px_5px_rgba(0,0,0,0.14)]" />
+      )}
+    </span>
+  )
+}
+
+// A speech bubble whose tail points left, at a mascot standing beside it.
+export function SpeechBubble({ children, className = '' }: { children: ReactNode; className?: string }) {
+  return (
+    <div className={`relative rounded-2xl border-2 border-slate-200 bg-white px-3 py-2 text-left ${className}`}>
+      <span aria-hidden className="absolute -left-[8px] bottom-3 h-3 w-3 rotate-45 border-b-2 border-l-2 border-slate-200 bg-white" />
+      {children}
     </div>
   )
 }

@@ -35,6 +35,13 @@ export function mascotSrc(character: MascotCharacter, shot: MascotShot): string 
   return `/mascots/${character}/${character}-${s}.png`
 }
 
+// Background-free copies ({shot}-cut.png, made by scripts/cutout-mascots.mjs) for the shots that
+// stand directly on the topic hubs instead of on a grey tile.
+export type CutoutShot = 'pose-point' | 'pose-cheer'
+export function mascotCutSrc(character: MascotCharacter, shot: CutoutShot): string {
+  return `/mascots/${character}/${character}-${shot}-cut.png`
+}
+
 // Shared welcome scene (Rocky + Bubi together), landscape.
 export const DUO_WAVE_SCENE = { src: '/mascots/rocky-bubi-scene-duo-wave.png', width: 1024, height: 683 } as const
 
