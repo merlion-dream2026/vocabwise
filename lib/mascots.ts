@@ -18,6 +18,7 @@ export type MascotShot =
   | 'streak-3' | 'streak-7' | 'streak-14' | 'streak-30'
   | 'anim-blink'
   | 'scene-onboarding-1' | 'scene-onboarding-2' | 'scene-onboarding-3'   // 2:3 portrait scenes, own background
+  | 'pose-listen-cut'   // cutout file, shown on the grey tile like the rest (badge art only)
 
 // Fallback when no child is in scope or the child hasn't picked one (children.mascot is NULL).
 export const DEFAULT_MASCOT: MascotCharacter = 'rocky'
@@ -70,15 +71,17 @@ export const CELEBRATIONS: readonly { shot: CutoutShot; says: string; scale?: nu
 // Shared welcome scene (Rocky + Bubi together), landscape.
 export const DUO_WAVE_SCENE = { src: '/mascots/rocky-bubi-scene-duo-wave.webp', width: 1024, height: 683 } as const
 
-// lib/badges.ts id → badge art. words_* and xp_* tiers share one image (no per-tier art exists).
+// lib/badges.ts id → badge art: one distinct image per badge (no tier shares art). Tiers with no
+// dedicated art borrow the level portraits (unused since the level picker went back to emoji).
+// Badge/streak/portrait files are 512px so the zoomed detail view stays sharp.
 const BADGE_SHOT: Record<string, MascotShot> = {
   first_word: 'badge-first-word',
-  words_50: 'badge-words', words_100: 'badge-words', words_300: 'badge-words',
+  words_50: 'portrait-seeker', words_100: 'portrait-scholar', words_300: 'badge-words',
   streak_3: 'streak-3', streak_7: 'streak-7', streak_14: 'streak-14', streak_30: 'streak-30',
   master_1: 'badge-master-1', master_5: 'badge-master-5', master_10: 'badge-master-10',
-  xp_100: 'badge-xp', xp_500: 'badge-xp', xp_1000: 'badge-xp',
+  xp_100: 'portrait-starter', xp_500: 'portrait-explorer', xp_1000: 'badge-xp',
   perfect: 'badge-perfect',
-  phonics_start: 'badge-phonics', phonics_5: 'badge-phonics', phonics_15: 'badge-phonics',
+  phonics_start: 'pose-listen-cut', phonics_5: 'badge-phonics', phonics_15: 'portrait-master',
 }
 
 export function badgeShot(badgeId: string): MascotShot | null {

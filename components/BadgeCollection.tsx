@@ -97,13 +97,14 @@ export function BadgeDetailDialog({ index, onIndex, onClose, earnedIds, summary,
     <div role="dialog" aria-modal="true" aria-labelledby="badge-detail-title" onClick={e => { e.stopPropagation(); onClose() }}
       className="fixed inset-0 z-[60] flex items-center justify-center overflow-y-auto bg-black/50 p-4">
       <div onClick={e => e.stopPropagation()}
-        className={`my-auto w-full max-w-xs rounded-[2rem] border-2 border-b-[4px] p-5 text-center ${earned ? 'border-amber-300 border-b-amber-500 bg-gradient-to-b from-amber-100 to-white' : 'border-slate-200 border-b-slate-300 bg-white'}`}>
-        <div className="flex items-center justify-between gap-2">
-          <button type="button" onClick={() => onIndex(index - 1)} disabled={index === 0} aria-label="Huy hiệu trước" className={nav}>‹</button>
+        className={`my-auto w-full max-w-sm rounded-[2rem] border-2 border-b-[4px] p-5 text-center ${earned ? 'border-amber-300 border-b-amber-500 bg-gradient-to-b from-amber-100 to-white' : 'border-slate-200 border-b-slate-300 bg-white'}`}>
+        {/* 224px art (was 148) fills the card on a 320px phone, so ‹ › sit over its edges instead of beside it */}
+        <div className="relative flex justify-center">
+          <button type="button" onClick={() => onIndex(index - 1)} disabled={index === 0} aria-label="Huy hiệu trước" className={`${nav} absolute -left-3 top-1/2 z-10 -translate-y-1/2 shadow`}>‹</button>
           <span key={b.id} className={`mi-pop rounded-3xl ${earned ? 'shadow-[0_0_0_6px_rgba(251,191,36,.35)]' : ''}`}>
-            <BadgeArt id={b.id} emoji={b.emoji} size={148} className={`rounded-3xl ${earned ? '' : 'opacity-60 grayscale'}`} />
+            <BadgeArt id={b.id} emoji={b.emoji} size={224} className={`rounded-3xl ${earned ? '' : 'opacity-60 grayscale'}`} />
           </span>
-          <button type="button" onClick={() => onIndex(index + 1)} disabled={index === list.length - 1} aria-label="Huy hiệu tiếp theo" className={nav}>›</button>
+          <button type="button" onClick={() => onIndex(index + 1)} disabled={index === list.length - 1} aria-label="Huy hiệu tiếp theo" className={`${nav} absolute -right-3 top-1/2 z-10 -translate-y-1/2 shadow`}>›</button>
         </div>
         <h2 id="badge-detail-title" className="mt-4 text-xl font-bold text-slate-800">{b.name}</h2>
         <p className={`mx-auto mt-1 inline-block rounded-full px-3 py-0.5 text-xs font-bold ${earned ? 'bg-emerald-100 text-emerald-700' : 'bg-slate-100 text-slate-500'}`}>

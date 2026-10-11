@@ -2,7 +2,7 @@
 
 - **Map (code):** `lib/mascots.ts` — shot → `/mascots/{char}/{char}-{shot}.webp`, fallback về `pose-idle`.
 - **Component:** `components/Mascot.tsx` (`<Mascot>`, `<BadgeArt>`). Không truyền `character` → lấy mascot của bé đang học.
-- **Ảnh trong app:** `public/mascots/` = bản derived thu nhỏ (pose/anim 512px, portrait/badge/streak 256px, duo scene 1024px), giữ nền xám, không tách nền. Từ 11/10/2026 lưu dạng **WebP q90** (PNG 16,6MB → 1,5MB, không khác bằng mắt). Bản gốc 1254px nằm ngoài repo (thư mục `VocabWise mascots/` của Andie), không bị sửa.
+- **Ảnh trong app:** `public/mascots/` = bản derived thu nhỏ (pose/anim + portrait/badge/streak 512px — huy hiệu xuất lại 512px ngày 12/10/2026 cho khung xem phóng to 224px; duo scene 1024px), giữ nền xám, không tách nền. Từ 11/10/2026 lưu dạng **WebP q90** (PNG 16,6MB → 1,5MB, không khác bằng mắt). Bản gốc 1254px nằm ngoài repo (thư mục `VocabWise mascots/` của Andie), không bị sửa.
 - **Inventory:** `mascot-assets.local.json` — 126 bản ghi catalog + 3 ảnh wave/think tìm thấy local, kèm sha256, kích thước, đường dẫn nguồn (tương đối với thư mục mascot) và `app_url`. QA/user_review gốc giữ nguyên.
 
 ## Mỗi bé một mascot (`children.mascot`: `'rocky' | 'bubi' | NULL`)
@@ -23,8 +23,8 @@
 |---|---|
 | Daily + Academic topic hub (`TopicHub`, `AcademicHub`) — ảnh tách nền `*-cut.webp` (`scripts/cutout-mascots.mjs`) | Cạnh nút bước tiếp theo: cầm đạo cụ của bài đó (`nextStepShot()` trong `lib/mascots.ts`: cards/listen/speak/write/blocks/bubble/timer/read), còn lại point · Đã chinh phục: ngẫu nhiên cheer/trophy/wow/jump (`CELEBRATIONS`, trophy ×1.1) |
 | Kết quả game (`GameResultScreen`) | cheer ≥90% / idle 60–89% / oops <60% |
-| ~~Chọn level Daily~~ | Bỏ 10/10/2026 — 6 level dùng lại emoji 🌱⭐🏕️🔭🎓🏆 theo yêu cầu Andie. Ảnh portrait-* vẫn giữ trong `public/mascots/`, chưa dùng chỗ nào |
-| Huy hiệu (profile + modal level) | badge-* / streak-* theo `lib/badges.ts` |
+| ~~Chọn level Daily~~ | Bỏ 10/10/2026 — 6 level dùng lại emoji 🌱⭐🏕️🔭🎓🏆 theo yêu cầu Andie. Ảnh portrait-* nay dùng làm hình huy hiệu (xem dòng dưới) |
+| Huy hiệu (profile + modal level) | Mỗi huy hiệu 1 hình riêng, không lặp (`BADGE_SHOT` trong `lib/mascots.ts`): badge-* / streak-* + portrait seeker/scholar/starter/explorer/master + pose-listen-cut (phonics_start) |
 | Onboarding | duo-wave → think → cheer |
 | 404 / error | lost / oops |
 | My Words rỗng / tìm không thấy | cards / magnify |
