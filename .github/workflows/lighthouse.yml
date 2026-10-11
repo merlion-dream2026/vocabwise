@@ -1,12 +1,17 @@
 name: Lighthouse CI
 
 on:
-  push:
-    branches: [main]
+  # Run after Vercel reports the production deploy live (not on push, which
+  # raced the rollout and hit a half-deployed site → NO_NAVSTART).
+  deployment_status:
   workflow_dispatch:
 
 jobs:
   lighthouse:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.deployment_status.state == 'success' &&
+       github.event.deployment.environment == 'Production')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
