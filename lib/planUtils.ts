@@ -161,14 +161,6 @@ export function getRevisionLimit(family: FamilyPlanData): number | null {
   return isTrialActive ? 1 : 0
 }
 
-/** Offline download limit: 0 (free), 20 (pro1), null = unlimited (pro3+). */
-export function getOfflineDownloadLimit(family: FamilyPlanData): number | null {
-  const tier = getPlanTier(family)
-  if (tier === 'free') return 0
-  if (tier === 'pro1') return 20
-  return null
-}
-
 /** AI Speak limit: null = unlimited (Pro 3+ hoặc bonus grant), 40 (Pro 1), 10 (Trial), 0 (Free hết trial). */
 export function getAISpeakLimit(family: FamilyPlanData): number | null {
   if (family.bonus_features?.includes('ai_speak_unlimited')) return null

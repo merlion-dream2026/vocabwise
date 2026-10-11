@@ -39,7 +39,6 @@ Trial 7 ngày **không** phải reverse-trial toàn phần — chỉ mở đúng
 | Word Stress | ❌ | ❌ | ❌ | ✅ | ✅ |
 | My Words | 20 từ | 20 từ | ✅ ∞ | ✅ ∞ | ✅ ∞ |
 | SRS ôn từ yếu | 20 từ | 20 từ | ✅ ∞ | ✅ ∞ | ✅ ∞ |
-| Offline download | 0 | 0 | 20 topic | ∞ | ∞ |
 | AI Speak | 10/ngày | 0 | 40/ngày | ∞ | ∞ |
 | AI text-helper (explain/hint/grammar-note/generate-exercises, 1 pool chung) | 10/ngày | 0 | 40/ngày | ∞ | ∞ |
 | Push notification | ❌ | ❌ | ✅ | ✅ | ✅ |
@@ -47,7 +46,7 @@ Trial 7 ngày **không** phải reverse-trial toàn phần — chỉ mở đúng
 | Monthly recap | ❌ | ❌ | ❌ | ❌ | ✅ |
 | Gift Pro 14 ngày | ❌ | ❌ | ❌ | ❌ | ✅ |
 
-Gate helpers (`lib/planUtils.ts`): `getPlanTier()`, `getEffectivePlan()`, `canAccessPhonicsLesson()`, `canAccessWordStress()`, `getMyWordsLimit()`, `getSRSLimit()`, `getKidsTopicLimit()`, `getAcademicTopicLimit()`, `getRevisionLimit()`, `getOfflineDownloadLimit()`, `getAISpeakLimit()`, `getAITextLimit()`. ⚠️ `canAccessMyWords()`/`canAccessSRS()` luôn `true` — limit thật nằm ở `getMyWordsLimit()`/`getSRSLimit()`, tên hàm dễ gây hiểu lầm.
+Gate helpers (`lib/planUtils.ts`): `getPlanTier()`, `getEffectivePlan()`, `canAccessPhonicsLesson()`, `canAccessWordStress()`, `getMyWordsLimit()`, `getSRSLimit()`, `getKidsTopicLimit()`, `getAcademicTopicLimit()`, `getRevisionLimit()`, `getAISpeakLimit()`, `getAITextLimit()`. ⚠️ `canAccessMyWords()`/`canAccessSRS()` luôn `true` — limit thật nằm ở `getMyWordsLimit()`/`getSRSLimit()`, tên hàm dễ gây hiểu lầm.
 
 Mọi route content-serving đều gate ở server bằng data DB tươi (`getFamilyProfile()`/Supabase query trực tiếp) — **không** dựa vào `session.plan` từ JWT (cookie sống 30 ngày, có thể stale qua ngày hết hạn paid plan) và không dựa riêng vào UI ẩn. `report/settings`/`cron/monthly-recap` đã dùng `getPlanTier()` đúng chuẩn (không còn hardcode `plan==='6months'`).
 

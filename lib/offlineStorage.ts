@@ -1,69 +1,22 @@
 /**
- * Persistent offline topic data storage using localStorage.
- * More reliable than Cache Storage on iOS (which gets evicted aggressively).
+ * Offline progress queue (localStorage): when a game finishes while the network is down, its
+ * progress is queued here and synced on reconnect. (Topic downloads for offline study were
+ * removed in Oct 2026; LEGACY_* keys/caches are only still listed so logout can clean them up.)
  */
 
-const PREFIX      = 'vw_dl_'
-const SYNC_PREFIX = 'vw_last_sync_'
-const PROG_PREFIX = 'vw_offline_prog_'
+const PROG_PREFIX   = 'vw_offline_prog_'
+const LEGACY_PREFIXES = ['vw_dl_', 'vw_last_sync_']          // old offline-download data
+const LEGACY_CACHE  = 'vocabwise-downloads-v1'
 
-export type DailyOfflineBundle = {
-  topic: {
-    id: string
-    name: string
-    emoji: string
-    color: string
-    words: { word: string; meaning: string; emoji: string; example: string }[]
-  }
-  story: { emojis: string[]; en: string; vi: string } | null
-  topicList: { id: string; name: string; emoji: string }[]
-  audioSize: number  // bytes — pre-measured from audio file
-}
-
-export function saveDailyTopicOffline(level: string, topicId: string, data: DailyOfflineBundle): void {
-  try {
-    localStorage.setItem(`${PREFIX}daily_${level}_${topicId}`, JSON.stringify(data))
-  } catch {
-    // Quota exceeded — silent fail
-  }
-}
-
-export function loadDailyTopicOffline(level: string, topicId: string): DailyOfflineBundle | null {
-  try {
-    const raw = localStorage.getItem(`${PREFIX}daily_${level}_${topicId}`)
-    return raw ? (JSON.parse(raw) as DailyOfflineBundle) : null
-  } catch {
-    return null
-  }
-}
-
-export function deleteDailyTopicOffline(level: string, topicId: string): void {
-  localStorage.removeItem(`${PREFIX}daily_${level}_${topicId}`)
-}
-
-export function clearAllOfflineData(): void {
+/** Logout: drop queued progress and any leftover offline-download data on this device. */
+export async function clearLocalLearningData(): Promise<void> {
   const toDelete: string[] = []
   for (let i = 0; i < localStorage.length; i++) {
     const k = localStorage.key(i)
-    if (k?.startsWith(PREFIX) || k?.startsWith(SYNC_PREFIX) || k?.startsWith(PROG_PREFIX)) {
-      toDelete.push(k)
-    }
+    if (k && (k.startsWith(PROG_PREFIX) || LEGACY_PREFIXES.some(p => k.startsWith(p)))) toDelete.push(k)
   }
   toDelete.forEach(k => localStorage.removeItem(k))
-}
-
-// ─── Last-known sync cache ────────────────────────────────────────────────────
-// Saves server sync data locally so offline games start with correct mastery/streak.
-
-export function saveLastSync(childId: string, level: string, data: unknown): void {
-  try { localStorage.setItem(`${SYNC_PREFIX}${childId}_${level}`, JSON.stringify(data)) } catch {}
-}
-
-export function loadLastSync(childId: string, level: string): unknown | null {
-  try {
-    const raw = localStorage.getItem(`${SYNC_PREFIX}${childId}_${level}`)
-    return raw ? JSON.parse(raw) : null
-  } catch { return null }
+  if ('caches' in window) await caches.delete(LEGACY_CACHE).catch(() => {})
 }
 
 // ─── Offline pending progress ─────────────────────────────────────────────────

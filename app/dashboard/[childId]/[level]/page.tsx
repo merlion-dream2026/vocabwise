@@ -10,9 +10,7 @@ import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
 import UpgradePaymentModal from '@/components/UpgradeModal'
 import ExpiryBanner from '@/components/ExpiryBanner'
-import { getEffectivePlan, getOfflineDownloadLimit, getKidsTopicLimit, getRevisionLimit } from '@/lib/planUtils'
-import OfflineDailyDownloadButton from '@/components/OfflineDailyDownloadButton'
-import { getDownloadedCount } from '@/lib/useOfflineDownload'
+import { getKidsTopicLimit, getRevisionLimit } from '@/lib/planUtils'
 import { cachedFetch } from '@/lib/cachedFetch'
 import { isTopicMastered, topicSteps, type MasteryEntry } from '@/lib/topicMastery'
 import PageSkeleton from '@/components/PageSkeleton'
@@ -21,7 +19,7 @@ import { cta } from '@/components/ChunkyUI'
 
 type Child = { id: string; name: string; emoji: string; level: string }
 type Session = { familyId: string; username: string; plan: string; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; plan_end_date?: string | null; bonus_features?: string[] | null }
-type Topic = { id: string; name: string; emoji: string; color: string; words: { word: string }[]; audioSize?: number }
+type Topic = { id: string; name: string; emoji: string; color: string; words: { word: string }[] }
 type MasteryData = MasteryEntry
 
 const LEVEL_COLORS: Record<string, { bg: string; header: string }> = {
@@ -87,29 +85,6 @@ export default function LevelTopicsPage() {
   const [showBadgeGuide, setShowBadgeGuide] = useState(false)
   const [showXpGuide, setShowXpGuide] = useState(false)
   const [revScores, setRevScores] = useState<Record<string, { score: number; max: number }>>({})
-  const [dlCount, setDlCount] = useState(0)
-  const [downloadedTopics, setDownloadedTopics] = useState<Set<string>>(new Set())
-
-  useEffect(() => {
-    getDownloadedCount().then(setDlCount).catch(() => {})
-    const handler = () => getDownloadedCount().then(setDlCount).catch(() => {})
-    window.addEventListener('offline-cache-changed', handler)
-    return () => window.removeEventListener('offline-cache-changed', handler)
-  }, [])
-
-  useEffect(() => {
-    function refresh() {
-      const dl = new Set<string>()
-      for (let i = 0; i < localStorage.length; i++) {
-        const k = localStorage.key(i)
-        if (k?.startsWith(`vw_dl_daily_${level}_`)) dl.add(k.replace(`vw_dl_daily_${level}_`, ''))
-      }
-      setDownloadedTopics(dl)
-    }
-    refresh()
-    window.addEventListener('offline-cache-changed', refresh)
-    return () => window.removeEventListener('offline-cache-changed', refresh)
-  }, [level])
 
   useEffect(() => {
     const saved = localStorage.getItem('topicViewMode') as 'grid' | 'list' | null
@@ -190,8 +165,6 @@ export default function LevelTopicsPage() {
 
   const kidsLimit = getKidsTopicLimit(session!)
   const isPaid = kidsLimit === null
-  const isProForDl = getEffectivePlan(session!).isProActive
-  const dlLimit = getOfflineDownloadLimit(session!)
   const revLimit = getRevisionLimit(session!)
   const colors = LEVEL_COLORS[level] ?? LEVEL_COLORS.explorer
 
@@ -449,26 +422,9 @@ export default function LevelTopicsPage() {
                           ⚠️ {weakCount} từ yếu
                         </span>
                       )}
-                      {downloadedTopics.has(topic.id) && (
-                        <span className="inline-block text-[10px] font-bold text-emerald-600 bg-emerald-50 border border-emerald-200 px-1.5 py-0.5 rounded-full">
-                          📴 {topic.audioSize ? `~${Math.round((topic.audioSize + 30720) / 1024)}KB` : 'Offline'}
-                        </span>
-                      )}
                     </div>
                   )}
                 </button>
-                {isProForDl && !locked && (
-                  <OfflineDailyDownloadButton
-                    childId={childId}
-                    level={level}
-                    topicId={topic.id}
-                    topicName={topic.name}
-                    audioSize={topic.audioSize ?? 0}
-                    downloadedCount={dlCount}
-                    downloadLimit={dlLimit}
-                    className="absolute top-2 right-2 z-10"
-                  />
-                )}
                 </div>
                 {isRevPoint && (
                   <div className="col-span-2">
@@ -523,9 +479,6 @@ export default function LevelTopicsPage() {
                       {!locked && weakCount > 0 && (
                         <span className="text-xs bg-orange-100 text-orange-600 px-1.5 py-0.5 rounded-full font-medium flex-shrink-0">⚠️ {weakCount}</span>
                       )}
-                      {!locked && downloadedTopics.has(topic.id) && (
-                        <span className="text-[10px] font-bold text-emerald-600 bg-emerald-50 border border-emerald-200 px-1.5 py-0.5 rounded-full flex-shrink-0">📴</span>
-                      )}
                     </div>
                     {!locked && status === 'in_progress' && (
                       <div className="mt-1 h-1 bg-gray-100 rounded-full overflow-hidden w-full">
@@ -546,18 +499,6 @@ export default function LevelTopicsPage() {
 
                   <span className="text-gray-300 text-sm flex-shrink-0">›</span>
                 </button>
-                {isProForDl && !locked && (
-                  <OfflineDailyDownloadButton
-                    childId={childId}
-                    level={level}
-                    topicId={topic.id}
-                    topicName={topic.name}
-                    audioSize={topic.audioSize ?? 0}
-                    downloadedCount={dlCount}
-                    downloadLimit={dlLimit}
-                    className="absolute right-9 top-1/2 -translate-y-1/2 z-10"
-                  />
-                )}
                 </div>
                 {isRevPoint && (
                   <div className="px-3 py-2 bg-gray-50">

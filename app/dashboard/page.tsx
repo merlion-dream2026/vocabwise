@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation'
 import UpgradeBanner from '@/components/UpgradeBanner'
 import { clearNavState } from '@/components/BottomNav'
 import { useExpiryGuard, daysUntilExpiry } from '@/lib/useExpiryGuard'
-import { clearAllDownloads } from '@/lib/useOfflineDownload'
+import { clearLocalLearningData } from '@/lib/offlineStorage'
 import ReferralTab from './ReferralTab'
 import type { Child, Session, ChildStats } from './_types'
 import { getPlanBadge } from './_utils'
@@ -109,7 +109,7 @@ export default function DashboardPage() {
   }, [])
 
   async function logout() {
-    await clearAllDownloads()
+    await clearLocalLearningData()
     await fetch('/api/auth/logout', { method: 'POST' })
     invalidateCachedFetch('/api/auth/me')
     clearNavState()

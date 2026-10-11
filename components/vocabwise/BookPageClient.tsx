@@ -5,9 +5,7 @@ import Link from 'next/link'
 import UpgradeModal from '@/components/UpgradeModal'
 import UpgradeBanner from '@/components/UpgradeBanner'
 import CertificateModal from '@/components/vocabwise/CertificateModal'
-import OfflineDownloadButton from '@/components/OfflineDownloadButton'
-import { getEffectivePlan, getOfflineDownloadLimit, getAcademicTopicLimit, getRevisionLimit } from '@/lib/planUtils'
-import { getDownloadedCount } from '@/lib/useOfflineDownload'
+import { getAcademicTopicLimit, getRevisionLimit } from '@/lib/planUtils'
 import { cachedFetch } from '@/lib/cachedFetch'
 import { academicFetch } from '@/lib/academicSync'
 
@@ -84,14 +82,6 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
   const [showProgressDetail, setShowProgressDetail] = useState(false)
   const [showCert, setShowCert] = useState(false)
   const [revScores, setRevScores] = useState<Record<string, { score: number; max: number }>>({})
-  const [dlCount, setDlCount]     = useState(0)
-
-  useEffect(() => {
-    getDownloadedCount().then(setDlCount).catch(() => {})
-    const handler = () => getDownloadedCount().then(setDlCount).catch(() => {})
-    window.addEventListener('offline-cache-changed', handler)
-    return () => window.removeEventListener('offline-cache-changed', handler)
-  }, [])
 
   useEffect(() => {
     const saved = localStorage.getItem('academicViewMode') as 'grid' | 'list' | null
@@ -182,8 +172,6 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
   const academicLimit = session ? getAcademicTopicLimit(session) : null
   const revLimit      = session ? getRevisionLimit(session) : null
   const isPaid       = !session || academicLimit === null
-  const isProForDl   = !!(session && getEffectivePlan(session).isProActive)
-  const dlLimit      = session ? getOfflineDownloadLimit(session) : 0
 
   const flatCls  = FLAT_COLOR[book] ?? 'bg-blue-500'
   const numGrad  = NUM_GRAD[book]   ?? 'from-blue-400 to-indigo-500'
@@ -497,15 +485,6 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                               </div>
                             )}
                           </Link>
-                          {isProForDl && (
-                            <OfflineDownloadButton
-                              book={book}
-                              topicId={t.topic_id}
-                              downloadedCount={dlCount}
-                              downloadLimit={dlLimit}
-                              className="absolute top-2 right-2 z-10"
-                            />
-                          )}
                         </div>
                       )
 
@@ -566,15 +545,6 @@ export default function BookPageClient({ book, info, topics, byTheme }: Props) {
                     </div>
                     <p className="text-xs text-gray-400 mt-0.5">{t.topic_title_vi ? t.topic_title : (t.theme_title_vi ?? t.theme_title)}</p>
                   </div>
-                  {isProForDl && !locked && (
-                    <OfflineDownloadButton
-                      book={book}
-                      topicId={t.topic_id}
-                      downloadedCount={dlCount}
-                      downloadLimit={dlLimit}
-                      className="flex-shrink-0"
-                    />
-                  )}
                   <span className="text-gray-300 text-sm flex-shrink-0">›</span>
                 </button>
                 {isRevPoint && (

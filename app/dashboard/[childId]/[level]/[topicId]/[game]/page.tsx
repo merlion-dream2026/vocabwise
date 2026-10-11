@@ -2,8 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
-import { useGameSync, type SyncData } from '@/lib/GameSyncContext'
-import { loadDailyTopicOffline, loadLastSync } from '@/lib/offlineStorage'
+import { useGameSync } from '@/lib/GameSyncContext'
 import dynamic from 'next/dynamic'
 import GameSoundToggle from '@/components/GameSoundToggle'
 
@@ -34,27 +33,12 @@ export default function GamePage() {
   const [child, setChild] = useState<Child | null>(null)
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [topic, setTopic] = useState<any>(null)
-  const [isOffline, setIsOffline] = useState(false)
 
   const backUrl = `/dashboard/${childId}/${level}/${topicId}`
 
   useEffect(() => {
-    // Offline path: read topic from localStorage, init sync from last-known server state
-    if (!navigator.onLine) {
-      const cached = loadDailyTopicOffline(level, topicId)
-      if (cached) {
-        const childInfo = JSON.parse(localStorage.getItem('vw_child_' + childId) ?? 'null') as Child | null
-        setChild(childInfo ?? { id: childId, name: '', emoji: '🧒', level })
-        setTopic(cached.topic)
-        const lastSync = loadLastSync(childId, level)
-        initGameSync(childId, level, lastSync as SyncData, topicId, cached.topic.name)
-        setIsOffline(true)
-        setReady(true)
-      } else {
-        router.push(backUrl)
-      }
-      return
-    }
+    // No connection → back to the topic page, which explains it.
+    if (!navigator.onLine) { router.push(backUrl); return }
 
     Promise.all([
       fetch(`/api/children/${childId}`).then(r => r.ok ? r.json() : null),
@@ -75,25 +59,6 @@ export default function GamePage() {
       <p className="text-gray-400 font-bold">Đang tải...</p>
     </div>
   )
-
-  // AI Speak / Sentence games require internet — show friendly message when offline
-  if ((game === 'speak' || game === 'sentence') && isOffline) {
-    const label = game === 'speak' ? 'Phát âm cùng AI' : 'Đặt câu cùng AI'
-    const detail = game === 'speak' ? 'AI nhận diện giọng nói' : 'AI chấm câu'
-    return (
-      <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-purple-50 to-pink-50 p-8">
-        <div className="text-6xl mb-4">📴</div>
-        <h2 className="text-xl font-black text-gray-800 mb-2 text-center">{label} cần internet</h2>
-        <p className="text-gray-500 text-sm mb-6 text-center max-w-xs">Game này dùng {detail} — không khả dụng khi offline.</p>
-        <button
-          onClick={() => router.push(backUrl)}
-          className="bg-purple-500 text-white font-bold px-6 py-3 rounded-2xl active:scale-95 transition-all"
-        >
-          ← Quay lại chủ đề
-        </button>
-      </div>
-    )
-  }
 
   const isSimpleLevel = ['seeker', 'starter', 'ranger'].includes(level)
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

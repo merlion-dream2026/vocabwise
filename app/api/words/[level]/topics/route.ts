@@ -46,8 +46,7 @@ export async function GET(req: NextRequest, props: { params: Promise<{ level: st
           : words.map(w => ({ word: w.word, meaning: w.meaning, emoji: w.emoji })),
       }
     })
-    // Bare array (not wrapped in {topics}) — existing callers (topicId page,
-    // useOfflineDailyDownload.ts) consume this as an array directly.
+    // Bare array (not wrapped in {topics}) — existing callers (topicId page) consume this as an array directly.
     return NextResponse.json(topics, {
       headers: { 'Cache-Control': 'private, max-age=3600' },
     })
