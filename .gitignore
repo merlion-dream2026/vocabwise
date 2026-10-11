@@ -50,3 +50,6 @@ scripts/reset-*.js
 
 # local-only DB backups before destructive ops
 /_archive/
+
+# topic-video review artifacts (scripts/fetch-topic-videos.mjs)
+/data/videos/review.html

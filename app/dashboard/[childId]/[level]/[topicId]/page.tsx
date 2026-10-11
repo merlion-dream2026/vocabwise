@@ -11,6 +11,7 @@ import { DAILY_HUB_THEMES, hubTheme } from '@/components/hubTheme'
 import PageSkeleton from '@/components/PageSkeleton'
 import TopicFaq from '@/components/TopicFaq'
 import MiniStory, { type Story } from '@/components/MiniStory'
+import TopicVideos from '@/components/TopicVideos'
 
 const TrophyModal = dynamic(() => import('@/components/TrophyModal'), { ssr: false })
 
@@ -292,6 +293,9 @@ export default function TopicPage() {
           <MiniStory key={topicId} story={story} words={(topic as { words: { word: string }[] }).words}
             level={level} topicId={topicId} topicIdx={topicIdx} childId={childId} />
         )}
+
+        {/* Optional extra at the very end — not part of the journey */}
+        <TopicVideos videoKey={`daily/${level}/${topicId}`} theme={theme} />
       </div>
     </div>
   )

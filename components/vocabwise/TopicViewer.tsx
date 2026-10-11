@@ -1,4 +1,5 @@
 'use client'
+import TopicVideos from '@/components/TopicVideos'
 import { useState, useEffect, useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import { speak } from '@/lib/speak'
@@ -386,6 +387,11 @@ export default function TopicViewer({ data, book, topicId }: { data: TopicData; 
             onStartExercise={phase => { setStartReq({ phase, nonce: Date.now() }); setTab('exercises') }}
             onOpenAlbum={() => { const id = activeChildId(); if (id) router.push(`/dashboard/${id}/profile?tab=academic&back=1`) }}
           />
+        )}
+        {tab === 'overview' && (
+          <div className="mt-4">
+            <TopicVideos videoKey={`academic/${topicId}`} theme={hubTheme(ACADEMIC_HUB_THEMES, book, 'book1')} />
+          </div>
         )}
 
         {/* PASSAGE TAB */}

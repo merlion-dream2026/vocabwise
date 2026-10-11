@@ -38,7 +38,7 @@ export function GameHeader({
   colorCls, title, subtitle, onBack, right, progress, timer,
 }: {
   colorCls: string            // background, e.g. "bg-violet-500" or "bg-gradient-to-br from-pink-400 to-rose-400"
-  title: ReactNode; subtitle?: ReactNode; onBack: () => void; right?: ReactNode
+  title: ReactNode; subtitle?: ReactNode; onBack?: () => void; right?: ReactNode  // no onBack = tab home, no back arrow
   progress?: { value: number; max: number }
   // Countdown for timed games: bar drains linearly (1s steps) with the seconds left on the right.
   timer?: { pct: number; secondsLeft: number; urgent?: boolean; fillCls?: string }
@@ -46,8 +46,8 @@ export function GameHeader({
   return (
     <div className={`${colorCls} rounded-b-3xl border-b-[4px] border-black/20 text-white`}>
       <div className="mx-auto flex max-w-xl items-center gap-3 px-4 py-4">
-        <button type="button" onClick={() => { buzz(); onBack() }} aria-label="Quay lại"
-          className={`flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 text-lg font-bold ${PRESS}`}>←</button>
+        {onBack && <button type="button" onClick={() => { buzz(); onBack() }} aria-label="Quay lại"
+          className={`flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 text-lg font-bold ${PRESS}`}>←</button>}
         <div className="min-w-0 flex-1">
           <h1 className="truncate text-lg font-bold leading-tight">{title}</h1>
           {subtitle && <p className="truncate text-xs font-semibold text-white/80">{subtitle}</p>}

@@ -57,7 +57,6 @@ export default function KidsLevelPage() {
       {/* Header */}
       <div className="bg-gradient-to-r from-purple-500 to-violet-600 text-white rounded-b-3xl border-b-[4px] border-black/20">
         <div className="max-w-lg mx-auto px-4 py-4 flex items-center gap-3">
-          <button onClick={() => router.back()} aria-label="Quay lại" className="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full border-b-[3px] border-black/20 bg-white/25 text-lg font-bold text-white transition-transform active:translate-y-0.5 active:border-b-2">←</button>
           <span className="text-2xl flex-shrink-0">📚</span>
           <div>
             <h1 className="font-bold text-lg leading-tight">VocabWise Daily</h1>

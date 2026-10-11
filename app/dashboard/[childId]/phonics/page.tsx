@@ -143,7 +143,7 @@ export default function PhonicsHub() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-50 via-amber-50 to-yellow-50">
       {/* Header */}
-      <GameHeader colorCls="bg-orange-500" title="🔤 Phonics" subtitle="IPA · Minimal Pairs · Quy tắc phát âm · Ngữ điệu" onBack={() => router.back()} />
+      <GameHeader colorCls="bg-orange-500" title="🔤 Phonics" subtitle="IPA · Minimal Pairs · Quy tắc phát âm · Ngữ điệu" />
 
       <div className="max-w-2xl mx-auto px-4 pt-4 pb-nav space-y-3">
         <StickerEntryCard collection="phonics" childId={childId} />
