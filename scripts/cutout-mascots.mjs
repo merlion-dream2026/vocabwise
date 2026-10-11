@@ -4,12 +4,12 @@
 // areas inside the character — toes, belly — are never touched), gives edge pixels a soft alpha
 // and un-premultiplies them against the grey so no grey halo shows on coloured pages.
 //
-// Source: public/mascots/{c}/{c}-{shot}.png when the app already ships that shot, otherwise the
+// Source: public/mascots/{c}/{c}-{shot}.webp when the app already ships that shot, otherwise the
 // approved 1254px original from MASCOT_SRC (Andie's "VocabWise mascots" folder, see docs/mascots/),
 // resized to 512px like the other in-app poses.
 //
 // Usage: MASCOT_SRC="$HOME/Downloads/VocabWise mascots" node scripts/cutout-mascots.mjs
-//        → writes public/mascots/{c}/{c}-{shot}-cut.png. Re-run after replacing any source pose.
+//        → writes public/mascots/{c}/{c}-{shot}-cut.webp (WebP q90, alpha kept). Re-run after replacing any source pose.
 import sharp from 'sharp'
 import path from 'node:path'
 import fs from 'node:fs'
@@ -74,17 +74,17 @@ async function cutout(src, dst) {
     out[i * 4] = un(r, 0); out[i * 4 + 1] = un(g, 1); out[i * 4 + 2] = un(b, 2); out[i * 4 + 3] = Math.round(a * 255)
   }
 
-  await sharp(out, { raw: { width: w, height: h, channels: 4 } }).png({ compressionLevel: 9 }).toFile(dst)
+  await sharp(out, { raw: { width: w, height: h, channels: 4 } }).webp({ quality: 90, alphaQuality: 100, effort: 6 }).toFile(dst)
   console.log(`${path.basename(dst)}  bg=${bg.join(',')}  transparent=${Math.round((clear / (w * h)) * 100)}%`)
 }
 
 for (const c of CHARACTERS) {
   for (const s of SHOTS) {
     const dir = path.join('public', 'mascots', c)
-    const shipped = path.join(dir, `${c}-${s}.png`)
+    const shipped = path.join(dir, `${c}-${s}.webp`)
     const original = process.env.MASCOT_SRC ? path.join(process.env.MASCOT_SRC, c, `${c}-${s}.png`) : null
     const src = fs.existsSync(shipped) ? shipped : original
     if (!src || !fs.existsSync(src)) throw new Error(`${c}-${s}: not in public/mascots and MASCOT_SRC has no original`)
-    await cutout(src, path.join(dir, `${c}-${s}-cut.png`))
+    await cutout(src, path.join(dir, `${c}-${s}-cut.webp`))
   }
 }

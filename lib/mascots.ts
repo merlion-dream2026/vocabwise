@@ -1,6 +1,6 @@
 // Rocky (elephant) + Bubi (dolphin) mascot map — the only place that knows which mascot files exist.
-// Files live in public/mascots/{character}/{character}-{shot}.png: downsized copies of the approved
-// originals (grey background baked in, no alpha). Inventory + provenance: docs/mascots/.
+// Files live in public/mascots/{character}/{character}-{shot}.webp: downsized WebP (q90) copies of the
+// approved originals (grey background baked in, no alpha). Inventory + provenance: docs/mascots/.
 
 export const MASCOT_CHARACTERS = ['rocky', 'bubi'] as const
 export type MascotCharacter = typeof MASCOT_CHARACTERS[number]
@@ -32,17 +32,17 @@ const MISSING: Record<MascotCharacter, readonly MascotShot[]> = { rocky: [], bub
 
 export function mascotSrc(character: MascotCharacter, shot: MascotShot): string {
   const s = MISSING[character].includes(shot) ? 'pose-idle' : shot
-  return `/mascots/${character}/${character}-${s}.png`
+  return `/mascots/${character}/${character}-${s}.webp`
 }
 
-// Background-free copies ({shot}-cut.png, made by scripts/cutout-mascots.mjs) for the shots that
+// Background-free copies ({shot}-cut.webp, made by scripts/cutout-mascots.mjs) for the shots that
 // stand directly on the topic hubs instead of on a grey tile.
 // Keep in sync with SHOTS in scripts/cutout-mascots.mjs.
 export type CutoutShot =
   | 'pose-point' | 'pose-cheer' | 'pose-trophy' | 'pose-wow' | 'pose-jump'
   | 'pose-cards' | 'pose-listen' | 'pose-speak' | 'pose-write' | 'pose-blocks' | 'pose-bubble' | 'pose-timer' | 'pose-read'
 export function mascotCutSrc(character: MascotCharacter, shot: CutoutShot): string {
-  return `/mascots/${character}/${character}-${shot}-cut.png`
+  return `/mascots/${character}/${character}-${shot}-cut.webp`
 }
 
 // Beside the next-step button the mascot holds the prop of that activity; anything not listed
@@ -68,7 +68,7 @@ export const CELEBRATIONS: readonly { shot: CutoutShot; says: string; scale?: nu
 ]
 
 // Shared welcome scene (Rocky + Bubi together), landscape.
-export const DUO_WAVE_SCENE = { src: '/mascots/rocky-bubi-scene-duo-wave.png', width: 1024, height: 683 } as const
+export const DUO_WAVE_SCENE = { src: '/mascots/rocky-bubi-scene-duo-wave.webp', width: 1024, height: 683 } as const
 
 // lib/badges.ts id → badge art. words_* and xp_* tiers share one image (no per-tier art exists).
 const BADGE_SHOT: Record<string, MascotShot> = {
