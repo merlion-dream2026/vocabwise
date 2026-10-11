@@ -85,7 +85,7 @@ export default function AcademicHub({
       {mastered ? (
         <section className="rounded-3xl border-2 border-b-[4px] border-amber-300 border-b-amber-500 bg-amber-50 p-4">
           <MasteredHero title="Bạn đã thạo topic này! 🎉">
-            <p className="mt-1 text-xs font-bold text-amber-800">{total} điểm bài tập · Sticker này là của bạn rồi!</p>
+            <p className="text-xs font-semibold text-amber-700">{total} điểm bài tập</p>
             <button type="button" onClick={() => { tap(); onOpenAlbum() }}
               className={`mt-2 rounded-full border-b-[3px] border-amber-600 bg-amber-400 px-3 py-1 text-xs font-bold text-amber-950 ${PRESS}`}>
               {sticker} Xem sticker
@@ -103,7 +103,7 @@ export default function AcademicHub({
         </section>
       )}
 
-      {action && <MascotNextStep says={says} action={action} theme={theme} />}
+      {action && <MascotNextStep says={says} action={action} activity={!read && !completed ? 'passage' : 'exercise'} theme={theme} />}
 
       {main.length > 0 && (
         <section className={`rounded-3xl border-2 border-b-[4px] p-3 ${theme.card} ${theme.tint}`}>

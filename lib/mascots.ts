@@ -37,10 +37,35 @@ export function mascotSrc(character: MascotCharacter, shot: MascotShot): string 
 
 // Background-free copies ({shot}-cut.png, made by scripts/cutout-mascots.mjs) for the shots that
 // stand directly on the topic hubs instead of on a grey tile.
-export type CutoutShot = 'pose-point' | 'pose-cheer'
+// Keep in sync with SHOTS in scripts/cutout-mascots.mjs.
+export type CutoutShot =
+  | 'pose-point' | 'pose-cheer' | 'pose-trophy' | 'pose-wow' | 'pose-jump'
+  | 'pose-cards' | 'pose-listen' | 'pose-speak' | 'pose-write' | 'pose-blocks' | 'pose-bubble' | 'pose-timer' | 'pose-read'
 export function mascotCutSrc(character: MascotCharacter, shot: CutoutShot): string {
   return `/mascots/${character}/${character}-${shot}-cut.png`
 }
+
+// Beside the next-step button the mascot holds the prop of that activity; anything not listed
+// (true/false, quiz, matching, Academic exercises…) gets the plain pointing pose.
+const NEXT_STEP_SHOTS: Record<string, CutoutShot> = {
+  flashcard: 'pose-cards', memory: 'pose-cards',
+  listen: 'pose-listen',
+  speak: 'pose-speak',
+  sentence: 'pose-write', fillletter: 'pose-write', gapfill: 'pose-write', spell: 'pose-write',
+  sentenceorder: 'pose-blocks',
+  bubble: 'pose-bubble',
+  speedround: 'pose-timer', typing: 'pose-timer',
+  passage: 'pose-read',
+}
+export const nextStepShot = (activity: string): CutoutShot => NEXT_STEP_SHOTS[activity] ?? 'pose-point'
+
+// A finished topic shows one of these at random, each with its own line.
+export const CELEBRATIONS: readonly { shot: CutoutShot; says: string; scale?: number }[] = [
+  { shot: 'pose-cheer', says: 'Quá đỉnh! Mình tự hào về bạn lắm!' },
+  { shot: 'pose-trophy', says: 'Cúp này là của bạn đó!', scale: 1.1 },   // tall, narrow art → a touch bigger
+  { shot: 'pose-wow', says: 'Wow, bạn giỏi quá trời luôn!' },
+  { shot: 'pose-jump', says: 'Yeah! Mình vui quá đi mất!' },
+]
 
 // Shared welcome scene (Rocky + Bubi together), landscape.
 export const DUO_WAVE_SCENE = { src: '/mascots/rocky-bubi-scene-duo-wave.png', width: 1024, height: 683 } as const

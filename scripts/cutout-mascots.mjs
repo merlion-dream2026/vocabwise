@@ -4,18 +4,28 @@
 // areas inside the character — toes, belly — are never touched), gives edge pixels a soft alpha
 // and un-premultiplies them against the grey so no grey halo shows on coloured pages.
 //
-// Usage: node scripts/cutout-mascots.mjs     → writes public/mascots/{c}/{c}-{shot}-cut.png
-// Re-run after replacing any of the source poses below.
+// Source: public/mascots/{c}/{c}-{shot}.png when the app already ships that shot, otherwise the
+// approved 1254px original from MASCOT_SRC (Andie's "VocabWise mascots" folder, see docs/mascots/),
+// resized to 512px like the other in-app poses.
+//
+// Usage: MASCOT_SRC="$HOME/Downloads/VocabWise mascots" node scripts/cutout-mascots.mjs
+//        → writes public/mascots/{c}/{c}-{shot}-cut.png. Re-run after replacing any source pose.
 import sharp from 'sharp'
 import path from 'node:path'
+import fs from 'node:fs'
 
 const CHARACTERS = ['rocky', 'bubi']
-const SHOTS = ['pose-point', 'pose-cheer']
+// Keep in sync with CutoutShot in lib/mascots.ts.
+const SHOTS = [
+  'pose-point', 'pose-cheer', 'pose-trophy', 'pose-wow', 'pose-jump',                                    // next step / finished topic
+  'pose-cards', 'pose-listen', 'pose-speak', 'pose-write', 'pose-blocks', 'pose-bubble', 'pose-timer', 'pose-read', // next activity's prop
+]
+const SIZE = 512
 const FLOOD = 34   // max colour distance from the background that the fill may travel through
 const SOLID = 10   // at or below this distance a pixel is fully transparent
 
 async function cutout(src, dst) {
-  const { data, info } = await sharp(src).removeAlpha().raw().toBuffer({ resolveWithObject: true })
+  const { data, info } = await sharp(src).resize(SIZE, SIZE).removeAlpha().raw().toBuffer({ resolveWithObject: true })
   const { width: w, height: h } = info
   const px = (i) => [data[i * 3], data[i * 3 + 1], data[i * 3 + 2]]
 
@@ -71,6 +81,10 @@ async function cutout(src, dst) {
 for (const c of CHARACTERS) {
   for (const s of SHOTS) {
     const dir = path.join('public', 'mascots', c)
-    await cutout(path.join(dir, `${c}-${s}.png`), path.join(dir, `${c}-${s}-cut.png`))
+    const shipped = path.join(dir, `${c}-${s}.png`)
+    const original = process.env.MASCOT_SRC ? path.join(process.env.MASCOT_SRC, c, `${c}-${s}.png`) : null
+    const src = fs.existsSync(shipped) ? shipped : original
+    if (!src || !fs.existsSync(src)) throw new Error(`${c}-${s}: not in public/mascots and MASCOT_SRC has no original`)
+    await cutout(src, path.join(dir, `${c}-${s}-cut.png`))
   }
 }

@@ -1,5 +1,5 @@
 'use client'
-import { Fragment, useState, type ReactNode } from 'react'
+import { Fragment, useEffect, useState, type ReactNode } from 'react'
 import {
   masteryByRound, isTopicMastered, topicSteps, nextStep,
   type MasteryEntry, type GameDef,
@@ -8,6 +8,7 @@ import { speak } from '@/lib/speak'
 import Sticker from '@/components/Sticker'
 import { MascotCutout, SpeechBubble } from '@/components/Mascot'
 import type { HubTheme } from '@/components/hubTheme'
+import { CELEBRATIONS, nextStepShot } from '@/lib/mascots'
 
 // Topic hub — "chunky 3D" look: thick bottom borders that press down on tap, the level's hue on the
 // structure (cards, trail, next-step button) with a fixed emerald ✓ for "done", emoji "stickers"
@@ -103,11 +104,12 @@ export function NextStepButton({ action, theme }: { action: NextAction; theme: H
   )
 }
 
-// The mascot standing beside the next step: it points at the button, its bubble says why.
-export function MascotNextStep({ says, action, theme }: { says: string; action: NextAction; theme: HubTheme }) {
+// The mascot standing beside the next step, holding that activity's prop (headphones for
+// Nghe & Chọn, a mic for Phát âm…) or pointing at the button; its bubble says why.
+export function MascotNextStep({ says, action, activity, theme }: { says: string; action: NextAction; activity: string; theme: HubTheme }) {
   return (
     <div className="mt-1 flex items-end gap-1">
-      <MascotCutout shot="pose-point" size={120} className="mi-pop -ml-2" />
+      <MascotCutout key={activity} shot={nextStepShot(activity)} size={120} className="mi-pop -ml-2" />
       <div className="flex min-w-0 flex-1 flex-col gap-2">
         <SpeechBubble><p className="text-[13px] font-bold leading-snug text-slate-700">{says}</p></SpeechBubble>
         <NextStepButton action={action} theme={theme} />
@@ -116,13 +118,19 @@ export function MascotNextStep({ says, action, theme }: { says: string; action: 
   )
 }
 
-// Celebration header for a finished topic: the mascot cheering beside the headline.
+// Celebration header for a finished topic: the mascot in one of a few celebrating poses (picked
+// at random on each visit, after mount so server and client markup agree) with a matching line.
 export function MasteredHero({ title, children }: { title: string; children?: ReactNode }) {
+  const [pick, setPick] = useState<number | null>(null)
+  useEffect(() => setPick(Math.floor(Math.random() * CELEBRATIONS.length)), [])
+  const c = pick === null ? null : CELEBRATIONS[pick]
+  const size = Math.round(124 * (c?.scale ?? 1))
   return (
     <div className="flex items-center gap-3">
-      <MascotCutout shot="pose-cheer" size={124} className="mi-pop" />
+      {c ? <MascotCutout shot={c.shot} size={size} className="mi-pop" /> : <span className="flex-shrink-0" style={{ width: 124, height: 124 }} />}
       <div className="min-w-0 flex-1">
         <p className="text-[17px] font-bold leading-tight text-amber-900">{title}</p>
+        <p className="mt-1 min-h-4 text-xs font-bold text-amber-800">{c?.says}</p>
         {children}
       </div>
     </div>
@@ -174,7 +182,6 @@ export function TopicHero({
       <>
         <div className="rounded-3xl border-2 border-b-[4px] border-amber-300 border-b-amber-500 bg-amber-50 p-4">
           <MasteredHero title="Bạn đã chinh phục chủ đề này! 🎉">
-            <p className="mt-1 text-xs font-bold text-amber-800">Quá đỉnh! Mình tự hào về bạn lắm!</p>
             <button type="button" onClick={() => { tap(); onShare() }}
               className={`mt-2 rounded-full border-b-[3px] border-amber-600 bg-amber-400 px-3 py-1 text-xs font-bold text-amber-950 ${PRESS}`}>
               📤 Chia sẻ
@@ -201,7 +208,7 @@ export function TopicHero({
         </div>
         <Journey nodes={nodes} theme={theme} onTrophy={onReplayTrophy} />
       </div>
-      {action && <div className="mt-3"><MascotNextStep says={says} action={action} theme={theme} /></div>}
+      {action && <div className="mt-3"><MascotNextStep says={says} action={action} activity={step.kind === 'game' ? step.game.key : step.kind} theme={theme} /></div>}
     </>
   )
 }
