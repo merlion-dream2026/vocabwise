@@ -2,6 +2,7 @@
  * Single source of truth for child progress computation.
  * All screens (kids card, dashboard module select, parent dashboard) import from here.
  */
+import { vnDate } from './vnDate'
 import phonicsLevels from '@/data/phonicsLevels.json'
 import { isTopicMastered, type MasteryEntry } from './topicMastery'
 
@@ -156,12 +157,7 @@ export function getGlobalStreak(sync: SyncAllLevels): { current: number } {
     }
   }
   let current = 0
-  const d = new Date()
-  while (current < 365) {
-    if (!activeDates.has(d.toISOString().split('T')[0])) break
-    current++
-    d.setDate(d.getDate() - 1)
-  }
+  while (current < 365 && activeDates.has(vnDate(-current))) current++
   return { current }
 }
 
@@ -170,7 +166,7 @@ export function getGlobalStreak(sync: SyncAllLevels): { current: number } {
 export const DAILY_XP_GOAL = 20
 
 export function getDailyXP(sync: SyncAllLevels): number {
-  const today = new Date().toISOString().split('T')[0]
+  const today = vnDate()
   let xp = 0
   for (const lv of Object.values(sync)) {
     xp += ((lv as SyncLevel).history?.[today]?.xp ?? 0)

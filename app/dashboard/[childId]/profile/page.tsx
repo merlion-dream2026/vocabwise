@@ -1,4 +1,5 @@
 'use client'
+import { vnDate } from '@/lib/vnDate'
 import { useEffect, useMemo, useState } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import Image from 'next/image'
@@ -17,7 +18,6 @@ type Child = { id: string; name: string; emoji: string }
 type LevelSync = SyncLevel & { streak?: { current?: number; best?: number; lastActive?: string }; battle?: { totalAllTime?: number } }
 
 const card = 'rounded-3xl border-2 border-b-[4px] border-slate-200 border-b-slate-300 bg-white p-4'
-const localDay = (d: Date) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
 
 // The child's profile (nav avatar tab): who is playing, streak / XP / badges, and the sticker album for
 // all three modules. "Đổi bé" is the old behaviour of this tab (the child picker).
@@ -52,8 +52,7 @@ export default function ProfilePage() {
       hasPerfect: parts.some(p => p.hasPerfect),
     }
     // Current streak: the best "current" across levels that was active today or yesterday.
-    const today = new Date(); const yest = new Date(Date.now() - 86400000)
-    const ok = new Set([localDay(today), localDay(yest)])
+    const ok = new Set([vnDate(), vnDate(-1)])
     const streak = Math.max(0, ...DAILY_LEVEL_ORDER.map(l => { const s = all[l]?.streak; return s?.lastActive && ok.has(s.lastActive) ? (s.current ?? 0) : 0 }))
     const phonics = getPhonicsProgress(all.phonics).mastered
     const earned = computeEarnedBadges(total, phonics)

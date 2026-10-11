@@ -1,6 +1,6 @@
 'use client'
 
-import { vnDate } from '@/lib/srsSchedule'
+import { vnDate } from '@/lib/vnDate'
 import React, { useState, useEffect, useCallback } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import Link from 'next/link'

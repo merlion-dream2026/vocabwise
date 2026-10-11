@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import PinGate from '@/components/PinGate'
+import { vnDate } from '@/lib/vnDate'
 import UpgradeBanner from '@/components/UpgradeBanner'
 import { clearNavState } from '@/components/BottomNav'
 import { useExpiryGuard, daysUntilExpiry } from '@/lib/useExpiryGuard'
@@ -233,8 +234,8 @@ export default function HomePage() {
             // Streak badge
             const streakCur = child.streak?.current ?? 0
             const lastActive = child.streak?.lastActive ?? ''
-            const todayStr = new Date().toISOString().split('T')[0]
-            const yesterStr = new Date(Date.now() - 86400000).toISOString().split('T')[0]
+            const todayStr = vnDate()
+            const yesterStr = vnDate(-1)
             const streakBadge = streakCur === 0 ? null
               : lastActive === todayStr
                 ? { icon: '🔥', label: `${streakCur} ngày`, cls: 'bg-orange-100 text-orange-600' }

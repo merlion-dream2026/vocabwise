@@ -1,6 +1,7 @@
 // Standalone Phonics module sync.
 // Stored in vocab_sync with level = 'phonics'.
 // Mastery = flashcard:true + all 3 game keys at ≥70%.
+import { vnDate } from './vnDate'
 
 const MASTERY_GAMES = ['minimal-pairs', 'listen-pick', 'speak'] as const
 export type GameKey = typeof MASTERY_GAMES[number]
@@ -54,7 +55,7 @@ function bumpPhonicsHistory(lessonId: string) {
 
 // ── Decay ─────────────────────────────────────────────────────────────────────
 
-function todayStr() { return new Date().toISOString().split('T')[0] }
+function todayStr() { return vnDate() }
 
 /** Mark lesson as reviewed today (called after any game completion). */
 export function markReviewed(lessonId: string) {
@@ -150,8 +151,7 @@ export function recordPairGame(pairId: string, gameKey: string, masteryGames?: s
 export function recordPhonicsActivity() {
   const today = todayStr()
   if (_streak.lastActive === today) return
-  const yest = new Date(); yest.setDate(yest.getDate() - 1)
-  const yesterdayStr = yest.toISOString().split('T')[0]
+  const yesterdayStr = vnDate(-1)
   const isConsecutive = _streak.lastActive === yesterdayStr
   const newCurrent = isConsecutive ? _streak.current + 1 : 1
   _streak = { ..._streak, current: newCurrent, best: Math.max(_streak.best, newCurrent), lastActive: today }

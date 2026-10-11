@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { applySrsAnswer as applyAnswer, type SrsEntry } from '@/lib/GameSyncContext'
-import { vnDate } from '@/lib/srsSchedule'
+import { vnDate } from '@/lib/vnDate'
 
 // Imports the real SM-2-style step from lib/GameSyncContext.tsx (recordSrsAnswer
 // delegates to it) instead of a hand-copied reimplementation, so this suite can't
@@ -72,5 +72,16 @@ describe('vnDate (SRS calendar day, Vietnam time)', () => {
   it('a correct answer schedules `interval` VN days ahead', () => {
     const result = applyAnswer({ interval: 3, due: today, ef: 2.5 }, true, today)
     expect(result.due).toBe(vnDate(result.interval))
+  })
+})
+
+describe('vnDate (streak days)', () => {
+  it('6:00 VN (23:00 UTC the day before) is already today in Vietnam', () => {
+    const realNow = Date.now
+    Date.now = () => Date.parse('2026-10-10T23:00:00Z')
+    try {
+      expect(vnDate()).toBe('2026-10-11')
+      expect(vnDate(-1)).toBe('2026-10-10')
+    } finally { Date.now = realNow }
   })
 })

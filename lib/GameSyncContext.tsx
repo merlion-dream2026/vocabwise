@@ -6,7 +6,8 @@
 import { createContext, useContext, useState, type ReactNode } from 'react'
 import { saveOfflineProgress } from './offlineStorage'
 import type { MasteryEntry } from './topicMastery'
-import { vnDate, FIRST_REVIEW_AFTER_DAYS } from './srsSchedule'
+import { FIRST_REVIEW_AFTER_DAYS } from './srsSchedule'
+import { vnDate } from './vnDate'
 
 export type WeakEntry = { wrong: number; correctStreak: number; lastWrong: string }
 export type HistoryEntry = { words: number; games: number; xp: number; topicIds?: string[]; testsDone?: string[] }
@@ -47,7 +48,7 @@ type GameSyncApi = {
   flush: () => Promise<boolean>
 }
 
-function todayKey() { return new Date().toISOString().split('T')[0] }
+const todayKey = () => vnDate()
 
 /**
  * Pure SM-2-style SRS step, extracted so it can be unit-tested directly instead
@@ -172,7 +173,7 @@ function createGameSyncApi(): GameSyncApi {
     _level: string, _topicId: string,
     w: { word: string }, isCorrect: boolean
   ): boolean {
-    const today = new Date().toISOString().split('T')[0]
+    const today = vnDate()
     // Game answers count as SRS reviews too, so words a child keeps getting right in games
     // move along the schedule instead of only advancing on the SRS page. A correct answer
     // only counts once the word is due (several games in one day must not inflate the
@@ -235,11 +236,9 @@ function createGameSyncApi(): GameSyncApi {
   }
 
   function recordActivity(_level: string) {
-    const today = new Date().toISOString().split('T')[0]
+    const today = vnDate()
     if (_streak.lastActive === today) return
-    const yest = new Date()
-    yest.setDate(yest.getDate() - 1)
-    const yesterdayStr = yest.toISOString().split('T')[0]
+    const yesterdayStr = vnDate(-1)
     const newCurrent = _streak.lastActive === yesterdayStr ? _streak.current + 1 : 1
     _streak = { current: newCurrent, best: Math.max(_streak.best, newCurrent), lastActive: today }
   }

@@ -1,3 +1,4 @@
+import { vnDate } from './vnDate'
 import { supabase } from '@/lib/supabaseServer'
 import {
   getAllDailyProgress,
@@ -183,11 +184,9 @@ export async function getFamilyLastActive(familyId: string): Promise<string | nu
   return latest
 }
 
-/** Date string N days ago in YYYY-MM-DD format (UTC). */
+/** Date string N days ago in YYYY-MM-DD format (Vietnam day, like streak.lastActive). */
 export function dateStrDaysAgo(n: number): string {
-  const d = new Date()
-  d.setUTCDate(d.getUTCDate() - n)
-  return d.toISOString().split('T')[0]
+  return vnDate(-n)
 }
 
 /** Days since (or until) an ISO date string, floored. Positive = past. */
