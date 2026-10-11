@@ -7,6 +7,7 @@ import { speak as speakWord } from '@/lib/speak'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import GameSoundToggle from '@/components/GameSoundToggle'
 import { getSRSLimit } from '@/lib/planUtils'
+import { vnDate, SRS_SESSION_SIZE } from '@/lib/srsSchedule'
 import { loadOfflineProgress, clearOfflineProgress } from '@/lib/offlineStorage'
 import { cta, GameHeader } from '@/components/ChunkyUI'
 
@@ -108,7 +109,7 @@ export default function SrsReviewPage() {
       const limit = session ? getSRSLimit(session) : DEFAULT_SRS_CAP
       setSrsLimit(limit)
 
-      const today = new Date().toISOString().split('T')[0]
+      const today = vnDate()
       const srs = effectiveSrs as Record<string, { due: string }>
 
       const wordMap = new Map<string, Word>()
@@ -125,7 +126,9 @@ export default function SrsReviewPage() {
 
       setTotalDue(dueEntries.length)
 
-      const capped = (limit == null ? dueEntries : dueEntries.slice(0, limit))
+      // One session = at most SRS_SESSION_SIZE words, most overdue first, for every plan —
+      // a 2,000-question session helps nobody. Pro can start the next round from the end screen.
+      const capped = dueEntries.slice(0, Math.min(limit ?? SRS_SESSION_SIZE, SRS_SESSION_SIZE))
         .map(([word]) => wordMap.get(word))
         .filter(Boolean) as Word[]
 
@@ -192,7 +195,7 @@ export default function SrsReviewPage() {
   )
 
   if (done || questions.length === 0) {
-    const remaining = srsLimit == null ? 0 : totalDue - srsLimit
+    const remaining = Math.max(0, totalDue - officialTotal)
     return (
       <div className="flex flex-col min-h-screen bg-gradient-to-b from-teal-50 to-cyan-50">
         <GameHeader colorCls="bg-gradient-to-br from-teal-500 to-cyan-500" title="📅 Ôn SRS" subtitle={LEVEL_LABELS[level]} onBack={() => router.back()} />
@@ -209,7 +212,12 @@ export default function SrsReviewPage() {
               <h2 className="text-3xl font-bold text-gray-800 mb-1">{correct}/{officialTotal}</h2>
               <p className="text-gray-500 font-bold text-lg mb-2">{Math.round((correct / officialTotal) * 100)}% trả lời đúng</p>
               <p className="text-gray-400 text-sm mb-3">Lịch ôn tiếp theo đã được cập nhật tự động.</p>
-              {remaining > 0 && (
+              {remaining > 0 && srsLimit == null && (
+                <button onClick={() => window.location.reload()} className={cta('teal', 'max-w-xs mb-3')}>
+                  🔁 Ôn tiếp {Math.min(remaining, SRS_SESSION_SIZE)} từ
+                </button>
+              )}
+              {remaining > 0 && srsLimit != null && (
                 <p className="text-teal-600 text-xs font-bold bg-teal-50 border border-teal-200 rounded-xl px-4 py-2 mb-6">
                   📅 Còn {remaining} từ nữa — ôn tiếp vào ngày mai nhé!
                 </p>

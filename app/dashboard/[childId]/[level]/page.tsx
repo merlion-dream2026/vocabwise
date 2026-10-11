@@ -1,5 +1,6 @@
 'use client'
 
+import { vnDate } from '@/lib/srsSchedule'
 import React, { useState, useEffect, useCallback } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import Link from 'next/link'
@@ -230,7 +231,7 @@ export default function LevelTopicsPage() {
   const levelInfo = LEVEL_LABELS[level] ?? { label: level, cefr: '' }
   const totalWeak = weakKeys.size
   const today = new Date().toISOString().split('T')[0]
-  const srsDueCount = Object.values((syncRaw?.srs ?? {}) as Record<string, { due: string }>).filter(e => e.due <= today).length
+  const srsDueCount = Object.values((syncRaw?.srs ?? {}) as Record<string, { due: string }>).filter(e => e.due <= vnDate()).length
   const summary = buildSyncSummary(syncRaw, level)
   const xpInfo = getXpLevel(summary.xp)
   const earnedBadges = computeEarnedBadges(summary)

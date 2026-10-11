@@ -1,12 +1,13 @@
 import { describe, it, expect } from 'vitest'
 import { applySrsAnswer as applyAnswer, type SrsEntry } from '@/lib/GameSyncContext'
+import { vnDate } from '@/lib/srsSchedule'
 
 // Imports the real SM-2-style step from lib/GameSyncContext.tsx (recordSrsAnswer
 // delegates to it) instead of a hand-copied reimplementation, so this suite can't
 // silently drift from the production algorithm.
 
-const today = new Date().toISOString().split('T')[0]
-const tomorrow = (() => { const d = new Date(); d.setDate(d.getDate() + 1); return d.toISOString().split('T')[0] })()
+const today = vnDate()
+const tomorrow = vnDate(1)
 
 describe('SRS algorithm', () => {
   it('first correct answer: interval grows, ef increases', () => {
@@ -55,5 +56,21 @@ describe('SRS algorithm', () => {
     }
     const afterWrong = applyAnswer(entry, false, today)
     expect(afterWrong.interval).toBe(1)
+  })
+})
+
+describe('vnDate (SRS calendar day, Vietnam time)', () => {
+  it('is UTC+7: 18:00 UTC is already the next day in Vietnam', () => {
+    const realNow = Date.now
+    Date.now = () => Date.parse('2026-10-11T18:00:00Z')
+    try {
+      expect(vnDate()).toBe('2026-10-12')
+      expect(vnDate(1)).toBe('2026-10-13')
+    } finally { Date.now = realNow }
+  })
+
+  it('a correct answer schedules `interval` VN days ahead', () => {
+    const result = applyAnswer({ interval: 3, due: today, ef: 2.5 }, true, today)
+    expect(result.due).toBe(vnDate(result.interval))
   })
 })

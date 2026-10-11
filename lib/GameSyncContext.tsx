@@ -6,6 +6,7 @@
 import { createContext, useContext, useState, type ReactNode } from 'react'
 import { saveOfflineProgress } from './offlineStorage'
 import type { MasteryEntry } from './topicMastery'
+import { vnDate, FIRST_REVIEW_AFTER_DAYS } from './srsSchedule'
 
 export type WeakEntry = { wrong: number; correctStreak: number; lastWrong: string }
 export type HistoryEntry = { words: number; games: number; xp: number; topicIds?: string[]; testsDone?: string[] }
@@ -52,20 +53,16 @@ function todayKey() { return new Date().toISOString().split('T')[0] }
  * Pure SM-2-style SRS step, extracted so it can be unit-tested directly instead
  * of via a hand-copied reimplementation. `today` is only used as the seed for a
  * brand-new entry's `due` — the interval math below always computes the real due
- * date from `new Date()`.
+ * date from now, as a Vietnam-time calendar day (lib/srsSchedule.ts).
  */
 export function applySrsAnswer(entry: SrsEntry | undefined, isCorrect: boolean, today: string): SrsEntry {
   const e = entry ?? { interval: 1, due: today, ef: 2.5 }
   if (isCorrect) {
     const newInterval = Math.min(Math.round(e.interval * e.ef), 60)
     const newEf = parseFloat(Math.max(1.3, e.ef + 0.1).toFixed(2))
-    const due = new Date()
-    due.setDate(due.getDate() + newInterval)
-    return { interval: newInterval, due: due.toISOString().split('T')[0], ef: newEf }
+    return { interval: newInterval, due: vnDate(newInterval), ef: newEf }
   }
-  const due = new Date()
-  due.setDate(due.getDate() + 1)
-  return { interval: 1, due: due.toISOString().split('T')[0], ef: parseFloat(Math.max(1.3, e.ef - 0.2).toFixed(2)) }
+  return { interval: 1, due: vnDate(1), ef: parseFloat(Math.max(1.3, e.ef - 0.2).toFixed(2)) }
 }
 
 function createGameSyncApi(): GameSyncApi {
@@ -163,10 +160,10 @@ function createGameSyncApi(): GameSyncApi {
     if (!_seen.includes(word)) {
       _seen = [..._seen, word]
       bumpHistory('words')
-      // Auto-schedule in SRS for first-time seen words
+      // Auto-schedule in SRS for first-time seen words — first review tomorrow, not today
+      // (the child has only just learned it; a same-day "due" just piles up the backlog).
       if (!_srs[word]) {
-        const today = new Date().toISOString().split('T')[0]
-        _srs = { ..._srs, [word]: { interval: 1, due: today, ef: 2.5 } }
+        _srs = { ..._srs, [word]: { interval: 1, due: vnDate(FIRST_REVIEW_AFTER_DAYS), ef: 2.5 } }
       }
     }
   }
@@ -176,6 +173,12 @@ function createGameSyncApi(): GameSyncApi {
     w: { word: string }, isCorrect: boolean
   ): boolean {
     const today = new Date().toISOString().split('T')[0]
+    // Game answers count as SRS reviews too, so words a child keeps getting right in games
+    // move along the schedule instead of only advancing on the SRS page. A correct answer
+    // only counts once the word is due (several games in one day must not inflate the
+    // interval); a wrong answer always resets it.
+    const srsEntry = _srs[w.word]
+    if (!isCorrect || (srsEntry && srsEntry.due <= vnDate())) recordSrsAnswer(w.word, isCorrect)
     const entry = _weakWords[w.word]
     if (isCorrect) {
       if (entry) {
@@ -215,7 +218,7 @@ function createGameSyncApi(): GameSyncApi {
   }
 
   function recordSrsAnswer(word: string, isCorrect: boolean) {
-    const today = new Date().toISOString().split('T')[0]
+    const today = vnDate()
     const before = _srs[word] ?? { interval: 1, due: today, ef: 2.5 }
     const after = applySrsAnswer(before, isCorrect, today)
     _srs = { ..._srs, [word]: after }
@@ -227,7 +230,7 @@ function createGameSyncApi(): GameSyncApi {
   }
 
   function getSrsDueCount(): number {
-    const today = new Date().toISOString().split('T')[0]
+    const today = vnDate()
     return Object.values(_srs).filter(e => e.due <= today).length
   }
 

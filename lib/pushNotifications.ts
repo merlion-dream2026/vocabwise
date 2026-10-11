@@ -1,4 +1,5 @@
 import webpush from 'web-push'
+import { SRS_SESSION_SIZE } from '@/lib/srsSchedule'
 import { supabase } from '@/lib/supabaseServer'
 import { getEffectivePlan } from '@/lib/planUtils'
 import { currentVNSlot, parsePushSchedule, DEFAULT_PUSH_SCHEDULE } from '@/lib/pushSchedule'
@@ -128,28 +129,31 @@ export async function sendSmartDailyPush(onlyFamilyIds?: Set<string>): Promise<{
   // Batch-fetch children for these families
   const { data: allChildren } = await supabase
     .from('children')
-    .select('id, name, family_id')
+    .select('id, name, family_id, level')
     .in('family_id', familyIds)
 
   const childIds = (allChildren ?? []).map(c => c.id)
 
   // Batch-fetch vocab_sync streak + SRS data (one row per child per level)
   const { data: syncRows } = childIds.length
-    ? await supabase.from('vocab_sync').select('child_id, streak, srs').in('child_id', childIds)
+    ? await supabase.from('vocab_sync').select('child_id, level, streak, srs').in('child_id', childIds)
     : { data: [] }
 
   // Build per-child: { lastActive: string, streakCurrent: number, dueCount: number }
   // dueCount = words whose SM-2 `due` date (set by applySrsAnswer in GameSyncContext)
-  // has arrived — i.e. words the forgetting curve says are about to be forgotten,
-  // summed across all Daily levels the child has progress in.
+  // has arrived — i.e. words the forgetting curve says are about to be forgotten — in the
+  // child's CURRENT level only: that is the SRS page the notification leads to, so the
+  // number matches what the child sees (other levels' rows used to be summed in).
   type ChildMeta = { lastActive: string; streakCurrent: number; dueCount: number }
+  const childLevel: Record<string, string> = Object.fromEntries((allChildren ?? []).map(c => [c.id, c.level]))
   const childMeta: Record<string, ChildMeta> = {}
   for (const row of syncRows ?? []) {
     const s = row.streak as { current?: number; lastActive?: string } | null
     const cur = s?.current ?? 0
     const la = s?.lastActive ?? ''
     const srsMap = (row.srs as Record<string, { due?: string }> | null) ?? {}
-    const dueHere = Object.values(srsMap).filter(e => (e?.due ?? '') <= todayVN).length
+    const isCurrentLevel = childLevel[row.child_id] === row.level
+    const dueHere = isCurrentLevel ? Object.values(srsMap).filter(e => (e?.due ?? '') <= todayVN).length : 0
 
     const prev = childMeta[row.child_id]
     if (!prev) {
@@ -177,21 +181,27 @@ export async function sendSmartDailyPush(onlyFamilyIds?: Set<string>): Promise<{
     const studiedToday = children.some(c => (childMeta[c.id]?.lastActive ?? '').startsWith(todayVN))
     if (studiedToday) { skipped++; return }
 
-    // Personalize: pick child with highest streak (for streak copy) and sum due
-    // reviews across all children (for forgetting-curve copy)
+    // Personalize: pick child with highest streak (for streak copy) and the child with the
+    // most due reviews (for forgetting-curve copy — per child, never summed across siblings)
     const bestChild = children.reduce<{ name: string; streak: number } | null>((best, c) => {
       const streak = childMeta[c.id]?.streakCurrent ?? 0
       return !best || streak > best.streak ? { name: c.name, streak } : best
     }, null)
-    const familyDueCount = children.reduce((sum, c) => sum + (childMeta[c.id]?.dueCount ?? 0), 0)
+    const dueChild = children.reduce<{ name: string; due: number } | null>((best, c) => {
+      const due = childMeta[c.id]?.dueCount ?? 0
+      return due > 0 && (!best || due > best.due) ? { name: c.name, due } : best
+    }, null)
 
     let title = '📚 Học từ vựng hôm nay nào!'
     let body = 'Duy trì streak — bé học 10 phút mỗi ngày!'
-    if (familyDueCount > 0) {
+    if (dueChild) {
       // Forgetting-curve nudge takes priority — these words are past their SM-2 due
-      // date, i.e. the model predicts they're about to be forgotten.
-      title = `⏰ ${familyDueCount} từ sắp quên!`
-      body = 'Ôn lại ngay trước khi bé quên hẳn — chỉ mất 5 phút với chế độ Ôn tập 🧠'
+      // date, i.e. the model predicts they're about to be forgotten. Quote one session
+      // (≤ SRS_SESSION_SIZE words), not the whole backlog: "20 từ · 5 phút" gets done,
+      // "2,000 từ" gets ignored.
+      const n = Math.min(dueChild.due, SRS_SESSION_SIZE)
+      title = `🧠 ${dueChild.name} có ${n} từ cần ôn hôm nay`
+      body = 'Ôn nhanh khoảng 5 phút để nhớ lâu hơn nhé!'
     } else if (bestChild) {
       if (bestChild.streak > 0) {
         title = `🔥 ${bestChild.name} đang có streak ${bestChild.streak} ngày!`
