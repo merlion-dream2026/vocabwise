@@ -1,3 +1,4 @@
+import type { Metadata } from 'next'
 import { headers } from 'next/headers'
 import LandingNav from '@/components/landing/LandingNav'
 import LandingHero from '@/components/landing/LandingHero'
@@ -10,6 +11,9 @@ import {
   ModulesSection, MotivationSection, StepsSection, TestimonialSection,
 } from '@/components/landing/LandingSections'
 import { FAQ_ITEMS } from '@/lib/landingContent'
+
+// Canonical only here: set in the root layout it pointed every page (login, terms…) at '/'.
+export const metadata: Metadata = { alternates: { canonical: '/' } }
 
 // FAQ rich-result data, built from the same items the page shows (Google wants them visible).
 const faqJsonLd = {

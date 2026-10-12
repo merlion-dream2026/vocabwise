@@ -42,7 +42,6 @@ export const metadata: Metadata = {
   metadataBase: new URL(APP_URL),
   manifest: '/manifest.webmanifest',
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
-  alternates: { canonical: '/' },
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black-translucent',
