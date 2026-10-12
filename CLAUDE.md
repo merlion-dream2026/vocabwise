@@ -24,6 +24,7 @@
 | Pro 6 tháng | 299.000đ | 3 | + Monthly recap · Gift Pro 14 ngày |
 
 Payment: chuyển khoản thủ công → admin kích hoạt qua Superadmin UI.
+**Giá + hạn mức hiển thị — nguồn duy nhất `lib/plans.ts`** (giá, số bé, quota AI 10/40, cap 20 từ). `planUtils.ts` enforce bằng các hằng này; landing (`lib/landingContent.ts`), `UpgradeModal`, JSON-LD offers ở `app/layout.tsx` đều đọc từ đây — đổi giá/quota chỉ sửa 1 chỗ.
 
 ## Feature Gating — nguồn duy nhất: `lib/planUtils.ts`
 
@@ -117,6 +118,7 @@ AI text-helper fallback chain (`lib/aiChat.ts`, dùng bởi explain/hint/grammar
 ## Scripts & Assets
 - **Audio:** `public/audio/stories/[level].[topic-id].mp3` — Kids mini story
 - **Mascot (Rocky/Bubi):** `lib/mascots.ts` + `components/Mascot.tsx`, ảnh derived ở `public/mascots/` — chỉ thêm ảnh qua map, không hardcode path. Mỗi bé chọn 1 mascot (`children.mascot`, NULL → hỏi lần đầu, fallback Rocky) qua `components/MascotContext.tsx`. Chi tiết: `docs/mascots/README.md`
+- **Landing screenshots:** `node scripts/capture-landing-screenshots.mjs [tên]` chụp app thật (production) bằng tài khoản demo → `public/screenshots/app/*.webp`. Tài khoản demo `0999999990` (`families.admin_note='DEMO'`, bé giả Bin/Su, tiến độ copy từ Tim/Mia, XP bị xoá để không lên bảng xếp hạng chung) tạo/làm mới bằng `node scripts/seed-demo-account.mjs <childA> <childB>`, xoá bằng `--delete`; mật khẩu ở `.env.local` (`DEMO_PASSWORD`).
 - **Print:** `node scripts/gen-docx.js [book1|book2|book3|all] [topic-id]` → DOCX · colors: emerald/blue/purple
 
 ---
