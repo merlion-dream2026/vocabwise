@@ -28,7 +28,7 @@ export default async function LandingPage() {
     <div className="min-h-screen bg-white">
       <script nonce={nonce} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <LandingNav />
-      <main>
+      <div>
         <LandingHero />
         <ModulesSection />
         <JourneySection />
@@ -41,7 +41,7 @@ export default async function LandingPage() {
         <FounderSection />
         <FaqSection />
         <FinalCtaSection />
-      </main>
+      </div>
       <LandingFooter />
       <StickyCta />
     </div>
