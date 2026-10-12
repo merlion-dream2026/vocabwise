@@ -25,6 +25,8 @@ const PUBLIC_PATHS = [
   '/privacy',
   '/robots.txt',
   '/sitemap.xml',
+  // Referral links: set the referral cookie, then go to /register (were bounced to /login, losing the code).
+  '/r',
   // Vercel cron + Supabase pg_cron call these with no session — every /api/cron/* route
   // checks CRON_SECRET itself. (Missing from 2026-06-23 to 2026-10-09: all crons got a 307.)
   '/api/cron',
