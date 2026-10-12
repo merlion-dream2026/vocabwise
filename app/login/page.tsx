@@ -4,6 +4,8 @@ import { useState, useEffect, FormEvent } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import { Suspense } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
+import { DUO_WAVE_SCENE } from '@/lib/mascots'
 import UpgradeModal from '@/components/UpgradeModal'
 import { cta } from '@/components/ChunkyUI'
 
@@ -103,17 +105,33 @@ function LoginForm() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 flex flex-col items-center justify-center p-4">
       {showUpgrade && <UpgradeModal onClose={() => setShowUpgrade(false)} username={username} />}
+      <Link href="/" className="self-start lg:absolute lg:left-6 lg:top-6 mb-2 rounded-full px-3 py-1.5 text-sm font-bold text-gray-600 hover:bg-white/70 hover:text-purple-600 transition-colors">
+        ← Trang chủ
+      </Link>
+      <div className="w-full max-w-sm lg:max-w-4xl lg:grid lg:grid-cols-2 lg:items-center lg:gap-12">
 
-      <div className="w-full max-w-sm">
+        {/* Desktop-only side panel: who's waiting + what's inside */}
+        <div className="hidden lg:block">
+          <Image src={DUO_WAVE_SCENE.src} alt="Rocky và Bubi vẫy tay chào" width={DUO_WAVE_SCENE.width} height={DUO_WAVE_SCENE.height}
+            priority sizes="420px" className="h-auto w-full rounded-3xl shadow-lg" />
+          <ul className="mt-6 space-y-3 text-gray-700 font-semibold">
+            <li>📚 <strong>Daily</strong>: 2.400 từ cho bé, 6 cấp độ Pre-A1 → C1-C2</li>
+            <li>🔤 <strong>Phonics IPA</strong>: 58 bài phát âm, AI chấm điểm</li>
+            <li>🎓 <strong>Academic</strong>: từ vựng IELTS/SAT cho teen & người lớn</li>
+            <li>🏆 Chinh phục chủ đề, sưu tầm sticker, đổi quà với ba mẹ</li>
+          </ul>
+        </div>
 
+        <div>
         {/* Hero */}
         <div className="text-center mb-4">
-          <div className="text-6xl mb-3">📚</div>
+          <Image src={DUO_WAVE_SCENE.src} alt="" aria-hidden width={DUO_WAVE_SCENE.width} height={DUO_WAVE_SCENE.height}
+            priority sizes="200px" className="lg:hidden mx-auto mb-3 h-auto w-48 rounded-3xl shadow-md" />
           <h1 className="text-3xl font-bold text-gray-800 tracking-tight">VocabWise</h1>
-          <p className="text-gray-500 mt-1.5 font-semibold text-sm leading-snug">
-            Từ vựng tiếng Anh — vui học mỗi ngày
+          <p className="text-gray-600 mt-1.5 font-semibold text-sm leading-snug">
+            Học tiếng Anh vui mỗi ngày cùng Rocky & Bubi
           </p>
         </div>
 
@@ -135,15 +153,18 @@ function LoginForm() {
         )}
 
         {/* Form card */}
-        <div className="bg-white/80 backdrop-blur-sm rounded-3xl border-white p-6 space-y-4 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
-          <p className="text-center text-sm font-bold text-gray-500">
+        <form onSubmit={handleSubmit} aria-labelledby="login-title"
+          className="bg-white/80 backdrop-blur-sm rounded-3xl p-6 space-y-4 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
+          <h2 id="login-title" className="text-center text-sm font-bold text-gray-600">
             Đăng nhập để bắt đầu hành trình cùng bé →
-          </p>
+          </h2>
 
           <div>
-            <label className="block text-sm font-bold text-gray-600 mb-1.5">Số điện thoại <span className="text-gray-400 font-normal">(tên đăng nhập)</span></label>
+            <label htmlFor="login-phone" className="block text-sm font-bold text-gray-700 mb-1.5">Số điện thoại <span className="text-gray-500 font-normal">(tên đăng nhập)</span></label>
             <input
+              id="login-phone"
               type="text"
+              inputMode="tel"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
               className="w-full bg-purple-50 border-2 border-b-[4px] border-purple-200 border-b-purple-300 rounded-3xl px-4 py-3 text-gray-800 font-semibold focus:outline-none focus:ring-2 focus:ring-purple-300 transition"
@@ -154,9 +175,10 @@ function LoginForm() {
           </div>
 
           <div>
-            <label className="block text-sm font-bold text-gray-600 mb-1.5">Mật khẩu</label>
+            <label htmlFor="login-password" className="block text-sm font-bold text-gray-700 mb-1.5">Mật khẩu</label>
             <div className="relative">
               <input
+                id="login-password"
                 type={showPw ? 'text' : 'password'}
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
@@ -171,7 +193,9 @@ function LoginForm() {
               <button
                 type="button"
                 onClick={() => setShowPw(v => !v)}
-                className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-gray-600 text-lg"
+                aria-label={showPw ? 'Ẩn mật khẩu' : 'Hiện mật khẩu'}
+                aria-pressed={showPw}
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 hover:text-gray-700 text-lg"
               >
                 {showPw ? '🙈' : '👁️'}
               </button>
@@ -233,11 +257,13 @@ function LoginForm() {
             </div>
           )}
 
-          {error && (
-            <div className="bg-red-50 border border-red-100 text-red-500 text-sm rounded-2xl px-4 py-3 font-semibold">
-              ⚠️ {error}
-            </div>
-          )}
+          <div aria-live="polite">
+            {error && (
+              <p role="alert" className="bg-red-50 border border-red-100 text-red-600 text-sm rounded-2xl px-4 py-3 font-semibold">
+                ⚠️ {error}
+              </p>
+            )}
+          </div>
 
           {turnstileSiteKey && (
             <div className="cf-turnstile" data-sitekey={turnstileSiteKey} data-callback="onTurnstileVerify" data-theme="light" />
@@ -246,40 +272,43 @@ function LoginForm() {
           <button
             type="submit"
             disabled={loading}
-            onClick={handleSubmit}
             className={cta('purple')}
           >
             {loading ? '⏳ Đang đăng nhập...' : '🚀 Đăng nhập'}
           </button>
 
           <div className="text-center">
-            <Link href="/forgot-password" className="text-xs text-gray-400 hover:text-purple-500 font-semibold underline transition-colors">
+            <Link href="/forgot-password" className="text-sm text-gray-600 hover:text-purple-600 font-semibold underline transition-colors">
               Quên mật khẩu?
             </Link>
           </div>
-        </div>
+        </form>
 
-        <p className="text-center text-sm text-gray-400 font-semibold mt-5">
+        <p className="text-center text-sm text-gray-600 font-semibold mt-5">
           Chưa có tài khoản?{' '}
           <Link href="/register" className="text-purple-500 font-bold hover:underline">Đăng ký miễn phí</Link>
         </p>
 
-        {/* PWA install tip */}
-        <div className="mt-4 bg-blue-50 border-2 border-b-[4px] border-blue-200 border-b-blue-300 rounded-3xl p-3.5 space-y-2.5">
-          <p className="text-xs font-bold text-blue-700">📲 Cách cài app lên màn hình chính:</p>
-          <div className="space-y-1.5">
-            <p className="text-xs font-bold text-gray-600">🍎 iPhone / iPad (Safari)</p>
-            <p className="text-xs text-gray-500 leading-relaxed">① Bấm nút <span className="font-bold">Chia sẻ</span> <span className="font-mono bg-gray-100 px-1 rounded">⬆️</span> ở thanh dưới Safari</p>
-            <p className="text-xs text-gray-500">② Chọn <span className="font-bold">&quot;Thêm vào Màn hình chính&quot;</span></p>
-            <p className="text-xs text-gray-500">③ Bấm <span className="font-bold">Thêm</span> → mở app từ icon vừa tạo</p>
+        {/* PWA install tip — collapsed so the form stays the first thing on screen */}
+        <details className="mt-4 bg-blue-50 border-2 border-b-[4px] border-blue-200 border-b-blue-300 rounded-3xl p-3.5 group">
+          <summary className="cursor-pointer list-none flex items-center justify-between text-sm font-bold text-blue-800">
+            📲 Cài app lên màn hình chính
+            <span aria-hidden className="text-blue-500 transition-transform group-open:rotate-45">+</span>
+          </summary>
+          <div className="mt-3 space-y-1.5">
+            <p className="text-xs font-bold text-gray-700">🍎 iPhone / iPad (Safari)</p>
+            <p className="text-xs text-gray-600 leading-relaxed">① Bấm nút <span className="font-bold">Chia sẻ</span> <span className="font-mono bg-gray-100 px-1 rounded">⬆️</span> ở thanh dưới Safari</p>
+            <p className="text-xs text-gray-600">② Chọn <span className="font-bold">&quot;Thêm vào Màn hình chính&quot;</span></p>
+            <p className="text-xs text-gray-600">③ Bấm <span className="font-bold">Thêm</span> → mở app từ icon vừa tạo</p>
           </div>
-          <div className="border-t border-blue-100 pt-2 space-y-1.5">
-            <p className="text-xs font-bold text-gray-600">🤖 Android (Chrome)</p>
-            <p className="text-xs text-gray-500 leading-relaxed">① Bấm menu <span className="font-bold">⋮</span> góc trên phải Chrome</p>
-            <p className="text-xs text-gray-500">② Chọn <span className="font-bold">&quot;Thêm vào Màn hình chính&quot;</span> hoặc <span className="font-bold">&quot;Cài đặt ứng dụng&quot;</span></p>
-            <p className="text-xs text-gray-500">③ Bấm <span className="font-bold">Thêm</span> → mở app từ icon vừa tạo</p>
+          <div className="mt-2 border-t border-blue-100 pt-2 space-y-1.5">
+            <p className="text-xs font-bold text-gray-700">🤖 Android (Chrome)</p>
+            <p className="text-xs text-gray-600 leading-relaxed">① Bấm menu <span className="font-bold">⋮</span> góc trên phải Chrome</p>
+            <p className="text-xs text-gray-600">② Chọn <span className="font-bold">&quot;Thêm vào Màn hình chính&quot;</span> hoặc <span className="font-bold">&quot;Cài đặt ứng dụng&quot;</span></p>
+            <p className="text-xs text-gray-600">③ Bấm <span className="font-bold">Thêm</span> → mở app từ icon vừa tạo</p>
           </div>
-          <p className="text-[11px] text-blue-400 font-semibold text-center pt-1">Mở như app thật · tự cập nhật · không cần App Store</p>
+          <p className="text-[11px] text-blue-700 font-semibold text-center pt-2">Mở như app thật · tự cập nhật · không cần App Store</p>
+        </details>
         </div>
 
       </div>
