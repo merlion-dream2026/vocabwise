@@ -10,11 +10,13 @@ import OnboardingChecklist from '@/components/OnboardingChecklist'
 import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
 import LearningHistoryPanel from '@/components/LearningHistoryPanel'
+import ProgressSummary from '@/components/ProgressSummary'
 import BangThanhTich from '@/components/BangThanhTich'
 import LeaderboardCard from '../LeaderboardCard'
-import type { Child, Session, ChildStats, HistEntry, SyncLevel, SyncAllLevels } from '../_types'
+import type { Child, Session, ChildStats, SyncLevel, SyncAllLevels } from '../_types'
+import type { SyncAllLevels as ProgressSync } from '@/lib/childProgress'
 import {
-  THEME_COLORS, DEFAULT_COLOR, weakCount, getLast7Days, histDotColor, fmtHistEntry, formatLastActive,
+  THEME_COLORS, DEFAULT_COLOR, weakCount, formatLastActive,
 } from '../_utils'
 
 // ── Dashboard tab ─────────────────────────────────────────────────────────────
@@ -28,7 +30,6 @@ export function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditCh
   onAddChild: () => void
 }) {
   const [lastRefresh, setLastRefresh] = useState<string | null>(null)
-  const [expandedHistory, setExpandedHistory] = useState<Record<string, boolean>>({})
   const [selectedChildId, setSelectedChildId] = useState<string | null>(null)
 
   useEffect(() => {
@@ -152,19 +153,6 @@ export function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditCh
             const xpInfo    = getXpLevel(summary.xp)
             const topBadges = computeEarnedBadges(summary).slice(0, 3)
 
-            // History — combined across all modules
-            const hist: Record<string, HistEntry> = {}
-            for (const lvData of Object.values(syncAll)) {
-              for (const [day, entry] of Object.entries((lvData as { history?: Record<string, HistEntry> }).history ?? {})) {
-                if (!hist[day]) hist[day] = { words: 0, games: 0, xp: 0 }
-                hist[day].words += entry.words ?? 0
-                hist[day].games += entry.games ?? 0
-                hist[day].xp   += entry.xp    ?? 0
-              }
-            }
-            const last7         = getLast7Days()
-            const childTheme    = child.theme ?? 'pink'
-            const isHistExpanded = expandedHistory[child.id] ?? false
 
             return (
               <div key={child.id} className="bg-white rounded-3xl overflow-hidden border-2 border-slate-100">
@@ -252,38 +240,9 @@ export function DashboardTab({ stats, loading, onRefresh, onChildClick, onEditCh
                   </div>
                 </button>
 
-                {/* History 7 ngày — collapsible, combined across all modules */}
-                <div className="border-t border-gray-100">
-                  <button
-                    onClick={() => setExpandedHistory(prev => ({ ...prev, [child.id]: !isHistExpanded }))}
-                    className="w-full px-3 py-2 flex items-center justify-between hover:bg-gray-50 transition-colors">
-                    <div className="flex items-center gap-1.5">
-                      <span className="text-xs font-bold text-gray-400">📅</span>
-                      <div className="flex items-center gap-0.5">
-                        {last7.map(d => (
-                          <span key={d.key} className={`w-2 h-2 rounded-full ${histDotColor(hist[d.key], childTheme)}`} />
-                        ))}
-                      </div>
-                    </div>
-                    <span className={`text-gray-400 text-xs font-bold transition-transform duration-200 ${isHistExpanded ? 'rotate-180' : ''}`}>▾</span>
-                  </button>
-
-                  {isHistExpanded && (
-                    <div className="px-3 pb-3 space-y-1">
-                      {last7.filter(d => hist[d.key] && (hist[d.key].words + hist[d.key].games + hist[d.key].xp) > 0)
-                        .reverse()
-                        .map(d => (
-                          <div key={d.key} className="flex items-center justify-between text-xs">
-                            <span className="text-gray-400 font-semibold">{d.date} {d.day}</span>
-                            <span className="text-gray-600 font-bold">{fmtHistEntry(hist[d.key])}</span>
-                          </div>
-                        ))
-                      }
-                      {last7.every(d => !hist[d.key] || hist[d.key].words + hist[d.key].games + hist[d.key].xp === 0) && (
-                        <p className="text-xs text-gray-400 font-semibold text-center py-1">Chưa có hoạt động</p>
-                      )}
-                    </div>
-                  )}
+                {/* Progress: today / 7 / 30 days vs the period before, and all-time totals */}
+                <div className="border-t border-gray-100 pt-3">
+                  <ProgressSummary sync={syncAll as unknown as ProgressSync} />
                 </div>
 
                 {/* History 30 ngày — per module breakdown */}

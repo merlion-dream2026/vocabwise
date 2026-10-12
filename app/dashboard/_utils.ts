@@ -1,4 +1,4 @@
-import type { WeakVal, HistEntry } from './_types'
+import type { WeakVal } from './_types'
 
 export const LEVEL_INFO_MAP: Record<string, { label: string; desc: string; cefr: string }> = {
   seeker:   { label: 'Seeker',   desc: 'Từ vựng nền tảng',  cefr: 'Pre-A1' },
@@ -20,35 +20,6 @@ export const DEFAULT_COLOR = { grad: 'from-purple-400 to-indigo-400', bar: 'bg-p
 export const VN_DAYS = ['CN', 'T2', 'T3', 'T4', 'T5', 'T6', 'T7']
 
 export function weakCount(v: WeakVal): number { return typeof v === 'number' ? v : v.wrong }
-
-export function getLast7Days() {
-  return Array.from({ length: 7 }, (_, i) => {
-    const d = new Date()
-    d.setDate(d.getDate() - (6 - i))
-    return { key: d.toISOString().split('T')[0], day: VN_DAYS[d.getDay()], date: `${d.getDate()}/${d.getMonth() + 1}` }
-  })
-}
-
-export function histDotColor(entry: HistEntry | undefined, theme: string): string {
-  if (!entry || entry.words + entry.games + entry.xp === 0) return 'bg-gray-200'
-  const act = entry.words + entry.games
-  const tiers: Record<string, [string, string, string]> = {
-    blue:   ['bg-blue-500',   'bg-blue-300',   'bg-blue-200'],
-    green:  ['bg-green-500',  'bg-green-300',  'bg-green-200'],
-    orange: ['bg-orange-500', 'bg-orange-300', 'bg-orange-200'],
-    pink:   ['bg-pink-500',   'bg-pink-300',   'bg-pink-200'],
-  }
-  const [high, mid, low] = tiers[theme] ?? tiers.pink
-  return act >= 8 ? high : act >= 3 ? mid : low
-}
-
-export function fmtHistEntry(e: HistEntry): string {
-  const parts: string[] = []
-  if (e.words > 0) parts.push(`${e.words} từ`)
-  if (e.games > 0) parts.push(`${e.games} game`)
-  if (e.xp > 0) parts.push(`+${e.xp} XP`)
-  return parts.join(' · ')
-}
 
 export const PLAN_BADGE: Record<string, { label: string; cls: string }> = {
   free:     { label: 'FREE',     cls: 'bg-white/20 text-white' },
