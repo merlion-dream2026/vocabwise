@@ -3,9 +3,10 @@ import { mascotCutSrc } from '@/lib/mascots'
 
 // The rocket of 🚀 Phóng tên lửa as 10 SVG parts in build order (pad first, star last). Parts not
 // built yet show as a faint grey silhouette so kids see what's missing; a part drops in with a bounce
-// the moment it's built. `stage` drives the countdown rumble, lift-off and the out-of-fuel fizzle.
+// the moment it's built. `stage` drives the countdown rumble, lift-off, cruising in space (flame on,
+// gentle bob) and the out-of-fuel fizzle.
 
-export type RocketStage = 'build' | 'countdown' | 'launch' | 'fizzle'
+export type RocketStage = 'build' | 'countdown' | 'launch' | 'cruise' | 'fizzle'
 
 const BODY = '#F8FAFC'
 const EDGE = '#CBD5E1'
@@ -52,7 +53,7 @@ function Part({ i, built }: { i: number; built: number }) {
 }
 
 export function RocketArt({ built, stage, className = '' }: { built: number; stage: RocketStage; className?: string }) {
-  const flying = stage === 'launch'
+  const flying = stage === 'launch' || stage === 'cruise'
   return (
     <svg viewBox="0 0 200 360" className={`overflow-visible ${className}`} aria-hidden>
       <style>{`
@@ -67,10 +68,12 @@ export function RocketArt({ built, stage, className = '' }: { built: number; sta
         .rk-fly { animation: rkFly 2.6s cubic-bezier(.55,0,.85,.4) forwards }
         .rk-flame { animation: rkFlame .12s ease-in-out infinite; transform-origin: 100px 328px }
         .rk-smoke { animation: rkSmoke 1.1s ease-out infinite; transform-box: fill-box; transform-origin: center }
+        .rk-cruise { animation: rkCruise 1.6s ease-in-out infinite }
+        @keyframes rkCruise { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-8px) } }
         .rk-sag { animation: rkSag 1.6s ease-in-out infinite; transform-origin: 100px 330px }
       `}</style>
 
-      <Part i={0} built={built} />
+      {stage !== 'cruise' && <Part i={0} built={built} />}
 
       {(stage === 'launch' || stage === 'fizzle') && (
         <g fill={stage === 'fizzle' ? '#94A3B8' : '#E2E8F0'}>
@@ -80,7 +83,7 @@ export function RocketArt({ built, stage, className = '' }: { built: number; sta
         </g>
       )}
 
-      <g className={flying ? 'rk-fly' : stage === 'countdown' ? 'rk-shake' : stage === 'fizzle' ? 'rk-sag' : undefined}>
+      <g className={stage === 'launch' ? 'rk-fly' : stage === 'cruise' ? 'rk-cruise' : stage === 'countdown' ? 'rk-shake' : stage === 'fizzle' ? 'rk-sag' : undefined}>
         {(stage === 'countdown' || flying) && (
           <g className="rk-flame">
             <path d={flying ? 'M78 326 Q100 430 122 326 Z' : 'M86 326 Q100 360 114 326 Z'} fill="#F97316" />
@@ -96,7 +99,7 @@ export function RocketArt({ built, stage, className = '' }: { built: number; sta
 // Win scene: the rocket parked on a ringed planet named after the topic, Rocky cheering with a flag.
 export function PlanetScene({ topicEmoji }: { topicEmoji: string }) {
   return (
-    <div className="relative mx-auto h-full w-full max-w-sm">
+    <div className="relative mx-auto h-full w-full max-w-[min(92vw,120vmin)]">
       <style>{`
         @keyframes rkLand { 0% { transform: translateY(-120%) } 70% { transform: translateY(4%) } 100% { transform: translateY(0) } }
         @keyframes rkBob { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-6px) } }

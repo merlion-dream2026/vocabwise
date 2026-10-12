@@ -12,8 +12,10 @@ import {
 } from '@/lib/arcadeGames'
 import Confetti from '@/components/Confetti'
 import GameResultScreen from '@/components/GameResultScreen'
-import { GameHeader, PrimaryButton, buzz } from '@/components/ChunkyUI'
+import { buzz } from '@/components/ChunkyUI'
 import { Critter, type CritterKind } from '@/components/games/Critters'
+import { ArcadeStage, StageHud, TimerDial, StageModal, StageButton, enterFullscreen } from '@/components/games/ArcadeStage'
+import { Meadow, MoleHole } from '@/components/games/WhackScene'
 
 type Topic = { id: string; name: string; emoji: string; color: string; words: ArcadeWord[] }
 type Props = { topic: Topic; level: string; backUrl: string }
@@ -22,9 +24,10 @@ type MoleState = 'up' | 'hit' | 'tease' | 'down'
 type Mole = { id: number; hole: number; word: ArcadeWord; kind: CritterKind; state: MoleState }
 type Phase = 'ready' | 'play' | 'between' | 'win' | 'done'
 
-const HEADER = 'bg-gradient-to-br from-lime-500 to-green-600'
-// Hammer cursor on desktop; touch screens get the hammer swing drawn at the tap point instead.
-const HAMMER_CURSOR = `url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='44' height='44'><text x='2' y='34' font-size='32'>🔨</text></svg>") 10 10, pointer`
+// The hammer is drawn by the game, not a CSS cursor (browsers cap cursor images at a small size):
+// with a mouse a big hammer follows the pointer (system cursor hidden) and swings on each click;
+// on a touch screen it appears at the tap point, swings, and fades.
+type Hammer = { x: number; y: number; mode: 'mouse' | 'touch'; hit: number }
 
 export default function WhackGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
@@ -40,7 +43,7 @@ export default function WhackGame({ topic, level, backUrl }: Props) {
   const [secondsLeft, setSecondsLeft] = useState(WHACK_SECONDS)
   const [reveal, setReveal] = useState(false)          // time ran out: show the answer on the board
   const [wrongWords, setWrongWords] = useState<string[]>([])
-  const [hammer, setHammer] = useState<{ id: number; x: number; y: number } | null>(null)
+  const [hammer, setHammer] = useState<Hammer | null>(null)
   const [showConfetti, setShowConfetti] = useState(false)
 
   const molesRef = useRef<Mole[]>([])
@@ -162,15 +165,21 @@ export default function WhackGame({ topic, level, backUrl }: Props) {
     setShowConfetti(true)
   }
 
-  function swing(e: React.PointerEvent) {
+  const pointAt = (e: React.PointerEvent) => {
     const box = fieldRef.current?.getBoundingClientRect()
-    if (!box) return
-    setHammer({ id: Date.now(), x: e.clientX - box.left, y: e.clientY - box.top })
+    return box ? { x: e.clientX - box.left, y: e.clientY - box.top } : null
+  }
+  function moveHammer(e: React.PointerEvent) {
+    const p = e.pointerType === 'mouse' ? pointAt(e) : null
+    if (p) setHammer((h) => ({ ...p, mode: 'mouse', hit: h?.hit ?? 0 }))
+  }
+  function swing(e: React.PointerEvent) {
+    const p = pointAt(e)
+    if (p) setHammer((h) => ({ ...p, mode: e.pointerType === 'mouse' ? 'mouse' : 'touch', hit: (h?.hit ?? 0) + 1 }))
   }
 
-  function whack(mole: Mole, e: React.PointerEvent) {
+  function whack(mole: Mole) {
     if (phase !== 'play' || mole.state !== 'up') return
-    swing(e)
     buzz()
     if (mole.word.word === current.target.word) {
       playSfx('whack')
@@ -207,147 +216,136 @@ export default function WhackGame({ topic, level, backUrl }: Props) {
   const heartsLost = WHACK_HEARTS - hearts
   const scorePct = whackScorePct(correct, heartsLost)
   const exit = () => router.push(backUrl)
-
-  if (phase === 'done') {
-    return (
-      <div className="flex flex-col min-h-screen">
-        {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
-        <GameHeader colorCls={HEADER} title="🔨 Đập Chuột Chũi" subtitle={topic.name} onBack={exit} />
-        <div className="flex-1 bg-gradient-to-b from-lime-50 to-green-50 flex flex-col items-center justify-center px-4 py-8">
-          <GameResultScreen
-            score={scorePct} total={100} xpEarned={correct} stars={starsFor(scorePct)} wrongWords={wrongWords}
-            scoreLine={correct >= WHACK_QUESTIONS ? `Đập trúng cả ${WHACK_QUESTIONS} câu!` : `Đập trúng ${correct}/${WHACK_QUESTIONS} câu`}
-            extra={<>{'❤️'.repeat(hearts)}{'🤍'.repeat(heartsLost)} · đập nhầm/hết giờ {heartsLost} lần<br />Giữ đủ tim để được 3 sao!</>}
-            onRestart={restart} onExit={exit}
-          />
-        </div>
-      </div>
-    )
-  }
-
+  const playing = phase === 'play' || phase === 'between'
   const byHole = new Map(moles.map((m) => [m.hole, m]))
+  const heartRow = <>{'❤️'.repeat(hearts)}{'🤍'.repeat(heartsLost)}</>
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <ArcadeStage>
       <style>{`
-        @keyframes wmUp { 0% { transform: translateY(105%) } 70% { transform: translateY(-6%) } 100% { transform: translateY(0) } }
-        @keyframes wmSwing { 0% { transform: translate(-30%,-80%) rotate(-50deg); opacity: 1 } 60% { transform: translate(-30%,-60%) rotate(25deg); opacity: 1 } 100% { transform: translate(-30%,-60%) rotate(25deg); opacity: 0 } }
-        @keyframes wmStars { 0% { transform: translateY(4px) scale(.6); opacity: 0 } 30% { opacity: 1 } 100% { transform: translateY(-14px) scale(1.15); opacity: 0 } }
-        @keyframes wmDance { 0%,100% { transform: translateY(0) rotate(-6deg) } 50% { transform: translateY(-12px) rotate(6deg) } }
+        @keyframes wmUp { 0% { transform: translateY(105%) } 70% { transform: translateY(-5%) } 100% { transform: translateY(0) } }
+        /* The 🔨 glyph pivots on its handle end (85% 85%), which sits right of the pointer: raised = head up,
+           hit = head swung down level with the pivot, i.e. right on the pointer. */
+        @keyframes wmHit { 0% { transform: translate(0,-85%) rotate(10deg) } 40% { transform: translate(0,-85%) rotate(-45deg) } 100% { transform: translate(0,-85%) rotate(10deg) } }
+        @keyframes wmTap { 0% { transform: translate(0,-85%) rotate(10deg); opacity: 1 } 45% { transform: translate(0,-85%) rotate(-45deg); opacity: 1 } 100% { transform: translate(0,-85%) rotate(-45deg); opacity: 0 } }
+        @keyframes wmStars { 0% { transform: translateY(4px) scale(.6); opacity: 0 } 30% { opacity: 1 } 100% { transform: translateY(-18px) scale(1.2); opacity: 0 } }
+        @keyframes wmDance { 0%,100% { transform: translateY(0) rotate(-6deg) } 50% { transform: translateY(-10%) rotate(6deg) } }
         @keyframes wmGlow { 0%,100% { transform: scale(1) rotate(-8deg); filter: drop-shadow(0 0 6px #facc15) } 50% { transform: scale(1.12) rotate(8deg); filter: drop-shadow(0 0 18px #facc15) } }
         .wm-up { animation: wmUp .26s ease-out }
-        .wm-swing { animation: wmSwing .35s ease-out forwards }
+        .wm-hit { animation: wmHit .28s ease-out }
+        .wm-tap { animation: wmTap .4s ease-out forwards }
         .wm-stars { animation: wmStars .8s ease-out forwards }
         .wm-dance { animation: wmDance .6s ease-in-out infinite }
         .wm-glow { animation: wmGlow 1.2s ease-in-out infinite }
       `}</style>
       {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
-      <GameHeader
-        colorCls={HEADER} title="🔨 Đập Chuột Chũi" subtitle={topic.name} onBack={exit}
-        right={<>{correct}/{WHACK_QUESTIONS}</>}
-        timer={phase === 'play' || phase === 'between'
-          ? { pct: (Math.max(0, secondsLeft) / WHACK_SECONDS) * 100, secondsLeft: Math.max(0, secondsLeft), urgent: secondsLeft <= 4 }
-          : undefined}
-      />
 
-      <div className="flex-1 bg-gradient-to-b from-sky-200 via-sky-100 to-lime-200 px-4 py-4">
-        <div className="mx-auto max-w-xl space-y-3">
-          {phase === 'ready' && (
-            <div className="rounded-3xl border-b-[5px] border-amber-800 bg-amber-100 p-5 text-center">
-              <div className="flex justify-center gap-2">
-                <Critter kind="hamster" mood="up" className="h-20 w-20" />
-                <Critter kind="mole" mood="up" className="h-20 w-20" />
-              </div>
-              <h2 className="mt-2 text-xl font-bold text-amber-900">Đập chuột chũi!</h2>
-              <p className="mt-1 text-sm font-semibold text-amber-800">
-                Bảng gỗ hiện nghĩa tiếng Việt. Hamster và chuột chũi trồi lên cầm từ tiếng Anh. Đập trúng con cầm từ đúng nhé!
-              </p>
-              <p className="mt-2 text-sm font-bold text-amber-900">
-                {WHACK_QUESTIONS} câu · {WHACK_SECONDS} giây mỗi câu · {'❤️'.repeat(WHACK_HEARTS)}
-              </p>
-              <PrimaryButton className="mt-4" onClick={() => { playSfx('ready'); startQuestion(queue) }}>Bắt đầu 🔨</PrimaryButton>
+      <div ref={fieldRef} className="absolute inset-0" style={{ cursor: playing ? 'none' : undefined }}
+        onPointerDown={playing ? swing : undefined} onPointerMove={playing ? moveHammer : undefined}
+        onPointerLeave={(e) => { if (e.pointerType === 'mouse') setHammer(null) }}>
+        <Meadow />
+
+        <StageHud
+          tone="wood" onExit={exit}
+          dial={playing ? <TimerDial tone="wood" pct={(Math.max(0, secondsLeft) / WHACK_SECONDS) * 100} seconds={Math.max(0, secondsLeft)} urgent={secondsLeft <= 4} /> : undefined}
+          cards={[{ label: 'Tim', value: <span className="text-[clamp(16px,4vmin,40px)]">{heartRow}</span> }, { label: 'Câu', value: `${Math.min(correct + (playing ? 1 : 0), WHACK_QUESTIONS)}/${WHACK_QUESTIONS}` }]}
+        />
+
+        {/* Wooden sign: the Vietnamese meaning to find (or the win banner) */}
+        {(playing || phase === 'win') && current && (
+          <div className="absolute inset-x-0 top-[5%] z-10 flex flex-col items-center px-4 portrait:top-[23%]">
+            <div className="flex max-w-[92vw] items-center gap-3 rounded-full border-[5px] border-amber-300 bg-[#5B3A1E] px-6 py-2.5 text-[#FFF8E7] shadow-xl sm:px-9 sm:py-3.5">
+              {phase === 'win'
+                ? <><span className="wm-glow text-[7vmin] leading-none" aria-hidden>🥕</span><span className="text-[clamp(20px,4.6vmin,44px)] font-black">Cà rốt vàng là của bé!</span></>
+                : <><span className="text-[7vmin] leading-none" aria-hidden>{current.target.emoji}</span><span className="truncate text-[clamp(22px,5vmin,48px)] font-black">{current.target.meaning}</span></>}
             </div>
-          )}
+            <p className="mt-2 rounded-full bg-white/80 px-3 py-0.5 text-[clamp(14px,3vmin,28px)] font-bold text-[#4A2C14]">
+              {phase === 'win' ? 'Cả xóm chuột chũi ra nhảy múa ăn mừng 🎉'
+                : reveal ? <>Hết giờ! Đáp án: <b className="text-emerald-700">{current.target.word}</b></>
+                : 'Đập con cầm từ tiếng Anh đúng!'}
+            </p>
+            {phase === 'win' && <StageButton tone="wood" onClick={() => setPhase('done')}>Xem kết quả ⭐</StageButton>}
+          </div>
+        )}
+        <div role="alert" aria-live="assertive" className="sr-only">{reveal && current ? `Hết giờ. Đáp án là ${current.target.word}.` : ''}</div>
 
-          {phase === 'win' && (
-            <div className="rounded-3xl border-b-[5px] border-amber-800 bg-amber-100 p-5 text-center">
-              <div className="wm-glow mx-auto w-fit text-6xl" aria-hidden>🥕</div>
-              <h2 className="mt-2 text-xl font-bold text-amber-900">Cà rốt vàng là của bé!</h2>
-              <p className="mt-1 text-sm font-semibold text-amber-800">Cả xóm chuột chũi ra nhảy múa ăn mừng 🎉</p>
-              <div className="mt-3 grid grid-cols-3 gap-1">
-                {Array.from({ length: WHACK_HOLES }, (_, i) => (
-                  <div key={i} className="wm-dance" style={{ animationDelay: `${i * 0.1}s` }}>
-                    <Critter kind={i % 2 ? 'mole' : 'hamster'} mood="dance" className="mx-auto h-16 w-16" />
+        {/* 6 holes: 3×2 on a wide screen, 2×3 on a phone held upright */}
+        <div className="absolute inset-x-[4%] bottom-[2%] top-[33%] grid grid-cols-3 grid-rows-2 gap-x-[4%] portrait:top-[39%] portrait:grid-cols-2 portrait:grid-rows-3 sm:inset-x-[10%]">
+          {Array.from({ length: WHACK_HOLES }, (_, h) => {
+            const m = byHole.get(h)
+            return (
+              <MoleHole key={h}>
+                {phase === 'win' ? (
+                  <div className="wm-dance aspect-square h-[88%]" style={{ animationDelay: `${h * 0.1}s` }}>
+                    <Critter kind={h % 2 ? 'mole' : 'hamster'} mood="dance" className="h-full w-auto" />
                   </div>
-                ))}
-              </div>
-              <PrimaryButton tone="green" className="mt-4" onClick={() => setPhase('done')}>Xem kết quả ⭐</PrimaryButton>
-            </div>
-          )}
-
-          {(phase === 'play' || phase === 'between') && current && (
-            <>
-              {/* Hearts + wooden sign with the Vietnamese meaning */}
-              <div className="flex items-center justify-between px-1 text-xl" aria-label={`Còn ${hearts} tim`}>
-                <span>{'❤️'.repeat(hearts)}{'🤍'.repeat(heartsLost)}</span>
-                <span className="text-sm font-bold text-sky-900">Câu {correct + 1}/{WHACK_QUESTIONS}</span>
-              </div>
-              <div className="rounded-2xl border-b-[5px] border-amber-900 bg-amber-700 p-1.5">
-                <div className="flex items-center gap-3 rounded-xl bg-amber-50 px-4 py-3">
-                  <span className="text-4xl" aria-hidden>{current.target.emoji}</span>
-                  <div className="min-w-0 flex-1">
-                    <p className="truncate text-xl font-bold text-amber-950">{current.target.meaning}</p>
-                    <p className="text-xs font-bold text-amber-700">
-                      {reveal ? <>Hết giờ! Đáp án: <span className="text-emerald-700">{current.target.word}</span></> : 'Đập con cầm từ tiếng Anh đúng!'}
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div role="alert" aria-live="assertive" className="sr-only">{reveal ? `Hết giờ. Đáp án là ${current.target.word}.` : ''}</div>
-
-              {/* The field: 6 holes in the grass */}
-              <div ref={fieldRef} onPointerDown={swing} style={{ cursor: HAMMER_CURSOR }}
-                className="relative grid select-none grid-cols-2 gap-x-3 rounded-3xl border-b-[5px] border-green-700 bg-gradient-to-b from-lime-400 to-green-500 px-3 pb-2 pt-1 sm:grid-cols-3 touch-manipulation">
-                {Array.from({ length: WHACK_HOLES }, (_, h) => {
-                  const m = byHole.get(h)
-                  return (
-                    <div key={h} className="relative h-[128px]">
-                      <div className="absolute inset-x-3 bottom-2 h-9 rounded-[50%] border-4 border-amber-700 bg-amber-950" />
-                      <div className="absolute inset-x-0 bottom-[22px] top-0 overflow-hidden">
-                        {m && (
-                          <button key={m.id} type="button" onPointerDown={(e) => { e.stopPropagation(); whack(m, e) }}
-                            aria-label={m.word.word} disabled={m.state !== 'up'}
-                            style={{ transform: m.state === 'down' ? 'translateY(105%)' : undefined, cursor: HAMMER_CURSOR }}
-                            className="wm-up absolute inset-x-0 bottom-0 flex flex-col items-center transition-transform duration-200">
-                            <span className={`mb-0.5 max-w-full truncate rounded-lg border-b-[3px] px-2 py-0.5 text-sm font-bold shadow-sm ${
-                              m.state === 'hit' ? 'border-emerald-700 bg-emerald-500 text-white'
-                              : m.state === 'tease' ? 'border-red-600 bg-red-400 text-white'
-                              : 'border-slate-300 bg-white text-slate-800'}`}>
-                              {m.word.word}
-                            </span>
-                            {m.state === 'tease' && (
-                              <span className="absolute left-1/2 top-7 z-10 -translate-x-1/2 whitespace-nowrap rounded-md bg-white/95 px-1.5 text-[11px] font-bold text-red-600 shadow">
-                                = {m.word.meaning}
-                              </span>
-                            )}
-                            {m.state === 'hit' && <span className="wm-stars absolute top-6 text-2xl" aria-hidden>💫⭐</span>}
-                            <Critter kind={m.kind} mood={m.state === 'hit' ? 'dizzy' : m.state === 'tease' ? 'tease' : 'up'} className="h-[74px] w-[74px]" />
-                          </button>
-                        )}
-                      </div>
-                    </div>
-                  )
-                })}
-                {hammer && (
-                  <span key={hammer.id} className="wm-swing pointer-events-none absolute z-20 text-5xl"
-                    style={{ left: hammer.x, top: hammer.y, transformOrigin: '80% 80%' }}
-                    onAnimationEnd={() => setHammer(null)} aria-hidden>🔨</span>
+                ) : m && (
+                  <button key={m.id} type="button" onPointerDown={(e) => { e.stopPropagation(); if (playing) swing(e); whack(m) }}
+                    // aria-disabled, not disabled: a disabled button swallows the tap, so the hammer wouldn't swing
+                    aria-label={m.word.word} aria-disabled={m.state !== 'up'}
+                    style={{ transform: m.state === 'down' ? 'translateY(105%)' : undefined, cursor: 'none' }}
+                    className="wm-up relative aspect-square h-[88%] max-w-full transition-transform duration-200">
+                    <Critter kind={m.kind} mood={m.state === 'hit' ? 'dizzy' : m.state === 'tease' ? 'tease' : 'up'} className="h-full w-auto" />
+                    {/* the word sign held in front of the belly */}
+                    <span className={`absolute inset-x-[-6%] bottom-[6%] truncate rounded-xl border-[3px] border-b-[5px] px-1 py-0.5 text-center text-[clamp(17px,3.8vmin,36px)] font-black shadow-md ${
+                      m.state === 'hit' ? 'border-emerald-800 bg-emerald-500 text-white'
+                      : m.state === 'tease' ? 'border-red-700 bg-red-400 text-white'
+                      : 'border-[#5B3A1E] bg-[#FFF8E7] text-[#3A2410]'}`}>
+                      {m.word.word}
+                    </span>
+                    {m.state === 'tease' && (
+                      <span className="absolute left-1/2 top-[2%] z-10 -translate-x-1/2 whitespace-nowrap rounded-lg bg-white/95 px-2 text-[clamp(13px,2.8vmin,26px)] font-bold text-red-600 shadow">
+                        = {m.word.meaning}
+                      </span>
+                    )}
+                    {m.state === 'hit' && <span className="wm-stars absolute inset-x-0 top-0 text-center text-[5vmin]" aria-hidden>💫⭐</span>}
+                  </button>
                 )}
-              </div>
-            </>
-          )}
+              </MoleHole>
+            )
+          })}
         </div>
+
+        {playing && hammer && (
+          <span className="pointer-events-none absolute z-20" style={{ left: hammer.x, top: hammer.y }} aria-hidden>
+            <span key={hammer.hit} style={{ transformOrigin: '85% 85%', transform: 'translate(0,-85%) rotate(10deg)' }}
+              className={`block text-[clamp(72px,17vmin,180px)] leading-none drop-shadow-[0_6px_6px_rgba(0,0,0,.25)] ${
+                hammer.mode === 'touch' ? 'wm-tap' : hammer.hit ? 'wm-hit' : ''}`}
+              onAnimationEnd={hammer.mode === 'touch' ? () => setHammer(null) : undefined}>🔨</span>
+          </span>
+        )}
       </div>
-    </div>
+
+      {phase === 'ready' && (
+        <StageModal tone="wood">
+          <div className="flex justify-center gap-1 [@media(max-height:500px)]:hidden">
+            <Critter kind="hamster" mood="up" className="h-20 w-20" />
+            <Critter kind="mole" mood="up" className="h-20 w-20" />
+          </div>
+          <h2 className="mt-2 text-3xl font-black sm:text-4xl [@media(max-height:500px)]:mt-0 [@media(max-height:500px)]:text-2xl">🔨 Đập Chuột Chũi</h2>
+          <p className="mt-2 text-base font-semibold sm:text-lg [@media(max-height:500px)]:mt-1 [@media(max-height:500px)]:text-sm">
+            Bảng gỗ hiện nghĩa tiếng Việt. Hamster và chuột chũi trồi lên cầm từ tiếng Anh. Đập trúng con cầm từ đúng nhé!
+          </p>
+          <p className="mx-auto mt-3 w-fit rounded-2xl border-2 border-amber-300 [@media(max-height:500px)]:mt-2 bg-amber-100 px-4 py-2 text-sm font-bold sm:text-base">
+            {WHACK_QUESTIONS} câu · {WHACK_SECONDS} giây mỗi câu · <span className="whitespace-nowrap">{WHACK_HEARTS} tim {'❤️'.repeat(WHACK_HEARTS)}</span>
+          </p>
+          <StageButton tone="wood" onClick={() => { playSfx('ready'); enterFullscreen(); startQuestion(queue) }}>▶ Bắt đầu</StageButton>
+        </StageModal>
+      )}
+
+      {phase === 'done' && (
+        <StageModal tone="wood">
+          {/* GameResultScreen is a fragment; its callers centre it */}
+          <div className="flex flex-col items-center">
+            <GameResultScreen
+              score={scorePct} total={100} xpEarned={correct} stars={starsFor(scorePct)} wrongWords={wrongWords}
+              scoreLine={correct >= WHACK_QUESTIONS ? `Đập trúng cả ${WHACK_QUESTIONS} câu!` : `Đập trúng ${correct}/${WHACK_QUESTIONS} câu`}
+              extra={<>{heartRow} · đập nhầm/hết giờ {heartsLost} lần<br />Giữ đủ tim để được 3 sao!</>}
+              onRestart={restart} onExit={exit}
+            />
+          </div>
+        </StageModal>
+      )}
+    </ArcadeStage>
   )
 }

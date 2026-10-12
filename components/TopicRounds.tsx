@@ -8,7 +8,7 @@ import { tap, Stars } from '@/components/TopicHub'
 import type { HubTheme } from '@/components/hubTheme'
 
 // Vòng 1 + Vòng 2 of the Daily topic hub as compact lists (one ~56px row per game), then the
-// level's bonus games folded behind one row, then the "ⓘ Cách tính sao" key. A finished round
+// level's bonus games folded behind one row; the star key sits in each round's ⓘ. A finished round
 // folds down to its header; tap it to look back. HubList/HubRow are shared with the Academic hub.
 
 export type RowStatus = 'done' | 'next' | 'started' | 'todo'
@@ -55,8 +55,14 @@ function gameRow(entry: MasteryEntry, g: GameDef, nextKey: string | null) {
 }
 
 export function RoundCards({
-  level, entry, games, theme, onOpen,
-}: { level: string; entry: MasteryEntry; games: GameDef[]; theme: HubTheme; onOpen: (gameKey: string) => void }) {
+  level, entry, games, theme, onOpen, beforeBonus, bonusExtra, bonusExtraLabel,
+}: {
+  level: string; entry: MasteryEntry; games: GameDef[]; theme: HubTheme; onOpen: (gameKey: string) => void
+  /** Shown between Vòng 2 and Thử thách thêm (the topic videos). */
+  beforeBonus?: ReactNode
+  /** Extra optional activity inside Thử thách thêm, under its games (the Mini Story), and its name for the subtitle. */
+  bonusExtra?: ReactNode; bonusExtraLabel?: string
+}) {
   const [r1, r2] = masteryByRound(entry, level)
   const spec = roundSpec(level)
   const pick = (keys: readonly string[]) => games.filter((g) => keys.includes(g.key))
@@ -71,8 +77,10 @@ export function RoundCards({
       <RoundCard no={2} label="Vòng 2 · Ôn tập" pill={theme.pillSoft} surface="bg-white" mastery={r2} theme={theme}
         flash={{ label: 'Ôn lại Flashcard', emoji: '📚', isNext: false }}
         entry={entry} games={pick(spec.r2)} nextKey={nextKey} onOpen={onOpen} />
-      {bonus.length > 0 && <BonusCard entry={entry} games={bonus} nextKey={nextKey} theme={theme} onOpen={onOpen} />}
-      <StarInfo />
+      {beforeBonus}
+      {(bonus.length > 0 || bonusExtra) && (
+        <BonusCard entry={entry} games={bonus} nextKey={nextKey} theme={theme} onOpen={onOpen} extra={bonusExtra} extraLabel={bonusExtraLabel} />
+      )}
     </div>
   )
 }
@@ -107,7 +115,17 @@ function RoundCard({
           <span className={`text-[13px] font-bold ${theme.accent}`}>{mastery.ringDone}/{mastery.ringTotal} bài</span>
         )}
       </div>
-      {info && <p className="mt-2 text-xs font-semibold leading-snug text-slate-600">{passed ? 'Bạn đã qua vòng này rồi, quá tuyệt! 🎉' : mastery.note}</p>}
+      {info && (
+        <div className="mt-2 text-xs font-semibold leading-snug text-slate-600">
+          <p>{passed ? 'Bạn đã qua vòng này rồi, quá tuyệt! 🎉' : mastery.note}</p>
+          {/* The star key lives here, next to the rule that needs it (⭐⭐⭐ = over 80%). */}
+          <p className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-slate-500">
+            <span className="flex items-center gap-1"><Stars filled={1} /> ≤50%</span>
+            <span className="flex items-center gap-1"><Stars filled={2} /> ≤80%</span>
+            <span className="flex items-center gap-1"><Stars filled={3} /> &gt;80%</span>
+          </p>
+        </div>
+      )}
       {open && (
         <HubList theme={theme}>
           <HubRow emoji={flash.emoji} label={flash.label} theme={theme} onClick={() => onOpen('flashcard')}
@@ -120,9 +138,11 @@ function RoundCard({
   )
 }
 
-// Games outside the two rounds: still starred and fun, just not required for the trophy. Folded by default.
-function BonusCard({ entry, games, nextKey, theme, onOpen }: {
+// Games outside the two rounds (plus the Mini Story): still starred and fun, just not required for
+// the trophy. Open by default.
+function BonusCard({ entry, games, nextKey, theme, onOpen, extra, extraLabel }: {
   entry: MasteryEntry; games: GameDef[]; nextKey: string | null; theme: HubTheme; onOpen: (gameKey: string) => void
+  extra?: ReactNode; extraLabel?: string
 }) {
   const [open, setOpen] = useState(true)
   return (
@@ -132,31 +152,20 @@ function BonusCard({ entry, games, nextKey, theme, onOpen }: {
         <span className="text-xl" aria-hidden>🎁</span>
         <span className="min-w-0 flex-1">
           <span className="block text-sm font-bold text-slate-800">Thử thách thêm</span>
-          <span className="block text-xs font-semibold text-slate-500">{games.length} trò · gom thêm sao, không bắt buộc</span>
+          <span className="block text-xs font-semibold text-slate-500">{games.length} trò{extra && extraLabel ? ` + ${extraLabel}` : ''} · gom thêm sao, không bắt buộc</span>
         </span>
         <span className="text-sm font-bold text-slate-400">{open ? '▴' : '▾'}</span>
       </button>
       {open && (
         <div className="px-3 pb-3">
-          <HubList theme={theme}>
-            {games.map((g) => { const { id, ...r } = gameRow(entry, g, nextKey); return <HubRow key={id} {...r} theme={theme} onClick={() => onOpen(id)} /> })}
-          </HubList>
+          {games.length > 0 && (
+            <HubList theme={theme}>
+              {games.map((g) => { const { id, ...r } = gameRow(entry, g, nextKey); return <HubRow key={id} {...r} theme={theme} onClick={() => onOpen(id)} /> })}
+            </HubList>
+          )}
+          {extra && <div className="mt-3">{extra}</div>}
         </div>
       )}
     </section>
-  )
-}
-
-// The star-to-% key, tucked behind an ⓘ so the screen leads with progress rather than legend.
-function StarInfo() {
-  return (
-    <details className="text-center">
-      <summary className="cursor-pointer list-none text-xs font-bold text-slate-500">ⓘ Cách tính sao</summary>
-      <div className="mt-2 flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-xs font-semibold text-slate-500">
-        <span className="flex items-center gap-1"><Stars filled={1} /> ≤50%</span>
-        <span className="flex items-center gap-1"><Stars filled={2} /> ≤80%</span>
-        <span className="flex items-center gap-1"><Stars filled={3} /> &gt;80%</span>
-      </div>
-    </details>
   )
 }

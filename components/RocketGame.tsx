@@ -11,21 +11,27 @@ import {
 } from '@/lib/arcadeGames'
 import Confetti from '@/components/Confetti'
 import GameResultScreen from '@/components/GameResultScreen'
-import { GameHeader, PrimaryButton, AnswerButton, type AnswerState } from '@/components/ChunkyUI'
+import { buzz } from '@/components/ChunkyUI'
+import WordIcon from '@/components/WordIcon'
 import { RocketArt, PlanetScene, type RocketStage } from '@/components/games/RocketArt'
+import { ArcadeStage, StageHud, TimerDial, StageModal, StageButton, enterFullscreen } from '@/components/games/ArcadeStage'
+import { LaunchSite, SpaceBackdrop, StarField } from '@/components/games/RocketScene'
 
 type Topic = { id: string; name: string; emoji: string; color: string; words: ArcadeWord[] }
 type Props = { topic: Topic; level: string; backUrl: string }
-type Phase = 'ready' | 'play' | 'countdown' | 'launch' | 'planet' | 'fizzle' | 'done'
+type Phase = 'ready' | 'play' | 'countdown' | 'launch' | 'space' | 'planet' | 'fizzle' | 'done'
 
-const HEADER = 'bg-gradient-to-br from-indigo-600 to-violet-600'
+// Longest single word decides the size, so a word is never split mid-letters ("bathroo/m").
+const wordSize = (w: string) => {
+  const n = Math.max(...w.split(' ').map((p) => p.length))
+  return n <= 5 ? 'text-[clamp(20px,5.2vmin,54px)]' : n <= 8 ? 'text-[clamp(17px,3.9vmin,42px)]' : 'text-[clamp(15px,3vmin,34px)]'
+}
+
 const PROMPT: Record<RocketQuestion['kind'], string> = {
   vi: 'Từ tiếng Anh nào?',
   listen: 'Nghe và chọn từ đúng',
   en: 'Từ này nghĩa là gì?',
 }
-// Fixed star field (no Math.random in render).
-const STARS = [[8, 12], [22, 40], [35, 8], [48, 28], [62, 14], [76, 36], [88, 10], [15, 62], [84, 58], [55, 50], [30, 78], [70, 74]]
 
 export default function RocketGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
@@ -70,14 +76,15 @@ export default function RocketGame({ topic, level, backUrl }: Props) {
     if (phase === 'play' && current && current.kind !== 'vi') speak(current.target.word)
   }, [phase, current])
 
-  // 3-2-1 → lift-off → planet.
+  // 3-2-1 → lift-off → cruising past Earth → landing on the planet.
   useEffect(() => {
     if (phase !== 'countdown') return
     playSfx('beep')
     if (count <= 0) {
       setPhase('launch')
       playSfx('launch')
-      later(() => { setPhase('planet'); playSfx('trophy'); setShowConfetti(true) }, 2700)
+      later(() => { setPhase('space'); playSfx('swoosh') }, 2700)
+      later(() => { setPhase('planet'); playSfx('trophy'); setShowConfetti(true) }, 5400)
       return
     }
     const t = setTimeout(() => setCount((c) => c - 1), 900)
@@ -87,7 +94,7 @@ export default function RocketGame({ topic, level, backUrl }: Props) {
   const scorePct = rocketScorePct(built, wrong, timeLeft, totalSeconds)
 
   useEffect(() => {
-    if (!['planet', 'fizzle', 'done'].includes(phase) || recorded.current) return
+    if (!['space', 'planet', 'fizzle', 'done'].includes(phase) || recorded.current) return
     recorded.current = true
     recordActivity(level)
     addScore(level, built) // 🟢 recognition tier — 1x XP (see FAQ "XP theo độ khó")
@@ -142,123 +149,141 @@ export default function RocketGame({ topic, level, backUrl }: Props) {
   }
   const exit = () => router.push(backUrl)
 
-  if (phase === 'done') {
-    const launched = built >= ROCKET_PARTS
-    return (
-      <div className="flex flex-col min-h-screen">
-        {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
-        <GameHeader colorCls={HEADER} title="🚀 Phóng Tên Lửa" subtitle={topic.name} onBack={exit} />
-        <div className="flex-1 bg-gradient-to-b from-indigo-50 to-violet-50 flex flex-col items-center justify-center px-4 py-8">
-          <GameResultScreen
-            score={scorePct} total={100} xpEarned={built} stars={starsFor(scorePct)} wrongWords={wrongWords}
-            scoreLine={launched ? 'Tên lửa đã bay vào vũ trụ! 🚀' : `Lắp được ${built}/${ROCKET_PARTS} bộ phận`}
-            extra={launched
-              ? <>Trả lời sai {wrong} lần · ⛽ còn {Math.max(0, timeLeft)} giây<br />Ít lần sai và còn nhiều nhiên liệu để được 3 sao!</>
-              : <>Hết nhiên liệu trước khi lắp xong.<br />Thử lại nhanh hơn một chút nhé!</>}
-            onRestart={restart} onExit={exit}
-          />
-        </div>
-      </div>
-    )
-  }
-
+  const onPad = phase === 'play' || phase === 'countdown' || phase === 'launch' || phase === 'fizzle' || phase === 'ready'
   const stage: RocketStage = phase === 'countdown' ? 'countdown' : phase === 'launch' ? 'launch' : phase === 'fizzle' ? 'fizzle' : 'build'
   const fuelPct = (Math.max(0, timeLeft) / totalSeconds) * 100
-  const stateOf = (c: ArcadeWord): AnswerState => {
-    if (picked === null) return 'idle'
-    if (c.word === current.target.word) return 'correct'
-    return c.word === picked ? 'wrong' : 'dim'
+  const answerCls = (c: ArcadeWord) => {
+    const base = 'rounded-2xl border-b-[6px] px-2 font-black shadow-lg transition-[transform,background-color] active:translate-y-1 active:border-b-2'
+    if (picked === null) return `${base} border-[#B9C0E8] bg-[#E8ECFB] text-[#1E1B4B]`
+    if (c.word === current.target.word) return `${base} border-emerald-700 bg-emerald-400 text-emerald-950`
+    return c.word === picked ? `${base} ax-shake border-red-700 bg-red-400 text-white` : `${base} border-[#3B3E5C] bg-[#565A7E] text-[#9EA3C8]`
   }
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <ArcadeStage>
       {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
-      <GameHeader
-        colorCls={HEADER} title="🚀 Phóng Tên Lửa" subtitle={topic.name} onBack={exit}
-        right={<>{built}/{ROCKET_PARTS}</>}
-        timer={phase === 'ready' || phase === 'planet' ? undefined
-          : { pct: fuelPct, secondsLeft: Math.max(0, timeLeft), urgent: fuelPct <= 20, fillCls: 'bg-yellow-300' }}
+      {onPad ? <LaunchSite /> : phase === 'space' ? <SpaceBackdrop /> : (
+        <div className="absolute inset-0 bg-gradient-to-b from-[#07071A] via-[#1B1745] to-[#3B2F7A]" aria-hidden><StarField /></div>
+      )}
+
+      <StageHud
+        tone="space" onExit={exit}
+        dial={phase === 'play' || phase === 'countdown' || phase === 'fizzle'
+          ? <TimerDial tone="space" icon="⛽" pct={fuelPct} seconds={Math.max(0, timeLeft)} urgent={fuelPct <= 20} /> : undefined}
+        cards={[{ label: 'Điểm', value: built }, { label: 'Câu', value: `${Math.min(built + (phase === 'play' ? 1 : 0), ROCKET_PARTS)}/${ROCKET_PARTS}` }]}
       />
 
-      <div className="flex-1 bg-gradient-to-b from-indigo-50 to-violet-50 px-4 py-4">
-        <div className="mx-auto max-w-xl space-y-3">
-          {/* Sky with the rocket */}
-          <div className="relative h-[40vh] min-h-[240px] overflow-hidden rounded-3xl border-b-[5px] border-indigo-950 bg-gradient-to-b from-indigo-950 via-indigo-800 to-sky-500">
-            {STARS.map(([x, y], i) => (
-              <span key={i} className="absolute h-1 w-1 animate-pulse rounded-full bg-white" style={{ left: `${x}%`, top: `${y}%`, animationDelay: `${i * 0.2}s` }} />
-            ))}
-            {phase === 'planet'
-              ? <PlanetScene topicEmoji={topic.emoji} />
-              : <RocketArt built={built} stage={stage} className="absolute inset-x-0 bottom-1 mx-auto h-[92%]" />}
-            {phase === 'countdown' && count > 0 && (
-              <span key={count} className="absolute inset-0 flex animate-ping items-center justify-center text-7xl font-black text-yellow-300 [animation-iteration-count:1]">{count}</span>
-            )}
-            {phase === 'launch' && <span className="absolute inset-x-0 top-4 text-center text-2xl font-black text-yellow-300 drop-shadow">Phóng! 🚀</span>}
+      {/* Rocket on the pad (left), with the parts counter under it */}
+      {onPad && (
+        <>
+          <RocketArt built={built} stage={stage}
+            className="absolute bottom-[5%] left-[3%] h-[66%] w-[26%] portrait:bottom-[33%] portrait:left-0 portrait:h-[40%] portrait:w-[40%]" />
+          <p className="absolute bottom-[1.5%] left-[3%] w-[26%] text-center portrait:bottom-[29%] portrait:left-0 portrait:w-[40%]">
+            <span className="rounded-full bg-black/45 px-3 py-0.5 text-[clamp(15px,3.2vmin,32px)] font-black text-white">{built}/{ROCKET_PARTS} bộ phận</span>
+          </p>
+        </>
+      )}
+
+      {phase === 'play' && current && (
+        <>
+          {/* Prompt + picture card */}
+          <div className="absolute bottom-[24%] left-[31%] right-[3%] top-[15%] flex flex-col items-center justify-center gap-[2.5vmin] portrait:bottom-[33%] portrait:left-[40%] portrait:top-[18%]">
+            <p className="text-center text-[clamp(22px,5.6vmin,58px)] font-black text-white drop-shadow">{PROMPT[current.kind]}</p>
+            <div className="flex aspect-square h-[min(100%,34vmin)] min-h-[120px] portrait:h-[min(100%,48vmin)] flex-col items-center justify-center gap-1 rounded-[24px] border-[7px] border-[#FACC48] bg-white p-2 shadow-2xl">
+              {current.kind === 'vi' && (
+                <>
+                  <WordIcon word={current.target.word} emoji={current.target.emoji} emojiClass="text-[11vmin] leading-none" iconSize={90} />
+                  <span className="line-clamp-2 text-center text-[clamp(18px,4.6vmin,46px)] font-black leading-tight text-[#1E1B4B]">{current.target.meaning}</span>
+                </>
+              )}
+              {current.kind === 'listen' && (
+                <button type="button" onClick={() => { buzz(); speak(current.target.word) }} aria-label="Nghe lại"
+                  className="flex flex-col items-center gap-1 text-[#1E1B4B]">
+                  <span className="text-[12vmin] leading-none">🔊</span>
+                  <span className="text-[clamp(16px,3.6vmin,36px)] font-black">{picked ? current.target.word : 'Nghe lại'}</span>
+                </button>
+              )}
+              {current.kind === 'en' && (
+                <button type="button" onClick={() => { buzz(); speak(current.target.word) }} className="flex flex-col items-center gap-1 px-1 text-[#1E1B4B]">
+                  <span className="break-words text-center text-[clamp(22px,6vmin,56px)] font-black leading-tight">{current.target.word}</span>
+                  <span className="text-[4vmin]">🔊</span>
+                </button>
+              )}
+            </div>
           </div>
 
-          {phase === 'ready' && (
-            <div className="rounded-3xl border-2 border-b-[5px] border-indigo-200 bg-white p-5 text-center">
-              <h2 className="text-xl font-bold text-indigo-900">Lắp tên lửa và bay vào vũ trụ!</h2>
-              <p className="mt-1 text-sm font-semibold text-slate-600">
-                Mỗi câu đúng lắp thêm 1 bộ phận. Đủ {ROCKET_PARTS} bộ phận trước khi hết ⛽ nhiên liệu là tên lửa cất cánh!
-              </p>
-              <p className="mt-2 text-sm font-bold text-indigo-700">{ROCKET_PARTS} câu · ⛽ {totalSeconds} giây</p>
-              <PrimaryButton className="mt-4" onClick={() => { playSfx('ready'); setPhase('play') }}>Bắt đầu lắp 🔧</PrimaryButton>
-            </div>
-          )}
+          {/* Four answers: one row on a wide screen, 2×2 on a phone held upright */}
+          <div className="absolute bottom-[5%] left-[31%] right-[3%] grid h-[15%] grid-cols-4 gap-[1.5vmin] portrait:inset-x-[3%] portrait:bottom-[4%] portrait:h-[23%] portrait:grid-cols-2">
+            {current.choices.map((c) => (
+              <button key={c.word} type="button" disabled={picked !== null} onClick={() => { buzz(); answer(c) }} className={answerCls(c)}>
+                {current.kind === 'en'
+                  ? <span className="line-clamp-2 block text-[clamp(16px,4vmin,42px)] leading-tight">{c.emoji} {c.meaning}</span>
+                  : <span className={`block leading-tight ${wordSize(c.word)}`}>{c.word}</span>}
+              </button>
+            ))}
+          </div>
+        </>
+      )}
 
-          {phase === 'play' && current && (
-            <div className="space-y-3">
-              <div className="rounded-3xl border-2 border-b-[5px] border-indigo-200 bg-white px-4 py-3 text-center">
-                <p className="text-xs font-bold uppercase tracking-wider text-indigo-500">{PROMPT[current.kind]}</p>
-                {current.kind === 'vi' && (
-                  <p className="mt-1 flex items-center justify-center gap-2 text-2xl font-bold text-slate-800">
-                    <span className="text-4xl" aria-hidden>{current.target.emoji}</span>{current.target.meaning}
-                  </p>
-                )}
-                {current.kind === 'listen' && (
-                  <button type="button" onClick={() => speak(current.target.word)}
-                    className="mt-1 inline-flex items-center gap-2 rounded-2xl border-2 border-b-[4px] border-indigo-200 bg-indigo-50 px-5 py-2 text-lg font-bold text-indigo-800">
-                    <span className="text-3xl">🔊</span>{picked ? current.target.word : 'Nghe lại'}
-                  </button>
-                )}
-                {current.kind === 'en' && (
-                  <button type="button" onClick={() => speak(current.target.word)} className="mt-1 text-3xl font-bold text-slate-800">
-                    {current.target.word} <span className="text-xl">🔊</span>
-                  </button>
-                )}
-              </div>
-              <div className="grid grid-cols-2 gap-2.5">
-                {current.choices.map((c) => (
-                  <AnswerButton key={c.word} state={stateOf(c)} disabled={picked !== null} onClick={() => answer(c)}>
-                    {current.kind === 'en' ? <span className="text-base">{c.emoji} {c.meaning}</span> : c.word}
-                  </AnswerButton>
-                ))}
-              </div>
-            </div>
-          )}
+      {phase === 'countdown' && count > 0 && (
+        <span key={count} className="st-pop absolute inset-0 flex items-center justify-center text-[30vmin] font-black text-[#FACC48] drop-shadow-[0_6px_0_rgba(0,0,0,.35)]">{count}</span>
+      )}
+      {phase === 'launch' && (
+        <p className="st-pop absolute inset-x-0 top-[22%] text-center text-[clamp(32px,9vmin,90px)] font-black text-[#FACC48] drop-shadow-[0_5px_0_rgba(0,0,0,.35)]">Phóng! 🚀</p>
+      )}
 
-          {(phase === 'countdown' || phase === 'launch') && (
-            <p className="text-center text-lg font-bold text-indigo-800">Chuẩn bị cất cánh… 🧑‍🚀</p>
-          )}
+      {phase === 'space' && (
+        <>
+          <p className="st-pop absolute inset-x-0 top-[16%] text-center text-[clamp(26px,6vmin,60px)] font-black text-white drop-shadow">🌍 Bé đã bay vào vũ trụ!</p>
+          <RocketArt built={ROCKET_PARTS} stage="cruise" className="absolute bottom-[10%] left-1/2 h-[58%] -translate-x-1/2" />
+        </>
+      )}
 
-          {phase === 'planet' && (
-            <div className="rounded-3xl border-2 border-b-[5px] border-violet-200 bg-white p-5 text-center">
-              <h2 className="text-xl font-bold text-violet-900">Đã đáp xuống hành tinh {topic.emoji}!</h2>
-              <p className="mt-1 text-sm font-semibold text-slate-600">Rocky cắm cờ chủ đề “{topic.name}” lên hành tinh mới 🎉</p>
-              <PrimaryButton tone="purple" className="mt-4" onClick={() => setPhase('done')}>Xem kết quả ⭐</PrimaryButton>
-            </div>
-          )}
+      {phase === 'planet' && (
+        <>
+          <div className="absolute inset-x-0 bottom-[2%] top-[36%] portrait:top-[40%]"><PlanetScene topicEmoji={topic.emoji} /></div>
+          <div className="absolute inset-x-0 top-[12%] z-10 flex flex-col items-center px-4 text-center portrait:top-[13%]">
+            <p className="st-pop text-[clamp(22px,5.4vmin,52px)] font-black text-white drop-shadow">Đã đáp xuống hành tinh {topic.emoji}!</p>
+            <p className="mt-1 text-[clamp(15px,3.2vmin,30px)] font-bold text-indigo-100">Rocky cắm cờ chủ đề “{topic.name}” lên hành tinh mới 🎉</p>
+            <StageButton tone="gold" onClick={() => setPhase('done')}>Xem kết quả ⭐</StageButton>
+          </div>
+        </>
+      )}
 
-          {phase === 'fizzle' && (
-            <div className="rounded-3xl border-2 border-b-[5px] border-slate-200 bg-white p-5 text-center">
-              <h2 className="text-xl font-bold text-slate-800">Ối, hết nhiên liệu rồi! 💨</h2>
-              <p className="mt-1 text-sm font-semibold text-slate-600">Tên lửa mới lắp được {built}/{ROCKET_PARTS} bộ phận.</p>
-              <PrimaryButton tone="slate" className="mt-4" onClick={() => setPhase('done')}>Xem kết quả</PrimaryButton>
-            </div>
-          )}
-        </div>
-      </div>
-    </div>
+      {phase === 'ready' && (
+        <StageModal tone="space">
+          <h2 className="text-3xl font-black sm:text-5xl [@media(max-height:500px)]:text-2xl">🚀 Phóng Tên Lửa</h2>
+          <p className="mt-3 text-base font-semibold sm:text-xl [@media(max-height:500px)]:mt-1 [@media(max-height:500px)]:text-sm">Trả lời đúng để lắp từng bộ phận — lắp xong tên lửa là bay vào vũ trụ!</p>
+          <p className="mx-auto mt-4 w-fit rounded-2xl border-[3px] border-[#FACC48] [@media(max-height:500px)]:mt-2 bg-[#FFF6D6] px-5 py-2.5 text-sm font-bold sm:text-lg">
+            Lắp đủ <b>{ROCKET_PARTS} bộ phận</b> trước khi hết ⛽ <b>{totalSeconds} giây</b> nhiên liệu!
+          </p>
+          <StageButton tone="gold" onClick={() => { playSfx('ready'); enterFullscreen(); setPhase('play') }}>▶ Bắt đầu</StageButton>
+        </StageModal>
+      )}
+
+      {phase === 'fizzle' && (
+        <StageModal tone="space" dim={false}>
+          <h2 className="text-3xl font-black">Ối, hết nhiên liệu rồi! 💨</h2>
+          <p className="mt-2 text-lg font-semibold">Tên lửa mới lắp được {built}/{ROCKET_PARTS} bộ phận.</p>
+          <StageButton tone="gold" onClick={() => setPhase('done')}>Xem kết quả</StageButton>
+        </StageModal>
+      )}
+
+      {phase === 'done' && (
+        <StageModal tone="space">
+          {/* GameResultScreen is a fragment; its callers centre it */}
+          <div className="flex flex-col items-center">
+            <GameResultScreen
+              score={scorePct} total={100} xpEarned={built} stars={starsFor(scorePct)} wrongWords={wrongWords}
+              scoreLine={built >= ROCKET_PARTS ? 'Tên lửa đã bay vào vũ trụ! 🚀' : `Lắp được ${built}/${ROCKET_PARTS} bộ phận`}
+              extra={built >= ROCKET_PARTS
+                ? <>Trả lời sai {wrong} lần · ⛽ còn {Math.max(0, timeLeft)} giây<br />Ít lần sai và còn nhiều nhiên liệu để được 3 sao!</>
+                : <>Hết nhiên liệu trước khi lắp xong.<br />Thử lại nhanh hơn một chút nhé!</>}
+              onRestart={restart} onExit={exit}
+            />
+          </div>
+        </StageModal>
+      )}
+    </ArcadeStage>
   )
 }

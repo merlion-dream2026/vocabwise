@@ -282,7 +282,7 @@ export default function TopicPage() {
         {/* Inline FAQ — shown when toggled */}
         {showFaq && <TopicFaq />}
 
-        {/* Vòng 1 / Vòng 2 */}
+        {/* Vòng 1 / Vòng 2 → topic videos → Thử thách thêm (bonus games + Mini Story) */}
         <Rise i={2}>
           <RoundCards
             level={level}
@@ -290,16 +290,14 @@ export default function TopicPage() {
             games={games}
             theme={theme}
             onOpen={(key) => router.push(`/dashboard/${childId}/${level}/${topicId}/${key}`)}
+            beforeBonus={<TopicVideos videoKey={`daily/${level}/${topicId}`} theme={theme} />}
+            bonusExtraLabel="Mini Story"
+            bonusExtra={story && (
+              <MiniStory key={topicId} story={story} words={(topic as { words: { word: string }[] }).words}
+                level={level} topicId={topicId} topicIdx={topicIdx} childId={childId} />
+            )}
           />
         </Rise>
-
-        {story && (
-          <MiniStory key={topicId} story={story} words={(topic as { words: { word: string }[] }).words}
-            level={level} topicId={topicId} topicIdx={topicIdx} childId={childId} />
-        )}
-
-        {/* Optional extra at the very end — not part of the journey */}
-        <TopicVideos videoKey={`daily/${level}/${topicId}`} theme={theme} />
       </div>
     </div>
   )

@@ -113,7 +113,8 @@ export default function GamePage() {
   return (
     <>
       {renderGame()}
-      <GameSoundToggle />
+      {/* Arcade games carry their own sound button in the HUD (the corner one would cover answers on a phone). */}
+      {game !== 'rocket' && game !== 'whack' && <GameSoundToggle />}
     </>
   )
 }
