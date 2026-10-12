@@ -71,9 +71,12 @@ export default function RocketGame({ topic, level, backUrl }: Props) {
     if (phase === 'play' && timeLeft <= 0) { playWrongSound(); setPhase('fizzle') }
   }, [timeLeft, phase])
 
-  // Say the word for listening (and English → meaning) questions as each one comes up.
+  // Say the word for listening (and English → meaning) questions shortly after each one comes up, so
+  // the eye reaches the new card first. (speak() cancels whatever is still playing.)
   useEffect(() => {
-    if (phase === 'play' && current && current.kind !== 'vi') speak(current.target.word)
+    if (phase !== 'play' || !current || current.kind === 'vi') return
+    const t = setTimeout(() => speak(current.target.word), 500)
+    return () => clearTimeout(t)
   }, [phase, current])
 
   // 3-2-1 → lift-off → cruising past Earth → landing on the planet.
@@ -103,6 +106,21 @@ export default function RocketGame({ topic, level, backUrl }: Props) {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [phase])
 
+  // Say `word`, then run `next` once it has been heard in full (a short pause after it ends, and at
+  // least `minMs` from now); if the browser never reports the end, go after `maxMs` anyway. Without
+  // this the next question's word cut the previous one off (speak() cancels whatever is playing).
+  function afterWord(word: string, minMs: number, maxMs: number, next: () => void) {
+    const startedAt = Date.now()
+    let done = false
+    const go = () => {
+      if (done) return
+      done = true
+      later(next, Math.max(350, minMs - (Date.now() - startedAt)))
+    }
+    speakWord(word, { rate: 0.85, onEnd: go, onError: go, onNoVoice: go })
+    later(go, maxMs)
+  }
+
   // Right → the next part bolts on. Wrong → show the answer, then the question goes to the back of
   // the queue: the rocket only flies once all 10 words have been answered correctly.
   function answer(choice: ArcadeWord) {
@@ -111,15 +129,14 @@ export default function RocketGame({ topic, level, backUrl }: Props) {
     const w = current.target.word
     if (choice.word === w) {
       playSfx('clunk')
-      speak(w)
       if (!missed.current.has(w)) recordAnswer(level, topic.id, current.target, true)
       const b = built + 1
       setBuilt(b)
-      later(() => {
+      afterWord(w, 900, 2200, () => {
         setPicked(null)
         if (b >= ROCKET_PARTS) { setCount(3); setPhase('countdown') }
         else setQueue((q) => q.slice(1))
-      }, 750)
+      })
     } else {
       playWrongSound()
       setWrong((n) => n + 1)
@@ -128,8 +145,9 @@ export default function RocketGame({ topic, level, backUrl }: Props) {
         recordAnswer(level, topic.id, current.target, false)
         setWrongWords((ww) => [...ww, w])
       }
-      // Fresh object so the "say the word" effect fires again even when it's the last question left.
-      later(() => { setPicked(null); setQueue((q) => [...q.slice(1), { ...q[0] }]) }, 1300)
+      // Say the right answer once the buzz is over, then requeue. A fresh object so the "say the word"
+      // effect fires again even when it's the last question left.
+      later(() => afterWord(w, 1100, 2600, () => { setPicked(null); setQueue((q) => [...q.slice(1), { ...q[0] }]) }), 400)
     }
   }
 

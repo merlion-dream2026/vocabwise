@@ -107,6 +107,7 @@ export default function WhackGame({ topic, level, backUrl }: Props) {
       playWrongSound()
       markMissed()
       setReveal(true)
+      later(() => speakWord(current.target.word, { rate: 0.85 }), 350) // say the answer shown on the sign
       endQuestion(false)
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps

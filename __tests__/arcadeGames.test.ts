@@ -42,10 +42,14 @@ describe('rocketScorePct', () => {
 })
 
 describe('whack', () => {
-  it('builds 5 questions whose decoys exclude the target', () => {
+  it('builds 8 questions of 4 words each (answer + 3 decoys that exclude it)', () => {
     const qs = buildWhackQuestions(words(12))
     expect(qs).toHaveLength(WHACK_QUESTIONS)
-    for (const q of qs) expect(q.decoys.some((d) => d.word === q.target.word)).toBe(false)
+    expect(WHACK_QUESTIONS).toBe(8)
+    for (const q of qs) {
+      expect(q.decoys).toHaveLength(3)
+      expect(q.decoys.some((d) => d.word === q.target.word)).toBe(false)
+    }
   })
 
   it('shows the target by the 3rd pop and never twice at once', () => {
@@ -56,10 +60,10 @@ describe('whack', () => {
     }
   })
 
-  it('scores 20 per right answer minus 15 per heart lost', () => {
-    expect(whackScorePct(5, 0)).toBe(100)
-    expect(starsFor(whackScorePct(5, 1))).toBe(3)
-    expect(starsFor(whackScorePct(5, 2))).toBe(2)
+  it('scores 12.5 per right answer minus 15 per heart lost', () => {
+    expect(whackScorePct(8, 0)).toBe(100)
+    expect(starsFor(whackScorePct(8, 1))).toBe(3)
+    expect(starsFor(whackScorePct(8, 2))).toBe(2)
     expect(whackScorePct(1, 3)).toBe(0)
   })
 })
