@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { supabase } from '@/lib/supabaseServer'
 import { getSession } from '@/lib/auth'
-import { getPlanTier } from '@/lib/planUtils'
+import { getEffectivePlan } from '@/lib/planUtils'
 
 export type ReportSettings = {
   enabled: boolean
@@ -31,20 +31,19 @@ export async function PUT(req: NextRequest) {
 
   const body = await req.json().catch(() => ({}))
 
-  // monthly_recap only allowed for active Pro 6m tier — use getPlanTier() (accounts for
-  // bonus/referral Pro days extending access past plan_end_date), not the raw plan field.
+  // Weekly report + monthly recap: any active Pro (paid or bonus days), checked fresh from DB.
   const { data: family } = await supabase
     .from('families')
     .select('plan, plan_end_date, free_trial_expires_at, bonus_pro_expires_at, bonus_features')
     .eq('id', session.familyId)
     .single()
-  const is6m = !!family && getPlanTier(family) === 'pro6'
+  const isPro = !!family && getEffectivePlan(family).isProActive
 
   const settings: ReportSettings = {
-    enabled: !!body.enabled,
-    schedule: body.schedule === 'weekly' ? 'weekly' : 'manual',
+    enabled: isPro && !!body.enabled,
+    schedule: isPro && body.schedule === 'weekly' ? 'weekly' : 'manual',
     day: typeof body.day === 'number' ? Math.min(6, Math.max(0, body.day)) : 1,
-    monthly_recap: is6m ? !!body.monthly_recap : false,
+    monthly_recap: isPro ? !!body.monthly_recap : false,
   }
 
   const { error } = await supabase

@@ -69,13 +69,16 @@ export async function sendScheduledPush(now = Date.now()) {
 
   const { data: fams, error: famErr } = await supabase
     .from('families')
-    .select('id, push_schedule, push_last_sent_at')
+    .select('id, push_schedule, push_last_sent_at, plan, plan_end_date, free_trial_expires_at, bonus_pro_expires_at')
     .in('id', subFamilyIds)
   if (famErr) throw famErr
 
   // Dedup guard: a retried/overlapping trigger within the same slot must not double-send
   const recentCutoff = now - 10 * 60_000
   const due = (fams ?? []).filter(f => {
+    // Only families who can actually study right now (Pro or still in the trial) get reminded.
+    const access = getEffectivePlan(f)
+    if (!access.isProActive && !access.isTrialActive) return false
     const schedule = parsePushSchedule(f.push_schedule) ?? DEFAULT_PUSH_SCHEDULE
     const lastSent = f.push_last_sent_at ? new Date(f.push_last_sent_at).getTime() : 0
     return schedule[slot.day] === slot.time && lastSent < recentCutoff

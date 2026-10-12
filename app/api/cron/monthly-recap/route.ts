@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import { supabase } from '@/lib/supabaseServer'
 import { sendEmail } from '@/lib/email'
 import { buildMonthlyRecapHtml, calcMonthStats, AllLevelSync, ChildRow, SyncRow } from '@/lib/reportHtml'
-import { getPlanTier } from '@/lib/planUtils'
+import { getEffectivePlan } from '@/lib/planUtils'
 import { runInBatches } from '@/lib/batchProcess'
 import { hasBearer } from '@/lib/api'
 
@@ -36,13 +36,11 @@ export async function GET(req: NextRequest) {
   const monthLabel   = toLabel(recapMonth)
   const prevMonthLabel = toLabel(prevMonth)
 
-  // Fetch Pro 6m families with email. Only filter on the raw `plan` field here (a necessary
-  // condition for pro6 tier) — active-access itself (which may be extended by bonus/referral
-  // Pro days past plan_end_date) is verified below via getPlanTier(), not a raw date filter.
+  // Families with email; Pro access (any paid plan or bonus days — every Pro plan gets the recap
+  // since 2026-10-12, was 6 tháng only) is checked below via getEffectivePlan(), not a raw date filter.
   const { data: families } = await supabase
     .from('families')
     .select('id, username, email, plan, plan_end_date, free_trial_expires_at, bonus_pro_expires_at, bonus_features, report_settings')
-    .eq('plan', '6months')
     .eq('disabled', false)
     .not('email', 'is', null)
     .neq('email', '')
@@ -50,7 +48,7 @@ export async function GET(req: NextRequest) {
   if (!families?.length) return NextResponse.json({ sent: 0, reason: 'no eligible families' })
 
   const eligible = families.filter(f => {
-    if (getPlanTier(f) !== 'pro6') return false
+    if (!getEffectivePlan(f).isProActive) return false
     const s = (f.report_settings ?? {}) as ReportSettings
     return s.monthly_recap === true
   })

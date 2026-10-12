@@ -1,4 +1,4 @@
-import { AI_DAILY_LIMIT, FREE_WORD_CAP, IELTS_SPEAKING_TRIAL_LIMIT } from './plans'
+import { AI_SPEAK_LIMIT, AI_TEXT_LIMIT, FREE_KIDS, FREE_WORD_CAP, IELTS_SPEAKING_TRIAL_LIMIT, kidsForPlan } from './plans'
 
 export interface FamilyPlanData {
   plan: string
@@ -75,6 +75,16 @@ export function getPlanTier(family: FamilyPlanData): PlanTier {
   return 'pro1'
 }
 
+/** Child-profile cap: families.max_kids (admin override) wins, else by tier — trial/free 1, Pro 1T/3T/6T per PAID_PLANS (1/2/3). */
+export function getMaxKids(family: FamilyPlanData & { max_kids?: number | null }): number {
+  if (family.max_kids != null) return family.max_kids
+  const tier = getPlanTier(family)
+  if (tier === 'pro6') return kidsForPlan('6months')
+  if (tier === 'pro3') return kidsForPlan('3months')
+  if (tier === 'pro1') return kidsForPlan('1month')
+  return FREE_KIDS
+}
+
 // ─── Feature access gates ────────────────────────────────────────────────────
 
 /**
@@ -88,11 +98,10 @@ export function canAccessPhonicsLesson(family: FamilyPlanData, levelId: string, 
   return false
 }
 
-/** Word Stress: Pro 3 tháng trở lên (hoặc bonus grant). */
+/** Word Stress: mọi gói Pro (hoặc bonus grant). Was Pro 3 tháng+ until 2026-10-12. */
 export function canAccessWordStress(family: FamilyPlanData): boolean {
   if (family.bonus_features?.includes('word_stress')) return true
-  const tier = getPlanTier(family)
-  return tier === 'pro3' || tier === 'pro6'
+  return getEffectivePlan(family).isProActive
 }
 
 /** My Words: tất cả users (Free giới hạn 20 từ, Pro không giới hạn). */
@@ -163,20 +172,20 @@ export function getRevisionLimit(family: FamilyPlanData): number | null {
   return isTrialActive ? 1 : 0
 }
 
-/** AI Speak limit: null = unlimited (Pro 3+ hoặc bonus grant), 40 (Pro 1), 10 (Trial), 0 (Free hết trial). */
+/** AI Speak limit PER CHILD per day: null = unlimited (Pro 3+ or bonus grant; still capped by AI_FAIR_USE_CAP in lib/aiQuota.ts), else AI_SPEAK_LIMIT, 0 after the trial. */
 export function getAISpeakLimit(family: FamilyPlanData): number | null {
   if (family.bonus_features?.includes('ai_speak_unlimited')) return null
   const { isProActive, isTrialActive } = getEffectivePlan(family)
   if (isProActive) {
     const tier = getPlanTier(family)
-    return tier === 'pro1' ? AI_DAILY_LIMIT.pro1 : null
+    return tier === 'pro1' ? AI_SPEAK_LIMIT.pro1 : null
   }
-  return isTrialActive ? AI_DAILY_LIMIT.trial : 0
+  return isTrialActive ? AI_SPEAK_LIMIT.trial : 0
 }
 
 /**
  * AI text-helper daily limit — shared pool across Giải nghĩa (explain) / Hint / Grammar Note /
- * Generate Exercises. null = unlimited (Pro 3+ hoặc bonus grant), 40 (Pro 1), 10 (Trial), 0 (Free hết trial).
+ * Generate Exercises / Đặt câu, per child per day. null = unlimited (Pro 3+ or bonus grant; AI_FAIR_USE_CAP applies), else AI_TEXT_LIMIT, 0 after the trial.
  * Mirrors getAISpeakLimit's tiering — these text calls are cheaper per-call than AI Speak's audio
  * transcription, but kept on the same tier shape for consistency until usage data says otherwise.
  */
@@ -185,9 +194,9 @@ export function getAITextLimit(family: FamilyPlanData): number | null {
   const { isProActive, isTrialActive } = getEffectivePlan(family)
   if (isProActive) {
     const tier = getPlanTier(family)
-    return tier === 'pro1' ? AI_DAILY_LIMIT.pro1 : null
+    return tier === 'pro1' ? AI_TEXT_LIMIT.pro1 : null
   }
-  return isTrialActive ? AI_DAILY_LIMIT.trial : 0
+  return isTrialActive ? AI_TEXT_LIMIT.trial : 0
 }
 
 /**

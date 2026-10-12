@@ -11,6 +11,8 @@ import {
   getSRSLimit,
   getAISpeakLimit,
   getIeltsSpeakingLimit,
+  getAITextLimit,
+  getMaxKids,
   type FamilyPlanData,
 } from '@/lib/planUtils'
 
@@ -113,8 +115,12 @@ describe('canAccessWordStress', () => {
     expect(canAccessWordStress(freeExpired)).toBe(false)
   })
 
-  it('pro1 → false', () => {
-    expect(canAccessWordStress(pro1)).toBe(false)
+  it('pro1 → true (every Pro plan since 2026-10-12)', () => {
+    expect(canAccessWordStress(pro1)).toBe(true)
+  })
+
+  it('active trial → false', () => {
+    expect(canAccessWordStress(freeTrial)).toBe(false)
   })
 
   it('pro3 → true', () => {
@@ -197,8 +203,8 @@ describe('getAISpeakLimit', () => {
     expect(getAISpeakLimit(freeExpired)).toBe(0)
   })
 
-  it('active trial → 10/day', () => {
-    expect(getAISpeakLimit(freeTrial)).toBe(10)
+  it('active trial → 20/day per child', () => {
+    expect(getAISpeakLimit(freeTrial)).toBe(20)
   })
 
   it('pro1 → 40/day', () => {
@@ -284,5 +290,33 @@ describe('Kids / Academic full content gating', () => {
     }
     expect(canAccessKidsFull(kids)).toBe(true)
     expect(canAccessAcademicFull(academic)).toBe(true)
+  })
+})
+
+describe('getAITextLimit', () => {
+  it('trial 10 · pro1 40 · pro3/pro6 unlimited · expired 0', () => {
+    expect(getAITextLimit(freeTrial)).toBe(10)
+    expect(getAITextLimit(pro1)).toBe(40)
+    expect(getAITextLimit(pro3)).toBeNull()
+    expect(getAITextLimit(pro6)).toBeNull()
+    expect(getAITextLimit(freeExpired)).toBe(0)
+  })
+})
+
+describe('getMaxKids', () => {
+  it('trial/free 1 · pro1 1 · pro3 2 · pro6 3', () => {
+    expect(getMaxKids(freeTrial)).toBe(1)
+    expect(getMaxKids(freeExpired)).toBe(1)
+    expect(getMaxKids(pro1)).toBe(1)
+    expect(getMaxKids(pro3)).toBe(2)
+    expect(getMaxKids(pro6)).toBe(3)
+  })
+
+  it('expired paid plan falls back to 1', () => {
+    expect(getMaxKids(proExpired)).toBe(1)
+  })
+
+  it('admin override (families.max_kids) wins', () => {
+    expect(getMaxKids({ ...pro1, max_kids: 3 })).toBe(3)
   })
 })

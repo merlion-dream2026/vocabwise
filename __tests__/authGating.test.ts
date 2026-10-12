@@ -82,7 +82,7 @@ const matrix: Array<{ name: string; fam: FamilyPlanData; expect: FeatureExpectat
     fam: { plan: '1month', plan_end_date: daysFromNow(20) },
     expect: {
       tier: 'pro1',
-      wordStress: false,
+      wordStress: true,   // every Pro plan since 2026-10-12
       aiSpeak: 40,
       myWordsLimit: null,
       srsLimit: null,

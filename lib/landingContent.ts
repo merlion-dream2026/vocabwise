@@ -2,7 +2,7 @@
 // Counts must match the app: Daily = data/words/{level}.json (6 levels × 30 topics × 400 words),
 // Academic = data/vocabwise (3 books × 60 topics, 13 exercise types in components/vocabwise/E*.tsx),
 // Phonics = data/phonicsLevels.json (9 levels · 58 lessons). Prices + quotas come from lib/plans.ts.
-import { AI_DAILY_LIMIT, FREE_WORD_CAP, PAID_PLANS, TRIAL_DAYS, cheapestPerDay, perMonth } from './plans'
+import { AI_SPEAK_LIMIT, AI_TEXT_LIMIT, FREE_KIDS, FREE_WORD_CAP, PAID_PLANS, TRIAL_DAYS, cheapestPerDay, perDay } from './plans'
 
 // Screenshots of the live app (demo family). Regenerate: `node scripts/capture-landing-screenshots.mjs`.
 const shot = (name: string) => `/screenshots/app/${name}.webp`
@@ -76,7 +76,7 @@ export const MODULE_CARDS: ModuleCard[] = [
     emoji: '📊', title: 'Dashboard phụ huynh', subtitle: 'Theo dõi và đồng hành cùng con', badge: 'Cho ba mẹ',
     gradient: 'from-emerald-500 to-teal-500', bgLight: 'from-emerald-50 to-teal-50', border: 'border-emerald-200', accent: 'text-emerald-700',
     features: [
-      { icon: '👧', text: 'Tối đa 3 hồ sơ bé, mỗi bé tiến độ và streak riêng' },
+      { icon: '👧', text: 'Mỗi bé một hồ sơ: tiến độ, streak, sticker riêng' },
       { icon: '📈', text: 'Lịch sử học từng ngày, từ yếu cần ôn' },
       { icon: '🔔', text: 'Nhắc học theo lịch ba mẹ chọn (ngày + giờ)' },
       { icon: '🎁', text: 'Đổi sticker lấy quà, khoá bằng mã PIN của ba mẹ' },
@@ -108,15 +108,9 @@ export const TESTIMONIAL = {
 
 export const STEPS = [
   { n: '1', emoji: '🆕', title: 'Đăng ký miễn phí trong 1 phút', desc: 'Tạo tài khoản bằng số điện thoại, thêm hồ sơ cho bé' },
-  { n: '2', emoji: '🐘', title: 'Bé chọn bạn đồng hành và học thử', desc: `Dùng thử ${TRIAL_DAYS} ngày: 1 chủ đề mỗi level, AI chấm phát âm ${AI_DAILY_LIMIT.trial} lần/ngày` },
+  { n: '2', emoji: '🐘', title: 'Bé chọn bạn đồng hành và học thử', desc: `Dùng thử ${TRIAL_DAYS} ngày: chủ đề đầu mỗi level, AI chấm phát âm ${AI_SPEAK_LIMIT.trial} lượt/ngày` },
   { n: '3', emoji: '📊', title: 'Ba mẹ theo dõi tiến độ', desc: 'Xem streak, từ yếu, sticker của con trên dashboard' },
   { n: '4', emoji: '⭐', title: 'Nâng cấp Pro khi sẵn sàng', desc: `Mở toàn bộ 360 chủ đề và 58 bài phát âm, chỉ từ ${cheapestPerDay()}/ngày` },
-] as const
-
-export const PRO_INCLUDES = [
-  '📚 Daily: 180 chủ đề · 2.400 từ', '🎮 9–10 trò chơi/chủ đề', '🔤 Phonics IPA đầy đủ 58 bài', '🎓 Academic: 180 chủ đề',
-  '📝 Kiểm tra level & module', '⭐ Từ của tôi không giới hạn', '🔁 Ôn SRS không giới hạn', '🎨 Sticker & đổi quà',
-  '🔔 Nhắc học theo lịch', '📱 Mọi thiết bị',
 ] as const
 
 const [p1, p3, p6] = PAID_PLANS
@@ -148,7 +142,7 @@ export const FAQ_ITEMS = [
   },
   {
     q: 'Một tài khoản dùng được cho mấy bé?',
-    a: `Dùng thử: 1 bé. Pro ${p1.label}: ${p1.kids} bé. Pro ${p3.label} và ${p6.label}: ${p3.kids} bé. Mỗi bé có hồ sơ, bạn đồng hành, tiến độ, streak, sticker và huy hiệu riêng, đồng bộ trên mọi thiết bị.`,
+    a: `Dùng thử: ${FREE_KIDS} bé. Pro ${p1.label}: ${p1.kids} bé. Pro ${p3.label}: ${p3.kids} bé. Pro ${p6.label}: ${p6.kids} bé. Hạn mức AI tính riêng cho từng bé, anh chị em không phải chia lượt. Mỗi bé có hồ sơ, bạn đồng hành, tiến độ, streak, sticker và huy hiệu riêng, đồng bộ trên mọi thiết bị.`,
   },
   {
     q: 'Streak 🔥 là gì? Tại sao quan trọng?',
@@ -156,7 +150,7 @@ export const FAQ_ITEMS = [
   },
   {
     q: 'Dùng thử miễn phí được không?',
-    a: `Có! Đăng ký miễn phí, không cần thẻ. Trong ${TRIAL_DAYS} ngày dùng thử, bé được học:\n• Daily: chủ đề đầu tiên của mỗi level (6 chủ đề), đủ các trò chơi\n• Academic: chủ đề đầu tiên của mỗi book (3 chủ đề)\n• Phonics IPA: 1 bài\n• AI chấm phát âm và AI giải nghĩa: mỗi loại ${AI_DAILY_LIMIT.trial} lần/ngày\n• ⭐ Từ của tôi và ôn SRS: tối đa ${FREE_WORD_CAP} từ\n\nHết ${TRIAL_DAYS} ngày, các phần học thử sẽ khoá lại cho tới khi nâng cấp Pro.`,
+    a: `Có! Mọi tài khoản mới đều bắt đầu với ${TRIAL_DAYS} ngày dùng thử, không cần thẻ. Bé được học:\n• Daily: chủ đề đầu tiên của mỗi level (6 chủ đề), đủ các trò chơi\n• Academic: chủ đề đầu tiên của mỗi book (3 chủ đề)\n• Phonics IPA: 1 bài\n• AI chấm phát âm ${AI_SPEAK_LIMIT.trial} lượt/ngày, AI giải nghĩa ${AI_TEXT_LIMIT.trial} lượt/ngày\n• ⭐ Từ của tôi và ôn SRS: tối đa ${FREE_WORD_CAP} từ\n• Nhắc học theo lịch, sticker, huy hiệu\n\nHết ${TRIAL_DAYS} ngày, phần học khoá lại cho tới khi nâng cấp Pro. Ba mẹ vẫn đăng nhập để xem tiến độ, sticker và huy hiệu của bé.`,
   },
   {
     q: '⭐ Tính năng "Từ của tôi" là gì?',
@@ -164,6 +158,6 @@ export const FAQ_ITEMS = [
   },
   {
     q: `Các gói Pro ${p1.label}, ${p3.label} và ${p6.label} khác nhau thế nào?`,
-    a: `Mọi gói Pro đều mở toàn bộ Daily, Academic, Phonics IPA, bài kiểm tra level/module, Từ của tôi và ôn SRS không giới hạn, nhắc học theo lịch.\n\nKhác nhau:\n• Pro ${p1.label} (${perMonth(p1)}/tháng): ${p1.kids} hồ sơ bé · AI chấm phát âm và AI giải nghĩa ${AI_DAILY_LIMIT.pro1} lần/ngày\n• Pro ${p3.label} (${perMonth(p3)}/tháng): ${p3.kids} hồ sơ bé · AI không giới hạn · Module Trọng âm từ · Báo cáo email tự động hằng tuần\n• Pro ${p6.label} (${perMonth(p6)}/tháng): như ${p3.label} + 🎁 tặng bạn bè 14 ngày Pro + 📅 email tổng kết học tập hằng tháng`,
+    a: `Mọi gói Pro đều có trọn nội dung (Daily, Academic, Phonics IPA, trọng âm, bài kiểm tra level/module), theo dõi tiến độ, báo cáo email tuần & tháng, nhắc học, Từ của tôi và ôn SRS không giới hạn.\n\nKhác nhau ở giá mỗi ngày, số bé và hạn mức AI (tính riêng cho từng bé):\n• Pro ${p1.label} (≈${perDay(p1)}/ngày): ${p1.kids} bé · AI chấm phát âm và giải nghĩa ${AI_SPEAK_LIMIT.pro1} lượt/ngày\n• Pro ${p3.label} (≈${perDay(p3)}/ngày, tiết kiệm ${p3.savingPct}%): ${p3.kids} bé · AI không giới hạn\n• Pro ${p6.label} (≈${perDay(p6)}/ngày, tiết kiệm ${p6.savingPct}%): ${p6.kids} bé · AI không giới hạn · 🎁 tặng 1 người bạn 14 ngày Pro`,
   },
 ] as const

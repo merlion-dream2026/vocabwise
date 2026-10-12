@@ -3,7 +3,7 @@ import { getSession } from '@/lib/auth'
 import { supabase } from '@/lib/supabaseServer'
 import { getFamilyProfile } from '@/lib/security'
 import { getAITextLimit } from '@/lib/planUtils'
-import { checkAndIncrementAITextUsage } from '@/lib/rateLimit'
+import { consumeAIQuota } from '@/lib/aiQuota'
 import { aiChat } from '@/lib/aiChat'
 import { stripMarkdown } from '@/lib/textFormat'
 
@@ -27,7 +27,7 @@ export async function POST(req: NextRequest) {
   if (session.familyId !== 'superadmin') {
     const profile = await getFamilyProfile(session.familyId)
     const aiLimit = profile ? getAITextLimit(profile) : 0
-    if (aiLimit !== null && !(await checkAndIncrementAITextUsage(session.familyId, aiLimit))) {
+    if (!(await consumeAIQuota('text', req, session.familyId, aiLimit))) {
       return NextResponse.json({ error: 'Đã đạt giới hạn dùng AI hôm nay. Vui lòng thử lại vào ngày mai.' }, { status: 429 })
     }
   }

@@ -4,6 +4,7 @@ import { sendEmail } from '@/lib/email'
 import { buildReportHtml, ChildRow, SyncRow } from '@/lib/reportHtml'
 import { runInBatches } from '@/lib/batchProcess'
 import { hasBearer } from '@/lib/api'
+import { getEffectivePlan } from '@/lib/planUtils'
 
 export const maxDuration = 60
 
@@ -21,7 +22,7 @@ export async function GET(req: NextRequest) {
 
   const { data: families } = await supabase
     .from('families')
-    .select('id, username, email, plan, report_settings')
+    .select('id, username, email, plan, plan_end_date, free_trial_expires_at, bonus_pro_expires_at, report_settings')
     .eq('disabled', false)
     .not('email', 'is', null)
     .neq('email', '')
@@ -30,7 +31,9 @@ export async function GET(req: NextRequest) {
 
   // Opt-in only: families who turned on the weekly report and picked today's weekday.
   // (Previously every family with an email also got one each Sunday — dropped as too pushy.)
+  // Email reports are a Pro feature (every Pro plan since 2026-10-12) — settings may predate expiry.
   const scheduled = families.filter(f => {
+    if (!getEffectivePlan(f).isProActive) return false
     const s = (f.report_settings ?? {}) as ReportSettings
     return s.enabled && s.schedule === 'weekly' && s.day === vnDay
   })

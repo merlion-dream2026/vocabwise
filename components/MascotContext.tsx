@@ -3,6 +3,7 @@ import { createContext, useContext, useEffect, useState, type ReactNode } from '
 import { usePathname } from 'next/navigation'
 import { cachedFetch, invalidateCachedFetch } from '@/lib/cachedFetch'
 import { activeChildId } from '@/lib/academicSync'
+import { ACTIVE_CHILD_COOKIE } from '@/lib/activeChildCookie'
 import { DEFAULT_MASCOT, isMascotCharacter, type MascotCharacter } from '@/lib/mascots'
 import { MascotCtx } from '@/components/Mascot'
 import { MascotPickDialog } from '@/components/MascotPicker'
@@ -49,6 +50,8 @@ export function ChildMascotProvider({ children }: { children: ReactNode }) {
     const id = childIdFor(pathname)
     setSnoozed(snoozedIds())
     if (!id) { setChild(null); return }
+    // Tell the server which child is learning — AI quotas are per child (lib/aiQuota.ts verifies ownership).
+    document.cookie = `${ACTIVE_CHILD_COOKIE}=${id}; path=/; max-age=2592000; SameSite=Lax`
     let alive = true
     cachedFetch('/api/children')
       .then(r => (r.ok ? r.json() : []))

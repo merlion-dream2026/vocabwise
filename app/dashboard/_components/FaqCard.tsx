@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { AI_SPEAK_LIMIT, PAID_PLANS, perDay } from '@/lib/plans'
 
 // ── FAQ card ──────────────────────────────────────────────────────────────────
 const FAQ_ITEMS = [
@@ -102,7 +103,7 @@ const FAQ_ITEMS = [
       },
       {
         q: 'Gói Pro tạo được mấy hồ sơ bé? Dùng được trên mấy thiết bị?',
-        a: '👶 Hồ sơ bé theo gói:\n• Pro 1 tháng: tối đa 2 hồ sơ bé\n• Pro 3 tháng và 6 tháng: tối đa 3 hồ sơ bé\nMỗi bé có tiến độ, streak, huy hiệu và lịch sử học riêng biệt.\n\n📱 Thiết bị: không giới hạn. Cả gia đình dùng chung 1 tài khoản — Ba/Mẹ xem dashboard trên điện thoại, bé học trên máy tính bảng — dữ liệu đồng bộ tự động.\n\n⚠️ Tài khoản chỉ dành cho 1 gia đình. Chia sẻ cho gia đình khác vi phạm điều khoản và có thể bị khóa tài khoản.',
+        a: `👶 Hồ sơ bé theo gói:\n${PAID_PLANS.map(p => `• Pro ${p.label}: tối đa ${p.kids} hồ sơ bé`).join('\n')}\nMỗi bé có tiến độ, streak, huy hiệu, lịch sử học và hạn mức AI riêng biệt.\n\n📱 Thiết bị: không giới hạn. Cả gia đình dùng chung 1 tài khoản — Ba/Mẹ xem dashboard trên điện thoại, bé học trên máy tính bảng — dữ liệu đồng bộ tự động.\n\n⚠️ Tài khoản chỉ dành cho 1 gia đình. Chia sẻ cho gia đình khác vi phạm điều khoản và có thể bị khóa tài khoản.`,
       },
       {
         q: 'Gói Pro hết hạn thì dữ liệu có mất không? Gia hạn như thế nào?',
@@ -119,11 +120,11 @@ const FAQ_ITEMS = [
       },
       {
         q: 'Báo cáo email tự động hoạt động như thế nào?',
-        a: 'Vào Cài đặt → "📬 Báo cáo qua email" để thiết lập:\n\n• Gói Pro 1 tháng: gửi thủ công (bấm "Gửi ngay" bất kỳ lúc nào)\n• Gói Pro 3 tháng và 6 tháng: ngoài gửi thủ công, có thể bật tự động hàng tuần vào một ngày cố định trong tuần\n\nBáo cáo gồm: số từ đã học, topics hoàn thành, streak hiện tại, từ yếu cần ôn và huy hiệu của bé.\n\nLưu ý: cần có email đăng ký tài khoản để nhận báo cáo.',
+        a: 'Vào Cài đặt → "📬 Báo cáo qua email" để thiết lập (mọi gói Pro):\n\n• Gửi ngay: bấm "Gửi ngay" bất kỳ lúc nào\n• Tự động hàng tuần: chọn một ngày cố định trong tuần\n• Tổng kết hàng tháng: gửi ngày 1 mỗi tháng\n\nBáo cáo gồm: số từ đã học, topics hoàn thành, streak hiện tại, từ yếu cần ôn và huy hiệu của bé.\n\nLưu ý: cần có email đăng ký tài khoản để nhận báo cáo.',
       },
       {
-        q: 'Email tổng kết hàng tháng là gì? (Pro 6 tháng)',
-        a: 'Tính năng độc quyền dành cho gói Pro 6 tháng.\n\nVào ngày 1 mỗi tháng, hệ thống tự động gửi email tổng kết tháng vừa rồi cho từng bé, bao gồm:\n• Số ngày học / tổng số ngày trong tháng\n• Tổng từ học được, lượt game, XP tháng này\n• So sánh với tháng trước (↑ tăng / ↓ giảm)\n• Streak hiện tại, topics hoàn thành và badges\n\nĐể bật: Cài đặt → "📬 Báo cáo qua email" → bật toggle "Tổng kết hàng tháng".',
+        q: 'Email tổng kết hàng tháng là gì?',
+        a: 'Có ở mọi gói Pro.\n\nVào ngày 1 mỗi tháng, hệ thống tự động gửi email tổng kết tháng vừa rồi cho từng bé, bao gồm:\n• Số ngày học / tổng số ngày trong tháng\n• Tổng từ học được, lượt game, XP tháng này\n• So sánh với tháng trước (↑ tăng / ↓ giảm)\n• Streak hiện tại, topics hoàn thành và badges\n\nĐể bật: Cài đặt → "📬 Báo cáo qua email" → bật toggle "Tổng kết hàng tháng".',
       },
       {
         q: 'Gift code "Tặng bạn bè" dùng như thế nào? (Pro 6 tháng)',
@@ -140,10 +141,10 @@ const FAQ_ITEMS = [
     items: [
       {
         q: 'Pro 1 tháng, 3 tháng và 6 tháng khác nhau thế nào?',
-        a: 'Tất cả gói Pro đều có đầy đủ:\n✅ 📚 Daily: 180 chủ đề · 2.400+ từ vựng (6 levels)\n✅ 🎓 Academic: 3 books · 180 chủ đề học thuật (A1–C2)\n✅ 10 trò chơi/chủ đề · Mini Story audio\n✅ Module phát âm IPA đầy đủ\n✅ ⭐ Từ của tôi không giới hạn (Free chỉ lưu 20 từ)\n✅ SRS ôn tập từ yếu không giới hạn · Push notification nhắc học\n✅ Dashboard phụ huynh · Không giới hạn thiết bị\n\nĐiểm khác biệt:\n• Pro 1 tháng (59k): 2 hồ sơ bé · AI phát âm 40 lần/ngày · Giải nghĩa & gợi ý AI 40 lần/ngày · Báo cáo email thủ công\n• Pro 3 tháng (53k/th): 3 hồ sơ bé · AI phát âm không giới hạn · Giải nghĩa & gợi ý AI không giới hạn · Module Word Stress · Báo cáo tự động hàng tuần\n• Pro 6 tháng (50k/th): Tất cả như 3 tháng + 🎁 Tặng bạn bè 14 ngày Pro + 📅 Email tổng kết học hàng tháng',
+        a: `Tất cả gói Pro đều có đầy đủ:\n✅ 📚 Daily: 180 chủ đề · 2.400 từ vựng (6 levels)\n✅ 🎓 Academic: 3 books · 180 chủ đề học thuật (A1–C2)\n✅ 🔤 Phonics IPA đầy đủ + Trọng âm từ\n✅ 📝 Kiểm tra level & module\n✅ ⭐ Từ của tôi và ôn SRS không giới hạn\n✅ 📈 Theo dõi tiến độ · 📬 Báo cáo email tuần & tháng · 🔔 Nhắc học\n✅ 🎨 Sticker & đổi quà · Không giới hạn thiết bị\n\nKhác nhau ở giá mỗi ngày, số bé và hạn mức AI (tính riêng từng bé):\n${PAID_PLANS.map(p => `• Pro ${p.label} (≈${perDay(p)}/ngày${p.savingPct ? `, tiết kiệm ${p.savingPct}%` : ''}): ${p.kids} bé · AI ${p.key === '1month' ? `${AI_SPEAK_LIMIT.pro1} lượt/ngày` : 'không giới hạn'}${p.key === '6months' ? ' · 🎁 tặng 1 người bạn 14 ngày Pro' : ''}`).join('\n')}`,
       },
       {
-        q: 'Module Word Stress là gì? (Pro 3 tháng trở lên)',
+        q: 'Module Trọng âm từ (Word Stress) là gì?',
         a: 'Module Word Stress giúp bé luyện nhấn âm — kỹ năng quan trọng để phát âm tiếng Anh tự nhiên và dễ hiểu.\n\nTrong tiếng Anh, từ nhiều âm tiết luôn có 1 âm được nhấn mạnh hơn (ví dụ: PREsent vs preSENT). Đọc sai trọng âm khiến người bản ngữ khó hiểu, dù phát âm từng âm đúng.\n\nModule này đi kèm với module Phonics, truy cập qua màn hình học Phonics của bé.',
       },
     ],

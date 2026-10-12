@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server'
 import { supabase } from '@/lib/supabaseServer'
 import { getSession } from '@/lib/auth'
 import { releasePendingSignupRewards } from '@/lib/referralUtils'
+import { getMaxKids } from '@/lib/planUtils'
 
 export async function GET() {
   const session = await getSession()
@@ -9,20 +10,14 @@ export async function GET() {
 
   if (session.familyId === 'superadmin') return NextResponse.json(session)
 
-  const [{ data }, { data: configs }] = await Promise.all([
-    supabase
-      .from('families')
-      .select('free_trial_expires_at, plan_end_date, plan, disabled, max_kids, bonus_pro_expires_at, referral_code, gift_token, bonus_features')
-      .eq('id', session.familyId)
-      .single(),
-    supabase.from('admin_config').select('key, value'),
-  ])
+  const { data } = await supabase
+    .from('families')
+    .select('free_trial_expires_at, plan_end_date, plan, disabled, max_kids, bonus_pro_expires_at, referral_code, gift_token, bonus_features')
+    .eq('id', session.familyId)
+    .single()
 
   if (!data || data.disabled) return NextResponse.json(null)
 
-  const configMap: Record<string, number> = {}
-  for (const row of configs ?? []) configMap[row.key] = parseInt(row.value)
-  const globalDefault = data.plan === 'free' ? (configMap.free_max_kids ?? 1) : (configMap.pro_max_kids ?? 3)
 
   // 2B: Release signup rewards — fire-and-forget, không block response
   releasePendingSignupRewards(session.familyId, data.bonus_pro_expires_at ?? null).catch(() => {})
@@ -36,6 +31,6 @@ export async function GET() {
     bonus_features: data.bonus_features ?? null,
     referral_code: data.referral_code ?? null,
     gift_token: data.gift_token ?? null,
-    max_kids: data.max_kids ?? globalDefault,
+    max_kids: getMaxKids(data),
   }, { headers: { 'Cache-Control': 'no-store' } })
 }

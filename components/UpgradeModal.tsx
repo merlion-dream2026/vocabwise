@@ -1,12 +1,12 @@
 'use client'
 import { useState, useEffect, useRef } from 'react'
-import { PAID_PLANS, PLAN_PERKS, PLAN_TABLE, vnd, type PaidPlanKey } from '@/lib/plans'
+import { PAID_PLANS, PLAN_PERKS, PLAN_TABLE, perDay, vnd, type PaidPlanKey } from '@/lib/plans'
 
 const BADGE_CLS: Record<PaidPlanKey, string> = { '1month': '', '3months': 'bg-orange-400 text-white', '6months': 'bg-amber-400 text-amber-900' }
 const PLANS = PAID_PLANS.map(p => ({
   ...p,
   price: vnd(p.amount),
-  note: `${p.kids} bé${p.savingPct ? ` · Tiết kiệm ${p.savingPct}%` : ''}`,
+  note: `${p.kids} bé · ≈${perDay(p)}/ngày${p.savingPct ? ` · tiết kiệm ${p.savingPct}%` : ''}`,
   badgeCls: BADGE_CLS[p.key],
 }))
 const PLAN_EXTRAS: Record<string, readonly string[]> = PLAN_PERKS
@@ -74,7 +74,7 @@ export default function UpgradeModal({ onClose, username }: Props) {
               <thead>
                 <tr className="bg-gray-50 border-b border-gray-100">
                   <th className="text-left px-3 py-2 font-bold text-gray-500 w-[38%]">Tính năng</th>
-                  <th className="px-1 py-2 font-bold text-gray-400 text-center">Free</th>
+                  <th className="px-1 py-2 font-bold text-gray-500 text-center">Thử</th>
                   <th className="px-1 py-2 font-bold text-purple-600 text-center">1T</th>
                   <th className="px-1 py-2 font-bold text-purple-600 text-center">3T</th>
                   <th className="px-1 py-2 font-bold text-indigo-600 text-center">6T</th>

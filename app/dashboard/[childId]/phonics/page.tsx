@@ -363,7 +363,7 @@ export default function PhonicsHub() {
               <span className="text-2xl">📢</span>
               <div className="text-left flex-1">
                 <p className="font-semibold text-gray-800 text-sm">Trọng âm từ
-                  {!hasWordStress && <span className="ml-2 text-[10px] font-bold bg-amber-100 text-amber-700 px-1.5 py-0.5 rounded-full">Pro 3 tháng+</span>}
+                  {!hasWordStress && <span className="ml-2 text-[10px] font-bold bg-amber-100 text-amber-700 px-1.5 py-0.5 rounded-full">Pro</span>}
                 </p>
                 <p className="text-xs text-gray-400">Nghe → tap âm tiết được nhấn</p>
               </div>

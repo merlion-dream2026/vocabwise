@@ -12,7 +12,7 @@ export async function GET(req: NextRequest) {
     const profile = await getFamilyProfile(session.familyId)
     if (!profile) return NextResponse.json({ error: 'Account not found' }, { status: 404 })
     if (!canAccessWordStress(profile)) {
-      return NextResponse.json({ error: 'Upgrade to Pro 3 months+ to access Word Stress.' }, { status: 403 })
+      return NextResponse.json({ error: 'Upgrade to Pro to access Word Stress.' }, { status: 403 })
     }
   }
 

@@ -2,8 +2,7 @@ import Link from 'next/link'
 import LandingUpgradeButton from '@/components/landing/LandingUpgradeButton'
 import Reveal from '@/components/landing/Reveal'
 import { FOCUS_RING, H2, LEAD, SECTION_Y } from '@/components/landing/ui'
-import { PRO_INCLUDES } from '@/lib/landingContent'
-import { AI_DAILY_LIMIT, FREE_KIDS, PAID_PLANS, PLAN_PERKS, TRIAL_DAYS, kVnd, perMonth, type PaidPlanKey } from '@/lib/plans'
+import { ALL_PLANS_INCLUDE, PAID_PLANS, PLAN_PERKS, TRIAL_DAYS, TRIAL_SUMMARY, kVnd, perDay, type PaidPlanKey } from '@/lib/plans'
 
 // Per-plan card look; the featured (3 tháng) and best-value (6 tháng) cards are filled.
 const LOOK: Record<PaidPlanKey, { card: string; label: string; price: string; sub: string; list: string; btn: string; badge: string }> = {
@@ -30,17 +29,15 @@ export default function LandingPricing() {
 
         <div className="bg-white rounded-2xl p-4 lg:p-5 border-2 border-gray-200 mb-6 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <div>
-            <p className="font-black text-gray-800 text-base">🆓 Dùng thử {TRIAL_DAYS} ngày miễn phí</p>
-            <p className="text-sm text-gray-600 mt-0.5">
-              {FREE_KIDS} bé · chủ đề đầu tiên mỗi level · 1 bài Phonics · AI {AI_DAILY_LIMIT.trial} lần/ngày · không cần thẻ
-            </p>
+            <p className="font-black text-gray-800 text-base">🆓 Mọi tài khoản mới đều bắt đầu với {TRIAL_DAYS} ngày dùng thử miễn phí</p>
+            <p className="text-sm text-gray-600 mt-0.5">{TRIAL_SUMMARY}</p>
           </div>
           <Link href="/register" className={`flex-shrink-0 text-center bg-white border-2 border-b-[4px] border-gray-200 text-gray-700 font-black text-sm px-4 py-2.5 rounded-xl hover:border-gray-300 transition-colors ${FOCUS_RING}`}>
             Thử miễn phí →
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-3 items-stretch gap-5 pt-3">
           {PAID_PLANS.map(p => {
             const l = LOOK[p.key]
             return (
@@ -49,8 +46,12 @@ export default function LandingPricing() {
                   <span className={`absolute -top-3 left-1/2 -translate-x-1/2 text-xs lg:text-sm font-black px-2.5 py-0.5 rounded-full whitespace-nowrap shadow ${l.badge}`}>{p.badge}</span>
                 )}
                 <p className={`text-sm font-black uppercase tracking-wide mt-1 ${l.label}`}>{p.label}</p>
-                <p className={`text-3xl font-black mt-1 leading-none ${l.price}`}>{kVnd(p.amount)}</p>
-                <p className={`text-sm mt-1 mb-3 ${l.sub}`}>{perMonth(p)}/tháng{p.savingPct ? ` · tiết kiệm ${p.savingPct}%` : ''}</p>
+                <p className={`text-sm font-semibold ${l.sub}`}>{p.tagline}</p>
+                <p className={`text-3xl font-black mt-2 leading-none ${l.price}`}>{kVnd(p.amount)}</p>
+                {/* Price per day is the selling point of the longer plans */}
+                <p className={`text-sm mt-1.5 mb-3 ${p.savingPct ? 'font-black' : ''} ${l.sub}`}>
+                  ≈ {perDay(p)}/ngày{p.savingPct ? ` · tiết kiệm ${p.savingPct}%` : ''}
+                </p>
                 <ul className={`text-sm space-y-1.5 flex-1 leading-snug ${l.list}`}>
                   {PLAN_PERKS[p.key].map(x => <li key={x}>{x}</li>)}
                 </ul>
@@ -62,9 +63,9 @@ export default function LandingPricing() {
         </div>
 
         <div className="mt-5 bg-purple-50 rounded-2xl p-4 lg:p-5">
-          <p className="text-sm font-black text-purple-700 mb-2">Mọi gói Pro đều có:</p>
+          <p className="text-sm font-black text-purple-700 mb-2">Mọi gói Pro đều có trọn nội dung, thêm:</p>
           <ul className="flex flex-wrap gap-2">
-            {PRO_INCLUDES.map(f => (
+            {ALL_PLANS_INCLUDE.map(f => (
               <li key={f} className="text-xs md:text-sm font-bold text-purple-700 bg-white px-2.5 py-1 rounded-lg border border-purple-100">{f}</li>
             ))}
           </ul>

@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import { getSession } from '@/lib/auth'
 import { getFamilyProfile } from '@/lib/security'
 import { getAISpeakLimit } from '@/lib/planUtils'
-import { checkAndIncrementAISpeakUsage } from '@/lib/rateLimit'
+import { consumeAIQuota } from '@/lib/aiQuota'
 
 function normalize(s: string) {
   return s.toLowerCase().replace(/[^a-z0-9 ]/g, '').trim()
@@ -87,14 +87,11 @@ export async function POST(req: NextRequest) {
   if (session.familyId !== 'superadmin') {
     const profile = await getFamilyProfile(session.familyId)
     const aiLimit = profile ? getAISpeakLimit(profile) : 0
-    if (aiLimit !== null) {
-      const allowed = await checkAndIncrementAISpeakUsage(session.familyId, aiLimit)
-      if (!allowed) {
-        return NextResponse.json(
-          { error: 'Daily AI Speak limit reached. Upgrade to Pro for more.' },
-          { status: 429 },
-        )
-      }
+    if (!(await consumeAIQuota('speak', req, session.familyId, aiLimit))) {
+      return NextResponse.json(
+        { error: 'Daily AI Speak limit reached. Upgrade to Pro for more.' },
+        { status: 429 },
+      )
     }
   }
 

@@ -22,10 +22,12 @@ export async function POST(req: NextRequest) {
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
-  // Push notification is a Pro-only perk — checked fresh from DB, not the JWT's cached plan.
+  // Study reminders: Pro and the 7-day trial (they help a new child build the habit). Checked fresh
+  // from DB, not the JWT's cached plan.
   const profile = await getFamilyProfile(session.familyId)
   if (!profile) return NextResponse.json({ error: 'Account not found' }, { status: 404 })
-  if (!getEffectivePlan(profile).isProActive) {
+  const { isProActive, isTrialActive } = getEffectivePlan(profile)
+  if (!isProActive && !isTrialActive) {
     return NextResponse.json({ error: 'Pro plan required for push notifications.' }, { status: 403 })
   }
 

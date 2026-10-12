@@ -19,9 +19,11 @@
 | Plan | Giá | Bé | Gating đặc biệt |
 |---|---|---|---|
 | Free | 0đ | 1 | 7 ngày trial (xem bảng Feature Gating) |
-| Pro 1 tháng | 59.000đ | 2 | AI Speak 40/ngày · email thủ công |
-| Pro 3 tháng | 159.000đ | 3 | AI Speak ∞ · Word Stress · email auto tuần |
-| Pro 6 tháng | 299.000đ | 3 | + Monthly recap · Gift Pro 14 ngày |
+| Pro 1 tháng | 59.000đ | 1 | AI 40/ngày/bé |
+| Pro 3 tháng | 159.000đ | 2 | AI ∞ (trần ngầm 300/ngày/bé) |
+| Pro 6 tháng | 299.000đ | 3 | AI ∞ · Gift Pro 14 ngày |
+
+Từ 12/10/2026: các gói chỉ khác nhau ở **giá/ngày, số bé, hạn mức AI** (+ gift cho 6T). Nội dung (cả Word Stress), tiến độ, email báo cáo tuần + tháng, nhắc học giống nhau ở mọi gói Pro. Số bé chặn tự động bằng `getMaxKids()` (`families.max_kids` = ngoại lệ do admin đặt). Hạn mức AI tính **theo từng bé** (`lib/aiQuota.ts`, cookie `vw_child` do `ChildMascotProvider` đặt, server kiểm tra bé thuộc gia đình).
 
 Payment: chuyển khoản thủ công → admin kích hoạt qua Superadmin UI.
 **Giá + hạn mức hiển thị — nguồn duy nhất `lib/plans.ts`** (giá, số bé, quota AI 10/40, cap 20 từ). `planUtils.ts` enforce bằng các hằng này; landing (`lib/landingContent.ts`), `UpgradeModal`, JSON-LD offers ở `app/layout.tsx` đều đọc từ đây — đổi giá/quota chỉ sửa 1 chỗ.
@@ -37,15 +39,17 @@ Trial 7 ngày **không** phải reverse-trial toàn phần — chỉ mở đúng
 | Revision test (Daily r01 / Academic rev1) | 1 đầu tiên | 0 (khoá) | ✅ Full | ✅ Full | ✅ Full |
 | Phonics IPA | 1 bài (vowels-short idx 0) | 0 (khoá) | ✅ Full | ✅ Full | ✅ Full |
 | Level Test / Module Test | ❌ | ❌ | ✅ | ✅ | ✅ |
-| Word Stress | ❌ | ❌ | ❌ | ✅ | ✅ |
+| Word Stress | ❌ | ❌ | ✅ | ✅ | ✅ |
 | My Words | 20 từ | 20 từ | ✅ ∞ | ✅ ∞ | ✅ ∞ |
 | SRS ôn từ yếu | 20 từ | 20 từ | ✅ ∞ | ✅ ∞ | ✅ ∞ |
-| AI Speak | 10/ngày | 0 | 40/ngày | ∞ | ∞ |
-| AI text-helper (explain/hint/grammar-note/generate-exercises, 1 pool chung) | 10/ngày | 0 | 40/ngày | ∞ | ∞ |
-| Push notification | ❌ | ❌ | ✅ | ✅ | ✅ |
-| Email report | ❌ | ❌ | Thủ công | Auto tuần | Auto tuần |
-| Monthly recap | ❌ | ❌ | ❌ | ❌ | ✅ |
+| AI Speak (mỗi bé) | 20/ngày | 0 | 40/ngày | ∞* | ∞* |
+| AI text-helper (explain/hint/grammar-note/generate-exercises/sentence-check, 1 pool/bé) | 10/ngày | 0 | 40/ngày | ∞* | ∞* |
+| Push notification | ✅ | ❌ | ✅ | ✅ | ✅ |
+| Email report tuần (auto) | ❌ | ❌ | ✅ | ✅ | ✅ |
+| Monthly recap | ❌ | ❌ | ✅ | ✅ | ✅ |
 | Gift Pro 14 ngày | ❌ | ❌ | ❌ | ❌ | ✅ |
+
+\* "∞" = `AI_FAIR_USE_CAP` (300/ngày/bé) ngầm trong `consumeAIQuota()`.
 
 Gate helpers (`lib/planUtils.ts`): `getPlanTier()`, `getEffectivePlan()`, `canAccessPhonicsLesson()`, `canAccessWordStress()`, `getMyWordsLimit()`, `getSRSLimit()`, `getKidsTopicLimit()`, `getAcademicTopicLimit()`, `getRevisionLimit()`, `getAISpeakLimit()`, `getAITextLimit()`. ⚠️ `canAccessMyWords()`/`canAccessSRS()` luôn `true` — limit thật nằm ở `getMyWordsLimit()`/`getSRSLimit()`, tên hàm dễ gây hiểu lầm.
 

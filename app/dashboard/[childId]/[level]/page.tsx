@@ -49,11 +49,11 @@ function UpsellModal({ onClose, username }: { onClose: () => void; username: str
         <div className="text-5xl mb-3">🔓</div>
         <h2 className="text-xl font-bold text-gray-800 mb-2">Mở khóa tất cả chủ đề</h2>
         <p className="text-gray-500 text-sm mb-5">
-          Gói Free chỉ học được <strong>1 chủ đề đầu tiên</strong> của mỗi level. Nâng cấp Pro để mở khóa toàn bộ 30 chủ đề × 6 levels và tối đa 3 bé.
+          Gói Free chỉ học được <strong>1 chủ đề đầu tiên</strong> của mỗi level. Nâng cấp Pro để mở khóa toàn bộ 30 chủ đề × 6 levels.
         </p>
         <div className="bg-gradient-to-r from-purple-50 to-blue-50 rounded-2xl p-4 mb-5 text-left space-y-1.5">
           <p className="text-sm font-semibold text-gray-700">✅ Toàn bộ 30 chủ đề × 6 levels</p>
-          <p className="text-sm font-semibold text-gray-700">✅ Tối đa 3 hồ sơ bé</p>
+          <p className="text-sm font-semibold text-gray-700">✅ Theo dõi tiến độ & báo cáo email</p>
           <p className="text-sm font-semibold text-gray-700">✅ Tất cả trò chơi & AI phát âm</p>
         </div>
         <button onClick={() => setShowPayment(true)}

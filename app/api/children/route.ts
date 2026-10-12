@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import { supabase } from '@/lib/supabaseServer'
 import { getSession } from '@/lib/auth'
 import { isMascotCharacter } from '@/lib/mascots'
+import { getEffectivePlan, getMaxKids } from '@/lib/planUtils'
 
 // GET /api/children — list children for current family (includes streak data)
 export async function GET(req: NextRequest) {
@@ -45,17 +46,13 @@ export async function GET(req: NextRequest) {
   return NextResponse.json(result, { headers: { 'Cache-Control': 'no-store' } })
 }
 
-async function getEffectiveMaxKids(familyId: string, plan: string): Promise<{ maxKids: number; isEffectivelyPro: boolean }> {
-  const [{ data: family }, { data: configs }] = await Promise.all([
-    supabase.from('families').select('max_kids, bonus_pro_expires_at').eq('id', familyId).single(),
-    supabase.from('admin_config').select('key, value'),
-  ])
-  const configMap: Record<string, number> = {}
-  for (const row of configs ?? []) configMap[row.key] = parseInt(row.value)
-  const isBonusProActive = !!family?.bonus_pro_expires_at && new Date(family.bonus_pro_expires_at) > new Date()
-  const isEffectivelyPro = plan !== 'free' || isBonusProActive
-  const globalDefault = isEffectivelyPro ? (configMap.pro_max_kids ?? 3) : (configMap.free_max_kids ?? 1)
-  return { maxKids: family?.max_kids ?? globalDefault, isEffectivelyPro }
+async function getEffectiveMaxKids(familyId: string): Promise<{ maxKids: number; isEffectivelyPro: boolean }> {
+  const { data: family } = await supabase
+    .from('families')
+    .select('plan, plan_end_date, free_trial_expires_at, bonus_pro_expires_at, bonus_features, max_kids')
+    .eq('id', familyId).single()
+  if (!family) return { maxKids: 0, isEffectivelyPro: false }
+  return { maxKids: getMaxKids(family), isEffectivelyPro: getEffectivePlan(family).isProActive }
 }
 
 // POST /api/children — add a child
@@ -65,11 +62,11 @@ export async function POST(req: NextRequest) {
 
   const [{ count }, { maxKids, isEffectivelyPro }] = await Promise.all([
     supabase.from('children').select('id', { count: 'exact', head: true }).eq('family_id', session.familyId),
-    getEffectiveMaxKids(session.familyId, session.plan),
+    getEffectiveMaxKids(session.familyId),
   ])
   if ((count ?? 0) >= maxKids) {
     return NextResponse.json({
-      error: `Tài khoản ${isEffectivelyPro ? 'Pro' : 'Free'} chỉ được tối đa ${maxKids} hồ sơ bé.${!isEffectivelyPro ? ' Nâng cấp để thêm thêm bé.' : ''}`,
+      error: `Gói hiện tại cho tối đa ${maxKids} hồ sơ bé.${isEffectivelyPro ? ' Gói 3 tháng: 2 bé · 6 tháng: 3 bé.' : ' Nâng cấp Pro để thêm bé.'}`,
     }, { status: 403 })
   }
 

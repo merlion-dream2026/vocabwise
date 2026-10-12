@@ -98,7 +98,7 @@ const jsonLd = {
         { '@type': 'Offer', name: `Dùng thử ${TRIAL_DAYS} ngày`, price: '0', priceCurrency: 'VND',
           description: `${FREE_KIDS} hồ sơ bé, 1 chủ đề đầu mỗi level/book, 1 bài Phonics` },
         ...PAID_PLANS.map(p => ({ '@type': 'Offer', name: `Pro ${p.label}`, price: String(p.amount), priceCurrency: 'VND',
-          description: PLAN_PERKS[p.key].map(x => x.replace(/^\S+ /, '')).join(', ') })),
+          description: `${p.tagline}: ${PLAN_PERKS[p.key].filter(x => !x.startsWith('✨')).map(x => x.replace(/^\S+ /, '')).join(', ')}` })),
       ],
       screenshot: `${APP_URL}/opengraph-image`,
       author: { '@id': `${APP_URL}/#org` },

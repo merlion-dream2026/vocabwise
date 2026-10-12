@@ -1,20 +1,18 @@
 import { NextResponse } from 'next/server'
 import { supabase } from '@/lib/supabaseServer'
 import { getSession, createSession, sessionCookieOptions, clearSessionCookie } from '@/lib/auth'
+import { getMaxKids } from '@/lib/planUtils'
 
 // Re-reads plan + disabled from DB, re-issues JWT if changed.
 export async function POST() {
   const session = await getSession()
   if (!session) return NextResponse.json(null)
 
-  const [{ data: family }, { data: configs }] = await Promise.all([
-    supabase
-      .from('families')
-      .select('username, plan, disabled, free_trial_expires_at, plan_end_date, plan_start_date, max_kids, bonus_pro_expires_at, session_version')
-      .eq('id', session.familyId)
-      .single(),
-    supabase.from('admin_config').select('key, value'),
-  ])
+  const { data: family } = await supabase
+    .from('families')
+    .select('username, plan, disabled, free_trial_expires_at, plan_end_date, plan_start_date, max_kids, bonus_pro_expires_at, session_version')
+    .eq('id', session.familyId)
+    .single()
 
   if (!family) return NextResponse.json(null)
 
@@ -24,9 +22,6 @@ export async function POST() {
     return res
   }
 
-  const configMap: Record<string, number> = {}
-  for (const row of configs ?? []) configMap[row.key] = parseInt(row.value)
-  const globalDefault = family.plan === 'free' ? (configMap.free_max_kids ?? 1) : (configMap.pro_max_kids ?? 3)
 
   const payload = {
     familyId: session.familyId,
@@ -36,7 +31,7 @@ export async function POST() {
     plan_end_date: family.plan_end_date ?? null,
     plan_start_date: family.plan_start_date ?? null,
     bonus_pro_expires_at: family.bonus_pro_expires_at ?? null,
-    max_kids: family.max_kids ?? globalDefault,
+    max_kids: getMaxKids(family),
   }
 
   // If plan changed, issue new JWT

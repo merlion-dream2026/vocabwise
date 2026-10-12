@@ -6,7 +6,7 @@ import { VN_DAYS } from '../../_utils'
 
 const DEFAULT_REPORT: ReportSettings = { enabled: false, schedule: 'manual', day: 1, monthly_recap: false }
 
-export function ReportSettingsContent({ plan }: { plan: string }) {
+export function ReportSettingsContent({ isPro }: { isPro: boolean }) {
   const [settings, setSettings] = useState<ReportSettings>(DEFAULT_REPORT)
   const [loaded, setLoaded] = useState(false)
   const [saving, setSaving] = useState(false)
@@ -42,6 +42,11 @@ export function ReportSettingsContent({ plan }: { plan: string }) {
 
   if (!loaded) return null
 
+  // Automatic weekly/monthly emails are a Pro feature (the server rejects them otherwise).
+  if (!isPro) {
+    return <p className="text-sm text-gray-600">Báo cáo tuần và tổng kết tháng gửi tự động qua email có ở mọi gói Pro.</p>
+  }
+
   return (
     <>
       {/* Toggle */}
@@ -68,12 +73,12 @@ export function ReportSettingsContent({ plan }: { plan: string }) {
         </div>
       )}
 
-      {/* Monthly recap — Pro 6m exclusive */}
-      {plan === '6months' && (
+      {/* Monthly recap — every Pro plan */}
+      {(
         <div className="flex items-center justify-between mt-4 pt-4 border-t border-gray-100">
           <div>
             <span className="text-sm font-bold text-gray-700">Tổng kết hàng tháng</span>
-            <p className="text-xs text-gray-400 mt-0.5">Gửi ngày 1 mỗi tháng · độc quyền Pro 6 tháng</p>
+            <p className="text-xs text-gray-500 mt-0.5">Gửi ngày 1 mỗi tháng</p>
           </div>
           <button
             onClick={() => setSettings(s => ({ ...s, monthly_recap: !s.monthly_recap }))}

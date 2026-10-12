@@ -235,7 +235,7 @@ export function SettingsTab({ kids, session, onChildrenRefresh }: { kids: Child[
 
       {/* Report settings */}
       <CollapsibleCard title="📬 Báo cáo qua email" subtitle="Nhận báo cáo tiến độ học của bé qua email." defaultOpen={false}>
-        <ReportSettingsContent plan={session.plan} />
+        <ReportSettingsContent isPro={isPro} />
       </CollapsibleCard>
 
       {/* Gift token — Pro 6m exclusive */}

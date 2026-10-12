@@ -1,7 +1,7 @@
 // Features that can be manually granted to individual users
 export const BONUS_FEATURES = [
   { key: 'phonics_full',       icon: '🔤', label: 'Phonics đầy đủ',   desc: 'Tất cả bài Phonics (mặc định Free chỉ 1 bài)' },
-  { key: 'word_stress',        icon: '📢', label: 'Word Stress',        desc: 'Module trọng âm (thường cần Pro 3T+)' },
+  { key: 'word_stress',        icon: '📢', label: 'Word Stress',        desc: 'Module trọng âm (mặc định: mọi gói Pro)' },
   { key: 'my_words',           icon: '⭐', label: 'My Words',           desc: 'Lưu & quản lý từ vựng cá nhân' },
   { key: 'srs',                icon: '📅', label: 'SRS ôn từ',         desc: 'Ôn tập từ yếu theo lịch' },
   { key: 'kids_full',          icon: '📖', label: 'Daily đầy đủ',      desc: 'Tất cả 180 chủ đề Daily' },

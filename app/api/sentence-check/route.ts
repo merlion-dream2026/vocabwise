@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 import { getSession } from '@/lib/auth'
 import { getFamilyProfile } from '@/lib/security'
 import { getAITextLimit } from '@/lib/planUtils'
-import { checkAndIncrementAITextUsage } from '@/lib/rateLimit'
+import { consumeAIQuota } from '@/lib/aiQuota'
 import { aiChat } from '@/lib/aiChat'
 
 // Daily's "✍️ Đặt câu cùng AI" game — grades a learner's own free-form sentence for a
@@ -19,7 +19,7 @@ export async function POST(req: NextRequest) {
   if (session.familyId !== 'superadmin') {
     const profile = await getFamilyProfile(session.familyId)
     const aiLimit = profile ? getAITextLimit(profile) : 0
-    if (aiLimit !== null && !(await checkAndIncrementAITextUsage(session.familyId, aiLimit))) {
+    if (!(await consumeAIQuota('text', req, session.familyId, aiLimit))) {
       return NextResponse.json({ error: 'Đã đạt giới hạn dùng AI hôm nay. Vui lòng thử lại vào ngày mai.' }, { status: 429 })
     }
   }
