@@ -5,7 +5,7 @@ import PinGate from '@/components/PinGate'
 import { vnDate } from '@/lib/vnDate'
 import UpgradeBanner from '@/components/UpgradeBanner'
 import { clearNavState } from '@/components/BottomNav'
-import { useExpiryGuard, daysUntilExpiry } from '@/lib/useExpiryGuard'
+import { daysUntilExpiry } from '@/lib/useExpiryGuard'
 import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
 import {
@@ -66,7 +66,6 @@ export default function HomePage() {
 
   const [syncMap, setSyncMap] = useState<Record<string, SyncAllLevels>>({})
 
-  useExpiryGuard(session)
 
   async function logout() {
     await fetch('/api/auth/logout', { method: 'POST' })
@@ -212,8 +211,9 @@ export default function HomePage() {
           <div className="w-full max-w-sm mb-4 bg-orange-50 border-2 border-orange-200 rounded-2xl px-4 py-2.5 flex items-center gap-2.5 shadow-sm">
             <span className="text-xl flex-shrink-0">⏰</span>
             <p className="text-orange-700 text-xs font-bold leading-snug">
-              {d <= 0 ? 'Tài khoản đã hết hạn!' : `Tài khoản hết hạn sau ${d} ngày!`}
-              {' '}Vào <strong>Phụ huynh</strong> để gia hạn.
+              {d <= 0
+                ? <>Tài khoản đã hết hạn: bé vẫn xem được sticker và huy hiệu, phần học tạm khoá. Vào <strong>Phụ huynh</strong> để gia hạn.</>
+                : <>Tài khoản hết hạn sau {d} ngày! Vào <strong>Phụ huynh</strong> để gia hạn.</>}
             </p>
           </div>
         )

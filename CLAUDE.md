@@ -30,7 +30,7 @@ Payment: chuyển khoản thủ công → admin kích hoạt qua Superadmin UI.
 
 ## Feature Gating — nguồn duy nhất: `lib/planUtils.ts`
 
-Trial 7 ngày **không** phải reverse-trial toàn phần — chỉ mở đúng vài mục bên dưới (preview), các mục khác giữ nguyên mức Free ngay từ ngày 1. Hết 7 ngày mà chưa nâng cấp: 3 mục preview (topic/revision/Phonics/AI Speak) khoá về **0** — chặt hơn cả giai đoạn trial, chống scrape nội dung bằng tài khoản free lặp lại.
+Trial 7 ngày **không** phải reverse-trial toàn phần — chỉ mở đúng vài mục bên dưới (preview), các mục khác giữ nguyên mức Free ngay từ ngày 1. Hết 7 ngày mà chưa nâng cấp: 3 mục preview (topic/revision/Phonics/AI Speak) khoá về **0** — chặt hơn cả giai đoạn trial, chống scrape nội dung bằng tài khoản free lặp lại. **Hết hạn (trial hoặc Pro) = chỉ xem, không bị chặn đăng nhập** (từ 12/10/2026): login trả `expired: true` và đưa về `/dashboard`; tiến độ, sticker, huy hiệu vẫn xem được, mọi API nội dung tự khoá theo plan trong DB; `/expired` chỉ còn redirect.
 
 | Tính năng | Trial 7 ngày | Free (hết trial) | Pro 1T | Pro 3T | Pro 6T |
 |---|---|---|---|---|---|

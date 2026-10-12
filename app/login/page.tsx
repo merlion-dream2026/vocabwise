@@ -77,7 +77,8 @@ function LoginForm() {
       // until the route change actually happens (router.push resolves
       // before the navigation completes, so resetting here caused the
       // button to flash back to "Đăng nhập" while /kids was still loading).
-      router.push(redirect)
+      // Expired accounts are read-only: start on the parent dashboard (progress + renew), not the learning flow.
+      router.push(data.expired ? '/dashboard' : redirect)
     } catch {
       setError('Lỗi kết nối, thử lại nhé')
       setLoading(false)

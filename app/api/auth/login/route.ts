@@ -128,9 +128,9 @@ export async function POST(req: NextRequest) {
     }
   }
 
-  if (isExpired(family.plan, family.free_trial_expires_at, family.plan_end_date, family.bonus_pro_expires_at)) {
-    return NextResponse.json({ error: 'expired', expired: true }, { status: 403 })
-  }
+  // Expired trial/Pro still signs in (read-only): every content API gates by the plan in the DB, so the
+  // family can only look at progress, stickers and badges until they renew. The client lands them on /dashboard.
+  const expired = isExpired(family.plan, family.free_trial_expires_at, family.plan_end_date, family.bonus_pro_expires_at)
 
   const token = await createSession({
     familyId: family.id,
@@ -139,7 +139,7 @@ export async function POST(req: NextRequest) {
     sv: family.session_version ?? 0,
   })
 
-  const res = NextResponse.json({ ok: true, username: family.username, plan: family.plan })
+  const res = NextResponse.json({ ok: true, username: family.username, plan: family.plan, expired })
   res.cookies.set(sessionCookieOptions(token))
   return res
 }

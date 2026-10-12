@@ -1,6 +1,4 @@
-'use client'
-import { useEffect } from 'react'
-import { useRouter } from 'next/navigation'
+// Expiry helpers. Expired accounts are read-only (no redirect): content APIs gate by plan, screens show a renew banner.
 
 type Session = {
   plan: string
@@ -36,13 +34,3 @@ export function daysUntilExpiry(session: Session): number | null {
   return Math.ceil((best - now) / 86400000)
 }
 
-export function useExpiryGuard(session: Session | null) {
-  const router = useRouter()
-
-  useEffect(() => {
-    if (!session) return
-    if (!isAccountExpired(session)) return
-
-    router.push('/expired')
-  }, [session, router])
-}
