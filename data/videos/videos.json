@@ -541,12 +541,6 @@
  ],
  "daily/seeker/common-tech": [
   {
-   "id": "PL_-z497Q-o",
-   "title": "IELTS & TOEFL Vocabulary - Technology",
-   "channel": "English with Emma · engVid",
-   "sec": 713
-  },
-  {
    "id": "difvQyWFmxw",
    "title": "Technology I - Vocabulary for Kids - Laptop, monitor, mouse, speakers, webcam, microphone...",
    "channel": "Smile and Learn - English",
@@ -1207,16 +1201,16 @@
    "sec": 439
   },
   {
-   "id": "IMZoaNejsok",
-   "title": "English TRAVEL Vocabulary: Useful Words & Phrases (Speak Like a Native Speaker When Travelling)",
-   "channel": "English At The Ready",
-   "sec": 532
-  },
-  {
    "id": "7QBA_lFMvHg",
    "title": "Anna and her first trip - Stories for kids",
    "channel": "Smile and Learn - English",
    "sec": 250
+  },
+  {
+   "id": "3EUyY4JTIXw",
+   "title": "Travel Vocabulary for Kids- Travel Vocabulary with Pictures | Junior Learning Center",
+   "channel": "Junior Learning Center",
+   "sec": 81
   }
  ],
  "daily/ranger/school-subjects": [
@@ -1247,16 +1241,16 @@
    "sec": 269
   },
   {
-   "id": "HAinuR8WfXA",
-   "title": "Foods Vocabulary Chant for Kindergarten Children | Fun Kids English",
-   "channel": "Fun Kids English",
-   "sec": 200
+   "id": "by1QAoRcc-U",
+   "title": "Ch.1 Hello | Ch.2 How are you? | Basic English Conversation Practice for Kids",
+   "channel": "LucyMax English",
+   "sec": 523
   },
   {
-   "id": "N1o4oOXLOZc",
-   "title": "Hobbies and Interests [Kids Vocab] What Do You Like doing? 🎨⚽ Fun Hobbies",
-   "channel": "English Singsing",
-   "sec": 267
+   "id": "p7PKQQNijhI",
+   "title": "English Speaking Practice for Kids | Daily Conversations with Mom & Child | Learn English Easily",
+   "channel": "This Story English",
+   "sec": 625
   }
  ],
  "daily/ranger/hobbies": [
@@ -1387,16 +1381,22 @@
    "sec": 209
   },
   {
-   "id": "ibjUpk9Iagk",
-   "title": "The history of chocolate - Deanna Pucciarelli",
-   "channel": "TED-Ed",
-   "sec": 281
+   "id": "tk54tybepac",
+   "title": "Countries of the World - Nations Vocabulary for Kids",
+   "channel": "ELF Kids Videos",
+   "sec": 130
   },
   {
-   "id": "hqzvHfy-Ij0",
-   "title": "Twinkle Twinkle Little Star | @CoComelon Nursery Rhymes & Kids Songs",
-   "channel": "Cocomelon - Nursery Rhymes",
-   "sec": 196
+   "id": "472AnCrHYVs",
+   "title": "Hello Around the World | Say Hello in 15 Different Languages | Explore World Song | JunyTony",
+   "channel": "JunyTony - Kids Songs & Stories",
+   "sec": 111
+  },
+  {
+   "id": "eWXZ7-_o_R4",
+   "title": "COUNTRIES of the World for Kids - Learn Continents, Countries Map, Names and Flags",
+   "channel": "Happy Okapi",
+   "sec": 443
   }
  ],
  "daily/ranger/describing-places": [
@@ -1441,22 +1441,22 @@
  ],
  "daily/ranger/friendship-relations": [
   {
-   "id": "zNLRiB-qOAs",
-   "title": "Family Tree Chart | Useful Family Relationship Chart | Family Words in English",
-   "channel": "7ESL Learning English",
-   "sec": 382
+   "id": "AT8qLCmseuE",
+   "title": "This Is The Way We Make Friends | Kids Songs | Super Simple Songs",
+   "channel": "Super Simple Songs - Kids Songs",
+   "sec": 122
   },
   {
-   "id": "kXv1OpITtdA",
-   "title": "English Vocabulary Relationships | 5 Types Of Modern Relationships | Gen Z Vocabulary | Ananya",
-   "channel": "Learn English | Let's Talk - Free English Lessons",
-   "sec": 60
+   "id": "bVCKj0T9-gc",
+   "title": "Friends Song | Verbs Song for Kids | The Singing Walrus",
+   "channel": "The Singing Walrus - English Songs For Kids",
+   "sec": 188
   },
   {
-   "id": "eVhJoFIZEMc",
-   "title": "Healthy Friendships and Relationships [Student Wellbeing]",
-   "channel": "Muse Wellbeing",
-   "sec": 75
+   "id": "T9KojAOtT6c",
+   "title": "Friendship Song for Kids 🖐️ | Kindergarten & Elementary Dance | A Friend Like You 💌[Printable Below]",
+   "channel": "Oliver’s Melody Club - Interactive Classroom Songs",
+   "sec": 182
   }
  ],
  "daily/ranger/simple-science": [
@@ -1511,12 +1511,6 @@
    "title": "Parts of Computer | Computer Class 1 | Learn Computer Parts |",
    "channel": "Blueprint Digital",
    "sec": 263
-  },
-  {
-   "id": "bixR-KIJKYM",
-   "title": "Digital Marketing In 5 Minutes | What Is Digital Marketing? | Learn Digital Marketing | Simplilearn",
-   "channel": "Simplilearn",
-   "sec": 325
   }
  ],
  "daily/ranger/travel-transport": [
@@ -1791,12 +1785,1508 @@
    "title": "Social media basics",
    "channel": "Digital Garage",
    "sec": 374
+  }
+ ],
+ "daily/explorer/science": [
+  {
+   "id": "TgpNRWlFpCE",
+   "title": "5 ways to build your vocabulary!",
+   "channel": "BBC Learning English",
+   "sec": 61
   },
   {
-   "id": "CxsVfeCDmXw",
-   "title": "Social Media Basics, Advertising Online and Content Marketing for 2020",
-   "channel": "Medley Inc.",
-   "sec": 81
+   "id": "j0AlzkSrIfo",
+   "title": "Learn Scientific English Vocabulary used in daily English conversations | Improve your English",
+   "channel": "Learn English | Let's Talk - Free English Lessons",
+   "sec": 816
+  },
+  {
+   "id": "9WbT4ofQq6I",
+   "title": "English Vocabulary - SCIENCE TOOLS",
+   "channel": "Club James Studios - English Speaking Videos",
+   "sec": 91
+  }
+ ],
+ "daily/explorer/technology": [
+  {
+   "id": "RTAwB-5Fv48",
+   "title": "💻 Technology: Phrasal verbs with Georgie",
+   "channel": "BBC Learning English",
+   "sec": 183
+  },
+  {
+   "id": "difvQyWFmxw",
+   "title": "Technology I - Vocabulary for Kids - Laptop, monitor, mouse, speakers, webcam, microphone...",
+   "channel": "Smile and Learn - English",
+   "sec": 245
+  }
+ ],
+ "daily/explorer/heroes": [
+  {
+   "id": "kSG9QkdH8yE",
+   "title": "20 Superhero names for kids pre learning Video | Marvel Heroes | Fun learning | Superhero video kids",
+   "channel": "Chuchu Class ",
+   "sec": 249
+  },
+  {
+   "id": "HOnaepanIDg",
+   "title": "david bowie - Heroes (lyrics)",
+   "channel": "Wind Music",
+   "sec": 372
+  },
+  {
+   "id": "Qyij4nxzhAI",
+   "title": "Heroes (From \"My Hero Academia\")",
+   "channel": "NateWantsToBattle - Topic",
+   "sec": 90
+  }
+ ],
+ "daily/explorer/laboratory": [
+  {
+   "id": "UAbU2qaAkjY",
+   "title": "Ep. 13 Vocabulary in the science lab",
+   "channel": "Easy English Daily",
+   "sec": 289
+  },
+  {
+   "id": "B-URHF4gGbs",
+   "title": "5 linkers for natural 🗣️ conversation",
+   "channel": "BBC Learning English",
+   "sec": 60
+  },
+  {
+   "id": "ICpIBtDAwrI",
+   "title": "Laboratory Equipment Vocabulary Words List in English",
+   "channel": "7ESL Learning English",
+   "sec": 240
+  }
+ ],
+ "daily/explorer/engineering": [
+  {
+   "id": "Bjx8HpmEkR0",
+   "title": "An English Lesson about Electricity! Learn English Vocabulary about Electricity!",
+   "channel": "Learn English with Bob the Canadian",
+   "sec": 623
+  },
+  {
+   "id": "lkMzvdjhMlI",
+   "title": "English Vocabulary Lesson on Vehicles: Cars, Trucks, and Vans",
+   "channel": "Learn English with Bob the Canadian",
+   "sec": 758
+  }
+ ],
+ "daily/explorer/mission": [
+  {
+   "id": "mAUUNzLAA9M",
+   "title": "Learn English with Real News | NASA Moon Mission (Vocabulary Lesson)",
+   "channel": "Calm & Easy English",
+   "sec": 309
+  },
+  {
+   "id": "E2ejzpN6t38",
+   "title": "Teens Share Impact of Summer Mission Trips | Group Mission Trips",
+   "channel": "Group Mission Trips",
+   "sec": 60
+  },
+  {
+   "id": "vkW_A3RYGNQ",
+   "title": "New Rookie Class Mission, But Familiar Choreo...? | World of Street Woman Fighter (Ep 2)",
+   "channel": "Viu Singapore",
+   "sec": 60
+  }
+ ],
+ "daily/explorer/environment": [
+  {
+   "id": "P7BlpW1KjAU",
+   "title": "Nature Vocabulary and Facts",
+   "channel": "Easy English",
+   "sec": 399
+  },
+  {
+   "id": "qoNRZKgLDhg",
+   "title": "Climate change: Are there too many people? - 6 Minute English",
+   "channel": "BBC Learning English",
+   "sec": 381
+  },
+  {
+   "id": "zo_6cKHS4dk",
+   "title": "15 Words About - Environment + Free Downloadable Exercise Worksheet (for ESL Teachers & Learners)",
+   "channel": "All Things Grammar",
+   "sec": 324
+  }
+ ],
+ "daily/explorer/space": [
+  {
+   "id": "sD1-rS_TM2o",
+   "title": "Solar System  [Kids Vocab] 🚀 8 Planets & Solar System Words for Kids",
+   "channel": "English Singsing",
+   "sec": 205
+  },
+  {
+   "id": "6uxMQyj0Qy4",
+   "title": "30 SPACE Related Vocabulary for Kids - Learn Space Vocabulary for Children",
+   "channel": "Twinkle Moon",
+   "sec": 526
+  },
+  {
+   "id": "JOy-CDFnjWI",
+   "title": "Space Vocabulary || Exploring the Universe",
+   "channel": "InfoZillien",
+   "sec": 736
+  }
+ ],
+ "daily/explorer/communication": [
+  {
+   "id": "m2rabBCqG_k",
+   "title": "B2 Vocabulary | Chapter 4 | Communication, Media & Arts | 37 Essential Words",
+   "channel": "Easy English with Mameow",
+   "sec": 752
+  },
+  {
+   "id": "TgpNRWlFpCE",
+   "title": "5 ways to build your vocabulary!",
+   "channel": "BBC Learning English",
+   "sec": 61
+  },
+  {
+   "id": "6V-iweM62Cw",
+   "title": "Communication: Phrasal Verbs | Phrasal Verbs With Sentences | English Vocabulary",
+   "channel": "Practice Easy English",
+   "sec": 680
+  }
+ ],
+ "daily/explorer/achievement": [
+  {
+   "id": "Io7lKH1kPSE",
+   "title": "News Words: Achievement",
+   "channel": "VOA Learning English",
+   "sec": 61
+  },
+  {
+   "id": "Yr9X4thxQAY",
+   "title": "Today's words and phrases: passion, motivation, collective achievement, inspiration",
+   "channel": "BBC Learning English",
+   "sec": 195
+  },
+  {
+   "id": "oN_fPvyhI4k",
+   "title": "5 Brand New Words Added To The Dictionary In 2025 | Increase English Vocabulary #englishwords",
+   "channel": "Learnex - English lessons through Hindi",
+   "sec": 68
+  }
+ ],
+ "daily/explorer/biology": [
+  {
+   "id": "GMKRBzAnwRA",
+   "title": "ADVANCED MEDICAL VOCABULARY 💊 | Words & Phrases You Should Know",
+   "channel": "JForrest English",
+   "sec": 717
+  },
+  {
+   "id": "E6WAQpRulhA",
+   "title": "Key Ecology Terms | Ecology and Environment | Biology | FuseSchool",
+   "channel": "FuseSchool - Global Education",
+   "sec": 146
+  },
+  {
+   "id": "F5WL2lnTHME",
+   "title": "Test Your Knowledge in BIOLOGY🧪🧬 50 Biology Questions",
+   "channel": "Seriously?",
+   "sec": 645
+  }
+ ],
+ "daily/explorer/history": [
+  {
+   "id": "8IVrBCZpaYY",
+   "title": "POLITICAL VOCABULARY 🇺🇸 Advanced Words & Phrases You Should Know",
+   "channel": "Interactive English",
+   "sec": 895
+  },
+  {
+   "id": "tsvOWRlu7_s",
+   "title": "The history of the English language",
+   "channel": "English with Nab",
+   "sec": 686
+  },
+  {
+   "id": "iSSTv8-2358",
+   "title": "A Short History of the English Language",
+   "channel": "The Generalist Papers",
+   "sec": 572
+  }
+ ],
+ "daily/explorer/economy": [
+  {
+   "id": "vmU1OzFdems",
+   "title": "English Vocabulary: How to talk about the economy",
+   "channel": "Adam’s English Lessons · engVid",
+   "sec": 580
+  }
+ ],
+ "daily/explorer/literature": [
+  {
+   "id": "TgpNRWlFpCE",
+   "title": "5 ways to build your vocabulary!",
+   "channel": "BBC Learning English",
+   "sec": 61
+  },
+  {
+   "id": "awIXN5LgWKY",
+   "title": "The Best Way to Improve Your English Vocabulary",
+   "channel": "EngFluent",
+   "sec": 291
+  }
+ ],
+ "daily/explorer/ai": [
+  {
+   "id": "_zmMl7T8164",
+   "title": "Can AI solve crime? ⏲️ 6 Minute English",
+   "channel": "BBC Learning English",
+   "sec": 380
+  },
+  {
+   "id": "TgpNRWlFpCE",
+   "title": "5 ways to build your vocabulary!",
+   "channel": "BBC Learning English",
+   "sec": 61
+  },
+  {
+   "id": "X255VGkKazg",
+   "title": "Learning English with AI is tempting. Don't do it.",
+   "channel": "English At The Ready",
+   "sec": 539
+  }
+ ],
+ "daily/explorer/law-justice": [
+  {
+   "id": "Pyvw0pOhb3A",
+   "title": "Legal & Law Vocabulary Words with Spoken Sentences | Improve English Vocabulary & Speaking",
+   "channel": "Practice Easy English",
+   "sec": 662
+  },
+  {
+   "id": "uXClK95tZo4",
+   "title": "Top 10 Legal Terms You Need to Know: A Beginner's Guide to Understanding the Law",
+   "channel": "Single Step English",
+   "sec": 450
+  },
+  {
+   "id": "xoodr-bIbVM",
+   "title": "Laws Every Kid Should Know",
+   "channel": "Law By Mike",
+   "sec": 60
+  }
+ ],
+ "daily/explorer/medicine": [
+  {
+   "id": "xYrai87oZyE",
+   "title": "Learn Emergency & First Aid Vocabulary in Simple English | Medical Vocabulary",
+   "channel": "Practice Easy English",
+   "sec": 849
+  },
+  {
+   "id": "GMKRBzAnwRA",
+   "title": "ADVANCED MEDICAL VOCABULARY 💊 | Words & Phrases You Should Know",
+   "channel": "JForrest English",
+   "sec": 717
+  },
+  {
+   "id": "bLS8BFBxy7A",
+   "title": "Medical Vocabulary for English Learners",
+   "channel": "English with Emma · engVid",
+   "sec": 763
+  }
+ ],
+ "daily/explorer/geography": [
+  {
+   "id": "QTvAtf7j8Nw",
+   "title": "Geography Vocabulary 🌍| Easy English for Beginners | Nature & Landforms Vocabulary",
+   "channel": "Easy English with Lee",
+   "sec": 398
+  },
+  {
+   "id": "pkjJsYsy5cA",
+   "title": "Geography [Kids Vocab] Exploring Our World 🌍 Fun Geography Words for Kids",
+   "channel": "English Singsing",
+   "sec": 264
+  },
+  {
+   "id": "il_ZKRArpfo",
+   "title": "Kids vocabulary - Geography - Easy English for Kids",
+   "channel": "Little Biff - Easy English for Kids",
+   "sec": 252
+  }
+ ],
+ "daily/explorer/nutrition": [
+  {
+   "id": "tZ-Pbwdqlt0",
+   "title": "Can diet improve memory? BBC News Review",
+   "channel": "BBC Learning English",
+   "sec": 386
+  },
+  {
+   "id": "JA1yGD6x2d8",
+   "title": "Food and Nutrition Trivia Quiz #1 💪- Test Your Knowledge in 5 Seconds",
+   "channel": "Quizzes Forever",
+   "sec": 334
+  },
+  {
+   "id": "TlXZeu0kjFY",
+   "title": "Introduction, Overview of Nutrients - Nutrition Essentials | @LevelUpRN",
+   "channel": "Level Up RN",
+   "sec": 389
+  }
+ ],
+ "daily/explorer/climate-change": [
+  {
+   "id": "A4t-pXH4FBo",
+   "title": "Essential English vocabulary: climate change and COP26",
+   "channel": "BBC Learning English",
+   "sec": 123
+  },
+  {
+   "id": "CxX4NWlJr_A",
+   "title": "More Climate Change Vocabulary- Part 2 - Our role in slowing Global Warming",
+   "channel": "Simple English Videos",
+   "sec": 474
+  },
+  {
+   "id": "CXKj7bm4Ops",
+   "title": "Weather [Kids Vocab] ☀️ Learn Weather Words in 5 Minutes",
+   "channel": "English Singsing",
+   "sec": 232
+  }
+ ],
+ "daily/explorer/digital-life": [
+  {
+   "id": "9fJ502AT0so",
+   "title": "B1 Vocabulary | Chapter 4 | Technology & Digital Life | 24 Essential Words",
+   "channel": "Easy English with Mameow",
+   "sec": 271
+  },
+  {
+   "id": "_LElWqXi7Ag",
+   "title": "Digital Literacy – What is digital literacy?",
+   "channel": "BBC Learning English",
+   "sec": 214
+  },
+  {
+   "id": "g8q-Nq-ajx8",
+   "title": "Social media and teenage health ⏲️ 6 Minute English",
+   "channel": "BBC Learning English",
+   "sec": 380
+  }
+ ],
+ "daily/explorer/architecture": [
+  {
+   "id": "WHYMGNbPv2U",
+   "title": "Let's Learn English Around the House and Home | English Video with Subtitles",
+   "channel": "Learn English with Bob the Canadian",
+   "sec": 612
+  },
+  {
+   "id": "l31dAwfYjhI",
+   "title": "Grime: Music from architecture - 6 Minute English",
+   "channel": "BBC Learning English",
+   "sec": 379
+  },
+  {
+   "id": "rPveNM9IqYk",
+   "title": "Architecture 101: The Basics in 10 Minutes",
+   "channel": "BYoung Design",
+   "sec": 692
+  }
+ ],
+ "daily/explorer/music-performance": [
+  {
+   "id": "w-JUNYwstpo",
+   "title": "Learn English with Songs - Perfect Tense - Lyric Lab",
+   "channel": "Learn English with EnglishClass101.com",
+   "sec": 291
+  },
+  {
+   "id": "BnyDBKepZiQ",
+   "title": "Irregular Verbs - Part 1 (B1) - Learn English With Songs",
+   "channel": "Learn English with Songs",
+   "sec": 287
+  },
+  {
+   "id": "sL54_in4bOA",
+   "title": "Learn English music vocabulary",
+   "channel": "Learn English with Cambridge",
+   "sec": 236
+  }
+ ],
+ "daily/explorer/sports-competition": [
+  {
+   "id": "4TLCGGRWnCI",
+   "title": "Tokyo 2020 Olympic Sports [Kids Vocab] Go for Gold! 🏅 Fun Sports & Games",
+   "channel": "English Singsing",
+   "sec": 512
+  },
+  {
+   "id": "nUGX9zQg2rs",
+   "title": "Olympic Sports  [Kids Vocab] Let's Play Sports! ⚽ Fun Olympic Games & Sports",
+   "channel": "English Singsing",
+   "sec": 411
+  },
+  {
+   "id": "9AOAH0j14qQ",
+   "title": "Sports & Sports Verbs Vocabulary Chant for Children | English Vocabulary | Fun Kids English",
+   "channel": "Fun Kids English",
+   "sec": 201
+  }
+ ],
+ "daily/explorer/critical-thinking": [
+  {
+   "id": "FMt_RIR_JHo",
+   "title": "Study Skills – How to think critically",
+   "channel": "BBC Learning English",
+   "sec": 250
+  },
+  {
+   "id": "TgpNRWlFpCE",
+   "title": "5 ways to build your vocabulary!",
+   "channel": "BBC Learning English",
+   "sec": 61
+  },
+  {
+   "id": "dItUGF8GdTw",
+   "title": "5 tips to improve your critical thinking - Samantha Agoos",
+   "channel": "TED-Ed",
+   "sec": 270
+  }
+ ],
+ "daily/explorer/global-issues": [
+  {
+   "id": "qoNRZKgLDhg",
+   "title": "Climate change: Are there too many people? - 6 Minute English",
+   "channel": "BBC Learning English",
+   "sec": 381
+  },
+  {
+   "id": "ZM6Sg4SN7kU",
+   "title": "How to Remember English Vocabulary",
+   "channel": "Learn English with Bob the Canadian",
+   "sec": 456
+  },
+  {
+   "id": "WSsLOmQox_o",
+   "title": "Global Issues",
+   "channel": "National Youth Council of Ireland",
+   "sec": 102
+  }
+ ],
+ "daily/explorer/genetics-evolution": [
+  {
+   "id": "Xh5OKecomXE",
+   "title": "Genetics and Heredity | Science for Kids",
+   "channel": "Little School",
+   "sec": 248
+  },
+  {
+   "id": "fI7IV3x-dGI",
+   "title": "Evolution",
+   "channel": "Amoeba Sisters",
+   "sec": 567
+  },
+  {
+   "id": "TmNHk7kIxr8",
+   "title": "Human Evolution: We Didn't Evolve From Chimps: Crash Course Biology #19",
+   "channel": "CrashCourse",
+   "sec": 769
+  }
+ ],
+ "daily/explorer/art-creativity": [
+  {
+   "id": "Pcmgnt78-38",
+   "title": "Paper craft - Easy and creative summer Camp Activities for teenagers/ paper art| DIY Fun Ideas 2019.",
+   "channel": "Twin Tag - Ayesha Firoz",
+   "sec": 670
+  }
+ ],
+ "daily/scholar/media-journalism": [
+  {
+   "id": "diMNyeS0-VE",
+   "title": "Ece Temelkuran, writer and journalist",
+   "channel": "BBC Learning English",
+   "sec": 225
+  },
+  {
+   "id": "deip2YAygrM",
+   "title": "Journalism Classes For Young Journalists | The basics of Journalism",
+   "channel": "Migratory Birds",
+   "sec": 261
+  },
+  {
+   "id": "ip_n4MwZ3WU",
+   "title": "Showing you how I do my \"news reporter\" voice",
+   "channel": "Alexa, what's for dinner?",
+   "sec": 60
+  }
+ ],
+ "daily/scholar/economics-trade": [
+  {
+   "id": "ZhO4S-4izxE",
+   "title": "B1 Vocabulary | Chapter 3 | Business, Finance & Economy | 40 Essential Words",
+   "channel": "Easy English with Mameow",
+   "sec": 414
+  },
+  {
+   "id": "geoe-6NBy10",
+   "title": "Imports, Exports, and Exchange Rates: Crash Course Economics #15",
+   "channel": "CrashCourse",
+   "sec": 611
+  }
+ ],
+ "daily/scholar/psychology-mind": [
+  {
+   "id": "pJGt3i6OwZU",
+   "title": "3 words to ARTICULATE your thoughts better",
+   "channel": "Vinh Giang",
+   "sec": 60
+  }
+ ],
+ "daily/scholar/politics-society": [
+  {
+   "id": "UKz0PngYoVM",
+   "title": "B2 Vocabulary | Chapter 3 | Government, Law & Society | 23 Essential Words",
+   "channel": "Easy English with Mameow",
+   "sec": 577
+  },
+  {
+   "id": "JSqMFucXYAE",
+   "title": "News Vocabulary: Politics & Crime | Everyday English Words with Examples",
+   "channel": "Practice Easy English",
+   "sec": 508
+  },
+  {
+   "id": "8IVrBCZpaYY",
+   "title": "POLITICAL VOCABULARY 🇺🇸 Advanced Words & Phrases You Should Know",
+   "channel": "Interactive English",
+   "sec": 895
+  }
+ ],
+ "daily/scholar/environment-policy": [
+  {
+   "id": "A4t-pXH4FBo",
+   "title": "Essential English vocabulary: climate change and COP26",
+   "channel": "BBC Learning English",
+   "sec": 123
+  },
+  {
+   "id": "P7BlpW1KjAU",
+   "title": "Nature Vocabulary and Facts",
+   "channel": "Easy English",
+   "sec": 399
+  },
+  {
+   "id": "zo_6cKHS4dk",
+   "title": "15 Words About - Environment + Free Downloadable Exercise Worksheet (for ESL Teachers & Learners)",
+   "channel": "All Things Grammar",
+   "sec": 324
+  }
+ ],
+ "daily/scholar/health-medicine": [
+  {
+   "id": "5xZYFPJ0fps",
+   "title": "Health Problems [Kids Vocab] Ouch, I'm Sick! 🤒 Health & Symptoms Words",
+   "channel": "English Singsing",
+   "sec": 244
+  },
+  {
+   "id": "oO4y4d-3Eus",
+   "title": "How to Talk about Injuries, Health Care, and Medicine in English! 🏥👩‍⚕️🚑",
+   "channel": "Learn English with Bob the Canadian",
+   "sec": 665
+  },
+  {
+   "id": "WMojbSbAQgM",
+   "title": "Body Health Problems | Illness Body Pain Vocabulary | English Vocabulary",
+   "channel": "Practice Easy English",
+   "sec": 716
+  }
+ ],
+ "daily/scholar/technology-future": [
+  {
+   "id": "RTAwB-5Fv48",
+   "title": "💻 Technology: Phrasal verbs with Georgie",
+   "channel": "BBC Learning English",
+   "sec": 183
+  },
+  {
+   "id": "difvQyWFmxw",
+   "title": "Technology I - Vocabulary for Kids - Laptop, monitor, mouse, speakers, webcam, microphone...",
+   "channel": "Smile and Learn - English",
+   "sec": 245
+  }
+ ],
+ "daily/scholar/art-culture": [
+  {
+   "id": "fZVKN-Zk3BY",
+   "title": "Titles and Forms of Address - American Culture - English Vocabulary",
+   "channel": "English with Jennifer",
+   "sec": 362
+  },
+  {
+   "id": "TxjWl6hVkEg",
+   "title": "17 Vivid Words to add richness to your vocabulary",
+   "channel": "Aleena Rais Live",
+   "sec": 60
+  },
+  {
+   "id": "3C-6tLas-Gs",
+   "title": "Hardest English words to Say 🗣️ #learnenglish #pronounce #english #words #culture",
+   "channel": "alanthedude",
+   "sec": 63
+  }
+ ],
+ "daily/scholar/urban-development": [
+  {
+   "id": "Pj1vNBdQ2GA",
+   "title": "Every Urban Planning Concept Explained in 9 Minutes",
+   "channel": "Urban Planner Explained",
+   "sec": 555
+  },
+  {
+   "id": "3NGTR2V43pw",
+   "title": "What Is Urban Design?",
+   "channel": "NYC Department of City Planning",
+   "sec": 242
+  }
+ ],
+ "daily/scholar/global-issues": [
+  {
+   "id": "A4t-pXH4FBo",
+   "title": "Essential English vocabulary: climate change and COP26",
+   "channel": "BBC Learning English",
+   "sec": 123
+  },
+  {
+   "id": "YV2zYHZGNp8",
+   "title": "Learning English vocabulary by environmental topics with the new vocabulary 'global warming'",
+   "channel": "Easy English learning",
+   "sec": 347
+  },
+  {
+   "id": "ZM6Sg4SN7kU",
+   "title": "How to Remember English Vocabulary",
+   "channel": "Learn English with Bob the Canadian",
+   "sec": 456
+  }
+ ],
+ "daily/scholar/literature-analysis": [
+  {
+   "id": "TgpNRWlFpCE",
+   "title": "5 ways to build your vocabulary!",
+   "channel": "BBC Learning English",
+   "sec": 61
+  },
+  {
+   "id": "eREopphW5Bw",
+   "title": "Mining literature for deeper meanings - Amy E. Harter",
+   "channel": "TED-Ed",
+   "sec": 253
+  },
+  {
+   "id": "awIXN5LgWKY",
+   "title": "The Best Way to Improve Your English Vocabulary",
+   "channel": "EngFluent",
+   "sec": 291
+  }
+ ],
+ "daily/scholar/space-universe": [
+  {
+   "id": "sD1-rS_TM2o",
+   "title": "Solar System  [Kids Vocab] 🚀 8 Planets & Solar System Words for Kids",
+   "channel": "English Singsing",
+   "sec": 205
+  },
+  {
+   "id": "Vw_TBtAf1Bc",
+   "title": "What Is Universe? | Size Of The Universe | The Dr Binocs Show | Peekaboo Kidz",
+   "channel": "Peekaboo Kidz",
+   "sec": 340
+  },
+  {
+   "id": "JOy-CDFnjWI",
+   "title": "Space Vocabulary || Exploring the Universe",
+   "channel": "InfoZillien",
+   "sec": 736
+  }
+ ],
+ "daily/scholar/human-rights": [
+  {
+   "id": "4PZmVCabmsc",
+   "title": "What are human rights and why do they matter? An animated explainer",
+   "channel": "BBC Learning English",
+   "sec": 97
+  },
+  {
+   "id": "nDgIVseTkuE",
+   "title": "What are the universal human rights? - Benedetta Berti",
+   "channel": "TED-Ed",
+   "sec": 287
+  },
+  {
+   "id": "M_HsXzPpYCg",
+   "title": "An Introduction to Human Rights",
+   "channel": "English with Jag",
+   "sec": 345
+  }
+ ],
+ "daily/scholar/sports-performance": [
+  {
+   "id": "nUGX9zQg2rs",
+   "title": "Olympic Sports  [Kids Vocab] Let's Play Sports! ⚽ Fun Olympic Games & Sports",
+   "channel": "English Singsing",
+   "sec": 411
+  },
+  {
+   "id": "4TLCGGRWnCI",
+   "title": "Tokyo 2020 Olympic Sports [Kids Vocab] Go for Gold! 🏅 Fun Sports & Games",
+   "channel": "English Singsing",
+   "sec": 512
+  },
+  {
+   "id": "9AOAH0j14qQ",
+   "title": "Sports & Sports Verbs Vocabulary Chant for Children | English Vocabulary | Fun Kids English",
+   "channel": "Fun Kids English",
+   "sec": 201
+  }
+ ],
+ "daily/scholar/history-civilization": [
+  {
+   "id": "tsMWYzvsqHk",
+   "title": "Exploring Egyptian Civilization for Kids: Ancient Egyptian Culture Documentary - FreeSchool",
+   "channel": "Free School",
+   "sec": 836
+  },
+  {
+   "id": "nerP4dBlQLY",
+   "title": "🌍China: Capital, Flag, Landmark & Culture - World Vocab for Kids",
+   "channel": "English Singsing",
+   "sec": 209
+  }
+ ],
+ "daily/scholar/digital-society": [
+  {
+   "id": "GR1ns7tJ9wk",
+   "title": "Building an Inclusive Digital Society",
+   "channel": "MDDI Singapore",
+   "sec": 236
+  },
+  {
+   "id": "Cr6kzbIwxdU",
+   "title": "How Digital Culture Is Reshaping Our Faces and Bodies | Elise Hu | TED",
+   "channel": "TED",
+   "sec": 321
+  },
+  {
+   "id": "Ubr-d4iHZTA",
+   "title": "Digital for Life | Play a Part (Part 2)",
+   "channel": "Digital for Life - Singapore",
+   "sec": 110
+  }
+ ],
+ "daily/scholar/social-behavior": [
+  {
+   "id": "TgpNRWlFpCE",
+   "title": "5 ways to build your vocabulary!",
+   "channel": "BBC Learning English",
+   "sec": 61
+  },
+  {
+   "id": "d9cb6JxdNKs",
+   "title": "BEHAVIOR 😌 Learn How to Behave in Different Situations 🏫🎶🎨",
+   "channel": "Smile and Learn - English",
+   "sec": 259
+  },
+  {
+   "id": "Myf2CUx9E60",
+   "title": "All About Social Skill for Kids!",
+   "channel": "Mylemarks",
+   "sec": 357
+  }
+ ],
+ "daily/scholar/career-workplace": [
+  {
+   "id": "GBiRbb9w3SE",
+   "title": "Learn English Job Vocabulary and Job Phrases",
+   "channel": "Learn English with Bob the Canadian",
+   "sec": 798
+  },
+  {
+   "id": "x8tF2aQoukY",
+   "title": "Jobs and Occupations / Learn English vocabulary about professions",
+   "channel": "Easy English",
+   "sec": 552
+  },
+  {
+   "id": "R69YKFmlcnA",
+   "title": "Jobs (v1) [Kids Vocab] 🧑‍🚒 Easy Job Vocabulary & Sentences for Kids",
+   "channel": "English Singsing",
+   "sec": 406
+  }
+ ],
+ "daily/scholar/conflict-resolution": [
+  {
+   "id": "0WFmZMTXqMs",
+   "title": "Conflict management in English - episode 1",
+   "channel": "British Council | English",
+   "sec": 237
+  },
+  {
+   "id": "Ndhyr0XjGLE",
+   "title": "Conflict management in English - episode 3",
+   "channel": "British Council | English",
+   "sec": 242
+  },
+  {
+   "id": "Xo_xvARYchk",
+   "title": "CONFLICT RESOLUTION for Children 🤝 Assertive 😡 Aggressive 😞 Passive 😒 Passive-Aggressive",
+   "channel": "Smile and Learn - English",
+   "sec": 377
+  }
+ ],
+ "daily/scholar/statistics-data": [
+  {
+   "id": "VmlVhio2jHM",
+   "title": "Statistics - The vocabulary of statistics",
+   "channel": "MySecretMathTutor",
+   "sec": 331
+  },
+  {
+   "id": "-JXDd52XsQE",
+   "title": "Statistics Terminology and Definitions| Statistics Tutorial | MarinStatsLectures",
+   "channel": "MarinStatsLectures-R Programming & Statistics",
+   "sec": 588
+  },
+  {
+   "id": "MXaJ7sa7q-8",
+   "title": "Introduction to Statistics (1.1)",
+   "channel": "Simple Learning Pro",
+   "sec": 290
+  }
+ ],
+ "daily/scholar/creativity-innovation": [
+  {
+   "id": "TgpNRWlFpCE",
+   "title": "5 ways to build your vocabulary!",
+   "channel": "BBC Learning English",
+   "sec": 61
+  }
+ ],
+ "daily/scholar/personal-finance": [
+  {
+   "id": "A9Xq3FGjpZA",
+   "title": "Explaining Basic Financial Concepts YOU Should Understand",
+   "channel": "EverythingProfessor",
+   "sec": 734
+  }
+ ],
+ "daily/scholar/crime-society": [
+  {
+   "id": "VcanfxGjslY",
+   "title": "A picture quiz about English idioms: Crime",
+   "channel": "BBC Learning English",
+   "sec": 105
+  },
+  {
+   "id": "JSqMFucXYAE",
+   "title": "News Vocabulary: Politics & Crime | Everyday English Words with Examples",
+   "channel": "Practice Easy English",
+   "sec": 508
+  },
+  {
+   "id": "EmYDRmj_Tuk",
+   "title": "Type Of Crime Vocabulary | Learn about Crime vocabulary with Picture | #vocabularyenglish",
+   "channel": "Learn English Step wise",
+   "sec": 326
+  }
+ ],
+ "daily/scholar/family-relationships": [
+  {
+   "id": "x72gP4HrU58",
+   "title": "Talking about 👨‍👩‍👧‍👦❤️ family: Real Easy English",
+   "channel": "BBC Learning English",
+   "sec": 350
+  },
+  {
+   "id": "FHaObkHEkHQ",
+   "title": "Family  [Kids Vocab] Meet My Family! 👨‍👩‍👧‍👦 Mom, Dad, Brother & Sister Words",
+   "channel": "English Singsing",
+   "sec": 178
+  },
+  {
+   "id": "v9EU41cuhHY",
+   "title": "How to describe your family: Easy English Conversations 💬 Episode 15",
+   "channel": "BBC Learning English",
+   "sec": 422
+  }
+ ],
+ "daily/scholar/tourism-hospitality": [
+  {
+   "id": "QnxESeRB2j4",
+   "title": "An English Lesson About Travel and Tourism 🧳🚌✈️",
+   "channel": "Learn English with Bob the Canadian",
+   "sec": 637
+  },
+  {
+   "id": "9MkngoRI2Lk",
+   "title": "Learn English Travel and Tourism Vocabulary and Phrases in Niagara Falls!",
+   "channel": "Learn English with Bob the Canadian",
+   "sec": 666
+  },
+  {
+   "id": "UhR-Bn4UII0",
+   "title": "Is tourism harmful? 6 Minute English",
+   "channel": "BBC Learning English",
+   "sec": 392
+  }
+ ],
+ "daily/scholar/wellbeing-lifestyle": [
+  {
+   "id": "dhpCdqOtuj0",
+   "title": "Wellbeing for Children: Healthy Habits",
+   "channel": "ClickView",
+   "sec": 395
+  },
+  {
+   "id": "Cg_GW7yhq20",
+   "title": "Healthy Lifestyle",
+   "channel": "Every Mind Matters",
+   "sec": 192
+  },
+  {
+   "id": "zeu9X88g8DE",
+   "title": "Wellbeing For Children: Resilience",
+   "channel": "ClickView",
+   "sec": 462
+  }
+ ],
+ "daily/scholar/arts-entertainment": [
+  {
+   "id": "-aaTENkIivc",
+   "title": "Team Building Activities for Teens - Great Ice Breaker Games for Large Groups",
+   "channel": "MUVEmethod",
+   "sec": 190
+  },
+  {
+   "id": "k3oplRJQGHo",
+   "title": "[paper diy]💅Teen Titans GO NAILS blindbag 🌟",
+   "channel": "차차TV ChaChaTV",
+   "sec": 60
+  },
+  {
+   "id": "3wW0bnPgpcs",
+   "title": "Traffic Jam | Actually Fun Youth Games",
+   "channel": "ActuallyFun | Youth Ministry Resources",
+   "sec": 181
+  }
+ ],
+ "daily/scholar/ethical-issues": [
+  {
+   "id": "AfNSMykrG1I",
+   "title": "Would you pay more for 'ethical' coffee? 6 Minute English",
+   "channel": "BBC Learning English",
+   "sec": 398
+  },
+  {
+   "id": "OI-G23HF6Sw",
+   "title": "Ethical dilemma: Would you lie? - Sarah Stroud",
+   "channel": "TED-Ed",
+   "sec": 260
+  },
+  {
+   "id": "mtLPd2u4DiA",
+   "title": "Research Ethics | Ethics in Research",
+   "channel": "SciToons",
+   "sec": 433
+  }
+ ],
+ "daily/master/academic-skills": [
+  {
+   "id": "TgpNRWlFpCE",
+   "title": "5 ways to build your vocabulary!",
+   "channel": "BBC Learning English",
+   "sec": 61
+  },
+  {
+   "id": "h9ven4N67i0",
+   "title": "Study Skills – Better learning",
+   "channel": "BBC Learning English",
+   "sec": 189
+  }
+ ],
+ "daily/master/law-justice": [
+  {
+   "id": "Pyvw0pOhb3A",
+   "title": "Legal & Law Vocabulary Words with Spoken Sentences | Improve English Vocabulary & Speaking",
+   "channel": "Practice Easy English",
+   "sec": 662
+  },
+  {
+   "id": "uXClK95tZo4",
+   "title": "Top 10 Legal Terms You Need to Know: A Beginner's Guide to Understanding the Law",
+   "channel": "Single Step English",
+   "sec": 450
+  },
+  {
+   "id": "xoodr-bIbVM",
+   "title": "Laws Every Kid Should Know",
+   "channel": "Law By Mike",
+   "sec": 60
+  }
+ ],
+ "daily/master/science-research": [
+  {
+   "id": "TgpNRWlFpCE",
+   "title": "5 ways to build your vocabulary!",
+   "channel": "BBC Learning English",
+   "sec": 61
+  },
+  {
+   "id": "UAbU2qaAkjY",
+   "title": "Ep. 13 Vocabulary in the science lab",
+   "channel": "Easy English Daily",
+   "sec": 289
+  },
+  {
+   "id": "j0AlzkSrIfo",
+   "title": "Learn Scientific English Vocabulary used in daily English conversations | Improve your English",
+   "channel": "Learn English | Let's Talk - Free English Lessons",
+   "sec": 816
+  }
+ ],
+ "daily/master/education-system": [
+  {
+   "id": "AnZxeX_8mVk",
+   "title": "School Subjects [Kids Vocab] What's Your Favorite Subject? 📚 School & Study Words",
+   "channel": "English Singsing",
+   "sec": 144
+  },
+  {
+   "id": "2i4CbCINjWA",
+   "title": "School (v1) [Kids Vocab] Welcome to School! 🏫 Classroom & Places at School",
+   "channel": "English Singsing",
+   "sec": 264
+  },
+  {
+   "id": "WVegMVtJsC4",
+   "title": "Speak About Education in English: School, College, University Vocabulary",
+   "channel": "Nmodel",
+   "sec": 789
+  }
+ ],
+ "daily/master/food-agriculture": [
+  {
+   "id": "czPcT99booo",
+   "title": "VOA Learning English - Agriculture Report # 393",
+   "channel": "VOA Learning English",
+   "sec": 268
+  },
+  {
+   "id": "XMfNMnH8KyQ",
+   "title": "Elephant-proof farming ⏲️ 6 Minute English",
+   "channel": "BBC Learning English",
+   "sec": 384
+  },
+  {
+   "id": "MyKXV6uefhg",
+   "title": "Farming is killing off bees",
+   "channel": "BBC Learning English",
+   "sec": 476
+  }
+ ],
+ "daily/master/innovation-startup": [
+  {
+   "id": "YIs7u_JgS1I",
+   "title": "Learning English Voa - News Words: Startup",
+   "channel": "VOA Learning English",
+   "sec": 61
+  }
+ ],
+ "daily/master/language-communication": [
+  {
+   "id": "TgpNRWlFpCE",
+   "title": "5 ways to build your vocabulary!",
+   "channel": "BBC Learning English",
+   "sec": 61
+  },
+  {
+   "id": "B-URHF4gGbs",
+   "title": "5 linkers for natural 🗣️ conversation",
+   "channel": "BBC Learning English",
+   "sec": 60
+  },
+  {
+   "id": "ErSNpZ-6D-E",
+   "title": "Improve Your Vocabulary to Sound MORE Articulate & Sophisticated",
+   "channel": "Kara Ronin",
+   "sec": 551
+  }
+ ],
+ "daily/master/philosophy-ethics": [
+  {
+   "id": "1A_CAkYt3GY",
+   "title": "What is Philosophy?: Crash Course Philosophy #1",
+   "channel": "CrashCourse",
+   "sec": 635
+  },
+  {
+   "id": "-a739VjqdSI",
+   "title": "Utilitarianism: Crash Course Philosophy #36",
+   "channel": "CrashCourse",
+   "sec": 601
+  }
+ ],
+ "daily/master/constitutional-law": [
+  {
+   "id": "jsTB7gSfDPI",
+   "title": "Constitution for Kids | What It Is and Why It Matters",
+   "channel": "Homeschool Pop",
+   "sec": 341
+  },
+  {
+   "id": "7tPZVhU9tbE",
+   "title": "Top 30 Indian Constitution Gk || Constitution of India || Gk in English || Gk Quiz @gkbooksmcqs",
+   "channel": "GK BOOKS MCQs",
+   "sec": 388
+  }
+ ],
+ "daily/master/environmental-governance": [
+  {
+   "id": "1G4thb0-Cz0",
+   "title": "Vocabulary ENVIRONMENT AND CONSERVATION (Lesson 16)",
+   "channel": "MrSkypelessons",
+   "sec": 748
+  },
+  {
+   "id": "D3NkqJ6DEP8",
+   "title": "What is Environmental, Social, and Governance (ESG)?",
+   "channel": "Study Academy | The e-Learning Experts",
+   "sec": 248
+  }
+ ],
+ "daily/master/political-philosophy": [
+  {
+   "id": "8IVrBCZpaYY",
+   "title": "POLITICAL VOCABULARY 🇺🇸 Advanced Words & Phrases You Should Know",
+   "channel": "Interactive English",
+   "sec": 895
+  },
+  {
+   "id": "81KfDXTTtXE",
+   "title": "POLITICAL THEORY – Jean-Jacques Rousseau",
+   "channel": "The School of Life",
+   "sec": 467
+  }
+ ],
+ "daily/master/public-policy": [
+  {
+   "id": "N137I-0oiCM",
+   "title": "5 Theories of Public Policy Made Easy: A Beginner's Guide | What You Need to Know Now @ConsultKano",
+   "channel": "ConsultKano",
+   "sec": 473
+  },
+  {
+   "id": "8dhe7LJ33Zc",
+   "title": "Learn Political Vocabulary & British Culture | The UK Political System Explained",
+   "channel": "RealLife English",
+   "sec": 559
+  },
+  {
+   "id": "AYUGl1v4gig",
+   "title": "15 English Phrasal Verbs & Vocabulary About SPORTS",
+   "channel": "POC English",
+   "sec": 529
+  }
+ ],
+ "daily/master/academic-discourse": [
+  {
+   "id": "BECe_ok1RI8",
+   "title": "How to use linking words in English - BBC English Masterclass",
+   "channel": "BBC Learning English",
+   "sec": 263
+  },
+  {
+   "id": "HaJ01IG-50U",
+   "title": "BBC English Masterclass: Learn these useful phrases for English conversation 🗣️",
+   "channel": "BBC Learning English",
+   "sec": 219
+  }
+ ],
+ "daily/master/geopolitics": [
+  {
+   "id": "6MK6tuZ7Rws",
+   "title": "How do we create a better economy?",
+   "channel": "TED-Ed",
+   "sec": 365
+  },
+  {
+   "id": "4KaXGHr6Mh4",
+   "title": "My Hardest Geography Questions 🌍",
+   "channel": "BradyYourTutor",
+   "sec": 104
+  },
+  {
+   "id": "_yJqNqYidLw",
+   "title": "MUST READ narrative nonfiction books! #booktube #nonfictionbooks #nonfiction #books #booklover",
+   "channel": "Chris Reads Books",
+   "sec": 153
+  }
+ ],
+ "daily/master/macroeconomics": [
+  {
+   "id": "o4WFv8xhDKw",
+   "title": "Economics Quiz Questions and Answers: Introduction to Macroeconomics Quiz",
+   "channel": "Socrat Ghadban",
+   "sec": 237
+  },
+  {
+   "id": "3ez10ADR_gM",
+   "title": "Intro to Economics: Crash Course Econ #1",
+   "channel": "CrashCourse",
+   "sec": 729
+  }
+ ],
+ "daily/master/medical-ethics": [
+  {
+   "id": "HceGLqdsMfA",
+   "title": "4 Pillars of Medical Ethics",
+   "channel": "GeriCare",
+   "sec": 134
+  },
+  {
+   "id": "9E_XQKU72fI",
+   "title": "Ethical Principles in Nursing | NCLEX Study Tips | NurseInTheMaking",
+   "channel": "NurseInTheMaking",
+   "sec": 412
+  },
+  {
+   "id": "NUmpCMmEKKI",
+   "title": "Medical Interpreter Examples",
+   "channel": "UMN Global Medicine",
+   "sec": 603
+  }
+ ],
+ "daily/master/sociology": [
+  {
+   "id": "YnCJU6PaCio",
+   "title": "What Is Sociology?: Crash Course Sociology #1",
+   "channel": "CrashCourse",
+   "sec": 582
+  },
+  {
+   "id": "gWD6g9CV_sc",
+   "title": "The wisdom of sociology: Sam Richards at TEDxLacador",
+   "channel": "TEDx Talks",
+   "sec": 840
+  },
+  {
+   "id": "32KG_ba_NJc",
+   "title": "An introduction to the discipline of Sociology",
+   "channel": "Macat",
+   "sec": 331
+  }
+ ],
+ "daily/master/technology-ethics": [
+  {
+   "id": "COgvUFGLPCs",
+   "title": "What Is AI Ethics | AI Ethics Foundation | How to Implement AI Ethics | Edureka",
+   "channel": "edureka!",
+   "sec": 598
+  },
+  {
+   "id": "JkkTN0pQ_Ug",
+   "title": "Responsible Use of Technology for Kids - First Mobile - Cyberbullying - Fake News - Online Privacy",
+   "channel": "Smile and Learn - English",
+   "sec": 706
+  }
+ ],
+ "daily/master/media-literacy": [
+  {
+   "id": "eciHuLO8kD4",
+   "title": "Digital Literacy – English for study",
+   "channel": "BBC Learning English",
+   "sec": 316
+  },
+  {
+   "id": "kzOOdv9N3I8",
+   "title": "News Words: Encourage",
+   "channel": "VOA Learning English",
+   "sec": 61
+  },
+  {
+   "id": "B-URHF4gGbs",
+   "title": "5 linkers for natural 🗣️ conversation",
+   "channel": "BBC Learning English",
+   "sec": 60
+  }
+ ],
+ "daily/master/rhetoric-debate": [
+  {
+   "id": "B-URHF4gGbs",
+   "title": "5 linkers for natural 🗣️ conversation",
+   "channel": "BBC Learning English",
+   "sec": 60
+  },
+  {
+   "id": "3klMM9BkW5o",
+   "title": "How to use rhetoric to get what you want - Camille A. Langston",
+   "channel": "TED-Ed",
+   "sec": 270
+  },
+  {
+   "id": "od6qjkO8JNE",
+   "title": "What is Rhetoric?",
+   "channel": "Alexander Lyon Communication Coach",
+   "sec": 419
+  }
+ ],
+ "daily/master/global-governance": [
+  {
+   "id": "UKz0PngYoVM",
+   "title": "B2 Vocabulary | Chapter 3 | Government, Law & Society | 23 Essential Words",
+   "channel": "Easy English with Mameow",
+   "sec": 577
+  },
+  {
+   "id": "LBFXD06fudM",
+   "title": "Forms of Government Explained: Democracy, Authoritarianism, and More",
+   "channel": "CFR Education",
+   "sec": 321
+  }
+ ],
+ "daily/master/bioethics": [
+  {
+   "id": "HceGLqdsMfA",
+   "title": "4 Pillars of Medical Ethics",
+   "channel": "GeriCare",
+   "sec": 134
+  },
+  {
+   "id": "9E_XQKU72fI",
+   "title": "Ethical Principles in Nursing | NCLEX Study Tips | NurseInTheMaking",
+   "channel": "NurseInTheMaking",
+   "sec": 412
+  },
+  {
+   "id": "-h0qnGKYjPY",
+   "title": "Introduction to Bioethics: Bioethics & the Human Body",
+   "channel": "The Kennedy Institute of Ethics",
+   "sec": 718
+  }
+ ],
+ "daily/master/argumentation": [
+  {
+   "id": "B-URHF4gGbs",
+   "title": "5 linkers for natural 🗣️ conversation",
+   "channel": "BBC Learning English",
+   "sec": 60
+  },
+  {
+   "id": "NXO3KT8bne4",
+   "title": "What is an argument? | Reading | Khan Academy",
+   "channel": "Khan Academy",
+   "sec": 277
+  },
+  {
+   "id": "pP8dWURrEF0",
+   "title": "Analyzing the argument - Part 1 of 2",
+   "channel": "Snap Language",
+   "sec": 332
+  }
+ ],
+ "daily/master/globalisation": [
+  {
+   "id": "dD_vyptah-g",
+   "title": "What is globalisation? – BBC Bitesize Key Stage 3 Learning for Life and Work",
+   "channel": "BBC Northern Ireland",
+   "sec": 62
+  },
+  {
+   "id": "15d818t9UZ0",
+   "title": "What is Globalization?",
+   "channel": "IMF",
+   "sec": 168
+  }
+ ],
+ "daily/master/social-change": [
+  {
+   "id": "TgpNRWlFpCE",
+   "title": "5 ways to build your vocabulary!",
+   "channel": "BBC Learning English",
+   "sec": 61
+  },
+  {
+   "id": "cqssIkPE_zc",
+   "title": "Vocabulary for IELTS social issues and community",
+   "channel": "Easy English- Achievers Training Center",
+   "sec": 385
+  },
+  {
+   "id": "TxjWl6hVkEg",
+   "title": "17 Vivid Words to add richness to your vocabulary",
+   "channel": "Aleena Rais Live",
+   "sec": 60
+  }
+ ],
+ "daily/master/immigration-identity": [
+  {
+   "id": "7Tw-Y_25fV0",
+   "title": "ENGLISH SPEECH | JD VANCE: Student's Immigrant Checkmate (English Subtitles)",
+   "channel": "English Speeches",
+   "sec": 571
+  },
+  {
+   "id": "rzLcUeEGN3A",
+   "title": "The power of the immigrant mindset | Anna Crowe | TEDxSan Diego Studio",
+   "channel": "TEDx Talks",
+   "sec": 474
+  },
+  {
+   "id": "vwSOds50Afk",
+   "title": "What's the Difference Between a Migrant and a Refugee? Migration Explained",
+   "channel": "CFR Education",
+   "sec": 252
+  }
+ ],
+ "daily/master/psychology-society": [
+  {
+   "id": "aCckmdJSXZo",
+   "title": "Learn English quickly with podcast | English learning Conversation |Future Goals",
+   "channel": "SpeakEasy English Hub",
+   "sec": 596
+  }
+ ],
+ "daily/master/consumer-society": [
+  {
+   "id": "Y-Unq3R--M0",
+   "title": "HISTORY OF IDEAS - Consumerism",
+   "channel": "The School of Life",
+   "sec": 642
+  },
+  {
+   "id": "v-7v2WGiTe8",
+   "title": "consumerism",
+   "channel": "max mnk's",
+   "sec": 274
+  }
+ ],
+ "daily/master/language-power": [
+  {
+   "id": "TgpNRWlFpCE",
+   "title": "5 ways to build your vocabulary!",
+   "channel": "BBC Learning English",
+   "sec": 61
+  },
+  {
+   "id": "B-URHF4gGbs",
+   "title": "5 linkers for natural 🗣️ conversation",
+   "channel": "BBC Learning English",
+   "sec": 60
   }
  ]
 }

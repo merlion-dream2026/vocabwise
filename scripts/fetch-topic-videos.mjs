@@ -6,6 +6,9 @@
 //   node scripts/fetch-topic-videos.mjs --review   # only rebuild review.html from candidates.json
 //   node scripts/fetch-topic-videos.mjs --only=seeker,b1   # limit to some levels / books
 //   node scripts/fetch-topic-videos.mjs --retry-thin       # re-search topics with < 3 videos using a broader query
+//   node scripts/fetch-topic-videos.mjs --refetch-weak     # re-search topics whose saved picks are < 3 (after cleanup)
+//   node scripts/fetch-topic-videos.mjs --extra="daily/ranger/pets::pet song for kids||my pet vocabulary"
+//                                                          # add the top 4 finds of each hand-picked query to one topic (up to 40)
 //   node scripts/fetch-topic-videos.mjs --serve            # open the review page on localhost; "Lưu" writes data/videos/videos.json
 //
 // Needs YOUTUBE_API_KEY in .env.local. Quota: 10,000 units/day free; each topic costs ~101
@@ -35,8 +38,9 @@ try {
 } catch { /* no .env.local — rely on the shell env */ }
 
 // ─── Trusted channels (matched on channel title, case-insensitive substring) ──
-// kids = Pre-A1→A2 (Daily seeker/starter/ranger); teen = A2→C1 (Daily explorer+, Academic).
-// TED-Ed left out on purpose (too hard for most learners).
+// kids = Pre-A1→A2 (Daily seeker/starter/ranger); youth = Daily explorer/scholar/master (still
+// school-age learners: kid/teen-friendly explainers, never business/exam prep); academic = the
+// Academic books (teen/adult, exam vocabulary is fine). TED-Ed left out on purpose (too hard).
 const CHANNELS = {
   kids: [
     'super simple', 'dream english', 'maple leaf learning', 'learnenglish kids', 'british council',
@@ -44,7 +48,13 @@ const CHANNELS = {
     'kids vs phonics', 'fun kids english', 'pinkfong', 'sesame street', 'learn english with tv series',
     'cambridge english', 'peekaboo kidz', 'scishow kids', 'national geographic kids', 'oxford owl',
   ],
-  teen: [
+  youth: [
+    'bbc learning english', 'learnenglish teens', 'british council', 'voa learning english',
+    'english singsing', 'peekaboo kidz', 'scishow kids', 'crash course kids', 'national geographic kids',
+    'free school', 'smile and learn', 'homeschool pop', 'learn bright', 'clarendon learning',
+    'happy learning', 'kids academy', 'oxford owl', 'simple english videos',
+  ],
+  academic: [
     'bbc learning english', 'learnenglish teens', 'british council', 'cambridge english',
     'voa learning english', 'english singsing', 'easy english', 'scishow kids', 'crash course kids',
     'national geographic kids', 'peekaboo kidz', 'free school', 'oxford owl', 'learn english with emma',
@@ -52,7 +62,15 @@ const CHANNELS = {
   ],
 }
 const MIN_SEC = 60
-const MAX_SEC = { kids: 12 * 60, teen: 15 * 60 }
+const MAX_SEC = { kids: 12 * 60, youth: 15 * 60, academic: 15 * 60 }
+
+// Off-level for school-age learners (Daily, every band): adult/business/exam-prep material.
+const ADULT = /marketing|business english|business vocab|corporate|career|job interview|invest|crypto|stock market|startup idea|entrepreneur|dating|red flags|leadership|\bmba\b|podcast|\btax|psycholog(ical|y) test|narcissis/i
+const EXAM = /ielts|toefl|toeic|\bpte\b|band \d/i
+// Titles in another script (Arabic, Cyrillic, Hindi, CJK, Korean) = not an English lesson.
+const NON_LATIN = /[\u0600-\u06FF\u0400-\u04FF\u0900-\u097F\u3040-\u30FF\u4E00-\u9FFF\uAC00-\uD7AF]/
+// Untrusted videos for youth must look aimed at learners/young people (otherwise e.g. a TED talk wins).
+const YOUTH_SIGNAL = /kids|children|students|teens|for beginners|explained|esl|learn english|vocabulary|for school|science for/i
 const MIN_VIEWS_UNTRUSTED = 50_000 // a non-whitelisted channel must at least be popular
 
 // ─── Topics ───────────────────────────────────────────────────────────────────
@@ -65,12 +83,12 @@ function loadTopics() {
     const { topics: list } = JSON.parse(readFileSync(join(ROOT, 'data', 'words', `${level}.json`), 'utf8'))
     for (const t of list) {
       const subject = t.id.replace(/-/g, ' ')
-      const band = KIDS_LEVELS.has(level) ? 'kids' : 'teen'
+      const band = KIDS_LEVELS.has(level) ? 'kids' : 'youth'
       topics.push({
         key: `daily/${level}/${t.id}`, group: level, band,
         label: `${t.emoji ?? ''} ${t.name} (${t.id})`,
-        query: band === 'kids' ? `${subject} vocabulary for kids English` : `${subject} English vocabulary for students`,
-        broadQuery: band === 'kids' ? `${subject} for kids` : `${subject} for teens`,
+        query: band === 'kids' ? `${subject} vocabulary for kids English` : `${subject} explained for kids and teens`,
+        broadQuery: band === 'kids' ? `${subject} for kids` : `${subject} for students English`,
       })
     }
   }
@@ -79,7 +97,7 @@ function loadTopics() {
     for (const f of readdirSync(dir).filter(f => f.endsWith('.json')).sort()) {
       const { meta } = JSON.parse(readFileSync(join(dir, f), 'utf8'))
       topics.push({
-        key: `academic/${meta.topic_id}`, group: `b${book}`, band: 'teen',
+        key: `academic/${meta.topic_id}`, group: `b${book}`, band: 'academic',
         label: `${meta.emoji ?? ''} ${meta.topic_title} — ${meta.topic_title_vi ?? ''} (${meta.topic_id}, ${meta.cefr_level})`,
         query: `${meta.topic_title} English vocabulary lesson`,
         broadQuery: `${meta.topic_title} explained for students`,
@@ -99,7 +117,8 @@ async function yt(endpoint, params) {
   const body = await res.json()
   if (!res.ok) {
     const reason = body?.error?.errors?.[0]?.reason
-    if (reason === 'quotaExceeded' || reason === 'dailyLimitExceeded') throw new QuotaError(reason)
+    // Daily quota surfaces either as 403 quotaExceeded or as 429 "Quota exceeded … per day".
+    if (reason === 'quotaExceeded' || reason === 'dailyLimitExceeded' || /quota exceeded/i.test(body?.error?.message ?? '')) throw new QuotaError(reason)
     throw new Error(`${endpoint} ${res.status}: ${body?.error?.message}`)
   }
   return body
@@ -136,6 +155,9 @@ async function fetchTopic(t, q = t.query) {
     }))
     .filter(v => v.sec >= MIN_SEC && v.sec <= MAX_SEC[t.band])
     .filter(v => v.trusted || v.views >= MIN_VIEWS_UNTRUSTED)
+    .filter(v => !NON_LATIN.test(v.title))
+    .filter(v => t.band === 'academic' || v.trusted || !(ADULT.test(`${v.title} ${v.channel}`) || EXAM.test(v.title)))
+    .filter(v => t.band !== 'youth' || v.trusted || YOUTH_SIGNAL.test(v.title))
   // Whitelisted channels first, then YouTube's relevance order (sorting by views pulled in popular
   // but off-topic videos); at most 2 videos per channel for variety.
   vids.sort((a, b) => (+b.trusted - +a.trusted) || a.rank - b.rank)
@@ -187,17 +209,44 @@ let topics = loadTopics()
 if (only) topics = topics.filter(t => only.includes(t.group))
 
 mkdirSync(OUT_DIR, { recursive: true })
+const picked = () => (existsSync(VIDEOS) ? JSON.parse(readFileSync(VIDEOS, 'utf8')) : {})
 const cand = existsSync(CANDIDATES) ? JSON.parse(readFileSync(CANDIDATES, 'utf8')) : {}
 
-if (!args.includes('--review')) {
+const extra = args.find(a => a.startsWith('--extra='))?.slice(8)
+if (extra) {
+  if (!process.env.YOUTUBE_API_KEY) { console.error('Missing YOUTUBE_API_KEY in .env.local'); process.exit(1) }
+  const [key, qs] = extra.split('::')
+  const t = loadTopics().find(x => x.key === key)
+  if (!t || !qs) { console.error(`Usage: --extra="<topic key>::query1||query2" (unknown key: ${key})`); process.exit(1) }
+  for (const q of qs.split('||')) {
+    try {
+      const have = cand[key] ?? []
+      // Top 4 per query so every query gets a say; whole topic capped at 40.
+      const found = (await fetchTopic(t, q)).filter(v => !have.some(h => h.id === v.id)).slice(0, 4)
+      cand[key] = [...have, ...found].slice(0, 40)
+      writeFileSync(CANDIDATES, JSON.stringify(cand, null, 1))
+      console.log(`${q} → +${found.length}`)
+    } catch (e) {
+      if (e instanceof QuotaError) { console.log('Quota hết — chạy lại sau 14:00.'); break }
+      console.error(`${q}: ${e.message}`)
+    }
+  }
+} else if (!args.includes('--review')) {
   if (!process.env.YOUTUBE_API_KEY) { console.error('Missing YOUTUBE_API_KEY in .env.local'); process.exit(1) }
   const retry = args.includes('--retry-thin')
-  const todo = topics.filter(t => retry ? cand[t.key] && cand[t.key].length < 3 : !cand[t.key])
+  const weak = args.includes('--refetch-weak') // saved picks < 3 after review → search again with today's filters
+  const saved = picked()
+  const todo = topics.filter(t => weak ? cand[t.key] && (saved[t.key]?.length ?? 0) < 3
+    : retry ? cand[t.key] && cand[t.key].length < 3 : !cand[t.key])
   console.log(`${topics.length - todo.length}/${topics.length} topics already fetched, ${todo.length} to go`)
   let done = 0
   for (const t of todo) {
     try {
-      if (retry) {
+      if (weak) {
+        // Fresh results (new filters) first; old candidates that still pass stay below them.
+        const fresh = await fetchTopic(t)
+        cand[t.key] = [...fresh, ...cand[t.key].filter(v => !fresh.some(f => f.id === v.id))].slice(0, PER_TOPIC * 2)
+      } else if (retry) {
         // Keep what we had, append new finds from the broader query (no duplicates).
         const have = cand[t.key]
         const extra = (await fetchTopic(t, t.broadQuery)).filter(v => !have.some(h => h.id === v.id))
@@ -218,7 +267,6 @@ if (!args.includes('--review')) {
 
 // The review page always covers every fetched topic, whatever --only was; ticks follow the saved
 // videos.json where a topic was already reviewed.
-const picked = () => (existsSync(VIDEOS) ? JSON.parse(readFileSync(VIDEOS, 'utf8')) : {})
 writeFileSync(REVIEW, buildReview(loadTopics(), cand, picked()))
 
 if (args.includes('--serve')) {
