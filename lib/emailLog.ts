@@ -216,3 +216,21 @@ export const DAILY_LEVEL_LABELS: Record<string, string> = {
   scholar:  'Scholar (B2)',
   master:   'Master (C1)',
 }
+
+export type ChildSummary = { name: string; words: number; topics: number; streak: number; stickers: number }
+
+/** Per-child recap (words seen, Daily topics conquered, current streak, stickers) for the trial-end email. */
+export async function getChildSummaries(stats: FamilyStats): Promise<ChildSummary[]> {
+  if (!stats.children.length) return []
+  const { data: stickerRows } = await supabase
+    .from('child_stickers')
+    .select('child_id')
+    .in('child_id', stats.children.map(c => c.id))
+  const stickers: Record<string, number> = {}
+  for (const r of stickerRows ?? []) stickers[r.child_id as string] = (stickers[r.child_id as string] ?? 0) + 1
+  return stats.children.map(c => {
+    const sync = stats.syncByChild[c.id] ?? {}
+    const daily = getAllDailyProgress(sync)
+    return { name: c.name, words: daily.seenWords, topics: daily.topicsCompleted, streak: getGlobalStreak(sync).current, stickers: stickers[c.id] ?? 0 }
+  })
+}

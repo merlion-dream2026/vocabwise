@@ -1,4 +1,6 @@
 import { esc } from './escHtml'
+import { AI_SPEAK_LIMIT, FREE_KIDS, PAID_PLANS, TRIAL_DAYS, perDay, vnd } from './plans'
+import type { ChildSummary } from './emailLog'
 
 const BASE_URL = 'https://vocabwise.id.vn'
 
@@ -30,11 +32,12 @@ function button(text: string, href: string) {
 }
 
 function planCards() {
-  const plans = [
-    { label: '1 tháng', price: '59.000đ', note: null, popular: false },
-    { label: '3 tháng', price: '159.000đ', note: 'Tiết kiệm 10%', popular: true },
-    { label: '6 tháng', price: '299.000đ', note: 'Tiết kiệm 16%', popular: false },
-  ]
+  const plans = PAID_PLANS.map(p => ({
+    label: `${p.label} · ${p.kids} bé`,
+    price: vnd(p.amount),
+    note: `≈${perDay(p)}/ngày${p.savingPct ? ` · −${p.savingPct}%` : ''}`,
+    popular: p.key === '3months',
+  }))
   return `
     <p style="color:#374151;font-weight:900;font-size:13px;margin:0 0 12px;text-align:center">Chọn gói phù hợp:</p>
     <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:separate;border-spacing:8px;margin-bottom:8px">
@@ -87,13 +90,13 @@ export function welcomeEmailHtml(name: string, tempPassword?: string): string {
 
       <!-- Free summary -->
       <div style="background:#f8f4ff;border-radius:12px;padding:16px 20px;margin:0 0 24px">
-        <p style="color:#6b21a8;font-weight:900;font-size:13px;margin:0 0 10px;text-transform:uppercase;letter-spacing:0.5px">Tài khoản FREE của bạn</p>
+        <p style="color:#6b21a8;font-weight:900;font-size:13px;margin:0 0 10px;text-transform:uppercase;letter-spacing:0.5px">${TRIAL_DAYS} ngày dùng thử của bạn</p>
         ${[
-          '🔤 Phonics IPA — 1 bài học miễn phí',
-          '📖 VocabWise Daily — 1 chủ đề mỗi level (6 chủ đề)',
-          '🎓 VocabWise Academic — 1 topic mỗi book (3 topics)',
-          '🎤 Phát âm AI — 5 lần/ngày',
-          '🇻🇳🇬🇧 Song ngữ Việt–Anh · Flashcard & trò chơi cơ bản',
+          '🔤 Phonics IPA — 1 bài học',
+          '📖 VocabWise Daily — chủ đề đầu tiên mỗi level (6 chủ đề)',
+          '🎓 VocabWise Academic — chủ đề đầu tiên mỗi book (3 chủ đề)',
+          `🎤 AI chấm phát âm — ${AI_SPEAK_LIMIT.trial} lượt/ngày`,
+          '🔔 Nhắc học theo lịch · sticker · huy hiệu',
         ].map(item =>
           `<p style="color:#374151;font-size:13px;margin:4px 0;font-weight:600">${item}</p>`
         ).join('')}
@@ -108,16 +111,16 @@ export function welcomeEmailHtml(name: string, tempPassword?: string): string {
           <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse:collapse;font-size:13px">
             <tr style="background:#f3e8ff">
               <td style="padding:8px 10px;font-weight:700;color:#374151;border-radius:6px 0 0 0"> </td>
-              <td style="padding:8px 10px;font-weight:900;color:#6b7280;text-align:center">FREE</td>
+              <td style="padding:8px 10px;font-weight:900;color:#6b7280;text-align:center">DÙNG THỬ</td>
               <td style="padding:8px 10px;font-weight:900;color:#9333ea;text-align:center">PRO ⭐</td>
             </tr>
             ${[
-              ['Daily · 6 levels', '6 / 180 chủ đề', '180 chủ đề · 2.300+ từ'],
-              ['Academic · 3 books', '3 / 180 topics', '180 topics · IELTS/SAT'],
-              ['Phonics IPA', '1 bài', 'Toàn bộ'],
-              ['Phát âm AI', '5 lần/ngày', '30–∞ lần/ngày'],
-              ['My Words · SRS', '❌', '✅'],
-              ['Hồ sơ bé (Daily)', '1 bé', 'Tối đa 3 bé'],
+              ['Daily · 6 levels', '6 / 180 chủ đề', '180 chủ đề · 2.400 từ'],
+              ['Academic · 3 books', '3 / 180 chủ đề', '180 chủ đề · IELTS/SAT'],
+              ['Phonics IPA + trọng âm', '1 bài', 'Toàn bộ'],
+              ['AI chấm phát âm (mỗi bé)', `${AI_SPEAK_LIMIT.trial}/ngày`, `${AI_SPEAK_LIMIT.pro1}/ngày – không giới hạn`],
+              ['Báo cáo email tuần & tháng', '❌', '✅'],
+              ['Hồ sơ bé', `${FREE_KIDS} bé`, PAID_PLANS.map(p => p.kids).join(' / ') + ' bé (1/3/6 tháng)'],
             ].map(([label, free, pro], i) => `
             <tr style="background:${i % 2 === 0 ? '#fff' : '#faf5ff'}">
               <td style="padding:7px 10px;font-weight:700;color:#374151">${label}</td>
@@ -701,34 +704,35 @@ export function trialD4EmailHtml(name: string): string {
 }
 
 /** Trial D+6: còn 1 ngày dùng thử */
-export function trialD6EmailHtml(name: string, wordsLearned: number): string {
+export function trialD6EmailHtml(name: string, kids: ChildSummary[]): string {
   name = esc(name)
+  const learned = kids.filter(k => k.words > 0)
+  const stat = (v: number, label: string) =>
+    `<td style="text-align:center;padding:4px"><p style="color:#7c3aed;font-size:20px;font-weight:900;margin:0">${v}</p><p style="color:#6b7280;font-size:11px;margin:2px 0 0">${label}</p></td>`
   return `
 <!DOCTYPE html><html>
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
 <body style="margin:0;padding:0;background:#f8f4ff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
   <div style="max-width:520px;margin:32px auto;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 24px rgba(147,51,234,0.12)">
-    ${header('Ngày cuối dùng thử 🚨 — đừng để mất đà học')}
+    ${header('Tổng kết 7 ngày dùng thử 🎉')}
     <div style="padding:28px 28px 8px">
       <p style="color:#374151;font-size:15px;margin:0 0 6px">Xin chào <strong>${name}</strong>,</p>
-      <p style="color:#374151;font-size:15px;margin:0 0 20px">Hôm nay là <strong>ngày cuối cùng</strong> dùng thử.</p>
+      <p style="color:#374151;font-size:15px;margin:0 0 20px">Hôm nay là <strong>ngày cuối cùng</strong> dùng thử. Đây là những gì ${learned.length > 1 ? 'các bé' : 'bé'} đã làm được:</p>
 
-      ${wordsLearned > 0 ? `
-      <div style="background:#faf5ff;border-radius:12px;padding:14px 16px;margin-bottom:16px;text-align:center">
-        <p style="color:#7c3aed;font-size:24px;font-weight:900;margin:0">${wordsLearned} từ</p>
-        <p style="color:#6b7280;font-size:12px;margin:4px 0 0">đã học trong 6 ngày qua — đừng để dừng lại ở đây.</p>
-      </div>` : ''}
+      ${learned.length ? learned.map(k => `
+      <div style="background:#faf5ff;border-radius:12px;padding:12px 14px;margin-bottom:12px">
+        <p style="color:#374151;font-size:14px;font-weight:900;margin:0 0 6px">👧 ${esc(k.name)}</p>
+        <table width="100%" cellpadding="0" cellspacing="0"><tr>
+          ${stat(k.words, 'từ đã học')}${stat(k.topics, 'chủ đề chinh phục')}${stat(k.stickers, 'sticker')}${stat(k.streak, 'ngày streak')}
+        </tr></table>
+      </div>`).join('') : `
+      <p style="color:#6b7280;font-size:14px;margin:0 0 16px">Bé chưa kịp bắt đầu, nhưng chỉ cần 15 phút mỗi ngày là đủ để thấy tiến bộ.</p>`}
 
-      <p style="color:#374151;font-weight:900;font-size:13px;margin:0 0 8px">Từ ngày mai nếu không nâng cấp:</p>
-      ${['❌ Daily: chỉ còn 6 chủ đề (thay vì 180)', '❌ Academic: chỉ còn 3 topics (thay vì 180)', '❌ Phát âm AI: giới hạn 5 lần/ngày'].map(t =>
-        `<p style="color:#7c2d12;font-size:13px;margin:4px 0;font-weight:600">${t}</p>`
-      ).join('')}
+      <p style="color:#374151;font-weight:900;font-size:13px;margin:16px 0 8px">Từ ngày mai nếu chưa nâng cấp:</p>
+      <p style="color:#7c2d12;font-size:13px;margin:4px 0;font-weight:600">🔒 Phần học (chủ đề, trò chơi, Phonics, AI chấm phát âm) tạm khoá</p>
+      <p style="color:#166534;font-size:13px;margin:4px 0;font-weight:600">✅ Ba mẹ vẫn đăng nhập xem tiến độ, sticker và huy hiệu của bé. Không có gì bị xoá.</p>
 
-      <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:12px;padding:12px 16px;margin:16px 0">
-        <p style="color:#166534;font-size:13px;margin:0">✅ <strong>Tin tốt là:</strong> Chuỗi ngày học liên tiếp (streak) và toàn bộ tiến độ của bạn <strong>không bị xóa</strong> dù bạn chưa nâng cấp ngay.</p>
-      </div>
-
-      ${button('⭐ Nâng cấp Pro ngay →', `${BASE_URL}/dashboard`)}
+      ${button('⭐ Nâng cấp để bé học tiếp →', `${BASE_URL}/dashboard`)}
       ${planCards()}
     </div>
     <div style="padding:0 28px 28px">${footer()}</div>
@@ -1169,10 +1173,9 @@ export function proExpiryD1EmailHtml(
         <p style="color:#166534;font-size:13px;font-weight:700;margin:0">✅ Toàn bộ tiến độ, chuỗi ngày học (streak) và huy hiệu của bé <strong>${childName}</strong> không bị xóa. Dữ liệu được giữ nguyên.</p>
       </div>
 
-      <p style="color:#374151;font-weight:900;font-size:13px;margin:0 0 8px">Hiện tại tài khoản đang ở chế độ Free:</p>
-      ${['❌ Daily: chỉ 6 chủ đề', '❌ Academic: chỉ 3 topics', '❌ Phát âm AI: 5 lần/ngày'].map(t =>
-        `<p style="color:#7c2d12;font-size:13px;margin:4px 0;font-weight:600">${t}</p>`
-      ).join('')}
+      <p style="color:#374151;font-weight:900;font-size:13px;margin:0 0 8px">Hiện tại tài khoản ở chế độ chỉ xem:</p>
+      <p style="color:#7c2d12;font-size:13px;margin:4px 0;font-weight:600">🔒 Phần học (chủ đề, trò chơi, Phonics, AI chấm phát âm) tạm khoá</p>
+      <p style="color:#166534;font-size:13px;margin:4px 0;font-weight:600">✅ Ba mẹ vẫn đăng nhập xem tiến độ, sticker và huy hiệu của bé</p>
 
       <p style="color:#6b7280;font-size:13px;text-align:center;margin:16px 0">Gia hạn bất cứ lúc nào — bé tiếp tục học đúng từ chỗ đã dừng.</p>
       ${button('🔄 Gia hạn ngay →', `${BASE_URL}/dashboard`)}

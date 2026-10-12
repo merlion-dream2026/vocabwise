@@ -10,6 +10,7 @@ import {
   hasEmailBeenSent,
   logEmail,
   getFamilyStats,
+  getChildSummaries,
 } from '@/lib/emailLog'
 import { runInBatches } from '@/lib/batchProcess'
 import { hasBearer, serverError } from '@/lib/api'
@@ -97,11 +98,11 @@ export async function GET(req: NextRequest) {
 
           if (daysLeft === 1) {
             if (await hasEmailBeenSent(famId, 'trial_d6')) { skipped++; return }
-            const stats = await getFamilyStats(famId)
+            const kids = await getChildSummaries(await getFamilyStats(famId))
             await sendEmail({
               to: family.email as string,
-              subject: 'Ngày cuối dùng thử 🚨 — đừng để mất đà học',
-              html: trialD6EmailHtml(displayName, stats.totalWords),
+              subject: 'Tổng kết 7 ngày dùng thử của bé 🎉 Hôm nay là ngày cuối',
+              html: trialD6EmailHtml(displayName, kids),
             })
             await logEmail(famId, 'trial_d6')
             sent++
