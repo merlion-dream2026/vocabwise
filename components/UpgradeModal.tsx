@@ -1,17 +1,15 @@
 'use client'
 import { useState, useEffect, useRef } from 'react'
+import { PAID_PLANS, PLAN_PERKS, PLAN_TABLE, vnd, type PaidPlanKey } from '@/lib/plans'
 
-const PLANS = [
-  { key: '1month',  label: '1 tháng',  price: '59.000đ',  amount: 59000,  note: '2 bé',                          badge: null,            badgeCls: '' },
-  { key: '3months', label: '3 tháng',  price: '159.000đ', amount: 159000, note: '3 bé · Tiết kiệm 10%',          badge: 'PHỔ BIẾN',      badgeCls: 'bg-orange-400 text-white' },
-  { key: '6months', label: '6 tháng',  price: '299.000đ', amount: 299000, note: '3 bé · Tiết kiệm 16%',          badge: 'GIÁ TỐT NHẤT',  badgeCls: 'bg-amber-400 text-amber-900' },
-]
-
-const PLAN_EXTRAS: Record<string, string[]> = {
-  '1month':  ['✅ 2 hồ sơ bé', '✅ AI phát âm 40 lần/ngày', '✅ Giải nghĩa & gợi ý AI 40 lần/ngày', '✅ Push notification nhắc học', '✅ Báo cáo email thủ công'],
-  '3months': ['✅ 3 hồ sơ bé', '✅ AI phát âm không giới hạn', '✅ Giải nghĩa & gợi ý AI không giới hạn', '✅ Module Word Stress', '✅ Báo cáo email tự động hàng tuần'],
-  '6months': ['✅ 3 hồ sơ bé', '✅ AI phát âm không giới hạn', '✅ Giải nghĩa & gợi ý AI không giới hạn', '✅ Module Word Stress', '✅ Báo cáo tự động hàng tuần', '🎁 Tặng bạn bè 14 ngày Pro (1 lần)', '📅 Email tổng kết học tập hàng tháng'],
-}
+const BADGE_CLS: Record<PaidPlanKey, string> = { '1month': '', '3months': 'bg-orange-400 text-white', '6months': 'bg-amber-400 text-amber-900' }
+const PLANS = PAID_PLANS.map(p => ({
+  ...p,
+  price: vnd(p.amount),
+  note: `${p.kids} bé${p.savingPct ? ` · Tiết kiệm ${p.savingPct}%` : ''}`,
+  badgeCls: BADGE_CLS[p.key],
+}))
+const PLAN_EXTRAS: Record<string, readonly string[]> = PLAN_PERKS
 
 const BANK_INFO = {
   bank:    'Timo Bank',
@@ -83,21 +81,7 @@ export default function UpgradeModal({ onClose, username }: Props) {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-50">
-                {[
-                  ['Hồ sơ bé',          '1',       '2',        '3',     '3'  ],
-                  ['Chủ đề Daily',       '1/level', '✅',       '✅',    '✅' ],
-                  ['Chủ đề Academic',    '1/book',  '✅',       '✅',    '✅' ],
-                  ['Phát âm IPA',        '1 bài',   '✅',       '✅',    '✅' ],
-                  ['Trọng âm từ',        '❌',      '❌',       '✅',    '✅' ],
-                  ['Từ của tôi ⭐',      '20 từ',   '✅',       '✅',    '✅' ],
-                  ['Ôn SRS từ yếu',      '20 từ',   '✅',       '✅',    '✅' ],
-                  ['Luyện phát âm AI',   '10/ngày', '40/ngày',  '∞',    '∞'  ],
-                  ['Giải nghĩa & gợi ý AI', '10/ngày', '40/ngày', '∞',   '∞'  ],
-                  ['Nhắc học (Push)',     '❌',      '✅',       '✅',    '✅' ],
-                  ['Báo cáo email',       '❌',      'Thủ công', 'Auto', 'Auto'],
-                  ['Tổng kết tháng',     '❌',      '❌',       '❌',    '✅' ],
-                  ['🎁 Tặng bạn bè',     '❌',      '❌',       '❌',    '✅' ],
-                ].map(([feat, free, p1, p3, p6]) => (
+                {PLAN_TABLE.map(([feat, free, p1, p3, p6]) => (
                   <tr key={feat} className="hover:bg-gray-50">
                     <td className="px-3 py-2 font-semibold text-gray-700">{feat}</td>
                     <td className="px-1 py-2 text-center text-gray-400">{free}</td>

@@ -11,6 +11,7 @@ import FontSizeApplier from '@/components/FontSizeApplier'
 import PullToRefresh from '@/components/PullToRefresh'
 import { GameSyncProvider } from '@/lib/GameSyncContext'
 import { ChildMascotProvider } from '@/components/MascotContext'
+import { FREE_KIDS, PAID_PLANS, PLAN_PERKS, TRIAL_DAYS } from '@/lib/plans'
 import './globals.css'
 
 const nunito = Nunito({
@@ -63,38 +64,6 @@ export const metadata: Metadata = {
   },
 }
 
-const faqJsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
-    {
-      '@type': 'Question',
-      name: 'VocabWise là gì?',
-      acceptedAnswer: { '@type': 'Answer', text: 'VocabWise là app học tiếng Anh toàn diện song ngữ Việt–Anh với 3 module: Phonics IPA (luyện phát âm), Daily (2.400+ từ, Pre-A1→C1 cho trẻ em) và VocabWise Academic (2.700+ từ, IELTS/SAT A1→C2).' },
-    },
-    {
-      '@type': 'Question',
-      name: 'App VocabWise có cần cài xuống không?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Không! VocabWise là PWA — bé chỉ cần vào trình duyệt là học ngay. Ba/Mẹ có thể Thêm vào màn hình chính để dùng như app thật trên iPhone, Android, iPad và PC.' },
-    },
-    {
-      '@type': 'Question',
-      name: 'Dùng thử VocabWise miễn phí được không?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Có! Đăng ký miễn phí và dùng thử 7 ngày không cần thẻ tín dụng. Gói Free cho bé học topic đầu tiên của mỗi level với toàn bộ trò chơi.' },
-    },
-    {
-      '@type': 'Question',
-      name: 'Một tài khoản VocabWise dùng được cho mấy bé?',
-      acceptedAnswer: { '@type': 'Answer', text: 'Gói Free: 1 bé. Gói Pro: tối đa 3 bé trong cùng 1 tài khoản gia đình, mỗi bé có hồ sơ và tiến độ riêng.' },
-    },
-    {
-      '@type': 'Question',
-      name: 'VocabWise phù hợp với lứa tuổi nào?',
-      acceptedAnswer: { '@type': 'Answer', text: 'VocabWise phù hợp cho mọi lứa tuổi: Daily dành cho bé 5–15 tuổi (Pre-A1→C1), Phonics IPA cho mọi người, và VocabWise Academic cho học sinh cấp 2-3, sinh viên luyện IELTS/SAT (A1→C2).' },
-    },
-  ],
-}
-
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -127,32 +96,10 @@ const jsonLd = {
         educationalRole: 'student',
       },
       offers: [
-        {
-          '@type': 'Offer',
-          name: 'Free — Dùng thử 7 ngày',
-          price: '0',
-          priceCurrency: 'VND',
-          description: '1 hồ sơ bé, 1 chủ đề đầu mỗi level, tất cả trò chơi',
-        },
-        {
-          '@type': 'Offer',
-          name: 'Pro 1 tháng',
-          price: '59000',
-          priceCurrency: 'VND',
-          description: 'Toàn bộ 30 chủ đề/level, tối đa 3 bé, báo cáo email hàng tuần',
-        },
-        {
-          '@type': 'Offer',
-          name: 'Pro 3 tháng',
-          price: '159000',
-          priceCurrency: 'VND',
-        },
-        {
-          '@type': 'Offer',
-          name: 'Pro 6 tháng',
-          price: '299000',
-          priceCurrency: 'VND',
-        },
+        { '@type': 'Offer', name: `Dùng thử ${TRIAL_DAYS} ngày`, price: '0', priceCurrency: 'VND',
+          description: `${FREE_KIDS} hồ sơ bé, 1 chủ đề đầu mỗi level/book, 1 bài Phonics` },
+        ...PAID_PLANS.map(p => ({ '@type': 'Offer', name: `Pro ${p.label}`, price: String(p.amount), priceCurrency: 'VND',
+          description: PLAN_PERKS[p.key].map(x => x.replace(/^\S+ /, '')).join(', ') })),
       ],
       screenshot: `${APP_URL}/opengraph-image`,
       author: { '@id': `${APP_URL}/#org` },
@@ -191,11 +138,6 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           nonce={nonce}
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
-        <script
-          nonce={nonce}
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
         />
       </head>
       <body className={`min-h-screen bg-gradient-to-b from-purple-50 to-pink-50 ${nunito.className}`}>

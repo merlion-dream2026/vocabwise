@@ -1,3 +1,5 @@
+import { AI_DAILY_LIMIT, FREE_WORD_CAP, IELTS_SPEAKING_TRIAL_LIMIT } from './plans'
+
 export interface FamilyPlanData {
   plan: string
   plan_end_date?: string | null
@@ -102,7 +104,7 @@ export function canAccessMyWords(_family: FamilyPlanData): boolean {
 export function getMyWordsLimit(family: FamilyPlanData): number | null {
   if (family.bonus_features?.includes('my_words')) return null
   if (getEffectivePlan(family).isProActive) return null
-  return 20
+  return FREE_WORD_CAP
 }
 
 /** SRS ôn từ yếu: tất cả users (Free giới hạn 20 từ/phiên, Pro không giới hạn). */
@@ -114,7 +116,7 @@ export function canAccessSRS(_family: FamilyPlanData): boolean {
 export function getSRSLimit(family: FamilyPlanData): number | null {
   if (family.bonus_features?.includes('srs')) return null
   if (getEffectivePlan(family).isProActive) return null
-  return 20
+  return FREE_WORD_CAP
 }
 
 /**
@@ -167,9 +169,9 @@ export function getAISpeakLimit(family: FamilyPlanData): number | null {
   const { isProActive, isTrialActive } = getEffectivePlan(family)
   if (isProActive) {
     const tier = getPlanTier(family)
-    return tier === 'pro1' ? 40 : null
+    return tier === 'pro1' ? AI_DAILY_LIMIT.pro1 : null
   }
-  return isTrialActive ? 10 : 0
+  return isTrialActive ? AI_DAILY_LIMIT.trial : 0
 }
 
 /**
@@ -183,9 +185,9 @@ export function getAITextLimit(family: FamilyPlanData): number | null {
   const { isProActive, isTrialActive } = getEffectivePlan(family)
   if (isProActive) {
     const tier = getPlanTier(family)
-    return tier === 'pro1' ? 40 : null
+    return tier === 'pro1' ? AI_DAILY_LIMIT.pro1 : null
   }
-  return isTrialActive ? 10 : 0
+  return isTrialActive ? AI_DAILY_LIMIT.trial : 0
 }
 
 /**
@@ -197,7 +199,7 @@ export function getIeltsSpeakingLimit(family: FamilyPlanData): number | null {
   if (family.bonus_features?.includes('ielts_speaking_unlimited')) return null
   const { isProActive, isTrialActive } = getEffectivePlan(family)
   if (isProActive) return null
-  return isTrialActive ? 5 : 0
+  return isTrialActive ? IELTS_SPEAKING_TRIAL_LIMIT : 0
 }
 
 // ─── Bonus days ──────────────────────────────────────────────────────────────

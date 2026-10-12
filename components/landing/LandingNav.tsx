@@ -3,7 +3,8 @@ import { useEffect, useState } from 'react'
 import Link from 'next/link'
 
 const NAV_LINKS = [
-  { href: '#modules', label: 'Module học' },
+  { href: '#modules', label: 'Phần học' },
+  { href: '#journey', label: 'Cách học' },
   { href: '#pricing', label: 'Bảng giá' },
   { href: '#faq', label: 'FAQ' },
 ]
