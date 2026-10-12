@@ -124,7 +124,7 @@ function RoundCard({
 function BonusCard({ entry, games, nextKey, theme, onOpen }: {
   entry: MasteryEntry; games: GameDef[]; nextKey: string | null; theme: HubTheme; onOpen: (gameKey: string) => void
 }) {
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(true)
   return (
     <section className={`rounded-3xl border-2 border-dashed bg-white/75 ${theme.dashed}`}>
       <button type="button" onClick={() => { tap(); setOpen((v) => !v) }} aria-expanded={open}

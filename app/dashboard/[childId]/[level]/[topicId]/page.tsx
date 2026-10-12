@@ -29,6 +29,8 @@ const STARTER_GAMES = [
   { key: 'speak',         label: 'Phát âm cùng AI ✨',   emoji: '🎤' }, // row 4
   { key: 'spell',         label: 'Đánh vần',            emoji: '🔤' }, // row 5
   { key: 'sentenceorder', label: 'Sắp xếp câu',        emoji: '🔁' }, // row 5
+  { key: 'rocket',        label: 'Phóng tên lửa',      emoji: '🚀' }, // arcade (Thử thách thêm)
+  { key: 'whack',         label: 'Đập chuột chũi',     emoji: '🔨' }, // arcade (Thử thách thêm)
 ]
 
 // Ordered easy → hard (row 1 = recognition, row 5 = timed/synthesis)
@@ -44,6 +46,8 @@ const EXPLORER_GAMES = [
   { key: 'sentenceorder',   label: 'Sắp xếp câu',        emoji: '🔁' }, // row 5
   { key: 'speedround',      label: 'Speed Round ⚡',       emoji: '⚡' }, // row 6
   { key: 'sentence',        label: 'Đặt câu cùng AI ✍️',  emoji: '✍️' }, // row 6 — production: tự viết câu, AI chấm
+  { key: 'rocket',          label: 'Phóng tên lửa',      emoji: '🚀' }, // arcade (Thử thách thêm)
+  { key: 'whack',           label: 'Đập chuột chũi',     emoji: '🔨' }, // arcade (Thử thách thêm)
 ]
 
 const LEVEL_COLORS: Record<string, { bg: string; header: string; text: string; soft: string; deep: string; edge: string }> = {

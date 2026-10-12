@@ -31,7 +31,7 @@ const FAQ_ITEMS = [
       },
       {
         q: 'App có những trò chơi gì?',
-        a: 'Level cơ bản (Seeker / Starter / Ranger) — 10 trò:\n📖 Flashcard từ mới · 👂 Nghe & Chọn · ✅ Đúng / Sai · 🖼️ Nối từ với hình · 🧠 Lật thẻ · 🫧 Bắn bong bóng · 🔡 Điền chữ thiếu · 🔤 Đánh vần · 🔁 Sắp xếp câu · 🎤 Phát âm cùng AI ✨\n\nLevel nâng cao (Explorer / Scholar / Master) — 11 trò:\n📖 Flashcard từ mới · 👂 Nghe & Chọn · ✅ Đúng / Sai · ❓ Trắc nghiệm · ✏️ Điền từ · 🔀 Ghép định nghĩa · 🎤 Phát âm cùng AI ✨ · ⌨️ Gõ từ nhanh 15s · 🔁 Sắp xếp câu · ⚡ Speed Round · ✍️ Đặt câu cùng AI\n\nNgoài ra, mỗi chủ đề đều có 📖 Mini Story tích hợp ngay trong trang chủ đề — bé đọc chuyện, nghe audio, rồi làm bài điền từ ngay tại chỗ.',
+        a: 'Level cơ bản (Seeker / Starter / Ranger) — 12 trò:\n📖 Flashcard từ mới · 👂 Nghe & Chọn · ✅ Đúng / Sai · 🖼️ Nối từ với hình · 🧠 Lật thẻ · 🫧 Bắn bong bóng · 🔡 Điền chữ thiếu · 🔤 Đánh vần · 🔁 Sắp xếp câu · 🎤 Phát âm cùng AI ✨ · 🚀 Phóng tên lửa · 🔨 Đập chuột chũi\n\nLevel nâng cao (Explorer / Scholar / Master) — 13 trò:\n📖 Flashcard từ mới · 👂 Nghe & Chọn · ✅ Đúng / Sai · ❓ Trắc nghiệm · ✏️ Điền từ · 🔀 Ghép định nghĩa · 🎤 Phát âm cùng AI ✨ · ⌨️ Gõ từ nhanh 15s · 🔁 Sắp xếp câu · ⚡ Speed Round · ✍️ Đặt câu cùng AI · 🚀 Phóng tên lửa · 🔨 Đập chuột chũi\n\nNgoài ra, mỗi chủ đề đều có 📖 Mini Story tích hợp ngay trong trang chủ đề — bé đọc chuyện, nghe audio, rồi làm bài điền từ ngay tại chỗ.',
       },
       {
         q: 'Thứ tự học trong một chủ đề?',
@@ -69,7 +69,7 @@ const FAQ_ITEMS = [
       },
       {
         q: '⭐ XP là gì? Tính như thế nào?',
-        a: 'XP (Experience Points) là điểm kinh nghiệm — chỉ số đo lượng kiến thức bé đã luyện tập.\n\nCách tính XP theo độ khó game:\n🟢 Game nhận biết (Nối từ, Lật thẻ, Đúng/Sai, Bắn bong bóng): 1 XP/câu đúng\n🟡 Game hiểu nghĩa (Trắc nghiệm, Điền từ, Nghe & Chọn, Sắp xếp câu, Câu chuyện, Phát âm AI, Ghép định nghĩa): 1,5 XP/câu đúng\n🔴 Game sản xuất (Đánh vần, Gõ từ nhanh, Điền chữ thiếu, Speed Round, Đặt câu cùng AI): 2 XP/câu đúng\n\nMục tiêu hàng ngày: 20 XP — hiển thị trên dashboard.\n\nXP tích lũy toàn app → XP Rank hiện trên màn hình chọn hồ sơ:\n🌱 Beginner (50+) → 🌟 Rising (300+) → 🏆 Champion (1000+) → 👑 Master (3000+)\n\nTrong màn hình level của từng bé, XP còn hiện cấp độ riêng của level đó:\n🌱 Khởi Đầu → 🔍 Nhà Thám Hiểm → ⚔️ Chiến Binh → 📜 Học Giả → 👑 Vô Địch',
+        a: 'XP (Experience Points) là điểm kinh nghiệm — chỉ số đo lượng kiến thức bé đã luyện tập.\n\nCách tính XP theo độ khó game:\n🟢 Game nhận biết (Nối từ, Lật thẻ, Đúng/Sai, Bắn bong bóng, Phóng tên lửa, Đập chuột chũi): 1 XP/câu đúng\n🟡 Game hiểu nghĩa (Trắc nghiệm, Điền từ, Nghe & Chọn, Sắp xếp câu, Câu chuyện, Phát âm AI, Ghép định nghĩa): 1,5 XP/câu đúng\n🔴 Game sản xuất (Đánh vần, Gõ từ nhanh, Điền chữ thiếu, Speed Round, Đặt câu cùng AI): 2 XP/câu đúng\n\nMục tiêu hàng ngày: 20 XP — hiển thị trên dashboard.\n\nXP tích lũy toàn app → XP Rank hiện trên màn hình chọn hồ sơ:\n🌱 Beginner (50+) → 🌟 Rising (300+) → 🏆 Champion (1000+) → 👑 Master (3000+)\n\nTrong màn hình level của từng bé, XP còn hiện cấp độ riêng của level đó:\n🌱 Khởi Đầu → 🔍 Nhà Thám Hiểm → ⚔️ Chiến Binh → 📜 Học Giả → 👑 Vô Địch',
       },
     ],
   },

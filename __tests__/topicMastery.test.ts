@@ -8,8 +8,8 @@ const at = '2026-10-06T00:00:00Z'
 const r = (p: number) => ({ best: p, last: p, at })
 const E = (x: Partial<MasteryEntry> = {}): MasteryEntry => ({ flashcard: false, games: [], ...x })
 const g = (key: string): GameDef => ({ key, label: key, emoji: '🎮' })
-const EXPLORER_GAMES = ['flashcard', 'listen', 'truefalse', 'quiz', 'gapfill', 'definitionmatch', 'speak', 'typing', 'sentenceorder', 'speedround', 'sentence'].map(g)
-const STARTER_GAMES = ['flashcard', 'listen', 'truefalse', 'match', 'memory', 'bubble', 'fillletter', 'speak', 'spell', 'sentenceorder'].map(g)
+const EXPLORER_GAMES = ['flashcard', 'listen', 'truefalse', 'quiz', 'gapfill', 'definitionmatch', 'speak', 'typing', 'sentenceorder', 'speedround', 'sentence', 'rocket', 'whack'].map(g)
+const STARTER_GAMES = ['flashcard', 'listen', 'truefalse', 'match', 'memory', 'bubble', 'fillletter', 'speak', 'spell', 'sentenceorder', 'rocket', 'whack'].map(g)
 
 describe('starsFor', () => {
   it('maps 0 / ≤50 / ≤80 / >80 to 0–3 stars', () => {
@@ -86,8 +86,8 @@ describe('nextStep', () => {
 
 describe('bonusGames', () => {
   it('lists the level games outside both rounds', () => {
-    expect(bonusGames(EXPLORER_GAMES, 'explorer').map((x) => x.key)).toEqual(['listen', 'typing', 'sentence'])
-    expect(bonusGames(STARTER_GAMES, 'starter').map((x) => x.key)).toEqual(['bubble'])
+    expect(bonusGames(EXPLORER_GAMES, 'explorer').map((x) => x.key)).toEqual(['listen', 'typing', 'sentence', 'rocket', 'whack'])
+    expect(bonusGames(STARTER_GAMES, 'starter').map((x) => x.key)).toEqual(['bubble', 'rocket', 'whack'])
   })
 })
 

@@ -21,6 +21,8 @@ const DefinitionMatchGame = dynamic(() => import('@/components/DefinitionMatchGa
 const SentenceOrderGame  = dynamic(() => import('@/components/SentenceOrderGame'),   { ssr: false })
 const SpeakGame          = dynamic(() => import('@/components/SpeakGame'),           { ssr: false })
 const SpeedRoundGame     = dynamic(() => import('@/components/SpeedRoundGame'),      { ssr: false })
+const RocketGame         = dynamic(() => import('@/components/RocketGame'),          { ssr: false })
+const WhackGame          = dynamic(() => import('@/components/WhackGame'),           { ssr: false })
 const SentenceGame       = dynamic(() => import('@/components/SentenceGame'),        { ssr: false })
 
 type Child = { id: string; name: string; emoji: string; level: string }
@@ -96,6 +98,10 @@ export default function GamePage() {
         return <SpeakGame {...props} isStarter={isSimpleLevel} />
       case 'speedround':
         return <SpeedRoundGame {...props} />
+      case 'rocket':
+        return <RocketGame {...props} />
+      case 'whack':
+        return <WhackGame {...props} />
       case 'sentence':
         return <SentenceGame {...props} />
       default:
