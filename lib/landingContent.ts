@@ -4,11 +4,27 @@
 // Phonics = data/phonicsLevels.json (9 levels · 58 lessons). Prices + quotas come from lib/plans.ts.
 import { AI_DAILY_LIMIT, FREE_WORD_CAP, PAID_PLANS, TRIAL_DAYS, cheapestPerDay, perMonth } from './plans'
 
-// Screenshots shown on the page. Regenerate with `node scripts/capture-landing-screenshots.mjs`.
+// Screenshots of the live app (demo family). Regenerate: `node scripts/capture-landing-screenshots.mjs`.
+const shot = (name: string) => `/screenshots/app/${name}.webp`
 export const SHOTS = {
-  flashcard: { src: '/screenshots/demo%20flashcard.jpg', alt: 'Flashcard từ mới trong VocabWise' },
-  speakAI: { src: '/screenshots/demo%20game%20phat%20am%20cung%20AI.jpg', alt: 'AI chấm phát âm ngay lập tức' },
+  hub: { src: shot('topic-hub'), alt: 'Topic hub Daily: Bubi chỉ bước học tiếp theo' },
+  trophy: { src: shot('trophy'), alt: 'Chinh phục chủ đề: nhận cúp và sticker' },
 } as const
+
+export const GALLERY = [
+  { src: shot('pick-child'), caption: 'Mỗi bé một hồ sơ, tiến độ riêng' },
+  { src: shot('daily-level'), caption: '30 chủ đề mỗi cấp độ' },
+  { src: shot('topic-hub'), caption: 'Bạn đồng hành chỉ bước học tiếp theo' },
+  { src: shot('flashcard'), caption: 'Flashcard: hình, phát âm, câu ví dụ' },
+  { src: shot('game-listen'), caption: 'Nghe & Chọn hình' },
+  { src: shot('game-speak'), caption: '🎤 Phát âm cùng AI, chấm điểm ngay' },
+  { src: shot('trophy'), caption: '🏆 Chinh phục chủ đề, nhận sticker' },
+  { src: shot('stickers'), caption: 'Huy hiệu & album sticker' },
+  { src: shot('phonics'), caption: 'Phonics IPA: 9 cấp độ, 58 bài' },
+  { src: shot('academic'), caption: 'Academic: bài đọc + 13 dạng bài tập' },
+  { src: shot('my-words'), caption: '⭐ Từ của tôi: lưu và ôn từ yêu thích' },
+  { src: shot('parent'), caption: 'Dashboard phụ huynh' },
+] as const
 
 export const STATS = [
   { value: '5.100+', label: 'từ vựng CEFR' },

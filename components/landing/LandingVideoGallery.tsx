@@ -84,7 +84,7 @@ export default function LandingVideoGallery() {
             </button>
           ))}
         </div>
-        <p className="text-center text-xs text-gray-300 mt-1 px-4">← Vuốt để xem thêm</p>
+        <p className="text-center text-xs text-gray-500 mt-1 px-4">← Vuốt để xem thêm</p>
       </Reveal>
 
       {activeIdx !== null && (

@@ -61,8 +61,8 @@ export default function LandingHero() {
             <Image src={mascotCutSrc('rocky', 'pose-cheer')} alt="" aria-hidden width={150} height={150}
               className="absolute left-0 bottom-0 z-10 w-24 h-24 lg:w-36 lg:h-36 drop-shadow-lg" />
             <div className="flex gap-4 lg:gap-5">
-              <Phone src={SHOTS.flashcard.src} alt={SHOTS.flashcard.alt} priority className="-rotate-3 w-[170px] lg:w-[230px]" />
-              <Phone src={SHOTS.speakAI.src} alt={SHOTS.speakAI.alt} className="hidden sm:block rotate-3 mt-10 w-[170px] lg:w-[230px]" />
+              <Phone src={SHOTS.hub.src} alt={SHOTS.hub.alt} priority className="-rotate-3 w-[170px] lg:w-[230px]" />
+              <Phone src={SHOTS.trophy.src} alt={SHOTS.trophy.alt} className="hidden sm:block rotate-3 mt-10 w-[170px] lg:w-[230px]" />
             </div>
             <Image src={mascotCutSrc('bubi', 'pose-wow')} alt="" aria-hidden width={150} height={150}
               className="absolute right-0 bottom-0 z-10 w-24 h-24 lg:w-36 lg:h-36 drop-shadow-lg" />
