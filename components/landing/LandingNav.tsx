@@ -1,6 +1,7 @@
 'use client'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
+import { FOCUS_RING } from './ui'
 
 const NAV_LINKS = [
   { href: '#modules', label: 'Phần học' },
@@ -9,7 +10,6 @@ const NAV_LINKS = [
   { href: '#faq', label: 'FAQ' },
 ]
 
-const FOCUS_RING = 'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-400 focus-visible:ring-offset-2'
 
 export default function LandingNav() {
   const [scrolled, setScrolled] = useState(false)

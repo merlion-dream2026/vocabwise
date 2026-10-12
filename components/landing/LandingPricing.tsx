@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import LandingUpgradeButton from '@/components/landing/LandingUpgradeButton'
 import Reveal from '@/components/landing/Reveal'
-import { FOCUS_RING } from '@/components/landing/LandingHero'
+import { FOCUS_RING, H2, LEAD, SECTION_Y } from '@/components/landing/ui'
 import { PRO_INCLUDES } from '@/lib/landingContent'
 import { AI_DAILY_LIMIT, FREE_KIDS, PAID_PLANS, PLAN_PERKS, TRIAL_DAYS, kVnd, perMonth, type PaidPlanKey } from '@/lib/plans'
 
@@ -23,12 +23,12 @@ const LOOK: Record<PaidPlanKey, { card: string; label: string; price: string; su
 
 export default function LandingPricing() {
   return (
-    <section id="pricing" className="bg-white py-8 lg:py-14 scroll-mt-20">
+    <section id="pricing" className={`bg-slate-50 ${SECTION_Y} scroll-mt-20`}>
       <Reveal className="max-w-5xl mx-auto px-4 lg:px-12">
-        <h2 className="text-2xl lg:text-3xl font-black text-gray-800 text-center mb-1">Gói dịch vụ</h2>
-        <p className="text-gray-600 text-sm lg:text-base text-center mb-6 lg:mb-8">1 tài khoản cho cả gia đình · Đồng bộ mọi thiết bị · Thanh toán chuyển khoản</p>
+        <h2 className={H2}>Gói dịch vụ</h2>
+        <p className={LEAD}>1 tài khoản cho cả gia đình · Đồng bộ mọi thiết bị · Thanh toán chuyển khoản</p>
 
-        <div className="bg-gray-50 rounded-2xl p-4 lg:p-5 border-2 border-gray-100 mb-6 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+        <div className="bg-white rounded-2xl p-4 lg:p-5 border-2 border-gray-200 mb-6 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <div>
             <p className="font-black text-gray-800 text-base">🆓 Dùng thử {TRIAL_DAYS} ngày miễn phí</p>
             <p className="text-sm text-gray-600 mt-0.5">

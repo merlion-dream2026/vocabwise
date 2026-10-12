@@ -1,17 +1,15 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import Reveal from '@/components/landing/Reveal'
-import { FOCUS_RING } from '@/components/landing/LandingHero'
+import { FOCUS_RING, H2, LEAD, SECTION_Y } from '@/components/landing/ui'
 import { mascotCutSrc } from '@/lib/mascots'
 import { FAQ_ITEMS, JOURNEY, MODULE_CARDS, MOTIVATION, STEPS, TESTIMONIAL } from '@/lib/landingContent'
 import { TRIAL_DAYS } from '@/lib/plans'
 
-const H2 = 'text-2xl lg:text-3xl font-black text-gray-800 text-center'
-const LEAD = 'text-gray-600 text-sm lg:text-base text-center mt-1 mb-6 lg:mb-8'
 
 export function ModulesSection() {
   return (
-    <section id="modules" className="bg-white py-8 lg:py-14 scroll-mt-20">
+    <section id="modules" className={`bg-white ${SECTION_Y} scroll-mt-20`}>
       <Reveal className="max-w-7xl mx-auto">
         <h2 className={`${H2} px-4`}>3 phần học + dashboard cho ba mẹ</h2>
         <p className={`${LEAD} px-4`}>Một tài khoản dùng cho cả nhà: bé học Daily & Phonics, anh chị lớn học Academic</p>
@@ -43,7 +41,7 @@ export function ModulesSection() {
 
 export function JourneySection() {
   return (
-    <section id="journey" className="bg-gradient-to-b from-white to-purple-50 py-8 lg:py-14 scroll-mt-20">
+    <section id="journey" className={`bg-gradient-to-b from-white to-purple-50 ${SECTION_Y} scroll-mt-20`}>
       <Reveal className="max-w-6xl mx-auto px-4 lg:px-12">
         <h2 className={H2}>Một chủ đề, học đến khi nhớ thật</h2>
         <p className={LEAD}>Mỗi chủ đề Daily đi qua 4 bước. Sao tính theo lần chơi gần nhất, nên muốn giữ cúp thì phải nhớ từ</p>
@@ -64,11 +62,11 @@ export function JourneySection() {
 
 export function MotivationSection() {
   return (
-    <section className="bg-purple-50 py-8 lg:py-14">
+    <section className={`bg-purple-50 ${SECTION_Y}`}>
       <Reveal className="max-w-6xl mx-auto px-4 lg:px-12">
         <div className="flex flex-col lg:flex-row items-center gap-6 lg:gap-10">
           <div className="flex items-end -space-x-4 flex-shrink-0">
-            <Image src={mascotCutSrc('rocky', 'pose-trophy')} alt="Rocky giơ cúp" width={180} height={180} className="w-36 h-36 lg:w-44 lg:h-44 drop-shadow-lg" />
+            <Image src={mascotCutSrc('rocky', 'pose-trophy')} alt="Rocky giơ cúp" width={230} height={230} className="w-44 h-44 lg:w-56 lg:h-56 drop-shadow-lg" />
             <Image src={mascotCutSrc('bubi', 'pose-cheer')} alt="Bubi reo vui" width={180} height={180} className="w-36 h-36 lg:w-44 lg:h-44 drop-shadow-lg" />
           </div>
           <div className="flex-1 w-full">
@@ -93,7 +91,7 @@ export function MotivationSection() {
 
 export function TestimonialSection() {
   return (
-    <section className="bg-white py-8 lg:py-14">
+    <section className={`bg-white ${SECTION_Y}`}>
       <Reveal className="max-w-3xl mx-auto px-4 lg:px-12">
         <figure className="rounded-3xl border-2 border-b-[4px] border-amber-200 bg-gradient-to-br from-amber-50 to-white p-5 lg:p-8">
           <p className="text-xs font-black uppercase tracking-widest text-amber-700">Câu chuyện thật</p>
@@ -114,7 +112,7 @@ export function TestimonialSection() {
 
 export function StepsSection() {
   return (
-    <section className="bg-white border-t border-gray-100 py-8 lg:py-14">
+    <section className={`bg-white ${SECTION_Y}`}>
       <Reveal className="max-w-5xl mx-auto px-4 lg:px-12">
         <h2 className={H2}>Bắt đầu thật dễ</h2>
         <p className={LEAD}>4 bước để con bắt đầu hành trình từ vựng</p>
@@ -145,7 +143,7 @@ export function StepsSection() {
 
 export function FounderSection() {
   return (
-    <section className="bg-white py-8 lg:py-14">
+    <section className={`bg-slate-50 ${SECTION_Y}`}>
       <Reveal className="max-w-5xl mx-auto px-4 lg:px-12">
         <div className="bg-white rounded-3xl p-5 lg:p-6 border-2 border-b-[4px] border-purple-200 flex flex-col sm:flex-row gap-4 lg:gap-6 items-start">
           <span aria-hidden className="text-5xl flex-shrink-0">👨‍🏫</span>
@@ -166,7 +164,7 @@ export function FounderSection() {
 
 export function FaqSection() {
   return (
-    <section id="faq" className="bg-white border-t border-gray-100 py-8 lg:py-14 scroll-mt-20">
+    <section id="faq" className={`bg-white ${SECTION_Y} scroll-mt-20`}>
       <Reveal className="max-w-3xl mx-auto px-4 lg:px-0">
         <h2 className={H2}>Câu hỏi thường gặp</h2>
         <p className={LEAD}>Về VocabWise</p>
@@ -188,7 +186,7 @@ export function FaqSection() {
 
 export function FinalCtaSection() {
   return (
-    <section className="bg-gradient-to-br from-purple-500 to-pink-500 py-10 lg:py-14">
+    <section className={`bg-gradient-to-br from-purple-500 to-pink-500 ${SECTION_Y}`}>
       <div className="max-w-3xl mx-auto px-4 text-center">
         <Image src={mascotCutSrc('rocky', 'pose-point')} alt="" aria-hidden width={120} height={120} className="mx-auto w-24 h-24 drop-shadow-lg" />
         <h2 className="mt-2 text-2xl lg:text-3xl font-black text-white">Rocky & Bubi đang chờ bé!</h2>

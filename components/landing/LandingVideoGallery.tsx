@@ -2,8 +2,8 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import Reveal from './Reveal'
+import { FOCUS_RING, H2, LEAD, SECTION_Y } from './ui'
 
-const FOCUS_RING = 'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-400 focus-visible:ring-offset-2'
 
 const VIDEOS = [
   {
@@ -64,9 +64,10 @@ export default function LandingVideoGallery() {
 
   return (
     <>
-      <Reveal className="max-w-7xl mx-auto pb-4">
-        <h2 className="text-xl lg:text-3xl font-black text-gray-800 text-center mb-1 px-4">Xem app hoạt động thực tế</h2>
-        <p className="text-gray-500 text-sm lg:text-base text-center mb-5 lg:mb-8 px-4">Video thật · Các bé đang học</p>
+      <section className={`bg-white ${SECTION_Y}`}>
+      <Reveal className="max-w-7xl mx-auto">
+        <h2 className={`${H2} px-4`}>Xem app hoạt động thực tế</h2>
+        <p className={`${LEAD} px-4`}>Video thật · Các bé đang học</p>
         <div className="flex gap-4 overflow-x-auto pt-3 pb-3 px-4 snap-x snap-mandatory" style={{ scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' } as React.CSSProperties}>
           {VIDEOS.map((v, i) => (
             <button key={i} onClick={() => setActiveIdx(i)}
@@ -86,6 +87,7 @@ export default function LandingVideoGallery() {
         </div>
         <p className="text-center text-xs text-gray-500 mt-1 px-4">← Vuốt để xem thêm</p>
       </Reveal>
+      </section>
 
       {activeIdx !== null && (
         <div className="fixed inset-0 bg-black/95 z-50 flex flex-col items-center justify-center px-4"

@@ -5,6 +5,7 @@ const config: Config = {
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './lib/**/*.{ts,tsx}',   // class strings kept in data files (e.g. lib/landingContent.ts)
     './data/**/*.json',
   ],
   theme: {

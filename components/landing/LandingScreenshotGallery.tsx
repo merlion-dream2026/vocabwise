@@ -2,9 +2,9 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import Reveal from './Reveal'
+import { FOCUS_RING, H2, LEAD, SECTION_Y } from './ui'
 import { GALLERY } from '@/lib/landingContent'
 
-const FOCUS_RING = 'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-400 focus-visible:ring-offset-2'
 
 const SCREENSHOTS = GALLERY
 
@@ -50,9 +50,10 @@ export default function LandingScreenshotGallery() {
         </div>
       )}
 
-      <Reveal className="max-w-7xl mx-auto pb-4">
-        <h2 className="text-xl lg:text-3xl font-black text-gray-800 text-center mb-1 px-4">Khám phá từng tính năng</h2>
-        <p className="text-gray-500 text-sm lg:text-base text-center mb-5 lg:mb-8 px-4">Ảnh chụp trực tiếp từ app · Cập nhật tháng 10/2026</p>
+      <section className={`bg-slate-50 ${SECTION_Y}`}>
+      <Reveal className="max-w-7xl mx-auto">
+        <h2 className={`${H2} px-4`}>Khám phá từng tính năng</h2>
+        <p className={`${LEAD} px-4`}>Ảnh chụp trực tiếp từ app · Cập nhật tháng 10/2026</p>
         <div className="flex gap-4 overflow-x-auto pt-3 pb-4 px-4 snap-x snap-mandatory" style={{ scrollbarWidth: 'none', WebkitOverflowScrolling: 'touch' } as React.CSSProperties}>
           {SCREENSHOTS.map((s, i) => (
             <button key={i} onClick={() => setActiveScreenshot(s)}
@@ -71,6 +72,7 @@ export default function LandingScreenshotGallery() {
         </div>
         <p className="text-center text-xs text-gray-500 px-4">← Vuốt để xem tất cả {SCREENSHOTS.length} màn hình →</p>
       </Reveal>
+      </section>
     </>
   )
 }

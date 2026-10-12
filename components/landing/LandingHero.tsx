@@ -5,7 +5,7 @@ import { mascotCutSrc } from '@/lib/mascots'
 import { SHOTS, STATS } from '@/lib/landingContent'
 import { TRIAL_DAYS } from '@/lib/plans'
 
-export const FOCUS_RING = 'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-400 focus-visible:ring-offset-2'
+import { FOCUS_RING } from '@/components/landing/ui'
 export const CTA_PRIMARY = `inline-flex items-center justify-center bg-gradient-to-r from-purple-500 to-pink-500 text-white font-black rounded-2xl border-b-[4px] border-purple-700/40 shadow-lg hover:shadow-xl transition-all active:translate-y-0.5 active:border-b-2 whitespace-nowrap ${FOCUS_RING}`
 
 function Phone({ src, alt, className = '', priority = false }: { src: string; alt: string; className?: string; priority?: boolean }) {
