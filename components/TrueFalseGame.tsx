@@ -15,7 +15,6 @@ type Word = { word: string; meaning: string; emoji: string }
 type Topic = { id: string; name: string; emoji: string; color: string; words: Word[] }
 type Props = { topic: Topic; level: string; backUrl: string }
 
-const ROUNDS = 16
 const TIME_PER_Q = 10
 
 function shuffle<T>(arr: T[]): T[] {
@@ -24,17 +23,17 @@ function shuffle<T>(arr: T[]): T[] {
 
 type Round = { word: Word; shownMeaning: string; isCorrect: boolean }
 
+// One question per topic word (10–15), so every word is checked exactly once and none can be
+// answered from an earlier question. True/false is split evenly (odd count: one extra at random).
 function buildRounds(words: Word[]): Round[] {
-  const rounds: Round[] = []
-  for (const word of words) {
-    rounds.push({ word, shownMeaning: word.meaning, isCorrect: true })
-    const others = words.filter(w => w.word !== word.word)
-    if (others.length > 0) {
-      const wrong = others[Math.floor(Math.random() * others.length)]
-      rounds.push({ word, shownMeaning: wrong.meaning, isCorrect: false })
-    }
-  }
-  return shuffle(rounds).slice(0, ROUNDS)
+  const truths = shuffle(words.map((_, i) => i < Math.ceil(words.length / 2)))
+  if (words.length % 2 && Math.random() < 0.5) truths.reverse()
+  return shuffle(words).map((word, i) => {
+    const others = words.filter(w => w.word !== word.word && w.meaning !== word.meaning)
+    if (truths[i] || others.length === 0) return { word, shownMeaning: word.meaning, isCorrect: true }
+    const wrong = others[Math.floor(Math.random() * others.length)]
+    return { word, shownMeaning: wrong.meaning, isCorrect: false }
+  })
 }
 
 export default function TrueFalseGame({ topic, level, backUrl }: Props) {

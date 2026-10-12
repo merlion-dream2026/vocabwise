@@ -30,10 +30,11 @@ export function starsFor(pct: number): number {
 
 // Which games count toward each round, mirroring AXANH's 4 + 3 layout (AXANH: Đúng/Sai, Trắc
 // nghiệm, Ghép định nghĩa, Điền từ | Sắp xếp câu, Phát âm, Luyện tập tổng hợp). Games a level
-// offers that are in neither list are "bonus": played and starred, but not required.
+// offers that are in neither list are "bonus": played and starred, but not required. Daily
+// round 1 also has Lật thẻ (5 games, still 3 needed) so kids see it without opening the bonus row.
 export type RoundSpec = { r1: readonly string[]; r2: readonly string[] }
 const STARTER_SPEC: RoundSpec = {            // Seeker / Starter / Ranger
-  r1: ['truefalse', 'listen', 'match', 'fillletter'],
+  r1: ['truefalse', 'listen', 'match', 'memory', 'fillletter'],
   r2: ['sentenceorder', 'speak', 'spell'],
 }
 const EXPLORER_SPEC: RoundSpec = {           // Explorer / Scholar / Master

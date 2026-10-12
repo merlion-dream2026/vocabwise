@@ -87,7 +87,7 @@ describe('nextStep', () => {
 describe('bonusGames', () => {
   it('lists the level games outside both rounds', () => {
     expect(bonusGames(EXPLORER_GAMES, 'explorer').map((x) => x.key)).toEqual(['listen', 'typing', 'sentence'])
-    expect(bonusGames(STARTER_GAMES, 'starter').map((x) => x.key)).toEqual(['memory', 'bubble'])
+    expect(bonusGames(STARTER_GAMES, 'starter').map((x) => x.key)).toEqual(['bubble'])
   })
 })
 
