@@ -32,10 +32,12 @@ const nextConfig = {
         source: '/(.*)',
         headers: securityHeaders,
       },
-      {
+      // Production chunks are content-hashed, so "immutable" is safe there. In `next dev` the chunk
+      // names don't change between edits, and this header made browsers keep stale CSS/JS forever.
+      ...(process.env.NODE_ENV === 'production' ? [{
         source: '/_next/static/(.*)',
         headers: [{ key: 'Cache-Control', value: 'public, max-age=31536000, immutable' }],
-      },
+      }] : []),
       {
         source: '/audio/(.*)',
         headers: [{ key: 'Cache-Control', value: 'public, max-age=86400, stale-while-revalidate=604800' }],
