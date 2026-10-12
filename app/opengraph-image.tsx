@@ -1,4 +1,5 @@
 import { ImageResponse } from 'next/og'
+import { LogoMark } from '@/components/BrandLogo'
 
 // No `runtime = 'edge'` — Edge Runtime is deprecated as of Next 16 and ImageResponse
 // no longer requires it; this now renders on the default Node.js runtime.
@@ -22,7 +23,7 @@ export default function Image() {
           padding: '60px',
         }}
       >
-        <div style={{ fontSize: 80, marginBottom: 24 }}>📚</div>
+        <div style={{ display: 'flex', marginBottom: 24 }}><LogoMark size={140} radius={24} /></div>
         <div style={{ fontSize: 72, fontWeight: 900, color: 'white', letterSpacing: '-2px', marginBottom: 16 }}>
           VocabWise
         </div>

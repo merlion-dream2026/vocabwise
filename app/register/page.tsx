@@ -4,6 +4,7 @@ import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import UpgradeModal from '@/components/UpgradeModal'
 import { cta } from '@/components/ChunkyUI'
+import { LogoMark } from '@/components/BrandLogo'
 
 const REFERRAL_OPTIONS = [
   'Google / Tìm kiếm trên mạng',
@@ -74,7 +75,7 @@ export default function RegisterPage() {
       <div className="w-full max-w-sm">
 
         <div className="text-center mb-6">
-          <Link href="/login" className="text-3xl inline-block mb-3">📚</Link>
+          <Link href="/login" aria-label="VocabWise" className="inline-block mb-3"><LogoMark size={48} /></Link>
           <h1 className="text-2xl font-bold text-gray-800">Tạo tài khoản miễn phí</h1>
           <p className="text-gray-400 text-sm font-semibold mt-1">Thử miễn phí 7 ngày, không cần cài app</p>
           <div className="flex flex-wrap justify-center gap-1.5 mt-2">

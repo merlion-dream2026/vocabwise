@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import UpgradeBanner from '@/components/UpgradeBanner'
 import { clearNavState } from '@/components/BottomNav'
-import { useExpiryGuard, daysUntilExpiry } from '@/lib/useExpiryGuard'
+import { daysUntilExpiry } from '@/lib/useExpiryGuard'
 import { clearLocalLearningData } from '@/lib/offlineStorage'
 import ReferralTab from './ReferralTab'
 import type { Child, Session, ChildStats } from './_types'
@@ -16,6 +16,7 @@ import { RewardsTab } from './_components/RewardsTab'
 import { FaqCard } from './_components/FaqCard'
 import { cachedFetch, invalidateCachedFetch } from '@/lib/cachedFetch'
 import { academicFetch } from '@/lib/academicSync'
+import { BrandLogo } from '@/components/BrandLogo'
 
 const TAB_LABELS: Record<'dashboard' | 'rewards' | 'referral' | 'faq' | 'settings', string> = {
   dashboard: '📊 Dashboard', rewards: '🎁 Quà tặng', referral: '🤝 Giới thiệu', faq: '❓ FAQ', settings: '⚙️ Cài đặt',
@@ -32,7 +33,6 @@ export default function DashboardPage() {
   const [showAdd, setShowAdd] = useState(false)
   const [editing, setEditing] = useState<Child | null>(null)
 
-  useExpiryGuard(session)
 
   async function loadData() {
     setLoading(true)
@@ -148,8 +148,10 @@ export default function DashboardPage() {
             <div className="bg-orange-50 border-2 border-orange-200 rounded-2xl px-4 py-2.5 flex items-center gap-2.5">
               <span className="text-xl flex-shrink-0">⏰</span>
               <p className="text-orange-700 text-xs font-bold leading-snug">
-                {d <= 0 ? 'Tài khoản đã hết hạn!' : `Tài khoản hết hạn sau ${d} ngày!`}
-                {' '}Vui lòng <button onClick={() => setTab('settings')} className="underline">gia hạn ngay</button>.
+                {d <= 0
+                  ? <>Tài khoản đã hết hạn. Tiến độ, sticker và huy hiệu của bé vẫn được giữ và xem được ở đây; </>
+                  : `Tài khoản hết hạn sau ${d} ngày! `}
+                <button onClick={() => setTab('settings')} className="underline">{d <= 0 ? 'gia hạn để bé học tiếp' : 'Gia hạn ngay'}</button>.
               </p>
             </div>
           </div>
@@ -161,7 +163,7 @@ export default function DashboardPage() {
         <div className="max-w-xl mx-auto px-4 pt-6 pb-0">
           <div className="flex items-center justify-between mb-5">
             <div>
-              <h1 className="text-white font-bold text-2xl">📚 VocabWise</h1>
+              <h1 className="text-2xl"><BrandLogo size={30} onDark /></h1>
               <div className="flex items-center gap-2 mt-0.5">
                 <p className="text-white/70 text-sm font-semibold">{session!.username}</p>
                 {(() => {

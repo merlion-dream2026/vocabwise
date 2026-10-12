@@ -1,6 +1,7 @@
 'use client'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
+import { BrandLogo } from '@/components/BrandLogo'
 import { FOCUS_RING } from './ui'
 
 const NAV_LINKS = [
@@ -25,7 +26,7 @@ export default function LandingNav() {
   return (
     <nav className={`sticky top-0 z-40 bg-white/80 backdrop-blur-md border-b transition-shadow duration-300 ${scrolled ? 'border-gray-200 shadow-sm' : 'border-gray-100'}`}>
       <div className="max-w-7xl mx-auto px-4 lg:px-12 py-4 flex items-center justify-between">
-        <span className="font-black text-xl lg:text-2xl text-gray-800">📚 VocabWise</span>
+        <BrandLogo size={36} className="text-xl lg:text-2xl" />
 
         <div className="hidden lg:flex items-center gap-8 text-sm lg:text-base font-bold text-gray-500">
           {NAV_LINKS.map(l => (

@@ -5,6 +5,7 @@ import { FOCUS_RING, H2, LEAD, SECTION_Y } from '@/components/landing/ui'
 import { mascotCutSrc } from '@/lib/mascots'
 import { FAQ_ITEMS, JOURNEY, MODULE_CARDS, MOTIVATION, STEPS, TESTIMONIAL } from '@/lib/landingContent'
 import { TRIAL_DAYS } from '@/lib/plans'
+import { LogoMark } from '@/components/BrandLogo'
 
 
 export function ModulesSection() {
@@ -204,7 +205,7 @@ export function LandingFooter() {
   return (
     <footer className="border-t border-gray-200 bg-white pb-20 md:pb-0">
       <div className="max-w-7xl mx-auto px-4 lg:px-12 py-5 flex flex-wrap items-center justify-between gap-y-2 gap-x-4 text-sm text-gray-600">
-        <span className="font-semibold">📚 © {new Date().getFullYear()} VocabWise · IELTS CHAMPION</span>
+        <span className="font-semibold inline-flex items-center gap-2"><LogoMark size={20} /> © {new Date().getFullYear()} VocabWise · IELTS CHAMPION</span>
         <nav aria-label="Liên kết cuối trang" className="flex items-center gap-4">
           <Link href="/login" className="hover:text-gray-900 transition-colors">🔐 Đăng nhập</Link>
           <Link href="/terms" className="hover:text-gray-900 transition-colors">📄 Điều khoản</Link>

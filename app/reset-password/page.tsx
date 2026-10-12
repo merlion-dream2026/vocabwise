@@ -3,6 +3,7 @@ import { useState, FormEvent, Suspense } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import { cta } from '@/components/ChunkyUI'
+import { LogoMark } from '@/components/BrandLogo'
 
 function ResetForm() {
   const router = useRouter()
@@ -99,7 +100,7 @@ export default function ResetPasswordPage() {
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50 flex items-center justify-center p-4">
       <div className="w-full max-w-sm">
         <div className="text-center mb-6">
-          <Link href="/" className="text-3xl inline-block mb-3">📚</Link>
+          <Link href="/" aria-label="VocabWise" className="inline-block mb-3"><LogoMark size={48} /></Link>
           <h1 className="text-2xl font-bold text-gray-800">Đặt lại mật khẩu</h1>
           <p className="text-gray-400 text-sm mt-1">Nhập mật khẩu mới cho tài khoản của bạn</p>
         </div>
