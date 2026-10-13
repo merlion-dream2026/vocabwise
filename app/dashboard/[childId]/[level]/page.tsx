@@ -12,9 +12,7 @@ import UpgradePaymentModal from '@/components/UpgradeModal'
 import ExpiryBanner from '@/components/ExpiryBanner'
 import { getKidsTopicLimit, getRevisionLimit } from '@/lib/planUtils'
 import { cachedFetch } from '@/lib/cachedFetch'
-import { isTopicMastered, topicSteps, ROUND1_NEEDED, ROUND2_NEEDED, type MasteryEntry } from '@/lib/topicMastery'
-
-const GAMES_NEEDED = ROUND1_NEEDED + ROUND2_NEEDED // 3★ games a topic needs across both rounds
+import { isTopicMastered, topicSteps, roundNeeds, type MasteryEntry } from '@/lib/topicMastery'
 import PageSkeleton from '@/components/PageSkeleton'
 import BadgeCollection from '@/components/BadgeCollection'
 import { cta } from '@/components/ChunkyUI'
@@ -214,7 +212,8 @@ export default function LevelTopicsPage() {
   const todayXP = (syncRaw?.history?.[today]?.xp ?? 0) as number
   const todayXPDone = todayXP >= DAILY_XP_GOAL
 
-  // Games toward the trophy (Vòng 1 + Vòng 2, see GAMES_NEEDED), from the topic-hub rule.
+  // Games toward the trophy (Vòng 1 + Vòng 2; fewer for Seeker), from the topic-hub rule.
+  const GAMES_NEEDED = roundNeeds(level).r1 + roundNeeds(level).r2
   function gamesProgress(m: MasteryData | undefined): number {
     return m ? topicSteps(m, level).done - (m.flashcard ? 1 : 0) : 0
   }

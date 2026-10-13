@@ -47,6 +47,12 @@ const EXPLORER_SPEC: RoundSpec = {           // Explorer / Scholar / Master
 export const ROUND1_NEEDED = 3
 export const ROUND2_NEEDED = 3
 
+/** 3★ games needed per round. Seeker (Pre-A1, the youngest beginners) needs 2 in round 1 so the
+ *  first trophies come sooner; the 3★ bar itself stays the same everywhere. */
+export function roundNeeds(level?: string): { r1: number; r2: number } {
+  return { r1: level === 'seeker' ? 2 : ROUND1_NEEDED, r2: ROUND2_NEEDED }
+}
+
 export function roundSpec(level: string): RoundSpec {
   return ['explorer', 'scholar', 'master'].includes(level) ? EXPLORER_SPEC : STARTER_SPEC
 }
@@ -80,28 +86,31 @@ export function isTopicMastered(entry: MasteryEntry, level?: string): boolean {
   if (entry.legacyDone) return true
   // Completed under the old rule and not replayed since: keep the trophy.
   if (!entry.modes && entry.flashcard && entry.games.length >= 3) return true
-  return entry.flashcard && specsFor(level).some((s) => count3(entry, s.r1) >= ROUND1_NEEDED && count3(entry, s.r2) >= ROUND2_NEEDED)
+  const need = roundNeeds(level)
+  return entry.flashcard && specsFor(level).some((s) => count3(entry, s.r1) >= need.r1 && count3(entry, s.r2) >= need.r2)
 }
 
-/** Steps toward the trophy: flashcard + 3 Round-1 games + 2 Round-2 games, each at its cap. */
+/** Steps toward the trophy: flashcard + the Round-1 games + the Round-2 games needed, each at its cap. */
 export function topicSteps(entry: MasteryEntry, level?: string): { done: number; total: number } {
-  const games = Math.max(...specsFor(level).map((s) => Math.min(count3(entry, s.r1), ROUND1_NEEDED) + Math.min(count3(entry, s.r2), ROUND2_NEEDED)))
-  return { done: (entry.flashcard ? 1 : 0) + games, total: 1 + ROUND1_NEEDED + ROUND2_NEEDED }
+  const need = roundNeeds(level)
+  const games = Math.max(...specsFor(level).map((s) => Math.min(count3(entry, s.r1), need.r1) + Math.min(count3(entry, s.r2), need.r2)))
+  return { done: (entry.flashcard ? 1 : 0) + games, total: 1 + need.r1 + need.r2 }
 }
 
 export type RoundMastery = { round: 1 | 2; ringDone: number; ringTotal: number; note: string }
 
 export function masteryByRound(entry: MasteryEntry, level: string): [RoundMastery, RoundMastery] {
   const s = roundSpec(level)
+  const need = roundNeeds(level)
   const flash = entry.flashcard ? 1 : 0
   return [
     {
-      round: 1, ringDone: flash + Math.min(count3(entry, s.r1), ROUND1_NEEDED), ringTotal: 1 + ROUND1_NEEDED,
-      note: `Qua vòng khi: học xong Flashcard và đạt ⭐⭐⭐ ở ${ROUND1_NEEDED}/${s.r1.length} bài`,
+      round: 1, ringDone: flash + Math.min(count3(entry, s.r1), need.r1), ringTotal: 1 + need.r1,
+      note: `Qua vòng khi: học xong Flashcard và đạt ⭐⭐⭐ ở ${need.r1}/${s.r1.length} bài`,
     },
     {
-      round: 2, ringDone: flash + Math.min(count3(entry, s.r2), ROUND2_NEEDED), ringTotal: 1 + ROUND2_NEEDED,
-      note: `Qua vòng khi: ôn xong Flashcard và đạt ⭐⭐⭐ ở ${ROUND2_NEEDED}/${s.r2.length} bài`,
+      round: 2, ringDone: flash + Math.min(count3(entry, s.r2), need.r2), ringTotal: 1 + need.r2,
+      note: `Qua vòng khi: ôn xong Flashcard và đạt ⭐⭐⭐ ở ${need.r2}/${s.r2.length} bài`,
     },
   ]
 }
@@ -126,7 +135,8 @@ export function nextStep(entry: MasteryEntry, games: GameDef[], level: string): 
     }
     return best ? { kind: 'game', ...best, round } : null
   }
-  return pick(s.r1, ROUND1_NEEDED, 1) ?? pick(s.r2, ROUND2_NEEDED, 2) ?? { kind: 'done' }
+  const need = roundNeeds(level)
+  return pick(s.r1, need.r1, 1) ?? pick(s.r2, need.r2, 2) ?? { kind: 'done' }
 }
 
 // Memory (Lật thẻ) has no right/wrong count, so its score is built from how few flips and how

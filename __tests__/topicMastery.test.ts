@@ -27,6 +27,15 @@ describe('isTopicMastered (explorer)', () => {
     expect(isTopicMastered(E({ flashcard: true, modes: { whack: r(90), fishing: r(90), rocket: r(90), plane: r(90) } }), 'starter')).toBe(false)
   })
 
+  it('lets Seeker pass round 1 with 2 games (3★ bar unchanged); other levels need 3', () => {
+    const two = E({ flashcard: true, modes: { truefalse: r(100), listen: r(90), speak: r(100), spell: r(100), sentenceorder: r(100) } })
+    expect(isTopicMastered(two, 'seeker')).toBe(true)
+    expect(isTopicMastered(two, 'starter')).toBe(false)
+    expect(isTopicMastered(E({ flashcard: true, modes: { truefalse: r(100), listen: r(70), speak: r(100), spell: r(100), sentenceorder: r(100) } }), 'seeker')).toBe(false) // 2★ doesn't count
+    expect(topicSteps(E(), 'seeker')).toEqual({ done: 0, total: 6 })
+    expect(masteryByRound(two, 'seeker')[0].note).toContain('2/7')
+  })
+
   it('needs flashcard + 3 round-1 + 3 round-2 games at 3 stars', () => {
     expect(isTopicMastered(E({ flashcard: true, modes: { truefalse: r(100), quiz: r(100), gapfill: r(100), speak: r(100), sentenceorder: r(100) } }), 'explorer')).toBe(false) // only 2 in round 2
     expect(isTopicMastered(full, 'explorer')).toBe(true)
