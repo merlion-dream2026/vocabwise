@@ -19,7 +19,15 @@ describe('starsFor', () => {
 
 describe('isTopicMastered (explorer)', () => {
   const full = E({ flashcard: true, modes: { truefalse: r(100), quiz: r(90), gapfill: r(100), speak: r(100), sentenceorder: r(95) } })
-  it('needs flashcard + 3/4 round-1 + 2/3 round-2 at 3 stars', () => {
+  it('counts the arcade games: whack + fishing in round 1, rocket + plane in round 2', () => {
+    const m = { truefalse: r(100), whack: r(90), fishing: r(85), rocket: r(95), plane: r(85) }
+    expect(isTopicMastered(E({ flashcard: true, modes: m }), 'starter')).toBe(true)
+    expect(isTopicMastered(E({ flashcard: true, modes: m }), 'explorer')).toBe(true)
+    // the arcade games alone in round 1 are only 2 of the 3 needed
+    expect(isTopicMastered(E({ flashcard: true, modes: { whack: r(90), fishing: r(90), rocket: r(90), plane: r(90) } }), 'starter')).toBe(false)
+  })
+
+  it('needs flashcard + 3 round-1 + 2 round-2 games at 3 stars', () => {
     expect(isTopicMastered(full, 'explorer')).toBe(true)
     expect(isTopicMastered({ ...full, flashcard: false }, 'explorer')).toBe(false)
     expect(isTopicMastered(E({ flashcard: true, modes: { truefalse: r(100), quiz: r(100), gapfill: r(100) } }), 'explorer')).toBe(false) // no round 2
@@ -65,8 +73,8 @@ describe('topicSteps / masteryByRound', () => {
     expect(topicSteps(e, 'explorer')).toEqual({ done: 4, total: 6 })
     const [r1, r2] = masteryByRound(e, 'explorer')
     expect([r1.ringDone, r1.ringTotal, r2.ringDone, r2.ringTotal]).toEqual([4, 4, 1, 3])
-    expect(r1.note).toContain('3/4')
-    expect(r2.note).toContain('2/3')
+    expect(r1.note).toContain('3/6')
+    expect(r2.note).toContain('2/5')
   })
 })
 
@@ -86,8 +94,8 @@ describe('nextStep', () => {
 
 describe('bonusGames', () => {
   it('lists the level games outside both rounds', () => {
-    expect(bonusGames(EXPLORER_GAMES, 'explorer').map((x) => x.key)).toEqual(['listen', 'typing', 'sentence', 'rocket', 'whack', 'fishing', 'plane'])
-    expect(bonusGames(STARTER_GAMES, 'starter').map((x) => x.key)).toEqual(['bubble', 'rocket', 'whack', 'fishing', 'plane'])
+    expect(bonusGames(EXPLORER_GAMES, 'explorer').map((x) => x.key)).toEqual(['listen', 'typing', 'sentence'])
+    expect(bonusGames(STARTER_GAMES, 'starter').map((x) => x.key)).toEqual(['bubble'])
   })
 })
 

@@ -31,15 +31,18 @@ export function starsFor(pct: number): number {
 // Which games count toward each round, mirroring AXANH's 4 + 3 layout (AXANH: Đúng/Sai, Trắc
 // nghiệm, Ghép định nghĩa, Điền từ | Sắp xếp câu, Phát âm, Luyện tập tổng hợp). Games a level
 // offers that are in neither list are "bonus": played and starred, but not required. Daily
-// round 1 also has Lật thẻ (5 games, still 3 needed) so kids see it without opening the bonus row.
+// round 1 also has Lật thẻ. The arcade games count too — a good arcade score needs the words known:
+// round 1 gets the gentler two (Đập chuột, Câu cá: Vietnamese meaning + emoji, roomy timers), round 2
+// the ones that need the words down pat (Phóng tên lửa: listening + word → meaning on one fuel clock;
+// Máy bay: recognise before the clouds arrive). The number needed per round is unchanged.
 export type RoundSpec = { r1: readonly string[]; r2: readonly string[] }
 const STARTER_SPEC: RoundSpec = {            // Seeker / Starter / Ranger
-  r1: ['truefalse', 'listen', 'match', 'memory', 'fillletter'],
-  r2: ['sentenceorder', 'speak', 'spell'],
+  r1: ['truefalse', 'listen', 'match', 'memory', 'fillletter', 'whack', 'fishing'],
+  r2: ['sentenceorder', 'speak', 'spell', 'rocket', 'plane'],
 }
 const EXPLORER_SPEC: RoundSpec = {           // Explorer / Scholar / Master
-  r1: ['truefalse', 'quiz', 'definitionmatch', 'gapfill'],
-  r2: ['sentenceorder', 'speak', 'speedround'],
+  r1: ['truefalse', 'quiz', 'definitionmatch', 'gapfill', 'whack', 'fishing'],
+  r2: ['sentenceorder', 'speak', 'speedround', 'rocket', 'plane'],
 }
 export const ROUND1_NEEDED = 3
 export const ROUND2_NEEDED = 2
