@@ -34,7 +34,7 @@ export function starsFor(pct: number): number {
 // round 1 also has Lật thẻ. The arcade games count too — a good arcade score needs the words known:
 // round 1 gets the gentler two (Đập chuột, Câu cá: Vietnamese meaning + emoji, roomy timers), round 2
 // the ones that need the words down pat (Phóng tên lửa: listening + word → meaning on one fuel clock;
-// Máy bay: recognise before the clouds arrive). The number needed per round is unchanged.
+// Máy bay: recognise before the clouds arrive). Both rounds need 3 games at 3★.
 export type RoundSpec = { r1: readonly string[]; r2: readonly string[] }
 const STARTER_SPEC: RoundSpec = {            // Seeker / Starter / Ranger
   r1: ['truefalse', 'listen', 'match', 'memory', 'fillletter', 'whack', 'fishing'],
@@ -45,7 +45,7 @@ const EXPLORER_SPEC: RoundSpec = {           // Explorer / Scholar / Master
   r2: ['sentenceorder', 'speak', 'speedround', 'rocket', 'plane'],
 }
 export const ROUND1_NEEDED = 3
-export const ROUND2_NEEDED = 2
+export const ROUND2_NEEDED = 3
 
 export function roundSpec(level: string): RoundSpec {
   return ['explorer', 'scholar', 'master'].includes(level) ? EXPLORER_SPEC : STARTER_SPEC

@@ -12,7 +12,9 @@ import UpgradePaymentModal from '@/components/UpgradeModal'
 import ExpiryBanner from '@/components/ExpiryBanner'
 import { getKidsTopicLimit, getRevisionLimit } from '@/lib/planUtils'
 import { cachedFetch } from '@/lib/cachedFetch'
-import { isTopicMastered, topicSteps, type MasteryEntry } from '@/lib/topicMastery'
+import { isTopicMastered, topicSteps, ROUND1_NEEDED, ROUND2_NEEDED, type MasteryEntry } from '@/lib/topicMastery'
+
+const GAMES_NEEDED = ROUND1_NEEDED + ROUND2_NEEDED // 3★ games a topic needs across both rounds
 import PageSkeleton from '@/components/PageSkeleton'
 import BadgeCollection from '@/components/BadgeCollection'
 import { cta } from '@/components/ChunkyUI'
@@ -212,7 +214,7 @@ export default function LevelTopicsPage() {
   const todayXP = (syncRaw?.history?.[today]?.xp ?? 0) as number
   const todayXPDone = todayXP >= DAILY_XP_GOAL
 
-  // Games toward the trophy (Vòng 1: 3, Vòng 2: 2 → at most 5), from the topic-hub rule.
+  // Games toward the trophy (Vòng 1 + Vòng 2, see GAMES_NEEDED), from the topic-hub rule.
   function gamesProgress(m: MasteryData | undefined): number {
     return m ? topicSteps(m, level).done - (m.flashcard ? 1 : 0) : 0
   }
@@ -405,7 +407,7 @@ export default function LevelTopicsPage() {
                         <div className="space-y-1">
                           <div className="flex items-center gap-1.5 flex-wrap">
                             {flashcardDone
-                              ? <span className="text-xs bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full font-medium">📖 ✓ · 🎮 {gamesCount}/5</span>
+                              ? <span className="text-xs bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full font-medium">📖 ✓ · 🎮 {gamesCount}/{GAMES_NEEDED}</span>
                               : <span className="text-xs bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full font-medium">📖 {seenCount}/{total}</span>
                             }
                           </div>
@@ -492,7 +494,7 @@ export default function LevelTopicsPage() {
 
                   <span className="text-xs text-gray-400 font-medium flex-shrink-0">
                     {!locked && status === 'in_progress'
-                      ? (flashcardDone ? `🎮 ${gamesCount}/5` : `${seenCount}/${total}`)
+                      ? (flashcardDone ? `🎮 ${gamesCount}/${GAMES_NEEDED}` : `${seenCount}/${total}`)
                       : ''
                     }
                   </span>
