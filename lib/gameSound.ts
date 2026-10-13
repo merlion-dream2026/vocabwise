@@ -1,12 +1,12 @@
 // Feedback sounds (game answers, results, trophy, onboarding) — global on/off toggle
 // shared across the app via localStorage, so muting once applies everywhere without
 // each screen needing its own setting. Files: public/sounds/{kind}.mp3 (Pixabay, no attribution needed;
-// the arcade-game set clunk/launch/whack/boing/peek is Kenney.nl CC0, beep is generated).
+// the arcade-game set clunk/launch/whack/peek/reel/bump/flip is Kenney.nl CC0; beep/boing/splash are generated).
 const STORAGE_KEY = 'vw_game_sound_enabled'
 const TOGGLE_EVENT = 'vocabwise:game-sound-toggle'
 
 export type Sfx = 'correct' | 'wrong' | 'complete' | 'trophy' | 'swoosh' | 'pop' | 'ready'
-  | 'clunk' | 'launch' | 'beep' | 'whack' | 'boing' | 'peek'
+  | 'clunk' | 'launch' | 'beep' | 'whack' | 'boing' | 'peek' | 'splash' | 'reel' | 'bump' | 'flip'
 
 const cache: Partial<Record<Sfx, HTMLAudioElement>> = {}
 

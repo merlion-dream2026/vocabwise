@@ -1,7 +1,8 @@
 import { describe, it, expect } from 'vitest'
 import {
   distractors, buildRocketQuestions, rocketScorePct, buildWhackQuestions, nextWhackWord, whackScorePct,
-  ROCKET_PARTS, WHACK_QUESTIONS, type ArcadeWord,
+  buildFishQuestions, fishScorePct, buildPlaneQuestions, planeScorePct, heartScorePct,
+  ROCKET_PARTS, WHACK_QUESTIONS, FISH_QUESTIONS, PLANE_QUESTIONS, PLANE_LANES, type ArcadeWord,
 } from '@/lib/arcadeGames'
 import { starsFor } from '@/lib/topicMastery'
 
@@ -65,5 +66,42 @@ describe('whack', () => {
     expect(starsFor(whackScorePct(8, 1))).toBe(3)
     expect(starsFor(whackScorePct(8, 2))).toBe(2)
     expect(whackScorePct(1, 3)).toBe(0)
+  })
+})
+
+describe('fishing', () => {
+  it('asks 8 different words, 4 fish each with exactly one right one, alternating vi / listen', () => {
+    const qs = buildFishQuestions(words(14))
+    expect(qs).toHaveLength(FISH_QUESTIONS)
+    expect(new Set(qs.map((q) => q.target.word)).size).toBe(FISH_QUESTIONS)
+    for (const q of qs) {
+      expect(q.choices).toHaveLength(4)
+      expect(q.choices.filter((c) => c.word === q.target.word)).toHaveLength(1)
+    }
+    expect(qs.map((q) => q.kind).slice(0, 2)).toEqual(['vi', 'listen'])
+  })
+  it('scores like whack: 8/8 with one slip is 3★', () => {
+    expect(fishScorePct(8, 0)).toBe(100)
+    expect(starsFor(fishScorePct(8, 1))).toBe(3)
+  })
+})
+
+describe('plane', () => {
+  it('asks 10 words, 3 lanes each with exactly one right cloud', () => {
+    const qs = buildPlaneQuestions(words(12))
+    expect(qs).toHaveLength(PLANE_QUESTIONS)
+    for (const q of qs) {
+      expect(q.lanes).toHaveLength(PLANE_LANES)
+      expect(q.lanes.filter((c) => c.word === q.target.word)).toHaveLength(1)
+    }
+  })
+  it('caps at the number of words a topic has', () => {
+    expect(buildPlaneQuestions(words(6))).toHaveLength(6)
+  })
+  it('scores 10 per cloud minus 15 per heart, never below 0', () => {
+    expect(planeScorePct(10, 0)).toBe(100)
+    expect(planeScorePct(10, 1)).toBe(85)
+    expect(heartScorePct(1, 10, 3)).toBe(0)
+    expect(heartScorePct(3, 0, 0)).toBe(0)
   })
 })

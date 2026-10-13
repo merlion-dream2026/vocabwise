@@ -10,12 +10,21 @@ import { isGameSoundEnabled, setGameSoundEnabled, onGameSoundToggle } from '@/li
 // and start / result panels open as modals over the scene. The game page hides its global
 // GameSoundToggle for these games — the HUD carries its own.
 
-export type StageTone = 'wood' | 'space'
+export type StageTone = 'wood' | 'space' | 'sea' | 'sky'
 
 const CARD: Record<StageTone, string> = {
   wood:  'border-[#5B3A1E] bg-[#FFF8E7] text-[#4A2C14]',
   space: 'border-[#C7CCF0] bg-[#EEF0FD] text-[#1E1B4B]',
+  sea:   'border-[#0369A1] bg-[#F0F9FF] text-[#0C4A6E]',
+  sky:   'border-[#1D4ED8] bg-[#EFF6FF] text-[#1E3A8A]',
 }
+const MODAL: Record<StageTone, string> = {
+  wood:  'border-amber-300 bg-[#FFF8E7] text-[#4A2C14]',
+  space: 'border-white/70 bg-[#EEF0FD] text-[#1E1B4B]',
+  sea:   'border-sky-300 bg-[#F0F9FF] text-[#0C4A6E]',
+  sky:   'border-blue-300 bg-[#EFF6FF] text-[#1E3A8A]',
+}
+const DIAL: Record<StageTone, string> = { wood: '#65A30D', space: '#6366F1', sea: '#0284C7', sky: '#2563EB' }
 
 // ── Fullscreen (Android / desktop / iPad; iPhone Safari has no element fullscreen → button hidden) ──
 type FsDoc = Document & { webkitFullscreenElement?: Element; webkitExitFullscreen?: () => Promise<void> }
@@ -144,7 +153,7 @@ export function TimerDial({ pct, seconds, urgent, tone, icon = '⏱' }: {
       role="timer" aria-label={`Còn ${seconds} giây`}>
       <svg viewBox="0 0 64 64" className="absolute inset-0 h-full w-full -rotate-90">
         <circle cx="32" cy="32" r={r} fill="none" stroke="currentColor" strokeOpacity=".12" strokeWidth="7" />
-        <circle cx="32" cy="32" r={r} fill="none" stroke={urgent ? '#EF4444' : tone === 'wood' ? '#65A30D' : '#6366F1'}
+        <circle cx="32" cy="32" r={r} fill="none" stroke={urgent ? '#EF4444' : DIAL[tone]}
           strokeWidth="7" strokeLinecap="round" strokeDasharray={len} strokeDashoffset={len * (1 - p)}
           style={{ transition: 'stroke-dashoffset 1s linear, stroke .3s' }} />
       </svg>
@@ -161,7 +170,7 @@ export function StageModal({ children, tone, dim = true }: { children: ReactNode
   return (
     <div className={`absolute inset-0 z-30 flex items-center justify-center p-4 ${dim ? 'bg-black/35' : ''}`}>
       <div className={`st-pop max-h-[92vh] w-full max-w-lg overflow-y-auto rounded-[28px] border-[5px] p-5 text-center shadow-2xl sm:p-8 [@media(max-height:500px)]:p-3 ${
-        tone === 'wood' ? 'border-amber-300 bg-[#FFF8E7] text-[#4A2C14]' : 'border-white/70 bg-[#EEF0FD] text-[#1E1B4B]'}`}>
+        MODAL[tone]}`}>
         {children}
       </div>
     </div>
