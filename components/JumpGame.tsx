@@ -19,7 +19,7 @@ import { Meadow, Obstacle, FinishFlag, GROUND_Y } from '@/components/games/JumpS
 
 type Topic = { id: string; name: string; emoji: string; color: string; words: ArcadeWord[] }
 type Props = { topic: Topic; level: string; backUrl: string }
-type Phase = 'ready' | 'unsupported' | 'run' | 'ask' | 'listen' | 'jump' | 'win' | 'done'
+type Phase = 'ready' | 'unsupported' | 'run' | 'ask' | 'listen' | 'check' | 'jump' | 'win' | 'done'
 
 // The browser's speech recognition (Chrome / Edge / Safari; not Firefox). Not in TS's DOM lib.
 type Recognition = {
@@ -39,6 +39,12 @@ const getRecognition = (): RecognitionCtor | null => {
 const RUN_MS = 1300
 const JUMP_MS = 1100
 const LISTEN_MAX_MS = 6000
+const AI_RECORD_MS = 3000 // one word — the AI fallback records this long (tap 🎤 again to stop sooner)
+const MIC_DENIED = 'Bé cần cho phép dùng micro: vào cài đặt trang web của trình duyệt → Micro → Cho phép, rồi bấm 🎤 lại.'
+const SILENT = 'Chưa nghe thấy gì. Bấm 🎤 rồi nói to, rõ hơn nhé!'
+// No speech recognition in the browser (Firefox…): record and let Whisper judge via the same API as
+// 🎤 Phát âm cùng AI — each try counts against the child's daily AI Speak quota.
+const canRecord = () => typeof navigator !== 'undefined' && !!navigator.mediaDevices?.getUserMedia && typeof MediaRecorder !== 'undefined'
 
 export default function JumpGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
@@ -57,6 +63,9 @@ export default function JumpGame({ topic, level, backUrl }: Props) {
   const [showConfetti, setShowConfetti] = useState(false)
   const stageRef = useRef<HTMLDivElement>(null)
   const recRef = useRef<Recognition | null>(null)
+  const aiRecRef = useRef<MediaRecorder | null>(null)
+  const [aiMode, setAiMode] = useState(false)
+  const [quotaOut, setQuotaOut] = useState(false)
   const recorded = useRef(false)
   const alive = useRef(true)
   const timers = useRef(new Set<ReturnType<typeof setTimeout>>())
@@ -70,7 +79,12 @@ export default function JumpGame({ topic, level, backUrl }: Props) {
   useEffect(() => {
     alive.current = true // (re)mount — dev StrictMode runs the cleanup once in between
     const pending = timers.current
-    return () => { alive.current = false; pending.forEach(clearTimeout); recRef.current?.abort() }
+    return () => {
+      alive.current = false
+      pending.forEach(clearTimeout)
+      recRef.current?.abort()
+      if (aiRecRef.current?.state === 'recording') aiRecRef.current.stop()
+    }
   }, [])
 
   useEffect(() => {
@@ -111,12 +125,15 @@ export default function JumpGame({ topic, level, backUrl }: Props) {
 
   function start() {
     playSfx('ready')
-    if (!getRecognition()) { setPhase('unsupported'); return }
+    if (getRecognition()) setAiMode(false)
+    else if (canRecord()) setAiMode(true)
+    else { setPhase('unsupported'); return }
     enterFullscreen()
     runTo(0)
   }
 
   function listen() {
+    if (aiMode) { void recordForAi(); return }
     const Rec = getRecognition()
     if (!Rec || phase !== 'ask') return
     buzz()
@@ -150,16 +167,61 @@ export default function JumpGame({ topic, level, backUrl }: Props) {
 
   function judge(alternatives: string[], error: string) {
     if (error === 'not-allowed' || error === 'service-not-allowed') {
-      setPhase('ask'); setNote('Bé cần cho phép dùng micro: vào cài đặt trang web của trình duyệt → Micro → Cho phép, rồi bấm 🎤 lại.'); return
+      setPhase('ask'); setNote(MIC_DENIED); return
     }
     if (error === 'network') { setPhase('ask'); setNote('Nhận giọng cần có mạng. Kiểm tra kết nối rồi thử lại nhé.'); return }
     if (!alternatives.some((a) => a.trim())) {
       // Nothing heard — not the kid's fault, doesn't use a try.
-      setPhase('ask'); setNote('Chưa nghe thấy gì. Bấm 🎤 rồi nói to, rõ hơn nhé!'); return
+      setPhase('ask'); setNote(SILENT); return
     }
-    setHeard(alternatives[0])
+    verdict(alternatives[0], speechMatches(alternatives, word.word))
+  }
+
+  async function recordForAi() {
+    if (phase !== 'ask') return
+    buzz()
+    window.speechSynthesis?.cancel()
+    setNote(null)
+    setHeard(null)
+    setPhase('listen')
+    let stream: MediaStream
+    try { stream = await navigator.mediaDevices.getUserMedia({ audio: true }) } catch { setPhase('ask'); setNote(MIC_DENIED); return }
+    const mime = ['audio/webm', 'audio/mp4', 'audio/ogg'].find((t) => MediaRecorder.isTypeSupported(t)) ?? 'audio/webm'
+    const mr = new MediaRecorder(stream, { mimeType: mime })
+    const chunks: Blob[] = []
+    mr.ondataavailable = (e) => { if (e.data.size) chunks.push(e.data) }
+    mr.onstop = async () => {
+      stream.getTracks().forEach((t) => t.stop())
+      aiRecRef.current = null
+      if (!alive.current) return
+      setPhase('check')
+      const ext = mime.includes('mp4') ? 'm4a' : mime.includes('ogg') ? 'ogg' : 'webm'
+      const fd = new FormData()
+      fd.append('audio', new File([new Blob(chunks, { type: mime })], `rec.${ext}`, { type: mime }))
+      fd.append('target', word.word)
+      fd.append('word', word.word)
+      fd.append('level', level)
+      try {
+        const res = await fetch('/api/score-pronunciation', { method: 'POST', body: fd })
+        if (!alive.current) return
+        if (res.status === 429) { setQuotaOut(true); setPhase('unsupported'); return }
+        if (!res.ok) throw new Error(String(res.status))
+        const data = await res.json() as { transcript?: string; correct?: boolean; unclear?: boolean }
+        const heardText = String(data.transcript ?? '').trim()
+        if (data.unclear || !heardText) { setPhase('ask'); setNote(SILENT); return }
+        verdict(heardText, !!data.correct)
+      } catch { if (alive.current) { setPhase('ask'); setNote('Lỗi kết nối, bấm 🎤 thử lại nhé.') } }
+    }
+    aiRecRef.current = mr
+    mr.start()
+    later(() => { if (mr.state === 'recording') mr.stop() }, AI_RECORD_MS)
+  }
+
+  // One try heard: right → jump; wrong → use up a try (the 3rd miss ends the word).
+  function verdict(heardText: string, ok: boolean) {
+    setHeard(heardText)
     const used = tries + 1
-    if (speechMatches(alternatives, word.word)) {
+    if (ok) {
       finish(used)
       return
     }
@@ -202,7 +264,7 @@ export default function JumpGame({ topic, level, backUrl }: Props) {
   }
   const exit = () => router.push(backUrl)
 
-  const onCourse = ['run', 'ask', 'listen', 'jump'].includes(phase)
+  const onCourse = ['run', 'ask', 'listen', 'check', 'jump'].includes(phase)
   const wrongWords = words.filter((_, i) => results[i] !== undefined && results[i] !== 1).map((x) => x.word)
   const rockyShot = phase === 'jump' || phase === 'win' ? 'pose-jump' : phase === 'listen' ? 'pose-speak' : 'pose-cheer'
   const rockyH = Math.max(80, Math.min(170, 22 * vmin))
@@ -249,17 +311,20 @@ export default function JumpGame({ topic, level, backUrl }: Props) {
         )}
 
         {/* Mic panel on the ground */}
-        {(phase === 'ask' || phase === 'listen' || (phase === 'jump' && solved !== null)) && word && (
+        {(phase === 'ask' || phase === 'listen' || phase === 'check' || (phase === 'jump' && solved !== null)) && word && (
           <div className="absolute inset-x-0 bottom-[3%] z-10 flex flex-col items-center gap-[1.5vmin] px-4" style={{ top: h * groundY + 3 * vmin }}>
             <p className="min-h-[1.4em] rounded-full bg-black/35 px-3 py-0.5 text-center text-[clamp(13px,2.9vmin,26px)] font-bold text-white">
               {phase === 'listen' ? 'Đang nghe… nói từ tiếng Anh nhé!'
                 : solved === true ? `Giỏi quá! ✨ ${word.word}`
+                : phase === 'check' ? 'Đang chấm… 🤖'
                 : note ?? `Bấm 🎤 rồi nói từ tiếng Anh để ${buddy.name} nhảy qua!`}
             </p>
             <div className="flex items-center gap-[3vmin]">
               <button type="button" onClick={() => { buzz(); say(word.word) }} disabled={phase !== 'ask'}
                 className="rounded-full border-b-4 border-sky-700 bg-sky-100 px-3 py-2 text-[clamp(13px,2.8vmin,24px)] font-black text-sky-900 shadow active:translate-y-0.5 disabled:opacity-50">🔊 Nghe mẫu</button>
-              <button type="button" onClick={listen} disabled={phase !== 'ask'} aria-label="Bấm để nói"
+              <button type="button" disabled={!(phase === 'ask' || (aiMode && phase === 'listen'))}
+                onClick={() => { if (aiMode && phase === 'listen') { if (aiRecRef.current?.state === 'recording') aiRecRef.current.stop() } else listen() }}
+                aria-label={aiMode && phase === 'listen' ? 'Nói xong' : 'Bấm để nói'}
                 className={`flex h-[clamp(72px,17vmin,130px)] w-[clamp(72px,17vmin,130px)] items-center justify-center rounded-full border-b-[6px] text-[clamp(34px,8vmin,64px)] shadow-xl active:translate-y-1 ${
                   phase === 'listen' ? 'border-red-800 bg-red-500' : 'border-amber-700 bg-amber-300'} disabled:opacity-90`}
                 style={phase === 'listen' ? { animation: 'jsPulse 1.2s ease-out infinite' } : undefined}>🎤</button>
@@ -270,6 +335,7 @@ export default function JumpGame({ topic, level, backUrl }: Props) {
               {heard && solved !== true ? <>Máy nghe được: “{heard}” · </> : null}
               Lượt thử: {'●'.repeat(Math.min(tries, JUMP_TRIES))}{'○'.repeat(Math.max(0, JUMP_TRIES - tries))}
             </p>
+            {aiMode && <p className="text-[clamp(11px,2.3vmin,20px)] font-semibold text-amber-100/80">🤖 AI nghe giúp · tính vào lượt Phát âm AI hôm nay</p>}
           </div>
         )}
 
@@ -297,10 +363,17 @@ export default function JumpGame({ topic, level, backUrl }: Props) {
 
       {phase === 'unsupported' && (
         <StageModal tone="wood">
-          <h2 className="text-2xl font-black sm:text-3xl">Trình duyệt chưa hỗ trợ nhận giọng 😢</h2>
-          <p className="mt-2 text-base font-semibold">
-            Hãy mở app bằng Chrome, Edge hoặc Safari (iPhone/iPad) để chơi game này. Trong lúc đó bé có thể luyện nói ở trò “🎤 Phát âm cùng AI”.
-          </p>
+          {quotaOut ? <>
+            <h2 className="text-2xl font-black sm:text-3xl">Hết lượt chấm AI hôm nay 😴</h2>
+            <p className="mt-2 text-base font-semibold">
+              Trình duyệt này cần AI để nghe bé nói, và hôm nay đã dùng hết lượt Phát âm AI. Mở app bằng Chrome, Edge hoặc Safari để chơi miễn phí, hoặc quay lại vào ngày mai nhé!
+            </p>
+          </> : <>
+            <h2 className="text-2xl font-black sm:text-3xl">Trình duyệt chưa hỗ trợ nhận giọng 😢</h2>
+            <p className="mt-2 text-base font-semibold">
+              Hãy mở app bằng Chrome, Edge hoặc Safari (iPhone/iPad) để chơi game này. Trong lúc đó bé có thể luyện nói ở trò “🎤 Phát âm cùng AI”.
+            </p>
+          </>}
           <StageButton tone="gold" onClick={exit}>← Chọn trò khác</StageButton>
         </StageModal>
       )}
