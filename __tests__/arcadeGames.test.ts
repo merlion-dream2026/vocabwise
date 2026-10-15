@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import {
   distractors, buildRocketQuestions, rocketScorePct, buildWhackQuestions, nextWhackWord, whackScorePct,
-  buildFishQuestions, fishScorePct, buildPlaneQuestions, planeScorePct, heartScorePct, buildFrogQuestions, frogScorePct, buildRaceQuestions, raceScorePct, RACE_QUESTIONS, buildTrainQuestions, trainLetters, trainScorePct, TRAIN_QUESTIONS,
+  buildFishQuestions, fishScorePct, buildPlaneQuestions, planeScorePct, heartScorePct, buildFrogQuestions, frogScorePct, buildRaceQuestions, raceScorePct, RACE_QUESTIONS, buildTrainQuestions, trainLetters, trainScorePct, TRAIN_QUESTIONS, buildTreasureQuestions, treasureGap, TREASURE_QUESTIONS,
   ROCKET_PARTS, WHACK_QUESTIONS, FISH_QUESTIONS, PLANE_QUESTIONS, PLANE_LANES, FROG_QUESTIONS, FROG_PADS, type ArcadeWord,
 } from '@/lib/arcadeGames'
 import { starsFor } from '@/lib/topicMastery'
@@ -164,5 +164,31 @@ describe('train', () => {
     expect(trainScorePct(Array(8).fill(0))).toBe(100)
     expect(starsFor(trainScorePct([1, 1, 0, 0, 0, 0, 0, 0]))).toBe(3)
     expect(trainScorePct([9])).toBe(5)
+  })
+})
+
+describe('treasure', () => {
+  it('hides a letter (never a space, not the first letter of a longer word), mostly a vowel', () => {
+    for (let i = 0; i < 50; i++) {
+      const g = treasureGap('living room')
+      expect(g).toBeGreaterThan(0)
+      expect('living room'[g]).toMatch(/[a-z]/)
+    }
+    expect(treasureGap('kitchen', () => 0)).toBe(1) // first vowel: i
+  })
+  it('asks 8 words; 4 stones with the answer once and decoys of the same kind', () => {
+    const list = ['kitchen', 'garden', 'sister', 'brother', 'bedroom', 'baby', 'mum', 'dad', 'house'].map((x) => W(x))
+    const qs = buildTreasureQuestions(list)
+    expect(qs).toHaveLength(TREASURE_QUESTIONS)
+    for (const q of qs) {
+      expect(q.choices).toHaveLength(4)
+      expect(q.choices.filter((c) => c === q.answer)).toHaveLength(1)
+      expect(q.target.word[q.gap].toLowerCase()).toBe(q.answer)
+      const vowel = 'aeiou'.includes(q.answer)
+      for (const c of q.choices) expect('aeiou'.includes(c)).toBe(vowel)
+    }
+  })
+  it('skips words too short to have a gap', () => {
+    expect(buildTreasureQuestions([W('ox'), W('cat')])).toHaveLength(1)
   })
 })
