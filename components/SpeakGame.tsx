@@ -10,7 +10,11 @@ import WordIcon from '@/components/WordIcon'
 import GameResultScreen from '@/components/GameResultScreen'
 import { GameHeader, cta } from '@/components/ChunkyUI'
 
-type Word = { word: string; meaning: string; emoji: string; examples?: { en: string; vi: string }[] }
+type Word = {
+  word: string; meaning: string; emoji: string
+  examples?: { en: string; vi: string }[]
+  collocations?: { phrase: string; meaning: string }[]
+}
 type Topic = { id: string; name: string; emoji: string; words: Word[] }
 type Props = { topic: Topic; level: string; backUrl: string; isStarter?: boolean }
 
@@ -23,13 +27,33 @@ function getBestMime() {
   return 'audio/webm'
 }
 
+// Seeker/Starter/Ranger kids practise a short collocation ("red apple", "my mum") from the
+// flashcard's "Cụm từ phổ biến" card instead of a full example sentence.
+const PHRASE_LEVELS = ['seeker', 'starter', 'ranger']
+const MAX_PHRASE_WORDS = 4
+
+function pickPhrase(w: Word): { en: string; vi: string } | null {
+  const short = (w.collocations ?? []).filter(c => c.phrase.split(' ').length <= MAX_PHRASE_WORDS)
+  if (!short.length) return null
+  // Prefer phrases that contain the word itself — the scorer requires the keyword
+  const key = w.word.toLowerCase()
+  const withKey = short.filter(c => c.phrase.toLowerCase().includes(key))
+  const pool = withKey.length ? withKey : short
+  const c = pool[Math.floor(Math.random() * pool.length)]
+  return { en: c.phrase, vi: c.meaning }
+}
+
 const MAX_SECS = 8
 type Phase = 'idle' | 'countdown' | 'recording' | 'processing' | 'done'
 
 export default function SpeakGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
   const { recordAnswer, recordActivity, addScore, recordGameResult, flush } = useGameSync()
-  const [questions] = useState(() => shuffle(topic.words))
+  // Phrase is picked once per session so it doesn't change between re-renders/retries
+  const [questions] = useState(() => shuffle(topic.words).map(w => ({
+    ...w,
+    phrase: PHRASE_LEVELS.includes(level) ? pickPhrase(w) : null,
+  })))
   const [idx, setIdx] = useState(0)
   const [score, setScore] = useState(0)
   const [wrongWords, setWrongWords] = useState<string[]>([])
@@ -60,8 +84,9 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
   const maxWords = level === 'seeker' ? 7 : level === 'starter' ? 9 : 15
   const rawExample = q.examples?.[0]?.en ?? ''
   const exampleOk = rawExample && rawExample.split(' ').length <= maxWords
-  // Use example sentence if available + within limit; else fall back to word
-  const speakTarget = exampleOk ? rawExample : q.word
+  // Seeker/Starter/Ranger: collocation phrase; others: example sentence if within limit; else the word
+  const speakTarget = q.phrase ? q.phrase.en : exampleOk ? rawExample : q.word
+  const targetVi = q.phrase ? q.phrase.vi : q.examples?.[0]?.vi
   const isSentence = speakTarget !== q.word
 
   const stopStream = useCallback(() => {
@@ -277,8 +302,8 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
               <div className="flex items-start justify-between gap-3">
                 <div className="flex-1">
                   <p className="text-base font-bold text-gray-700 leading-snug">&ldquo;{speakTarget}&rdquo;</p>
-                  {q.examples?.[0]?.vi && (
-                    <p className="text-sm text-gray-400 font-medium mt-1">{q.examples[0].vi}</p>
+                  {targetVi && (
+                    <p className="text-sm text-gray-400 font-medium mt-1">{targetVi}</p>
                   )}
                 </div>
                 <button onClick={() => speak(speakTarget)}

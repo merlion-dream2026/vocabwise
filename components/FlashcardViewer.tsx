@@ -119,7 +119,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
   const [pickerWord,     setPickerWord]     = useState<{ word: string; meaning: string; cls: string } | null>(null)
   const [showLimitModal, setShowLimitModal] = useState(false)
   const [hasStory,       setHasStory]       = useState(false)
-  const [collocationsOpen, setCollocationsOpen] = useState(false)
+  const [collocationsOpen, setCollocationsOpen] = useState(true)
   const [giaiNghiaOpen,    setGiaiNghiaOpen]    = useState(false)
 
   // Load saved words for this topic on mount
@@ -192,9 +192,9 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentIndex])
 
-  // Collapse the accordions when moving to a different card
+  // Reset the accordions when moving to a different card (collocations start open)
   useEffect(() => {
-    setCollocationsOpen(false)
+    setCollocationsOpen(true)
     setGiaiNghiaOpen(false)
   }, [currentIndex])
 
