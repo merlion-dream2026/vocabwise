@@ -5,8 +5,9 @@ import BottomSheet from '@/components/BottomSheet'
 import type { HubTheme } from '@/components/hubTheme'
 import type { RowStatus } from '@/components/TopicRounds'
 
-// Compact game pickers for the Daily topic hub: a strip of emoji tiles on the round card (stars at a
-// glance, tap = play) and a bottom sheet with the same games as a labelled 3-column grid.
+// Compact game pickers for the Daily topic hub: a one-line strip of emoji tiles on the round card
+// (tiles shrink to fit up to ~7 on a phone; stars at a glance, tap = play) and a bottom sheet with
+// the same games as a labelled 3-column grid.
 
 export type GameTile = { id: string; emoji: string; label: string; ai: boolean; status: RowStatus; stars: number; sub: string }
 
@@ -19,10 +20,10 @@ function Badge({ tile }: { tile: GameTile }) {
 
 export function GameStrip({ tiles, theme, onOpen }: { tiles: GameTile[]; theme: HubTheme; onOpen: (id: string) => void }) {
   return (
-    <div className="mt-2.5 flex flex-wrap gap-2">
+    <div className="mt-2.5 flex gap-1.5">
       {tiles.map((t) => (
         <button key={t.id} type="button" onClick={() => { tap(); onOpen(t.id) }} aria-label={`${t.label} · ${t.sub}`}
-          className={`relative flex h-11 w-11 items-center justify-center rounded-xl border-b-[3px] bg-white text-2xl transition-transform active:scale-95 ${
+          className={`relative flex aspect-square min-w-0 max-w-[48px] flex-1 items-center justify-center rounded-xl border-b-[3px] bg-white text-2xl transition-transform active:scale-95 ${
             t.status === 'next' ? `border-black/15 ring-4 ${theme.ring}` : 'border-slate-200'
           } ${t.status === 'todo' ? 'opacity-70' : ''}`}>
           {t.emoji}

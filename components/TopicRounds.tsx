@@ -181,7 +181,7 @@ function PlayZoneCard({ tiles, theme, onOpen }: { tiles: GameTile[]; theme: HubT
         <span className="text-2xl" aria-hidden>🎮</span>
         <span className="min-w-0 flex-1">
           <span className="block text-sm font-bold text-slate-800">Khu vui chơi</span>
-          <span className="block text-xs font-semibold text-slate-500">{tiles.length} trò · gom thêm sao, không bắt buộc{done ? ` · ${done} trò ⭐⭐⭐` : ''}</span>
+          <span className="block text-xs font-semibold text-slate-500">{tiles.length} trò · không bắt buộc{done ? ` · xong ${done}/${tiles.length}` : ''}</span>
           <span className="mt-1 block truncate text-lg leading-none" aria-hidden>{tiles.map((t) => t.emoji).join(' ')}</span>
         </span>
         <span className="flex-shrink-0 text-lg font-bold text-slate-400" aria-hidden>›</span>
