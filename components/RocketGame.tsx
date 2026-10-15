@@ -11,8 +11,7 @@ import {
 } from '@/lib/arcadeGames'
 import Confetti from '@/components/Confetti'
 import GameResultScreen from '@/components/GameResultScreen'
-import { buzz } from '@/components/ChunkyUI'
-import WordIcon from '@/components/WordIcon'
+import { PromptCard, AnswerGrid } from '@/components/games/ChoiceQuiz'
 import { RocketArt, PlanetScene, type RocketStage } from '@/components/games/RocketArt'
 import { ArcadeStage, StageHud, TimerDial, StageModal, StageButton, enterFullscreen } from '@/components/games/ArcadeStage'
 import { LaunchSite, SpaceBackdrop, StarField } from '@/components/games/RocketScene'
@@ -20,18 +19,6 @@ import { LaunchSite, SpaceBackdrop, StarField } from '@/components/games/RocketS
 type Topic = { id: string; name: string; emoji: string; color: string; words: ArcadeWord[] }
 type Props = { topic: Topic; level: string; backUrl: string }
 type Phase = 'ready' | 'play' | 'countdown' | 'launch' | 'space' | 'planet' | 'fizzle' | 'done'
-
-// Longest single word decides the size, so a word is never split mid-letters ("bathroo/m").
-const wordSize = (w: string) => {
-  const n = Math.max(...w.split(' ').map((p) => p.length))
-  return n <= 5 ? 'text-[clamp(20px,5.2vmin,54px)]' : n <= 8 ? 'text-[clamp(17px,3.9vmin,42px)]' : 'text-[clamp(15px,3vmin,34px)]'
-}
-
-const PROMPT: Record<RocketQuestion['kind'], string> = {
-  vi: 'Từ tiếng Anh nào?',
-  listen: 'Nghe và chọn từ đúng',
-  en: 'Từ này nghĩa là gì?',
-}
 
 export default function RocketGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
@@ -170,13 +157,6 @@ export default function RocketGame({ topic, level, backUrl }: Props) {
   const onPad = phase === 'play' || phase === 'countdown' || phase === 'launch' || phase === 'fizzle' || phase === 'ready'
   const stage: RocketStage = phase === 'countdown' ? 'countdown' : phase === 'launch' ? 'launch' : phase === 'fizzle' ? 'fizzle' : 'build'
   const fuelPct = (Math.max(0, timeLeft) / totalSeconds) * 100
-  const answerCls = (c: ArcadeWord) => {
-    const base = 'rounded-2xl border-b-[6px] px-2 font-black shadow-lg transition-[transform,background-color] active:translate-y-1 active:border-b-2'
-    if (picked === null) return `${base} border-[#B9C0E8] bg-[#E8ECFB] text-[#1E1B4B]`
-    if (c.word === current.target.word) return `${base} border-emerald-700 bg-emerald-400 text-emerald-950`
-    return c.word === picked ? `${base} ax-shake border-red-700 bg-red-400 text-white` : `${base} border-[#3B3E5C] bg-[#565A7E] text-[#9EA3C8]`
-  }
-
   return (
     <ArcadeStage>
       {showConfetti && <Confetti onDone={() => setShowConfetti(false)} />}
@@ -204,42 +184,12 @@ export default function RocketGame({ topic, level, backUrl }: Props) {
 
       {phase === 'play' && current && (
         <>
-          {/* Prompt + picture card */}
-          <div className="absolute bottom-[24%] left-[31%] right-[3%] top-[15%] flex flex-col items-center justify-center gap-[2.5vmin] portrait:bottom-[33%] portrait:left-[40%] portrait:top-[18%]">
-            <p className="text-center text-[clamp(22px,5.6vmin,58px)] font-black text-white drop-shadow">{PROMPT[current.kind]}</p>
-            <div className="flex aspect-square h-[min(100%,34vmin)] min-h-[120px] portrait:h-[min(100%,48vmin)] flex-col items-center justify-center gap-1 rounded-[24px] border-[7px] border-[#FACC48] bg-white p-2 shadow-2xl">
-              {current.kind === 'vi' && (
-                <>
-                  <WordIcon word={current.target.word} emoji={current.target.emoji} emojiClass="text-[11vmin] leading-none" iconSize={90} />
-                  <span className="line-clamp-2 text-center text-[clamp(18px,4.6vmin,46px)] font-black leading-tight text-[#1E1B4B]">{current.target.meaning}</span>
-                </>
-              )}
-              {current.kind === 'listen' && (
-                <button type="button" onClick={() => { buzz(); speak(current.target.word) }} aria-label="Nghe lại"
-                  className="flex flex-col items-center gap-1 text-[#1E1B4B]">
-                  <span className="text-[12vmin] leading-none">🔊</span>
-                  <span className="text-[clamp(16px,3.6vmin,36px)] font-black">{picked ? current.target.word : 'Nghe lại'}</span>
-                </button>
-              )}
-              {current.kind === 'en' && (
-                <button type="button" onClick={() => { buzz(); speak(current.target.word) }} className="flex flex-col items-center gap-1 px-1 text-[#1E1B4B]">
-                  <span className="break-words text-center text-[clamp(22px,6vmin,56px)] font-black leading-tight">{current.target.word}</span>
-                  <span className="text-[4vmin]">🔊</span>
-                </button>
-              )}
-            </div>
-          </div>
-
+          <PromptCard q={current} picked={picked} onSay={() => speak(current.target.word)}
+            className="absolute bottom-[24%] left-[31%] right-[3%] top-[15%] portrait:bottom-[33%] portrait:left-[40%] portrait:top-[18%]"
+            cardClass="h-[min(100%,34vmin)] portrait:h-[min(100%,48vmin)]" />
           {/* Four answers: one row on a wide screen, 2×2 on a phone held upright */}
-          <div className="absolute bottom-[5%] left-[31%] right-[3%] grid h-[15%] grid-cols-4 gap-[1.5vmin] portrait:inset-x-[3%] portrait:bottom-[4%] portrait:h-[23%] portrait:grid-cols-2">
-            {current.choices.map((c) => (
-              <button key={c.word} type="button" disabled={picked !== null} onClick={() => { buzz(); answer(c) }} className={answerCls(c)}>
-                {current.kind === 'en'
-                  ? <span className="line-clamp-2 block text-[clamp(16px,4vmin,42px)] leading-tight">{c.emoji} {c.meaning}</span>
-                  : <span className={`block leading-tight ${wordSize(c.word)}`}>{c.word}</span>}
-              </button>
-            ))}
-          </div>
+          <AnswerGrid q={current} picked={picked} onPick={answer}
+            className="absolute bottom-[5%] left-[31%] right-[3%] h-[15%] grid-cols-4 portrait:inset-x-[3%] portrait:bottom-[4%] portrait:h-[23%] portrait:grid-cols-2" />
         </>
       )}
 
@@ -260,7 +210,7 @@ export default function RocketGame({ topic, level, backUrl }: Props) {
       {phase === 'planet' && (
         <>
           <div className="absolute inset-x-0 bottom-[2%] top-[36%] portrait:top-[40%]"><PlanetScene topicEmoji={topic.emoji} /></div>
-          <div className="absolute inset-x-0 top-[12%] z-10 flex flex-col items-center px-4 text-center portrait:top-[13%]">
+          <div className="absolute inset-x-0 top-[12%] z-10 flex flex-col items-center px-4 text-center portrait:top-[19%]">
             <p className="st-pop text-[clamp(22px,5.4vmin,52px)] font-black text-white drop-shadow">Đã đáp xuống hành tinh {topic.emoji}!</p>
             <p className="mt-1 text-[clamp(15px,3.2vmin,30px)] font-bold text-indigo-100">Rocky cắm cờ chủ đề “{topic.name}” lên hành tinh mới 🎉</p>
             <StageButton tone="gold" onClick={() => setPhase('done')}>Xem kết quả ⭐</StageButton>

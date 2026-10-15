@@ -26,6 +26,7 @@ const WhackGame          = dynamic(() => import('@/components/WhackGame'),      
 const FishingGame        = dynamic(() => import('@/components/FishingGame'),         { ssr: false })
 const PlaneGame          = dynamic(() => import('@/components/PlaneGame'),           { ssr: false })
 const FrogGame           = dynamic(() => import('@/components/FrogGame'),            { ssr: false })
+const RaceGame           = dynamic(() => import('@/components/RaceGame'),            { ssr: false })
 const SentenceGame       = dynamic(() => import('@/components/SentenceGame'),        { ssr: false })
 
 type Child = { id: string; name: string; emoji: string; level: string }
@@ -111,6 +112,8 @@ export default function GamePage() {
         return <PlaneGame {...props} />
       case 'frog':
         return <FrogGame {...props} />
+      case 'race':
+        return <RaceGame {...props} />
       case 'sentence':
         return <SentenceGame {...props} />
       default:
@@ -123,7 +126,7 @@ export default function GamePage() {
     <>
       {renderGame()}
       {/* Arcade games carry their own sound button in the HUD (the corner one would cover answers on a phone). */}
-      {!['rocket', 'whack', 'fishing', 'plane', 'frog', 'bubble', 'memory'].includes(game) && <GameSoundToggle />}
+      {!['rocket', 'whack', 'fishing', 'plane', 'frog', 'race', 'bubble', 'memory'].includes(game) && <GameSoundToggle />}
     </>
   )
 }

@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import {
   distractors, buildRocketQuestions, rocketScorePct, buildWhackQuestions, nextWhackWord, whackScorePct,
-  buildFishQuestions, fishScorePct, buildPlaneQuestions, planeScorePct, heartScorePct, buildFrogQuestions, frogScorePct,
+  buildFishQuestions, fishScorePct, buildPlaneQuestions, planeScorePct, heartScorePct, buildFrogQuestions, frogScorePct, buildRaceQuestions, raceScorePct, RACE_QUESTIONS,
   ROCKET_PARTS, WHACK_QUESTIONS, FISH_QUESTIONS, PLANE_QUESTIONS, PLANE_LANES, FROG_QUESTIONS, FROG_PADS, type ArcadeWord,
 } from '@/lib/arcadeGames'
 import { starsFor } from '@/lib/topicMastery'
@@ -123,5 +123,18 @@ describe('frog', () => {
     expect(frogScorePct(10, 0)).toBe(100)
     expect(starsFor(frogScorePct(10, 1))).toBe(3)
     expect(starsFor(frogScorePct(10, 2))).toBe(2)
+  })
+})
+
+describe('race', () => {
+  it('asks 10 four-choice questions with exactly one right answer', () => {
+    const qs = buildRaceQuestions(words(12))
+    expect(qs).toHaveLength(RACE_QUESTIONS)
+    for (const q of qs) expect(q.choices.filter((c) => c.word === q.target.word)).toHaveLength(1)
+  })
+  it('scores like the rocket: a win with spare time is 3★, a lost race stays under 50%', () => {
+    expect(raceScorePct(10, 0, 40, 95)).toBe(100)
+    expect(starsFor(raceScorePct(10, 2, 30, 95))).toBe(3)
+    expect(raceScorePct(7, 1, 0, 95)).toBeLessThan(50)
   })
 })

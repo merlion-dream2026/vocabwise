@@ -34,6 +34,7 @@ const STARTER_GAMES = [
   { key: 'fishing',       label: 'Câu cá',             emoji: '🎣' }, // arcade (Thử thách thêm)
   { key: 'plane',         label: 'Máy bay qua mây',    emoji: '✈️' }, // arcade (Thử thách thêm)
   { key: 'frog',          label: 'Ếch nhảy lá sen',    emoji: '🐸' }, // arcade (Thử thách thêm)
+  { key: 'race',          label: 'Đua xe cùng Bubi',   emoji: '🏎️' }, // arcade (Thử thách thêm)
 ]
 
 // Ordered easy → hard (row 1 = recognition, row 5 = timed/synthesis)
@@ -54,6 +55,7 @@ const EXPLORER_GAMES = [
   { key: 'fishing',         label: 'Câu cá',             emoji: '🎣' }, // arcade (Thử thách thêm)
   { key: 'plane',           label: 'Máy bay qua mây',    emoji: '✈️' }, // arcade (Thử thách thêm)
   { key: 'frog',            label: 'Ếch nhảy lá sen',    emoji: '🐸' }, // arcade (Thử thách thêm)
+  { key: 'race',            label: 'Đua xe cùng Bubi',   emoji: '🏎️' }, // arcade (Thử thách thêm)
 ]
 
 const LEVEL_COLORS: Record<string, { bg: string; header: string; text: string; soft: string; deep: string; edge: string }> = {

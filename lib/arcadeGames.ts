@@ -41,8 +41,11 @@ export type RocketQuestion = { target: ArcadeWord; choices: ArcadeWord[]; kind: 
 
 const ROCKET_KINDS: RocketKind[] = ['vi', 'listen', 'en']
 
-export function buildRocketQuestions(words: ArcadeWord[]): RocketQuestion[] {
-  return shuffle(words).slice(0, ROCKET_PARTS).map((target, i) => ({
+export const buildRocketQuestions = (words: ArcadeWord[]) => buildChoiceQuestions(words, ROCKET_PARTS)
+
+/** `n` four-choice questions cycling vi → listen → en (🚀 rocket, 🏎️ race). */
+export function buildChoiceQuestions(words: ArcadeWord[], n: number): RocketQuestion[] {
+  return shuffle(words).slice(0, n).map((target, i) => ({
     target,
     kind: ROCKET_KINDS[i % ROCKET_KINDS.length],
     choices: shuffle([target, ...distractors(words, target, 3)]),
@@ -54,9 +57,13 @@ export function buildRocketQuestions(words: ArcadeWord[]): RocketQuestion[] {
  * there). A launch with up to 3 slips and fuel to spare is 3★, 4–6 slips 2★. A rocket that runs out of
  * fuel only earns credit for the parts built, capped under 50% (1★ at most).
  */
-export function rocketScorePct(parts: number, wrong: number, secondsLeft: number, totalSeconds: number): number {
+export const rocketScorePct = (parts: number, wrong: number, secondsLeft: number, totalSeconds: number) =>
+  clockScorePct(parts, ROCKET_PARTS, wrong, secondsLeft, totalSeconds)
+
+/** The rocket rule for any "finish `need` right answers before the clock runs out" game. */
+export function clockScorePct(parts: number, need: number, wrong: number, secondsLeft: number, totalSeconds: number): number {
   if (!(parts > 0)) return 0
-  if (parts < ROCKET_PARTS) return Math.round(45 * (parts / ROCKET_PARTS))
+  if (parts < need) return Math.round(45 * (parts / need))
   const accuracy = parts / (parts + Math.max(0, wrong))
   const fuel = totalSeconds > 0 ? Math.min(1, Math.max(0, secondsLeft) / (0.3 * totalSeconds)) : 1
   return Math.round(100 * (0.8 * accuracy + 0.2 * fuel))
@@ -189,3 +196,18 @@ export function buildFrogQuestions(words: ArcadeWord[]): FrogQuestion[] {
 }
 
 export const frogScorePct = (correct: number, heartsLost: number) => heartScorePct(correct, FROG_QUESTIONS, heartsLost)
+
+// ─── 🏎️ Race ───────────────────────────────────────────────────────────────────────────────────
+// Rocky's car against Bubi's. Same 4-choice questions as the rocket; each right answer pushes Rocky
+// a tenth of the track, a wrong one spins him out and the word comes back later. Bubi drives at a
+// steady pace and crosses the line after the level's race time — beat him there. Scored like the
+// rocket: accuracy + how far ahead Rocky finished (a lost race earns under 50%).
+
+export const RACE_QUESTIONS = 10
+export const RACE_SECONDS: Record<string, number> = {
+  seeker: 110, starter: 95, ranger: 85, explorer: 80, scholar: 70, master: 60,
+}
+export const raceSeconds = (level: string) => RACE_SECONDS[level] ?? 90
+export const buildRaceQuestions = (words: ArcadeWord[]) => buildChoiceQuestions(words, RACE_QUESTIONS)
+export const raceScorePct = (correct: number, wrong: number, secondsLeft: number, totalSeconds: number) =>
+  clockScorePct(correct, RACE_QUESTIONS, wrong, secondsLeft, totalSeconds)
