@@ -569,9 +569,9 @@ export default function LevelTopicsPage() {
             {/* Game multiplier tiers */}
             <div className="space-y-1.5 mb-4">
               {[
-                { dot: 'bg-red-400',    label: '2 XP/câu',   games: 'Đánh vần · Gõ từ nhanh · Điền chữ thiếu · Speed Round' },
-                { dot: 'bg-yellow-400', label: '1.5 XP/câu', games: 'Trắc nghiệm · Điền từ · Nghe & Chọn · Sắp xếp câu · Câu chuyện · Phát âm AI · Ghép định nghĩa' },
-                { dot: 'bg-green-400',  label: '1 XP/câu',   games: 'Nối từ · Lật thẻ · Đúng/Sai · Bắn bong bóng · Phóng tên lửa · Đập chuột chũi · Câu cá · Máy bay qua mây' },
+                { dot: 'bg-red-400',    label: '2 XP/câu',   games: 'Đánh vần · Gõ từ nhanh · Điền chữ thiếu · Speed Round · Tàu chở chữ · Đào kho báu' },
+                { dot: 'bg-yellow-400', label: '1.5 XP/câu', games: 'Trắc nghiệm · Điền từ · Nghe & Chọn · Sắp xếp câu · Câu chuyện · Phát âm AI · Hô to để nhảy · Ghép định nghĩa' },
+                { dot: 'bg-green-400',  label: '1 XP/câu',   games: 'Nối từ · Lật thẻ · Đúng/Sai · Bắn bong bóng · Phóng tên lửa · Đập chuột chũi · Câu cá · Máy bay qua mây · Ếch nhảy lá sen · Đua xe · Hứng táo chữ' },
               ].map(row => (
                 <div key={row.label} className="flex items-start gap-2 bg-gray-50 rounded-xl px-3 py-2">
                   <span className={`mt-1 w-2.5 h-2.5 rounded-full flex-shrink-0 ${row.dot}`} />

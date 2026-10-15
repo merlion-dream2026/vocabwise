@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import {
   distractors, buildRocketQuestions, rocketScorePct, buildWhackQuestions, nextWhackWord, whackScorePct,
-  buildFishQuestions, fishScorePct, buildPlaneQuestions, planeScorePct, heartScorePct, buildFrogQuestions, frogScorePct, buildRaceQuestions, raceScorePct, RACE_QUESTIONS, buildTrainQuestions, trainLetters, trainScorePct, TRAIN_QUESTIONS, buildTreasureQuestions, treasureGap, TREASURE_QUESTIONS, basketScorePct, freeLane,
+  buildFishQuestions, fishScorePct, buildPlaneQuestions, planeScorePct, heartScorePct, buildFrogQuestions, frogScorePct, buildRaceQuestions, raceScorePct, RACE_QUESTIONS, buildTrainQuestions, trainLetters, trainScorePct, TRAIN_QUESTIONS, buildTreasureQuestions, treasureGap, TREASURE_QUESTIONS, basketScorePct, freeLane, speechMatches, editDistance, jumpScorePct, buildJumpQuestions, JUMP_QUESTIONS,
   ROCKET_PARTS, WHACK_QUESTIONS, FISH_QUESTIONS, PLANE_QUESTIONS, PLANE_LANES, FROG_QUESTIONS, FROG_PADS, type ArcadeWord,
 } from '@/lib/arcadeGames'
 import { starsFor } from '@/lib/topicMastery'
@@ -201,5 +201,37 @@ describe('basket', () => {
   it('scores 12.5 per apple minus 15 per heart', () => {
     expect(basketScorePct(8, 0)).toBe(100)
     expect(starsFor(basketScorePct(8, 1))).toBe(3)
+  })
+})
+
+describe('jump', () => {
+  it('edit distance', () => {
+    expect(editDistance('mum', 'mom')).toBe(1)
+    expect(editDistance('kitchen', 'kitchen')).toBe(0)
+    expect(editDistance('', 'abc')).toBe(3)
+  })
+  it('accepts the word inside a sentence, small mishearings and phrases', () => {
+    expect(speechMatches(['I said kitchen'], 'kitchen')).toBe(true)
+    expect(speechMatches(['mom'], 'mum')).toBe(true)
+    expect(speechMatches(['kitchens'], 'kitchen')).toBe(true)
+    expect(speechMatches(['the living room'], 'living room')).toBe(true)
+    expect(speechMatches(['livingroom'], 'living room')).toBe(true)
+    expect(speechMatches(['Dad!'], 'dad')).toBe(true)
+  })
+  it('rejects other words and silence', () => {
+    expect(speechMatches(['garden'], 'kitchen')).toBe(false)
+    expect(speechMatches(['bad'], 'baby')).toBe(false)
+    expect(speechMatches([''], 'dad')).toBe(false)
+    expect(speechMatches(['sister'], 'brother')).toBe(false)
+    expect(speechMatches(['bad'], 'dad')).toBe(false)
+  })
+  it('checks every alternative the recogniser offers', () => {
+    expect(speechMatches(['bad room', 'bedroom'], 'bedroom')).toBe(true)
+  })
+  it('scores by tries: 1 / 0.7 / 0.4 / skipped 0', () => {
+    expect(jumpScorePct(Array(8).fill(1))).toBe(100)
+    expect(starsFor(jumpScorePct([1, 1, 1, 1, 1, 1, 2, 2]))).toBe(3)
+    expect(jumpScorePct([0, 0, 0, 0, 0, 0, 0, 0])).toBe(0)
+    expect(buildJumpQuestions(words(12))).toHaveLength(JUMP_QUESTIONS)
   })
 })

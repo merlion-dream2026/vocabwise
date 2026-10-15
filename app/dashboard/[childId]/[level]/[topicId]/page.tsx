@@ -38,6 +38,7 @@ const STARTER_GAMES = [
   { key: 'train',         label: 'Tàu chở chữ',        emoji: '🚂' }, // arcade (Thử thách thêm)
   { key: 'treasure',      label: 'Đào kho báu',        emoji: '🗺️' }, // arcade (Thử thách thêm)
   { key: 'basket',        label: 'Hứng táo chữ',       emoji: '🧺' }, // arcade (Thử thách thêm)
+  { key: 'jump',          label: 'Hô to để nhảy',      emoji: '🦘' }, // arcade (Thử thách thêm)
 ]
 
 // Ordered easy → hard (row 1 = recognition, row 5 = timed/synthesis)
@@ -62,6 +63,7 @@ const EXPLORER_GAMES = [
   { key: 'train',           label: 'Tàu chở chữ',        emoji: '🚂' }, // arcade (Thử thách thêm)
   { key: 'treasure',        label: 'Đào kho báu',        emoji: '🗺️' }, // arcade (Thử thách thêm)
   { key: 'basket',          label: 'Hứng táo chữ',       emoji: '🧺' }, // arcade (Thử thách thêm)
+  { key: 'jump',            label: 'Hô to để nhảy',      emoji: '🦘' }, // arcade (Thử thách thêm)
 ]
 
 const LEVEL_COLORS: Record<string, { bg: string; header: string; text: string; soft: string; deep: string; edge: string }> = {

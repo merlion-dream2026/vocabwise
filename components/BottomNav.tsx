@@ -8,7 +8,7 @@ const LEVEL_SLUGS = new Set(['seeker','starter','ranger','explorer','scholar','m
 const GAME_SLUGS  = new Set([
   'flashcard','listen','truefalse','match','memory','bubble','fillletter',
   'speak','spell','sentenceorder','quiz','gapfill','definitionmatch',
-  'typing','speedround','sortwords','minimalpairs','rocket','whack','fishing','plane','frog','race','train','treasure','basket',
+  'typing','speedround','sortwords','minimalpairs','rocket','whack','fishing','plane','frog','race','train','treasure','basket','jump',
 ])
 const HIDE_ROOTS = new Set([
   'login','register','verify-email','forgot-password','reset-password',

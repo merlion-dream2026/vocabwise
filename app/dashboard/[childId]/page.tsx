@@ -36,7 +36,7 @@ const KID_FAQ = [
       },
       {
         q: '🎮 Có những trò chơi gì?',
-        a: 'Level Seeker / Starter / Ranger (14 trò):\n📖 Flashcard từ mới · 👂 Nghe & Chọn · ✅ Đúng / Sai · 🖼️ Nối từ với hình\n🧠 Lật thẻ · 🫧 Bắn bong bóng · 🔡 Điền chữ thiếu\n🔤 Đánh vần · 🔁 Sắp xếp câu · 🎤 Phát âm cùng AI ✨\n🚀 Phóng tên lửa · 🔨 Đập chuột chũi · 🎣 Câu cá · ✈️ Máy bay qua mây\n\nLevel Explorer / Scholar / Master (15 trò khác):\n📖 Flashcard · 👂 Nghe & Chọn · ✅ Đúng / Sai\n❓ Trắc nghiệm · ✏️ Điền từ · 🔀 Ghép định nghĩa · 🎤 Phát âm cùng AI ✨\n⌨️ Gõ từ nhanh 15s · 🔁 Sắp xếp câu · ⚡ Speed Round · ✍️ Đặt câu cùng AI\n🚀 Phóng tên lửa · 🔨 Đập chuột chũi · 🎣 Câu cá · ✈️ Máy bay qua mây',
+        a: 'Level Seeker / Starter / Ranger (20 trò):\n📖 Flashcard từ mới · 👂 Nghe & Chọn · ✅ Đúng / Sai · 🖼️ Nối từ với hình\n🧠 Lật thẻ · 🫧 Bắn bong bóng · 🔡 Điền chữ thiếu\n🔤 Đánh vần · 🔁 Sắp xếp câu · 🎤 Phát âm cùng AI ✨\n🚀 Phóng tên lửa · 🔨 Đập chuột chũi · 🎣 Câu cá · ✈️ Máy bay qua mây · 🐸 Ếch nhảy lá sen · 🏎️ Đua xe cùng Bubi · 🚂 Tàu chở chữ · 🗺️ Đào kho báu · 🧺 Hứng táo chữ · 🦘 Hô to để nhảy\n\nLevel Explorer / Scholar / Master (21 trò khác):\n📖 Flashcard · 👂 Nghe & Chọn · ✅ Đúng / Sai\n❓ Trắc nghiệm · ✏️ Điền từ · 🔀 Ghép định nghĩa · 🎤 Phát âm cùng AI ✨\n⌨️ Gõ từ nhanh 15s · 🔁 Sắp xếp câu · ⚡ Speed Round · ✍️ Đặt câu cùng AI\n🚀 Phóng tên lửa · 🔨 Đập chuột chũi · 🎣 Câu cá · ✈️ Máy bay qua mây · 🐸 Ếch nhảy lá sen · 🏎️ Đua xe cùng Bubi · 🚂 Tàu chở chữ · 🗺️ Đào kho báu · 🧺 Hứng táo chữ · 🦘 Hô to để nhảy',
       },
       {
         q: '🏆 Tiêu chí hoàn thành bài học',
@@ -44,7 +44,7 @@ const KID_FAQ = [
       },
       {
         q: '⭐ XP là gì? Tính như thế nào?',
-        a: 'XP (điểm kinh nghiệm) được tặng mỗi khi hoàn thành game.\n\nGame khó → nhiều XP hơn:\n🔴 Đánh vần, Gõ từ nhanh, Điền chữ thiếu, Speed Round, Đặt câu cùng AI: 2 XP/câu đúng\n🟡 Trắc nghiệm, Điền từ, Nghe & Chọn, Sắp xếp câu, Câu chuyện, Phát âm AI, Ghép định nghĩa: 1,5 XP/câu\n🟢 Nối từ, Lật thẻ, Đúng/Sai, Bắn bong bóng, Phóng tên lửa, Đập chuột chũi, Câu cá, Máy bay qua mây: 1 XP/câu\n\nMục tiêu mỗi ngày: đạt 20 XP → thanh XP trên màn hình này sẽ đầy!\n\nXP tích lũy giúp bạn lên cấp: 🌱 → 🔍 → ⚔️ → 📜 → 👑',
+        a: 'XP (điểm kinh nghiệm) được tặng mỗi khi hoàn thành game.\n\nGame khó → nhiều XP hơn:\n🔴 Đánh vần, Gõ từ nhanh, Điền chữ thiếu, Speed Round, Đặt câu cùng AI, Tàu chở chữ, Đào kho báu: 2 XP/câu đúng\n🟡 Trắc nghiệm, Điền từ, Nghe & Chọn, Sắp xếp câu, Câu chuyện, Phát âm AI, Hô to để nhảy, Ghép định nghĩa: 1,5 XP/câu\n🟢 Nối từ, Lật thẻ, Đúng/Sai, Bắn bong bóng, Phóng tên lửa, Đập chuột chũi, Câu cá, Máy bay qua mây, Ếch nhảy lá sen, Đua xe, Hứng táo chữ: 1 XP/câu\n\nMục tiêu mỗi ngày: đạt 20 XP → thanh XP trên màn hình này sẽ đầy!\n\nXP tích lũy giúp bạn lên cấp: 🌱 → 🔍 → ⚔️ → 📜 → 👑',
       },
       {
         q: '📚 Mini Story là gì?',

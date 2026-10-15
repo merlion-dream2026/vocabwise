@@ -4,7 +4,7 @@ const APP_URL = process.env.NEXT_PUBLIC_APP_URL ?? 'https://vocabwise.id.vn'
 
 export const metadata: Metadata = {
   title: 'Daily — Học Từ Vựng Tiếng Anh Hàng Ngày',
-  description: 'Daily: học từ vựng tiếng Anh hàng ngày cho bé. 6 cấp độ Pre-A1→C1 · 2.300+ từ vựng · 14 trò chơi tương tác. Flashcard song ngữ Việt–Anh. Phát âm AI.',
+  description: 'Daily: học từ vựng tiếng Anh hàng ngày cho bé. 6 cấp độ Pre-A1→C1 · 2.300+ từ vựng · 20 trò chơi tương tác. Flashcard song ngữ Việt–Anh. Phát âm AI.',
   keywords: [
     'Daily VocabWise', 'học tiếng anh cho trẻ em', 'app học từ vựng tiếng anh trẻ em',
     'flashcard tiếng anh', 'game học từ vựng', 'học tiếng anh CEFR',

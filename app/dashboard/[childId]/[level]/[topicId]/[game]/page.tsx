@@ -30,6 +30,7 @@ const RaceGame           = dynamic(() => import('@/components/RaceGame'),       
 const TrainGame          = dynamic(() => import('@/components/TrainGame'),           { ssr: false })
 const TreasureGame       = dynamic(() => import('@/components/TreasureGame'),        { ssr: false })
 const BasketGame         = dynamic(() => import('@/components/BasketGame'),          { ssr: false })
+const JumpGame           = dynamic(() => import('@/components/JumpGame'),            { ssr: false })
 const SentenceGame       = dynamic(() => import('@/components/SentenceGame'),        { ssr: false })
 
 type Child = { id: string; name: string; emoji: string; level: string }
@@ -123,6 +124,8 @@ export default function GamePage() {
         return <TreasureGame {...props} />
       case 'basket':
         return <BasketGame {...props} />
+      case 'jump':
+        return <JumpGame {...props} />
       case 'sentence':
         return <SentenceGame {...props} />
       default:
@@ -135,7 +138,7 @@ export default function GamePage() {
     <>
       {renderGame()}
       {/* Arcade games carry their own sound button in the HUD (the corner one would cover answers on a phone). */}
-      {!['rocket', 'whack', 'fishing', 'plane', 'frog', 'race', 'train', 'treasure', 'basket', 'bubble', 'memory'].includes(game) && <GameSoundToggle />}
+      {!['rocket', 'whack', 'fishing', 'plane', 'frog', 'race', 'train', 'treasure', 'basket', 'jump', 'bubble', 'memory'].includes(game) && <GameSoundToggle />}
     </>
   )
 }
