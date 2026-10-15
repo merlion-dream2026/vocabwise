@@ -3,28 +3,7 @@ import { getSession } from '@/lib/auth'
 import { getFamilyProfile } from '@/lib/security'
 import { getAISpeakLimit } from '@/lib/planUtils'
 import { consumeAIQuota } from '@/lib/aiQuota'
-
-function normalize(s: string) {
-  return s.toLowerCase().replace(/[^a-z0-9 ]/g, '').trim()
-}
-
-function soundex(s: string): string {
-  if (!s) return ''
-  const MAP: Record<string, string> = {
-    B:'1',F:'1',P:'1',V:'1',
-    C:'2',G:'2',J:'2',K:'2',Q:'2',S:'2',X:'2',Z:'2',
-    D:'3',T:'3', L:'4', M:'5',N:'5', R:'6',
-  }
-  const u = s.toUpperCase()
-  let code = u[0]
-  let prev = MAP[u[0]] ?? '0'
-  for (let i = 1; i < u.length && code.length < 4; i++) {
-    const c = MAP[u[i]] ?? '0'
-    if (c !== '0' && c !== prev) code += c
-    prev = c !== '0' ? c : prev
-  }
-  return code.padEnd(4, '0')
-}
+import { normalize, soundex } from '@/lib/pronunciation'
 
 /** Whisper đôi khi hallucinate sang ngôn ngữ khác → không có ký tự a-z nào */
 function isEnglishLike(s: string): boolean {
