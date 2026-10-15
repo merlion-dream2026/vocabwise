@@ -1,9 +1,9 @@
 import type { ReactNode } from 'react'
 import { mascotCutSrc } from '@/lib/mascots'
 
-// The rocket of 🚀 Phóng tên lửa as 10 SVG parts in build order (pad first, star last). Parts not
-// built yet show as a faint grey silhouette so kids see what's missing; a part drops in with a bounce
-// the moment it's built. `stage` drives the countdown rumble, lift-off, cruising in space (flame on,
+// The rocket of 🚀 Phóng tên lửa as 10 SVG parts in build order (pad first, star last). Only the next
+// part to build shows, as a pulsing dashed outline, so kids guess the rocket's shape as it grows; a
+// part drops in with a bounce the moment it's built. `stage` drives the countdown rumble, lift-off, cruising in space (flame on,
 // gentle bob) and the out-of-fuel fizzle.
 
 export type RocketStage = 'build' | 'countdown' | 'launch' | 'cruise' | 'fizzle'
@@ -43,13 +43,8 @@ const PARTS: ReactNode[] = [
 const DRAW_ORDER = [3, 4, 1, 2, 5, 7, 6, 8, 9] // everything but the pad, back to front
 
 function Part({ i, built }: { i: number; built: number }) {
-  const done = i < built
-  return (
-    <g className={done ? 'rk-in' : undefined} opacity={done ? 1 : 0.28}
-      style={done ? undefined : { filter: 'grayscale(1) brightness(1.6)' }}>
-      {PARTS[i]}
-    </g>
-  )
+  if (i > built) return null
+  return <g className={i < built ? 'rk-in' : 'rk-ghost'}>{PARTS[i]}</g>
 }
 
 export function RocketArt({ built, stage, className = '' }: { built: number; stage: RocketStage; className?: string }) {
@@ -63,7 +58,11 @@ export function RocketArt({ built, stage, className = '' }: { built: number; sta
         @keyframes rkFlame { 0%,100% { transform: scaleY(1) } 50% { transform: scaleY(1.25) } }
         @keyframes rkSmoke { 0% { transform: scale(.4); opacity: .9 } 100% { transform: scale(2.2) translateY(-6px); opacity: 0 } }
         @keyframes rkSag { 0%,100% { transform: rotate(0) } 50% { transform: rotate(-2deg) } }
+        @keyframes rkGhost { 0%,100% { opacity: .45 } 50% { opacity: .95 } }
         .rk-in { animation: rkIn .5s cubic-bezier(.3,1.4,.5,1) both; transform-box: fill-box }
+        .rk-ghost { animation: rkGhost 1.4s ease-in-out infinite }
+        .rk-ghost * { fill: none; stroke: #F8FAFC; stroke-width: 4px; stroke-dasharray: 9 6; stroke-linejoin: round }
+        .rk-ghost image { display: none }
         .rk-shake { animation: rkShake .09s linear infinite }
         .rk-fly { animation: rkFly 2.6s cubic-bezier(.55,0,.85,.4) forwards }
         .rk-flame { animation: rkFlame .12s ease-in-out infinite; transform-origin: 100px 328px }

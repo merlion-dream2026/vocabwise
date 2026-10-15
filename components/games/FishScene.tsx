@@ -79,7 +79,7 @@ export function Boat({ className = '' }: { className?: string }) {
   return (
     <div className={`relative ${className}`} aria-hidden>
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={mascotCutSrc('rocky', 'pose-cheer')} alt="" className="absolute bottom-[38%] left-[22%] h-[80%] w-auto" />
+      <img src={mascotCutSrc('rocky', 'pose-cheer')} alt="" className="absolute bottom-[38%] left-[18%] h-[110%] w-auto [@media(max-height:500px)]:h-[90%]" />
       <svg viewBox="0 0 120 60" className="absolute inset-0 h-full w-full overflow-visible">
         <line x1="80" y1="30" x2="118" y2="-6" stroke="#78350F" strokeWidth="3" strokeLinecap="round" />
         <path d="M4 30 H116 L100 58 H20 Z" fill="#B45309" stroke="#78350F" strokeWidth="3" strokeLinejoin="round" />

@@ -90,7 +90,7 @@ export default function FishingGame({ topic, level, backUrl }: Props) {
   }, [])
   const { w, h } = size
   const surfaceY = h * (h > w ? SURFACE.tall : h <= 500 ? SURFACE.short : SURFACE.wide)
-  const boatW = clamp(0.17 * Math.min(w, h), 90, 180)
+  const boatW = clamp(0.3 * Math.min(w, h), 130, 200)
   const boatH = boatW / 2
   const rodTipY = surfaceY - 0.93 * boatH
   const hookRestY = surfaceY + 0.2 * boatH

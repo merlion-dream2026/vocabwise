@@ -76,7 +76,7 @@ export default function PlaneGame({ topic, level, backUrl }: Props) {
   const { w, h } = size
   const tall = h > w
   const vmin = Math.min(w, h) / 100
-  const planeW = clamp(22 * vmin, 110, 220)
+  const planeW = clamp(30 * vmin, 140, 240)
   const planeH = planeW * 90 / 160
   const planeLeft = (tall ? 0.02 : 0.04) * w
   const cloudW = clamp(26 * vmin, 130, 250)

@@ -57,7 +57,7 @@ export function Plane({ className = '' }: { className?: string }) {
         <ellipse className="ps-prop" cx="158" cy="46" rx="3" ry="20" fill="#94A3B8" opacity=".7" />
       </svg>
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={mascotCutSrc('rocky', 'pose-cheer')} alt="" className="absolute bottom-[52%] left-[60%] h-[42%] w-auto" />
+      <img src={mascotCutSrc('rocky', 'pose-cheer')} alt="" className="absolute bottom-[42%] left-[58%] h-[60%] w-auto" />
     </div>
   )
 }
