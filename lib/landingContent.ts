@@ -46,7 +46,7 @@ export const MODULE_CARDS: ModuleCard[] = [
     features: [
       { icon: '🌱', text: '6 cấp độ CEFR: Pre-A1 → C1-C2 (Seeker → Master)' },
       { icon: '📖', text: '2.400 từ · 30 chủ đề mỗi cấp độ' },
-      { icon: '🎮', text: 'Flashcard + 9–10 trò chơi mỗi chủ đề, có Phát âm cùng AI' },
+      { icon: '🎮', text: 'Flashcard + 19–20 trò chơi mỗi chủ đề, có Phát âm cùng AI' },
       { icon: '✍️', text: 'Đặt câu cùng AI cho cấp độ B1 trở lên' },
       { icon: '🎵', text: 'Mini story theo chủ đề · Video học thêm chọn lọc' },
     ],
@@ -84,11 +84,11 @@ export const MODULE_CARDS: ModuleCard[] = [
   },
 ]
 
-// How one Daily topic is learned (lib/topicMastery.ts: 3 of 4 Round-1 games + 2 of 3 Round-2 games at 3★).
+// How one Daily topic is learned (lib/topicMastery.ts: 3 Round-1 games (Seeker 2) + 3 Round-2 games at 3★).
 export const JOURNEY = [
   { emoji: '📖', title: 'Flashcard', desc: 'Nghe phát âm, xem hình và câu ví dụ của từng từ mới' },
-  { emoji: '🎯', title: 'Vòng 1 · Làm quen', desc: '4 trò chơi nhận diện từ, đạt ⭐⭐⭐ ở 3 trò' },
-  { emoji: '🎤', title: 'Vòng 2 · Vận dụng', desc: 'Sắp xếp câu, phát âm cùng AI… đạt ⭐⭐⭐ ở 2 trò' },
+  { emoji: '🎯', title: 'Vòng 1 · Làm quen', desc: '6–7 trò chơi nhận diện từ, đạt ⭐⭐⭐ ở 3 trò' },
+  { emoji: '🎤', title: 'Vòng 2 · Vận dụng', desc: 'Sắp xếp câu, phát âm cùng AI… đạt ⭐⭐⭐ ở 3 trò' },
   { emoji: '🏆', title: 'Chinh phục', desc: 'Nhận cúp và sticker của chủ đề, rồi ôn lại đúng lúc với SRS' },
 ] as const
 
@@ -118,11 +118,11 @@ const [p1, p3, p6] = PAID_PLANS
 export const FAQ_ITEMS = [
   {
     q: 'VocabWise có những gì?',
-    a: 'VocabWise là app học tiếng Anh song ngữ Việt–Anh với 3 phần học:\n\n📚 Daily: 2.400 từ, 6 cấp độ CEFR (Pre-A1 đến C1-C2), Flashcard và 9–10 trò chơi mỗi chủ đề, dành cho bé 5–15 tuổi.\n\n🔤 Phonics IPA: 9 cấp độ, 58 bài phát âm, AI chấm điểm, phù hợp mọi lứa tuổi.\n\n🎓 Academic: từ vựng học thuật IELTS/SAT, 3 books · 180 chủ đề · bài đọc, glossary và 13 dạng bài tập (A1–C2).\n\nBa mẹ có dashboard riêng để theo dõi và nhắc con học.',
+    a: 'VocabWise là app học tiếng Anh song ngữ Việt–Anh với 3 phần học:\n\n📚 Daily: 2.400 từ, 6 cấp độ CEFR (Pre-A1 đến C1-C2), Flashcard và 19–20 trò chơi mỗi chủ đề, dành cho bé 5–15 tuổi.\n\n🔤 Phonics IPA: 9 cấp độ, 58 bài phát âm, AI chấm điểm, phù hợp mọi lứa tuổi.\n\n🎓 Academic: từ vựng học thuật IELTS/SAT, 3 books · 180 chủ đề · bài đọc, glossary và 13 dạng bài tập (A1–C2).\n\nBa mẹ có dashboard riêng để theo dõi và nhắc con học.',
   },
   {
     q: 'Bé học một chủ đề như thế nào?',
-    a: 'Mỗi chủ đề Daily đi theo 4 bước:\n① Flashcard: nghe phát âm, xem hình và câu ví dụ\n② Vòng 1 · Làm quen: 4 trò chơi nhận diện từ, cần đạt ⭐⭐⭐ ở 3 trò\n③ Vòng 2 · Vận dụng: 3 trò như Sắp xếp câu, Phát âm cùng AI, cần đạt ⭐⭐⭐ ở 2 trò\n④ Chinh phục: bé nhận cúp 🏆 và sticker của chủ đề\n\nSao tính theo lần chơi gần nhất, nên bé muốn giữ sao thì phải nhớ từ thật. Sau đó app tự nhắc ôn lại từ sắp quên (SRS).',
+    a: 'Mỗi chủ đề Daily đi theo 4 bước:\n① Flashcard: nghe phát âm, xem hình và câu ví dụ\n② Vòng 1 · Làm quen: 6–7 trò chơi nhận diện từ, cần đạt ⭐⭐⭐ ở 3 trò (Seeker: 2 trò)\n③ Vòng 2 · Vận dụng: 5 trò như Sắp xếp câu, Phát âm cùng AI, Phóng tên lửa, cần đạt ⭐⭐⭐ ở 3 trò\n④ Chinh phục: bé nhận cúp 🏆 và sticker của chủ đề\n\nSao tính theo lần chơi gần nhất, nên bé muốn giữ sao thì phải nhớ từ thật. Sau đó app tự nhắc ôn lại từ sắp quên (SRS).',
   },
   {
     q: 'Rocky & Bubi là ai? Sticker dùng để làm gì?',

@@ -37,7 +37,7 @@ async function removeFamily(familyId) {
   const kids = must(await sb.from('children').select('id').eq('family_id', familyId), 'list demo kids')
   const ids = kids.map(k => k.id)
   if (ids.length) {
-    for (const t of ['vocab_sync', 'child_stickers', 'vw_academic_sync_child']) must(await sb.from(t).delete().in('child_id', ids), `clear ${t}`)
+    for (const t of ['vocab_sync', 'vocab_srs_log', 'child_stickers', 'vw_academic_sync_child']) must(await sb.from(t).delete().in('child_id', ids), `clear ${t}`)
     must(await sb.from('children').delete().in('id', ids), 'delete demo kids')
   }
   for (const t of ['vw_saved_words', 'vw_word_lists']) must(await sb.from(t).delete().eq('family_id', familyId), `clear ${t}`)
