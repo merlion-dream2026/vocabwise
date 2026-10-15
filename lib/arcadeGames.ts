@@ -1,4 +1,4 @@
-// Pure logic of the arcade games ("Thử thách thêm"), one file per game in lib/arcade/.
+// Pure logic of the arcade games ("Khu vui chơi"), one file per game in lib/arcade/.
 // Import from here: '@/lib/arcadeGames'.
 export * from './arcade/shared'
 export * from './arcade/rocket'

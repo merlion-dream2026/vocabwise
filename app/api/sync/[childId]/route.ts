@@ -92,7 +92,7 @@ export async function POST(req: NextRequest, props: { params: Promise<{ childId:
   const mergedSeen = Array.from(new Set([...(current?.seen ?? []), ...(seen ?? [])]))
 
   type GameResult = { best: number; last: number; at: string }
-  type MasteryRow = { flashcard: boolean; games: string[]; modes?: Record<string, GameResult>; legacyDone?: boolean }
+  type MasteryRow = { flashcard: boolean; games: string[]; modes?: Record<string, GameResult>; legacyDone?: boolean; video?: boolean }
   const clampPct = (n: unknown) => Math.min(100, Math.max(0, Number(n) || 0))
   const mergedMastery: Record<string, MasteryRow> = { ...(current?.mastery ?? {}) }
   for (const [topicId, incoming] of Object.entries(mastery ?? {}) as [string, MasteryRow][]) {
@@ -111,9 +111,10 @@ export async function POST(req: NextRequest, props: { params: Promise<{ childId:
     }
     mergedMastery[topicId] = {
       flashcard: (existing?.flashcard ?? false) || incoming.flashcard,
-      games: Array.from(new Set([...(existing?.games ?? []), ...incoming.games])),
+      games: Array.from(new Set([...(existing?.games ?? []), ...(incoming.games ?? [])])),
       ...(Object.keys(modes).length ? { modes } : {}),
       ...(existing?.legacyDone || incoming.legacyDone ? { legacyDone: true } : {}),
+      ...(existing?.video || incoming.video ? { video: true } : {}),
     }
   }
 

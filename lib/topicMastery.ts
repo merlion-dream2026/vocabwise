@@ -5,18 +5,21 @@
 // A game's stars come from its MOST RECENT attempt (not the best ever), so mastery reflects current
 // retention: a weaker replay can take a topic back below the bar. Stars: ≤50% 1★, ≤80% 2★, >80% 3★.
 //
-// Storage: vocab_sync.mastery[topicId] = { flashcard, games, modes?, legacyDone? }
+// Storage: vocab_sync.mastery[topicId] = { flashcard, games, modes?, legacyDone?, video? }
 //   games       – keys of games finished with a perfect score (the pre-hub format; still maintained)
 //   modes       – per-game { best, last, at } as percentages, written by recordGameResult()
 //   legacyDone  – set once when a topic that was ALREADY complete under the old rule
 //                 (flashcard + 3 perfect games) is first replayed, so no child loses a trophy
 //                 they had earned before this rule existed.
+//   video       – watched one of the topic's videos to the end (an optional hub stop; never
+//                 counts toward mastery)
 export type GameResult = { best: number; last: number; at: string }
 export type MasteryEntry = {
   flashcard: boolean
   games: string[]
   modes?: Record<string, GameResult>
   legacyDone?: boolean
+  video?: boolean
 }
 export type GameDef = { key: string; label: string; emoji: string }
 
@@ -60,7 +63,7 @@ export function roundSpec(level: string): RoundSpec {
 // the child actually has — a child can only play their own level's games, so at most one passes.
 const specsFor = (level?: string) => (level ? [roundSpec(level)] : [STARTER_SPEC, EXPLORER_SPEC])
 
-/** Games of this level that count toward neither round (shown as "Thử thách thêm"). */
+/** Games of this level that count toward neither round (shown as "Khu vui chơi"). */
 export function bonusGames(games: GameDef[], level: string): GameDef[] {
   const s = roundSpec(level)
   return games.filter((g) => g.key !== 'flashcard' && !s.r1.includes(g.key) && !s.r2.includes(g.key))

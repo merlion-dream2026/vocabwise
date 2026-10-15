@@ -8,7 +8,7 @@ export type HubTheme = {
   soft: string       // highlighted "next" row, chip, round-2 pill background
   title: string      // headline text
   accent: string     // counts, dashed "+N" chip text
-  dashed: string     // dashed borders (+N từ, Thử thách thêm)
+  dashed: string     // dashed borders (+N từ, Khu vui chơi)
   trail: string      // finished part of the journey line
   primary: string    // next-step button + current journey stop (bg + bottom edge)
   ring: string       // glow around the current journey stop

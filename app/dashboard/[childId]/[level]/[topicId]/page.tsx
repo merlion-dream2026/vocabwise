@@ -1,17 +1,17 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import dynamic from 'next/dynamic'
 import { loadOfflineProgress, clearOfflineProgress } from '@/lib/offlineStorage'
 import { isTopicMastered, type MasteryEntry } from '@/lib/topicMastery'
 import { HubStyles, Rise, TopicHero, WordPreview, PRESS } from '@/components/TopicHub'
-import { RoundCards } from '@/components/TopicRounds'
+import { LearnCard, RoundCards } from '@/components/TopicRounds'
 import { DAILY_HUB_THEMES, hubTheme } from '@/components/hubTheme'
 import PageSkeleton from '@/components/PageSkeleton'
 import TopicFaq from '@/components/TopicFaq'
 import MiniStory, { type Story } from '@/components/MiniStory'
-import TopicVideos from '@/components/TopicVideos'
+import { useTopicVideos, VideoSheet } from '@/components/TopicVideos'
 
 const TrophyModal = dynamic(() => import('@/components/TrophyModal'), { ssr: false })
 
@@ -29,16 +29,16 @@ const STARTER_GAMES = [
   { key: 'speak',         label: 'Phát âm cùng AI ✨',   emoji: '🎤' }, // row 4
   { key: 'spell',         label: 'Đánh vần',            emoji: '🔤' }, // row 5
   { key: 'sentenceorder', label: 'Sắp xếp câu',        emoji: '🔁' }, // row 5
-  { key: 'rocket',        label: 'Phóng tên lửa',      emoji: '🚀' }, // arcade (Thử thách thêm)
-  { key: 'whack',         label: 'Đập chuột chũi',     emoji: '🔨' }, // arcade (Thử thách thêm)
-  { key: 'fishing',       label: 'Câu cá',             emoji: '🎣' }, // arcade (Thử thách thêm)
-  { key: 'plane',         label: 'Máy bay qua mây',    emoji: '✈️' }, // arcade (Thử thách thêm)
-  { key: 'frog',          label: 'Ếch nhảy lá sen',    emoji: '🐸' }, // arcade (Thử thách thêm)
-  { key: 'race',          label: 'Đua xe tốc độ',      emoji: '🏎️' }, // arcade (Thử thách thêm)
-  { key: 'train',         label: 'Tàu chở chữ',        emoji: '🚂' }, // arcade (Thử thách thêm)
-  { key: 'treasure',      label: 'Đào kho báu',        emoji: '🗺️' }, // arcade (Thử thách thêm)
-  { key: 'basket',        label: 'Hứng táo chữ',       emoji: '🧺' }, // arcade (Thử thách thêm)
-  { key: 'jump',          label: 'Hô to để nhảy',      emoji: '🦘' }, // arcade (Thử thách thêm)
+  { key: 'rocket',        label: 'Phóng tên lửa',      emoji: '🚀' }, // arcade
+  { key: 'whack',         label: 'Đập chuột chũi',     emoji: '🔨' }, // arcade
+  { key: 'fishing',       label: 'Câu cá',             emoji: '🎣' }, // arcade
+  { key: 'plane',         label: 'Máy bay qua mây',    emoji: '✈️' }, // arcade
+  { key: 'frog',          label: 'Ếch nhảy lá sen',    emoji: '🐸' }, // arcade
+  { key: 'race',          label: 'Đua xe tốc độ',      emoji: '🏎️' }, // arcade
+  { key: 'train',         label: 'Tàu chở chữ',        emoji: '🚂' }, // arcade
+  { key: 'treasure',      label: 'Đào kho báu',        emoji: '🗺️' }, // arcade
+  { key: 'basket',        label: 'Hứng táo chữ',       emoji: '🧺' }, // arcade
+  { key: 'jump',          label: 'Hô to để nhảy',      emoji: '🦘' }, // arcade
 ]
 
 // Ordered easy → hard (row 1 = recognition, row 5 = timed/synthesis)
@@ -54,16 +54,16 @@ const EXPLORER_GAMES = [
   { key: 'sentenceorder',   label: 'Sắp xếp câu',        emoji: '🔁' }, // row 5
   { key: 'speedround',      label: 'Speed Round ⚡',       emoji: '⚡' }, // row 6
   { key: 'sentence',        label: 'Đặt câu cùng AI ✍️',  emoji: '✍️' }, // row 6 — production: tự viết câu, AI chấm
-  { key: 'rocket',          label: 'Phóng tên lửa',      emoji: '🚀' }, // arcade (Thử thách thêm)
-  { key: 'whack',           label: 'Đập chuột chũi',     emoji: '🔨' }, // arcade (Thử thách thêm)
-  { key: 'fishing',         label: 'Câu cá',             emoji: '🎣' }, // arcade (Thử thách thêm)
-  { key: 'plane',           label: 'Máy bay qua mây',    emoji: '✈️' }, // arcade (Thử thách thêm)
-  { key: 'frog',            label: 'Ếch nhảy lá sen',    emoji: '🐸' }, // arcade (Thử thách thêm)
-  { key: 'race',            label: 'Đua xe tốc độ',      emoji: '🏎️' }, // arcade (Thử thách thêm)
-  { key: 'train',           label: 'Tàu chở chữ',        emoji: '🚂' }, // arcade (Thử thách thêm)
-  { key: 'treasure',        label: 'Đào kho báu',        emoji: '🗺️' }, // arcade (Thử thách thêm)
-  { key: 'basket',          label: 'Hứng táo chữ',       emoji: '🧺' }, // arcade (Thử thách thêm)
-  { key: 'jump',            label: 'Hô to để nhảy',      emoji: '🦘' }, // arcade (Thử thách thêm)
+  { key: 'rocket',          label: 'Phóng tên lửa',      emoji: '🚀' }, // arcade
+  { key: 'whack',           label: 'Đập chuột chũi',     emoji: '🔨' }, // arcade
+  { key: 'fishing',         label: 'Câu cá',             emoji: '🎣' }, // arcade
+  { key: 'plane',           label: 'Máy bay qua mây',    emoji: '✈️' }, // arcade
+  { key: 'frog',            label: 'Ếch nhảy lá sen',    emoji: '🐸' }, // arcade
+  { key: 'race',            label: 'Đua xe tốc độ',      emoji: '🏎️' }, // arcade
+  { key: 'train',           label: 'Tàu chở chữ',        emoji: '🚂' }, // arcade
+  { key: 'treasure',        label: 'Đào kho báu',        emoji: '🗺️' }, // arcade
+  { key: 'basket',          label: 'Hứng táo chữ',       emoji: '🧺' }, // arcade
+  { key: 'jump',            label: 'Hô to để nhảy',      emoji: '🦘' }, // arcade
 ]
 
 const LEVEL_COLORS: Record<string, { bg: string; header: string; text: string; soft: string; deep: string; edge: string }> = {
@@ -93,6 +93,20 @@ export default function TopicPage() {
   const [showTrophy, setShowTrophy] = useState(false)
   const [showFaq, setShowFaq] = useState(false)
   const [sticker, setSticker] = useState<{ legacy: boolean } | null>(null)
+  const [showVideos, setShowVideos] = useState(false)
+  const videos = useTopicVideos(`daily/${level}/${topicId}`)
+
+  // A video watched to the end ticks the optional 🎬 stop (saved once; the server ORs the flag).
+  const videoWatched = !!mastery.video
+  const markVideoWatched = useCallback(() => {
+    if (videoWatched) return
+    setMastery(m => ({ ...m, video: true }))
+    fetch(`/api/sync/${childId}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ level, mastery: { [topicId]: { flashcard: false, games: [], video: true } } }),
+    }).catch(() => {})
+  }, [videoWatched, childId, level, topicId])
   useEffect(() => {
     // No connection: topics are not downloadable, so just ask to reconnect.
     if (!navigator.onLine) {
@@ -290,6 +304,7 @@ export default function TopicPage() {
             onShare={handleShare}
             onReplayTrophy={() => setShowTrophy(true)}
             hasSticker={!!sticker}
+            hasVideo={videos.length > 0}
             faqOpen={showFaq}
             onToggleFaq={() => setShowFaq(v => !v)}
           />
@@ -298,23 +313,35 @@ export default function TopicPage() {
         {/* Inline FAQ — shown when toggled */}
         {showFaq && <TopicFaq />}
 
-        {/* Vòng 1 / Vòng 2 → topic videos → Thử thách thêm (bonus games + Mini Story) */}
+        {/* Học từ mới (Flashcard → video → Mini Story) → Vòng 1 / Vòng 2 → Khu vui chơi */}
         <Rise i={2}>
+          <LearnCard
+            level={level}
+            entry={mastery}
+            games={games}
+            theme={theme}
+            onOpen={(key) => router.push(`/dashboard/${childId}/${level}/${topicId}/${key}`)}
+            videoCount={videos.length}
+            videoWatched={videoWatched}
+            onOpenVideos={() => setShowVideos(true)}
+            story={story && (
+              <MiniStory key={topicId} story={story} words={(topic as { words: { word: string }[] }).words}
+                level={level} topicId={topicId} topicIdx={topicIdx} childId={childId} />
+            )}
+          />
+        </Rise>
+
+        <Rise i={3}>
           <RoundCards
             level={level}
             entry={mastery}
             games={games}
             theme={theme}
             onOpen={(key) => router.push(`/dashboard/${childId}/${level}/${topicId}/${key}`)}
-            beforeBonus={<TopicVideos videoKey={`daily/${level}/${topicId}`} theme={theme} />}
-            bonusExtraLabel="Mini Story"
-            bonusExtra={story && (
-              <MiniStory key={topicId} story={story} words={(topic as { words: { word: string }[] }).words}
-                level={level} topicId={topicId} topicIdx={topicIdx} childId={childId} />
-            )}
           />
         </Rise>
       </div>
+      {showVideos && <VideoSheet videos={videos} theme={theme} onClose={() => setShowVideos(false)} onEnded={markVideoWatched} />}
     </div>
   )
 }

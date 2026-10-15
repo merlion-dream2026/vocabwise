@@ -50,18 +50,20 @@ export function tap() {
 // down 4px, so it looks like it sinks into the page without shifting the layout.
 export const PRESS = 'transition-[transform,border-width] duration-100 active:translate-y-0.5 active:border-b-2'
 
-export type JourneyNode = { icon: string; label: string; done: boolean; last?: boolean; sticker?: string | null }
+export type JourneyNode = { icon: string; label: string; done: boolean; last?: boolean; sticker?: string | null; optional?: boolean }
 
 // Flashcard → Vòng 1 → Vòng 2 → quà, as small stops on a line: finished stops are emerald ✓, the
 // next one wears the level colour with a soft ring, the rest are grey. The last stop is the gift,
 // which turns into the trophy (or the earned sticker) — tapping it replays the celebration.
+// An `optional` stop (the topic video) is never the "next" one; until done it shows dashed.
 export function Journey({ nodes, theme, onTrophy }: { nodes: JourneyNode[]; theme: HubTheme; onTrophy: () => void }) {
-  const current = nodes.findIndex((n) => !n.done)
+  const current = nodes.findIndex((n) => !n.done && !n.optional)
+  const w = nodes.length > 4 ? 'w-14' : 'w-16'
   return (
     <div className="mt-3 flex items-start">
       {nodes.map((n, i) => (
         <Fragment key={n.label}>
-          <div className="flex w-16 flex-shrink-0 flex-col items-center gap-1">
+          <div className={`flex ${w} flex-shrink-0 flex-col items-center gap-1`}>
             {n.last && n.done ? (
               <button type="button" onClick={() => { tap(); onTrophy() }} aria-label="Xem lại hiệu ứng chúc mừng"
                 className={`hub-shine flex h-8 w-8 cursor-pointer items-center justify-center rounded-full border-b-[3px] border-amber-600 bg-amber-400 text-base ${PRESS}`}>
@@ -71,6 +73,7 @@ export function Journey({ nodes, theme, onTrophy }: { nodes: JourneyNode[]; them
               <span className={`flex h-8 w-8 items-center justify-center rounded-full border-b-[3px] text-sm font-bold ${
                 n.done ? 'border-emerald-700 bg-emerald-500 text-white'
                 : i === current ? `${theme.primary} text-white ring-4 ${theme.ring}`
+                : n.optional ? 'border-2 border-dashed border-slate-300 bg-white'
                 : 'border-slate-300 bg-slate-100 text-slate-400 grayscale'
               }`}>
                 {n.done ? '✓' : n.icon}
@@ -140,7 +143,7 @@ export function MasteredHero({ title, children }: { title: string; children?: Re
 // Status card (headline, ⓘ Cách học, trail) then the mascot + next-step button. A finished topic
 // swaps both for the gold celebration card and a "next topic" button.
 export function TopicHero({
-  theme, level, topicEmoji, wordCount, entry, games, nextTopicName, onOpen, onNextTopic, onShare, onReplayTrophy, faqOpen, onToggleFaq, hasSticker = false,
+  theme, level, topicEmoji, wordCount, entry, games, nextTopicName, onOpen, onNextTopic, onShare, onReplayTrophy, faqOpen, onToggleFaq, hasSticker = false, hasVideo = false,
 }: {
   theme: HubTheme; level: string; topicEmoji: string; wordCount: number; entry: MasteryEntry; games: GameDef[]
   nextTopicName: string | null
@@ -151,6 +154,7 @@ export function TopicHero({
   faqOpen: boolean
   onToggleFaq: () => void
   hasSticker?: boolean   // the child owns this topic's sticker → the Quà stop shows it
+  hasVideo?: boolean     // the topic has videos → an optional 🎬 stop after Flashcard (✓ = entry.video)
 }) {
   const mastered = isTopicMastered(entry, level)
   const steps = topicSteps(entry, level)
@@ -158,6 +162,7 @@ export function TopicHero({
   const [r1, r2] = masteryByRound(entry, level)
   const nodes: JourneyNode[] = [
     { icon: '📖', label: 'Flashcard', done: entry.flashcard },
+    ...(hasVideo ? [{ icon: '🎬', label: 'Video', done: !!entry.video, optional: true }] : []),
     { icon: '1', label: 'Vòng 1', done: r1.ringDone >= r1.ringTotal },
     { icon: '2', label: 'Vòng 2', done: r2.ringDone >= r2.ringTotal },
     { icon: '🎁', label: mastered && hasSticker ? 'Sticker' : 'Quà', done: mastered, last: true, sticker: hasSticker ? topicEmoji : null },
