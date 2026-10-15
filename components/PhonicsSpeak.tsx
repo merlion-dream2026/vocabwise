@@ -1,7 +1,7 @@
 'use client'
 
 // Phát âm cùng AI (Phonics) — mirrors Daily SpeakGame UI.
-// Auto-plays sentence TTS on mount → user taps 🎤 → 3-2-1 → record → AI score.
+// Auto-plays sentence TTS on mount → user taps 🎤 → 1s get-ready → record (auto-stops on silence) → AI score.
 
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
@@ -11,6 +11,9 @@ import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 import VoicePlayer from '@/components/VoicePlayer'
 import { GameHeader, cta, colorFamily } from '@/components/ChunkyUI'
+import { matchWords } from '@/lib/pronunciation'
+import { useMicMeter } from '@/lib/useMicMeter'
+import { SLOW_RATE, HINT_AFTER_FAILS, RecordingView, ModelVoiceRow, ResultCard, UnclearCard, HintCard, ResultButtons } from '@/components/SpeakParts'
 
 type PracticeSentence = { en: string; highlight: string[] }
 type RhythmSentence   = { en: string; stressed: string[]; vi: string }
@@ -89,37 +92,43 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
   const [showConf, setShowConf] = useState(false)
 
   const [phase, setPhase]           = useState<Phase>('idle')
-  const [countdown, setCountdown]   = useState(3)
   const [transcript, setTranscript] = useState('')
   const [isCorrect, setIsCorrect]   = useState<boolean | null>(null)
   const [unclear, setUnclear]       = useState(false)
-  // `_found` is tracked (mirrors `missed`) but only `missed` is currently rendered.
-  const [_found, setFound]          = useState<string[]>([])
-  const [missed, setMissed]         = useState<string[]>([])
+  const [found, setFound]           = useState<string[]>([])
   const [micError, setMicError]     = useState<string | null>(null)
   const [playbackUrl, setPlaybackUrl] = useState<string | null>(null)
   const [timeLeft, setTimeLeft]     = useState(MAX_SECS)
+  const [fails, setFails]           = useState(0)
 
   const mediaRecRef  = useRef<MediaRecorder | null>(null)
   const streamRef    = useRef<MediaStream | null>(null)
   const chunksRef    = useRef<BlobPart[]>([])
   const timerRef     = useRef<ReturnType<typeof setInterval> | null>(null)
   const autoStopRef  = useRef<ReturnType<typeof setTimeout>  | null>(null)
-  const cdRef        = useRef<ReturnType<typeof setInterval> | null>(null)
+  const cdRef        = useRef<ReturnType<typeof setTimeout>  | null>(null)
   const autoPlayRef  = useRef(false)
 
   const current     = items[step]
   const total       = items.length
   const totalScore  = scores.length > 0 ? Math.round(scores.reduce((a, b) => a + b, 0) / scores.length * 100) : 0
 
+  // Stop after silence once the kid has spoken (see useMicMeter)
+  const meter = useMicMeter(() => {
+    if (mediaRecRef.current?.state === 'recording') { clearTimers(); mediaRecRef.current.stop() }
+  })
+
   const stopStream = useCallback(() => {
+    meter.stop()
     streamRef.current?.getTracks().forEach(t => t.stop()); streamRef.current = null
-  }, [])
+  }, [meter.stop]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  const speak = (rate = 0.85) => speakSentence(current.en, { rate })
 
   const clearTimers = useCallback(() => {
     if (timerRef.current)    { clearInterval(timerRef.current);   timerRef.current  = null }
     if (autoStopRef.current) { clearTimeout(autoStopRef.current); autoStopRef.current = null }
-    if (cdRef.current)       { clearInterval(cdRef.current);      cdRef.current     = null }
+    if (cdRef.current)       { clearTimeout(cdRef.current);       cdRef.current     = null }
   }, [])
 
   // Auto-play sentence on step change
@@ -127,8 +136,8 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
     if (gameDone || !current) return
     setPhase('idle')
     setTranscript(''); setIsCorrect(null); setUnclear(false)
-    setFound([]); setMissed([]); setMicError(null)
-    setTimeLeft(MAX_SECS)
+    setFound([]); setMicError(null)
+    setTimeLeft(MAX_SECS); setFails(0)
     if (playbackUrl) { URL.revokeObjectURL(playbackUrl); setPlaybackUrl(null) }
     autoPlayRef.current = false
 
@@ -166,24 +175,21 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
       mr.start()
       mediaRecRef.current = mr
 
-      // 3-2-1 countdown (mic warms up during this)
-      setPhase('countdown'); setCountdown(3)
-      let c = 3
-      cdRef.current = setInterval(() => {
-        c--
-        if (c > 0) {
-          setCountdown(c)
-        } else {
-          clearInterval(cdRef.current!); cdRef.current = null
-          setPhase('recording'); setTimeLeft(MAX_SECS)
-          timerRef.current = setInterval(() => {
-            setTimeLeft(prev => { if (prev <= 1) { clearTimers(); return 0 } return prev - 1 })
-          }, 1000)
-          autoStopRef.current = setTimeout(() => {
-            if (mediaRecRef.current?.state === 'recording') mediaRecRef.current.stop()
-            clearTimers()
-          }, MAX_SECS * 1000)
-        }
+      meter.start(stream)
+
+      // Short 1s "get ready" (mic warms up during this)
+      setPhase('countdown')
+      cdRef.current = setTimeout(() => {
+        cdRef.current = null
+        setPhase('recording'); setTimeLeft(MAX_SECS)
+        meter.markRecording()
+        timerRef.current = setInterval(() => {
+          setTimeLeft(prev => { if (prev <= 1) { clearTimers(); return 0 } return prev - 1 })
+        }, 1000)
+        autoStopRef.current = setTimeout(() => {
+          if (mediaRecRef.current?.state === 'recording') mediaRecRef.current.stop()
+          clearTimers()
+        }, MAX_SECS * 1000)
       }, 1000)
     } catch (e: unknown) {
       const name = (e as { name?: string }).name
@@ -214,15 +220,23 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
       const tr = (data.transcript ?? '').trim()
       setTranscript(tr)
       setUnclear(!!data.unclear)
-      const { found: f, missed: m } = scoreResult(tr, current.targets)
-      setFound(f); setMissed(m)
+      const { found: f } = scoreResult(tr, current.targets)
+      setFound(f)
       const correct = current.targets.length === 0
         ? !!data.correct
         : f.length / Math.max(current.targets.length, 1) >= 0.6
       setIsCorrect(correct)
-      const itemScore = current.targets.length > 0 ? f.length / current.targets.length : (correct ? 1 : 0)
-      setScores(prev => [...prev, itemScore])
-      if (!data.unclear) { if (correct) playCorrectSound(); else playWrongSound() }
+      // Unclear = Whisper didn't hear English → not the kid's fault, don't count it as a 0
+      if (!data.unclear) {
+        const itemScore = current.targets.length > 0 ? f.length / current.targets.length : (correct ? 1 : 0)
+        setScores(prev => [...prev, itemScore])
+        if (correct) playCorrectSound(); else playWrongSound()
+        if (!correct) {
+          const n = fails + 1
+          setFails(n)
+          if (n === HINT_AFTER_FAILS) setTimeout(() => speak(SLOW_RATE), 700)
+        }
+      }
       setPhase('done')
     } catch {
       setMicError('Lỗi kết nối. Bấm Thử lại.')
@@ -236,7 +250,7 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
     stopStream()
     if (playbackUrl) { URL.revokeObjectURL(playbackUrl); setPlaybackUrl(null) }
     setTranscript(''); setIsCorrect(null); setUnclear(false)
-    setFound([]); setMissed([]); setMicError(null); setTimeLeft(MAX_SECS)
+    setFound([]); setMicError(null); setTimeLeft(MAX_SECS)
     setPhase('idle')
   }
 
@@ -259,6 +273,13 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
   }, [step, total, scores, lesson, clearTimers, stopStream])
 
   useEffect(() => () => { clearTimers(); stopStream() }, [clearTimers, stopStream])
+
+  // Target sounds present → mark those (the phonics focus); otherwise mark every word
+  const marks = phase === 'done' && !unclear && transcript
+    ? (current.targets.length ? current.targets.map(t => ({ text: t, ok: found.includes(t) })) : matchWords(transcript, current.en))
+    : []
+  const stars = isCorrect ? (marks.length && marks.every(m => m.ok) ? 3 : 2) : 0
+  const showHint = !isCorrect && fails >= HINT_AFTER_FAILS
 
   if (!items.length) {
     return (
@@ -311,15 +332,21 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
                 </div>
               )}
             </div>
-            <button onClick={() => speakSentence(current.en, { rate: 0.85 })}
-              className="flex-shrink-0 w-9 h-9 rounded-full bg-rose-50 flex items-center justify-center text-lg active:scale-90 transition-all">
-              🔊
-            </button>
+            <div className="flex-shrink-0 flex flex-col gap-2">
+              <button onClick={() => speak()} aria-label="Nghe mẫu"
+                className="w-11 h-11 rounded-full bg-rose-50 flex items-center justify-center text-xl active:scale-90 transition-all">
+                🔊
+              </button>
+              <button onClick={() => speak(SLOW_RATE)} aria-label="Nghe chậm"
+                className="w-11 h-11 rounded-full bg-sky-50 flex items-center justify-center text-xl active:scale-90 transition-all">
+                🐢
+              </button>
+            </div>
           </div>
         </div>
 
-        {/* Action zone */}
-        <div className="flex-1 flex flex-col items-center justify-center gap-4">
+        {/* Action zone — mic/feedback; result buttons sit at the bottom (thumb zone) */}
+        <div className={`flex-1 flex flex-col items-center gap-4 ${phase === 'done' ? 'justify-start' : 'justify-center'}`}>
 
           {phase === 'idle' && (
             <>
@@ -331,34 +358,24 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
                 ? <p className="text-red-500 font-semibold text-sm text-center max-w-xs">{micError}</p>
                 : <p className="text-gray-400 font-semibold text-sm">Bấm để đọc</p>
               }
+              <button onClick={advance} className="text-gray-300 font-bold text-sm active:scale-95 transition-all">
+                Bỏ qua →
+              </button>
             </>
           )}
 
           {phase === 'countdown' && (
             <>
               <div className="w-20 h-20 rounded-full bg-rose-100 border-4 border-rose-300 flex items-center justify-center animate-pulse">
-                <span className="text-5xl font-bold text-rose-500">{countdown}</span>
+                <span className="text-4xl">👂</span>
               </div>
-              <p className="text-rose-400 font-bold text-sm">Chuẩn bị đọc...</p>
+              <p className="text-rose-400 font-bold text-sm">Sẵn sàng...</p>
               <button onClick={retry} className="text-gray-300 text-xs font-semibold underline active:scale-95">Huỷ</button>
             </>
           )}
 
           {phase === 'recording' && (
-            <>
-              <button onClick={stopRecording}
-                className="w-20 h-20 rounded-full bg-rose-600 shadow-xl flex items-center justify-center text-3xl animate-pulse active:scale-95 transition-all">
-                ⏹️
-              </button>
-              <p className="text-rose-500 font-bold text-sm animate-pulse">Đang thu âm...</p>
-              <div className="w-full">
-                <div className="w-full bg-rose-100 rounded-full h-2 overflow-hidden">
-                  <div className="h-full bg-rose-400 rounded-full transition-all duration-1000"
-                    style={{ width: `${(timeLeft / MAX_SECS) * 100}%` }} />
-                </div>
-                <p className="text-rose-300 text-xs font-semibold text-center mt-1">{timeLeft}s · bấm ⏹️ để dừng</p>
-              </div>
-            </>
+            <RecordingView level={meter.level} timeLeft={timeLeft} maxSecs={MAX_SECS} onStop={stopRecording} />
           )}
 
           {phase === 'processing' && (
@@ -368,46 +385,24 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
             </>
           )}
 
-          {phase === 'done' && unclear && (
-            <div className="w-full flex flex-col gap-3">
-              <div className="bg-amber-50 border-2 border-b-[4px] border-amber-200 border-b-amber-300 rounded-3xl p-4 text-center">
-                <p className="text-2xl mb-1">🔄</p>
-                <p className="font-bold text-amber-700">Chưa nghe rõ tiếng Anh</p>
-                <p className="text-amber-500 text-sm mt-1">Đọc to hơn và gần micro hơn nhé!</p>
-              </div>
-              {playbackUrl && (
-                <VoicePlayer src={playbackUrl} />
-              )}
-              <div className="flex gap-3">
-                <button onClick={retry} className={cta('rose', 'flex-1')}>🎤 Thử lại</button>
-                <button onClick={advance} className={cta('slate', 'flex-1')}>Bỏ qua →</button>
-              </div>
-            </div>
-          )}
-
+          {phase === 'done' && unclear && <UnclearCard />}
           {phase === 'done' && !unclear && (
-            <div className="w-full flex flex-col gap-3">
-              <div className={`rounded-2xl p-4 text-center border-2 ${isCorrect ? 'bg-green-50 border-green-200 border-b-[4px] border-b-green-300' : 'bg-red-50 border-red-200 border-b-[4px] border-b-red-300'}`}>
-                <p className="text-2xl mb-1">{isCorrect ? '✅' : '❌'}</p>
-                {transcript && (
-                  <p className="font-bold text-gray-600 text-sm">Bạn đọc: <span className="italic">&ldquo;{transcript}&rdquo;</span></p>
-                )}
-                {missed.length > 0 && (
-                  <p className="text-red-500 text-xs font-semibold mt-1">Cần luyện: {missed.join(', ')}</p>
-                )}
-              </div>
-              {playbackUrl && (
-                <VoicePlayer src={playbackUrl} />
-              )}
-              <div className="flex gap-3">
-                <button onClick={retry} className={cta('slate', 'flex-1')}>🔄 Thử lại</button>
-                <button onClick={advance} className={cta(isCorrect ? 'green' : colorFamily(btnColor), 'flex-1')}>
-                  {step + 1 >= total ? 'Kết quả →' : 'Tiếp theo →'}
-                </button>
-              </div>
+            <ResultCard correct={!!isCorrect} stars={stars} marks={marks} transcript={transcript} />
+          )}
+          {phase === 'done' && showHint && <HintCard unit="câu" />}
+
+          {phase === 'done' && (
+            <div className="w-full flex flex-col gap-2">
+              {/* Model vs your voice, back to back — the core self-correction loop */}
+              <ModelVoiceRow onPlay={rate => speak(rate)} />
+              {playbackUrl && <VoicePlayer src={playbackUrl} />}
             </div>
           )}
 
+          {phase === 'done' && (
+            <ResultButtons passed={!!isCorrect && !unclear} showHint={showHint} isLast={step + 1 >= total}
+              unit="câu" onRetry={retry} onNext={advance} />
+          )}
         </div>
       </div>
     </div>

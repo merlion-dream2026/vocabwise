@@ -9,8 +9,10 @@ import { speak as speakWord } from '@/lib/speak'
 import WordIcon from '@/components/WordIcon'
 import VoicePlayer from '@/components/VoicePlayer'
 import GameResultScreen from '@/components/GameResultScreen'
-import { GameHeader, cta } from '@/components/ChunkyUI'
+import { GameHeader } from '@/components/ChunkyUI'
 import { matchWords } from '@/lib/pronunciation'
+import { useMicMeter } from '@/lib/useMicMeter'
+import { SLOW_RATE, HINT_AFTER_FAILS, RecordingView, ModelVoiceRow, ResultCard, UnclearCard, HintCard, ResultButtons } from '@/components/SpeakParts'
 
 type Word = {
   word: string; meaning: string; emoji: string
@@ -46,13 +48,6 @@ function pickPhrase(w: Word): { en: string; vi: string } | null {
 }
 
 const MAX_SECS = 8
-const SLOW_RATE = 0.6
-// Auto-stop: once the kid has spoken, stop after this much silence (min recording 0.8s)
-const SILENCE_MS = 1500
-const MIN_REC_MS = 800
-const LOUD_RMS = 0.04
-// After this many wrong tries on one word, play the model slowly and suggest moving on
-const HINT_AFTER_FAILS = 2
 type Phase = 'idle' | 'countdown' | 'recording' | 'processing' | 'done'
 
 export default function SpeakGame({ topic, level, backUrl }: Props) {
@@ -76,11 +71,8 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
   const [micError, setMicError] = useState<string | null>(null)
   const [playbackUrl, setPlaybackUrl] = useState<string | null>(null)
   const [timeLeft, setTimeLeft] = useState(MAX_SECS)
-  const [micLevel, setMicLevel] = useState(0)
   const [fails, setFails] = useState(0)
 
-  const audioCtxRef = useRef<AudioContext | null>(null)
-  const rafRef = useRef<number | null>(null)
   const mediaRecorderRef = useRef<MediaRecorder | null>(null)
   const streamRef = useRef<MediaStream | null>(null)
   const chunksRef = useRef<BlobPart[]>([])
@@ -101,58 +93,16 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
   const targetVi = q.phrase ? q.phrase.vi : q.examples?.[0]?.vi
   const isSentence = speakTarget !== q.word
 
-  const stopMeter = useCallback(() => {
-    if (rafRef.current) { cancelAnimationFrame(rafRef.current); rafRef.current = null }
-    audioCtxRef.current?.close().catch(() => {})
-    audioCtxRef.current = null
-    setMicLevel(0)
-  }, [])
+  // Stop after silence once the kid has spoken (see useMicMeter)
+  const meter = useMicMeter(() => {
+    if (mediaRecorderRef.current?.state === 'recording') { clearTimers(); mediaRecorderRef.current.stop() }
+  })
 
   const stopStream = useCallback(() => {
-    stopMeter()
+    meter.stop()
     streamRef.current?.getTracks().forEach(t => t.stop())
     streamRef.current = null
-  }, [stopMeter])
-
-  // Live mic level (so kids see they're being heard) + stop after silence once they've spoken.
-  // `recordingSince` is null during the countdown — silence then doesn't count.
-  const recordingSinceRef = useRef<number | null>(null)
-  const startMeter = (stream: MediaStream) => {
-    try {
-      const Ctx = window.AudioContext ?? (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext
-      const ctx = new Ctx()
-      const analyser = ctx.createAnalyser()
-      analyser.fftSize = 512
-      ctx.createMediaStreamSource(stream).connect(analyser)
-      audioCtxRef.current = ctx
-      const buf = new Float32Array(analyser.fftSize)
-      let heard = false
-      let lastLoud = 0
-      let lastLvl = 0
-      const tick = () => {
-        analyser.getFloatTimeDomainData(buf)
-        let sum = 0
-        for (const v of buf) sum += v * v
-        const rms = Math.sqrt(sum / buf.length)
-        // 0.1 steps → re-render only when the bar visibly changes, not every frame
-        const lvl = Math.round(Math.min(1, rms / 0.2) * 10) / 10
-        if (lvl !== lastLvl) { lastLvl = lvl; setMicLevel(lvl) }
-        const since = recordingSinceRef.current
-        const now = performance.now()
-        if (since !== null) {
-          if (rms > LOUD_RMS) { heard = true; lastLoud = now }
-          else if (heard && now - lastLoud > SILENCE_MS && now - since > MIN_REC_MS
-            && mediaRecorderRef.current?.state === 'recording') {
-            clearTimers()
-            mediaRecorderRef.current.stop()
-            return
-          }
-        }
-        rafRef.current = requestAnimationFrame(tick)
-      }
-      rafRef.current = requestAnimationFrame(tick)
-    } catch { /* no Web Audio → fixed-length recording as before */ }
-  }
+  }, [meter.stop]) // eslint-disable-line react-hooks/exhaustive-deps
 
   const clearTimers = useCallback(() => {
     if (timerRef.current)    { clearInterval(timerRef.current);   timerRef.current = null }
@@ -222,15 +172,14 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
       }
       mr.start()
       mediaRecorderRef.current = mr
-      recordingSinceRef.current = null
-      startMeter(stream)
+      meter.start(stream)
 
       // Short 1s "get ready" — MediaRecorder warms up during this time
       setPhase('countdown')
       countdownRef.current = setTimeout(() => {
         countdownRef.current = null
         setPhase('recording')
-        recordingSinceRef.current = performance.now()
+        meter.markRecording()
         setTimeLeft(MAX_SECS)
         timerRef.current = setInterval(() => {
           setTimeLeft(prev => {
@@ -414,27 +363,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
           )}
 
           {phase === 'recording' && (
-            <>
-              <button onClick={stopRecording} aria-label="Dừng thu âm"
-                className="w-20 h-20 rounded-full bg-rose-600 shadow-xl flex items-center justify-center text-3xl active:scale-95 transition-all"
-                style={{ boxShadow: `0 0 0 ${4 + micLevel * 18}px rgb(251 113 133 / 0.35)` }}>
-                ⏹️
-              </button>
-              {/* Live mic level — shows the kid the app can hear them */}
-              <div className="flex items-end justify-center gap-1 h-8" aria-hidden>
-                {[0.5, 0.8, 1, 0.8, 0.5].map((f, i) => (
-                  <div key={i} className="w-2 rounded-full bg-rose-400 transition-[height] duration-75"
-                    style={{ height: `${6 + micLevel * 26 * f}px` }} />
-                ))}
-              </div>
-              <p className="text-rose-500 font-bold text-sm">Đang nghe... đọc xong mình tự dừng</p>
-              <div className="w-full">
-                <div className="w-full bg-rose-100 rounded-full h-1.5 overflow-hidden">
-                  <div className="h-full bg-rose-300 rounded-full transition-all duration-1000"
-                    style={{ width: `${(timeLeft / MAX_SECS) * 100}%` }} />
-                </div>
-              </div>
-            </>
+            <RecordingView level={meter.level} timeLeft={timeLeft} maxSecs={MAX_SECS} onStop={stopRecording} />
           )}
 
           {phase === 'processing' && (
@@ -444,77 +373,23 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
             </>
           )}
 
-          {phase === 'done' && unclear && (
-            <div className="bg-amber-50 border-2 border-b-[4px] border-amber-200 border-b-amber-300 rounded-3xl p-4 text-center w-full">
-              <p className="text-2xl mb-1">🔄</p>
-              <p className="font-bold text-amber-700">Chưa nghe rõ tiếng Anh</p>
-              <p className="text-amber-500 text-sm mt-1">Đọc to hơn và gần micro hơn nhé!</p>
-            </div>
-          )}
-
+          {phase === 'done' && unclear && <UnclearCard />}
           {phase === 'done' && !unclear && (
-            <div className={`w-full rounded-3xl p-4 text-center border-2 border-b-[4px] ${isCorrect ? 'bg-green-50 border-green-200 border-b-green-300' : 'bg-orange-50 border-orange-200 border-b-orange-300'}`}>
-              <p className="text-2xl tracking-wider">{isCorrect ? (stars === 3 ? '⭐⭐⭐' : '⭐⭐') : '💪'}</p>
-              <p className={`font-black mt-1 ${isCorrect ? 'text-green-700' : 'text-orange-700'}`}>
-                {isCorrect ? (stars === 3 ? 'Xuất sắc!' : 'Tốt lắm!') : 'Gần được rồi! Thử lại nhé'}
-              </p>
-              {/* Per-word marks: green = heard, orange = AI didn't catch it */}
-              {wordMarks.length > 0 && (
-                <p className="mt-2 flex flex-wrap justify-center gap-1">
-                  {wordMarks.map((m, i) => (
-                    <span key={i} className={`px-1.5 py-0.5 rounded-lg font-bold text-base ${m.ok ? 'bg-green-100 text-green-700' : 'bg-orange-100 text-orange-700 underline decoration-wavy'}`}>
-                      {m.text}
-                    </span>
-                  ))}
-                </p>
-              )}
-              {wordMarks.some(m => !m.ok) && (
-                <p className="text-xs text-orange-500 font-semibold mt-1.5">Từ màu cam: AI chưa nghe rõ</p>
-              )}
-              {transcript && (
-                <p className="text-xs text-gray-400 font-medium mt-1.5">AI nghe được: <span className="italic">&ldquo;{transcript}&rdquo;</span></p>
-              )}
-            </div>
+            <ResultCard correct={!!isCorrect} stars={stars} marks={wordMarks} transcript={transcript} />
           )}
-
-          {phase === 'done' && showHint && (
-            <div className="w-full bg-sky-50 border-2 border-sky-100 rounded-2xl p-3 text-center">
-              <p className="text-sm font-bold text-sky-700">🐢 Nghe chậm rồi đọc theo nhé — hoặc sang từ tiếp, mình ôn lại sau!</p>
-            </div>
-          )}
+          {phase === 'done' && showHint && <HintCard />}
 
           {phase === 'done' && (
             <div className="w-full flex flex-col gap-2">
               {/* Model vs your voice, back to back — the core self-correction loop */}
-              <div className="w-full bg-white border-2 border-slate-100 rounded-2xl px-3 py-2 flex items-center gap-2">
-                <span className="flex-1 text-xs font-bold text-slate-500">🔊 Giọng mẫu</span>
-                <button onClick={() => speak(speakTarget)}
-                  className="bg-rose-50 text-rose-500 font-bold text-sm px-3 py-2 rounded-xl whitespace-nowrap active:scale-95 transition-all">▶ Nghe</button>
-                <button onClick={() => speak(speakTarget, SLOW_RATE)}
-                  className="bg-sky-50 text-sky-600 font-bold text-sm px-3 py-2 rounded-xl whitespace-nowrap active:scale-95 transition-all">🐢 Chậm</button>
-              </div>
+              <ModelVoiceRow onPlay={rate => speak(speakTarget, rate)} />
               {playbackUrl && <VoicePlayer src={playbackUrl} />}
             </div>
           )}
 
           {phase === 'done' && (
-            <div className="mt-auto w-full flex gap-3 pb-2">
-              {isCorrect && !unclear ? (
-                <>
-                  <button onClick={retry} className="flex-1 bg-white border-2 border-gray-100 text-gray-500 font-bold py-3 rounded-2xl whitespace-nowrap active:scale-95 transition-all">🔄 Thử lại</button>
-                  <button onClick={() => advance(1)} className={cta('green', 'flex-1 whitespace-nowrap')}>
-                    {idx + 1 >= total ? 'Kết quả →' : 'Tiếp theo →'}
-                  </button>
-                </>
-              ) : (
-                <>
-                  <button onClick={retry} className={cta(showHint ? 'slate' : 'rose', 'flex-1 whitespace-nowrap')}>🎤 Thử lại</button>
-                  <button onClick={() => advance(1)} className={cta(showHint ? 'green' : 'slate', 'flex-1 whitespace-nowrap')}>
-                    {idx + 1 >= total ? 'Kết quả →' : 'Từ tiếp →'}
-                  </button>
-                </>
-              )}
-            </div>
+            <ResultButtons passed={!!isCorrect && !unclear} showHint={showHint} isLast={idx + 1 >= total}
+              onRetry={retry} onNext={() => advance(1)} />
           )}
         </div>
       </div>
