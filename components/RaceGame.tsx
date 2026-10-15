@@ -14,7 +14,7 @@ import GameResultScreen from '@/components/GameResultScreen'
 import { PromptCard, AnswerGrid } from '@/components/games/ChoiceQuiz'
 import { ArcadeStage, StageHud, TimerDial, StageModal, StageButton, enterFullscreen } from '@/components/games/ArcadeStage'
 import { RaceBackdrop, RaceTrack, RaceCar } from '@/components/games/RaceScene'
-import { mascotCutSrc } from '@/lib/mascots'
+import { useBuddy, BuddyImg } from '@/components/games/Buddy'
 
 type Topic = { id: string; name: string; emoji: string; color: string; words: ArcadeWord[] }
 type Props = { topic: Topic; level: string; backUrl: string }
@@ -28,6 +28,7 @@ export default function RaceGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
   const { recordAnswer, recordActivity, addScore, recordGameResult, flush } = useGameSync()
   const totalSeconds = raceSeconds(level)
+  const buddy = useBuddy() // the child's mascot drives car 1; the other mascot is the rival
 
   const [queue, setQueue] = useState<RocketQuestion[]>(() => buildRaceQuestions(topic.words))
   const [phase, setPhase] = useState<Phase>('ready')
@@ -38,7 +39,7 @@ export default function RaceGame({ topic, level, backUrl }: Props) {
   const [spin, setSpin] = useState(0) // bumps on each wrong answer to replay the spin-out
   const [wrongWords, setWrongWords] = useState<string[]>([])
   const [showConfetti, setShowConfetti] = useState(false)
-  const [run, setRun] = useState(0) // remounts Bubi's car so his drive restarts on "play again"
+  const [run, setRun] = useState(0) // remounts the rival's car so its drive restarts on "play again"
   const missed = useRef(new Set<string>())
   const recorded = useRef(false)
   const timers = useRef(new Set<ReturnType<typeof setTimeout>>())
@@ -51,7 +52,7 @@ export default function RaceGame({ topic, level, backUrl }: Props) {
   }
   useEffect(() => () => { timers.current.forEach(clearTimeout) }, [])
 
-  // Bubi's clock: when it runs out he has crossed the line.
+  // The rival's clock: when it runs out the rival has crossed the line.
   useEffect(() => {
     if (phase !== 'play') return
     const t = setInterval(() => setTimeLeft((s) => s - 1), 1000)
@@ -101,7 +102,7 @@ export default function RaceGame({ topic, level, backUrl }: Props) {
       const c = correct + 1
       setCorrect(c)
       if (c >= RACE_QUESTIONS) {
-        // Freeze Bubi where he is; Rocky's car glides over the line.
+        // Freeze the rival where it is; the child's car glides over the line.
         setPhase('finish')
         later(() => { playSfx('trophy'); setShowConfetti(true) }, 700)
         return
@@ -141,12 +142,12 @@ export default function RaceGame({ topic, level, backUrl }: Props) {
   const rocky = START + (FINISH - START) * Math.min(1, correct / RACE_QUESTIONS)
   const boosting = picked !== null && picked === current?.target.word
   const onTrack = phase !== 'done'
-  const bubiRunning = phase === 'play'
+  const rivalRunning = phase === 'play'
 
   return (
     <ArcadeStage>
       <style>{`
-        @keyframes rcBubi { from { left: ${START}% } to { left: ${FINISH}% } }
+        @keyframes rcRival { from { left: ${START}% } to { left: ${FINISH}% } }
         @keyframes rcWheel { to { transform: rotate(360deg) } }
         @keyframes rcSpin { 0% { transform: rotate(0) } 100% { transform: rotate(-720deg) } }
         @keyframes rcFlame { 0%,100% { transform: scaleX(1) } 50% { transform: scaleX(1.5) } }
@@ -170,8 +171,8 @@ export default function RaceGame({ topic, level, backUrl }: Props) {
           phase === 'finish' ? '[@media(max-height:500px)]:hidden' : ''}`}>
           <RaceTrack>
             <div key={run} className="absolute top-[29%] h-[32%] w-[19%] -translate-x-full"
-              style={{ left: `${START}%`, animation: `rcBubi ${totalSeconds}s linear forwards`, animationPlayState: bubiRunning ? 'running' : 'paused' }}>
-              <div className="rc-bounce h-full w-full"><RaceCar color="#3B82F6" driver="bubi" number={2} className="h-full w-full" /></div>
+              style={{ left: `${START}%`, animation: `rcRival ${totalSeconds}s linear forwards`, animationPlayState: rivalRunning ? 'running' : 'paused' }}>
+              <div className="rc-bounce h-full w-full"><RaceCar color="#3B82F6" driver={buddy.rival} number={2} className="h-full w-full" /></div>
             </div>
             <div className="absolute top-[64%] h-[32%] w-[19%] -translate-x-full transition-[left] duration-700 ease-out" style={{ left: `${rocky}%` }}>
               {boosting && (
@@ -180,7 +181,7 @@ export default function RaceGame({ topic, level, backUrl }: Props) {
                 </svg>
               )}
               <div key={spin} className="h-full w-full" style={spin ? { animation: 'rcSpin .7s ease-out' } : undefined}>
-                <div className="rc-bounce h-full w-full"><RaceCar color="#EF4444" driver="rocky" number={1} className="h-full w-full" /></div>
+                <div className="rc-bounce h-full w-full"><RaceCar color="#EF4444" driver={buddy.me} number={1} className="h-full w-full" /></div>
               </div>
             </div>
           </RaceTrack>
@@ -197,15 +198,14 @@ export default function RaceGame({ topic, level, backUrl }: Props) {
         </>
       )}
 
-      {/* Win: Rocky first on the podium, Bubi second */}
+      {/* Win: the child's buddy first on the podium, the rival second */}
       {phase === 'finish' && (
         <div className="absolute inset-x-0 bottom-[4%] top-[50%] z-10 flex flex-col items-center justify-end gap-2 px-4 text-center portrait:top-[40%]">
-          <p className="st-pop text-[clamp(24px,6vmin,58px)] font-black text-white drop-shadow-[0_3px_0_#14532D]">🏆 Rocky về nhất!</p>
+          <p className="st-pop text-[clamp(24px,6vmin,58px)] font-black text-white drop-shadow-[0_3px_0_#14532D]">🏆 {buddy.name} về nhất!</p>
           <div className="flex items-end gap-1">
-            {[{ who: 'bubi' as const, place: 2, h: 'h-[9vmin]', c: 'bg-slate-300' }, { who: 'rocky' as const, place: 1, h: 'h-[14vmin]', c: 'bg-amber-300' }].map((p) => (
+            {[{ who: buddy.rival, place: 2, h: 'h-[9vmin]', c: 'bg-slate-300' }, { who: buddy.me, place: 1, h: 'h-[14vmin]', c: 'bg-amber-300' }].map((p) => (
               <div key={p.who} className={`flex flex-col items-center ${p.place === 1 ? 'order-2' : 'order-1'}`}>
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={mascotCutSrc(p.who, 'pose-cheer')} alt="" className={`${p.place === 1 ? 'h-[18vmin]' : 'h-[13vmin]'} w-auto`} />
+                <BuddyImg who={p.who} className={`${p.place === 1 ? 'h-[18vmin]' : 'h-[13vmin]'} w-auto`} />
                 <div className={`flex w-[20vmin] items-start justify-center rounded-t-xl border-4 border-b-0 border-white/80 pt-1 text-[5vmin] font-black text-slate-800 ${p.h} ${p.c}`}>{p.place}</div>
               </div>
             ))}
@@ -216,13 +216,13 @@ export default function RaceGame({ topic, level, backUrl }: Props) {
 
       {phase === 'ready' && (
         <StageModal tone="sky">
-          <div className="mx-auto h-16 w-32 [@media(max-height:500px)]:hidden"><RaceCar color="#EF4444" driver="rocky" number={1} className="h-full w-full" /></div>
-          <h2 className="mt-1 text-3xl font-black sm:text-4xl [@media(max-height:500px)]:text-2xl">🏎️ Đua Xe Cùng Bubi</h2>
+          <div className="mx-auto h-16 w-32 [@media(max-height:500px)]:hidden"><RaceCar color="#EF4444" driver={buddy.me} number={1} className="h-full w-full" /></div>
+          <h2 className="mt-1 text-3xl font-black sm:text-4xl [@media(max-height:500px)]:text-2xl">🏎️ Đua Xe Cùng {buddy.rivalName}</h2>
           <p className="mt-2 text-base font-semibold sm:text-lg [@media(max-height:500px)]:mt-1 [@media(max-height:500px)]:text-sm">
-            Mỗi câu trả lời đúng giúp xe của Rocky tăng tốc. Trả lời sai là xe xoay vòng! Về đích trước Bubi nhé!
+            Mỗi câu trả lời đúng giúp xe của {buddy.name} tăng tốc. Trả lời sai là xe xoay vòng! Về đích trước {buddy.rivalName} nhé!
           </p>
           <p className="mx-auto mt-3 w-fit rounded-2xl border-2 border-blue-300 bg-blue-100 px-4 py-2 text-sm font-bold sm:text-base [@media(max-height:500px)]:mt-2">
-            Đúng <b>{RACE_QUESTIONS} câu</b> trước khi Bubi về đích sau 🏁 <b>{totalSeconds} giây</b>
+            Đúng <b>{RACE_QUESTIONS} câu</b> trước khi {buddy.rivalName} về đích sau 🏁 <b>{totalSeconds} giây</b>
           </p>
           <StageButton tone="gold" onClick={() => { playSfx('ready'); enterFullscreen(); setPhase('play') }}>▶ Xuất phát</StageButton>
         </StageModal>
@@ -230,8 +230,8 @@ export default function RaceGame({ topic, level, backUrl }: Props) {
 
       {phase === 'lost' && (
         <StageModal tone="sky" dim={false}>
-          <h2 className="text-3xl font-black">Bubi về đích trước rồi! 🐬</h2>
-          <p className="mt-2 text-lg font-semibold">Rocky mới chạy được {correct}/{RACE_QUESTIONS} chặng.</p>
+          <h2 className="text-3xl font-black">{buddy.rivalName} về đích trước rồi! {buddy.rivalEmoji}</h2>
+          <p className="mt-2 text-lg font-semibold">{buddy.name} mới chạy được {correct}/{RACE_QUESTIONS} chặng.</p>
           <StageButton tone="gold" onClick={() => setPhase('done')}>Xem kết quả</StageButton>
         </StageModal>
       )}
@@ -241,10 +241,10 @@ export default function RaceGame({ topic, level, backUrl }: Props) {
           <div className="flex flex-col items-center">
             <GameResultScreen
               score={scorePct} total={100} xpEarned={correct} stars={starsFor(scorePct)} wrongWords={wrongWords}
-              scoreLine={correct >= RACE_QUESTIONS ? 'Rocky về nhất! 🏆' : `Chạy được ${correct}/${RACE_QUESTIONS} chặng`}
+              scoreLine={correct >= RACE_QUESTIONS ? `${buddy.name} về nhất! 🏆` : `Chạy được ${correct}/${RACE_QUESTIONS} chặng`}
               extra={correct >= RACE_QUESTIONS
-                ? <>Trả lời sai {wrong} lần · về trước Bubi {Math.max(0, timeLeft)} giây<br />Ít lần sai và bỏ xa Bubi để được 3 sao!</>
-                : <>Bubi về đích trước.<br />Thử lại nhanh hơn một chút nhé!</>}
+                ? <>Trả lời sai {wrong} lần · về trước {buddy.rivalName} {Math.max(0, timeLeft)} giây<br />Ít lần sai và bỏ xa {buddy.rivalName} để được 3 sao!</>
+                : <>{buddy.rivalName} về đích trước.<br />Thử lại nhanh hơn một chút nhé!</>}
               onRestart={restart} onExit={exit}
             />
           </div>

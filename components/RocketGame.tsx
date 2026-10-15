@@ -12,7 +12,8 @@ import {
 import Confetti from '@/components/Confetti'
 import GameResultScreen from '@/components/GameResultScreen'
 import { PromptCard, AnswerGrid } from '@/components/games/ChoiceQuiz'
-import { RocketArt, PlanetScene, type RocketStage } from '@/components/games/RocketArt'
+import { useBuddy } from '@/components/games/Buddy'
+import { RocketArt, PlanetScene, pickPlanet, type RocketStage } from '@/components/games/RocketArt'
 import { ArcadeStage, StageHud, TimerDial, StageModal, StageButton, enterFullscreen } from '@/components/games/ArcadeStage'
 import { LaunchSite, SpaceBackdrop, StarField } from '@/components/games/RocketScene'
 
@@ -23,6 +24,7 @@ type Phase = 'ready' | 'play' | 'countdown' | 'launch' | 'space' | 'planet' | 'f
 export default function RocketGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
   const { recordAnswer, recordActivity, addScore, recordGameResult, flush } = useGameSync()
+  const buddy = useBuddy()
   const totalSeconds = rocketSeconds(level)
 
   const [queue, setQueue] = useState<RocketQuestion[]>(() => buildRocketQuestions(topic.words))
@@ -34,6 +36,7 @@ export default function RocketGame({ topic, level, backUrl }: Props) {
   const [count, setCount] = useState(3)
   const [wrongWords, setWrongWords] = useState<string[]>([])
   const [showConfetti, setShowConfetti] = useState(false)
+  const [planet, setPlanet] = useState(() => pickPlanet())
   const missed = useRef(new Set<string>())
   const recorded = useRef(false) // result saved for this flight (on landing / out of fuel, before the result screen)
   const timers = useRef(new Set<ReturnType<typeof setTimeout>>())
@@ -150,6 +153,7 @@ export default function RocketGame({ topic, level, backUrl }: Props) {
     setPicked(null)
     setWrongWords([])
     setShowConfetti(false)
+    setPlanet((p) => pickPlanet(p))
     setPhase('ready')
   }
   const exit = () => router.push(backUrl)
@@ -209,10 +213,10 @@ export default function RocketGame({ topic, level, backUrl }: Props) {
 
       {phase === 'planet' && (
         <>
-          <div className="absolute inset-x-0 bottom-[2%] top-[36%] portrait:top-[40%]"><PlanetScene topicEmoji={topic.emoji} /></div>
+          <div className="absolute inset-x-0 bottom-[2%] top-[36%] portrait:top-[40%]"><PlanetScene topicEmoji={topic.emoji} planet={planet} /></div>
           <div className="absolute inset-x-0 top-[12%] z-10 flex flex-col items-center px-4 text-center portrait:top-[19%]">
-            <p className="st-pop text-[clamp(22px,5.4vmin,52px)] font-black text-white drop-shadow">Đã đáp xuống hành tinh {topic.emoji}!</p>
-            <p className="mt-1 text-[clamp(15px,3.2vmin,30px)] font-bold text-indigo-100">Rocky cắm cờ chủ đề “{topic.name}” lên hành tinh mới 🎉</p>
+            <p className="st-pop text-[clamp(22px,5.4vmin,52px)] font-black text-white drop-shadow">Đã đáp xuống {planet.name}! {topic.emoji}</p>
+            <p className="mt-1 text-[clamp(15px,3.2vmin,30px)] font-bold text-indigo-100">{buddy.name} cắm cờ chủ đề “{topic.name}” lên hành tinh mới 🎉</p>
             <StageButton tone="gold" onClick={() => setPhase('done')}>Xem kết quả ⭐</StageButton>
           </div>
         </>

@@ -25,7 +25,14 @@ const LANE_Y = { wide: [0.33, 0.56, 0.79], tall: [0.4, 0.6, 0.8], short: [0.43, 
 const LANDMARKS = [
   { emoji: '🗼', place: 'Paris' }, { emoji: '🗽', place: 'New York' }, { emoji: '🏯', place: 'Tokyo' },
   { emoji: '🎡', place: 'London' }, { emoji: '🏝️', place: 'Phú Quốc' }, { emoji: '🌉', place: 'San Francisco' },
+  { emoji: '🏞️', place: 'Vịnh Hạ Long' }, { emoji: '🗻', place: 'Núi Phú Sĩ' }, { emoji: '🐨', place: 'Sydney' },
+  { emoji: '🐼', place: 'Thành Đô' }, { emoji: '🌋', place: 'Hawaii' }, { emoji: '🏜️', place: 'Ai Cập' },
 ]
+// One per flight, never the same place twice in a row.
+const pickLandmark = (prev?: (typeof LANDMARKS)[number]) => {
+  const pool = LANDMARKS.filter((l) => l !== prev)
+  return pool[Math.floor(Math.random() * pool.length)]
+}
 const clamp = (v: number, lo: number, hi: number) => Math.max(lo, Math.min(hi, v))
 
 export default function PlaneGame({ topic, level, backUrl }: Props) {
@@ -45,7 +52,7 @@ export default function PlaneGame({ topic, level, backUrl }: Props) {
   const [size, setSize] = useState({ w: 0, h: 0 })
   const [toArrive, setToArrive] = useState(0) // seconds until the clouds reach the plane
   const [showConfetti, setShowConfetti] = useState(false)
-  const [landmark] = useState(() => LANDMARKS[Math.floor(Math.random() * LANDMARKS.length)])
+  const [landmark, setLandmark] = useState(() => pickLandmark())
 
   const stageRef = useRef<HTMLDivElement>(null)
   const laneRef = useRef(1)
@@ -188,6 +195,7 @@ export default function PlaneGame({ topic, level, backUrl }: Props) {
     setHearts(PLANE_HEARTS)
     setWrongWords([])
     setShowConfetti(false)
+    setLandmark((l) => pickLandmark(l))
     setQueue(buildPlaneQuestions(topic.words))
     setResult(null)
     setPhase('ready')

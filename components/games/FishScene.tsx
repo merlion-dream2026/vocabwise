@@ -1,7 +1,7 @@
-import { mascotCutSrc } from '@/lib/mascots'
+import { BuddyImg } from '@/components/games/Buddy'
 
 // Scenery for 🎣 Câu cá: sky band, sea with a wavy surface, sand, swaying seaweed and rising bubbles;
-// plus the cute fish, the boat with Rocky and the hook. Decoration only — the game moves things.
+// plus the cute fish, the boat with the buddy and the hook. Decoration only — the game moves things.
 
 /** Where the water starts (also used by the game to place the boat and the hook). */
 export const SURFACE = { wide: 0.3, tall: 0.34, short: 0.38 } // short = landscape phone (≤500px high)
@@ -74,12 +74,11 @@ export function Fish({ color, flip = false, className = '' }: { color: (typeof F
   )
 }
 
-/** The little boat Rocky fishes from, with the rod tip at its right. */
+/** The little boat the buddy fishes from, with the rod tip at its right. */
 export function Boat({ className = '' }: { className?: string }) {
   return (
     <div className={`relative ${className}`} aria-hidden>
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={mascotCutSrc('rocky', 'pose-cheer')} alt="" className="absolute bottom-[38%] left-[18%] h-[110%] w-auto [@media(max-height:500px)]:h-[90%]" />
+            <BuddyImg shot="pose-cheer" className="absolute bottom-[38%] left-[18%] h-[110%] w-auto [@media(max-height:500px)]:h-[90%]" />
       <svg viewBox="0 0 120 60" className="absolute inset-0 h-full w-full overflow-visible">
         <line x1="80" y1="30" x2="118" y2="-6" stroke="#78350F" strokeWidth="3" strokeLinecap="round" />
         <path d="M4 30 H116 L100 58 H20 Z" fill="#B45309" stroke="#78350F" strokeWidth="3" strokeLinejoin="round" />

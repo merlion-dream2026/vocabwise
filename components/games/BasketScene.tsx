@@ -1,7 +1,7 @@
-import { mascotCutSrc } from '@/lib/mascots'
+import { BuddyImg } from '@/components/games/Buddy'
 
 // Scenery for 🧺 Hứng từ: an orchard (sky, the tree canopy the apples drop from, grass), the word
-// apples and Rocky's basket. Decoration only — the game moves things.
+// apples and the buddy's basket. Decoration only — the game moves things.
 
 export const APPLE_COLORS = ['#EF4444', '#F97316', '#EAB308', '#22C55E', '#EC4899', '#8B5CF6']
 
@@ -40,12 +40,11 @@ export function WordApple({ word, color, state = 'idle' }: { word: string; color
   )
 }
 
-/** The woven basket with Rocky beside it (the catch zone is the basket only). */
+/** The woven basket with the buddy beside it (the catch zone is the basket only). */
 export function Basket({ className = '' }: { className?: string }) {
   return (
     <div className={`relative ${className}`} aria-hidden>
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={mascotCutSrc('rocky', 'pose-cheer')} alt="" className="absolute bottom-0 right-[80%] h-[130%] w-auto" />
+            <BuddyImg shot="pose-cheer" className="absolute bottom-0 right-[80%] h-[130%] w-auto" />
       <svg viewBox="0 0 120 60" className="absolute inset-0 h-full w-full overflow-visible">
         <path d="M4 8 H116 L102 58 H18 Z" fill="#B45309" stroke="#78350F" strokeWidth="3" strokeLinejoin="round" />
         {[18, 30, 42].map((y) => <path key={y} d={`M${8 + (y - 8) * 0.28} ${y} H${112 - (y - 8) * 0.28}`} stroke="#FCD34D" strokeWidth="3" opacity=".7" />)}

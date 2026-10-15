@@ -6,7 +6,7 @@ import { useGameSync } from '@/lib/GameSyncContext'
 import { playSfx, playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import { speak as speakWord } from '@/lib/speak'
 import { starsFor } from '@/lib/topicMastery'
-import { mascotCutSrc } from '@/lib/mascots'
+import { useBuddy, BuddyImg } from '@/components/games/Buddy'
 import {
   buildTreasureQuestions, treasureScorePct, TREASURE_HEARTS, type ArcadeWord, type TreasureQuestion,
 } from '@/lib/arcadeGames'
@@ -24,6 +24,7 @@ type Phase = 'ready' | 'play' | 'between' | 'win' | 'done'
 export default function TreasureGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
   const { recordAnswer, recordActivity, addScore, recordGameResult, flush } = useGameSync()
+  const buddy = useBuddy()
 
   const [queue, setQueue] = useState<TreasureQuestion[]>(() => buildTreasureQuestions(topic.words))
   const [total, setTotal] = useState(() => queue.length)
@@ -73,7 +74,7 @@ export default function TreasureGame({ topic, level, backUrl }: Props) {
       later(() => say(q.target.word), 200)
       if (!missed.current.has(q.target.word)) recordAnswer(level, topic.id, q.target, true)
       const c = correct + 1
-      later(() => { setCorrect(c); playSfx('swoosh') }, 500) // Rocky walks to the next X
+      later(() => { setCorrect(c); playSfx('swoosh') }, 500) // the buddy walks to the next X
       later(() => {
         setPicked(null)
         if (c >= total) { setPhase('win'); playSfx('trophy'); setShowConfetti(true) }
@@ -111,7 +112,7 @@ export default function TreasureGame({ topic, level, backUrl }: Props) {
   }
   const exit = () => router.push(backUrl)
   const heartRow = <>{'❤️'.repeat(hearts)}{'🤍'.repeat(TREASURE_HEARTS - hearts)}</>
-  // Rocky's spot on the trail: one stop per right answer; a topic with fewer words still ends at the chest.
+  // The buddy's spot on the trail: one stop per right answer; a topic with fewer words still ends at the chest.
   const stop = correct >= total ? TRAIL.length - 1 : Math.round((correct * (TRAIL.length - 1)) / Math.max(1, total))
   const [rx, ry] = TRAIL[stop]
   const showRight = picked !== null && (picked === q?.answer || phase === 'between')
@@ -131,12 +132,11 @@ export default function TreasureGame({ topic, level, backUrl }: Props) {
         { label: 'Chặng', value: `${correct}/${total}` },
       ]} />
 
-      {/* The map with Rocky on the trail */}
+      {/* The map with the buddy on the trail */}
       {phase !== 'ready' && phase !== 'done' && (
         <div className="absolute bottom-[5%] left-[12%] top-[6%] w-[44%] portrait:inset-x-[4%] portrait:bottom-auto portrait:top-[19%] portrait:h-[35%] portrait:w-auto [@media(max-height:500px)]:left-[11%] [@media(max-height:500px)]:w-[42%]">
           <TreasureMap reached={stop} open={phase === 'win'} />
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={mascotCutSrc('rocky', 'pose-cheer')} alt=""
+          <BuddyImg
             className="absolute z-[2] h-[22%] w-auto transition-[left,top] duration-700 ease-in-out"
             style={{ left: `${rx}%`, top: `${ry}%`, animation: 'tbWalk .5s ease-in-out infinite' }} />
         </div>
@@ -161,7 +161,7 @@ export default function TreasureGame({ topic, level, backUrl }: Props) {
             ))}
           </div>
           <p className="text-center text-[clamp(13px,2.8vmin,26px)] font-bold text-white drop-shadow">
-            {picked === null ? 'Chọn chữ cái còn thiếu để Rocky đi tiếp!'
+            {picked === null ? `Chọn chữ cái còn thiếu để ${buddy.name} đi tiếp!`
               : picked === q.answer ? `Đúng rồi! ${q.target.word} ✨` : `Ối! Chữ đúng là “${q.answer}”: ${q.target.word}`}
           </p>
           <div className="grid w-full grid-cols-4 place-items-center gap-[2.5vmin]">
@@ -185,7 +185,7 @@ export default function TreasureGame({ topic, level, backUrl }: Props) {
           <p className="text-6xl [@media(max-height:500px)]:hidden" aria-hidden>🗺️</p>
           <h2 className="mt-1 text-3xl font-black sm:text-4xl [@media(max-height:500px)]:text-2xl">Đào Kho Báu</h2>
           <p className="mt-2 text-base font-semibold sm:text-lg [@media(max-height:500px)]:mt-1 [@media(max-height:500px)]:text-sm">
-            Mỗi chặng có một từ bị mất một chữ cái. Chọn đúng chữ còn thiếu để Rocky đi theo bản đồ tới rương báu!
+            Mỗi chặng có một từ bị mất một chữ cái. Chọn đúng chữ còn thiếu để {buddy.name} đi theo bản đồ tới rương báu!
           </p>
           <p className="mx-auto mt-3 w-fit rounded-2xl border-2 border-amber-300 bg-amber-100 px-4 py-2 text-sm font-bold sm:text-base [@media(max-height:500px)]:mt-2">
             {total} chặng · <span className="whitespace-nowrap">{TREASURE_HEARTS} tim {'❤️'.repeat(TREASURE_HEARTS)}</span>

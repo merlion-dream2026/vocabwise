@@ -1,7 +1,7 @@
-import { mascotCutSrc } from '@/lib/mascots'
+import { BuddyImg } from '@/components/games/Buddy'
 
 // Scenery for 🚂 Tàu chở chữ: rolling hills, the rail line and the station platform; the steam
-// engine with Rocky at the controls, the letter wagons and the wooden letter crates. Decoration only.
+// engine with the buddy at the controls, the letter wagons and the wooden letter crates. Decoration only.
 
 /** Where the rails run (fraction of the stage height, from the top). */
 export const RAIL_Y = { wide: 0.5, tall: 0.42, short: 0.52 }
@@ -40,7 +40,7 @@ function Wheels({ count }: { count: number }) {
   )
 }
 
-/** The steam engine, facing right, Rocky in the cab. Width comes from the caller; height follows. */
+/** The steam engine, facing right, the buddy in the cab. Width comes from the caller; height follows. */
 export function Locomotive({ width, steaming = false }: { width: number; steaming?: boolean }) {
   return (
     <div className="relative shrink-0" style={{ width, height: width * 0.78 }} aria-hidden>
@@ -55,8 +55,7 @@ export function Locomotive({ width, steaming = false }: { width: number; steamin
         <rect x="40" y="56" width="58" height="8" fill="#FACC15" />
         <circle cx="94" cy="40" r="4" fill="#FDE047" stroke="#CA8A04" strokeWidth="1.5" />
       </svg>
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={mascotCutSrc('rocky', 'pose-cheer')} alt="" className="absolute bottom-[40%] left-[2%] h-[64%] w-auto" />
+            <BuddyImg shot="pose-cheer" className="absolute bottom-[40%] left-[2%] h-[64%] w-auto" />
       <Wheels count={3} />
     </div>
   )

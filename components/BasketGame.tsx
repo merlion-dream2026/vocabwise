@@ -191,7 +191,7 @@ export default function BasketGame({ topic, level, backUrl }: Props) {
   // Steering: the basket follows the finger / mouse; ← → (or A D) on a keyboard.
   const steer = (clientX: number) => {
     const left = stageRef.current?.getBoundingClientRect().left ?? 0
-    setBasketX(clamp(clientX - left, basketW * 0.85, w - basketW / 2)) // room for Rocky on the left
+    setBasketX(clamp(clientX - left, basketW * 0.85, w - basketW / 2)) // room for the buddy on the left
   }
   useEffect(() => {
     if (!playing) return

@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react'
-import { mascotCutSrc } from '@/lib/mascots'
+import { BuddySvgImage } from '@/components/games/Buddy'
 
 // The rocket of 🚀 Phóng tên lửa as 10 SVG parts in build order (pad first, star last). Only the next
 // part to build shows, as a pulsing dashed outline, so kids guess the rocket's shape as it grows; a
@@ -26,11 +26,11 @@ const PARTS: ReactNode[] = [
   <path key="finR" d="M130 246 L164 300 L164 324 L130 306 Z" fill={RED} stroke="#B91C1C" strokeWidth="2" />,
   // 5 middle body
   <g key="mid"><rect x="70" y="168" width="60" height="70" fill={BODY} stroke={EDGE} strokeWidth="2" /><rect x="70" y="173" width="60" height="6" fill="#3B82F6" /></g>,
-  // 6 window with Rocky inside
+  // 6 window with the child's buddy inside
   <g key="window">
     <defs><clipPath id="rk-porthole"><circle cx="100" cy="208" r="17" /></clipPath></defs>
     <circle cx="100" cy="208" r="17" fill="#BAE6FD" />
-    <image href={mascotCutSrc('rocky', 'pose-cheer')} x="80" y="190" width="40" height="40" clipPath="url(#rk-porthole)" preserveAspectRatio="xMidYMin slice" />
+    <BuddySvgImage x="80" y="190" width="40" height="40" clipPath="url(#rk-porthole)" preserveAspectRatio="xMidYMin slice" />
     <circle cx="100" cy="208" r="18" fill="none" stroke="#1E3A8A" strokeWidth="5" />
   </g>,
   // 7 upper body
@@ -95,8 +95,23 @@ export function RocketArt({ built, stage, className = '' }: { built: number; sta
   )
 }
 
-// Win scene: the rocket parked on a ringed planet named after the topic, Rocky cheering with a flag.
-export function PlanetScene({ topicEmoji }: { topicEmoji: string }) {
+// Planets the rocket can land on — one is picked per flight, never the same twice in a row.
+export type Planet = { name: string; light: string; mid: string; dark: string; ring?: string; deco?: string }
+export const PLANETS: Planet[] = [
+  { name: 'Hành tinh Tím', light: '#C4B5FD', mid: '#8B5CF6', dark: '#5B21B6', ring: '#FDE68A' },
+  { name: 'Sao Hỏa Đỏ', light: '#FDBA74', mid: '#EA580C', dark: '#9A3412' },
+  { name: 'Hành tinh Băng', light: '#F0F9FF', mid: '#7DD3FC', dark: '#0369A1', ring: '#E2E8F0', deco: '❄️' },
+  { name: 'Hành tinh Kẹo Ngọt', light: '#FBCFE8', mid: '#EC4899', dark: '#9D174D', ring: '#FDE047', deco: '🍭' },
+  { name: 'Hành tinh Rừng Xanh', light: '#BBF7D0', mid: '#22C55E', dark: '#166534', deco: '🌳' },
+  { name: 'Hành tinh Vành Vàng', light: '#FEF3C7', mid: '#F59E0B', dark: '#92400E', ring: '#FB923C' },
+]
+export function pickPlanet(prev?: Planet): Planet {
+  const pool = PLANETS.filter((p) => p !== prev)
+  return pool[Math.floor(Math.random() * pool.length)]
+}
+
+// Win scene: the rocket parked on the planet of this flight, the buddy cheering with the topic flag.
+export function PlanetScene({ topicEmoji, planet }: { topicEmoji: string; planet: Planet }) {
   return (
     <div className="relative mx-auto h-full w-full max-w-[min(92vw,120vmin)]">
       <style>{`
@@ -105,28 +120,33 @@ export function PlanetScene({ topicEmoji }: { topicEmoji: string }) {
         .rk-land { animation: rkLand 1.1s cubic-bezier(.3,1.2,.5,1) both }
         .rk-bob { animation: rkBob 1.4s ease-in-out infinite }
       `}</style>
-      <svg viewBox="0 0 300 200" className="absolute inset-x-0 bottom-0 w-full" aria-hidden>
+      {/* One coordinate system for planet, rocket and buddy, so both stand on the surface at any screen size. */}
+      <svg viewBox="0 -45 300 245" preserveAspectRatio="xMidYMax meet" className="absolute inset-0 h-full w-full overflow-visible" aria-hidden>
         <defs>
           <radialGradient id="rk-planet" cx="35%" cy="30%" r="75%">
-            <stop offset="0%" stopColor="#C4B5FD" /><stop offset="60%" stopColor="#8B5CF6" /><stop offset="100%" stopColor="#5B21B6" />
+            <stop offset="0%" stopColor={planet.light} /><stop offset="60%" stopColor={planet.mid} /><stop offset="100%" stopColor={planet.dark} />
           </radialGradient>
         </defs>
-        <ellipse cx="150" cy="150" rx="150" ry="26" fill="none" stroke="#FDE68A" strokeWidth="7" opacity=".85" />
+        {planet.ring && <ellipse cx="150" cy="150" rx="150" ry="26" fill="none" stroke={planet.ring} strokeWidth="7" opacity=".85" />}
         <circle cx="150" cy="190" r="110" fill="url(#rk-planet)" />
-        <circle cx="105" cy="160" r="12" fill="#7C3AED" opacity=".5" /><circle cx="200" cy="175" r="8" fill="#7C3AED" opacity=".5" />
-        <path d="M0 150 A150 26 0 0 0 300 150" fill="none" stroke="#FDE68A" strokeWidth="7" opacity=".85" />
+        <circle cx="105" cy="160" r="12" fill={planet.dark} opacity=".35" /><circle cx="200" cy="175" r="8" fill={planet.dark} opacity=".35" />
+        <circle cx="160" cy="125" r="5" fill={planet.dark} opacity=".3" />
+        {planet.deco && [[70, 125], [238, 135]].map(([x, y]) => <text key={x} x={x} y={y} fontSize="20" textAnchor="middle">{planet.deco}</text>)}
+        {/* rocket on its pad, pad resting on the surface at x≈110 (surface y≈88) */}
+        <g className="rk-land" style={{ transformBox: 'fill-box' }}>
+          <svg x="74" y="-40" width="72" height="130" viewBox="0 0 200 360" overflow="visible">
+            <RocketArt built={10} stage="build" />
+          </svg>
+        </g>
+        {/* the buddy with the topic flag, feet on the surface at x≈190 (surface y≈91) */}
+        <g className="rk-bob">
+          <BuddySvgImage x="158" y="36" width="58" height="58" preserveAspectRatio="xMidYMax meet" />
+          <rect x="216" y="40" width="2.5" height="52" rx="1" fill="#E2E8F0" />
+          <rect x="217" y="40" width="22" height="17" rx="3" fill="#fff" />
+          <text x="228" y="53" fontSize="12" textAnchor="middle">{topicEmoji}</text>
+        </g>
+        {planet.ring && <path d="M0 150 A150 26 0 0 0 300 150" fill="none" stroke={planet.ring} strokeWidth="7" opacity=".85" />}
       </svg>
-      <div className="rk-land absolute bottom-[58%] left-[18%] h-[52%]">
-        <RocketArt built={10} stage="build" className="h-full" />
-      </div>
-      <div className="rk-bob absolute bottom-[54%] right-[14%] flex items-end">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={mascotCutSrc('rocky', 'pose-cheer')} alt="" className="h-24 w-auto" />
-        <div className="-ml-2 mb-6 flex flex-col items-start">
-          <span className="rounded-md bg-white px-1.5 text-2xl shadow">{topicEmoji}</span>
-          <span className="ml-1 h-12 w-1 rounded bg-slate-200" />
-        </div>
-      </div>
     </div>
   )
 }

@@ -17,7 +17,7 @@ export function RaceBackdrop() {
   )
 }
 
-/** The two-lane track. Lane 0 (top) is Bubi's, lane 1 (bottom) is Rocky's. `children` are the cars. */
+/** The two-lane track. Lane 0 (top) is the rival's, lane 1 (bottom) the child's. `children` are the cars. */
 export function RaceTrack({ children }: { children?: React.ReactNode }) {
   return (
     <div className="absolute inset-0">

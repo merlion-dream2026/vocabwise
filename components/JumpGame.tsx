@@ -6,7 +6,7 @@ import { useGameSync } from '@/lib/GameSyncContext'
 import { playSfx, playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import { speak as speakWord } from '@/lib/speak'
 import { starsFor } from '@/lib/topicMastery'
-import { mascotCutSrc } from '@/lib/mascots'
+import { useBuddy, BuddyImg } from '@/components/games/Buddy'
 import {
   buildJumpQuestions, jumpScorePct, speechMatches, JUMP_TRIES, type ArcadeWord,
 } from '@/lib/arcadeGames'
@@ -43,6 +43,7 @@ const LISTEN_MAX_MS = 6000
 export default function JumpGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
   const { recordAnswer, recordActivity, addScore, recordGameResult, flush } = useGameSync()
+  const buddy = useBuddy()
 
   const [words, setWords] = useState<ArcadeWord[]>(() => buildJumpQuestions(topic.words))
   const [index, setIndex] = useState(0)
@@ -168,7 +169,7 @@ export default function JumpGame({ topic, level, backUrl }: Props) {
     else { setPhase('ask'); setNote(`Chưa đúng rồi, thử lại nhé! (còn ${JUMP_TRIES - used} lượt)`) }
   }
 
-  // used = tries the word took (1–3), 0 = not solved (out of tries or skipped). Rocky jumps either
+  // used = tries the word took (1–3), 0 = not solved (out of tries or skipped). the buddy jumps either
   // way so the run keeps going; a miss hears the word first.
   function finish(used: number) {
     setResults((r) => [...r, used])
@@ -223,12 +224,11 @@ export default function JumpGame({ topic, level, backUrl }: Props) {
 
         <StageHud tone="wood" onExit={exit} cards={[{ label: 'Vượt', value: `${solvedCount}/${total}` }]} />
 
-        {/* Rocky */}
+        {/* The child's buddy */}
         {(onCourse || phase === 'win') && w > 0 && (
           <div className="absolute z-[5] -translate-x-1/2" style={{ left: '20%', top: h * groundY - rockyH, height: rockyH,
             animation: phase === 'jump' ? `jsJump ${JUMP_MS}ms ease-in-out` : phase === 'run' ? 'jsRun .35s ease-in-out infinite' : undefined }}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={mascotCutSrc('rocky', rockyShot)} alt="" className="h-full w-auto" />
+            <BuddyImg shot={rockyShot} className="h-full w-auto" />
           </div>
         )}
 
@@ -254,7 +254,7 @@ export default function JumpGame({ topic, level, backUrl }: Props) {
             <p className="min-h-[1.4em] rounded-full bg-black/35 px-3 py-0.5 text-center text-[clamp(13px,2.9vmin,26px)] font-bold text-white">
               {phase === 'listen' ? 'Đang nghe… nói từ tiếng Anh nhé!'
                 : solved === true ? `Giỏi quá! ✨ ${word.word}`
-                : note ?? 'Bấm 🎤 rồi nói từ tiếng Anh để Rocky nhảy qua!'}
+                : note ?? `Bấm 🎤 rồi nói từ tiếng Anh để ${buddy.name} nhảy qua!`}
             </p>
             <div className="flex items-center gap-[3vmin]">
               <button type="button" onClick={() => { buzz(); say(word.word) }} disabled={phase !== 'ask'}
@@ -283,11 +283,10 @@ export default function JumpGame({ topic, level, backUrl }: Props) {
 
       {phase === 'ready' && (
         <StageModal tone="wood">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={mascotCutSrc('rocky', 'pose-jump')} alt="" className="mx-auto h-24 w-auto [@media(max-height:500px)]:hidden" />
+          <BuddyImg shot="pose-jump" className="mx-auto h-24 w-auto [@media(max-height:500px)]:hidden" />
           <h2 className="mt-1 text-3xl font-black sm:text-4xl [@media(max-height:500px)]:text-2xl">🦘 Hô To Để Nhảy</h2>
           <p className="mt-2 text-base font-semibold sm:text-lg [@media(max-height:500px)]:mt-1 [@media(max-height:500px)]:text-sm">
-            Rocky gặp chướng ngại vật! Xem hình và nghĩa, bấm 🎤 rồi nói to từ tiếng Anh để Rocky nhảy qua. Mỗi từ được thử {JUMP_TRIES} lần.
+            {buddy.name} gặp chướng ngại vật! Xem hình và nghĩa, bấm 🎤 rồi nói to từ tiếng Anh để {buddy.name} nhảy qua. Mỗi từ được thử {JUMP_TRIES} lần.
           </p>
           <p className="mx-auto mt-3 w-fit rounded-2xl border-2 border-amber-300 bg-amber-100 px-4 py-2 text-sm font-bold sm:text-base [@media(max-height:500px)]:mt-2">
             {total} chướng ngại · cần micro 🎤

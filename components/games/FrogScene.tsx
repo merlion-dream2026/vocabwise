@@ -1,7 +1,7 @@
-import { mascotCutSrc } from '@/lib/mascots'
+import { BuddyImg } from '@/components/games/Buddy'
 
 // Scenery for 🐸 Ếch nhảy lá sen: a calm pond with drifting ripples, reeds and a few decorative
-// pads; the frog, the word lily pads and the far bank where Rocky waits. Decoration only.
+// pads; the frog, the word lily pads and the far bank where the buddy waits. Decoration only.
 
 // Fixed ripples and decorative pads (no Math.random in render): [left %, top %, size vmin, delay s]
 const RIPPLES: [number, number, number, number][] = [[12, 30, 9, 0], [78, 22, 7, 1.2], [30, 62, 8, 2.1], [86, 70, 10, 0.6], [55, 40, 6, 1.7]]
@@ -64,7 +64,7 @@ export function Frog({ className = '' }: { className?: string }) {
   )
 }
 
-/** Win scene: the far bank with flowers, Rocky cheering and the frog arriving. */
+/** Win scene: the far bank with flowers, the buddy cheering and the frog arriving. */
 export function FarBank({ frogW }: { frogW: number }) {
   return (
     <div className="relative mx-auto flex w-full max-w-[min(92vw,110vmin)] flex-col items-center">
@@ -73,8 +73,7 @@ export function FarBank({ frogW }: { frogW: number }) {
         {['🌸', '🌼', '🌷', '🌻'].map((f, i) => (
           <span key={f} className="absolute text-[6vmin]" style={{ left: `${8 + i * 26}%`, bottom: `${30 + (i % 2) * 10}%` }} aria-hidden>{f}</span>
         ))}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={mascotCutSrc('rocky', 'pose-cheer')} alt="" className="fg-cheer absolute bottom-[24%] right-[18%] h-[78%] w-auto" />
+                <BuddyImg shot="pose-cheer" className="fg-cheer absolute bottom-[24%] right-[18%] h-[78%] w-auto" />
         <div className="fg-arrive absolute bottom-[22%] left-[34%]" style={{ width: frogW }}><Frog className="w-full" /></div>
       </div>
     </div>

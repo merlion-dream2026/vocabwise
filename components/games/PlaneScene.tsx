@@ -1,7 +1,7 @@
-import { mascotCutSrc } from '@/lib/mascots'
+import { BuddyImg } from '@/components/games/Buddy'
 
 // Scenery for ✈️ Máy bay qua mây: a bright sky with slow far clouds and hills scrolling past (so the
-// plane feels like it's flying), the plane with Rocky in the cockpit, and the word clouds.
+// plane feels like it's flying), the plane with the buddy in the cockpit, and the word clouds.
 
 export function FlyingSky() {
   return (
@@ -37,7 +37,7 @@ export function FlyingSky() {
   )
 }
 
-/** A chubby cartoon plane facing right, Rocky waving from the cockpit. */
+/** A chubby cartoon plane facing right, the buddy waving from the cockpit. */
 export function Plane({ className = '' }: { className?: string }) {
   return (
     <div className={`relative ${className}`} aria-hidden>
@@ -56,8 +56,7 @@ export function Plane({ className = '' }: { className?: string }) {
         <circle cx="156" cy="46" r="4" fill="#475569" />
         <ellipse className="ps-prop" cx="158" cy="46" rx="3" ry="20" fill="#94A3B8" opacity=".7" />
       </svg>
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={mascotCutSrc('rocky', 'pose-cheer')} alt="" className="absolute bottom-[42%] left-[58%] h-[60%] w-auto" />
+            <BuddyImg shot="pose-cheer" className="absolute bottom-[42%] left-[58%] h-[60%] w-auto" />
     </div>
   )
 }

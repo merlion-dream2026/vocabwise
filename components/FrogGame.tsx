@@ -281,7 +281,7 @@ export default function FrogGame({ topic, level, backUrl }: Props) {
           </>
         )}
 
-        {/* Win: the far bank, Rocky waiting */}
+        {/* Win: the far bank, the buddy waiting */}
         {phase === 'win' && (
           <div className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-3 px-4 text-center">
             <p className="st-pop text-[clamp(24px,6vmin,58px)] font-black text-white drop-shadow-[0_3px_0_#14532D]">🐸 Về tới bờ rồi!</p>

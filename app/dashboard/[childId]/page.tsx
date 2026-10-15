@@ -36,7 +36,7 @@ const KID_FAQ = [
       },
       {
         q: '🎮 Có những trò chơi gì?',
-        a: 'Level Seeker / Starter / Ranger (20 trò):\n📖 Flashcard từ mới · 👂 Nghe & Chọn · ✅ Đúng / Sai · 🖼️ Nối từ với hình\n🧠 Lật thẻ · 🫧 Bắn bong bóng · 🔡 Điền chữ thiếu\n🔤 Đánh vần · 🔁 Sắp xếp câu · 🎤 Phát âm cùng AI ✨\n🚀 Phóng tên lửa · 🔨 Đập chuột chũi · 🎣 Câu cá · ✈️ Máy bay qua mây · 🐸 Ếch nhảy lá sen · 🏎️ Đua xe cùng Bubi · 🚂 Tàu chở chữ · 🗺️ Đào kho báu · 🧺 Hứng táo chữ · 🦘 Hô to để nhảy\n\nLevel Explorer / Scholar / Master (21 trò khác):\n📖 Flashcard · 👂 Nghe & Chọn · ✅ Đúng / Sai\n❓ Trắc nghiệm · ✏️ Điền từ · 🔀 Ghép định nghĩa · 🎤 Phát âm cùng AI ✨\n⌨️ Gõ từ nhanh 15s · 🔁 Sắp xếp câu · ⚡ Speed Round · ✍️ Đặt câu cùng AI\n🚀 Phóng tên lửa · 🔨 Đập chuột chũi · 🎣 Câu cá · ✈️ Máy bay qua mây · 🐸 Ếch nhảy lá sen · 🏎️ Đua xe cùng Bubi · 🚂 Tàu chở chữ · 🗺️ Đào kho báu · 🧺 Hứng táo chữ · 🦘 Hô to để nhảy',
+        a: 'Level Seeker / Starter / Ranger (20 trò):\n📖 Flashcard từ mới · 👂 Nghe & Chọn · ✅ Đúng / Sai · 🖼️ Nối từ với hình\n🧠 Lật thẻ · 🫧 Bắn bong bóng · 🔡 Điền chữ thiếu\n🔤 Đánh vần · 🔁 Sắp xếp câu · 🎤 Phát âm cùng AI ✨\n🚀 Phóng tên lửa · 🔨 Đập chuột chũi · 🎣 Câu cá · ✈️ Máy bay qua mây · 🐸 Ếch nhảy lá sen · 🏎️ Đua xe tốc độ · 🚂 Tàu chở chữ · 🗺️ Đào kho báu · 🧺 Hứng táo chữ · 🦘 Hô to để nhảy\n\nLevel Explorer / Scholar / Master (21 trò khác):\n📖 Flashcard · 👂 Nghe & Chọn · ✅ Đúng / Sai\n❓ Trắc nghiệm · ✏️ Điền từ · 🔀 Ghép định nghĩa · 🎤 Phát âm cùng AI ✨\n⌨️ Gõ từ nhanh 15s · 🔁 Sắp xếp câu · ⚡ Speed Round · ✍️ Đặt câu cùng AI\n🚀 Phóng tên lửa · 🔨 Đập chuột chũi · 🎣 Câu cá · ✈️ Máy bay qua mây · 🐸 Ếch nhảy lá sen · 🏎️ Đua xe tốc độ · 🚂 Tàu chở chữ · 🗺️ Đào kho báu · 🧺 Hứng táo chữ · 🦘 Hô to để nhảy',
       },
       {
         q: '🏆 Tiêu chí hoàn thành bài học',
