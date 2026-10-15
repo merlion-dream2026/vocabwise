@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import {
   distractors, buildRocketQuestions, rocketScorePct, buildWhackQuestions, nextWhackWord, whackScorePct,
-  buildFishQuestions, fishScorePct, buildPlaneQuestions, planeScorePct, heartScorePct, buildFrogQuestions, frogScorePct, buildRaceQuestions, raceScorePct, RACE_QUESTIONS,
+  buildFishQuestions, fishScorePct, buildPlaneQuestions, planeScorePct, heartScorePct, buildFrogQuestions, frogScorePct, buildRaceQuestions, raceScorePct, RACE_QUESTIONS, buildTrainQuestions, trainLetters, trainScorePct, TRAIN_QUESTIONS,
   ROCKET_PARTS, WHACK_QUESTIONS, FISH_QUESTIONS, PLANE_QUESTIONS, PLANE_LANES, FROG_QUESTIONS, FROG_PADS, type ArcadeWord,
 } from '@/lib/arcadeGames'
 import { starsFor } from '@/lib/topicMastery'
@@ -136,5 +136,33 @@ describe('race', () => {
     expect(raceScorePct(10, 0, 40, 95)).toBe(100)
     expect(starsFor(raceScorePct(10, 2, 30, 95))).toBe(3)
     expect(raceScorePct(7, 1, 0, 95)).toBeLessThan(50)
+  })
+})
+
+describe('train', () => {
+  it('loads only letters, in order', () => {
+    expect(trainLetters('Living room')).toEqual('livingroom'.split(''))
+    expect(trainLetters("T-shirt")).toEqual('tshirt'.split(''))
+  })
+  it('asks 8 words, crates = the letters + 1–2 spares, prefers words of 10 letters or fewer', () => {
+    const list = [...['cat', 'dog', 'bird', 'fish', 'lion', 'frog', 'duck', 'goat', 'horse', 'zebra'].map((x) => W(x)), W('extraordinarily')]
+    const qs = buildTrainQuestions(list)
+    expect(qs).toHaveLength(TRAIN_QUESTIONS)
+    expect(qs.some((q) => q.target.word === 'extraordinarily')).toBe(false)
+    for (const q of qs) {
+      const spare = q.crates.length - q.letters.length
+      expect(spare === 1 || spare === 2).toBe(true)
+      const left = q.crates.map((c) => c.letter)
+      for (const l of q.letters) { expect(left).toContain(l); left.splice(left.indexOf(l), 1) } // every letter has its own crate
+      expect(left.every((l) => !q.letters.includes(l))).toBe(true)
+    }
+  })
+  it('still uses long words when a topic has too few short ones', () => {
+    expect(buildTrainQuestions([W('aa'), W('extraordinarily')])).toHaveLength(2)
+  })
+  it('scores 1 per clean word, −0.2 per slip, floor 0.4', () => {
+    expect(trainScorePct(Array(8).fill(0))).toBe(100)
+    expect(starsFor(trainScorePct([1, 1, 0, 0, 0, 0, 0, 0]))).toBe(3)
+    expect(trainScorePct([9])).toBe(5)
   })
 })
