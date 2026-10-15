@@ -61,7 +61,6 @@ export default function TreasureGame({ topic, level, backUrl }: Props) {
     if (phase !== 'play' || !q) return
     const t = setTimeout(() => say(q.target.word), 400)
     return () => clearTimeout(t)
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [phase, q])
 
   function pick(letter: string) {

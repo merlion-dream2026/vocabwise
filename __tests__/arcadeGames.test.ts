@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import {
   distractors, buildRocketQuestions, rocketScorePct, buildWhackQuestions, nextWhackWord, whackScorePct,
-  buildFishQuestions, fishScorePct, buildPlaneQuestions, planeScorePct, heartScorePct, buildFrogQuestions, frogScorePct, buildRaceQuestions, raceScorePct, RACE_QUESTIONS, buildTrainQuestions, trainLetters, trainScorePct, TRAIN_QUESTIONS, buildTreasureQuestions, treasureGap, TREASURE_QUESTIONS,
+  buildFishQuestions, fishScorePct, buildPlaneQuestions, planeScorePct, heartScorePct, buildFrogQuestions, frogScorePct, buildRaceQuestions, raceScorePct, RACE_QUESTIONS, buildTrainQuestions, trainLetters, trainScorePct, TRAIN_QUESTIONS, buildTreasureQuestions, treasureGap, TREASURE_QUESTIONS, basketScorePct, freeLane,
   ROCKET_PARTS, WHACK_QUESTIONS, FISH_QUESTIONS, PLANE_QUESTIONS, PLANE_LANES, FROG_QUESTIONS, FROG_PADS, type ArcadeWord,
 } from '@/lib/arcadeGames'
 import { starsFor } from '@/lib/topicMastery'
@@ -190,5 +190,16 @@ describe('treasure', () => {
   })
   it('skips words too short to have a gap', () => {
     expect(buildTreasureQuestions([W('ox'), W('cat')])).toHaveLength(1)
+  })
+})
+
+describe('basket', () => {
+  it('re-drops an apple into a lane nobody near the top is using', () => {
+    for (let i = 0; i < 30; i++) expect([1, 3]).toContain(freeLane(4, [0, 2]))
+    expect(freeLane(2, [0, 1], () => 0.99)).toBe(1) // all busy → any lane
+  })
+  it('scores 12.5 per apple minus 15 per heart', () => {
+    expect(basketScorePct(8, 0)).toBe(100)
+    expect(starsFor(basketScorePct(8, 1))).toBe(3)
   })
 })
