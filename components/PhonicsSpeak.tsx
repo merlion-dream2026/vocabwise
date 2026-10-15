@@ -9,6 +9,7 @@ import { speak as speakSentence } from '@/lib/speak'
 import { recordPairGame, flushPhonics } from '@/lib/phonicsSync'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
+import VoicePlayer from '@/components/VoicePlayer'
 import { GameHeader, cta, colorFamily } from '@/components/ChunkyUI'
 
 type PracticeSentence = { en: string; highlight: string[] }
@@ -375,10 +376,7 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
                 <p className="text-amber-500 text-sm mt-1">Đọc to hơn và gần micro hơn nhé!</p>
               </div>
               {playbackUrl && (
-                <button onClick={() => new Audio(playbackUrl).play()}
-                  className={cta('slate', 'flex items-center justify-center gap-2')}>
-                  ▶️ Nghe lại giọng của bạn
-                </button>
+                <VoicePlayer src={playbackUrl} />
               )}
               <div className="flex gap-3">
                 <button onClick={retry} className={cta('rose', 'flex-1')}>🎤 Thử lại</button>
@@ -399,10 +397,7 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
                 )}
               </div>
               {playbackUrl && (
-                <button onClick={() => new Audio(playbackUrl).play()}
-                  className={cta('slate', 'flex items-center justify-center gap-2')}>
-                  ▶️ Nghe lại giọng của bạn
-                </button>
+                <VoicePlayer src={playbackUrl} />
               )}
               <div className="flex gap-3">
                 <button onClick={retry} className={cta('slate', 'flex-1')}>🔄 Thử lại</button>

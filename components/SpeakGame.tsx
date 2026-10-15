@@ -7,6 +7,7 @@ import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
 import { speak as speakWord } from '@/lib/speak'
 import WordIcon from '@/components/WordIcon'
+import VoicePlayer from '@/components/VoicePlayer'
 import GameResultScreen from '@/components/GameResultScreen'
 import { GameHeader, cta } from '@/components/ChunkyUI'
 
@@ -380,10 +381,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
                 <p className="text-amber-500 text-sm mt-1">Đọc to hơn và gần micro hơn nhé!</p>
               </div>
               {playbackUrl && (
-                <button onClick={() => new Audio(playbackUrl).play()}
-                  className="w-full bg-white border-2 border-rose-100 text-rose-500 font-bold text-sm py-2.5 rounded-2xl flex items-center justify-center gap-2 active:scale-95 transition-all">
-                  ▶️ Nghe lại giọng của bạn
-                </button>
+                <VoicePlayer src={playbackUrl} />
               )}
               <div className="flex gap-3">
                 <button onClick={retry} className="flex-1 bg-rose-500 text-white font-bold py-3 rounded-2xl border-b-[4px] border-rose-700 active:translate-y-0.5 active:border-b-2 transition-[transform,border-width]">🎤 Thử lại</button>
@@ -404,14 +402,11 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
                 )}
               </div>
               {playbackUrl && (
-                <button onClick={() => new Audio(playbackUrl).play()}
-                  className="w-full bg-white border-2 border-rose-100 text-rose-500 font-bold text-sm py-2.5 rounded-2xl flex items-center justify-center gap-2 active:scale-95 transition-all">
-                  ▶️ Nghe lại giọng của bạn
-                </button>
+                <VoicePlayer src={playbackUrl} />
               )}
               <div className="flex gap-3">
-                <button onClick={retry} className="flex-1 bg-white border-2 border-gray-100 text-gray-500 font-bold py-3 rounded-2xl active:scale-95 transition-all">🔄 Thử lại</button>
-                <button onClick={() => advance(1)} className={cta('green')}>
+                <button onClick={retry} className="flex-1 bg-white border-2 border-gray-100 text-gray-500 font-bold py-3 rounded-2xl whitespace-nowrap active:scale-95 transition-all">🔄 Thử lại</button>
+                <button onClick={() => advance(1)} className={cta('green', 'flex-1 whitespace-nowrap')}>
                   {idx + 1 >= total ? 'Kết quả →' : 'Tiếp theo →'}
                 </button>
               </div>
