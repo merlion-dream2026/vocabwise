@@ -1,8 +1,8 @@
 import { describe, it, expect } from 'vitest'
 import {
   distractors, buildRocketQuestions, rocketScorePct, buildWhackQuestions, nextWhackWord, whackScorePct,
-  buildFishQuestions, fishScorePct, buildPlaneQuestions, planeScorePct, heartScorePct,
-  ROCKET_PARTS, WHACK_QUESTIONS, FISH_QUESTIONS, PLANE_QUESTIONS, PLANE_LANES, type ArcadeWord,
+  buildFishQuestions, fishScorePct, buildPlaneQuestions, planeScorePct, heartScorePct, buildFrogQuestions, frogScorePct,
+  ROCKET_PARTS, WHACK_QUESTIONS, FISH_QUESTIONS, PLANE_QUESTIONS, PLANE_LANES, FROG_QUESTIONS, FROG_PADS, type ArcadeWord,
 } from '@/lib/arcadeGames'
 import { starsFor } from '@/lib/topicMastery'
 
@@ -103,5 +103,25 @@ describe('plane', () => {
     expect(planeScorePct(10, 1)).toBe(85)
     expect(heartScorePct(1, 10, 3)).toBe(0)
     expect(heartScorePct(3, 0, 0)).toBe(0)
+  })
+})
+
+describe('frog', () => {
+  it('asks 10 words, 3 pads each with exactly one right pad, alternating word / meaning pads', () => {
+    const qs = buildFrogQuestions(words(12))
+    expect(qs).toHaveLength(FROG_QUESTIONS)
+    for (const q of qs) {
+      expect(q.pads).toHaveLength(FROG_PADS)
+      expect(q.pads.filter((p) => p.word === q.target.word)).toHaveLength(1)
+    }
+    expect(qs.map((q) => q.kind).slice(0, 4)).toEqual(['word', 'meaning', 'word', 'meaning'])
+  })
+  it('caps at the number of words a topic has', () => {
+    expect(buildFrogQuestions(words(5))).toHaveLength(5)
+  })
+  it('scores 10 per pad minus 15 per heart; one slip still earns 3 stars', () => {
+    expect(frogScorePct(10, 0)).toBe(100)
+    expect(starsFor(frogScorePct(10, 1))).toBe(3)
+    expect(starsFor(frogScorePct(10, 2))).toBe(2)
   })
 })

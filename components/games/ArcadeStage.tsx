@@ -10,21 +10,23 @@ import { isGameSoundEnabled, setGameSoundEnabled, onGameSoundToggle } from '@/li
 // and start / result panels open as modals over the scene. The game page hides its global
 // GameSoundToggle for these games — the HUD carries its own.
 
-export type StageTone = 'wood' | 'space' | 'sea' | 'sky'
+export type StageTone = 'wood' | 'space' | 'sea' | 'sky' | 'pond'
 
 const CARD: Record<StageTone, string> = {
   wood:  'border-[#5B3A1E] bg-[#FFF8E7] text-[#4A2C14]',
   space: 'border-[#C7CCF0] bg-[#EEF0FD] text-[#1E1B4B]',
   sea:   'border-[#0369A1] bg-[#F0F9FF] text-[#0C4A6E]',
   sky:   'border-[#1D4ED8] bg-[#EFF6FF] text-[#1E3A8A]',
+  pond:  'border-[#15803D] bg-[#F0FDF4] text-[#14532D]',
 }
 const MODAL: Record<StageTone, string> = {
   wood:  'border-amber-300 bg-[#FFF8E7] text-[#4A2C14]',
   space: 'border-white/70 bg-[#EEF0FD] text-[#1E1B4B]',
   sea:   'border-sky-300 bg-[#F0F9FF] text-[#0C4A6E]',
   sky:   'border-blue-300 bg-[#EFF6FF] text-[#1E3A8A]',
+  pond:  'border-green-300 bg-[#F0FDF4] text-[#14532D]',
 }
-const DIAL: Record<StageTone, string> = { wood: '#65A30D', space: '#6366F1', sea: '#0284C7', sky: '#2563EB' }
+const DIAL: Record<StageTone, string> = { wood: '#65A30D', space: '#6366F1', sea: '#0284C7', sky: '#2563EB', pond: '#16A34A' }
 
 // ── Fullscreen (Android / desktop / iPad; iPhone Safari has no element fullscreen → button hidden) ──
 type FsDoc = Document & { webkitFullscreenElement?: Element; webkitExitFullscreen?: () => Promise<void> }

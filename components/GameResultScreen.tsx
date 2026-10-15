@@ -45,14 +45,15 @@ export default function GameResultScreen({
   const stars = starsProp ?? starsFor(pct)
   // Cheer only a decent result — a low score stays silent rather than playing a "you lost" sting.
   useEffect(() => { if (pct >= 60) playSfx('complete') }, []) // eslint-disable-line react-hooks/exhaustive-deps
-  const owl = pct >= 90 ? 'Quá đỉnh! Mình tự hào về bạn lắm!' : pct >= 60 ? 'Khá lắm! Thêm một lần nữa là lên 3 sao!' : 'Không sao, luyện thêm một chút là giỏi ngay!'
+  // The line and pose follow the stars shown (3★ starts above 80%), so a 3★ result is never told to aim for 3★.
+  const owl = stars >= 3 ? 'Quá đỉnh! Mình tự hào về bạn lắm!' : stars === 2 ? 'Khá lắm! Thêm một lần nữa là lên 3 sao!' : 'Không sao, luyện thêm một chút là giỏi ngay!'
 
   return (
     <>
       <HubStyles />
       {/* Mascot is the hero; the grade emoji rides on its corner and the mascot's line sits in a bubble below */}
       <div className="relative mb-3">
-        <Mascot shot={pct >= 90 ? 'pose-cheer' : pct >= 60 ? 'pose-idle' : 'pose-oops'} size={184} blink priority
+        <Mascot shot={stars >= 3 ? 'pose-cheer' : stars === 2 ? 'pose-idle' : 'pose-oops'} size={184} blink priority
           className="mi-pop rounded-3xl shadow-md ring-4 ring-white" />
         <span aria-hidden className="hub-shine absolute -right-4 -top-3 flex h-12 w-12 rotate-12 items-center justify-center rounded-2xl bg-white text-3xl shadow-md ring-2 ring-amber-100">{grade.emoji}</span>
       </div>
