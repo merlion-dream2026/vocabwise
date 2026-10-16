@@ -22,4 +22,4 @@ export function buildPlaneQuestions(words: ArcadeWord[]): PlaneQuestion[] {
   }))
 }
 
-export const planeScorePct = (correct: number, heartsLost: number) => heartScorePct(correct, PLANE_QUESTIONS, heartsLost)
+export const planeScorePct = (correct: number, heartsLost: number, total = PLANE_QUESTIONS) => heartScorePct(correct, total, heartsLost)

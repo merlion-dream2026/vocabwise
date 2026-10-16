@@ -7,7 +7,7 @@ import { playSfx, playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import { speak as speakWord } from '@/lib/speak'
 import { starsFor } from '@/lib/topicMastery'
 import {
-  buildWhackQuestions, nextWhackWord, whackPace, whackScorePct,
+  buildWhackQuestions, nextWhackWord, whackPace, whackScorePct, questionCount,
   WHACK_QUESTIONS, WHACK_HEARTS, WHACK_SECONDS, WHACK_HOLES, type ArcadeWord, type WhackQuestion,
 } from '@/lib/arcadeGames'
 import Confetti from '@/components/Confetti'
@@ -36,6 +36,7 @@ export default function WhackGame({ topic, level, backUrl }: Props) {
 
   const [queue, setQueue] = useState<WhackQuestion[]>(() => buildWhackQuestions(topic.words))
   const [phase, setPhase] = useState<Phase>('ready')
+  const total = questionCount(topic.words, WHACK_QUESTIONS)
   const [round, setRound] = useState(0)              // bumps on every new question — restarts timers/spawner
   const [moles, setMoles] = useState<Mole[]>([])
   const [correct, setCorrect] = useState(0)
@@ -143,13 +144,13 @@ export default function WhackGame({ topic, level, backUrl }: Props) {
   }
 
   // Wrong whack or time-out costs a heart. Out of hearts → game over; a timed-out question goes to
-  // the back of the queue so the game still needs 5 right answers.
+  // the back of the queue so the game still needs every question right.
   function endQuestion(solved: boolean) {
     setPhase('between')
     if (solved) {
       const c = correct + 1
       setCorrect(c)
-      if (c >= WHACK_QUESTIONS) later(win, 1200)
+      if (c >= total) later(win, 1200)
       else later(() => startQuestion(queue.slice(1)), 1200)
       return
     }
@@ -215,7 +216,7 @@ export default function WhackGame({ topic, level, backUrl }: Props) {
   }
 
   const heartsLost = WHACK_HEARTS - hearts
-  const scorePct = whackScorePct(correct, heartsLost)
+  const scorePct = whackScorePct(correct, heartsLost, total)
   const exit = () => router.push(backUrl)
   const playing = phase === 'play' || phase === 'between'
   const byHole = new Map(moles.map((m) => [m.hole, m]))
@@ -249,7 +250,7 @@ export default function WhackGame({ topic, level, backUrl }: Props) {
         <StageHud
           tone="wood" onExit={exit}
           dial={playing ? <TimerDial tone="wood" pct={(Math.max(0, secondsLeft) / WHACK_SECONDS) * 100} seconds={Math.max(0, secondsLeft)} urgent={secondsLeft <= 4} /> : undefined}
-          cards={[{ label: 'Tim', value: <span className="text-[clamp(16px,4vmin,40px)]">{heartRow}</span> }, { label: 'Câu', value: `${Math.min(correct + (playing ? 1 : 0), WHACK_QUESTIONS)}/${WHACK_QUESTIONS}` }]}
+          cards={[{ label: 'Tim', value: <span className="text-[clamp(16px,4vmin,40px)]">{heartRow}</span> }, { label: 'Câu', value: `${Math.min(correct + (playing ? 1 : 0), total)}/${total}` }]}
         />
 
         {/* Wooden sign: the Vietnamese meaning to find (or the win banner) */}
@@ -328,7 +329,7 @@ export default function WhackGame({ topic, level, backUrl }: Props) {
             Bảng gỗ hiện nghĩa tiếng Việt. Hamster và chuột chũi trồi lên cầm từ tiếng Anh. Đập trúng con cầm từ đúng nhé!
           </p>
           <p className="mx-auto mt-3 w-fit rounded-2xl border-2 border-amber-300 [@media(max-height:500px)]:mt-2 bg-amber-100 px-4 py-2 text-sm font-bold sm:text-base">
-            {WHACK_QUESTIONS} câu · {WHACK_SECONDS} giây mỗi câu · <span className="whitespace-nowrap">{WHACK_HEARTS} tim {'❤️'.repeat(WHACK_HEARTS)}</span>
+            {total} câu · {WHACK_SECONDS} giây mỗi câu · <span className="whitespace-nowrap">{WHACK_HEARTS} tim {'❤️'.repeat(WHACK_HEARTS)}</span>
           </p>
           <StageButton tone="wood" onClick={() => { playSfx('ready'); enterFullscreen(); startQuestion(queue) }}>▶ Bắt đầu</StageButton>
         </StageModal>
@@ -340,7 +341,7 @@ export default function WhackGame({ topic, level, backUrl }: Props) {
           <div className="flex flex-col items-center">
             <GameResultScreen
               score={scorePct} total={100} xpEarned={correct} stars={starsFor(scorePct)} wrongWords={wrongWords}
-              scoreLine={correct >= WHACK_QUESTIONS ? `Đập trúng cả ${WHACK_QUESTIONS} câu!` : `Đập trúng ${correct}/${WHACK_QUESTIONS} câu`}
+              scoreLine={correct >= total ? `Đập trúng cả ${total} câu!` : `Đập trúng ${correct}/${total} câu`}
               extra={<>{heartRow} · đập nhầm/hết giờ {heartsLost} lần<br />Giữ đủ tim để được 3 sao!</>}
               onRestart={restart} onExit={exit}
             />

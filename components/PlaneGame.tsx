@@ -7,7 +7,7 @@ import { playSfx, playCorrectSound } from '@/lib/gameSound'
 import { speak as speakWord } from '@/lib/speak'
 import { starsFor } from '@/lib/topicMastery'
 import {
-  buildPlaneQuestions, planeScorePct, planeFlySeconds,
+  buildPlaneQuestions, planeScorePct, planeFlySeconds, questionCount,
   PLANE_QUESTIONS, PLANE_HEARTS, PLANE_LANES, type ArcadeWord, type PlaneQuestion,
 } from '@/lib/arcadeGames'
 import Confetti from '@/components/Confetti'
@@ -41,6 +41,7 @@ export default function PlaneGame({ topic, level, backUrl }: Props) {
   const fly = planeFlySeconds(level)
 
   const [queue, setQueue] = useState<PlaneQuestion[]>(() => buildPlaneQuestions(topic.words))
+  const total = questionCount(topic.words, PLANE_QUESTIONS)
   const [phase, setPhase] = useState<Phase>('ready')
   const [round, setRound] = useState(0)
   const [lane, setLane] = useState(1)
@@ -118,7 +119,7 @@ export default function PlaneGame({ topic, level, backUrl }: Props) {
     return () => clearInterval(t)
   }, [phase, round])
 
-  const scorePct = planeScorePct(correct, PLANE_HEARTS - hearts)
+  const scorePct = planeScorePct(correct, PLANE_HEARTS - hearts, total)
   useEffect(() => {
     if ((phase !== 'win' && phase !== 'done') || recorded.current) return
     recorded.current = true
@@ -231,7 +232,7 @@ export default function PlaneGame({ topic, level, backUrl }: Props) {
           dial={playing ? <TimerDial tone="sky" icon="☁️" pct={(toArrive / fly) * 100} seconds={Math.ceil(toArrive)} urgent={phase === 'play' && toArrive <= 1.5} /> : undefined}
           cards={[
             { label: 'Tim', value: <span className="text-[clamp(16px,4vmin,40px)]">{heartRow}</span> },
-            { label: 'Mây', value: `${correct}/${PLANE_QUESTIONS}` },
+            { label: 'Mây', value: `${correct}/${total}` },
           ]}
         />
 
@@ -295,7 +296,7 @@ export default function PlaneGame({ topic, level, backUrl }: Props) {
             Ba đám mây bay tới, mỗi đám mang một từ tiếng Anh. Chạm hoặc kéo lên/xuống (máy tính: di chuột hoặc phím ↑ ↓) để lái máy bay vào đám mây đúng!
           </p>
           <p className="mx-auto mt-3 w-fit rounded-2xl border-2 border-blue-300 bg-blue-100 px-4 py-2 text-sm font-bold sm:text-base [@media(max-height:500px)]:mt-2">
-            {PLANE_QUESTIONS} đám mây · <span className="whitespace-nowrap">{PLANE_HEARTS} tim {'❤️'.repeat(PLANE_HEARTS)}</span>
+            {total} đám mây · <span className="whitespace-nowrap">{PLANE_HEARTS} tim {'❤️'.repeat(PLANE_HEARTS)}</span>
           </p>
           <StageButton tone="gold" onClick={() => { playSfx('ready'); enterFullscreen(); startQuestion(queue) }}>▶ Cất cánh</StageButton>
         </StageModal>
@@ -307,7 +308,7 @@ export default function PlaneGame({ topic, level, backUrl }: Props) {
           <div className="flex flex-col items-center">
             <GameResultScreen
               score={scorePct} total={100} xpEarned={correct} stars={starsFor(scorePct)} wrongWords={wrongWords}
-              scoreLine={correct >= PLANE_QUESTIONS ? `Bay qua cả ${PLANE_QUESTIONS} đám mây!` : `Bay qua ${correct}/${PLANE_QUESTIONS} đám mây`}
+              scoreLine={correct >= total ? `Bay qua cả ${total} đám mây!` : `Bay qua ${correct}/${total} đám mây`}
               extra={<>{heartRow} · lái nhầm {PLANE_HEARTS - hearts} lần<br />Giữ đủ tim để được 3 sao!</>}
               onRestart={restart} onExit={exit}
             />

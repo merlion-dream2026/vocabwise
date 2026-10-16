@@ -43,4 +43,4 @@ export function nextWhackWord(q: WhackQuestion, popsSinceTarget: number, upWords
 }
 
 /** 12.5 points per right answer, −15 per heart lost. 8/8 with one slip = 85% (3★), two slips = 70% (2★). */
-export const whackScorePct = (correct: number, heartsLost: number) => heartScorePct(correct, WHACK_QUESTIONS, heartsLost)
+export const whackScorePct = (correct: number, heartsLost: number, total = WHACK_QUESTIONS) => heartScorePct(correct, total, heartsLost)

@@ -7,7 +7,7 @@ import { playSfx, playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import { speak as speakWord } from '@/lib/speak'
 import { starsFor } from '@/lib/topicMastery'
 import {
-  buildFishQuestions, fishScorePct, fishSwimSeconds,
+  buildFishQuestions, fishScorePct, fishSwimSeconds, questionCount,
   FISH_QUESTIONS, FISH_HEARTS, FISH_SECONDS, type ArcadeWord, type FishQuestion,
 } from '@/lib/arcadeGames'
 import Confetti from '@/components/Confetti'
@@ -50,6 +50,7 @@ export default function FishingGame({ topic, level, backUrl }: Props) {
   const { recordAnswer, recordActivity, addScore, recordGameResult, flush } = useGameSync()
 
   const [queue, setQueue] = useState<FishQuestion[]>(() => buildFishQuestions(topic.words))
+  const total = questionCount(topic.words, FISH_QUESTIONS)
   const [school, setSchool] = useState<Swimmer[]>([])
   const [phase, setPhase] = useState<Phase>('ready')
   const [round, setRound] = useState(0)
@@ -123,7 +124,7 @@ export default function FishingGame({ topic, level, backUrl }: Props) {
     return () => clearTimeout(t)
   }, [phase, round, current])
 
-  const scorePct = fishScorePct(correct, FISH_HEARTS - hearts)
+  const scorePct = fishScorePct(correct, FISH_HEARTS - hearts, total)
   useEffect(() => {
     if ((phase !== 'win' && phase !== 'done') || recorded.current) return
     recorded.current = true
@@ -213,7 +214,7 @@ export default function FishingGame({ topic, level, backUrl }: Props) {
       setCorrect(c)
       setCaught((cs) => [...cs, { word: fish.word.word, color: fish.color }])
       setPhase('between')
-      later(() => (c >= FISH_QUESTIONS ? win() : startQuestion(queue.slice(1))), UP_MS + 900)
+      later(() => (c >= total ? win() : startQuestion(queue.slice(1))), UP_MS + 900)
     } else {
       // Wrong fish: it wriggles off halfway up and swims on; −1 heart.
       later(() => { playSfx('boing'); setHooked(null); setTease(`${fish.word.word} = ${fish.word.meaning}`) }, UP_MS * 0.55)
@@ -269,7 +270,7 @@ export default function FishingGame({ topic, level, backUrl }: Props) {
           dial={playing ? <TimerDial tone="sea" pct={(Math.max(0, secondsLeft) / FISH_SECONDS) * 100} seconds={Math.max(0, secondsLeft)} urgent={secondsLeft <= 5} /> : undefined}
           cards={[
             { label: 'Tim', value: <span className="text-[clamp(16px,4vmin,40px)]">{heartRow}</span> },
-            { label: 'Cá', value: `${correct}/${FISH_QUESTIONS}` },
+            { label: 'Cá', value: `${correct}/${total}` },
           ]}
         />
 
@@ -361,7 +362,7 @@ export default function FishingGame({ topic, level, backUrl }: Props) {
             Mỗi chú cá mang một từ tiếng Anh. Chạm vào chỗ con cá đúng — thuyền chạy tới và thả câu. Cá bơi liên tục, nhớ canh đúng lúc nhé!
           </p>
           <p className="mx-auto mt-3 w-fit rounded-2xl border-2 border-sky-300 bg-sky-100 px-4 py-2 text-sm font-bold sm:text-base [@media(max-height:500px)]:mt-2">
-            {FISH_QUESTIONS} con cá · {FISH_SECONDS} giây mỗi con · <span className="whitespace-nowrap">{FISH_HEARTS} tim {'❤️'.repeat(FISH_HEARTS)}</span>
+            {total} con cá · {FISH_SECONDS} giây mỗi con · <span className="whitespace-nowrap">{FISH_HEARTS} tim {'❤️'.repeat(FISH_HEARTS)}</span>
           </p>
           <StageButton tone="gold" onClick={() => { playSfx('ready'); enterFullscreen(); startQuestion(queue) }}>▶ Bắt đầu</StageButton>
         </StageModal>
@@ -373,7 +374,7 @@ export default function FishingGame({ topic, level, backUrl }: Props) {
           <div className="flex flex-col items-center">
             <GameResultScreen
               score={scorePct} total={100} xpEarned={correct} stars={starsFor(scorePct)} wrongWords={wrongWords}
-              scoreLine={correct >= FISH_QUESTIONS ? `Câu được cả ${FISH_QUESTIONS} con cá!` : `Câu được ${correct}/${FISH_QUESTIONS} con cá`}
+              scoreLine={correct >= total ? `Câu được cả ${total} con cá!` : `Câu được ${correct}/${total} con cá`}
               extra={<>{heartRow} · câu nhầm/hết giờ {FISH_HEARTS - hearts} lần<br />Giữ đủ tim để được 3 sao!</>}
               onRestart={restart} onExit={exit}
             />

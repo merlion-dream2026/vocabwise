@@ -27,4 +27,4 @@ export function buildFishQuestions(words: ArcadeWord[]): FishQuestion[] {
   }))
 }
 
-export const fishScorePct = (correct: number, heartsLost: number) => heartScorePct(correct, FISH_QUESTIONS, heartsLost)
+export const fishScorePct = (correct: number, heartsLost: number, total = FISH_QUESTIONS) => heartScorePct(correct, total, heartsLost)

@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import {
   distractors, buildRocketQuestions, rocketScorePct, buildWhackQuestions, nextWhackWord, whackScorePct,
-  buildFishQuestions, fishScorePct, buildPlaneQuestions, planeScorePct, heartScorePct, buildFrogQuestions, frogScorePct, buildRaceQuestions, raceScorePct, RACE_QUESTIONS, buildTrainQuestions, trainLetters, trainScorePct, TRAIN_QUESTIONS, buildTreasureQuestions, treasureGap, TREASURE_QUESTIONS, basketScorePct, freeLane, speechMatches, editDistance, jumpScorePct, buildJumpQuestions, JUMP_QUESTIONS,
+  buildFishQuestions, fishScorePct, buildPlaneQuestions, planeScorePct, heartScorePct, buildFrogQuestions, retryFrogQuestion, frogSeconds, FROG_SECONDS, questionCount, frogScorePct, buildRaceQuestions, raceScorePct, RACE_QUESTIONS, buildTrainQuestions, trainLetters, trainScorePct, TRAIN_QUESTIONS, buildTreasureQuestions, treasureGap, TREASURE_QUESTIONS, basketScorePct, freeLane, speechMatches, editDistance, jumpScorePct, buildJumpQuestions, JUMP_QUESTIONS,
   ROCKET_PARTS, WHACK_QUESTIONS, FISH_QUESTIONS, PLANE_QUESTIONS, PLANE_LANES, FROG_QUESTIONS, FROG_PADS, type ArcadeWord,
 } from '@/lib/arcadeGames'
 import { starsFor } from '@/lib/topicMastery'
@@ -123,6 +123,28 @@ describe('frog', () => {
     expect(frogScorePct(10, 0)).toBe(100)
     expect(starsFor(frogScorePct(10, 1))).toBe(3)
     expect(starsFor(frogScorePct(10, 2))).toBe(2)
+  })
+  it('a short topic scores against its real question count', () => {
+    expect(questionCount(words(6), FROG_QUESTIONS)).toBe(6)
+    expect(questionCount(words(12), FROG_QUESTIONS)).toBe(FROG_QUESTIONS)
+    expect(frogScorePct(6, 0, 6)).toBe(100)
+    expect(fishScorePct(5, 0, 5)).toBe(100)
+  })
+  it('gives fewer seconds per pad as the level goes up', () => {
+    const order = ['seeker', 'starter', 'ranger', 'explorer', 'scholar', 'master']
+    const secs = order.map(frogSeconds)
+    expect(secs).toEqual([...secs].sort((a, b) => b - a))
+    expect(Object.keys(FROG_SECONDS).sort()).toEqual([...order].sort())
+    expect(frogSeconds('unknown')).toBeGreaterThan(0)
+  })
+  it('a retried question keeps its pads but moves the right one', () => {
+    const [q] = buildFrogQuestions(words(12))
+    const at = (x: typeof q) => x.pads.findIndex((p) => p.word === x.target.word)
+    for (let k = 0; k < 30; k++) {
+      const r = retryFrogQuestion(q)
+      expect(r.pads.map((p) => p.word).sort()).toEqual(q.pads.map((p) => p.word).sort())
+      expect(at(r)).not.toBe(at(q))
+    }
   })
 })
 

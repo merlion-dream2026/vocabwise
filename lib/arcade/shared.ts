@@ -40,6 +40,9 @@ export function buildChoiceQuestions(words: ArcadeWord[], n: number): ChoiceQues
   }))
 }
 
+/** How many questions a game really asks: its usual count, or fewer when the topic is short. */
+export const questionCount = (words: ArcadeWord[], n: number) => Math.min(n, words.length)
+
 // ─── Scoring ───────────────────────────────────────────────────────────────────────────────────
 /** The rocket rule for any "finish `need` right answers before the clock runs out" game. */
 export function clockScorePct(parts: number, need: number, wrong: number, secondsLeft: number, totalSeconds: number): number {
