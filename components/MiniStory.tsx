@@ -1,6 +1,6 @@
 'use client'
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { PRESS } from '@/components/TopicHub'
+import { TAP } from '@/components/TopicHub'
 
 // Daily topic "Mini Story": a short story using the topic's words (bold in `en`/`vi`), read-aloud
 // (recorded mp3, falling back to browser TTS), a Vietnamese toggle and a fill-the-blank exercise
@@ -170,8 +170,8 @@ export default function MiniStory({ story, words, level, topicId, topicIdx, chil
           <div className="flex flex-shrink-0 items-center gap-2">
             <button
               onClick={handleSpeak}
-              className={`flex items-center gap-1 whitespace-nowrap rounded-full border-b-[3px] px-3 py-1.5 text-xs font-bold ${PRESS} ${
-                speaking ? 'border-red-700 bg-red-500 text-white' : 'border-amber-600 bg-amber-400 text-amber-950'
+              className={`flex items-center gap-1 whitespace-nowrap rounded-full px-3 py-1.5 text-xs font-bold ${TAP} ${
+                speaking ? 'bg-red-500 text-white' : 'bg-amber-400 text-amber-950'
               }`}
             >
               {speaking ? '⏹ Dừng' : '🔊 Nghe'}
@@ -180,7 +180,7 @@ export default function MiniStory({ story, words, level, topicId, topicIdx, chil
               onClick={() => setStoryOpen(v => !v)}
               aria-expanded={storyOpen}
               aria-label={storyOpen ? 'Thu gọn' : 'Mở truyện'}
-              className={`flex h-8 w-8 items-center justify-center rounded-full border-b-[3px] border-purple-300 bg-white text-sm font-bold text-purple-700 ${PRESS}`}
+              className={`flex h-8 w-8 items-center justify-center rounded-full border border-purple-200 bg-white text-sm font-bold text-purple-700 ${TAP}`}
             >
               {storyOpen ? '▴' : '▾'}
             </button>
@@ -208,7 +208,7 @@ export default function MiniStory({ story, words, level, topicId, topicIdx, chil
             {parsedExercise && (
               <button
                 onClick={() => { setShowExercise(true); resetExercise() }}
-                className={`mt-3 w-full rounded-2xl border-b-[4px] border-amber-600 bg-amber-400 px-4 py-3 text-sm font-bold text-amber-950 ${PRESS}`}
+                className={`mt-3 w-full rounded-2xl bg-amber-400 px-4 py-3 text-sm font-bold text-amber-950 ${TAP}`}
               >
                 📝 Làm bài tập
               </button>
@@ -277,8 +277,8 @@ export default function MiniStory({ story, words, level, topicId, topicIdx, chil
               <button
                 onClick={() => setExerciseSubmitted(true)}
                 disabled={!allAnswered}
-                className={`w-full rounded-2xl border-b-[4px] py-3 text-sm font-bold ${PRESS} ${
-                  allAnswered ? 'border-amber-600 bg-amber-400 text-amber-950' : 'border-slate-200 bg-slate-100 text-slate-300'
+                className={`w-full rounded-2xl py-3 text-sm font-bold ${TAP} ${
+                  allAnswered ? 'bg-amber-400 text-amber-950' : 'bg-slate-100 text-slate-300'
                 }`}
               >
                 Kiểm tra ✓
@@ -288,7 +288,7 @@ export default function MiniStory({ story, words, level, topicId, topicIdx, chil
                 <p className="text-center font-black text-base">
                   {exerciseScore === parsedExercise.blanks.length ? '🏆 Hoàn hảo!' : `${exerciseScore}/${parsedExercise.blanks.length} đúng`}
                 </p>
-                <button onClick={resetExercise} className={`w-full rounded-2xl border-b-[4px] border-slate-300 bg-slate-100 py-3 text-sm font-bold text-slate-600 ${PRESS}`}>
+                <button onClick={resetExercise} className={`w-full rounded-2xl bg-slate-100 py-3 text-sm font-bold text-slate-600 ${TAP}`}>
                   🔄 Thử lại
                 </button>
               </div>

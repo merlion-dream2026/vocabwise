@@ -50,6 +50,10 @@ export function tap() {
 // down 4px, so it looks like it sinks into the page without shifting the layout.
 export const PRESS = 'transition-[transform,border-width] duration-100 active:translate-y-0.5 active:border-b-2'
 
+// Buttons that sit inside a card stay flat (no thick bottom edge) and just shrink a little on tap;
+// the 3D treatment is kept for the cards themselves and the big next-step button.
+export const TAP = 'transition-transform duration-100 active:scale-95'
+
 export type JourneyNode = { icon: string; label: string; done: boolean; last?: boolean; sticker?: string | null; optional?: boolean }
 
 // Flashcard → Vòng 1 → Vòng 2 → quà, as small stops on a line: finished stops are emerald ✓, the
@@ -188,7 +192,7 @@ export function TopicHero({
         <div className="rounded-3xl border-2 border-b-[4px] border-amber-300 border-b-amber-500 bg-amber-50 p-4">
           <MasteredHero title="Bạn đã chinh phục chủ đề này! 🎉">
             <button type="button" onClick={() => { tap(); onShare() }}
-              className={`mt-2 rounded-full border-b-[3px] border-amber-600 bg-amber-400 px-3 py-1 text-xs font-bold text-amber-950 ${PRESS}`}>
+              className={`mt-2 rounded-full bg-amber-400 px-3 py-1 text-xs font-bold text-amber-950 ${TAP}`}>
               📤 Chia sẻ
             </button>
           </MasteredHero>
@@ -247,7 +251,7 @@ export function WordPreview({ words, theme, onDetail }: { words: { word: string 
           Từ vựng chủ đề <span className="text-xs font-semibold text-slate-500">· chạm để nghe</span>
         </p>
         <button type="button" onClick={() => { tap(); onDetail() }}
-          className={`flex-shrink-0 rounded-full border-b-[3px] border-black/20 bg-slate-800 px-3 py-1.5 text-xs font-bold text-white ${PRESS}`}>
+          className={`flex-shrink-0 rounded-full bg-slate-800 px-3 py-1.5 text-xs font-bold text-white ${TAP}`}>
           Chi tiết →
         </button>
       </div>

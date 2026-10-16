@@ -1,8 +1,11 @@
 'use client'
 import { useEffect, type ReactNode } from 'react'
+import { createPortal } from 'react-dom'
 
 // Shared bottom sheet for the topic hubs (video list, game picker): dimmed backdrop, rounded top,
 // sticky title row with ✕. Locks page scroll and closes on Escape / backdrop tap while open.
+// Portaled to <body>: the hub cards sit in animated (transformed) wrappers, and inside one of those
+// iOS Safari sizes `position: fixed` to the wrapper instead of the screen (sheet shrunk, no backdrop).
 export default function BottomSheet({ title, titleClass = '', onClose, children, footer }: {
   title: ReactNode; titleClass?: string; onClose: () => void; children: ReactNode; footer?: ReactNode
 }) {
@@ -14,7 +17,7 @@ export default function BottomSheet({ title, titleClass = '', onClose, children,
     return () => { document.body.style.overflow = prev; window.removeEventListener('keydown', onKey) }
   }, [onClose])
 
-  return (
+  return createPortal(
     <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/50" onClick={onClose}>
       <div role="dialog" aria-label={typeof title === 'string' ? title : undefined} onClick={e => e.stopPropagation()}
         className="max-h-[92vh] w-full max-w-xl overflow-y-auto rounded-t-3xl bg-white pb-[max(1rem,env(safe-area-inset-bottom))]">
@@ -26,6 +29,7 @@ export default function BottomSheet({ title, titleClass = '', onClose, children,
         {children}
         {footer}
       </div>
-    </div>
+    </div>,
+    document.body,
   )
 }

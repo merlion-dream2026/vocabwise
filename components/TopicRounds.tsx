@@ -4,7 +4,7 @@ import {
   masteryByRound, nextStep, gameStars, gamePct, roundSpec, bonusGames,
   type MasteryEntry, type GameDef, type RoundMastery,
 } from '@/lib/topicMastery'
-import { tap, Stars } from '@/components/TopicHub'
+import { tap, Stars, TAP } from '@/components/TopicHub'
 import { GameStrip, GamePickerSheet, type GameTile } from '@/components/GamePicker'
 import type { HubTheme } from '@/components/hubTheme'
 
@@ -142,7 +142,7 @@ function RoundCard({ no, label, pill, surface, mastery, theme, tiles, onOpen }: 
         <>
           <GameStrip tiles={tiles} theme={theme} onOpen={onOpen} />
           <button type="button" onClick={() => { tap(); setPicker(true) }}
-            className={`mt-2.5 flex min-h-[44px] w-full items-center justify-center gap-1 rounded-2xl border-2 border-b-[4px] bg-white text-sm font-bold ${theme.card} ${theme.accent}`}>
+            className={`mt-2.5 flex min-h-[44px] w-full items-center justify-center gap-1 rounded-2xl border-2 bg-white text-sm font-bold ${theme.card.split(' ')[0]} ${theme.accent} ${TAP}`}>
             🎯 Chọn trò ({tiles.length}) ›
           </button>
         </>

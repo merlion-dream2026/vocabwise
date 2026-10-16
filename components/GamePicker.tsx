@@ -1,6 +1,6 @@
 'use client'
 import type { ReactNode } from 'react'
-import { tap, Stars } from '@/components/TopicHub'
+import { tap, Stars, TAP } from '@/components/TopicHub'
 import BottomSheet from '@/components/BottomSheet'
 import type { HubTheme } from '@/components/hubTheme'
 import type { RowStatus } from '@/components/TopicRounds'
@@ -23,8 +23,8 @@ export function GameStrip({ tiles, theme, onOpen }: { tiles: GameTile[]; theme: 
     <div className="mt-2.5 flex gap-1.5">
       {tiles.map((t) => (
         <button key={t.id} type="button" onClick={() => { tap(); onOpen(t.id) }} aria-label={`${t.label} · ${t.sub}`}
-          className={`relative flex aspect-square min-w-0 max-w-[48px] flex-1 items-center justify-center rounded-xl border-b-[3px] bg-white text-2xl transition-transform active:scale-95 ${
-            t.status === 'next' ? `border-black/15 ring-4 ${theme.ring}` : 'border-slate-200'
+          className={`relative flex aspect-square min-w-0 max-w-[48px] flex-1 items-center justify-center rounded-xl border bg-white text-2xl ${TAP} ${
+            t.status === 'next' ? `border-transparent ring-4 ${theme.ring}` : 'border-slate-200'
           } ${t.status === 'todo' ? 'opacity-70' : ''}`}>
           {t.emoji}
           <Badge tile={t} />
@@ -43,7 +43,7 @@ export function GamePickerSheet({ title, note, tiles, theme, onOpen, onClose }: 
       <div className="grid grid-cols-3 gap-2 px-4">
         {tiles.map((t) => (
           <button key={t.id} type="button" onClick={() => { tap(); onOpen(t.id) }}
-            className={`relative flex min-h-[112px] flex-col items-center gap-1 rounded-2xl border-2 border-b-[4px] p-2 text-center active:translate-y-0.5 ${
+            className={`relative flex min-h-[112px] flex-col items-center gap-1 rounded-2xl border-2 p-2 text-center ${TAP} ${
               t.status === 'next' ? `${theme.soft} ${theme.card}` : 'border-slate-200 bg-white'
             }`}>
             {t.ai && <span className="absolute right-1.5 top-1.5 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 px-1.5 text-[9px] font-bold text-white">AI</span>}
