@@ -12,6 +12,7 @@ import PageSkeleton from '@/components/PageSkeleton'
 import TopicFaq from '@/components/TopicFaq'
 import MiniStory, { type Story } from '@/components/MiniStory'
 import { useTopicVideos, VideoSheet } from '@/components/TopicVideos'
+import BottomSheet from '@/components/BottomSheet'
 
 const TrophyModal = dynamic(() => import('@/components/TrophyModal'), { ssr: false })
 
@@ -94,6 +95,9 @@ export default function TopicPage() {
   const [showFaq, setShowFaq] = useState(false)
   const [sticker, setSticker] = useState<{ legacy: boolean } | null>(null)
   const [showVideos, setShowVideos] = useState(false)
+  const [showStory, setShowStory] = useState(false)
+  // Flashcard's finish screen nudges to /…/topic#mini-story → open the story sheet straight away.
+  useEffect(() => { if (window.location.hash === '#mini-story') setShowStory(true) }, [])
   const videos = useTopicVideos(`daily/${level}/${topicId}`)
 
   // A video watched to the end ticks the optional 🎬 stop (saved once; the server ORs the flag).
@@ -324,10 +328,8 @@ export default function TopicPage() {
             videoCount={videos.length}
             videoWatched={videoWatched}
             onOpenVideos={() => setShowVideos(true)}
-            story={story && (
-              <MiniStory key={topicId} story={story} words={(topic as { words: { word: string }[] }).words}
-                level={level} topicId={topicId} topicIdx={topicIdx} childId={childId} />
-            )}
+            hasStory={!!story}
+            onOpenStory={() => setShowStory(true)}
           />
         </Rise>
 
@@ -341,6 +343,12 @@ export default function TopicPage() {
           />
         </Rise>
       </div>
+      {showStory && story && (
+        <BottomSheet title="📗 Mini Story" titleClass={theme.title} onClose={() => setShowStory(false)}>
+          <MiniStory key={topicId} story={story} words={(topic as { words: { word: string }[] }).words}
+            level={level} topicId={topicId} topicIdx={topicIdx} childId={childId} embedded />
+        </BottomSheet>
+      )}
       {showVideos && <VideoSheet videos={videos} theme={theme} onClose={() => setShowVideos(false)} onEnded={markVideoWatched} />}
     </div>
   )

@@ -1,7 +1,7 @@
 'use client'
 import { useState, type ReactNode } from 'react'
 import {
-  masteryByRound, nextStep, gameStars, gamePct, roundSpec, bonusGames,
+  masteryByRound, nextStep, gameStars, gamePct, roundSpec, arcadeGames, isArcade,
   type MasteryEntry, type GameDef, type RoundMastery,
 } from '@/lib/topicMastery'
 import { tap, Stars, TAP } from '@/components/TopicHub'
@@ -64,15 +64,15 @@ function flashTile(entry: MasteryEntry, label: string, emoji: string, isNext: bo
 const nextKeyOf = (step: ReturnType<typeof nextStep>) => step.kind === 'flashcard' ? 'flashcard' : step.kind === 'game' ? step.game.key : null
 
 // "① Học từ mới": Flashcard, then meeting the words in context — the topic's videos (optional,
-// ✓ once one is watched to the end) and the Mini Story (`story`, rendered under the list).
-export function LearnCard({ level, entry, games, theme, onOpen, videoCount, videoWatched, onOpenVideos, story }: {
+// ✓ once one is watched to the end) and the Mini Story; both open in a bottom sheet.
+export function LearnCard({ level, entry, games, theme, onOpen, videoCount, videoWatched, onOpenVideos, hasStory, onOpenStory }: {
   level: string; entry: MasteryEntry; games: GameDef[]; theme: HubTheme; onOpen: (gameKey: string) => void
-  videoCount: number; videoWatched: boolean; onOpenVideos: () => void; story?: ReactNode
+  videoCount: number; videoWatched: boolean; onOpenVideos: () => void; hasStory: boolean; onOpenStory: () => void
 }) {
   const flash = flashTile(entry, 'Flashcard từ mới', '📖', nextKeyOf(nextStep(entry, games, level)) === 'flashcard')
   return (
     <section className={`rounded-3xl border-2 border-b-[4px] p-3 ${theme.card} ${theme.tint}`}>
-      <span className={`inline-flex items-center gap-1.5 rounded-full border-b-[3px] py-1 pl-1.5 pr-3 text-sm font-bold ${theme.pill}`}>
+      <span className={`inline-flex items-center gap-1.5 rounded-full py-1 pl-1.5 pr-3 text-sm font-bold ${theme.pill}`}>
         <span className="flex h-5 w-5 items-center justify-center rounded-full bg-black/10 text-[11px]">{entry.flashcard ? '✓' : '📖'}</span>
         Học từ mới
       </span>
@@ -83,8 +83,11 @@ export function LearnCard({ level, entry, games, theme, onOpen, videoCount, vide
             status={videoWatched ? 'done' : 'todo'}
             sub={videoWatched ? 'Đã xem · xem lại nếu thích' : `${videoCount} video · nên xem sau Flashcard`} />
         )}
+        {hasStory && (
+          <HubRow emoji="📗" label="Mini Story" theme={theme} onClick={onOpenStory}
+            status="todo" sub="Nghe, đọc truyện ngắn & làm bài tập" />
+        )}
       </HubList>
-      {story && <div className="mt-3">{story}</div>}
     </section>
   )
 }
@@ -95,24 +98,27 @@ export function RoundCards({ level, entry, games, theme, onOpen }: {
   const [r1, r2] = masteryByRound(entry, level)
   const spec = roundSpec(level)
   const nextKey = nextKeyOf(nextStep(entry, games, level))
-  const tiles = (keys: readonly string[]) => games.filter((g) => keys.includes(g.key)).map((g) => gameRow(entry, g, nextKey))
-  const bonus = bonusGames(games, level).map((g) => gameRow(entry, g, nextKey))
+  // Round strips hold the core games; the arcade ones live in Khu vui chơi (tagged V1/V2) but count too.
+  const core = (keys: readonly string[]) => games.filter((g) => keys.includes(g.key) && !isArcade(g.key)).map((g) => gameRow(entry, g, nextKey))
+  const arcade = arcadeGames(games, level).sort((a, b) => a.round - b.round)
+    .map((g) => ({ ...gameRow(entry, g, nextKey), tag: `V${g.round}`, round: g.round }))
+  const alsoCounts = (round: 1 | 2) => arcade.filter((a) => a.round === round)
   return (
     <div className="space-y-3">
       <RoundCard no={1} label="Vòng 1 · Làm quen" pill={theme.pill} surface="bg-white" mastery={r1} theme={theme}
-        tiles={tiles(spec.r1)} onOpen={onOpen} />
+        tiles={core(spec.r1)} arcade={alsoCounts(1)} onOpen={onOpen} />
       <RoundCard no={2} label="Vòng 2 · Ôn tập" pill={theme.pillSoft} surface="bg-white" mastery={r2} theme={theme}
-        tiles={[flashTile(entry, 'Ôn lại Flashcard', '📚', false), ...tiles(spec.r2)]} onOpen={onOpen} />
-      {bonus.length > 0 && <PlayZoneCard tiles={bonus} theme={theme} onOpen={onOpen} />}
+        tiles={[flashTile(entry, 'Ôn lại Flashcard', '📚', false), ...core(spec.r2)]} arcade={alsoCounts(2)} onOpen={onOpen} />
+      {arcade.length > 0 && <PlayZoneCard tiles={arcade} theme={theme} onOpen={onOpen} />}
     </div>
   )
 }
 
 // One round: header (pill, ⓘ rule + star key, progress), then its games as an emoji strip (tap =
 // play) and a "Chọn trò" button opening the labelled grid. A finished round folds to its header.
-function RoundCard({ no, label, pill, surface, mastery, theme, tiles, onOpen }: {
+function RoundCard({ no, label, pill, surface, mastery, theme, tiles, arcade, onOpen }: {
   no: number; label: string; pill: string; surface: string; mastery: RoundMastery; theme: HubTheme
-  tiles: GameTile[]; onOpen: (gameKey: string) => void
+  tiles: GameTile[]; arcade: GameTile[]; onOpen: (gameKey: string) => void
 }) {
   const passed = mastery.ringDone >= mastery.ringTotal
   const [open, setOpen] = useState(!passed)
@@ -121,7 +127,7 @@ function RoundCard({ no, label, pill, surface, mastery, theme, tiles, onOpen }: 
   return (
     <section id={`round${no}`} className={`scroll-mt-4 rounded-3xl border-2 border-b-[4px] p-3 ${theme.card} ${surface}`}>
       <div className="flex items-center gap-1.5">
-        <span className={`inline-flex items-center gap-1.5 rounded-full border-b-[3px] py-1 pl-1.5 pr-3 text-sm font-bold ${pill}`}>
+        <span className={`inline-flex items-center gap-1.5 rounded-full py-1 pl-1.5 pr-3 text-sm font-bold ${pill}`}>
           <span className="flex h-5 w-5 items-center justify-center rounded-full bg-black/10 text-[11px]">{passed ? '✓' : no}</span>
           {label}
         </span>
@@ -149,7 +155,8 @@ function RoundCard({ no, label, pill, surface, mastery, theme, tiles, onOpen }: 
       )}
       {picker && (
         <GamePickerSheet title={label} tiles={tiles} theme={theme} onOpen={onOpen} onClose={() => setPicker(false)}
-          note={<RoundInfo passed={passed} note={mastery.note} />} />
+          note={<RoundInfo passed={passed} note={mastery.note} />}
+          extra={arcade.length > 0 && { title: `🎮 Cũng tính cho vòng này (Khu vui chơi)`, tiles: arcade }} />
       )}
     </section>
   )
@@ -169,8 +176,8 @@ function RoundInfo({ passed, note }: { passed: boolean; note: string }) {
   )
 }
 
-// Games outside the two rounds (the arcade extras): still starred and fun, just not required for
-// the trophy. One card; the games open in a grid sheet.
+// The 10 arcade games in one card (grid sheet). Each is tagged V1/V2: a 3★ score counts toward that
+// round, but no arcade game is needed — the core games alone can pass both rounds.
 function PlayZoneCard({ tiles, theme, onOpen }: { tiles: GameTile[]; theme: HubTheme; onOpen: (gameKey: string) => void }) {
   const [picker, setPicker] = useState(false)
   const done = tiles.filter((t) => t.status === 'done').length
@@ -181,13 +188,13 @@ function PlayZoneCard({ tiles, theme, onOpen }: { tiles: GameTile[]; theme: HubT
         <span className="text-2xl" aria-hidden>🎮</span>
         <span className="min-w-0 flex-1">
           <span className="block text-sm font-bold text-slate-800">Khu vui chơi</span>
-          <span className="block text-xs font-semibold text-slate-500">{tiles.length} trò · không bắt buộc{done ? ` · xong ${done}/${tiles.length}` : ''}</span>
+          <span className="block text-xs font-semibold text-slate-500">{tiles.length} trò · cũng tính vào Vòng 1, 2{done ? ` · xong ${done}/${tiles.length}` : ''}</span>
           <span className="mt-1 block truncate text-lg leading-none" aria-hidden>{tiles.map((t) => t.emoji).join(' ')}</span>
         </span>
         <span className="flex-shrink-0 text-lg font-bold text-slate-400" aria-hidden>›</span>
       </button>
       {picker && <GamePickerSheet title="🎮 Khu vui chơi" tiles={tiles} theme={theme} onOpen={onOpen} onClose={() => setPicker(false)}
-        note="Trò chơi thêm để gom sao — không bắt buộc để nhận quà." />}
+        note="Mỗi trò đạt ⭐⭐⭐ được tính vào vòng ghi trên thẻ (V1 = Vòng 1, V2 = Vòng 2). Mỗi vòng vẫn cần ít nhất 1 trò học chính." />}
     </>
   )
 }

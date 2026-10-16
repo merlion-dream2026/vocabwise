@@ -87,8 +87,8 @@ export const MODULE_CARDS: ModuleCard[] = [
 // How one Daily topic is learned (lib/topicMastery.ts: 3 Round-1 games (Seeker 2) + 3 Round-2 games at 3★).
 export const JOURNEY = [
   { emoji: '📖', title: 'Flashcard', desc: 'Nghe phát âm, xem hình và câu ví dụ của từng từ mới' },
-  { emoji: '🎯', title: 'Vòng 1 · Làm quen', desc: '6–7 trò chơi nhận diện từ, đạt ⭐⭐⭐ ở 3 trò' },
-  { emoji: '🎤', title: 'Vòng 2 · Vận dụng', desc: 'Sắp xếp câu, phát âm cùng AI… đạt ⭐⭐⭐ ở 3 trò' },
+  { emoji: '🎯', title: 'Vòng 1 · Làm quen', desc: 'Trò chơi nhận diện từ, đạt ⭐⭐⭐ ở 3 trò' },
+  { emoji: '🎤', title: 'Vòng 2 · Vận dụng', desc: 'Sắp xếp câu, phát âm cùng AI, đánh vần… đạt ⭐⭐⭐ ở 3 trò' },
   { emoji: '🏆', title: 'Chinh phục', desc: 'Nhận cúp và sticker của chủ đề, rồi ôn lại đúng lúc với SRS' },
 ] as const
 
@@ -122,7 +122,7 @@ export const FAQ_ITEMS = [
   },
   {
     q: 'Bé học một chủ đề như thế nào?',
-    a: 'Mỗi chủ đề Daily đi theo 4 bước:\n① Flashcard: nghe phát âm, xem hình và câu ví dụ\n② Vòng 1 · Làm quen: 6–7 trò chơi nhận diện từ, cần đạt ⭐⭐⭐ ở 3 trò (Seeker: 2 trò)\n③ Vòng 2 · Vận dụng: 5 trò như Sắp xếp câu, Phát âm cùng AI, Phóng tên lửa, cần đạt ⭐⭐⭐ ở 3 trò\n④ Chinh phục: bé nhận cúp 🏆 và sticker của chủ đề\n\nSao tính theo lần chơi gần nhất, nên bé muốn giữ sao thì phải nhớ từ thật. Sau đó app tự nhắc ôn lại từ sắp quên (SRS).',
+    a: 'Mỗi chủ đề Daily đi theo 4 bước:\n① Flashcard: nghe phát âm, xem hình và câu ví dụ\n② Vòng 1 · Làm quen: các trò nhận diện từ, cần đạt ⭐⭐⭐ ở 3 trò (Seeker: 2 trò)\n③ Vòng 2 · Vận dụng: các trò như Sắp xếp câu, Phát âm cùng AI, Đánh vần, cần đạt ⭐⭐⭐ ở 3 trò\n10 trò ở Khu vui chơi (Phóng tên lửa, Câu cá, Đua xe…) cũng được tính vào Vòng 1 hoặc 2, nhưng mỗi vòng cần ít nhất 1 trò học chính\n④ Chinh phục: bé nhận cúp 🏆 và sticker của chủ đề\n\nSao tính theo lần chơi gần nhất, nên bé muốn giữ sao thì phải nhớ từ thật. Sau đó app tự nhắc ôn lại từ sắp quên (SRS).',
   },
   {
     q: 'Rocky & Bubi là ai? Sticker dùng để làm gì?',

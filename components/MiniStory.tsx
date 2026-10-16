@@ -6,6 +6,8 @@ import { TAP } from '@/components/TopicHub'
 // (recorded mp3, falling back to browser TTS), a Vietnamese toggle and a fill-the-blank exercise
 // built from the bolded words. Includes the one-time Scholar narrator-voice notice.
 // Mount with key={topicId} so all state (and any playing audio) resets per topic.
+// `embedded`: shown inside the hub's bottom sheet — no card chrome, title pill or collapse toggle
+// (the sheet has its own title), the story starts open.
 
 export type Story = { emojis: string[]; en: string; vi: string }
 type StoryBlank = { word: string; options: string[] }
@@ -47,14 +49,14 @@ function renderHighlighted(text: string) {
   )
 }
 
-export default function MiniStory({ story, words, level, topicId, topicIdx, childId }: {
-  story: Story; words: { word: string }[]; level: string; topicId: string; topicIdx: number; childId: string
+export default function MiniStory({ story, words, level, topicId, topicIdx, childId, embedded = false }: {
+  story: Story; words: { word: string }[]; level: string; topicId: string; topicIdx: number; childId: string; embedded?: boolean
 }) {
   const [showVI, setShowVI] = useState(false)
   const [speaking, setSpeaking] = useState(false)
   const [showVoiceNotice, setShowVoiceNotice] = useState(false)
   const [showExercise, setShowExercise] = useState(false)
-  const [storyOpen, setStoryOpen] = useState(false)
+  const [storyOpen, setStoryOpen] = useState(embedded)
   const [exerciseAnswers, setExerciseAnswers] = useState<Record<number, string>>({})
   const [exerciseSubmitted, setExerciseSubmitted] = useState(false)
   const audioRef = useRef<HTMLAudioElement | null>(null)
@@ -146,7 +148,7 @@ export default function MiniStory({ story, words, level, topicId, topicIdx, chil
     <>
       {/* One-time voice-change notice (Scholar onward) */}
       {showVoiceNotice && (
-        <div className="bg-indigo-50 border border-indigo-100 rounded-2xl px-4 py-3 flex items-start gap-2">
+        <div className={`bg-indigo-50 border border-indigo-100 rounded-2xl px-4 py-3 flex items-start gap-2 ${embedded ? 'mx-4 mb-2' : ''}`}>
           <span className="text-lg leading-none flex-shrink-0">🎙️</span>
           <p className="flex-1 text-sm text-indigo-700 leading-relaxed">
             <span className="font-bold">Giọng đọc mới! 😊</span> Giúp bạn làm quen nhiều giọng tiếng Anh khác nhau
@@ -161,12 +163,14 @@ export default function MiniStory({ story, words, level, topicId, topicIdx, chil
         </div>
       )}
 
-      <div ref={storyRef} className="rounded-3xl border-2 border-b-[4px] border-purple-200 border-b-purple-300 bg-purple-50 p-4 scroll-mt-4">
+      <div ref={storyRef} className={embedded ? 'px-4' : 'rounded-3xl border-2 border-b-[4px] border-purple-200 border-b-purple-300 bg-purple-50 p-4 scroll-mt-4'}>
         {/* Story header */}
-        <div className="flex items-center justify-between gap-2">
-          <span className="inline-flex min-w-0 items-center gap-1.5 whitespace-nowrap rounded-full border-b-[3px] border-purple-800 bg-purple-600 px-3 py-1.5 text-sm font-bold text-white">
-            📖 Mini Story
-          </span>
+        <div className={`flex items-center gap-2 ${embedded ? 'justify-end' : 'justify-between'}`}>
+          {!embedded && (
+            <span className="inline-flex min-w-0 items-center gap-1.5 whitespace-nowrap rounded-full bg-purple-600 px-3 py-1.5 text-sm font-bold text-white">
+              📖 Mini Story
+            </span>
+          )}
           <div className="flex flex-shrink-0 items-center gap-2">
             <button
               onClick={handleSpeak}
@@ -176,14 +180,14 @@ export default function MiniStory({ story, words, level, topicId, topicIdx, chil
             >
               {speaking ? '⏹ Dừng' : '🔊 Nghe'}
             </button>
-            <button
+            {!embedded && <button
               onClick={() => setStoryOpen(v => !v)}
               aria-expanded={storyOpen}
               aria-label={storyOpen ? 'Thu gọn' : 'Mở truyện'}
               className={`flex h-8 w-8 items-center justify-center rounded-full border border-purple-200 bg-white text-sm font-bold text-purple-700 ${TAP}`}
             >
               {storyOpen ? '▴' : '▾'}
-            </button>
+            </button>}
           </div>
         </div>
         {!storyOpen && <p className="mt-2 text-xs font-semibold text-purple-700/80">🚀 Nâng trình nghe, đọc hiểu và làm bài tập cùng Mini Story</p>}

@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import {
-  starsFor, gameStars, gamePct, isTopicMastered, topicSteps, masteryByRound, nextStep, bonusGames, memoryScorePct,
+  starsFor, gameStars, gamePct, isTopicMastered, topicSteps, masteryByRound, nextStep, arcadeGames, memoryScorePct,
   type MasteryEntry, type GameDef,
 } from '@/lib/topicMastery'
 
@@ -8,8 +8,9 @@ const at = '2026-10-06T00:00:00Z'
 const r = (p: number) => ({ best: p, last: p, at })
 const E = (x: Partial<MasteryEntry> = {}): MasteryEntry => ({ flashcard: false, games: [], ...x })
 const g = (key: string): GameDef => ({ key, label: key, emoji: '🎮' })
-const EXPLORER_GAMES = ['flashcard', 'listen', 'truefalse', 'quiz', 'gapfill', 'definitionmatch', 'speak', 'typing', 'sentenceorder', 'speedround', 'sentence', 'rocket', 'whack', 'fishing', 'plane'].map(g)
-const STARTER_GAMES = ['flashcard', 'listen', 'truefalse', 'match', 'memory', 'bubble', 'fillletter', 'speak', 'spell', 'sentenceorder', 'rocket', 'whack', 'fishing', 'plane'].map(g)
+const ARCADE = ['rocket', 'whack', 'fishing', 'plane', 'frog', 'race', 'train', 'treasure', 'basket', 'jump']
+const EXPLORER_GAMES = ['flashcard', 'listen', 'truefalse', 'quiz', 'gapfill', 'definitionmatch', 'speak', 'typing', 'sentenceorder', 'speedround', 'sentence', ...ARCADE].map(g)
+const STARTER_GAMES = ['flashcard', 'listen', 'truefalse', 'match', 'memory', 'bubble', 'fillletter', 'speak', 'spell', 'sentenceorder', ...ARCADE].map(g)
 
 describe('starsFor', () => {
   it('maps 0 / ≤50 / ≤80 / >80 to 0–3 stars', () => {
@@ -19,12 +20,23 @@ describe('starsFor', () => {
 
 describe('isTopicMastered (explorer)', () => {
   const full = E({ flashcard: true, modes: { truefalse: r(100), quiz: r(90), gapfill: r(100), speak: r(100), sentenceorder: r(95), speedround: r(100) } })
-  it('counts the arcade games: whack + fishing in round 1, rocket + plane in round 2', () => {
-    const m = { truefalse: r(100), whack: r(90), fishing: r(85), rocket: r(95), plane: r(85), speak: r(100) }
+  it('counts all 10 arcade games: whack/fishing/frog/basket in round 1, the other 6 in round 2', () => {
+    const m = { truefalse: r(100), frog: r(90), basket: r(85), speak: r(100), train: r(95), jump: r(85) }
     expect(isTopicMastered(E({ flashcard: true, modes: m }), 'starter')).toBe(true)
     expect(isTopicMastered(E({ flashcard: true, modes: m }), 'explorer')).toBe(true)
-    // the arcade games alone in round 1 are only 2 of the 3 needed
-    expect(isTopicMastered(E({ flashcard: true, modes: { whack: r(90), fishing: r(90), rocket: r(90), plane: r(90) } }), 'starter')).toBe(false)
+    // a round-2 arcade game doesn't fill round 1
+    expect(isTopicMastered(E({ flashcard: true, modes: { ...m, frog: r(10), race: r(100) } }), 'starter')).toBe(false)
+  })
+
+  it('needs at least 1 core game per round — arcade alone never passes one', () => {
+    const arcadeOnly = { whack: r(90), fishing: r(90), frog: r(90), rocket: r(90), plane: r(90), race: r(90) }
+    const e = E({ flashcard: true, modes: arcadeOnly })
+    expect(isTopicMastered(e, 'starter')).toBe(false)
+    const [r1, r2] = masteryByRound(e, 'starter')
+    expect([r1.ringDone, r2.ringDone]).toEqual([3, 3])              // stops one short of 4/4
+    expect(isTopicMastered(E({ flashcard: true, modes: { ...arcadeOnly, listen: r(100), spell: r(100) } }), 'starter')).toBe(true)
+    // the pre-2026-10 rule allowed at most 2 arcade games per round, so nothing mastered then is lost
+    expect(isTopicMastered(E({ flashcard: true, modes: { truefalse: r(100), whack: r(90), fishing: r(90), speak: r(100), rocket: r(90), plane: r(90) } }), 'starter')).toBe(true)
   })
 
   it('lets Seeker pass round 1 with 2 games (3★ bar unchanged); other levels need 3', () => {
@@ -33,7 +45,7 @@ describe('isTopicMastered (explorer)', () => {
     expect(isTopicMastered(two, 'starter')).toBe(false)
     expect(isTopicMastered(E({ flashcard: true, modes: { truefalse: r(100), listen: r(70), speak: r(100), spell: r(100), sentenceorder: r(100) } }), 'seeker')).toBe(false) // 2★ doesn't count
     expect(topicSteps(E(), 'seeker')).toEqual({ done: 0, total: 6 })
-    expect(masteryByRound(two, 'seeker')[0].note).toContain('2/7')
+    expect(masteryByRound(two, 'seeker')[0].note).toContain('⭐⭐⭐ ở 2 trò')
   })
 
   it('needs flashcard + 3 round-1 + 3 round-2 games at 3 stars', () => {
@@ -48,9 +60,11 @@ describe('isTopicMastered (explorer)', () => {
     expect(isTopicMastered(slipped, 'explorer')).toBe(false)
     expect(gameStars(slipped, 'speak')).toBe(2)
   })
-  it('does not count games from the other round or bonus games', () => {
-    // listen / typing / sentence are bonus for explorer
-    expect(isTopicMastered(E({ flashcard: true, modes: { truefalse: r(100), quiz: r(100), listen: r(100), typing: r(100), sentence: r(100), speak: r(100) } }), 'explorer')).toBe(false)
+  it('counts the former bonus games: listen in round 1, typing + sentence in round 2', () => {
+    expect(isTopicMastered(E({ flashcard: true, modes: { truefalse: r(100), quiz: r(100), listen: r(100), typing: r(100), sentence: r(100), speak: r(100) } }), 'explorer')).toBe(true)
+    // ...but not in the other round
+    expect(isTopicMastered(E({ flashcard: true, modes: { truefalse: r(100), quiz: r(100), typing: r(100), sentence: r(100), speak: r(100), gapfill: r(100) } }), 'explorer')).toBe(true)
+    expect(isTopicMastered(E({ flashcard: true, modes: { truefalse: r(100), typing: r(100), sentence: r(100), speak: r(100), speedround: r(100) } }), 'explorer')).toBe(false)
   })
 })
 
@@ -83,8 +97,8 @@ describe('topicSteps / masteryByRound', () => {
     expect(topicSteps(e, 'explorer')).toEqual({ done: 4, total: 7 })
     const [r1, r2] = masteryByRound(e, 'explorer')
     expect([r1.ringDone, r1.ringTotal, r2.ringDone, r2.ringTotal]).toEqual([4, 4, 1, 4])
-    expect(r1.note).toContain('3/6')
-    expect(r2.note).toContain('3/5')
+    expect(r1.note).toContain('⭐⭐⭐ ở 3 trò')
+    expect(r2.note).toContain('Khu vui chơi')
   })
 })
 
@@ -92,7 +106,7 @@ describe('nextStep', () => {
   it('goes flashcard → closest-to-3-star game → round 2 → done', () => {
     expect(nextStep(E(), EXPLORER_GAMES, 'explorer').kind).toBe('flashcard')
     const first = nextStep(E({ flashcard: true }), EXPLORER_GAMES, 'explorer')
-    expect(first.kind === 'game' && first.game.key).toBe('truefalse')
+    expect(first.kind === 'game' && first.game.key).toBe('listen') // easiest round-1 game, first in the list
     const closest = nextStep(E({ flashcard: true, modes: { truefalse: r(40), quiz: r(70) } }), EXPLORER_GAMES, 'explorer')
     expect(closest.kind === 'game' && closest.game.key).toBe('quiz')
     const r2 = nextStep(E({ flashcard: true, modes: { truefalse: r(100), quiz: r(100), gapfill: r(100) } }), EXPLORER_GAMES, 'explorer')
@@ -100,12 +114,17 @@ describe('nextStep', () => {
     const done = E({ flashcard: true, modes: { truefalse: r(100), quiz: r(100), gapfill: r(100), speak: r(100), speedround: r(100), sentenceorder: r(100) } })
     expect(nextStep(done, EXPLORER_GAMES, 'explorer').kind).toBe('done')
   })
+  it('never suggests an arcade game, even the one closest to 3 stars', () => {
+    const s = nextStep(E({ flashcard: true, modes: { whack: r(80), truefalse: r(10) } }), STARTER_GAMES, 'starter')
+    expect(s.kind === 'game' && s.game.key).toBe('truefalse')
+  })
 })
 
-describe('bonusGames', () => {
-  it('lists the level games outside both rounds', () => {
-    expect(bonusGames(EXPLORER_GAMES, 'explorer').map((x) => x.key)).toEqual(['listen', 'typing', 'sentence'])
-    expect(bonusGames(STARTER_GAMES, 'starter').map((x) => x.key)).toEqual(['bubble'])
+describe('arcadeGames', () => {
+  it('lists all 10 arcade games tagged with their round', () => {
+    const tags = Object.fromEntries(arcadeGames(STARTER_GAMES, 'starter').map((x) => [x.key, x.round]))
+    expect(tags).toEqual({ rocket: 2, whack: 1, fishing: 1, plane: 2, frog: 1, race: 2, train: 2, treasure: 2, basket: 1, jump: 2 })
+    expect(arcadeGames(EXPLORER_GAMES, 'explorer')).toHaveLength(10)
   })
 })
 

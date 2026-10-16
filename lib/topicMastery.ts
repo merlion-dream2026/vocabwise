@@ -31,22 +31,29 @@ export function starsFor(pct: number): number {
   return 0
 }
 
-// Which games count toward each round, mirroring AXANH's 4 + 3 layout (AXANH: Đúng/Sai, Trắc
-// nghiệm, Ghép định nghĩa, Điền từ | Sắp xếp câu, Phát âm, Luyện tập tổng hợp). Games a level
-// offers that are in neither list are "bonus": played and starred, but not required. Daily
-// round 1 also has Lật thẻ. The arcade games count too — a good arcade score needs the words known:
-// round 1 gets the gentler two (Đập chuột, Câu cá: Vietnamese meaning + emoji, roomy timers), round 2
-// the ones that need the words down pat (Phóng tên lửa: listening + word → meaning on one fuel clock;
-// Máy bay: recognise before the clouds arrive). Both rounds need 3 games at 3★.
+// Which games count toward each round. Every game a level offers belongs to one round (started
+// from AXANH's 4 + 3 layout; since 2026-10 the Daily rule differs from AXANH's). Round 1 = recognise
+// (see/hear a word, pick it); round 2 = recall fast, spell, say or write it. The 10 arcade games
+// (shown in "Khu vui chơi") count too, split by the same skill line: round 1 gets the pick-the-answer
+// ones (Đập chuột, Câu cá, Ếch nhảy: listening, Hứng táo), round 2 the timed recall + production ones
+// (Phóng tên lửa, Máy bay, Đua xe, Tàu chở chữ: spelling, Đào kho báu: missing letter, Hô to: speaking).
+// Guard: a round also needs at least 1 of its core (non-arcade) games at 3★, so arcade alone never
+// passes it. Rounds need 3 games at 3★ (Seeker round 1: 2).
 export type RoundSpec = { r1: readonly string[]; r2: readonly string[] }
+export const ARCADE_R1 = ['whack', 'fishing', 'frog', 'basket'] as const
+export const ARCADE_R2 = ['rocket', 'plane', 'race', 'train', 'treasure', 'jump'] as const
+const ARCADE: readonly string[] = [...ARCADE_R1, ...ARCADE_R2]
+export const isArcade = (key: string) => ARCADE.includes(key)
 const STARTER_SPEC: RoundSpec = {            // Seeker / Starter / Ranger
-  r1: ['truefalse', 'listen', 'match', 'memory', 'fillletter', 'whack', 'fishing'],
-  r2: ['sentenceorder', 'speak', 'spell', 'rocket', 'plane'],
+  r1: ['truefalse', 'listen', 'match', 'memory', 'fillletter', 'bubble', ...ARCADE_R1],
+  r2: ['sentenceorder', 'speak', 'spell', ...ARCADE_R2],
 }
 const EXPLORER_SPEC: RoundSpec = {           // Explorer / Scholar / Master
-  r1: ['truefalse', 'quiz', 'definitionmatch', 'gapfill', 'whack', 'fishing'],
-  r2: ['sentenceorder', 'speak', 'speedround', 'rocket', 'plane'],
+  r1: ['truefalse', 'listen', 'quiz', 'definitionmatch', 'gapfill', ...ARCADE_R1],
+  r2: ['sentenceorder', 'speak', 'speedround', 'typing', 'sentence', ...ARCADE_R2],
 }
+/** A round's core (non-arcade) game needed at 3★ before it can pass. */
+export const CORE_NEEDED = 1
 export const ROUND1_NEEDED = 3
 export const ROUND2_NEEDED = 3
 
@@ -63,10 +70,10 @@ export function roundSpec(level: string): RoundSpec {
 // the child actually has — a child can only play their own level's games, so at most one passes.
 const specsFor = (level?: string) => (level ? [roundSpec(level)] : [STARTER_SPEC, EXPLORER_SPEC])
 
-/** Games of this level that count toward neither round (shown as "Khu vui chơi"). */
-export function bonusGames(games: GameDef[], level: string): GameDef[] {
+/** The level's arcade games (all shown in "Khu vui chơi"), each tagged with the round it counts for. */
+export function arcadeGames(games: GameDef[], level: string): (GameDef & { round: 1 | 2 })[] {
   const s = roundSpec(level)
-  return games.filter((g) => g.key !== 'flashcard' && !s.r1.includes(g.key) && !s.r2.includes(g.key))
+  return games.filter((g) => isArcade(g.key)).map((g) => ({ ...g, round: s.r1.includes(g.key) ? 1 : 2 }))
 }
 
 /** Live star count (0-3) for one game: latest attempt; old perfect-only data counts as 3★. */
@@ -85,18 +92,25 @@ export function gamePct(entry: MasteryEntry, key: string): number | undefined {
 
 const count3 = (entry: MasteryEntry, keys: readonly string[]) => keys.filter((k) => gameStars(entry, k) === 3).length
 
+/** 3★ games that count toward a round, capped at `need`; without a core game at 3★ it stops one
+ *  short, so the round (and its ring) can only complete once a core game is in. */
+function roundCount(entry: MasteryEntry, keys: readonly string[], need: number): number {
+  const core = count3(entry, keys.filter((k) => !isArcade(k)))
+  return Math.min(count3(entry, keys), core >= CORE_NEEDED ? need : need - 1)
+}
+
 export function isTopicMastered(entry: MasteryEntry, level?: string): boolean {
   if (entry.legacyDone) return true
   // Completed under the old rule and not replayed since: keep the trophy.
   if (!entry.modes && entry.flashcard && entry.games.length >= 3) return true
   const need = roundNeeds(level)
-  return entry.flashcard && specsFor(level).some((s) => count3(entry, s.r1) >= need.r1 && count3(entry, s.r2) >= need.r2)
+  return entry.flashcard && specsFor(level).some((s) => roundCount(entry, s.r1, need.r1) >= need.r1 && roundCount(entry, s.r2, need.r2) >= need.r2)
 }
 
 /** Steps toward the trophy: flashcard + the Round-1 games + the Round-2 games needed, each at its cap. */
 export function topicSteps(entry: MasteryEntry, level?: string): { done: number; total: number } {
   const need = roundNeeds(level)
-  const games = Math.max(...specsFor(level).map((s) => Math.min(count3(entry, s.r1), need.r1) + Math.min(count3(entry, s.r2), need.r2)))
+  const games = Math.max(...specsFor(level).map((s) => roundCount(entry, s.r1, need.r1) + roundCount(entry, s.r2, need.r2)))
   return { done: (entry.flashcard ? 1 : 0) + games, total: 1 + need.r1 + need.r2 }
 }
 
@@ -108,12 +122,12 @@ export function masteryByRound(entry: MasteryEntry, level: string): [RoundMaster
   const flash = entry.flashcard ? 1 : 0
   return [
     {
-      round: 1, ringDone: flash + Math.min(count3(entry, s.r1), need.r1), ringTotal: 1 + need.r1,
-      note: `Qua vòng khi: học xong Flashcard và đạt ⭐⭐⭐ ở ${need.r1}/${s.r1.length} bài`,
+      round: 1, ringDone: flash + roundCount(entry, s.r1, need.r1), ringTotal: 1 + need.r1,
+      note: `Qua vòng khi: học xong Flashcard và đạt ⭐⭐⭐ ở ${need.r1} trò của vòng (có ít nhất 1 trò học chính). Trò V1 ở Khu vui chơi cũng được tính.`,
     },
     {
-      round: 2, ringDone: flash + Math.min(count3(entry, s.r2), need.r2), ringTotal: 1 + need.r2,
-      note: `Qua vòng khi: ôn xong Flashcard và đạt ⭐⭐⭐ ở ${need.r2}/${s.r2.length} bài`,
+      round: 2, ringDone: flash + roundCount(entry, s.r2, need.r2), ringTotal: 1 + need.r2,
+      note: `Qua vòng khi: ôn xong Flashcard và đạt ⭐⭐⭐ ở ${need.r2} trò của vòng (có ít nhất 1 trò học chính). Trò V2 ở Khu vui chơi cũng được tính.`,
     },
   ]
 }
@@ -124,15 +138,16 @@ export type NextStep =
   | { kind: 'done' }
 
 // "Next best action": flashcard first, then whichever unfinished game in the current round is
-// closest to 3★ (one more try most likely pays off), then Round 2, finally "done".
+// closest to 3★ (one more try most likely pays off), then Round 2, finally "done". Only core games
+// are suggested; the arcade ones (Khu vui chơi) count when played but are the child's own pick.
 export function nextStep(entry: MasteryEntry, games: GameDef[], level: string): NextStep {
   if (!entry.flashcard) return { kind: 'flashcard' }
   const s = roundSpec(level)
   const pick = (keys: readonly string[], needed: number, round: 1 | 2): NextStep | null => {
-    if (count3(entry, keys) >= needed) return null
+    if (roundCount(entry, keys, needed) >= needed) return null
     let best: { game: GameDef; stars: number } | null = null
     for (const game of games) {
-      if (!keys.includes(game.key)) continue
+      if (!keys.includes(game.key) || isArcade(game.key)) continue
       const stars = gameStars(entry, game.key)
       if (stars < 3 && (!best || stars > best.stars)) best = { game, stars }
     }
