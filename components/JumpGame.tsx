@@ -15,11 +15,13 @@ import GameResultScreen from '@/components/GameResultScreen'
 import { buzz } from '@/components/ChunkyUI'
 import WordIcon from '@/components/WordIcon'
 import { ArcadeStage, StageHud, StageModal, StageButton, enterFullscreen } from '@/components/games/ArcadeStage'
+import { useVoiceRecorder, type Recording } from '@/lib/useVoiceRecorder'
+import { requestMic, micDeniedHelp, type MicError } from '@/lib/micHelp'
 import { Meadow, Obstacle, FinishFlag, GROUND_Y } from '@/components/games/JumpScene'
 
 type Topic = { id: string; name: string; emoji: string; color: string; words: ArcadeWord[] }
 type Props = { topic: Topic; level: string; backUrl: string }
-type Phase = 'ready' | 'unsupported' | 'run' | 'ask' | 'listen' | 'check' | 'jump' | 'win' | 'done'
+type Phase = 'ready' | 'unsupported' | 'micblocked' | 'run' | 'ask' | 'listen' | 'check' | 'jump' | 'win' | 'done'
 
 // The browser's speech recognition (Chrome / Edge / Safari; not Firefox). Not in TS's DOM lib.
 type Recognition = {
@@ -39,9 +41,16 @@ const getRecognition = (): RecognitionCtor | null => {
 const RUN_MS = 1300
 const JUMP_MS = 1100
 const LISTEN_MAX_MS = 6000
-const AI_RECORD_MS = 3000 // one word — the AI fallback records this long (tap 🎤 again to stop sooner)
-const MIC_DENIED = 'Bé cần cho phép dùng micro: vào cài đặt trang web của trình duyệt → Micro → Cho phép, rồi bấm 🎤 lại.'
+// AI mode, one word: stops 0.9s after the child goes quiet, gives up after 3.5s of nothing, 4s cap
+// (tap 🎤 again to stop sooner).
+const AI_REC = { maxSecs: 4, silenceMs: 900, noSpeechMs: 3500, minMs: 500 }
 const SILENT = 'Chưa nghe thấy gì. Bấm 🎤 rồi nói to, rõ hơn nhé!'
+const TO_AI = 'Máy này chưa nghe trực tiếp được — chuyển sang 🤖 AI nghe giúp. Bấm 🎤 nói lại nhé!'
+/** Native speech recognition hearing nothing this many times in a row (iPhone Safari often does,
+ *  even with the mic allowed) → switch to AI mode. */
+const SILENT_TO_AI = 2
+// Once the browser's recognition has failed on this device, later games start in AI mode directly.
+let nativeSpeechBroken = false
 // No speech recognition in the browser (Firefox…): record and let Whisper judge via the same API as
 // 🎤 Phát âm cùng AI — each try counts against the child's daily AI Speak quota.
 const canRecord = () => typeof navigator !== 'undefined' && !!navigator.mediaDevices?.getUserMedia && typeof MediaRecorder !== 'undefined'
@@ -63,8 +72,9 @@ export default function JumpGame({ topic, level, backUrl }: Props) {
   const [showConfetti, setShowConfetti] = useState(false)
   const stageRef = useRef<HTMLDivElement>(null)
   const recRef = useRef<Recognition | null>(null)
-  const aiRecRef = useRef<MediaRecorder | null>(null)
+  const silentRuns = useRef(0)
   const [aiMode, setAiMode] = useState(false)
+  const [micIssue, setMicIssue] = useState<MicError>('denied')
   const [quotaOut, setQuotaOut] = useState(false)
   const recorded = useRef(false)
   const alive = useRef(true)
@@ -83,7 +93,6 @@ export default function JumpGame({ topic, level, backUrl }: Props) {
       alive.current = false
       pending.forEach(clearTimeout)
       recRef.current?.abort()
-      if (aiRecRef.current?.state === 'recording') aiRecRef.current.stop()
     }
   }, [])
 
@@ -123,13 +132,30 @@ export default function JumpGame({ topic, level, backUrl }: Props) {
     later(() => setPhase('ask'), RUN_MS)
   }
 
-  function start() {
+  // Ask for the mic right here, inside the start tap: iPhone Safari's speech recognition doesn't
+  // reliably show the permission prompt itself, so the game asks first and only then runs.
+  async function start() {
     playSfx('ready')
-    if (getRecognition()) setAiMode(false)
-    else if (canRecord()) setAiMode(true)
-    else { setPhase('unsupported'); return }
+    const native = !!getRecognition() && !nativeSpeechBroken
+    if (!native && !canRecord()) { setPhase('unsupported'); return }
     enterFullscreen()
+    if (canRecord()) {
+      const err = await requestMic()
+      if (!alive.current) return
+      if (err) { setMicIssue(err); setPhase('micblocked'); return }
+    }
+    silentRuns.current = 0
+    setAiMode(!native)
     runTo(0)
+  }
+
+  // Native recognition can't be used on this device (blocked speech service, or keeps hearing
+  // nothing) but the mic works → carry on with the AI recorder.
+  function switchToAi() {
+    nativeSpeechBroken = true
+    setAiMode(true)
+    setPhase('ask')
+    setNote(TO_AI)
   }
 
   function listen() {
@@ -166,16 +192,45 @@ export default function JumpGame({ topic, level, backUrl }: Props) {
   }
 
   function judge(alternatives: string[], error: string) {
+    // The mic was allowed at the start, so a refusal here is the speech service itself (iPhone with
+    // Siri & Dictation off, home-screen app…) — not something the parent can fix in mic settings.
     if (error === 'not-allowed' || error === 'service-not-allowed') {
-      setPhase('ask'); setNote(MIC_DENIED); return
+      if (canRecord()) { switchToAi(); return }
+      setPhase('ask'); setNote(micDeniedHelp()); return
     }
     if (error === 'network') { setPhase('ask'); setNote('Nhận giọng cần có mạng. Kiểm tra kết nối rồi thử lại nhé.'); return }
+    if (error === 'audio-capture') { setPhase('ask'); setNote('Micro đang bận, bấm 🎤 lần nữa nhé.'); return }
     if (!alternatives.some((a) => a.trim())) {
       // Nothing heard — not the kid's fault, doesn't use a try.
+      silentRuns.current += 1
+      if (silentRuns.current >= SILENT_TO_AI && canRecord()) { switchToAi(); return }
       setPhase('ask'); setNote(SILENT); return
     }
+    silentRuns.current = 0
     verdict(alternatives[0], speechMatches(alternatives, word.word))
   }
+
+  async function scoreForAi({ file }: Recording) {
+    if (!alive.current) return
+    setPhase('check')
+    const fd = new FormData()
+    fd.append('audio', file)
+    fd.append('target', word.word)
+    fd.append('word', word.word)
+    fd.append('level', level)
+    try {
+      const res = await fetch('/api/score-pronunciation', { method: 'POST', body: fd })
+      if (!alive.current) return
+      if (res.status === 429) { setQuotaOut(true); setPhase('unsupported'); return }
+      if (!res.ok) throw new Error(String(res.status))
+      const data = await res.json() as { transcript?: string; correct?: boolean; unclear?: boolean }
+      const heardText = String(data.transcript ?? '').trim()
+      if (data.unclear || !heardText) { setPhase('ask'); setNote(SILENT); return }
+      verdict(heardText, !!data.correct)
+    } catch { if (alive.current) { setPhase('ask'); setNote('Lỗi kết nối, bấm 🎤 thử lại nhé.') } }
+  }
+  // Nothing said → never sent to the AI (no quota used), doesn't use a try.
+  const aiRec = useVoiceRecorder({ ...AI_REC, onDone: scoreForAi, onNoSpeech: () => { setPhase('ask'); setNote(SILENT) } })
 
   async function recordForAi() {
     if (phase !== 'ask') return
@@ -184,38 +239,11 @@ export default function JumpGame({ topic, level, backUrl }: Props) {
     setNote(null)
     setHeard(null)
     setPhase('listen')
-    let stream: MediaStream
-    try { stream = await navigator.mediaDevices.getUserMedia({ audio: true }) } catch { setPhase('ask'); setNote(MIC_DENIED); return }
-    const mime = ['audio/webm', 'audio/mp4', 'audio/ogg'].find((t) => MediaRecorder.isTypeSupported(t)) ?? 'audio/webm'
-    const mr = new MediaRecorder(stream, { mimeType: mime })
-    const chunks: Blob[] = []
-    mr.ondataavailable = (e) => { if (e.data.size) chunks.push(e.data) }
-    mr.onstop = async () => {
-      stream.getTracks().forEach((t) => t.stop())
-      aiRecRef.current = null
-      if (!alive.current) return
-      setPhase('check')
-      const ext = mime.includes('mp4') ? 'm4a' : mime.includes('ogg') ? 'ogg' : 'webm'
-      const fd = new FormData()
-      fd.append('audio', new File([new Blob(chunks, { type: mime })], `rec.${ext}`, { type: mime }))
-      fd.append('target', word.word)
-      fd.append('word', word.word)
-      fd.append('level', level)
-      try {
-        const res = await fetch('/api/score-pronunciation', { method: 'POST', body: fd })
-        if (!alive.current) return
-        if (res.status === 429) { setQuotaOut(true); setPhase('unsupported'); return }
-        if (!res.ok) throw new Error(String(res.status))
-        const data = await res.json() as { transcript?: string; correct?: boolean; unclear?: boolean }
-        const heardText = String(data.transcript ?? '').trim()
-        if (data.unclear || !heardText) { setPhase('ask'); setNote(SILENT); return }
-        verdict(heardText, !!data.correct)
-      } catch { if (alive.current) { setPhase('ask'); setNote('Lỗi kết nối, bấm 🎤 thử lại nhé.') } }
-    }
-    aiRecRef.current = mr
-    mr.start()
-    later(() => { if (mr.state === 'recording') mr.stop() }, AI_RECORD_MS)
+    if (!(await aiRec.start()) && alive.current) setPhase('ask')
   }
+  useEffect(() => {
+    if (aiRec.error) setNote(aiRec.error === 'denied' ? micDeniedHelp() : 'Không mở được micro, bấm 🎤 thử lại nhé.')
+  }, [aiRec.error])
 
   // One try heard: right → jump; wrong → use up a try (the 3rd miss ends the word).
   function verdict(heardText: string, ok: boolean) {
@@ -255,6 +283,7 @@ export default function JumpGame({ topic, level, backUrl }: Props) {
     timers.current.forEach(clearTimeout)
     timers.current.clear()
     recRef.current?.abort()
+    aiRec.cancel()
     recorded.current = false
     setWords(buildJumpQuestions(topic.words))
     setResults([])
@@ -323,7 +352,7 @@ export default function JumpGame({ topic, level, backUrl }: Props) {
               <button type="button" onClick={() => { buzz(); say(word.word) }} disabled={phase !== 'ask'}
                 className="rounded-full border-b-4 border-sky-700 bg-sky-100 px-3 py-2 text-[clamp(13px,2.8vmin,24px)] font-black text-sky-900 shadow active:translate-y-0.5 disabled:opacity-50">🔊 Nghe mẫu</button>
               <button type="button" disabled={!(phase === 'ask' || (aiMode && phase === 'listen'))}
-                onClick={() => { if (aiMode && phase === 'listen') { if (aiRecRef.current?.state === 'recording') aiRecRef.current.stop() } else listen() }}
+                onClick={() => { if (aiMode && phase === 'listen') aiRec.stop(); else listen() }}
                 aria-label={aiMode && phase === 'listen' ? 'Nói xong' : 'Bấm để nói'}
                 className={`flex h-[clamp(72px,17vmin,130px)] w-[clamp(72px,17vmin,130px)] items-center justify-center rounded-full border-b-[6px] text-[clamp(34px,8vmin,64px)] shadow-xl active:translate-y-1 ${
                   phase === 'listen' ? 'border-red-800 bg-red-500' : 'border-amber-700 bg-amber-300'} disabled:opacity-90`}
@@ -357,7 +386,18 @@ export default function JumpGame({ topic, level, backUrl }: Props) {
           <p className="mx-auto mt-3 w-fit rounded-2xl border-2 border-amber-300 bg-amber-100 px-4 py-2 text-sm font-bold sm:text-base [@media(max-height:500px)]:mt-2">
             {total} chướng ngại · cần micro 🎤
           </p>
-          <StageButton tone="gold" onClick={start}>▶ Chạy thôi</StageButton>
+          <StageButton tone="gold" onClick={() => void start()}>▶ Chạy thôi</StageButton>
+        </StageModal>
+      )}
+
+      {phase === 'micblocked' && (
+        <StageModal tone="wood">
+          <h2 className="text-2xl font-black sm:text-3xl">{micIssue === 'denied' ? 'Cần bật micro 🎤' : 'Không mở được micro 🎤'}</h2>
+          <p className="mt-2 text-base font-semibold">
+            {micIssue === 'denied' ? micDeniedHelp() : 'Máy chưa có micro hoặc micro đang được app khác dùng. Tắt app đó rồi thử lại nhé.'}
+          </p>
+          <StageButton tone="gold" onClick={() => void start()}>🔄 Thử lại</StageButton>
+          <button type="button" onClick={exit} className="mt-3 text-sm font-bold underline opacity-80">← Chọn trò khác</button>
         </StageModal>
       )}
 

@@ -1,5 +1,5 @@
 'use client'
-import { useState, useEffect, useCallback, useRef } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import { speak as speakWord } from '@/lib/speak'
@@ -10,6 +10,8 @@ import { getEffectivePlan } from '@/lib/planUtils'
 import { cachedFetch } from '@/lib/cachedFetch'
 import { useGameSync } from '@/lib/GameSyncContext'
 import { cta, colorFamily } from '@/components/ChunkyUI'
+import { useVoiceRecorder, type Recording } from '@/lib/useVoiceRecorder'
+import { micDeniedHelp } from '@/lib/micHelp'
 
 type Session = { plan: string; username: string; plan_end_date?: string | null; bonus_pro_expires_at?: string | null; free_trial_expires_at?: string | null; bonus_features?: string[] | null }
 
@@ -297,13 +299,8 @@ function MatchRound({ pairs, setLabel, onDone }: { pairs: MatchPair[]; setLabel:
 }
 
 // ── Speak (production) ─────────────────────────────────────────────────────────
-function getBestMime() {
-  for (const t of ['audio/webm', 'audio/mp4', 'audio/ogg']) {
-    if (typeof MediaRecorder !== 'undefined' && MediaRecorder.isTypeSupported(t)) return t
-  }
-  return 'audio/webm'
-}
-const SPEAK_MAX_SECS = 8
+// A test: cutting a child off costs them a point, so quiet must last 2s before it stops by itself.
+const SPEAK_REC = { maxSecs: 8, silenceMs: 2000, noSpeechMs: 5000, minMs: 1200 }
 
 function SpeakRound({ questions, accentCls, level, onDone }: { questions: SpeakQuestion[]; accentCls: string; level: string; onDone: (s: number) => void }) {
   const [idx, setIdx]     = useState(0)
@@ -319,77 +316,42 @@ function SpeakRound({ questions, accentCls, level, onDone }: { questions: SpeakQ
   const [unclear, setUnclear]       = useState(false)
   const [micError, setMicError]     = useState<string | null>(null)
   const [playbackUrl, setPlaybackUrl] = useState<string | null>(null)
-  const [timeLeft, setTimeLeft]     = useState(SPEAK_MAX_SECS)
-
-  const mediaRecorderRef = useRef<MediaRecorder | null>(null)
-  const streamRef = useRef<MediaStream | null>(null)
-  const chunksRef = useRef<BlobPart[]>([])
-  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null)
-  const autoStopRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   const q = questions[idx]
   const total = questions.length
 
-  const clearTimers = useCallback(() => {
-    if (timerRef.current)    { clearInterval(timerRef.current);   timerRef.current = null }
-    if (autoStopRef.current) { clearTimeout(autoStopRef.current); autoStopRef.current = null }
-  }, [])
-  const stopStream = useCallback(() => {
-    streamRef.current?.getTracks().forEach(t => t.stop())
-    streamRef.current = null
-  }, [])
+  const rec = useVoiceRecorder({
+    ...SPEAK_REC,
+    onDone: (r) => { setPlaybackUrl(URL.createObjectURL(r.blob)); void scoreAudio(r) },
+    onNoSpeech: () => { setPhase('idle'); setMicError('Chưa nghe thấy gì. Bấm 🎤 rồi đọc to hơn nhé!') },
+  })
+  const timeLeft = rec.timeLeft
 
   useEffect(() => {
     setPhase('idle'); setTranscript(''); setIsCorrect(null); setUnclear(false)
-    setMicError(null); setTimeLeft(SPEAK_MAX_SECS)
+    setMicError(null)
     setPlaybackUrl(prev => { if (prev) URL.revokeObjectURL(prev); return null })
-    return () => { clearTimers(); window.speechSynthesis?.cancel() }
-  }, [idx, clearTimers])
+    return () => { rec.cancel(); window.speechSynthesis?.cancel() }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [idx])
 
   const startRecording = async () => {
     setMicError(null)
     setPlaybackUrl(prev => { if (prev) URL.revokeObjectURL(prev); return null })
-    try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true })
-      streamRef.current = stream
-      const mimeType = getBestMime()
-      chunksRef.current = []
-      const mr = new MediaRecorder(stream, { mimeType })
-      mr.ondataavailable = e => { if (e.data.size > 0) chunksRef.current.push(e.data) }
-      mr.onstop = async () => {
-        stopStream()
-        const blob = new Blob(chunksRef.current, { type: mimeType })
-        setPlaybackUrl(URL.createObjectURL(blob))
-        await scoreAudio(blob, mimeType)
-      }
-      mr.start()
-      mediaRecorderRef.current = mr
-      setPhase('recording')
-      setTimeLeft(SPEAK_MAX_SECS)
-      timerRef.current = setInterval(() => {
-        setTimeLeft(prev => { if (prev <= 1) { clearTimers(); return 0 }; return prev - 1 })
-      }, 1000)
-      autoStopRef.current = setTimeout(() => {
-        if (mediaRecorderRef.current?.state === 'recording') mediaRecorderRef.current.stop()
-        clearTimers()
-      }, SPEAK_MAX_SECS * 1000)
-    } catch (e: unknown) {
-      const name = (e as { name?: string }).name
-      setMicError(name === 'NotAllowedError' ? 'Chưa cấp quyền micro.' : 'Không thể mở micro.')
-    }
+    setPhase('recording')
+    if (!(await rec.start())) setPhase('idle')
   }
+  useEffect(() => {
+    if (rec.error) setMicError(rec.error === 'denied' ? micDeniedHelp() : 'Không thể mở micro.')
+  }, [rec.error])
 
-  const stopRecording = () => {
-    clearTimers()
-    if (mediaRecorderRef.current?.state === 'recording') mediaRecorderRef.current.stop()
-  }
+  const stopRecording = rec.stop
 
-  const scoreAudio = async (blob: Blob, mimeType: string) => {
+  const scoreAudio = async ({ file }: Recording) => {
     setPhase('processing')
     try {
-      const ext = mimeType.includes('mp4') ? 'm4a' : mimeType.includes('ogg') ? 'ogg' : 'webm'
       const fd = new FormData()
-      fd.append('audio', new File([blob], `rec.${ext}`, { type: mimeType }))
+      fd.append('audio', file)
       fd.append('target', q.target)
       fd.append('word', q.word)
       fd.append('level', level)
@@ -413,9 +375,7 @@ function SpeakRound({ questions, accentCls, level, onDone }: { questions: SpeakQ
   }
 
   const advance = () => {
-    clearTimers()
-    if (mediaRecorderRef.current?.state === 'recording') mediaRecorderRef.current.stop()
-    stopStream()
+    rec.cancel()
     if (idx + 1 < total) setIdx(i => i + 1)
     else onDone(score) // score is derived from results, already up to date
   }

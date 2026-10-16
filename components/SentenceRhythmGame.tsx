@@ -1,28 +1,25 @@
 'use client'
 
 // Sentence Rhythm Game — practice IELTS sentence stress rhythm
-// Show sentence with content words highlighted → user records → Groq Whisper checks key words
+// Show sentence with content words highlighted → user records (stops by itself 2s after they go
+// quiet — useVoiceRecorder) → Groq Whisper checks key words
 
-import { useState, useRef, useCallback } from 'react'
+import { useState, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
 import { speak } from '@/lib/speak'
 import { recordPairGame, flushPhonics } from '@/lib/phonicsSync'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
+import { useVoiceRecorder, type Recording } from '@/lib/useVoiceRecorder'
+import { micDeniedHelp } from '@/lib/micHelp'
 import Confetti from '@/components/Confetti'
 import { GameHeader, cta, colorFamily } from '@/components/ChunkyUI'
 
 type RhythmSentence = { en: string; stressed: string[]; vi: string }
 type RhythmLesson   = { id: string; title: string; emoji: string; sentences: RhythmSentence[] }
 
-const MAX_SECS = 12
+// A whole sentence: kids take a breath mid-way, so 2s of quiet ends it; 5s of nothing gives up; 12s cap.
+const REC = { maxSecs: 12, silenceMs: 2000, noSpeechMs: 5000, minMs: 1200 }
 type RecordPhase = 'idle' | 'recording' | 'processing' | 'done'
-
-function getBestMime() {
-  for (const t of ['audio/webm', 'audio/mp4', 'audio/ogg']) {
-    if (typeof MediaRecorder !== 'undefined' && MediaRecorder.isTypeSupported(t)) return t
-  }
-  return 'audio/webm'
-}
 
 function HighlightedSentence({ sentence, stressed }: { sentence: string; stressed: string[] }) {
   const hlSet = new Set(stressed.map(s => s.toLowerCase()))
@@ -60,62 +57,50 @@ export default function SentenceRhythmGame({
   const [gameDone, setGameDone]     = useState(false)
   const [showConfetti, setShowConfetti] = useState(false)
 
-  const mediaRef  = useRef<MediaRecorder | null>(null)
-  const chunksRef = useRef<Blob[]>([])
-  const timerRef  = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const [note, setNote] = useState<string | null>(null)
 
   const questions = lesson.sentences
   const q = questions[idx]
 
   const playSample = useCallback(() => { speak(q.en, { rate: 0.85 }) }, [q.en])
 
-  const startRecording = useCallback(async () => {
-    if (phase !== 'idle') return
+  const scoreTake = async ({ file }: Recording) => {
+    setPhase('processing')
     try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true })
-      const mime = getBestMime()
-      const mr = new MediaRecorder(stream, { mimeType: mime })
-      chunksRef.current = []
-      mr.ondataavailable = e => { if (e.data.size > 0) chunksRef.current.push(e.data) }
-      mr.onstop = async () => {
-        stream.getTracks().forEach(t => t.stop())
-        setPhase('processing')
-        const blob = new Blob(chunksRef.current, { type: mime })
-        try {
-          const fd = new FormData()
-          fd.append('audio', blob, 'recording.' + mime.split('/')[1].split(';')[0])
-          fd.append('target', q.en)
-          const res = await fetch('/api/score-pronunciation', { method: 'POST', body: fd })
-          const data = await res.json()
-          const transcribed: string = (data.transcript ?? '').toLowerCase()
-          const stressedLower = q.stressed.map(s => s.replace(/[.,!?]/g, '').toLowerCase())
-          const matched = stressedLower.filter(w => transcribed.includes(w))
-          const correct = matched.length >= Math.ceil(stressedLower.length * 0.6)
-          setTranscript(data.transcript ?? '')
-          setIsCorrect(correct)
-          if (correct) { setScore(s => s + 1); playCorrectSound() } else { playWrongSound() }
-        } catch {
-          setTranscript(null)
-          setIsCorrect(false)
-          playWrongSound()
-        }
-        setPhase('done')
-      }
-      mr.start()
-      mediaRef.current = mr
-      setPhase('recording')
-      setTranscript(null)
-      setIsCorrect(null)
-      timerRef.current = setTimeout(() => { if (mr.state === 'recording') mr.stop() }, MAX_SECS * 1000)
+      const fd = new FormData()
+      fd.append('audio', file)
+      fd.append('target', q.en)
+      const res = await fetch('/api/score-pronunciation', { method: 'POST', body: fd })
+      const data = await res.json()
+      const transcribed: string = (data.transcript ?? '').toLowerCase()
+      const stressedLower = q.stressed.map(s => s.replace(/[.,!?]/g, '').toLowerCase())
+      const matched = stressedLower.filter(w => transcribed.includes(w))
+      const correct = matched.length >= Math.ceil(stressedLower.length * 0.6)
+      setTranscript(data.transcript ?? '')
+      setIsCorrect(correct)
+      if (correct) { setScore(s => s + 1); playCorrectSound() } else { playWrongSound() }
     } catch {
-      setPhase('idle')
+      setTranscript(null)
+      setIsCorrect(false)
+      playWrongSound()
     }
-  }, [phase, q.en, q.stressed])
+    setPhase('done')
+  }
 
-  const stopRecording = useCallback(() => {
-    if (timerRef.current) clearTimeout(timerRef.current)
-    if (mediaRef.current?.state === 'recording') mediaRef.current.stop()
-  }, [])
+  const rec = useVoiceRecorder({
+    ...REC, onDone: scoreTake,
+    onNoSpeech: () => { setPhase('idle'); setNote('Chưa nghe thấy gì. Bấm 🎤 rồi đọc to hơn nhé!') },
+  })
+
+  const startRecording = async () => {
+    if (phase !== 'idle') return
+    setNote(null)
+    setTranscript(null)
+    setIsCorrect(null)
+    setPhase('recording')
+    if (!(await rec.start())) setPhase('idle')
+  }
+  const stopRecording = rec.stop
 
   const advance = useCallback(() => {
     const next = idx + 1
@@ -203,10 +188,15 @@ export default function SentenceRhythmGame({
             🎤 Đọc theo
           </button>
         )}
+        {phase === 'idle' && (rec.error || note) && (
+          <p className="text-center text-sm font-semibold text-red-500">
+            {rec.error === 'denied' ? micDeniedHelp() : rec.error ? 'Không mở được micro, bấm thử lại nhé.' : note}
+          </p>
+        )}
         {phase === 'recording' && (
           <button onClick={stopRecording}
             className={cta('red', 'flex items-center justify-center gap-2 animate-pulse')}>
-            ⏹️ Dừng ({MAX_SECS}s)
+            ⏹️ Dừng ({rec.timeLeft}s)
           </button>
         )}
         {phase === 'processing' && (
