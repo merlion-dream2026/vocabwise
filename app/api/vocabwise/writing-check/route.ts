@@ -28,7 +28,7 @@ Hãy đánh giá và trả lời theo đúng format JSON sau (không thêm text 
   "improved": "<câu đã được cải thiện nếu cần, giữ ý nghĩa gốc. Để trống '' nếu câu đã tốt>"
 }`
 
-  const raw = await aiChat({ order: ['cerebras', 'groq'], prompt, maxTokens: 300, temperature: 0.4, json: true })
+  const raw = await aiChat({ order: ['cerebras', 'groq'], prompt, maxTokens: 800, temperature: 0.4, json: true, reasoningEffort: 'low', rejectTruncated: true })
   if (raw === null) return NextResponse.json({ error: 'AI unavailable' }, { status: 502 })
 
   try {

@@ -64,7 +64,7 @@ Gợi ý: kiểm tra ngữ pháp, collocation, hay từ vựng. Tối đa 2 câu
 Cho một gợi ý ngắn bằng tiếng Việt, không tiết lộ đáp án. Tối đa 2 câu.`
   }
 
-  const hint = await aiChat({ order: ['groq', 'cerebras'], prompt, maxTokens: 150, temperature: 0.7 })
+  const hint = await aiChat({ order: ['groq', 'cerebras'], prompt, maxTokens: 500, temperature: 0.7, reasoningEffort: 'low', rejectTruncated: true })
   if (hint === null) return NextResponse.json({ error: 'AI unavailable' }, { status: 502 })
   return NextResponse.json({ hint })
 }

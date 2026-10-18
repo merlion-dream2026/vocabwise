@@ -39,7 +39,7 @@ Hãy đánh giá và trả lời theo ĐÚNG format JSON sau (không thêm text 
 
 Giữ giọng văn khích lệ, phù hợp học sinh nhỏ tuổi. Chỉ trả JSON, không thêm chữ nào khác.`
 
-  const raw = await aiChat({ order: ['groq', 'cerebras'], prompt, maxTokens: 300, temperature: 0.4, json: true })
+  const raw = await aiChat({ order: ['groq', 'cerebras'], prompt, maxTokens: 800, temperature: 0.4, json: true, reasoningEffort: 'low', rejectTruncated: true })
   if (raw === null) return NextResponse.json({ error: 'AI unavailable' }, { status: 502 })
 
   try {

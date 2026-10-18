@@ -31,7 +31,7 @@ Giải thích ngắn gọn bằng tiếng Việt:
 
 Tối đa 3 điểm, mỗi điểm 1–2 câu ngắn. Không lặp lại câu gốc.`
 
-  const note = await aiChat({ order: ['groq', 'cerebras'], prompt, maxTokens: 200, temperature: 0.5 })
+  const note = await aiChat({ order: ['groq', 'cerebras'], prompt, maxTokens: 600, temperature: 0.5, reasoningEffort: 'low', rejectTruncated: true })
   if (note === null) return NextResponse.json({ error: 'AI unavailable' }, { status: 502 })
   return NextResponse.json({ note })
 }
