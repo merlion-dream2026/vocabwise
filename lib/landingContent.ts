@@ -122,7 +122,7 @@ export const FAQ_ITEMS = [
   },
   {
     q: 'Bé học một chủ đề như thế nào?',
-    a: 'Mỗi chủ đề Daily đi theo 4 bước:\n① Flashcard: nghe phát âm, xem hình và câu ví dụ\n② Vòng 1 · Làm quen: các trò nhận diện từ, cần đạt ⭐⭐⭐ ở 3 trò (Seeker: 2 trò)\n③ Vòng 2 · Vận dụng: các trò như Sắp xếp câu, Phát âm cùng AI, Đánh vần, cần đạt ⭐⭐⭐ ở 3 trò\n10 trò ở Khu vui chơi (Phóng tên lửa, Câu cá, Đua xe…) cũng được tính vào Vòng 1 hoặc 2, nhưng mỗi vòng cần ít nhất 1 trò học chính\n④ Chinh phục: bé nhận cúp 🏆 và sticker của chủ đề\n\nSao tính theo lần chơi gần nhất, nên bé muốn giữ sao thì phải nhớ từ thật. Sau đó app tự nhắc ôn lại từ sắp quên (SRS).',
+    a: 'Mỗi chủ đề Daily đi theo 4 bước:\n① Flashcard: nghe phát âm, xem hình và câu ví dụ\n② Vòng 1 · Làm quen: các trò nhận diện từ, cần đạt ⭐⭐⭐ ở 3 trò (Seeker: 2 trò)\n③ Vòng 2 · Vận dụng: các trò như Sắp xếp câu, Phát âm cùng AI, Đánh vần, cần đạt ⭐⭐⭐ ở 3 trò\n11 trò ở Khu vui chơi (Phóng tên lửa, Câu cá, Đua xe…) cũng được tính vào Vòng 1 hoặc 2, nhưng mỗi vòng cần ít nhất 1 trò học chính\n④ Chinh phục: bé nhận cúp 🏆 và sticker của chủ đề\n\nSao tính theo lần chơi gần nhất, nên bé muốn giữ sao thì phải nhớ từ thật. Sau đó app tự nhắc ôn lại từ sắp quên (SRS).',
   },
   {
     q: 'Rocky & Bubi là ai? Sticker dùng để làm gì?',

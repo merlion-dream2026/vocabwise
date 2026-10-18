@@ -40,6 +40,7 @@ const STARTER_GAMES = [
   { key: 'treasure',      label: 'Đào kho báu',        emoji: '🗺️' }, // arcade
   { key: 'basket',        label: 'Hứng táo chữ',       emoji: '🧺' }, // arcade
   { key: 'jump',          label: 'Hô to để nhảy',      emoji: '🦘' }, // arcade
+  { key: 'penalty',       label: 'Sút penalty',        emoji: '⚽' }, // arcade
 ]
 
 // Ordered easy → hard (row 1 = recognition, row 5 = timed/synthesis)
@@ -65,6 +66,7 @@ const EXPLORER_GAMES = [
   { key: 'treasure',        label: 'Đào kho báu',        emoji: '🗺️' }, // arcade
   { key: 'basket',          label: 'Hứng táo chữ',       emoji: '🧺' }, // arcade
   { key: 'jump',            label: 'Hô to để nhảy',      emoji: '🦘' }, // arcade
+  { key: 'penalty',         label: 'Sút penalty',        emoji: '⚽' }, // arcade
 ]
 
 const LEVEL_COLORS: Record<string, { bg: string; header: string; text: string; soft: string; deep: string; edge: string }> = {

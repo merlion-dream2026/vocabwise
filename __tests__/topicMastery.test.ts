@@ -8,7 +8,7 @@ const at = '2026-10-06T00:00:00Z'
 const r = (p: number) => ({ best: p, last: p, at })
 const E = (x: Partial<MasteryEntry> = {}): MasteryEntry => ({ flashcard: false, games: [], ...x })
 const g = (key: string): GameDef => ({ key, label: key, emoji: '🎮' })
-const ARCADE = ['rocket', 'whack', 'fishing', 'plane', 'frog', 'race', 'train', 'treasure', 'basket', 'jump']
+const ARCADE = ['rocket', 'whack', 'fishing', 'plane', 'frog', 'race', 'train', 'treasure', 'basket', 'jump', 'penalty']
 const EXPLORER_GAMES = ['flashcard', 'listen', 'truefalse', 'quiz', 'gapfill', 'definitionmatch', 'speak', 'typing', 'sentenceorder', 'speedround', 'sentence', ...ARCADE].map(g)
 const STARTER_GAMES = ['flashcard', 'listen', 'truefalse', 'match', 'memory', 'bubble', 'fillletter', 'speak', 'spell', 'sentenceorder', ...ARCADE].map(g)
 
@@ -20,7 +20,7 @@ describe('starsFor', () => {
 
 describe('isTopicMastered (explorer)', () => {
   const full = E({ flashcard: true, modes: { truefalse: r(100), quiz: r(90), gapfill: r(100), speak: r(100), sentenceorder: r(95), speedround: r(100) } })
-  it('counts all 10 arcade games: whack/fishing/frog/basket in round 1, the other 6 in round 2', () => {
+  it('counts all 11 arcade games: whack/fishing/frog/basket/penalty in round 1, the other 6 in round 2', () => {
     const m = { truefalse: r(100), frog: r(90), basket: r(85), speak: r(100), train: r(95), jump: r(85) }
     expect(isTopicMastered(E({ flashcard: true, modes: m }), 'starter')).toBe(true)
     expect(isTopicMastered(E({ flashcard: true, modes: m }), 'explorer')).toBe(true)
@@ -121,10 +121,10 @@ describe('nextStep', () => {
 })
 
 describe('arcadeGames', () => {
-  it('lists all 10 arcade games tagged with their round', () => {
+  it('lists all 11 arcade games tagged with their round', () => {
     const tags = Object.fromEntries(arcadeGames(STARTER_GAMES, 'starter').map((x) => [x.key, x.round]))
-    expect(tags).toEqual({ rocket: 2, whack: 1, fishing: 1, plane: 2, frog: 1, race: 2, train: 2, treasure: 2, basket: 1, jump: 2 })
-    expect(arcadeGames(EXPLORER_GAMES, 'explorer')).toHaveLength(10)
+    expect(tags).toEqual({ rocket: 2, whack: 1, fishing: 1, plane: 2, frog: 1, race: 2, train: 2, treasure: 2, basket: 1, jump: 2, penalty: 1 })
+    expect(arcadeGames(EXPLORER_GAMES, 'explorer')).toHaveLength(11)
   })
 })
 

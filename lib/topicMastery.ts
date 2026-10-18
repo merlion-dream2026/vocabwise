@@ -33,14 +33,14 @@ export function starsFor(pct: number): number {
 
 // Which games count toward each round. Every game a level offers belongs to one round (started
 // from AXANH's 4 + 3 layout; since 2026-10 the Daily rule differs from AXANH's). Round 1 = recognise
-// (see/hear a word, pick it); round 2 = recall fast, spell, say or write it. The 10 arcade games
+// (see/hear a word, pick it); round 2 = recall fast, spell, say or write it. The 11 arcade games
 // (shown in "Khu vui chơi") count too, split by the same skill line: round 1 gets the pick-the-answer
-// ones (Đập chuột, Câu cá, Ếch nhảy: listening, Hứng táo), round 2 the timed recall + production ones
+// ones (Đập chuột, Câu cá, Ếch nhảy: listening, Hứng táo, Sút penalty), round 2 the timed recall + production ones
 // (Phóng tên lửa, Máy bay, Đua xe, Tàu chở chữ: spelling, Đào kho báu: missing letter, Hô to: speaking).
 // Guard: a round also needs at least 1 of its core (non-arcade) games at 3★, so arcade alone never
 // passes it. Rounds need 3 games at 3★ (Seeker round 1: 2).
 export type RoundSpec = { r1: readonly string[]; r2: readonly string[] }
-export const ARCADE_R1 = ['whack', 'fishing', 'frog', 'basket'] as const
+export const ARCADE_R1 = ['whack', 'fishing', 'frog', 'basket', 'penalty'] as const
 export const ARCADE_R2 = ['rocket', 'plane', 'race', 'train', 'treasure', 'jump'] as const
 const ARCADE: readonly string[] = [...ARCADE_R1, ...ARCADE_R2]
 export const isArcade = (key: string) => ARCADE.includes(key)

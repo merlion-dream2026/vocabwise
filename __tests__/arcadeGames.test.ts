@@ -257,3 +257,26 @@ describe('jump', () => {
     expect(buildJumpQuestions(words(12))).toHaveLength(JUMP_QUESTIONS)
   })
 })
+
+describe('penalty', () => {
+  const words = Array.from({ length: 12 }, (_, i) => ({ word: `w${i}`, meaning: `m${i}`, emoji: '⚽' }))
+  it('10 four-choice kicks (fewer on a short topic), answer always among the corners', async () => {
+    const { buildPenaltyQuestions, PENALTY_KICKS } = await import('@/lib/arcadeGames')
+    const qs = buildPenaltyQuestions(words)
+    expect(qs).toHaveLength(PENALTY_KICKS)
+    for (const q of qs) { expect(q.choices).toHaveLength(4); expect(q.choices.map((c) => c.word)).toContain(q.target.word) }
+    expect(buildPenaltyQuestions(words.slice(0, 6))).toHaveLength(6)
+  })
+  it('score = goals / kicks; 9 of 10 is 3★, 8 of 10 is not', async () => {
+    const { penaltyScorePct } = await import('@/lib/arcadeGames')
+    expect(penaltyScorePct(10, 10)).toBe(100)
+    expect(starsFor(penaltyScorePct(9, 10))).toBe(3)
+    expect(starsFor(penaltyScorePct(8, 10))).toBe(2)
+    expect(penaltyScorePct(0, 0)).toBe(0)
+  })
+  it('keeper dives to the shot on a save, elsewhere on a goal', async () => {
+    const { keeperDive } = await import('@/lib/arcadeGames')
+    expect(keeperDive('tl', true)).toBe('tl')
+    for (let i = 0; i < 20; i++) expect(keeperDive('br', false)).not.toBe('br')
+  })
+})

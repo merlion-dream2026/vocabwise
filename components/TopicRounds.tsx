@@ -176,7 +176,7 @@ function RoundInfo({ passed, note }: { passed: boolean; note: string }) {
   )
 }
 
-// The 10 arcade games in one card (grid sheet). Each is tagged V1/V2: a 3★ score counts toward that
+// The 11 arcade games in one card (grid sheet). Each is tagged V1/V2: a 3★ score counts toward that
 // round, but no arcade game is needed — the core games alone can pass both rounds.
 function PlayZoneCard({ tiles, theme, onOpen }: { tiles: GameTile[]; theme: HubTheme; onOpen: (gameKey: string) => void }) {
   const [picker, setPicker] = useState(false)
