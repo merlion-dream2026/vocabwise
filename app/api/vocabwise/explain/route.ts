@@ -48,7 +48,7 @@ Viết 3-4 câu ngắn bằng tiếng Việt: ngữ cảnh thường dùng, phâ
 Sau đó thêm đúng 1 ví dụ MỚI (không lặp lại ví dụ gốc), gồm 1 câu tiếng Anh dễ nhớ kèm NGAY bản dịch tiếng Việt, theo đúng format: Ví dụ: "<câu tiếng Anh>" – <bản dịch tiếng Việt>
 Chỉ viết văn xuôi thuần. KHÔNG dùng markdown, KHÔNG dùng ký hiệu ** ## hay ###, KHÔNG tiêu đề, KHÔNG danh sách đánh số hay gạch đầu dòng.`
 
-  const raw = await aiChat({ order: ['groq', 'cerebras'], prompt, maxTokens: 600, temperature: 0.7 })
+  const raw = await aiChat({ order: ['groq', 'cerebras'], prompt, maxTokens: 1500, temperature: 0.7, reasoningEffort: 'low', rejectTruncated: true })
   if (raw === null) return NextResponse.json({ error: 'AI unavailable' }, { status: 502 })
   const explanation = stripMarkdown(raw)
 

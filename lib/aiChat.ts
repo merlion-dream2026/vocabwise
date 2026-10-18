@@ -31,6 +31,10 @@ type ChatOptions = {
   maxTokens: number
   temperature: number
   json?: boolean
+  /** gpt-oss reasoning tokens count against maxTokens — 'low' leaves room for the answer */
+  reasoningEffort?: 'low' | 'medium' | 'high'
+  /** Treat a max_tokens cut-off as a failure (try next provider / return null) instead of returning half a sentence */
+  rejectTruncated?: boolean
 }
 
 async function callProvider(provider: Provider, opts: Omit<ChatOptions, 'order'>): Promise<string | null> {
@@ -52,6 +56,7 @@ async function callProvider(provider: Provider, opts: Omit<ChatOptions, 'order'>
         max_tokens: opts.maxTokens,
         temperature: opts.temperature,
         ...(opts.json ? { response_format: { type: 'json_object' } } : {}),
+        ...(opts.reasoningEffort ? { reasoning_effort: opts.reasoningEffort } : {}),
       }),
     })
   } catch (e) {
@@ -65,6 +70,10 @@ async function callProvider(provider: Provider, opts: Omit<ChatOptions, 'order'>
   }
 
   const d = await res.json()
+  if (opts.rejectTruncated && d.choices?.[0]?.finish_reason === 'length') {
+    console.error(`[aiChat] ${provider} hit max_tokens — output truncated`)
+    return null
+  }
   return d.choices?.[0]?.message?.content?.trim() ?? ''
 }
 
