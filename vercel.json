@@ -1,5 +1,10 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "alias": ["vocabwise.vercel.app"],
+  "ignoreCommand": "bash scripts/vercel-ignore-build.sh",
+  "git": {
+    "deploymentEnabled": { "**": false, "main": true }
+  },
   "crons": [
     {
       "path": "/api/cron/weekly-report",
