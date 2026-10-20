@@ -30,6 +30,9 @@ export default function RocketGame({ topic, level, backUrl }: Props) {
   const [queue, setQueue] = useState<RocketQuestion[]>(() => buildRocketQuestions(topic.words))
   const [phase, setPhase] = useState<Phase>('ready')
   const [built, setBuilt] = useState(0)
+  /** Parts built when the card on screen came up — the "Câu" counter moves on with the next card, not
+   *  the moment a right answer adds a point (the answered card stays up while its word is said). */
+  const [shownAt, setShownAt] = useState(0)
   const [wrong, setWrong] = useState(0)
   const [timeLeft, setTimeLeft] = useState(totalSeconds)
   const [picked, setPicked] = useState<string | null>(null)
@@ -124,6 +127,7 @@ export default function RocketGame({ topic, level, backUrl }: Props) {
       setBuilt(b)
       afterWord(w, 900, 2200, () => {
         setPicked(null)
+        setShownAt(b)
         if (b >= ROCKET_PARTS) { setCount(3); setPhase('countdown') }
         else setQueue((q) => q.slice(1))
       })
@@ -148,6 +152,7 @@ export default function RocketGame({ topic, level, backUrl }: Props) {
     recorded.current = false
     setQueue(buildRocketQuestions(topic.words))
     setBuilt(0)
+    setShownAt(0)
     setWrong(0)
     setTimeLeft(totalSeconds)
     setPicked(null)
@@ -172,7 +177,7 @@ export default function RocketGame({ topic, level, backUrl }: Props) {
         tone="space" onExit={exit}
         dial={phase === 'play' || phase === 'countdown' || phase === 'fizzle'
           ? <TimerDial tone="space" icon="⛽" pct={fuelPct} seconds={Math.max(0, timeLeft)} urgent={fuelPct <= 20} /> : undefined}
-        cards={[{ label: 'Điểm', value: built }, { label: 'Câu', value: `${Math.min(built + (phase === 'play' ? 1 : 0), ROCKET_PARTS)}/${ROCKET_PARTS}` }]}
+        cards={[{ label: 'Điểm', value: built }, { label: 'Câu', value: `${Math.min(shownAt + (phase === 'play' ? 1 : 0), ROCKET_PARTS)}/${ROCKET_PARTS}` }]}
       />
 
       {/* Rocket on the pad (left), with the parts counter under it */}

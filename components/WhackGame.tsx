@@ -40,6 +40,9 @@ export default function WhackGame({ topic, level, backUrl }: Props) {
   const [round, setRound] = useState(0)              // bumps on every new question — restarts timers/spawner
   const [moles, setMoles] = useState<Mole[]>([])
   const [correct, setCorrect] = useState(0)
+  /** Right answers when the question on screen came up — the "Câu" counter moves on with the next
+   *  question, not the moment a right whack adds a point (the answered sign stays up for a beat). */
+  const [shownAt, setShownAt] = useState(0)
   const [hearts, setHearts] = useState(WHACK_HEARTS)
   const [secondsLeft, setSecondsLeft] = useState(WHACK_SECONDS)
   const [reveal, setReveal] = useState(false)          // time ran out: show the answer on the board
@@ -150,6 +153,7 @@ export default function WhackGame({ topic, level, backUrl }: Props) {
     if (solved) {
       const c = correct + 1
       setCorrect(c)
+      later(() => setShownAt(c), 1200)
       if (c >= total) later(win, 1200)
       else later(() => startQuestion(queue.slice(1)), 1200)
       return
@@ -207,6 +211,7 @@ export default function WhackGame({ topic, level, backUrl }: Props) {
     missed.current = new Set()
     recorded.current = false
     setCorrect(0)
+    setShownAt(0)
     setHearts(WHACK_HEARTS)
     setWrongWords([])
     setShowConfetti(false)
@@ -250,7 +255,7 @@ export default function WhackGame({ topic, level, backUrl }: Props) {
         <StageHud
           tone="wood" onExit={exit}
           dial={playing ? <TimerDial tone="wood" pct={(Math.max(0, secondsLeft) / WHACK_SECONDS) * 100} seconds={Math.max(0, secondsLeft)} urgent={secondsLeft <= 4} /> : undefined}
-          cards={[{ label: 'Tim', value: <span className="text-[clamp(16px,4vmin,40px)]">{heartRow}</span> }, { label: 'Câu', value: `${Math.min(correct + (playing ? 1 : 0), total)}/${total}` }]}
+          cards={[{ label: 'Tim', value: <span className="text-[clamp(16px,4vmin,40px)]">{heartRow}</span> }, { label: 'Câu', value: `${Math.min(shownAt + (playing ? 1 : 0), total)}/${total}` }]}
         />
 
         {/* Wooden sign: the Vietnamese meaning to find (or the win banner) */}

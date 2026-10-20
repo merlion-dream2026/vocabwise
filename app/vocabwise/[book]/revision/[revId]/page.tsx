@@ -350,8 +350,9 @@ function BreakScreen({
   score: number; max: number; onContinue: () => void
 }) {
   const pct = max > 0 ? score / max : 0
-  const grade = pct >= 0.8 ? { label: 'Xuất sắc! 🏆', cls: 'text-green-600' }
-    : pct >= 0.6 ? { label: 'Tốt! 👍', cls: 'text-amber-600' }
+  // Same cut-offs as the final result screen, so a section and the whole test grade alike.
+  const grade = pct >= 0.9 ? { label: 'Xuất sắc! 🏆', cls: 'text-green-600' }
+    : pct >= 0.7 ? { label: 'Tốt! 👍', cls: 'text-amber-600' }
     : { label: 'Cần ôn thêm 📖', cls: 'text-red-500' }
   return (
     <div className="flex flex-col items-center gap-6 py-8 text-center">

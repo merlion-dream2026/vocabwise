@@ -468,7 +468,8 @@ function BreakScreen({ emoji, title, score, max, accentCls, onContinue }: {
   emoji: string; title: string; score: number; max: number; accentCls: string; onContinue: () => void
 }) {
   const pct = max > 0 ? score / max : 0
-  const grade = pct >= 0.8 ? '🏆 Xuất sắc!' : pct >= 0.6 ? '👍 Tốt!' : '📖 Cần ôn thêm'
+  // Same cut-offs as the final result screen, so a section and the whole test grade alike.
+  const grade = pct >= 0.9 ? '🏆 Xuất sắc!' : pct >= 0.7 ? '👍 Tốt!' : '📖 Cần ôn thêm'
   return (
     <div className="flex flex-col items-center gap-6 py-8 text-center">
       <span className="text-6xl">{emoji}</span>

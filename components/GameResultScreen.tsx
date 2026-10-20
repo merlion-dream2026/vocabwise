@@ -2,7 +2,7 @@
 
 import { useEffect, type ReactNode } from 'react'
 
-import { getGrade } from '@/lib/gameGrade'
+import { gradeForStars } from '@/lib/gameGrade'
 import { starsFor } from '@/lib/topicMastery'
 import { HubStyles } from '@/components/TopicHub'
 import { PrimaryButton } from '@/components/ChunkyUI'
@@ -41,8 +41,8 @@ export default function GameResultScreen({
   score, total, xpEarned, wrongWords, breakdown, stars: starsProp, scoreLine, extra, onRestart, onExit,
 }: Props) {
   const pct = total > 0 ? Math.round((score / total) * 100) : 0
-  const grade = getGrade(score, total)
   const stars = starsProp ?? starsFor(pct)
+  const grade = gradeForStars(stars)
   // Cheer only a decent result — a low score stays silent rather than playing a "you lost" sting.
   useEffect(() => { if (pct >= 60) playSfx('complete') }, []) // eslint-disable-line react-hooks/exhaustive-deps
   // The line and pose follow the stars shown (3★ starts above 80%), so a 3★ result is never told to aim for 3★.
