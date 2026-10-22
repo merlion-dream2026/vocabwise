@@ -4,7 +4,7 @@ import { TAP } from '@/components/TopicHub'
 
 // Daily topic "Mini Story": a short story using the topic's words (bold in `en`/`vi`), read-aloud
 // (recorded mp3, falling back to browser TTS), a Vietnamese toggle and a fill-the-blank exercise
-// built from the bolded words. Includes the one-time Scholar narrator-voice notice.
+// built from the bolded words. Includes the one-time Scholar/Master narrator-voice notice.
 // Mount with key={topicId} so all state (and any playing audio) resets per topic.
 // `embedded`: shown inside the hub's bottom sheet — no card chrome, title pill or collapse toggle
 // (the sheet has its own title), the story starts open.
@@ -12,6 +12,12 @@ import { TAP } from '@/components/TopicHub'
 export type Story = { emojis: string[]; en: string; vi: string }
 type StoryBlank = { word: string; options: string[] }
 type ParsedExercise = { parts: string[]; blanks: StoryBlank[] }
+
+// Narrators per level: scripts/gen-audio-stories.mjs (odd topics = male, even = female)
+const VOICE_NOTICE: Record<string, string> = {
+  scholar: 'Từ level này, Mini Story có giọng nam và nữ (giọng Mỹ) đọc luân phiên',
+  master: 'Từ level này, Mini Story có giọng nam và nữ (giọng Anh) đọc luân phiên',
+}
 
 function shuffleArr<T>(arr: T[]): T[] {
   return [...arr].sort(() => Math.random() - 0.5)
@@ -82,15 +88,16 @@ export default function MiniStory({ story, words, level, topicId, topicIdx, chil
     }
   }, [])
 
-  // One-time notice: Mini Story narrator switches to a male voice from Scholar onward
+  // One-time notice per level: Scholar (US) and Master (UK) stories alternate a male and a female narrator
+  const voiceNotice = VOICE_NOTICE[level]
   useEffect(() => {
-    if (level === 'scholar' && !localStorage.getItem(`voicechange_${childId}`)) {
+    if (voiceNotice && !localStorage.getItem(`voicechange_${level}_${childId}`)) {
       setShowVoiceNotice(true)
     }
-  }, [level, childId])
+  }, [voiceNotice, level, childId])
 
   function dismissVoiceNotice() {
-    localStorage.setItem(`voicechange_${childId}`, '1')
+    localStorage.setItem(`voicechange_${level}_${childId}`, '1')
     setShowVoiceNotice(false)
   }
 
@@ -151,7 +158,7 @@ export default function MiniStory({ story, words, level, topicId, topicIdx, chil
         <div className={`bg-indigo-50 border border-indigo-100 rounded-2xl px-4 py-3 flex items-start gap-2 ${embedded ? 'mx-4 mb-2' : ''}`}>
           <span className="text-lg leading-none flex-shrink-0">🎙️</span>
           <p className="flex-1 text-sm text-indigo-700 leading-relaxed">
-            <span className="font-bold">Giọng đọc mới! 😊</span> Giúp bạn làm quen nhiều giọng tiếng Anh khác nhau
+            <span className="font-bold">Giọng đọc mới! 😊</span> {voiceNotice}
           </p>
           <button
             onClick={dismissVoiceNotice}
