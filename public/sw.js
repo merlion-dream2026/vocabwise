@@ -1,5 +1,8 @@
 const CACHE       = 'vocabwise-v1'
 const AUDIO_CACHE = 'vocabwise-audio-v1'
+// Backup link shown when the main domain can't be reached (e.g. VNNIC .id.vn DNS outage)
+const MAIN_ORIGIN     = 'https://vocabwise.id.vn'
+const FALLBACK_ORIGIN = 'https://vocabwise.vercel.app'
 
 self.addEventListener('install', () => {
   self.skipWaiting()
@@ -63,6 +66,10 @@ self.addEventListener('fetch', e => {
 
   // Catch-all: prevent native Safari "can't open the page" error when offline.
   if (e.request.mode === 'navigate') {
+    const fallbackStep = self.location.origin === MAIN_ORIGIN
+      ? `<li>Vẫn không vào được? Mở <b>link dự phòng</b>:<br>
+              <a class="alt" href="${FALLBACK_ORIGIN + url.pathname + url.search}">vocabwise.vercel.app</a></li>`
+      : ''
     e.respondWith(
       fetch(e.request).catch(() => new Response(
         `<!doctype html><html lang="vi"><head><meta charset="utf-8">
@@ -79,6 +86,7 @@ self.addEventListener('fetch', e => {
           .steps ol{padding-left:1rem}
           .steps li{color:#4b5563;font-size:.8125rem;line-height:1.6;margin-bottom:.2rem}
           .steps li b{color:#1f2937}
+          .steps .alt{color:#7c3aed;font-weight:700;word-break:break-all}
           .btns{display:flex;flex-direction:column;gap:.625rem}
           .btn-primary{background:#7c3aed;color:white;padding:.75rem;border-radius:.875rem;text-decoration:none;font-weight:700;font-size:.875rem;text-align:center;cursor:pointer;border:none;width:100%}
           .btn-secondary{background:white;color:#7c3aed;border:1.5px solid #ddd8fe;padding:.625rem;border-radius:.875rem;text-decoration:none;font-weight:600;font-size:.8125rem;text-align:center;cursor:pointer;width:100%}
@@ -92,7 +100,8 @@ self.addEventListener('fetch', e => {
             <ol>
               <li><b>Bật lại wifi</b> hoặc dữ liệu di động</li>
               <li>Nhấn <b>"Thử lại"</b> bên dưới để tải lại</li>
-                </ol>
+              ${fallbackStep}
+            </ol>
           </div>
           <div class="btns">
             <button class="btn-primary" onclick="location.reload()">🔄 Thử lại</button>
