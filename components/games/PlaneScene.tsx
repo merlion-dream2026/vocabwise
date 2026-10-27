@@ -1,4 +1,5 @@
 import { BuddyImg } from '@/components/games/Buddy'
+import { fitText, WORD_LIMITS } from '@/components/games/fitText'
 
 // Scenery for ✈️ Máy bay qua mây: a bright sky with slow far clouds and hills scrolling past (so the
 // plane feels like it's flying), the plane with the buddy in the cockpit, and the word clouds.
@@ -69,7 +70,7 @@ export function WordCloud({ word, state }: { word: string; state: 'idle' | 'righ
       <div className={`absolute inset-x-[4%] bottom-[8%] top-[34%] rounded-full shadow-lg ${tint}`} />
       <div className={`absolute left-[16%] top-[14%] h-[56%] w-[38%] rounded-full ${tint}`} />
       <div className={`absolute right-[14%] top-[4%] h-[66%] w-[44%] rounded-full ${tint}`} />
-      <span className="relative mt-[10%] max-w-[86%] truncate text-center text-[clamp(16px,3.6vmin,36px)] font-black text-sky-900">{word}</span>
+      <span className={`relative mt-[10%] max-w-[86%] break-words text-center font-black leading-tight text-sky-900 ${fitText(word, ['text-[clamp(16px,3.6vmin,36px)]', 'text-[clamp(13px,2.8vmin,28px)]', 'text-[clamp(11px,2.2vmin,22px)]'], WORD_LIMITS)}`}>{word}</span>
     </div>
   )
 }

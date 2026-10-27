@@ -15,6 +15,7 @@ import { buzz } from '@/components/ChunkyUI'
 import WordIcon from '@/components/WordIcon'
 import { ArcadeStage, StageHud, StageModal, StageButton, enterFullscreen } from '@/components/games/ArcadeStage'
 import { Countryside, Locomotive, Wagon, Crate, RAIL_Y } from '@/components/games/TrainScene'
+import { fitText } from '@/components/games/fitText'
 
 type Topic = { id: string; name: string; emoji: string; color: string; words: ArcadeWord[] }
 type Props = { topic: Topic; level: string; backUrl: string }
@@ -170,7 +171,7 @@ export default function TrainGame({ topic, level, backUrl }: Props) {
             <button type="button" onClick={() => say(q.target.word)}
               className="flex max-w-[62vw] items-center gap-3 rounded-2xl border-[5px] border-[#78350F] bg-[#FEF3C7] px-4 py-2 shadow-xl active:scale-95 portrait:max-w-[92vw] [@media(max-height:500px)]:py-1">
               <WordIcon word={q.target.word} emoji={q.target.emoji} emojiClass="text-[clamp(30px,8vmin,72px)] leading-none" iconSize={64} />
-              <span className="line-clamp-2 text-left text-[clamp(18px,4.6vmin,44px)] font-black leading-tight text-[#451A03]">{q.target.meaning}</span>
+              <span className={`text-left font-black leading-tight text-[#451A03] ${fitText(q.target.meaning, ['text-[clamp(18px,4.6vmin,44px)]', 'text-[clamp(16px,3.8vmin,36px)]', 'text-[clamp(14px,3vmin,28px)]'])}`}>{q.target.meaning}</span>
               <span className="text-[clamp(22px,5vmin,48px)]" aria-label="Nghe từ">🔊</span>
             </button>
           </div>

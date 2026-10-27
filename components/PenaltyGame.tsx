@@ -33,7 +33,7 @@ const CELL: Record<Corner, string> = { tl: 'col-start-1 row-start-1', tr: 'col-s
 const answerSize = (q: PenaltyQuestion, c: ArcadeWord) => {
   const n = q.kind === 'en' ? c.meaning.length : Math.max(...c.word.split(' ').map((p) => p.length))
   return q.kind === 'en'
-    ? (n <= 14 ? 'text-[clamp(14px,3.2vmin,32px)]' : 'text-[clamp(12px,2.6vmin,26px)]')
+    ? (n <= 14 ? 'text-[clamp(14px,3.2vmin,32px)]' : n <= 26 ? 'text-[clamp(12px,2.6vmin,26px)]' : 'text-[clamp(11px,2.1vmin,21px)]')
     : (n <= 6 ? 'text-[clamp(18px,4.6vmin,46px)]' : n <= 9 ? 'text-[clamp(15px,3.6vmin,36px)]' : 'text-[clamp(13px,2.8vmin,28px)]')
 }
 
@@ -182,7 +182,7 @@ export default function PenaltyGame({ topic, level, backUrl }: Props) {
                 <button key={c.word} type="button" disabled={phase !== 'play'} onClick={() => { buzz(); kick(c, CORNERS[i]) }}
                   className={`${CELL[CORNERS[i]]} ${answerCls(c)}`}>
                   {current.kind === 'en'
-                    ? <span className={`line-clamp-3 leading-tight ${answerSize(current, c)}`}>{c.emoji} {c.meaning}</span>
+                    ? <span className={`leading-tight ${answerSize(current, c)}`}>{c.emoji} {c.meaning}</span>
                     : <span className={`break-words leading-tight ${answerSize(current, c)}`}>{c.word}</span>}
                 </button>
               ))}

@@ -16,6 +16,7 @@ import { buzz } from '@/components/ChunkyUI'
 import { Critter, type CritterKind } from '@/components/games/Critters'
 import { ArcadeStage, StageHud, TimerDial, StageModal, StageButton, enterFullscreen } from '@/components/games/ArcadeStage'
 import { Meadow, MoleHole } from '@/components/games/WhackScene'
+import { fitText, WORD_LIMITS } from '@/components/games/fitText'
 
 type Topic = { id: string; name: string; emoji: string; color: string; words: ArcadeWord[] }
 type Props = { topic: Topic; level: string; backUrl: string }
@@ -261,10 +262,10 @@ export default function WhackGame({ topic, level, backUrl }: Props) {
         {/* Wooden sign: the Vietnamese meaning to find (or the win banner) */}
         {(playing || phase === 'win') && current && (
           <div className="absolute inset-x-0 top-[5%] z-10 flex flex-col items-center px-4 portrait:top-[23%]">
-            <div className="flex max-w-[92vw] items-center gap-3 rounded-full border-[5px] border-amber-300 bg-[#5B3A1E] px-6 py-2.5 text-[#FFF8E7] shadow-xl sm:px-9 sm:py-3.5">
+            <div className="flex max-w-[92vw] items-center gap-3 rounded-[28px] border-[5px] border-amber-300 bg-[#5B3A1E] px-6 py-2.5 text-[#FFF8E7] shadow-xl sm:px-9 sm:py-3.5">
               {phase === 'win'
                 ? <><span className="wm-glow text-[7vmin] leading-none" aria-hidden>🥕</span><span className="text-[clamp(20px,4.6vmin,44px)] font-black">Cà rốt vàng là của bé!</span></>
-                : <><span className="text-[7vmin] leading-none" aria-hidden>{current.target.emoji}</span><span className="truncate text-[clamp(22px,5vmin,48px)] font-black">{current.target.meaning}</span></>}
+                : <><span className="text-[7vmin] leading-none" aria-hidden>{current.target.emoji}</span><span className={`text-center font-black leading-tight ${fitText(current.target.meaning, ['text-[clamp(20px,5vmin,46px)]', 'text-[clamp(17px,3.8vmin,36px)]', 'text-[clamp(15px,3vmin,28px)]'])}`}>{current.target.meaning}</span></>}
             </div>
             <p className="mt-2 rounded-full bg-white/80 px-3 py-0.5 text-[clamp(14px,3vmin,28px)] font-bold text-[#4A2C14]">
               {phase === 'win' ? 'Cả xóm chuột chũi ra nhảy múa ăn mừng 🎉'
@@ -294,7 +295,7 @@ export default function WhackGame({ topic, level, backUrl }: Props) {
                     className="wm-up relative aspect-square h-[88%] max-w-full transition-transform duration-200">
                     <Critter kind={m.kind} mood={m.state === 'hit' ? 'dizzy' : m.state === 'tease' ? 'tease' : 'up'} className="h-full w-auto" />
                     {/* the word sign held in front of the belly */}
-                    <span className={`absolute inset-x-[-6%] bottom-[6%] truncate rounded-xl border-[3px] border-b-[5px] px-1 py-0.5 text-center text-[clamp(17px,3.8vmin,36px)] font-black shadow-md ${
+                    <span className={`absolute inset-x-[-6%] bottom-[6%] break-words rounded-xl border-[3px] border-b-[5px] px-1 py-0.5 text-center font-black leading-tight shadow-md ${fitText(m.word.word, ['text-[clamp(17px,3.8vmin,36px)]', 'text-[clamp(14px,3vmin,28px)]', 'text-[clamp(12px,2.4vmin,22px)]'], WORD_LIMITS)} ${
                       m.state === 'hit' ? 'border-emerald-800 bg-emerald-500 text-white'
                       : m.state === 'tease' ? 'border-red-700 bg-red-400 text-white'
                       : 'border-[#5B3A1E] bg-[#FFF8E7] text-[#3A2410]'}`}>

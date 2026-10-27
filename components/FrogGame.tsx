@@ -14,6 +14,7 @@ import GameResultScreen from '@/components/GameResultScreen'
 import { buzz } from '@/components/ChunkyUI'
 import { ArcadeStage, StageHud, StageModal, StageButton, TimerDial, enterFullscreen } from '@/components/games/ArcadeStage'
 import { Pond, LilyPad, Frog, FarBank } from '@/components/games/FrogScene'
+import { fitText, WORD_LIMITS } from '@/components/games/fitText'
 
 type Topic = { id: string; name: string; emoji: string; color: string; words: ArcadeWord[] }
 type Props = { topic: Topic; level: string; backUrl: string }
@@ -288,8 +289,8 @@ export default function FrogGame({ topic, level, backUrl }: Props) {
                   <LilyPad tint={tint} className="absolute inset-0 h-full w-full drop-shadow-lg" />
                   <span className={`relative max-w-[88%] rounded-xl border-2 border-b-4 border-green-900/25 bg-white/95 px-1.5 py-0.5 text-center font-black leading-tight text-slate-800 ${
                     current.kind === 'word'
-                      ? p.word.length > 9 ? 'text-[clamp(13px,2.6vmin,24px)]' : 'text-[clamp(15px,3.4vmin,30px)]'
-                      : 'line-clamp-2 text-[clamp(12px,2.6vmin,24px)]'}`}>
+                      ? fitText(p.word, ['text-[clamp(15px,3.4vmin,30px)]', 'text-[clamp(13px,2.6vmin,24px)]', 'text-[clamp(11px,2.2vmin,20px)]'], WORD_LIMITS)
+                      : fitText(p.meaning, ['text-[clamp(12px,2.6vmin,24px)]', 'text-[clamp(11px,2.2vmin,20px)]', 'text-[clamp(10px,1.9vmin,17px)]'])}`}>
                     {current.kind === 'word' ? p.word : <>{p.emoji} {p.meaning}</>}
                   </span>
                   </div>

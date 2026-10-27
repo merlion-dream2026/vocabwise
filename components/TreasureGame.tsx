@@ -16,6 +16,7 @@ import { buzz } from '@/components/ChunkyUI'
 import WordIcon from '@/components/WordIcon'
 import { ArcadeStage, StageHud, StageModal, StageButton, enterFullscreen } from '@/components/games/ArcadeStage'
 import { SeaBackdrop, TreasureMap, LetterStone, TRAIL } from '@/components/games/TreasureScene'
+import { fitText } from '@/components/games/fitText'
 
 type Topic = { id: string; name: string; emoji: string; color: string; words: ArcadeWord[] }
 type Props = { topic: Topic; level: string; backUrl: string }
@@ -147,7 +148,7 @@ export default function TreasureGame({ topic, level, backUrl }: Props) {
         <div className="absolute bottom-[4%] right-[3%] top-[17%] flex w-[39%] flex-col items-center justify-between gap-[2vmin] portrait:inset-x-[4%] portrait:top-[56%] portrait:w-auto [@media(max-height:500px)]:top-[21%]">
           <button type="button" onClick={() => say(q.target.word)} className="flex items-center gap-2 rounded-2xl bg-white/90 px-3 py-1 shadow-lg active:scale-95">
             <WordIcon word={q.target.word} emoji={q.target.emoji} emojiClass="text-[clamp(26px,6vmin,56px)] leading-none" iconSize={52} />
-            <span className="line-clamp-2 text-[clamp(16px,3.8vmin,36px)] font-black leading-tight text-[#451A03]">{q.target.meaning}</span>
+            <span className={`font-black leading-tight text-[#451A03] ${fitText(q.target.meaning, ['text-[clamp(16px,3.8vmin,36px)]', 'text-[clamp(14px,3.2vmin,30px)]', 'text-[clamp(12px,2.6vmin,24px)]'])}`}>{q.target.meaning}</span>
             <span className="text-[clamp(18px,4vmin,38px)]" aria-label="Nghe từ">🔊</span>
           </button>
           <div className="flex flex-wrap items-end justify-center gap-x-[0.8vmin] gap-y-1 rounded-2xl border-4 border-[#92400E] bg-[#FEF3C7] px-3 py-2 shadow-xl">

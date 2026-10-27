@@ -18,6 +18,7 @@ import { ArcadeStage, StageHud, StageModal, StageButton, enterFullscreen } from 
 import { useVoiceRecorder, type Recording } from '@/lib/useVoiceRecorder'
 import { requestMic, micDeniedHelp, type MicError } from '@/lib/micHelp'
 import { Meadow, Obstacle, FinishFlag, GROUND_Y } from '@/components/games/JumpScene'
+import { fitText } from '@/components/games/fitText'
 
 type Topic = { id: string; name: string; emoji: string; color: string; words: ArcadeWord[] }
 type Props = { topic: Topic; level: string; backUrl: string }
@@ -329,7 +330,7 @@ export default function JumpGame({ topic, level, backUrl }: Props) {
             <Obstacle index={index} sign={phase === 'jump' ? undefined : (
               <div className="flex w-max max-w-[44vw] flex-col items-center rounded-xl border-[4px] border-[#78350F] bg-[#FEF3C7] px-3 py-1 shadow-lg portrait:max-w-[60vw]">
                 <WordIcon word={word.word} emoji={word.emoji} emojiClass="text-[clamp(30px,8vmin,70px)] leading-none" iconSize={64} />
-                <span className="line-clamp-2 text-center text-[clamp(15px,3.6vmin,34px)] font-black leading-tight text-[#451A03]">{word.meaning}</span>
+                <span className={`text-center font-black leading-tight text-[#451A03] ${fitText(word.meaning, ['text-[clamp(15px,3.6vmin,34px)]', 'text-[clamp(14px,3vmin,28px)]', 'text-[clamp(12px,2.5vmin,24px)]'])}`}>{word.meaning}</span>
               </div>
             )} />
           </div>

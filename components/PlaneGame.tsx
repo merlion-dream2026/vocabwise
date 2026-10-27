@@ -15,6 +15,7 @@ import GameResultScreen from '@/components/GameResultScreen'
 import { buzz } from '@/components/ChunkyUI'
 import { ArcadeStage, StageHud, TimerDial, StageModal, StageButton, enterFullscreen } from '@/components/games/ArcadeStage'
 import { FlyingSky, Plane, WordCloud } from '@/components/games/PlaneScene'
+import { fitText } from '@/components/games/fitText'
 
 type Topic = { id: string; name: string; emoji: string; color: string; words: ArcadeWord[] }
 type Props = { topic: Topic; level: string; backUrl: string }
@@ -239,9 +240,9 @@ export default function PlaneGame({ topic, level, backUrl }: Props) {
         {/* The question */}
         {playing && current && (
           <div className="pointer-events-none absolute inset-x-0 top-[4%] z-10 flex flex-col items-center px-4 portrait:top-[13%]">
-            <div className="flex max-w-[60vw] items-center gap-3 rounded-full border-[5px] border-white bg-[#1D4ED8] px-6 py-2 text-white shadow-xl portrait:max-w-[92vw] sm:px-8 sm:py-3">
+            <div className="flex max-w-[60vw] items-center gap-3 rounded-[28px] border-[5px] border-white bg-[#1D4ED8] px-6 py-2 text-white shadow-xl portrait:max-w-[92vw] sm:px-8 sm:py-3">
               <span className="text-[6.5vmin] leading-none" aria-hidden>{current.target.emoji}</span>
-              <span className="truncate text-[clamp(20px,4.8vmin,46px)] font-black">{current.target.meaning}</span>
+              <span className={`text-center font-black leading-tight ${fitText(current.target.meaning, ['text-[clamp(20px,4.8vmin,46px)]', 'text-[clamp(17px,3.8vmin,36px)]', 'text-[clamp(15px,3vmin,28px)]'])}`}>{current.target.meaning}</span>
             </div>
             <p className="mt-2 rounded-full bg-white/85 px-3 py-0.5 text-center text-[clamp(13px,2.8vmin,26px)] font-bold text-blue-900">
               {tease ? <span className="text-red-600">Ối! {tease}</span>

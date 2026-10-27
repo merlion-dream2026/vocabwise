@@ -1,6 +1,7 @@
 import { buzz } from '@/components/ChunkyUI'
 import WordIcon from '@/components/WordIcon'
 import type { ArcadeWord, RocketQuestion } from '@/lib/arcadeGames'
+import { fitText } from '@/components/games/fitText'
 
 // The 4-choice question shared by 🚀 Phóng tên lửa and 🏎️ Đua xe: the prompt + picture card and the
 // answer buttons. Layout (where they sit on the stage) comes from the caller's className.
@@ -29,7 +30,7 @@ export function PromptCard({ q, picked, onSay, className = '', cardClass = '' }:
         {q.kind === 'vi' && (
           <>
             <WordIcon word={q.target.word} emoji={q.target.emoji} emojiClass="text-[11vmin] leading-none" iconSize={90} />
-            <span className="line-clamp-2 text-center text-[clamp(18px,4.6vmin,46px)] font-black leading-tight text-[#1E1B4B]">{q.target.meaning}</span>
+            <span className={`text-center font-black leading-tight text-[#1E1B4B] ${fitText(q.target.meaning, ['text-[clamp(18px,4.6vmin,46px)]', 'text-[clamp(15px,3.6vmin,36px)]', 'text-[clamp(13px,2.8vmin,28px)]'])}`}>{q.target.meaning}</span>
           </>
         )}
         {q.kind === 'listen' && (
@@ -63,7 +64,7 @@ export function AnswerGrid({ q, picked, onPick, className = '' }: {
       {q.choices.map((c) => (
         <button key={c.word} type="button" disabled={picked !== null} onClick={() => { buzz(); onPick(c) }} className={cls(c)}>
           {q.kind === 'en'
-            ? <span className="line-clamp-2 block text-[clamp(16px,4vmin,42px)] leading-tight">{c.emoji} {c.meaning}</span>
+            ? <span className={`block leading-tight ${fitText(c.meaning, ['text-[clamp(16px,4vmin,42px)]', 'text-[clamp(14px,3.2vmin,32px)]', 'text-[clamp(12px,2.6vmin,26px)]'])}`}>{c.emoji} {c.meaning}</span>
             : <span className={`block leading-tight ${wordSize(c.word)}`}>{c.word}</span>}
         </button>
       ))}

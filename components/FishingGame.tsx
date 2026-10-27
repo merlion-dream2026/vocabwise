@@ -15,6 +15,7 @@ import GameResultScreen from '@/components/GameResultScreen'
 import { buzz } from '@/components/ChunkyUI'
 import { ArcadeStage, StageHud, TimerDial, StageModal, StageButton, enterFullscreen } from '@/components/games/ArcadeStage'
 import { Sea, Fish, Boat, Hook, FISH_COLORS, SURFACE } from '@/components/games/FishScene'
+import { fitText, WORD_LIMITS } from '@/components/games/fitText'
 
 type Topic = { id: string; name: string; emoji: string; color: string; words: ArcadeWord[] }
 type Props = { topic: Topic; level: string; backUrl: string }
@@ -277,9 +278,9 @@ export default function FishingGame({ topic, level, backUrl }: Props) {
         {/* The question on a buoy-coloured sign */}
         {playing && current && (
           <div className="pointer-events-none absolute inset-x-0 top-[4%] z-10 flex flex-col items-center px-4 portrait:top-[13%]">
-            <div className="pointer-events-auto flex max-w-[60vw] items-center gap-3 rounded-full border-[5px] border-white bg-[#0369A1] px-6 py-2 text-white shadow-xl portrait:max-w-[92vw] sm:px-8 sm:py-3">
+            <div className="pointer-events-auto flex max-w-[60vw] items-center gap-3 rounded-[28px] border-[5px] border-white bg-[#0369A1] px-6 py-2 text-white shadow-xl portrait:max-w-[92vw] sm:px-8 sm:py-3">
               {current.kind === 'vi'
-                ? <><span className="text-[6.5vmin] leading-none" aria-hidden>{current.target.emoji}</span><span className="truncate text-[clamp(20px,4.8vmin,46px)] font-black">{current.target.meaning}</span></>
+                ? <><span className="text-[6.5vmin] leading-none" aria-hidden>{current.target.emoji}</span><span className={`text-center font-black leading-tight ${fitText(current.target.meaning, ['text-[clamp(20px,4.8vmin,46px)]', 'text-[clamp(17px,3.8vmin,36px)]', 'text-[clamp(15px,3vmin,28px)]'])}`}>{current.target.meaning}</span></>
                 : (
                   <button type="button" onPointerDown={(e) => e.stopPropagation()} onClick={() => { buzz(); speakWord(current.target.word, { rate: 0.85 }) }}
                     className="flex items-center gap-2 text-[clamp(20px,4.8vmin,46px)] font-black">
@@ -304,8 +305,8 @@ export default function FishingGame({ topic, level, backUrl }: Props) {
               visibility: hooked === i ? 'hidden' : undefined,
             }}>
             <Fish color={FISH_COLORS[f.color]} flip={f.dir < 0} className="w-full" />
-            <span className={`absolute inset-x-[4%] top-1/2 -translate-y-1/2 truncate rounded-lg border-2 border-b-4 border-sky-900/30 bg-white/95 px-1 text-center font-black text-slate-800 ${
-              f.word.word.length > 9 ? 'text-[clamp(12px,2.3vmin,22px)]' : 'text-[clamp(14px,3vmin,28px)]'}`}>
+            <span className={`absolute inset-x-[4%] top-1/2 -translate-y-1/2 break-words rounded-lg border-2 border-b-4 border-sky-900/30 bg-white/95 px-1 text-center font-black leading-tight text-slate-800 ${
+              fitText(f.word.word, ['text-[clamp(14px,3vmin,28px)]', 'text-[clamp(12px,2.3vmin,22px)]', 'text-[clamp(11px,2vmin,19px)]'], WORD_LIMITS)}`}>
               {f.word.word}
             </span>
           </div>
