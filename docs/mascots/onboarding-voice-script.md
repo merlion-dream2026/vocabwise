@@ -1,7 +1,9 @@
 # Onboarding voice script — Rocky 🐘 + Bubi 🐬
 
 Lời thoại narrate màn hình onboarding (`app/onboarding/page.tsx`) + hộp chọn mascot (`components/MascotPicker.tsx`).
-Thu âm thủ công trên web ElevenLabs (bản free), lưu file đúng tên vào `public/audio/mascots/`.
+**Đã thu xong 28 file (2026-10-30)** bằng `scripts/gen-audio-mascots.mjs` (API, Eleven v3) → `public/audio/mascots/`. Sửa lời → sửa cả trong script rồi chạy lại (chỉ thu lại câu đã đổi). Phát trong app: `lib/mascotVoice.ts` (onboarding + hộp chọn bạn đồng hành).
+
+**Giọng đã chọn:** Rocky = Will (EN) + Hao (VI, nam trẻ miền Nam) · Bubi = Laura (EN) + Kiều Linh (VI).
 
 **Quy ước tên file:** `{nhân vật}-{chỗ}-{vi|en}.mp3`. Tổng **28 file**.
 
@@ -53,9 +55,9 @@ Gợi ý tag bước 2: Rocky `[proudly]`, Bubi `[excited]`.
 
 ## Checklist file (28)
 
-- [ ] Bước 0: `rocky-hello` · `bubi-hello` · `rocky-features` · `bubi-next` × vi/en = 8
-- [ ] Bước 1: `rocky-choose` · `bubi-choose` × vi/en = 4
-- [ ] Bước 2: `{rocky,bubi}-ready-{daily,academic,phonics}` × vi/en = 12
-- [ ] Picker: `rocky-pick` · `bubi-pick` × vi/en = 4
+- [x] Bước 0: `rocky-hello` · `bubi-hello` · `rocky-features` · `bubi-next` × vi/en = 8
+- [x] Bước 1: `rocky-choose` · `bubi-choose` × vi/en = 4
+- [x] Bước 2: `{rocky,bubi}-ready-{daily,academic,phonics}` × vi/en = 12
+- [x] Picker: `rocky-pick` · `bubi-pick` × vi/en = 4
 
 **Mẹo thu:** số viết bằng chữ (ba mươi, tám mươi) để AI không đọc sai · tải về MP3 · mỗi câu thử 2–3 lần, chọn bản hay nhất.

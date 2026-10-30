@@ -1,13 +1,17 @@
 'use client'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { cta } from '@/components/ChunkyUI'
 import Image from 'next/image'
-import Mascot from '@/components/Mascot'
-import { DUO_WAVE_SCENE } from '@/lib/mascots'
+import Mascot, { useMascotCharacter } from '@/components/Mascot'
+import { DEFAULT_MASCOT, DUO_WAVE_SCENE } from '@/lib/mascots'
 import { playSfx } from '@/lib/gameSound'
+import { getVoiceLang, playMascotLines, setVoiceLang, stopMascotVoice, type VoiceLang } from '@/lib/mascotVoice'
 
 type Section = 'kids' | 'academic' | 'phonics' | null
+
+const WELCOME_LINES = ['rocky-hello', 'bubi-hello', 'rocky-features', 'bubi-next']
+const READY_LINE = { kids: 'daily', academic: 'academic', phonics: 'phonics' } as const
 
 const STEPS = ['Chào mừng', 'Chọn phần học', 'Bắt đầu thôi!']
 
@@ -15,11 +19,28 @@ export default function OnboardingPage() {
   const router = useRouter()
   const [step, setStep]       = useState(0)
   const [section, setSection] = useState<Section>(null)
+  const [lang, setLang]       = useState<VoiceLang>('vi')
+  const speaker = useMascotCharacter() ?? DEFAULT_MASCOT
 
-  // Step 0 stays silent (autoplay is blocked before the first tap); every later sound rides on a tap.
+  useEffect(() => {
+    setLang(getVoiceLang())
+    return stopMascotVoice
+  }, [])
+
+  // Step 0 stays silent until the "Nghe" tap (autoplay is blocked before the first tap); every later sound rides on a tap.
   function go(next: number) {
     playSfx(next === 2 ? 'ready' : 'swoosh')
     setStep(next)
+    if (next === 1) playMascotLines([`${speaker}-choose`], { delayMs: 300, lang })
+    else if (next === 2 && section) playMascotLines([`${speaker}-ready-${READY_LINE[section]}`], { delayMs: 700, lang })
+    else stopMascotVoice()
+  }
+
+  function switchLang(l: VoiceLang) {
+    setVoiceLang(l)
+    setLang(l)
+    const line = step === 0 ? WELCOME_LINES : step === 1 ? [`${speaker}-choose`] : section ? [`${speaker}-ready-${READY_LINE[section]}`] : []
+    playMascotLines(line, { lang: l })
   }
 
   function pick(s: Exclude<Section, null>) {
@@ -29,6 +50,7 @@ export default function OnboardingPage() {
 
   function finish(dest: string) {
     localStorage.setItem('onboarding_done', '1')
+    stopMascotVoice()
     router.push(dest)
   }
 
@@ -42,13 +64,28 @@ export default function OnboardingPage() {
         />
       </div>
 
-      <div className="flex-1 flex flex-col items-center justify-center px-6 py-10 max-w-md mx-auto w-full">
+      <div className="flex justify-end px-4 pt-3">
+        <div role="radiogroup" aria-label="Giọng đọc" className="flex rounded-full border-2 border-slate-200 bg-white p-0.5 text-xs font-bold">
+          {(['vi', 'en'] as const).map(l => (
+            <button key={l} type="button" role="radio" aria-checked={lang === l} onClick={() => switchLang(l)}
+              className={`rounded-full px-3 py-1 ${lang === l ? 'bg-purple-500 text-white' : 'text-slate-500'}`}>
+              {l === 'vi' ? '🇻🇳 Tiếng Việt' : '🇬🇧 English'}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div className="flex-1 flex flex-col items-center justify-center px-6 py-6 max-w-md mx-auto w-full">
 
         {/* Step 0 — Welcome */}
         {step === 0 && (
           <div className="flex flex-col items-center text-center gap-6 w-full">
             <Image src={DUO_WAVE_SCENE.src} alt="Rocky và Bubi vẫy tay chào bạn" width={DUO_WAVE_SCENE.width} height={DUO_WAVE_SCENE.height}
               priority sizes="(max-width: 448px) 100vw, 400px" className="h-auto w-full rounded-3xl" />
+            <button type="button" onClick={() => playMascotLines(WELCOME_LINES, { lang })}
+              className="-mt-2 rounded-full border-2 border-b-[4px] border-sky-200 border-b-sky-400 bg-sky-50 px-4 py-2 text-sm font-bold text-sky-700 active:translate-y-0.5 active:border-b-2">
+              🔊 Nghe Rocky &amp; Bubi chào bạn
+            </button>
             <div>
               <h1 className="text-3xl font-bold text-gray-800 mb-2">Chào mừng đến VocabWise!</h1>
               <p className="text-gray-500 text-base leading-relaxed">

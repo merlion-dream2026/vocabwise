@@ -1,0 +1,114 @@
+{
+  "rocky-hello-vi.mp3": {
+    "voice": "M0rVwr32hdQ5UXpkI3ni",
+    "hash": "3008d3fcb4037f40d3636779c7c649f25cb91726"
+  },
+  "rocky-hello-en.mp3": {
+    "voice": "bIHbv24MWmeRgasZH58o",
+    "hash": "45565488de85bc36622f2abbee60f3ea6fbe322f"
+  },
+  "bubi-hello-vi.mp3": {
+    "voice": "qByVAGjXwGlkcRDJoiHg",
+    "hash": "7d0e0f502da651afe9484a7b67e04631145ae844"
+  },
+  "bubi-hello-en.mp3": {
+    "voice": "FGY2WhTYpPnrIDTdsKH5",
+    "hash": "4c7814c6fcfdf2356ef77a4f999281636b2d12fd"
+  },
+  "rocky-features-vi.mp3": {
+    "voice": "M0rVwr32hdQ5UXpkI3ni",
+    "hash": "5075996d77d489ad4d555d3c95651055c40fafdc"
+  },
+  "rocky-features-en.mp3": {
+    "voice": "bIHbv24MWmeRgasZH58o",
+    "hash": "dfdc023a8834aafad3b89ed977d3d909809c7927"
+  },
+  "bubi-next-vi.mp3": {
+    "voice": "qByVAGjXwGlkcRDJoiHg",
+    "hash": "e1c27e0a6e96fa3d42625666298f0a379257a1ac"
+  },
+  "bubi-next-en.mp3": {
+    "voice": "FGY2WhTYpPnrIDTdsKH5",
+    "hash": "353c2518676acdbe6d93ea6f1f14234d20d05d24"
+  },
+  "rocky-choose-vi.mp3": {
+    "voice": "M0rVwr32hdQ5UXpkI3ni",
+    "hash": "564986b318de05e0007eddad4f75fa6bc307fcbc"
+  },
+  "rocky-choose-en.mp3": {
+    "voice": "bIHbv24MWmeRgasZH58o",
+    "hash": "0fd4b71f753828ecdde169b43c2c658b09159bc2"
+  },
+  "bubi-choose-vi.mp3": {
+    "voice": "qByVAGjXwGlkcRDJoiHg",
+    "hash": "9ac4fa1f2cb44d09b21f791dbbdd8520cc74b199"
+  },
+  "bubi-choose-en.mp3": {
+    "voice": "FGY2WhTYpPnrIDTdsKH5",
+    "hash": "9225ae95187aa390b9a92529764bba2e3e57c20e"
+  },
+  "rocky-ready-daily-vi.mp3": {
+    "voice": "M0rVwr32hdQ5UXpkI3ni",
+    "hash": "013449a645aeadbf9902196fd9666cacee2a1e0b"
+  },
+  "rocky-ready-daily-en.mp3": {
+    "voice": "bIHbv24MWmeRgasZH58o",
+    "hash": "fa14ff3dbf3758b0789de95604156f25643bb484"
+  },
+  "rocky-ready-academic-vi.mp3": {
+    "voice": "M0rVwr32hdQ5UXpkI3ni",
+    "hash": "cea7082e7b7686b8233677365534d213229885d7"
+  },
+  "rocky-ready-academic-en.mp3": {
+    "voice": "bIHbv24MWmeRgasZH58o",
+    "hash": "675d4a0c1e489a7e221e98320c0b3f9fdba042b8"
+  },
+  "rocky-ready-phonics-vi.mp3": {
+    "voice": "M0rVwr32hdQ5UXpkI3ni",
+    "hash": "c1c05de67d9c408558550d90c158b30d85b81c83"
+  },
+  "rocky-ready-phonics-en.mp3": {
+    "voice": "bIHbv24MWmeRgasZH58o",
+    "hash": "b928b710e393fb8a0e95f93b950bb1e7b4b2784a"
+  },
+  "bubi-ready-daily-vi.mp3": {
+    "voice": "qByVAGjXwGlkcRDJoiHg",
+    "hash": "2f62887981b3f03966d28fd03437a686dbbd55c4"
+  },
+  "bubi-ready-daily-en.mp3": {
+    "voice": "FGY2WhTYpPnrIDTdsKH5",
+    "hash": "d922107bc96bc4875ba5efa6fcf5ac7df0cf992b"
+  },
+  "bubi-ready-academic-vi.mp3": {
+    "voice": "qByVAGjXwGlkcRDJoiHg",
+    "hash": "1b0ec7982969287ab5714b88f39e272d22c7739b"
+  },
+  "bubi-ready-academic-en.mp3": {
+    "voice": "FGY2WhTYpPnrIDTdsKH5",
+    "hash": "f4785ceed8aaf19a170940a9b4c6f1c6002e2543"
+  },
+  "bubi-ready-phonics-vi.mp3": {
+    "voice": "qByVAGjXwGlkcRDJoiHg",
+    "hash": "a0e6347e15f08dbb1da1e845c1b709121cf311df"
+  },
+  "bubi-ready-phonics-en.mp3": {
+    "voice": "FGY2WhTYpPnrIDTdsKH5",
+    "hash": "e7a7c3f710a469c26c3db20fd2e81f060786e2a9"
+  },
+  "rocky-pick-vi.mp3": {
+    "voice": "M0rVwr32hdQ5UXpkI3ni",
+    "hash": "2f9f754eda60b77acd7fa9fe359ffe991c3c9b02"
+  },
+  "rocky-pick-en.mp3": {
+    "voice": "bIHbv24MWmeRgasZH58o",
+    "hash": "a05fecd583ed83c971301a7f3e2346d3c7569f82"
+  },
+  "bubi-pick-vi.mp3": {
+    "voice": "qByVAGjXwGlkcRDJoiHg",
+    "hash": "327b6b245e0ad7df7234735098b713d1dac2de50"
+  },
+  "bubi-pick-en.mp3": {
+    "voice": "FGY2WhTYpPnrIDTdsKH5",
+    "hash": "f1d28a9f00b192f8329ae1df810b02a42ace9a9c"
+  }
+}

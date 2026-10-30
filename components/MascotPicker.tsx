@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import Mascot from '@/components/Mascot'
 import { PRESS } from '@/components/TopicHub'
 import { MASCOT_CHARACTERS, MASCOT_NAMES, type MascotCharacter } from '@/lib/mascots'
+import { playMascotLines, stopMascotVoice } from '@/lib/mascotVoice'
 
 const BLURB: Record<MascotCharacter, string> = { rocky: 'Voi xanh', bubi: 'Cá heo xanh' }
 const CARD: Record<MascotCharacter, string> = {
@@ -25,7 +26,14 @@ export function MascotPickDialog({ childName, onChoose, onLater }: {
     return () => window.removeEventListener('keydown', onKey)
   }, [onLater])
 
+  // Each companion introduces itself (silently skipped if the browser blocks autoplay).
+  useEffect(() => {
+    playMascotLines(MASCOT_CHARACTERS.map(m => `${m}-pick`), { delayMs: 400 })
+    return stopMascotVoice
+  }, [])
+
   async function pick(m: MascotCharacter) {
+    stopMascotVoice()
     setSaving(m); setFailed(false)
     const ok = await onChoose(m)
     if (!ok) { setSaving(null); setFailed(true) }
