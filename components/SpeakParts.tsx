@@ -2,7 +2,9 @@
 
 // Shared UI pieces for the "Phát âm cùng AI" games (SpeakGame, PhonicsSpeak).
 
+import { useState } from 'react'
 import { cta } from '@/components/ChunkyUI'
+import { disputePronunciation } from '@/lib/pronounceClient'
 
 export const SLOW_RATE = 0.6
 // After this many wrong tries on one item, play the model slowly and suggest moving on
@@ -80,8 +82,9 @@ export function ScoreTiles({ s }: { s: Scores }) {
 
 /** Result card: ⭐⭐⭐ / ⭐⭐ when passed, a gentle 💪 otherwise (no red ❌ for kids). With Azure
  *  scores the headline carries the score ("Giỏi lắm! 86 điểm") and the transcript line is dropped. */
-export function ResultCard({ correct, stars, marks, transcript, scores, onSpeak }: {
+export function ResultCard({ correct, stars, marks, transcript, scores, onSpeak, logId }: {
   correct: boolean; stars: number; marks: Mark[]; transcript: string; scores?: Scores; onSpeak?: (text: string) => void
+  logId?: number | null // Azure attempt id → "Tôi đọc đúng mà" under a fail
 }) {
   const title = correct ? (stars === 3 ? 'Xuất sắc!' : 'Giỏi lắm!') : 'Gần được rồi! Thử lại nhé'
   return (
@@ -94,7 +97,21 @@ export function ResultCard({ correct, stars, marks, transcript, scores, onSpeak 
       {transcript && !scores && (
         <p className="text-xs text-gray-400 font-medium mt-1.5">AI nghe được: <span className="italic">&ldquo;{transcript}&rdquo;</span></p>
       )}
+      {!correct && logId ? <DisputeButton key={logId} logId={logId} /> : null}
     </div>
+  )
+}
+
+/** Learner thinks the fail is wrong → logged as a false-reject signal to tune the bars. The
+ *  verdict stays (a kid could otherwise tap past every word). */
+function DisputeButton({ logId }: { logId: number }) {
+  const [sent, setSent] = useState(false)
+  if (sent) return <p className="text-xs text-slate-500 font-semibold mt-2">Cảm ơn! Thầy cô sẽ xem lại để AI chấm chuẩn hơn.</p>
+  return (
+    <button onClick={() => { setSent(true); void disputePronunciation(logId) }}
+      className="mt-2 text-xs font-bold text-slate-500 underline underline-offset-2 active:scale-95">
+      Tôi đọc đúng mà
+    </button>
   )
 }
 

@@ -36,6 +36,29 @@ Approved by Andie 2026-10-30. Same plan in both repos (`docs/pronunciation-thres
      → convert to 16 kHz WAV → Azure → CSV (scores per clip/word/phoneme) + suggested bars that best separate
      correct vs wrong (min false accept + false reject), per group (adult / kid).
 
+## Built in VocabWise (2026-10-30)
+| Piece | Where |
+|---|---|
+| Bars + hard-sound allowance (pure) | `lib/pronunciationScore.ts`: `DEFAULT_BARS`, `sanitizeBars`, `wordOk`, `isHardSound`; `passes` / `markWords` / `phonicsVerdict` take `bars` |
+| Admin-editable bars | `admin_config` key `pronunciation_bars` (JSON) via `lib/pronunciationBars.ts` (60 s cache) · Superadmin → Cài đặt → **Ngưỡng chấm phát âm** (`/api/superadmin/pronunciation`): edit, reset to defaults, 30-day pass + dispute rate per group, latest 20 disputes |
+| Hard sounds | allowance `hard` = points off the word/sound bar (default young 10 · mid 5 · ielts 0) when every sound below the bar is θ ð ʒ l n i ɪ æ ɛ ʃ s v w or word-final p t k b d g s z. Phonics: no allowance when Azure heard the other lesson sound (sheep → ship) |
+| Dispute | "Tôi đọc đúng mà" under a failed Azure result (SpeakGame, PhonicsSpeak) → `/api/score-pronunciation/dispute` sets `pronunciation_log.disputed_at`; verdict unchanged. Quick record button: none (too small) |
+| Log | `pronunciation_log` + `grp`, `detail` (per-word + phoneme scores, no audio), `disputed_at` — migration `20261030100000_pronunciation_log_dispute.sql` (apply in SQL Editor). Phonics sends `targets`/`symbols` so the logged verdict = the sound-level verdict the kid sees |
+| Golden-set script | `scripts/pron-golden-set.mjs` (below) |
+
+### Golden set — how to record and run
+- Folder (e.g. on Drive): `adult/` and `kid/` subfolders; file names `<item>__correct.m4a`, `<item>__wrong-<error>.m4a`
+  (e.g. `think__wrong-sink.m4a`); several takes: `think__correct-2.m4a`. Phone voice memos are fine.
+- Optional `items.csv`: `item,text,keyword,level,symbols,targets` — text = what is read (e.g. `I think so.`),
+  Phonics items add `symbols` `iː|ɪ` + `targets` `sheep`. Without it the item name is the text.
+- Run: `node --env-file=.env.local scripts/pron-golden-set.mjs <folder> [--bars bars.json]`
+  (needs ffmpeg; the shared Azure key is currently only in AXANH's `.env.local` → `--env-file=../axanh-global-english/.env.local`).
+- Output `<folder>/results/`: `clips.csv`, `phonemes.csv`, `suggest.md` (current FA/FR + suggested bar per metric per group).
+  Azure answers are cached in `results/raw/` → reruns only spend quota on new clips.
+- Smoke test with 4 macOS TTS clips (2026-10-30): sheep/ship separated only by the /i/ phoneme score (23 vs 100;
+  overall score 98 vs 99), but "I sink so" scored /θ/ 100 against reference "I think so" → overall/word scores
+  alone don't catch every substitution; the real golden set must check θ→s, ʃ→s, final-consonant drops.
+
 ## Steps
 | Step | Who | What | When |
 |---|---|---|---|

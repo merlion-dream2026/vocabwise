@@ -1,4 +1,4 @@
-import type { Assessment } from './pronunciationScore'
+import type { Assessment, Bars } from './pronunciationScore'
 import { toWav16k } from './wav'
 
 // Client side of /api/score-pronunciation for Phát âm cùng AI, Phonics luyện nói and the quick
@@ -7,6 +7,7 @@ import { toWav16k } from './wav'
 export type ScoreResponse = {
   transcript: string; correct: boolean; unclear: boolean
   engine?: 'azure' | 'whisper'; assessment?: Assessment; azureOff?: boolean
+  bars?: Bars; logId?: number | null // Azure only: bars the verdict used, pronunciation_log row (for disputes)
 }
 
 // Server says Azure isn't configured → skip the WAV conversion (~0.5 s/clip) for the rest of the session
@@ -27,4 +28,11 @@ export async function scorePronunciation(blob: Blob, mimeType: string, fields: R
   const data = (await res.json()) as ScoreResponse
   if (data.azureOff) { try { sessionStorage.setItem(OFF_KEY, '1') } catch { /* no storage */ } }
   return data
+}
+
+/** "Tôi đọc đúng mà" — flags a failed Azure attempt as a likely false reject. Fire-and-forget. */
+export function disputePronunciation(logId: number): Promise<boolean> {
+  return fetch('/api/score-pronunciation/dispute', {
+    method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ logId }),
+  }).then(r => r.ok, () => false)
 }

@@ -5,7 +5,8 @@ import { getAISpeakLimit } from '@/lib/planUtils'
 import { consumeAIQuota } from '@/lib/aiQuota'
 import { normalize, soundex } from '@/lib/pronunciation'
 import { assessPronunciation, azureConfigured } from '@/lib/azureSpeech'
-import { passes } from '@/lib/pronunciationScore'
+import { passes, phonicsVerdict, groupFor, type Assessment } from '@/lib/pronunciationScore'
+import { getPronunciationBars } from '@/lib/pronunciationBars'
 import { supabase } from '@/lib/supabaseServer'
 
 /** Whisper đôi khi hallucinate sang ngôn ngữ khác → không có ký tự a-z nào */
@@ -54,6 +55,11 @@ function isCorrect(transcript: string, target: string, word: string, contrastWor
   return matched / tgtWords.length >= threshold
 }
 
+/** Compact per-word scores for the log (no audio): which words/sounds fail → tune the bars. */
+function logDetail(a: Assessment) {
+  return a.words.slice(0, 12).map(w => ({ w: w.word, a: w.accuracy, e: w.error, ph: w.phonemes.map(p => [p.p, p.score]) }))
+}
+
 // Scholar/Master learners are expected to pronounce more precisely (IELTS-track);
 // everyone else (Seeker..Explorer, and any caller that doesn't send a Daily level,
 // e.g. Phonics) keeps the original, more forgiving threshold.
@@ -90,6 +96,10 @@ export async function POST(req: NextRequest) {
   const source         = ((formData.get('source')       as string | null) ?? 'speak').slice(0, 20)
   const contrastRaw    = (formData.get('contrastWords') as string | null) ?? ''
   const contrastWords  = contrastRaw ? contrastRaw.split(',').map(s => s.trim()).filter(Boolean) : []
+  // Phonics pair lessons: highlighted words + lesson sounds → sound-level verdict (same as the client)
+  const list = (k: string) => ((formData.get(k) as string | null) ?? '').split('|').map(s => s.trim()).filter(Boolean).slice(0, 20)
+  const focusTargets   = list('targets')
+  const focusSymbols   = list('symbols')
   if (!audio || !target || !word) {
     return NextResponse.json({ error: 'Missing fields' }, { status: 400 })
   }
@@ -122,13 +132,21 @@ export async function POST(req: NextRequest) {
     if (r.kind === 'unclear') return NextResponse.json({ transcript: '', correct: false, unclear: true, engine: 'azure' })
     if (r.kind === 'ok') {
       const a = r.assessment
-      const correct = passes(a, word, level || source)
-      // Scores per attempt → recalibrate the kid-friendly bars (lib/pronunciationScore.ts) on real data
-      await supabase.from('pronunciation_log').insert({
+      const bars = await getPronunciationBars()
+      const lvl = level || source
+      const correct = focusTargets.length && focusSymbols.length
+        ? phonicsVerdict(a, focusTargets, focusSymbols, bars).ok
+        : passes(a, word, lvl, bars)
+      // Scores per attempt → recalibrate the bars on real data; the id lets the learner dispute a fail
+      const base = {
         family_id: session.familyId, source, level: level || null, target: target.slice(0, 200), ok: correct,
         pron_score: a.pronScore, accuracy: a.accuracy, fluency: a.fluency, completeness: a.completeness,
-      }).then(() => {}, () => {})
-      return NextResponse.json({ transcript: a.transcript, correct, unclear: false, engine: 'azure', assessment: a })
+      }
+      const log = (row: object) => supabase.from('pronunciation_log').insert(row).select('id').single()
+        .then(r => (r.error ? null : r.data), () => null)
+      // grp/detail columns missing (migration 20261030100000 not applied yet) → keep logging the scores
+      const logged = (await log({ ...base, grp: groupFor(lvl), detail: logDetail(a) })) ?? (await log(base))
+      return NextResponse.json({ transcript: a.transcript, correct, unclear: false, engine: 'azure', assessment: a, bars, logId: logged?.id ?? null })
     }
   }
 

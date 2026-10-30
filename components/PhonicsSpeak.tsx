@@ -12,7 +12,7 @@ import Confetti from '@/components/Confetti'
 import VoicePlayer from '@/components/VoicePlayer'
 import { GameHeader, cta, colorFamily } from '@/components/ChunkyUI'
 import { matchWords } from '@/lib/pronunciation'
-import { markWords, phonicsVerdict, type Assessment, type PhonicsVerdict } from '@/lib/pronunciationScore'
+import { markWords, phonicsVerdict, type Assessment, type Bars, type PhonicsVerdict } from '@/lib/pronunciationScore'
 import { scorePronunciation } from '@/lib/pronounceClient'
 import PhonicsSoundCard from '@/components/PhonicsSoundCard'
 import { useMicMeter } from '@/lib/useMicMeter'
@@ -104,6 +104,7 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
   const [found, setFound]           = useState<string[]>([])
   const [assessment, setAssessment] = useState<Assessment | null>(null)     // Azure scores (null = Whisper path)
   const [verdict, setVerdict]       = useState<PhonicsVerdict | null>(null) // sound-level result (pair lessons)
+  const [azureMeta, setAzureMeta]   = useState<{ bars?: Bars; logId?: number | null }>({}) // read only with `assessment`
   const [micError, setMicError]     = useState<string | null>(null)
   const [playbackUrl, setPlaybackUrl] = useState<string | null>(null)
   const [timeLeft, setTimeLeft]     = useState(MAX_SECS)
@@ -216,11 +217,14 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
     setPhase('processing')
     try {
       // Azure-scored when the clip converts to WAV (lib/pronounceClient.ts), else Whisper
-      const data = await scorePronunciation(blob, mimeType, { target: current.en, level: 'phonics', source: 'phonics' })
+      // targets + symbols → the server logs the same sound-level verdict the kid sees
+      const data = await scorePronunciation(blob, mimeType, {
+        target: current.en, level: 'phonics', source: 'phonics', targets: current.targets.join('|'), symbols: symbols.join('|'),
+      })
       const a = data.assessment ?? null
       // Azure + a pair lesson → judge the lesson's own sounds inside the highlighted words
-      const v = a && symbols.length && current.targets.length ? phonicsVerdict(a, current.targets, symbols) : null
-      setAssessment(a); setVerdict(v)
+      const v = a && symbols.length && current.targets.length ? phonicsVerdict(a, current.targets, symbols, data.bars) : null
+      setAssessment(a); setVerdict(v); setAzureMeta({ bars: data.bars, logId: data.logId })
 
       const tr = (data.transcript ?? '').trim()
       setTranscript(tr)
@@ -283,7 +287,7 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
 
   // Target sounds present → mark those (the phonics focus); otherwise mark every word
   const marks = phase !== 'done' || unclear ? []
-    : assessment ? markWords(assessment, current.en, 'phonics')
+    : assessment ? markWords(assessment, current.en, 'phonics', azureMeta.bars)
     : !transcript ? []
     : marksFromMatch(current.targets.length ? current.targets.map(t => ({ text: t, ok: found.includes(t) })) : matchWords(transcript, current.en))
   const stars = !isCorrect ? 0
@@ -399,7 +403,8 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
           {phase === 'done' && !unclear && (
             <>
               <ResultCard correct={!!isCorrect} stars={stars} marks={marks} transcript={transcript}
-                scores={assessment ?? undefined} onSpeak={assessment ? t => speakSentence(t, { rate: SLOW_RATE }) : undefined} />
+                scores={assessment ?? undefined} onSpeak={assessment ? t => speakSentence(t, { rate: SLOW_RATE }) : undefined}
+                logId={assessment ? azureMeta.logId : null} />
               {verdict && <PhonicsSoundCard verdict={verdict} sounds={lesson.sounds ?? []} tip={lesson.tip} />}
               {assessment && !verdict && <ScoreTiles s={assessment} />}
             </>

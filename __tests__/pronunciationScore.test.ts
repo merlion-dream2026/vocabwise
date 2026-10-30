@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { parseAzure, passes, markWords, phonicsVerdict, azurePhonemes, barFor } from '@/lib/pronunciationScore'
+import { parseAzure, passes, markWords, phonicsVerdict, azurePhonemes, barFor, sanitizeBars, DEFAULT_BARS } from '@/lib/pronunciationScore'
 
 // Shapes taken from a real Azure response (IPA, NBestPhonemeCount 3): TTS said "ship", reference "sheep".
 const ph = (p: string, score: number, heard: string[]) => ({ Phoneme: p, PronunciationAssessment: { AccuracyScore: score, NBestPhonemes: heard.map(x => ({ Phoneme: x })) } })
@@ -72,5 +72,39 @@ describe('phonicsVerdict', () => {
     const v = phonicsVerdict(good, ['sheep'], ['iː', 'ɪ'])
     expect(v.ok).toBe(true)
     expect(v.weakest?.heardAs).toBeUndefined()
+  })
+})
+
+describe('hard-for-Vietnamese sounds', () => {
+  // "cat" 45 overall: only the final /t/ is weak (42) → kind at young levels, not at Scholar/Master
+  const finalT = parseAzure(azure(80, [word('cat', 45, [ph('k', 90, ['k']), ph('æ', 85, ['æ']), ph('t', 42, ['t'])])]))!
+  it('lowers the key-word bar when only hard sounds are weak', () => {
+    expect(passes(finalT, 'cat', 'starter')).toBe(true)   // 42 ≥ 50 − 10
+    expect(passes(finalT, 'cat', 'master')).toBe(false)   // no allowance, 45 < 60
+    expect(markWords(finalT, 'cat', 'starter')[0].level).toBe('weak')
+  })
+  it('gives no allowance for an easy sound', () => {
+    const initialK = parseAzure(azure(80, [word('cat', 45, [ph('k', 42, ['k']), ph('æ', 85, ['æ']), ph('t', 90, ['t'])])]))!
+    expect(passes(initialK, 'cat', 'starter')).toBe(false)
+  })
+  it('phonics: kind to a weak θ, but not when it was heard as the paired sound', () => {
+    const think = (heard: string[]) => parseAzure(azure(80, [word('think', 60, [ph('θ', 45, heard), ph('ɪ', 90, ['ɪ']), ph('ŋ', 90, ['ŋ']), ph('k', 90, ['k'])])]))!
+    expect(phonicsVerdict(think(['θ', 'f']), ['think'], ['θ', 's']).ok).toBe(true)  // 45 ≥ 50 − 10
+    expect(phonicsVerdict(think(['s', 'θ']), ['think'], ['θ', 's']).ok).toBe(false) // said /s/ → the lesson's mistake
+  })
+})
+
+describe('admin-edited bars', () => {
+  it('fills missing fields from defaults and clamps bad values', () => {
+    const b = sanitizeBars({ young: { pron: 55, word: 'x', completeness: 140 }, hard: { young: 99 } })
+    expect(b.young).toEqual({ pron: 55, word: DEFAULT_BARS.young.word, completeness: 100 })
+    expect(b.hard.young).toBe(30)
+    expect(b.ielts).toEqual(DEFAULT_BARS.ielts)
+  })
+  it('are used by the verdict', () => {
+    const a = parseAzure(shipForSheep)!
+    const strict = sanitizeBars({ ...DEFAULT_BARS, young: { pron: 80, word: 50, completeness: 60 } })
+    expect(passes(a, 'sheep', 'starter')).toBe(true)
+    expect(passes(a, 'sheep', 'starter', strict)).toBe(false) // 78 < 80
   })
 })

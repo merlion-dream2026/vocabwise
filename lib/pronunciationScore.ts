@@ -1,7 +1,8 @@
 // Azure Pronunciation Assessment → VocabWise verdicts. Pure (no I/O): shared by the scoring API
 // (parse + Daily/Academic verdict), the Phonics game (sound-level verdict) and the result UI.
 // Thresholds are a first guess, kinder for young levels (Azure is tuned on adult voices) — every
-// Azure result is logged with its scores (pronunciation_log) so they can be recalibrated.
+// Azure result is logged with its scores (pronunciation_log) so they can be recalibrated
+// (docs/pronunciation-thresholds-plan.md).
 import { normalize } from './pronunciation'
 
 export type PhonemeScore = { p: string; score: number; heard: string[] } // heard = Azure's top guesses (NBest)
@@ -42,38 +43,87 @@ export function parseAzure(json: unknown): Assessment | null {
   }
 }
 
-// ── Daily / Academic "Phát âm cùng AI" ───────────────────────────────────────
-type Bar = { pron: number; word: number; completeness: number }
-const BARS: Record<'young' | 'mid' | 'ielts', Bar> = {
+// ── Bars (admin-editable) ────────────────────────────────────────────────────
+// Defaults below; superadmin can override them without a deploy (admin_config key
+// 'pronunciation_bars', lib/pronunciationBars.ts). The API sends the effective bars with each
+// result so the client-side verdicts (Phonics, word chips) use the same numbers.
+export type Bar = { pron: number; word: number; completeness: number }
+export type BarGroup = 'young' | 'mid' | 'ielts'
+export type Bars = Record<BarGroup, Bar> & {
+  /** Points off the word/sound bar when the only weak sounds are ones Vietnamese speakers find hard
+   *  (HARD_SOUNDS) — kind at young levels, tightening with level. */
+  hard: Record<BarGroup, number>
+}
+export const BAR_GROUPS: BarGroup[] = ['young', 'mid', 'ielts']
+export const DEFAULT_BARS: Bars = {
   young: { pron: 60, word: 50, completeness: 60 }, // Seeker/Starter/Ranger + Phonics
   mid: { pron: 65, word: 55, completeness: 65 },   // Explorer (and callers without a level)
   ielts: { pron: 70, word: 60, completeness: 70 }, // Scholar/Master — same bar as AXANH adults
-}
-export function barFor(level: string): Bar {
-  if (['seeker', 'starter', 'ranger', 'phonics'].includes(level)) return BARS.young
-  if (['scholar', 'master'].includes(level)) return BARS.ielts
-  return BARS.mid
+  hard: { young: 10, mid: 5, ielts: 0 },
 }
 
+export function groupFor(level: string): BarGroup {
+  if (['seeker', 'starter', 'ranger', 'phonics'].includes(level)) return 'young'
+  if (['scholar', 'master'].includes(level)) return 'ielts'
+  return 'mid'
+}
+export function barFor(level: string, bars: Bars = DEFAULT_BARS): Bar {
+  return bars[groupFor(level)]
+}
+
+/** Clamp/fill an untrusted bars object (admin input or stored JSON) onto the defaults. */
+export function sanitizeBars(raw: unknown): Bars {
+  const r = (raw ?? {}) as Partial<Record<BarGroup | 'hard', Record<string, unknown>>>
+  const n = (v: unknown, d: number, max = 100) => (typeof v === 'number' && Number.isFinite(v) ? Math.min(max, Math.max(0, Math.round(v))) : d)
+  const out = { hard: {} } as Bars
+  for (const g of BAR_GROUPS) {
+    const d = DEFAULT_BARS[g]
+    out[g] = { pron: n(r[g]?.pron, d.pron), word: n(r[g]?.word, d.word), completeness: n(r[g]?.completeness, d.completeness) }
+    out.hard[g] = n(r.hard?.[g], DEFAULT_BARS.hard[g], 30)
+  }
+  return out
+}
+
+// Sounds Vietnamese learners typically miss (Azure en-US IPA): θ ð, ʒ, l/n, iː/ɪ, æ/e, ʃ/s, v/w,
+// plus word-final p t k b d g s z.
+const HARD_ANYWHERE = new Set(['θ', 'ð', 'ʒ', 'l', 'n', 'i', 'ɪ', 'æ', 'ɛ', 'ʃ', 's', 'v', 'w'])
+const HARD_FINAL = new Set(['p', 't', 'k', 'b', 'd', 'g', 'ɡ', 's', 'z'])
+export function isHardSound(phonemes: PhonemeScore[], i: number): boolean {
+  const p = phonemes[i].p
+  return HARD_ANYWHERE.has(p) || (i === phonemes.length - 1 && HARD_FINAL.has(p))
+}
+
+/** Word clears the bar — or misses it only on hard-for-Vietnamese sounds that still reach
+ *  bar − hard discount (needs phoneme scores; without them the plain word score decides). */
+export function wordOk(w: WordScore, level: string, bars: Bars = DEFAULT_BARS): boolean {
+  if (w.error === 'Omission') return false
+  const bar = barFor(level, bars).word
+  if (w.accuracy >= bar) return true
+  const off = bars.hard[groupFor(level)]
+  if (!off || !w.phonemes.length) return false
+  return w.phonemes.every((ph, i) => ph.score >= bar || (isHardSound(w.phonemes, i) && ph.score >= bar - off))
+}
+
+// ── Daily / Academic "Phát âm cùng AI" ───────────────────────────────────────
 /** Pass = good overall score, phrase (almost) fully read, and every word of the key word itself
  *  acceptable — the word being learned can't be carried by the rest of the sentence. */
-export function passes(a: Assessment, keyword: string, level: string): boolean {
-  const bar = barFor(level)
+export function passes(a: Assessment, keyword: string, level: string, bars: Bars = DEFAULT_BARS): boolean {
+  const bar = barFor(level, bars)
   if (a.pronScore < bar.pron || a.completeness < bar.completeness) return false
   const target = new Set(normalize(keyword).split(' ').filter(Boolean))
   const hits = a.words.filter((w) => target.has(normalize(w.word)) && w.error !== 'Insertion')
   if (hits.length === 0) return false
-  return hits.every((w) => w.accuracy >= bar.word && w.error !== 'Omission')
+  return hits.every((w) => wordOk(w, level, bars))
 }
 
-/** Chip colour per word: bad = mispronounced/omitted, weak = borderline, good. */
-export function wordLevel(w: { accuracy: number; error: string }, level: string): 'bad' | 'weak' | 'good' {
-  if (w.error === 'Omission' || w.error === 'Mispronunciation' || w.accuracy < barFor(level).word) return 'bad'
+/** Chip colour per word: bad = below the bar (after the hard-sound allowance), weak = borderline, good. */
+export function wordLevel(w: WordScore, level: string, bars: Bars = DEFAULT_BARS): 'bad' | 'weak' | 'good' {
+  if (!wordOk(w, level, bars)) return 'bad'
   return w.accuracy < 80 ? 'weak' : 'good'
 }
 
 /** Target phrase as displayed (original casing/punctuation), each word with its Azure score. */
-export function markWords(a: Assessment, target: string, level: string): { text: string; level: 'bad' | 'weak' | 'good' }[] {
+export function markWords(a: Assessment, target: string, level: string, bars: Bars = DEFAULT_BARS): { text: string; level: 'bad' | 'weak' | 'good' }[] {
   const scored = a.words.filter((w) => w.error !== 'Insertion')
   let i = 0
   return target.split(/\s+/).filter(Boolean).map((text) => {
@@ -82,7 +132,7 @@ export function markWords(a: Assessment, target: string, level: string): { text:
     const j = scored.findIndex((w, k) => k >= i && normalize(w.word) === n)
     if (j < 0) return { text, level: 'bad' as const }
     i = j + 1
-    return { text, level: wordLevel(scored[j], level) }
+    return { text, level: wordLevel(scored[j], level, bars) }
   })
 }
 
@@ -111,9 +161,12 @@ export type PhonicsVerdict = {
 }
 
 /** Pass = overall bar for young learners + every lesson-sound phoneme inside the highlighted words
- *  scores ≥ bar.word (a highlighted word without a mapped phoneme falls back to its word score). */
-export function phonicsVerdict(a: Assessment, focusWords: string[], symbols: string[]): PhonicsVerdict {
-  const bar = barFor('phonics')
+ *  scores ≥ bar.word (a highlighted word without a mapped phoneme falls back to its word score).
+ *  Hard-for-Vietnamese lesson sounds get the hard allowance — unless Azure heard the OTHER lesson
+ *  sound (sheep → ship): that is exactly the mistake the lesson teaches, so no allowance. */
+export function phonicsVerdict(a: Assessment, focusWords: string[], symbols: string[], bars: Bars = DEFAULT_BARS): PhonicsVerdict {
+  const bar = barFor('phonics', bars)
+  const off = bars.hard[groupFor('phonics')]
   const toSymbol = new Map<string, string>()
   for (const s of symbols) for (const p of azurePhonemes(s)) if (!toSymbol.has(p)) toSymbol.set(p, s)
   const focusSet = new Set(focusWords.map(normalize))
@@ -135,7 +188,8 @@ export function phonicsVerdict(a: Assessment, focusWords: string[], symbols: str
     const focus = w.phonemes.filter((p) => p.focus)
     if (!focus.length) { if (w.accuracy < bar.word) ok = false; continue }
     for (const p of focus) {
-      if (p.score < bar.word) ok = false
+      const kind = off && !p.heardAs && isHardSound(w.phonemes, w.phonemes.indexOf(p))
+      if (p.score < bar.word - (kind ? off : 0)) ok = false
       if (!weakest || p.score < weakest.score) weakest = { symbol: toSymbol.get(p.p)!, score: p.score, heardAs: p.heardAs }
     }
   }

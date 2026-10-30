@@ -11,7 +11,7 @@ import VoicePlayer from '@/components/VoicePlayer'
 import GameResultScreen from '@/components/GameResultScreen'
 import { GameHeader } from '@/components/ChunkyUI'
 import { matchWords } from '@/lib/pronunciation'
-import { markWords, type Assessment } from '@/lib/pronunciationScore'
+import { markWords, type Assessment, type Bars } from '@/lib/pronunciationScore'
 import { scorePronunciation } from '@/lib/pronounceClient'
 import { useMicMeter } from '@/lib/useMicMeter'
 import { SLOW_RATE, HINT_AFTER_FAILS, RecordingView, ModelVoiceRow, ResultCard, ScoreTiles, marksFromMatch, UnclearCard, HintCard, ResultButtons } from '@/components/SpeakParts'
@@ -69,6 +69,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
   const [phase, setPhase] = useState<Phase>('idle')
   const [transcript, setTranscript] = useState('')
   const [assessment, setAssessment] = useState<Assessment | null>(null) // Azure scores (null = Whisper path)
+  const [azureMeta, setAzureMeta] = useState<{ bars?: Bars; logId?: number | null }>({}) // read only with `assessment`
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null)
   const [unclear, setUnclear] = useState(false)
   const [micError, setMicError] = useState<string | null>(null)
@@ -214,6 +215,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
       // Azure-scored when the clip converts to WAV (lib/pronounceClient.ts), else Whisper
       const data = await scorePronunciation(blob, mimeType, { target: speakTarget, word: q.word, level, source: 'speak' })
       setAssessment(data.assessment ?? null)
+      setAzureMeta({ bars: data.bars, logId: data.logId })
 
       const correct  = !!data.correct
       const isUnclear = !!data.unclear   // Whisper hallucinated → không phải lỗi của bé
@@ -271,7 +273,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
   }
 
   const wordMarks = phase !== 'done' || unclear ? []
-    : assessment ? markWords(assessment, speakTarget, level)
+    : assessment ? markWords(assessment, speakTarget, level, azureMeta.bars)
     : transcript ? marksFromMatch(matchWords(transcript, speakTarget)) : []
   const stars = !isCorrect ? 0
     : assessment ? (assessment.pronScore >= 85 ? 3 : 2)
@@ -377,7 +379,8 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
           {phase === 'done' && !unclear && (
             <>
               <ResultCard correct={!!isCorrect} stars={stars} marks={wordMarks} transcript={transcript}
-                scores={assessment ?? undefined} onSpeak={assessment ? t => speak(t, SLOW_RATE) : undefined} />
+                scores={assessment ?? undefined} onSpeak={assessment ? t => speak(t, SLOW_RATE) : undefined}
+                logId={assessment ? azureMeta.logId : null} />
               {assessment && <ScoreTiles s={assessment} />}
             </>
           )}

@@ -7,6 +7,7 @@ import { exportCSV, addDays, today, daysUntil, planBadge } from '../_lib/helpers
 import { PasswordInput } from './PasswordInput'
 import { FamilyEditModal } from './FamilyEditModal'
 import { GlobalConfigPanel } from './GlobalConfigPanel'
+import { PronunciationPanel } from './PronunciationPanel'
 import { TotpPanel } from './TotpPanel'
 import { ExpiryReport } from './ExpiryReport'
 import { FinancePanel } from './FinancePanel'
@@ -553,6 +554,7 @@ export function AdminPanel() {
         {adminTab === 'settings' && (
           <div>
             <GlobalConfigPanel />
+            <PronunciationPanel />
             <TotpPanel />
             <AuditLogPanel />
           </div>
