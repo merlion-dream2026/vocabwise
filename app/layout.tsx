@@ -9,6 +9,7 @@ import BottomNav from '@/components/BottomNav'
 import MainContainer from '@/components/MainContainer'
 import FontSizeApplier from '@/components/FontSizeApplier'
 import PullToRefresh from '@/components/PullToRefresh'
+import StatusBarTint from '@/components/StatusBarTint'
 import { GameSyncProvider } from '@/lib/GameSyncContext'
 import { ChildMascotProvider } from '@/components/MascotContext'
 import { FREE_KIDS, PAID_PLANS, PLAN_PERKS, TRIAL_DAYS } from '@/lib/plans'
@@ -152,6 +153,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         </GameSyncProvider>
         <Analytics />
         <PwaRegister />
+        <StatusBarTint />
       </body>
     </html>
   )

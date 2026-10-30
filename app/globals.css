@@ -19,6 +19,14 @@ body {
   overscroll-behavior-y: contain;
 }
 
+/* Phones: iOS tints the status-bar zone from the page background color — make that the top
+   header's color (--statusbar, set per route by components/StatusBarTint.tsx). The body's
+   gradient (background-image) still paints on top, so the page itself looks unchanged. */
+:root { --statusbar: #9333ea; }
+@media (max-width: 767px) {
+  html, body { background-color: var(--statusbar); }
+}
+
 @keyframes shake {
   0%, 100% { transform: translateX(0); }
   15%       { transform: translateX(-8px); }
