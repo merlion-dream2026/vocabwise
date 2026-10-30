@@ -84,7 +84,7 @@ export function ScoreTiles({ s }: { s: Scores }) {
  *  scores the headline carries the score ("Giỏi lắm! 86 điểm") and the transcript line is dropped. */
 export function ResultCard({ correct, stars, marks, transcript, scores, onSpeak, logId }: {
   correct: boolean; stars: number; marks: Mark[]; transcript: string; scores?: Scores; onSpeak?: (text: string) => void
-  logId?: number | null // Azure attempt id → "Tôi đọc đúng mà" under a fail
+  logId?: number | null // Azure attempt id → "Con đọc đúng mà" under a fail
 }) {
   const title = correct ? (stars === 3 ? 'Xuất sắc!' : 'Giỏi lắm!') : 'Gần được rồi! Thử lại nhé'
   return (
@@ -110,7 +110,7 @@ function DisputeButton({ logId }: { logId: number }) {
   return (
     <button onClick={() => { setSent(true); void disputePronunciation(logId) }}
       className="mt-2 text-xs font-bold text-slate-500 underline underline-offset-2 active:scale-95">
-      Tôi đọc đúng mà
+      Con đọc đúng mà
     </button>
   )
 }

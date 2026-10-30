@@ -111,7 +111,7 @@ export function PronunciationPanel() {
 
       {data.disputes.length > 0 && (
         <details className="mt-4">
-          <summary className="text-sm font-semibold text-slate-600 cursor-pointer">Khiếu nại &ldquo;Tôi đọc đúng mà&rdquo; gần đây ({data.disputes.length})</summary>
+          <summary className="text-sm font-semibold text-slate-600 cursor-pointer">Khiếu nại &ldquo;Con đọc đúng mà&rdquo; gần đây ({data.disputes.length})</summary>
           <ul className="mt-2 space-y-1.5">
             {data.disputes.map(d => (
               <li key={d.id} className="text-xs text-slate-600 border-t border-slate-100 pt-1.5">

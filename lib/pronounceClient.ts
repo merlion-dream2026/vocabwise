@@ -30,7 +30,7 @@ export async function scorePronunciation(blob: Blob, mimeType: string, fields: R
   return data
 }
 
-/** "Tôi đọc đúng mà" — flags a failed Azure attempt as a likely false reject. Fire-and-forget. */
+/** "Con đọc đúng mà" — flags a failed Azure attempt as a likely false reject. Fire-and-forget. */
 export function disputePronunciation(logId: number): Promise<boolean> {
   return fetch('/api/score-pronunciation/dispute', {
     method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ logId }),
