@@ -33,37 +33,65 @@ export function ModelVoiceRow({ onPlay }: { onPlay: (rate?: number) => void }) {
   )
 }
 
-/** Word chips: green = heard, orange = AI didn't catch it. */
-export function WordMarks({ marks }: { marks: { text: string; ok: boolean }[] }) {
+export type Mark = { text: string; level: 'good' | 'weak' | 'bad' }
+export const marksFromMatch = (m: { text: string; ok: boolean }[]): Mark[] => m.map(x => ({ text: x.text, level: x.ok ? 'good' : 'bad' }))
+export type Scores = { pronScore: number; accuracy: number; fluency: number; completeness: number }
+
+const CHIP: Record<Mark['level'], string> = {
+  good: 'bg-green-100 text-green-700',
+  weak: 'bg-amber-100 text-amber-700',
+  bad: 'bg-red-100 text-red-600',
+}
+
+/** Word chips: green = good, amber = borderline, red = mispronounced / not heard. With Azure
+ *  (`scored`) the colours are real pronunciation scores; with Whisper red only means "not heard".
+ *  `onSpeak` → tap a chip to hear the model pronunciation. */
+export function WordMarks({ marks, scored, onSpeak }: { marks: Mark[]; scored?: boolean; onSpeak?: (text: string) => void }) {
   if (!marks.length) return null
+  const anyBad = marks.some(m => m.level === 'bad')
   return (
     <>
       <p className="mt-2 flex flex-wrap justify-center gap-1">
-        {marks.map((m, i) => (
-          <span key={i} className={`px-1.5 py-0.5 rounded-lg font-bold text-base ${m.ok ? 'bg-green-100 text-green-700' : 'bg-orange-100 text-orange-700 underline decoration-wavy'}`}>
-            {m.text}
-          </span>
-        ))}
+        {marks.map((m, i) => onSpeak
+          ? <button key={i} onClick={() => onSpeak(m.text)} className={`px-1.5 py-0.5 rounded-lg font-bold text-base active:scale-95 ${CHIP[m.level]}`}>{m.text}</button>
+          : <span key={i} className={`px-1.5 py-0.5 rounded-lg font-bold text-base ${CHIP[m.level]}`}>{m.text}</span>)}
       </p>
-      {marks.some(m => !m.ok) && (
-        <p className="text-xs text-orange-500 font-semibold mt-1.5">Từ màu cam: AI chưa nghe rõ</p>
+      {anyBad && (
+        <p className="text-xs text-slate-500 font-semibold mt-1.5">
+          {scored ? 'Từ màu đỏ: đọc chưa chuẩn' : 'Từ màu đỏ: AI chưa nghe rõ'}{onSpeak ? ' · chạm để nghe cách đọc đúng' : ''}
+        </p>
       )}
     </>
   )
 }
 
-/** Result card: ⭐⭐⭐ / ⭐⭐ when passed, a gentle 💪 otherwise (no red ❌ for kids). */
-export function ResultCard({ correct, stars, marks, transcript }: {
-  correct: boolean; stars: number; marks: { text: string; ok: boolean }[]; transcript: string
+/** Azure's three sub-scores under the result. */
+export function ScoreTiles({ s }: { s: Scores }) {
+  return (
+    <div className="grid grid-cols-3 gap-2 w-full text-center text-[11px] font-semibold text-slate-500">
+      {([['Chính xác', s.accuracy], ['Trôi chảy', s.fluency], ['Đầy đủ', s.completeness]] as const).map(([label, v]) => (
+        <div key={label} className="rounded-xl bg-white border-2 border-slate-100 py-1.5">
+          <b className="block text-base text-slate-700">{v}</b>{label}
+        </div>
+      ))}
+    </div>
+  )
+}
+
+/** Result card: ⭐⭐⭐ / ⭐⭐ when passed, a gentle 💪 otherwise (no red ❌ for kids). With Azure
+ *  scores the headline carries the score ("Giỏi lắm! 86 điểm") and the transcript line is dropped. */
+export function ResultCard({ correct, stars, marks, transcript, scores, onSpeak }: {
+  correct: boolean; stars: number; marks: Mark[]; transcript: string; scores?: Scores; onSpeak?: (text: string) => void
 }) {
+  const title = correct ? (stars === 3 ? 'Xuất sắc!' : 'Giỏi lắm!') : 'Gần được rồi! Thử lại nhé'
   return (
     <div className={`w-full rounded-3xl p-4 text-center border-2 border-b-[4px] ${correct ? 'bg-green-50 border-green-200 border-b-green-300' : 'bg-orange-50 border-orange-200 border-b-orange-300'}`}>
       <p className="text-2xl tracking-wider">{correct ? (stars === 3 ? '⭐⭐⭐' : '⭐⭐') : '💪'}</p>
       <p className={`font-black mt-1 ${correct ? 'text-green-700' : 'text-orange-700'}`}>
-        {correct ? (stars === 3 ? 'Xuất sắc!' : 'Tốt lắm!') : 'Gần được rồi! Thử lại nhé'}
+        {title}{scores && <> · {scores.pronScore} điểm</>}
       </p>
-      <WordMarks marks={marks} />
-      {transcript && (
+      <WordMarks marks={marks} scored={!!scores} onSpeak={onSpeak} />
+      {transcript && !scores && (
         <p className="text-xs text-gray-400 font-medium mt-1.5">AI nghe được: <span className="italic">&ldquo;{transcript}&rdquo;</span></p>
       )}
     </div>

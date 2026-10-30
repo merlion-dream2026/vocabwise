@@ -12,8 +12,11 @@ import Confetti from '@/components/Confetti'
 import VoicePlayer from '@/components/VoicePlayer'
 import { GameHeader, cta, colorFamily } from '@/components/ChunkyUI'
 import { matchWords } from '@/lib/pronunciation'
+import { markWords, phonicsVerdict, type Assessment, type PhonicsVerdict } from '@/lib/pronunciationScore'
+import { scorePronunciation } from '@/lib/pronounceClient'
+import PhonicsSoundCard from '@/components/PhonicsSoundCard'
 import { useMicMeter } from '@/lib/useMicMeter'
-import { SLOW_RATE, HINT_AFTER_FAILS, RecordingView, ModelVoiceRow, ResultCard, UnclearCard, HintCard, ResultButtons } from '@/components/SpeakParts'
+import { SLOW_RATE, HINT_AFTER_FAILS, RecordingView, ModelVoiceRow, ResultCard, ScoreTiles, marksFromMatch, UnclearCard, HintCard, ResultButtons } from '@/components/SpeakParts'
 
 type PracticeSentence = { en: string; highlight: string[] }
 type RhythmSentence   = { en: string; stressed: string[]; vi: string }
@@ -22,6 +25,8 @@ type SentenceItem     = { en: string; targets: string[]; vi?: string }
 type Lesson = {
   id: string; title: string; emoji: string
   masteryGames?: string[]
+  sounds?: { symbol: string; keyword?: string }[] // pair lessons: the sounds being taught (British IPA)
+  tip?: string
   practice_sentences?: PracticeSentence[]
   sentences?: RhythmSentence[]
 }
@@ -85,6 +90,7 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
   void childId
   const router = useRouter()
   const items  = buildItems(lesson)
+  const symbols = (lesson.sounds ?? []).map(s => s.symbol)
 
   const [step, setStep]         = useState(0)
   const [scores, setScores]     = useState<number[]>([])
@@ -96,6 +102,8 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
   const [isCorrect, setIsCorrect]   = useState<boolean | null>(null)
   const [unclear, setUnclear]       = useState(false)
   const [found, setFound]           = useState<string[]>([])
+  const [assessment, setAssessment] = useState<Assessment | null>(null)     // Azure scores (null = Whisper path)
+  const [verdict, setVerdict]       = useState<PhonicsVerdict | null>(null) // sound-level result (pair lessons)
   const [micError, setMicError]     = useState<string | null>(null)
   const [playbackUrl, setPlaybackUrl] = useState<string | null>(null)
   const [timeLeft, setTimeLeft]     = useState(MAX_SECS)
@@ -135,7 +143,7 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
   useEffect(() => {
     if (gameDone || !current) return
     setPhase('idle')
-    setTranscript(''); setIsCorrect(null); setUnclear(false)
+    setTranscript(''); setAssessment(null); setVerdict(null); setIsCorrect(null); setUnclear(false)
     setFound([]); setMicError(null)
     setTimeLeft(MAX_SECS); setFails(0)
     if (playbackUrl) { URL.revokeObjectURL(playbackUrl); setPlaybackUrl(null) }
@@ -207,28 +215,27 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
   const scoreAudio = async (blob: Blob, mimeType: string) => {
     setPhase('processing')
     try {
-      const ext = mimeType.includes('mp4') ? 'm4a' : mimeType.includes('ogg') ? 'ogg' : 'webm'
-      const fd = new FormData()
-      fd.append('audio', new File([blob], `rec.${ext}`, { type: mimeType }))
-      fd.append('target', current.en)
-      fd.append('expected', current.en)
-
-      const res  = await fetch('/api/score-pronunciation', { method: 'POST', body: fd })
-      if (!res.ok) throw new Error(await res.text())
-      const data = await res.json()
+      // Azure-scored when the clip converts to WAV (lib/pronounceClient.ts), else Whisper
+      const data = await scorePronunciation(blob, mimeType, { target: current.en, level: 'phonics', source: 'phonics' })
+      const a = data.assessment ?? null
+      // Azure + a pair lesson → judge the lesson's own sounds inside the highlighted words
+      const v = a && symbols.length && current.targets.length ? phonicsVerdict(a, current.targets, symbols) : null
+      setAssessment(a); setVerdict(v)
 
       const tr = (data.transcript ?? '').trim()
       setTranscript(tr)
       setUnclear(!!data.unclear)
       const { found: f } = scoreResult(tr, current.targets)
       setFound(f)
-      const correct = current.targets.length === 0
-        ? !!data.correct
+      const correct = v ? v.ok
+        : a || current.targets.length === 0 ? !!data.correct
         : f.length / Math.max(current.targets.length, 1) >= 0.6
       setIsCorrect(correct)
-      // Unclear = Whisper didn't hear English → not the kid's fault, don't count it as a 0
+      // Unclear = speech not recognised → not the kid's fault, don't count it as a 0
       if (!data.unclear) {
-        const itemScore = current.targets.length > 0 ? f.length / current.targets.length : (correct ? 1 : 0)
+        const itemScore = correct ? 1
+          : a ? (v?.weakest?.score ?? a.pronScore) / 100 // partial credit from the real score
+          : current.targets.length > 0 ? f.length / current.targets.length : 0
         setScores(prev => [...prev, itemScore])
         if (correct) playCorrectSound(); else playWrongSound()
         if (!correct) {
@@ -249,7 +256,7 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
     if (mediaRecRef.current?.state === 'recording') mediaRecRef.current.stop()
     stopStream()
     if (playbackUrl) { URL.revokeObjectURL(playbackUrl); setPlaybackUrl(null) }
-    setTranscript(''); setIsCorrect(null); setUnclear(false)
+    setTranscript(''); setAssessment(null); setVerdict(null); setIsCorrect(null); setUnclear(false)
     setFound([]); setMicError(null); setTimeLeft(MAX_SECS)
     setPhase('idle')
   }
@@ -275,10 +282,13 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
   useEffect(() => () => { clearTimers(); stopStream() }, [clearTimers, stopStream])
 
   // Target sounds present → mark those (the phonics focus); otherwise mark every word
-  const marks = phase === 'done' && !unclear && transcript
-    ? (current.targets.length ? current.targets.map(t => ({ text: t, ok: found.includes(t) })) : matchWords(transcript, current.en))
-    : []
-  const stars = isCorrect ? (marks.length && marks.every(m => m.ok) ? 3 : 2) : 0
+  const marks = phase !== 'done' || unclear ? []
+    : assessment ? markWords(assessment, current.en, 'phonics')
+    : !transcript ? []
+    : marksFromMatch(current.targets.length ? current.targets.map(t => ({ text: t, ok: found.includes(t) })) : matchWords(transcript, current.en))
+  const stars = !isCorrect ? 0
+    : assessment ? ((verdict?.weakest?.score ?? assessment.pronScore) >= 85 ? 3 : 2)
+    : marks.length && marks.every(m => m.level === 'good') ? 3 : 2
   const showHint = !isCorrect && fails >= HINT_AFTER_FAILS
 
   if (!items.length) {
@@ -387,7 +397,12 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
 
           {phase === 'done' && unclear && <UnclearCard />}
           {phase === 'done' && !unclear && (
-            <ResultCard correct={!!isCorrect} stars={stars} marks={marks} transcript={transcript} />
+            <>
+              <ResultCard correct={!!isCorrect} stars={stars} marks={marks} transcript={transcript}
+                scores={assessment ?? undefined} onSpeak={assessment ? t => speakSentence(t, { rate: SLOW_RATE }) : undefined} />
+              {verdict && <PhonicsSoundCard verdict={verdict} sounds={lesson.sounds ?? []} tip={lesson.tip} />}
+              {assessment && !verdict && <ScoreTiles s={assessment} />}
+            </>
           )}
           {phase === 'done' && showHint && <HintCard unit="câu" />}
 

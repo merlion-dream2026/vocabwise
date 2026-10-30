@@ -4,6 +4,9 @@ import { getFamilyProfile } from '@/lib/security'
 import { getAISpeakLimit } from '@/lib/planUtils'
 import { consumeAIQuota } from '@/lib/aiQuota'
 import { normalize, soundex } from '@/lib/pronunciation'
+import { assessPronunciation, azureConfigured } from '@/lib/azureSpeech'
+import { passes } from '@/lib/pronunciationScore'
+import { supabase } from '@/lib/supabaseServer'
 
 /** Whisper đôi khi hallucinate sang ngôn ngữ khác → không có ký tự a-z nào */
 function isEnglishLike(s: string): boolean {
@@ -81,8 +84,10 @@ export async function POST(req: NextRequest) {
 
   const audio          = formData.get('audio')  as File   | null
   const target         = (formData.get('target')        as string | null) ?? ''
-  const word           = (formData.get('word')          as string | null) ?? ''
+  // Phonics sends no single key word — the whole sentence is the target
+  const word           = (formData.get('word')          as string | null) || target
   const level          = (formData.get('level')         as string | null) ?? ''
+  const source         = ((formData.get('source')       as string | null) ?? 'speak').slice(0, 20)
   const contrastRaw    = (formData.get('contrastWords') as string | null) ?? ''
   const contrastWords  = contrastRaw ? contrastRaw.split(',').map(s => s.trim()).filter(Boolean) : []
   if (!audio || !target || !word) {
@@ -108,12 +113,32 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Audio file too large' }, { status: 413 })
   }
 
-  const ext = audio.type.includes('mp4') ? 'm4a'
+  const audioBuf = await audio.arrayBuffer()
+
+  // Real pronunciation scoring (Azure) when the client sent 16 kHz WAV (lib/pronounceClient.ts).
+  // Busy / over quota / not configured → same clip goes to Whisper below (Groq accepts WAV too).
+  if (mimeBase === 'audio/wav' && azureConfigured()) {
+    const r = await assessPronunciation(audioBuf, target)
+    if (r.kind === 'unclear') return NextResponse.json({ transcript: '', correct: false, unclear: true, engine: 'azure' })
+    if (r.kind === 'ok') {
+      const a = r.assessment
+      const correct = passes(a, word, level || source)
+      // Scores per attempt → recalibrate the kid-friendly bars (lib/pronunciationScore.ts) on real data
+      await supabase.from('pronunciation_log').insert({
+        family_id: session.familyId, source, level: level || null, target: target.slice(0, 200), ok: correct,
+        pron_score: a.pronScore, accuracy: a.accuracy, fluency: a.fluency, completeness: a.completeness,
+      }).then(() => {}, () => {})
+      return NextResponse.json({ transcript: a.transcript, correct, unclear: false, engine: 'azure', assessment: a })
+    }
+  }
+
+  const ext = mimeBase === 'audio/wav' ? 'wav'
+    : audio.type.includes('mp4') ? 'm4a'
     : audio.type.includes('ogg') ? 'ogg'
     : 'webm'
 
   const groqForm = new FormData()
-  groqForm.append('file',            new Blob([await audio.arrayBuffer()], { type: audio.type }), `rec.${ext}`)
+  groqForm.append('file',            new Blob([audioBuf], { type: audio.type }), `rec.${ext}`)
   groqForm.append('model',           'whisper-large-v3-turbo')
   groqForm.append('language',        'en')
   groqForm.append('temperature',     '0')          // deterministic → ít hallucinate hơn
@@ -143,5 +168,6 @@ export async function POST(req: NextRequest) {
   const unclear = !isEnglishLike(transcript)
   const correct = unclear ? false : isCorrect(transcript, target, word, contrastWords, matchThreshold(level))
 
-  return NextResponse.json({ transcript, correct, unclear })
+  // azureOff → the client stops converting clips to WAV for the rest of the session
+  return NextResponse.json({ transcript, correct, unclear, engine: 'whisper', azureOff: !azureConfigured() })
 }

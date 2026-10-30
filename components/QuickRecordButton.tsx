@@ -8,6 +8,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { useVoiceRecorder, type Recording } from '@/lib/useVoiceRecorder'
 import { micDeniedHelp } from '@/lib/micHelp'
+import { scorePronunciation } from '@/lib/pronounceClient'
 
 type Phase = 'idle' | 'recording' | 'processing' | 'correct' | 'wrong' | 'unclear'
 
@@ -27,12 +28,8 @@ export default function QuickRecordButton({ word }: { word: string }) {
   const score = async ({ file }: Recording) => {
     setResult('processing')
     try {
-      const fd = new FormData()
-      fd.append('audio', file)
-      fd.append('target', word)
-      fd.append('word', word)
-      const res = await fetch('/api/score-pronunciation', { method: 'POST', body: fd })
-      const data = await res.json()
+      // Azure-scored when the clip converts to WAV (lib/pronounceClient.ts), else Whisper
+      const data = await scorePronunciation(file, file.type, { target: word, word, source: 'quick' })
       showThenReset(data.unclear ? 'unclear' : data.correct ? 'correct' : 'wrong')
     } catch {
       setResult(null)

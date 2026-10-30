@@ -11,8 +11,10 @@ import VoicePlayer from '@/components/VoicePlayer'
 import GameResultScreen from '@/components/GameResultScreen'
 import { GameHeader } from '@/components/ChunkyUI'
 import { matchWords } from '@/lib/pronunciation'
+import { markWords, type Assessment } from '@/lib/pronunciationScore'
+import { scorePronunciation } from '@/lib/pronounceClient'
 import { useMicMeter } from '@/lib/useMicMeter'
-import { SLOW_RATE, HINT_AFTER_FAILS, RecordingView, ModelVoiceRow, ResultCard, UnclearCard, HintCard, ResultButtons } from '@/components/SpeakParts'
+import { SLOW_RATE, HINT_AFTER_FAILS, RecordingView, ModelVoiceRow, ResultCard, ScoreTiles, marksFromMatch, UnclearCard, HintCard, ResultButtons } from '@/components/SpeakParts'
 
 type Word = {
   word: string; meaning: string; emoji: string
@@ -66,6 +68,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
 
   const [phase, setPhase] = useState<Phase>('idle')
   const [transcript, setTranscript] = useState('')
+  const [assessment, setAssessment] = useState<Assessment | null>(null) // Azure scores (null = Whisper path)
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null)
   const [unclear, setUnclear] = useState(false)
   const [micError, setMicError] = useState<string | null>(null)
@@ -122,7 +125,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
   useEffect(() => {
     if (gameDone) return
     setPhase('idle')
-    setTranscript('')
+    setTranscript(''); setAssessment(null)
     setIsCorrect(null)
     setUnclear(false)
     setMicError(null)
@@ -208,16 +211,9 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
   const scoreAudio = async (blob: Blob, mimeType: string) => {
     setPhase('processing')
     try {
-      const ext = mimeType.includes('mp4') ? 'm4a' : mimeType.includes('ogg') ? 'ogg' : 'webm'
-      const fd = new FormData()
-      fd.append('audio', new File([blob], `rec.${ext}`, { type: mimeType }))
-      fd.append('target', speakTarget)
-      fd.append('word', q.word)
-      fd.append('level', level)
-
-      const res = await fetch('/api/score-pronunciation', { method: 'POST', body: fd })
-      if (!res.ok) throw new Error(await res.text())
-      const data = await res.json()
+      // Azure-scored when the clip converts to WAV (lib/pronounceClient.ts), else Whisper
+      const data = await scorePronunciation(blob, mimeType, { target: speakTarget, word: q.word, level, source: 'speak' })
+      setAssessment(data.assessment ?? null)
 
       const correct  = !!data.correct
       const isUnclear = !!data.unclear   // Whisper hallucinated → không phải lỗi của bé
@@ -247,7 +243,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
     if (mediaRecorderRef.current?.state === 'recording') mediaRecorderRef.current.stop()
     stopStream()
     if (playbackUrl) { URL.revokeObjectURL(playbackUrl); setPlaybackUrl(null) }
-    setTranscript('')
+    setTranscript(''); setAssessment(null)
     setIsCorrect(null)
     setUnclear(false)
     setMicError(null)
@@ -270,12 +266,16 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
     stopStream()
     if (playbackUrl) URL.revokeObjectURL(playbackUrl)
     setIdx(0); setScore(0); setWrongWords([]); setGameDone(false); setShowConfetti(false)
-    setPhase('idle'); setTranscript(''); setIsCorrect(null); setMicError(null)
+    setPhase('idle'); setTranscript(''); setAssessment(null); setIsCorrect(null); setMicError(null)
     answeredRef.current = false; setPlaybackUrl(null); setTimeLeft(MAX_SECS)
   }
 
-  const wordMarks = phase === 'done' && !unclear && transcript ? matchWords(transcript, speakTarget) : []
-  const stars = isCorrect ? (wordMarks.length && wordMarks.every(m => m.ok) ? 3 : 2) : 0
+  const wordMarks = phase !== 'done' || unclear ? []
+    : assessment ? markWords(assessment, speakTarget, level)
+    : transcript ? marksFromMatch(matchWords(transcript, speakTarget)) : []
+  const stars = !isCorrect ? 0
+    : assessment ? (assessment.pronScore >= 85 ? 3 : 2)
+    : wordMarks.length && wordMarks.every(m => m.level === 'good') ? 3 : 2
   const showHint = !isCorrect && fails >= HINT_AFTER_FAILS
 
   if (gameDone) {
@@ -375,7 +375,11 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
 
           {phase === 'done' && unclear && <UnclearCard />}
           {phase === 'done' && !unclear && (
-            <ResultCard correct={!!isCorrect} stars={stars} marks={wordMarks} transcript={transcript} />
+            <>
+              <ResultCard correct={!!isCorrect} stars={stars} marks={wordMarks} transcript={transcript}
+                scores={assessment ?? undefined} onSpeak={assessment ? t => speak(t, SLOW_RATE) : undefined} />
+              {assessment && <ScoreTiles s={assessment} />}
+            </>
           )}
           {phase === 'done' && showHint && <HintCard />}
 
