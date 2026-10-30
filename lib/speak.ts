@@ -19,6 +19,10 @@ function pickVoice(voices: SpeechSynthesisVoice[]): SpeechSynthesisVoice | undef
   return voices.find((v) => v.lang === 'en-US') ?? voices.find((v) => v.lang.startsWith('en'))
 }
 
+// Kick off the async voice-list load when the module is imported (page mount), so by the
+// first tap the preferred voice is usually ready.
+if (typeof window !== 'undefined') window.speechSynthesis?.getVoices()
+
 type SpeakOptions = {
   rate?: number
   pitch?: number
@@ -43,32 +47,28 @@ export function speak(text: string, options: SpeakOptions = {}) {
   utter.lang = 'en-US'
   utter.rate = rate
   utter.pitch = pitch
-  if (onStart) utter.onstart = onStart
+  let started = false
+  utter.onstart = () => { started = true; onStart?.() }
   if (onEnd) utter.onend = onEnd
   if (onError) utter.onerror = onError
 
-  const doSpeak = () => {
-    const voices = window.speechSynthesis.getVoices()
-    if (voices.length === 0) {
+  // Speak right away, still inside the tap. iOS Safari only lets speech start from a user
+  // gesture, and the voice list loads async — waiting for 'voiceschanged' first used to push
+  // speak() out of the gesture, so the first tap after opening a page was silent. No voice
+  // list yet → the browser's default en-US voice; the preferred one kicks in once loaded.
+  const voices = window.speechSynthesis.getVoices()
+  const voice = pickVoice(voices)
+  if (voice) utter.voice = voice
+  window.speechSynthesis.speak(utter)
+
+  if (voices.length === 0) {
+    setTimeout(() => {
+      if (started || window.speechSynthesis.getVoices().length > 0) return
       onNoVoice?.()
       if (!noVoiceEventFired) {
         noVoiceEventFired = true
         window.dispatchEvent(new CustomEvent('vocabwise:no-voice'))
       }
-      return
-    }
-    const voice = pickVoice(voices)
-    if (voice) utter.voice = voice
-    window.speechSynthesis.speak(utter)
-  }
-
-  if (window.speechSynthesis.getVoices().length > 0) {
-    doSpeak()
-  } else {
-    // voiceschanged may not fire on iOS — add timeout fallback
-    let fired = false
-    const handler = () => { fired = true; doSpeak() }
-    window.speechSynthesis.addEventListener('voiceschanged', handler, { once: true })
-    setTimeout(() => { if (!fired) doSpeak() }, 500)
+    }, 1000)
   }
 }
