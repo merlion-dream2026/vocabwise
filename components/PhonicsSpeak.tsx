@@ -12,11 +12,11 @@ import Confetti from '@/components/Confetti'
 import VoicePlayer from '@/components/VoicePlayer'
 import { GameHeader, cta, colorFamily } from '@/components/ChunkyUI'
 import { matchWords } from '@/lib/pronunciation'
-import { markWords, phonicsVerdict, type Assessment, type Bars, type PhonicsVerdict } from '@/lib/pronunciationScore'
+import { markWords, phonicsVerdict, barFor, type Assessment, type Bars, type PhonicsVerdict } from '@/lib/pronunciationScore'
 import { scorePronunciation } from '@/lib/pronounceClient'
 import PhonicsSoundCard from '@/components/PhonicsSoundCard'
 import { useMicMeter } from '@/lib/useMicMeter'
-import { SLOW_RATE, HINT_AFTER_FAILS, RecordingView, ModelVoiceRow, ResultCard, ScoreTiles, marksFromMatch, UnclearCard, HintCard, ResultButtons } from '@/components/SpeakParts'
+import { SLOW_RATE, HINT_AFTER_FAILS, RecordingView, ModelVoiceRow, ResultCard, marksFromMatch, UnclearCard, HintCard, ResultButtons } from '@/components/SpeakParts'
 
 type PracticeSentence = { en: string; highlight: string[] }
 type RhythmSentence   = { en: string; stressed: string[]; vi: string }
@@ -402,11 +402,11 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
           {phase === 'done' && unclear && <UnclearCard />}
           {phase === 'done' && !unclear && (
             <>
-              <ResultCard correct={!!isCorrect} stars={stars} marks={marks} transcript={transcript}
-                scores={assessment ?? undefined} onSpeak={assessment ? t => speakSentence(t, { rate: SLOW_RATE }) : undefined}
+<ResultCard correct={!!isCorrect} stars={stars} marks={marks} transcript={transcript}
+                assessment={assessment ?? undefined} bar={barFor('phonics', azureMeta.bars)} simple details={!verdict}
+                onSpeak={assessment ? t => speakSentence(t, { rate: SLOW_RATE }) : undefined}
                 logId={assessment ? azureMeta.logId : null} />
               {verdict && <PhonicsSoundCard verdict={verdict} sounds={lesson.sounds ?? []} tip={lesson.tip} />}
-              {assessment && !verdict && <ScoreTiles s={assessment} />}
             </>
           )}
           {phase === 'done' && showHint && <HintCard unit="câu" />}

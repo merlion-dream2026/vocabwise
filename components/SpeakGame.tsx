@@ -11,10 +11,10 @@ import VoicePlayer from '@/components/VoicePlayer'
 import GameResultScreen from '@/components/GameResultScreen'
 import { GameHeader } from '@/components/ChunkyUI'
 import { matchWords } from '@/lib/pronunciation'
-import { markWords, type Assessment, type Bars } from '@/lib/pronunciationScore'
+import { markWords, barFor, groupFor, type Assessment, type Bars } from '@/lib/pronunciationScore'
 import { scorePronunciation } from '@/lib/pronounceClient'
 import { useMicMeter } from '@/lib/useMicMeter'
-import { SLOW_RATE, HINT_AFTER_FAILS, RecordingView, ModelVoiceRow, ResultCard, ScoreTiles, marksFromMatch, UnclearCard, HintCard, ResultButtons } from '@/components/SpeakParts'
+import { SLOW_RATE, HINT_AFTER_FAILS, RecordingView, ModelVoiceRow, ResultCard, marksFromMatch, UnclearCard, HintCard, ResultButtons } from '@/components/SpeakParts'
 
 type Word = {
   word: string; meaning: string; emoji: string
@@ -378,10 +378,11 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
           {phase === 'done' && unclear && <UnclearCard />}
           {phase === 'done' && !unclear && (
             <>
-              <ResultCard correct={!!isCorrect} stars={stars} marks={wordMarks} transcript={transcript}
-                scores={assessment ?? undefined} onSpeak={assessment ? t => speak(t, SLOW_RATE) : undefined}
+<ResultCard correct={!!isCorrect} stars={stars} marks={wordMarks} transcript={transcript}
+                assessment={assessment ?? undefined} keyword={q.word} bar={barFor(level, azureMeta.bars)}
+                simple={groupFor(level) === 'young'}
+                onSpeak={assessment ? t => speak(t, SLOW_RATE) : undefined}
                 logId={assessment ? azureMeta.logId : null} />
-              {assessment && <ScoreTiles s={assessment} />}
             </>
           )}
           {phase === 'done' && showHint && <HintCard />}
