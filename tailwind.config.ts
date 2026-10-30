@@ -30,8 +30,10 @@ const config: Config = {
       animation: {
         'bounce-soft': 'bounce-soft 0.4s ease',
         'flip-in': 'flip-in 0.3s ease',
+        'fade-up': 'fade-up .45s ease-out both',
       },
       keyframes: {
+        'fade-up': { '0%': { opacity: '0', transform: 'translateY(12px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
         'bounce-soft': {
           '0%, 100%': { transform: 'scale(1)' },
           '50%': { transform: 'scale(1.08)' },

@@ -20,6 +20,16 @@ function shuffle<T>(arr: T[]): T[] { return [...arr].sort(() => Math.random() - 
 
 type PairState = 'idle' | 'matched' | 'wrong'
 
+// One color per matched pair (+ its number, so it doesn't rely on color alone). No violet: that's the selection color.
+const PAIR_STYLES = [
+  { tile: 'bg-blue-100 border-blue-400 text-blue-800', badge: 'bg-blue-500' },
+  { tile: 'bg-amber-100 border-amber-400 text-amber-800', badge: 'bg-amber-500' },
+  { tile: 'bg-pink-100 border-pink-400 text-pink-800', badge: 'bg-pink-500' },
+  { tile: 'bg-teal-100 border-teal-400 text-teal-800', badge: 'bg-teal-500' },
+  { tile: 'bg-orange-100 border-orange-400 text-orange-800', badge: 'bg-orange-500' },
+]
+const pairStyle = (n: number) => PAIR_STYLES[(n - 1) % PAIR_STYLES.length]
+
 export default function DefinitionMatchGame({ topic, level, backUrl }: Props) {
   const router = useRouter()
   const { recordAnswer, recordActivity, addScore, recordGameResult, flush } = useGameSync()
@@ -39,8 +49,10 @@ export default function DefinitionMatchGame({ topic, level, backUrl }: Props) {
 
   // Per-round state
   const [leftSel, setLeftSel] = useState<string | null>(null)     // selected English word
-  const [rightSel, setRightSel] = useState<string | null>(null)   // selected Vietnamese meaning
+  const [rightSel, setRightSel] = useState<string | null>(null)   // selected meaning tile (keyed by its word)
   const [pairStates, setPairStates] = useState<Record<string, PairState>>({})  // word → state
+  const [pairNo, setPairNo] = useState<Record<string, number>>({})  // word → 1-based order it was matched in (color + badge)
+  const [wrongRight, setWrongRight] = useState<string | null>(null) // meaning tile the child actually tapped on a miss
   const [rightOrder, setRightOrder] = useState<Word[]>([])
 
   // Init round
@@ -48,6 +60,8 @@ export default function DefinitionMatchGame({ topic, level, backUrl }: Props) {
     setLeftSel(null)
     setRightSel(null)
     setPairStates({})
+    setPairNo({})
+    setWrongRight(null)
     setRightOrder(shuffle([...roundWords]))
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [roundIdx])
@@ -77,19 +91,21 @@ export default function DefinitionMatchGame({ topic, level, backUrl }: Props) {
 
   const handleRight = (word: Word) => {
     if (pairStates[word.word] === 'matched') return
-    setRightSel(word.meaning)
+    setRightSel(word.word)
     // If left already selected, attempt match
-    if (leftSel) attemptMatch(leftSel, word.meaning)
+    if (leftSel) attemptMatch(leftSel, word.word)
   }
 
-  const attemptMatch = (wordStr: string, meaning: string) => {
+  const attemptMatch = (wordStr: string, rightKey: string) => {
     const word = roundWords.find(w => w.word === wordStr)
-    const correct = word?.meaning === meaning
+    const tapped = roundWords.find(w => w.word === rightKey)
+    const correct = !!word && word.meaning === tapped?.meaning
     if (correct && word) {
       speak(word.word)
       recordAnswer(level, topic.id, word, true)
       setScore(s => s + 1)
       setPairStates(ps => ({ ...ps, [wordStr]: 'matched' }))
+      setPairNo(pn => ({ ...pn, [wordStr]: Object.keys(pn).length + 1 }))
       setLeftSel(null)
       setRightSel(null)
       playCorrectSound()
@@ -97,6 +113,7 @@ export default function DefinitionMatchGame({ topic, level, backUrl }: Props) {
       // Flash wrong then reset
       if (word) {
         setPairStates(ps => ({ ...ps, [wordStr]: 'wrong' }))
+        setWrongRight(rightKey)
         recordAnswer(level, topic.id, word, false)
         setWrongWords(ww => ww.includes(wordStr) ? ww : [...ww, wordStr])
         playWrongSound()
@@ -107,6 +124,7 @@ export default function DefinitionMatchGame({ topic, level, backUrl }: Props) {
           if (next[wordStr] === 'wrong') delete next[wordStr]
           return next
         })
+        setWrongRight(null)
         setLeftSel(null)
         setRightSel(null)
       }, 800)
@@ -138,57 +156,80 @@ export default function DefinitionMatchGame({ topic, level, backUrl }: Props) {
       <div className="flex-1 bg-gradient-to-b from-violet-50 to-purple-50 px-4 py-5 flex flex-col gap-3">
         <p className="text-xs font-bold text-gray-500 text-center uppercase tracking-wide">Ghép từ tiếng Anh với nghĩa tiếng Việt</p>
 
-        {/* Matching grid */}
-        <div className="flex gap-3 flex-1">
+        {allMatchedInRound ? (
+          /* Round review: each meaning slides next to its word, in pair color — a quick recap */
+          <div className="flex flex-col gap-2">
+            <p className="text-center text-xs font-bold text-violet-700">Hoàn thành vòng {roundIdx + 1} · {roundWords.length}/{roundWords.length} cặp</p>
+            {[...roundWords].sort((a, b) => (pairNo[a.word] ?? 0) - (pairNo[b.word] ?? 0)).map((word, i) => {
+              const ps = pairStyle(pairNo[word.word] ?? i + 1)
+              return (
+                <div key={word.word} className="grid animate-fade-up grid-cols-[1fr_auto_1fr] items-center gap-1.5" style={{ animationDelay: `${i * 60}ms` }}>
+                  <button onClick={() => speak(word.word)} className={`${ps.tile} rounded-2xl border-2 px-3 py-3 text-center text-base font-bold active:scale-95`}>{word.word}</button>
+                  <span className="text-gray-400">—</span>
+                  <div className={`${ps.tile} rounded-2xl border-2 px-3 py-3 text-center text-sm font-semibold leading-tight`}>{word.meaning}</div>
+                </div>
+              )
+            })}
+          </div>
+        ) : (
+        /* No flex-1: the next-round button sits right under the grid, not pushed below the fold */
+        <div className="flex gap-3">
           {/* Left: English words */}
           <div className="flex-1 flex flex-col gap-2">
             {roundWords.map(word => {
               const state = pairStates[word.word]
               const isSelected = leftSel === word.word
-              let style = 'bg-white border-2 border-gray-200 text-gray-700'
-              if (state === 'matched') style = 'bg-green-100 border-2 border-green-400 text-green-700 opacity-60'
-              else if (state === 'wrong') style = 'bg-red-100 border-2 border-red-400 text-red-600'
-              else if (isSelected) style = 'bg-violet-500 border-2 border-violet-600 text-white'
+              const n = pairNo[word.word]
+              let style = 'bg-white border-gray-200 text-gray-700'
+              if (state === 'matched' && n) style = pairStyle(n).tile
+              else if (state === 'wrong') style = 'bg-red-100 border-red-400 text-red-600'
+              else if (isSelected) style = 'bg-violet-500 border-violet-600 text-white'
               return (
                 <button key={word.word} onClick={() => handleLeft(word)}
                   disabled={state === 'matched'}
-                  className={`${style} font-bold text-base py-4 px-3 rounded-2xl transition-all active:scale-95 text-center flex items-center justify-center gap-1.5`}>
+                  className={`${style} border-2 font-bold text-base py-4 px-3 rounded-2xl transition-all active:scale-95 text-center flex items-center justify-center gap-1.5`}>
+                  {state === 'matched' && n && <PairBadge n={n} />}
                   <span>{word.word}</span>
-                  {state === 'matched' && <span className="text-green-500 text-lg">✓</span>}
                 </button>
               )
             })}
           </div>
 
-          {/* Right: Vietnamese meanings */}
+          {/* Right: Vietnamese meanings (tile keyed by its own word) */}
           <div className="flex-1 flex flex-col gap-2">
             {rightOrder.map(word => {
               const state = pairStates[word.word]
-              const isSelected = rightSel === word.meaning
-              let style = 'bg-white border-2 border-gray-200 text-gray-600'
-              if (state === 'matched') style = 'bg-green-100 border-2 border-green-400 text-green-600 opacity-60'
-              else if (state === 'wrong' && leftSel === word.word) style = 'bg-red-100 border-2 border-red-400 text-red-600'
-              else if (isSelected) style = 'bg-purple-500 border-2 border-purple-600 text-white'
+              const isSelected = rightSel === word.word
+              const n = pairNo[word.word]
+              let style = 'bg-white border-gray-200 text-gray-600'
+              if (state === 'matched' && n) style = pairStyle(n).tile
+              else if (wrongRight === word.word) style = 'bg-red-100 border-red-400 text-red-600'
+              else if (isSelected) style = 'bg-purple-500 border-purple-600 text-white'
               return (
                 <button key={word.word} onClick={() => handleRight(word)}
                   disabled={state === 'matched'}
-                  className={`${style} font-semibold text-sm py-4 px-3 rounded-2xl transition-all active:scale-95 text-center leading-tight`}>
-                  {word.meaning}
-                  {state === 'matched' && <span className="ml-1 text-green-500 text-base">✓</span>}
+                  className={`${style} border-2 font-semibold text-sm py-4 px-3 rounded-2xl transition-all active:scale-95 text-center leading-tight flex items-center justify-center gap-1.5`}>
+                  <span>{word.meaning}</span>
+                  {state === 'matched' && n && <PairBadge n={n} />}
                 </button>
               )
             })}
           </div>
         </div>
+        )}
 
         {/* Next round button (shown when all matched) */}
         {allMatchedInRound && (
           <button onClick={advanceRound}
-            className={cta('violet', 'mb-2')}>
+            className={cta('violet', 'mt-2 mb-2 animate-fade-up')}>
             {roundIdx + 1 >= totalRounds ? 'Xem kết quả →' : 'Vòng tiếp theo →'}
           </button>
         )}
       </div>
     </div>
   )
+}
+
+function PairBadge({ n }: { n: number }) {
+  return <span className={`${pairStyle(n).badge} inline-flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full text-xs font-black text-white`}>{n}</span>
 }
