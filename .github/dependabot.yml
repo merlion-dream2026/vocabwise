@@ -35,3 +35,12 @@ updates:
       # tailwindcss v4 has breaking changes; migrate intentionally
       - dependency-name: tailwindcss
         update-types: [version-update:semver-major]
+      # TypeScript 7 / vitest 5 / openai SDK 7 — breaking; upgrade intentionally
+      - dependency-name: typescript
+        update-types: [version-update:semver-major]
+      - dependency-name: vitest
+        update-types: [version-update:semver-major]
+      - dependency-name: '@vitest/*'
+        update-types: [version-update:semver-major]
+      - dependency-name: openai
+        update-types: [version-update:semver-major]
