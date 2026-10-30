@@ -62,3 +62,14 @@ body {
 .mi-wave { transform-origin: 70% 70%; animation: mi-wave 1.8s ease-in-out .4s 3 }
 .mi-twinkle { animation: mi-twinkle 1.8s ease-in-out infinite }
 @media (prefers-reduced-motion: reduce) { .mi-pop, .mi-rise, .mi-wave, .mi-twinkle { animation: none } }
+
+/* Confetti (components/Confetti.tsx): transform-only keyframes → compositor-driven, smooth even
+   while the main thread is busy. Outer piece falls/drifts/spins, inner paper flutters. */
+.confetti-piece { position: absolute; top: -16px; will-change: transform; animation: confetti-fall 3s cubic-bezier(.25,.4,.6,1) both; }
+.confetti-paper { display: block; border-radius: 1px; will-change: transform; animation: confetti-flutter .9s ease-in-out infinite; }
+@keyframes confetti-flutter { 0%, 100% { transform: scaleY(1); } 50% { transform: scaleY(.2); } }
+@keyframes confetti-fall {
+  from { transform: translate3d(0, 0, 0) rotate(0deg); opacity: 1; }
+  85%  { opacity: 1; }
+  to   { transform: translate3d(var(--dx), 110vh, 0) rotate(var(--rot)); opacity: 0; }
+}

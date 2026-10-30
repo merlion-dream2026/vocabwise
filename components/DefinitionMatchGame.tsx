@@ -83,7 +83,7 @@ export default function DefinitionMatchGame({ topic, level, backUrl }: Props) {
 
   const handleLeft = (word: Word) => {
     if (pairStates[word.word] === 'matched') return
-    speak(word.word)
+    if (!rightSel) speak(word.word) // completing a pair → attemptMatch says it (then dings)
     setLeftSel(word.word)
     // If right already selected, attempt match
     if (rightSel) attemptMatch(word.word, rightSel)
@@ -96,19 +96,26 @@ export default function DefinitionMatchGame({ topic, level, backUrl }: Props) {
     if (leftSel) attemptMatch(leftSel, word.word)
   }
 
+  // Correct match: say the word first, ding once it has finished (they used to overlap)
+  const sayThenDing = (text: string) => {
+    let rung = false
+    const ding = () => { if (!rung) { rung = true; playCorrectSound() } }
+    speakWord(text, { rate: 0.9, onEnd: ding, onError: ding, onNoVoice: ding })
+    setTimeout(ding, 2500) // safety: iOS sometimes never fires onend
+  }
+
   const attemptMatch = (wordStr: string, rightKey: string) => {
     const word = roundWords.find(w => w.word === wordStr)
     const tapped = roundWords.find(w => w.word === rightKey)
     const correct = !!word && word.meaning === tapped?.meaning
     if (correct && word) {
-      speak(word.word)
+      sayThenDing(word.word)
       recordAnswer(level, topic.id, word, true)
       setScore(s => s + 1)
       setPairStates(ps => ({ ...ps, [wordStr]: 'matched' }))
       setPairNo(pn => ({ ...pn, [wordStr]: Object.keys(pn).length + 1 }))
       setLeftSel(null)
       setRightSel(null)
-      playCorrectSound()
     } else {
       // Flash wrong then reset
       if (word) {
