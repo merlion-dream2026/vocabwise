@@ -3,26 +3,7 @@ import { useEffect, useState, useRef } from 'react'
 import { usePathname, useRouter } from 'next/navigation'
 import Image from 'next/image'
 import { getAvatarSrc } from '@/lib/avatars'
-
-const LEVEL_SLUGS = new Set(['seeker','starter','ranger','explorer','scholar','master'])
-const GAME_SLUGS  = new Set([
-  'flashcard','listen','truefalse','match','memory','bubble','fillletter',
-  'speak','spell','sentenceorder','quiz','gapfill','definitionmatch',
-  'typing','speedround','sortwords','minimalpairs','rocket','whack','fishing','plane','frog','race','train','treasure','basket','jump','penalty',
-])
-const HIDE_ROOTS = new Set([
-  'login','register','verify-email','forgot-password','reset-password',
-  'privacy','terms','superadmin',
-])
-const HIDE_TAILS = new Set([...GAME_SLUGS, 'srs', 'review', 'stress'])
-
-function shouldShowNav(pathname: string): boolean {
-  if (pathname === '/') return false
-  const segs = pathname.split('/').filter(Boolean)
-  if (segs.length === 0 || HIDE_ROOTS.has(segs[0])) return false
-  if (HIDE_TAILS.has(segs[segs.length - 1])) return false
-  return true
-}
+import { LEVEL_SLUGS, shouldShowNav } from '@/lib/navRoutes'
 
 function getChildIdFromPath(pathname: string): string | null {
   const m  = pathname.match(/^\/dashboard\/([^/]+)/)
@@ -190,8 +171,19 @@ export default function BottomNav() {
   const active = getActiveTab(pathname, childId)
 
   function go(key: string) {
-    if (active === key) return
     const tab = MODULE_TABS.find(t => t.key === key)!
+    // Re-tapping the active tab (iOS/Android convention): deep inside it → back to its
+    // landing page; already there → scroll to top.
+    if (active === key) {
+      const root = tab.needsChild && !childId ? null : DEST[key](childId ?? '')
+      if (root && pathname !== root) {
+        localStorage.removeItem(`nav_last_${key}`)
+        router.replace(root)
+      } else {
+        window.scrollTo({ top: 0, behavior: 'smooth' })
+      }
+      return
+    }
     const lastPath = localStorage.getItem(`nav_last_${key}`)
 
     if (tab.needsChild) {
@@ -228,7 +220,10 @@ export default function BottomNav() {
         >
           {/* Profile tab — circular avatar */}
           <button
-            onClick={() => router.push(childId ? `/dashboard/${childId}/profile` : '/kids')}
+            onClick={() => profileActive
+              ? window.scrollTo({ top: 0, behavior: 'smooth' })
+              : router.replace(childId ? `/dashboard/${childId}/profile` : '/kids')}
+            aria-current={profileActive ? 'page' : undefined}
             className={`${tabBase} max-w-[3.75rem] ${profileActive ? ACCENT.daily.pill : ''}`}
           >
             <span className={`relative flex h-7 w-7 items-center justify-center overflow-hidden rounded-full border-2 ${
@@ -247,7 +242,7 @@ export default function BottomNav() {
             const isActive = active === key
             const isDim    = needsChild && !childId
             return (
-              <button key={key} onClick={() => go(key)} className={`${tabBase} ${isActive ? accent.pill : ''}`}>
+              <button key={key} onClick={() => go(key)} aria-current={isActive ? 'page' : undefined} className={`${tabBase} ${isActive ? accent.pill : ''}`}>
                 <span
                   className="text-[20px] leading-none"
                   style={isActive ? undefined : { filter: 'grayscale(1)', opacity: isDim ? 0.3 : 0.5 }}
