@@ -31,6 +31,15 @@ function buildTiles(word: string): Tile[] {
   return shuffle([...letters, ...pool]).map((l, i) => ({ id: `${l}-${i}`, letter: l, used: false }))
 }
 
+// Vietnamese hint shown under the picture (some icons don't match the word well). Loanwords
+// whose meaning contains the answer ("xe taxi", "sushi") get it masked; if nothing is left
+// after masking, return null and the card shows the picture only.
+function meaningHint(w: Word): string | null {
+  const esc = w.word.trim().replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  const masked = w.meaning.replace(new RegExp(esc, 'gi'), '___')
+  return masked.replace(/___|[\s/(),.-]/g, '') ? masked : null
+}
+
 const emptySlots = (w: Word): Slot[] => Array(w.word.replace(/\s+/g, '').length).fill(null)
 
 export default function SpellGame({ topic, level, backUrl }: Props) {
@@ -51,6 +60,7 @@ export default function SpellGame({ topic, level, backUrl }: Props) {
   const word = words[idx]
   const target = word.word.toLowerCase().replace(/\s+/g, '')
   const total = words.length
+  const hint = meaningHint(word)
 
   useEffect(() => {
     if (done) {
@@ -185,17 +195,21 @@ export default function SpellGame({ topic, level, backUrl }: Props) {
         {/* Body */}
         <div className="flex-1 bg-gradient-to-b from-[#f3eefc] to-[#faf7ff] px-4 pt-4 flex flex-col items-center">
           <div className="self-stretch flex items-center gap-3">
-            <p className="flex-1 text-sm font-extrabold text-[#3b2a8a] leading-snug">Nhìn hình, chạm hoặc kéo chữ để ghép từ!</p>
+            <p className="flex-1 text-sm font-extrabold text-[#3b2a8a] leading-snug">Nhìn hình và nghĩa, chạm hoặc kéo chữ để ghép từ!</p>
             <div className="min-w-[56px] text-center bg-[#fffaf0] border-[2.5px] border-b-[5px] border-[#3b2a8a] rounded-xl px-2.5 py-0.5">
               <span className="block text-[10px] font-bold tracking-wider text-[#6b5f4a]">ĐIỂM</span>
               <span className="block text-xl font-black text-[#2b1d0e] leading-tight">{score}</span>
             </div>
           </div>
 
-          {/* Picture card — no Vietnamese meaning or speaker while answering; both appear after */}
+          {/* Picture card + Vietnamese meaning (icons alone are sometimes ambiguous). No speaker
+              while answering — hearing the word would give the spelling away. */}
           <div className="mt-5 w-40 h-40 bg-white border-[7px] border-[#ecb94f] rounded-[26px] flex items-center justify-center shadow-[0_10px_24px_rgba(59,42,138,0.13)]">
             <WordIcon word={word.word} emoji={word.emoji} emojiClass="text-8xl leading-none select-none" iconSize={96} />
           </div>
+          {hint && (
+            <p className="mt-3 max-w-[18rem] text-center text-lg font-extrabold text-[#3b2a8a] leading-snug">{hint}</p>
+          )}
 
           {/* Answer slots — tap a filled slot to send that letter back; tiles can also be dropped here */}
           <div className={`flex gap-1.5 mt-6 flex-wrap justify-center ${result === 'wrong' ? 'shake' : ''}`}>
