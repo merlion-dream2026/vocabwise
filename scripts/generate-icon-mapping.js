@@ -21,7 +21,7 @@ const MAPPINGS = {
   // Countries & Culture
   'multilingual':'Translate', 'tradition':'CrownSimple',
   // Crafts
-  'carve':'Knife', 'clay':'BowlFood', 'mold':'GearSix', 'stitch':'Needle',
+  'carve':'Knife', 'mold':'GearSix', 'stitch':'Needle',
   'texture':'Fingerprint', 'thread':'Swatches', 'weave':'GridFour',
   // Daily Communication
   'disagree':'XCircle', 'explain':'ChatText', 'remind':'BellRinging',
@@ -44,8 +44,8 @@ const MAPPINGS = {
   'emission':'Factory', 'recycle':'Recycle', 'wildlife':'TreeEvergreen',
   // Festivals
   'blessing':'Sparkle', 'decorate':'Swatches', 'feast':'BowlSteam',
-  'harvest festival':'Plant', 'lantern':'Lightbulb', 'lunar':'Moon',
-  'parade':'MegaphoneSimple', 'pilgrimage':'Footprints', 'procession':'UsersThree',
+  'harvest festival':'Plant', 'lunar':'Moon',
+  'pilgrimage':'Footprints', 'procession':'UsersThree',
   // Food & Restaurant
   'buffet':'BowlFood', 'menu':'Article', 'portion':'ForkKnife',
   // Friendship
@@ -63,9 +63,9 @@ const MAPPINGS = {
   // Money
   'afford':'Wallet', 'brand':'Tag', 'discount':'Percent',
   // Nature & Geography
-  'altitude':'ArrowFatUp', 'canyon':'RoadHorizon', 'cliff':'Mountains',
-  'desert':'ThermometerHot', 'earthquake':'Warning', 'glacier':'Snowflake',
-  'horizon':'SunHorizon', 'rainforest':'CloudRain', 'valley':'ArrowFatDown',
+  'altitude':'ArrowFatUp', 
+  'earthquake':'Warning', 'glacier':'Snowflake',
+  'horizon':'SunHorizon', 'rainforest':'CloudRain', 
   // School Subjects
   'chemistry':'Flask', 'geography':'Globe', 'literature':'Books',
   'physical education':'Barbell',
@@ -197,7 +197,7 @@ const MAPPINGS = {
   'sprint':'ArrowFatRight', 'tactic':'Target', 'technique':'Wrench',
   // Technology
   'artificial':'Cpu', 'device':'DeviceMobile', 'program':'Code',
-  'robot':'Robot', 'sensor':'Binoculars', 'software':'Laptop',
+  'sensor':'Binoculars', 'software':'Laptop',
 
   // ─── SCHOLAR ──────────────────────────────────────────────────────────────
   // Advertising
@@ -322,7 +322,7 @@ const MAPPINGS = {
   'net-zero':'Recycle', 'protocol':'Notepad',
   'transition':'ArrowFatRight',
   // Food & Agriculture
-  'agribusiness':'Factory', 'arable':'Plant', 'crop':'Leaf',
+  'agribusiness':'Factory', 'arable':'Plant', 
   'genetically modified':'Dna',
   // Geopolitics
   // (negotiation, tension, treaty already mapped)
@@ -375,7 +375,7 @@ const MAPPINGS = {
   'AI':'Brain', 'surveillance':'Eye', 'disruption':'Lightning',
   // Remaining uncovered words (cross-level fill)
   'tempo':'Timer', 'stakeholder':'UsersFour',
-  'competitive':'Sword', 'record':'ChartBar',
+  'competitive':'Sword', 
   'moderate':'Scales', 'regression':'ChartLine',
   'responsibility':'ShieldCheck', 'legislation':'Scroll',
   'variable':'Gauge', 'peer-reviewed':'ShieldCheck',

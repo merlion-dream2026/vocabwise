@@ -64,7 +64,7 @@ export function AnswerGrid({ q, picked, onPick, className = '' }: {
       {q.choices.map((c) => (
         <button key={c.word} type="button" disabled={picked !== null} onClick={() => { buzz(); onPick(c) }} className={cls(c)}>
           {q.kind === 'en'
-            ? <span className={`block leading-tight ${fitText(c.meaning, ['text-[clamp(16px,4vmin,42px)]', 'text-[clamp(14px,3.2vmin,32px)]', 'text-[clamp(12px,2.6vmin,26px)]'])}`}>{c.emoji} {c.meaning}</span>
+            ? <span className={`block leading-tight ${fitText(c.meaning, ['text-[clamp(16px,4vmin,42px)]', 'text-[clamp(14px,3.2vmin,32px)]', 'text-[clamp(12px,2.6vmin,26px)]'])}`}><WordIcon word={c.word} emoji={c.emoji} emojiClass="" iconSize={28} className="mr-1 inline-block align-middle" />{c.meaning}</span>
             : <span className={`block leading-tight ${wordSize(c.word)}`}>{c.word}</span>}
         </button>
       ))}

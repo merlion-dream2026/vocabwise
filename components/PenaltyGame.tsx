@@ -16,6 +16,7 @@ import GameResultScreen from '@/components/GameResultScreen'
 import { PromptCard } from '@/components/games/ChoiceQuiz'
 import { ArcadeStage, StageHud, TimerDial, StageModal, StageButton, enterFullscreen } from '@/components/games/ArcadeStage'
 import { Stadium, Goal, Ball, CelebrationScene, celebrationMs } from '@/components/games/PenaltyScene'
+import WordIcon from '@/components/WordIcon'
 
 type Topic = { id: string; name: string; emoji: string; color: string; words: ArcadeWord[] }
 type Props = { topic: Topic; level: string; backUrl: string }
@@ -182,7 +183,7 @@ export default function PenaltyGame({ topic, level, backUrl }: Props) {
                 <button key={c.word} type="button" disabled={phase !== 'play'} onClick={() => { buzz(); kick(c, CORNERS[i]) }}
                   className={`${CELL[CORNERS[i]]} ${answerCls(c)}`}>
                   {current.kind === 'en'
-                    ? <span className={`leading-tight ${answerSize(current, c)}`}>{c.emoji} {c.meaning}</span>
+                    ? <span className={`leading-tight ${answerSize(current, c)}`}><WordIcon word={c.word} emoji={c.emoji} emojiClass="" iconSize={28} className="mr-1 inline-block align-middle" />{c.meaning}</span>
                     : <span className={`break-words leading-tight ${answerSize(current, c)}`}>{c.word}</span>}
                 </button>
               ))}

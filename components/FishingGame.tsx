@@ -16,6 +16,7 @@ import { buzz } from '@/components/ChunkyUI'
 import { ArcadeStage, StageHud, TimerDial, StageModal, StageButton, enterFullscreen } from '@/components/games/ArcadeStage'
 import { Sea, Fish, Boat, Hook, FISH_COLORS, SURFACE } from '@/components/games/FishScene'
 import { fitText, WORD_LIMITS } from '@/components/games/fitText'
+import WordIcon from '@/components/WordIcon'
 
 type Topic = { id: string; name: string; emoji: string; color: string; words: ArcadeWord[] }
 type Props = { topic: Topic; level: string; backUrl: string }
@@ -280,7 +281,7 @@ export default function FishingGame({ topic, level, backUrl }: Props) {
           <div className="pointer-events-none absolute inset-x-0 top-[4%] z-10 flex flex-col items-center px-4 portrait:top-[13%]">
             <div className="pointer-events-auto flex max-w-[60vw] items-center gap-3 rounded-[28px] border-[5px] border-white bg-[#0369A1] px-6 py-2 text-white shadow-xl portrait:max-w-[92vw] sm:px-8 sm:py-3">
               {current.kind === 'vi'
-                ? <><span className="text-[6.5vmin] leading-none" aria-hidden>{current.target.emoji}</span><span className={`text-center font-black leading-tight ${fitText(current.target.meaning, ['text-[clamp(20px,4.8vmin,46px)]', 'text-[clamp(17px,3.8vmin,36px)]', 'text-[clamp(15px,3vmin,28px)]'])}`}>{current.target.meaning}</span></>
+                ? <><span className="shrink-0 leading-none" aria-hidden><WordIcon word={current.target.word} emoji={current.target.emoji} emojiClass="text-[6.5vmin] leading-none" iconSize={44} /></span><span className={`text-center font-black leading-tight ${fitText(current.target.meaning, ['text-[clamp(20px,4.8vmin,46px)]', 'text-[clamp(17px,3.8vmin,36px)]', 'text-[clamp(15px,3vmin,28px)]'])}`}>{current.target.meaning}</span></>
                 : (
                   <button type="button" onPointerDown={(e) => e.stopPropagation()} onClick={() => { buzz(); speakWord(current.target.word, { rate: 0.85 }) }}
                     className="flex items-center gap-2 text-[clamp(20px,4.8vmin,46px)] font-black">

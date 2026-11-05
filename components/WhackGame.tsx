@@ -17,6 +17,7 @@ import { Critter, type CritterKind } from '@/components/games/Critters'
 import { ArcadeStage, StageHud, TimerDial, StageModal, StageButton, enterFullscreen } from '@/components/games/ArcadeStage'
 import { Meadow, MoleHole } from '@/components/games/WhackScene'
 import { fitText, WORD_LIMITS } from '@/components/games/fitText'
+import WordIcon from '@/components/WordIcon'
 
 type Topic = { id: string; name: string; emoji: string; color: string; words: ArcadeWord[] }
 type Props = { topic: Topic; level: string; backUrl: string }
@@ -265,7 +266,7 @@ export default function WhackGame({ topic, level, backUrl }: Props) {
             <div className="flex max-w-[92vw] items-center gap-3 rounded-[28px] border-[5px] border-amber-300 bg-[#5B3A1E] px-6 py-2.5 text-[#FFF8E7] shadow-xl sm:px-9 sm:py-3.5">
               {phase === 'win'
                 ? <><span className="wm-glow text-[7vmin] leading-none" aria-hidden>🥕</span><span className="text-[clamp(20px,4.6vmin,44px)] font-black">Cà rốt vàng là của bé!</span></>
-                : <><span className="text-[7vmin] leading-none" aria-hidden>{current.target.emoji}</span><span className={`text-center font-black leading-tight ${fitText(current.target.meaning, ['text-[clamp(20px,5vmin,46px)]', 'text-[clamp(17px,3.8vmin,36px)]', 'text-[clamp(15px,3vmin,28px)]'])}`}>{current.target.meaning}</span></>}
+                : <><span className="shrink-0 leading-none" aria-hidden><WordIcon word={current.target.word} emoji={current.target.emoji} emojiClass="text-[7vmin] leading-none" iconSize={44} /></span><span className={`text-center font-black leading-tight ${fitText(current.target.meaning, ['text-[clamp(20px,5vmin,46px)]', 'text-[clamp(17px,3.8vmin,36px)]', 'text-[clamp(15px,3vmin,28px)]'])}`}>{current.target.meaning}</span></>}
             </div>
             <p className="mt-2 rounded-full bg-white/80 px-3 py-0.5 text-[clamp(14px,3vmin,28px)] font-bold text-[#4A2C14]">
               {phase === 'win' ? 'Cả xóm chuột chũi ra nhảy múa ăn mừng 🎉'

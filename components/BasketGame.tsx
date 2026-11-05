@@ -16,6 +16,7 @@ import { buzz } from '@/components/ChunkyUI'
 import { ArcadeStage, StageHud, TimerDial, StageModal, StageButton, enterFullscreen } from '@/components/games/ArcadeStage'
 import { Orchard, WordApple, Basket, APPLE_COLORS } from '@/components/games/BasketScene'
 import { fitText } from '@/components/games/fitText'
+import WordIcon from '@/components/WordIcon'
 
 type Topic = { id: string; name: string; emoji: string; color: string; words: ArcadeWord[] }
 type Props = { topic: Topic; level: string; backUrl: string }
@@ -259,7 +260,7 @@ export default function BasketGame({ topic, level, backUrl }: Props) {
           <div className="pointer-events-none absolute inset-x-0 top-[4%] z-10 flex flex-col items-center px-4 portrait:top-[13%]">
             {current.kind === 'vi' ? (
               <div className="flex max-w-[60vw] items-center gap-3 rounded-[28px] border-[5px] border-white bg-[#B45309] px-6 py-2 text-white shadow-xl portrait:max-w-[92vw]">
-                <span className="text-[6.5vmin] leading-none" aria-hidden>{current.target.emoji}</span>
+                <span className="shrink-0 leading-none" aria-hidden><WordIcon word={current.target.word} emoji={current.target.emoji} emojiClass="text-[6.5vmin] leading-none" iconSize={44} /></span>
                 <span className={`text-center font-black leading-tight ${fitText(current.target.meaning, ['text-[clamp(20px,4.8vmin,46px)]', 'text-[clamp(17px,3.8vmin,36px)]', 'text-[clamp(15px,3vmin,28px)]'])}`}>{current.target.meaning}</span>
               </div>
             ) : (

@@ -1,0 +1,561 @@
+{
+ "starter": {
+  "kitchen": {
+   "img": "a cozy home kitchen with stove and cabinets",
+   "why": "Nồi thức ăn, không phải căn bếp"
+  },
+  "garden": {
+   "emoji": "🏡",
+   "why": "🏡 là nhà có vườn, đúng hơn một bông hoa"
+  },
+  "ball": {
+   "emoji": "⚽",
+   "why": "🎱 là bi-a số 8"
+  },
+  "bounce": {
+   "img": "a colorful ball above a flat strip of green ground, with a dotted curved path that comes down, touches the ground, and goes back up to the ball",
+   "emoji": "🏀",
+   "why": "Andie: quả banh nảy trên mặt đất"
+  },
+  "puppet": {
+   "img": "a hand puppet with a friendly face",
+   "why": "🎭 là mặt nạ sân khấu"
+  },
+  "swing": {
+   "img": "a child's playground swing hanging from a frame",
+   "why": "🎠 là vòng quay ngựa gỗ"
+  },
+  "board": {
+   "img": "a green classroom chalkboard with a wooden frame",
+   "why": "📋 là bìa kẹp giấy"
+  },
+  "eraser": {
+   "img": "a pink rubber pencil eraser",
+   "why": "🧽 là miếng rửa bát"
+  },
+  "desk": {
+   "img": "a wooden school desk",
+   "why": "🪑 là cái ghế"
+  },
+  "classmate": {
+   "emoji": "🧑‍🤝‍🧑",
+   "why": "Hai bạn đứng cùng nhau rõ nghĩa hơn"
+  },
+  "swimming": {
+   "emoji": "🏊",
+   "why": "🏄 là lướt sóng"
+  },
+  "catch": {
+   "img": "two hands catching a ball in the air",
+   "why": "🤲 không thấy hành động bắt"
+  },
+  "funny": {
+   "emoji": "😂",
+   "why": "Cười ra nước mắt rõ nghĩa hơn"
+  },
+  "hot": {
+   "emoji": "🥵",
+   "why": "Đối xứng với cold 🥶"
+  },
+  "warm": {
+   "emoji": "🌞",
+   "why": "🍵 là tách trà"
+  },
+  "tram": {
+   "emoji": "🚋",
+   "why": "🚋 đúng là tàu điện"
+  },
+  "pier": {
+   "img": "a wooden pier stretching over the sea",
+   "why": "⛵ là thuyền buồm"
+  },
+  "sailor": {
+   "img": "a young sailor in a white sailor uniform and cap",
+   "why": "🛟 là phao cứu sinh"
+  },
+  "current": {
+   "img": "a blue rounded block of sea water with three large parallel white arrows all curving in the same direction, showing water flowing one way",
+   "why": "🌀 là bão xoáy"
+  },
+  "harbour": {
+   "img": "two small boats tied to one short wooden dock in calm water, with no buildings and no crane",
+   "why": "🛥️ chỉ là một chiếc thuyền"
+  },
+  "coast": {
+   "img": "a coastline where green land meets blue sea, seen from above",
+   "why": "🪨 là tảng đá"
+  },
+  "submarine": {
+   "img": "a bright yellow cartoon submarine with round windows and a periscope",
+   "why": "🤿 là kính lặn"
+  },
+  "tide": {
+   "img": "a side view of a sandy slope going down into blue water, with a dashed line marking the high water level on the sand and one large double-headed vertical arrow beside the water, nothing else",
+   "why": "🌕 là mặt trăng"
+  },
+  "lighthouse": {
+   "img": "a red and white striped lighthouse with a light beam",
+   "why": "🗼 giống tháp Tokyo"
+  },
+  "holiday": {
+   "emoji": "🏖️",
+   "why": "🩴 chỉ là đôi dép"
+  },
+  "weekend": {
+   "img": "a blank weekly calendar grid with the last two columns highlighted in bright color",
+   "why": "😎 không liên quan cuối tuần"
+  },
+  "month": {
+   "img": "a blank monthly calendar page showing a grid of small squares",
+   "why": "🗒️ là tờ ghi chú"
+  },
+  "year": {
+   "img": "a thick stack of twelve blank calendar pages held by a ring binding",
+   "why": "🔄 là biểu tượng làm mới"
+  },
+  "concert": {
+   "img": "a band playing on a lit stage with an audience",
+   "why": "Phosphor hình micro, emoji là đàn banjo"
+  },
+  "melody": {
+   "img": "a flowing line of colorful music notes",
+   "why": "🪗 là đàn accordion"
+  },
+  "perform": {
+   "emoji": "🎤",
+   "why": "🎪 là rạp xiếc"
+  },
+  "record": {
+   "dropP": true,
+   "why": "Phosphor hiện biểu đồ cột; 🎙️ đã đúng"
+  },
+  "cave": {
+   "img": "a rocky cave entrance in a mountain",
+   "why": "🕳️ chỉ là cái lỗ"
+  },
+  "cliff": {
+   "dropP": true,
+   "img": "a tall rocky cliff beside the sea",
+   "why": "Phosphor là dãy núi, emoji là núi tuyết"
+  },
+  "canyon": {
+   "dropP": true,
+   "img": "a deep red rock canyon with a river at the bottom",
+   "why": "Phosphor là con đường"
+  },
+  "desert": {
+   "dropP": true,
+   "why": "Phosphor là nhiệt kế; 🏜️ đã đúng"
+  },
+  "valley": {
+   "dropP": true,
+   "emoji": "🏞️",
+   "why": "Phosphor là mũi tên xuống"
+  },
+  "pond": {
+   "img": "a small round pond with lily pads",
+   "why": "🐸 là con ếch"
+  },
+  "soil": {
+   "img": "a pile of dark brown garden soil with a small trowel",
+   "why": "🟫 chỉ là ô vuông nâu"
+  },
+  "moss": {
+   "img": "a rock covered in soft green moss",
+   "why": "🌿 là thảo mộc"
+  },
+  "sky": {
+   "emoji": "🌤️",
+   "why": "🔭 là kính thiên văn"
+  },
+  "waterfall": {
+   "img": "a waterfall flowing over rocks",
+   "why": "⛲ là đài phun nước"
+  },
+  "hill": {
+   "emoji": "⛰️",
+   "why": "🗻 là núi Phú Sĩ"
+  },
+  "park": {
+   "img": "a green city park with trees, a path and a bench",
+   "why": "🏕️ là cắm trại"
+  },
+  "library": {
+   "emoji": "📚",
+   "why": "🗂️ là hồ sơ"
+  },
+  "sauce": {
+   "img": "a small bowl of red sauce with a spoon",
+   "why": "🍅 là quả cà chua"
+  },
+  "dough": {
+   "img": "a ball of raw bread dough on a floured board",
+   "why": "🫓 là bánh đã nướng"
+  },
+  "knead": {
+   "img": "two hands kneading dough on a board",
+   "why": "👐 không thấy hành động nhào"
+  },
+  "whisk": {
+   "img": "a metal kitchen whisk beating eggs in a bowl",
+   "why": "🥄 là cái thìa"
+  },
+  "blend": {
+   "img": "a kitchen blender full of fruit smoothie",
+   "why": "🫙 là lọ thủy tinh"
+  },
+  "exercise": {
+   "emoji": "🤸",
+   "why": "Tập thể dục rõ hơn chạy"
+  },
+  "sing": {
+   "emoji": "🎤",
+   "why": "🎵 là nốt nhạc"
+  },
+  "artist": {
+   "emoji": "🧑‍🎨",
+   "why": "Có emoji đúng người"
+  },
+  "builder": {
+   "emoji": "👷",
+   "why": "🏗️ là cần cẩu"
+  },
+  "firefighter": {
+   "emoji": "🧑‍🚒",
+   "why": "🚒 là xe, không phải người"
+  },
+  "scientist": {
+   "emoji": "🧑‍🔬",
+   "why": "🔬 là kính hiển vi"
+  },
+  "singer": {
+   "emoji": "🧑‍🎤",
+   "why": "🎤 là micro, không phải người"
+  },
+  "queue": {
+   "img": "a line of people waiting one behind another",
+   "why": "👥 chỉ là hai bóng người"
+  },
+  "size": {
+   "emoji": "📏",
+   "why": "📐 là thước eke"
+  },
+  "smooth": {
+   "img": "a smooth round polished pebble",
+   "why": "🪨 trông thô ráp, ngược nghĩa"
+  },
+  "hard": {
+   "emoji": "🪨",
+   "why": "🔩 là con ốc"
+  },
+  "heavy": {
+   "emoji": "🏋️",
+   "why": "⚖️ là cân công lý"
+  },
+  "clean": {
+   "emoji": "🧼",
+   "why": "🪣 là cái xô"
+  },
+  "dirty": {
+   "emoji": "🤢",
+   "why": "🗑️ là thùng rác"
+  },
+  "shiny": {
+   "emoji": "✨",
+   "why": "💫 là choáng váng"
+  },
+  "starfish": {
+   "img": "an orange starfish on the sand",
+   "why": "⭐ là ngôi sao trên trời"
+  },
+  "mix": {
+   "img": "a spoon mixing ingredients in a big bowl",
+   "why": "🔀 là nút trộn bài nhạc"
+  },
+  "stir": {
+   "emoji": "🥄",
+   "why": "🫕 là nồi nước lẩu"
+  },
+  "boil": {
+   "img": "a pot of water boiling with big bubbles on a stove",
+   "why": "🫧 là bong bóng xà phòng"
+  },
+  "steam": {
+   "emoji": "♨️",
+   "why": "🌥️ là mây che mặt trời"
+  },
+  "peel": {
+   "img": "a hand peeling a potato with a peeler",
+   "why": "✂️ là cái kéo"
+  },
+  "serve": {
+   "emoji": "🍽️",
+   "why": "🤵 là chú rể mặc vest"
+  },
+  "sand": {
+   "img": "a flat stretch of plain golden sand with visible fine grains, with only a very thin edge of blue water along one side, and no shells, starfish, plants, people or umbrellas",
+   "why": "Andie: bãi cát vàng bên bờ biển"
+  },
+  "stone": {
+   "emoji": "🪨",
+   "why": "🗿 là tượng đá Moai"
+  },
+  "firefly": {
+   "img": "a firefly with a glowing yellow tail at night",
+   "why": "✨ chỉ là lấp lánh"
+  }
+ },
+ "seeker": {
+  "kitchen": {
+   "img": "a cozy home kitchen with stove and cabinets",
+   "why": "Nồi thức ăn, không phải căn bếp"
+  },
+  "garden": {
+   "emoji": "🏡",
+   "why": "🏡 là nhà có vườn"
+  },
+  "board": {
+   "img": "a green classroom chalkboard with a wooden frame",
+   "why": "📝 là giấy ghi chú"
+  },
+  "lamp": {
+   "img": "a bedside table lamp with a shade",
+   "why": "💡 là bóng đèn"
+  },
+  "floor": {
+   "img": "a wooden floor in a room",
+   "why": "🪵 là khúc gỗ"
+  },
+  "shelf": {
+   "img": "a wooden bookshelf with a few books",
+   "why": "📚 là chồng sách"
+  },
+  "thumb": {
+   "emoji": "👍",
+   "why": "👍 đúng là ngón cái"
+  },
+  "toe": {
+   "img": "a bare foot with the toes highlighted",
+   "why": "👣 là dấu chân"
+  },
+  "knee": {
+   "img": "a bent leg with the knee highlighted",
+   "why": "🧎 là người quỳ"
+  },
+  "hot": {
+   "emoji": "🥵",
+   "why": "Đối xứng với cold 🥶"
+  },
+  "wet": {
+   "emoji": "💧",
+   "why": "🌂 là cái ô"
+  },
+  "plum": {
+   "img": "a ripe purple plum with a leaf",
+   "why": "🟣 chỉ là chấm tím"
+  },
+  "spinach": {
+   "img": "a bunch of fresh green spinach leaves",
+   "why": "🥗 là đĩa salad"
+  },
+  "starfish": {
+   "img": "an orange starfish on the sand",
+   "why": "⭐ là ngôi sao trên trời"
+  },
+  "clam": {
+   "emoji": "🦪",
+   "why": "🦪 đúng là loài có vỏ hai mảnh"
+  },
+  "eel": {
+   "img": "a long slender eel swimming",
+   "why": "🪱 là con giun"
+  },
+  "ball": {
+   "emoji": "⚽",
+   "why": "🎱 là bi-a số 8"
+  },
+  "block": {
+   "img": "colorful wooden toy building blocks",
+   "why": "🎲 là xúc xắc"
+  },
+  "marble": {
+   "img": "a few colorful glass marbles",
+   "why": "🔮 là quả cầu pha lê"
+  },
+  "clay": {
+   "dropP": true,
+   "img": "colorful modeling clay shaped into a small animal",
+   "why": "Phosphor là cái bát, emoji là cái xô"
+  },
+  "sticker": {
+   "img": "a sheet of cute stickers with one peeling off",
+   "why": "🏷️ là nhãn giá"
+  },
+  "spinner": {
+   "img": "a colorful spinning top toy",
+   "why": "🌀 là bão xoáy"
+  },
+  "robot": {
+   "dropP": true,
+   "why": "Giữ emoji 🤖 sinh động cho trẻ nhỏ"
+  },
+  "play": {
+   "emoji": "🎮",
+   "why": "🎪 là rạp xiếc"
+  },
+  "catch": {
+   "img": "two hands catching a ball in the air",
+   "why": "🤲 không thấy hành động bắt"
+  },
+  "wear": {
+   "emoji": "👕",
+   "why": "👘 là kimono"
+  },
+  "wash": {
+   "emoji": "🧼",
+   "why": "🫧 là bong bóng"
+  },
+  "cook": {
+   "emoji": "🍳",
+   "why": "🔥 chỉ là ngọn lửa"
+  },
+  "tall": {
+   "emoji": "🦒",
+   "why": "🗼 là tháp Tokyo"
+  },
+  "hard": {
+   "emoji": "🪨",
+   "why": "💎 là kim cương"
+  },
+  "soft": {
+   "emoji": "🧸",
+   "why": "Gấu bông rõ nghĩa mềm hơn"
+  },
+  "sour": {
+   "emoji": "🍋",
+   "why": "Chanh gợi vị chua rõ hơn"
+  },
+  "artist": {
+   "emoji": "🧑‍🎨",
+   "why": "Có emoji đúng người"
+  },
+  "singer": {
+   "emoji": "🧑‍🎤",
+   "why": "🎙️ là micro"
+  },
+  "soldier": {
+   "emoji": "🪖",
+   "why": "💂 là lính gác Anh"
+  },
+  "firefighter": {
+   "emoji": "🧑‍🚒",
+   "why": "🧯 là bình cứu hỏa"
+  },
+  "sailor": {
+   "img": "a young sailor in a white sailor uniform and cap",
+   "why": "⚓ là mỏ neo"
+  },
+  "field": {
+   "img": "a wide green farm field under a blue sky",
+   "why": "🌄 là bình minh"
+  },
+  "fence": {
+   "img": "a white wooden farm fence",
+   "why": "🚧 là rào công trường"
+  },
+  "stable": {
+   "img": "a wooden horse stable with a horse looking out",
+   "why": "🛖 là túp lều"
+  },
+  "feed": {
+   "img": "a farmer pouring grain into a trough for chickens",
+   "why": "🥜 là đậu phộng"
+  },
+  "crop": {
+   "dropP": true,
+   "emoji": "🌽",
+   "why": "Phosphor là chiếc lá, 🍠 là khoai nướng"
+  },
+  "river": {
+   "emoji": "🏞️",
+   "why": "🌊 là sóng biển"
+  },
+  "lake": {
+   "emoji": "🚣",
+   "why": "Nhường 🏞️ cho river"
+  },
+  "sand": {
+   "img": "a flat stretch of plain golden sand with visible fine grains, with only a very thin edge of blue water along one side, and no shells, starfish, plants, people or umbrellas",
+   "why": "Andie: dùng chung ảnh với Starter"
+  },
+  "beach": {
+   "emoji": "🏖️",
+   "why": "🏝️ là hòn đảo"
+  },
+  "path": {
+   "img": "a narrow dirt path winding through green grass",
+   "why": "🛤️ là đường ray"
+  },
+  "bush": {
+   "img": "a round green bush",
+   "why": "🪴 là cây trong chậu"
+  },
+  "swimming": {
+   "emoji": "🏊",
+   "why": "🩱 là đồ bơi"
+  },
+  "running": {
+   "emoji": "🏃",
+   "why": "🏅 là huy chương"
+  },
+  "towel": {
+   "img": "a folded soft bath towel",
+   "why": "🧺 là giỏ đồ"
+  },
+  "pillow": {
+   "img": "a soft white bed pillow",
+   "why": "🌜 là mặt trăng"
+  },
+  "blanket": {
+   "img": "a folded warm blanket",
+   "why": "🛌 là người nằm ngủ"
+  },
+  "remote": {
+   "img": "a TV remote control",
+   "why": "🎛️ là bàn điều chỉnh âm thanh"
+  },
+  "costume": {
+   "img": "a child's superhero costume with a cape on a hanger",
+   "why": "🎭 là mặt nạ sân khấu"
+  },
+  "lantern": {
+   "dropP": true,
+   "why": "Phosphor là bóng đèn; 🏮 đã đúng"
+  },
+  "parade": {
+   "dropP": true,
+   "img": "a street parade with a marching band and flags",
+   "why": "Phosphor là loa, emoji là kèn"
+  },
+  "park": {
+   "img": "a green city park with trees, a path and a bench",
+   "why": "🏕️ là cắm trại"
+  },
+  "swing": {
+   "img": "a child's playground swing hanging from a frame",
+   "why": "🎠 là vòng quay ngựa gỗ"
+  },
+  "skip": {
+   "img": "a child jumping over a skipping rope",
+   "why": "🪢 là nút dây thừng"
+  },
+  "explore": {
+   "emoji": "🧭",
+   "why": "🔭 là kính thiên văn"
+  },
+  "sandbox": {
+   "img": "a children's sandbox with a bucket and spade",
+   "why": "🏗️ là cần cẩu"
+  }
+ }
+}

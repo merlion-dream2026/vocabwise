@@ -35,7 +35,7 @@ import {
   WarningOctagon, WaveSine, Waves, WifiHigh, WifiSlash, Wrench, XCircle
 } from '@phosphor-icons/react'
 import type { Icon } from '@phosphor-icons/react'
-import { getWordIcon, getCustomSvgIcon } from '@/lib/wordIcon'
+import { getWordIcon, getCustomSvgIcon, getWordImage } from '@/lib/wordIcon'
 
 type Props = {
   word: string
@@ -87,11 +87,25 @@ const ICON_MAP: Record<string, Icon> = {
 }
 
 /**
- * Renders a Phosphor icon if a mapping exists for the word (abstract concepts),
- * else a custom SVG illustration if one exists (concrete words with no matching
- * emoji glyph), else falls back to the emoji character.
+ * Renders the illustration for this sense of the word if one exists, else a Phosphor
+ * icon if a mapping exists (abstract concepts), else a word-keyed illustration
+ * (concrete words with no matching emoji glyph), else falls back to the emoji character.
  */
 export default function WordIcon({ word, emoji, emojiClass = 'text-8xl', iconSize = 100, className = '' }: Props) {
+  const senseImage = getWordImage(word, emoji)
+  if (senseImage) {
+    return (
+      <img
+        src={senseImage}
+        alt={word}
+        width={iconSize}
+        height={iconSize}
+        style={{ height: iconSize, width: iconSize }}
+        className={className}
+      />
+    )
+  }
+
   const iconName = getWordIcon(word)
   const IconComponent = iconName ? ICON_MAP[iconName] : undefined
 

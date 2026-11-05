@@ -1,0 +1,715 @@
+<!doctype html><meta charset="utf-8"><title>Duyệt icon: starter-seeker</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+body{font:15px system-ui;margin:0;background:#f8fafc;color:#1e293b}
+header{position:sticky;top:0;background:#fff;padding:12px 16px;border-bottom:1px solid #e2e8f0;display:flex;gap:12px;flex-wrap:wrap;align-items:center;z-index:1}
+main{padding:12px 16px}table{border-collapse:collapse;width:100%;background:#fff}
+td,th{padding:8px 10px;border-bottom:1px solid #e2e8f0;text-align:left;vertical-align:middle}
+th{background:#f1f5f9;font-size:13px}.big{font-size:32px;line-height:1;white-space:nowrap}.small{font-size:13px;color:#475569}
+.img{font-size:13px;color:#7c2d12;background:#fff7ed;border-radius:6px;padding:4px 8px;display:inline-block}
+tr.rej{background:#fef2f2}tr.rej .to{text-decoration:line-through;opacity:.5}
+input[type=text]{width:100%;min-width:130px;padding:5px;font-size:14px;box-sizing:border-box}
+button{padding:8px 14px;border-radius:8px;border:1px solid #cbd5e1;background:#fff;font-size:14px;cursor:pointer}
+button.main{background:#db2777;color:#fff;border:0}select{padding:7px;font-size:14px}
+</style>
+<header><b>Duyệt icon</b><span class="small">Mặc định là duyệt hết. Anh chỉ cần bỏ tick dòng không ưng hoặc ghi chú.</span>
+<select id="f"><option value="">Tất cả</option><option value="img">Cần ảnh riêng</option><option value="emoji">Đổi emoji / bỏ Phosphor</option><option value="starter">Starter</option><option value="seeker">Seeker</option></select>
+<span id="sum" class="small"></span><button class="main" id="dl">Tải quyết định</button></header>
+<main><table><thead><tr><th>Duyệt</th><th>Level / chủ đề</th><th>Từ</th><th>Hiện tại</th><th>Đề xuất</th><th>Lý do</th><th>Ghi chú của anh</th></tr></thead><tbody>
+<tr data-i="0" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Gia đình &amp; Ngôi nhà</td>
+<td><b>kitchen</b><br><span class="small">bếp</span></td>
+<td class="big">🥘</td>
+<td class="to"><span class="img">Ảnh riêng: a cozy home kitchen with stove and cabinets</span></td>
+<td class="small">Nồi thức ăn, không phải căn bếp</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="1" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Gia đình &amp; Ngôi nhà</td>
+<td><b>garden</b><br><span class="small">vườn</span></td>
+<td class="big">🌻</td>
+<td class="to"><span class="big">🏡</span></td>
+<td class="small">🏡 là nhà có vườn, đúng hơn một bông hoa</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="2" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Đồ chơi &amp; Sở thích</td>
+<td><b>ball</b><br><span class="small">quả bóng</span></td>
+<td class="big">🎱</td>
+<td class="to"><span class="big">⚽</span></td>
+<td class="small">🎱 là bi-a số 8</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="3" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Đồ chơi &amp; Sở thích</td>
+<td><b>puppet</b><br><span class="small">con rối</span></td>
+<td class="big">🎭</td>
+<td class="to"><span class="img">Ảnh riêng: a hand puppet with a friendly face</span></td>
+<td class="small">🎭 là mặt nạ sân khấu</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="4" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Đồ chơi &amp; Sở thích</td>
+<td><b>swing</b><br><span class="small">xích đu</span></td>
+<td class="big">🎠</td>
+<td class="to"><span class="img">Ảnh riêng: a child's playground swing hanging from a frame</span></td>
+<td class="small">🎠 là vòng quay ngựa gỗ</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="5" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Đồ chơi &amp; Sở thích</td>
+<td><b>bounce</b><br><span class="small">nảy / bật nảy</span></td>
+<td class="big">⚽</td>
+<td class="to"><span class="img">Ảnh riêng: a ball bouncing on the ground, with a curved dotted arc showing the bounce path</span></td>
+<td class="small">Andie: quả banh nảy trên mặt đất</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="6" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Trường học</td>
+<td><b>classmate</b><br><span class="small">bạn cùng lớp</span></td>
+<td class="big">👦</td>
+<td class="to"><span class="big">🧑‍🤝‍🧑</span></td>
+<td class="small">Hai bạn đứng cùng nhau rõ nghĩa hơn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="7" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Trường học</td>
+<td><b>desk</b><br><span class="small">bàn học</span></td>
+<td class="big">🪑</td>
+<td class="to"><span class="img">Ảnh riêng: a wooden school desk</span></td>
+<td class="small">🪑 là cái ghế</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="8" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Trường học</td>
+<td><b>board</b><br><span class="small">bảng</span></td>
+<td class="big">📋</td>
+<td class="to"><span class="img">Ảnh riêng: a green classroom chalkboard with a wooden frame</span></td>
+<td class="small">📋 là bìa kẹp giấy</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="9" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Trường học</td>
+<td><b>eraser</b><br><span class="small">cục tẩy</span></td>
+<td class="big">🧽</td>
+<td class="to"><span class="img">Ảnh riêng: a pink rubber pencil eraser</span></td>
+<td class="small">🧽 là miếng rửa bát</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="10" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Thể thao</td>
+<td><b>swimming</b><br><span class="small">bơi lội</span></td>
+<td class="big">🏄</td>
+<td class="to"><span class="big">🏊</span></td>
+<td class="small">🏄 là lướt sóng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="11" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Thể thao</td>
+<td><b>catch</b><br><span class="small">bắt (bóng)</span></td>
+<td class="big">🤲</td>
+<td class="to"><span class="img">Ảnh riêng: two hands catching a ball in the air</span></td>
+<td class="small">🤲 không thấy hành động bắt</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="12" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Cảm xúc</td>
+<td><b>funny</b><br><span class="small">buồn cười</span></td>
+<td class="big">😄</td>
+<td class="to"><span class="big">😂</span></td>
+<td class="small">Cười ra nước mắt rõ nghĩa hơn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="13" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Thời tiết</td>
+<td><b>hot</b><br><span class="small">nóng</span></td>
+<td class="big">🌡️</td>
+<td class="to"><span class="big">🥵</span></td>
+<td class="small">Đối xứng với cold 🥶</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="14" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Thời tiết</td>
+<td><b>warm</b><br><span class="small">ấm áp</span></td>
+<td class="big">🍵</td>
+<td class="to"><span class="big">🌞</span></td>
+<td class="small">🍵 là tách trà</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="15" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Phương tiện</td>
+<td><b>tram</b><br><span class="small">tàu điện</span></td>
+<td class="big">🚃</td>
+<td class="to"><span class="big">🚋</span></td>
+<td class="small">🚋 đúng là tàu điện</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="16" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Biển &amp; Đại dương</td>
+<td><b>pier</b><br><span class="small">cầu tàu</span></td>
+<td class="big">⛵</td>
+<td class="to"><span class="img">Ảnh riêng: a wooden pier stretching over the sea</span></td>
+<td class="small">⛵ là thuyền buồm</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="17" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Biển &amp; Đại dương</td>
+<td><b>sailor</b><br><span class="small">thủy thủ</span></td>
+<td class="big">🛟</td>
+<td class="to"><span class="img">Ảnh riêng: a young sailor in a white sailor uniform and cap</span></td>
+<td class="small">🛟 là phao cứu sinh</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="18" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Biển &amp; Đại dương</td>
+<td><b>current</b><br><span class="small">dòng chảy / dòng nước</span></td>
+<td class="big">🌀</td>
+<td class="to"><span class="img">Ảnh riêng: curved blue arrows showing water flowing in the sea</span></td>
+<td class="small">🌀 là bão xoáy</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="19" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Biển &amp; Đại dương</td>
+<td><b>harbour</b><br><span class="small">bến cảng</span></td>
+<td class="big">🛥️</td>
+<td class="to"><span class="img">Ảnh riêng: a harbor with moored boats and a dock</span></td>
+<td class="small">🛥️ chỉ là một chiếc thuyền</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="20" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Biển &amp; Đại dương</td>
+<td><b>coast</b><br><span class="small">bờ biển</span></td>
+<td class="big">🪨</td>
+<td class="to"><span class="img">Ảnh riêng: a coastline where green land meets blue sea, seen from above</span></td>
+<td class="small">🪨 là tảng đá</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="21" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Biển &amp; Đại dương</td>
+<td><b>submarine</b><br><span class="small">tàu ngầm</span></td>
+<td class="big">🤿</td>
+<td class="to"><span class="img">Ảnh riêng: a bright yellow cartoon submarine with round windows and a periscope</span></td>
+<td class="small">🤿 là kính lặn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="22" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Biển &amp; Đại dương</td>
+<td><b>tide</b><br><span class="small">thủy triều</span></td>
+<td class="big">🌕</td>
+<td class="to"><span class="img">Ảnh riêng: a beach with arrows showing the sea water rising and falling on the sand</span></td>
+<td class="small">🌕 là mặt trăng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="23" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Biển &amp; Đại dương</td>
+<td><b>lighthouse</b><br><span class="small">ngọn hải đăng</span></td>
+<td class="big">🗼</td>
+<td class="to"><span class="img">Ảnh riêng: a red and white striped lighthouse with a light beam</span></td>
+<td class="small">🗼 giống tháp Tokyo</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="24" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Ngày &amp; Thời gian</td>
+<td><b>weekend</b><br><span class="small">cuối tuần</span></td>
+<td class="big">😎</td>
+<td class="to"><span class="img">Ảnh riêng: a blank weekly calendar grid with the last two columns highlighted in bright color</span></td>
+<td class="small">😎 không liên quan cuối tuần</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="25" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Ngày &amp; Thời gian</td>
+<td><b>holiday</b><br><span class="small">kỳ nghỉ</span></td>
+<td class="big">🩴</td>
+<td class="to"><span class="big">🏖️</span></td>
+<td class="small">🩴 chỉ là đôi dép</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="26" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Ngày &amp; Thời gian</td>
+<td><b>month</b><br><span class="small">tháng</span></td>
+<td class="big">🗒️</td>
+<td class="to"><span class="img">Ảnh riêng: a blank monthly calendar page showing a grid of small squares</span></td>
+<td class="small">🗒️ là tờ ghi chú</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="27" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Ngày &amp; Thời gian</td>
+<td><b>year</b><br><span class="small">năm</span></td>
+<td class="big">🔄</td>
+<td class="to"><span class="img">Ảnh riêng: a thick stack of twelve blank calendar pages held by a ring binding</span></td>
+<td class="small">🔄 là biểu tượng làm mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="28" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Âm nhạc &amp; Nghệ thuật</td>
+<td><b>perform</b><br><span class="small">biểu diễn</span></td>
+<td class="big">🎪</td>
+<td class="to"><span class="big">🎤</span></td>
+<td class="small">🎪 là rạp xiếc</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="29" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Âm nhạc &amp; Nghệ thuật</td>
+<td><b>concert</b><br><span class="small">buổi hòa nhạc</span></td>
+<td class="small">Phosphor: MicrophoneStage</td>
+<td class="to"><span class="img">Ảnh riêng: a band playing on a lit stage with an audience</span></td>
+<td class="small">Phosphor hình micro, emoji là đàn banjo</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="30" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Âm nhạc &amp; Nghệ thuật</td>
+<td><b>melody</b><br><span class="small">giai điệu</span></td>
+<td class="big">🪗</td>
+<td class="to"><span class="img">Ảnh riêng: a flowing line of colorful music notes</span></td>
+<td class="small">🪗 là đàn accordion</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="31" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Âm nhạc &amp; Nghệ thuật</td>
+<td><b>record</b><br><span class="small">ghi âm</span></td>
+<td class="small">Phosphor: ChartBar</td>
+<td class="to"><span class="big">🎙️</span></td>
+<td class="small">Phosphor hiện biểu đồ cột; 🎙️ đã đúng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="32" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Thiên nhiên &amp; Cây cối</td>
+<td><b>cave</b><br><span class="small">hang động</span></td>
+<td class="big">🕳️</td>
+<td class="to"><span class="img">Ảnh riêng: a rocky cave entrance in a mountain</span></td>
+<td class="small">🕳️ chỉ là cái lỗ</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="33" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Thiên nhiên &amp; Cây cối</td>
+<td><b>cliff</b><br><span class="small">vách đá</span></td>
+<td class="small">Phosphor: Mountains</td>
+<td class="to"><span class="img">Ảnh riêng: a tall rocky cliff beside the sea</span></td>
+<td class="small">Phosphor là dãy núi, emoji là núi tuyết</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="34" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Thiên nhiên &amp; Cây cối</td>
+<td><b>pond</b><br><span class="small">ao / hồ nhỏ</span></td>
+<td class="big">🐸</td>
+<td class="to"><span class="img">Ảnh riêng: a small round pond with lily pads</span></td>
+<td class="small">🐸 là con ếch</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="35" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Thiên nhiên &amp; Cây cối</td>
+<td><b>soil</b><br><span class="small">đất / đất trồng</span></td>
+<td class="big">🟫</td>
+<td class="to"><span class="img">Ảnh riêng: a pile of dark brown garden soil with a small trowel</span></td>
+<td class="small">🟫 chỉ là ô vuông nâu</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="36" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Thiên nhiên &amp; Cây cối</td>
+<td><b>moss</b><br><span class="small">rêu</span></td>
+<td class="big">🌿</td>
+<td class="to"><span class="img">Ảnh riêng: a rock covered in soft green moss</span></td>
+<td class="small">🌿 là thảo mộc</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="37" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Thiên nhiên &amp; Cây cối</td>
+<td><b>canyon</b><br><span class="small">hẻm núi / thung lũng sâu</span></td>
+<td class="small">Phosphor: RoadHorizon</td>
+<td class="to"><span class="img">Ảnh riêng: a deep red rock canyon with a river at the bottom</span></td>
+<td class="small">Phosphor là con đường</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="38" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Thiên nhiên &amp; Cây cối</td>
+<td><b>sky</b><br><span class="small">bầu trời</span></td>
+<td class="big">🔭</td>
+<td class="to"><span class="big">🌤️</span></td>
+<td class="small">🔭 là kính thiên văn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="39" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Thiên nhiên &amp; Cây cối</td>
+<td><b>waterfall</b><br><span class="small">thác nước</span></td>
+<td class="big">⛲</td>
+<td class="to"><span class="img">Ảnh riêng: a waterfall flowing over rocks</span></td>
+<td class="small">⛲ là đài phun nước</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="40" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Thiên nhiên &amp; Cây cối</td>
+<td><b>hill</b><br><span class="small">ngọn đồi</span></td>
+<td class="big">🗻</td>
+<td class="to"><span class="big">⛰️</span></td>
+<td class="small">🗻 là núi Phú Sĩ</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="41" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Thiên nhiên &amp; Cây cối</td>
+<td><b>desert</b><br><span class="small">sa mạc</span></td>
+<td class="small">Phosphor: ThermometerHot</td>
+<td class="to"><span class="big">🏜️</span></td>
+<td class="small">Phosphor là nhiệt kế; 🏜️ đã đúng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="42" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Thiên nhiên &amp; Cây cối</td>
+<td><b>valley</b><br><span class="small">thung lũng</span></td>
+<td class="small">Phosphor: ArrowFatDown</td>
+<td class="to"><span class="big">🏞️</span></td>
+<td class="small">Phosphor là mũi tên xuống</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="43" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Thành phố &amp; Nơi chốn</td>
+<td><b>park</b><br><span class="small">công viên</span></td>
+<td class="big">🏕️</td>
+<td class="to"><span class="img">Ảnh riêng: a green city park with trees, a path and a bench</span></td>
+<td class="small">🏕️ là cắm trại</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="44" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Thành phố &amp; Nơi chốn</td>
+<td><b>library</b><br><span class="small">thư viện</span></td>
+<td class="big">🗂️</td>
+<td class="to"><span class="big">📚</span></td>
+<td class="small">🗂️ là hồ sơ</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="45" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Trong bếp &amp; Nấu ăn</td>
+<td><b>sauce</b><br><span class="small">nước sốt / nước chấm</span></td>
+<td class="big">🍅</td>
+<td class="to"><span class="img">Ảnh riêng: a small bowl of red sauce with a spoon</span></td>
+<td class="small">🍅 là quả cà chua</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="46" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Trong bếp &amp; Nấu ăn</td>
+<td><b>dough</b><br><span class="small">bột nhào</span></td>
+<td class="big">🫓</td>
+<td class="to"><span class="img">Ảnh riêng: a ball of raw bread dough on a floured board</span></td>
+<td class="small">🫓 là bánh đã nướng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="47" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Trong bếp &amp; Nấu ăn</td>
+<td><b>knead</b><br><span class="small">nhào bột</span></td>
+<td class="big">👐</td>
+<td class="to"><span class="img">Ảnh riêng: two hands kneading dough on a board</span></td>
+<td class="small">👐 không thấy hành động nhào</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="48" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Trong bếp &amp; Nấu ăn</td>
+<td><b>whisk</b><br><span class="small">đánh trứng / khuấy nhanh</span></td>
+<td class="big">🥄</td>
+<td class="to"><span class="img">Ảnh riêng: a metal kitchen whisk beating eggs in a bowl</span></td>
+<td class="small">🥄 là cái thìa</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="49" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Trong bếp &amp; Nấu ăn</td>
+<td><b>blend</b><br><span class="small">xay nhuyễn</span></td>
+<td class="big">🫙</td>
+<td class="to"><span class="img">Ảnh riêng: a kitchen blender full of fruit smoothie</span></td>
+<td class="small">🫙 là lọ thủy tinh</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="50" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Thói quen hàng ngày</td>
+<td><b>exercise</b><br><span class="small">tập thể dục</span></td>
+<td class="big">🏃</td>
+<td class="to"><span class="big">🤸</span></td>
+<td class="small">Tập thể dục rõ hơn chạy</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="51" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Tiệc &amp; Lễ kỷ niệm</td>
+<td><b>sing</b><br><span class="small">hát</span></td>
+<td class="big">🎵</td>
+<td class="to"><span class="big">🎤</span></td>
+<td class="small">🎵 là nốt nhạc</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="52" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Nghề nghiệp</td>
+<td><b>firefighter</b><br><span class="small">lính cứu hỏa</span></td>
+<td class="big">🚒</td>
+<td class="to"><span class="big">🧑‍🚒</span></td>
+<td class="small">🚒 là xe, không phải người</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="53" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Nghề nghiệp</td>
+<td><b>artist</b><br><span class="small">nghệ sĩ / họa sĩ</span></td>
+<td class="big">🖼️</td>
+<td class="to"><span class="big">🧑‍🎨</span></td>
+<td class="small">Có emoji đúng người</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="54" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Nghề nghiệp</td>
+<td><b>builder</b><br><span class="small">thợ xây</span></td>
+<td class="big">🏗️</td>
+<td class="to"><span class="big">👷</span></td>
+<td class="small">🏗️ là cần cẩu</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="55" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Nghề nghiệp</td>
+<td><b>singer</b><br><span class="small">ca sĩ</span></td>
+<td class="big">🎤</td>
+<td class="to"><span class="big">🧑‍🎤</span></td>
+<td class="small">🎤 là micro, không phải người</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="56" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Nghề nghiệp</td>
+<td><b>scientist</b><br><span class="small">nhà khoa học</span></td>
+<td class="big">🔬</td>
+<td class="to"><span class="big">🧑‍🔬</span></td>
+<td class="small">🔬 là kính hiển vi</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="57" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Mua sắm</td>
+<td><b>queue</b><br><span class="small">xếp hàng</span></td>
+<td class="big">👥</td>
+<td class="to"><span class="img">Ảnh riêng: a line of people waiting one behind another</span></td>
+<td class="small">👥 chỉ là hai bóng người</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="58" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Mua sắm</td>
+<td><b>size</b><br><span class="small">kích cỡ</span></td>
+<td class="big">📐</td>
+<td class="to"><span class="big">📏</span></td>
+<td class="small">📐 là thước eke</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="59" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Mô tả sự vật</td>
+<td><b>smooth</b><br><span class="small">mịn / nhẵn</span></td>
+<td class="big">🪨</td>
+<td class="to"><span class="img">Ảnh riêng: a smooth round polished pebble</span></td>
+<td class="small">🪨 trông thô ráp, ngược nghĩa</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="60" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Mô tả sự vật</td>
+<td><b>hard</b><br><span class="small">cứng</span></td>
+<td class="big">🔩</td>
+<td class="to"><span class="big">🪨</span></td>
+<td class="small">🔩 là con ốc</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="61" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Mô tả sự vật</td>
+<td><b>heavy</b><br><span class="small">nặng</span></td>
+<td class="big">⚖️</td>
+<td class="to"><span class="big">🏋️</span></td>
+<td class="small">⚖️ là cân công lý</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="62" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Mô tả sự vật</td>
+<td><b>clean</b><br><span class="small">sạch sẽ</span></td>
+<td class="big">🪣</td>
+<td class="to"><span class="big">🧼</span></td>
+<td class="small">🪣 là cái xô</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="63" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Mô tả sự vật</td>
+<td><b>dirty</b><br><span class="small">bẩn</span></td>
+<td class="big">🗑️</td>
+<td class="to"><span class="big">🤢</span></td>
+<td class="small">🗑️ là thùng rác</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="64" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Mô tả sự vật</td>
+<td><b>shiny</b><br><span class="small">sáng bóng</span></td>
+<td class="big">💫</td>
+<td class="to"><span class="big">✨</span></td>
+<td class="small">💫 là choáng váng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="65" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Động vật đại dương</td>
+<td><b>starfish</b><br><span class="small">sao biển</span></td>
+<td class="big">⭐</td>
+<td class="to"><span class="img">Ảnh riêng: an orange starfish on the sand</span></td>
+<td class="small">⭐ là ngôi sao trên trời</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="66" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Hành động nấu ăn</td>
+<td><b>mix</b><br><span class="small">trộn</span></td>
+<td class="big">🔀</td>
+<td class="to"><span class="img">Ảnh riêng: a spoon mixing ingredients in a big bowl</span></td>
+<td class="small">🔀 là nút trộn bài nhạc</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="67" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Hành động nấu ăn</td>
+<td><b>stir</b><br><span class="small">khuấy</span></td>
+<td class="big">🫕</td>
+<td class="to"><span class="big">🥄</span></td>
+<td class="small">🫕 là nồi nước lẩu</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="68" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Hành động nấu ăn</td>
+<td><b>boil</b><br><span class="small">luộc / đun sôi</span></td>
+<td class="big">🫧</td>
+<td class="to"><span class="img">Ảnh riêng: a pot of water boiling with big bubbles on a stove</span></td>
+<td class="small">🫧 là bong bóng xà phòng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="69" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Hành động nấu ăn</td>
+<td><b>steam</b><br><span class="small">hấp</span></td>
+<td class="big">🌥️</td>
+<td class="to"><span class="big">♨️</span></td>
+<td class="small">🌥️ là mây che mặt trời</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="70" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Hành động nấu ăn</td>
+<td><b>peel</b><br><span class="small">gọt vỏ</span></td>
+<td class="big">✂️</td>
+<td class="to"><span class="img">Ảnh riêng: a hand peeling a potato with a peeler</span></td>
+<td class="small">✂️ là cái kéo</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="71" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Hành động nấu ăn</td>
+<td><b>serve</b><br><span class="small">dọn ra / phục vụ</span></td>
+<td class="big">🤵</td>
+<td class="to"><span class="big">🍽️</span></td>
+<td class="small">🤵 là chú rể mặc vest</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="72" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Thiên nhiên ngoài trời</td>
+<td><b>sand</b><br><span class="small">cát</span></td>
+<td class="big">⏳</td>
+<td class="to"><span class="img">Ảnh riêng: a stretch of golden sand at the seashore with a thin edge of blue water and no people or umbrellas</span></td>
+<td class="small">Andie: bãi cát vàng bên bờ biển</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="73" data-type="emoji" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Thiên nhiên ngoài trời</td>
+<td><b>stone</b><br><span class="small">hòn đá</span></td>
+<td class="big">🗿</td>
+<td class="to"><span class="big">🪨</span></td>
+<td class="small">🗿 là tượng đá Moai</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="74" data-type="img" data-level="starter">
+<td><input type="checkbox" class="ok" checked></td><td class="small">starter<br>Thiên nhiên ngoài trời</td>
+<td><b>firefly</b><br><span class="small">đom đóm</span></td>
+<td class="big">✨</td>
+<td class="to"><span class="img">Ảnh riêng: a firefly with a glowing yellow tail at night</span></td>
+<td class="small">✨ chỉ là lấp lánh</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="75" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Lớp Học</td>
+<td><b>board</b><br><span class="small">bảng</span></td>
+<td class="big">📝</td>
+<td class="to"><span class="img">Ảnh riêng: a green classroom chalkboard with a wooden frame</span></td>
+<td class="small">📝 là giấy ghi chú</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="76" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Trong Nhà</td>
+<td><b>lamp</b><br><span class="small">đèn</span></td>
+<td class="big">💡</td>
+<td class="to"><span class="img">Ảnh riêng: a bedside table lamp with a shade</span></td>
+<td class="small">💡 là bóng đèn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="77" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Trong Nhà</td>
+<td><b>floor</b><br><span class="small">sàn nhà</span></td>
+<td class="big">🪵</td>
+<td class="to"><span class="img">Ảnh riêng: a wooden floor in a room</span></td>
+<td class="small">🪵 là khúc gỗ</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="78" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Trong Nhà</td>
+<td><b>kitchen</b><br><span class="small">nhà bếp</span></td>
+<td class="big">🥘</td>
+<td class="to"><span class="img">Ảnh riêng: a cozy home kitchen with stove and cabinets</span></td>
+<td class="small">Nồi thức ăn, không phải căn bếp</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="79" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Trong Nhà</td>
+<td><b>garden</b><br><span class="small">vườn</span></td>
+<td class="big">🌻</td>
+<td class="to"><span class="big">🏡</span></td>
+<td class="small">🏡 là nhà có vườn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="80" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Trong Nhà</td>
+<td><b>shelf</b><br><span class="small">kệ sách</span></td>
+<td class="big">📚</td>
+<td class="to"><span class="img">Ảnh riêng: a wooden bookshelf with a few books</span></td>
+<td class="small">📚 là chồng sách</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="81" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Khuôn Mặt &amp; Cơ Thể</td>
+<td><b>toe</b><br><span class="small">ngón chân</span></td>
+<td class="big">👣</td>
+<td class="to"><span class="img">Ảnh riêng: a bare foot with the toes highlighted</span></td>
+<td class="small">👣 là dấu chân</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="82" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Khuôn Mặt &amp; Cơ Thể</td>
+<td><b>knee</b><br><span class="small">đầu gối</span></td>
+<td class="big">🧎</td>
+<td class="to"><span class="img">Ảnh riêng: a bent leg with the knee highlighted</span></td>
+<td class="small">🧎 là người quỳ</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="83" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Khuôn Mặt &amp; Cơ Thể</td>
+<td><b>thumb</b><br><span class="small">ngón cái</span></td>
+<td class="big">🖐️</td>
+<td class="to"><span class="big">👍</span></td>
+<td class="small">👍 đúng là ngón cái</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="84" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Thời Tiết</td>
+<td><b>hot</b><br><span class="small">nóng</span></td>
+<td class="big">🌡️</td>
+<td class="to"><span class="big">🥵</span></td>
+<td class="small">Đối xứng với cold 🥶</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="85" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Thời Tiết</td>
+<td><b>wet</b><br><span class="small">ướt</span></td>
+<td class="big">🌂</td>
+<td class="to"><span class="big">💧</span></td>
+<td class="small">🌂 là cái ô</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="86" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Trái Cây</td>
+<td><b>plum</b><br><span class="small">mận</span></td>
+<td class="big">🟣</td>
+<td class="to"><span class="img">Ảnh riêng: a ripe purple plum with a leaf</span></td>
+<td class="small">🟣 chỉ là chấm tím</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="87" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Rau Củ</td>
+<td><b>spinach</b><br><span class="small">rau bina</span></td>
+<td class="big">🥗</td>
+<td class="to"><span class="img">Ảnh riêng: a bunch of fresh green spinach leaves</span></td>
+<td class="small">🥗 là đĩa salad</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="88" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Sinh Vật Biển</td>
+<td><b>starfish</b><br><span class="small">sao biển</span></td>
+<td class="big">⭐</td>
+<td class="to"><span class="img">Ảnh riêng: an orange starfish on the sand</span></td>
+<td class="small">⭐ là ngôi sao trên trời</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="89" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Sinh Vật Biển</td>
+<td><b>clam</b><br><span class="small">nghêu/sò</span></td>
+<td class="big">🐚</td>
+<td class="to"><span class="big">🦪</span></td>
+<td class="small">🦪 đúng là loài có vỏ hai mảnh</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="90" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Sinh Vật Biển</td>
+<td><b>eel</b><br><span class="small">lươn</span></td>
+<td class="big">🪱</td>
+<td class="to"><span class="img">Ảnh riêng: a long slender eel swimming</span></td>
+<td class="small">🪱 là con giun</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="91" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Đồ Chơi</td>
+<td><b>ball</b><br><span class="small">quả bóng</span></td>
+<td class="big">🎱</td>
+<td class="to"><span class="big">⚽</span></td>
+<td class="small">🎱 là bi-a số 8</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="92" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Đồ Chơi</td>
+<td><b>block</b><br><span class="small">khối xây dựng</span></td>
+<td class="big">🎲</td>
+<td class="to"><span class="img">Ảnh riêng: colorful wooden toy building blocks</span></td>
+<td class="small">🎲 là xúc xắc</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="93" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Đồ Chơi</td>
+<td><b>marble</b><br><span class="small">bi thủy tinh</span></td>
+<td class="big">🔮</td>
+<td class="to"><span class="img">Ảnh riêng: a few colorful glass marbles</span></td>
+<td class="small">🔮 là quả cầu pha lê</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="94" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Đồ Chơi</td>
+<td><b>robot</b><br><span class="small">rô bốt</span></td>
+<td class="small">Phosphor: Robot</td>
+<td class="to"><span class="big">🤖</span></td>
+<td class="small">Giữ emoji 🤖 sinh động cho trẻ nhỏ</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="95" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Đồ Chơi</td>
+<td><b>sticker</b><br><span class="small">nhãn dán</span></td>
+<td class="big">🏷️</td>
+<td class="to"><span class="img">Ảnh riêng: a sheet of cute stickers with one peeling off</span></td>
+<td class="small">🏷️ là nhãn giá</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="96" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Đồ Chơi</td>
+<td><b>clay</b><br><span class="small">đất nặn</span></td>
+<td class="small">Phosphor: BowlFood</td>
+<td class="to"><span class="img">Ảnh riêng: colorful modeling clay shaped into a small animal</span></td>
+<td class="small">Phosphor là cái bát, emoji là cái xô</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="97" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Đồ Chơi</td>
+<td><b>spinner</b><br><span class="small">con quay</span></td>
+<td class="big">🌀</td>
+<td class="to"><span class="img">Ảnh riêng: a colorful spinning top toy</span></td>
+<td class="small">🌀 là bão xoáy</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="98" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Hành Động</td>
+<td><b>play</b><br><span class="small">chơi</span></td>
+<td class="big">🎪</td>
+<td class="to"><span class="big">🎮</span></td>
+<td class="small">🎪 là rạp xiếc</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="99" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Sinh Hoạt Hàng Ngày</td>
+<td><b>wash</b><br><span class="small">rửa/tắm</span></td>
+<td class="big">🫧</td>
+<td class="to"><span class="big">🧼</span></td>
+<td class="small">🫧 là bong bóng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="100" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Sinh Hoạt Hàng Ngày</td>
+<td><b>wear</b><br><span class="small">mặc/đeo</span></td>
+<td class="big">👘</td>
+<td class="to"><span class="big">👕</span></td>
+<td class="small">👘 là kimono</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="101" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Sinh Hoạt Hàng Ngày</td>
+<td><b>cook</b><br><span class="small">nấu ăn</span></td>
+<td class="big">🔥</td>
+<td class="to"><span class="big">🍳</span></td>
+<td class="small">🔥 chỉ là ngọn lửa</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="102" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Tính Từ Cơ Bản</td>
+<td><b>tall</b><br><span class="small">cao</span></td>
+<td class="big">🗼</td>
+<td class="to"><span class="big">🦒</span></td>
+<td class="small">🗼 là tháp Tokyo</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="103" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Tính Từ Cơ Bản</td>
+<td><b>soft</b><br><span class="small">mềm</span></td>
+<td class="big">🪶</td>
+<td class="to"><span class="big">🧸</span></td>
+<td class="small">Gấu bông rõ nghĩa mềm hơn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="104" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Tính Từ Cơ Bản</td>
+<td><b>hard</b><br><span class="small">cứng</span></td>
+<td class="big">💎</td>
+<td class="to"><span class="big">🪨</span></td>
+<td class="small">💎 là kim cương</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="105" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Tính Từ Cơ Bản</td>
+<td><b>sour</b><br><span class="small">chua</span></td>
+<td class="big">😝</td>
+<td class="to"><span class="big">🍋</span></td>
+<td class="small">Chanh gợi vị chua rõ hơn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="106" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Nghề Nghiệp</td>
+<td><b>artist</b><br><span class="small">nghệ sĩ/họa sĩ</span></td>
+<td class="big">🎨</td>
+<td class="to"><span class="big">🧑‍🎨</span></td>
+<td class="small">Có emoji đúng người</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="107" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Nghề Nghiệp</td>
+<td><b>singer</b><br><span class="small">ca sĩ</span></td>
+<td class="big">🎙️</td>
+<td class="to"><span class="big">🧑‍🎤</span></td>
+<td class="small">🎙️ là micro</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="108" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Nghề Nghiệp</td>
+<td><b>soldier</b><br><span class="small">người lính</span></td>
+<td class="big">💂</td>
+<td class="to"><span class="big">🪖</span></td>
+<td class="small">💂 là lính gác Anh</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="109" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Nghề Nghiệp</td>
+<td><b>firefighter</b><br><span class="small">lính cứu hỏa</span></td>
+<td class="big">🧯</td>
+<td class="to"><span class="big">🧑‍🚒</span></td>
+<td class="small">🧯 là bình cứu hỏa</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="110" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Nghề Nghiệp</td>
+<td><b>sailor</b><br><span class="small">thủy thủ</span></td>
+<td class="big">⚓</td>
+<td class="to"><span class="img">Ảnh riêng: a young sailor in a white sailor uniform and cap</span></td>
+<td class="small">⚓ là mỏ neo</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="111" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Nông Trại</td>
+<td><b>field</b><br><span class="small">cánh đồng</span></td>
+<td class="big">🌄</td>
+<td class="to"><span class="img">Ảnh riêng: a wide green farm field under a blue sky</span></td>
+<td class="small">🌄 là bình minh</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="112" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Nông Trại</td>
+<td><b>fence</b><br><span class="small">hàng rào</span></td>
+<td class="big">🚧</td>
+<td class="to"><span class="img">Ảnh riêng: a white wooden farm fence</span></td>
+<td class="small">🚧 là rào công trường</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="113" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Nông Trại</td>
+<td><b>crop</b><br><span class="small">hoa màu</span></td>
+<td class="small">Phosphor: Leaf</td>
+<td class="to"><span class="big">🌽</span></td>
+<td class="small">Phosphor là chiếc lá, 🍠 là khoai nướng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="114" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Nông Trại</td>
+<td><b>stable</b><br><span class="small">chuồng ngựa</span></td>
+<td class="big">🛖</td>
+<td class="to"><span class="img">Ảnh riêng: a wooden horse stable with a horse looking out</span></td>
+<td class="small">🛖 là túp lều</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="115" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Nông Trại</td>
+<td><b>feed</b><br><span class="small">thức ăn/cho ăn</span></td>
+<td class="big">🥜</td>
+<td class="to"><span class="img">Ảnh riêng: a farmer pouring grain into a trough for chickens</span></td>
+<td class="small">🥜 là đậu phộng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="116" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Thiên Nhiên</td>
+<td><b>river</b><br><span class="small">sông</span></td>
+<td class="big">🌊</td>
+<td class="to"><span class="big">🏞️</span></td>
+<td class="small">🌊 là sóng biển</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="117" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Thiên Nhiên</td>
+<td><b>lake</b><br><span class="small">hồ</span></td>
+<td class="big">🏞️</td>
+<td class="to"><span class="big">🚣</span></td>
+<td class="small">Nhường 🏞️ cho river</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="118" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Thiên Nhiên</td>
+<td><b>sand</b><br><span class="small">cát</span></td>
+<td class="big">🏖️</td>
+<td class="to"><span class="img">Ảnh riêng: a stretch of golden sand at the seashore with a thin edge of blue water and no people or umbrellas</span></td>
+<td class="small">Andie: dùng chung ảnh với Starter</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="119" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Thiên Nhiên</td>
+<td><b>beach</b><br><span class="small">bãi biển</span></td>
+<td class="big">🏝️</td>
+<td class="to"><span class="big">🏖️</span></td>
+<td class="small">🏝️ là hòn đảo</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="120" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Thiên Nhiên</td>
+<td><b>path</b><br><span class="small">con đường/lối đi</span></td>
+<td class="big">🛤️</td>
+<td class="to"><span class="img">Ảnh riêng: a narrow dirt path winding through green grass</span></td>
+<td class="small">🛤️ là đường ray</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="121" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Thiên Nhiên</td>
+<td><b>bush</b><br><span class="small">bụi cây</span></td>
+<td class="big">🪴</td>
+<td class="to"><span class="img">Ảnh riêng: a round green bush</span></td>
+<td class="small">🪴 là cây trong chậu</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="122" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Thể Thao</td>
+<td><b>swimming</b><br><span class="small">bơi lội</span></td>
+<td class="big">🩱</td>
+<td class="to"><span class="big">🏊</span></td>
+<td class="small">🩱 là đồ bơi</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="123" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Thể Thao</td>
+<td><b>running</b><br><span class="small">chạy bộ</span></td>
+<td class="big">🏅</td>
+<td class="to"><span class="big">🏃</span></td>
+<td class="small">🏅 là huy chương</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="124" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Đồ Dùng Trong Bếp</td>
+<td><b>towel</b><br><span class="small">khăn tắm</span></td>
+<td class="big">🧺</td>
+<td class="to"><span class="img">Ảnh riêng: a folded soft bath towel</span></td>
+<td class="small">🧺 là giỏ đồ</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="125" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Đồ Dùng Trong Bếp</td>
+<td><b>pillow</b><br><span class="small">gối</span></td>
+<td class="big">🌜</td>
+<td class="to"><span class="img">Ảnh riêng: a soft white bed pillow</span></td>
+<td class="small">🌜 là mặt trăng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="126" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Đồ Dùng Trong Bếp</td>
+<td><b>blanket</b><br><span class="small">chăn</span></td>
+<td class="big">🛌</td>
+<td class="to"><span class="img">Ảnh riêng: a folded warm blanket</span></td>
+<td class="small">🛌 là người nằm ngủ</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="127" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Đồ Dùng Trong Bếp</td>
+<td><b>remote</b><br><span class="small">điều khiển từ xa</span></td>
+<td class="big">🎛️</td>
+<td class="to"><span class="img">Ảnh riêng: a TV remote control</span></td>
+<td class="small">🎛️ là bàn điều chỉnh âm thanh</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="128" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Lễ Hội &amp; Tiệc</td>
+<td><b>costume</b><br><span class="small">trang phục hóa trang</span></td>
+<td class="big">🎭</td>
+<td class="to"><span class="img">Ảnh riêng: a child's superhero costume with a cape on a hanger</span></td>
+<td class="small">🎭 là mặt nạ sân khấu</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="129" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Lễ Hội &amp; Tiệc</td>
+<td><b>lantern</b><br><span class="small">đèn lồng</span></td>
+<td class="small">Phosphor: Lightbulb</td>
+<td class="to"><span class="big">🏮</span></td>
+<td class="small">Phosphor là bóng đèn; 🏮 đã đúng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="130" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Lễ Hội &amp; Tiệc</td>
+<td><b>parade</b><br><span class="small">diễu hành</span></td>
+<td class="small">Phosphor: MegaphoneSimple</td>
+<td class="to"><span class="img">Ảnh riêng: a street parade with a marching band and flags</span></td>
+<td class="small">Phosphor là loa, emoji là kèn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="131" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Vui Chơi Ngoài Trời</td>
+<td><b>park</b><br><span class="small">công viên</span></td>
+<td class="big">🏕️</td>
+<td class="to"><span class="img">Ảnh riêng: a green city park with trees, a path and a bench</span></td>
+<td class="small">🏕️ là cắm trại</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="132" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Vui Chơi Ngoài Trời</td>
+<td><b>swing</b><br><span class="small">xích đu</span></td>
+<td class="big">🎠</td>
+<td class="to"><span class="img">Ảnh riêng: a child's playground swing hanging from a frame</span></td>
+<td class="small">🎠 là vòng quay ngựa gỗ</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="133" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Vui Chơi Ngoài Trời</td>
+<td><b>catch</b><br><span class="small">bắt</span></td>
+<td class="big">🤲</td>
+<td class="to"><span class="img">Ảnh riêng: two hands catching a ball in the air</span></td>
+<td class="small">🤲 không thấy hành động bắt</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="134" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Vui Chơi Ngoài Trời</td>
+<td><b>skip</b><br><span class="small">nhảy dây</span></td>
+<td class="big">🪢</td>
+<td class="to"><span class="img">Ảnh riêng: a child jumping over a skipping rope</span></td>
+<td class="small">🪢 là nút dây thừng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="135" data-type="emoji" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Vui Chơi Ngoài Trời</td>
+<td><b>explore</b><br><span class="small">khám phá</span></td>
+<td class="big">🔭</td>
+<td class="to"><span class="big">🧭</span></td>
+<td class="small">🔭 là kính thiên văn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="136" data-type="img" data-level="seeker">
+<td><input type="checkbox" class="ok" checked></td><td class="small">seeker<br>Vui Chơi Ngoài Trời</td>
+<td><b>sandbox</b><br><span class="small">hộp cát</span></td>
+<td class="big">🏗️</td>
+<td class="to"><span class="img">Ảnh riêng: a children's sandbox with a bucket and spade</span></td>
+<td class="small">🏗️ là cần cẩu</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr>
+</tbody></table></main>
+<script>
+const NAME="starter-seeker",ROWS=[{"level":"starter","id":"family-home","word":"kitchen"},{"level":"starter","id":"family-home","word":"garden"},{"level":"starter","id":"toys","word":"ball"},{"level":"starter","id":"toys","word":"puppet"},{"level":"starter","id":"toys","word":"swing"},{"level":"starter","id":"toys","word":"bounce"},{"level":"starter","id":"school","word":"classmate"},{"level":"starter","id":"school","word":"desk"},{"level":"starter","id":"school","word":"board"},{"level":"starter","id":"school","word":"eraser"},{"level":"starter","id":"sports","word":"swimming"},{"level":"starter","id":"sports","word":"catch"},{"level":"starter","id":"feelings","word":"funny"},{"level":"starter","id":"weather","word":"hot"},{"level":"starter","id":"weather","word":"warm"},{"level":"starter","id":"transport","word":"tram"},{"level":"starter","id":"sea","word":"pier"},{"level":"starter","id":"sea","word":"sailor"},{"level":"starter","id":"sea","word":"current"},{"level":"starter","id":"sea","word":"harbour"},{"level":"starter","id":"sea","word":"coast"},{"level":"starter","id":"sea","word":"submarine"},{"level":"starter","id":"sea","word":"tide"},{"level":"starter","id":"sea","word":"lighthouse"},{"level":"starter","id":"time","word":"weekend"},{"level":"starter","id":"time","word":"holiday"},{"level":"starter","id":"time","word":"month"},{"level":"starter","id":"time","word":"year"},{"level":"starter","id":"music","word":"perform"},{"level":"starter","id":"music","word":"concert"},{"level":"starter","id":"music","word":"melody"},{"level":"starter","id":"music","word":"record"},{"level":"starter","id":"nature","word":"cave"},{"level":"starter","id":"nature","word":"cliff"},{"level":"starter","id":"nature","word":"pond"},{"level":"starter","id":"nature","word":"soil"},{"level":"starter","id":"nature","word":"moss"},{"level":"starter","id":"nature","word":"canyon"},{"level":"starter","id":"nature","word":"sky"},{"level":"starter","id":"nature","word":"waterfall"},{"level":"starter","id":"nature","word":"hill"},{"level":"starter","id":"nature","word":"desert"},{"level":"starter","id":"nature","word":"valley"},{"level":"starter","id":"city-places","word":"park"},{"level":"starter","id":"city-places","word":"library"},{"level":"starter","id":"cooking","word":"sauce"},{"level":"starter","id":"cooking","word":"dough"},{"level":"starter","id":"cooking","word":"knead"},{"level":"starter","id":"cooking","word":"whisk"},{"level":"starter","id":"cooking","word":"blend"},{"level":"starter","id":"daily-routine","word":"exercise"},{"level":"starter","id":"parties-celebrations","word":"sing"},{"level":"starter","id":"jobs-people","word":"firefighter"},{"level":"starter","id":"jobs-people","word":"artist"},{"level":"starter","id":"jobs-people","word":"builder"},{"level":"starter","id":"jobs-people","word":"singer"},{"level":"starter","id":"jobs-people","word":"scientist"},{"level":"starter","id":"shopping","word":"queue"},{"level":"starter","id":"shopping","word":"size"},{"level":"starter","id":"describing-things","word":"smooth"},{"level":"starter","id":"describing-things","word":"hard"},{"level":"starter","id":"describing-things","word":"heavy"},{"level":"starter","id":"describing-things","word":"clean"},{"level":"starter","id":"describing-things","word":"dirty"},{"level":"starter","id":"describing-things","word":"shiny"},{"level":"starter","id":"ocean-animals","word":"starfish"},{"level":"starter","id":"cooking-actions","word":"mix"},{"level":"starter","id":"cooking-actions","word":"stir"},{"level":"starter","id":"cooking-actions","word":"boil"},{"level":"starter","id":"cooking-actions","word":"steam"},{"level":"starter","id":"cooking-actions","word":"peel"},{"level":"starter","id":"cooking-actions","word":"serve"},{"level":"starter","id":"outdoor-nature","word":"sand"},{"level":"starter","id":"outdoor-nature","word":"stone"},{"level":"starter","id":"outdoor-nature","word":"firefly"},{"level":"seeker","id":"classroom","word":"board"},{"level":"seeker","id":"household-items","word":"lamp"},{"level":"seeker","id":"household-items","word":"floor"},{"level":"seeker","id":"household-items","word":"kitchen"},{"level":"seeker","id":"household-items","word":"garden"},{"level":"seeker","id":"household-items","word":"shelf"},{"level":"seeker","id":"my-face","word":"toe"},{"level":"seeker","id":"my-face","word":"knee"},{"level":"seeker","id":"my-face","word":"thumb"},{"level":"seeker","id":"weather-basic","word":"hot"},{"level":"seeker","id":"weather-basic","word":"wet"},{"level":"seeker","id":"common-fruits","word":"plum"},{"level":"seeker","id":"basic-vegetables","word":"spinach"},{"level":"seeker","id":"sea-creatures","word":"starfish"},{"level":"seeker","id":"sea-creatures","word":"clam"},{"level":"seeker","id":"sea-creatures","word":"eel"},{"level":"seeker","id":"toys-games","word":"ball"},{"level":"seeker","id":"toys-games","word":"block"},{"level":"seeker","id":"toys-games","word":"marble"},{"level":"seeker","id":"toys-games","word":"robot"},{"level":"seeker","id":"toys-games","word":"sticker"},{"level":"seeker","id":"toys-games","word":"clay"},{"level":"seeker","id":"toys-games","word":"spinner"},{"level":"seeker","id":"basic-actions","word":"play"},{"level":"seeker","id":"daily-routines","word":"wash"},{"level":"seeker","id":"daily-routines","word":"wear"},{"level":"seeker","id":"daily-routines","word":"cook"},{"level":"seeker","id":"simple-adjectives","word":"tall"},{"level":"seeker","id":"simple-adjectives","word":"soft"},{"level":"seeker","id":"simple-adjectives","word":"hard"},{"level":"seeker","id":"simple-adjectives","word":"sour"},{"level":"seeker","id":"jobs-basic","word":"artist"},{"level":"seeker","id":"jobs-basic","word":"singer"},{"level":"seeker","id":"jobs-basic","word":"soldier"},{"level":"seeker","id":"jobs-basic","word":"firefighter"},{"level":"seeker","id":"jobs-basic","word":"sailor"},{"level":"seeker","id":"farm-basics","word":"field"},{"level":"seeker","id":"farm-basics","word":"fence"},{"level":"seeker","id":"farm-basics","word":"crop"},{"level":"seeker","id":"farm-basics","word":"stable"},{"level":"seeker","id":"farm-basics","word":"feed"},{"level":"seeker","id":"nature-basics","word":"river"},{"level":"seeker","id":"nature-basics","word":"lake"},{"level":"seeker","id":"nature-basics","word":"sand"},{"level":"seeker","id":"nature-basics","word":"beach"},{"level":"seeker","id":"nature-basics","word":"path"},{"level":"seeker","id":"nature-basics","word":"bush"},{"level":"seeker","id":"simple-sports","word":"swimming"},{"level":"seeker","id":"simple-sports","word":"running"},{"level":"seeker","id":"home-objects","word":"towel"},{"level":"seeker","id":"home-objects","word":"pillow"},{"level":"seeker","id":"home-objects","word":"blanket"},{"level":"seeker","id":"home-objects","word":"remote"},{"level":"seeker","id":"celebrations","word":"costume"},{"level":"seeker","id":"celebrations","word":"lantern"},{"level":"seeker","id":"celebrations","word":"parade"},{"level":"seeker","id":"outdoor-play","word":"park"},{"level":"seeker","id":"outdoor-play","word":"swing"},{"level":"seeker","id":"outdoor-play","word":"catch"},{"level":"seeker","id":"outdoor-play","word":"skip"},{"level":"seeker","id":"outdoor-play","word":"explore"},{"level":"seeker","id":"outdoor-play","word":"sandbox"}],KEY='icon-review-'+NAME;
+const saved=JSON.parse(localStorage.getItem(KEY)||'{}'),trs=[...document.querySelectorAll('tbody tr')];
+function sum(){document.getElementById('sum').textContent=trs.filter(t=>t.querySelector('.ok').checked).length+'/'+trs.length+' dòng được duyệt'}
+function save(){const o={};trs.forEach(t=>{const ok=t.querySelector('.ok').checked,n=t.querySelector('.note').value;t.classList.toggle('rej',!ok);if(!ok||n)o[t.dataset.i]={ok,note:n}});localStorage.setItem(KEY,JSON.stringify(o));sum()}
+trs.forEach(t=>{const s=saved[t.dataset.i];if(s){t.querySelector('.ok').checked=s.ok;t.querySelector('.note').value=s.note||''}t.addEventListener('input',save)});save();
+document.getElementById('f').onchange=e=>{const v=e.target.value;trs.forEach(t=>{t.style.display=!v||t.dataset.type===v||t.dataset.level===v?'':'none'})};
+document.getElementById('dl').onclick=()=>{const out=trs.map(t=>({...ROWS[t.dataset.i],ok:t.querySelector('.ok').checked,note:t.querySelector('.note').value})).filter(r=>!r.ok||r.note);
+const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(out,null,1)],{type:'application/json'}));a.download='decisions-'+NAME+'.json';a.click()};
+</script>

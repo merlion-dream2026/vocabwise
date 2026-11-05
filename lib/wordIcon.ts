@@ -290,6 +290,7 @@ const WORD_ICONS: Record<string, string> = {
 }
 
 import { WORD_ICONS_EXTENDED } from './wordIconExtension'
+import { SENSE_IMAGES, WORD_IMAGES } from './wordImageIcons'
 
 const MERGED = { ...WORD_ICONS_EXTENDED, ...WORD_ICONS }
 
@@ -328,5 +329,11 @@ const CUSTOM_SVG_ICONS: Record<string, string> = {
 }
 
 export function getCustomSvgIcon(word: string): string | null {
-  return CUSTOM_SVG_ICONS[word.toLowerCase()] ?? null
+  const key = word.toLowerCase()
+  return WORD_IMAGES[key] ?? CUSTOM_SVG_ICONS[key] ?? null
+}
+
+/** Illustration for this exact sense of the word; see lib/wordImageIcons.ts for the key. */
+export function getWordImage(word: string, emoji: string): string | null {
+  return SENSE_IMAGES[`${word.toLowerCase()}|${emoji}`] ?? null
 }
