@@ -132,7 +132,7 @@ const FAQ_ITEMS = [
       },
       {
         q: 'Nguồn hình minh họa trong app?',
-        a: 'Phần lớn icon minh họa dùng emoji chuẩn Unicode. Với vài từ không có emoji phù hợp (ví dụ: đu đủ, vải thiều...), app dùng minh họa từ Openclipart.org (public domain) hoặc tự vẽ.\n\nRiêng icon "giày thể thao" (trainers) lấy từ OpenMoji.org, giấy phép CC BY-SA 4.0 — ghi nguồn tại đây theo yêu cầu giấy phép.',
+        a: 'Phần lớn icon minh họa dùng emoji chuẩn Unicode. Với những từ không có emoji phù hợp (ví dụ: đu đủ, vải thiều...), app dùng hình minh họa riêng được tạo bằng AI.',
       },
     ],
   },

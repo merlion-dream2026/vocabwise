@@ -29,6 +29,7 @@ export const SENSE_IMAGES: Record<string, string> = {
   "firefly|✨": "/icons/words/firefly.webp",
   "floor|🪵": "/icons/words/floor.webp",
   "harbour|🛥️": "/icons/words/harbour.webp",
+  "kitchen|🥘": "/icons/words/kitchen.webp",
   "knead|👐": "/icons/words/knead.webp",
   "knee|🧎": "/icons/words/knee.webp",
   "lamp|💡": "/icons/words/lamp.webp",
@@ -37,6 +38,7 @@ export const SENSE_IMAGES: Record<string, string> = {
   "melody|🪗": "/icons/words/melody.webp",
   "mix|🔀": "/icons/words/mix.webp",
   "month|🗒️": "/icons/words/month.webp",
+  "moss|🌿": "/icons/words/moss.webp",
   "parade|🎺": "/icons/words/parade.webp",
   "park|🏕️": "/icons/words/park.webp",
   "path|🛤️": "/icons/words/path.webp",
@@ -55,10 +57,23 @@ export const SENSE_IMAGES: Record<string, string> = {
   "sandbox|🏗️": "/icons/words/sandbox.webp",
   "sauce|🍅": "/icons/words/sauce.webp",
   "shelf|📚": "/icons/words/shelf.webp",
+  "skip|🪢": "/icons/words/skip.webp",
+  "smooth|🪨": "/icons/words/smooth.webp",
+  "soil|🟫": "/icons/words/soil.webp",
+  "spinach|🥗": "/icons/words/spinach.webp",
+  "spinner|🌀": "/icons/words/spinner.webp",
+  "stable|🛖": "/icons/words/stable.webp",
   "starfish|⭐": "/icons/words/starfish.webp",
+  "sticker|🏷️": "/icons/words/sticker.webp",
   "submarine|🤿": "/icons/words/submarine.webp",
+  "swing|🎠": "/icons/words/swing.webp",
   "tide|🌕": "/icons/words/tide.webp",
-  "waterfall|⛲": "/icons/words/waterfall.webp"
+  "toe|👣": "/icons/words/toe.webp",
+  "towel|🧺": "/icons/words/towel.webp",
+  "waterfall|⛲": "/icons/words/waterfall.webp",
+  "weekend|😎": "/icons/words/weekend.webp",
+  "whisk|🥄": "/icons/words/whisk.webp",
+  "year|🔄": "/icons/words/year.webp"
 }
 
 // Replacements for the older word-keyed icons in lib/wordIcon.ts.
@@ -66,6 +81,7 @@ export const WORD_IMAGES: Record<string, string> = {
   "barn": "/icons/words/barn.webp",
   "chase": "/icons/words/chase.webp",
   "cheek": "/icons/words/cheek.webp",
+  "chin": "/icons/words/chin.webp",
   "driver": "/icons/words/driver.webp",
   "eyelash": "/icons/words/eyelash.webp",
   "forehead": "/icons/words/forehead.webp",
@@ -77,5 +93,9 @@ export const WORD_IMAGES: Record<string, string> = {
   "lychee": "/icons/words/lychee.webp",
   "mule": "/icons/words/mule.webp",
   "papaya": "/icons/words/papaya.webp",
-  "seahorse": "/icons/words/seahorse.webp"
+  "seahorse": "/icons/words/seahorse.webp",
+  "skirt": "/icons/words/skirt.webp",
+  "table": "/icons/words/table.webp",
+  "trainers": "/icons/words/trainers.webp",
+  "whistle": "/icons/words/whistle.webp"
 }
