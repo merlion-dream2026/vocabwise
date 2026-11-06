@@ -102,7 +102,7 @@
    "why": "🩴 chỉ là đôi dép"
   },
   "weekend": {
-   "img": "a blank weekly calendar grid with the last two columns highlighted in bright color",
+   "img": "a desk calendar with a grid of pale blue squares, where the last two squares of the top row are highlighted in yellow",
    "why": "😎 không liên quan cuối tuần"
   },
   "month": {
@@ -114,11 +114,11 @@
    "why": "🔄 là biểu tượng làm mới"
   },
   "concert": {
-   "img": "a band playing on a lit stage with an audience",
+   "img": "a bright stage with three musicians (a singer, a guitarist, a drummer) under two spotlight beams, and a row of three dark audience heads along the bottom",
    "why": "Phosphor hình micro, emoji là đàn banjo"
   },
   "melody": {
-   "img": "a flowing line of colorful music notes",
+   "img": "a small wooden flute with a wavy ribbon of five colorful music notes floating out of its end. No staff lines, no clef",
    "why": "🪗 là đàn accordion"
   },
   "perform": {
@@ -197,11 +197,11 @@
    "why": "👐 không thấy hành động nhào"
   },
   "whisk": {
-   "img": "a metal kitchen whisk beating eggs in a bowl",
+   "img": "a round white bowl of yellow beaten egg with foam, and a silver whisk standing in it",
    "why": "🥄 là cái thìa"
   },
   "blend": {
-   "img": "a kitchen blender full of fruit smoothie",
+   "img": "a kitchen blender with a clear jar and a lid, full of pink smoothie swirling in a spiral, with whole strawberries at the top",
    "why": "🫙 là lọ thủy tinh"
   },
   "exercise": {
@@ -233,7 +233,7 @@
    "why": "🎤 là micro, không phải người"
   },
   "queue": {
-   "img": "a line of people waiting one behind another",
+   "img": "four people standing in a straight line one behind another, side view, all facing a small ticket booth on the right",
    "why": "👥 chỉ là hai bóng người"
   },
   "size": {
@@ -241,7 +241,7 @@
    "why": "📐 là thước eke"
   },
   "smooth": {
-   "img": "a smooth round polished pebble",
+   "img": "a very shiny, perfectly smooth oval grey pebble with a glossy highlight",
    "why": "🪨 trông thô ráp, ngược nghĩa"
   },
   "hard": {
@@ -323,7 +323,7 @@
    "why": "💡 là bóng đèn"
   },
   "floor": {
-   "img": "a wooden floor in a room",
+   "img": "a room corner with a wooden floor, plus a bold purple arrow pointing down at the floor",
    "why": "🪵 là khúc gỗ"
   },
   "shelf": {
@@ -384,11 +384,11 @@
   },
   "clay": {
    "dropP": true,
-   "img": "colorful modeling clay shaped into a small animal",
+   "img": "a children's modeling clay set: an open flat plastic tray holding six chunky rectangular bars of clay in red, orange, yellow, green, blue and purple",
    "why": "Phosphor là cái bát, emoji là cái xô"
   },
   "sticker": {
-   "img": "a sheet of cute stickers with one peeling off",
+   "img": "one blank yellow sticker with a white border, peeling up at one corner",
    "why": "🏷️ là nhãn giá"
   },
   "spinner": {
@@ -534,7 +534,7 @@
   },
   "parade": {
    "dropP": true,
-   "img": "a street parade with a marching band and flags",
+   "img": "three children marching in a line, side view, in matching red uniforms: the first carries a flag, the second a drum, the third a trumpet. No buildings, no crowd",
    "why": "Phosphor là loa, emoji là kèn"
   },
   "park": {
