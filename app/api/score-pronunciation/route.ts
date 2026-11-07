@@ -3,7 +3,7 @@ import { getSession } from '@/lib/auth'
 import { getFamilyProfile } from '@/lib/security'
 import { getAISpeakLimit } from '@/lib/planUtils'
 import { consumeAIQuota } from '@/lib/aiQuota'
-import { normalize, soundex } from '@/lib/pronunciation'
+import { isPronunciationCorrect } from '@/lib/pronunciation'
 import { assessPronunciation, azureConfigured } from '@/lib/azureSpeech'
 import { passes, phonicsVerdict, groupFor, type Assessment } from '@/lib/pronunciationScore'
 import { getPronunciationBars } from '@/lib/pronunciationBars'
@@ -15,44 +15,6 @@ function isEnglishLike(s: string): boolean {
   // Only reject when there are NO ASCII letters (e.g. pure CJK/Vietnamese hallucination)
   // Em-dash, smart quotes added by Whisper still pass if the sentence has real letters
   return /[a-zA-Z]/.test(s)
-}
-
-function isCorrect(transcript: string, target: string, word: string, contrastWords: string[], threshold: number): boolean {
-  const t   = normalize(transcript)
-  const tgt = normalize(target)
-  const w   = normalize(word)
-
-  const tWords   = t.split(' ').filter(Boolean)
-  const tgtWords = tgt.split(' ').filter(Boolean)
-
-  // 0. If transcript matches a contrast word (exact or Soundex) → wrong sound was said
-  if (contrastWords.length > 0) {
-    const contrasts = contrastWords.map(normalize)
-    const saidContrast = contrasts.some(c => tWords.some(tok => tok === c || soundex(tok) === soundex(c)))
-    if (saidContrast) return false
-  }
-
-  // 1. Exact / contains match
-  if (t === tgt || t.includes(tgt)) return true
-
-  // 2. Keyword must appear (exact or phonetic match)
-  const hasKeyWord = tWords.some(tok => tok === w || soundex(tok) === soundex(w))
-  if (!hasKeyWord) return false
-
-  // 3. Single-word target: keyword present = sufficient
-  if (tgtWords.length === 1) return true
-
-  // 4. Sentence: keyword correct + ≥threshold of ALL target words present (soundex-tolerant, any order)
-  let matched = 0
-  const used = new Set<number>()
-  for (const tw of tgtWords) {
-    for (let i = 0; i < tWords.length; i++) {
-      if (!used.has(i) && (tWords[i] === tw || soundex(tWords[i]) === soundex(tw))) {
-        matched++; used.add(i); break
-      }
-    }
-  }
-  return matched / tgtWords.length >= threshold
 }
 
 /** Compact per-word scores for the log (no audio): which words/sounds fail → tune the bars. */
@@ -184,7 +146,7 @@ export async function POST(req: NextRequest) {
   // Nếu transcript chứa ký tự non-ASCII → Whisper hallucinate sang ngôn ngữ khác
   // → báo unclear thay vì sai (không phải lỗi của bé)
   const unclear = !isEnglishLike(transcript)
-  const correct = unclear ? false : isCorrect(transcript, target, word, contrastWords, matchThreshold(level))
+  const correct = unclear ? false : isPronunciationCorrect(transcript, target, word, contrastWords, matchThreshold(level))
 
   // azureOff → the client stops converting clips to WAV for the rest of the session
   return NextResponse.json({ transcript, correct, unclear, engine: 'whisper', azureOff: !azureConfigured() })

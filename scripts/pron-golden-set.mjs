@@ -116,8 +116,8 @@ const rows = clips.map(c => {
   if (c.result.kind !== 'ok') return { ...c, unclear: true, verdict: false }
   const a = c.result.assessment
   const isPhonics = c.symbols.length && c.targets.length
-  const keySet = new Set((isPhonics ? c.targets : normalize(c.keyword).split(' ')).map(normalize).filter(Boolean))
-  const keyWords = a.words.filter(w => keySet.has(normalize(w.word)) && w.error !== 'Insertion')
+  const focus = new Set(c.targets.map(normalize))
+  const keyWords = isPhonics ? a.words.filter(w => focus.has(normalize(w.word)) && w.error !== 'Insertion') : S.keywordHits(a, c.keyword)
   const keyAcc = keyWords.length ? Math.min(...keyWords.map(w => (w.error === 'Omission' ? 0 : w.accuracy))) : 0
   let minPh = null
   if (isPhonics) {

@@ -5,8 +5,8 @@
 import { useState } from 'react'
 import { cta } from '@/components/ChunkyUI'
 import { disputePronunciation } from '@/lib/pronounceClient'
-import { normalize } from '@/lib/pronunciation'
-import type { Assessment, Bar } from '@/lib/pronunciationScore'
+import { isKeyWord } from '@/lib/pronunciation'
+import { keywordScore, type Assessment, type Bar } from '@/lib/pronunciationScore'
 
 export const SLOW_RATE = 0.6
 // After this many wrong tries on one item, play the model slowly and suggest moving on
@@ -47,8 +47,6 @@ const CHIP: Record<Mark['level'], string> = {
 }
 const RING: Record<Mark['level'], string> = { good: 'ring-2 ring-green-400', weak: 'ring-2 ring-amber-300', bad: 'ring-2 ring-red-300' }
 
-const wordSet = (s?: string) => new Set(normalize(s ?? '').split(' ').filter(Boolean))
-
 /** Word chips: green = good, amber = borderline, red = mispronounced / not heard. With Azure
  *  (`scored`) the colours are real pronunciation scores; with Whisper red only means "not heard".
  *  `keyword` chips get a ring (the word being learned). `onSpeak` → tap a chip to hear it. */
@@ -57,8 +55,7 @@ export function WordMarks({ marks, scored, keyword, onSpeak, hideHint }: {
 }) {
   if (!marks.length) return null
   const anyBad = marks.some(m => m.level === 'bad')
-  const keys = wordSet(keyword)
-  const cls = (m: Mark) => `px-1.5 py-0.5 rounded-lg font-bold text-base ${CHIP[m.level]} ${keys.has(normalize(m.text)) ? RING[m.level] : ''}`
+  const cls = (m: Mark) => `px-1.5 py-0.5 rounded-lg font-bold text-base ${CHIP[m.level]} ${isKeyWord(m.text, keyword ?? '') ? RING[m.level] : ''}`
   return (
     <>
       <p className="mt-2 flex flex-wrap justify-center gap-1">
@@ -73,13 +70,6 @@ export function WordMarks({ marks, scored, keyword, onSpeak, hideHint }: {
       )}
     </>
   )
-}
-
-/** Lowest Azure score among the key word's words (skipped = 0); null when it isn't in the result. */
-function keywordScore(a: Assessment, keyword: string): number | null {
-  const keys = wordSet(keyword)
-  const hits = a.words.filter(w => keys.has(normalize(w.word)) && w.error !== 'Insertion')
-  return hits.length ? Math.min(...hits.map(w => (w.error === 'Omission' ? 0 : w.accuracy))) : null
 }
 
 /** "Why" behind the score: key word first, then plain-language sub-scores, then the pass rule. */
@@ -120,8 +110,7 @@ export function ResultCard({ correct, stars, marks, transcript, assessment, keyw
   logId?: number | null // Azure attempt id → "Con đọc đúng mà" under a fail
 }) {
   const [open, setOpen] = useState(false)
-  const keys = wordSet(keyword)
-  const badKey = assessment && !correct ? marks.find(m => m.level === 'bad' && keys.has(normalize(m.text)))?.text.replace(/[^\w'-]/g, '') : undefined
+  const badKey = assessment && !correct ? marks.find(m => m.level === 'bad' && isKeyWord(m.text, keyword ?? ''))?.text.replace(/[^\w'-]/g, '') : undefined
   const title = correct
     ? (stars === 3 ? (simple && assessment ? 'Xuất sắc! Con đọc rất chuẩn' : 'Xuất sắc!') : 'Giỏi lắm!')
     : badKey ? <>Từ <u>{badKey}</u> chưa chuẩn lắm</> : 'Gần được rồi! Thử lại nhé'

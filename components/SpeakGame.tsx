@@ -41,7 +41,7 @@ const MAX_PHRASE_WORDS = 4
 function pickPhrase(w: Word): { en: string; vi: string } | null {
   const short = (w.collocations ?? []).filter(c => c.phrase.split(' ').length <= MAX_PHRASE_WORDS)
   if (!short.length) return null
-  // Prefer phrases that contain the word itself — the scorer requires the keyword
+  // Prefer phrases that contain the word itself — that's the word the scorer judges
   const key = w.word.toLowerCase()
   const withKey = short.filter(c => c.phrase.toLowerCase().includes(key))
   const pool = withKey.length ? withKey : short

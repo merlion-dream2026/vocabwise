@@ -3,7 +3,7 @@
 // Thresholds are a first guess, kinder for young levels (Azure is tuned on adult voices) — every
 // Azure result is logged with its scores (pronunciation_log) so they can be recalibrated
 // (docs/pronunciation-thresholds-plan.md).
-import { normalize } from './pronunciation'
+import { isKeyWord, normalize } from './pronunciation'
 
 export type PhonemeScore = { p: string; score: number; heard: string[] } // heard = Azure's top guesses (NBest)
 export type WordScore = { word: string; accuracy: number; error: string; phonemes: PhonemeScore[] }
@@ -105,15 +105,26 @@ export function wordOk(w: WordScore, level: string, bars: Bars = DEFAULT_BARS): 
 }
 
 // ── Daily / Academic "Phát âm cùng AI" ───────────────────────────────────────
+/** The key word's own words as Azure scored them (insertions dropped). Example sentences inflect the
+ *  key word (portion → "portions"), and a hyphenated word may arrive as one Azure word. */
+export function keywordHits(a: Assessment, keyword: string): WordScore[] {
+  return a.words.filter(w => w.error !== 'Insertion' && isKeyWord(w.word, keyword))
+}
+
+/** Lowest key word score (skipped = 0); null when the key word isn't in the result. */
+export function keywordScore(a: Assessment, keyword: string): number | null {
+  const hits = keywordHits(a, keyword)
+  return hits.length ? Math.min(...hits.map(w => (w.error === 'Omission' ? 0 : w.accuracy))) : null
+}
+
 /** Pass = good overall score, phrase (almost) fully read, and every word of the key word itself
- *  acceptable — the word being learned can't be carried by the rest of the sentence. */
+ *  acceptable — the word being learned can't be carried by the rest of the sentence.
+ *  Key word not locatable (irregular form: buy → "bought") → overall score decides, never an
+ *  automatic fail. A skipped key word still fails: Azure reports it as an Omission hit. */
 export function passes(a: Assessment, keyword: string, level: string, bars: Bars = DEFAULT_BARS): boolean {
   const bar = barFor(level, bars)
   if (a.pronScore < bar.pron || a.completeness < bar.completeness) return false
-  const target = new Set(normalize(keyword).split(' ').filter(Boolean))
-  const hits = a.words.filter((w) => target.has(normalize(w.word)) && w.error !== 'Insertion')
-  if (hits.length === 0) return false
-  return hits.every((w) => wordOk(w, level, bars))
+  return keywordHits(a, keyword).every((w) => wordOk(w, level, bars))
 }
 
 /** Chip colour per word: bad = below the bar (after the hard-sound allowance), weak = borderline, good. */
