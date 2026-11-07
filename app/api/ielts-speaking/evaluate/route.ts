@@ -136,7 +136,7 @@ export async function POST(req: NextRequest) {
   const maxTokens = input.part === 2 ? 4200 : 3800
   const prompt = buildIeltsSpeakingEvaluationPrompt(input, reference)
   const raw = await aiChat({
-    order: ['groq', 'cerebras'],
+    order: ['groq', 'gemini'],
     prompt,
     maxTokens,
     temperature: 0.35,
@@ -151,7 +151,7 @@ export async function POST(req: NextRequest) {
 
   if (!result) {
     const repaired = await aiChat({
-      order: ['groq', 'cerebras'],
+      order: ['groq', 'gemini'],
       prompt: buildJsonRepairPrompt(raw),
       maxTokens,
       temperature: 0,

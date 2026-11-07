@@ -115,10 +115,10 @@ Gating phụ thuộc DB — fetch `/api/auth/me` với `cache: 'no-store'` để
 ```
 NEXT_PUBLIC_SUPABASE_URL  NEXT_PUBLIC_SUPABASE_ANON_KEY  SUPABASE_SERVICE_ROLE_KEY
 JWT_SECRET  GMAIL_USER  GMAIL_APP_PASSWORD
-OPENAI_API_KEY  GROQ_API_KEY  CEREBRAS_API_KEY  NEXT_PUBLIC_APP_URL
+OPENAI_API_KEY  GROQ_API_KEY  GEMINI_API_KEY  NEXT_PUBLIC_APP_URL
 CRON_SECRET  ADMIN_RECOVERY_SECRET (reset 2FA khẩn cấp, tuỳ chọn)
 ```
-AI text-helper fallback chain (`lib/aiChat.ts`, dùng bởi explain/hint/grammar-note/writing-check/generate-exercises): Groq → Cerebras, tự động rớt sang provider kế nếu fail/rate-limit. explain/hint/grammar-note/generate-exercises dùng chung 1 quota/ngày theo `getAITextLimit()` (xem bảng Feature Gating); writing-check có quota riêng 40/ngày (`checkAndIncrementWritingCheckUsage`, chưa theo plan tier).
+AI text-helper fallback chain (`lib/aiChat.ts`, dùng bởi explain/hint/grammar-note/writing-check/generate-exercises/grade-production/sentence-check/ielts-speaking): Groq → Gemini 3.5 Flash-Lite free, tự động rớt sang provider kế nếu fail/rate-limit (Cerebras bỏ 2026-11-07: trả 402; vài script cũ trong `scripts/` vẫn gọi Cerebras). explain/hint/grammar-note/generate-exercises dùng chung 1 quota/ngày theo `getAITextLimit()` (xem bảng Feature Gating); writing-check có quota riêng 40/ngày (`checkAndIncrementWritingCheckUsage`, chưa theo plan tier).
 
 ## Scripts & Assets
 - **Audio:** `public/audio/stories/[level].[topic-id].mp3` — Kids mini story

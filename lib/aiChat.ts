@@ -4,12 +4,14 @@
 // non-2xx incl. provider-side rate limiting) — so a single provider's outage or
 // daily quota doesn't take the feature down.
 
-type Provider = 'groq' | 'cerebras'
+type Provider = 'groq' | 'gemini'
 
 type ProviderConfig = {
   url: string
   key: () => string | undefined
   model: string
+  /** Abort after this long so a stuck provider fails instead of holding the request */
+  timeoutMs?: number
 }
 
 const PROVIDERS: Record<Provider, ProviderConfig> = {
@@ -18,10 +20,13 @@ const PROVIDERS: Record<Provider, ProviderConfig> = {
     key: () => process.env.GROQ_API_KEY,
     model: 'openai/gpt-oss-120b', // llama-3.1-8b-instant decommissioned by Groq (2026-08)
   },
-  cerebras: {
-    url: 'https://api.cerebras.ai/v1/chat/completions',
-    key: () => process.env.CEREBRAS_API_KEY,
-    model: 'gpt-oss-120b',
+  // Backup only: free tier (limits shown in AI Studio, not published). Flash-Lite because 3.8 Flash
+  // returned 503s and hung for 90s when tested (2026-11-07).
+  gemini: {
+    url: 'https://generativelanguage.googleapis.com/v1beta/openai/chat/completions',
+    key: () => process.env.GEMINI_API_KEY,
+    model: 'gemini-3.5-flash-lite',
+    timeoutMs: 30_000,
   },
 }
 
@@ -58,6 +63,7 @@ async function callProvider(provider: Provider, opts: Omit<ChatOptions, 'order'>
         ...(opts.json ? { response_format: { type: 'json_object' } } : {}),
         ...(opts.reasoningEffort ? { reasoning_effort: opts.reasoningEffort } : {}),
       }),
+      ...(cfg.timeoutMs ? { signal: AbortSignal.timeout(cfg.timeoutMs) } : {}),
     })
   } catch (e) {
     console.error(`[aiChat] ${provider} fetch failed:`, e)

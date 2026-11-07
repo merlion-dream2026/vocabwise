@@ -4,7 +4,7 @@
 
 ## TL;DR
 - Quy mô hiện tại (vocab-wise 10 gia đình / 14 HS): đổi sang trả phí chỉ tốn **~$1–4/tháng**. Vấn đề của Groq free là **rate limit**, không phải tiền.
-- Groq free `gpt-oss-120b`: **8K token/phút, 200K token/ngày** → vocab-wise hết quota ngày ở ~35 HS học cùng ngày (fallback Cerebras); AXANH chỉ chấm được ~1 bài/phút.
+- Groq free `gpt-oss-120b`: **8K token/phút, 200K token/ngày** → vocab-wise hết quota ngày ở ~35 HS học cùng ngày (fallback Gemini 3.5 Flash-Lite free, thay Cerebras từ 07/11/2026 vì Cerebras trả 402); AXANH chỉ chấm được ~1 bài/phút.
 - **Đề xuất bước 1:** nâng Groq lên **Developer** (pay-as-you-go, 250K TPM), đặt spend limit — không sửa code.
 - Bước 2 (tùy chọn): chỉ các endpoint chấm điểm quan trọng → OpenAI `gpt-5-mini`; còn lại giữ Groq.
 
@@ -63,7 +63,7 @@ Giả định: 50 NV × 2 lần chấm/ngày × 20 ngày = 2.000 lần chấm/th
 Nút thắt là 8K TPM (≈1 bài/phút toàn công ty); Groq Developer 250K TPM ≈ ~50 bài/phút.
 
 ## 4. Lưu ý kỹ thuật khi chuyển
-- vocab-wise: provider nằm ở `lib/aiChat.ts` (groq / cerebras). Thêm OpenAI ≈ 20 dòng (API tương thích OpenAI).
+- vocab-wise: provider nằm ở `lib/aiChat.ts` (groq / gemini). Thêm OpenAI ≈ 20 dòng (API tương thích OpenAI).
 - AXANH: AI soạn nội dung đã có switch `CONTENT_AI_PROVIDER=openai` (`lib/contentAI.ts`); phần chấm bài vẫn gọi Groq riêng.
 - `gpt-5-mini` / `nano` là reasoning model: **không nhận `temperature`**, dùng `max_completion_tokens` thay `max_tokens`, reasoning tokens tính như output → chi phí thực tế có thể ×1,5 so với bảng.
 - `gpt-oss` (Groq) cũng là reasoning model: phải để `max_tokens` đủ lớn + `reasoning_effort: 'low'`, nếu không câu trả lời bị cắt (lỗi "Giải nghĩa" cụt, sửa 18/10/2026).

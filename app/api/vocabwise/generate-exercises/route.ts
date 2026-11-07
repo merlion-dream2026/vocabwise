@@ -73,7 +73,7 @@ Return ONLY this JSON (no extra text):
   ]
 }`
 
-  const raw = await aiChat({ order: ['groq', 'cerebras'], prompt, maxTokens: 800, temperature: 0.8, json: true })
+  const raw = await aiChat({ order: ['groq', 'gemini'], prompt, maxTokens: 800, temperature: 0.8, json: true })
   if (raw === null) return NextResponse.json({ error: 'AI unavailable' }, { status: 502 })
 
   try {
