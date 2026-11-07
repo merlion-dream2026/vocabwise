@@ -59,7 +59,7 @@ Chấm từng câu và trả lời đúng định dạng JSON sau (không thêm 
 Nếu câu học sinh viết bị bỏ trống, chấm score=0, used_correctly=false, grammar_ok=false, feedback_vi="Chưa trả lời câu này."`
 
   const maxTokens = Math.min(1800, 150 * items.length + 200)
-  const raw = await aiChat({ order: ['cerebras', 'groq'], prompt, maxTokens, temperature: 0.4, json: true })
+  const raw = await aiChat({ order: ['groq', 'cerebras'], prompt, maxTokens, temperature: 0.4, json: true })
   if (raw === null) return NextResponse.json({ error: 'AI unavailable' }, { status: 502 })
 
   try {
