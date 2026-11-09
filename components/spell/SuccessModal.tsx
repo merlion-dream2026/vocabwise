@@ -15,7 +15,7 @@ export default function SuccessModal({ word, isLast, onHear, onNext }: Props) {
       <div className="w-full max-w-xs bg-[#fdf6e6] rounded-[26px] px-5 py-6 text-center shadow-2xl">
         <h2 className="text-2xl font-black text-[#3b2a8a]">Giỏi quá! 🎉</h2>
         <div className="w-32 h-32 mx-auto mt-4 mb-2 bg-white border-[6px] border-[#ecb94f] rounded-3xl flex items-center justify-center">
-          <WordIcon word={word.word} emoji={word.emoji} emojiClass="text-7xl leading-none select-none" iconSize={72} />
+          <WordIcon word={word.word} emoji={word.emoji} emojiClass="text-7xl leading-none select-none" iconSize={72} zoomable />
         </div>
         <p className="text-5xl font-black text-[#3b2a8a] leading-tight break-words">{word.word}</p>
         <p className="font-extrabold text-[#6b5fa0] mb-4">{word.meaning}</p>

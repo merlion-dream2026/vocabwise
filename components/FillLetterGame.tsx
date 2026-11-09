@@ -141,7 +141,7 @@ export default function FillLetterGame({ topic, level, backUrl }: Props) {
         <div role="alert" aria-live="assertive" className="sr-only">
           {selected !== null && (selected === q.word.word[q.hiddenIdx].toLowerCase() ? 'Chính xác!' : `Sai rồi. Chữ đúng là ${q.word.word[q.hiddenIdx]}.`)}
         </div>
-        <div className="flex justify-center select-none"><WordIcon word={q.word.word} emoji={q.word.emoji} emojiClass="text-8xl" iconSize={100} /></div>
+        <div className="flex justify-center select-none"><WordIcon word={q.word.word} emoji={q.word.emoji} emojiClass="text-8xl" iconSize={100} zoomable /></div>
         <p className="text-xl font-bold text-gray-600 text-center">{q.word.meaning}</p>
 
         <div className="flex items-center gap-1 py-2">{renderWord()}</div>

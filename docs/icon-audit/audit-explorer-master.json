@@ -1,0 +1,942 @@
+{
+ "explorer": {
+  "photosynthesis": {
+   "why": "🌿 chỉ là chiếc lá, không thấy nắng",
+   "img": "a green leaf under a bright sun with rays shining on it"
+  },
+  "carnivore": {
+   "why": "Phosphor là con dao; 🥩 đúng ý ăn thịt hơn",
+   "dropP": true
+  },
+  "sensor": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a small electronic motion sensor device with curved signal waves coming from it"
+  },
+  "circuit": {
+   "why": "Phosphor là tia sét, 🔌 là phích cắm",
+   "img": "a green electronic circuit board with shiny lines and small parts"
+  },
+  "biodiversity": {
+   "why": "Phosphor là mấy vòng tròn, 🦋 chỉ là một con bướm",
+   "img": "a butterfly, a frog, a flower and a small bird together"
+  },
+  "ecosystem": {
+   "why": "Mũi tên xoay vòng không nói lên hệ sinh thái",
+   "img": "a small pond with a fish, a frog, reeds and a dragonfly"
+  },
+  "deforestation": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "several cut tree stumps with an axe beside them and a few standing trees behind"
+  },
+  "atmosphere": {
+   "why": "🌫️ là sương mù",
+   "img": "planet Earth with a thin glowing blue layer around it"
+  },
+  "orbit": {
+   "why": "Phosphor là mũi tên xoay vòng",
+   "img": "a small planet moving around a bright star along a dotted ring"
+  },
+  "gravity": {
+   "why": "⬇️ chỉ là mũi tên",
+   "img": "a red apple falling from a tree branch, with a dotted line below it pointing down"
+  },
+  "galaxy": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a bright spiral galaxy of stars and glowing purple-blue dust"
+  },
+  "propaganda": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a big loudspeaker on a pole beside a bold poster showing a raised fist"
+  },
+  "cell": {
+   "why": "Phosphor là nguyên tử",
+   "img": "one round biological cell with a darker nucleus inside"
+  },
+  "muscle": {
+   "why": "Phosphor là tạ; 💪 mới là cơ bắp",
+   "dropP": true
+  },
+  "nerve": {
+   "why": "Phosphor là bảng mạch, 🧠 là não",
+   "img": "a branching nerve cell with long thin arms"
+  },
+  "protein": {
+   "why": "Phosphor là tô thức ăn chung chung; 🥩 đúng hơn",
+   "dropP": true
+  },
+  "digest": {
+   "why": "🫃 là người đàn ông mang thai",
+   "img": "a simple human stomach organ"
+  },
+  "oxygen": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a blue oxygen tank connected to a clear breathing mask"
+  },
+  "ancient": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a crumbling ancient stone temple with broken columns"
+  },
+  "civilisation": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "an ancient city with stone buildings and a pyramid beside a river"
+  },
+  "poverty": {
+   "why": "Phosphor là đồng xu, ngược nghĩa nghèo",
+   "img": "an empty open brown wallet"
+  },
+  "wage": {
+   "why": "Phosphor là cái cặp; 💵 đúng hơn",
+   "dropP": true
+  },
+  "character": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a storybook wizard standing on an open book"
+  },
+  "poetry": {
+   "why": "🌸 là bông hoa",
+   "img": "a feather quill pen writing on a sheet of paper with a small heart"
+  },
+  "platform": {
+   "why": "Andie: tạo ảnh mới (Explorer dùng chung vì cùng nghĩa)",
+   "img": "a smartphone screen showing a grid of colorful app squares"
+  },
+  "virtual": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a smiling child wearing a VR headset with a glowing digital grid around them"
+  },
+  "justice": {
+   "why": "Phosphor là cái khiên",
+   "emoji": "⚖️",
+   "dropP": true
+  },
+  "anxiety": {
+   "why": "Phosphor là biển cảnh báo; 😰 rõ cảm xúc",
+   "dropP": true
+  },
+  "stress": {
+   "why": "😤 là tức giận",
+   "emoji": "😫"
+  },
+  "memory": {
+   "why": "💾 là đĩa mềm, trẻ không biết",
+   "emoji": "🧠"
+  },
+  "surgery": {
+   "why": "Phosphor là ống tiêm",
+   "img": "a friendly surgeon in green scrubs and mask holding surgical tools"
+  },
+  "prescription": {
+   "why": "Phosphor là hộp cứu thương",
+   "img": "a doctor's prescription paper next to a small pill bottle"
+  },
+  "peninsula": {
+   "why": "Phosphor là hòn đảo, khác bán đảo",
+   "img": "a strip of green land sticking out into blue sea, water on three sides, seen from above"
+  },
+  "plateau": {
+   "why": "Phosphor là mặt trời mọc",
+   "img": "a high wide mountain with a flat top"
+  },
+  "delta": {
+   "why": "Phosphor là sóng nước",
+   "img": "a river splitting into several branches as it reaches the sea, seen from above"
+  },
+  "equator": {
+   "why": "Quả địa cầu trơn không thấy đường xích đạo",
+   "img": "Earth globe with one bright line around its middle"
+  },
+  "longitude": {
+   "why": "Phosphor là mũi tên chéo",
+   "img": "Earth globe with curved lines running from top to bottom"
+  },
+  "latitude": {
+   "why": "Phosphor là mũi tên điều hướng",
+   "img": "Earth globe with straight lines running from left to right"
+  },
+  "canyon": {
+   "why": "Đã có ảnh hẻm núi, chỉ cần nối",
+   "img": "(dùng lại ảnh đã có) canyon",
+   "reuse": true
+  },
+  "estuary": {
+   "why": "Phosphor là mỏ neo",
+   "img": "a wide river mouth opening into the sea, seen from above"
+  },
+  "tundra": {
+   "why": "❄️ chỉ là bông tuyết",
+   "img": "flat snowy land with low moss patches and a reindeer"
+  },
+  "savanna": {
+   "why": "🌾 là bó lúa",
+   "img": "dry golden grassland with one flat-topped acacia tree"
+  },
+  "nutrition": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a plate with a balanced meal of vegetables, fruit, fish and rice"
+  },
+  "ingredient": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a carrot, an egg, a tomato and a small bag of flour together"
+  },
+  "organic": {
+   "why": "Andie: tạo ảnh mới (Explorer, Ranger dùng chung vì cùng nghĩa)",
+   "img": "a basket of fresh vegetables with a green leaf-shaped label"
+  },
+  "permafrost": {
+   "why": "❄️ chỉ là bông tuyết",
+   "img": "cross-section of ground with a layer of soil on top and thick blue ice beneath"
+  },
+  "iceberg": {
+   "why": "🧊 là viên đá lạnh",
+   "img": "a white iceberg floating in the sea with a big part visible under the water"
+  },
+  "glacier": {
+   "why": "Phosphor là bông tuyết",
+   "img": "a huge river of blue-white ice flowing between two mountains"
+  },
+  "sea level": {
+   "why": "🌊 chỉ là sóng",
+   "img": "a wooden measuring post with marks standing in the sea, water reaching one mark"
+  },
+  "drought": {
+   "why": "Phosphor là mặt trời mọc",
+   "img": "cracked dry brown ground with one wilted plant"
+  },
+  "flood": {
+   "why": "Phosphor là sóng nước, không thấy lũ",
+   "img": "a small house with brown flood water up to its windows"
+  },
+  "greenhouse": {
+   "why": "🏡 là ngôi nhà có vườn",
+   "img": "a glass greenhouse with green plants inside"
+  },
+  "wildfire": {
+   "why": "🔥 chỉ là ngọn lửa",
+   "img": "a green forest with big flames burning the trees"
+  },
+  "heatwave": {
+   "why": "🌡️ trùng nhiệt độ cùng chủ đề",
+   "emoji": "🥵"
+  },
+  "hacker": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a person in a dark hoodie typing on a laptop with an open padlock beside it"
+  },
+  "foundation": {
+   "why": "Phosphor là cả tòa nhà",
+   "img": "cross-section of a small house with a thick concrete base below ground"
+  },
+  "column": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "one tall white stone classical column"
+  },
+  "arch": {
+   "why": "🌉 là cây cầu",
+   "img": "a stone archway"
+  },
+  "dome": {
+   "why": "⛩️ là cổng đền Nhật",
+   "img": "a building with one big round dome on top"
+  },
+  "blueprint": {
+   "why": "Phosphor là bản đồ",
+   "img": "a blue architectural plan with white lines, partly rolled up"
+  },
+  "heritage": {
+   "why": "Andie: tạo ảnh mới (Explorer dùng chung vì cùng nghĩa)",
+   "img": "an old temple gate beside an ancient clay vase"
+  },
+  "conductor": {
+   "why": "🎼 là khuông nhạc",
+   "img": "a friendly orchestra conductor in black suit raising a baton"
+  },
+  "athlete": {
+   "why": "Phosphor là tạ; tránh trùng với sprint",
+   "emoji": "🏋️",
+   "dropP": true
+  },
+  "sprint": {
+   "why": "Phosphor là mũi tên; 🏃 đúng hơn",
+   "dropP": true
+  },
+  "tournament": {
+   "why": "Andie: tạo ảnh mới (Scholar dùng chung vì cùng nghĩa)",
+   "img": "a golden trophy above a simple branching competition bracket made of lines"
+  },
+  "rival": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "two sports players facing each other, ready to compete"
+  },
+  "referee": {
+   "why": "🟨 chỉ là ô vuông vàng",
+   "img": "a friendly football referee in a black striped shirt blowing a whistle and holding up a yellow card"
+  },
+  "penalty": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a soccer ball on the penalty spot in front of a goal with a goalkeeper"
+  },
+  "hunger": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a worried child holding an empty bowl"
+  },
+  "democracy": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a hand putting a paper vote into a ballot box"
+  },
+  "organism": {
+   "why": "Phosphor là sơ đồ cây",
+   "dropP": true
+  },
+  "fossil": {
+   "why": "Phosphor là khúc xương",
+   "img": "a spiral ammonite fossil pressed into a piece of stone"
+  },
+  "canvas": {
+   "why": "Phosphor là khung ảnh",
+   "img": "a blank white canvas on a wooden easel"
+  },
+  "sculpture": {
+   "why": "Phosphor là khối hộp; 🗿 đúng hơn",
+   "dropP": true
+  },
+  "abstract": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "an abstract painting of bold shapes and colors on a canvas"
+  },
+  "exhibition": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "two visitors looking at a framed painting and a statue on a stand"
+  },
+  "portrait": {
+   "why": "Phosphor là máy ảnh",
+   "img": "a painted portrait of a friendly person in a golden frame"
+  },
+  "gallery": {
+   "why": "Phosphor là thư mục máy tính",
+   "img": "a room with framed paintings hanging on the wall"
+  },
+  "asteroid": {
+   "why": "☄️ trùng với comet",
+   "img": "a rough grey rocky asteroid in space"
+  },
+  "melody": {
+   "why": "Đã có ảnh giai điệu; 🎵 là nốt nhạc chung",
+   "img": "(dùng lại ảnh đã có) melody",
+   "reuse": true
+  },
+  "lawyer": {
+   "why": "Nhường ⚖️ cho justice cùng chủ đề",
+   "emoji": "💼"
+  }
+ },
+ "ranger": {
+  "ecosystem": {
+   "why": "Mũi tên xoay vòng không nói lên hệ sinh thái",
+   "img": "a small pond with a fish, a frog, reeds and a dragonfly"
+  },
+  "deforestation": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "several cut tree stumps with an axe beside them and a few standing trees behind"
+  },
+  "gravity": {
+   "why": "🍎 một mình đọc thành \"apple\"",
+   "img": "a red apple falling from a tree branch, with a dotted line below it pointing down"
+  },
+  "character": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a storybook wizard standing on an open book"
+  },
+  "platform": {
+   "why": "Phosphor là biểu đồ, sai nghĩa \"sân ga\"",
+   "dropP": true
+  },
+  "prescription": {
+   "why": "Phosphor là hộp cứu thương",
+   "img": "a doctor's prescription paper next to a small pill bottle"
+  },
+  "peninsula": {
+   "why": "Phosphor là hòn đảo, khác bán đảo",
+   "img": "a strip of green land sticking out into blue sea, water on three sides, seen from above"
+  },
+  "canyon": {
+   "why": "Đã có ảnh hẻm núi; 🗺️ là bản đồ",
+   "img": "(dùng lại ảnh đã có) canyon",
+   "reuse": true
+  },
+  "nutrition": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a plate with a balanced meal of vegetables, fruit, fish and rice"
+  },
+  "ingredient": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a carrot, an egg, a tomato and a small bag of flour together"
+  },
+  "organic": {
+   "why": "Andie: tạo ảnh mới (Explorer, Ranger dùng chung vì cùng nghĩa)",
+   "img": "a basket of fresh vegetables with a green leaf-shaped label"
+  },
+  "glacier": {
+   "why": "Phosphor là bông tuyết",
+   "img": "a huge river of blue-white ice flowing between two mountains"
+  },
+  "drought": {
+   "why": "Phosphor là mặt trời mọc",
+   "img": "cracked dry brown ground with one wilted plant"
+  },
+  "flood": {
+   "why": "Phosphor là sóng nước, không thấy lũ",
+   "img": "a small house with brown flood water up to its windows"
+  },
+  "tournament": {
+   "why": "Andie: tạo ảnh mới (Scholar dùng chung vì cùng nghĩa)",
+   "img": "a golden trophy above a simple branching competition bracket made of lines"
+  },
+  "referee": {
+   "why": "🟨 chỉ là ô vuông vàng",
+   "img": "a friendly football referee in a black striped shirt blowing a whistle and holding up a yellow card"
+  },
+  "penalty": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a soccer ball on the penalty spot in front of a goal with a goalkeeper"
+  },
+  "passport": {
+   "why": "📕 là sách đỏ, Phosphor là thẻ",
+   "img": "a dark red passport booklet"
+  },
+  "visa": {
+   "why": "🗂️ là bộ chia hồ sơ",
+   "img": "an open passport page with a large round entry stamp"
+  },
+  "tour guide": {
+   "why": "🧭 là la bàn",
+   "img": "a friendly tour guide holding up a small flag"
+  },
+  "knitting": {
+   "why": "Phosphor là cây kim; 🧶 đúng hơn",
+   "dropP": true
+  },
+  "librarian": {
+   "why": "📚 đọc thành \"books\"",
+   "img": "a friendly librarian holding a stack of books"
+  },
+  "mechanic": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a friendly mechanic in overalls holding a wrench beside a car"
+  },
+  "electrician": {
+   "why": "Phosphor là bảng mạch",
+   "img": "a friendly electrician in a hard hat holding a wire and a screwdriver"
+  },
+  "architect": {
+   "why": "Phosphor là cần cẩu",
+   "img": "a friendly architect holding a rolled blue plan"
+  },
+  "cashier": {
+   "why": "🏪 là cửa hàng",
+   "img": "a friendly cashier behind a cash register"
+  },
+  "curly": {
+   "why": "Phosphor là đường sóng",
+   "img": "a smiling child with very curly hair"
+  },
+  "patient": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a calm smiling child sitting on a bench and waiting, with an hourglass beside them"
+  },
+  "serve": {
+   "why": "🧑‍🍽️ không phải emoji chuẩn, máy có thể hiện thành 2 hình",
+   "img": "a friendly waiter carrying a tray with a dish"
+  },
+  "buffet": {
+   "why": "Phosphor là một cái tô",
+   "img": "a long table with several different dishes of food"
+  },
+  "tradition": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a family in traditional clothes lighting a red paper lantern together"
+  },
+  "border": {
+   "why": "🚩 chỉ là lá cờ",
+   "img": "a road with a striped barrier gate across it"
+  },
+  "religion": {
+   "why": "⛪ chỉ một tôn giáo; 🛐 trung lập",
+   "emoji": "🛐"
+  },
+  "rural": {
+   "why": "Phosphor là cây dừa; 🌾 đúng hơn",
+   "dropP": true
+  },
+  "suburb": {
+   "why": "Phosphor là tòa văn phòng; 🏘️ đúng hơn",
+   "dropP": true
+  },
+  "kebab": {
+   "why": "🥙 là bánh mì kẹp",
+   "img": "a metal skewer with grilled meat and vegetable pieces"
+  },
+  "wok": {
+   "why": "🍳 là chảo trứng",
+   "img": "a round black wok with one handle"
+  },
+  "ferment": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a glass jar of pickled vegetables with small bubbles rising inside"
+  },
+  "forgive": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "two children hugging with a small mended heart above them"
+  },
+  "molecule": {
+   "why": "🔬 là kính hiển vi",
+   "img": "a molecule model made of colored balls joined by short sticks"
+  },
+  "dissolve": {
+   "why": "Phosphor là giọt nước",
+   "img": "a glass of water with sugar cubes melting into it"
+  },
+  "compost": {
+   "why": "🪣 là cái xô",
+   "img": "a pile of compost with vegetable scraps and soil"
+  },
+  "wildlife": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a lion, an elephant and a parrot together among green plants"
+  },
+  "terminal": {
+   "why": "🏢 là tòa văn phòng",
+   "img": "a modern airport terminal building with big glass windows"
+  },
+  "baggage claim": {
+   "why": "Phosphor là cái túi",
+   "img": "a suitcase on a moving conveyor belt"
+  },
+  "forecast": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a weather map screen showing a sun and a rain cloud symbol"
+  },
+  "hurricane": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a huge white spiral storm with a clear eye in the center, over blue ocean, seen from above"
+  },
+  "marathon": {
+   "why": "🏅 là huy chương",
+   "emoji": "🏃"
+  },
+  "decorate": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a friendly child hanging a colorful paper garland on a wall"
+  },
+  "carol": {
+   "why": "🎵 trùng nốt nhạc chung",
+   "img": "two friendly children singing from songbooks in the snow"
+  },
+  "thread": {
+   "why": "Phosphor là mẫu màu; 🧵 đúng hơn",
+   "dropP": true
+  },
+  "curtain": {
+   "why": "🪟 chỉ là cửa sổ",
+   "img": "a window with curtains pulled to both sides"
+  },
+  "balcony": {
+   "why": "Phosphor là cả tòa chung cư",
+   "img": "a small balcony with a railing on the side of a building"
+  },
+  "basement": {
+   "why": "🪜 là cái thang",
+   "img": "cross-section of a small house with a lit room below the ground"
+  },
+  "doorbell": {
+   "why": "🚪 là cánh cửa",
+   "img": "a round doorbell button on a wall beside a door frame"
+  },
+  "pipe": {
+   "why": "🔩 là con ốc",
+   "img": "a metal water pipe with a bend and a tap"
+  },
+  "highlight": {
+   "why": "🖊️ là bút bi",
+   "img": "a yellow highlighter pen marking a line on a sheet of paper"
+  },
+  "flashcard": {
+   "why": "🃏 là lá joker",
+   "img": "a small stack of blank study cards"
+  },
+  "distraction": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a child at a desk with an open book, looking away at a buzzing phone"
+  },
+  "reptile": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a lizard, a snake and a turtle together"
+  },
+  "camouflage": {
+   "why": "Phosphor là ống nhòm",
+   "img": "a green chameleon blending in on a green leaf"
+  },
+  "wild": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a wolf howling among forest trees"
+  },
+  "claw": {
+   "why": "🐾 là dấu chân",
+   "img": "one sharp curved animal claw on a furry paw"
+  },
+  "nest": {
+   "why": "🐣 là gà con; 🪺 đúng là tổ chim",
+   "emoji": "🪺"
+  },
+  "hibernate": {
+   "why": "🐻 chỉ là con gấu",
+   "img": "a brown bear sleeping curled up inside a cave"
+  },
+  "crosswalk": {
+   "why": "🦓 là con ngựa vằn",
+   "img": "a road with white zebra crossing stripes"
+  },
+  "sidewalk": {
+   "why": "Phosphor là dấu chân",
+   "img": "a paved sidewalk running beside a road"
+  },
+  "mayor": {
+   "why": "🎙️ là micro",
+   "img": "a friendly mayor in a suit wearing a gold chain of office"
+  },
+  "traffic": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "many cars on a busy road stopped at a traffic light"
+  },
+  "protest": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a crowd of people raising fists and holding blank signs"
+  },
+  "weave": {
+   "why": "Phosphor là ô lưới",
+   "img": "a wooden loom with colorful woven cloth"
+  },
+  "mold": {
+   "why": "Phosphor là bánh răng",
+   "img": "clay being pressed into a star-shaped mold"
+  },
+  "pattern": {
+   "why": "🔲 là ô vuông",
+   "img": "a piece of cloth with a repeating pattern of dots and stars"
+  },
+  "fold": {
+   "why": "📄 là tờ giấy phẳng",
+   "img": "a sheet of paper with one corner being folded over"
+  },
+  "dye": {
+   "why": "🟣 là chấm tròn",
+   "img": "a white cloth dipped into a bowl of purple dye"
+  },
+  "origami": {
+   "why": "🦢 là con thiên nga thật",
+   "img": "a folded paper crane"
+  },
+  "mood": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "three round faces in a row: one happy, one sad, one angry"
+  },
+  "tense": {
+   "why": "Phosphor là biển cảnh báo; 😰 rõ cảm xúc",
+   "dropP": true
+  },
+  "anxious": {
+   "why": "Phosphor là biển cảnh báo; 😰 rõ cảm xúc",
+   "dropP": true
+  },
+  "valley": {
+   "why": "🌄 là mặt trời mọc sau núi",
+   "img": "a green valley with a river between two mountains"
+  },
+  "earthquake": {
+   "why": "Phosphor là biển cảnh báo, 🌍 là trái đất",
+   "img": "cracked ground with a tilted small building"
+  },
+  "rainforest": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a dense green tropical forest with tall trees, hanging vines and a parrot"
+  },
+  "cliff": {
+   "why": "Đã có ảnh vách đá, chỉ cần nối",
+   "img": "(dùng lại ảnh đã có) cliff",
+   "reuse": true
+  },
+  "waterfall": {
+   "why": "Đã có ảnh thác nước; 💦 là giọt nước",
+   "img": "(dùng lại ảnh đã có) waterfall",
+   "reuse": true
+  },
+  "profile": {
+   "why": "📛 là bảng tên, nhìn như ngọn lửa",
+   "emoji": "👤"
+  },
+  "parade": {
+   "why": "Đã có ảnh diễu hành; 🎉 là tiệc",
+   "img": "(dùng lại ảnh đã có) parade",
+   "reuse": true
+  },
+  "costume": {
+   "why": "Đã có ảnh trang phục; 👘 là kimono",
+   "img": "(dùng lại ảnh đã có) costume",
+   "reuse": true
+  },
+  "clay": {
+   "why": "Đã có ảnh đất sét; 🏺 là cái bình",
+   "img": "(dùng lại ảnh đã có) clay",
+   "reuse": true
+  }
+ },
+ "scholar": {
+  "biodiversity": {
+   "why": "Phosphor là mấy vòng tròn",
+   "img": "a butterfly, a frog, a flower and a small bird together"
+  },
+  "atmosphere": {
+   "why": "🌫️ là sương mù",
+   "img": "planet Earth with a thin glowing blue layer around it"
+  },
+  "orbit": {
+   "why": "Phosphor là mũi tên xoay vòng",
+   "img": "a small planet moving around a bright star along a dotted ring"
+  },
+  "gravity": {
+   "why": "🍎 một mình đọc thành \"apple\"",
+   "img": "a red apple falling from a tree branch, with a dotted line below it pointing down"
+  },
+  "galaxy": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a bright spiral galaxy of stars and glowing purple-blue dust"
+  },
+  "propaganda": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a big loudspeaker on a pole beside a bold poster showing a raised fist"
+  },
+  "artifact": {
+   "why": "Phosphor là đồng hồ cát; 🏺 đúng hơn",
+   "dropP": true
+  },
+  "poverty": {
+   "why": "Phosphor là đồng xu, ngược nghĩa nghèo",
+   "img": "an empty open brown wallet"
+  },
+  "justice": {
+   "why": "Phosphor là cái khiên",
+   "dropP": true
+  },
+  "anxiety": {
+   "why": "Phosphor là biển cảnh báo; 😰 rõ cảm xúc",
+   "dropP": true
+  },
+  "surgery": {
+   "why": "Phosphor là ống tiêm, 🔪 là con dao",
+   "img": "a friendly surgeon in green scrubs and mask holding surgical tools"
+  },
+  "prescription": {
+   "why": "Phosphor là hộp cứu thương",
+   "img": "a doctor's prescription paper next to a small pill bottle"
+  },
+  "nutrition": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a plate with a balanced meal of vegetables, fruit, fish and rice"
+  },
+  "heritage": {
+   "why": "Andie: tạo ảnh mới (Explorer dùng chung vì cùng nghĩa)",
+   "img": "an old temple gate beside an ancient clay vase"
+  },
+  "athlete": {
+   "why": "Phosphor là tạ; 🏋️ rõ người tập",
+   "dropP": true
+  },
+  "tournament": {
+   "why": "Andie: tạo ảnh mới (Scholar dùng chung vì cùng nghĩa)",
+   "img": "a golden trophy above a simple branching competition bracket made of lines"
+  },
+  "democracy": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a hand putting a paper vote into a ballot box"
+  },
+  "sculpture": {
+   "why": "Phosphor là khối hộp; 🗿 đúng hơn",
+   "dropP": true
+  },
+  "abstract": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "an abstract painting of bold shapes and colors on a canvas"
+  },
+  "exhibition": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "two visitors looking at a framed painting and a statue on a stand"
+  },
+  "portrait": {
+   "why": "Phosphor là máy ảnh",
+   "img": "a painted portrait of a friendly person in a golden frame"
+  },
+  "curator": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a friendly person in smart clothes holding a clipboard beside a framed painting"
+  },
+  "tradition": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a family in traditional clothes lighting a red paper lantern together"
+  },
+  "forecast": {
+   "why": "Andie: tạo ảnh mới; nghĩa kinh doanh nên tách ảnh riêng",
+   "img": "a line chart with a solid rising line that continues as a dotted line",
+   "file": "forecast-business"
+  },
+  "landfill": {
+   "why": "🗑️ là thùng rác",
+   "img": "a big pile of rubbish with a small bulldozer"
+  },
+  "architecture": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a grand building front with columns beside a drawing compass and a ruler"
+  },
+  "municipality": {
+   "why": "Phosphor là quả địa cầu; 🌆 đúng hơn",
+   "dropP": true
+  },
+  "congestion": {
+   "why": "🚗 chỉ là một chiếc xe",
+   "img": "many cars stuck bumper to bumper in a traffic jam"
+  },
+  "asteroid": {
+   "why": "🪨 là hòn đá",
+   "img": "a rough grey rocky asteroid in space"
+  },
+  "nebula": {
+   "why": "Phosphor là lấp lánh, 🌈 là cầu vồng",
+   "img": "a colorful glowing cloud of gas with small stars"
+  },
+  "constellation": {
+   "why": "Phosphor là một ngôi sao",
+   "img": "several bright stars joined by thin lines into a shape"
+  },
+  "black hole": {
+   "why": "⚫ chỉ là chấm đen",
+   "img": "a black circle in space with a glowing orange ring swirling around it"
+  },
+  "resume": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "one sheet of paper with a small portrait photo at the top and plain lines below"
+  },
+  "loan": {
+   "why": "Phosphor là biểu đồ; 💰 đúng hơn",
+   "dropP": true
+  },
+  "arrest": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a police officer putting handcuffs on a person beside a police car"
+  },
+  "generation": {
+   "why": "👴👶 là 2 emoji, dễ vỡ khung",
+   "img": "a friendly grandparent, parent and child standing together"
+  },
+  "posture": {
+   "why": "🧍 là người đứng",
+   "img": "side view of a child sitting up straight on a chair"
+  },
+  "theatre": {
+   "why": "Phosphor là tòa văn phòng, 🎪 là rạp xiếc",
+   "emoji": "🎭",
+   "dropP": true
+  },
+  "spectacle": {
+   "why": "Nhường 🎭 cho theatre cùng chủ đề",
+   "emoji": "🎆"
+  },
+  "concert": {
+   "why": "Đã có ảnh hòa nhạc; đang hiện micro",
+   "img": "(dùng lại ảnh đã có) concert",
+   "reuse": true
+  },
+  "urban sprawl": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a small city center with houses spreading out over green land in every direction, seen from above"
+  }
+ },
+ "master": {
+  "biodiversity": {
+   "why": "Phosphor là mấy vòng tròn",
+   "img": "a butterfly, a frog, a flower and a small bird together"
+  },
+  "propaganda": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a big loudspeaker on a pole beside a bold poster showing a raised fist"
+  },
+  "platform": {
+   "why": "Andie: tạo ảnh mới (Explorer dùng chung vì cùng nghĩa)",
+   "img": "a smartphone screen showing a grid of colorful app squares"
+  },
+  "justice": {
+   "why": "Phosphor là cái khiên; 🔨 là cái búa",
+   "emoji": "⚖️",
+   "dropP": true
+  },
+  "organic": {
+   "why": "Andie: tạo ảnh mới (Explorer, Ranger dùng chung vì cùng nghĩa)",
+   "img": "a basket of fresh vegetables with a green leaf-shaped label"
+  },
+  "drought": {
+   "why": "Phosphor là mặt trời mọc",
+   "img": "cracked dry brown ground with one wilted plant"
+  },
+  "heritage": {
+   "why": "Andie: tạo ảnh mới (Explorer dùng chung vì cùng nghĩa)",
+   "img": "an old temple gate beside an ancient clay vase"
+  },
+  "penalty": {
+   "why": "Andie: tạo ảnh mới; nghĩa pháp lý nên tách ảnh riêng",
+   "img": "a judge's wooden gavel beside a paper with a large red stamp",
+   "file": "penalty-law"
+  },
+  "democracy": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a hand putting a paper vote into a ballot box"
+  },
+  "abstract": {
+   "why": "Andie: tạo ảnh mới; nghĩa \"tóm tắt\" nên tách ảnh riêng",
+   "img": "a research paper with one short paragraph highlighted in a box at the top and plain lines below",
+   "file": "abstract-summary"
+  },
+  "molecule": {
+   "why": "🔬 là kính hiển vi",
+   "img": "a molecule model made of colored balls joined by short sticks"
+  },
+  "irrigation": {
+   "why": "💧 chỉ là giọt nước",
+   "img": "a sprinkler watering rows of green crops"
+  },
+  "pesticide": {
+   "why": "🐛 là con sâu, ngược nghĩa",
+   "img": "a spray bottle spraying a green plant with a small crossed-out bug"
+  },
+  "harvest": {
+   "why": "🌽 đọc thành \"corn\"",
+   "img": "a farmer's basket full of freshly picked corn and wheat"
+  },
+  "fertilizer": {
+   "why": "Phosphor là chiếc lá",
+   "img": "an open sack of fertilizer granules beside a small plant"
+  },
+  "crop": {
+   "why": "🌿 là cây thảo mộc; 🌾 đã dùng cho food security",
+   "emoji": "🌽"
+  },
+  "stem cell": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "one round cell in the center with arrows pointing to three different small cells"
+  },
+  "cloning": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "two identical sheep standing side by side"
+  },
+  "protest": {
+   "why": "Andie: tạo ảnh mới",
+   "img": "a crowd of people raising fists and holding blank signs"
+  }
+ }
+}

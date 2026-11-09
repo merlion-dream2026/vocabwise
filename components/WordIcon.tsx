@@ -1,5 +1,6 @@
 'use client'
 
+import { useCallback, useState } from 'react'
 import {
   Airplane, AirplaneTakeoff, Alarm, Ambulance, Anchor, AnchorSimple, ArrowClockwise,
   ArrowCounterClockwise, ArrowFatDown, ArrowFatRight, ArrowFatUp, ArrowLineDown, ArrowLineRight,
@@ -36,6 +37,7 @@ import {
 } from '@phosphor-icons/react'
 import type { Icon } from '@phosphor-icons/react'
 import { getWordIcon, getCustomSvgIcon, getWordImage } from '@/lib/wordIcon'
+import IconZoom from './IconZoom'
 
 type Props = {
   word: string
@@ -90,49 +92,59 @@ const ICON_MAP: Record<string, Icon> = {
  * Renders the illustration for this sense of the word if one exists, else a Phosphor
  * icon if a mapping exists (abstract concepts), else a word-keyed illustration
  * (concrete words with no matching emoji glyph), else falls back to the emoji character.
+ * `zoomable`: tap opens a large view (IconZoom). Only where the icon is not inside an answer
+ * button and no timer runs — tapping must not cost a child an answer or game time.
  */
-export default function WordIcon({ word, emoji, emojiClass = 'text-8xl', iconSize = 100, className = '' }: Props) {
+export default function WordIcon({ zoomable = false, ...props }: Props & { zoomable?: boolean }) {
+  const [open, setOpen] = useState(false)
+  const close = useCallback(() => setOpen(false), [])
+  if (!zoomable) return <IconGlyph {...props} />
+  return (
+    <>
+      <button type="button" onClick={() => setOpen(true)} aria-label={`Phóng to hình ${props.word}`}
+        className="relative inline-flex cursor-zoom-in rounded-2xl transition-transform active:scale-95">
+        <IconGlyph {...props} />
+        <span aria-hidden className="absolute -bottom-1 -right-1 flex h-[26px] w-[26px] items-center justify-center rounded-full border-2 border-violet-200 bg-white shadow-sm">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#7c3aed" strokeWidth="3" strokeLinecap="round">
+            <circle cx="10" cy="10" r="6" /><path d="M15 15l5 5M10 7.5v5M7.5 10h5" />
+          </svg>
+        </span>
+      </button>
+      {open && (
+        <IconZoom label={`Hình ${props.word}`} onClose={close}>
+          <IconGlyph word={props.word} emoji={props.emoji} className={props.className} large />
+        </IconZoom>
+      )}
+    </>
+  )
+}
+
+// Large = popup: 512px illustration (public/icons/words/zoom/, built by import-icons /
+// build-icon-zoom), Phosphor and emoji scaled to fill the popup.
+function IconGlyph({ word, emoji, emojiClass = 'text-8xl', iconSize = 100, className = '', large = false }: Props & { large?: boolean }) {
+  const zoomImg = (src: string) =>
+    <img src={src.replace('/icons/words/', '/icons/words/zoom/')} alt={word} width={512} height={512} className="h-full w-full object-contain" />
+
   const senseImage = getWordImage(word, emoji)
   if (senseImage) {
-    return (
-      <img
-        src={senseImage}
-        alt={word}
-        width={iconSize}
-        height={iconSize}
-        style={{ height: iconSize, width: iconSize }}
-        className={className}
-      />
-    )
+    return large ? zoomImg(senseImage)
+      : <img src={senseImage} alt={word} width={iconSize} height={iconSize} style={{ height: iconSize, width: iconSize }} className={className} />
   }
 
   const iconName = getWordIcon(word)
   const IconComponent = iconName ? ICON_MAP[iconName] : undefined
-
   if (IconComponent) {
-    return (
-      <IconComponent
-        size={iconSize}
-        weight="duotone"
-        className={className}
-      />
-    )
+    return <IconComponent size={large ? '85%' : iconSize} weight="duotone" className={className} />
   }
 
   const customSvg = getCustomSvgIcon(word)
   if (customSvg) {
-    return (
-      <img
-        src={customSvg}
-        alt={word}
-        style={{ height: iconSize, width: 'auto' }}
-        className={className}
-      />
-    )
+    return large ? zoomImg(customSvg)
+      : <img src={customSvg} alt={word} style={{ height: iconSize, width: 'auto' }} className={className} />
   }
 
   return (
-    <span className={`${emojiClass} leading-none select-none ${className}`}>
+    <span className={`${large ? 'text-[10rem]' : emojiClass} leading-none select-none ${className}`}>
       {emoji}
     </span>
   )

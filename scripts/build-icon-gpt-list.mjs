@@ -1,32 +1,29 @@
-// Sinh danh sách ảnh cho GPT từ docs/icon-audit/audit-*.json + legacy-icons.json.
-// Run: node scripts/build-icon-gpt-list.mjs starter-seeker <thư mục ra> [số ảnh/batch]
+// Sinh danh sách ảnh cho GPT từ docs/icon-audit/audit-<đợt>.json.
+// Run: node scripts/build-icon-gpt-list.mjs explorer-master <thư mục đợt> [số ảnh/batch] [từ-làm-trước,...]
+// Bỏ qua dòng reuse: true. Từ dùng chung ảnh (cùng file) chỉ ra 1 dòng.
+// Cột style: ảnh có xuất hiện ở Master = mature, còn lại = standard (mẫu prompt riêng trong 01-PROMPT-GPT).
 import fs from 'node:fs'
-const [name, out, size = '10'] = process.argv.slice(2)
+const [name, out, size = '5', first = ''] = process.argv.slice(2)
 const audit = JSON.parse(fs.readFileSync(`docs/icon-audit/audit-${name}.json`, 'utf8'))
-const legacy = JSON.parse(fs.readFileSync('docs/icon-audit/legacy-icons.json', 'utf8'))
-const SAMPLES = ['submarine', 'lighthouse']
-const FIRST = ['pier', 'sailor', 'current', 'harbour', 'coast', 'tide', 'starfish', 'waterfall', 'bounce', 'sand']
+const FIRST = first ? first.split(',') : []
+const stem = (word, a) => a.file ?? word.toLowerCase().replace(/\s+/g, '-')
 
-const meaning = {}
-for (const level of ['starter', 'seeker', 'explorer', 'ranger', 'scholar', 'master']) {
-  for (const t of JSON.parse(fs.readFileSync(`data/words/${level}.json`, 'utf8')).topics) {
-    for (const w of t.words) if (audit[level]?.[w.word] || legacy[w.word]) meaning[w.word] ??= w.meaning
+const items = new Map()
+for (const [level, words] of Object.entries(audit)) {
+  const all = JSON.parse(fs.readFileSync(`data/words/${level}.json`, 'utf8')).topics.flatMap(t => t.words)
+  for (const [word, a] of Object.entries(words)) {
+    if (!a.img || a.reuse) continue
+    const f = stem(word, a)
+    const prev = items.get(f)
+    if (prev && prev.subject !== a.img) throw new Error(`${f}: 2 subject khác nhau`)
+    const item = prev ?? { file: f, word, meaning: all.find(w => w.word === word)?.meaning ?? '', subject: a.img, style: 'standard' }
+    if (level === 'master') item.style = 'mature'
+    items.set(f, item)
   }
 }
-const subject = {}
-for (const items of Object.values(audit)) for (const [w, a] of Object.entries(items)) if (a.img) subject[w] = a.img
-for (const [w, d] of Object.entries(legacy)) subject[w] ??= d
-
-const rest = Object.keys(subject).filter(w => !SAMPLES.includes(w)).sort((a, b) => {
-  const [x, y] = [FIRST.indexOf(a), FIRST.indexOf(b)]
-  return (x < 0 ? 999 : x) - (y < 0 ? 999 : y) || a.localeCompare(b)
-})
+const rank = f => { const i = FIRST.indexOf(f); return i < 0 ? 999 : i }
+const list = [...items.values()].sort((a, b) => rank(a.file) - rank(b.file) || a.file.localeCompare(b.file))
 const csv = s => `"${String(s).replace(/"/g, '""')}"`
-const rows = SAMPLES.map(w => ['batch-00', w])
-rest.forEach((w, i) => rows.push([`batch-${String(Math.floor(i / +size) + 1).padStart(2, '0')}`, w]))
-const lines = rows.map(([b, w]) => [b, `${w}.png`, w, meaning[w] ?? '', subject[w]].map(csv).join(','))
-fs.writeFileSync(`${out}/02-ICON-LIST.csv`, ['batch,file,word,meaning_vi,subject', ...lines].join('\n') + '\n')
-const counts = {}
-for (const [b] of rows) counts[b] = (counts[b] ?? 0) + 1
-console.log(rows.length, 'icons', counts)
-console.log('missing meaning:', rows.filter(([, w]) => !meaning[w]).map(([, w]) => w).join(',') || 'none')
+const lines = list.map((x, i) => [`batch-${String(Math.floor(i / +size) + 1).padStart(2, '0')}`, `${x.file}.png`, x.word, x.meaning, x.subject, x.style].map(csv).join(','))
+fs.writeFileSync(`${out}/02-ICON-LIST.csv`, ['batch,file,word,meaning_vi,subject,style', ...lines].join('\n') + '\n')
+console.log(list.length, 'ảnh,', Math.ceil(list.length / +size), 'batch; thiếu nghĩa:', list.filter(x => !x.meaning).map(x => x.file).join(',') || 'không')

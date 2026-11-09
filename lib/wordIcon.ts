@@ -83,7 +83,6 @@ const WORD_ICONS: Record<string, string> = {
   // ── EXPLORER: Nature cluster ─────────────────────────────────────────────
   herbivore:     'Leaf',
   sustainable:   'Recycle',
-  organism:      'TreeStructure',
   'artificial intelligence': 'Brain',
   algorithm:     'TreeStructure',
   circuit:       'Lightning',
@@ -102,7 +101,6 @@ const WORD_ICONS: Record<string, string> = {
   revolution:    'Flame',
   motivation:    'Flame',
   viral:         'Lightning',
-  justice:       'Shield',          // fix: was Gavel (dup w/ law in law-justice topic)
   rights:        'ShieldCheck',     // fix: was Shield (dup w/ justice in law-justice topic)
 
   // ── SCHOLAR: Cooperation cluster (🤝 shared by 14 words) ─────────────────
@@ -115,7 +113,6 @@ const WORD_ICONS: Record<string, string> = {
   negotiate:     'Quotes',
   mediation:     'Scales',
   collaborate:   'UsersFour',
-  loan:          'ChartBar',
   sponsor:       'Star',
   commitment:    'Certificate',
   diplomacy:     'Globe',
@@ -138,7 +135,6 @@ const WORD_ICONS: Record<string, string> = {
   authority:     'Crown',
   heritage:      'BookOpen',
   architecture:  'Tree',
-  municipality:  'Globe',
   civilization:  'BookOpen',
   diplomatic:    'Handshake',
   institution:   'BookOpenText',

@@ -205,7 +205,7 @@ export default function SpellGame({ topic, level, backUrl }: Props) {
           {/* Picture card + Vietnamese meaning (icons alone are sometimes ambiguous). No speaker
               while answering — hearing the word would give the spelling away. */}
           <div className="mt-5 w-40 h-40 bg-white border-[7px] border-[#ecb94f] rounded-[26px] flex items-center justify-center shadow-[0_10px_24px_rgba(59,42,138,0.13)]">
-            <WordIcon word={word.word} emoji={word.emoji} emojiClass="text-8xl leading-none select-none" iconSize={96} />
+            <WordIcon word={word.word} emoji={word.emoji} emojiClass="text-8xl leading-none select-none" iconSize={96} zoomable />
           </div>
           {hint && (
             <p className="mt-3 max-w-[18rem] text-center text-lg font-extrabold text-[#3b2a8a] leading-snug">{hint}</p>

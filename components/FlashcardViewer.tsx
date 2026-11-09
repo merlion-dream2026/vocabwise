@@ -329,6 +329,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
                 emojiClass="text-7xl"
                 iconSize={88}
                 className="text-gray-600"
+                zoomable
               />
             </div>
             <div className="flex-1 min-w-0 text-left">

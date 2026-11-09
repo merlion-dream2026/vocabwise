@@ -1,0 +1,471 @@
+[
+ {
+  "level": "explorer",
+  "id": "technology",
+  "word": "sensor",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "explorer",
+  "id": "environment",
+  "word": "deforestation",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "explorer",
+  "id": "space",
+  "word": "galaxy",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "explorer",
+  "id": "communication",
+  "word": "propaganda",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "explorer",
+  "id": "biology",
+  "word": "oxygen",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "explorer",
+  "id": "history",
+  "word": "ancient",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "explorer",
+  "id": "history",
+  "word": "civilisation",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "explorer",
+  "id": "literature",
+  "word": "character",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "explorer",
+  "id": "ai",
+  "word": "virtual",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "explorer",
+  "id": "nutrition",
+  "word": "nutrition",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "explorer",
+  "id": "nutrition",
+  "word": "ingredient",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "explorer",
+  "id": "digital-life",
+  "word": "hacker",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "explorer",
+  "id": "architecture",
+  "word": "column",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "explorer",
+  "id": "sports-competition",
+  "word": "tournament",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "explorer",
+  "id": "sports-competition",
+  "word": "rival",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "explorer",
+  "id": "sports-competition",
+  "word": "penalty",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "explorer",
+  "id": "global-issues",
+  "word": "hunger",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "explorer",
+  "id": "global-issues",
+  "word": "democracy",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "explorer",
+  "id": "art-creativity",
+  "word": "abstract",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "explorer",
+  "id": "art-creativity",
+  "word": "exhibition",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "ranger",
+  "id": "simple-jobs",
+  "word": "mechanic",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "ranger",
+  "id": "describing-people",
+  "word": "patient",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "ranger",
+  "id": "food-dining",
+  "word": "ingredient",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "ranger",
+  "id": "health-body",
+  "word": "nutrition",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "ranger",
+  "id": "countries-cultures",
+  "word": "tradition",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "ranger",
+  "id": "world-food",
+  "word": "ferment",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "ranger",
+  "id": "friendship-relations",
+  "word": "forgive",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "ranger",
+  "id": "environment-care",
+  "word": "deforestation",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "ranger",
+  "id": "environment-care",
+  "word": "wildlife",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "ranger",
+  "id": "weather-climate",
+  "word": "forecast",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "ranger",
+  "id": "weather-climate",
+  "word": "hurricane",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "ranger",
+  "id": "sports-activities",
+  "word": "tournament",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "ranger",
+  "id": "sports-activities",
+  "word": "penalty",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "ranger",
+  "id": "festivals-traditions",
+  "word": "decorate",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "ranger",
+  "id": "study-skills",
+  "word": "distraction",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "ranger",
+  "id": "animal-world",
+  "word": "reptile",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "ranger",
+  "id": "animal-world",
+  "word": "wild",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "ranger",
+  "id": "city-community",
+  "word": "traffic",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "ranger",
+  "id": "city-community",
+  "word": "protest",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "ranger",
+  "id": "books-stories",
+  "word": "character",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "ranger",
+  "id": "emotions-feelings",
+  "word": "mood",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "ranger",
+  "id": "nature-geography",
+  "word": "rainforest",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "scholar",
+  "id": "media-journalism",
+  "word": "propaganda",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "scholar",
+  "id": "politics-society",
+  "word": "democracy",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "scholar",
+  "id": "health-medicine",
+  "word": "nutrition",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "scholar",
+  "id": "art-culture",
+  "word": "heritage",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "scholar",
+  "id": "art-culture",
+  "word": "curator",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "scholar",
+  "id": "art-culture",
+  "word": "exhibition",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "scholar",
+  "id": "art-culture",
+  "word": "portrait",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "scholar",
+  "id": "art-culture",
+  "word": "abstract",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "scholar",
+  "id": "business-management",
+  "word": "forecast",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "scholar",
+  "id": "urban-development",
+  "word": "architecture",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "scholar",
+  "id": "urban-development",
+  "word": "urban sprawl",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "scholar",
+  "id": "space-universe",
+  "word": "galaxy",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "scholar",
+  "id": "career-workplace",
+  "word": "resume",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "scholar",
+  "id": "crime-society",
+  "word": "arrest",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "scholar",
+  "id": "family-relationships",
+  "word": "tradition",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "master",
+  "id": "academic-skills",
+  "word": "abstract",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "master",
+  "id": "law-justice",
+  "word": "penalty",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "master",
+  "id": "food-agriculture",
+  "word": "organic",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "master",
+  "id": "political-philosophy",
+  "word": "democracy",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "master",
+  "id": "technology-ethics",
+  "word": "platform",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "master",
+  "id": "media-literacy",
+  "word": "propaganda",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "master",
+  "id": "bioethics",
+  "word": "stem cell",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "master",
+  "id": "bioethics",
+  "word": "cloning",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "master",
+  "id": "social-change",
+  "word": "protest",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ },
+ {
+  "level": "master",
+  "id": "language-power",
+  "word": "heritage",
+  "ok": true,
+  "note": "tạo ảnh mới"
+ }
+]

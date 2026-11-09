@@ -7,6 +7,7 @@ const src = fs.readFileSync('lib/wordIcon.ts', 'utf8') + fs.readFileSync('lib/wo
 const phosphor = {}
 for (const [, k, v] of src.matchAll(/^\s*'?([a-zA-Z][\w \-]*)'?\s*:\s*'([A-Z]\w+)'/gm)) phosphor[k.toLowerCase()] = v
 const svgs = new Set(fs.readdirSync('public/icons').map(f => f.replace(/\.\w+$/, '')))
+const phIcon = n => n.replace(/([a-z0-9])([A-Z])/g, '$1-$2').toLowerCase()
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/"/g, '&quot;')
 
 const warnings = []
@@ -32,8 +33,8 @@ for (const [level, items] of Object.entries(audit)) {
       if (!a) continue
       const k = w.word.toLowerCase()
       const cur = phosphor[k] ? `Phosphor: ${phosphor[k]}` : w.emoji
-      const to = a.img ? `Ảnh riêng: ${a.img}` : a.emoji ?? w.emoji
-      rows.push({ level, topic: t.name, id: t.id, word: w.word, meaning: w.meaning, cur, to, type: a.img ? 'img' : 'emoji', why: a.why })
+      const to = a.reuse ? a.img : a.img ? `Ảnh riêng: ${a.img}` : a.emoji ?? w.emoji
+      rows.push({ level, topic: t.name, id: t.id, word: w.word, meaning: w.meaning, cur, to, type: a.reuse ? 'reuse' : a.img ? 'img' : 'emoji', why: a.why })
     }
   }
   for (const w of Object.keys(items)) if (!seen.has(w)) warnings.push(`${level}: không tìm thấy từ "${w}"`)
@@ -41,7 +42,9 @@ for (const [level, items] of Object.entries(audit)) {
 
 const html = `<!doctype html><meta charset="utf-8"><title>Duyệt icon: ${esc(name)}</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/duotone/style.css">
 <style>
+.ph-duotone{font-size:36px;display:block;margin-bottom:2px}.thumb{width:48px;height:48px;display:block}
 body{font:15px system-ui;margin:0;background:#f8fafc;color:#1e293b}
 header{position:sticky;top:0;background:#fff;padding:12px 16px;border-bottom:1px solid #e2e8f0;display:flex;gap:12px;flex-wrap:wrap;align-items:center;z-index:1}
 main{padding:12px 16px}table{border-collapse:collapse;width:100%;background:#fff}
@@ -54,14 +57,14 @@ button{padding:8px 14px;border-radius:8px;border:1px solid #cbd5e1;background:#f
 button.main{background:#db2777;color:#fff;border:0}select{padding:7px;font-size:14px}
 </style>
 <header><b>Duyệt icon</b><span class="small">Mặc định là duyệt hết. Anh chỉ cần bỏ tick dòng không ưng hoặc ghi chú.</span>
-<select id="f"><option value="">Tất cả</option><option value="img">Cần ảnh riêng</option><option value="emoji">Đổi emoji / bỏ Phosphor</option><option value="starter">Starter</option><option value="seeker">Seeker</option></select>
+<select id="f"><option value="">Tất cả</option><option value="img">Cần ảnh riêng</option><option value="emoji">Đổi emoji / bỏ Phosphor</option><option value="reuse">Dùng lại ảnh có sẵn</option>${Object.keys(audit).map(l => `<option value="${l}">${l}</option>`).join('')}</select>
 <span id="sum" class="small"></span><button class="main" id="dl">Tải quyết định</button></header>
 <main><table><thead><tr><th>Duyệt</th><th>Level / chủ đề</th><th>Từ</th><th>Hiện tại</th><th>Đề xuất</th><th>Lý do</th><th>Ghi chú của anh</th></tr></thead><tbody>
 ${rows.map((r, i) => `<tr data-i="${i}" data-type="${r.type}" data-level="${r.level}">
 <td><input type="checkbox" class="ok" checked></td><td class="small">${r.level}<br>${esc(r.topic)}</td>
 <td><b>${esc(r.word)}</b><br><span class="small">${esc(r.meaning)}</span></td>
-<td class="${r.cur.startsWith('Phosphor') ? 'small' : 'big'}">${esc(r.cur)}</td>
-<td class="to">${r.type === 'img' ? `<span class="img">${esc(r.to)}</span>` : `<span class="big">${esc(r.to)}</span>`}</td>
+<td class="${r.cur.startsWith('Phosphor') ? 'small' : 'big'}">${r.cur.startsWith('Phosphor') ? `<i class="ph-duotone ph-${phIcon(r.cur.slice(10))}"></i>` : ''}${esc(r.cur)}</td>
+<td class="to">${r.type === 'reuse' ? `<img class="thumb" src="../../public/icons/words/${esc(r.word)}.webp" alt=""><span class="small">Ảnh đã có</span>` : r.type === 'img' ? `<span class="img">${esc(r.to)}</span>` : `<span class="big">${esc(r.to)}</span>`}</td>
 <td class="small">${esc(r.why)}</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr>`).join('')}
 </tbody></table></main>
 <script>

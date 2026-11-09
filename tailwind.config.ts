@@ -31,9 +31,13 @@ const config: Config = {
         'bounce-soft': 'bounce-soft 0.4s ease',
         'flip-in': 'flip-in 0.3s ease',
         'fade-up': 'fade-up .45s ease-out both',
+        'zoom-pop': 'zoom-pop .22s cubic-bezier(.2,1.4,.4,1) both',
+        'fade-in': 'fade-in .18s ease-out both',
       },
       keyframes: {
         'fade-up': { '0%': { opacity: '0', transform: 'translateY(12px)' }, '100%': { opacity: '1', transform: 'translateY(0)' } },
+        'zoom-pop': { '0%': { opacity: '0', transform: 'scale(.6)' }, '100%': { opacity: '1', transform: 'scale(1)' } },
+        'fade-in': { '0%': { opacity: '0' }, '100%': { opacity: '1' } },
         'bounce-soft': {
           '0%, 100%': { transform: 'scale(1)' },
           '50%': { transform: 'scale(1.08)' },

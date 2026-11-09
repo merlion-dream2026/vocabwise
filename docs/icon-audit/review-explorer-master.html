@@ -1,0 +1,1177 @@
+<!doctype html><meta charset="utf-8"><title>Duyệt icon: explorer-master</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/duotone/style.css">
+<style>
+.ph-duotone{font-size:36px;display:block;margin-bottom:2px}.thumb{width:48px;height:48px;display:block}
+body{font:15px system-ui;margin:0;background:#f8fafc;color:#1e293b}
+header{position:sticky;top:0;background:#fff;padding:12px 16px;border-bottom:1px solid #e2e8f0;display:flex;gap:12px;flex-wrap:wrap;align-items:center;z-index:1}
+main{padding:12px 16px}table{border-collapse:collapse;width:100%;background:#fff}
+td,th{padding:8px 10px;border-bottom:1px solid #e2e8f0;text-align:left;vertical-align:middle}
+th{background:#f1f5f9;font-size:13px}.big{font-size:32px;line-height:1;white-space:nowrap}.small{font-size:13px;color:#475569}
+.img{font-size:13px;color:#7c2d12;background:#fff7ed;border-radius:6px;padding:4px 8px;display:inline-block}
+tr.rej{background:#fef2f2}tr.rej .to{text-decoration:line-through;opacity:.5}
+input[type=text]{width:100%;min-width:130px;padding:5px;font-size:14px;box-sizing:border-box}
+button{padding:8px 14px;border-radius:8px;border:1px solid #cbd5e1;background:#fff;font-size:14px;cursor:pointer}
+button.main{background:#db2777;color:#fff;border:0}select{padding:7px;font-size:14px}
+</style>
+<header><b>Duyệt icon</b><span class="small">Mặc định là duyệt hết. Anh chỉ cần bỏ tick dòng không ưng hoặc ghi chú.</span>
+<select id="f"><option value="">Tất cả</option><option value="img">Cần ảnh riêng</option><option value="emoji">Đổi emoji / bỏ Phosphor</option><option value="reuse">Dùng lại ảnh có sẵn</option><option value="explorer">explorer</option><option value="ranger">ranger</option><option value="scholar">scholar</option><option value="master">master</option></select>
+<span id="sum" class="small"></span><button class="main" id="dl">Tải quyết định</button></header>
+<main><table><thead><tr><th>Duyệt</th><th>Level / chủ đề</th><th>Từ</th><th>Hiện tại</th><th>Đề xuất</th><th>Lý do</th><th>Ghi chú của anh</th></tr></thead><tbody>
+<tr data-i="0" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Khoa học &amp; Khủng long</td>
+<td><b>photosynthesis</b><br><span class="small">quang hợp</span></td>
+<td class="big">🌿</td>
+<td class="to"><span class="img">Ảnh riêng: a green leaf under a bright sun with rays shining on it</span></td>
+<td class="small">🌿 chỉ là chiếc lá, không thấy nắng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="1" data-type="emoji" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Khoa học &amp; Khủng long</td>
+<td><b>carnivore</b><br><span class="small">động vật ăn thịt</span></td>
+<td class="small"><i class="ph-duotone ph-knife"></i>Phosphor: Knife</td>
+<td class="to"><span class="big">🥩</span></td>
+<td class="small">Phosphor là con dao; 🥩 đúng ý ăn thịt hơn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="2" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Công nghệ &amp; Robot</td>
+<td><b>sensor</b><br><span class="small">cảm biến</span></td>
+<td class="small"><i class="ph-duotone ph-binoculars"></i>Phosphor: Binoculars</td>
+<td class="to"><span class="img">Ảnh riêng: a small electronic motion sensor device with curved signal waves coming from it</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="3" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Công nghệ &amp; Robot</td>
+<td><b>circuit</b><br><span class="small">mạch điện</span></td>
+<td class="small"><i class="ph-duotone ph-lightning"></i>Phosphor: Lightning</td>
+<td class="to"><span class="img">Ảnh riêng: a green electronic circuit board with shiny lines and small parts</span></td>
+<td class="small">Phosphor là tia sét, 🔌 là phích cắm</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="4" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Môi trường &amp; Bảo tồn</td>
+<td><b>biodiversity</b><br><span class="small">đa dạng sinh học</span></td>
+<td class="small"><i class="ph-duotone ph-circles-three-plus"></i>Phosphor: CirclesThreePlus</td>
+<td class="to"><span class="img">Ảnh riêng: a butterfly, a frog, a flower and a small bird together</span></td>
+<td class="small">Phosphor là mấy vòng tròn, 🦋 chỉ là một con bướm</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="5" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Môi trường &amp; Bảo tồn</td>
+<td><b>ecosystem</b><br><span class="small">hệ sinh thái</span></td>
+<td class="small"><i class="ph-duotone ph-arrows-clockwise"></i>Phosphor: ArrowsClockwise</td>
+<td class="to"><span class="img">Ảnh riêng: a small pond with a fish, a frog, reeds and a dragonfly</span></td>
+<td class="small">Mũi tên xoay vòng không nói lên hệ sinh thái</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="6" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Môi trường &amp; Bảo tồn</td>
+<td><b>deforestation</b><br><span class="small">phá rừng</span></td>
+<td class="small"><i class="ph-duotone ph-tree-evergreen"></i>Phosphor: TreeEvergreen</td>
+<td class="to"><span class="img">Ảnh riêng: several cut tree stumps with an axe beside them and a few standing trees behind</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="7" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Môi trường &amp; Bảo tồn</td>
+<td><b>atmosphere</b><br><span class="small">khí quyển / bầu không khí</span></td>
+<td class="big">🌫️</td>
+<td class="to"><span class="img">Ảnh riêng: planet Earth with a thin glowing blue layer around it</span></td>
+<td class="small">🌫️ là sương mù</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="8" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Vũ trụ &amp; Thiên văn</td>
+<td><b>orbit</b><br><span class="small">quỹ đạo</span></td>
+<td class="small"><i class="ph-duotone ph-arrows-clockwise"></i>Phosphor: ArrowsClockwise</td>
+<td class="to"><span class="img">Ảnh riêng: a small planet moving around a bright star along a dotted ring</span></td>
+<td class="small">Phosphor là mũi tên xoay vòng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="9" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Vũ trụ &amp; Thiên văn</td>
+<td><b>gravity</b><br><span class="small">trọng lực</span></td>
+<td class="big">⬇️</td>
+<td class="to"><span class="img">Ảnh riêng: a red apple falling from a tree branch, with a dotted line below it pointing down</span></td>
+<td class="small">⬇️ chỉ là mũi tên</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="10" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Vũ trụ &amp; Thiên văn</td>
+<td><b>asteroid</b><br><span class="small">tiểu hành tinh</span></td>
+<td class="big">☄️</td>
+<td class="to"><span class="img">Ảnh riêng: a rough grey rocky asteroid in space</span></td>
+<td class="small">☄️ trùng với comet</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="11" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Vũ trụ &amp; Thiên văn</td>
+<td><b>galaxy</b><br><span class="small">thiên hà</span></td>
+<td class="small"><i class="ph-duotone ph-planet"></i>Phosphor: Planet</td>
+<td class="to"><span class="img">Ảnh riêng: a bright spiral galaxy of stars and glowing purple-blue dust</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="12" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Truyền thông &amp; Quan điểm</td>
+<td><b>propaganda</b><br><span class="small">tuyên truyền</span></td>
+<td class="small"><i class="ph-duotone ph-warning"></i>Phosphor: Warning</td>
+<td class="to"><span class="img">Ảnh riêng: a big loudspeaker on a pole beside a bold poster showing a raised fist</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="13" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Sinh học &amp; Cơ thể người</td>
+<td><b>cell</b><br><span class="small">tế bào</span></td>
+<td class="small"><i class="ph-duotone ph-atom"></i>Phosphor: Atom</td>
+<td class="to"><span class="img">Ảnh riêng: one round biological cell with a darker nucleus inside</span></td>
+<td class="small">Phosphor là nguyên tử</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="14" data-type="emoji" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Sinh học &amp; Cơ thể người</td>
+<td><b>muscle</b><br><span class="small">cơ bắp</span></td>
+<td class="small"><i class="ph-duotone ph-barbell"></i>Phosphor: Barbell</td>
+<td class="to"><span class="big">💪</span></td>
+<td class="small">Phosphor là tạ; 💪 mới là cơ bắp</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="15" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Sinh học &amp; Cơ thể người</td>
+<td><b>nerve</b><br><span class="small">dây thần kinh</span></td>
+<td class="small"><i class="ph-duotone ph-circuitry"></i>Phosphor: Circuitry</td>
+<td class="to"><span class="img">Ảnh riêng: a branching nerve cell with long thin arms</span></td>
+<td class="small">Phosphor là bảng mạch, 🧠 là não</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="16" data-type="emoji" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Sinh học &amp; Cơ thể người</td>
+<td><b>protein</b><br><span class="small">protein</span></td>
+<td class="small"><i class="ph-duotone ph-bowl-food"></i>Phosphor: BowlFood</td>
+<td class="to"><span class="big">🥩</span></td>
+<td class="small">Phosphor là tô thức ăn chung chung; 🥩 đúng hơn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="17" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Sinh học &amp; Cơ thể người</td>
+<td><b>digest</b><br><span class="small">tiêu hóa</span></td>
+<td class="big">🫃</td>
+<td class="to"><span class="img">Ảnh riêng: a simple human stomach organ</span></td>
+<td class="small">🫃 là người đàn ông mang thai</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="18" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Sinh học &amp; Cơ thể người</td>
+<td><b>oxygen</b><br><span class="small">oxy</span></td>
+<td class="small"><i class="ph-duotone ph-drop"></i>Phosphor: Drop</td>
+<td class="to"><span class="img">Ảnh riêng: a blue oxygen tank connected to a clear breathing mask</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="19" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Lịch sử &amp; Văn minh</td>
+<td><b>ancient</b><br><span class="small">cổ đại</span></td>
+<td class="small"><i class="ph-duotone ph-hourglass-medium"></i>Phosphor: HourglassMedium</td>
+<td class="to"><span class="img">Ảnh riêng: a crumbling ancient stone temple with broken columns</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="20" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Lịch sử &amp; Văn minh</td>
+<td><b>civilisation</b><br><span class="small">nền văn minh</span></td>
+<td class="small"><i class="ph-duotone ph-book-open-text"></i>Phosphor: BookOpenText</td>
+<td class="to"><span class="img">Ảnh riêng: an ancient city with stone buildings and a pyramid beside a river</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="21" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Kinh tế &amp; Tài chính</td>
+<td><b>poverty</b><br><span class="small">đói nghèo</span></td>
+<td class="small"><i class="ph-duotone ph-coins"></i>Phosphor: Coins</td>
+<td class="to"><span class="img">Ảnh riêng: an empty open brown wallet</span></td>
+<td class="small">Phosphor là đồng xu, ngược nghĩa nghèo</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="22" data-type="emoji" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Kinh tế &amp; Tài chính</td>
+<td><b>wage</b><br><span class="small">tiền lương</span></td>
+<td class="small"><i class="ph-duotone ph-briefcase"></i>Phosphor: Briefcase</td>
+<td class="to"><span class="big">💵</span></td>
+<td class="small">Phosphor là cái cặp; 💵 đúng hơn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="23" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Văn học &amp; Nghệ thuật</td>
+<td><b>character</b><br><span class="small">nhân vật</span></td>
+<td class="small"><i class="ph-duotone ph-detective"></i>Phosphor: Detective</td>
+<td class="to"><span class="img">Ảnh riêng: a storybook wizard standing on an open book</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="24" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Văn học &amp; Nghệ thuật</td>
+<td><b>poetry</b><br><span class="small">thơ ca</span></td>
+<td class="big">🌸</td>
+<td class="to"><span class="img">Ảnh riêng: a feather quill pen writing on a sheet of paper with a small heart</span></td>
+<td class="small">🌸 là bông hoa</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="25" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>AI &amp; Công nghệ số</td>
+<td><b>virtual</b><br><span class="small">ảo</span></td>
+<td class="big">🕶️</td>
+<td class="to"><span class="img">Ảnh riêng: a smiling child wearing a VR headset with a glowing digital grid around them</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="26" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>AI &amp; Công nghệ số</td>
+<td><b>platform</b><br><span class="small">nền tảng</span></td>
+<td class="small"><i class="ph-duotone ph-presentation-chart"></i>Phosphor: PresentationChart</td>
+<td class="to"><span class="img">Ảnh riêng: a smartphone screen showing a grid of colorful app squares</span></td>
+<td class="small">Andie: tạo ảnh mới (Explorer dùng chung vì cùng nghĩa)</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="27" data-type="emoji" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Luật pháp &amp; Công lý</td>
+<td><b>justice</b><br><span class="small">công lý</span></td>
+<td class="small"><i class="ph-duotone ph-shield"></i>Phosphor: Shield</td>
+<td class="to"><span class="big">⚖️</span></td>
+<td class="small">Phosphor là cái khiên</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="28" data-type="emoji" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Luật pháp &amp; Công lý</td>
+<td><b>lawyer</b><br><span class="small">luật sư</span></td>
+<td class="big">⚖️</td>
+<td class="to"><span class="big">💼</span></td>
+<td class="small">Nhường ⚖️ cho justice cùng chủ đề</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="29" data-type="emoji" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Tâm lý học</td>
+<td><b>anxiety</b><br><span class="small">lo âu</span></td>
+<td class="small"><i class="ph-duotone ph-warning"></i>Phosphor: Warning</td>
+<td class="to"><span class="big">😰</span></td>
+<td class="small">Phosphor là biển cảnh báo; 😰 rõ cảm xúc</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="30" data-type="emoji" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Tâm lý học</td>
+<td><b>stress</b><br><span class="small">căng thẳng</span></td>
+<td class="big">😤</td>
+<td class="to"><span class="big">😫</span></td>
+<td class="small">😤 là tức giận</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="31" data-type="emoji" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Tâm lý học</td>
+<td><b>memory</b><br><span class="small">trí nhớ</span></td>
+<td class="big">💾</td>
+<td class="to"><span class="big">🧠</span></td>
+<td class="small">💾 là đĩa mềm, trẻ không biết</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="32" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Y học &amp; Sức khỏe</td>
+<td><b>surgery</b><br><span class="small">phẫu thuật</span></td>
+<td class="small"><i class="ph-duotone ph-syringe"></i>Phosphor: Syringe</td>
+<td class="to"><span class="img">Ảnh riêng: a friendly surgeon in green scrubs and mask holding surgical tools</span></td>
+<td class="small">Phosphor là ống tiêm</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="33" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Y học &amp; Sức khỏe</td>
+<td><b>prescription</b><br><span class="small">đơn thuốc</span></td>
+<td class="small"><i class="ph-duotone ph-first-aid"></i>Phosphor: FirstAid</td>
+<td class="to"><span class="img">Ảnh riêng: a doctor's prescription paper next to a small pill bottle</span></td>
+<td class="small">Phosphor là hộp cứu thương</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="34" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Địa lý &amp; Địa hình</td>
+<td><b>peninsula</b><br><span class="small">bán đảo</span></td>
+<td class="small"><i class="ph-duotone ph-island"></i>Phosphor: Island</td>
+<td class="to"><span class="img">Ảnh riêng: a strip of green land sticking out into blue sea, water on three sides, seen from above</span></td>
+<td class="small">Phosphor là hòn đảo, khác bán đảo</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="35" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Địa lý &amp; Địa hình</td>
+<td><b>plateau</b><br><span class="small">cao nguyên</span></td>
+<td class="small"><i class="ph-duotone ph-sun-horizon"></i>Phosphor: SunHorizon</td>
+<td class="to"><span class="img">Ảnh riêng: a high wide mountain with a flat top</span></td>
+<td class="small">Phosphor là mặt trời mọc</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="36" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Địa lý &amp; Địa hình</td>
+<td><b>delta</b><br><span class="small">châu thổ</span></td>
+<td class="small"><i class="ph-duotone ph-waves"></i>Phosphor: Waves</td>
+<td class="to"><span class="img">Ảnh riêng: a river splitting into several branches as it reaches the sea, seen from above</span></td>
+<td class="small">Phosphor là sóng nước</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="37" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Địa lý &amp; Địa hình</td>
+<td><b>equator</b><br><span class="small">đường xích đạo</span></td>
+<td class="small"><i class="ph-duotone ph-globe-simple"></i>Phosphor: GlobeSimple</td>
+<td class="to"><span class="img">Ảnh riêng: Earth globe with one bright line around its middle</span></td>
+<td class="small">Quả địa cầu trơn không thấy đường xích đạo</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="38" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Địa lý &amp; Địa hình</td>
+<td><b>longitude</b><br><span class="small">kinh độ</span></td>
+<td class="small"><i class="ph-duotone ph-arrow-up-right"></i>Phosphor: ArrowUpRight</td>
+<td class="to"><span class="img">Ảnh riêng: Earth globe with curved lines running from top to bottom</span></td>
+<td class="small">Phosphor là mũi tên chéo</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="39" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Địa lý &amp; Địa hình</td>
+<td><b>latitude</b><br><span class="small">vĩ độ</span></td>
+<td class="small"><i class="ph-duotone ph-navigation-arrow"></i>Phosphor: NavigationArrow</td>
+<td class="to"><span class="img">Ảnh riêng: Earth globe with straight lines running from left to right</span></td>
+<td class="small">Phosphor là mũi tên điều hướng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="40" data-type="reuse" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Địa lý &amp; Địa hình</td>
+<td><b>canyon</b><br><span class="small">hẻm núi</span></td>
+<td class="big">🏔️</td>
+<td class="to"><img class="thumb" src="../../public/icons/words/canyon.webp" alt=""><span class="small">Ảnh đã có</span></td>
+<td class="small">Đã có ảnh hẻm núi, chỉ cần nối</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="41" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Địa lý &amp; Địa hình</td>
+<td><b>estuary</b><br><span class="small">cửa sông</span></td>
+<td class="small"><i class="ph-duotone ph-anchor-simple"></i>Phosphor: AnchorSimple</td>
+<td class="to"><span class="img">Ảnh riêng: a wide river mouth opening into the sea, seen from above</span></td>
+<td class="small">Phosphor là mỏ neo</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="42" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Địa lý &amp; Địa hình</td>
+<td><b>tundra</b><br><span class="small">đài nguyên</span></td>
+<td class="big">❄️</td>
+<td class="to"><span class="img">Ảnh riêng: flat snowy land with low moss patches and a reindeer</span></td>
+<td class="small">❄️ chỉ là bông tuyết</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="43" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Địa lý &amp; Địa hình</td>
+<td><b>savanna</b><br><span class="small">thảo nguyên</span></td>
+<td class="big">🌾</td>
+<td class="to"><span class="img">Ảnh riêng: dry golden grassland with one flat-topped acacia tree</span></td>
+<td class="small">🌾 là bó lúa</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="44" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Dinh dưỡng &amp; Ẩm thực</td>
+<td><b>nutrition</b><br><span class="small">dinh dưỡng</span></td>
+<td class="small"><i class="ph-duotone ph-nut"></i>Phosphor: Nut</td>
+<td class="to"><span class="img">Ảnh riêng: a plate with a balanced meal of vegetables, fruit, fish and rice</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="45" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Dinh dưỡng &amp; Ẩm thực</td>
+<td><b>ingredient</b><br><span class="small">nguyên liệu</span></td>
+<td class="small"><i class="ph-duotone ph-bowl-food"></i>Phosphor: BowlFood</td>
+<td class="to"><span class="img">Ảnh riêng: a carrot, an egg, a tomato and a small bag of flour together</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="46" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Dinh dưỡng &amp; Ẩm thực</td>
+<td><b>organic</b><br><span class="small">hữu cơ</span></td>
+<td class="small"><i class="ph-duotone ph-globe-simple"></i>Phosphor: GlobeSimple</td>
+<td class="to"><span class="img">Ảnh riêng: a basket of fresh vegetables with a green leaf-shaped label</span></td>
+<td class="small">Andie: tạo ảnh mới (Explorer, Ranger dùng chung vì cùng nghĩa)</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="47" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Biến đổi khí hậu</td>
+<td><b>permafrost</b><br><span class="small">tầng đất đóng băng vĩnh cửu</span></td>
+<td class="big">❄️</td>
+<td class="to"><span class="img">Ảnh riêng: cross-section of ground with a layer of soil on top and thick blue ice beneath</span></td>
+<td class="small">❄️ chỉ là bông tuyết</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="48" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Biến đổi khí hậu</td>
+<td><b>iceberg</b><br><span class="small">tảng băng trôi</span></td>
+<td class="big">🧊</td>
+<td class="to"><span class="img">Ảnh riêng: a white iceberg floating in the sea with a big part visible under the water</span></td>
+<td class="small">🧊 là viên đá lạnh</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="49" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Biến đổi khí hậu</td>
+<td><b>greenhouse</b><br><span class="small">hiệu ứng nhà kính</span></td>
+<td class="big">🏡</td>
+<td class="to"><span class="img">Ảnh riêng: a glass greenhouse with green plants inside</span></td>
+<td class="small">🏡 là ngôi nhà có vườn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="50" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Biến đổi khí hậu</td>
+<td><b>sea level</b><br><span class="small">mực nước biển</span></td>
+<td class="big">🌊</td>
+<td class="to"><span class="img">Ảnh riêng: a wooden measuring post with marks standing in the sea, water reaching one mark</span></td>
+<td class="small">🌊 chỉ là sóng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="51" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Biến đổi khí hậu</td>
+<td><b>glacier</b><br><span class="small">sông băng</span></td>
+<td class="small"><i class="ph-duotone ph-snowflake"></i>Phosphor: Snowflake</td>
+<td class="to"><span class="img">Ảnh riêng: a huge river of blue-white ice flowing between two mountains</span></td>
+<td class="small">Phosphor là bông tuyết</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="52" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Biến đổi khí hậu</td>
+<td><b>drought</b><br><span class="small">hạn hán</span></td>
+<td class="small"><i class="ph-duotone ph-sun-horizon"></i>Phosphor: SunHorizon</td>
+<td class="to"><span class="img">Ảnh riêng: cracked dry brown ground with one wilted plant</span></td>
+<td class="small">Phosphor là mặt trời mọc</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="53" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Biến đổi khí hậu</td>
+<td><b>flood</b><br><span class="small">lũ lụt</span></td>
+<td class="small"><i class="ph-duotone ph-waves"></i>Phosphor: Waves</td>
+<td class="to"><span class="img">Ảnh riêng: a small house with brown flood water up to its windows</span></td>
+<td class="small">Phosphor là sóng nước, không thấy lũ</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="54" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Biến đổi khí hậu</td>
+<td><b>wildfire</b><br><span class="small">cháy rừng</span></td>
+<td class="big">🔥</td>
+<td class="to"><span class="img">Ảnh riêng: a green forest with big flames burning the trees</span></td>
+<td class="small">🔥 chỉ là ngọn lửa</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="55" data-type="emoji" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Biến đổi khí hậu</td>
+<td><b>heatwave</b><br><span class="small">đợt nắng nóng</span></td>
+<td class="big">🌡️</td>
+<td class="to"><span class="big">🥵</span></td>
+<td class="small">🌡️ trùng nhiệt độ cùng chủ đề</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="56" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Cuộc sống số</td>
+<td><b>hacker</b><br><span class="small">tin tặc</span></td>
+<td class="big">🕵️</td>
+<td class="to"><span class="img">Ảnh riêng: a person in a dark hoodie typing on a laptop with an open padlock beside it</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="57" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Kiến trúc</td>
+<td><b>blueprint</b><br><span class="small">bản thiết kế</span></td>
+<td class="small"><i class="ph-duotone ph-map-trifold"></i>Phosphor: MapTrifold</td>
+<td class="to"><span class="img">Ảnh riêng: a blue architectural plan with white lines, partly rolled up</span></td>
+<td class="small">Phosphor là bản đồ</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="58" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Kiến trúc</td>
+<td><b>foundation</b><br><span class="small">nền móng</span></td>
+<td class="small"><i class="ph-duotone ph-building"></i>Phosphor: Building</td>
+<td class="to"><span class="img">Ảnh riêng: cross-section of a small house with a thick concrete base below ground</span></td>
+<td class="small">Phosphor là cả tòa nhà</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="59" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Kiến trúc</td>
+<td><b>column</b><br><span class="small">cột trụ</span></td>
+<td class="big">🏟️</td>
+<td class="to"><span class="img">Ảnh riêng: one tall white stone classical column</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="60" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Kiến trúc</td>
+<td><b>arch</b><br><span class="small">vòm cung</span></td>
+<td class="big">🌉</td>
+<td class="to"><span class="img">Ảnh riêng: a stone archway</span></td>
+<td class="small">🌉 là cây cầu</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="61" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Kiến trúc</td>
+<td><b>dome</b><br><span class="small">mái vòm</span></td>
+<td class="big">⛩️</td>
+<td class="to"><span class="img">Ảnh riêng: a building with one big round dome on top</span></td>
+<td class="small">⛩️ là cổng đền Nhật</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="62" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Kiến trúc</td>
+<td><b>heritage</b><br><span class="small">di sản</span></td>
+<td class="small"><i class="ph-duotone ph-book-open"></i>Phosphor: BookOpen</td>
+<td class="to"><span class="img">Ảnh riêng: an old temple gate beside an ancient clay vase</span></td>
+<td class="small">Andie: tạo ảnh mới (Explorer dùng chung vì cùng nghĩa)</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="63" data-type="reuse" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Âm nhạc &amp; Biểu diễn</td>
+<td><b>melody</b><br><span class="small">giai điệu</span></td>
+<td class="big">🎵</td>
+<td class="to"><img class="thumb" src="../../public/icons/words/melody.webp" alt=""><span class="small">Ảnh đã có</span></td>
+<td class="small">Đã có ảnh giai điệu; 🎵 là nốt nhạc chung</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="64" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Âm nhạc &amp; Biểu diễn</td>
+<td><b>conductor</b><br><span class="small">nhạc trưởng</span></td>
+<td class="big">🎼</td>
+<td class="to"><span class="img">Ảnh riêng: a friendly orchestra conductor in black suit raising a baton</span></td>
+<td class="small">🎼 là khuông nhạc</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="65" data-type="emoji" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Thể thao &amp; Thi đấu</td>
+<td><b>athlete</b><br><span class="small">vận động viên</span></td>
+<td class="small"><i class="ph-duotone ph-barbell"></i>Phosphor: Barbell</td>
+<td class="to"><span class="big">🏋️</span></td>
+<td class="small">Phosphor là tạ; tránh trùng với sprint</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="66" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Thể thao &amp; Thi đấu</td>
+<td><b>tournament</b><br><span class="small">giải đấu</span></td>
+<td class="small"><i class="ph-duotone ph-flag-banner"></i>Phosphor: FlagBanner</td>
+<td class="to"><span class="img">Ảnh riêng: a golden trophy above a simple branching competition bracket made of lines</span></td>
+<td class="small">Andie: tạo ảnh mới (Scholar dùng chung vì cùng nghĩa)</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="67" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Thể thao &amp; Thi đấu</td>
+<td><b>rival</b><br><span class="small">đối thủ</span></td>
+<td class="small"><i class="ph-duotone ph-users-three"></i>Phosphor: UsersThree</td>
+<td class="to"><span class="img">Ảnh riêng: two sports players facing each other, ready to compete</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="68" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Thể thao &amp; Thi đấu</td>
+<td><b>referee</b><br><span class="small">trọng tài</span></td>
+<td class="big">🟨</td>
+<td class="to"><span class="img">Ảnh riêng: a friendly football referee in a black striped shirt blowing a whistle and holding up a yellow card</span></td>
+<td class="small">🟨 chỉ là ô vuông vàng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="69" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Thể thao &amp; Thi đấu</td>
+<td><b>penalty</b><br><span class="small">hình phạt / phạt đền</span></td>
+<td class="small"><i class="ph-duotone ph-xcircle"></i>Phosphor: XCircle</td>
+<td class="to"><span class="img">Ảnh riêng: a soccer ball on the penalty spot in front of a goal with a goalkeeper</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="70" data-type="emoji" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Thể thao &amp; Thi đấu</td>
+<td><b>sprint</b><br><span class="small">chạy nước rút</span></td>
+<td class="small"><i class="ph-duotone ph-arrow-fat-right"></i>Phosphor: ArrowFatRight</td>
+<td class="to"><span class="big">🏃</span></td>
+<td class="small">Phosphor là mũi tên; 🏃 đúng hơn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="71" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Vấn đề toàn cầu</td>
+<td><b>hunger</b><br><span class="small">nạn đói</span></td>
+<td class="small"><i class="ph-duotone ph-bowl-food"></i>Phosphor: BowlFood</td>
+<td class="to"><span class="img">Ảnh riêng: a worried child holding an empty bowl</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="72" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Vấn đề toàn cầu</td>
+<td><b>democracy</b><br><span class="small">dân chủ</span></td>
+<td class="small"><i class="ph-duotone ph-users-three"></i>Phosphor: UsersThree</td>
+<td class="to"><span class="img">Ảnh riêng: a hand putting a paper vote into a ballot box</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="73" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Di truyền &amp; Tiến hóa</td>
+<td><b>fossil</b><br><span class="small">hóa thạch</span></td>
+<td class="small"><i class="ph-duotone ph-bone"></i>Phosphor: Bone</td>
+<td class="to"><span class="img">Ảnh riêng: a spiral ammonite fossil pressed into a piece of stone</span></td>
+<td class="small">Phosphor là khúc xương</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="74" data-type="emoji" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Di truyền &amp; Tiến hóa</td>
+<td><b>organism</b><br><span class="small">sinh vật</span></td>
+<td class="small"><i class="ph-duotone ph-tree-structure"></i>Phosphor: TreeStructure</td>
+<td class="to"><span class="big">🔬</span></td>
+<td class="small">Phosphor là sơ đồ cây</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="75" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Nghệ thuật &amp; Sáng tạo</td>
+<td><b>canvas</b><br><span class="small">vải bố / tranh vẽ</span></td>
+<td class="small"><i class="ph-duotone ph-image-square"></i>Phosphor: ImageSquare</td>
+<td class="to"><span class="img">Ảnh riêng: a blank white canvas on a wooden easel</span></td>
+<td class="small">Phosphor là khung ảnh</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="76" data-type="emoji" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Nghệ thuật &amp; Sáng tạo</td>
+<td><b>sculpture</b><br><span class="small">điêu khắc / tượng</span></td>
+<td class="small"><i class="ph-duotone ph-cube"></i>Phosphor: Cube</td>
+<td class="to"><span class="big">🗿</span></td>
+<td class="small">Phosphor là khối hộp; 🗿 đúng hơn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="77" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Nghệ thuật &amp; Sáng tạo</td>
+<td><b>abstract</b><br><span class="small">trừu tượng</span></td>
+<td class="small"><i class="ph-duotone ph-file-text"></i>Phosphor: FileText</td>
+<td class="to"><span class="img">Ảnh riêng: an abstract painting of bold shapes and colors on a canvas</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="78" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Nghệ thuật &amp; Sáng tạo</td>
+<td><b>exhibition</b><br><span class="small">triển lãm</span></td>
+<td class="small"><i class="ph-duotone ph-star"></i>Phosphor: Star</td>
+<td class="to"><span class="img">Ảnh riêng: two visitors looking at a framed painting and a statue on a stand</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="79" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Nghệ thuật &amp; Sáng tạo</td>
+<td><b>portrait</b><br><span class="small">chân dung</span></td>
+<td class="small"><i class="ph-duotone ph-camera"></i>Phosphor: Camera</td>
+<td class="to"><span class="img">Ảnh riêng: a painted portrait of a friendly person in a golden frame</span></td>
+<td class="small">Phosphor là máy ảnh</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="80" data-type="img" data-level="explorer">
+<td><input type="checkbox" class="ok" checked></td><td class="small">explorer<br>Nghệ thuật &amp; Sáng tạo</td>
+<td><b>gallery</b><br><span class="small">phòng triển lãm</span></td>
+<td class="small"><i class="ph-duotone ph-folder-open"></i>Phosphor: FolderOpen</td>
+<td class="to"><span class="img">Ảnh riêng: a room with framed paintings hanging on the wall</span></td>
+<td class="small">Phosphor là thư mục máy tính</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="81" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Du Lịch &amp; Địa Điểm</td>
+<td><b>passport</b><br><span class="small">hộ chiếu</span></td>
+<td class="small"><i class="ph-duotone ph-identification-card"></i>Phosphor: IdentificationCard</td>
+<td class="to"><span class="img">Ảnh riêng: a dark red passport booklet</span></td>
+<td class="small">📕 là sách đỏ, Phosphor là thẻ</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="82" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Du Lịch &amp; Địa Điểm</td>
+<td><b>tour guide</b><br><span class="small">hướng dẫn viên du lịch</span></td>
+<td class="big">🧭</td>
+<td class="to"><span class="img">Ảnh riêng: a friendly tour guide holding up a small flag</span></td>
+<td class="small">🧭 là la bàn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="83" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Du Lịch &amp; Địa Điểm</td>
+<td><b>visa</b><br><span class="small">thị thực</span></td>
+<td class="big">🗂️</td>
+<td class="to"><span class="img">Ảnh riêng: an open passport page with a large round entry stamp</span></td>
+<td class="small">🗂️ là bộ chia hồ sơ</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="84" data-type="emoji" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Sở Thích</td>
+<td><b>knitting</b><br><span class="small">đan len</span></td>
+<td class="small"><i class="ph-duotone ph-needle"></i>Phosphor: Needle</td>
+<td class="to"><span class="big">🧶</span></td>
+<td class="small">Phosphor là cây kim; 🧶 đúng hơn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="85" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Nghề Nghiệp</td>
+<td><b>librarian</b><br><span class="small">thủ thư</span></td>
+<td class="big">📚</td>
+<td class="to"><span class="img">Ảnh riêng: a friendly librarian holding a stack of books</span></td>
+<td class="small">📚 đọc thành &quot;books&quot;</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="86" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Nghề Nghiệp</td>
+<td><b>mechanic</b><br><span class="small">thợ sửa xe</span></td>
+<td class="big">🔧</td>
+<td class="to"><span class="img">Ảnh riêng: a friendly mechanic in overalls holding a wrench beside a car</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="87" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Nghề Nghiệp</td>
+<td><b>electrician</b><br><span class="small">thợ điện</span></td>
+<td class="small"><i class="ph-duotone ph-circuitry"></i>Phosphor: Circuitry</td>
+<td class="to"><span class="img">Ảnh riêng: a friendly electrician in a hard hat holding a wire and a screwdriver</span></td>
+<td class="small">Phosphor là bảng mạch</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="88" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Nghề Nghiệp</td>
+<td><b>architect</b><br><span class="small">kiến trúc sư</span></td>
+<td class="small"><i class="ph-duotone ph-crane"></i>Phosphor: Crane</td>
+<td class="to"><span class="img">Ảnh riêng: a friendly architect holding a rolled blue plan</span></td>
+<td class="small">Phosphor là cần cẩu</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="89" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Tiền &amp; Mua Sắm</td>
+<td><b>cashier</b><br><span class="small">thu ngân</span></td>
+<td class="big">🏪</td>
+<td class="to"><span class="img">Ảnh riêng: a friendly cashier behind a cash register</span></td>
+<td class="small">🏪 là cửa hàng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="90" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Miêu Tả Con Người</td>
+<td><b>curly</b><br><span class="small">xoăn</span></td>
+<td class="small"><i class="ph-duotone ph-wave-sine"></i>Phosphor: WaveSine</td>
+<td class="to"><span class="img">Ảnh riêng: a smiling child with very curly hair</span></td>
+<td class="small">Phosphor là đường sóng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="91" data-type="emoji" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Miêu Tả Con Người</td>
+<td><b>anxious</b><br><span class="small">lo lắng</span></td>
+<td class="small"><i class="ph-duotone ph-warning-circle"></i>Phosphor: WarningCircle</td>
+<td class="to"><span class="big">😰</span></td>
+<td class="small">Phosphor là biển cảnh báo; 😰 rõ cảm xúc</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="92" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Miêu Tả Con Người</td>
+<td><b>patient</b><br><span class="small">kiên nhẫn</span></td>
+<td class="big">🕰️</td>
+<td class="to"><span class="img">Ảnh riêng: a calm smiling child sitting on a bench and waiting, with an hourglass beside them</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="93" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Ăn Uống &amp; Nhà Hàng</td>
+<td><b>ingredient</b><br><span class="small">nguyên liệu</span></td>
+<td class="small"><i class="ph-duotone ph-bowl-food"></i>Phosphor: BowlFood</td>
+<td class="to"><span class="img">Ảnh riêng: a carrot, an egg, a tomato and a small bag of flour together</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="94" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Ăn Uống &amp; Nhà Hàng</td>
+<td><b>buffet</b><br><span class="small">tiệc tự chọn</span></td>
+<td class="small"><i class="ph-duotone ph-bowl-food"></i>Phosphor: BowlFood</td>
+<td class="to"><span class="img">Ảnh riêng: a long table with several different dishes of food</span></td>
+<td class="small">Phosphor là một cái tô</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="95" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Ăn Uống &amp; Nhà Hàng</td>
+<td><b>serve</b><br><span class="small">phục vụ</span></td>
+<td class="big">🧑‍🍽️</td>
+<td class="to"><span class="img">Ảnh riêng: a friendly waiter carrying a tray with a dish</span></td>
+<td class="small">🧑‍🍽️ không phải emoji chuẩn, máy có thể hiện thành 2 hình</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="96" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Sức Khỏe &amp; Cơ Thể</td>
+<td><b>prescription</b><br><span class="small">đơn thuốc</span></td>
+<td class="small"><i class="ph-duotone ph-first-aid"></i>Phosphor: FirstAid</td>
+<td class="to"><span class="img">Ảnh riêng: a doctor's prescription paper next to a small pill bottle</span></td>
+<td class="small">Phosphor là hộp cứu thương</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="97" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Sức Khỏe &amp; Cơ Thể</td>
+<td><b>nutrition</b><br><span class="small">dinh dưỡng</span></td>
+<td class="small"><i class="ph-duotone ph-nut"></i>Phosphor: Nut</td>
+<td class="to"><span class="img">Ảnh riêng: a plate with a balanced meal of vegetables, fruit, fish and rice</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="98" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Đất Nước &amp; Văn Hóa</td>
+<td><b>tradition</b><br><span class="small">truyền thống</span></td>
+<td class="small"><i class="ph-duotone ph-crown-simple"></i>Phosphor: CrownSimple</td>
+<td class="to"><span class="img">Ảnh riêng: a family in traditional clothes lighting a red paper lantern together</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="99" data-type="emoji" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Đất Nước &amp; Văn Hóa</td>
+<td><b>religion</b><br><span class="small">tôn giáo</span></td>
+<td class="big">⛪</td>
+<td class="to"><span class="big">🛐</span></td>
+<td class="small">⛪ chỉ một tôn giáo; 🛐 trung lập</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="100" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Đất Nước &amp; Văn Hóa</td>
+<td><b>border</b><br><span class="small">biên giới</span></td>
+<td class="big">🚩</td>
+<td class="to"><span class="img">Ảnh riêng: a road with a striped barrier gate across it</span></td>
+<td class="small">🚩 chỉ là lá cờ</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="101" data-type="emoji" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Miêu Tả Địa Điểm</td>
+<td><b>rural</b><br><span class="small">nông thôn</span></td>
+<td class="small"><i class="ph-duotone ph-tree-palm"></i>Phosphor: TreePalm</td>
+<td class="to"><span class="big">🌾</span></td>
+<td class="small">Phosphor là cây dừa; 🌾 đúng hơn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="102" data-type="emoji" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Miêu Tả Địa Điểm</td>
+<td><b>suburb</b><br><span class="small">vùng ngoại ô</span></td>
+<td class="small"><i class="ph-duotone ph-building-office"></i>Phosphor: BuildingOffice</td>
+<td class="to"><span class="big">🏘️</span></td>
+<td class="small">Phosphor là tòa văn phòng; 🏘️ đúng hơn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="103" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Ẩm Thực Thế Giới</td>
+<td><b>kebab</b><br><span class="small">thịt nướng xiên</span></td>
+<td class="big">🥙</td>
+<td class="to"><span class="img">Ảnh riêng: a metal skewer with grilled meat and vegetable pieces</span></td>
+<td class="small">🥙 là bánh mì kẹp</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="104" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Ẩm Thực Thế Giới</td>
+<td><b>wok</b><br><span class="small">chảo wok</span></td>
+<td class="big">🍳</td>
+<td class="to"><span class="img">Ảnh riêng: a round black wok with one handle</span></td>
+<td class="small">🍳 là chảo trứng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="105" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Ẩm Thực Thế Giới</td>
+<td><b>ferment</b><br><span class="small">lên men</span></td>
+<td class="small"><i class="ph-duotone ph-bowl-steam"></i>Phosphor: BowlSteam</td>
+<td class="to"><span class="img">Ảnh riêng: a glass jar of pickled vegetables with small bubbles rising inside</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="106" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Tình Bạn &amp; Các Mối Quan Hệ</td>
+<td><b>forgive</b><br><span class="small">tha thứ</span></td>
+<td class="small"><i class="ph-duotone ph-heart-break"></i>Phosphor: HeartBreak</td>
+<td class="to"><span class="img">Ảnh riêng: two children hugging with a small mended heart above them</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="107" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Khoa Học Cơ Bản</td>
+<td><b>gravity</b><br><span class="small">trọng lực</span></td>
+<td class="big">🍎</td>
+<td class="to"><span class="img">Ảnh riêng: a red apple falling from a tree branch, with a dotted line below it pointing down</span></td>
+<td class="small">🍎 một mình đọc thành &quot;apple&quot;</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="108" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Khoa Học Cơ Bản</td>
+<td><b>dissolve</b><br><span class="small">hòa tan</span></td>
+<td class="small"><i class="ph-duotone ph-drop"></i>Phosphor: Drop</td>
+<td class="to"><span class="img">Ảnh riêng: a glass of water with sugar cubes melting into it</span></td>
+<td class="small">Phosphor là giọt nước</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="109" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Khoa Học Cơ Bản</td>
+<td><b>molecule</b><br><span class="small">phân tử</span></td>
+<td class="big">🔬</td>
+<td class="to"><span class="img">Ảnh riêng: a molecule model made of colored balls joined by short sticks</span></td>
+<td class="small">🔬 là kính hiển vi</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="110" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Bảo Vệ Môi Trường</td>
+<td><b>deforestation</b><br><span class="small">nạn phá rừng</span></td>
+<td class="small"><i class="ph-duotone ph-tree-evergreen"></i>Phosphor: TreeEvergreen</td>
+<td class="to"><span class="img">Ảnh riêng: several cut tree stumps with an axe beside them and a few standing trees behind</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="111" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Bảo Vệ Môi Trường</td>
+<td><b>organic</b><br><span class="small">hữu cơ</span></td>
+<td class="small"><i class="ph-duotone ph-globe-simple"></i>Phosphor: GlobeSimple</td>
+<td class="to"><span class="img">Ảnh riêng: a basket of fresh vegetables with a green leaf-shaped label</span></td>
+<td class="small">Andie: tạo ảnh mới (Explorer, Ranger dùng chung vì cùng nghĩa)</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="112" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Bảo Vệ Môi Trường</td>
+<td><b>compost</b><br><span class="small">phân hữu cơ / ủ phân</span></td>
+<td class="big">🪣</td>
+<td class="to"><span class="img">Ảnh riêng: a pile of compost with vegetable scraps and soil</span></td>
+<td class="small">🪣 là cái xô</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="113" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Bảo Vệ Môi Trường</td>
+<td><b>wildlife</b><br><span class="small">động thực vật hoang dã</span></td>
+<td class="small"><i class="ph-duotone ph-tree-evergreen"></i>Phosphor: TreeEvergreen</td>
+<td class="to"><span class="img">Ảnh riêng: a lion, an elephant and a parrot together among green plants</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="114" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Bảo Vệ Môi Trường</td>
+<td><b>drought</b><br><span class="small">hạn hán</span></td>
+<td class="small"><i class="ph-duotone ph-sun-horizon"></i>Phosphor: SunHorizon</td>
+<td class="to"><span class="img">Ảnh riêng: cracked dry brown ground with one wilted plant</span></td>
+<td class="small">Phosphor là mặt trời mọc</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="115" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Bảo Vệ Môi Trường</td>
+<td><b>ecosystem</b><br><span class="small">hệ sinh thái</span></td>
+<td class="small"><i class="ph-duotone ph-arrows-clockwise"></i>Phosphor: ArrowsClockwise</td>
+<td class="to"><span class="img">Ảnh riêng: a small pond with a fish, a frog, reeds and a dragonfly</span></td>
+<td class="small">Mũi tên xoay vòng không nói lên hệ sinh thái</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="116" data-type="emoji" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Di Chuyển &amp; Phương Tiện</td>
+<td><b>platform</b><br><span class="small">sân ga / ke tàu</span></td>
+<td class="small"><i class="ph-duotone ph-presentation-chart"></i>Phosphor: PresentationChart</td>
+<td class="to"><span class="big">🚉</span></td>
+<td class="small">Phosphor là biểu đồ, sai nghĩa &quot;sân ga&quot;</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="117" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Di Chuyển &amp; Phương Tiện</td>
+<td><b>terminal</b><br><span class="small">nhà ga / sảnh</span></td>
+<td class="big">🏢</td>
+<td class="to"><span class="img">Ảnh riêng: a modern airport terminal building with big glass windows</span></td>
+<td class="small">🏢 là tòa văn phòng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="118" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Di Chuyển &amp; Phương Tiện</td>
+<td><b>baggage claim</b><br><span class="small">khu nhận hành lý</span></td>
+<td class="small"><i class="ph-duotone ph-bag-simple"></i>Phosphor: BagSimple</td>
+<td class="to"><span class="img">Ảnh riêng: a suitcase on a moving conveyor belt</span></td>
+<td class="small">Phosphor là cái túi</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="119" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thời Tiết &amp; Khí Hậu</td>
+<td><b>forecast</b><br><span class="small">dự báo thời tiết</span></td>
+<td class="small"><i class="ph-duotone ph-chart-bar"></i>Phosphor: ChartBar</td>
+<td class="to"><span class="img">Ảnh riêng: a weather map screen showing a sun and a rain cloud symbol</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="120" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thời Tiết &amp; Khí Hậu</td>
+<td><b>hurricane</b><br><span class="small">bão lớn / cuồng phong</span></td>
+<td class="small"><i class="ph-duotone ph-tornado"></i>Phosphor: Tornado</td>
+<td class="to"><span class="img">Ảnh riêng: a huge white spiral storm with a clear eye in the center, over blue ocean, seen from above</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="121" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thời Tiết &amp; Khí Hậu</td>
+<td><b>flood</b><br><span class="small">lũ lụt</span></td>
+<td class="small"><i class="ph-duotone ph-waves"></i>Phosphor: Waves</td>
+<td class="to"><span class="img">Ảnh riêng: a small house with brown flood water up to its windows</span></td>
+<td class="small">Phosphor là sóng nước, không thấy lũ</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="122" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thể Thao &amp; Hoạt Động</td>
+<td><b>tournament</b><br><span class="small">giải đấu</span></td>
+<td class="small"><i class="ph-duotone ph-flag-banner"></i>Phosphor: FlagBanner</td>
+<td class="to"><span class="img">Ảnh riêng: a golden trophy above a simple branching competition bracket made of lines</span></td>
+<td class="small">Andie: tạo ảnh mới (Scholar dùng chung vì cùng nghĩa)</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="123" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thể Thao &amp; Hoạt Động</td>
+<td><b>penalty</b><br><span class="small">quả phạt / hình phạt</span></td>
+<td class="small"><i class="ph-duotone ph-xcircle"></i>Phosphor: XCircle</td>
+<td class="to"><span class="img">Ảnh riêng: a soccer ball on the penalty spot in front of a goal with a goalkeeper</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="124" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thể Thao &amp; Hoạt Động</td>
+<td><b>referee</b><br><span class="small">trọng tài</span></td>
+<td class="big">🟨</td>
+<td class="to"><span class="img">Ảnh riêng: a friendly football referee in a black striped shirt blowing a whistle and holding up a yellow card</span></td>
+<td class="small">🟨 chỉ là ô vuông vàng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="125" data-type="emoji" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thể Thao &amp; Hoạt Động</td>
+<td><b>marathon</b><br><span class="small">chạy marathon</span></td>
+<td class="big">🏅</td>
+<td class="to"><span class="big">🏃</span></td>
+<td class="small">🏅 là huy chương</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="126" data-type="reuse" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Lễ Hội &amp; Phong Tục</td>
+<td><b>parade</b><br><span class="small">cuộc diễu hành</span></td>
+<td class="big">🎉</td>
+<td class="to"><img class="thumb" src="../../public/icons/words/parade.webp" alt=""><span class="small">Ảnh đã có</span></td>
+<td class="small">Đã có ảnh diễu hành; 🎉 là tiệc</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="127" data-type="reuse" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Lễ Hội &amp; Phong Tục</td>
+<td><b>costume</b><br><span class="small">trang phục / hóa trang</span></td>
+<td class="big">👘</td>
+<td class="to"><img class="thumb" src="../../public/icons/words/costume.webp" alt=""><span class="small">Ảnh đã có</span></td>
+<td class="small">Đã có ảnh trang phục; 👘 là kimono</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="128" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Lễ Hội &amp; Phong Tục</td>
+<td><b>decorate</b><br><span class="small">trang trí</span></td>
+<td class="small"><i class="ph-duotone ph-swatches"></i>Phosphor: Swatches</td>
+<td class="to"><span class="img">Ảnh riêng: a friendly child hanging a colorful paper garland on a wall</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="129" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Lễ Hội &amp; Phong Tục</td>
+<td><b>carol</b><br><span class="small">bài hát Giáng Sinh</span></td>
+<td class="big">🎵</td>
+<td class="to"><span class="img">Ảnh riêng: two friendly children singing from songbooks in the snow</span></td>
+<td class="small">🎵 trùng nốt nhạc chung</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="130" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Nhà Cửa &amp; Sinh Hoạt</td>
+<td><b>curtain</b><br><span class="small">rèm cửa</span></td>
+<td class="big">🪟</td>
+<td class="to"><span class="img">Ảnh riêng: a window with curtains pulled to both sides</span></td>
+<td class="small">🪟 chỉ là cửa sổ</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="131" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Nhà Cửa &amp; Sinh Hoạt</td>
+<td><b>balcony</b><br><span class="small">ban công</span></td>
+<td class="small"><i class="ph-duotone ph-building-apartment"></i>Phosphor: BuildingApartment</td>
+<td class="to"><span class="img">Ảnh riêng: a small balcony with a railing on the side of a building</span></td>
+<td class="small">Phosphor là cả tòa chung cư</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="132" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Nhà Cửa &amp; Sinh Hoạt</td>
+<td><b>basement</b><br><span class="small">tầng hầm</span></td>
+<td class="big">🪜</td>
+<td class="to"><span class="img">Ảnh riêng: cross-section of a small house with a lit room below the ground</span></td>
+<td class="small">🪜 là cái thang</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="133" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Nhà Cửa &amp; Sinh Hoạt</td>
+<td><b>doorbell</b><br><span class="small">chuông cửa</span></td>
+<td class="big">🚪</td>
+<td class="to"><span class="img">Ảnh riêng: a round doorbell button on a wall beside a door frame</span></td>
+<td class="small">🚪 là cánh cửa</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="134" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Nhà Cửa &amp; Sinh Hoạt</td>
+<td><b>pipe</b><br><span class="small">ống nước</span></td>
+<td class="big">🔩</td>
+<td class="to"><span class="img">Ảnh riêng: a metal water pipe with a bend and a tap</span></td>
+<td class="small">🔩 là con ốc</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="135" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Kỹ Năng Học Tập</td>
+<td><b>highlight</b><br><span class="small">tô màu / đánh dấu</span></td>
+<td class="big">🖊️</td>
+<td class="to"><span class="img">Ảnh riêng: a yellow highlighter pen marking a line on a sheet of paper</span></td>
+<td class="small">🖊️ là bút bi</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="136" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Kỹ Năng Học Tập</td>
+<td><b>distraction</b><br><span class="small">sự phân tâm</span></td>
+<td class="small"><i class="ph-duotone ph-bell-slash"></i>Phosphor: BellSlash</td>
+<td class="to"><span class="img">Ảnh riêng: a child at a desk with an open book, looking away at a buzzing phone</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="137" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Kỹ Năng Học Tập</td>
+<td><b>flashcard</b><br><span class="small">thẻ ghi nhớ</span></td>
+<td class="big">🃏</td>
+<td class="to"><span class="img">Ảnh riêng: a small stack of blank study cards</span></td>
+<td class="small">🃏 là lá joker</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="138" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thế Giới Động Vật</td>
+<td><b>reptile</b><br><span class="small">bò sát</span></td>
+<td class="small"><i class="ph-duotone ph-bug-beetle"></i>Phosphor: BugBeetle</td>
+<td class="to"><span class="img">Ảnh riêng: a lizard, a snake and a turtle together</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="139" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thế Giới Động Vật</td>
+<td><b>claw</b><br><span class="small">móng vuốt</span></td>
+<td class="big">🐾</td>
+<td class="to"><span class="img">Ảnh riêng: one sharp curved animal claw on a furry paw</span></td>
+<td class="small">🐾 là dấu chân</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="140" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thế Giới Động Vật</td>
+<td><b>hibernate</b><br><span class="small">ngủ đông</span></td>
+<td class="big">🐻</td>
+<td class="to"><span class="img">Ảnh riêng: a brown bear sleeping curled up inside a cave</span></td>
+<td class="small">🐻 chỉ là con gấu</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="141" data-type="emoji" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thế Giới Động Vật</td>
+<td><b>nest</b><br><span class="small">tổ (chim / côn trùng)</span></td>
+<td class="big">🐣</td>
+<td class="to"><span class="big">🪺</span></td>
+<td class="small">🐣 là gà con; 🪺 đúng là tổ chim</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="142" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thế Giới Động Vật</td>
+<td><b>camouflage</b><br><span class="small">ngụy trang</span></td>
+<td class="small"><i class="ph-duotone ph-binoculars"></i>Phosphor: Binoculars</td>
+<td class="to"><span class="img">Ảnh riêng: a green chameleon blending in on a green leaf</span></td>
+<td class="small">Phosphor là ống nhòm</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="143" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thế Giới Động Vật</td>
+<td><b>wild</b><br><span class="small">hoang dã</span></td>
+<td class="small"><i class="ph-duotone ph-campfire"></i>Phosphor: Campfire</td>
+<td class="to"><span class="img">Ảnh riêng: a wolf howling among forest trees</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="144" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thành Phố &amp; Cộng Đồng</td>
+<td><b>traffic</b><br><span class="small">giao thông</span></td>
+<td class="big">🚗</td>
+<td class="to"><span class="img">Ảnh riêng: many cars on a busy road stopped at a traffic light</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="145" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thành Phố &amp; Cộng Đồng</td>
+<td><b>crosswalk</b><br><span class="small">vạch qua đường</span></td>
+<td class="big">🦓</td>
+<td class="to"><span class="img">Ảnh riêng: a road with white zebra crossing stripes</span></td>
+<td class="small">🦓 là con ngựa vằn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="146" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thành Phố &amp; Cộng Đồng</td>
+<td><b>sidewalk</b><br><span class="small">vỉa hè</span></td>
+<td class="small"><i class="ph-duotone ph-footprints"></i>Phosphor: Footprints</td>
+<td class="to"><span class="img">Ảnh riêng: a paved sidewalk running beside a road</span></td>
+<td class="small">Phosphor là dấu chân</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="147" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thành Phố &amp; Cộng Đồng</td>
+<td><b>mayor</b><br><span class="small">thị trưởng</span></td>
+<td class="big">🎙️</td>
+<td class="to"><span class="img">Ảnh riêng: a friendly mayor in a suit wearing a gold chain of office</span></td>
+<td class="small">🎙️ là micro</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="148" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thành Phố &amp; Cộng Đồng</td>
+<td><b>protest</b><br><span class="small">phản đối / biểu tình</span></td>
+<td class="small"><i class="ph-duotone ph-flag"></i>Phosphor: Flag</td>
+<td class="to"><span class="img">Ảnh riêng: a crowd of people raising fists and holding blank signs</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="149" data-type="emoji" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thủ Công &amp; Sáng Tạo</td>
+<td><b>thread</b><br><span class="small">sợi chỉ</span></td>
+<td class="small"><i class="ph-duotone ph-swatches"></i>Phosphor: Swatches</td>
+<td class="to"><span class="big">🧵</span></td>
+<td class="small">Phosphor là mẫu màu; 🧵 đúng hơn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="150" data-type="reuse" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thủ Công &amp; Sáng Tạo</td>
+<td><b>clay</b><br><span class="small">đất sét</span></td>
+<td class="big">🏺</td>
+<td class="to"><img class="thumb" src="../../public/icons/words/clay.webp" alt=""><span class="small">Ảnh đã có</span></td>
+<td class="small">Đã có ảnh đất sét; 🏺 là cái bình</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="151" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thủ Công &amp; Sáng Tạo</td>
+<td><b>weave</b><br><span class="small">đan / dệt</span></td>
+<td class="small"><i class="ph-duotone ph-grid-four"></i>Phosphor: GridFour</td>
+<td class="to"><span class="img">Ảnh riêng: a wooden loom with colorful woven cloth</span></td>
+<td class="small">Phosphor là ô lưới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="152" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thủ Công &amp; Sáng Tạo</td>
+<td><b>mold</b><br><span class="small">nặn / đúc khuôn</span></td>
+<td class="small"><i class="ph-duotone ph-gear-six"></i>Phosphor: GearSix</td>
+<td class="to"><span class="img">Ảnh riêng: clay being pressed into a star-shaped mold</span></td>
+<td class="small">Phosphor là bánh răng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="153" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thủ Công &amp; Sáng Tạo</td>
+<td><b>pattern</b><br><span class="small">họa tiết / hoa văn</span></td>
+<td class="big">🔲</td>
+<td class="to"><span class="img">Ảnh riêng: a piece of cloth with a repeating pattern of dots and stars</span></td>
+<td class="small">🔲 là ô vuông</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="154" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thủ Công &amp; Sáng Tạo</td>
+<td><b>fold</b><br><span class="small">gấp</span></td>
+<td class="big">📄</td>
+<td class="to"><span class="img">Ảnh riêng: a sheet of paper with one corner being folded over</span></td>
+<td class="small">📄 là tờ giấy phẳng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="155" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thủ Công &amp; Sáng Tạo</td>
+<td><b>origami</b><br><span class="small">nghệ thuật gấp giấy</span></td>
+<td class="big">🦢</td>
+<td class="to"><span class="img">Ảnh riêng: a folded paper crane</span></td>
+<td class="small">🦢 là con thiên nga thật</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="156" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thủ Công &amp; Sáng Tạo</td>
+<td><b>dye</b><br><span class="small">nhuộm / thuốc nhuộm</span></td>
+<td class="big">🟣</td>
+<td class="to"><span class="img">Ảnh riêng: a white cloth dipped into a bowl of purple dye</span></td>
+<td class="small">🟣 là chấm tròn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="157" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Sách &amp; Câu Chuyện</td>
+<td><b>character</b><br><span class="small">nhân vật</span></td>
+<td class="small"><i class="ph-duotone ph-detective"></i>Phosphor: Detective</td>
+<td class="to"><span class="img">Ảnh riêng: a storybook wizard standing on an open book</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="158" data-type="emoji" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Cảm Xúc &amp; Tình Cảm</td>
+<td><b>tense</b><br><span class="small">căng thẳng</span></td>
+<td class="small"><i class="ph-duotone ph-warning"></i>Phosphor: Warning</td>
+<td class="to"><span class="big">😰</span></td>
+<td class="small">Phosphor là biển cảnh báo; 😰 rõ cảm xúc</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="159" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Cảm Xúc &amp; Tình Cảm</td>
+<td><b>mood</b><br><span class="small">tâm trạng</span></td>
+<td class="small"><i class="ph-duotone ph-chat-circle"></i>Phosphor: ChatCircle</td>
+<td class="to"><span class="img">Ảnh riêng: three round faces in a row: one happy, one sad, one angry</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="160" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thiên Nhiên &amp; Địa Lý</td>
+<td><b>peninsula</b><br><span class="small">bán đảo</span></td>
+<td class="small"><i class="ph-duotone ph-island"></i>Phosphor: Island</td>
+<td class="to"><span class="img">Ảnh riêng: a strip of green land sticking out into blue sea, water on three sides, seen from above</span></td>
+<td class="small">Phosphor là hòn đảo, khác bán đảo</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="161" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thiên Nhiên &amp; Địa Lý</td>
+<td><b>valley</b><br><span class="small">thung lũng</span></td>
+<td class="big">🌄</td>
+<td class="to"><span class="img">Ảnh riêng: a green valley with a river between two mountains</span></td>
+<td class="small">🌄 là mặt trời mọc sau núi</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="162" data-type="reuse" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thiên Nhiên &amp; Địa Lý</td>
+<td><b>cliff</b><br><span class="small">vách đá</span></td>
+<td class="big">🪨</td>
+<td class="to"><img class="thumb" src="../../public/icons/words/cliff.webp" alt=""><span class="small">Ảnh đã có</span></td>
+<td class="small">Đã có ảnh vách đá, chỉ cần nối</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="163" data-type="reuse" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thiên Nhiên &amp; Địa Lý</td>
+<td><b>waterfall</b><br><span class="small">thác nước</span></td>
+<td class="big">💦</td>
+<td class="to"><img class="thumb" src="../../public/icons/words/waterfall.webp" alt=""><span class="small">Ảnh đã có</span></td>
+<td class="small">Đã có ảnh thác nước; 💦 là giọt nước</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="164" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thiên Nhiên &amp; Địa Lý</td>
+<td><b>glacier</b><br><span class="small">sông băng</span></td>
+<td class="small"><i class="ph-duotone ph-snowflake"></i>Phosphor: Snowflake</td>
+<td class="to"><span class="img">Ảnh riêng: a huge river of blue-white ice flowing between two mountains</span></td>
+<td class="small">Phosphor là bông tuyết</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="165" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thiên Nhiên &amp; Địa Lý</td>
+<td><b>earthquake</b><br><span class="small">động đất</span></td>
+<td class="small"><i class="ph-duotone ph-warning"></i>Phosphor: Warning</td>
+<td class="to"><span class="img">Ảnh riêng: cracked ground with a tilted small building</span></td>
+<td class="small">Phosphor là biển cảnh báo, 🌍 là trái đất</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="166" data-type="img" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thiên Nhiên &amp; Địa Lý</td>
+<td><b>rainforest</b><br><span class="small">rừng nhiệt đới</span></td>
+<td class="small"><i class="ph-duotone ph-cloud-rain"></i>Phosphor: CloudRain</td>
+<td class="to"><span class="img">Ảnh riêng: a dense green tropical forest with tall trees, hanging vines and a parrot</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="167" data-type="reuse" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Thiên Nhiên &amp; Địa Lý</td>
+<td><b>canyon</b><br><span class="small">hẻm núi / vực sâu</span></td>
+<td class="big">🗺️</td>
+<td class="to"><img class="thumb" src="../../public/icons/words/canyon.webp" alt=""><span class="small">Ảnh đã có</span></td>
+<td class="small">Đã có ảnh hẻm núi; 🗺️ là bản đồ</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="168" data-type="emoji" data-level="ranger">
+<td><input type="checkbox" class="ok" checked></td><td class="small">ranger<br>Mạng Xã Hội Cơ Bản</td>
+<td><b>profile</b><br><span class="small">hồ sơ cá nhân</span></td>
+<td class="big">📛</td>
+<td class="to"><span class="big">👤</span></td>
+<td class="small">📛 là bảng tên, nhìn như ngọn lửa</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="169" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Truyền Thông &amp; Báo Chí</td>
+<td><b>propaganda</b><br><span class="small">tuyên truyền</span></td>
+<td class="small"><i class="ph-duotone ph-warning"></i>Phosphor: Warning</td>
+<td class="to"><span class="img">Ảnh riêng: a big loudspeaker on a pole beside a bold poster showing a raised fist</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="170" data-type="emoji" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Tâm Lý &amp; Tư Duy</td>
+<td><b>anxiety</b><br><span class="small">lo âu</span></td>
+<td class="small"><i class="ph-duotone ph-warning"></i>Phosphor: Warning</td>
+<td class="to"><span class="big">😰</span></td>
+<td class="small">Phosphor là biển cảnh báo; 😰 rõ cảm xúc</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="171" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Chính Trị &amp; Xã Hội</td>
+<td><b>democracy</b><br><span class="small">dân chủ</span></td>
+<td class="small"><i class="ph-duotone ph-users-three"></i>Phosphor: UsersThree</td>
+<td class="to"><span class="img">Ảnh riêng: a hand putting a paper vote into a ballot box</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="172" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Chính Sách Môi Trường</td>
+<td><b>biodiversity</b><br><span class="small">đa dạng sinh học</span></td>
+<td class="small"><i class="ph-duotone ph-circles-three-plus"></i>Phosphor: CirclesThreePlus</td>
+<td class="to"><span class="img">Ảnh riêng: a butterfly, a frog, a flower and a small bird together</span></td>
+<td class="small">Phosphor là mấy vòng tròn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="173" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Chính Sách Môi Trường</td>
+<td><b>landfill</b><br><span class="small">bãi chôn lấp rác</span></td>
+<td class="big">🗑️</td>
+<td class="to"><span class="img">Ảnh riêng: a big pile of rubbish with a small bulldozer</span></td>
+<td class="small">🗑️ là thùng rác</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="174" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Y Tế &amp; Sức Khỏe</td>
+<td><b>surgery</b><br><span class="small">phẫu thuật</span></td>
+<td class="small"><i class="ph-duotone ph-syringe"></i>Phosphor: Syringe</td>
+<td class="to"><span class="img">Ảnh riêng: a friendly surgeon in green scrubs and mask holding surgical tools</span></td>
+<td class="small">Phosphor là ống tiêm, 🔪 là con dao</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="175" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Y Tế &amp; Sức Khỏe</td>
+<td><b>prescription</b><br><span class="small">đơn thuốc</span></td>
+<td class="small"><i class="ph-duotone ph-first-aid"></i>Phosphor: FirstAid</td>
+<td class="to"><span class="img">Ảnh riêng: a doctor's prescription paper next to a small pill bottle</span></td>
+<td class="small">Phosphor là hộp cứu thương</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="176" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Y Tế &amp; Sức Khỏe</td>
+<td><b>nutrition</b><br><span class="small">dinh dưỡng</span></td>
+<td class="small"><i class="ph-duotone ph-nut"></i>Phosphor: Nut</td>
+<td class="to"><span class="img">Ảnh riêng: a plate with a balanced meal of vegetables, fruit, fish and rice</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="177" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Nghệ Thuật &amp; Văn Hóa</td>
+<td><b>heritage</b><br><span class="small">di sản văn hóa</span></td>
+<td class="small"><i class="ph-duotone ph-book-open"></i>Phosphor: BookOpen</td>
+<td class="to"><span class="img">Ảnh riêng: an old temple gate beside an ancient clay vase</span></td>
+<td class="small">Andie: tạo ảnh mới (Explorer dùng chung vì cùng nghĩa)</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="178" data-type="emoji" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Nghệ Thuật &amp; Văn Hóa</td>
+<td><b>sculpture</b><br><span class="small">điêu khắc</span></td>
+<td class="small"><i class="ph-duotone ph-cube"></i>Phosphor: Cube</td>
+<td class="to"><span class="big">🗿</span></td>
+<td class="small">Phosphor là khối hộp; 🗿 đúng hơn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="179" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Nghệ Thuật &amp; Văn Hóa</td>
+<td><b>curator</b><br><span class="small">người quản lý triển lãm</span></td>
+<td class="small"><i class="ph-duotone ph-folder-open"></i>Phosphor: FolderOpen</td>
+<td class="to"><span class="img">Ảnh riêng: a friendly person in smart clothes holding a clipboard beside a framed painting</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="180" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Nghệ Thuật &amp; Văn Hóa</td>
+<td><b>exhibition</b><br><span class="small">cuộc triển lãm</span></td>
+<td class="small"><i class="ph-duotone ph-star"></i>Phosphor: Star</td>
+<td class="to"><span class="img">Ảnh riêng: two visitors looking at a framed painting and a statue on a stand</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="181" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Nghệ Thuật &amp; Văn Hóa</td>
+<td><b>portrait</b><br><span class="small">chân dung</span></td>
+<td class="small"><i class="ph-duotone ph-camera"></i>Phosphor: Camera</td>
+<td class="to"><span class="img">Ảnh riêng: a painted portrait of a friendly person in a golden frame</span></td>
+<td class="small">Phosphor là máy ảnh</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="182" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Nghệ Thuật &amp; Văn Hóa</td>
+<td><b>abstract</b><br><span class="small">trừu tượng</span></td>
+<td class="small"><i class="ph-duotone ph-file-text"></i>Phosphor: FileText</td>
+<td class="to"><span class="img">Ảnh riêng: an abstract painting of bold shapes and colors on a canvas</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="183" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Kinh Doanh &amp; Quản Lý</td>
+<td><b>forecast</b><br><span class="small">dự báo</span></td>
+<td class="small"><i class="ph-duotone ph-chart-bar"></i>Phosphor: ChartBar</td>
+<td class="to"><span class="img">Ảnh riêng: a line chart with a solid rising line that continues as a dotted line</span></td>
+<td class="small">Andie: tạo ảnh mới; nghĩa kinh doanh nên tách ảnh riêng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="184" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Phát Triển Đô Thị</td>
+<td><b>architecture</b><br><span class="small">kiến trúc</span></td>
+<td class="small"><i class="ph-duotone ph-tree"></i>Phosphor: Tree</td>
+<td class="to"><span class="img">Ảnh riêng: a grand building front with columns beside a drawing compass and a ruler</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="185" data-type="emoji" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Phát Triển Đô Thị</td>
+<td><b>municipality</b><br><span class="small">chính quyền đô thị</span></td>
+<td class="small"><i class="ph-duotone ph-globe"></i>Phosphor: Globe</td>
+<td class="to"><span class="big">🌆</span></td>
+<td class="small">Phosphor là quả địa cầu; 🌆 đúng hơn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="186" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Phát Triển Đô Thị</td>
+<td><b>congestion</b><br><span class="small">tắc nghẽn giao thông</span></td>
+<td class="big">🚗</td>
+<td class="to"><span class="img">Ảnh riêng: many cars stuck bumper to bumper in a traffic jam</span></td>
+<td class="small">🚗 chỉ là một chiếc xe</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="187" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Phát Triển Đô Thị</td>
+<td><b>urban sprawl</b><br><span class="small">mở rộng đô thị ra ngoại ô</span></td>
+<td class="small"><i class="ph-duotone ph-map-trifold"></i>Phosphor: MapTrifold</td>
+<td class="to"><span class="img">Ảnh riêng: a small city center with houses spreading out over green land in every direction, seen from above</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="188" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Vấn Đề Toàn Cầu</td>
+<td><b>poverty</b><br><span class="small">nghèo đói</span></td>
+<td class="small"><i class="ph-duotone ph-coins"></i>Phosphor: Coins</td>
+<td class="to"><span class="img">Ảnh riêng: an empty open brown wallet</span></td>
+<td class="small">Phosphor là đồng xu, ngược nghĩa nghèo</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="189" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Vũ Trụ &amp; Không Gian</td>
+<td><b>galaxy</b><br><span class="small">thiên hà</span></td>
+<td class="small"><i class="ph-duotone ph-planet"></i>Phosphor: Planet</td>
+<td class="to"><span class="img">Ảnh riêng: a bright spiral galaxy of stars and glowing purple-blue dust</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="190" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Vũ Trụ &amp; Không Gian</td>
+<td><b>orbit</b><br><span class="small">quỹ đạo</span></td>
+<td class="small"><i class="ph-duotone ph-arrows-clockwise"></i>Phosphor: ArrowsClockwise</td>
+<td class="to"><span class="img">Ảnh riêng: a small planet moving around a bright star along a dotted ring</span></td>
+<td class="small">Phosphor là mũi tên xoay vòng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="191" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Vũ Trụ &amp; Không Gian</td>
+<td><b>asteroid</b><br><span class="small">tiểu hành tinh</span></td>
+<td class="big">🪨</td>
+<td class="to"><span class="img">Ảnh riêng: a rough grey rocky asteroid in space</span></td>
+<td class="small">🪨 là hòn đá</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="192" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Vũ Trụ &amp; Không Gian</td>
+<td><b>gravity</b><br><span class="small">trọng lực</span></td>
+<td class="big">🍎</td>
+<td class="to"><span class="img">Ảnh riêng: a red apple falling from a tree branch, with a dotted line below it pointing down</span></td>
+<td class="small">🍎 một mình đọc thành &quot;apple&quot;</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="193" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Vũ Trụ &amp; Không Gian</td>
+<td><b>atmosphere</b><br><span class="small">bầu khí quyển</span></td>
+<td class="big">🌫️</td>
+<td class="to"><span class="img">Ảnh riêng: planet Earth with a thin glowing blue layer around it</span></td>
+<td class="small">🌫️ là sương mù</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="194" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Vũ Trụ &amp; Không Gian</td>
+<td><b>black hole</b><br><span class="small">hố đen</span></td>
+<td class="big">⚫</td>
+<td class="to"><span class="img">Ảnh riêng: a black circle in space with a glowing orange ring swirling around it</span></td>
+<td class="small">⚫ chỉ là chấm đen</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="195" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Vũ Trụ &amp; Không Gian</td>
+<td><b>constellation</b><br><span class="small">chòm sao</span></td>
+<td class="small"><i class="ph-duotone ph-star"></i>Phosphor: Star</td>
+<td class="to"><span class="img">Ảnh riêng: several bright stars joined by thin lines into a shape</span></td>
+<td class="small">Phosphor là một ngôi sao</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="196" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Vũ Trụ &amp; Không Gian</td>
+<td><b>nebula</b><br><span class="small">tinh vân</span></td>
+<td class="small"><i class="ph-duotone ph-sparkle"></i>Phosphor: Sparkle</td>
+<td class="to"><span class="img">Ảnh riêng: a colorful glowing cloud of gas with small stars</span></td>
+<td class="small">Phosphor là lấp lánh, 🌈 là cầu vồng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="197" data-type="emoji" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Quyền Con Người</td>
+<td><b>justice</b><br><span class="small">công lý</span></td>
+<td class="small"><i class="ph-duotone ph-shield"></i>Phosphor: Shield</td>
+<td class="to"><span class="big">⚖️</span></td>
+<td class="small">Phosphor là cái khiên</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="198" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Thể Thao &amp; Thành Tích</td>
+<td><b>tournament</b><br><span class="small">giải đấu</span></td>
+<td class="small"><i class="ph-duotone ph-flag-banner"></i>Phosphor: FlagBanner</td>
+<td class="to"><span class="img">Ảnh riêng: a golden trophy above a simple branching competition bracket made of lines</span></td>
+<td class="small">Andie: tạo ảnh mới (Scholar dùng chung vì cùng nghĩa)</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="199" data-type="emoji" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Thể Thao &amp; Thành Tích</td>
+<td><b>athlete</b><br><span class="small">vận động viên</span></td>
+<td class="small"><i class="ph-duotone ph-barbell"></i>Phosphor: Barbell</td>
+<td class="to"><span class="big">🏋️</span></td>
+<td class="small">Phosphor là tạ; 🏋️ rõ người tập</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="200" data-type="emoji" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Lịch Sử &amp; Văn Minh</td>
+<td><b>artifact</b><br><span class="small">hiện vật lịch sử</span></td>
+<td class="small"><i class="ph-duotone ph-hourglass-medium"></i>Phosphor: HourglassMedium</td>
+<td class="to"><span class="big">🏺</span></td>
+<td class="small">Phosphor là đồng hồ cát; 🏺 đúng hơn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="201" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Sự Nghiệp &amp; Nơi Làm Việc</td>
+<td><b>resume</b><br><span class="small">hồ sơ xin việc</span></td>
+<td class="small"><i class="ph-duotone ph-identification-card"></i>Phosphor: IdentificationCard</td>
+<td class="to"><span class="img">Ảnh riêng: one sheet of paper with a small portrait photo at the top and plain lines below</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="202" data-type="emoji" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Tài Chính Cá Nhân</td>
+<td><b>loan</b><br><span class="small">khoản vay</span></td>
+<td class="small"><i class="ph-duotone ph-chart-bar"></i>Phosphor: ChartBar</td>
+<td class="to"><span class="big">💰</span></td>
+<td class="small">Phosphor là biểu đồ; 💰 đúng hơn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="203" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Tội Phạm &amp; Xã Hội</td>
+<td><b>arrest</b><br><span class="small">bắt giữ</span></td>
+<td class="small"><i class="ph-duotone ph-barricade"></i>Phosphor: Barricade</td>
+<td class="to"><span class="img">Ảnh riêng: a police officer putting handcuffs on a person beside a police car</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="204" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Gia Đình &amp; Mối Quan Hệ</td>
+<td><b>generation</b><br><span class="small">thế hệ</span></td>
+<td class="big">👴👶</td>
+<td class="to"><span class="img">Ảnh riêng: a friendly grandparent, parent and child standing together</span></td>
+<td class="small">👴👶 là 2 emoji, dễ vỡ khung</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="205" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Gia Đình &amp; Mối Quan Hệ</td>
+<td><b>tradition</b><br><span class="small">truyền thống</span></td>
+<td class="small"><i class="ph-duotone ph-crown-simple"></i>Phosphor: CrownSimple</td>
+<td class="to"><span class="img">Ảnh riêng: a family in traditional clothes lighting a red paper lantern together</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="206" data-type="img" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Sức Khỏe &amp; Lối Sống</td>
+<td><b>posture</b><br><span class="small">tư thế</span></td>
+<td class="big">🧍</td>
+<td class="to"><span class="img">Ảnh riêng: side view of a child sitting up straight on a chair</span></td>
+<td class="small">🧍 là người đứng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="207" data-type="emoji" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Nghệ Thuật &amp; Giải Trí</td>
+<td><b>theatre</b><br><span class="small">nhà hát</span></td>
+<td class="small"><i class="ph-duotone ph-building-office"></i>Phosphor: BuildingOffice</td>
+<td class="to"><span class="big">🎭</span></td>
+<td class="small">Phosphor là tòa văn phòng, 🎪 là rạp xiếc</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="208" data-type="reuse" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Nghệ Thuật &amp; Giải Trí</td>
+<td><b>concert</b><br><span class="small">buổi hòa nhạc</span></td>
+<td class="small"><i class="ph-duotone ph-microphone-stage"></i>Phosphor: MicrophoneStage</td>
+<td class="to"><img class="thumb" src="../../public/icons/words/concert.webp" alt=""><span class="small">Ảnh đã có</span></td>
+<td class="small">Đã có ảnh hòa nhạc; đang hiện micro</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="209" data-type="emoji" data-level="scholar">
+<td><input type="checkbox" class="ok" checked></td><td class="small">scholar<br>Nghệ Thuật &amp; Giải Trí</td>
+<td><b>spectacle</b><br><span class="small">cảnh tượng hoành tráng</span></td>
+<td class="big">🎭</td>
+<td class="to"><span class="big">🎆</span></td>
+<td class="small">Nhường 🎭 cho theatre cùng chủ đề</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="210" data-type="img" data-level="master">
+<td><input type="checkbox" class="ok" checked></td><td class="small">master<br>Kỹ Năng Học Thuật</td>
+<td><b>abstract</b><br><span class="small">tóm tắt (bài nghiên cứu)</span></td>
+<td class="small"><i class="ph-duotone ph-file-text"></i>Phosphor: FileText</td>
+<td class="to"><span class="img">Ảnh riêng: a research paper with one short paragraph highlighted in a box at the top and plain lines below</span></td>
+<td class="small">Andie: tạo ảnh mới; nghĩa &quot;tóm tắt&quot; nên tách ảnh riêng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="211" data-type="img" data-level="master">
+<td><input type="checkbox" class="ok" checked></td><td class="small">master<br>Pháp Luật &amp; Công Lý</td>
+<td><b>penalty</b><br><span class="small">hình phạt</span></td>
+<td class="small"><i class="ph-duotone ph-xcircle"></i>Phosphor: XCircle</td>
+<td class="to"><span class="img">Ảnh riêng: a judge's wooden gavel beside a paper with a large red stamp</span></td>
+<td class="small">Andie: tạo ảnh mới; nghĩa pháp lý nên tách ảnh riêng</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="212" data-type="img" data-level="master">
+<td><input type="checkbox" class="ok" checked></td><td class="small">master<br>Khoa Học &amp; Nghiên Cứu</td>
+<td><b>molecule</b><br><span class="small">phân tử</span></td>
+<td class="big">⚛️</td>
+<td class="to"><span class="img">Ảnh riêng: a molecule model made of colored balls joined by short sticks</span></td>
+<td class="small">🔬 là kính hiển vi</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="213" data-type="img" data-level="master">
+<td><input type="checkbox" class="ok" checked></td><td class="small">master<br>Thực Phẩm &amp; Nông Nghiệp</td>
+<td><b>irrigation</b><br><span class="small">tưới tiêu</span></td>
+<td class="big">💧</td>
+<td class="to"><span class="img">Ảnh riêng: a sprinkler watering rows of green crops</span></td>
+<td class="small">💧 chỉ là giọt nước</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="214" data-type="img" data-level="master">
+<td><input type="checkbox" class="ok" checked></td><td class="small">master<br>Thực Phẩm &amp; Nông Nghiệp</td>
+<td><b>pesticide</b><br><span class="small">thuốc trừ sâu</span></td>
+<td class="big">🐛</td>
+<td class="to"><span class="img">Ảnh riêng: a spray bottle spraying a green plant with a small crossed-out bug</span></td>
+<td class="small">🐛 là con sâu, ngược nghĩa</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="215" data-type="img" data-level="master">
+<td><input type="checkbox" class="ok" checked></td><td class="small">master<br>Thực Phẩm &amp; Nông Nghiệp</td>
+<td><b>harvest</b><br><span class="small">thu hoạch mùa màng</span></td>
+<td class="big">🌽</td>
+<td class="to"><span class="img">Ảnh riêng: a farmer's basket full of freshly picked corn and wheat</span></td>
+<td class="small">🌽 đọc thành &quot;corn&quot;</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="216" data-type="img" data-level="master">
+<td><input type="checkbox" class="ok" checked></td><td class="small">master<br>Thực Phẩm &amp; Nông Nghiệp</td>
+<td><b>organic</b><br><span class="small">hữu cơ</span></td>
+<td class="small"><i class="ph-duotone ph-globe-simple"></i>Phosphor: GlobeSimple</td>
+<td class="to"><span class="img">Ảnh riêng: a basket of fresh vegetables with a green leaf-shaped label</span></td>
+<td class="small">Andie: tạo ảnh mới (Explorer, Ranger dùng chung vì cùng nghĩa)</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="217" data-type="img" data-level="master">
+<td><input type="checkbox" class="ok" checked></td><td class="small">master<br>Thực Phẩm &amp; Nông Nghiệp</td>
+<td><b>fertilizer</b><br><span class="small">phân bón</span></td>
+<td class="small"><i class="ph-duotone ph-leaf"></i>Phosphor: Leaf</td>
+<td class="to"><span class="img">Ảnh riêng: an open sack of fertilizer granules beside a small plant</span></td>
+<td class="small">Phosphor là chiếc lá</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="218" data-type="img" data-level="master">
+<td><input type="checkbox" class="ok" checked></td><td class="small">master<br>Thực Phẩm &amp; Nông Nghiệp</td>
+<td><b>drought</b><br><span class="small">hạn hán</span></td>
+<td class="small"><i class="ph-duotone ph-sun-horizon"></i>Phosphor: SunHorizon</td>
+<td class="to"><span class="img">Ảnh riêng: cracked dry brown ground with one wilted plant</span></td>
+<td class="small">Phosphor là mặt trời mọc</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="219" data-type="emoji" data-level="master">
+<td><input type="checkbox" class="ok" checked></td><td class="small">master<br>Thực Phẩm &amp; Nông Nghiệp</td>
+<td><b>crop</b><br><span class="small">vụ mùa, cây trồng</span></td>
+<td class="big">🌿</td>
+<td class="to"><span class="big">🌽</span></td>
+<td class="small">🌿 là cây thảo mộc; 🌾 đã dùng cho food security</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="220" data-type="img" data-level="master">
+<td><input type="checkbox" class="ok" checked></td><td class="small">master<br>Quản Trị Môi Trường</td>
+<td><b>biodiversity</b><br><span class="small">đa dạng sinh học</span></td>
+<td class="small"><i class="ph-duotone ph-circles-three-plus"></i>Phosphor: CirclesThreePlus</td>
+<td class="to"><span class="img">Ảnh riêng: a butterfly, a frog, a flower and a small bird together</span></td>
+<td class="small">Phosphor là mấy vòng tròn</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="221" data-type="img" data-level="master">
+<td><input type="checkbox" class="ok" checked></td><td class="small">master<br>Triết Học Chính Trị</td>
+<td><b>democracy</b><br><span class="small">dân chủ</span></td>
+<td class="small"><i class="ph-duotone ph-users-three"></i>Phosphor: UsersThree</td>
+<td class="to"><span class="img">Ảnh riêng: a hand putting a paper vote into a ballot box</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="222" data-type="img" data-level="master">
+<td><input type="checkbox" class="ok" checked></td><td class="small">master<br>Đạo Đức Công Nghệ</td>
+<td><b>platform</b><br><span class="small">nền tảng</span></td>
+<td class="small"><i class="ph-duotone ph-presentation-chart"></i>Phosphor: PresentationChart</td>
+<td class="to"><span class="img">Ảnh riêng: a smartphone screen showing a grid of colorful app squares</span></td>
+<td class="small">Andie: tạo ảnh mới (Explorer dùng chung vì cùng nghĩa)</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="223" data-type="img" data-level="master">
+<td><input type="checkbox" class="ok" checked></td><td class="small">master<br>Năng Lực Truyền Thông</td>
+<td><b>propaganda</b><br><span class="small">tuyên truyền</span></td>
+<td class="small"><i class="ph-duotone ph-warning"></i>Phosphor: Warning</td>
+<td class="to"><span class="img">Ảnh riêng: a big loudspeaker on a pole beside a bold poster showing a raised fist</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="224" data-type="img" data-level="master">
+<td><input type="checkbox" class="ok" checked></td><td class="small">master<br>Đạo Đức Sinh Học</td>
+<td><b>stem cell</b><br><span class="small">tế bào gốc</span></td>
+<td class="small"><i class="ph-duotone ph-brain"></i>Phosphor: Brain</td>
+<td class="to"><span class="img">Ảnh riêng: one round cell in the center with arrows pointing to three different small cells</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="225" data-type="img" data-level="master">
+<td><input type="checkbox" class="ok" checked></td><td class="small">master<br>Đạo Đức Sinh Học</td>
+<td><b>cloning</b><br><span class="small">nhân bản</span></td>
+<td class="big">🧬</td>
+<td class="to"><span class="img">Ảnh riêng: two identical sheep standing side by side</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="226" data-type="img" data-level="master">
+<td><input type="checkbox" class="ok" checked></td><td class="small">master<br>Biến Đổi Xã Hội</td>
+<td><b>protest</b><br><span class="small">biểu tình</span></td>
+<td class="small"><i class="ph-duotone ph-flag"></i>Phosphor: Flag</td>
+<td class="to"><span class="img">Ảnh riêng: a crowd of people raising fists and holding blank signs</span></td>
+<td class="small">Andie: tạo ảnh mới</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="227" data-type="emoji" data-level="master">
+<td><input type="checkbox" class="ok" checked></td><td class="small">master<br>Biến Đổi Xã Hội</td>
+<td><b>justice</b><br><span class="small">công lý</span></td>
+<td class="small"><i class="ph-duotone ph-shield"></i>Phosphor: Shield</td>
+<td class="to"><span class="big">⚖️</span></td>
+<td class="small">Phosphor là cái khiên; 🔨 là cái búa</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr><tr data-i="228" data-type="img" data-level="master">
+<td><input type="checkbox" class="ok" checked></td><td class="small">master<br>Ngôn Ngữ &amp; Quyền Lực</td>
+<td><b>heritage</b><br><span class="small">di sản ngôn ngữ</span></td>
+<td class="small"><i class="ph-duotone ph-book-open"></i>Phosphor: BookOpen</td>
+<td class="to"><span class="img">Ảnh riêng: an old temple gate beside an ancient clay vase</span></td>
+<td class="small">Andie: tạo ảnh mới (Explorer dùng chung vì cùng nghĩa)</td><td><input type="text" class="note" placeholder="vd: dùng 🌳"></td></tr>
+</tbody></table></main>
+<script>
+const NAME="explorer-master",ROWS=[{"level":"explorer","id":"science","word":"photosynthesis"},{"level":"explorer","id":"science","word":"carnivore"},{"level":"explorer","id":"technology","word":"sensor"},{"level":"explorer","id":"technology","word":"circuit"},{"level":"explorer","id":"environment","word":"biodiversity"},{"level":"explorer","id":"environment","word":"ecosystem"},{"level":"explorer","id":"environment","word":"deforestation"},{"level":"explorer","id":"environment","word":"atmosphere"},{"level":"explorer","id":"space","word":"orbit"},{"level":"explorer","id":"space","word":"gravity"},{"level":"explorer","id":"space","word":"asteroid"},{"level":"explorer","id":"space","word":"galaxy"},{"level":"explorer","id":"communication","word":"propaganda"},{"level":"explorer","id":"biology","word":"cell"},{"level":"explorer","id":"biology","word":"muscle"},{"level":"explorer","id":"biology","word":"nerve"},{"level":"explorer","id":"biology","word":"protein"},{"level":"explorer","id":"biology","word":"digest"},{"level":"explorer","id":"biology","word":"oxygen"},{"level":"explorer","id":"history","word":"ancient"},{"level":"explorer","id":"history","word":"civilisation"},{"level":"explorer","id":"economy","word":"poverty"},{"level":"explorer","id":"economy","word":"wage"},{"level":"explorer","id":"literature","word":"character"},{"level":"explorer","id":"literature","word":"poetry"},{"level":"explorer","id":"ai","word":"virtual"},{"level":"explorer","id":"ai","word":"platform"},{"level":"explorer","id":"law-justice","word":"justice"},{"level":"explorer","id":"law-justice","word":"lawyer"},{"level":"explorer","id":"psychology","word":"anxiety"},{"level":"explorer","id":"psychology","word":"stress"},{"level":"explorer","id":"psychology","word":"memory"},{"level":"explorer","id":"medicine","word":"surgery"},{"level":"explorer","id":"medicine","word":"prescription"},{"level":"explorer","id":"geography","word":"peninsula"},{"level":"explorer","id":"geography","word":"plateau"},{"level":"explorer","id":"geography","word":"delta"},{"level":"explorer","id":"geography","word":"equator"},{"level":"explorer","id":"geography","word":"longitude"},{"level":"explorer","id":"geography","word":"latitude"},{"level":"explorer","id":"geography","word":"canyon"},{"level":"explorer","id":"geography","word":"estuary"},{"level":"explorer","id":"geography","word":"tundra"},{"level":"explorer","id":"geography","word":"savanna"},{"level":"explorer","id":"nutrition","word":"nutrition"},{"level":"explorer","id":"nutrition","word":"ingredient"},{"level":"explorer","id":"nutrition","word":"organic"},{"level":"explorer","id":"climate-change","word":"permafrost"},{"level":"explorer","id":"climate-change","word":"iceberg"},{"level":"explorer","id":"climate-change","word":"greenhouse"},{"level":"explorer","id":"climate-change","word":"sea level"},{"level":"explorer","id":"climate-change","word":"glacier"},{"level":"explorer","id":"climate-change","word":"drought"},{"level":"explorer","id":"climate-change","word":"flood"},{"level":"explorer","id":"climate-change","word":"wildfire"},{"level":"explorer","id":"climate-change","word":"heatwave"},{"level":"explorer","id":"digital-life","word":"hacker"},{"level":"explorer","id":"architecture","word":"blueprint"},{"level":"explorer","id":"architecture","word":"foundation"},{"level":"explorer","id":"architecture","word":"column"},{"level":"explorer","id":"architecture","word":"arch"},{"level":"explorer","id":"architecture","word":"dome"},{"level":"explorer","id":"architecture","word":"heritage"},{"level":"explorer","id":"music-performance","word":"melody"},{"level":"explorer","id":"music-performance","word":"conductor"},{"level":"explorer","id":"sports-competition","word":"athlete"},{"level":"explorer","id":"sports-competition","word":"tournament"},{"level":"explorer","id":"sports-competition","word":"rival"},{"level":"explorer","id":"sports-competition","word":"referee"},{"level":"explorer","id":"sports-competition","word":"penalty"},{"level":"explorer","id":"sports-competition","word":"sprint"},{"level":"explorer","id":"global-issues","word":"hunger"},{"level":"explorer","id":"global-issues","word":"democracy"},{"level":"explorer","id":"genetics-evolution","word":"fossil"},{"level":"explorer","id":"genetics-evolution","word":"organism"},{"level":"explorer","id":"art-creativity","word":"canvas"},{"level":"explorer","id":"art-creativity","word":"sculpture"},{"level":"explorer","id":"art-creativity","word":"abstract"},{"level":"explorer","id":"art-creativity","word":"exhibition"},{"level":"explorer","id":"art-creativity","word":"portrait"},{"level":"explorer","id":"art-creativity","word":"gallery"},{"level":"ranger","id":"travel-places","word":"passport"},{"level":"ranger","id":"travel-places","word":"tour guide"},{"level":"ranger","id":"travel-places","word":"visa"},{"level":"ranger","id":"hobbies","word":"knitting"},{"level":"ranger","id":"simple-jobs","word":"librarian"},{"level":"ranger","id":"simple-jobs","word":"mechanic"},{"level":"ranger","id":"simple-jobs","word":"electrician"},{"level":"ranger","id":"simple-jobs","word":"architect"},{"level":"ranger","id":"money-shopping","word":"cashier"},{"level":"ranger","id":"describing-people","word":"curly"},{"level":"ranger","id":"describing-people","word":"anxious"},{"level":"ranger","id":"describing-people","word":"patient"},{"level":"ranger","id":"food-dining","word":"ingredient"},{"level":"ranger","id":"food-dining","word":"buffet"},{"level":"ranger","id":"food-dining","word":"serve"},{"level":"ranger","id":"health-body","word":"prescription"},{"level":"ranger","id":"health-body","word":"nutrition"},{"level":"ranger","id":"countries-cultures","word":"tradition"},{"level":"ranger","id":"countries-cultures","word":"religion"},{"level":"ranger","id":"countries-cultures","word":"border"},{"level":"ranger","id":"describing-places","word":"rural"},{"level":"ranger","id":"describing-places","word":"suburb"},{"level":"ranger","id":"world-food","word":"kebab"},{"level":"ranger","id":"world-food","word":"wok"},{"level":"ranger","id":"world-food","word":"ferment"},{"level":"ranger","id":"friendship-relations","word":"forgive"},{"level":"ranger","id":"simple-science","word":"gravity"},{"level":"ranger","id":"simple-science","word":"dissolve"},{"level":"ranger","id":"simple-science","word":"molecule"},{"level":"ranger","id":"environment-care","word":"deforestation"},{"level":"ranger","id":"environment-care","word":"organic"},{"level":"ranger","id":"environment-care","word":"compost"},{"level":"ranger","id":"environment-care","word":"wildlife"},{"level":"ranger","id":"environment-care","word":"drought"},{"level":"ranger","id":"environment-care","word":"ecosystem"},{"level":"ranger","id":"travel-transport","word":"platform"},{"level":"ranger","id":"travel-transport","word":"terminal"},{"level":"ranger","id":"travel-transport","word":"baggage claim"},{"level":"ranger","id":"weather-climate","word":"forecast"},{"level":"ranger","id":"weather-climate","word":"hurricane"},{"level":"ranger","id":"weather-climate","word":"flood"},{"level":"ranger","id":"sports-activities","word":"tournament"},{"level":"ranger","id":"sports-activities","word":"penalty"},{"level":"ranger","id":"sports-activities","word":"referee"},{"level":"ranger","id":"sports-activities","word":"marathon"},{"level":"ranger","id":"festivals-traditions","word":"parade"},{"level":"ranger","id":"festivals-traditions","word":"costume"},{"level":"ranger","id":"festivals-traditions","word":"decorate"},{"level":"ranger","id":"festivals-traditions","word":"carol"},{"level":"ranger","id":"home-living","word":"curtain"},{"level":"ranger","id":"home-living","word":"balcony"},{"level":"ranger","id":"home-living","word":"basement"},{"level":"ranger","id":"home-living","word":"doorbell"},{"level":"ranger","id":"home-living","word":"pipe"},{"level":"ranger","id":"study-skills","word":"highlight"},{"level":"ranger","id":"study-skills","word":"distraction"},{"level":"ranger","id":"study-skills","word":"flashcard"},{"level":"ranger","id":"animal-world","word":"reptile"},{"level":"ranger","id":"animal-world","word":"claw"},{"level":"ranger","id":"animal-world","word":"hibernate"},{"level":"ranger","id":"animal-world","word":"nest"},{"level":"ranger","id":"animal-world","word":"camouflage"},{"level":"ranger","id":"animal-world","word":"wild"},{"level":"ranger","id":"city-community","word":"traffic"},{"level":"ranger","id":"city-community","word":"crosswalk"},{"level":"ranger","id":"city-community","word":"sidewalk"},{"level":"ranger","id":"city-community","word":"mayor"},{"level":"ranger","id":"city-community","word":"protest"},{"level":"ranger","id":"crafts-making","word":"thread"},{"level":"ranger","id":"crafts-making","word":"clay"},{"level":"ranger","id":"crafts-making","word":"weave"},{"level":"ranger","id":"crafts-making","word":"mold"},{"level":"ranger","id":"crafts-making","word":"pattern"},{"level":"ranger","id":"crafts-making","word":"fold"},{"level":"ranger","id":"crafts-making","word":"origami"},{"level":"ranger","id":"crafts-making","word":"dye"},{"level":"ranger","id":"books-stories","word":"character"},{"level":"ranger","id":"emotions-feelings","word":"tense"},{"level":"ranger","id":"emotions-feelings","word":"mood"},{"level":"ranger","id":"nature-geography","word":"peninsula"},{"level":"ranger","id":"nature-geography","word":"valley"},{"level":"ranger","id":"nature-geography","word":"cliff"},{"level":"ranger","id":"nature-geography","word":"waterfall"},{"level":"ranger","id":"nature-geography","word":"glacier"},{"level":"ranger","id":"nature-geography","word":"earthquake"},{"level":"ranger","id":"nature-geography","word":"rainforest"},{"level":"ranger","id":"nature-geography","word":"canyon"},{"level":"ranger","id":"social-media-basics","word":"profile"},{"level":"scholar","id":"media-journalism","word":"propaganda"},{"level":"scholar","id":"psychology-mind","word":"anxiety"},{"level":"scholar","id":"politics-society","word":"democracy"},{"level":"scholar","id":"environment-policy","word":"biodiversity"},{"level":"scholar","id":"environment-policy","word":"landfill"},{"level":"scholar","id":"health-medicine","word":"surgery"},{"level":"scholar","id":"health-medicine","word":"prescription"},{"level":"scholar","id":"health-medicine","word":"nutrition"},{"level":"scholar","id":"art-culture","word":"heritage"},{"level":"scholar","id":"art-culture","word":"sculpture"},{"level":"scholar","id":"art-culture","word":"curator"},{"level":"scholar","id":"art-culture","word":"exhibition"},{"level":"scholar","id":"art-culture","word":"portrait"},{"level":"scholar","id":"art-culture","word":"abstract"},{"level":"scholar","id":"business-management","word":"forecast"},{"level":"scholar","id":"urban-development","word":"architecture"},{"level":"scholar","id":"urban-development","word":"municipality"},{"level":"scholar","id":"urban-development","word":"congestion"},{"level":"scholar","id":"urban-development","word":"urban sprawl"},{"level":"scholar","id":"global-issues","word":"poverty"},{"level":"scholar","id":"space-universe","word":"galaxy"},{"level":"scholar","id":"space-universe","word":"orbit"},{"level":"scholar","id":"space-universe","word":"asteroid"},{"level":"scholar","id":"space-universe","word":"gravity"},{"level":"scholar","id":"space-universe","word":"atmosphere"},{"level":"scholar","id":"space-universe","word":"black hole"},{"level":"scholar","id":"space-universe","word":"constellation"},{"level":"scholar","id":"space-universe","word":"nebula"},{"level":"scholar","id":"human-rights","word":"justice"},{"level":"scholar","id":"sports-performance","word":"tournament"},{"level":"scholar","id":"sports-performance","word":"athlete"},{"level":"scholar","id":"history-civilization","word":"artifact"},{"level":"scholar","id":"career-workplace","word":"resume"},{"level":"scholar","id":"personal-finance","word":"loan"},{"level":"scholar","id":"crime-society","word":"arrest"},{"level":"scholar","id":"family-relationships","word":"generation"},{"level":"scholar","id":"family-relationships","word":"tradition"},{"level":"scholar","id":"wellbeing-lifestyle","word":"posture"},{"level":"scholar","id":"arts-entertainment","word":"theatre"},{"level":"scholar","id":"arts-entertainment","word":"concert"},{"level":"scholar","id":"arts-entertainment","word":"spectacle"},{"level":"master","id":"academic-skills","word":"abstract"},{"level":"master","id":"law-justice","word":"penalty"},{"level":"master","id":"science-research","word":"molecule"},{"level":"master","id":"food-agriculture","word":"irrigation"},{"level":"master","id":"food-agriculture","word":"pesticide"},{"level":"master","id":"food-agriculture","word":"harvest"},{"level":"master","id":"food-agriculture","word":"organic"},{"level":"master","id":"food-agriculture","word":"fertilizer"},{"level":"master","id":"food-agriculture","word":"drought"},{"level":"master","id":"food-agriculture","word":"crop"},{"level":"master","id":"environmental-governance","word":"biodiversity"},{"level":"master","id":"political-philosophy","word":"democracy"},{"level":"master","id":"technology-ethics","word":"platform"},{"level":"master","id":"media-literacy","word":"propaganda"},{"level":"master","id":"bioethics","word":"stem cell"},{"level":"master","id":"bioethics","word":"cloning"},{"level":"master","id":"social-change","word":"protest"},{"level":"master","id":"social-change","word":"justice"},{"level":"master","id":"language-power","word":"heritage"}],KEY='icon-review-'+NAME;
+const saved=JSON.parse(localStorage.getItem(KEY)||'{}'),trs=[...document.querySelectorAll('tbody tr')];
+function sum(){document.getElementById('sum').textContent=trs.filter(t=>t.querySelector('.ok').checked).length+'/'+trs.length+' dòng được duyệt'}
+function save(){const o={};trs.forEach(t=>{const ok=t.querySelector('.ok').checked,n=t.querySelector('.note').value;t.classList.toggle('rej',!ok);if(!ok||n)o[t.dataset.i]={ok,note:n}});localStorage.setItem(KEY,JSON.stringify(o));sum()}
+trs.forEach(t=>{const s=saved[t.dataset.i];if(s){t.querySelector('.ok').checked=s.ok;t.querySelector('.note').value=s.note||''}t.addEventListener('input',save)});save();
+document.getElementById('f').onchange=e=>{const v=e.target.value;trs.forEach(t=>{t.style.display=!v||t.dataset.type===v||t.dataset.level===v?'':'none'})};
+document.getElementById('dl').onclick=()=>{const out=trs.map(t=>({...ROWS[t.dataset.i],ok:t.querySelector('.ok').checked,note:t.querySelector('.note').value})).filter(r=>!r.ok||r.note);
+const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(out,null,1)],{type:'application/json'}));a.download='decisions-'+NAME+'.json';a.click()};
+</script>

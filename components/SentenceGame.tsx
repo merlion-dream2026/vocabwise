@@ -163,7 +163,7 @@ export default function SentenceGame({ topic, level, backUrl }: Props) {
       {/* Body */}
       <div className="flex-1 bg-gradient-to-b from-teal-50 to-cyan-50 px-4 py-6 flex flex-col items-center">
         {/* Emoji + meaning */}
-        <div className="mb-2 flex justify-center"><WordIcon word={word.word} emoji={word.emoji} emojiClass="text-7xl leading-none select-none" iconSize={88} /></div>
+        <div className="mb-2 flex justify-center"><WordIcon word={word.word} emoji={word.emoji} emojiClass="text-7xl leading-none select-none" iconSize={88} zoomable /></div>
         <div className="flex items-center gap-2 mb-3">
           <p className="text-gray-800 font-bold text-2xl">{word.word}</p>
           <button onClick={() => speak(word.word)} className="bg-teal-500 text-white w-8 h-8 rounded-lg text-sm flex items-center justify-center border-b-[3px] border-black/20 active:translate-y-0.5 active:border-b-2 transition-[transform,border-width]" aria-label="Nghe lại">🔊</button>

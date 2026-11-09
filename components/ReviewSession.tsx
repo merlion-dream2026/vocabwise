@@ -221,7 +221,7 @@ export default function ReviewSession({ words, level, backUrl, onSessionDone }: 
       <div className="flex-1 bg-gradient-to-b from-purple-50 to-pink-50 px-4 py-5 flex flex-col">
         {/* Word card */}
         <div className="bg-white rounded-3xl p-5 flex flex-col items-center text-center mb-4 border-2 border-slate-200 border-b-[4px] border-b-slate-300">
-          <div className="mb-3 flex justify-center leading-none"><WordIcon word={current.entry.word} emoji={current.entry.emoji} emojiClass="text-7xl" iconSize={88} /></div>
+          <div className="mb-3 flex justify-center leading-none"><WordIcon word={current.entry.word} emoji={current.entry.emoji} emojiClass="text-7xl" iconSize={88} zoomable /></div>
           <p className="text-gray-500 font-bold text-xs uppercase tracking-wider mb-1">Nghĩa tiếng Việt</p>
           <h2 className="text-2xl font-bold text-gray-800 mb-3">{current.entry.meaning}</h2>
           <button onClick={() => speak(current.entry.word)}
