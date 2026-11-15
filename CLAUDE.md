@@ -110,6 +110,7 @@ Gating phụ thuộc DB — fetch `/api/auth/me` với `cache: 'no-store'` để
 - PWA: `public/manifest.webmanifest` + `public/sw.js` + `app/icon.tsx`
 - **Email/push không pushy:** nhắc học hằng ngày = push theo lịch phụ huynh chọn (`families.push_schedule`, pg_cron 15 phút → `/api/cron/push-scheduled`). Email chăm sóc (onboarding D+1 · vắng 7 ngày · lên level) dùng chung giới hạn 1 email/3 ngày (`hasEngagementEmailInDays`). Gia hạn chỉ 3 mốc (trial còn 1 ngày · Pro còn 3 ngày · Pro hết hạn D+1). Báo cáo tuần/tháng chỉ opt-in. Thêm email mới → hỏi Andie trước.
 - Prefix `vw_` cho tất cả Academic DB tables
+- **Push gộp:** mỗi push `main` = 1 Vercel deploy ~100MB, ăn quota Deployment Storage 10GB của team free → commit local, chỉ push 1 lần cuối đợt khi Andie bảo.
 
 ## Env Vars
 ```
