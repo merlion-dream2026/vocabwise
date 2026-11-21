@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { token } = await params
   const c = await loadTrophyCard(token)
   if (!c) return { title: 'VocabWise', robots: { index: false } }
-  const title = `🏆 ${c.childName} chinh phục “${c.topicName}” — VocabWise Daily`
+  const title = `🏆 ${c.childName} chinh phục “${c.topicNameEn}” (${c.topicName}) — VocabWise Daily`
   const description = `Bé vừa học xong ${c.wordCount} từ mới chủ đề ${c.topicName} (${c.levelLabel}) qua các trò chơi. Cho con bạn học thử miễn phí!`
   const image = { url: `/c/${token}/og.png`, width: 1200, height: 630, alt: title }
   return {

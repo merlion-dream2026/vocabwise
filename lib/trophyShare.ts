@@ -25,7 +25,8 @@ export type TrophyCard = {
   childName: string
   level: string
   levelLabel: string
-  topicName: string
+  topicName: string      // Vietnamese (data/words)
+  topicNameEn: string    // English (data/daily-topic-names-en.json); falls back to topicName
   topicEmoji: string
   wordCount: number
   mascot: MascotCharacter
@@ -68,8 +69,15 @@ export async function findDailyTopic(level: string, topicId: string) {
   if (!(DAILY_LEVEL_ORDER as readonly string[]).includes(level) || !/^[a-z0-9-]{1,60}$/.test(topicId)) return null
   const raw = await readFile(join(process.cwd(), 'data', 'words', `${level}.json`), 'utf-8')
   const t = (JSON.parse(raw) as LevelFile).topics.find((x) => x.id === topicId)
-  return t ? { name: t.name, emoji: t.emoji, wordCount: t.words.length } : null
+  if (!t) return null
+  enNamesP ??= readFile(join(process.cwd(), 'data', 'daily-topic-names-en.json'), 'utf-8')
+    .then((s) => JSON.parse(s) as Record<string, Record<string, string>>)
+  const en = (await enNamesP)[level]?.[topicId]
+  return { name: t.name, nameEn: en ?? t.name, emoji: t.emoji, wordCount: t.words.length }
 }
+
+// English topic titles, keyed level → topicId (topic ids repeat across levels with different scope).
+let enNamesP: Promise<Record<string, Record<string, string>>> | null = null
 
 // /c/demo — fixed sample card for testing link previews and for marketing.
 const DEMO: Payload = { n: 'Mia', l: 'starter', t: 'time', m: 'b', d: '2026-11-21' }
@@ -86,6 +94,7 @@ export async function loadTrophyCard(token: string): Promise<TrophyCard | null> 
     level: p.l,
     levelLabel: CEFR[p.l] ?? p.l,
     topicName: topic.name,
+    topicNameEn: topic.nameEn,
     topicEmoji: topic.emoji,
     wordCount: topic.wordCount,
     mascot: isMascotCharacter(mascot) ? mascot : 'rocky',

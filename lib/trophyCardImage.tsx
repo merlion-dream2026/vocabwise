@@ -42,11 +42,17 @@ async function emojiSrc(emoji: string): Promise<string | null> {
   } catch { return null }
 }
 
-const TopicLine = ({ c, emoji, size, color }: { c: TrophyCard; emoji: string | null; size: number; color: string }) => (
-  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: size * 0.25, color }}>
-    {/* eslint-disable-next-line @next/next/no-img-element */}
-    {emoji && <img src={emoji} width={size} height={size} alt="" />}
-    <div style={{ display: 'flex', fontSize: size, fontWeight: 900, lineHeight: 1.15, maxWidth: 820 }}>{c.topicName}</div>
+// English title (big, with the topic emoji) + the Vietnamese name underneath as the gloss.
+const TopicLine = ({ c, emoji, size, color, viColor, left = false }: { c: TrophyCard; emoji: string | null; size: number; color: string; viColor: string; left?: boolean }) => (
+  <div style={{ display: 'flex', flexDirection: 'column', alignItems: left ? 'flex-start' : 'center' }}>
+    <div style={{ display: 'flex', alignItems: 'center', justifyContent: left ? 'flex-start' : 'center', gap: size * 0.25, color }}>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      {emoji && <img src={emoji} width={size} height={size} alt="" />}
+      <div style={{ display: 'flex', fontSize: size, fontWeight: 900, lineHeight: 1.15, maxWidth: 820 }}>{c.topicNameEn}</div>
+    </div>
+    {c.topicNameEn !== c.topicName && (
+      <div style={{ display: 'flex', marginTop: 4, fontSize: Math.max(Math.round(size * 0.5), 28), fontWeight: 700, color: viColor }}>({c.topicName})</div>
+    )}
   </div>
 )
 
@@ -102,7 +108,7 @@ export async function renderCertificate(c: TrophyCard) {
           color: '#ffd75e', textShadow: '0 6px 0 rgba(0,0,0,0.25)' }}>{c.childName}</div>
         <div style={{ display: 'flex', marginTop: 8, fontSize: 36, fontWeight: 700, opacity: 0.9 }}>đã chinh phục chủ đề</div>
         <div style={{ display: 'flex', marginTop: 10 }}>
-          <TopicLine c={c} emoji={emoji} size={topicSize(c.topicName, 64)} color="white" />
+          <TopicLine c={c} emoji={emoji} size={topicSize(c.topicNameEn, 64)} color="white" viColor="rgba(255,255,255,0.8)" />
         </div>
         <div style={{ display: 'flex', marginTop: 22 }}><Stars size={78} gap={18} /></div>
         <div style={{ display: 'flex', gap: 16, marginTop: 26 }}>
@@ -138,9 +144,9 @@ export async function renderPreview(c: TrophyCard) {
             color: 'white', textShadow: '0 6px 0 #c2410c' }}>{c.childName}</div>
           <div style={{ display: 'flex', marginTop: 6, fontSize: 36, fontWeight: 700 }}>đã chinh phục chủ đề</div>
           <div style={{ display: 'flex', marginTop: 6 }}>
-            <TopicLine c={c} emoji={emoji} size={topicSize(c.topicName, 56)} color="#3b2a8a" />
+            <TopicLine c={c} emoji={emoji} size={topicSize(c.topicNameEn, 56)} color="#3b2a8a" viColor="#5b3b1a" left />
           </div>
-          <div style={{ display: 'flex', marginTop: 20 }}><Stars size={64} gap={12} edge="#9a3412" /></div>
+          <div style={{ display: 'flex', marginTop: 14 }}><Stars size={58} gap={12} edge="#9a3412" /></div>
           <div style={{ display: 'flex', gap: 14, marginTop: 22 }}>
             <Pill bg="rgba(255,255,255,0.78)" color="#3b1a00">{`${c.wordCount} từ mới`}</Pill>
           </div>

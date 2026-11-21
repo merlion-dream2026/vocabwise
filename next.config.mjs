@@ -26,8 +26,8 @@ const nextConfig = {
   outputFileTracingIncludes: {
     '/vocabwise/\\[book\\]/\\[topicId\\]': ['./data/vocabwise/**/*.json'],
     // Trophy share card: fonts + trophy mascots are read from disk by the image routes.
-    '/c/**': ['./assets/fonts/*.ttf', './assets/emoji/*.svg', './public/mascots/*/*-pose-trophy-cut.webp', './data/words/*.json'],
-    '/api/share/trophy': ['./data/words/*.json'],
+    '/c/**': ['./assets/fonts/*.ttf', './assets/emoji/*.svg', './public/mascots/*/*-pose-trophy-cut.webp', './data/words/*.json', './data/daily-topic-names-en.json'],
+    '/api/share/trophy': ['./data/words/*.json', './data/daily-topic-names-en.json'],
   },
   async headers() {
     return [
