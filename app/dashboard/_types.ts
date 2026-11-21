@@ -1,7 +1,7 @@
 import type { SyncLevel as _SyncLevel, SyncAllLevels as _SyncAllLevels } from '@/lib/childProgress'
 
 export type Child = { id: string; name: string; emoji: string; level: string; theme?: string | null; mascot?: string | null; mascot_intro_seen_at?: string | null; pin?: string | null; streak?: { current: number; lastActive?: string } }
-export type Session = { familyId: string; username: string; plan: string; free_trial_expires_at?: string | null; plan_end_date?: string | null; plan_start_date?: string | null; bonus_pro_expires_at?: string | null; max_kids?: number | null; gift_token?: string | null }
+export type Session = { familyId: string; username: string; plan: string; free_trial_expires_at?: string | null; plan_end_date?: string | null; plan_start_date?: string | null; bonus_pro_expires_at?: string | null; max_kids?: number | null; gift_token?: string | null; is_owner?: boolean; has_admin_pin?: boolean }
 export type WeakVal = number | { wrong: number; correctStreak: number; lastWrong: string }
 export type SyncData = {
   seen?: string[]

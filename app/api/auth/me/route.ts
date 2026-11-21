@@ -12,7 +12,7 @@ export async function GET() {
 
   const { data } = await supabase
     .from('families')
-    .select('free_trial_expires_at, plan_end_date, plan, disabled, max_kids, bonus_pro_expires_at, referral_code, gift_token, bonus_features')
+    .select('free_trial_expires_at, plan_end_date, plan, disabled, max_kids, bonus_pro_expires_at, referral_code, gift_token, bonus_features, is_owner, admin_pin_hash')
     .eq('id', session.familyId)
     .single()
 
@@ -32,5 +32,7 @@ export async function GET() {
     referral_code: data.referral_code ?? null,
     gift_token: data.gift_token ?? null,
     max_kids: getMaxKids(data),
+    // Only the owner sees the 🛡️ Quản trị card; the PIN hash itself never leaves the server.
+    ...(data.is_owner ? { is_owner: true, has_admin_pin: !!data.admin_pin_hash } : {}),
   }, { headers: { 'Cache-Control': 'no-store' } })
 }

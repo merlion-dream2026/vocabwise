@@ -13,6 +13,7 @@ import { ReportSettingsContent } from './settings/ReportSettings'
 import { PushNotificationContent } from './settings/PushNotifications'
 import { FontSizeSettings } from './settings/FontSizeSettings'
 import { GiftTokenCard } from './settings/GiftTokenCard'
+import { OwnerAdminCard } from './settings/OwnerAdminCard'
 
 function UpgradeModalButton({ username, expired }: { username: string; expired: boolean }) {
   const [open, setOpen] = useState(false)
@@ -241,6 +242,13 @@ export function SettingsTab({ kids, session, onChildrenRefresh }: { kids: Child[
       {/* Gift token — Pro 6m exclusive */}
       {session.plan === '6months' && session.gift_token && (
         <GiftTokenCard token={session.gift_token} />
+      )}
+
+      {/* Owner-only: step-up into /superadmin via admin PIN / email code */}
+      {session.is_owner && (
+        <CollapsibleCard title="🛡️ Quản trị" subtitle="Vào Superadmin bằng PIN quản trị." defaultOpen={false}>
+          <OwnerAdminCard hasPin={!!session.has_admin_pin} />
+        </CollapsibleCard>
       )}
 
       {/* Reset — cuối cùng, collapsed by default */}
