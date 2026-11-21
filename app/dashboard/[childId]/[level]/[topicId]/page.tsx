@@ -13,6 +13,7 @@ import TopicFaq from '@/components/TopicFaq'
 import MiniStory, { type Story } from '@/components/MiniStory'
 import { useTopicVideos, VideoSheet } from '@/components/TopicVideos'
 import BottomSheet from '@/components/BottomSheet'
+import { useTrophyShare } from '@/lib/useTrophyShare'
 
 const TrophyModal = dynamic(() => import('@/components/TrophyModal'), { ssr: false })
 
@@ -101,6 +102,11 @@ export default function TopicPage() {
   // Flashcard's finish screen nudges to /…/topic#mini-story → open the story sheet straight away.
   useEffect(() => { if (window.location.hash === '#mini-story') setShowStory(true) }, [])
   const videos = useTopicVideos(`daily/${level}/${topicId}`)
+  // Certificate + signed link are prepared once the topic is conquered, so the share tap is instant.
+  const handleShare = useTrophyShare({
+    enabled: !!topic && (showTrophy || isTopicMastered(mastery, level)),
+    childId, level, topicId, childName: child?.name, topicName: topic?.name ?? '', topicEmoji: topic?.emoji ?? '',
+  })
 
   // A video watched to the end ticks the optional 🎬 stop (saved once; the server ORs the flag).
   const videoWatched = !!mastery.video
@@ -213,25 +219,6 @@ export default function TopicPage() {
   const prevTopic = topicIdx > 0 ? allTopics[topicIdx - 1] : null
   const nextTopic = topicIdx < allTopics.length - 1 ? allTopics[topicIdx + 1] : null
 
-  const LEVEL_LABELS: Record<string, string> = {
-    seeker: 'Pre-A1', starter: 'A1', ranger: 'A2',
-    explorer: 'B1', scholar: 'B2', master: 'C1',
-  }
-
-  function handleShare() {
-    const lvLabel = LEVEL_LABELS[level] ?? level
-    const text = [
-      `🏆 ${child?.name ? child.name + ' vừa' : 'Vừa'} chinh phục chủ đề ${(topic as { emoji: string }).emoji} ${(topic as { name: string }).name}!`,
-      `📚 VocabWise Daily${lvLabel ? ` · ${lvLabel}` : ''}`,
-      'Học tiếng Anh vui và hiệu quả',
-    ].join('\n')
-    if (navigator.share) {
-      navigator.share({ title: 'VocabWise Daily', text, url: 'https://vocabwise.id.vn' }).catch(() => {})
-    } else {
-      navigator.clipboard?.writeText(text).catch(() => {})
-      alert('Đã sao chép! Dán vào Zalo/Facebook để chia sẻ.')
-    }
-  }
 
   return (
     <div className={`min-h-screen bg-gradient-to-br ${colors.bg}`}>
@@ -244,6 +231,7 @@ export default function TopicPage() {
           levelName={level}
           newSticker={!!sticker && !sticker.legacy}
           onOpenAlbum={() => router.push(`/dashboard/${childId}/profile?tab=daily&back=1`)}
+          onShare={handleShare}
           onDone={() => setShowTrophy(false)}
         />
       )}

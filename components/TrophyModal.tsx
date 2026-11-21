@@ -12,19 +12,15 @@ type Props = {
   levelName?: string
   newSticker?: boolean   // show "Bạn nhận được sticker mới!" with this topic's sticker
   onOpenAlbum?: () => void   // tapping the sticker row opens the album
+  onShare: () => void        // useTrophyShare() — certificate photo, or the /c/{token} link
   onDone: () => void
-}
-
-const LEVEL_LABELS: Record<string, string> = {
-  seeker: 'Pre-A1', starter: 'A1', ranger: 'A2',
-  explorer: 'B1', scholar: 'B2', master: 'C1',
 }
 
 // "Topic conquered" celebration. Same props and behavior as before (auto-close after 4s, Esc or a
 // tap on the backdrop closes, share cancels the auto-close) — restyled: a white card with a golden
 // glow, a bigger trophy that pops in and shakes, three stars popping one by one, confetti behind,
 // and a gradient headline. All animation is self-contained and off for reduced-motion users.
-export default function TrophyModal({ topicName, topicEmoji, childName, levelName, newSticker, onOpenAlbum, onDone }: Props) {
+export default function TrophyModal({ topicName, topicEmoji, childName, newSticker, onOpenAlbum, onShare, onDone }: Props) {
   const [visible, setVisible] = useState(false)
   const autoCloseRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
@@ -43,19 +39,7 @@ export default function TrophyModal({ topicName, topicEmoji, childName, levelNam
 
   function handleShare() {
     if (autoCloseRef.current) { clearTimeout(autoCloseRef.current); autoCloseRef.current = null }
-    const level = levelName ? (LEVEL_LABELS[levelName] ?? levelName) : ''
-    const text = [
-      `🏆 ${childName ? childName + ' vừa' : 'Vừa'} chinh phục chủ đề ${topicEmoji} ${topicName}!`,
-      `📚 VocabWise Daily${level ? ` · ${level}` : ''}`,
-      'Học tiếng Anh vui và hiệu quả',
-      'vocabwise.id.vn',
-    ].join('\n')
-    if (navigator.share) {
-      navigator.share({ title: 'VocabWise Daily', text, url: 'https://vocabwise.id.vn' }).catch(() => {})
-    } else {
-      navigator.clipboard?.writeText(text).catch(() => {})
-      alert('Đã sao chép! Dán vào Zalo/Facebook để chia sẻ.')
-    }
+    onShare()
   }
 
   return (

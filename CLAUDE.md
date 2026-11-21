@@ -125,6 +125,7 @@ AI text-helper fallback chain (`lib/aiChat.ts`, dùng bởi explain/hint/grammar
 - **Audio:** `public/audio/stories/[level].[topic-id].mp3` — Kids mini story
 - **Mascot (Rocky/Bubi):** `lib/mascots.ts` + `components/Mascot.tsx`, ảnh derived ở `public/mascots/` — chỉ thêm ảnh qua map, không hardcode path. Mỗi bé chọn 1 mascot (`children.mascot`, NULL → hỏi lần đầu, fallback Rocky) qua `components/MascotContext.tsx`. Chi tiết: `docs/mascots/README.md`
 - **Landing screenshots:** `node scripts/capture-landing-screenshots.mjs [tên]` chụp app thật (production) bằng tài khoản demo → `public/screenshots/app/*.webp`. Tài khoản demo `0999999990` (`families.admin_note='DEMO'`, bé giả Bin/Su, tiến độ copy từ Tim/Mia, XP bị xoá để không lên bảng xếp hạng chung) tạo/làm mới bằng `node scripts/seed-demo-account.mjs <childA> <childB>`, xoá bằng `--delete`; mật khẩu ở `.env.local` (`DEMO_PASSWORD`).
+- **Share giấy khen (chinh phục chủ đề Daily):** `POST /api/share/trophy` ký link `/c/{token}` (HMAC từ `JWT_SECRET`, không lưu DB) → `/c/{token}/card.png` (giấy khen dọc, gửi dạng ảnh) + `/c/{token}/og.png` (ảnh xem trước link). Client: `lib/useTrophyShare.ts` tải sẵn trước khi bấm (iOS chặn share sau await). Font `assets/fonts/BeVietnamPro-*`, emoji chủ đề `assets/emoji/*.svg` (Twemoji) — chủ đề mới dùng emoji mới thì thêm file SVG. `/c/demo` = thẻ mẫu để test.
 - **Print:** `node scripts/gen-docx.js [book1|book2|book3|all] [topic-id]` → DOCX · colors: emerald/blue/purple
 
 ---

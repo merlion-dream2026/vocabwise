@@ -4,7 +4,7 @@ export const LEVEL_SLUGS = new Set(['seeker','starter','ranger','explorer','scho
 
 const HIDE_ROOTS = new Set([
   'login','register','verify-email','forgot-password','reset-password',
-  'privacy','terms','superadmin',
+  'privacy','terms','superadmin','c',
 ])
 // Focus screens (tests, SRS/review runs) — a stray tap on the nav would abandon them.
 const HIDE_TAILS = new Set(['srs', 'review', 'stress', 'level-test', 'module-test', 'placement'])
