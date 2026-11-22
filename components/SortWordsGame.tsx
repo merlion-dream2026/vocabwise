@@ -192,8 +192,8 @@ export default function SortWordsGame({ group, childId: _childId, backUrl }: { g
               return (
                 <button key={sound.symbol} onClick={() => handleChoose(i)} disabled={phase === 'result'}
                   className={`${cls} rounded-2xl p-5 text-center transition-all flex flex-col items-center gap-2`}>
-                  {showResult && <span className="text-4xl">{sound.emoji}</span>}
-                  <span className={`font-bold font-mono ${showResult ? 'text-2xl' : 'text-4xl py-2'} ${showResult && isCorrect ? 'text-green-700' : showResult && isSelected ? 'text-red-600' : 'text-amber-700'}`}>
+                  {showResult && <span className="text-5xl">{sound.emoji}</span>}
+                  <span className={`font-bold font-mono ${showResult ? 'text-3xl' : 'text-5xl py-3'} ${showResult && isCorrect ? 'text-green-700' : showResult && isSelected ? 'text-red-600' : 'text-amber-700'}`}>
                     /{sound.symbol}/
                   </span>
                   {showResult && <span className="text-sm font-bold text-gray-600">{sound.keyword}</span>}

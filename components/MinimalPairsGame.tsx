@@ -260,8 +260,8 @@ export default function MinimalPairsGame({ group, childId: _childId, backUrl }: 
                   disabled={phase === 'result'}
                   className={`${bg} rounded-2xl p-4 text-center transition-all`}>
                   {/* Reveal emoji + keyword only after answered */}
-                  {showResult && <div className="text-3xl mb-1">{sound.emoji}</div>}
-                  <div className={`font-bold font-mono ${showResult ? 'text-xl' : 'text-3xl py-2'} ${showResult && isAnswer ? 'text-green-700' : showResult && isSelected ? 'text-red-600' : 'text-amber-700'}`}>
+                  {showResult && <div className="text-5xl mb-1">{sound.emoji}</div>}
+                  <div className={`font-bold font-mono ${showResult ? 'text-2xl' : 'text-5xl py-3'} ${showResult && isAnswer ? 'text-green-700' : showResult && isSelected ? 'text-red-600' : 'text-amber-700'}`}>
                     /{sound.symbol}/
                   </div>
                   {showResult && <div className="text-sm font-bold text-gray-600 mt-0.5">{sound.keyword}</div>}
