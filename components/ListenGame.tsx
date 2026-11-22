@@ -181,23 +181,26 @@ export default function ListenGame({ topic, level, isStarter, backUrl }: Props) 
                 onClick={() => handleSelect(choice)}
                 disabled={selected !== null}
                 className={`
-                  ${cellClass} border-2 border-b-[4px] rounded-3xl
-                  flex flex-col items-center justify-center gap-1
+                  ${cellClass} border-2 border-b-[4px] rounded-3xl relative
+                  flex flex-col items-center justify-center gap-0.5
                   ${PRESS}
                   aspect-square overflow-hidden p-2
                 `}
               >
-                <WordIcon word={choice.word} emoji={choice.emoji} emojiClass="text-4xl leading-none select-none" iconSize={48} />
+                {/* Icon fills ~82% of the card; !important overrides WordIcon's inline px size */}
+                <span className="w-[82%] aspect-square flex items-center justify-center text-[4.5rem] [&>img]:!h-full [&>img]:!w-full [&>img]:object-contain [&>svg]:!h-full [&>svg]:!w-full">
+                  <WordIcon word={choice.word} emoji={choice.emoji} emojiClass="text-[4.5rem] leading-none select-none" iconSize={120} />
+                </span>
                 {showResult && (
-                  <span className={`text-xs font-bold ${textWhite ? 'text-white' : 'text-gray-600'}`}>
+                  <span className={`text-sm font-bold leading-tight ${textWhite ? 'text-white' : 'text-gray-600'}`}>
                     {choice.word}
                   </span>
                 )}
                 {showResult && isCorrect && (
-                  <span className="text-lg leading-none">✅</span>
+                  <span className="absolute top-2 right-2 text-xl leading-none">✅</span>
                 )}
                 {showResult && isSelected && !isCorrect && (
-                  <span className="text-lg leading-none">❌</span>
+                  <span className="absolute top-2 right-2 text-xl leading-none">❌</span>
                 )}
               </button>
             )

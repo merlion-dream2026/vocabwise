@@ -227,11 +227,11 @@ export default function ListenPickPhonicsGame({ group, childId: _childId, backUr
                 <button key={sound.symbol} onClick={() => handleChoose(sound)}
                   disabled={phase === 'result'}
                   className={`${bg} rounded-2xl p-4 text-center transition-all`}>
-                  {showResult && <div className="text-3xl mb-1">{sound.emoji}</div>}
-                  <div className={`font-bold font-mono ${showResult ? 'text-xl' : 'text-3xl py-2'} ${showResult && isAnswer ? 'text-green-700' : showResult && isSelected ? 'text-red-600' : 'text-amber-700'}`}>
+                  {showResult && <div className="text-5xl mb-1">{sound.emoji}</div>}
+                  <div className={`font-bold font-mono ${showResult ? 'text-2xl' : 'text-5xl py-3'} ${showResult && isAnswer ? 'text-green-700' : showResult && isSelected ? 'text-red-600' : 'text-amber-700'}`}>
                     /{sound.symbol}/
                   </div>
-                  {showResult && <div className="text-xs font-semibold text-gray-500 mt-0.5">{sound.keyword}</div>}
+                  {showResult && <div className="text-sm font-semibold text-gray-500 mt-0.5">{sound.keyword}</div>}
                   {showResult && isAnswer    && <div className="text-green-600 text-xs font-bold mt-1">✓</div>}
                   {showResult && isSelected && !isAnswer && <div className="text-red-500 text-xs font-bold mt-1">✗</div>}
                 </button>
