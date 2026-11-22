@@ -280,7 +280,7 @@ export default function FlashcardViewer({ topic, level, isStarter, backUrl }: Pr
 
           <div className="w-full space-y-3">
             <PrimaryButton tone="amber" onClick={restart}>🔄 Học lại từ đầu</PrimaryButton>
-            <PrimaryButton tone="slate" onClick={() => router.push(backUrl)}>📚 Chọn chế độ khác</PrimaryButton>
+            <PrimaryButton tone="slate" onClick={() => router.push(backUrl)}>📚 Chọn trò khác</PrimaryButton>
           </div>
         </div>
       </div>

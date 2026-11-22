@@ -146,7 +146,7 @@ export default function StoryFillGame({ topic, level, backUrl }: Props) {
         ) : (
           <div className="space-y-3 mt-2 mb-6">
             <button onClick={restart} className={cta('teal')}>🔄 Thử lại</button>
-            <button onClick={() => router.push(backUrl)} className={cta('slate')}>← Chọn chế độ khác</button>
+            <button onClick={() => router.push(backUrl)} className={cta('slate')}>← Chọn trò khác</button>
           </div>
         )}
       </div>

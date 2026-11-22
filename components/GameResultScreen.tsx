@@ -107,7 +107,7 @@ export default function GameResultScreen({
 
       <div className="w-full space-y-3">
         <PrimaryButton tone="amber" onClick={onRestart}>🔄 Chơi lại</PrimaryButton>
-        <PrimaryButton tone="slate" onClick={onExit}>← Chọn chế độ khác</PrimaryButton>
+        <PrimaryButton tone="slate" onClick={onExit}>← Chọn trò khác</PrimaryButton>
       </div>
     </>
   )
