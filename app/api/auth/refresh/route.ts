@@ -10,7 +10,7 @@ export async function POST() {
 
   const { data: family } = await supabase
     .from('families')
-    .select('username, plan, disabled, free_trial_expires_at, plan_end_date, plan_start_date, max_kids, bonus_pro_expires_at, session_version')
+    .select('username, plan, disabled, free_trial_expires_at, plan_end_date, plan_start_date, max_kids, bonus_pro_expires_at, session_version, gift_token, is_owner, admin_pin_hash')
     .eq('id', session.familyId)
     .single()
 
@@ -32,6 +32,10 @@ export async function POST() {
     plan_start_date: family.plan_start_date ?? null,
     bonus_pro_expires_at: family.bonus_pro_expires_at ?? null,
     max_kids: getMaxKids(family),
+    gift_token: family.gift_token ?? null,
+    // Dashboard reads its session from here (not /api/auth/me): owner flag drives the Admin entry point.
+    // The PIN hash itself never leaves the server.
+    ...(family.is_owner ? { is_owner: true, has_admin_pin: !!family.admin_pin_hash } : {}),
   }
 
   // If plan changed, issue new JWT

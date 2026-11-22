@@ -1,4 +1,4 @@
-// Owner → Superadmin step-up (Dashboard → Cài đặt → 🛡️ Quản trị).
+// Owner → Superadmin step-up (Dashboard header → 🛡️ Admin button).
 // The owner family (families.is_owner) already has a live family session; entering the 6-digit admin PIN,
 // or a one-time code emailed to ADMIN_ALERT_EMAIL, mints the same vk_admin_session the password gate does.
 import { createHash, randomInt, timingSafeEqual } from 'crypto'

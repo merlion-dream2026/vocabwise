@@ -1,7 +1,8 @@
 'use client'
 
-// 🛡️ Quản trị — owner-only shortcut into /superadmin (PIN, or emailed code when PIN is new/forgotten).
-// Server re-checks families.is_owner on every call; hiding this card is not the security boundary.
+// 🛡️ Admin — owner-only header button on /dashboard → bottom sheet into /superadmin
+// (PIN, or emailed code when PIN is new/forgotten).
+// Server re-checks families.is_owner on every call; hiding this button is not the security boundary.
 import { useState } from 'react'
 
 type Step = 'pin' | 'otp' | 'newPin'
@@ -30,7 +31,7 @@ function PinBoxes({ value, onChange, error, masked = true, autoFocus = false }: 
   )
 }
 
-export function OwnerAdminCard({ hasPin }: { hasPin: boolean }) {
+export function OwnerAdminButton({ hasPin }: { hasPin: boolean }) {
   const [open, setOpen] = useState<Step | null>(null)
   const [pin, setPin] = useState('')
   const [otp, setOtp] = useState('')
@@ -90,13 +91,10 @@ export function OwnerAdminCard({ hasPin }: { hasPin: boolean }) {
 
   return (
     <>
-      <p className="text-xs text-gray-500 font-semibold mb-3">Chỉ tài khoản chủ sở hữu mới thấy mục này. Phiên quản trị kéo dài 8 giờ.</p>
-      <button onClick={() => (hasPin ? setOpen('pin') : sendOtp())} disabled={busy} className={btn}>
-        🔐 Vào Superadmin
+      <button onClick={() => (hasPin ? setOpen('pin') : sendOtp())} disabled={busy}
+        className="bg-white text-violet-600 font-extrabold text-xs px-3 py-2 rounded-2xl transition-colors whitespace-nowrap disabled:opacity-60">
+        🛡️ Admin
       </button>
-      <p className="text-[11px] text-gray-400 font-semibold mt-2 text-center">
-        {hasPin ? <>PIN: đã đặt · <button onClick={sendOtp} className="underline">Đổi PIN</button></> : 'Lần đầu: xác nhận qua email rồi đặt PIN 6 số'}
-      </p>
 
       {open && (
         <div className="fixed inset-0 z-50 bg-slate-900/45 flex items-end sm:items-center justify-center" onClick={close}>
@@ -106,11 +104,11 @@ export function OwnerAdminCard({ hasPin }: { hasPin: boolean }) {
             {open === 'pin' && (
               <>
                 <h3 className="font-black text-gray-800 text-lg text-center">🔐 Nhập PIN quản trị</h3>
-                <p className="text-xs text-gray-500 font-semibold text-center mt-1 mb-5">6 số</p>
+                <p className="text-xs text-gray-500 font-semibold text-center mt-1 mb-5">6 số · phiên quản trị kéo dài 8 giờ</p>
                 <div className="mb-4"><PinBoxes value={pin} onChange={setPin} error={isErr} autoFocus /></div>
                 {msg && <p className={`text-sm font-bold text-center mb-4 ${isErr ? 'text-red-500' : 'text-gray-600'}`}>{msg}</p>}
                 <button onClick={submitPin} disabled={busy || pin.length !== 6} className={btn}>{busy ? 'Đang kiểm tra...' : 'Vào Superadmin'}</button>
-                <button onClick={sendOtp} disabled={busy} className="block mx-auto mt-4 text-sm font-bold text-purple-600 underline">Quên PIN?</button>
+                <button onClick={sendOtp} disabled={busy} className="block mx-auto mt-4 text-sm font-bold text-purple-600 underline">Quên / đổi PIN?</button>
               </>
             )}
 

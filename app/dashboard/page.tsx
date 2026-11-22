@@ -14,6 +14,7 @@ import { DashboardTab } from './_components/DashboardTab'
 import { SettingsTab } from './_components/SettingsTab'
 import { RewardsTab } from './_components/RewardsTab'
 import { FaqCard } from './_components/FaqCard'
+import { OwnerAdminButton } from './_components/OwnerAdminButton'
 import { cachedFetch, invalidateCachedFetch } from '@/lib/cachedFetch'
 import { academicFetch } from '@/lib/academicSync'
 import { BrandLogo } from '@/components/BrandLogo'
@@ -176,10 +177,7 @@ export default function DashboardPage() {
               </div>
             </div>
             <div className="flex items-center gap-2">
-              <button onClick={() => router.push('/kids')}
-                className="bg-white/20 hover:bg-white/30 text-white text-xs px-3 py-2 rounded-2xl transition-colors whitespace-nowrap">
-                🎮 Chế độ học
-              </button>
+              {session!.is_owner && <OwnerAdminButton hasPin={!!session!.has_admin_pin} />}
               <button onClick={logout}
                 className="bg-white/20 hover:bg-white/30 text-white text-xs px-3 py-2 rounded-2xl transition-colors whitespace-nowrap">
                 🚪 Đăng xuất

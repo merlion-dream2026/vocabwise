@@ -32,7 +32,7 @@ export async function GET() {
     referral_code: data.referral_code ?? null,
     gift_token: data.gift_token ?? null,
     max_kids: getMaxKids(data),
-    // Only the owner sees the 🛡️ Quản trị card; the PIN hash itself never leaves the server.
+    // Only the owner sees the 🛡️ Admin button; the PIN hash itself never leaves the server.
     ...(data.is_owner ? { is_owner: true, has_admin_pin: !!data.admin_pin_hash } : {}),
   }, { headers: { 'Cache-Control': 'no-store' } })
 }
