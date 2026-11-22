@@ -306,7 +306,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
         <div className="bg-white rounded-3xl p-5 w-full border-2 border-b-[4px] border-slate-200 border-b-slate-300">
           <div className="flex flex-col items-center text-center">
             <div className="mb-2 flex justify-center">
-              <WordIcon word={q.word} emoji={q.emoji} emojiClass="text-5xl" iconSize={60} />
+              <WordIcon word={q.word} emoji={q.emoji} emojiClass="text-7xl leading-none select-none" iconSize={88} />
             </div>
             <p className="text-3xl font-bold text-gray-800">{q.word}</p>
             <p className="text-base text-gray-400 font-semibold mt-0.5">{q.meaning}</p>

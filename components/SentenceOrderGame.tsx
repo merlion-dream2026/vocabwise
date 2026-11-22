@@ -134,7 +134,7 @@ export default function SentenceOrderGame({ topic, level, backUrl }: Props) {
         <div className="bg-white rounded-3xl p-4 border-2 border-b-[4px] border-slate-200 border-b-slate-300">
           <p className="text-xs font-bold text-gray-500 uppercase tracking-wide mb-1">Sắp xếp câu với từ</p>
           <div className="flex items-center gap-2">
-            <WordIcon word={q.word.word} emoji={q.word.emoji} emojiClass="text-3xl" iconSize={36} />
+            <WordIcon word={q.word.word} emoji={q.word.emoji} emojiClass="text-5xl leading-none select-none" iconSize={56} />
             <div>
               <p className="font-bold text-gray-800 text-lg leading-tight">{q.word.word}</p>
               <p className="text-sm text-gray-500">{q.word.meaning}</p>
