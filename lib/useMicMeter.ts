@@ -4,12 +4,15 @@
 // start(stream) when the mic opens; markRecording() when the real recording begins
 // (silence during the get-ready second doesn't count); onSilence fires once after
 // the kid has spoken and then gone quiet for SILENCE_MS.
+// "Speaking" = louder than this room's noise floor, measured during the get-ready second
+// (same rule as lib/vad.ts). The old fixed bar (0.04) took a softly spoken last word
+// ("brown… shoes") for silence and cut it off — Azure then scored that word ~0–30.
 
 import { useCallback, useEffect, useRef, useState } from 'react'
+import { speechThreshold } from './vad'
 
 const SILENCE_MS = 1500
 const MIN_REC_MS = 800
-const LOUD_RMS = 0.04
 
 export function useMicMeter(onSilence: () => void) {
   const [level, setLevel] = useState(0)
@@ -39,6 +42,7 @@ export function useMicMeter(onSilence: () => void) {
       const buf = new Float32Array(analyser.fftSize)
       let heard = false
       let lastLoud = 0
+      let floor = Infinity // quietest live frame before recording starts = the room
       let lastLvl = 0
       const tick = () => {
         analyser.getFloatTimeDomainData(buf)
@@ -50,8 +54,10 @@ export function useMicMeter(onSilence: () => void) {
         if (lvl !== lastLvl) { lastLvl = lvl; setLevel(lvl) }
         const since = sinceRef.current
         const now = performance.now()
-        if (since !== null) {
-          if (rms > LOUD_RMS) { heard = true; lastLoud = now }
+        if (since === null) {
+          if (rms > 1e-5) floor = Math.min(floor, rms) // all-zero frames = mic not live yet
+        } else {
+          if (rms > speechThreshold(Number.isFinite(floor) ? floor : 0)) { heard = true; lastLoud = now }
           else if (heard && now - lastLoud > SILENCE_MS && now - since > MIN_REC_MS) {
             rafRef.current = null
             onSilenceRef.current()
@@ -65,8 +71,10 @@ export function useMicMeter(onSilence: () => void) {
   }, [stop])
 
   const markRecording = useCallback(() => { sinceRef.current = performance.now() }, [])
+  /** ms since markRecording() (0 before) — logged with each score to spot cut-off clips. */
+  const elapsed = useCallback(() => (sinceRef.current === null ? 0 : Math.round(performance.now() - sinceRef.current)), [])
 
   useEffect(() => stop, [stop])
 
-  return { level, start, markRecording, stop }
+  return { level, start, markRecording, stop, elapsed }
 }

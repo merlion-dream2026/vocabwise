@@ -65,7 +65,7 @@ Gating phụ thuộc DB — fetch `/api/auth/me` với `cache: 'no-store'` để
 - **Word Plans (nguồn duy nhất):** `/data/word-plans/*.csv` — **luôn đọc CSV trước khi tạo/sửa JSON content**, không tự đặt titles hay vocab. Format: `book, theme_no, theme_title, topic_no, topic_id, topic_title, w1…w15` (Book 3: `w1…w10, c1…c5`)
 - **Phonics:** `/data/phonicsKnowledge.json` + `/data/phonicsLevels.json` — 9 levels · 58 lessons. Runtime đọc qua `/api/phonics/levels` (metadata, mọi topic đều thấy) và `/api/phonics/lesson/[levelId]/[lessonId]` (nội dung đầy đủ, gate theo `canAccessPhonicsLesson()`) — KHÔNG import thẳng JSON vào client component (trước đây làm vậy khiến toàn bộ nội dung Phonics/Word Stress nằm sẵn trong JS bundle bất kể plan). Word Stress tương tự qua `/api/word-stress`.
 - **Video học thêm (topic hub):** `/data/videos/videos.json` (key `daily/{level}/{topicId}` — Daily topicId trùng giữa level — hoặc `academic/{topicId}`), đọc qua `/api/videos`. Sinh bằng `node scripts/fetch-topic-videos.mjs` (cần `YOUTUBE_API_KEY`, ~95 topic/ngày quota free, chạy lại tự làm tiếp) → duyệt ở `data/videos/review.html` → nút "Tải videos.json" → chép đè vào `data/videos/`. Không gate plan, không tính tiến độ.
-- ⚠️ **Audio coverage còn thiếu nhiều:** Academic 1/180 topic (0,6%); Story audio Daily thiếu hoàn toàn Scholar+Master (0/30 mỗi level); Daily/Kids không có IPA transcript (0/2.400 từ, chỉ dựa browser TTS)
+- ⚠️ **Audio coverage (24/11/2026):** Story Daily 180/180 ✅ · Academic passage 1/180 · Phonics từ/câu luyện + `learnAudio`/`pairAudio` 0 · Word Stress 0/98 · từ Daily 0/2.400 — phần thiếu đều rơi về browser TTS
 
 ## Key Routes
 | Route | Mô tả |
@@ -82,7 +82,7 @@ Gating phụ thuộc DB — fetch `/api/auth/me` với `cache: 'no-store'` để
 /api/auth/{login,register,verify-otp,forgot-password,reset-password,resend-otp,me,logout}
 /api/children                GET/POST
 /api/sync/[childId]          GET/POST  — Kids progress (vocab_sync)
-/api/score-pronunciation     POST      — AI chấm phát âm (Groq Whisper)
+/api/score-pronunciation     POST      — AI chấm phát âm: Azure (WAV 16kHz, phoneme-level) → fallback Groq Whisper; mọi lượt ghi `pronunciation_log` (cột `engine`, `stop_reason`, `dur_ms`)
 /api/vocabwise/topics        GET       — list topics by book
 /api/vocabwise/topics/[id]   GET       — topic detail
 /api/vocabwise/progress      GET/POST  — Academic progress

@@ -84,6 +84,8 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
   const autoStopRef = useRef<ReturnType<typeof setTimeout> | null>(null)
   const countdownRef = useRef<ReturnType<typeof setTimeout> | null>(null)
   const answeredRef = useRef(false)
+  // Why/when the take ended — sent with the score so cut-off clips show up in pronunciation_log
+  const stopInfoRef = useRef<{ stop: string; durMs: number }>({ stop: 'manual', durMs: 0 })
   const autoSpeakCancelRef = useRef(false)
   const speak = useCallback((t: string, rate = 0.85) => speakWord(t, { rate }), [])
 
@@ -99,7 +101,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
 
   // Stop after silence once the kid has spoken (see useMicMeter)
   const meter = useMicMeter(() => {
-    if (mediaRecorderRef.current?.state === 'recording') { clearTimers(); mediaRecorderRef.current.stop() }
+    if (mediaRecorderRef.current?.state === 'recording') { stopInfoRef.current = { stop: 'silence', durMs: meter.elapsed() }; clearTimers(); mediaRecorderRef.current.stop() }
   })
 
   const stopStream = useCallback(() => {
@@ -165,6 +167,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
       streamRef.current = stream
       const mimeType = getBestMime()
       chunksRef.current = []
+      stopInfoRef.current = { stop: 'manual', durMs: 0 }
 
       const mr = new MediaRecorder(stream, { mimeType })
       mr.ondataavailable = (e) => { if (e.data.size > 0) chunksRef.current.push(e.data) }
@@ -192,6 +195,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
           })
         }, 1000)
         autoStopRef.current = setTimeout(() => {
+          stopInfoRef.current = { stop: 'cap', durMs: MAX_SECS * 1000 }
           if (mediaRecorderRef.current?.state === 'recording') mediaRecorderRef.current.stop()
           clearTimers()
         }, MAX_SECS * 1000)
@@ -205,6 +209,7 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
   }
 
   const stopRecording = () => {
+    stopInfoRef.current = { stop: 'manual', durMs: meter.elapsed() }
     clearTimers()
     if (mediaRecorderRef.current?.state === 'recording') mediaRecorderRef.current.stop()
   }
@@ -213,7 +218,10 @@ export default function SpeakGame({ topic, level, backUrl }: Props) {
     setPhase('processing')
     try {
       // Azure-scored when the clip converts to WAV (lib/pronounceClient.ts), else Whisper
-      const data = await scorePronunciation(blob, mimeType, { target: speakTarget, word: q.word, level, source: 'speak' })
+      const data = await scorePronunciation(blob, mimeType, {
+        target: speakTarget, word: q.word, level, source: 'speak',
+        stop: stopInfoRef.current.stop, durMs: String(stopInfoRef.current.durMs),
+      })
       setAssessment(data.assessment ?? null)
       setAzureMeta({ bars: data.bars, logId: data.logId })
 

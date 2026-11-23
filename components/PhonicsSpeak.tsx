@@ -115,6 +115,8 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
   const chunksRef    = useRef<BlobPart[]>([])
   const timerRef     = useRef<ReturnType<typeof setInterval> | null>(null)
   const autoStopRef  = useRef<ReturnType<typeof setTimeout>  | null>(null)
+  // Why/when the take ended — sent with the score so cut-off clips show up in pronunciation_log
+  const stopInfoRef = useRef<{ stop: string; durMs: number }>({ stop: 'manual', durMs: 0 })
   const cdRef        = useRef<ReturnType<typeof setTimeout>  | null>(null)
   const autoPlayRef  = useRef(false)
 
@@ -124,7 +126,7 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
 
   // Stop after silence once the kid has spoken (see useMicMeter)
   const meter = useMicMeter(() => {
-    if (mediaRecRef.current?.state === 'recording') { clearTimers(); mediaRecRef.current.stop() }
+    if (mediaRecRef.current?.state === 'recording') { stopInfoRef.current = { stop: 'silence', durMs: meter.elapsed() }; clearTimers(); mediaRecRef.current.stop() }
   })
 
   const stopStream = useCallback(() => {
@@ -172,6 +174,7 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
       streamRef.current = stream
       const mimeType = getBestMime()
       chunksRef.current = []
+      stopInfoRef.current = { stop: 'manual', durMs: 0 }
 
       const mr = new MediaRecorder(stream, { mimeType })
       mr.ondataavailable = e => { if (e.data.size > 0) chunksRef.current.push(e.data) }
@@ -196,6 +199,7 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
           setTimeLeft(prev => { if (prev <= 1) { clearTimers(); return 0 } return prev - 1 })
         }, 1000)
         autoStopRef.current = setTimeout(() => {
+          stopInfoRef.current = { stop: 'cap', durMs: MAX_SECS * 1000 }
           if (mediaRecRef.current?.state === 'recording') mediaRecRef.current.stop()
           clearTimers()
         }, MAX_SECS * 1000)
@@ -209,6 +213,7 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
   }
 
   const stopRecording = () => {
+    stopInfoRef.current = { stop: 'manual', durMs: meter.elapsed() }
     clearTimers()
     if (mediaRecRef.current?.state === 'recording') mediaRecRef.current.stop()
   }
@@ -220,6 +225,7 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
       // targets + symbols → the server logs the same sound-level verdict the kid sees
       const data = await scorePronunciation(blob, mimeType, {
         target: current.en, level: 'phonics', source: 'phonics', targets: current.targets.join('|'), symbols: symbols.join('|'),
+        stop: stopInfoRef.current.stop, durMs: String(stopInfoRef.current.durMs),
       })
       const a = data.assessment ?? null
       // Azure + a pair lesson → judge the lesson's own sounds inside the highlighted words

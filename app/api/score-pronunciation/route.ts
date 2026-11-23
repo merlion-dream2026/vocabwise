@@ -22,6 +22,12 @@ function logDetail(a: Assessment) {
   return a.words.slice(0, 12).map(w => ({ w: w.word, a: w.accuracy, e: w.error, ph: w.phonemes.map(p => [p.p, p.score]) }))
 }
 
+/** Insert one pronunciation_log row; null when it fails (never blocks the score). */
+function logAttempt(row: object): Promise<{ id: number } | null> {
+  return Promise.resolve(supabase.from('pronunciation_log').insert(row).select('id').single())
+    .then(r => (r.error ? null : (r.data as { id: number })), () => null)
+}
+
 // Scholar/Master learners are expected to pronounce more precisely (IELTS-track);
 // everyone else (Seeker..Explorer, and any caller that doesn't send a Daily level,
 // e.g. Phonics) keeps the original, more forgiving threshold.
@@ -62,6 +68,11 @@ export async function POST(req: NextRequest) {
   const list = (k: string) => ((formData.get(k) as string | null) ?? '').split('|').map(s => s.trim()).filter(Boolean).slice(0, 20)
   const focusTargets   = list('targets')
   const focusSymbols   = list('symbols')
+  // How the take ended (silence / cap / manual) + its length → spot clips cut off before the last word
+  const stopRaw        = (formData.get('stop') as string | null) ?? ''
+  const stopReason     = ['silence', 'cap', 'manual'].includes(stopRaw) ? stopRaw : null
+  const durRaw         = Number(formData.get('durMs'))
+  const durMs          = Number.isFinite(durRaw) && durRaw > 0 ? Math.min(60_000, Math.round(durRaw)) : null
   if (!audio || !target || !word) {
     return NextResponse.json({ error: 'Missing fields' }, { status: 400 })
   }
@@ -104,10 +115,10 @@ export async function POST(req: NextRequest) {
         family_id: session.familyId, source, level: level || null, target: target.slice(0, 200), ok: correct,
         pron_score: a.pronScore, accuracy: a.accuracy, fluency: a.fluency, completeness: a.completeness,
       }
-      const log = (row: object) => supabase.from('pronunciation_log').insert(row).select('id').single()
-        .then(r => (r.error ? null : r.data), () => null)
-      // grp/detail columns missing (migration 20261030100000 not applied yet) → keep logging the scores
-      const logged = (await log({ ...base, grp: groupFor(lvl), detail: logDetail(a) })) ?? (await log(base))
+      const full = { ...base, grp: groupFor(lvl), detail: logDetail(a) }
+      // newer columns missing (migration not applied yet) → fall back to the older row shapes
+      const logged = (await logAttempt({ ...full, engine: 'azure', stop_reason: stopReason, dur_ms: durMs }))
+        ?? (await logAttempt(full)) ?? (await logAttempt(base))
       return NextResponse.json({ transcript: a.transcript, correct, unclear: false, engine: 'azure', assessment: a, bars, logId: logged?.id ?? null })
     }
   }
@@ -147,6 +158,13 @@ export async function POST(req: NextRequest) {
   // → báo unclear thay vì sai (không phải lỗi của bé)
   const unclear = !isEnglishLike(transcript)
   const correct = unclear ? false : isPronunciationCorrect(transcript, target, word, contrastWords, matchThreshold(level))
+
+  // Whisper attempts are logged too (no scores) → how often Azure was busy/over quota, and the
+  // usage of the Whisper-only games. No logId back: disputes are for Azure verdicts only.
+  await logAttempt({
+    family_id: session.familyId, source, level: level || null, target: target.slice(0, 200), ok: correct,
+    grp: groupFor(level || source), engine: 'whisper', stop_reason: stopReason, dur_ms: durMs,
+  })
 
   // azureOff → the client stops converting clips to WAV for the rest of the session
   return NextResponse.json({ transcript, correct, unclear, engine: 'whisper', azureOff: !azureConfigured() })
