@@ -5,7 +5,7 @@
 
 import { useState, useCallback, useEffect, useRef } from 'react'
 import { useRouter } from 'next/navigation'
-import { speak } from '@/lib/speak'
+import { speakClip as speak } from '@/lib/recordedVoice'
 import Confetti from '@/components/Confetti'
 import UpgradeModal from '@/components/UpgradeModal'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'

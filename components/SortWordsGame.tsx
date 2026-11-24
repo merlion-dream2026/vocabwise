@@ -6,7 +6,7 @@
 
 import { useState, useEffect, useCallback, useRef } from 'react'
 import { useRouter } from 'next/navigation'
-import { speak } from '@/lib/speak'
+import { speakClip as speak } from '@/lib/recordedVoice'
 import { recordPairGame, flushPhonics } from '@/lib/phonicsSync'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'

@@ -5,7 +5,7 @@
 
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
-import { speak as speakSentence } from '@/lib/speak'
+import { speakClip as speakSentence, stopClip } from '@/lib/recordedVoice'
 import { recordPairGame, flushPhonics } from '@/lib/phonicsSync'
 import { playCorrectSound, playWrongSound } from '@/lib/gameSound'
 import Confetti from '@/components/Confetti'
@@ -159,7 +159,7 @@ export default function PhonicsSpeak({ lesson, childId, backUrl, gradient, btnCo
       autoPlayRef.current = true
       clearTimeout(t)
       clearTimers()
-      window.speechSynthesis?.cancel()
+      window.speechSynthesis?.cancel(); stopClip()
       if (mediaRecRef.current?.state === 'recording') mediaRecRef.current.stop()
       stopStream()
     }

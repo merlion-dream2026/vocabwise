@@ -3,7 +3,7 @@
 // - learnAudio: native speaker with examples (SpeechActive) — used in learn cards
 // - pairAudio: native speaker demonstrating a contrast pair (SpeechActive) — used on pair open
 
-import { speak } from '@/lib/speak'
+import { speakClip as speak, stopClip } from '@/lib/recordedVoice'
 
 // ── Static map: IPA symbol → isolated-phoneme audio file ─────────────────────
 const A = '/audio/phonemes/american/'
@@ -83,6 +83,7 @@ let _current: HTMLAudioElement | null = null
 
 function stopAll() {
   if (_current) { _current.pause(); _current.onended = null; _current.onerror = null; _current = null }
+  stopClip()
   if (typeof window !== 'undefined') window.speechSynthesis?.cancel()
 }
 

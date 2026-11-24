@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import { useRouter, useParams } from 'next/navigation'
-import { speak } from '@/lib/speak'
+import { speakClip as speak } from '@/lib/recordedVoice'
 import { playPhoneme } from '@/lib/phonemeAudio'
 import {
   initPhonicsSync, isPairSeen, isLessonMastered,

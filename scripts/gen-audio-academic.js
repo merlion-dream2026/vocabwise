@@ -15,8 +15,9 @@ const fs   = require('fs')
 const path = require('path')
 
 // ── Config ────────────────────────────────────────────────────────────────────
-const VOICE_ID  = process.env.ELEVENLABS_VOICE_ID || 'onwK4e9ZLuTAKqWW03F9' // Daniel (British, clear)
-const MODEL_ID  = 'eleven_turbo_v2_5'
+// US voice (Andie, 2026-11-24). b1-t01 was recorded earlier with Daniel (British, turbo v2.5).
+const VOICE_ID  = process.env.ELEVENLABS_VOICE_ID || 'TX3LPaxmHKxFdv7VOQHJ' // Liam (US) — Scholar Mini Stories' male voice
+const MODEL_ID  = 'eleven_multilingual_v2'
 const AUDIO_DIR = path.join(__dirname, '../public/audio/academic')
 const DATA_DIR  = path.join(__dirname, '../data/vocabwise')
 const DELAY_MS  = 500  // cooldown between API calls
@@ -53,7 +54,7 @@ function getTopicFiles(book, from, to) {
 }
 
 async function callElevenLabs(text, apiKey) {
-  const res = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${VOICE_ID}`, {
+  const res = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${VOICE_ID}?output_format=mp3_44100_64`, {
     method: 'POST',
     headers: {
       'Accept': 'audio/mpeg',
