@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-import { withSentryConfig } from '@sentry/nextjs'
+import { withSentryConfig } from '@sentry/nextjs/config'
 import createBundleAnalyzer from '@next/bundle-analyzer'
 
 const withBundleAnalyzer = createBundleAnalyzer({ enabled: process.env.ANALYZE === 'true' })
@@ -58,7 +58,11 @@ export default withBundleAnalyzer(withSentryConfig(nextConfig, {
   project: 'vocabwise-nextjs',
   silent: true,
   widenClientFileUpload: true,
-  hideSourceMaps: true,
+  // Source maps go to Sentry, then are deleted from the build so they're never served publicly
+  sourcemaps: { deleteSourcemapsAfterUpload: true },
+  // v11 otherwise writes app/sentry-tunnel/route.js + a catch-all rewrite on every Vercel build; the browser SDK
+  // doesn't use a tunnel (tunnel: true is not set), so keep that endpoint out.
+  tunnelRoute: false,
   webpack: {
     treeshake: { removeDebugLogging: true },
     automaticVercelMonitors: false,

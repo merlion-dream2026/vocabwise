@@ -1,3 +1,5 @@
+// Browser Sentry. Must live in instrumentation-client.ts: `next build` uses Turbopack, which never loads
+// the old sentry.client.config.ts (client errors went unreported until this was moved, 2026-11-25).
 import * as Sentry from '@sentry/nextjs'
 
 Sentry.init({
@@ -25,3 +27,6 @@ Sentry.init({
     /zaloJSV2 is not defined/,
   ],
 })
+
+// Traces App Router client-side navigations
+export const onRouterTransitionStart = Sentry.captureRouterTransitionStart
