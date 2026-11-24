@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import Confetti from '@/components/Confetti'
 import { PRESS } from '@/components/TopicHub'
-import { speak } from '@/lib/speak'
+import { playMascotLines, stopMascotVoice } from '@/lib/mascotVoice'
 import { MASCOT_NAMES, mascotSrc, type MascotCharacter, type MascotShot } from '@/lib/mascots'
 
 // Shown right after a child picks a companion: three short slides on the mascot's authored
@@ -54,10 +54,14 @@ export default function MascotIntro({ character, childName, onDone }: {
 
   useEffect(() => { if (last && !reducedMotion()) setConfetti(true) }, [last])
 
+  // Stop the greeting when the dialog closes
+  useEffect(() => stopMascotVoice, [])
+
+  // Recorded ElevenLabs line (public/audio/mascots/{rocky|bubi}-intro-{vi|en}.mp3), in the voice
+  // language the family picked at onboarding; muted together with game sounds like the rest.
   function hello() {
-    speak(`Hi! I'm ${name}. Let's learn English together!`, {
-      onStart: () => setSpeaking(true), onEnd: () => setSpeaking(false), onError: () => setSpeaking(false),
-    })
+    setSpeaking(true)
+    playMascotLines([`${character}-intro`], { onEnd: () => setSpeaking(false) })
   }
 
   return (

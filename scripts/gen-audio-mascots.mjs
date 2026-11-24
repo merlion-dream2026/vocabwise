@@ -30,6 +30,11 @@ const LINES = [
   ...['rocky', 'bubi'].flatMap((who) => Object.entries(ready).map(([part, t]) => ({ file: `${who}-ready-${part}`, who, tag: READY_TAG[who], ...t }))),
   { file: 'rocky-pick', who: 'rocky', vi: 'Chọn mình đi! Rocky sẽ học cùng bạn mỗi ngày!', en: "Pick me! I'm Rocky, and I'll learn with you every day!" },
   { file: 'bubi-pick', who: 'bubi', vi: 'Chọn mình nha! Có Bubi, học vui hơn nhiều đó!', en: "Pick me! I'm Bubi, and I'll make learning super fun!" },
+  // MascotIntro slide 1 "Nghe … chào" — VI matches the speech-bubble text word for word
+  ...[['rocky', 'warmly'], ['bubi', 'excited']].map(([who, tag]) => {
+    const name = who === 'rocky' ? 'Rocky' : 'Bubi'
+    return { file: `${who}-intro`, who, tag, vi: `Mình là ${name} đây! Từ hôm nay mình sẽ học tiếng Anh cùng bạn mỗi ngày nhé!`, en: `Hi! I'm ${name}. From today, let's learn English together every day!` }
+  }),
 ]
 
 const args = process.argv.slice(2)

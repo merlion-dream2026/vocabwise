@@ -110,5 +110,21 @@
   "bubi-pick-en.mp3": {
     "voice": "FGY2WhTYpPnrIDTdsKH5",
     "hash": "f1d28a9f00b192f8329ae1df810b02a42ace9a9c"
+  },
+  "rocky-intro-vi.mp3": {
+    "voice": "M0rVwr32hdQ5UXpkI3ni",
+    "hash": "97f931a0578b925ac10ddec96138f162d05ba97e"
+  },
+  "rocky-intro-en.mp3": {
+    "voice": "bIHbv24MWmeRgasZH58o",
+    "hash": "fe2d7d6da507cefeee19f8f1e7b0295556c19dc1"
+  },
+  "bubi-intro-vi.mp3": {
+    "voice": "qByVAGjXwGlkcRDJoiHg",
+    "hash": "6d09ba2e934466211e09d115f237860272ab32fc"
+  },
+  "bubi-intro-en.mp3": {
+    "voice": "FGY2WhTYpPnrIDTdsKH5",
+    "hash": "5480fc646a43e9660fd557ce3b98bd90b59b7c32"
   }
 }

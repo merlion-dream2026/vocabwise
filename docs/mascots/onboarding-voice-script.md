@@ -1,7 +1,7 @@
 # Onboarding voice script — Rocky 🐘 + Bubi 🐬
 
 Lời thoại narrate màn hình onboarding (`app/onboarding/page.tsx`) + hộp chọn mascot (`components/MascotPicker.tsx`).
-**Đã thu xong 28 file (2026-10-30)** bằng `scripts/gen-audio-mascots.mjs` (API, Eleven v3) → `public/audio/mascots/`. Sửa lời → sửa cả trong script rồi chạy lại (chỉ thu lại câu đã đổi). Phát trong app: `lib/mascotVoice.ts` (onboarding + hộp chọn bạn đồng hành).
+**Đã thu xong 32 file (28 file ngày 2026-10-30 + 4 file `*-intro` ngày 2026-11-24)** bằng `scripts/gen-audio-mascots.mjs` (API, Eleven v3) → `public/audio/mascots/`. Sửa lời → sửa cả trong script rồi chạy lại (chỉ thu lại câu đã đổi). Phát trong app: `lib/mascotVoice.ts` (onboarding + hộp chọn bạn đồng hành).
 
 **Giọng đã chọn:** Rocky = Will (EN) + Hao (VI, nam trẻ miền Nam) · Bubi = Laura (EN) + Kiều Linh (VI).
 
@@ -53,11 +53,19 @@ Gợi ý tag bước 2: Rocky `[proudly]`, Bubi `[excited]`.
 | 9 | `rocky-pick-{vi,en}` | Rocky | Chọn mình đi! Rocky sẽ học cùng bạn mỗi ngày! | Pick me! I'm Rocky, and I'll learn with you every day! |
 | 10 | `bubi-pick-{vi,en}` | Bubi | Chọn mình nha! Có Bubi, học vui hơn nhiều đó! | Pick me! I'm Bubi, and I'll make learning super fun! |
 
-## Checklist file (28)
+### Popup giới thiệu sau khi chọn bạn đồng hành (`components/MascotIntro.tsx`, nút "🔊 Nghe … chào") — thu 2026-11-24
+
+| # | File | Nhân vật | 🇻🇳 Tiếng Việt | 🇬🇧 English | Tag |
+|---|---|---|---|---|---|
+| 11 | `rocky-intro-{vi,en}` | Rocky | Mình là Rocky đây! Từ hôm nay mình sẽ học tiếng Anh cùng bạn mỗi ngày nhé! | Hi! I'm Rocky. From today, let's learn English together every day! | `[warmly]` |
+| 12 | `bubi-intro-{vi,en}` | Bubi | Mình là Bubi đây! Từ hôm nay mình sẽ học tiếng Anh cùng bạn mỗi ngày nhé! | Hi! I'm Bubi. From today, let's learn English together every day! | `[excited]` |
+
+## Checklist file (32)
 
 - [x] Bước 0: `rocky-hello` · `bubi-hello` · `rocky-features` · `bubi-next` × vi/en = 8
 - [x] Bước 1: `rocky-choose` · `bubi-choose` × vi/en = 4
 - [x] Bước 2: `{rocky,bubi}-ready-{daily,academic,phonics}` × vi/en = 12
 - [x] Picker: `rocky-pick` · `bubi-pick` × vi/en = 4
+- [x] Popup giới thiệu: `rocky-intro` · `bubi-intro` × vi/en = 4
 
 **Mẹo thu:** số viết bằng chữ (ba mươi, tám mươi) để AI không đọc sai · tải về MP3 · mỗi câu thử 2–3 lần, chọn bản hay nhất.

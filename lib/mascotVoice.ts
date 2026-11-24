@@ -25,17 +25,22 @@ export function stopMascotVoice() {
 
 // Plays the lines back to back after `delayMs` (lets a transition sfx finish first).
 // Autoplay may be blocked before the first tap — that fails silently, like playSfx.
-export function playMascotLines(lines: string[], { delayMs = 0, lang = getVoiceLang() }: { delayMs?: number; lang?: VoiceLang } = {}) {
+// `onEnd` fires once when the queue finishes, fails, or is interrupted by another line / stop.
+export function playMascotLines(lines: string[], { delayMs = 0, lang = getVoiceLang(), onEnd }: { delayMs?: number; lang?: VoiceLang; onEnd?: () => void } = {}) {
   stopMascotVoice()
-  if (typeof window === 'undefined' || !isGameSoundEnabled()) return
+  if (typeof window === 'undefined' || !isGameSoundEnabled()) { onEnd?.(); return }
   const token = queueToken
   let i = 0
+  let ended = false
+  const finish = () => { if (!ended) { ended = true; onEnd?.() } }
   const next = () => {
-    if (token !== queueToken || i >= lines.length) return
+    if (token !== queueToken || i >= lines.length) return finish()
     const audio = new Audio(`/audio/mascots/${lines[i++]}-${lang}.mp3`)
     current = audio
     audio.addEventListener('ended', next)
-    audio.play().catch(() => {})
+    audio.addEventListener('pause', () => { if (token !== queueToken) finish() })
+    audio.addEventListener('error', finish)
+    audio.play().catch(finish)
   }
   window.setTimeout(next, delayMs)
 }
