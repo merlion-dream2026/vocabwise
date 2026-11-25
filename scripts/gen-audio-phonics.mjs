@@ -51,6 +51,8 @@ for (const g of stress.groups ?? []) for (const w of g.words ?? []) add(w.word, 
 
 // ── Generate ─────────────────────────────────────────────────────────────────
 const index = existsSync(INDEX) ? JSON.parse(readFileSync(INDEX, 'utf8')) : {}
+// Clips re-recorded by scripts/redo-audio-phonics.mjs (Andie flagged) — keep them, don't re-buy the default take.
+const redo = existsSync('data/phonics-audio-redo.json') ? JSON.parse(readFileSync('data/phonics-audio-redo.json', 'utf8')) : {}
 mkdirSync(DIR, { recursive: true })
 const slug = (k) => k.replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 48) || 'clip'
 let made = 0, skipped = 0, chars = 0, failed = 0
@@ -61,7 +63,7 @@ for (const [key, { text }] of todo) {
   if (made >= limit) break
   const hash = createHash('sha1').update(text + VOICE + MODEL).digest('hex').slice(0, 6)
   const file = `${slug(key)}-${hash}.mp3`
-  if (index[key] === file && existsSync(DIR + file)) { skipped++; continue }
+  if ((index[key] === file || index[key] === redo[key]?.file) && existsSync(DIR + index[key])) { skipped++; continue }
   if (dry) { chars += text.length; made++; continue }
   const res = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${VOICE}?output_format=mp3_44100_64`, {
     method: 'POST',
