@@ -256,8 +256,8 @@ export default function FishingGame({ topic, level, backUrl }: Props) {
   return (
     <ArcadeStage>
       <style>{`
-        @keyframes fsSwimR { from { left: -24% } to { left: 104% } }
-        @keyframes fsSwimL { from { left: 104% } to { left: -24% } }
+        @keyframes fsSwimR { from { transform: translateX(-24%) } to { transform: translateX(104%) } }
+        @keyframes fsSwimL { from { transform: translateX(104%) } to { transform: translateX(-24%) } }
         @keyframes fsWiggle { 0%,100% { transform: rotate(-90deg) translateY(0) } 50% { transform: rotate(-80deg) translateY(-3px) } }
         @keyframes fsTank { 0%,100% { transform: translateX(0) } 50% { transform: translateX(var(--fs-swim)) } }
         .fs-wiggle { animation: fsWiggle .3s ease-in-out infinite }
@@ -299,17 +299,19 @@ export default function FishingGame({ topic, level, backUrl }: Props) {
 
         {/* The fish of this question */}
         {playing && school.map((f, i) => (
-          <div key={`${round}-${i}`} ref={(el) => { fishRefs.current[i] = el }}
-            className={`pointer-events-none absolute w-[clamp(110px,20vmin,200px)] -translate-y-1/2 ${LANES[f.lane]}`}
-            style={{
-              animation: `${f.dir > 0 ? 'fsSwimR' : 'fsSwimL'} ${f.dur}s linear ${f.delay}s infinite`,
-              visibility: hooked === i ? 'hidden' : undefined,
-            }}>
+          // Swims via transform on a stage-wide, zero-height row (translateX % = stage width) so it stays
+          // on the compositor; the fish itself keeps its -translate-y-1/2.
+          <div key={`${round}-${i}`} className={`pointer-events-none absolute inset-x-0 h-0 will-change-transform ${LANES[f.lane]}`}
+            style={{ animation: `${f.dir > 0 ? 'fsSwimR' : 'fsSwimL'} ${f.dur}s linear ${f.delay}s infinite` }}>
+          <div ref={(el) => { fishRefs.current[i] = el }}
+            className="absolute left-0 top-0 w-[clamp(110px,20vmin,200px)] -translate-y-1/2"
+            style={{ visibility: hooked === i ? 'hidden' : undefined }}>
             <Fish color={FISH_COLORS[f.color]} flip={f.dir < 0} className="w-full" />
             <span className={`absolute inset-x-[4%] top-1/2 -translate-y-1/2 break-words rounded-lg border-2 border-b-4 border-sky-900/30 bg-white/95 px-1 text-center font-black leading-tight text-slate-800 ${
               fitText(f.word.word, ['text-[clamp(14px,3vmin,28px)]', 'text-[clamp(12px,2.3vmin,22px)]', 'text-[clamp(11px,2vmin,19px)]'], WORD_LIMITS)}`}>
               {f.word.word}
             </span>
+          </div>
           </div>
         ))}
 

@@ -147,7 +147,7 @@ export default function RaceGame({ topic, level, backUrl }: Props) {
   return (
     <ArcadeStage>
       <style>{`
-        @keyframes rcRival { from { left: ${START}% } to { left: ${FINISH}% } }
+        @keyframes rcRival { from { transform: translateX(${START}%) } to { transform: translateX(${FINISH}%) } }
         @keyframes rcWheel { to { transform: rotate(360deg) } }
         @keyframes rcSpin { 0% { transform: rotate(0) } 100% { transform: rotate(-720deg) } }
         @keyframes rcFlame { 0%,100% { transform: scaleX(1) } 50% { transform: scaleX(1.5) } }
@@ -170,9 +170,11 @@ export default function RaceGame({ topic, level, backUrl }: Props) {
         <div className={`absolute inset-x-[2%] top-[17%] h-[30%] portrait:top-[16%] portrait:h-[23%] [@media(max-height:500px)]:left-[11%] [@media(max-height:500px)]:top-[19%] [@media(max-height:500px)]:h-[27%] ${
           phase === 'finish' ? '[@media(max-height:500px)]:hidden' : ''}`}>
           <RaceTrack>
-            <div key={run} className="absolute top-[29%] h-[32%] w-[19%] -translate-x-full"
-              style={{ left: `${START}%`, animation: `rcRival ${totalSeconds}s linear forwards`, animationPlayState: rivalRunning ? 'running' : 'paused' }}>
-              <div className="rc-bounce h-full w-full"><RaceCar color="#3B82F6" driver={buddy.rival} number={2} className="h-full w-full" /></div>
+            <div key={run} className="pointer-events-none absolute inset-x-0 top-[29%] h-[32%] will-change-transform"
+              style={{ transform: `translateX(${START}%)`, animation: `rcRival ${totalSeconds}s linear forwards`, animationPlayState: rivalRunning ? 'running' : 'paused' }}>
+              <div className="absolute left-0 top-0 h-full w-[19%] -translate-x-full">
+                <div className="rc-bounce h-full w-full"><RaceCar color="#3B82F6" driver={buddy.rival} number={2} className="h-full w-full" /></div>
+              </div>
             </div>
             <div className="absolute top-[64%] h-[32%] w-[19%] -translate-x-full transition-[left] duration-700 ease-out" style={{ left: `${rocky}%` }}>
               {boosting && (

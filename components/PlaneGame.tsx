@@ -214,7 +214,7 @@ export default function PlaneGame({ topic, level, backUrl }: Props) {
   return (
     <ArcadeStage>
       <style>{`
-        @keyframes psFly { from { left: 100% } to { left: -30% } }
+        @keyframes psFly { from { transform: translateX(100%) } to { transform: translateX(-30%) } }
         @keyframes psBob { 0%,100% { transform: translateY(-50%) rotate(-2deg) } 50% { transform: translateY(calc(-50% - 6px)) rotate(2deg) } }
         @keyframes psBump { 0%,100% { transform: translateY(-50%) rotate(0) } 25% { transform: translateY(-50%) rotate(-12deg) } 75% { transform: translateY(-50%) rotate(8deg) } }
         @keyframes psLand { from { transform: translate(-60vw, -30vh) rotate(8deg) } to { transform: translate(0, 0) rotate(0) } }
@@ -260,7 +260,7 @@ export default function PlaneGame({ topic, level, backUrl }: Props) {
 
         {/* The three word clouds flying in */}
         {playing && current && w > 0 && (
-          <div key={round} className="pointer-events-none absolute inset-y-0" style={{ width: cloudW, animation: `psFly ${fly}s linear forwards` }}>
+          <div key={round} className="pointer-events-none absolute inset-0 will-change-transform" style={{ animation: `psFly ${fly}s linear forwards` }}>
             {current.lanes.map((c, i) => (
               <div key={c.word} className="absolute left-0 -translate-y-1/2" style={{ top: laneY(i), width: cloudW, height: cloudH }}>
                 <WordCloud word={c.word} state={cloudState(i)} />

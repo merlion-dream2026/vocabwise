@@ -47,6 +47,7 @@ export default function BasketGame({ topic, level, backUrl }: Props) {
 
   const stageRef = useRef<HTMLDivElement>(null)
   const apples = useRef<Apple[]>([])
+  const appleEls = useRef<(HTMLDivElement | null)[]>([])
   const basketRef = useRef(0)
   const pressed = useRef(false)
   const correctRef = useRef(0)
@@ -77,6 +78,7 @@ export default function BasketGame({ topic, level, backUrl }: Props) {
   const groundY = h * 0.92
   const basketTop = groundY - basketH
   const laneX = (i: number) => w * (0.14 + (i * 0.72) / (LANES - 1))
+  const appleTransform = (a: Apple) => `translate3d(${laneX(a.lane) - appleW / 2}px, ${a.y}px, 0)`
   const bx = basketX ?? w / 2
   basketRef.current = bx
 
@@ -109,6 +111,8 @@ export default function BasketGame({ topic, level, backUrl }: Props) {
   }
 
   // The falling loop: move apples, re-drop the ones that hit the grass, catch the one over the basket.
+  // Positions are written straight to each apple's transform — no React render per frame (that
+  // re-rendered the whole stage 60×/s and made the apples stutter on slower phones).
   useEffect(() => {
     if (phase !== 'play' || !w) return
     const speed = (groundY + appleW) / fall
@@ -130,7 +134,10 @@ export default function BasketGame({ topic, level, backUrl }: Props) {
           a.lane = freeLane(LANES, apples.current.filter((o) => o !== a && o.y < h * 0.35).map((o) => o.lane))
         }
       }
-      setFrame((f) => f + 1)
+      for (const a of apples.current) {
+        const el = appleEls.current[a.choice]
+        if (el) el.style.transform = appleTransform(a)
+      }
       raf = requestAnimationFrame(tick)
     }
     raf = requestAnimationFrame(tick)
@@ -239,8 +246,9 @@ export default function BasketGame({ topic, level, backUrl }: Props) {
           const c = current.choices[a.choice]
           const state = caught?.choice === a.choice ? (caught.ok ? 'right' : 'wrong') : 'idle'
           return (
-            <div key={a.choice} data-word={c.word} className="pointer-events-none absolute"
-              style={{ left: laneX(a.lane) - appleW / 2, top: a.y, width: appleW, height: appleW }}>
+            <div key={a.choice} ref={(el) => { appleEls.current[a.choice] = el }} data-word={c.word}
+              className="pointer-events-none absolute left-0 top-0 will-change-transform"
+              style={{ transform: appleTransform(a), width: appleW, height: appleW }}>
               <WordApple word={c.word} color={APPLE_COLORS[(a.choice + round) % APPLE_COLORS.length]} state={state} />
             </div>
           )

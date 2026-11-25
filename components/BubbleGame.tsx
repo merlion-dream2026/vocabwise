@@ -124,11 +124,13 @@ export default function BubbleGame({ topic, level, backUrl }: Props) {
     <ArcadeStage>
       <style>{`
         /* rise from just above the bottom edge to just under the sign (lower on an upright phone),
-           fading in and out at the ends */
-        @keyframes bbRise { 0% { top: 80%; opacity: 0 } 7% { opacity: 1 } 93% { opacity: 1 } 100% { top: 22%; opacity: 0 } }
-        @keyframes bbRiseTall { 0% { top: 82%; opacity: 0 } 7% { opacity: 1 } 93% { opacity: 1 } 100% { top: 30%; opacity: 0 } }
-        .bb-rise { animation-name: bbRise; animation-timing-function: linear; animation-iteration-count: infinite }
-        @keyframes bbRiseShort { 0% { top: 80%; opacity: 0 } 7% { opacity: 1 } 93% { opacity: 1 } 100% { top: 36%; opacity: 0 } }
+           fading in and out at the ends. Moved with transform on a stage-tall column (translateY %
+           = the column's own height = the stage's) so it runs on the compositor — animating top
+           re-laid out every frame and stuttered whenever the main thread was busy. */
+        @keyframes bbRise { 0% { transform: translateY(80%); opacity: 0 } 7% { opacity: 1 } 93% { opacity: 1 } 100% { transform: translateY(22%); opacity: 0 } }
+        @keyframes bbRiseTall { 0% { transform: translateY(82%); opacity: 0 } 7% { opacity: 1 } 93% { opacity: 1 } 100% { transform: translateY(30%); opacity: 0 } }
+        .bb-rise { animation-name: bbRise; animation-timing-function: linear; animation-iteration-count: infinite; will-change: transform, opacity }
+        @keyframes bbRiseShort { 0% { transform: translateY(80%); opacity: 0 } 7% { opacity: 1 } 93% { opacity: 1 } 100% { transform: translateY(36%); opacity: 0 } }
         @media (orientation: portrait) { .bb-rise { animation-name: bbRiseTall } }
         @media (max-height: 500px) { .bb-rise { animation-name: bbRiseShort } }
         @keyframes bbWobble { 0%,100% { transform: translateX(-6%) } 50% { transform: translateX(6%) } }
@@ -177,9 +179,9 @@ export default function BubbleGame({ topic, level, backUrl }: Props) {
         const popped = picked
         const glow = selected !== null && !picked && isTarget
         return (
-          <div key={`${currentIdx}-${choice.word}`} className={`bb-rise absolute ${COLUMNS[i]} w-[20%] max-w-[min(190px,17vh)]`}
+          <div key={`${currentIdx}-${choice.word}`} className={`bb-rise pointer-events-none absolute inset-y-0 ${COLUMNS[i]} w-[20%] max-w-[min(190px,17vh)]`}
             style={{ animationDuration: `${rise[i].dur}s`, animationDelay: `${rise[i].delay}s`, animationPlayState: selected !== null ? 'paused' : 'running' }}>
-            <div className="bb-wobble" style={{ animationDelay: `${i * 0.4}s` }}>
+            <div className="bb-wobble pointer-events-auto" style={{ animationDelay: `${i * 0.4}s` }}>
               <button type="button" onClick={() => pop(choice)} disabled={selected !== null} aria-label={`Bong bóng ${i + 1}`}
                 className={`relative flex aspect-square w-full items-center justify-center rounded-full border-[3px] border-white/80 shadow-xl ${popped ? 'bb-pop' : ''} ${glow ? 'ring-[6px] ring-amber-300' : ''}`}
                 style={{ background: `radial-gradient(circle at 32% 28%, #fff 0 12%, ${BUBBLE_TINTS[i]}cc 45%, ${BUBBLE_TINTS[i]} 100%)` }}>

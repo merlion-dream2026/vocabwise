@@ -303,8 +303,8 @@ export default function JumpGame({ topic, level, backUrl }: Props) {
   return (
     <ArcadeStage>
       <style>{`
-        @keyframes jsObsIn { from { left: 110% } to { left: 56% } }
-        @keyframes jsObsOut { from { left: 56% } to { left: -30% } }
+        @keyframes jsObsIn { from { transform: translateX(54%) } to { transform: translateX(0) } }
+        @keyframes jsObsOut { from { transform: translateX(0) } to { transform: translateX(-86%) } }
         @keyframes jsRun { 0%,100% { transform: translateY(0) rotate(-3deg) } 50% { transform: translateY(-6%) rotate(3deg) } }
         @keyframes jsJump { 0% { transform: translateY(0) } 45% { transform: translateY(-120%) } 100% { transform: translateY(0) } }
         @keyframes jsPulse { 0%,100% { box-shadow: 0 0 0 0 rgba(239,68,68,.6) } 50% { box-shadow: 0 0 0 4vmin rgba(239,68,68,0) } }
@@ -326,13 +326,15 @@ export default function JumpGame({ topic, level, backUrl }: Props) {
 
         {/* The obstacle with its sign */}
         {onCourse && word && w > 0 && (
-          <div key={index} className="absolute -translate-x-1/2" style={{ left: '56%', top: h * groundY - obsW * 0.6 + 2, width: obsW, height: obsW * 0.6, animation: obsAnim }}>
+          <div key={index} className="pointer-events-none absolute inset-x-0 h-0 will-change-transform" style={{ top: h * groundY - obsW * 0.6 + 2, animation: obsAnim }}>
+          <div className="pointer-events-auto absolute top-0 -translate-x-1/2" style={{ left: '56%', width: obsW, height: obsW * 0.6 }}>
             <Obstacle index={index} sign={phase === 'jump' ? undefined : (
               <div className="flex w-max max-w-[44vw] flex-col items-center rounded-xl border-[4px] border-[#78350F] bg-[#FEF3C7] px-3 py-1 shadow-lg portrait:max-w-[60vw]">
                 <WordIcon word={word.word} emoji={word.emoji} emojiClass="text-[clamp(30px,8vmin,70px)] leading-none" iconSize={64} />
                 <span className={`text-center font-black leading-tight text-[#451A03] ${fitText(word.meaning, ['text-[clamp(15px,3.6vmin,34px)]', 'text-[clamp(14px,3vmin,28px)]', 'text-[clamp(12px,2.5vmin,24px)]'])}`}>{word.meaning}</span>
               </div>
             )} />
+          </div>
           </div>
         )}
 
