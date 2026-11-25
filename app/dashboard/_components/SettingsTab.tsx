@@ -247,7 +247,7 @@ export function SettingsTab({ kids, session, onChildrenRefresh }: { kids: Child[
       </CollapsibleCard>
 
       {/* Gift token — Pro 6m exclusive */}
-      {session.plan === '6months' && session.gift_token && (
+      {(session.plan === '6months' || isVip) && session.gift_token && (
         <GiftTokenCard token={session.gift_token} />
       )}
 

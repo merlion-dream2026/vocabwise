@@ -22,7 +22,7 @@
 | Pro 1 tháng | 59.000đ | 1 | AI 40/ngày/bé |
 | Pro 3 tháng | 159.000đ | 2 | AI ∞ (trần ngầm 300/ngày/bé) |
 | Pro 6 tháng | 299.000đ | 3 | AI ∞ · Gift Pro 14 ngày |
-| **VIP ∞** (`'vip'`, nội bộ) | 0đ | 99 | Chỉ superadmin gán · không hết hạn (`plan_end_date` null) · AI không trần (kể cả bỏ `AI_FAIR_USE_CAP`, writing-check, module-test) · KHÔNG nằm trong `PAID_PLANS` → không hiện landing/UpgradeModal/FAQ · loại khỏi số liệu Finance/Analytics |
+| **VIP ∞** (`'vip'`, nội bộ) | 0đ | 99 | Chỉ superadmin gán · giữ quyền tặng 14 ngày như 6T · không hết hạn (`plan_end_date` null) · AI không trần (kể cả bỏ `AI_FAIR_USE_CAP`, writing-check, module-test) · KHÔNG nằm trong `PAID_PLANS` → không hiện landing/UpgradeModal/FAQ · loại khỏi số liệu Finance/Analytics |
 
 Từ 12/10/2026: các gói chỉ khác nhau ở **giá/ngày, số bé, hạn mức AI** (+ gift cho 6T). Nội dung (cả Word Stress), tiến độ, email báo cáo tuần + tháng, nhắc học giống nhau ở mọi gói Pro. Số bé chặn tự động bằng `getMaxKids()` (`families.max_kids` = ngoại lệ do admin đặt). Hạn mức AI tính **theo từng bé** (`lib/aiQuota.ts`, cookie `vw_child` do `ChildMascotProvider` đặt, server kiểm tra bé thuộc gia đình).
 

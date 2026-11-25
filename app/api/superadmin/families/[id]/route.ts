@@ -46,8 +46,8 @@ export async function PATCH(req: NextRequest, props: { params: Promise<{ id: str
     updates.password_hash = await hashPassword(body.password)
   }
 
-  // Auto-generate gift_token when activating a 6m plan (one-time, never overwrite existing)
-  if (body.plan === '6months') {
+  // Auto-generate gift_token when activating a 6m or VIP ∞ plan (one-time, never overwrite existing)
+  if (body.plan === '6months' || body.plan === VIP_PLAN) {
     const { data: cur } = await supabase
       .from('families')
       .select('gift_token')
