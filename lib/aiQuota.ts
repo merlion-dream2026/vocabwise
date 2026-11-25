@@ -32,7 +32,8 @@ export async function quotaSubject(req: NextRequest, familyId: string): Promise<
 
 /**
  * Counts one AI call against today's quota and says whether it may run.
- * `limit` comes from getAISpeakLimit/getAITextLimit: null ("không giới hạn") still stops at AI_FAIR_USE_CAP.
+ * `limit` comes from getAISpeakLimit/getAITextLimit: null ("không giới hạn") still stops at AI_FAIR_USE_CAP;
+ * Infinity (VIP ∞ only) is truly uncapped — usage is still counted.
  */
 export async function consumeAIQuota(kind: 'speak' | 'text', req: NextRequest, familyId: string, limit: number | null): Promise<boolean> {
   if (limit === 0) return false

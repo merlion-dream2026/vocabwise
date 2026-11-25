@@ -13,6 +13,7 @@ import { ReportSettingsContent } from './settings/ReportSettings'
 import { PushNotificationContent } from './settings/PushNotifications'
 import { FontSizeSettings } from './settings/FontSizeSettings'
 import { GiftTokenCard } from './settings/GiftTokenCard'
+import { isVipPlan } from '@/lib/plans'
 
 function UpgradeModalButton({ username, expired }: { username: string; expired: boolean }) {
   const [open, setOpen] = useState(false)
@@ -85,12 +86,13 @@ export function SettingsTab({ kids, session, onChildrenRefresh }: { kids: Child[
   }
 
   const isBonusProActive = !!session.bonus_pro_expires_at && new Date(session.bonus_pro_expires_at) > new Date()
-  const isPaidPlanActive = session.plan !== 'free' && !!session.plan_end_date && new Date(session.plan_end_date) > new Date()
+  const isVip = isVipPlan(session.plan)
+  const isPaidPlanActive = isVip || (session.plan !== 'free' && !!session.plan_end_date && new Date(session.plan_end_date) > new Date())
   const isPro = isPaidPlanActive || isBonusProActive
   const badge = isPro && !isPaidPlanActive
     ? { label: '🎁 PRO Bonus', cls: 'bg-gradient-to-r from-purple-400 to-pink-400 text-white' }
     : getPlanBadge(session.plan, session.plan_end_date)
-  const expiryDate = isPaidPlanActive ? session.plan_end_date : isBonusProActive ? session.bonus_pro_expires_at : session.free_trial_expires_at
+  const expiryDate = isVip ? null : isPaidPlanActive ? session.plan_end_date : isBonusProActive ? session.bonus_pro_expires_at : session.free_trial_expires_at
   const expiryLabel = isPaidPlanActive ? 'Ngày hết hạn' : isBonusProActive ? '🎁 Pro referral hết hạn' : 'Ngày hết dùng thử'
   const daysLeft = expiryDate ? Math.ceil((new Date(expiryDate).getTime() - Date.now()) / 86400000) : null
   // daysLeft <= 0: Math.ceil of any negative = 0 at first moment past expiry → must use <= 0
@@ -126,6 +128,12 @@ export function SettingsTab({ kids, session, onChildrenRefresh }: { kids: Child[
             <div className="flex flex-col gap-0.5">
               <span className="text-sm font-semibold text-gray-500">Ngày bắt đầu dùng thử</span>
               <span className="text-sm font-bold text-gray-700">{fmtDateTime(freeTrialStart)}</span>
+            </div>
+          )}
+          {isVip && (
+            <div className="flex flex-col gap-0.5">
+              <span className="text-sm font-semibold text-gray-500">Ngày hết hạn</span>
+              <span className="text-sm font-bold text-gray-700">♾️ Không hết hạn</span>
             </div>
           )}
           {expiryDate && (

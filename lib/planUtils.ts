@@ -1,4 +1,4 @@
-import { AI_SPEAK_LIMIT, AI_TEXT_LIMIT, FREE_KIDS, FREE_WORD_CAP, IELTS_SPEAKING_TRIAL_LIMIT, kidsForPlan } from './plans'
+import { AI_SPEAK_LIMIT, AI_TEXT_LIMIT, FREE_KIDS, FREE_WORD_CAP, IELTS_SPEAKING_TRIAL_LIMIT, VIP_MAX_KIDS, isVipPlan, kidsForPlan } from './plans'
 
 export interface FamilyPlanData {
   plan: string
@@ -29,6 +29,9 @@ export interface EffectivePlanResult {
  */
 export function getEffectivePlan(family: FamilyPlanData): EffectivePlanResult {
   const now = new Date()
+
+  // VIP ∞: Pro forever, no end date.
+  if (isVipPlan(family.plan)) return { isProActive: true, isTrialActive: false, effectiveEndDate: null }
 
   const isPaidPlanActive =
     family.plan !== 'free' &&
@@ -64,10 +67,11 @@ export function getEffectivePlan(family: FamilyPlanData): EffectivePlanResult {
 
 // ─── Plan tier ──────────────────────────────────────────────────────────────
 
-export type PlanTier = 'free' | 'pro1' | 'pro3' | 'pro6'
+export type PlanTier = 'free' | 'pro1' | 'pro3' | 'pro6' | 'vip'
 
 /** Trả về tier thực tế (tính cả bonus Pro, nhưng tier dựa vào plan field). Trial KHÔNG nâng tier — chỉ mở vài giới hạn cụ thể (xem getKidsTopicLimit/getAcademicTopicLimit/getAISpeakLimit). */
 export function getPlanTier(family: FamilyPlanData): PlanTier {
+  if (isVipPlan(family.plan)) return 'vip'
   const { isProActive } = getEffectivePlan(family)
   if (!isProActive) return 'free'
   if (family.plan === '6months') return 'pro6'
@@ -77,6 +81,7 @@ export function getPlanTier(family: FamilyPlanData): PlanTier {
 
 /** Child-profile cap: families.max_kids (admin override) wins, else by tier — trial/free 1, Pro 1T/3T/6T per PAID_PLANS (1/2/3). */
 export function getMaxKids(family: FamilyPlanData & { max_kids?: number | null }): number {
+  if (isVipPlan(family.plan)) return VIP_MAX_KIDS
   if (family.max_kids != null) return family.max_kids
   const tier = getPlanTier(family)
   if (tier === 'pro6') return kidsForPlan('6months')
@@ -174,6 +179,7 @@ export function getRevisionLimit(family: FamilyPlanData): number | null {
 
 /** AI Speak limit PER CHILD per day: null = unlimited (Pro 3+ or bonus grant; still capped by AI_FAIR_USE_CAP in lib/aiQuota.ts), else AI_SPEAK_LIMIT, 0 after the trial. */
 export function getAISpeakLimit(family: FamilyPlanData): number | null {
+  if (isVipPlan(family.plan)) return Infinity // VIP ∞: no fair-use cap either
   if (family.bonus_features?.includes('ai_speak_unlimited')) return null
   const { isProActive, isTrialActive } = getEffectivePlan(family)
   if (isProActive) {
@@ -190,6 +196,7 @@ export function getAISpeakLimit(family: FamilyPlanData): number | null {
  * transcription, but kept on the same tier shape for consistency until usage data says otherwise.
  */
 export function getAITextLimit(family: FamilyPlanData): number | null {
+  if (isVipPlan(family.plan)) return Infinity // VIP ∞: no fair-use cap either
   if (family.bonus_features?.includes('ai_text_unlimited')) return null
   const { isProActive, isTrialActive } = getEffectivePlan(family)
   if (isProActive) {

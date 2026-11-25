@@ -82,7 +82,7 @@ export function AnalyticsPanel({ refreshKey }: { refreshKey: number }) {
           const entries = Object.entries(data.by_plan).sort((a, b) => b[1] - a[1])
           const total = entries.reduce((s, [, v]) => s + v, 0)
           const PLAN_COLORS: Record<string, string> = {
-            free: 'bg-blue-600', '1month': 'bg-teal-500', '3months': 'bg-violet-500', '6months': 'bg-amber-500',
+            free: 'bg-blue-600', '1month': 'bg-teal-500', '3months': 'bg-violet-500', '6months': 'bg-amber-500', vip: 'bg-yellow-400',
           }
           return (
             <div className="space-y-2.5">

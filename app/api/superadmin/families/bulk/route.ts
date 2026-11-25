@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
+import { isVipPlan } from '@/lib/plans'
 import { supabase } from '@/lib/supabaseServer'
 import { logAudit } from '@/lib/auditLog'
 import { isAdminRequest } from '@/lib/api'
@@ -38,7 +39,7 @@ export async function POST(req: NextRequest) {
     if (!fams) return NextResponse.json({ error: 'Lỗi hệ thống' }, { status: 500 })
 
     const today = new Date().toISOString().split('T')[0]
-    const updates = fams.map(f => {
+    const updates = fams.filter(f => !isVipPlan(f.plan)).map(f => { // VIP ∞ has no end date to extend
       const base = (f.plan !== 'free' ? f.plan_end_date : f.free_trial_expires_at) ?? today
       const newDate = addDays(base, days)
       return f.plan !== 'free'

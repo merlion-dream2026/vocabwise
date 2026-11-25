@@ -2,12 +2,16 @@ import { NextRequest, NextResponse } from 'next/server'
 import { getSession } from '@/lib/auth'
 import { checkAndIncrementWritingCheckUsage } from '@/lib/rateLimit'
 import { aiChat } from '@/lib/aiChat'
+import { getFamilyProfile } from '@/lib/security'
+import { isVipPlan } from '@/lib/plans'
 
 export async function POST(req: NextRequest) {
   const session = await getSession(req)
   if (!session) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
 
-  if (!(await checkAndIncrementWritingCheckUsage(session.familyId))) {
+  const profile = await getFamilyProfile(session.familyId)
+  const dailyLimit = isVipPlan(profile?.plan) ? Infinity : undefined // VIP ∞ uncapped; others keep the 40/day default
+  if (!(await checkAndIncrementWritingCheckUsage(session.familyId, dailyLimit))) {
     return NextResponse.json({ error: 'Đã đạt giới hạn chấm bài viết hôm nay (40 bài/ngày). Vui lòng thử lại vào ngày mai.' }, { status: 429 })
   }
 

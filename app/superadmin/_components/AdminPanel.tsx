@@ -4,6 +4,7 @@ import { useState, useEffect, useRef, FormEvent } from 'react'
 import type { Family } from '../_types'
 import { PLAN_OPTIONS, PLAN_DURATIONS } from '../_lib/constants'
 import { exportCSV, addDays, today, daysUntil, planBadge } from '../_lib/helpers'
+import { isVipPlan } from '@/lib/plans'
 import { PasswordInput } from './PasswordInput'
 import { FamilyEditModal } from './FamilyEditModal'
 import { GlobalConfigPanel } from './GlobalConfigPanel'
@@ -180,6 +181,7 @@ export function AdminPanel() {
     .filter(f => {
       if (filterStatus === 'all') return true
       if (filterStatus === 'disabled') return f.disabled
+      if (isVipPlan(f.plan)) return filterStatus === 'active' ? !f.disabled : false // never expires
       const expiry = f.plan !== 'free' ? f.plan_end_date : f.free_trial_expires_at
       const days = daysUntil(expiry)
       if (filterStatus === 'active') return !f.disabled && (days ?? -1) >= 0
@@ -188,12 +190,13 @@ export function AdminPanel() {
     })
     .sort((a, b) => {
       if (sortBy === 'expiry') {
-        const da = daysUntil(a.plan !== 'free' ? a.plan_end_date : a.free_trial_expires_at) ?? 999
-        const db = daysUntil(b.plan !== 'free' ? b.plan_end_date : b.free_trial_expires_at) ?? 999
+        const da = isVipPlan(a.plan) ? Infinity : daysUntil(a.plan !== 'free' ? a.plan_end_date : a.free_trial_expires_at) ?? 999
+        const db = isVipPlan(b.plan) ? Infinity : daysUntil(b.plan !== 'free' ? b.plan_end_date : b.free_trial_expires_at) ?? 999
+        if (da === db) return 0
         return da - db
       }
       if (sortBy === 'plan') {
-        const ord = { '6months': 0, '3months': 1, '1month': 2, free: 3 }
+        const ord = { vip: -1, '6months': 0, '3months': 1, '1month': 2, free: 3 }
         return (ord[a.plan as keyof typeof ord] ?? 9) - (ord[b.plan as keyof typeof ord] ?? 9)
       }
       return new Date(b.created_at).getTime() - new Date(a.created_at).getTime()
@@ -367,7 +370,7 @@ export function AdminPanel() {
                 <span className="text-slate-400 text-[10px] font-bold uppercase tracking-wide">Gói:</span>
                 {[
                   { val: 'all', label: 'Tất cả' }, { val: 'pro', label: 'Pro' }, { val: 'free', label: 'Free' },
-                  { val: '2weeks', label: '🎁' }, { val: '1month', label: '1T' }, { val: '3months', label: '3T' }, { val: '6months', label: '6T' },
+                  { val: '2weeks', label: '🎁' }, { val: '1month', label: '1T' }, { val: '3months', label: '3T' }, { val: '6months', label: '6T' }, { val: 'vip', label: 'VIP' },
                 ].map(p => (
                   <button key={p.val} onClick={() => setFilterPlan(p.val)}
                     className={`text-xs px-2.5 py-1 rounded-full font-semibold transition-colors ${filterPlan === p.val ? 'bg-indigo-600 text-white' : 'bg-slate-50 text-slate-500 hover:bg-indigo-50'}`}>

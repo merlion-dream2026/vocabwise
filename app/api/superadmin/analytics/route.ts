@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { supabase } from '@/lib/supabaseServer'
 import { isAdminRequest } from '@/lib/api'
+import { isVipPlan } from '@/lib/plans'
 
 export async function GET(req: NextRequest) {
   if (!await isAdminRequest(req)) {
@@ -27,7 +28,8 @@ export async function GET(req: NextRequest) {
   if (!families) return NextResponse.json({ error: 'Lỗi hệ thống' }, { status: 500 })
 
   // ── Phân loại accounts ──
-  const verified    = families.filter(f => f.email_verified && !f.disabled)
+  // VIP ∞ = internal comp accounts — kept out of every conversion/activation metric.
+  const verified    = families.filter(f => f.email_verified && !f.disabled && !isVipPlan(f.plan))
   const total       = families.length
   const totalActive = verified.length
 
@@ -47,7 +49,7 @@ export async function GET(req: NextRequest) {
   const newThisMonth = verified.filter(f => f.created_at >= thirtyDaysAgo)
 
   // ── Conversion: trial → pro ──
-  const everPro = families.filter(f => f.plan !== 'free').length
+  const everPro = families.filter(f => f.plan !== 'free' && !isVipPlan(f.plan)).length
   const conversionRate = totalActive > 0 ? Math.round((everPro / totalActive) * 100) : 0
 
   // ── Activation: có ít nhất 1 bé ──

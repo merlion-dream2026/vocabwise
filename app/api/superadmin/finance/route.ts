@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { supabase } from '@/lib/supabaseServer'
 import { isAdminRequest } from '@/lib/api'
+import { isVipPlan } from '@/lib/plans'
 
 const PLAN_PRICES: Record<string, number> = {
   '1month': 59000,
@@ -37,8 +38,9 @@ export async function GET(req: NextRequest) {
     return f.free_trial_expires_at ? new Date(f.free_trial_expires_at) > now : false
   }
 
-  // Only verified + not disabled = accurate base
-  const verified = families.filter(f => f.email_verified && !f.disabled)
+  // Only verified + not disabled = accurate base. VIP ∞ (internal comp, 0đ) is counted apart.
+  const vipCount = families.filter(f => isVipPlan(f.plan) && !f.disabled).length
+  const verified = families.filter(f => f.email_verified && !f.disabled && !isVipPlan(f.plan))
   const total = verified.length
   const proActive  = verified.filter(isPro).length
   const freeTrial  = verified.filter(f => f.plan === 'free' && isPlanActive(f)).length
@@ -69,6 +71,7 @@ export async function GET(req: NextRequest) {
     pro_active: proActive,
     free_trial: freeTrial,
     expired,
+    vip_count: vipCount,
     mrr,
     mrr_breakdown: Object.entries(mrrCounts).map(([plan, count]) => ({
       plan,

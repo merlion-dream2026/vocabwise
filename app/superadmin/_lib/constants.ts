@@ -14,6 +14,7 @@ export type BonusFeatureKey = typeof BONUS_FEATURES[number]['key']
 // Features already included in each plan (no need to grant manually)
 export function getPlanIncludes(plan: string): BonusFeatureKey[] {
   if (plan === 'free') return []
+  if (plan === 'vip') return BONUS_FEATURES.map(f => f.key)
   const base: BonusFeatureKey[] = ['phonics_full', 'my_words', 'srs', 'kids_full', 'academic_full']
   if (plan === '3months' || plan === '6months') return [...base, 'word_stress', 'ai_speak_unlimited']
   return base
@@ -25,6 +26,7 @@ export const PLAN_OPTIONS = [
   { value: '1month',   label: '1 tháng — 59.000đ' },
   { value: '3months',  label: '3 tháng — 159.000đ' },
   { value: '6months',  label: '6 tháng — 299.000đ' },
+  { value: 'vip',      label: '♾️ VIP ∞ — không giới hạn (nội bộ)' },
 ]
 
 export const PLAN_DURATIONS: Record<string, number> = {

@@ -39,6 +39,7 @@ const PLAN_BADGE: Record<string, { label: string; cls: string }> = {
   '1month': { label: 'PRO1',     cls: 'bg-purple-100 text-purple-700' },
   '3months':{ label: 'PRO3',     cls: 'bg-purple-200 text-purple-800' },
   '6months':{ label: 'PRO6',     cls: 'bg-gradient-to-r from-purple-500 to-pink-500 text-white' },
+  vip:      { label: 'VIP ∞',    cls: 'bg-gradient-to-r from-amber-400 to-yellow-300 text-amber-900' },
 }
 
 function PlanBadge({ plan, planEndDate }: { plan: string; planEndDate?: string | null }) {

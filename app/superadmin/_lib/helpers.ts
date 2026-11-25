@@ -1,4 +1,5 @@
 import type { Family } from '../_types'
+import { isVipPlan } from '@/lib/plans'
 
 export function exportCSV(families: Family[]) {
   const headers = ['Username', 'Tên', 'Email', 'SĐT', 'Gói', 'Hết hạn', 'Ngày ĐK', 'Trạng thái']
@@ -8,7 +9,7 @@ export function exportCSV(families: Family[]) {
     f.email || '',
     f.phone || '',
     f.plan,
-    (f.plan !== 'free' ? f.plan_end_date : f.free_trial_expires_at)?.split('T')[0] || '',
+    isVipPlan(f.plan) ? 'Vĩnh viễn' : (f.plan !== 'free' ? f.plan_end_date : f.free_trial_expires_at)?.split('T')[0] || '',
     f.created_at.split('T')[0],
     f.disabled ? 'Bị khóa' : 'Hoạt động',
   ])
@@ -39,7 +40,10 @@ export function daysUntil(dateStr: string | null): number | null {
   return Math.ceil((new Date(dateStr).getTime() - Date.now()) / 86400000)
 }
 
+export const VIP_BADGE_CLS = 'bg-gradient-to-r from-amber-400 to-yellow-300 text-amber-900'
+
 export function planBadge(f: Family): { label: string; color: string } {
+  if (isVipPlan(f.plan)) return { label: 'VIP ∞', color: VIP_BADGE_CLS }
   if (f.plan === 'free') {
     const d = daysUntil(f.free_trial_expires_at)
     if (d === null || d < 0) return { label: 'FREE ✗', color: 'bg-red-700 text-red-200' }

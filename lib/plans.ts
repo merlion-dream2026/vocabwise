@@ -39,7 +39,18 @@ export const PAID_PLANS: readonly PaidPlan[] = [
   { key: '6months', label: '6 tháng', months: 6, amount: 299000, kids: 3, savingPct: 16, badge: 'GIÁ TỐT NHẤT', tagline: 'Trọn một học kỳ, rẻ nhất' },
 ]
 
-export const kidsForPlan = (plan: string): number => PAID_PLANS.find(p => p.key === plan)?.kids ?? FREE_KIDS
+/**
+ * Internal comp plan (owner, VIP, partners) — set only from the superadmin UI, never sold and never
+ * shown publicly: deliberately NOT in PAID_PLANS, so landing, UpgradeModal, FAQ and JSON-LD skip it.
+ * No end date (plan_end_date = null), no limits at all — not even AI_FAIR_USE_CAP. Andie, 2026-11-25.
+ */
+export const VIP_PLAN = 'vip'
+export const VIP_LABEL = 'VIP ∞'
+/** "Unlimited" child profiles, as a finite number so it survives JSON (Infinity serialises to null). */
+export const VIP_MAX_KIDS = 99
+export const isVipPlan = (plan: string | null | undefined): boolean => plan === VIP_PLAN
+
+export const kidsForPlan =(plan: string): number => PAID_PLANS.find(p => p.key === plan)?.kids ?? FREE_KIDS
 
 /** 59000 → "59.000đ" */
 export const vnd = (n: number) => `${n.toLocaleString('vi-VN')}đ`

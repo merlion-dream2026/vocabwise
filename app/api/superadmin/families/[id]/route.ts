@@ -12,6 +12,8 @@ import { triggerPaidReward } from '@/lib/referralUtils'
 import { logAudit } from '@/lib/auditLog'
 import { bumpSessionVersion } from '@/lib/sessionGuard'
 import { isAdminRequest } from '@/lib/api'
+import { invalidateFamilyCache } from '@/lib/security'
+import { VIP_PLAN } from '@/lib/plans'
 
 // PATCH /api/superadmin/families/[id] — update username, plan, disabled, email, password
 export async function PATCH(req: NextRequest, props: { params: Promise<{ id: string }> }) {
@@ -32,6 +34,13 @@ export async function PATCH(req: NextRequest, props: { params: Promise<{ id: str
   if ('max_kids' in body) updates.max_kids = body.max_kids === null || body.max_kids === '' ? null : parseInt(body.max_kids)
   if ('email_verified' in body) updates.email_verified = body.email_verified
   if ('bonus_features' in body) updates.bonus_features = Array.isArray(body.bonus_features) && body.bonus_features.length > 0 ? body.bonus_features : null
+
+  // VIP ∞ never expires and has no child cap — enforce here, not only in the admin form.
+  if (body.plan === VIP_PLAN) {
+    updates.plan_start_date = null
+    updates.plan_end_date = null
+    updates.max_kids = null
+  }
 
   if (body.password) {
     updates.password_hash = await hashPassword(body.password)
@@ -64,6 +73,9 @@ export async function PATCH(req: NextRequest, props: { params: Promise<{ id: str
     .single()
 
   if (error) return NextResponse.json({ error: 'Lỗi hệ thống' }, { status: 500 })
+
+  // Plan fields feed the 5-min Redis profile cache used by AI/content gates — drop it so the change applies now.
+  if (['plan', 'plan_end_date', 'bonus_features'].some(k => k in updates)) invalidateFamilyCache(params.id)
 
   // Admin-set password: log the family out of every device
   if (body.password) await bumpSessionVersion(params.id)

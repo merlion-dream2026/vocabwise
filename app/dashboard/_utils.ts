@@ -27,6 +27,7 @@ export const PLAN_BADGE: Record<string, { label: string; cls: string }> = {
   '1month': { label: 'PRO1',     cls: 'bg-white/30 text-white' },
   '3months':{ label: 'PRO3',     cls: 'bg-white/30 text-white' },
   '6months':{ label: 'PRO6',     cls: 'bg-yellow-300 text-yellow-900' },
+  vip:      { label: 'VIP ∞',    cls: 'bg-gradient-to-r from-amber-400 to-yellow-300 text-amber-900' },
 }
 
 export function getPlanBadge(plan: string, planEndDate?: string | null) {

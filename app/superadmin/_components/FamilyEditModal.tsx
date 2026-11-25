@@ -6,6 +6,7 @@ import { getAvatarSrc } from '@/lib/avatars'
 import type { Family } from '../_types'
 import { BONUS_FEATURES, BonusFeatureKey, getPlanIncludes, PLAN_OPTIONS, PLAN_DURATIONS } from '../_lib/constants'
 import { addDays, today } from '../_lib/helpers'
+import { isVipPlan, VIP_LABEL } from '@/lib/plans'
 import { PasswordInput } from './PasswordInput'
 
 const EMAIL_TYPE_INFO: Record<string, { icon: string; subject: string }> = {
@@ -96,6 +97,7 @@ export function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
     '1month': '1 tháng',
     '3months': '3 tháng',
     '6months': '6 tháng',
+    vip: VIP_LABEL,
   }
   const planLabel = PLAN_LABELS[plan] ?? plan
 
@@ -115,7 +117,7 @@ export function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
         <tr><td style="padding:8px 0;color:#666">Tên đăng nhập:</td><td style="padding:8px 0;font-weight:bold">${savedUsername}</td></tr>
         ${notifPassword ? `<tr><td style="padding:8px 0;color:#666">Mật khẩu:</td><td style="padding:8px 0;font-weight:bold">${notifPassword}</td></tr>` : ''}
         <tr><td style="padding:8px 0;color:#666">Gói:</td><td style="padding:8px 0;font-weight:bold">${planLabel}</td></tr>
-        ${planEndDate ? `<tr><td style="padding:8px 0;color:#666">Hết hạn:</td><td style="padding:8px 0;font-weight:bold">${fmtDate(planEndDate)}</td></tr>` : ''}
+        ${planEndDate ? `<tr><td style="padding:8px 0;color:#666">Hết hạn:</td><td style="padding:8px 0;font-weight:bold">${fmtDate(planEndDate)}</td></tr>` : isVipPlan(plan) ? `<tr><td style="padding:8px 0;color:#666">Hết hạn:</td><td style="padding:8px 0;font-weight:bold">Không hết hạn</td></tr>` : ''}
       </table>
       <p style="margin-top:24px">Truy cập tại: <a href="https://vocabwise.id.vn">VocabWise</a></p>
     </div>`
@@ -125,7 +127,7 @@ export function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
     `• Tên đăng nhập: ${savedUsername}\n` +
     (notifPassword ? `• Mật khẩu: ${notifPassword}\n` : '') +
     `• Gói: ${planLabel}\n` +
-    (planEndDate ? `• Hết hạn: ${fmtDate(planEndDate)}\n` : '') +
+    (planEndDate ? `• Hết hạn: ${fmtDate(planEndDate)}\n` : isVipPlan(plan) ? `• Hết hạn: Không hết hạn\n` : '') +
     `\n🔤 Học phát âm Phonics chuẩn IPA quốc tế\n` +
     `📖 Từ vựng hàng ngày VocabWise Daily Pre-A1→C2\n` +
     `🎓 Từ vựng học thuật VocabWise Academic IELTS/SAT\n` +
@@ -145,7 +147,7 @@ export function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
       body.plan_start_date = null
       body.plan_end_date = null
     }
-    body.max_kids = maxKids === '' ? null : parseInt(maxKids)
+    body.max_kids = maxKids === '' || isVipPlan(plan) ? null : parseInt(maxKids)
     body.admin_note = adminNote || null
     body.bonus_features = bonusFeatures.length > 0 ? bonusFeatures : null
     if (newPassword) body.password = newPassword
@@ -266,14 +268,19 @@ export function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
                   className="w-full bg-slate-50 border-2 border-slate-200 rounded-2xl px-3 py-2 text-sm text-slate-600 cursor-not-allowed" />
               </div>
             </div>
+          ) : isVipPlan(plan) ? (
+            <div className="bg-amber-50 border-2 border-amber-200 rounded-2xl px-3 py-2">
+              <p className="text-sm font-black text-amber-700">♾️ Không hết hạn</p>
+              <p className="text-xs text-amber-700/80 mt-0.5">Không có ngày bắt đầu/kết thúc · số bé không giới hạn · AI không giới hạn (bỏ cả trần ngầm) · mọi tính năng</p>
+            </div>
           ) : null}
 
-          <div>
+          {!isVipPlan(plan) && <div>
             <label className="text-xs text-slate-500 mb-1 block">Giới hạn hồ sơ bé <span className="text-slate-400">(trống = theo mặc định gói)</span></label>
             <input type="number" min={1} max={20} value={maxKids} onChange={e => setMaxKids(e.target.value)}
               placeholder={plan === 'free' ? 'Mặc định: 1' : 'Mặc định: 3'}
               className="w-full bg-white border-2 border-slate-200 rounded-2xl px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500" />
-          </div>
+          </div>}
 
           <div>
             <label className="text-xs text-slate-500 mb-1 block">Ghi chú admin <span className="text-slate-400">(không hiển thị cho user)</span></label>
@@ -299,7 +306,7 @@ export function FamilyEditModal({ family, onClose, onSaved, onDeleted }: {
             </div>
             {getPlanIncludes(plan).length === BONUS_FEATURES.length ? (
               <p className="text-xs text-green-600 font-semibold bg-green-50 rounded-xl px-3 py-2">
-                ✅ Gói {plan === '3months' ? 'Pro 3T' : plan === '6months' ? 'Pro 6T' : plan} đã bao gồm tất cả tính năng — không cần grant thêm.
+                ✅ Gói {plan === '3months' ? 'Pro 3T' : plan === '6months' ? 'Pro 6T' : isVipPlan(plan) ? VIP_LABEL : plan} đã bao gồm tất cả tính năng — không cần grant thêm.
               </p>
             ) : (
               <div className="flex flex-wrap gap-2">

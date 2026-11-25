@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react'
 import UpgradeModal from './UpgradeModal'
+import { isVipPlan } from '@/lib/plans'
 
 type Props = {
   plan: string
@@ -15,7 +16,7 @@ function isExpired(dateStr?: string | null) {
 }
 
 function isPremium(plan: string, planEndDate?: string | null) {
-  return plan !== 'free' && !isExpired(planEndDate)
+  return isVipPlan(plan) || (plan !== 'free' && !isExpired(planEndDate))
 }
 
 export default function UpgradeBanner({ plan, freeTrialExpiresAt, planEndDate, username }: Props) {

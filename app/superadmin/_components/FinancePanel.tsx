@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 
 // ── Finance Panel (server-side) ──────────────────────────────────────────────
 type FinanceData = {
-  total: number; pro_active: number; free_trial: number; expired: number
+  total: number; pro_active: number; free_trial: number; expired: number; vip_count?: number
   mrr: number; conversion_rate: number; total_revenue: number
   mrr_breakdown: { plan: string; count: number; revenue: number }[]
   total_revenue_breakdown: { plan: string; count: number; revenue: number }[]
@@ -59,6 +59,12 @@ export function FinancePanel({ refreshKey, onCardClick }: {
           </button>
         ))}
       </div>
+      {!!data.vip_count && (
+        <button onClick={() => onCardClick?.('vip', 'all')}
+          className="w-full text-left text-xs text-amber-700 bg-amber-50 border-2 border-amber-200 rounded-2xl px-3 py-2">
+          ♾️ VIP ∞: <b>{data.vip_count}</b> tài khoản nội bộ — không tính vào các số liệu trên
+        </button>
+      )}
 
       {/* MRR */}
       <div className="bg-white rounded-3xl border-2 border-gray-100 shadow-sm p-5">

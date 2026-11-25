@@ -41,7 +41,7 @@ export async function getFamilyProfile(familyId: string): Promise<FamilyProfile 
   return data as FamilyProfile
 }
 
-function invalidateFamilyCache(familyId: string): void {
+export function invalidateFamilyCache(familyId: string): void {
   if (redis) redis.del(`vw:fam:${familyId}`).catch(() => {})
 }
 

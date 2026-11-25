@@ -13,8 +13,10 @@ import {
   getIeltsSpeakingLimit,
   getAITextLimit,
   getMaxKids,
+  getEffectivePlan,
   type FamilyPlanData,
 } from '@/lib/planUtils'
+import { PAID_PLANS, VIP_MAX_KIDS } from '@/lib/plans'
 
 function daysFromNow(n: number) {
   const d = new Date()
@@ -318,5 +320,38 @@ describe('getMaxKids', () => {
 
   it('admin override (families.max_kids) wins', () => {
     expect(getMaxKids({ ...pro1, max_kids: 3 })).toBe(3)
+  })
+})
+
+describe('VIP ∞ (admin-only internal plan)', () => {
+  const vip: FamilyPlanData = { plan: 'vip', plan_end_date: null }
+
+  it('is Pro forever with no end date, tier vip', () => {
+    expect(getEffectivePlan(vip)).toEqual({ isProActive: true, isTrialActive: false, effectiveEndDate: null })
+    expect(getPlanTier(vip)).toBe('vip')
+  })
+
+  it('unlocks every gate', () => {
+    expect(canAccessPhonicsLesson(vip, 'diphthongs', 5)).toBe(true)
+    expect(canAccessWordStress(vip)).toBe(true)
+    expect(canAccessKidsFull(vip)).toBe(true)
+    expect(canAccessAcademicFull(vip)).toBe(true)
+    expect(getMyWordsLimit(vip)).toBeNull()
+    expect(getSRSLimit(vip)).toBeNull()
+    expect(getIeltsSpeakingLimit(vip)).toBeNull()
+  })
+
+  it('AI has no cap at all — Infinity, not null (null still hits AI_FAIR_USE_CAP)', () => {
+    expect(getAISpeakLimit(vip)).toBe(Infinity)
+    expect(getAITextLimit(vip)).toBe(Infinity)
+  })
+
+  it('child profiles: VIP_MAX_KIDS, ignoring any max_kids override', () => {
+    expect(getMaxKids(vip)).toBe(VIP_MAX_KIDS)
+    expect(getMaxKids({ ...vip, max_kids: 1 })).toBe(VIP_MAX_KIDS)
+  })
+
+  it('is never offered publicly', () => {
+    expect(PAID_PLANS.some(p => (p.key as string) === 'vip')).toBe(false)
   })
 })

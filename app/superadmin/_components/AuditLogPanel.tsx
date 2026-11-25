@@ -31,7 +31,7 @@ const AUDIT_FIELD_LABELS: Record<string, string> = {
 }
 
 const AUDIT_PLAN_LABELS: Record<string, string> = {
-  free: 'Free', '1month': '1T', '3months': '3T', '6months': '6T',
+  free: 'Free', '1month': '1T', '3months': '3T', '6months': '6T', vip: 'VIP ∞',
 }
 
 function auditFmtVal(key: string, val: unknown): string {
